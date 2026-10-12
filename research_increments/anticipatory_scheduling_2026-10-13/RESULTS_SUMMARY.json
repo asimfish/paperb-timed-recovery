@@ -1,0 +1,289 @@
+{
+  "status": "PASS_NATIVE_PUBLIC_REPLAY_AND_SCOPED_ORACLE_AUDIT",
+  "new_native_rollouts": 360,
+  "retained_comparators": 180,
+  "new_native_samples": 360360,
+  "new_RGB_frames_verified": 3960,
+  "public_controller_replays": 360,
+  "independent_early_parameter_fits": 360,
+  "max_native_replay_error": 0.0,
+  "max_parameter_fit_error": 2.3071822230491534e-16,
+  "max_reference_prediction_midpoint_error_ns": 0,
+  "graph_containment_checks": 540,
+  "paired_mechanical_prefix_groups": 180,
+  "counts": {
+    "online_ID_robust_first/all": {
+      "A_time": {
+        "TRUE": 37,
+        "FALSE": 141,
+        "UNKNOWN": 2
+      },
+      "B_time": {
+        "TRUE": 180
+      },
+      "B_continuity": {
+        "TRUE": 180
+      },
+      "joint_temporal": {
+        "TRUE": 37,
+        "FALSE": 141,
+        "UNKNOWN": 2
+      }
+    },
+    "online_ID_robust_first/covered_development": {
+      "A_time": {
+        "TRUE": 23,
+        "FALSE": 47,
+        "UNKNOWN": 2
+      },
+      "B_time": {
+        "TRUE": 72
+      },
+      "B_continuity": {
+        "TRUE": 72
+      },
+      "joint_temporal": {
+        "TRUE": 23,
+        "FALSE": 47,
+        "UNKNOWN": 2
+      }
+    },
+    "online_ID_robust_first/outside_calibration_support": {
+      "A_time": {
+        "FALSE": 34,
+        "TRUE": 2
+      },
+      "B_time": {
+        "TRUE": 36
+      },
+      "B_continuity": {
+        "TRUE": 36
+      },
+      "joint_temporal": {
+        "FALSE": 34,
+        "TRUE": 2
+      }
+    },
+    "online_ID_robust_first/fresh_response_development": {
+      "A_time": {
+        "TRUE": 12,
+        "FALSE": 60
+      },
+      "B_time": {
+        "TRUE": 72
+      },
+      "B_continuity": {
+        "TRUE": 72
+      },
+      "joint_temporal": {
+        "TRUE": 12,
+        "FALSE": 60
+      }
+    },
+    "early_ID_complete_branch/all": {
+      "A_time": {
+        "TRUE": 46,
+        "FALSE": 134
+      },
+      "B_time": {
+        "TRUE": 180
+      },
+      "B_continuity": {
+        "TRUE": 180
+      },
+      "joint_temporal": {
+        "TRUE": 46,
+        "FALSE": 134
+      }
+    },
+    "early_ID_complete_branch/covered_development": {
+      "A_time": {
+        "TRUE": 28,
+        "FALSE": 44
+      },
+      "B_time": {
+        "TRUE": 72
+      },
+      "B_continuity": {
+        "TRUE": 72
+      },
+      "joint_temporal": {
+        "TRUE": 28,
+        "FALSE": 44
+      }
+    },
+    "early_ID_robust_first/all": {
+      "A_time": {
+        "TRUE": 51,
+        "FALSE": 129
+      },
+      "B_time": {
+        "TRUE": 180
+      },
+      "B_continuity": {
+        "TRUE": 180
+      },
+      "joint_temporal": {
+        "TRUE": 51,
+        "FALSE": 129
+      }
+    },
+    "early_ID_robust_first/covered_development": {
+      "A_time": {
+        "TRUE": 31,
+        "FALSE": 41
+      },
+      "B_time": {
+        "TRUE": 72
+      },
+      "B_continuity": {
+        "TRUE": 72
+      },
+      "joint_temporal": {
+        "TRUE": 31,
+        "FALSE": 41
+      }
+    },
+    "early_ID_complete_branch/outside_calibration_support": {
+      "A_time": {
+        "FALSE": 32,
+        "TRUE": 4
+      },
+      "B_time": {
+        "TRUE": 36
+      },
+      "B_continuity": {
+        "TRUE": 36
+      },
+      "joint_temporal": {
+        "FALSE": 32,
+        "TRUE": 4
+      }
+    },
+    "early_ID_robust_first/outside_calibration_support": {
+      "A_time": {
+        "FALSE": 32,
+        "TRUE": 4
+      },
+      "B_time": {
+        "TRUE": 36
+      },
+      "B_continuity": {
+        "TRUE": 36
+      },
+      "joint_temporal": {
+        "FALSE": 32,
+        "TRUE": 4
+      }
+    },
+    "early_ID_complete_branch/fresh_response_development": {
+      "A_time": {
+        "TRUE": 14,
+        "FALSE": 58
+      },
+      "B_time": {
+        "TRUE": 72
+      },
+      "B_continuity": {
+        "TRUE": 72
+      },
+      "joint_temporal": {
+        "TRUE": 14,
+        "FALSE": 58
+      }
+    },
+    "early_ID_robust_first/fresh_response_development": {
+      "A_time": {
+        "TRUE": 16,
+        "FALSE": 56
+      },
+      "B_time": {
+        "TRUE": 72
+      },
+      "B_continuity": {
+        "TRUE": 72
+      },
+      "joint_temporal": {
+        "TRUE": 16,
+        "FALSE": 56
+      }
+    }
+  },
+  "paired_vs_retained": {
+    "early_ID_complete_branch": {
+      "repairs": [
+        "calibration_fast-d300-a1500-b2000-none-early_ID_complete_branch",
+        "calibration_fast-d300-a1500-b3000-none-early_ID_complete_branch",
+        "calibration_slow-d0-a1500-b2000-none-early_ID_complete_branch",
+        "calibration_slow-d0-a1500-b3000-none-early_ID_complete_branch",
+        "calibration_slow-d300-a1500-b2000-none-early_ID_complete_branch",
+        "calibration_slow-d300-a1500-b3000-none-early_ID_complete_branch",
+        "calibration_slow-d900-a2500-b2000-none-early_ID_complete_branch",
+        "calibration_slow-d900-a2500-b3000-none-early_ID_complete_branch",
+        "response_shift-d300-a2500-b2000-none-early_ID_complete_branch",
+        "response_shift-d300-a2500-b3000-none-early_ID_complete_branch",
+        "fresh_inertia_damping_1-d300-a1500-b2000-none-early_ID_complete_branch",
+        "fresh_inertia_damping_1-d300-a1500-b3000-none-early_ID_complete_branch",
+        "fresh_inertia_damping_1-d900-a2500-b2000-none-early_ID_complete_branch"
+      ],
+      "harms": [
+        "calibration_fast-d0-a2500-b3000-drop_first-early_ID_complete_branch",
+        "calibration_fast-d300-a2500-b3000-drop_first-early_ID_complete_branch",
+        "calibration_slow-d0-a2500-b3000-drop_first-early_ID_complete_branch",
+        "fresh_inertia_damping_1-d0-a2500-b3000-drop_first-early_ID_complete_branch"
+      ],
+      "transitions": {
+        "TRUE->TRUE": 33,
+        "FALSE->FALSE": 130,
+        "TRUE->FALSE": 4,
+        "FALSE->TRUE": 11,
+        "UNKNOWN->TRUE": 2
+      }
+    },
+    "early_ID_robust_first": {
+      "repairs": [
+        "calibration_fast-d300-a1500-b2000-none-early_ID_robust_first",
+        "calibration_fast-d300-a1500-b3000-none-early_ID_robust_first",
+        "calibration_slow-d0-a1500-b2000-none-early_ID_robust_first",
+        "calibration_slow-d0-a1500-b3000-none-early_ID_robust_first",
+        "calibration_slow-d300-a1500-b2000-none-early_ID_robust_first",
+        "calibration_slow-d300-a1500-b3000-none-early_ID_robust_first",
+        "calibration_slow-d900-a2500-b2000-none-early_ID_robust_first",
+        "calibration_slow-d900-a2500-b3000-none-early_ID_robust_first",
+        "response_shift-d300-a2500-b2000-none-early_ID_robust_first",
+        "response_shift-d300-a2500-b3000-none-early_ID_robust_first",
+        "fresh_inertia_damping_1-d300-a1500-b2000-none-early_ID_robust_first",
+        "fresh_inertia_damping_1-d300-a1500-b3000-none-early_ID_robust_first",
+        "fresh_inertia_damping_1-d300-a2500-b3000-drop_first-early_ID_robust_first",
+        "fresh_inertia_damping_1-d900-a2500-b2000-none-early_ID_robust_first"
+      ],
+      "harms": [],
+      "transitions": {
+        "TRUE->TRUE": 37,
+        "FALSE->FALSE": 129,
+        "FALSE->TRUE": 12,
+        "UNKNOWN->TRUE": 2
+      }
+    }
+  },
+  "full_support_eligible_non_TRUE": {
+    "early_ID_complete_branch": [],
+    "early_ID_robust_first": []
+  },
+  "oracle_counts": {
+    "reference_reactive_expanded_command": {
+      "feasible": 44,
+      "infeasible": 136
+    },
+    "early_fit_expanded_command": {
+      "feasible": 66,
+      "infeasible": 114
+    }
+  },
+  "offline_native_witnesses": 110,
+  "oracle_is_causal_optimum": false,
+  "learning_runs": 0,
+  "chemical_joint_certified": 0,
+  "confirmatory": false,
+  "independent_task_or_real_batch_clusters": 0
+}

@@ -1,0 +1,193 @@
+{
+  "status": "PASS_PUBLIC_FAULT_SUPPORT_AUDIT",
+  "attempts": 540,
+  "counts": {
+    "online_ID_robust_first": {
+      "identified": 72,
+      "unresolved": 108
+    },
+    "early_ID_complete_branch": {
+      "identified": 66,
+      "unresolved": 114
+    },
+    "early_ID_robust_first": {
+      "identified": 76,
+      "unresolved": 104
+    }
+  },
+  "gap_cases": [
+    {
+      "id": "calibration_fast-d0-a1500-b2000-drop_first-early_ID_robust_first",
+      "witness_guard_relaxations": [
+        "failed_primary_before_actual_reference",
+        "retry_before_delivered_failure_wait"
+      ],
+      "past_attempt_support": [
+        "drop_first",
+        "persistent_primary"
+      ],
+      "fault_identified_by_this_attempt": false
+    },
+    {
+      "id": "calibration_fast-d0-a1500-b3000-drop_first-early_ID_robust_first",
+      "witness_guard_relaxations": [
+        "failed_primary_before_actual_reference",
+        "retry_before_delivered_failure_wait"
+      ],
+      "past_attempt_support": [
+        "drop_first",
+        "persistent_primary"
+      ],
+      "fault_identified_by_this_attempt": false
+    },
+    {
+      "id": "calibration_fast-d900-a2500-b2000-drop_first-early_ID_robust_first",
+      "witness_guard_relaxations": [],
+      "past_attempt_support": [
+        "drop_first",
+        "persistent_primary"
+      ],
+      "fault_identified_by_this_attempt": false
+    },
+    {
+      "id": "calibration_fast-d900-a2500-b2000-persistent_primary-early_ID_robust_first",
+      "witness_guard_relaxations": [
+        "skip_primary_using_privileged_fault_identity"
+      ],
+      "past_attempt_support": [
+        "drop_first",
+        "persistent_primary"
+      ],
+      "fault_identified_by_this_attempt": false
+    },
+    {
+      "id": "calibration_fast-d900-a2500-b3000-drop_first-early_ID_robust_first",
+      "witness_guard_relaxations": [
+        "retry_before_delivered_failure_wait"
+      ],
+      "past_attempt_support": [
+        "drop_first",
+        "persistent_primary"
+      ],
+      "fault_identified_by_this_attempt": false
+    },
+    {
+      "id": "calibration_slow-d300-a2500-b3000-drop_first-early_ID_robust_first",
+      "witness_guard_relaxations": [
+        "failed_primary_before_actual_reference",
+        "retry_before_delivered_failure_wait"
+      ],
+      "past_attempt_support": [
+        "drop_first",
+        "persistent_primary"
+      ],
+      "fault_identified_by_this_attempt": false
+    },
+    {
+      "id": "calibration_slow-d900-a2500-b2000-drop_first-early_ID_robust_first",
+      "witness_guard_relaxations": [],
+      "past_attempt_support": [
+        "drop_first",
+        "persistent_primary"
+      ],
+      "fault_identified_by_this_attempt": false
+    },
+    {
+      "id": "calibration_slow-d900-a2500-b2000-persistent_primary-early_ID_robust_first",
+      "witness_guard_relaxations": [
+        "skip_primary_using_privileged_fault_identity"
+      ],
+      "past_attempt_support": [
+        "drop_first",
+        "persistent_primary"
+      ],
+      "fault_identified_by_this_attempt": false
+    },
+    {
+      "id": "response_shift-d0-a2500-b2000-drop_first-early_ID_robust_first",
+      "witness_guard_relaxations": [
+        "failed_primary_before_actual_reference",
+        "retry_before_delivered_failure_wait"
+      ],
+      "past_attempt_support": [
+        "drop_first",
+        "persistent_primary"
+      ],
+      "fault_identified_by_this_attempt": false
+    },
+    {
+      "id": "response_shift-d0-a2500-b3000-drop_first-early_ID_robust_first",
+      "witness_guard_relaxations": [
+        "failed_primary_before_actual_reference",
+        "retry_before_delivered_failure_wait"
+      ],
+      "past_attempt_support": [
+        "drop_first",
+        "persistent_primary"
+      ],
+      "fault_identified_by_this_attempt": false
+    },
+    {
+      "id": "fresh_inertia_damping_1-d0-a1500-b2000-drop_first-early_ID_robust_first",
+      "witness_guard_relaxations": [
+        "failed_primary_before_actual_reference",
+        "retry_before_delivered_failure_wait"
+      ],
+      "past_attempt_support": [
+        "drop_first",
+        "persistent_primary"
+      ],
+      "fault_identified_by_this_attempt": false
+    },
+    {
+      "id": "fresh_inertia_damping_1-d0-a1500-b3000-drop_first-early_ID_robust_first",
+      "witness_guard_relaxations": [
+        "failed_primary_before_actual_reference",
+        "retry_before_delivered_failure_wait"
+      ],
+      "past_attempt_support": [
+        "drop_first",
+        "persistent_primary"
+      ],
+      "fault_identified_by_this_attempt": false
+    },
+    {
+      "id": "fresh_inertia_damping_1-d900-a2500-b2000-drop_first-early_ID_robust_first",
+      "witness_guard_relaxations": [],
+      "past_attempt_support": [
+        "drop_first",
+        "persistent_primary"
+      ],
+      "fault_identified_by_this_attempt": false
+    },
+    {
+      "id": "fresh_inertia_damping_1-d900-a2500-b2000-persistent_primary-early_ID_robust_first",
+      "witness_guard_relaxations": [
+        "skip_primary_using_privileged_fault_identity"
+      ],
+      "past_attempt_support": [
+        "drop_first",
+        "persistent_primary"
+      ],
+      "fault_identified_by_this_attempt": false
+    },
+    {
+      "id": "fresh_inertia_damping_1-d900-a2500-b3000-drop_first-early_ID_robust_first",
+      "witness_guard_relaxations": [
+        "retry_before_delivered_failure_wait"
+      ],
+      "past_attempt_support": [
+        "drop_first",
+        "persistent_primary"
+      ],
+      "fault_identified_by_this_attempt": false
+    }
+  ],
+  "gap_count": 15,
+  "not_a_causal_impossibility_proof": true,
+  "all_hidden_truth_in_public_support": true,
+  "weight_training": 0,
+  "new_policy_executions": 0,
+  "source_sha256": "8d59caccff3b6476fa35458e38b42e198ea9e5217698b83b7490a69ea7fb5693",
+  "memory_use": "Derived support can enter a later attempt only after its evidence arrival; censored outcomes stay unresolved."
+}

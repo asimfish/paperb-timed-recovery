@@ -49,7 +49,8 @@ def main():
             local_refs.add(relative)
     main_html = (root / "index.html").read_text()
     assert 'id="current_method"' in main_html
-    assert "37/180" in main_html and "37 / 141 / 2" in main_html
+    assert "51/180" in main_html and "51 / 129 / 0" in main_html
+    assert "37 / 141 / 2" in main_html and 'id="anticipatory"' in main_html
     http = []
     if args.base_url:
         assert args.base_url.endswith("/")

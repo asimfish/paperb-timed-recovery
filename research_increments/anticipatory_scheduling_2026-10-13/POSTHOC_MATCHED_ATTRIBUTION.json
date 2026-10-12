@@ -1,0 +1,44 @@
+{
+  "status": "POSTHOC_MATCHED_BRANCH_ATTRIBUTION_ONLY",
+  "selected_after_main_audit": true,
+  "main_comparison_unchanged": true,
+  "previous_arm": "online_ID_joint",
+  "current_arm": "early_ID_complete_branch",
+  "pairs": 180,
+  "previous_counts": {
+    "TRUE": 33,
+    "FALSE": 145,
+    "UNKNOWN": 2
+  },
+  "current_counts": {
+    "TRUE": 46,
+    "FALSE": 134
+  },
+  "repairs": [
+    "calibration_fast-d300-a1500-b2000-none-early_ID_complete_branch",
+    "calibration_fast-d300-a1500-b3000-none-early_ID_complete_branch",
+    "calibration_slow-d0-a1500-b2000-none-early_ID_complete_branch",
+    "calibration_slow-d0-a1500-b3000-none-early_ID_complete_branch",
+    "calibration_slow-d300-a1500-b2000-none-early_ID_complete_branch",
+    "calibration_slow-d300-a1500-b3000-none-early_ID_complete_branch",
+    "calibration_slow-d900-a2500-b2000-none-early_ID_complete_branch",
+    "calibration_slow-d900-a2500-b3000-none-early_ID_complete_branch",
+    "response_shift-d300-a2500-b2000-none-early_ID_complete_branch",
+    "response_shift-d300-a2500-b3000-none-early_ID_complete_branch",
+    "fresh_inertia_damping_1-d300-a1500-b2000-none-early_ID_complete_branch",
+    "fresh_inertia_damping_1-d300-a1500-b3000-none-early_ID_complete_branch",
+    "fresh_inertia_damping_1-d900-a2500-b2000-none-early_ID_complete_branch"
+  ],
+  "harms": [],
+  "transitions": {
+    "TRUE->TRUE": 33,
+    "FALSE->FALSE": 134,
+    "FALSE->TRUE": 11,
+    "UNKNOWN->TRUE": 2
+  },
+  "source_result_sha256": "c6e9bc76177e19eff0c1949d1099ff9df14bca70e7a535e83003cdf422549c15",
+  "source_audit_sha256": "fb723fb8d20fe93a41f7e3c84a6e7709bdfeb003c5698ffa2dfc3ac83ff0d6f4",
+  "extra_policy_executions": 0,
+  "extra_training_runs": 0,
+  "claim_limit": "known family and unchanged branch priority; post-hoc attribution, not preregistration or independent tasks"
+}

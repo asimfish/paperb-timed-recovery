@@ -1,0 +1,19 @@
+{
+  "status": "PASS_PERSISTED_ORACLE_WITNESSES",
+  "cases": 180,
+  "graph_cases": 360,
+  "native_witnesses_reopened": 110,
+  "counts": {
+    "reference_reactive_expanded_command/feasible": 44,
+    "early_fit_expanded_command/feasible": 66,
+    "reference_reactive_expanded_command/infeasible": 136,
+    "early_fit_expanded_command/infeasible": 114
+  },
+  "max_native_error": 0.0,
+  "source_sha256": "0388beeb83ed868f20bd3ab8f146229943fb6caf366b044b80bff0ea0af139a6",
+  "auditor_sha256": "9c9fdf2a4ccae52a1a484fc6a8686618f13235d4aeb707e08d893af8254de4f0",
+  "result_sha256": "d947101482d5d8b490ee1d7f12b56a51b4d7e08ea496dcd6036f74f7a11b60a0",
+  "policy_credit": 0,
+  "learning_credit": 0,
+  "completeness_basis": "Finite-grid normal-form algebra and exhaustive tiny command-history regression; expanded graph only."
+}

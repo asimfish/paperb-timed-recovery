@@ -1,0 +1,26 @@
+{
+  "status": "DESIGN_ONLY_NOT_EXECUTED",
+  "goal": "Separate the 15-case privileged-graph gap into usable past feedback, feedback-wait cost and controller limitations before new policy-learning claims.",
+  "phase_one": {
+    "cases": "Keep all 180 cases and flag the 15 gap cases; selection is developmental, not blinded confirmation.",
+    "arms": ["existing causal early robust control", "same actor with past public fault support", "same history with deterministic scheduling", "context reset and shuffled-context controls"],
+    "episodes_per_condition": [1, 2, 3, 5, 10],
+    "stationarity": "Explicitly declare which installation response/fault conditions persist between attempts; no stable condition inferred from filenames.",
+    "memory": "Past support inferred from delivered power packets and unmasked command effects only; every label has attempt ID and global arrival time. Unknown/censored support retained.",
+    "information_budget": "Same prior attempts, sensors, decisions and action primitives; no private fault label, oracle schedule or future event enters any causal arm.",
+    "metrics": ["all-attempt TRUE/FALSE/UNKNOWN", "episode-one versus later adaptation", "paired repairs and harms", "B continuity", "cost and failure retained from calibration attempts", "identified versus unresolved fault support"],
+    "frozen_new_rollout_count": null,
+    "reason_count_unset": "Need implementation and pilot to freeze a complete roster; no execution claim from this design."
+  },
+  "phase_two_conditional": {
+    "entry": "If a reproducible causal gap remains after the same-information memory scheduler and stronger action selection, train shared history-conditioned imitation plus student-state DAgger.",
+    "required": ["runnable reference backend", "independent measurement", "teacher support and student-state labels", "held-out response and task-dependency conditions", "teacher-off/context-reset weight attribution", "matched guidance/controller budgets"],
+    "rl_or_score_distillation": "Only after demonstrated remaining decision bottleneck and compatible target interfaces."
+  },
+  "new_weight_training_runs": 0,
+  "new_memory_policy_runs": 0,
+  "real_robot_or_chemical_runs": 0,
+  "infeasible_cases": "Keep the 114 scoped-infeasible cases in reporting; do not retrospectively remove them to inflate success.",
+  "oracle": "Privileged offline analysis only; not a causal optimum or training label.",
+  "scientific_acceptance": "MAJOR_OPEN"
+}

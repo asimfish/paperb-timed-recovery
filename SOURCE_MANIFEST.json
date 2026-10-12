@@ -44,9 +44,9 @@
     {
       "path": "index.html",
       "source": "web/index.html",
-      "source_sha256": "cd8e17d1c96b1b9fd46d49084b65a92eb5a352e90cec3562bc862aed7d9f933e",
-      "sha256": "3ccdc65f74d07448cce720cc7f563a1da3572aa3a1ac1cf632f9ef933a4461cc",
-      "bytes": 198802,
+      "source_sha256": "4600e4959fc6683a2cb5bc865324f3bac747ece82b13ef990eb00f6bd68804f2",
+      "sha256": "44e820b08ba1a2e6c7bd834e1ea677b7624fed6935b6d15ecba9925cf6aa0f0c",
+      "bytes": 204132,
       "transformations": [
         "evidence links relative to project root",
         "current-method panel and canonical GitHub Pages URL"
@@ -383,27 +383,171 @@
       "transformations": []
     },
     {
+      "path": "anticipatory_results.svg",
+      "source": "web/anticipatory_results.svg",
+      "source_sha256": "c5845c35c8d2fcfc0b2c89a0eac2d4653e793bbfff29beddef263c9f73e32de5",
+      "sha256": "c5845c35c8d2fcfc0b2c89a0eac2d4653e793bbfff29beddef263c9f73e32de5",
+      "bytes": 15411,
+      "transformations": []
+    },
+    {
+      "path": "anticipatory_mechanism.svg",
+      "source": "web/anticipatory_mechanism.svg",
+      "source_sha256": "4642083269ba62089e8e11bcb3f97dd270d54a328ec2218e7a5f9f1e27ffea0a",
+      "sha256": "4642083269ba62089e8e11bcb3f97dd270d54a328ec2218e7a5f9f1e27ffea0a",
+      "bytes": 23709,
+      "transformations": []
+    },
+    {
+      "path": "research_increments/anticipatory_scheduling_2026-10-13/README_cn.md",
+      "source": "research_increments/anticipatory_scheduling_2026-10-13/README_cn.md",
+      "source_sha256": "f20bd9bd4fdd657bf95aa646bd83c317e0b666effba8b7d83cf5dfa827c90bbb",
+      "sha256": "f20bd9bd4fdd657bf95aa646bd83c317e0b666effba8b7d83cf5dfa827c90bbb",
+      "bytes": 5073,
+      "transformations": []
+    },
+    {
+      "path": "research_increments/anticipatory_scheduling_2026-10-13/RESULTS_SUMMARY.json",
+      "source": "research_increments/anticipatory_scheduling_2026-10-13/RESULTS_SUMMARY.json",
+      "source_sha256": "0c0b50607150574eb09376f77adbb3ce18ab862683ccb9854b46c8b6fd91cc60",
+      "sha256": "0c0b50607150574eb09376f77adbb3ce18ab862683ccb9854b46c8b6fd91cc60",
+      "bytes": 7562,
+      "transformations": []
+    },
+    {
+      "path": "research_increments/anticipatory_scheduling_2026-10-13/PROTOCOL.json",
+      "source": "research_increments/anticipatory_scheduling_2026-10-13/PROTOCOL.json",
+      "source_sha256": "e4c96f3503bc19e5ad2f8220e9d6bb83c1bd1eababd1f8720cf882eec0c2a8e8",
+      "sha256": "e4c96f3503bc19e5ad2f8220e9d6bb83c1bd1eababd1f8720cf882eec0c2a8e8",
+      "bytes": 4930,
+      "transformations": []
+    },
+    {
+      "path": "research_increments/anticipatory_scheduling_2026-10-13/EFFECTIVE_EXPERIMENT_SPEC.json",
+      "source": "research_increments/anticipatory_scheduling_2026-10-13/EFFECTIVE_EXPERIMENT_SPEC.json",
+      "source_sha256": "2410857c7d1ecf65f1b699c18f4a1dc607ae208e94139f4f7820fa2952d70e86",
+      "sha256": "2410857c7d1ecf65f1b699c18f4a1dc607ae208e94139f4f7820fa2952d70e86",
+      "bytes": 3976,
+      "transformations": []
+    },
+    {
+      "path": "research_increments/anticipatory_scheduling_2026-10-13/GRAPH_CONTRACT.json",
+      "source": "research_increments/anticipatory_scheduling_2026-10-13/GRAPH_CONTRACT.json",
+      "source_sha256": "8ff19888a7203de1a6dae227a52149d50d273b161c98bf277808d6e4d783b767",
+      "sha256": "8ff19888a7203de1a6dae227a52149d50d273b161c98bf277808d6e4d783b767",
+      "bytes": 2899,
+      "transformations": []
+    },
+    {
+      "path": "research_increments/anticipatory_scheduling_2026-10-13/EXECUTION_RELEASE_v2.json",
+      "source": "research_increments/anticipatory_scheduling_2026-10-13/EXECUTION_RELEASE_v2.json",
+      "source_sha256": "23558ac3c100fc1680b037f1e15753c419574b4bc37319762449d4840a190b22",
+      "sha256": "23558ac3c100fc1680b037f1e15753c419574b4bc37319762449d4840a190b22",
+      "bytes": 2133,
+      "transformations": []
+    },
+    {
+      "path": "research_increments/anticipatory_scheduling_2026-10-13/POSTHOC_MATCHED_ATTRIBUTION.json",
+      "source": "research_increments/anticipatory_scheduling_2026-10-13/POSTHOC_MATCHED_ATTRIBUTION.json",
+      "source_sha256": "a145830e0c1ac5d5181020d7dc3d351b8b1c9b326790c01b6b16334b697fe73a",
+      "sha256": "a145830e0c1ac5d5181020d7dc3d351b8b1c9b326790c01b6b16334b697fe73a",
+      "bytes": 1830,
+      "transformations": []
+    },
+    {
+      "path": "research_increments/anticipatory_scheduling_2026-10-13/FAULT_INFORMATION_SUMMARY_v2.json",
+      "source": "research_increments/anticipatory_scheduling_2026-10-13/FAULT_INFORMATION_SUMMARY_v2.json",
+      "source_sha256": "10cf68a7be1f505ef3647325b33e9f11cf8a4629c60bf876a3806729a383b19f",
+      "sha256": "10cf68a7be1f505ef3647325b33e9f11cf8a4629c60bf876a3806729a383b19f",
+      "bytes": 5915,
+      "transformations": []
+    },
+    {
+      "path": "research_increments/anticipatory_scheduling_2026-10-13/METHOD_DECISION_v4_cn.md",
+      "source": "research_increments/anticipatory_scheduling_2026-10-13/METHOD_DECISION_v4_cn.md",
+      "source_sha256": "8dcd29216b5d59c59b30578d309602fc752cf3a3ddc35046e786dd8668fa4ae0",
+      "sha256": "8dcd29216b5d59c59b30578d309602fc752cf3a3ddc35046e786dd8668fa4ae0",
+      "bytes": 3056,
+      "transformations": []
+    },
+    {
+      "path": "research_increments/anticipatory_scheduling_2026-10-13/RELATED_WORK_UPDATE_cn.md",
+      "source": "research_increments/anticipatory_scheduling_2026-10-13/RELATED_WORK_UPDATE_cn.md",
+      "source_sha256": "9d39b27fb090771cbd08d80611a7f1c96f8abd1b32a9e358398a3bba00880b65",
+      "sha256": "9d39b27fb090771cbd08d80611a7f1c96f8abd1b32a9e358398a3bba00880b65",
+      "bytes": 2639,
+      "transformations": []
+    },
+    {
+      "path": "research_increments/anticipatory_scheduling_2026-10-13/NEXT_EXPERIMENT_PROTOCOL_v2.json",
+      "source": "research_increments/anticipatory_scheduling_2026-10-13/NEXT_EXPERIMENT_PROTOCOL_v2.json",
+      "source_sha256": "895301612b38b5d8a996e86279b33f0dccdb1273059adef0ae5aa36776bfee30",
+      "sha256": "895301612b38b5d8a996e86279b33f0dccdb1273059adef0ae5aa36776bfee30",
+      "bytes": 2473,
+      "transformations": []
+    },
+    {
+      "path": "research_increments/anticipatory_scheduling_2026-10-13/ORACLE_GAP_CASES.json",
+      "source": "research_increments/anticipatory_scheduling_2026-10-13/ORACLE_GAP_CASES.json",
+      "source_sha256": "09e310f89ab5b5aa87b1710533702e731f5ad3ab60c53a6185ae71efd3862a04",
+      "sha256": "09e310f89ab5b5aa87b1710533702e731f5ad3ab60c53a6185ae71efd3862a04",
+      "bytes": 5579,
+      "transformations": []
+    },
+    {
+      "path": "research_increments/anticipatory_scheduling_2026-10-13/oracle_v1/AUDIT.json",
+      "source": "research_increments/anticipatory_scheduling_2026-10-13/oracle_v1/AUDIT.json",
+      "source_sha256": "68421104fcc37cd8611637b3ddb168d13cc3d6bfa2a47983212baf3ed9f8b21f",
+      "sha256": "68421104fcc37cd8611637b3ddb168d13cc3d6bfa2a47983212baf3ed9f8b21f",
+      "bytes": 817,
+      "transformations": []
+    },
+    {
+      "path": "research_increments/anticipatory_scheduling_2026-10-13/figures/anticipatory_results.pdf",
+      "source": "research_increments/anticipatory_scheduling_2026-10-13/figures/anticipatory_results.pdf",
+      "source_sha256": "8cdd59fe8a66861df0755d20c403503bf8b1cbac56dd6bbf2ed065f5f315e86b",
+      "sha256": "8cdd59fe8a66861df0755d20c403503bf8b1cbac56dd6bbf2ed065f5f315e86b",
+      "bytes": 24354,
+      "transformations": []
+    },
+    {
+      "path": "research_increments/anticipatory_scheduling_2026-10-13/figures/anticipatory_mechanism.pdf",
+      "source": "research_increments/anticipatory_scheduling_2026-10-13/figures/anticipatory_mechanism.pdf",
+      "source_sha256": "e7eb1f14b95b644fba6812d7a51f3a9e5a78e584e74a3f3527251d9ebd664f08",
+      "sha256": "e7eb1f14b95b644fba6812d7a51f3a9e5a78e584e74a3f3527251d9ebd664f08",
+      "bytes": 26611,
+      "transformations": []
+    },
+    {
+      "path": "research_increments/anticipatory_scheduling_2026-10-13/paper_preview/note.pdf",
+      "source": "research_increments/anticipatory_scheduling_2026-10-13/paper_preview/note.pdf",
+      "source_sha256": "1ec1294ab734dbd6a7a509764845acbc353eaff819e980c476490c73426c9c7c",
+      "sha256": "1ec1294ab734dbd6a7a509764845acbc353eaff819e980c476490c73426c9c7c",
+      "bytes": 149309,
+      "transformations": []
+    },
+    {
       "path": "CURRENT_METHOD_cn.md",
       "source": "publication supplement",
-      "source_sha256": "b363b052cea50972ce68aeb697b0732e50810d0c81eb536c38d4554c2ae4c047",
-      "sha256": "b363b052cea50972ce68aeb697b0732e50810d0c81eb536c38d4554c2ae4c047",
-      "bytes": 5106,
+      "source_sha256": "ffc751d69ecc1163cc2517e4bce12cba09d06a3e7dda3c6de0b9832217d388ac",
+      "sha256": "ffc751d69ecc1163cc2517e4bce12cba09d06a3e7dda3c6de0b9832217d388ac",
+      "bytes": 6297,
       "transformations": []
     },
     {
       "path": "README.md",
       "source": "publication supplement",
-      "source_sha256": "84f5def7d83cee3d0a834f407b0b9e035a89c2a6608d4bc9dc674c105e8667bd",
-      "sha256": "84f5def7d83cee3d0a834f407b0b9e035a89c2a6608d4bc9dc674c105e8667bd",
-      "bytes": 1525,
+      "source_sha256": "363b7e3c711e534b236297d46b31bcd1a5a1530d7be7e5ef2775f183733d4d16",
+      "sha256": "363b7e3c711e534b236297d46b31bcd1a5a1530d7be7e5ef2775f183733d4d16",
+      "bytes": 1113,
       "transformations": []
     },
     {
       "path": "check_site.py",
       "source": "publication supplement",
-      "source_sha256": "43e036d00fa81ed50a185ee772dc5406720c70a9101255765229a7ad969f2790",
-      "sha256": "43e036d00fa81ed50a185ee772dc5406720c70a9101255765229a7ad969f2790",
-      "bytes": 2883,
+      "source_sha256": "becb4917072b8f255403a79bada5958baab4b61358b232495dcd38da2f4b45de",
+      "sha256": "becb4917072b8f255403a79bada5958baab4b61358b232495dcd38da2f4b45de",
+      "bytes": 2959,
       "transformations": []
     },
     {

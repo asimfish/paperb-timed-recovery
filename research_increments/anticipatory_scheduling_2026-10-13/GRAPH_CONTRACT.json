@@ -1,0 +1,24 @@
+{
+  "status": "DEFINED_BEFORE_360_NEW_RUNS",
+  "classification": "PRIVILEGED_OFFLINE_ORACLE_NOT_DEPLOYABLE",
+  "grid_ns": 10000000,
+  "horizon_ns": 10000000000,
+  "graphs": {
+    "reference_reactive_expanded_command": "A-selective and global request gates at actual full-power A reference upper+delivery delay; B-selective gate at actual full-power B reference upper+delay. Guard requiring observed prior failure is relaxed. Exact fault identity is privileged.",
+    "early_fit_expanded_command": "Every request gate at eight-pair capture time (80ms)+delivery delay. Failure-feedback guard is relaxed; exact fault is privileged. All physical zero times must preserve actual full-power reference events."
+  },
+  "actions": "At most one initial selective A (50ms), one retry A (450ms), one selective B (450ms), one global relay (50ms); selective commands share FIFO; relay independent and irreversible. Requests on 10ms grid from declared gate through horizon.",
+  "finite_reduction": {
+    "state": "first power-zero ticks (a,b); later commands have no physical effect",
+    "a_less_b": "A must stop selectively. Replace later B shutdown by global at b: identical trajectory, no longer service cost. Earliest A effect is gate_A+50ms for no fault, gate_A+500ms for drop_first; persistent is impossible in this form.",
+    "b_less_a": "B must stop selectively; replace later A shutdown by global at a. Need b>=gate_B+450ms and a>=gate_A+50ms.",
+    "a_equal_b": "global relay; need a>=gate_A+50ms",
+    "completeness": "Enumerate all integer effect pairs on the declared grid satisfying one normal form; per-rotor feasible effect sets exactly prune pairs using interval scoring and continuity. Replacing a later shutdown by global cannot affect an already-zero rotor. This is a complete search of the named expanded graph, not unrestricted robot control."
+  },
+  "witnesses": "One command-feasible native witness for each oracle-feasible case and graph; separately reconstruct physical integration and event scoring. Witnesses are analysis artifacts, not causal policy executions or training labels.",
+  "containment": "Check all 180 retained and 360 new causal trajectories preserve full-power references and satisfy request gates plus native device services. They are subsets of their named expanded graph. Oracle-infeasible therefore excludes TRUE for those controller subsets; an oracle-feasible case does not prove a causal policy can attain it.",
+  "excluded": "pre-reference physical shutdown and endogenous reference manipulation; unknown/noisy response families; chemical outcomes; multi-step contact actions; physical real-time guarantees",
+  "complete_original_feedback_guarded_graph": false,
+  "learning_credit": 0,
+  "retry_order_rule": "Retry exists only after an initial A request, and its request time is at or after initial ACK; observed failure wait is relaxed in the oracle only."
+}

@@ -1,0 +1,145 @@
+{
+  "id": "paperB.anticipatory-scheduling.execution.v1",
+  "status": "PRE_RUN_DEVELOPMENT",
+  "design_sha256": "5acf1f98baaa028e24cb4f27e67cfc953bcd3a3ab026bf42097527d3db59f1ba",
+  "dt_ns": 10000000,
+  "horizon_ns": 10000000000,
+  "rgb_period_ns": 1000000000,
+  "hold_ns": 200000000,
+  "speed_threshold": 0.1,
+  "drive_torque": 0.06,
+  "first_A_delay_ns": 50000000,
+  "retry_A_delay_ns": 450000000,
+  "selective_B_delay_ns": 450000000,
+  "relay_delay_ns": 50000000,
+  "fault_detection_wait_ns": 200000000,
+  "delivery_delays_ns": [
+    0,
+    300000000,
+    900000000
+  ],
+  "A_windows_ns": [
+    [
+      0,
+      1500000000
+    ],
+    [
+      0,
+      2500000000
+    ]
+  ],
+  "B_windows_ns": [
+    [
+      2000000000,
+      3000000000
+    ],
+    [
+      3000000000,
+      4000000000
+    ]
+  ],
+  "faults": [
+    "none",
+    "drop_first",
+    "persistent_primary"
+  ],
+  "arms": [
+    "early_ID_complete_branch",
+    "early_ID_robust_first"
+  ],
+  "A_settings": [
+    {
+      "id": "calibration_fast",
+      "inertia": 0.0015,
+      "damping": 0.006,
+      "split": "covered_development"
+    },
+    {
+      "id": "calibration_slow",
+      "inertia": 0.002,
+      "damping": 0.006,
+      "split": "covered_development"
+    },
+    {
+      "id": "response_shift",
+      "inertia": 0.003,
+      "damping": 0.006,
+      "split": "outside_calibration_support"
+    }
+  ],
+  "B_setting": {
+    "id": "fixed_calibrated_B",
+    "inertia": 0.002,
+    "damping": 0.006
+  },
+  "full_cohort": 432,
+  "cases": 180,
+  "private_fault_label_to_actor": false,
+  "reference_each": "first actual shaft angle crossing2rad; each trajectory independently",
+  "effect_each": "start of speed<=0.1rad/s lasting0.2s",
+  "B_continuity": "no low-speed sample strictly before reference+lower window; definite early sample FALSE, ambiguous reference-boundary sample UNKNOWN",
+  "chemical_outcome": "UNKNOWN; joint temporal result is not chemistry",
+  "host_compute_advances_simulation": false,
+  "declared_delays_advance_simulation": true,
+  "strong_baseline": "public system identification in same reactive graph; no learner or RGB input",
+  "global_bus_relay": "reliable fixture stop both, irreversible within attempt; outside selective serial channel",
+  "B_selective_stop": "fixture reliable",
+  "command_ACK": "received, not plant success; controller sees failure only after delivered power packet and fault wait",
+  "preregistered": false,
+  "learning_runs": 0,
+  "real_robot_runs": 0,
+  "parent_protocol_sha256": "3f311a25ff0001863bf3e9e964501c4b243c30b61c13ddc491c0322a4046b749",
+  "new_arms_on_historical_cases": [
+    "online_ID_joint",
+    "online_ID_success_branch"
+  ],
+  "parent_fixed_joint_comparator": "108 original joint-contract runs retained with raw identity; not counted as new executions",
+  "fresh_A_settings": [
+    {
+      "id": "fresh_inertia_damping_1",
+      "inertia": 0.0024,
+      "damping": 0.008,
+      "split": "fresh_response_development"
+    },
+    {
+      "id": "fresh_inertia_damping_2",
+      "inertia": 0.0036,
+      "damping": 0.0045,
+      "split": "fresh_response_development"
+    }
+  ],
+  "historical_cases": 108,
+  "fresh_cases": 72,
+  "new_native_rollouts": 360,
+  "retained_native_comparators": 108,
+  "robot_learning_runs": 0,
+  "response_estimator": {
+    "family": "known input torque, contact-free implicit-Euler linear rotor; estimate inertia and damping from delivered pre-reference powered velocity pairs",
+    "minimum_pairs": 8,
+    "minimum_velocity_variance": 1e-07,
+    "residual_tolerance": 1e-09,
+    "inertia_domain": [
+      0.0005,
+      0.006
+    ],
+    "damping_domain": [
+      0.001,
+      0.02
+    ],
+    "relative_model_radius": 1e-05,
+    "freeze": "first delivered A reference; never revise using outcomes or fault identity",
+    "measurement_noise_modeled": false,
+    "coverage_guarantee": false
+  },
+  "retry_policies": {
+    "online_ID_joint": "same complete-branch joint scheduler, updating only A response models",
+    "online_ID_success_branch": "admit retry when its success branch satisfies both windows; preserve B after observed retry failure, retain original A miss; not a worst-case certificate"
+  },
+  "fresh_response_evidence": "selected after earlier development findings, frozen before new runs; neither blinded test set nor task-graph generalization",
+  "retained_comparators": 180,
+  "early_fit_pairs": 8,
+  "parent_design_sha256": "398bfa242e43a784f942dcb4d498a650484545e554425b1bb42cfe4dee3aeffe",
+  "reference_prediction": "freeze only delivered early eight-pair fit and initial positions; predicted reference drives scheduling, actual reference drives scoring",
+  "first_A_rule": "earliest dispatch allowing ACK at or after predicted A reference upper bound; shared channel delay retained",
+  "oracle_scope": "privileged reference-preserving expanded command graph; actual costs/FIFO retained, feedback guards relaxed; complete search by first-effect normal forms"
+}

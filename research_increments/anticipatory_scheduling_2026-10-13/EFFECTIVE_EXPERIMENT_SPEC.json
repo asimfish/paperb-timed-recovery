@@ -1,0 +1,119 @@
+{
+  "status": "POST_RUN_METADATA_CLARIFICATION_NOT_NEW_PREREGISTRATION",
+  "source_sha256": "e4c96f3503bc19e5ad2f8220e9d6bb83c1bd1eababd1f8720cf882eec0c2a8e8",
+  "source_release_sha256": "23558ac3c100fc1680b037f1e15753c419574b4bc37319762449d4840a190b22",
+  "effective_parameters": {
+    "id": "paperB.anticipatory-scheduling.execution.v1",
+    "dt_ns": 10000000,
+    "horizon_ns": 10000000000,
+    "rgb_period_ns": 1000000000,
+    "hold_ns": 200000000,
+    "speed_threshold": 0.1,
+    "drive_torque": 0.06,
+    "first_A_delay_ns": 50000000,
+    "retry_A_delay_ns": 450000000,
+    "selective_B_delay_ns": 450000000,
+    "relay_delay_ns": 50000000,
+    "fault_detection_wait_ns": 200000000,
+    "delivery_delays_ns": [
+      0,
+      300000000,
+      900000000
+    ],
+    "A_windows_ns": [
+      [
+        0,
+        1500000000
+      ],
+      [
+        0,
+        2500000000
+      ]
+    ],
+    "B_windows_ns": [
+      [
+        2000000000,
+        3000000000
+      ],
+      [
+        3000000000,
+        4000000000
+      ]
+    ],
+    "faults": [
+      "none",
+      "drop_first",
+      "persistent_primary"
+    ],
+    "arms": [
+      "early_ID_complete_branch",
+      "early_ID_robust_first"
+    ],
+    "A_settings": [
+      {
+        "id": "calibration_fast",
+        "inertia": 0.0015,
+        "damping": 0.006,
+        "split": "covered_development"
+      },
+      {
+        "id": "calibration_slow",
+        "inertia": 0.002,
+        "damping": 0.006,
+        "split": "covered_development"
+      },
+      {
+        "id": "response_shift",
+        "inertia": 0.003,
+        "damping": 0.006,
+        "split": "outside_calibration_support"
+      }
+    ],
+    "fresh_A_settings": [
+      {
+        "id": "fresh_inertia_damping_1",
+        "inertia": 0.0024,
+        "damping": 0.008,
+        "split": "fresh_response_development"
+      },
+      {
+        "id": "fresh_inertia_damping_2",
+        "inertia": 0.0036,
+        "damping": 0.0045,
+        "split": "fresh_response_development"
+      }
+    ],
+    "B_setting": {
+      "id": "fixed_calibrated_B",
+      "inertia": 0.002,
+      "damping": 0.006
+    },
+    "cases": 180,
+    "new_native_rollouts": 360,
+    "retained_comparators": 180,
+    "early_fit_pairs": 8,
+    "reference_prediction": "freeze only delivered early eight-pair fit and initial positions; predicted reference drives scheduling, actual reference drives scoring",
+    "first_A_rule": "earliest dispatch allowing ACK at or after predicted A reference upper bound; shared channel delay retained",
+    "oracle_scope": "privileged reference-preserving expanded command graph; actual costs/FIFO retained, feedback guards relaxed; complete search by first-effect normal forms",
+    "preregistered": false
+  },
+  "old_inherited_annotations_not_used_by_new_runner": {
+    "full_cohort": 432,
+    "historical_cases": 108,
+    "fresh_cases": 72,
+    "retained_native_comparators": 108,
+    "new_arms_on_historical_cases": [
+      "online_ID_joint",
+      "online_ID_success_branch"
+    ],
+    "parent_fixed_joint_comparator": "108 original joint-contract runs retained with raw identity; not counted as new executions",
+    "retry_policies": {
+      "online_ID_joint": "same complete-branch joint scheduler, updating only A response models",
+      "online_ID_success_branch": "admit retry when its success branch satisfies both windows; preserve B after observed retry failure, retain original A miss; not a worst-case certificate"
+    },
+    "strong_baseline": "public system identification in same reactive graph; no learner or RGB input"
+  },
+  "early_freeze_authority": "EarlyResponseEstimator freezes at 8 delivered powered pairs; the inherited response_estimator.freeze prose refers to the old parent and is superseded by frozen early estimator code.",
+  "pre_run_authority": "Frozen run_anticipatory_v2.py explicitly generates 180 cases x 2 arms and asserts 360; release_v2 declares 360 new main runs.",
+  "controller_or_roster_changed_after_run": false
+}

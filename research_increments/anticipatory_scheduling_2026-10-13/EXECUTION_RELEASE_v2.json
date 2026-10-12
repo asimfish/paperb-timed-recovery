@@ -1,0 +1,29 @@
+{
+  "status": "PASS_PRE_RUN_RELEASE",
+  "frozen_at_utc": "2026-10-12T17:16:39.622728+00:00",
+  "sources": {
+    "BINDINGS.json": "e8a65fed8d88dd85b157b2b4dbfe208fb15de76b9f810873f3cc304c779b8b9b",
+    "dependencies.py": "4ffb0cb0065f7a670edf50e15bd82df44ada6b1f5378f38ef5090a99e0ca6ec9",
+    "PROTOCOL.json": "e4c96f3503bc19e5ad2f8220e9d6bb83c1bd1eababd1f8720cf882eec0c2a8e8",
+    "GRAPH_CONTRACT.json": "8ff19888a7203de1a6dae227a52149d50d273b161c98bf277808d6e4d783b767",
+    "early_estimator.py": "d60944069844aba0de91bccab519fbcbdc0833e92d337633a8336e43f542b52b",
+    "anticipatory_control.py": "36e2b5a47458cd14e6b007276056be9951674f32d12163262da860ece68cd9de",
+    "attainability.py": "0388beeb83ed868f20bd3ab8f146229943fb6caf366b044b80bff0ea0af139a6",
+    "run_anticipatory.py": "209ca540a79c79c4598e5c593f7141c4e0988fd678bd5a6974bf4f3ed28f4e31",
+    "audit_anticipatory.py": "ccb81161f4a5591759ac77311d43abf6a5f1498a3f582c1221ccd49b23580936",
+    "test_anticipatory.py": "cf3e35aac3a4b24517b1c2cfff37e035ec95733f645e5cb513f85aaebb49c6ca",
+    "prepare_release.py": "2dc9ba47f8de785b5107d19be476f00719e49751eb61b40c23f8f6add8a68a68",
+    "anticipatory_control_v2.py": "130a76ce3b695b6c8d9c88abfbf441fd3e31f7fa6805a4b1ce383bc478009721",
+    "run_anticipatory_v2.py": "d1cde7f29f67b971b6f7c384f8c888327356f7c4c51b5ef1aaa7bc49f24c0d5e",
+    "audit_anticipatory_v2.py": "fc1f2f38ab5d1142d852c07c557bd6bb6e9a49674df3f99b7aa2c67f7c3120e9",
+    "test_controller_integration_v2.py": "fb8fc76e226d342895878f08ed2028d6fed825f8683b87e52096f9b619363185",
+    "prepare_release_v2.py": "fa26244a72dc173c995811d55c45b314a5c45a98677dfc0a61a5690a11c5a01c",
+    "RUNNER_REPAIR.json": "cd90fce1a909c223a503614bc7d930188ca201aa38c0cc272cf1ffa895119be7"
+  },
+  "original_release_sha256": "ac7789c2d08498820fbdc3b405ea7e9bebc08f39a3e4e613764a25bb825c0ac1",
+  "pre_run_tests_sha256": "d7fc9f5b1fcf43513b6fc42193fa7507c2e6f13840a444feccec619bc697bdf0",
+  "tests": 6,
+  "smoke_executions_not_main_cohort": 2,
+  "new_main_rollouts": 360,
+  "reason": "Public initial-service interface repair, independently re-frozen before first completed matrix case"
+}
