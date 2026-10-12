@@ -1,0 +1,1276 @@
+{
+  "status": "AUDITED_ALL_ATTEMPT_ANALYSIS",
+  "source_audit_sha256": {
+    "development_v1": "4c0eecc3c344ec24d21f3bbb0640fbe66693ea68dce15b7a041c4519d4be80c3",
+    "reverse_shift_v1": "0f7fd7899a28bf18150db8e7207eff522629192bb8b4f8ea0b6c9d9d6b0f91d6"
+  },
+  "main_rollouts": 8640,
+  "separately_frozen_reverse_extension_rollouts": 1440,
+  "total_new_native_rollouts": 10080,
+  "per_episode_counts": {
+    "shift/active_context_reset/e1": {
+      "TRUE": 14,
+      "FALSE": 58
+    },
+    "shift/active_context_reset/e2": {
+      "TRUE": 16,
+      "FALSE": 56
+    },
+    "shift/active_context_reset/e3": {
+      "TRUE": 16,
+      "FALSE": 56
+    },
+    "shift/active_context_reset/e4": {
+      "TRUE": 16,
+      "FALSE": 56
+    },
+    "shift/active_context_reset/e5": {
+      "TRUE": 16,
+      "FALSE": 56
+    },
+    "shift/active_context_reset/e6": {
+      "FALSE": 56,
+      "TRUE": 16
+    },
+    "shift/active_context_reset/e7": {
+      "FALSE": 56,
+      "TRUE": 16
+    },
+    "shift/active_context_reset/e8": {
+      "FALSE": 56,
+      "TRUE": 16
+    },
+    "shift/active_context_reset/e9": {
+      "FALSE": 56,
+      "TRUE": 16
+    },
+    "shift/active_context_reset/e10": {
+      "FALSE": 56,
+      "TRUE": 16
+    },
+    "shift/active_history/e1": {
+      "TRUE": 14,
+      "FALSE": 58
+    },
+    "shift/active_history/e2": {
+      "TRUE": 21,
+      "FALSE": 51
+    },
+    "shift/active_history/e3": {
+      "TRUE": 21,
+      "FALSE": 51
+    },
+    "shift/active_history/e4": {
+      "TRUE": 21,
+      "FALSE": 51
+    },
+    "shift/active_history/e5": {
+      "TRUE": 21,
+      "FALSE": 51
+    },
+    "shift/active_history/e6": {
+      "FALSE": 55,
+      "TRUE": 17
+    },
+    "shift/active_history/e7": {
+      "FALSE": 56,
+      "TRUE": 16
+    },
+    "shift/active_history/e8": {
+      "TRUE": 21,
+      "FALSE": 51
+    },
+    "shift/active_history/e9": {
+      "TRUE": 21,
+      "FALSE": 51
+    },
+    "shift/active_history/e10": {
+      "TRUE": 21,
+      "FALSE": 51
+    },
+    "stationary/active_context_reset/e1": {
+      "TRUE": 46,
+      "FALSE": 132,
+      "UNKNOWN": 2
+    },
+    "stationary/active_context_reset/e2": {
+      "TRUE": 51,
+      "FALSE": 129
+    },
+    "stationary/active_context_reset/e3": {
+      "TRUE": 51,
+      "FALSE": 129
+    },
+    "stationary/active_context_reset/e4": {
+      "TRUE": 51,
+      "FALSE": 129
+    },
+    "stationary/active_context_reset/e5": {
+      "TRUE": 51,
+      "FALSE": 129
+    },
+    "stationary/active_context_reset/e6": {
+      "TRUE": 51,
+      "FALSE": 129
+    },
+    "stationary/active_context_reset/e7": {
+      "TRUE": 51,
+      "FALSE": 129
+    },
+    "stationary/active_context_reset/e8": {
+      "TRUE": 51,
+      "FALSE": 129
+    },
+    "stationary/active_context_reset/e9": {
+      "TRUE": 51,
+      "FALSE": 129
+    },
+    "stationary/active_context_reset/e10": {
+      "TRUE": 51,
+      "FALSE": 129
+    },
+    "stationary/active_context_shuffle/e1": {
+      "TRUE": 46,
+      "FALSE": 132,
+      "UNKNOWN": 2
+    },
+    "stationary/active_context_shuffle/e2": {
+      "TRUE": 51,
+      "FALSE": 129
+    },
+    "stationary/active_context_shuffle/e3": {
+      "TRUE": 51,
+      "FALSE": 129
+    },
+    "stationary/active_context_shuffle/e4": {
+      "TRUE": 51,
+      "FALSE": 129
+    },
+    "stationary/active_context_shuffle/e5": {
+      "TRUE": 51,
+      "FALSE": 129
+    },
+    "stationary/active_context_shuffle/e6": {
+      "TRUE": 51,
+      "FALSE": 129
+    },
+    "stationary/active_context_shuffle/e7": {
+      "TRUE": 51,
+      "FALSE": 129
+    },
+    "stationary/active_context_shuffle/e8": {
+      "TRUE": 51,
+      "FALSE": 129
+    },
+    "stationary/active_context_shuffle/e9": {
+      "TRUE": 51,
+      "FALSE": 129
+    },
+    "stationary/active_context_shuffle/e10": {
+      "TRUE": 51,
+      "FALSE": 129
+    },
+    "stationary/active_history/e1": {
+      "TRUE": 46,
+      "FALSE": 132,
+      "UNKNOWN": 2
+    },
+    "stationary/active_history/e2": {
+      "TRUE": 64,
+      "FALSE": 116
+    },
+    "stationary/active_history/e3": {
+      "TRUE": 64,
+      "FALSE": 116
+    },
+    "stationary/active_history/e4": {
+      "TRUE": 64,
+      "FALSE": 116
+    },
+    "stationary/active_history/e5": {
+      "TRUE": 64,
+      "FALSE": 116
+    },
+    "stationary/active_history/e6": {
+      "TRUE": 64,
+      "FALSE": 116
+    },
+    "stationary/active_history/e7": {
+      "TRUE": 64,
+      "FALSE": 116
+    },
+    "stationary/active_history/e8": {
+      "TRUE": 64,
+      "FALSE": 116
+    },
+    "stationary/active_history/e9": {
+      "TRUE": 64,
+      "FALSE": 116
+    },
+    "stationary/active_history/e10": {
+      "TRUE": 64,
+      "FALSE": 116
+    },
+    "stationary/passive_history/e1": {
+      "TRUE": 51,
+      "FALSE": 129
+    },
+    "stationary/passive_history/e2": {
+      "TRUE": 55,
+      "FALSE": 125
+    },
+    "stationary/passive_history/e3": {
+      "TRUE": 55,
+      "FALSE": 125
+    },
+    "stationary/passive_history/e4": {
+      "TRUE": 55,
+      "FALSE": 125
+    },
+    "stationary/passive_history/e5": {
+      "TRUE": 55,
+      "FALSE": 125
+    },
+    "stationary/passive_history/e6": {
+      "TRUE": 55,
+      "FALSE": 125
+    },
+    "stationary/passive_history/e7": {
+      "TRUE": 55,
+      "FALSE": 125
+    },
+    "stationary/passive_history/e8": {
+      "TRUE": 55,
+      "FALSE": 125
+    },
+    "stationary/passive_history/e9": {
+      "TRUE": 55,
+      "FALSE": 125
+    },
+    "stationary/passive_history/e10": {
+      "TRUE": 55,
+      "FALSE": 125
+    },
+    "reverse_shift/active_context_reset/e1": {
+      "TRUE": 14,
+      "FALSE": 58
+    },
+    "reverse_shift/active_context_reset/e2": {
+      "TRUE": 16,
+      "FALSE": 56
+    },
+    "reverse_shift/active_context_reset/e3": {
+      "TRUE": 16,
+      "FALSE": 56
+    },
+    "reverse_shift/active_context_reset/e4": {
+      "TRUE": 16,
+      "FALSE": 56
+    },
+    "reverse_shift/active_context_reset/e5": {
+      "TRUE": 16,
+      "FALSE": 56
+    },
+    "reverse_shift/active_context_reset/e6": {
+      "FALSE": 56,
+      "TRUE": 16
+    },
+    "reverse_shift/active_context_reset/e7": {
+      "FALSE": 56,
+      "TRUE": 16
+    },
+    "reverse_shift/active_context_reset/e8": {
+      "FALSE": 56,
+      "TRUE": 16
+    },
+    "reverse_shift/active_context_reset/e9": {
+      "FALSE": 56,
+      "TRUE": 16
+    },
+    "reverse_shift/active_context_reset/e10": {
+      "FALSE": 56,
+      "TRUE": 16
+    },
+    "reverse_shift/active_history/e1": {
+      "TRUE": 14,
+      "FALSE": 58
+    },
+    "reverse_shift/active_history/e2": {
+      "TRUE": 21,
+      "FALSE": 51
+    },
+    "reverse_shift/active_history/e3": {
+      "TRUE": 21,
+      "FALSE": 51
+    },
+    "reverse_shift/active_history/e4": {
+      "TRUE": 21,
+      "FALSE": 51
+    },
+    "reverse_shift/active_history/e5": {
+      "TRUE": 21,
+      "FALSE": 51
+    },
+    "reverse_shift/active_history/e6": {
+      "FALSE": 61,
+      "TRUE": 11
+    },
+    "reverse_shift/active_history/e7": {
+      "FALSE": 56,
+      "TRUE": 16
+    },
+    "reverse_shift/active_history/e8": {
+      "FALSE": 54,
+      "TRUE": 18
+    },
+    "reverse_shift/active_history/e9": {
+      "FALSE": 54,
+      "TRUE": 18
+    },
+    "reverse_shift/active_history/e10": {
+      "FALSE": 54,
+      "TRUE": 18
+    }
+  },
+  "cumulative_all_attempts": {
+    "stationary/passive_history": {
+      "attempts": 1800,
+      "joint_original_contract": {
+        "TRUE": 546,
+        "FALSE": 1254
+      },
+      "identified_after": 733,
+      "diagnostic_attempts": 0,
+      "wrong_prior_support": 0
+    },
+    "stationary/active_history": {
+      "attempts": 1800,
+      "joint_original_contract": {
+        "TRUE": 622,
+        "FALSE": 1176,
+        "UNKNOWN": 2
+      },
+      "identified_after": 918,
+      "diagnostic_attempts": 180,
+      "wrong_prior_support": 0
+    },
+    "stationary/active_context_reset": {
+      "attempts": 1800,
+      "joint_original_contract": {
+        "TRUE": 505,
+        "FALSE": 1293,
+        "UNKNOWN": 2
+      },
+      "identified_after": 864,
+      "diagnostic_attempts": 180,
+      "wrong_prior_support": 0
+    },
+    "stationary/active_context_shuffle": {
+      "attempts": 1800,
+      "joint_original_contract": {
+        "TRUE": 505,
+        "FALSE": 1293,
+        "UNKNOWN": 2
+      },
+      "identified_after": 864,
+      "diagnostic_attempts": 180,
+      "wrong_prior_support": 0
+    },
+    "shift/active_history": {
+      "attempts": 720,
+      "joint_original_contract": {
+        "TRUE": 194,
+        "FALSE": 526
+      },
+      "identified_after": 368,
+      "diagnostic_attempts": 123,
+      "wrong_prior_support": 156
+    },
+    "shift/active_context_reset": {
+      "attempts": 720,
+      "joint_original_contract": {
+        "TRUE": 158,
+        "FALSE": 562
+      },
+      "identified_after": 342,
+      "diagnostic_attempts": 72,
+      "wrong_prior_support": 0
+    },
+    "reverse_shift/active_history": {
+      "attempts": 720,
+      "joint_original_contract": {
+        "TRUE": 179,
+        "FALSE": 541
+      },
+      "identified_after": 358,
+      "diagnostic_attempts": 121,
+      "wrong_prior_support": 164
+    },
+    "reverse_shift/active_context_reset": {
+      "attempts": 720,
+      "joint_original_contract": {
+        "TRUE": 158,
+        "FALSE": 562
+      },
+      "identified_after": 342,
+      "diagnostic_attempts": 72,
+      "wrong_prior_support": 0
+    }
+  },
+  "paired_vs_matched_context_reset": {
+    "stationary/passive_history/e1": {
+      "pairs": 180,
+      "repairs": [
+        "development_v1/stationary-c020-passive_history-e01",
+        "development_v1/stationary-c055-passive_history-e01",
+        "development_v1/stationary-c056-passive_history-e01",
+        "development_v1/stationary-c127-passive_history-e01",
+        "development_v1/stationary-c128-passive_history-e01"
+      ],
+      "harms": [],
+      "transitions": {
+        "TRUE->TRUE": 46,
+        "FALSE->FALSE": 128,
+        "FALSE->TRUE": 4,
+        "UNKNOWN->TRUE": 1,
+        "UNKNOWN->FALSE": 1
+      }
+    },
+    "stationary/active_history/e1": {
+      "pairs": 180,
+      "repairs": [],
+      "harms": [],
+      "transitions": {
+        "TRUE->TRUE": 46,
+        "FALSE->FALSE": 132,
+        "UNKNOWN->UNKNOWN": 2
+      }
+    },
+    "stationary/active_context_shuffle/e1": {
+      "pairs": 180,
+      "repairs": [],
+      "harms": [],
+      "transitions": {
+        "TRUE->TRUE": 46,
+        "FALSE->FALSE": 132,
+        "UNKNOWN->UNKNOWN": 2
+      }
+    },
+    "stationary/passive_history/e2": {
+      "pairs": 180,
+      "repairs": [
+        "development_v1/stationary-c031-passive_history-e02",
+        "development_v1/stationary-c032-passive_history-e02",
+        "development_v1/stationary-c139-passive_history-e02",
+        "development_v1/stationary-c140-passive_history-e02"
+      ],
+      "harms": [],
+      "transitions": {
+        "TRUE->TRUE": 51,
+        "FALSE->FALSE": 125,
+        "FALSE->TRUE": 4
+      }
+    },
+    "stationary/active_history/e2": {
+      "pairs": 180,
+      "repairs": [
+        "development_v1/stationary-c001-active_history-e02",
+        "development_v1/stationary-c004-active_history-e02",
+        "development_v1/stationary-c031-active_history-e02",
+        "development_v1/stationary-c032-active_history-e02",
+        "development_v1/stationary-c034-active_history-e02",
+        "development_v1/stationary-c058-active_history-e02",
+        "development_v1/stationary-c079-active_history-e02",
+        "development_v1/stationary-c082-active_history-e02",
+        "development_v1/stationary-c109-active_history-e02",
+        "development_v1/stationary-c112-active_history-e02",
+        "development_v1/stationary-c139-active_history-e02",
+        "development_v1/stationary-c140-active_history-e02",
+        "development_v1/stationary-c142-active_history-e02"
+      ],
+      "harms": [],
+      "transitions": {
+        "TRUE->TRUE": 51,
+        "FALSE->TRUE": 13,
+        "FALSE->FALSE": 116
+      }
+    },
+    "stationary/active_context_shuffle/e2": {
+      "pairs": 180,
+      "repairs": [],
+      "harms": [],
+      "transitions": {
+        "TRUE->TRUE": 51,
+        "FALSE->FALSE": 129
+      }
+    },
+    "stationary/passive_history/e3": {
+      "pairs": 180,
+      "repairs": [
+        "development_v1/stationary-c031-passive_history-e03",
+        "development_v1/stationary-c032-passive_history-e03",
+        "development_v1/stationary-c139-passive_history-e03",
+        "development_v1/stationary-c140-passive_history-e03"
+      ],
+      "harms": [],
+      "transitions": {
+        "TRUE->TRUE": 51,
+        "FALSE->FALSE": 125,
+        "FALSE->TRUE": 4
+      }
+    },
+    "stationary/active_history/e3": {
+      "pairs": 180,
+      "repairs": [
+        "development_v1/stationary-c001-active_history-e03",
+        "development_v1/stationary-c004-active_history-e03",
+        "development_v1/stationary-c031-active_history-e03",
+        "development_v1/stationary-c032-active_history-e03",
+        "development_v1/stationary-c034-active_history-e03",
+        "development_v1/stationary-c058-active_history-e03",
+        "development_v1/stationary-c079-active_history-e03",
+        "development_v1/stationary-c082-active_history-e03",
+        "development_v1/stationary-c109-active_history-e03",
+        "development_v1/stationary-c112-active_history-e03",
+        "development_v1/stationary-c139-active_history-e03",
+        "development_v1/stationary-c140-active_history-e03",
+        "development_v1/stationary-c142-active_history-e03"
+      ],
+      "harms": [],
+      "transitions": {
+        "TRUE->TRUE": 51,
+        "FALSE->TRUE": 13,
+        "FALSE->FALSE": 116
+      }
+    },
+    "stationary/active_context_shuffle/e3": {
+      "pairs": 180,
+      "repairs": [],
+      "harms": [],
+      "transitions": {
+        "TRUE->TRUE": 51,
+        "FALSE->FALSE": 129
+      }
+    },
+    "stationary/passive_history/e4": {
+      "pairs": 180,
+      "repairs": [
+        "development_v1/stationary-c031-passive_history-e04",
+        "development_v1/stationary-c032-passive_history-e04",
+        "development_v1/stationary-c139-passive_history-e04",
+        "development_v1/stationary-c140-passive_history-e04"
+      ],
+      "harms": [],
+      "transitions": {
+        "TRUE->TRUE": 51,
+        "FALSE->FALSE": 125,
+        "FALSE->TRUE": 4
+      }
+    },
+    "stationary/active_history/e4": {
+      "pairs": 180,
+      "repairs": [
+        "development_v1/stationary-c001-active_history-e04",
+        "development_v1/stationary-c004-active_history-e04",
+        "development_v1/stationary-c031-active_history-e04",
+        "development_v1/stationary-c032-active_history-e04",
+        "development_v1/stationary-c034-active_history-e04",
+        "development_v1/stationary-c058-active_history-e04",
+        "development_v1/stationary-c079-active_history-e04",
+        "development_v1/stationary-c082-active_history-e04",
+        "development_v1/stationary-c109-active_history-e04",
+        "development_v1/stationary-c112-active_history-e04",
+        "development_v1/stationary-c139-active_history-e04",
+        "development_v1/stationary-c140-active_history-e04",
+        "development_v1/stationary-c142-active_history-e04"
+      ],
+      "harms": [],
+      "transitions": {
+        "TRUE->TRUE": 51,
+        "FALSE->TRUE": 13,
+        "FALSE->FALSE": 116
+      }
+    },
+    "stationary/active_context_shuffle/e4": {
+      "pairs": 180,
+      "repairs": [],
+      "harms": [],
+      "transitions": {
+        "TRUE->TRUE": 51,
+        "FALSE->FALSE": 129
+      }
+    },
+    "stationary/passive_history/e5": {
+      "pairs": 180,
+      "repairs": [
+        "development_v1/stationary-c031-passive_history-e05",
+        "development_v1/stationary-c032-passive_history-e05",
+        "development_v1/stationary-c139-passive_history-e05",
+        "development_v1/stationary-c140-passive_history-e05"
+      ],
+      "harms": [],
+      "transitions": {
+        "TRUE->TRUE": 51,
+        "FALSE->FALSE": 125,
+        "FALSE->TRUE": 4
+      }
+    },
+    "stationary/active_history/e5": {
+      "pairs": 180,
+      "repairs": [
+        "development_v1/stationary-c001-active_history-e05",
+        "development_v1/stationary-c004-active_history-e05",
+        "development_v1/stationary-c031-active_history-e05",
+        "development_v1/stationary-c032-active_history-e05",
+        "development_v1/stationary-c034-active_history-e05",
+        "development_v1/stationary-c058-active_history-e05",
+        "development_v1/stationary-c079-active_history-e05",
+        "development_v1/stationary-c082-active_history-e05",
+        "development_v1/stationary-c109-active_history-e05",
+        "development_v1/stationary-c112-active_history-e05",
+        "development_v1/stationary-c139-active_history-e05",
+        "development_v1/stationary-c140-active_history-e05",
+        "development_v1/stationary-c142-active_history-e05"
+      ],
+      "harms": [],
+      "transitions": {
+        "TRUE->TRUE": 51,
+        "FALSE->TRUE": 13,
+        "FALSE->FALSE": 116
+      }
+    },
+    "stationary/active_context_shuffle/e5": {
+      "pairs": 180,
+      "repairs": [],
+      "harms": [],
+      "transitions": {
+        "TRUE->TRUE": 51,
+        "FALSE->FALSE": 129
+      }
+    },
+    "stationary/passive_history/e6": {
+      "pairs": 180,
+      "repairs": [
+        "development_v1/stationary-c031-passive_history-e06",
+        "development_v1/stationary-c032-passive_history-e06",
+        "development_v1/stationary-c139-passive_history-e06",
+        "development_v1/stationary-c140-passive_history-e06"
+      ],
+      "harms": [],
+      "transitions": {
+        "TRUE->TRUE": 51,
+        "FALSE->FALSE": 125,
+        "FALSE->TRUE": 4
+      }
+    },
+    "stationary/active_history/e6": {
+      "pairs": 180,
+      "repairs": [
+        "development_v1/stationary-c001-active_history-e06",
+        "development_v1/stationary-c004-active_history-e06",
+        "development_v1/stationary-c031-active_history-e06",
+        "development_v1/stationary-c032-active_history-e06",
+        "development_v1/stationary-c034-active_history-e06",
+        "development_v1/stationary-c058-active_history-e06",
+        "development_v1/stationary-c079-active_history-e06",
+        "development_v1/stationary-c082-active_history-e06",
+        "development_v1/stationary-c109-active_history-e06",
+        "development_v1/stationary-c112-active_history-e06",
+        "development_v1/stationary-c139-active_history-e06",
+        "development_v1/stationary-c140-active_history-e06",
+        "development_v1/stationary-c142-active_history-e06"
+      ],
+      "harms": [],
+      "transitions": {
+        "TRUE->TRUE": 51,
+        "FALSE->TRUE": 13,
+        "FALSE->FALSE": 116
+      }
+    },
+    "stationary/active_context_shuffle/e6": {
+      "pairs": 180,
+      "repairs": [],
+      "harms": [],
+      "transitions": {
+        "TRUE->TRUE": 51,
+        "FALSE->FALSE": 129
+      }
+    },
+    "stationary/passive_history/e7": {
+      "pairs": 180,
+      "repairs": [
+        "development_v1/stationary-c031-passive_history-e07",
+        "development_v1/stationary-c032-passive_history-e07",
+        "development_v1/stationary-c139-passive_history-e07",
+        "development_v1/stationary-c140-passive_history-e07"
+      ],
+      "harms": [],
+      "transitions": {
+        "TRUE->TRUE": 51,
+        "FALSE->FALSE": 125,
+        "FALSE->TRUE": 4
+      }
+    },
+    "stationary/active_history/e7": {
+      "pairs": 180,
+      "repairs": [
+        "development_v1/stationary-c001-active_history-e07",
+        "development_v1/stationary-c004-active_history-e07",
+        "development_v1/stationary-c031-active_history-e07",
+        "development_v1/stationary-c032-active_history-e07",
+        "development_v1/stationary-c034-active_history-e07",
+        "development_v1/stationary-c058-active_history-e07",
+        "development_v1/stationary-c079-active_history-e07",
+        "development_v1/stationary-c082-active_history-e07",
+        "development_v1/stationary-c109-active_history-e07",
+        "development_v1/stationary-c112-active_history-e07",
+        "development_v1/stationary-c139-active_history-e07",
+        "development_v1/stationary-c140-active_history-e07",
+        "development_v1/stationary-c142-active_history-e07"
+      ],
+      "harms": [],
+      "transitions": {
+        "TRUE->TRUE": 51,
+        "FALSE->TRUE": 13,
+        "FALSE->FALSE": 116
+      }
+    },
+    "stationary/active_context_shuffle/e7": {
+      "pairs": 180,
+      "repairs": [],
+      "harms": [],
+      "transitions": {
+        "TRUE->TRUE": 51,
+        "FALSE->FALSE": 129
+      }
+    },
+    "stationary/passive_history/e8": {
+      "pairs": 180,
+      "repairs": [
+        "development_v1/stationary-c031-passive_history-e08",
+        "development_v1/stationary-c032-passive_history-e08",
+        "development_v1/stationary-c139-passive_history-e08",
+        "development_v1/stationary-c140-passive_history-e08"
+      ],
+      "harms": [],
+      "transitions": {
+        "TRUE->TRUE": 51,
+        "FALSE->FALSE": 125,
+        "FALSE->TRUE": 4
+      }
+    },
+    "stationary/active_history/e8": {
+      "pairs": 180,
+      "repairs": [
+        "development_v1/stationary-c001-active_history-e08",
+        "development_v1/stationary-c004-active_history-e08",
+        "development_v1/stationary-c031-active_history-e08",
+        "development_v1/stationary-c032-active_history-e08",
+        "development_v1/stationary-c034-active_history-e08",
+        "development_v1/stationary-c058-active_history-e08",
+        "development_v1/stationary-c079-active_history-e08",
+        "development_v1/stationary-c082-active_history-e08",
+        "development_v1/stationary-c109-active_history-e08",
+        "development_v1/stationary-c112-active_history-e08",
+        "development_v1/stationary-c139-active_history-e08",
+        "development_v1/stationary-c140-active_history-e08",
+        "development_v1/stationary-c142-active_history-e08"
+      ],
+      "harms": [],
+      "transitions": {
+        "TRUE->TRUE": 51,
+        "FALSE->TRUE": 13,
+        "FALSE->FALSE": 116
+      }
+    },
+    "stationary/active_context_shuffle/e8": {
+      "pairs": 180,
+      "repairs": [],
+      "harms": [],
+      "transitions": {
+        "TRUE->TRUE": 51,
+        "FALSE->FALSE": 129
+      }
+    },
+    "stationary/passive_history/e9": {
+      "pairs": 180,
+      "repairs": [
+        "development_v1/stationary-c031-passive_history-e09",
+        "development_v1/stationary-c032-passive_history-e09",
+        "development_v1/stationary-c139-passive_history-e09",
+        "development_v1/stationary-c140-passive_history-e09"
+      ],
+      "harms": [],
+      "transitions": {
+        "TRUE->TRUE": 51,
+        "FALSE->FALSE": 125,
+        "FALSE->TRUE": 4
+      }
+    },
+    "stationary/active_history/e9": {
+      "pairs": 180,
+      "repairs": [
+        "development_v1/stationary-c001-active_history-e09",
+        "development_v1/stationary-c004-active_history-e09",
+        "development_v1/stationary-c031-active_history-e09",
+        "development_v1/stationary-c032-active_history-e09",
+        "development_v1/stationary-c034-active_history-e09",
+        "development_v1/stationary-c058-active_history-e09",
+        "development_v1/stationary-c079-active_history-e09",
+        "development_v1/stationary-c082-active_history-e09",
+        "development_v1/stationary-c109-active_history-e09",
+        "development_v1/stationary-c112-active_history-e09",
+        "development_v1/stationary-c139-active_history-e09",
+        "development_v1/stationary-c140-active_history-e09",
+        "development_v1/stationary-c142-active_history-e09"
+      ],
+      "harms": [],
+      "transitions": {
+        "TRUE->TRUE": 51,
+        "FALSE->TRUE": 13,
+        "FALSE->FALSE": 116
+      }
+    },
+    "stationary/active_context_shuffle/e9": {
+      "pairs": 180,
+      "repairs": [],
+      "harms": [],
+      "transitions": {
+        "TRUE->TRUE": 51,
+        "FALSE->FALSE": 129
+      }
+    },
+    "stationary/passive_history/e10": {
+      "pairs": 180,
+      "repairs": [
+        "development_v1/stationary-c031-passive_history-e10",
+        "development_v1/stationary-c032-passive_history-e10",
+        "development_v1/stationary-c139-passive_history-e10",
+        "development_v1/stationary-c140-passive_history-e10"
+      ],
+      "harms": [],
+      "transitions": {
+        "TRUE->TRUE": 51,
+        "FALSE->FALSE": 125,
+        "FALSE->TRUE": 4
+      }
+    },
+    "stationary/active_history/e10": {
+      "pairs": 180,
+      "repairs": [
+        "development_v1/stationary-c001-active_history-e10",
+        "development_v1/stationary-c004-active_history-e10",
+        "development_v1/stationary-c031-active_history-e10",
+        "development_v1/stationary-c032-active_history-e10",
+        "development_v1/stationary-c034-active_history-e10",
+        "development_v1/stationary-c058-active_history-e10",
+        "development_v1/stationary-c079-active_history-e10",
+        "development_v1/stationary-c082-active_history-e10",
+        "development_v1/stationary-c109-active_history-e10",
+        "development_v1/stationary-c112-active_history-e10",
+        "development_v1/stationary-c139-active_history-e10",
+        "development_v1/stationary-c140-active_history-e10",
+        "development_v1/stationary-c142-active_history-e10"
+      ],
+      "harms": [],
+      "transitions": {
+        "TRUE->TRUE": 51,
+        "FALSE->TRUE": 13,
+        "FALSE->FALSE": 116
+      }
+    },
+    "stationary/active_context_shuffle/e10": {
+      "pairs": 180,
+      "repairs": [],
+      "harms": [],
+      "transitions": {
+        "TRUE->TRUE": 51,
+        "FALSE->FALSE": 129
+      }
+    },
+    "shift/active_history/e1": {
+      "pairs": 72,
+      "repairs": [],
+      "harms": [],
+      "transitions": {
+        "TRUE->TRUE": 14,
+        "FALSE->FALSE": 58
+      }
+    },
+    "shift/active_history/e2": {
+      "pairs": 72,
+      "repairs": [
+        "development_v1/shift-c109-active_history-e02",
+        "development_v1/shift-c112-active_history-e02",
+        "development_v1/shift-c139-active_history-e02",
+        "development_v1/shift-c140-active_history-e02",
+        "development_v1/shift-c142-active_history-e02"
+      ],
+      "harms": [],
+      "transitions": {
+        "TRUE->TRUE": 16,
+        "FALSE->TRUE": 5,
+        "FALSE->FALSE": 51
+      }
+    },
+    "shift/active_history/e3": {
+      "pairs": 72,
+      "repairs": [
+        "development_v1/shift-c109-active_history-e03",
+        "development_v1/shift-c112-active_history-e03",
+        "development_v1/shift-c139-active_history-e03",
+        "development_v1/shift-c140-active_history-e03",
+        "development_v1/shift-c142-active_history-e03"
+      ],
+      "harms": [],
+      "transitions": {
+        "TRUE->TRUE": 16,
+        "FALSE->TRUE": 5,
+        "FALSE->FALSE": 51
+      }
+    },
+    "shift/active_history/e4": {
+      "pairs": 72,
+      "repairs": [
+        "development_v1/shift-c109-active_history-e04",
+        "development_v1/shift-c112-active_history-e04",
+        "development_v1/shift-c139-active_history-e04",
+        "development_v1/shift-c140-active_history-e04",
+        "development_v1/shift-c142-active_history-e04"
+      ],
+      "harms": [],
+      "transitions": {
+        "TRUE->TRUE": 16,
+        "FALSE->TRUE": 5,
+        "FALSE->FALSE": 51
+      }
+    },
+    "shift/active_history/e5": {
+      "pairs": 72,
+      "repairs": [
+        "development_v1/shift-c109-active_history-e05",
+        "development_v1/shift-c112-active_history-e05",
+        "development_v1/shift-c139-active_history-e05",
+        "development_v1/shift-c140-active_history-e05",
+        "development_v1/shift-c142-active_history-e05"
+      ],
+      "harms": [],
+      "transitions": {
+        "TRUE->TRUE": 16,
+        "FALSE->TRUE": 5,
+        "FALSE->FALSE": 51
+      }
+    },
+    "shift/active_history/e6": {
+      "pairs": 72,
+      "repairs": [
+        "development_v1/shift-c139-active_history-e06"
+      ],
+      "harms": [],
+      "transitions": {
+        "FALSE->FALSE": 55,
+        "TRUE->TRUE": 16,
+        "FALSE->TRUE": 1
+      }
+    },
+    "shift/active_history/e7": {
+      "pairs": 72,
+      "repairs": [
+        "development_v1/shift-c139-active_history-e07"
+      ],
+      "harms": [
+        "development_v1/shift-c126-active_history-e07"
+      ],
+      "transitions": {
+        "FALSE->FALSE": 55,
+        "TRUE->TRUE": 15,
+        "TRUE->FALSE": 1,
+        "FALSE->TRUE": 1
+      }
+    },
+    "shift/active_history/e8": {
+      "pairs": 72,
+      "repairs": [
+        "development_v1/shift-c108-active_history-e08",
+        "development_v1/shift-c111-active_history-e08",
+        "development_v1/shift-c138-active_history-e08",
+        "development_v1/shift-c139-active_history-e08",
+        "development_v1/shift-c141-active_history-e08"
+      ],
+      "harms": [],
+      "transitions": {
+        "FALSE->TRUE": 5,
+        "FALSE->FALSE": 51,
+        "TRUE->TRUE": 16
+      }
+    },
+    "shift/active_history/e9": {
+      "pairs": 72,
+      "repairs": [
+        "development_v1/shift-c108-active_history-e09",
+        "development_v1/shift-c111-active_history-e09",
+        "development_v1/shift-c138-active_history-e09",
+        "development_v1/shift-c139-active_history-e09",
+        "development_v1/shift-c141-active_history-e09"
+      ],
+      "harms": [],
+      "transitions": {
+        "FALSE->TRUE": 5,
+        "FALSE->FALSE": 51,
+        "TRUE->TRUE": 16
+      }
+    },
+    "shift/active_history/e10": {
+      "pairs": 72,
+      "repairs": [
+        "development_v1/shift-c108-active_history-e10",
+        "development_v1/shift-c111-active_history-e10",
+        "development_v1/shift-c138-active_history-e10",
+        "development_v1/shift-c139-active_history-e10",
+        "development_v1/shift-c141-active_history-e10"
+      ],
+      "harms": [],
+      "transitions": {
+        "FALSE->TRUE": 5,
+        "FALSE->FALSE": 51,
+        "TRUE->TRUE": 16
+      }
+    },
+    "reverse_shift/active_history/e1": {
+      "pairs": 72,
+      "repairs": [],
+      "harms": [],
+      "transitions": {
+        "TRUE->TRUE": 14,
+        "FALSE->FALSE": 58
+      }
+    },
+    "reverse_shift/active_history/e2": {
+      "pairs": 72,
+      "repairs": [
+        "reverse_shift_v1/shift-c109-active_history-e02",
+        "reverse_shift_v1/shift-c112-active_history-e02",
+        "reverse_shift_v1/shift-c139-active_history-e02",
+        "reverse_shift_v1/shift-c140-active_history-e02",
+        "reverse_shift_v1/shift-c142-active_history-e02"
+      ],
+      "harms": [],
+      "transitions": {
+        "TRUE->TRUE": 16,
+        "FALSE->TRUE": 5,
+        "FALSE->FALSE": 51
+      }
+    },
+    "reverse_shift/active_history/e3": {
+      "pairs": 72,
+      "repairs": [
+        "reverse_shift_v1/shift-c109-active_history-e03",
+        "reverse_shift_v1/shift-c112-active_history-e03",
+        "reverse_shift_v1/shift-c139-active_history-e03",
+        "reverse_shift_v1/shift-c140-active_history-e03",
+        "reverse_shift_v1/shift-c142-active_history-e03"
+      ],
+      "harms": [],
+      "transitions": {
+        "TRUE->TRUE": 16,
+        "FALSE->TRUE": 5,
+        "FALSE->FALSE": 51
+      }
+    },
+    "reverse_shift/active_history/e4": {
+      "pairs": 72,
+      "repairs": [
+        "reverse_shift_v1/shift-c109-active_history-e04",
+        "reverse_shift_v1/shift-c112-active_history-e04",
+        "reverse_shift_v1/shift-c139-active_history-e04",
+        "reverse_shift_v1/shift-c140-active_history-e04",
+        "reverse_shift_v1/shift-c142-active_history-e04"
+      ],
+      "harms": [],
+      "transitions": {
+        "TRUE->TRUE": 16,
+        "FALSE->TRUE": 5,
+        "FALSE->FALSE": 51
+      }
+    },
+    "reverse_shift/active_history/e5": {
+      "pairs": 72,
+      "repairs": [
+        "reverse_shift_v1/shift-c109-active_history-e05",
+        "reverse_shift_v1/shift-c112-active_history-e05",
+        "reverse_shift_v1/shift-c139-active_history-e05",
+        "reverse_shift_v1/shift-c140-active_history-e05",
+        "reverse_shift_v1/shift-c142-active_history-e05"
+      ],
+      "harms": [],
+      "transitions": {
+        "TRUE->TRUE": 16,
+        "FALSE->TRUE": 5,
+        "FALSE->FALSE": 51
+      }
+    },
+    "reverse_shift/active_history/e6": {
+      "pairs": 72,
+      "repairs": [
+        "reverse_shift_v1/shift-c140-active_history-e06"
+      ],
+      "harms": [
+        "reverse_shift_v1/shift-c109-active_history-e06",
+        "reverse_shift_v1/shift-c112-active_history-e06",
+        "reverse_shift_v1/shift-c115-active_history-e06",
+        "reverse_shift_v1/shift-c118-active_history-e06",
+        "reverse_shift_v1/shift-c127-active_history-e06",
+        "reverse_shift_v1/shift-c130-active_history-e06"
+      ],
+      "transitions": {
+        "FALSE->FALSE": 55,
+        "TRUE->FALSE": 6,
+        "TRUE->TRUE": 10,
+        "FALSE->TRUE": 1
+      }
+    },
+    "reverse_shift/active_history/e7": {
+      "pairs": 72,
+      "repairs": [
+        "reverse_shift_v1/shift-c140-active_history-e07"
+      ],
+      "harms": [
+        "reverse_shift_v1/shift-c126-active_history-e07"
+      ],
+      "transitions": {
+        "FALSE->FALSE": 55,
+        "TRUE->TRUE": 15,
+        "TRUE->FALSE": 1,
+        "FALSE->TRUE": 1
+      }
+    },
+    "reverse_shift/active_history/e8": {
+      "pairs": 72,
+      "repairs": [
+        "reverse_shift_v1/shift-c138-active_history-e08",
+        "reverse_shift_v1/shift-c140-active_history-e08"
+      ],
+      "harms": [],
+      "transitions": {
+        "FALSE->FALSE": 54,
+        "TRUE->TRUE": 16,
+        "FALSE->TRUE": 2
+      }
+    },
+    "reverse_shift/active_history/e9": {
+      "pairs": 72,
+      "repairs": [
+        "reverse_shift_v1/shift-c138-active_history-e09",
+        "reverse_shift_v1/shift-c140-active_history-e09"
+      ],
+      "harms": [],
+      "transitions": {
+        "FALSE->FALSE": 54,
+        "TRUE->TRUE": 16,
+        "FALSE->TRUE": 2
+      }
+    },
+    "reverse_shift/active_history/e10": {
+      "pairs": 72,
+      "repairs": [
+        "reverse_shift_v1/shift-c138-active_history-e10",
+        "reverse_shift_v1/shift-c140-active_history-e10"
+      ],
+      "harms": [],
+      "transitions": {
+        "FALSE->FALSE": 54,
+        "TRUE->TRUE": 16,
+        "FALSE->TRUE": 2
+      }
+    }
+  },
+  "charged_costs": {
+    "stationary/passive_history": {
+      "diagnostic_attempts": 0,
+      "command_count": 4212,
+      "device_service_ns": 745400000000,
+      "physical_episode_budget_ns": 18000000000000,
+      "attempt_spacing_ns": 11000000000,
+      "service_sum_is_not_makespan": true
+    },
+    "stationary/active_history": {
+      "diagnostic_attempts": 180,
+      "command_count": 4396,
+      "device_service_ns": 838200000000,
+      "physical_episode_budget_ns": 18000000000000,
+      "attempt_spacing_ns": 11000000000,
+      "service_sum_is_not_makespan": true
+    },
+    "stationary/active_context_reset": {
+      "diagnostic_attempts": 180,
+      "command_count": 4414,
+      "device_service_ns": 839100000000,
+      "physical_episode_budget_ns": 18000000000000,
+      "attempt_spacing_ns": 11000000000,
+      "service_sum_is_not_makespan": true
+    },
+    "stationary/active_context_shuffle": {
+      "diagnostic_attempts": 180,
+      "command_count": 4414,
+      "device_service_ns": 839100000000,
+      "physical_episode_budget_ns": 18000000000000,
+      "attempt_spacing_ns": 11000000000,
+      "service_sum_is_not_makespan": true
+    },
+    "shift/active_history": {
+      "diagnostic_attempts": 123,
+      "command_count": 1789,
+      "device_service_ns": 356250000000,
+      "physical_episode_budget_ns": 7200000000000,
+      "attempt_spacing_ns": 11000000000,
+      "service_sum_is_not_makespan": true
+    },
+    "shift/active_context_reset": {
+      "diagnostic_attempts": 72,
+      "command_count": 1796,
+      "device_service_ns": 348600000000,
+      "physical_episode_budget_ns": 7200000000000,
+      "attempt_spacing_ns": 11000000000,
+      "service_sum_is_not_makespan": true
+    },
+    "reverse_shift/active_history": {
+      "diagnostic_attempts": 121,
+      "command_count": 1791,
+      "device_service_ns": 350350000000,
+      "physical_episode_budget_ns": 7200000000000,
+      "attempt_spacing_ns": 11000000000,
+      "service_sum_is_not_makespan": true
+    },
+    "reverse_shift/active_context_reset": {
+      "diagnostic_attempts": 72,
+      "command_count": 1796,
+      "device_service_ns": 348600000000,
+      "physical_episode_budget_ns": 7200000000000,
+      "attempt_spacing_ns": 11000000000,
+      "service_sum_is_not_makespan": true
+    }
+  },
+  "original_reference_harms": {
+    "stationary/passive_history": [],
+    "stationary/active_history": [],
+    "stationary/active_context_reset": [],
+    "stationary/active_context_shuffle": [],
+    "shift/active_history": [],
+    "shift/active_context_reset": [],
+    "reverse_shift/active_history": [
+      "reverse_shift_v1/shift-c109-active_history-e06",
+      "reverse_shift_v1/shift-c112-active_history-e06",
+      "reverse_shift_v1/shift-c115-active_history-e06",
+      "reverse_shift_v1/shift-c118-active_history-e06",
+      "reverse_shift_v1/shift-c127-active_history-e06",
+      "reverse_shift_v1/shift-c130-active_history-e06"
+    ],
+    "reverse_shift/active_context_reset": []
+  },
+  "B_continuity_counts": {
+    "TRUE": 10080
+  },
+  "weight_training_runs": 0,
+  "neural_ICL_demonstrated": false,
+  "chemical_certified": 0
+}

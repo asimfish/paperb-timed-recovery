@@ -1,0 +1,11 @@
+{
+  "frozen_at_utc": "2026-10-12T18:29:53.422580+00:00",
+  "sources": {
+    "EXTENSION_PROTOCOL_v1.json": "64eab594da98cfab2cf2d2df8f8e5c86156b4611d3f4257767f4f9a4529b4de4",
+    "run_reverse_extension.py": "cc513185404b47a7c5fc5f4b84f1e5bbaf8bfe67eb4d50331ea5df879af9f44e"
+  },
+  "parent_execution_release_sha256": "00fd193b76e4466c1607535310e75f0afa6eeaa79dc83d7ddc301013f4f42051",
+  "new_native_rollouts": 1440,
+  "selection_reason": "Original forward cycle does not test a formerly dropped initial command becoming effective before the reference; all 72 fresh cases and both matched arms retained.",
+  "confirmatory": false
+}

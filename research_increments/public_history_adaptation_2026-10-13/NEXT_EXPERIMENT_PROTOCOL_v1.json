@@ -1,0 +1,37 @@
+{
+  "status": "DESIGN_NOT_EXECUTION_RELEASE",
+  "objective": "Determine whether public-history adaptation survives model uncertainty and nonstationarity beyond the known noiseless fixture, before attributing gains to a learned VLA.",
+  "required_predecessor": "Same information and candidate-set comparison in the separately frozen episode-two checkpoint; preserve its denominator and failures.",
+  "stages": [
+    {
+      "id": "stationarity_and_reference_protection",
+      "question": "Can a controller preserve original references when a previously dropped command becomes effective?",
+      "controls": ["candidate-complete zero-history rule", "candidate-complete retained-history rule", "current-attempt probation before fault-dependent actions", "fault-independent action restriction"],
+      "protocol": "Freeze both forward and reverse transitions and charged diagnosis before execution. No true fault label in actor input. Independently reconstruct original reference and effect events.",
+      "acceptance": "Report every transition, repairs and harms, initial cost and recovery attempts. A lower harm count alone is insufficient if achievable stable cases are lost. Do not reinterpret altered reference events as original success."
+    },
+    {
+      "id": "model_and_clock_uncertainty",
+      "question": "Is there a residual decision problem after complete deterministic candidates under uncertain sensing, service and dynamics?",
+      "held_out_axes": ["response families not fitted exactly by the eight-pair model", "packet censoring and noise", "time-varying service delay", "fault mechanisms outside the three-class support", "continuous process advancement during planner work"],
+      "controls": ["calibrated deterministic planner", "time-logic guidance", "same-information history rule", "candidate policy"],
+      "acceptance": "Use frozen task instances, model calibration and uncertainty coverage separated from evaluation. Record capture, delivery, compute and physical effect clocks; wall-clock latency is charged. Report FALSE and UNKNOWN rather than collapsing them."
+    },
+    {
+      "id": "policy_absorption",
+      "question": "Does one shared policy improve beyond rules and retain verified recovery experience?",
+      "implementation": "Shared history/contract-conditioned diffusion policy followed by student-state expert relabeling and matched DAgger. Use one common harness and identical teacher budget. Offline/online RL or multi-expert distribution distillation require an independently demonstrated remaining bottleneck.",
+      "factorial_controls": ["engineering configuration K frozen or updated", "history M retained/cleared/foreign/untrusted", "policy weights theta frozen/updated"],
+      "held_out_task_axes": ["goal combinations", "dependency graph", "subtask order", "new recovery condition"],
+      "acceptance": "Actually train weights, then disable the online teacher and measure with and without memory. Compare first, second, third, fifth and tenth attempts plus all-attempt cumulative utility. Do not call finite fault inference neural ICL or parameter learning."
+    },
+    {
+      "id": "physical_and_chemical_validation",
+      "question": "Does the complete system meet independently measured physical and chemical contracts?",
+      "required_evidence": ["real robot RGB and control logs", "monotonic hardware clock alignment", "independent physical completion measurements", "independent chemical endpoint and batch records", "calibrated real-sim failure/recovery transfer"],
+      "status": "MAJOR_OPEN; local simulated mechanics and recorded RGB do not satisfy this gate"
+    }
+  ],
+  "promotion_rule": "Do not start a resource-intensive learned comparison merely to reproduce a known exact-model control solution. Freeze concrete task feasibility, strong controls and independent scoring first.",
+  "no_new_execution_claim": true
+}

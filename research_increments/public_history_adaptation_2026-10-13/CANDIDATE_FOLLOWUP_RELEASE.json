@@ -1,0 +1,13 @@
+{
+  "frozen_at_utc": "2026-10-12T18:41:53.468492+00:00",
+  "sources": {
+    "CANDIDATE_FOLLOWUP_PROTOCOL.json": "52cbdf474f3fa5ead8c145ffaae722719229c3d7720240602bcc478f1c5b5580",
+    "public_control_v2.py": "396cbb53b1f57cd4b02401c4a24975b75e83e05bcb9869fab2e594a3f35bc6e1",
+    "native_runner_v2.py": "25c9ae5d5d549b220f87968f8fb1d6c6b531b5985425ffcc15ec0052d4d55b91",
+    "run_candidate_followup.py": "3eb9520e2f1a68a085dfa5152ef816d5cd2d5c8c1f7c8ea100142e8777264544"
+  },
+  "source_main_audit_sha256": "4c0eecc3c344ec24d21f3bbb0640fbe66693ea68dce15b7a041c4519d4be80c3",
+  "parent_execution_release_sha256": "00fd193b76e4466c1607535310e75f0afa6eeaa79dc83d7ddc301013f4f42051",
+  "new_native_rollouts": 720,
+  "not_a_ten_episode_v2_result": true
+}

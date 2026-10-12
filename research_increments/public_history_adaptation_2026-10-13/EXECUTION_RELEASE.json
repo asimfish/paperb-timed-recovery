@@ -1,0 +1,26 @@
+{
+  "status": "PASS_PRE_RUN_RELEASE",
+  "frozen_at_utc": "2026-10-12T18:19:22.718427+00:00",
+  "sources": {
+    "BINDINGS.json": "de2cc8ac3120cdacf6bc8af67bed78cb10e19c41f3e06145fa4c71ef25e4fb3e",
+    "PROTOCOL.json": "f16a2bfb2f0509b8c13a59152c228487690853d4e3489b40a6524e7879b7b230",
+    "ADR_001_cn.md": "8603a89d6dc915eed684f64724b3038c841cefd01a84ef26f6e7a0c9542c9537",
+    "parent_sources.py": "ab3d38a800b4e1cc3512adb8a70c454bc77d8b990e30d21d85e968d6f968e3ed",
+    "history.py": "a45dd304121ac077c6d59f241d8aec947b42adb351de890dc9987fc84194e5e2",
+    "public_control.py": "cd5cb09ac603e83ae2bfd41cd72ccc3bb432d72154f8134bdcced2309eec0e32",
+    "measurement.py": "e5b069629563447cfd20a1dd3c2eb2effa74643e4eb7cb0ad06fb8a412ad2a31",
+    "native_runner.py": "5bb8e570b1c912dfdf8f9d8e4d4d60743fec981ab0f54ab2cd325aadea8e6499",
+    "run_history.py": "3b1230147190e1379a5626d640772bf97296dc77f1b3569a8a752ad28f2ab2a3",
+    "audit_history.py": "1b1f66c6732e204fdc275edeb6ab7edd2c710cf7797d939b40c46fc70242cc6f",
+    "test_history.py": "640b6dd9b0dad16720c39d768d207ca5b7802e0ee6d518e631485d2b60fc6aa5",
+    "prepare_release.py": "80a530ea37ad20c76ce4b8f1edfd4223b115a3ece04cb8533045720b84de54cd"
+  },
+  "new_matrix_rollouts": 8640,
+  "pilot_matrix_rollouts_not_main": 40,
+  "unit_smoke_executions_not_main": 2,
+  "earlier_initial_unit_smoke_executions_not_main": 2,
+  "pilot_audit_sha256": "98257ca9ca06fd446a5547fe3091ebd4c0750759fc08f5d7d44b8546b0723a9b",
+  "pre_run_tests_sha256": "613b7069d2bc031f2bb009db4dd242a5f3bed989e49847158b4d1bc35df3b3f3",
+  "tests": 4,
+  "confirmatory": false
+}

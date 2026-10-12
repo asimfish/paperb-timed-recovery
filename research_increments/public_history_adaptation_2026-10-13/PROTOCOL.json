@@ -1,0 +1,145 @@
+{
+  "id": "paperB.public-history-adaptation.v1",
+  "dt_ns": 10000000,
+  "horizon_ns": 10000000000,
+  "rgb_period_ns": 1000000000,
+  "hold_ns": 200000000,
+  "speed_threshold": 0.1,
+  "drive_torque": 0.06,
+  "first_A_delay_ns": 50000000,
+  "retry_A_delay_ns": 450000000,
+  "selective_B_delay_ns": 450000000,
+  "relay_delay_ns": 50000000,
+  "fault_detection_wait_ns": 200000000,
+  "delivery_delays_ns": [
+    0,
+    300000000,
+    900000000
+  ],
+  "A_windows_ns": [
+    [
+      0,
+      1500000000
+    ],
+    [
+      0,
+      2500000000
+    ]
+  ],
+  "B_windows_ns": [
+    [
+      2000000000,
+      3000000000
+    ],
+    [
+      3000000000,
+      4000000000
+    ]
+  ],
+  "faults": [
+    "none",
+    "drop_first",
+    "persistent_primary"
+  ],
+  "arms": [
+    "passive_history",
+    "active_history",
+    "active_context_reset",
+    "active_context_shuffle"
+  ],
+  "A_settings": [
+    {
+      "id": "calibration_fast",
+      "inertia": 0.0015,
+      "damping": 0.006,
+      "split": "covered_development"
+    },
+    {
+      "id": "calibration_slow",
+      "inertia": 0.002,
+      "damping": 0.006,
+      "split": "covered_development"
+    },
+    {
+      "id": "response_shift",
+      "inertia": 0.003,
+      "damping": 0.006,
+      "split": "outside_calibration_support"
+    }
+  ],
+  "fresh_A_settings": [
+    {
+      "id": "fresh_inertia_damping_1",
+      "inertia": 0.0024,
+      "damping": 0.008,
+      "split": "fresh_response_development"
+    },
+    {
+      "id": "fresh_inertia_damping_2",
+      "inertia": 0.0036,
+      "damping": 0.0045,
+      "split": "fresh_response_development"
+    }
+  ],
+  "B_setting": {
+    "id": "fixed_calibrated_B",
+    "inertia": 0.002,
+    "damping": 0.006
+  },
+  "cases": 180,
+  "new_native_rollouts": 360,
+  "retained_comparators": 180,
+  "early_fit_pairs": 8,
+  "reference_prediction": "freeze only delivered early eight-pair fit and initial positions; predicted reference drives scheduling, actual reference drives scoring",
+  "first_A_rule": "earliest dispatch allowing ACK at or after predicted A reference upper bound; shared channel delay retained",
+  "oracle_scope": "privileged reference-preserving expanded command graph; actual costs/FIFO retained, feedback guards relaxed; complete search by first-effect normal forms",
+  "preregistered": false,
+  "response_estimator": {
+    "family": "known input torque, contact-free implicit-Euler linear rotor; estimate inertia and damping from delivered pre-reference powered velocity pairs",
+    "minimum_pairs": 8,
+    "minimum_velocity_variance": 1e-07,
+    "residual_tolerance": 1e-09,
+    "inertia_domain": [
+      0.0005,
+      0.006
+    ],
+    "damping_domain": [
+      0.001,
+      0.02
+    ],
+    "relative_model_radius": 1e-05,
+    "freeze": "first delivered A reference; never revise using outcomes or fault identity",
+    "measurement_noise_modeled": false,
+    "coverage_guarantee": false
+  },
+  "episodes": 10,
+  "attempt_spacing_ns": 11000000000,
+  "stationary_cases": 180,
+  "shift_cases": 72,
+  "shift_arms": [
+    "active_history",
+    "active_context_reset"
+  ],
+  "shift_episode": 6,
+  "shift_fault_cycle": {
+    "none": "drop_first",
+    "drop_first": "persistent_primary",
+    "persistent_primary": "none"
+  },
+  "shift_settings": [
+    "fresh_inertia_damping_1",
+    "fresh_inertia_damping_2"
+  ],
+  "new_matrix_rollouts": 8640,
+  "render_RGB": false,
+  "workers": 4,
+  "memory": "same installation and device version; delivered prior power evidence only; belief intersection and contradiction-triggered reset",
+  "diagnostic": "active arms use one first-attempt primary/retry diagnosis; all attempts and their costs retained",
+  "shuffle": "opaque foreign-installation public history with genuine provenance; consumer rejects mismatch, no hidden labels",
+  "confirmation": "developmental continuation on existing 180 cases; no independent task or chemical claim",
+  "host_work_advances_plant": false,
+  "weight_training_runs": 0,
+  "real_robot_runs": 0,
+  "original_reference_guard": "Independently reconstruct full-power reference intervals. Report raw joint_temporal and joint_original_contract; mismatched or missing original reference is FALSE for original contract, preventing trigger manipulation under stale memory.",
+  "post_episode_feedback": "Flush queued public packets by their declared arrivals after control terminates; all 1001 captures available before next attempt at 11s. Tail deliveries logged; no extra control or simulated dynamics in this inter-attempt gap."
+}

@@ -1,0 +1,3300 @@
+{
+  "status": "PASS_CASEWISE_SCOPED_ATTRIBUTION",
+  "compared_active_checkpoints": 180,
+  "active_feasible_match_count": 66,
+  "active_infeasible_match_count": 114,
+  "native_rollouts": 10800,
+  "native_samples": 10810800,
+  "B_continuity_TRUE": 10800,
+  "cohorts": [
+    {
+      "name": "main",
+      "rollouts": 8640,
+      "freeze": "EXECUTION_RELEASE.json"
+    },
+    {
+      "name": "reverse extension",
+      "rollouts": 1440,
+      "freeze": "EXTENSION_RELEASE_v1.json"
+    },
+    {
+      "name": "candidate checkpoint",
+      "rollouts": 720,
+      "freeze": "CANDIDATE_FOLLOWUP_RELEASE.json"
+    }
+  ],
+  "source_sha256": {
+    "candidate_followup_v1/results.json": "2567136ec263d906651e96d8b67e901ad9f2d19f852f398172889dd49b274c30",
+    "candidate_followup_v1/AUDIT.json": "d719ebcf2be462da59148dea28d341f3c822114f9e0743039921037a3d532403",
+    "development_v1/AUDIT.json": "4c0eecc3c344ec24d21f3bbb0640fbe66693ea68dce15b7a041c4519d4be80c3",
+    "reverse_shift_v1/AUDIT.json": "0f7fd7899a28bf18150db8e7207eff522629192bb8b4f8ea0b6c9d9d6b0f91d6",
+    "previous/oracle_v1/results.json": "d947101482d5d8b490ee1d7f12b56a51b4d7e08ea496dcd6036f74f7a11b60a0",
+    "previous/oracle_v1/AUDIT.json": "68421104fcc37cd8611637b3ddb168d13cc3d6bfa2a47983212baf3ed9f8b21f"
+  },
+  "counts": {
+    "active_context_reset": {
+      "TRUE": 57,
+      "FALSE": 123
+    },
+    "active_context_shuffle": {
+      "TRUE": 57,
+      "FALSE": 123
+    },
+    "passive_history": {
+      "TRUE": 57,
+      "FALSE": 123
+    },
+    "active_history": {
+      "TRUE": 66,
+      "FALSE": 114
+    }
+  },
+  "active_repairs_vs_complete_reset": 9,
+  "active_harms_vs_complete_reset": 0,
+  "passive_repairs_vs_complete_reset": 0,
+  "scoped_graph_only": true,
+  "v2_ten_episode_curve_executed": false,
+  "new_learning_credit": 0,
+  "cases": [
+    {
+      "id": "stationary-c000-active_history-e02",
+      "key": [
+        "calibration_fast",
+        0,
+        [
+          0,
+          1500000000
+        ],
+        [
+          2000000000,
+          3000000000
+        ],
+        "none"
+      ],
+      "joint_original_contract": "TRUE",
+      "graph_feasible": true
+    },
+    {
+      "id": "stationary-c001-active_history-e02",
+      "key": [
+        "calibration_fast",
+        0,
+        [
+          0,
+          1500000000
+        ],
+        [
+          2000000000,
+          3000000000
+        ],
+        "drop_first"
+      ],
+      "joint_original_contract": "TRUE",
+      "graph_feasible": true
+    },
+    {
+      "id": "stationary-c002-active_history-e02",
+      "key": [
+        "calibration_fast",
+        0,
+        [
+          0,
+          1500000000
+        ],
+        [
+          2000000000,
+          3000000000
+        ],
+        "persistent_primary"
+      ],
+      "joint_original_contract": "FALSE",
+      "graph_feasible": false
+    },
+    {
+      "id": "stationary-c003-active_history-e02",
+      "key": [
+        "calibration_fast",
+        0,
+        [
+          0,
+          1500000000
+        ],
+        [
+          3000000000,
+          4000000000
+        ],
+        "none"
+      ],
+      "joint_original_contract": "TRUE",
+      "graph_feasible": true
+    },
+    {
+      "id": "stationary-c004-active_history-e02",
+      "key": [
+        "calibration_fast",
+        0,
+        [
+          0,
+          1500000000
+        ],
+        [
+          3000000000,
+          4000000000
+        ],
+        "drop_first"
+      ],
+      "joint_original_contract": "TRUE",
+      "graph_feasible": true
+    },
+    {
+      "id": "stationary-c005-active_history-e02",
+      "key": [
+        "calibration_fast",
+        0,
+        [
+          0,
+          1500000000
+        ],
+        [
+          3000000000,
+          4000000000
+        ],
+        "persistent_primary"
+      ],
+      "joint_original_contract": "FALSE",
+      "graph_feasible": false
+    },
+    {
+      "id": "stationary-c006-active_history-e02",
+      "key": [
+        "calibration_fast",
+        0,
+        [
+          0,
+          2500000000
+        ],
+        [
+          2000000000,
+          3000000000
+        ],
+        "none"
+      ],
+      "joint_original_contract": "TRUE",
+      "graph_feasible": true
+    },
+    {
+      "id": "stationary-c007-active_history-e02",
+      "key": [
+        "calibration_fast",
+        0,
+        [
+          0,
+          2500000000
+        ],
+        [
+          2000000000,
+          3000000000
+        ],
+        "drop_first"
+      ],
+      "joint_original_contract": "TRUE",
+      "graph_feasible": true
+    },
+    {
+      "id": "stationary-c008-active_history-e02",
+      "key": [
+        "calibration_fast",
+        0,
+        [
+          0,
+          2500000000
+        ],
+        [
+          2000000000,
+          3000000000
+        ],
+        "persistent_primary"
+      ],
+      "joint_original_contract": "TRUE",
+      "graph_feasible": true
+    },
+    {
+      "id": "stationary-c009-active_history-e02",
+      "key": [
+        "calibration_fast",
+        0,
+        [
+          0,
+          2500000000
+        ],
+        [
+          3000000000,
+          4000000000
+        ],
+        "none"
+      ],
+      "joint_original_contract": "TRUE",
+      "graph_feasible": true
+    },
+    {
+      "id": "stationary-c010-active_history-e02",
+      "key": [
+        "calibration_fast",
+        0,
+        [
+          0,
+          2500000000
+        ],
+        [
+          3000000000,
+          4000000000
+        ],
+        "drop_first"
+      ],
+      "joint_original_contract": "TRUE",
+      "graph_feasible": true
+    },
+    {
+      "id": "stationary-c011-active_history-e02",
+      "key": [
+        "calibration_fast",
+        0,
+        [
+          0,
+          2500000000
+        ],
+        [
+          3000000000,
+          4000000000
+        ],
+        "persistent_primary"
+      ],
+      "joint_original_contract": "FALSE",
+      "graph_feasible": false
+    },
+    {
+      "id": "stationary-c012-active_history-e02",
+      "key": [
+        "calibration_fast",
+        300000000,
+        [
+          0,
+          1500000000
+        ],
+        [
+          2000000000,
+          3000000000
+        ],
+        "none"
+      ],
+      "joint_original_contract": "TRUE",
+      "graph_feasible": true
+    },
+    {
+      "id": "stationary-c013-active_history-e02",
+      "key": [
+        "calibration_fast",
+        300000000,
+        [
+          0,
+          1500000000
+        ],
+        [
+          2000000000,
+          3000000000
+        ],
+        "drop_first"
+      ],
+      "joint_original_contract": "FALSE",
+      "graph_feasible": false
+    },
+    {
+      "id": "stationary-c014-active_history-e02",
+      "key": [
+        "calibration_fast",
+        300000000,
+        [
+          0,
+          1500000000
+        ],
+        [
+          2000000000,
+          3000000000
+        ],
+        "persistent_primary"
+      ],
+      "joint_original_contract": "FALSE",
+      "graph_feasible": false
+    },
+    {
+      "id": "stationary-c015-active_history-e02",
+      "key": [
+        "calibration_fast",
+        300000000,
+        [
+          0,
+          1500000000
+        ],
+        [
+          3000000000,
+          4000000000
+        ],
+        "none"
+      ],
+      "joint_original_contract": "TRUE",
+      "graph_feasible": true
+    },
+    {
+      "id": "stationary-c016-active_history-e02",
+      "key": [
+        "calibration_fast",
+        300000000,
+        [
+          0,
+          1500000000
+        ],
+        [
+          3000000000,
+          4000000000
+        ],
+        "drop_first"
+      ],
+      "joint_original_contract": "FALSE",
+      "graph_feasible": false
+    },
+    {
+      "id": "stationary-c017-active_history-e02",
+      "key": [
+        "calibration_fast",
+        300000000,
+        [
+          0,
+          1500000000
+        ],
+        [
+          3000000000,
+          4000000000
+        ],
+        "persistent_primary"
+      ],
+      "joint_original_contract": "FALSE",
+      "graph_feasible": false
+    },
+    {
+      "id": "stationary-c018-active_history-e02",
+      "key": [
+        "calibration_fast",
+        300000000,
+        [
+          0,
+          2500000000
+        ],
+        [
+          2000000000,
+          3000000000
+        ],
+        "none"
+      ],
+      "joint_original_contract": "TRUE",
+      "graph_feasible": true
+    },
+    {
+      "id": "stationary-c019-active_history-e02",
+      "key": [
+        "calibration_fast",
+        300000000,
+        [
+          0,
+          2500000000
+        ],
+        [
+          2000000000,
+          3000000000
+        ],
+        "drop_first"
+      ],
+      "joint_original_contract": "TRUE",
+      "graph_feasible": true
+    },
+    {
+      "id": "stationary-c020-active_history-e02",
+      "key": [
+        "calibration_fast",
+        300000000,
+        [
+          0,
+          2500000000
+        ],
+        [
+          2000000000,
+          3000000000
+        ],
+        "persistent_primary"
+      ],
+      "joint_original_contract": "TRUE",
+      "graph_feasible": true
+    },
+    {
+      "id": "stationary-c021-active_history-e02",
+      "key": [
+        "calibration_fast",
+        300000000,
+        [
+          0,
+          2500000000
+        ],
+        [
+          3000000000,
+          4000000000
+        ],
+        "none"
+      ],
+      "joint_original_contract": "TRUE",
+      "graph_feasible": true
+    },
+    {
+      "id": "stationary-c022-active_history-e02",
+      "key": [
+        "calibration_fast",
+        300000000,
+        [
+          0,
+          2500000000
+        ],
+        [
+          3000000000,
+          4000000000
+        ],
+        "drop_first"
+      ],
+      "joint_original_contract": "TRUE",
+      "graph_feasible": true
+    },
+    {
+      "id": "stationary-c023-active_history-e02",
+      "key": [
+        "calibration_fast",
+        300000000,
+        [
+          0,
+          2500000000
+        ],
+        [
+          3000000000,
+          4000000000
+        ],
+        "persistent_primary"
+      ],
+      "joint_original_contract": "FALSE",
+      "graph_feasible": false
+    },
+    {
+      "id": "stationary-c024-active_history-e02",
+      "key": [
+        "calibration_fast",
+        900000000,
+        [
+          0,
+          1500000000
+        ],
+        [
+          2000000000,
+          3000000000
+        ],
+        "none"
+      ],
+      "joint_original_contract": "FALSE",
+      "graph_feasible": false
+    },
+    {
+      "id": "stationary-c025-active_history-e02",
+      "key": [
+        "calibration_fast",
+        900000000,
+        [
+          0,
+          1500000000
+        ],
+        [
+          2000000000,
+          3000000000
+        ],
+        "drop_first"
+      ],
+      "joint_original_contract": "FALSE",
+      "graph_feasible": false
+    },
+    {
+      "id": "stationary-c026-active_history-e02",
+      "key": [
+        "calibration_fast",
+        900000000,
+        [
+          0,
+          1500000000
+        ],
+        [
+          2000000000,
+          3000000000
+        ],
+        "persistent_primary"
+      ],
+      "joint_original_contract": "FALSE",
+      "graph_feasible": false
+    },
+    {
+      "id": "stationary-c027-active_history-e02",
+      "key": [
+        "calibration_fast",
+        900000000,
+        [
+          0,
+          1500000000
+        ],
+        [
+          3000000000,
+          4000000000
+        ],
+        "none"
+      ],
+      "joint_original_contract": "FALSE",
+      "graph_feasible": false
+    },
+    {
+      "id": "stationary-c028-active_history-e02",
+      "key": [
+        "calibration_fast",
+        900000000,
+        [
+          0,
+          1500000000
+        ],
+        [
+          3000000000,
+          4000000000
+        ],
+        "drop_first"
+      ],
+      "joint_original_contract": "FALSE",
+      "graph_feasible": false
+    },
+    {
+      "id": "stationary-c029-active_history-e02",
+      "key": [
+        "calibration_fast",
+        900000000,
+        [
+          0,
+          1500000000
+        ],
+        [
+          3000000000,
+          4000000000
+        ],
+        "persistent_primary"
+      ],
+      "joint_original_contract": "FALSE",
+      "graph_feasible": false
+    },
+    {
+      "id": "stationary-c030-active_history-e02",
+      "key": [
+        "calibration_fast",
+        900000000,
+        [
+          0,
+          2500000000
+        ],
+        [
+          2000000000,
+          3000000000
+        ],
+        "none"
+      ],
+      "joint_original_contract": "TRUE",
+      "graph_feasible": true
+    },
+    {
+      "id": "stationary-c031-active_history-e02",
+      "key": [
+        "calibration_fast",
+        900000000,
+        [
+          0,
+          2500000000
+        ],
+        [
+          2000000000,
+          3000000000
+        ],
+        "drop_first"
+      ],
+      "joint_original_contract": "TRUE",
+      "graph_feasible": true
+    },
+    {
+      "id": "stationary-c032-active_history-e02",
+      "key": [
+        "calibration_fast",
+        900000000,
+        [
+          0,
+          2500000000
+        ],
+        [
+          2000000000,
+          3000000000
+        ],
+        "persistent_primary"
+      ],
+      "joint_original_contract": "TRUE",
+      "graph_feasible": true
+    },
+    {
+      "id": "stationary-c033-active_history-e02",
+      "key": [
+        "calibration_fast",
+        900000000,
+        [
+          0,
+          2500000000
+        ],
+        [
+          3000000000,
+          4000000000
+        ],
+        "none"
+      ],
+      "joint_original_contract": "TRUE",
+      "graph_feasible": true
+    },
+    {
+      "id": "stationary-c034-active_history-e02",
+      "key": [
+        "calibration_fast",
+        900000000,
+        [
+          0,
+          2500000000
+        ],
+        [
+          3000000000,
+          4000000000
+        ],
+        "drop_first"
+      ],
+      "joint_original_contract": "TRUE",
+      "graph_feasible": true
+    },
+    {
+      "id": "stationary-c035-active_history-e02",
+      "key": [
+        "calibration_fast",
+        900000000,
+        [
+          0,
+          2500000000
+        ],
+        [
+          3000000000,
+          4000000000
+        ],
+        "persistent_primary"
+      ],
+      "joint_original_contract": "FALSE",
+      "graph_feasible": false
+    },
+    {
+      "id": "stationary-c036-active_history-e02",
+      "key": [
+        "calibration_slow",
+        0,
+        [
+          0,
+          1500000000
+        ],
+        [
+          2000000000,
+          3000000000
+        ],
+        "none"
+      ],
+      "joint_original_contract": "TRUE",
+      "graph_feasible": true
+    },
+    {
+      "id": "stationary-c037-active_history-e02",
+      "key": [
+        "calibration_slow",
+        0,
+        [
+          0,
+          1500000000
+        ],
+        [
+          2000000000,
+          3000000000
+        ],
+        "drop_first"
+      ],
+      "joint_original_contract": "FALSE",
+      "graph_feasible": false
+    },
+    {
+      "id": "stationary-c038-active_history-e02",
+      "key": [
+        "calibration_slow",
+        0,
+        [
+          0,
+          1500000000
+        ],
+        [
+          2000000000,
+          3000000000
+        ],
+        "persistent_primary"
+      ],
+      "joint_original_contract": "FALSE",
+      "graph_feasible": false
+    },
+    {
+      "id": "stationary-c039-active_history-e02",
+      "key": [
+        "calibration_slow",
+        0,
+        [
+          0,
+          1500000000
+        ],
+        [
+          3000000000,
+          4000000000
+        ],
+        "none"
+      ],
+      "joint_original_contract": "TRUE",
+      "graph_feasible": true
+    },
+    {
+      "id": "stationary-c040-active_history-e02",
+      "key": [
+        "calibration_slow",
+        0,
+        [
+          0,
+          1500000000
+        ],
+        [
+          3000000000,
+          4000000000
+        ],
+        "drop_first"
+      ],
+      "joint_original_contract": "FALSE",
+      "graph_feasible": false
+    },
+    {
+      "id": "stationary-c041-active_history-e02",
+      "key": [
+        "calibration_slow",
+        0,
+        [
+          0,
+          1500000000
+        ],
+        [
+          3000000000,
+          4000000000
+        ],
+        "persistent_primary"
+      ],
+      "joint_original_contract": "FALSE",
+      "graph_feasible": false
+    },
+    {
+      "id": "stationary-c042-active_history-e02",
+      "key": [
+        "calibration_slow",
+        0,
+        [
+          0,
+          2500000000
+        ],
+        [
+          2000000000,
+          3000000000
+        ],
+        "none"
+      ],
+      "joint_original_contract": "TRUE",
+      "graph_feasible": true
+    },
+    {
+      "id": "stationary-c043-active_history-e02",
+      "key": [
+        "calibration_slow",
+        0,
+        [
+          0,
+          2500000000
+        ],
+        [
+          2000000000,
+          3000000000
+        ],
+        "drop_first"
+      ],
+      "joint_original_contract": "TRUE",
+      "graph_feasible": true
+    },
+    {
+      "id": "stationary-c044-active_history-e02",
+      "key": [
+        "calibration_slow",
+        0,
+        [
+          0,
+          2500000000
+        ],
+        [
+          2000000000,
+          3000000000
+        ],
+        "persistent_primary"
+      ],
+      "joint_original_contract": "TRUE",
+      "graph_feasible": true
+    },
+    {
+      "id": "stationary-c045-active_history-e02",
+      "key": [
+        "calibration_slow",
+        0,
+        [
+          0,
+          2500000000
+        ],
+        [
+          3000000000,
+          4000000000
+        ],
+        "none"
+      ],
+      "joint_original_contract": "TRUE",
+      "graph_feasible": true
+    },
+    {
+      "id": "stationary-c046-active_history-e02",
+      "key": [
+        "calibration_slow",
+        0,
+        [
+          0,
+          2500000000
+        ],
+        [
+          3000000000,
+          4000000000
+        ],
+        "drop_first"
+      ],
+      "joint_original_contract": "TRUE",
+      "graph_feasible": true
+    },
+    {
+      "id": "stationary-c047-active_history-e02",
+      "key": [
+        "calibration_slow",
+        0,
+        [
+          0,
+          2500000000
+        ],
+        [
+          3000000000,
+          4000000000
+        ],
+        "persistent_primary"
+      ],
+      "joint_original_contract": "FALSE",
+      "graph_feasible": false
+    },
+    {
+      "id": "stationary-c048-active_history-e02",
+      "key": [
+        "calibration_slow",
+        300000000,
+        [
+          0,
+          1500000000
+        ],
+        [
+          2000000000,
+          3000000000
+        ],
+        "none"
+      ],
+      "joint_original_contract": "TRUE",
+      "graph_feasible": true
+    },
+    {
+      "id": "stationary-c049-active_history-e02",
+      "key": [
+        "calibration_slow",
+        300000000,
+        [
+          0,
+          1500000000
+        ],
+        [
+          2000000000,
+          3000000000
+        ],
+        "drop_first"
+      ],
+      "joint_original_contract": "FALSE",
+      "graph_feasible": false
+    },
+    {
+      "id": "stationary-c050-active_history-e02",
+      "key": [
+        "calibration_slow",
+        300000000,
+        [
+          0,
+          1500000000
+        ],
+        [
+          2000000000,
+          3000000000
+        ],
+        "persistent_primary"
+      ],
+      "joint_original_contract": "FALSE",
+      "graph_feasible": false
+    },
+    {
+      "id": "stationary-c051-active_history-e02",
+      "key": [
+        "calibration_slow",
+        300000000,
+        [
+          0,
+          1500000000
+        ],
+        [
+          3000000000,
+          4000000000
+        ],
+        "none"
+      ],
+      "joint_original_contract": "TRUE",
+      "graph_feasible": true
+    },
+    {
+      "id": "stationary-c052-active_history-e02",
+      "key": [
+        "calibration_slow",
+        300000000,
+        [
+          0,
+          1500000000
+        ],
+        [
+          3000000000,
+          4000000000
+        ],
+        "drop_first"
+      ],
+      "joint_original_contract": "FALSE",
+      "graph_feasible": false
+    },
+    {
+      "id": "stationary-c053-active_history-e02",
+      "key": [
+        "calibration_slow",
+        300000000,
+        [
+          0,
+          1500000000
+        ],
+        [
+          3000000000,
+          4000000000
+        ],
+        "persistent_primary"
+      ],
+      "joint_original_contract": "FALSE",
+      "graph_feasible": false
+    },
+    {
+      "id": "stationary-c054-active_history-e02",
+      "key": [
+        "calibration_slow",
+        300000000,
+        [
+          0,
+          2500000000
+        ],
+        [
+          2000000000,
+          3000000000
+        ],
+        "none"
+      ],
+      "joint_original_contract": "TRUE",
+      "graph_feasible": true
+    },
+    {
+      "id": "stationary-c055-active_history-e02",
+      "key": [
+        "calibration_slow",
+        300000000,
+        [
+          0,
+          2500000000
+        ],
+        [
+          2000000000,
+          3000000000
+        ],
+        "drop_first"
+      ],
+      "joint_original_contract": "TRUE",
+      "graph_feasible": true
+    },
+    {
+      "id": "stationary-c056-active_history-e02",
+      "key": [
+        "calibration_slow",
+        300000000,
+        [
+          0,
+          2500000000
+        ],
+        [
+          2000000000,
+          3000000000
+        ],
+        "persistent_primary"
+      ],
+      "joint_original_contract": "TRUE",
+      "graph_feasible": true
+    },
+    {
+      "id": "stationary-c057-active_history-e02",
+      "key": [
+        "calibration_slow",
+        300000000,
+        [
+          0,
+          2500000000
+        ],
+        [
+          3000000000,
+          4000000000
+        ],
+        "none"
+      ],
+      "joint_original_contract": "TRUE",
+      "graph_feasible": true
+    },
+    {
+      "id": "stationary-c058-active_history-e02",
+      "key": [
+        "calibration_slow",
+        300000000,
+        [
+          0,
+          2500000000
+        ],
+        [
+          3000000000,
+          4000000000
+        ],
+        "drop_first"
+      ],
+      "joint_original_contract": "TRUE",
+      "graph_feasible": true
+    },
+    {
+      "id": "stationary-c059-active_history-e02",
+      "key": [
+        "calibration_slow",
+        300000000,
+        [
+          0,
+          2500000000
+        ],
+        [
+          3000000000,
+          4000000000
+        ],
+        "persistent_primary"
+      ],
+      "joint_original_contract": "FALSE",
+      "graph_feasible": false
+    },
+    {
+      "id": "stationary-c060-active_history-e02",
+      "key": [
+        "calibration_slow",
+        900000000,
+        [
+          0,
+          1500000000
+        ],
+        [
+          2000000000,
+          3000000000
+        ],
+        "none"
+      ],
+      "joint_original_contract": "FALSE",
+      "graph_feasible": false
+    },
+    {
+      "id": "stationary-c061-active_history-e02",
+      "key": [
+        "calibration_slow",
+        900000000,
+        [
+          0,
+          1500000000
+        ],
+        [
+          2000000000,
+          3000000000
+        ],
+        "drop_first"
+      ],
+      "joint_original_contract": "FALSE",
+      "graph_feasible": false
+    },
+    {
+      "id": "stationary-c062-active_history-e02",
+      "key": [
+        "calibration_slow",
+        900000000,
+        [
+          0,
+          1500000000
+        ],
+        [
+          2000000000,
+          3000000000
+        ],
+        "persistent_primary"
+      ],
+      "joint_original_contract": "FALSE",
+      "graph_feasible": false
+    },
+    {
+      "id": "stationary-c063-active_history-e02",
+      "key": [
+        "calibration_slow",
+        900000000,
+        [
+          0,
+          1500000000
+        ],
+        [
+          3000000000,
+          4000000000
+        ],
+        "none"
+      ],
+      "joint_original_contract": "FALSE",
+      "graph_feasible": false
+    },
+    {
+      "id": "stationary-c064-active_history-e02",
+      "key": [
+        "calibration_slow",
+        900000000,
+        [
+          0,
+          1500000000
+        ],
+        [
+          3000000000,
+          4000000000
+        ],
+        "drop_first"
+      ],
+      "joint_original_contract": "FALSE",
+      "graph_feasible": false
+    },
+    {
+      "id": "stationary-c065-active_history-e02",
+      "key": [
+        "calibration_slow",
+        900000000,
+        [
+          0,
+          1500000000
+        ],
+        [
+          3000000000,
+          4000000000
+        ],
+        "persistent_primary"
+      ],
+      "joint_original_contract": "FALSE",
+      "graph_feasible": false
+    },
+    {
+      "id": "stationary-c066-active_history-e02",
+      "key": [
+        "calibration_slow",
+        900000000,
+        [
+          0,
+          2500000000
+        ],
+        [
+          2000000000,
+          3000000000
+        ],
+        "none"
+      ],
+      "joint_original_contract": "TRUE",
+      "graph_feasible": true
+    },
+    {
+      "id": "stationary-c067-active_history-e02",
+      "key": [
+        "calibration_slow",
+        900000000,
+        [
+          0,
+          2500000000
+        ],
+        [
+          2000000000,
+          3000000000
+        ],
+        "drop_first"
+      ],
+      "joint_original_contract": "TRUE",
+      "graph_feasible": true
+    },
+    {
+      "id": "stationary-c068-active_history-e02",
+      "key": [
+        "calibration_slow",
+        900000000,
+        [
+          0,
+          2500000000
+        ],
+        [
+          2000000000,
+          3000000000
+        ],
+        "persistent_primary"
+      ],
+      "joint_original_contract": "TRUE",
+      "graph_feasible": true
+    },
+    {
+      "id": "stationary-c069-active_history-e02",
+      "key": [
+        "calibration_slow",
+        900000000,
+        [
+          0,
+          2500000000
+        ],
+        [
+          3000000000,
+          4000000000
+        ],
+        "none"
+      ],
+      "joint_original_contract": "TRUE",
+      "graph_feasible": true
+    },
+    {
+      "id": "stationary-c070-active_history-e02",
+      "key": [
+        "calibration_slow",
+        900000000,
+        [
+          0,
+          2500000000
+        ],
+        [
+          3000000000,
+          4000000000
+        ],
+        "drop_first"
+      ],
+      "joint_original_contract": "FALSE",
+      "graph_feasible": false
+    },
+    {
+      "id": "stationary-c071-active_history-e02",
+      "key": [
+        "calibration_slow",
+        900000000,
+        [
+          0,
+          2500000000
+        ],
+        [
+          3000000000,
+          4000000000
+        ],
+        "persistent_primary"
+      ],
+      "joint_original_contract": "FALSE",
+      "graph_feasible": false
+    },
+    {
+      "id": "stationary-c072-active_history-e02",
+      "key": [
+        "response_shift",
+        0,
+        [
+          0,
+          1500000000
+        ],
+        [
+          2000000000,
+          3000000000
+        ],
+        "none"
+      ],
+      "joint_original_contract": "FALSE",
+      "graph_feasible": false
+    },
+    {
+      "id": "stationary-c073-active_history-e02",
+      "key": [
+        "response_shift",
+        0,
+        [
+          0,
+          1500000000
+        ],
+        [
+          2000000000,
+          3000000000
+        ],
+        "drop_first"
+      ],
+      "joint_original_contract": "FALSE",
+      "graph_feasible": false
+    },
+    {
+      "id": "stationary-c074-active_history-e02",
+      "key": [
+        "response_shift",
+        0,
+        [
+          0,
+          1500000000
+        ],
+        [
+          2000000000,
+          3000000000
+        ],
+        "persistent_primary"
+      ],
+      "joint_original_contract": "FALSE",
+      "graph_feasible": false
+    },
+    {
+      "id": "stationary-c075-active_history-e02",
+      "key": [
+        "response_shift",
+        0,
+        [
+          0,
+          1500000000
+        ],
+        [
+          3000000000,
+          4000000000
+        ],
+        "none"
+      ],
+      "joint_original_contract": "FALSE",
+      "graph_feasible": false
+    },
+    {
+      "id": "stationary-c076-active_history-e02",
+      "key": [
+        "response_shift",
+        0,
+        [
+          0,
+          1500000000
+        ],
+        [
+          3000000000,
+          4000000000
+        ],
+        "drop_first"
+      ],
+      "joint_original_contract": "FALSE",
+      "graph_feasible": false
+    },
+    {
+      "id": "stationary-c077-active_history-e02",
+      "key": [
+        "response_shift",
+        0,
+        [
+          0,
+          1500000000
+        ],
+        [
+          3000000000,
+          4000000000
+        ],
+        "persistent_primary"
+      ],
+      "joint_original_contract": "FALSE",
+      "graph_feasible": false
+    },
+    {
+      "id": "stationary-c078-active_history-e02",
+      "key": [
+        "response_shift",
+        0,
+        [
+          0,
+          2500000000
+        ],
+        [
+          2000000000,
+          3000000000
+        ],
+        "none"
+      ],
+      "joint_original_contract": "TRUE",
+      "graph_feasible": true
+    },
+    {
+      "id": "stationary-c079-active_history-e02",
+      "key": [
+        "response_shift",
+        0,
+        [
+          0,
+          2500000000
+        ],
+        [
+          2000000000,
+          3000000000
+        ],
+        "drop_first"
+      ],
+      "joint_original_contract": "TRUE",
+      "graph_feasible": true
+    },
+    {
+      "id": "stationary-c080-active_history-e02",
+      "key": [
+        "response_shift",
+        0,
+        [
+          0,
+          2500000000
+        ],
+        [
+          2000000000,
+          3000000000
+        ],
+        "persistent_primary"
+      ],
+      "joint_original_contract": "FALSE",
+      "graph_feasible": false
+    },
+    {
+      "id": "stationary-c081-active_history-e02",
+      "key": [
+        "response_shift",
+        0,
+        [
+          0,
+          2500000000
+        ],
+        [
+          3000000000,
+          4000000000
+        ],
+        "none"
+      ],
+      "joint_original_contract": "TRUE",
+      "graph_feasible": true
+    },
+    {
+      "id": "stationary-c082-active_history-e02",
+      "key": [
+        "response_shift",
+        0,
+        [
+          0,
+          2500000000
+        ],
+        [
+          3000000000,
+          4000000000
+        ],
+        "drop_first"
+      ],
+      "joint_original_contract": "TRUE",
+      "graph_feasible": true
+    },
+    {
+      "id": "stationary-c083-active_history-e02",
+      "key": [
+        "response_shift",
+        0,
+        [
+          0,
+          2500000000
+        ],
+        [
+          3000000000,
+          4000000000
+        ],
+        "persistent_primary"
+      ],
+      "joint_original_contract": "FALSE",
+      "graph_feasible": false
+    },
+    {
+      "id": "stationary-c084-active_history-e02",
+      "key": [
+        "response_shift",
+        300000000,
+        [
+          0,
+          1500000000
+        ],
+        [
+          2000000000,
+          3000000000
+        ],
+        "none"
+      ],
+      "joint_original_contract": "FALSE",
+      "graph_feasible": false
+    },
+    {
+      "id": "stationary-c085-active_history-e02",
+      "key": [
+        "response_shift",
+        300000000,
+        [
+          0,
+          1500000000
+        ],
+        [
+          2000000000,
+          3000000000
+        ],
+        "drop_first"
+      ],
+      "joint_original_contract": "FALSE",
+      "graph_feasible": false
+    },
+    {
+      "id": "stationary-c086-active_history-e02",
+      "key": [
+        "response_shift",
+        300000000,
+        [
+          0,
+          1500000000
+        ],
+        [
+          2000000000,
+          3000000000
+        ],
+        "persistent_primary"
+      ],
+      "joint_original_contract": "FALSE",
+      "graph_feasible": false
+    },
+    {
+      "id": "stationary-c087-active_history-e02",
+      "key": [
+        "response_shift",
+        300000000,
+        [
+          0,
+          1500000000
+        ],
+        [
+          3000000000,
+          4000000000
+        ],
+        "none"
+      ],
+      "joint_original_contract": "FALSE",
+      "graph_feasible": false
+    },
+    {
+      "id": "stationary-c088-active_history-e02",
+      "key": [
+        "response_shift",
+        300000000,
+        [
+          0,
+          1500000000
+        ],
+        [
+          3000000000,
+          4000000000
+        ],
+        "drop_first"
+      ],
+      "joint_original_contract": "FALSE",
+      "graph_feasible": false
+    },
+    {
+      "id": "stationary-c089-active_history-e02",
+      "key": [
+        "response_shift",
+        300000000,
+        [
+          0,
+          1500000000
+        ],
+        [
+          3000000000,
+          4000000000
+        ],
+        "persistent_primary"
+      ],
+      "joint_original_contract": "FALSE",
+      "graph_feasible": false
+    },
+    {
+      "id": "stationary-c090-active_history-e02",
+      "key": [
+        "response_shift",
+        300000000,
+        [
+          0,
+          2500000000
+        ],
+        [
+          2000000000,
+          3000000000
+        ],
+        "none"
+      ],
+      "joint_original_contract": "TRUE",
+      "graph_feasible": true
+    },
+    {
+      "id": "stationary-c091-active_history-e02",
+      "key": [
+        "response_shift",
+        300000000,
+        [
+          0,
+          2500000000
+        ],
+        [
+          2000000000,
+          3000000000
+        ],
+        "drop_first"
+      ],
+      "joint_original_contract": "FALSE",
+      "graph_feasible": false
+    },
+    {
+      "id": "stationary-c092-active_history-e02",
+      "key": [
+        "response_shift",
+        300000000,
+        [
+          0,
+          2500000000
+        ],
+        [
+          2000000000,
+          3000000000
+        ],
+        "persistent_primary"
+      ],
+      "joint_original_contract": "FALSE",
+      "graph_feasible": false
+    },
+    {
+      "id": "stationary-c093-active_history-e02",
+      "key": [
+        "response_shift",
+        300000000,
+        [
+          0,
+          2500000000
+        ],
+        [
+          3000000000,
+          4000000000
+        ],
+        "none"
+      ],
+      "joint_original_contract": "TRUE",
+      "graph_feasible": true
+    },
+    {
+      "id": "stationary-c094-active_history-e02",
+      "key": [
+        "response_shift",
+        300000000,
+        [
+          0,
+          2500000000
+        ],
+        [
+          3000000000,
+          4000000000
+        ],
+        "drop_first"
+      ],
+      "joint_original_contract": "FALSE",
+      "graph_feasible": false
+    },
+    {
+      "id": "stationary-c095-active_history-e02",
+      "key": [
+        "response_shift",
+        300000000,
+        [
+          0,
+          2500000000
+        ],
+        [
+          3000000000,
+          4000000000
+        ],
+        "persistent_primary"
+      ],
+      "joint_original_contract": "FALSE",
+      "graph_feasible": false
+    },
+    {
+      "id": "stationary-c096-active_history-e02",
+      "key": [
+        "response_shift",
+        900000000,
+        [
+          0,
+          1500000000
+        ],
+        [
+          2000000000,
+          3000000000
+        ],
+        "none"
+      ],
+      "joint_original_contract": "FALSE",
+      "graph_feasible": false
+    },
+    {
+      "id": "stationary-c097-active_history-e02",
+      "key": [
+        "response_shift",
+        900000000,
+        [
+          0,
+          1500000000
+        ],
+        [
+          2000000000,
+          3000000000
+        ],
+        "drop_first"
+      ],
+      "joint_original_contract": "FALSE",
+      "graph_feasible": false
+    },
+    {
+      "id": "stationary-c098-active_history-e02",
+      "key": [
+        "response_shift",
+        900000000,
+        [
+          0,
+          1500000000
+        ],
+        [
+          2000000000,
+          3000000000
+        ],
+        "persistent_primary"
+      ],
+      "joint_original_contract": "FALSE",
+      "graph_feasible": false
+    },
+    {
+      "id": "stationary-c099-active_history-e02",
+      "key": [
+        "response_shift",
+        900000000,
+        [
+          0,
+          1500000000
+        ],
+        [
+          3000000000,
+          4000000000
+        ],
+        "none"
+      ],
+      "joint_original_contract": "FALSE",
+      "graph_feasible": false
+    },
+    {
+      "id": "stationary-c100-active_history-e02",
+      "key": [
+        "response_shift",
+        900000000,
+        [
+          0,
+          1500000000
+        ],
+        [
+          3000000000,
+          4000000000
+        ],
+        "drop_first"
+      ],
+      "joint_original_contract": "FALSE",
+      "graph_feasible": false
+    },
+    {
+      "id": "stationary-c101-active_history-e02",
+      "key": [
+        "response_shift",
+        900000000,
+        [
+          0,
+          1500000000
+        ],
+        [
+          3000000000,
+          4000000000
+        ],
+        "persistent_primary"
+      ],
+      "joint_original_contract": "FALSE",
+      "graph_feasible": false
+    },
+    {
+      "id": "stationary-c102-active_history-e02",
+      "key": [
+        "response_shift",
+        900000000,
+        [
+          0,
+          2500000000
+        ],
+        [
+          2000000000,
+          3000000000
+        ],
+        "none"
+      ],
+      "joint_original_contract": "FALSE",
+      "graph_feasible": false
+    },
+    {
+      "id": "stationary-c103-active_history-e02",
+      "key": [
+        "response_shift",
+        900000000,
+        [
+          0,
+          2500000000
+        ],
+        [
+          2000000000,
+          3000000000
+        ],
+        "drop_first"
+      ],
+      "joint_original_contract": "FALSE",
+      "graph_feasible": false
+    },
+    {
+      "id": "stationary-c104-active_history-e02",
+      "key": [
+        "response_shift",
+        900000000,
+        [
+          0,
+          2500000000
+        ],
+        [
+          2000000000,
+          3000000000
+        ],
+        "persistent_primary"
+      ],
+      "joint_original_contract": "FALSE",
+      "graph_feasible": false
+    },
+    {
+      "id": "stationary-c105-active_history-e02",
+      "key": [
+        "response_shift",
+        900000000,
+        [
+          0,
+          2500000000
+        ],
+        [
+          3000000000,
+          4000000000
+        ],
+        "none"
+      ],
+      "joint_original_contract": "FALSE",
+      "graph_feasible": false
+    },
+    {
+      "id": "stationary-c106-active_history-e02",
+      "key": [
+        "response_shift",
+        900000000,
+        [
+          0,
+          2500000000
+        ],
+        [
+          3000000000,
+          4000000000
+        ],
+        "drop_first"
+      ],
+      "joint_original_contract": "FALSE",
+      "graph_feasible": false
+    },
+    {
+      "id": "stationary-c107-active_history-e02",
+      "key": [
+        "response_shift",
+        900000000,
+        [
+          0,
+          2500000000
+        ],
+        [
+          3000000000,
+          4000000000
+        ],
+        "persistent_primary"
+      ],
+      "joint_original_contract": "FALSE",
+      "graph_feasible": false
+    },
+    {
+      "id": "stationary-c108-active_history-e02",
+      "key": [
+        "fresh_inertia_damping_1",
+        0,
+        [
+          0,
+          1500000000
+        ],
+        [
+          2000000000,
+          3000000000
+        ],
+        "none"
+      ],
+      "joint_original_contract": "TRUE",
+      "graph_feasible": true
+    },
+    {
+      "id": "stationary-c109-active_history-e02",
+      "key": [
+        "fresh_inertia_damping_1",
+        0,
+        [
+          0,
+          1500000000
+        ],
+        [
+          2000000000,
+          3000000000
+        ],
+        "drop_first"
+      ],
+      "joint_original_contract": "TRUE",
+      "graph_feasible": true
+    },
+    {
+      "id": "stationary-c110-active_history-e02",
+      "key": [
+        "fresh_inertia_damping_1",
+        0,
+        [
+          0,
+          1500000000
+        ],
+        [
+          2000000000,
+          3000000000
+        ],
+        "persistent_primary"
+      ],
+      "joint_original_contract": "FALSE",
+      "graph_feasible": false
+    },
+    {
+      "id": "stationary-c111-active_history-e02",
+      "key": [
+        "fresh_inertia_damping_1",
+        0,
+        [
+          0,
+          1500000000
+        ],
+        [
+          3000000000,
+          4000000000
+        ],
+        "none"
+      ],
+      "joint_original_contract": "TRUE",
+      "graph_feasible": true
+    },
+    {
+      "id": "stationary-c112-active_history-e02",
+      "key": [
+        "fresh_inertia_damping_1",
+        0,
+        [
+          0,
+          1500000000
+        ],
+        [
+          3000000000,
+          4000000000
+        ],
+        "drop_first"
+      ],
+      "joint_original_contract": "TRUE",
+      "graph_feasible": true
+    },
+    {
+      "id": "stationary-c113-active_history-e02",
+      "key": [
+        "fresh_inertia_damping_1",
+        0,
+        [
+          0,
+          1500000000
+        ],
+        [
+          3000000000,
+          4000000000
+        ],
+        "persistent_primary"
+      ],
+      "joint_original_contract": "FALSE",
+      "graph_feasible": false
+    },
+    {
+      "id": "stationary-c114-active_history-e02",
+      "key": [
+        "fresh_inertia_damping_1",
+        0,
+        [
+          0,
+          2500000000
+        ],
+        [
+          2000000000,
+          3000000000
+        ],
+        "none"
+      ],
+      "joint_original_contract": "TRUE",
+      "graph_feasible": true
+    },
+    {
+      "id": "stationary-c115-active_history-e02",
+      "key": [
+        "fresh_inertia_damping_1",
+        0,
+        [
+          0,
+          2500000000
+        ],
+        [
+          2000000000,
+          3000000000
+        ],
+        "drop_first"
+      ],
+      "joint_original_contract": "TRUE",
+      "graph_feasible": true
+    },
+    {
+      "id": "stationary-c116-active_history-e02",
+      "key": [
+        "fresh_inertia_damping_1",
+        0,
+        [
+          0,
+          2500000000
+        ],
+        [
+          2000000000,
+          3000000000
+        ],
+        "persistent_primary"
+      ],
+      "joint_original_contract": "TRUE",
+      "graph_feasible": true
+    },
+    {
+      "id": "stationary-c117-active_history-e02",
+      "key": [
+        "fresh_inertia_damping_1",
+        0,
+        [
+          0,
+          2500000000
+        ],
+        [
+          3000000000,
+          4000000000
+        ],
+        "none"
+      ],
+      "joint_original_contract": "TRUE",
+      "graph_feasible": true
+    },
+    {
+      "id": "stationary-c118-active_history-e02",
+      "key": [
+        "fresh_inertia_damping_1",
+        0,
+        [
+          0,
+          2500000000
+        ],
+        [
+          3000000000,
+          4000000000
+        ],
+        "drop_first"
+      ],
+      "joint_original_contract": "TRUE",
+      "graph_feasible": true
+    },
+    {
+      "id": "stationary-c119-active_history-e02",
+      "key": [
+        "fresh_inertia_damping_1",
+        0,
+        [
+          0,
+          2500000000
+        ],
+        [
+          3000000000,
+          4000000000
+        ],
+        "persistent_primary"
+      ],
+      "joint_original_contract": "FALSE",
+      "graph_feasible": false
+    },
+    {
+      "id": "stationary-c120-active_history-e02",
+      "key": [
+        "fresh_inertia_damping_1",
+        300000000,
+        [
+          0,
+          1500000000
+        ],
+        [
+          2000000000,
+          3000000000
+        ],
+        "none"
+      ],
+      "joint_original_contract": "TRUE",
+      "graph_feasible": true
+    },
+    {
+      "id": "stationary-c121-active_history-e02",
+      "key": [
+        "fresh_inertia_damping_1",
+        300000000,
+        [
+          0,
+          1500000000
+        ],
+        [
+          2000000000,
+          3000000000
+        ],
+        "drop_first"
+      ],
+      "joint_original_contract": "FALSE",
+      "graph_feasible": false
+    },
+    {
+      "id": "stationary-c122-active_history-e02",
+      "key": [
+        "fresh_inertia_damping_1",
+        300000000,
+        [
+          0,
+          1500000000
+        ],
+        [
+          2000000000,
+          3000000000
+        ],
+        "persistent_primary"
+      ],
+      "joint_original_contract": "FALSE",
+      "graph_feasible": false
+    },
+    {
+      "id": "stationary-c123-active_history-e02",
+      "key": [
+        "fresh_inertia_damping_1",
+        300000000,
+        [
+          0,
+          1500000000
+        ],
+        [
+          3000000000,
+          4000000000
+        ],
+        "none"
+      ],
+      "joint_original_contract": "TRUE",
+      "graph_feasible": true
+    },
+    {
+      "id": "stationary-c124-active_history-e02",
+      "key": [
+        "fresh_inertia_damping_1",
+        300000000,
+        [
+          0,
+          1500000000
+        ],
+        [
+          3000000000,
+          4000000000
+        ],
+        "drop_first"
+      ],
+      "joint_original_contract": "FALSE",
+      "graph_feasible": false
+    },
+    {
+      "id": "stationary-c125-active_history-e02",
+      "key": [
+        "fresh_inertia_damping_1",
+        300000000,
+        [
+          0,
+          1500000000
+        ],
+        [
+          3000000000,
+          4000000000
+        ],
+        "persistent_primary"
+      ],
+      "joint_original_contract": "FALSE",
+      "graph_feasible": false
+    },
+    {
+      "id": "stationary-c126-active_history-e02",
+      "key": [
+        "fresh_inertia_damping_1",
+        300000000,
+        [
+          0,
+          2500000000
+        ],
+        [
+          2000000000,
+          3000000000
+        ],
+        "none"
+      ],
+      "joint_original_contract": "TRUE",
+      "graph_feasible": true
+    },
+    {
+      "id": "stationary-c127-active_history-e02",
+      "key": [
+        "fresh_inertia_damping_1",
+        300000000,
+        [
+          0,
+          2500000000
+        ],
+        [
+          2000000000,
+          3000000000
+        ],
+        "drop_first"
+      ],
+      "joint_original_contract": "TRUE",
+      "graph_feasible": true
+    },
+    {
+      "id": "stationary-c128-active_history-e02",
+      "key": [
+        "fresh_inertia_damping_1",
+        300000000,
+        [
+          0,
+          2500000000
+        ],
+        [
+          2000000000,
+          3000000000
+        ],
+        "persistent_primary"
+      ],
+      "joint_original_contract": "TRUE",
+      "graph_feasible": true
+    },
+    {
+      "id": "stationary-c129-active_history-e02",
+      "key": [
+        "fresh_inertia_damping_1",
+        300000000,
+        [
+          0,
+          2500000000
+        ],
+        [
+          3000000000,
+          4000000000
+        ],
+        "none"
+      ],
+      "joint_original_contract": "TRUE",
+      "graph_feasible": true
+    },
+    {
+      "id": "stationary-c130-active_history-e02",
+      "key": [
+        "fresh_inertia_damping_1",
+        300000000,
+        [
+          0,
+          2500000000
+        ],
+        [
+          3000000000,
+          4000000000
+        ],
+        "drop_first"
+      ],
+      "joint_original_contract": "TRUE",
+      "graph_feasible": true
+    },
+    {
+      "id": "stationary-c131-active_history-e02",
+      "key": [
+        "fresh_inertia_damping_1",
+        300000000,
+        [
+          0,
+          2500000000
+        ],
+        [
+          3000000000,
+          4000000000
+        ],
+        "persistent_primary"
+      ],
+      "joint_original_contract": "FALSE",
+      "graph_feasible": false
+    },
+    {
+      "id": "stationary-c132-active_history-e02",
+      "key": [
+        "fresh_inertia_damping_1",
+        900000000,
+        [
+          0,
+          1500000000
+        ],
+        [
+          2000000000,
+          3000000000
+        ],
+        "none"
+      ],
+      "joint_original_contract": "FALSE",
+      "graph_feasible": false
+    },
+    {
+      "id": "stationary-c133-active_history-e02",
+      "key": [
+        "fresh_inertia_damping_1",
+        900000000,
+        [
+          0,
+          1500000000
+        ],
+        [
+          2000000000,
+          3000000000
+        ],
+        "drop_first"
+      ],
+      "joint_original_contract": "FALSE",
+      "graph_feasible": false
+    },
+    {
+      "id": "stationary-c134-active_history-e02",
+      "key": [
+        "fresh_inertia_damping_1",
+        900000000,
+        [
+          0,
+          1500000000
+        ],
+        [
+          2000000000,
+          3000000000
+        ],
+        "persistent_primary"
+      ],
+      "joint_original_contract": "FALSE",
+      "graph_feasible": false
+    },
+    {
+      "id": "stationary-c135-active_history-e02",
+      "key": [
+        "fresh_inertia_damping_1",
+        900000000,
+        [
+          0,
+          1500000000
+        ],
+        [
+          3000000000,
+          4000000000
+        ],
+        "none"
+      ],
+      "joint_original_contract": "FALSE",
+      "graph_feasible": false
+    },
+    {
+      "id": "stationary-c136-active_history-e02",
+      "key": [
+        "fresh_inertia_damping_1",
+        900000000,
+        [
+          0,
+          1500000000
+        ],
+        [
+          3000000000,
+          4000000000
+        ],
+        "drop_first"
+      ],
+      "joint_original_contract": "FALSE",
+      "graph_feasible": false
+    },
+    {
+      "id": "stationary-c137-active_history-e02",
+      "key": [
+        "fresh_inertia_damping_1",
+        900000000,
+        [
+          0,
+          1500000000
+        ],
+        [
+          3000000000,
+          4000000000
+        ],
+        "persistent_primary"
+      ],
+      "joint_original_contract": "FALSE",
+      "graph_feasible": false
+    },
+    {
+      "id": "stationary-c138-active_history-e02",
+      "key": [
+        "fresh_inertia_damping_1",
+        900000000,
+        [
+          0,
+          2500000000
+        ],
+        [
+          2000000000,
+          3000000000
+        ],
+        "none"
+      ],
+      "joint_original_contract": "TRUE",
+      "graph_feasible": true
+    },
+    {
+      "id": "stationary-c139-active_history-e02",
+      "key": [
+        "fresh_inertia_damping_1",
+        900000000,
+        [
+          0,
+          2500000000
+        ],
+        [
+          2000000000,
+          3000000000
+        ],
+        "drop_first"
+      ],
+      "joint_original_contract": "TRUE",
+      "graph_feasible": true
+    },
+    {
+      "id": "stationary-c140-active_history-e02",
+      "key": [
+        "fresh_inertia_damping_1",
+        900000000,
+        [
+          0,
+          2500000000
+        ],
+        [
+          2000000000,
+          3000000000
+        ],
+        "persistent_primary"
+      ],
+      "joint_original_contract": "TRUE",
+      "graph_feasible": true
+    },
+    {
+      "id": "stationary-c141-active_history-e02",
+      "key": [
+        "fresh_inertia_damping_1",
+        900000000,
+        [
+          0,
+          2500000000
+        ],
+        [
+          3000000000,
+          4000000000
+        ],
+        "none"
+      ],
+      "joint_original_contract": "TRUE",
+      "graph_feasible": true
+    },
+    {
+      "id": "stationary-c142-active_history-e02",
+      "key": [
+        "fresh_inertia_damping_1",
+        900000000,
+        [
+          0,
+          2500000000
+        ],
+        [
+          3000000000,
+          4000000000
+        ],
+        "drop_first"
+      ],
+      "joint_original_contract": "TRUE",
+      "graph_feasible": true
+    },
+    {
+      "id": "stationary-c143-active_history-e02",
+      "key": [
+        "fresh_inertia_damping_1",
+        900000000,
+        [
+          0,
+          2500000000
+        ],
+        [
+          3000000000,
+          4000000000
+        ],
+        "persistent_primary"
+      ],
+      "joint_original_contract": "FALSE",
+      "graph_feasible": false
+    },
+    {
+      "id": "stationary-c144-active_history-e02",
+      "key": [
+        "fresh_inertia_damping_2",
+        0,
+        [
+          0,
+          1500000000
+        ],
+        [
+          2000000000,
+          3000000000
+        ],
+        "none"
+      ],
+      "joint_original_contract": "FALSE",
+      "graph_feasible": false
+    },
+    {
+      "id": "stationary-c145-active_history-e02",
+      "key": [
+        "fresh_inertia_damping_2",
+        0,
+        [
+          0,
+          1500000000
+        ],
+        [
+          2000000000,
+          3000000000
+        ],
+        "drop_first"
+      ],
+      "joint_original_contract": "FALSE",
+      "graph_feasible": false
+    },
+    {
+      "id": "stationary-c146-active_history-e02",
+      "key": [
+        "fresh_inertia_damping_2",
+        0,
+        [
+          0,
+          1500000000
+        ],
+        [
+          2000000000,
+          3000000000
+        ],
+        "persistent_primary"
+      ],
+      "joint_original_contract": "FALSE",
+      "graph_feasible": false
+    },
+    {
+      "id": "stationary-c147-active_history-e02",
+      "key": [
+        "fresh_inertia_damping_2",
+        0,
+        [
+          0,
+          1500000000
+        ],
+        [
+          3000000000,
+          4000000000
+        ],
+        "none"
+      ],
+      "joint_original_contract": "FALSE",
+      "graph_feasible": false
+    },
+    {
+      "id": "stationary-c148-active_history-e02",
+      "key": [
+        "fresh_inertia_damping_2",
+        0,
+        [
+          0,
+          1500000000
+        ],
+        [
+          3000000000,
+          4000000000
+        ],
+        "drop_first"
+      ],
+      "joint_original_contract": "FALSE",
+      "graph_feasible": false
+    },
+    {
+      "id": "stationary-c149-active_history-e02",
+      "key": [
+        "fresh_inertia_damping_2",
+        0,
+        [
+          0,
+          1500000000
+        ],
+        [
+          3000000000,
+          4000000000
+        ],
+        "persistent_primary"
+      ],
+      "joint_original_contract": "FALSE",
+      "graph_feasible": false
+    },
+    {
+      "id": "stationary-c150-active_history-e02",
+      "key": [
+        "fresh_inertia_damping_2",
+        0,
+        [
+          0,
+          2500000000
+        ],
+        [
+          2000000000,
+          3000000000
+        ],
+        "none"
+      ],
+      "joint_original_contract": "FALSE",
+      "graph_feasible": false
+    },
+    {
+      "id": "stationary-c151-active_history-e02",
+      "key": [
+        "fresh_inertia_damping_2",
+        0,
+        [
+          0,
+          2500000000
+        ],
+        [
+          2000000000,
+          3000000000
+        ],
+        "drop_first"
+      ],
+      "joint_original_contract": "FALSE",
+      "graph_feasible": false
+    },
+    {
+      "id": "stationary-c152-active_history-e02",
+      "key": [
+        "fresh_inertia_damping_2",
+        0,
+        [
+          0,
+          2500000000
+        ],
+        [
+          2000000000,
+          3000000000
+        ],
+        "persistent_primary"
+      ],
+      "joint_original_contract": "FALSE",
+      "graph_feasible": false
+    },
+    {
+      "id": "stationary-c153-active_history-e02",
+      "key": [
+        "fresh_inertia_damping_2",
+        0,
+        [
+          0,
+          2500000000
+        ],
+        [
+          3000000000,
+          4000000000
+        ],
+        "none"
+      ],
+      "joint_original_contract": "FALSE",
+      "graph_feasible": false
+    },
+    {
+      "id": "stationary-c154-active_history-e02",
+      "key": [
+        "fresh_inertia_damping_2",
+        0,
+        [
+          0,
+          2500000000
+        ],
+        [
+          3000000000,
+          4000000000
+        ],
+        "drop_first"
+      ],
+      "joint_original_contract": "FALSE",
+      "graph_feasible": false
+    },
+    {
+      "id": "stationary-c155-active_history-e02",
+      "key": [
+        "fresh_inertia_damping_2",
+        0,
+        [
+          0,
+          2500000000
+        ],
+        [
+          3000000000,
+          4000000000
+        ],
+        "persistent_primary"
+      ],
+      "joint_original_contract": "FALSE",
+      "graph_feasible": false
+    },
+    {
+      "id": "stationary-c156-active_history-e02",
+      "key": [
+        "fresh_inertia_damping_2",
+        300000000,
+        [
+          0,
+          1500000000
+        ],
+        [
+          2000000000,
+          3000000000
+        ],
+        "none"
+      ],
+      "joint_original_contract": "FALSE",
+      "graph_feasible": false
+    },
+    {
+      "id": "stationary-c157-active_history-e02",
+      "key": [
+        "fresh_inertia_damping_2",
+        300000000,
+        [
+          0,
+          1500000000
+        ],
+        [
+          2000000000,
+          3000000000
+        ],
+        "drop_first"
+      ],
+      "joint_original_contract": "FALSE",
+      "graph_feasible": false
+    },
+    {
+      "id": "stationary-c158-active_history-e02",
+      "key": [
+        "fresh_inertia_damping_2",
+        300000000,
+        [
+          0,
+          1500000000
+        ],
+        [
+          2000000000,
+          3000000000
+        ],
+        "persistent_primary"
+      ],
+      "joint_original_contract": "FALSE",
+      "graph_feasible": false
+    },
+    {
+      "id": "stationary-c159-active_history-e02",
+      "key": [
+        "fresh_inertia_damping_2",
+        300000000,
+        [
+          0,
+          1500000000
+        ],
+        [
+          3000000000,
+          4000000000
+        ],
+        "none"
+      ],
+      "joint_original_contract": "FALSE",
+      "graph_feasible": false
+    },
+    {
+      "id": "stationary-c160-active_history-e02",
+      "key": [
+        "fresh_inertia_damping_2",
+        300000000,
+        [
+          0,
+          1500000000
+        ],
+        [
+          3000000000,
+          4000000000
+        ],
+        "drop_first"
+      ],
+      "joint_original_contract": "FALSE",
+      "graph_feasible": false
+    },
+    {
+      "id": "stationary-c161-active_history-e02",
+      "key": [
+        "fresh_inertia_damping_2",
+        300000000,
+        [
+          0,
+          1500000000
+        ],
+        [
+          3000000000,
+          4000000000
+        ],
+        "persistent_primary"
+      ],
+      "joint_original_contract": "FALSE",
+      "graph_feasible": false
+    },
+    {
+      "id": "stationary-c162-active_history-e02",
+      "key": [
+        "fresh_inertia_damping_2",
+        300000000,
+        [
+          0,
+          2500000000
+        ],
+        [
+          2000000000,
+          3000000000
+        ],
+        "none"
+      ],
+      "joint_original_contract": "FALSE",
+      "graph_feasible": false
+    },
+    {
+      "id": "stationary-c163-active_history-e02",
+      "key": [
+        "fresh_inertia_damping_2",
+        300000000,
+        [
+          0,
+          2500000000
+        ],
+        [
+          2000000000,
+          3000000000
+        ],
+        "drop_first"
+      ],
+      "joint_original_contract": "FALSE",
+      "graph_feasible": false
+    },
+    {
+      "id": "stationary-c164-active_history-e02",
+      "key": [
+        "fresh_inertia_damping_2",
+        300000000,
+        [
+          0,
+          2500000000
+        ],
+        [
+          2000000000,
+          3000000000
+        ],
+        "persistent_primary"
+      ],
+      "joint_original_contract": "FALSE",
+      "graph_feasible": false
+    },
+    {
+      "id": "stationary-c165-active_history-e02",
+      "key": [
+        "fresh_inertia_damping_2",
+        300000000,
+        [
+          0,
+          2500000000
+        ],
+        [
+          3000000000,
+          4000000000
+        ],
+        "none"
+      ],
+      "joint_original_contract": "FALSE",
+      "graph_feasible": false
+    },
+    {
+      "id": "stationary-c166-active_history-e02",
+      "key": [
+        "fresh_inertia_damping_2",
+        300000000,
+        [
+          0,
+          2500000000
+        ],
+        [
+          3000000000,
+          4000000000
+        ],
+        "drop_first"
+      ],
+      "joint_original_contract": "FALSE",
+      "graph_feasible": false
+    },
+    {
+      "id": "stationary-c167-active_history-e02",
+      "key": [
+        "fresh_inertia_damping_2",
+        300000000,
+        [
+          0,
+          2500000000
+        ],
+        [
+          3000000000,
+          4000000000
+        ],
+        "persistent_primary"
+      ],
+      "joint_original_contract": "FALSE",
+      "graph_feasible": false
+    },
+    {
+      "id": "stationary-c168-active_history-e02",
+      "key": [
+        "fresh_inertia_damping_2",
+        900000000,
+        [
+          0,
+          1500000000
+        ],
+        [
+          2000000000,
+          3000000000
+        ],
+        "none"
+      ],
+      "joint_original_contract": "FALSE",
+      "graph_feasible": false
+    },
+    {
+      "id": "stationary-c169-active_history-e02",
+      "key": [
+        "fresh_inertia_damping_2",
+        900000000,
+        [
+          0,
+          1500000000
+        ],
+        [
+          2000000000,
+          3000000000
+        ],
+        "drop_first"
+      ],
+      "joint_original_contract": "FALSE",
+      "graph_feasible": false
+    },
+    {
+      "id": "stationary-c170-active_history-e02",
+      "key": [
+        "fresh_inertia_damping_2",
+        900000000,
+        [
+          0,
+          1500000000
+        ],
+        [
+          2000000000,
+          3000000000
+        ],
+        "persistent_primary"
+      ],
+      "joint_original_contract": "FALSE",
+      "graph_feasible": false
+    },
+    {
+      "id": "stationary-c171-active_history-e02",
+      "key": [
+        "fresh_inertia_damping_2",
+        900000000,
+        [
+          0,
+          1500000000
+        ],
+        [
+          3000000000,
+          4000000000
+        ],
+        "none"
+      ],
+      "joint_original_contract": "FALSE",
+      "graph_feasible": false
+    },
+    {
+      "id": "stationary-c172-active_history-e02",
+      "key": [
+        "fresh_inertia_damping_2",
+        900000000,
+        [
+          0,
+          1500000000
+        ],
+        [
+          3000000000,
+          4000000000
+        ],
+        "drop_first"
+      ],
+      "joint_original_contract": "FALSE",
+      "graph_feasible": false
+    },
+    {
+      "id": "stationary-c173-active_history-e02",
+      "key": [
+        "fresh_inertia_damping_2",
+        900000000,
+        [
+          0,
+          1500000000
+        ],
+        [
+          3000000000,
+          4000000000
+        ],
+        "persistent_primary"
+      ],
+      "joint_original_contract": "FALSE",
+      "graph_feasible": false
+    },
+    {
+      "id": "stationary-c174-active_history-e02",
+      "key": [
+        "fresh_inertia_damping_2",
+        900000000,
+        [
+          0,
+          2500000000
+        ],
+        [
+          2000000000,
+          3000000000
+        ],
+        "none"
+      ],
+      "joint_original_contract": "FALSE",
+      "graph_feasible": false
+    },
+    {
+      "id": "stationary-c175-active_history-e02",
+      "key": [
+        "fresh_inertia_damping_2",
+        900000000,
+        [
+          0,
+          2500000000
+        ],
+        [
+          2000000000,
+          3000000000
+        ],
+        "drop_first"
+      ],
+      "joint_original_contract": "FALSE",
+      "graph_feasible": false
+    },
+    {
+      "id": "stationary-c176-active_history-e02",
+      "key": [
+        "fresh_inertia_damping_2",
+        900000000,
+        [
+          0,
+          2500000000
+        ],
+        [
+          2000000000,
+          3000000000
+        ],
+        "persistent_primary"
+      ],
+      "joint_original_contract": "FALSE",
+      "graph_feasible": false
+    },
+    {
+      "id": "stationary-c177-active_history-e02",
+      "key": [
+        "fresh_inertia_damping_2",
+        900000000,
+        [
+          0,
+          2500000000
+        ],
+        [
+          3000000000,
+          4000000000
+        ],
+        "none"
+      ],
+      "joint_original_contract": "FALSE",
+      "graph_feasible": false
+    },
+    {
+      "id": "stationary-c178-active_history-e02",
+      "key": [
+        "fresh_inertia_damping_2",
+        900000000,
+        [
+          0,
+          2500000000
+        ],
+        [
+          3000000000,
+          4000000000
+        ],
+        "drop_first"
+      ],
+      "joint_original_contract": "FALSE",
+      "graph_feasible": false
+    },
+    {
+      "id": "stationary-c179-active_history-e02",
+      "key": [
+        "fresh_inertia_damping_2",
+        900000000,
+        [
+          0,
+          2500000000
+        ],
+        [
+          3000000000,
+          4000000000
+        ],
+        "persistent_primary"
+      ],
+      "joint_original_contract": "FALSE",
+      "graph_feasible": false
+    }
+  ]
+}

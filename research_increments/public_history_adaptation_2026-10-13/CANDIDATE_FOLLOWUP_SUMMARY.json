@@ -1,0 +1,84 @@
+{
+  "status": "PASS_MATCHED_PUBLIC_CANDIDATE_CHECKPOINT_AUDIT",
+  "new_native_rollouts": 720,
+  "native_samples": 720720,
+  "RGB_frames": 0,
+  "max_native_error": 0.0,
+  "counts": {
+    "active_context_reset": {
+      "TRUE": 57,
+      "FALSE": 123
+    },
+    "active_context_shuffle": {
+      "TRUE": 57,
+      "FALSE": 123
+    },
+    "passive_history": {
+      "TRUE": 57,
+      "FALSE": 123
+    },
+    "active_history": {
+      "TRUE": 66,
+      "FALSE": 114
+    }
+  },
+  "paired": {
+    "passive_history": {
+      "repairs_vs_v1": [
+        "stationary-c067-passive_history-e02",
+        "stationary-c068-passive_history-e02"
+      ],
+      "harms_vs_v1": [],
+      "repairs_vs_v2_reset": [],
+      "harms_vs_v2_reset": []
+    },
+    "active_history": {
+      "repairs_vs_v1": [
+        "stationary-c067-active_history-e02",
+        "stationary-c068-active_history-e02"
+      ],
+      "harms_vs_v1": [],
+      "repairs_vs_v2_reset": [
+        "stationary-c001-active_history-e02",
+        "stationary-c004-active_history-e02",
+        "stationary-c034-active_history-e02",
+        "stationary-c058-active_history-e02",
+        "stationary-c079-active_history-e02",
+        "stationary-c082-active_history-e02",
+        "stationary-c109-active_history-e02",
+        "stationary-c112-active_history-e02",
+        "stationary-c142-active_history-e02"
+      ],
+      "harms_vs_v2_reset": []
+    },
+    "active_context_reset": {
+      "repairs_vs_v1": [
+        "stationary-c031-active_context_reset-e02",
+        "stationary-c032-active_context_reset-e02",
+        "stationary-c067-active_context_reset-e02",
+        "stationary-c068-active_context_reset-e02",
+        "stationary-c139-active_context_reset-e02",
+        "stationary-c140-active_context_reset-e02"
+      ],
+      "harms_vs_v1": [],
+      "repairs_vs_v2_reset": [],
+      "harms_vs_v2_reset": []
+    },
+    "active_context_shuffle": {
+      "repairs_vs_v1": [
+        "stationary-c031-active_context_shuffle-e02",
+        "stationary-c032-active_context_shuffle-e02",
+        "stationary-c067-active_context_shuffle-e02",
+        "stationary-c068-active_context_shuffle-e02",
+        "stationary-c139-active_context_shuffle-e02",
+        "stationary-c140-active_context_shuffle-e02"
+      ],
+      "harms_vs_v1": [],
+      "repairs_vs_v2_reset": [],
+      "harms_vs_v2_reset": []
+    }
+  },
+  "checkpoint_only_not_ten_episode_curve": true,
+  "source_main_audit_sha256": "4c0eecc3c344ec24d21f3bbb0640fbe66693ea68dce15b7a041c4519d4be80c3",
+  "weight_training_runs": 0
+}

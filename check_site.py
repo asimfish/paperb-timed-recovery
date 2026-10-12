@@ -51,6 +51,9 @@ def main():
     assert 'id="current_method"' in main_html
     assert "51/180" in main_html and "51 / 129 / 0" in main_html
     assert "37 / 141 / 2" in main_html and 'id="anticipatory"' in main_html
+    assert 'id="history_adaptation"' in main_html
+    assert '57 / 123 / 0' in main_html and '66 / 114 / 0' in main_html
+    assert '622 / 1176 / 2' in main_html and '11 / 16' in main_html
     http = []
     if args.base_url:
         assert args.base_url.endswith("/")
