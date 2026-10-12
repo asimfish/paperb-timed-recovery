@@ -1,0 +1,21 @@
+{
+  "status": "PASS_PRE_EXTENSION_RELEASE",
+  "released_at_utc": "2026-10-12T08:52:34.402399+00:00",
+  "new_native_rollouts": 180,
+  "extension_runs_executed_at_release": 0,
+  "source_sha256": {
+    "robust_first.py": "c6f4d5ae36f8ea861ffe97f5117611ecf0f33ed17a69552adf35f9107c19cea5",
+    "run_robust_first.py": "293134046e80e55f5535681b86ce3ef5547ec6729cad8d1c5fdf50ec70b0a5a7",
+    "audit_robust_first.py": "cbfedbacdab82f468e20c1b24ef77b2ed00721085e6cca15261de884438e1920",
+    "test_robust_first.py": "6f936661c7be16ac2b1d151b34d29165f819e79a025135f7455372b4d84d4de7",
+    "ROBUST_FIRST_PROTOCOL.json": "c9b379c9300bd87bdf7f58125af7df493f2269d0aef290785c4b4c073548449b",
+    "audit_calibration_v2.py": "414d7d0cecc0f9e112fdbec85f1d076c1d8b270a63c13f88af6c217d7c46aeb7"
+  },
+  "base_audit_sha256": "fb723fb8d20fe93a41f7e3c84a6e7709bdfeb003c5698ffa2dfc3ac83ff0d6f4",
+  "base_comparison_sha256": "a3d00f663c812cbb024854723601e37212ef10153a1d7d3429be351d71397c56",
+  "frozen_main_release_sha256": "ebd8665b1f03e8c95eea3f2d5401d6461e0b8dfb4d50f26c178e5579c6c2119d",
+  "tests_sha256": "047b91222735e9c7e2523c52223bd8e4cace166eecaf8c87e041d1b9067e45fe",
+  "preregistered": false,
+  "confirmatory": false,
+  "selected_after_main_results": true
+}

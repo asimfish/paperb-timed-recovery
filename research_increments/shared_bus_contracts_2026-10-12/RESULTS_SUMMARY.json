@@ -1,0 +1,317 @@
+{
+  "status": "PASS_NATIVE_SHARED_BUS_AUDIT",
+  "rollouts": 432,
+  "native_samples": 432432,
+  "RGB_frames_verified": 4752,
+  "paired_prefix_groups": 108,
+  "public_controller_replays": 432,
+  "max_native_replay_absolute_error": 0.0,
+  "counts": {
+    "global_relay_first/covered_development": {
+      "A_time": {
+        "TRUE": 36,
+        "FALSE": 30,
+        "UNKNOWN": 6
+      },
+      "B_time": {
+        "FALSE": 60,
+        "TRUE": 12
+      },
+      "B_continuity": {
+        "FALSE": 60,
+        "TRUE": 12
+      },
+      "joint_temporal": {
+        "FALSE": 66,
+        "TRUE": 3,
+        "UNKNOWN": 3
+      }
+    },
+    "global_relay_first/all": {
+      "A_time": {
+        "TRUE": 42,
+        "FALSE": 60,
+        "UNKNOWN": 6
+      },
+      "B_time": {
+        "FALSE": 90,
+        "TRUE": 18
+      },
+      "B_continuity": {
+        "FALSE": 90,
+        "TRUE": 18
+      },
+      "joint_temporal": {
+        "FALSE": 102,
+        "TRUE": 3,
+        "UNKNOWN": 3
+      }
+    },
+    "ordinary_selective_retry_with_B_controller/covered_development": {
+      "A_time": {
+        "TRUE": 19,
+        "FALSE": 49,
+        "UNKNOWN": 4
+      },
+      "B_time": {
+        "TRUE": 68,
+        "FALSE": 4
+      },
+      "B_continuity": {
+        "TRUE": 68,
+        "FALSE": 4
+      },
+      "joint_temporal": {
+        "TRUE": 18,
+        "FALSE": 51,
+        "UNKNOWN": 3
+      }
+    },
+    "ordinary_selective_retry_with_B_controller/all": {
+      "A_time": {
+        "TRUE": 21,
+        "FALSE": 83,
+        "UNKNOWN": 4
+      },
+      "B_time": {
+        "TRUE": 102,
+        "FALSE": 6
+      },
+      "B_continuity": {
+        "TRUE": 102,
+        "FALSE": 6
+      },
+      "joint_temporal": {
+        "TRUE": 20,
+        "FALSE": 85,
+        "UNKNOWN": 3
+      }
+    },
+    "A_only_temporal_filter_with_B_controller/covered_development": {
+      "A_time": {
+        "TRUE": 32,
+        "FALSE": 38,
+        "UNKNOWN": 2
+      },
+      "B_time": {
+        "TRUE": 48,
+        "FALSE": 24
+      },
+      "B_continuity": {
+        "TRUE": 48,
+        "FALSE": 24
+      },
+      "joint_temporal": {
+        "TRUE": 16,
+        "FALSE": 54,
+        "UNKNOWN": 2
+      }
+    },
+    "A_only_temporal_filter_with_B_controller/all": {
+      "A_time": {
+        "TRUE": 34,
+        "FALSE": 72,
+        "UNKNOWN": 2
+      },
+      "B_time": {
+        "TRUE": 72,
+        "FALSE": 36
+      },
+      "B_continuity": {
+        "TRUE": 72,
+        "FALSE": 36
+      },
+      "joint_temporal": {
+        "TRUE": 18,
+        "FALSE": 88,
+        "UNKNOWN": 2
+      }
+    },
+    "joint_contract_finite_branch_scheduler/covered_development": {
+      "A_time": {
+        "TRUE": 20,
+        "FALSE": 50,
+        "UNKNOWN": 2
+      },
+      "B_time": {
+        "TRUE": 72
+      },
+      "B_continuity": {
+        "TRUE": 72
+      },
+      "joint_temporal": {
+        "TRUE": 20,
+        "FALSE": 50,
+        "UNKNOWN": 2
+      }
+    },
+    "joint_contract_finite_branch_scheduler/all": {
+      "A_time": {
+        "TRUE": 22,
+        "FALSE": 84,
+        "UNKNOWN": 2
+      },
+      "B_time": {
+        "TRUE": 108
+      },
+      "B_continuity": {
+        "TRUE": 108
+      },
+      "joint_temporal": {
+        "TRUE": 22,
+        "FALSE": 84,
+        "UNKNOWN": 2
+      }
+    },
+    "global_relay_first/outside_calibration_support": {
+      "A_time": {
+        "FALSE": 30,
+        "TRUE": 6
+      },
+      "B_time": {
+        "FALSE": 30,
+        "TRUE": 6
+      },
+      "B_continuity": {
+        "FALSE": 30,
+        "TRUE": 6
+      },
+      "joint_temporal": {
+        "FALSE": 36
+      }
+    },
+    "ordinary_selective_retry_with_B_controller/outside_calibration_support": {
+      "A_time": {
+        "FALSE": 34,
+        "TRUE": 2
+      },
+      "B_time": {
+        "TRUE": 34,
+        "FALSE": 2
+      },
+      "B_continuity": {
+        "TRUE": 34,
+        "FALSE": 2
+      },
+      "joint_temporal": {
+        "FALSE": 34,
+        "TRUE": 2
+      }
+    },
+    "A_only_temporal_filter_with_B_controller/outside_calibration_support": {
+      "A_time": {
+        "FALSE": 34,
+        "TRUE": 2
+      },
+      "B_time": {
+        "TRUE": 24,
+        "FALSE": 12
+      },
+      "B_continuity": {
+        "TRUE": 24,
+        "FALSE": 12
+      },
+      "joint_temporal": {
+        "FALSE": 34,
+        "TRUE": 2
+      }
+    },
+    "joint_contract_finite_branch_scheduler/outside_calibration_support": {
+      "A_time": {
+        "FALSE": 34,
+        "TRUE": 2
+      },
+      "B_time": {
+        "TRUE": 36
+      },
+      "B_continuity": {
+        "TRUE": 36
+      },
+      "joint_temporal": {
+        "FALSE": 34,
+        "TRUE": 2
+      }
+    }
+  },
+  "paired_joint_outcome_changes": {
+    "global_relay_first": {
+      "repairs": [
+        "calibration_fast-d0-a1500-b2000-none-joint_contract_finite_branch_scheduler",
+        "calibration_fast-d0-a1500-b3000-none-joint_contract_finite_branch_scheduler",
+        "calibration_fast-d0-a2500-b2000-none-joint_contract_finite_branch_scheduler",
+        "calibration_fast-d0-a2500-b2000-drop_first-joint_contract_finite_branch_scheduler",
+        "calibration_fast-d0-a2500-b2000-persistent_primary-joint_contract_finite_branch_scheduler",
+        "calibration_fast-d0-a2500-b3000-none-joint_contract_finite_branch_scheduler",
+        "calibration_fast-d300-a2500-b2000-none-joint_contract_finite_branch_scheduler",
+        "calibration_fast-d300-a2500-b2000-drop_first-joint_contract_finite_branch_scheduler",
+        "calibration_fast-d300-a2500-b2000-persistent_primary-joint_contract_finite_branch_scheduler",
+        "calibration_fast-d300-a2500-b3000-none-joint_contract_finite_branch_scheduler",
+        "calibration_fast-d900-a2500-b3000-none-joint_contract_finite_branch_scheduler",
+        "calibration_slow-d0-a2500-b2000-none-joint_contract_finite_branch_scheduler",
+        "calibration_slow-d0-a2500-b2000-drop_first-joint_contract_finite_branch_scheduler",
+        "calibration_slow-d0-a2500-b2000-persistent_primary-joint_contract_finite_branch_scheduler",
+        "calibration_slow-d0-a2500-b3000-none-joint_contract_finite_branch_scheduler",
+        "calibration_slow-d300-a2500-b2000-none-joint_contract_finite_branch_scheduler",
+        "calibration_slow-d300-a2500-b2000-drop_first-joint_contract_finite_branch_scheduler",
+        "calibration_slow-d300-a2500-b2000-persistent_primary-joint_contract_finite_branch_scheduler",
+        "calibration_slow-d300-a2500-b3000-none-joint_contract_finite_branch_scheduler",
+        "response_shift-d0-a2500-b2000-none-joint_contract_finite_branch_scheduler",
+        "response_shift-d0-a2500-b3000-none-joint_contract_finite_branch_scheduler"
+      ],
+      "harms": [
+        "calibration_fast-d900-a2500-b2000-drop_first-joint_contract_finite_branch_scheduler",
+        "calibration_fast-d900-a2500-b2000-persistent_primary-joint_contract_finite_branch_scheduler"
+      ]
+    },
+    "ordinary_selective_retry_with_B_controller": {
+      "repairs": [
+        "calibration_fast-d300-a2500-b2000-drop_first-joint_contract_finite_branch_scheduler",
+        "calibration_fast-d300-a2500-b2000-persistent_primary-joint_contract_finite_branch_scheduler",
+        "calibration_slow-d0-a2500-b2000-persistent_primary-joint_contract_finite_branch_scheduler",
+        "calibration_slow-d300-a2500-b2000-drop_first-joint_contract_finite_branch_scheduler",
+        "calibration_slow-d300-a2500-b2000-persistent_primary-joint_contract_finite_branch_scheduler"
+      ],
+      "harms": [
+        "calibration_fast-d0-a2500-b3000-drop_first-joint_contract_finite_branch_scheduler",
+        "calibration_fast-d300-a2500-b3000-drop_first-joint_contract_finite_branch_scheduler",
+        "calibration_slow-d0-a2500-b3000-drop_first-joint_contract_finite_branch_scheduler"
+      ]
+    },
+    "A_only_temporal_filter_with_B_controller": {
+      "repairs": [
+        "calibration_fast-d0-a2500-b2000-drop_first-joint_contract_finite_branch_scheduler",
+        "calibration_fast-d0-a2500-b2000-persistent_primary-joint_contract_finite_branch_scheduler",
+        "calibration_slow-d0-a2500-b2000-drop_first-joint_contract_finite_branch_scheduler",
+        "calibration_slow-d0-a2500-b2000-persistent_primary-joint_contract_finite_branch_scheduler"
+      ],
+      "harms": []
+    }
+  },
+  "predicted_A_eligible_non_A_TRUE": [
+    "response_shift-d0-a2500-b2000-drop_first-A_only_temporal_filter_with_B_controller",
+    "response_shift-d0-a2500-b2000-drop_first-joint_contract_finite_branch_scheduler",
+    "response_shift-d0-a2500-b2000-persistent_primary-A_only_temporal_filter_with_B_controller",
+    "response_shift-d0-a2500-b2000-persistent_primary-joint_contract_finite_branch_scheduler",
+    "response_shift-d0-a2500-b3000-drop_first-A_only_temporal_filter_with_B_controller",
+    "response_shift-d0-a2500-b3000-persistent_primary-A_only_temporal_filter_with_B_controller",
+    "response_shift-d300-a2500-b2000-drop_first-A_only_temporal_filter_with_B_controller",
+    "response_shift-d300-a2500-b2000-drop_first-joint_contract_finite_branch_scheduler",
+    "response_shift-d300-a2500-b2000-persistent_primary-A_only_temporal_filter_with_B_controller",
+    "response_shift-d300-a2500-b2000-persistent_primary-joint_contract_finite_branch_scheduler",
+    "response_shift-d300-a2500-b3000-drop_first-A_only_temporal_filter_with_B_controller",
+    "response_shift-d300-a2500-b3000-persistent_primary-A_only_temporal_filter_with_B_controller"
+  ],
+  "predicted_joint_eligible_non_joint_TRUE": [
+    "response_shift-d0-a2500-b2000-drop_first-joint_contract_finite_branch_scheduler",
+    "response_shift-d0-a2500-b2000-persistent_primary-joint_contract_finite_branch_scheduler",
+    "response_shift-d300-a2500-b2000-drop_first-A_only_temporal_filter_with_B_controller",
+    "response_shift-d300-a2500-b2000-drop_first-joint_contract_finite_branch_scheduler",
+    "response_shift-d300-a2500-b2000-persistent_primary-A_only_temporal_filter_with_B_controller",
+    "response_shift-d300-a2500-b2000-persistent_primary-joint_contract_finite_branch_scheduler"
+  ],
+  "learning_runs": 0,
+  "chemical_joint_certified": 0,
+  "independent_task_or_real_batch_clusters": 0,
+  "full_RGB_pairing_claimed": false,
+  "confirmatory": false
+}

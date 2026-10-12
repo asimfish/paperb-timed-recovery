@@ -1,0 +1,73 @@
+{
+  "id": "paperB.shared_bus_temporal_contracts.development.v1",
+  "status": "DESIGN_FROZEN_NOT_EXECUTED",
+  "reason": "A single rotor with a cost-free reliable relay favors immediate stopping; test preservation of another necessary operation before introducing learning claims.",
+  "required_pre_run_gate": [
+    "Implement a two-rotor MJCF with independent physical encoder samples and one explicit shared electrical bus.",
+    "Freeze exact MJCF, policy, referee, dependencies and numeric calibration identities before generating the cohort.",
+    "Run boundary tests for premature B termination, missed A deadline, public capture versus arrival, shared-channel queuing, absorbing original failure and paired initial state.",
+    "Record a new execution protocol with identities and actual release receipt; this design document alone is not a preregistration or execution receipt."
+  ],
+  "physical_state": {
+    "processes": ["A", "B"],
+    "initial_state": "both rotors at rest; independent positive drive on a shared electrical bus",
+    "reference_event_each": "physical encoder position first crosses 2 rad",
+    "completion_each": "speed <= 0.1 rad/s for 0.2 s; use the start interval of the persistent low-speed segment",
+    "clock": "integer simulation nanoseconds; capture and arrival separated",
+    "chemical_outcome": "UNKNOWN without an independent chemical endpoint"
+  },
+  "necessary_contracts": {
+    "A": {"completion_window_after_own_reference_ns": [[0, 1500000000], [0, 2500000000]]},
+    "B": {"completion_window_after_own_reference_ns": [[2000000000, 3000000000], [3000000000, 4000000000]]},
+    "B_continuity": "After B reference, no low-speed sample is permitted strictly before the lower completion limit. An early interruption remains FALSE even if a later restart succeeds.",
+    "joint_temporal_verdict": "FALSE if any necessary contract is independently FALSE; TRUE only if all are TRUE; otherwise UNKNOWN",
+    "score_reset": "Forbidden within an attempt; a restart must create another attempt ID and retain the original score."
+  },
+  "actuation": {
+    "selective_A": "Stop only A through the shared serial command channel.",
+    "selective_B": "Stop only B through the same serial command channel.",
+    "global_relay": "Fast, fixture-reliable stop of both A and B; its effect on B must be scored.",
+    "channel_queue": "Selective commands share one non-preemptive channel. Trace request, service start, ACK and physical effect independently.",
+    "permissions": "Every arm receives all three actions, the same sensors, calibrated model and query budget.",
+    "latencies_and_faults": "Use separately frozen execution protocol values after interface verification; no hidden fault labels in actor input."
+  },
+  "planned_first_matrix": {
+    "A_response_settings": 3,
+    "public_delivery_delays_ns": [0, 300000000, 900000000],
+    "A_windows": 2,
+    "B_windows": 2,
+    "A_selective_fault_conditions": ["none", "drop_first", "persistent_primary"],
+    "parameter_cases": 108,
+    "arms": [
+      "global_relay_first",
+      "ordinary_selective_retry_with_B_controller",
+      "A_only_temporal_filter_with_B_controller",
+      "joint_contract_finite_branch_scheduler"
+    ],
+    "planned_native_rollouts": 432,
+    "learning_runs": 0,
+    "independent_task_or_real_batch_clusters": 0,
+    "all_planned_cases_in_denominator": true,
+    "task_graph": "independent A upper deadline plus B minimum/maximum operation and continuity",
+    "holdout_credit": "This is a development component matrix; response shifts are not unseen task-graph generalization."
+  },
+  "subsequent_task_graph_holdouts": [
+    "B completion must occur within a window after A physical completion rather than its own reference.",
+    "Reverse the required operation order without changing appearance or dynamics.",
+    "Introduce a third operation competing for the selective command channel."
+  ],
+  "actor_information": {
+    "allowed": ["already-delivered encoder/power packets", "instruction and task contracts", "declared action interface", "frozen development calibration", "own command and public feedback history"],
+    "forbidden": ["true hidden response/fault identity", "future observation packets", "independent referee endpoints before delivery", "post-hoc result verdicts without measured online release"]
+  },
+  "matched_strong_control": "The joint deterministic scheduler uses the same calibrated predictor, sensors, action permissions and bounded enumeration budget as any later proposed filter or agent. It remains in the main comparison.",
+  "reporting": [
+    "A timing, B timing, B continuity and their conjunction as TRUE/FALSE/UNKNOWN counts over the complete cohort.",
+    "Per-setting repair and harm relative to both global stopping and selective retry; retain infeasible and UNKNOWN cases.",
+    "Command queue, observation wait, stop decay and failure-contingent delays separately.",
+    "Prediction eligibility versus independent actual results, with calibration support identified.",
+    "No chemical, VLA, RSI, policy-absorption or learned-model benefit from this untrained component study."
+  ],
+  "learning_entry_gate": "Only after the above component and release semantics are verified, compare shared history-conditioned DP and equal-teacher-budget student-state DAgger, then runtime restriction x learning-target and parameters x context. RL/distillation are conditional tools, not mandatory stages.",
+  "safelab_dependency": "Canonical collector timing must gain an independent event sidecar; frame_index/fps cannot substitute for physical capture or feedback arrival. No changes to SafeLab current jobs or data registries are authorized by this document."
+}

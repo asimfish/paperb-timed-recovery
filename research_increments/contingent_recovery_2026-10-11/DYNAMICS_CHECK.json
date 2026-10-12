@@ -1,0 +1,445 @@
+{
+  "status": "PASS_RESTRICTED_NATIVE_DYNAMICS_CHECK",
+  "mujoco_version": "3.3.7",
+  "one_step_probes": [
+    {
+      "setting": "calibration_fast",
+      "velocity": 0.0,
+      "control": 0.0,
+      "mass": 0.0015,
+      "damping": 0.006,
+      "one_step_absolute_error": 0.0
+    },
+    {
+      "setting": "calibration_fast",
+      "velocity": 0.0,
+      "control": 0.03,
+      "mass": 0.0015,
+      "damping": 0.006,
+      "one_step_absolute_error": 0.0
+    },
+    {
+      "setting": "calibration_fast",
+      "velocity": 0.0,
+      "control": 0.06,
+      "mass": 0.0015,
+      "damping": 0.006,
+      "one_step_absolute_error": 0.0
+    },
+    {
+      "setting": "calibration_fast",
+      "velocity": 0.1,
+      "control": 0.0,
+      "mass": 0.0015,
+      "damping": 0.006,
+      "one_step_absolute_error": 0.0
+    },
+    {
+      "setting": "calibration_fast",
+      "velocity": 0.1,
+      "control": 0.03,
+      "mass": 0.0015,
+      "damping": 0.006,
+      "one_step_absolute_error": 0.0
+    },
+    {
+      "setting": "calibration_fast",
+      "velocity": 0.1,
+      "control": 0.06,
+      "mass": 0.0015,
+      "damping": 0.006,
+      "one_step_absolute_error": 5.551115123125783e-17
+    },
+    {
+      "setting": "calibration_fast",
+      "velocity": 3.0,
+      "control": 0.0,
+      "mass": 0.0015,
+      "damping": 0.006,
+      "one_step_absolute_error": 4.440892098500626e-16
+    },
+    {
+      "setting": "calibration_fast",
+      "velocity": 3.0,
+      "control": 0.03,
+      "mass": 0.0015,
+      "damping": 0.006,
+      "one_step_absolute_error": 0.0
+    },
+    {
+      "setting": "calibration_fast",
+      "velocity": 3.0,
+      "control": 0.06,
+      "mass": 0.0015,
+      "damping": 0.006,
+      "one_step_absolute_error": 4.440892098500626e-16
+    },
+    {
+      "setting": "calibration_fast",
+      "velocity": 10.0,
+      "control": 0.0,
+      "mass": 0.0015,
+      "damping": 0.006,
+      "one_step_absolute_error": 0.0
+    },
+    {
+      "setting": "calibration_fast",
+      "velocity": 10.0,
+      "control": 0.03,
+      "mass": 0.0015,
+      "damping": 0.006,
+      "one_step_absolute_error": 1.7763568394002505e-15
+    },
+    {
+      "setting": "calibration_fast",
+      "velocity": 10.0,
+      "control": 0.06,
+      "mass": 0.0015,
+      "damping": 0.006,
+      "one_step_absolute_error": 0.0
+    },
+    {
+      "setting": "calibration_slow",
+      "velocity": 0.0,
+      "control": 0.0,
+      "mass": 0.002,
+      "damping": 0.006,
+      "one_step_absolute_error": 0.0
+    },
+    {
+      "setting": "calibration_slow",
+      "velocity": 0.0,
+      "control": 0.03,
+      "mass": 0.002,
+      "damping": 0.006,
+      "one_step_absolute_error": 2.7755575615628914e-17
+    },
+    {
+      "setting": "calibration_slow",
+      "velocity": 0.0,
+      "control": 0.06,
+      "mass": 0.002,
+      "damping": 0.006,
+      "one_step_absolute_error": 5.551115123125783e-17
+    },
+    {
+      "setting": "calibration_slow",
+      "velocity": 0.1,
+      "control": 0.0,
+      "mass": 0.002,
+      "damping": 0.006,
+      "one_step_absolute_error": 0.0
+    },
+    {
+      "setting": "calibration_slow",
+      "velocity": 0.1,
+      "control": 0.03,
+      "mass": 0.002,
+      "damping": 0.006,
+      "one_step_absolute_error": 2.7755575615628914e-17
+    },
+    {
+      "setting": "calibration_slow",
+      "velocity": 0.1,
+      "control": 0.06,
+      "mass": 0.002,
+      "damping": 0.006,
+      "one_step_absolute_error": 0.0
+    },
+    {
+      "setting": "calibration_slow",
+      "velocity": 3.0,
+      "control": 0.0,
+      "mass": 0.002,
+      "damping": 0.006,
+      "one_step_absolute_error": 4.440892098500626e-16
+    },
+    {
+      "setting": "calibration_slow",
+      "velocity": 3.0,
+      "control": 0.03,
+      "mass": 0.002,
+      "damping": 0.006,
+      "one_step_absolute_error": 4.440892098500626e-16
+    },
+    {
+      "setting": "calibration_slow",
+      "velocity": 3.0,
+      "control": 0.06,
+      "mass": 0.002,
+      "damping": 0.006,
+      "one_step_absolute_error": 4.440892098500626e-16
+    },
+    {
+      "setting": "calibration_slow",
+      "velocity": 10.0,
+      "control": 0.0,
+      "mass": 0.002,
+      "damping": 0.006,
+      "one_step_absolute_error": 0.0
+    },
+    {
+      "setting": "calibration_slow",
+      "velocity": 10.0,
+      "control": 0.03,
+      "mass": 0.002,
+      "damping": 0.006,
+      "one_step_absolute_error": 0.0
+    },
+    {
+      "setting": "calibration_slow",
+      "velocity": 10.0,
+      "control": 0.06,
+      "mass": 0.002,
+      "damping": 0.006,
+      "one_step_absolute_error": 0.0
+    },
+    {
+      "setting": "response_shift",
+      "velocity": 0.0,
+      "control": 0.0,
+      "mass": 0.003,
+      "damping": 0.006,
+      "one_step_absolute_error": 0.0
+    },
+    {
+      "setting": "response_shift",
+      "velocity": 0.0,
+      "control": 0.03,
+      "mass": 0.003,
+      "damping": 0.006,
+      "one_step_absolute_error": 0.0
+    },
+    {
+      "setting": "response_shift",
+      "velocity": 0.0,
+      "control": 0.06,
+      "mass": 0.003,
+      "damping": 0.006,
+      "one_step_absolute_error": 0.0
+    },
+    {
+      "setting": "response_shift",
+      "velocity": 0.1,
+      "control": 0.0,
+      "mass": 0.003,
+      "damping": 0.006,
+      "one_step_absolute_error": 1.3877787807814457e-17
+    },
+    {
+      "setting": "response_shift",
+      "velocity": 0.1,
+      "control": 0.03,
+      "mass": 0.003,
+      "damping": 0.006,
+      "one_step_absolute_error": 0.0
+    },
+    {
+      "setting": "response_shift",
+      "velocity": 0.1,
+      "control": 0.06,
+      "mass": 0.003,
+      "damping": 0.006,
+      "one_step_absolute_error": 0.0
+    },
+    {
+      "setting": "response_shift",
+      "velocity": 3.0,
+      "control": 0.0,
+      "mass": 0.003,
+      "damping": 0.006,
+      "one_step_absolute_error": 0.0
+    },
+    {
+      "setting": "response_shift",
+      "velocity": 3.0,
+      "control": 0.03,
+      "mass": 0.003,
+      "damping": 0.006,
+      "one_step_absolute_error": 4.440892098500626e-16
+    },
+    {
+      "setting": "response_shift",
+      "velocity": 3.0,
+      "control": 0.06,
+      "mass": 0.003,
+      "damping": 0.006,
+      "one_step_absolute_error": 0.0
+    },
+    {
+      "setting": "response_shift",
+      "velocity": 10.0,
+      "control": 0.0,
+      "mass": 0.003,
+      "damping": 0.006,
+      "one_step_absolute_error": 1.7763568394002505e-15
+    },
+    {
+      "setting": "response_shift",
+      "velocity": 10.0,
+      "control": 0.03,
+      "mass": 0.003,
+      "damping": 0.006,
+      "one_step_absolute_error": 0.0
+    },
+    {
+      "setting": "response_shift",
+      "velocity": 10.0,
+      "control": 0.06,
+      "mass": 0.003,
+      "damping": 0.006,
+      "one_step_absolute_error": 1.7763568394002505e-15
+    }
+  ],
+  "ordered_control_pairs": [
+    {
+      "setting": "calibration_fast",
+      "initial_velocity": 1.0,
+      "delayed_zero_drive_ns": 200000000,
+      "immediate_cross_ns": 590000000,
+      "delayed_cross_ns": 1240000000,
+      "max_immediate_minus_delayed_velocity": 0.0
+    },
+    {
+      "setting": "calibration_fast",
+      "initial_velocity": 1.0,
+      "delayed_zero_drive_ns": 700000000,
+      "immediate_cross_ns": 590000000,
+      "delayed_cross_ns": 1860000000,
+      "max_immediate_minus_delayed_velocity": 0.0
+    },
+    {
+      "setting": "calibration_fast",
+      "initial_velocity": 5.0,
+      "delayed_zero_drive_ns": 200000000,
+      "immediate_cross_ns": 1000000000,
+      "delayed_cross_ns": 1310000000,
+      "max_immediate_minus_delayed_velocity": 0.0
+    },
+    {
+      "setting": "calibration_fast",
+      "initial_velocity": 5.0,
+      "delayed_zero_drive_ns": 700000000,
+      "immediate_cross_ns": 1000000000,
+      "delayed_cross_ns": 1870000000,
+      "max_immediate_minus_delayed_velocity": 0.0
+    },
+    {
+      "setting": "calibration_fast",
+      "initial_velocity": 10.0,
+      "delayed_zero_drive_ns": 200000000,
+      "immediate_cross_ns": 1180000000,
+      "delayed_cross_ns": 1380000000,
+      "max_immediate_minus_delayed_velocity": 0.0
+    },
+    {
+      "setting": "calibration_fast",
+      "initial_velocity": 10.0,
+      "delayed_zero_drive_ns": 700000000,
+      "immediate_cross_ns": 1180000000,
+      "delayed_cross_ns": 1880000000,
+      "max_immediate_minus_delayed_velocity": 0.0
+    },
+    {
+      "setting": "calibration_slow",
+      "initial_velocity": 1.0,
+      "delayed_zero_drive_ns": 200000000,
+      "immediate_cross_ns": 780000000,
+      "delayed_cross_ns": 1530000000,
+      "max_immediate_minus_delayed_velocity": 0.0
+    },
+    {
+      "setting": "calibration_slow",
+      "initial_velocity": 1.0,
+      "delayed_zero_drive_ns": 700000000,
+      "immediate_cross_ns": 780000000,
+      "delayed_cross_ns": 2220000000,
+      "max_immediate_minus_delayed_velocity": 0.0
+    },
+    {
+      "setting": "calibration_slow",
+      "initial_velocity": 5.0,
+      "delayed_zero_drive_ns": 200000000,
+      "immediate_cross_ns": 1330000000,
+      "delayed_cross_ns": 1650000000,
+      "max_immediate_minus_delayed_velocity": 0.0
+    },
+    {
+      "setting": "calibration_slow",
+      "initial_velocity": 5.0,
+      "delayed_zero_drive_ns": 700000000,
+      "immediate_cross_ns": 1330000000,
+      "delayed_cross_ns": 2240000000,
+      "max_immediate_minus_delayed_velocity": 0.0
+    },
+    {
+      "setting": "calibration_slow",
+      "initial_velocity": 10.0,
+      "delayed_zero_drive_ns": 200000000,
+      "immediate_cross_ns": 1560000000,
+      "delayed_cross_ns": 1760000000,
+      "max_immediate_minus_delayed_velocity": 0.0
+    },
+    {
+      "setting": "calibration_slow",
+      "initial_velocity": 10.0,
+      "delayed_zero_drive_ns": 700000000,
+      "immediate_cross_ns": 1560000000,
+      "delayed_cross_ns": 2260000000,
+      "max_immediate_minus_delayed_velocity": 0.0
+    },
+    {
+      "setting": "response_shift",
+      "initial_velocity": 1.0,
+      "delayed_zero_drive_ns": 200000000,
+      "immediate_cross_ns": 1170000000,
+      "delayed_cross_ns": 2060000000,
+      "max_immediate_minus_delayed_velocity": 0.0
+    },
+    {
+      "setting": "response_shift",
+      "initial_velocity": 1.0,
+      "delayed_zero_drive_ns": 700000000,
+      "immediate_cross_ns": 1170000000,
+      "delayed_cross_ns": 2900000000,
+      "max_immediate_minus_delayed_velocity": 0.0
+    },
+    {
+      "setting": "response_shift",
+      "initial_velocity": 5.0,
+      "delayed_zero_drive_ns": 200000000,
+      "immediate_cross_ns": 1980000000,
+      "delayed_cross_ns": 2320000000,
+      "max_immediate_minus_delayed_velocity": 0.0
+    },
+    {
+      "setting": "response_shift",
+      "initial_velocity": 5.0,
+      "delayed_zero_drive_ns": 700000000,
+      "immediate_cross_ns": 1980000000,
+      "delayed_cross_ns": 2960000000,
+      "max_immediate_minus_delayed_velocity": 0.0
+    },
+    {
+      "setting": "response_shift",
+      "initial_velocity": 10.0,
+      "delayed_zero_drive_ns": 200000000,
+      "immediate_cross_ns": 2330000000,
+      "delayed_cross_ns": 2530000000,
+      "max_immediate_minus_delayed_velocity": 0.0
+    },
+    {
+      "setting": "response_shift",
+      "initial_velocity": 10.0,
+      "delayed_zero_drive_ns": 700000000,
+      "immediate_cross_ns": 2330000000,
+      "delayed_cross_ns": 3030000000,
+      "max_immediate_minus_delayed_velocity": 0.0
+    }
+  ],
+  "max_one_step_absolute_error": 1.7763568394002505e-15,
+  "benchmark_rollout_credit": 0,
+  "chemical_credit": 0,
+  "source_sha256": "50ac26b2ad6fb59576238e5c43f31679609184506f63fa37c15bb00c49762dc9",
+  "scope": "fixed contact-free one-DOF rotor only; not chemical or robot dynamics"
+}

@@ -1,0 +1,16 @@
+{
+  "status": "POST_MAIN_DEVELOPMENT_EXTENSION_FROZEN_BEFORE_EXECUTION",
+  "cases": 180,
+  "arms": [
+    "online_ID_robust_first"
+  ],
+  "new_native_rollouts": 180,
+  "base_new_native_rollouts": 432,
+  "retained_parent_comparators": 108,
+  "combined_new_native_rollouts": 612,
+  "combined_comparison_cells": 720,
+  "selection": "prefer retry/global-now/deferred-global with full A+B support; only if none exist admit success-only retry; preserve B on observed failure",
+  "chosen_after_audited_three_arm_findings": true,
+  "confirmatory": false,
+  "policy_learning_runs": 0
+}

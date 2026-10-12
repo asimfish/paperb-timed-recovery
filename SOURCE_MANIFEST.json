@@ -1,0 +1,417 @@
+{
+  "schema_version": "paperB.github-pages.1",
+  "site": "https://asimfish.github.io/paperb-timed-recovery/",
+  "repository": "https://github.com/asimfish/paperb-timed-recovery",
+  "source_repository": "asimfish/awesome_memory_chem",
+  "source_branch": "feat/paperb-q0a",
+  "publication_branch": "docs/paperb-site",
+  "scope": "curated public website; no new scientific experiments or training",
+  "files": [
+    {
+      "path": "component-audit.json",
+      "source": "web/component-audit.json",
+      "source_sha256": "4ace0990de0b4e1acf555f46c7ce64dfed656436e2cbf6ce4260c33b945645af",
+      "sha256": "4ace0990de0b4e1acf555f46c7ce64dfed656436e2cbf6ce4260c33b945645af",
+      "bytes": 3426,
+      "transformations": []
+    },
+    {
+      "path": "contingency_results.svg",
+      "source": "web/contingency_results.svg",
+      "source_sha256": "659addd7f0b1f3c9537b55199a9926c3aa57036cce11933c5bfe67831478208b",
+      "sha256": "659addd7f0b1f3c9537b55199a9926c3aa57036cce11933c5bfe67831478208b",
+      "bytes": 62452,
+      "transformations": []
+    },
+    {
+      "path": "failure_branch_timing.svg",
+      "source": "web/failure_branch_timing.svg",
+      "source_sha256": "cc3565eec4a1d259558c84ab697c65172741a5f0e1b2f5d2caeaff5acb933ebc",
+      "sha256": "cc3565eec4a1d259558c84ab697c65172741a5f0e1b2f5d2caeaff5acb933ebc",
+      "bytes": 48877,
+      "transformations": []
+    },
+    {
+      "path": "full-design.html",
+      "source": "web/full-design.html",
+      "source_sha256": "6512fbc226789b0c6cc011420d758f445695243525a3956610e3703b170b150b",
+      "sha256": "6512fbc226789b0c6cc011420d758f445695243525a3956610e3703b170b150b",
+      "bytes": 52581,
+      "transformations": [
+        "evidence links relative to project root"
+      ]
+    },
+    {
+      "path": "index.html",
+      "source": "web/index.html",
+      "source_sha256": "cd8e17d1c96b1b9fd46d49084b65a92eb5a352e90cec3562bc862aed7d9f933e",
+      "sha256": "3ccdc65f74d07448cce720cc7f563a1da3572aa3a1ac1cf632f9ef933a4461cc",
+      "bytes": 198802,
+      "transformations": [
+        "evidence links relative to project root",
+        "current-method panel and canonical GitHub Pages URL"
+      ]
+    },
+    {
+      "path": "public_response_mechanism.svg",
+      "source": "web/public_response_mechanism.svg",
+      "source_sha256": "e11b64037f3e113079eda3775e914fc5a48d6bcc1b7ab3e9b66f8ac359e05905",
+      "sha256": "e11b64037f3e113079eda3775e914fc5a48d6bcc1b7ab3e9b66f8ac359e05905",
+      "bytes": 22873,
+      "transformations": []
+    },
+    {
+      "path": "public_response_results.svg",
+      "source": "web/public_response_results.svg",
+      "source_sha256": "63c8e9b398215871f40d7f281b6fd3e2dfd268ad6bcb06ad8149ad14994d6491",
+      "sha256": "63c8e9b398215871f40d7f281b6fd3e2dfd268ad6bcb06ad8149ad14994d6491",
+      "bytes": 23025,
+      "transformations": []
+    },
+    {
+      "path": "recovery_mechanism_v3.svg",
+      "source": "web/recovery_mechanism_v3.svg",
+      "source_sha256": "4dd5ec6d37575c6249ce3c8fb8dd7f6637ad7e186fab66b8141045bcf1970b8b",
+      "sha256": "4dd5ec6d37575c6249ce3c8fb8dd7f6637ad7e186fab66b8141045bcf1970b8b",
+      "bytes": 18339,
+      "transformations": []
+    },
+    {
+      "path": "recovery_results.svg",
+      "source": "web/recovery_results.svg",
+      "source_sha256": "66603d31397cd3a8b9f48011fcc700f1d1341ee9338d629754e4f0c0f6c74477",
+      "sha256": "66603d31397cd3a8b9f48011fcc700f1d1341ee9338d629754e4f0c0f6c74477",
+      "bytes": 68798,
+      "transformations": []
+    },
+    {
+      "path": "research_increments/c5_early_color_baselines_2026-10-11/README_cn.md",
+      "source": "research_increments/c5_early_color_baselines_2026-10-11/README_cn.md",
+      "source_sha256": "013764c021e2f814d8b797f35601ad04db8f6736fcf6a62930502fc0d98f1791",
+      "sha256": "013764c021e2f814d8b797f35601ad04db8f6736fcf6a62930502fc0d98f1791",
+      "bytes": 6888,
+      "transformations": []
+    },
+    {
+      "path": "research_increments/chemical_auto_engineering_design_2026-10-11/ACCEPTANCE_PLAN.json",
+      "source": "research_increments/chemical_auto_engineering_design_2026-10-11/ACCEPTANCE_PLAN.json",
+      "source_sha256": "186daccf2cecadf2e2889264729987906455ea0b9a43ab5dd4e808f13a6dc606",
+      "sha256": "186daccf2cecadf2e2889264729987906455ea0b9a43ab5dd4e808f13a6dc606",
+      "bytes": 8565,
+      "transformations": []
+    },
+    {
+      "path": "research_increments/chemical_auto_engineering_design_2026-10-11/SYSTEM_SPEC.json",
+      "source": "research_increments/chemical_auto_engineering_design_2026-10-11/SYSTEM_SPEC.json",
+      "source_sha256": "b3286c8c634d47e6f2a821e6860ef1ca25f248ec7a49bddfa4d9345dd8b4c4da",
+      "sha256": "b3286c8c634d47e6f2a821e6860ef1ca25f248ec7a49bddfa4d9345dd8b4c4da",
+      "bytes": 7578,
+      "transformations": []
+    },
+    {
+      "path": "research_increments/chemical_auto_engineering_design_2026-10-11/figures/recovery_mechanism_v3.pdf",
+      "source": "research_increments/chemical_auto_engineering_design_2026-10-11/figures/recovery_mechanism_v3.pdf",
+      "source_sha256": "3b4225a270f9bc1263598ab13e082fc9868c0aab6c8510569439d005f3c0a6e8",
+      "sha256": "3b4225a270f9bc1263598ab13e082fc9868c0aab6c8510569439d005f3c0a6e8",
+      "bytes": 30810,
+      "transformations": []
+    },
+    {
+      "path": "research_increments/contingent_recovery_2026-10-11/DYNAMICS_CHECK.json",
+      "source": "research_increments/contingent_recovery_2026-10-11/DYNAMICS_CHECK.json",
+      "source_sha256": "cc7eafcfbe1a1aa22fcbfb246882685d7192b4776598b65e17a6d04b84a6fb7f",
+      "sha256": "cc7eafcfbe1a1aa22fcbfb246882685d7192b4776598b65e17a6d04b84a6fb7f",
+      "bytes": 11589,
+      "transformations": []
+    },
+    {
+      "path": "research_increments/contingent_recovery_2026-10-11/NEXT_EXPERIMENT_PROTOCOL_v1.json",
+      "source": "research_increments/contingent_recovery_2026-10-11/NEXT_EXPERIMENT_PROTOCOL_v1.json",
+      "source_sha256": "5acf1f98baaa028e24cb4f27e67cfc953bcd3a3ab026bf42097527d3db59f1ba",
+      "sha256": "5acf1f98baaa028e24cb4f27e67cfc953bcd3a3ab026bf42097527d3db59f1ba",
+      "bytes": 5704,
+      "transformations": []
+    },
+    {
+      "path": "research_increments/contingent_recovery_2026-10-11/PROTOCOL.json",
+      "source": "research_increments/contingent_recovery_2026-10-11/PROTOCOL.json",
+      "source_sha256": "cde186b354c8a5d8dffdd736349c287967d0e27f09d83f9ba647c996a523d658",
+      "sha256": "cde186b354c8a5d8dffdd736349c287967d0e27f09d83f9ba647c996a523d658",
+      "bytes": 2622,
+      "transformations": []
+    },
+    {
+      "path": "research_increments/contingent_recovery_2026-10-11/README_cn.md",
+      "source": "research_increments/contingent_recovery_2026-10-11/README_cn.md",
+      "source_sha256": "bda95d13f419f05b820c8909af4e4ae744dad3f37363f6b491a8887bb1611ea2",
+      "sha256": "bda95d13f419f05b820c8909af4e4ae744dad3f37363f6b491a8887bb1611ea2",
+      "bytes": 6139,
+      "transformations": []
+    },
+    {
+      "path": "research_increments/contingent_recovery_2026-10-11/RESULTS_SUMMARY.json",
+      "source": "research_increments/contingent_recovery_2026-10-11/RESULTS_SUMMARY.json",
+      "source_sha256": "4e8dbfd71b50d302cbd56d7ca532219d06a97906cf4da8c0522c6c9c14e20a35",
+      "sha256": "4e8dbfd71b50d302cbd56d7ca532219d06a97906cf4da8c0522c6c9c14e20a35",
+      "bytes": 3627,
+      "transformations": []
+    },
+    {
+      "path": "research_increments/contingent_recovery_2026-10-11/figures/contingency_results.pdf",
+      "source": "research_increments/contingent_recovery_2026-10-11/figures/contingency_results.pdf",
+      "source_sha256": "f0bf3434d14899d9f58901fd29dd64f495a9ad367639bf35831bfede4acfdd03",
+      "sha256": "f0bf3434d14899d9f58901fd29dd64f495a9ad367639bf35831bfede4acfdd03",
+      "bytes": 19396,
+      "transformations": []
+    },
+    {
+      "path": "research_increments/contingent_recovery_2026-10-11/figures/failure_branch_timing.pdf",
+      "source": "research_increments/contingent_recovery_2026-10-11/figures/failure_branch_timing.pdf",
+      "source_sha256": "8a3cfa351385848062a795a3adf5a2f1741f662c8cafc426376279ac07ae5e50",
+      "sha256": "8a3cfa351385848062a795a3adf5a2f1741f662c8cafc426376279ac07ae5e50",
+      "bytes": 18863,
+      "transformations": []
+    },
+    {
+      "path": "research_increments/contingent_recovery_2026-10-11/paper_preview/note.pdf",
+      "source": "research_increments/contingent_recovery_2026-10-11/paper_preview/note.pdf",
+      "source_sha256": "52ad850764dc5e64423c9ac217b8fab6f9cc420b8244b50a58a5300f761985f5",
+      "sha256": "52ad850764dc5e64423c9ac217b8fab6f9cc420b8244b50a58a5300f761985f5",
+      "bytes": 140813,
+      "transformations": []
+    },
+    {
+      "path": "research_increments/contingent_recovery_2026-10-11/paper_rewriting_output/MECHANISM_BOUNDARY_cn.md",
+      "source": "research_increments/contingent_recovery_2026-10-11/paper_rewriting_output/MECHANISM_BOUNDARY_cn.md",
+      "source_sha256": "4fa5a81d59a6c413f1cd09e81c5ddcd6c026295395d4b5a4b43d7508a042d5ce",
+      "sha256": "4fa5a81d59a6c413f1cd09e81c5ddcd6c026295395d4b5a4b43d7508a042d5ce",
+      "bytes": 3106,
+      "transformations": []
+    },
+    {
+      "path": "research_increments/four_tank_confirmation_2026-10-10/paper_rewriting_output/historic_log_experiment_appendix_preview_v5/main.pdf",
+      "source": "research_increments/four_tank_confirmation_2026-10-10/paper_rewriting_output/historic_log_experiment_appendix_preview_v5/main.pdf",
+      "source_sha256": "7c1904fc6c854b6ebe8a2ad50012878f79def54e20839b409d444a14546000b0",
+      "sha256": "7c1904fc6c854b6ebe8a2ad50012878f79def54e20839b409d444a14546000b0",
+      "bytes": 259556,
+      "transformations": []
+    },
+    {
+      "path": "research_increments/public_response_identification_2026-10-12/COMBINED_RESULTS_SUMMARY.json",
+      "source": "research_increments/public_response_identification_2026-10-12/COMBINED_RESULTS_SUMMARY.json",
+      "source_sha256": "c9211739c883f8d4f4c7ec24bfc434894453273d25ba96eaa2320db93cbe0bb6",
+      "sha256": "c9211739c883f8d4f4c7ec24bfc434894453273d25ba96eaa2320db93cbe0bb6",
+      "bytes": 8815,
+      "transformations": []
+    },
+    {
+      "path": "research_increments/public_response_identification_2026-10-12/EXECUTION_RELEASE.json",
+      "source": "research_increments/public_response_identification_2026-10-12/EXECUTION_RELEASE.json",
+      "source_sha256": "ebd8665b1f03e8c95eea3f2d5401d6461e0b8dfb4d50f26c178e5579c6c2119d",
+      "sha256": "ebd8665b1f03e8c95eea3f2d5401d6461e0b8dfb4d50f26c178e5579c6c2119d",
+      "bytes": 2667,
+      "transformations": []
+    },
+    {
+      "path": "research_increments/public_response_identification_2026-10-12/PROTOCOL.json",
+      "source": "research_increments/public_response_identification_2026-10-12/PROTOCOL.json",
+      "source_sha256": "06c9f0305b40e12788dc3825225b1e3015dd8776f86e935f56335cf19cc3b753",
+      "sha256": "06c9f0305b40e12788dc3825225b1e3015dd8776f86e935f56335cf19cc3b753",
+      "bytes": 4346,
+      "transformations": []
+    },
+    {
+      "path": "research_increments/public_response_identification_2026-10-12/README_cn.md",
+      "source": "research_increments/public_response_identification_2026-10-12/README_cn.md",
+      "source_sha256": "6cc5450e4cd2c05b90404fdbe7ffa04f6c06c587bb019bdd6d21421e381a0dab",
+      "sha256": "6cc5450e4cd2c05b90404fdbe7ffa04f6c06c587bb019bdd6d21421e381a0dab",
+      "bytes": 6203,
+      "transformations": []
+    },
+    {
+      "path": "research_increments/public_response_identification_2026-10-12/ROBUST_FIRST_PROTOCOL.json",
+      "source": "research_increments/public_response_identification_2026-10-12/ROBUST_FIRST_PROTOCOL.json",
+      "source_sha256": "c9b379c9300bd87bdf7f58125af7df493f2269d0aef290785c4b4c073548449b",
+      "sha256": "c9b379c9300bd87bdf7f58125af7df493f2269d0aef290785c4b4c073548449b",
+      "bytes": 576,
+      "transformations": []
+    },
+    {
+      "path": "research_increments/public_response_identification_2026-10-12/ROBUST_FIRST_RELEASE.json",
+      "source": "research_increments/public_response_identification_2026-10-12/ROBUST_FIRST_RELEASE.json",
+      "source_sha256": "bbf1a6826a4377a55f95a1057ddb2403d68cdc861fdb4ac486dce0bda8c63616",
+      "sha256": "bbf1a6826a4377a55f95a1057ddb2403d68cdc861fdb4ac486dce0bda8c63616",
+      "bytes": 1243,
+      "transformations": []
+    },
+    {
+      "path": "research_increments/public_response_identification_2026-10-12/figures_final/public_response_mechanism.pdf",
+      "source": "research_increments/public_response_identification_2026-10-12/figures_final/public_response_mechanism.pdf",
+      "source_sha256": "441d0eaec7365ace42f4c1a718611305a8a34e23330568a24d33c305ad3c7e98",
+      "sha256": "441d0eaec7365ace42f4c1a718611305a8a34e23330568a24d33c305ad3c7e98",
+      "bytes": 19412,
+      "transformations": []
+    },
+    {
+      "path": "research_increments/public_response_identification_2026-10-12/figures_final/public_response_results.pdf",
+      "source": "research_increments/public_response_identification_2026-10-12/figures_final/public_response_results.pdf",
+      "source_sha256": "24344e39dddee221cab81bec04be4daa0c990e130934858e5d27c3056b8659e8",
+      "sha256": "24344e39dddee221cab81bec04be4daa0c990e130934858e5d27c3056b8659e8",
+      "bytes": 16323,
+      "transformations": []
+    },
+    {
+      "path": "research_increments/public_response_identification_2026-10-12/paper_preview/note.pdf",
+      "source": "research_increments/public_response_identification_2026-10-12/paper_preview/note.pdf",
+      "source_sha256": "2c7068a87a920e18104219fce3c32b1518072d5faacd98660cf5bbffc6b9487e",
+      "sha256": "2c7068a87a920e18104219fce3c32b1518072d5faacd98660cf5bbffc6b9487e",
+      "bytes": 120760,
+      "transformations": []
+    },
+    {
+      "path": "research_increments/safelab_timing_bridge_2026-10-11/PROTOCOL.json",
+      "source": "research_increments/safelab_timing_bridge_2026-10-11/PROTOCOL.json",
+      "source_sha256": "dcdfdbca407762ce044b43a454c01aca33fd7bc761de443412fd557637f97acb",
+      "sha256": "dcdfdbca407762ce044b43a454c01aca33fd7bc761de443412fd557637f97acb",
+      "bytes": 1996,
+      "transformations": []
+    },
+    {
+      "path": "research_increments/safelab_timing_bridge_2026-10-11/README_cn.md",
+      "source": "research_increments/safelab_timing_bridge_2026-10-11/README_cn.md",
+      "source_sha256": "2496d09b20caec6cbb3e9fc080cc35faac065f5cbf3a57b524b03c03baaf502a",
+      "sha256": "2496d09b20caec6cbb3e9fc080cc35faac065f5cbf3a57b524b03c03baaf502a",
+      "bytes": 5608,
+      "transformations": []
+    },
+    {
+      "path": "research_increments/safelab_timing_bridge_2026-10-11/figures/recovery_results.pdf",
+      "source": "research_increments/safelab_timing_bridge_2026-10-11/figures/recovery_results.pdf",
+      "source_sha256": "10cac57a8a94a61f5b921ef845192e862de5bd295d029ab7f67e217f0d2f9210",
+      "sha256": "10cac57a8a94a61f5b921ef845192e862de5bd295d029ab7f67e217f0d2f9210",
+      "bytes": 19386,
+      "transformations": []
+    },
+    {
+      "path": "research_increments/shared_bus_contracts_2026-10-12/EXECUTION_RELEASE.json",
+      "source": "research_increments/shared_bus_contracts_2026-10-12/EXECUTION_RELEASE.json",
+      "source_sha256": "5e258d68aabc8e98f6d72c706b93973ea95e91330fb619ec766426d63481e684",
+      "sha256": "5e258d68aabc8e98f6d72c706b93973ea95e91330fb619ec766426d63481e684",
+      "bytes": 1984,
+      "transformations": []
+    },
+    {
+      "path": "research_increments/shared_bus_contracts_2026-10-12/PROTOCOL.json",
+      "source": "research_increments/shared_bus_contracts_2026-10-12/PROTOCOL.json",
+      "source_sha256": "3f311a25ff0001863bf3e9e964501c4b243c30b61c13ddc491c0322a4046b749",
+      "sha256": "3f311a25ff0001863bf3e9e964501c4b243c30b61c13ddc491c0322a4046b749",
+      "bytes": 2586,
+      "transformations": []
+    },
+    {
+      "path": "research_increments/shared_bus_contracts_2026-10-12/README_cn.md",
+      "source": "research_increments/shared_bus_contracts_2026-10-12/README_cn.md",
+      "source_sha256": "f9d9a1bfdad0f0fce7831c1c4ccffaf8e4caea7fdc9ca00b63d3fa913081cb1d",
+      "sha256": "534410209dc015b0f8109ee333a92ad52cb37adddafe8ae78997261df327fe9c",
+      "bytes": 6947,
+      "transformations": [
+        "local server endpoint replaced by generic description"
+      ]
+    },
+    {
+      "path": "research_increments/shared_bus_contracts_2026-10-12/RESULTS_SUMMARY.json",
+      "source": "research_increments/shared_bus_contracts_2026-10-12/RESULTS_SUMMARY.json",
+      "source_sha256": "ca6502afef8e2fef9b2f4d6fb3d300b4483e2624edee3870107cb297d2317196",
+      "sha256": "ca6502afef8e2fef9b2f4d6fb3d300b4483e2624edee3870107cb297d2317196",
+      "bytes": 10205,
+      "transformations": []
+    },
+    {
+      "path": "research_increments/shared_bus_contracts_2026-10-12/figures/shared_bus_results.pdf",
+      "source": "research_increments/shared_bus_contracts_2026-10-12/figures/shared_bus_results.pdf",
+      "source_sha256": "7e897193e8da3db6553a0f1abe07e889d13e38f59e864927041d7d402e52de6a",
+      "sha256": "7e897193e8da3db6553a0f1abe07e889d13e38f59e864927041d7d402e52de6a",
+      "bytes": 20494,
+      "transformations": []
+    },
+    {
+      "path": "research_increments/shared_bus_contracts_2026-10-12/figures/shared_bus_timing.pdf",
+      "source": "research_increments/shared_bus_contracts_2026-10-12/figures/shared_bus_timing.pdf",
+      "source_sha256": "f6f128b83ffa2306b950c471286fc8b8876ce3c196757337358f1ef475e32936",
+      "sha256": "f6f128b83ffa2306b950c471286fc8b8876ce3c196757337358f1ef475e32936",
+      "bytes": 18967,
+      "transformations": []
+    },
+    {
+      "path": "research_increments/shared_bus_contracts_2026-10-12/paper_preview/note.pdf",
+      "source": "research_increments/shared_bus_contracts_2026-10-12/paper_preview/note.pdf",
+      "source_sha256": "e455994a4a5fc85dfa55c74be843219ce38d259e6f61563e3891f1bfabc7580b",
+      "sha256": "e455994a4a5fc85dfa55c74be843219ce38d259e6f61563e3891f1bfabc7580b",
+      "bytes": 140923,
+      "transformations": []
+    },
+    {
+      "path": "research_increments/time_accurate_agentic_vla_2026-10-11/TRAINING_AND_EXPERIMENT_CONTRACT_cn.md",
+      "source": "research_increments/time_accurate_agentic_vla_2026-10-11/TRAINING_AND_EXPERIMENT_CONTRACT_cn.md",
+      "source_sha256": "def50518a1d8b0be7dd8329c2529fe33c2ef9375f8df9833dea2b39e988a3e54",
+      "sha256": "def50518a1d8b0be7dd8329c2529fe33c2ef9375f8df9833dea2b39e988a3e54",
+      "bytes": 7182,
+      "transformations": []
+    },
+    {
+      "path": "research_increments/time_accurate_agentic_vla_2026-10-11/paper_rewriting_output/RESEARCH_DESIGN_cn.md",
+      "source": "research_increments/time_accurate_agentic_vla_2026-10-11/paper_rewriting_output/RESEARCH_DESIGN_cn.md",
+      "source_sha256": "bad783f56dc8342153336cd4df0646e62ca242d8e313eb46e91da22dcd5f83b3",
+      "sha256": "bad783f56dc8342153336cd4df0646e62ca242d8e313eb46e91da22dcd5f83b3",
+      "bytes": 22701,
+      "transformations": []
+    },
+    {
+      "path": "shared_bus_results.svg",
+      "source": "web/shared_bus_results.svg",
+      "source_sha256": "2930fa155e0530746b1e0af634c73ca2b11c9929e303caf57d92cc9be3eb798b",
+      "sha256": "2930fa155e0530746b1e0af634c73ca2b11c9929e303caf57d92cc9be3eb798b",
+      "bytes": 29207,
+      "transformations": []
+    },
+    {
+      "path": "shared_bus_timing.svg",
+      "source": "web/shared_bus_timing.svg",
+      "source_sha256": "962b702a5377198582e9574220a872cc425eb3de78106d20e7013680a021a7ba",
+      "sha256": "962b702a5377198582e9574220a872cc425eb3de78106d20e7013680a021a7ba",
+      "bytes": 10839,
+      "transformations": []
+    },
+    {
+      "path": "CURRENT_METHOD_cn.md",
+      "source": "publication supplement",
+      "source_sha256": "b363b052cea50972ce68aeb697b0732e50810d0c81eb536c38d4554c2ae4c047",
+      "sha256": "b363b052cea50972ce68aeb697b0732e50810d0c81eb536c38d4554c2ae4c047",
+      "bytes": 5106,
+      "transformations": []
+    },
+    {
+      "path": "README.md",
+      "source": "publication supplement",
+      "source_sha256": "84f5def7d83cee3d0a834f407b0b9e035a89c2a6608d4bc9dc674c105e8667bd",
+      "sha256": "84f5def7d83cee3d0a834f407b0b9e035a89c2a6608d4bc9dc674c105e8667bd",
+      "bytes": 1525,
+      "transformations": []
+    },
+    {
+      "path": "check_site.py",
+      "source": "publication supplement",
+      "source_sha256": "43e036d00fa81ed50a185ee772dc5406720c70a9101255765229a7ad969f2790",
+      "sha256": "43e036d00fa81ed50a185ee772dc5406720c70a9101255765229a7ad969f2790",
+      "bytes": 2883,
+      "transformations": []
+    },
+    {
+      "path": ".nojekyll",
+      "source": "generated static-site marker",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "transformations": []
+    }
+  ]
+}

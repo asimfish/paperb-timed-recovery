@@ -1,0 +1,279 @@
+{
+  "schema_version": "paperB.acceptance.design.3",
+  "status": "CANDIDATE_PROTOCOL",
+  "preregistered": false,
+  "new_results_present": false,
+  "source_experiment_ids": "E1-E10 from auto_engineering_source_review_2026-10-11/EXPERIMENT_SPEC_v2.json",
+  "primary_questions": [
+    {
+      "id": "Q1",
+      "question": "Do physical-event and process-response mechanisms improve joint task-and-time outcomes beyond calibrated timing and prediction?",
+      "source_ids": [
+        "E1_VERIFIER",
+        "E6_GENERALIZATION"
+      ],
+      "controls": [
+        "calibrated_timer",
+        "predictive_control_and_scheduler",
+        "fixed_modular_skill",
+        "standard_diffusion_policy",
+        "RTC_when_interface_compatible"
+      ],
+      "held_equal": [
+        "public_sensing",
+        "basic_protection",
+        "task_cohort",
+        "event_measurement",
+        "resource_budget"
+      ],
+      "metrics": [
+        "joint_TRUE_over_all",
+        "task_verdict",
+        "contract_verdict",
+        "early_late_violation",
+        "UNKNOWN_fraction",
+        "actual_latency_chain"
+      ],
+      "negative_control": "a calibrated device-stop task already solved by timer",
+      "falsification": "matched calibrated control removes the apparent benefit"
+    },
+    {
+      "id": "Q2",
+      "question": "Does recoverability-aware experience teach valid original-attempt recovery beyond matched retry and student-state labeling?",
+      "source_ids": [
+        "E1_VERIFIER",
+        "E2_FAILURE_RECOVERY",
+        "E3_STUDENT_STATE"
+      ],
+      "controls": [
+        "ordinary_retry",
+        "matched_DAgger",
+        "runtime_time_filter_only",
+        "contract_recovery_learning_only"
+      ],
+      "factorial": {
+        "runtime_recovery_restriction": [
+          false,
+          true
+        ],
+        "learning_contract_and_recovery_targets": [
+          false,
+          true
+        ],
+        "common_basic_protection": true
+      },
+      "held_equal": [
+        "teacher_privileges",
+        "teacher_calls",
+        "student_labeled_states",
+        "sampling_distribution",
+        "low_level_modules"
+      ],
+      "metrics": [
+        "original_attempt_recovery_TRUE",
+        "invalid_retry_count",
+        "false_rejection",
+        "abort_count",
+        "takeover_count",
+        "joint_TRUE_over_all"
+      ],
+      "falsification": "all benefit comes from external filtering or unmatched teacher-state coverage"
+    },
+    {
+      "id": "Q3",
+      "question": "Are gains due to engineering reuse, context adaptation or retained actor learning?",
+      "source_ids": [
+        "E4_CONTEXT_ADAPTATION",
+        "E5_ABSORPTION_FACTORIAL",
+        "E9_ENGINEERING_REUSE"
+      ],
+      "actor_context_factorial": {
+        "actor_updated": [
+          false,
+          true
+        ],
+        "context_updated": [
+          false,
+          true
+        ]
+      },
+      "freeze_for_actor_attribution": [
+        "perception",
+        "twin",
+        "harness",
+        "engineering_artifacts"
+      ],
+      "evaluation_online_expert": false,
+      "memory_controls": [
+        "real",
+        "cleared",
+        "shuffled",
+        "uninformative"
+      ],
+      "attempt_indices_candidate": [
+        1,
+        2,
+        3,
+        5,
+        10
+      ],
+      "metrics": [
+        "per_attempt_SR",
+        "improvement_slope",
+        "retention_after_context_clear",
+        "old_task_retention",
+        "cost"
+      ],
+      "cumulative_success_is_learning": false,
+      "falsification": "clearing context or fixing external stack removes purported weight absorption"
+    },
+    {
+      "id": "Q4",
+      "question": "Does the policy generalize beyond fixed event timing and known dependency structure?",
+      "source_ids": [
+        "E6_GENERALIZATION",
+        "E7_TWIN"
+      ],
+      "split_axes": [
+        "state",
+        "object_role_and_count",
+        "process_and_device_response",
+        "goal_order_dependency_and_recovery"
+      ],
+      "controls": [
+        "identical_split_and_budget_for_all",
+        "fixed_and_calibrated_twin",
+        "audited_contract_pairs"
+      ],
+      "metrics": [
+        "held_out_joint_verdicts",
+        "old_task_retention",
+        "failure_vectors",
+        "contract_pair_decision_changes"
+      ],
+      "falsification": "gain is restricted to known templates, oracle inputs or leaked calibration/test batches"
+    }
+  ],
+  "secondary_after_measurement_ready": [
+    {
+      "id": "Q5",
+      "source_ids": [
+        "E7_TWIN",
+        "E8_VERSIONS"
+      ],
+      "question": "Does feedback-driven twin and improvement-operator selection improve equal-budget fixed-distribution performance?",
+      "include": [
+        "fixed_recipe",
+        "external_memory_only",
+        "actor_update",
+        "adaptive_operator_choice",
+        "rejected_candidates",
+        "budget_exhaustion",
+        "held_out_final_tests"
+      ]
+    },
+    {
+      "id": "Q6",
+      "source_ids": [
+        "E9_ENGINEERING_REUSE",
+        "E10_SKILL_ROUTE"
+      ],
+      "question": "Does validated engineering reuse reduce total and incremental engineering cost?",
+      "include": [
+        "cold_start",
+        "validated_warm_artifacts",
+        "fixed_modular_composition",
+        "evidence_driven_construction",
+        "historical_creation_cost",
+        "human_active_time",
+        "truncated_time_to_acceptance"
+      ]
+    }
+  ],
+  "sampling_and_analysis": {
+    "pilot_separate_from_confirmatory": true,
+    "unit_of_independence": [
+      "task_template",
+      "real_batch",
+      "training_seed"
+    ],
+    "frames_are_independent_trials": false,
+    "sample_sizes": null,
+    "training_seeds": null,
+    "chemical_thresholds": null,
+    "event_measurement_error_tolerance": null,
+    "resource_budget_vector": {
+      "real_attempts": null,
+      "simulated_physical_time": null,
+      "teacher_and_agent_calls": null,
+      "training_compute": null,
+      "engineering_time": null,
+      "materials": null,
+      "human_active_time": null
+    },
+    "freeze_point": "after separate pilot and before confirmatory tasks",
+    "primary_denominator": "all predeclared attempts; no exclusion by training-admission status",
+    "report_unknown_and_missing": true,
+    "optional_unknown_bounds": "all UNKNOWN treated as unsuccessful / successful, explicitly as bounds",
+    "paired_analysis_requires_audited_pairing": true,
+    "adaptive_selection_final_holdout_separate": true,
+    "all_failed_candidates_count_in_cost": true
+  },
+  "readiness_gates": [
+    {
+      "id": "P1",
+      "output": "running reference twin and minimum physics/action receipt",
+      "state": "NOT_RUN",
+      "dependency": "selected simulator, GPU/runtime and asset/chemistry dependencies"
+    },
+    {
+      "id": "P2",
+      "output": "public timing chain plus independent reference/effect/chemistry measurements",
+      "state": "DESIGN_ONLY",
+      "dependency": "measurement interface and protocol"
+    },
+    {
+      "id": "P3",
+      "output": "matched calibrated control and standard learning baselines",
+      "state": "DESIGN_ONLY",
+      "dependency": "P1/P2 and locked information track"
+    },
+    {
+      "id": "P4",
+      "output": "trajectory/artifact ledgers and supported student-state recovery labels",
+      "state": "SPECIFIED_NOT_IMPLEMENTED",
+      "dependency": "P3 failures and teacher support"
+    },
+    {
+      "id": "P5",
+      "output": "shared history-conditioned student and actor/context attribution",
+      "state": "DESIGN_ONLY",
+      "dependency": "P4 and real executed learning runs"
+    },
+    {
+      "id": "P6",
+      "output": "held-out tasks and independent real transfer",
+      "state": "DESIGN_ONLY",
+      "dependency": "P5 and frozen confirmatory protocol"
+    },
+    {
+      "id": "P7",
+      "output": "engineering reuse and adaptive cross-version comparison",
+      "state": "DESIGN_ONLY",
+      "dependency": "measurable fixed-distribution performance and complete cost records"
+    }
+  ],
+  "scientific_acceptance": {
+    "supported_positive_claim_requires": [
+      "independent calibrated task-and-time measurements",
+      "matched strong baseline comparison",
+      "separable runtime-versus-learning attribution",
+      "no hidden evaluation information",
+      "full cohort and cost accounting",
+      "retained student performance without online experts",
+      "held-out and real evidence at declared claim scope"
+    ],
+    "design_checks_alone_sufficient": false,
+    "guaranteed_top_conference_standard": false
+  }
+}

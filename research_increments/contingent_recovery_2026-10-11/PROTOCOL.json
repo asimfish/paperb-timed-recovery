@@ -1,0 +1,82 @@
+{
+  "id": "paperB.finite_contingent_recovery.v2",
+  "status": "DEVELOPMENT_NOT_CONFIRMATORY",
+  "backend": "MuJoCo 3.3.7, existing C5 mechanical rotor asset",
+  "chemical_process_tested": false,
+  "reference": "rotor physically crosses 2 radians, bracketed from stored qpos",
+  "effect": "flow proxy <=0.005 mL/s continuously for 0.2s, bracketed from stored velocity",
+  "public_inputs": [
+    "delivered encoder position and velocity",
+    "delivered device power feedback",
+    "public simulation clock",
+    "task window",
+    "development calibration"
+  ],
+  "rgb_role": "recorded native renderer views, not policy input in this component",
+  "private_inputs_to_policy": false,
+  "dt_ns": 10000000,
+  "horizon_ns": 8000000000,
+  "rgb_period_ns": 500000000,
+  "fault_detection_wait_ns": 200000000,
+  "first_primary_delay_ns": 50000000,
+  "retry_primary_delay_ns": 450000000,
+  "relay_delay_ns": 50000000,
+  "arms": [
+    "contingency_scheduler",
+    "complete_path_guard",
+    "relay_first"
+  ],
+  "mechanical_settings": [
+    {
+      "id": "calibration_fast",
+      "inertia": 0.0015,
+      "damping": 0.006,
+      "split": "covered_development"
+    },
+    {
+      "id": "calibration_slow",
+      "inertia": 0.002,
+      "damping": 0.006,
+      "split": "covered_development"
+    },
+    {
+      "id": "response_shift",
+      "inertia": 0.003,
+      "damping": 0.006,
+      "split": "outside_calibration_support"
+    }
+  ],
+  "delivery_delays_ns": [
+    0,
+    300000000,
+    800000000
+  ],
+  "windows_ns": [
+    [
+      0,
+      1500000000
+    ],
+    [
+      0,
+      2500000000
+    ]
+  ],
+  "faults": [
+    "none",
+    "drop_first",
+    "persistent_primary"
+  ],
+  "calibration_initial_velocity_rad_s": 10,
+  "calibration_assumptions": "finite native coast probes at two declared mechanical settings, not a statistical or hardware coverage guarantee",
+  "strong_baseline": "calibrated_scheduler uses identical duration bounds, privileges and recovery choices",
+  "costs": "declared transport and controller delays advance plant; measured host work does not advance this simulation",
+  "full_cohort": 162,
+  "native_robot_control": false,
+  "learned_policy_runs": 0,
+  "chemical_joint_certified": 0,
+  "relay_execution_supported_in_fixture": true,
+  "recovery_scope": "retry success or retry failure -> feedback wait -> relay -> mechanical decay; conditioned on relay support and calibration",
+  "direct_baseline": "relay_first has identical permissions; lower complexity ceiling control",
+  "preregistered": false,
+  "control_calibration": "same prior native probes, no test-setting parameters available to policy"
+}

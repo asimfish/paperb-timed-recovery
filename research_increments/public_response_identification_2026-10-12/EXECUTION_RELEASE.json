@@ -1,0 +1,49 @@
+{
+  "status": "PASS_PRE_RUN_RELEASE",
+  "released_at_utc": "2026-10-12T08:40:50.596489+00:00",
+  "main_runs_executed_at_release": 0,
+  "new_native_rollouts": 432,
+  "retained_native_comparators": 108,
+  "development_probe_credit": 0,
+  "confirmatory": false,
+  "preregistered": false,
+  "source_sha256": {
+    "parent.py": "69f163f2e65d42498eb5b91efa0aa53883fc77b9a8dac5a93168a74c03ec2a05",
+    "estimator.py": "2b6118f2d62dc032f24673f58f2f9bdad418fe138fa0ec1a0859f65608094193",
+    "policies.py": "c7160cd66c628cffc57ca1edbd87bf4eca02b3c9cc3dfd70c83e23f44ec2d5bf",
+    "run_calibration.py": "16e5d8705ced7f639da4dfa3a264bc2e9e4c71f30d3036eb2fa7563de9a86e16",
+    "audit_calibration.py": "4767ba854c7431505bda921cfbcd77aa9277164f8a9cd025a081277598174027",
+    "prepare_release.py": "fece023d1b22c88786910eb3ad59e1c31e66ea81ed137263f084f3e1782d16c7",
+    "test_response.py": "c8e392817fb5d618818f03996fc9108ae8bb4cbb04d5ae91f045efc83fff6949",
+    "PROTOCOL.json": "06c9f0305b40e12788dc3825225b1e3015dd8776f86e935f56335cf19cc3b753",
+    "PARENT_BINDINGS.json": "7a6c43c6460c19c1cbdfc75c8f338a02836d9628f25cf61e35149ee8da93b771"
+  },
+  "parent_source_sha256": {
+    "CALIBRATION.json": "cb0ce526e5af0799f607ff9223ebb3fbef8ce14e4cd00250e1615bf871c4e8ca",
+    "PROTOCOL.json": "3f311a25ff0001863bf3e9e964501c4b243c30b61c13ddc491c0322a4046b749",
+    "audit_experiment.py": "8fd8766aa6c9ef1854d1ff2320b8d41e238cfc44d78db0ac63be3123ba50ae13",
+    "control.py": "c77a07228ec2a394580ef8ecb6205ff5e9021671dc8b26a00e320f16696fe77a",
+    "interfaces.py": "fc123fa4e4411b167b831ceaaed1db2408dc2306d8f0caf601b9fcc30c02b2f9",
+    "plant.py": "f505a2364f13d3691b552706b58890d6c8f80f5e6e52d174b2acbd8d192d758c",
+    "prediction.py": "44620c206bd5527dd00ace7280229a718defca7a1a681d29500ff26e52de4241",
+    "prepare_release.py": "f108df84adec817578cdd1a79eeeb94206bae08ec18754b16db6351dc29f2290",
+    "referee.py": "ca495b047a1494a161f44976484ae02750b7618f6195a5d3ba243dbeb2d10dff",
+    "run_experiment.py": "5ebfc14e74d2d223c77b83258215339e43b8e54bd88525e763dfc5ca1b0e3079",
+    "shared_bus.xml": "2fc953b4a5ab88d7a7d2ac9ad52c746ef4b3c7ad38d5e84db2dcb2728755794e",
+    "test_contracts.py": "c8e46d0fbefe6b18fe9033f8f74785169d8050a1d6c7cda84c294e68def5d11c"
+  },
+  "focused_tests_sha256": "a9605785b75b061b2242798bb4d492deba1d0ab76040347b3dfb9baacf95fa8d",
+  "dependencies": {
+    "python": "3.10.12",
+    "mujoco": "3.3.7",
+    "numpy": "2.2.6",
+    "Pillow": "9.0.1"
+  },
+  "limits": [
+    "no sensor noise or coverage guarantee",
+    "no learned robot policy",
+    "no chemical endpoint",
+    "nonanticipatory finite recovery graph",
+    "host work does not advance simulation"
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "status": "PASS_PRE_RUN_RELEASE",
+  "released_at_utc": "2026-10-12T07:54:39.399582+00:00",
+  "planned_main_rollouts": 432,
+  "parameter_cases": 108,
+  "main_rollouts_executed_at_release": 0,
+  "development_diagnostic_rollouts": 8,
+  "preregistered": false,
+  "confirmatory": false,
+  "source_sha256": {
+    "CALIBRATION.json": "cb0ce526e5af0799f607ff9223ebb3fbef8ce14e4cd00250e1615bf871c4e8ca",
+    "PROTOCOL.json": "3f311a25ff0001863bf3e9e964501c4b243c30b61c13ddc491c0322a4046b749",
+    "audit_experiment.py": "8fd8766aa6c9ef1854d1ff2320b8d41e238cfc44d78db0ac63be3123ba50ae13",
+    "control.py": "c77a07228ec2a394580ef8ecb6205ff5e9021671dc8b26a00e320f16696fe77a",
+    "interfaces.py": "fc123fa4e4411b167b831ceaaed1db2408dc2306d8f0caf601b9fcc30c02b2f9",
+    "plant.py": "f505a2364f13d3691b552706b58890d6c8f80f5e6e52d174b2acbd8d192d758c",
+    "prediction.py": "44620c206bd5527dd00ace7280229a718defca7a1a681d29500ff26e52de4241",
+    "prepare_release.py": "f108df84adec817578cdd1a79eeeb94206bae08ec18754b16db6351dc29f2290",
+    "referee.py": "ca495b047a1494a161f44976484ae02750b7618f6195a5d3ba243dbeb2d10dff",
+    "run_experiment.py": "5ebfc14e74d2d223c77b83258215339e43b8e54bd88525e763dfc5ca1b0e3079",
+    "shared_bus.xml": "2fc953b4a5ab88d7a7d2ac9ad52c746ef4b3c7ad38d5e84db2dcb2728755794e",
+    "test_contracts.py": "c8e46d0fbefe6b18fe9033f8f74785169d8050a1d6c7cda84c294e68def5d11c"
+  },
+  "preflight_audit_sha256": "8f8f59be9b5d6fd239f25e08f398b8595c458730d684da7667c7cfd5c28a9894",
+  "focused_tests_sha256": "e6b322f3c2ed3656c8e0ae63c14874eba946456f04b68620edc0d068d04d15cc",
+  "dependencies": {
+    "python": "3.10.12",
+    "mujoco": "3.3.7",
+    "numpy": "2.2.6",
+    "Pillow": "9.0.1"
+  },
+  "limits": [
+    "no chemical endpoint",
+    "no real robot or learned policy",
+    "no hardware/coverage certificate",
+    "host work does not advance simulation",
+    "main matrix is development; shared-bus coupling is a latched stop interface, not power-electronics dynamics"
+  ]
+}

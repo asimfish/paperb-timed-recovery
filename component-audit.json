@@ -1,0 +1,118 @@
+{
+  "status": "PASS_COMPONENT_AUDIT",
+  "cohort_slots": 216,
+  "native_samples": 173016,
+  "RGB_frames_verified": 3672,
+  "paired_mechanical_prefix_groups": 54,
+  "paired_mechanical_prefix_rows": 19650,
+  "full_RGB_prefix_pairing_claimed": false,
+  "counts": {
+    "calibrated_scheduler/covered_development": {
+      "TRUE": 16,
+      "FALSE": 19,
+      "UNKNOWN": 1
+    },
+    "calibrated_scheduler/outside_calibration_support": {
+      "FALSE": 17,
+      "TRUE": 1
+    },
+    "command_timer/covered_development": {
+      "TRUE": 7,
+      "FALSE": 29
+    },
+    "command_timer/outside_calibration_support": {
+      "FALSE": 17,
+      "TRUE": 1
+    },
+    "contract_guard/covered_development": {
+      "TRUE": 16,
+      "FALSE": 19,
+      "UNKNOWN": 1
+    },
+    "contract_guard/outside_calibration_support": {
+      "FALSE": 17,
+      "TRUE": 1
+    },
+    "ordinary_retry/covered_development": {
+      "TRUE": 11,
+      "FALSE": 24,
+      "UNKNOWN": 1
+    },
+    "ordinary_retry/outside_calibration_support": {
+      "FALSE": 17,
+      "TRUE": 1
+    }
+  },
+  "predicted_eligible_non_TRUE": [
+    {
+      "id": "calibration_slow-d0-w2500-persistent_primary-ordinary_retry",
+      "split": "covered_development",
+      "actual_time_verdict": "UNKNOWN"
+    },
+    {
+      "id": "calibration_slow-d0-w2500-persistent_primary-calibrated_scheduler",
+      "split": "covered_development",
+      "actual_time_verdict": "UNKNOWN"
+    },
+    {
+      "id": "calibration_slow-d0-w2500-persistent_primary-contract_guard",
+      "split": "covered_development",
+      "actual_time_verdict": "UNKNOWN"
+    },
+    {
+      "id": "response_shift-d0-w2500-drop_first-ordinary_retry",
+      "split": "outside_calibration_support",
+      "actual_time_verdict": "FALSE"
+    },
+    {
+      "id": "response_shift-d0-w2500-drop_first-calibrated_scheduler",
+      "split": "outside_calibration_support",
+      "actual_time_verdict": "FALSE"
+    },
+    {
+      "id": "response_shift-d0-w2500-drop_first-contract_guard",
+      "split": "outside_calibration_support",
+      "actual_time_verdict": "FALSE"
+    },
+    {
+      "id": "response_shift-d0-w2500-persistent_primary-ordinary_retry",
+      "split": "outside_calibration_support",
+      "actual_time_verdict": "FALSE"
+    },
+    {
+      "id": "response_shift-d0-w2500-persistent_primary-calibrated_scheduler",
+      "split": "outside_calibration_support",
+      "actual_time_verdict": "FALSE"
+    },
+    {
+      "id": "response_shift-d0-w2500-persistent_primary-contract_guard",
+      "split": "outside_calibration_support",
+      "actual_time_verdict": "FALSE"
+    },
+    {
+      "id": "response_shift-d300-w2500-drop_first-calibrated_scheduler",
+      "split": "outside_calibration_support",
+      "actual_time_verdict": "FALSE"
+    },
+    {
+      "id": "response_shift-d300-w2500-drop_first-contract_guard",
+      "split": "outside_calibration_support",
+      "actual_time_verdict": "FALSE"
+    },
+    {
+      "id": "response_shift-d300-w2500-persistent_primary-calibrated_scheduler",
+      "split": "outside_calibration_support",
+      "actual_time_verdict": "FALSE"
+    },
+    {
+      "id": "response_shift-d300-w2500-persistent_primary-contract_guard",
+      "split": "outside_calibration_support",
+      "actual_time_verdict": "FALSE"
+    }
+  ],
+  "scheduler_guard_outcome_differences": 0,
+  "chemical_joint_certified": 0,
+  "learning_runs": 0,
+  "real_batches": 0,
+  "confirmatory": false
+}

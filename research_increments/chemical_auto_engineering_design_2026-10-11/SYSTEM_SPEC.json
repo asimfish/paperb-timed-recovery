@@ -1,0 +1,212 @@
+{
+  "schema_version": "paperB.design.3",
+  "date": "2026-10-11",
+  "status": "DESIGN_ONLY",
+  "runtime_implemented": false,
+  "new_experiments_executed": false,
+  "preregistered": false,
+  "scope": "event-referenced, duration-aware recovery and shared history-conditioned policy absorption",
+  "selected_mainline": [
+    "reference backend and independent measurement",
+    "fixed modular and calibrated control baselines",
+    "shared conditional diffusion imitation",
+    "matched student-state DAgger",
+    "verified time-supported recovery experience",
+    "context and actor attribution"
+  ],
+  "conditional_extensions": [
+    {
+      "id": "option_offline_rl",
+      "entry_condition": "trusted option transitions cover unresolved ordering, observation or recovery decisions",
+      "default_low_level_actor": "frozen diffusion skill",
+      "critic_target": "r + (1-terminal) * gamma(duration) * V(next_public_history)",
+      "success_objective_gamma": 1,
+      "alternative_duration_discount": "exp(-lambda * duration), only with a separately declared objective",
+      "unknown_terminal_return": "masked; never automatically treated as zero",
+      "status": "NOT_IMPLEMENTED"
+    },
+    {
+      "id": "online_simulation_rl",
+      "entry_condition": "event and device-response twin errors measured; offline actor and common protections runnable",
+      "initial_scope": "option decisions",
+      "real_chemistry_exploration": "not required for first method acceptance",
+      "status": "NOT_IMPLEMENTED"
+    },
+    {
+      "id": "student_state_score_distillation",
+      "entry_condition": "teacher exposes a compatible denoising target, noise schedule and action coordinates on supported student conditions",
+      "fallback": "sample action denoising supervision or hard-label DAgger",
+      "claim": "candidate diffusion score matching on student state occupancy; not token reverse-KL",
+      "status": "NOT_IMPLEMENTED"
+    }
+  ],
+  "information_tracks": {
+    "public_timing": {
+      "permitted": [
+        "delivered_rgb",
+        "language_and_contract_definition",
+        "declared_proprioception",
+        "declared_public_timestamps",
+        "delivered_controller_and_device_feedback",
+        "released_feedback_with_arrival_time",
+        "derived_contract_estimates"
+      ],
+      "forbidden": [
+        "future_frames",
+        "private_adjudicator_measurements",
+        "hidden_reaction_state",
+        "ground_truth_event_time",
+        "hidden_device_parameters"
+      ],
+      "baseline_permissions": "identical within track"
+    },
+    "legacy_no_clock": {
+      "status": "preserve existing interface and evaluate separately",
+      "inherit_public_timing_fields_automatically": false
+    }
+  },
+  "task_contract": {
+    "fields": [
+      "task_id",
+      "goal_dependency_graph",
+      "object_roles",
+      "object_and_device_counts",
+      "reference_event_id",
+      "effect_event_id",
+      "window_lower",
+      "window_upper",
+      "time_unit",
+      "measurement_rule",
+      "physical_outcome_rule",
+      "violation_disposition",
+      "protocol_version"
+    ],
+    "reference_event": "physical event, not merely controller command",
+    "effect_event": "protocol-defined physical effect",
+    "illustrative_window_seconds": 5,
+    "illustration_is_chemical_law": false,
+    "physical_protocol_thresholds": null
+  },
+  "execution_record": {
+    "fields": [
+      "attempt_id",
+      "batch_id",
+      "task_id",
+      "policy_version",
+      "perception_version",
+      "twin_version",
+      "harness_version",
+      "artifact_ids",
+      "frame_capture_time",
+      "frame_delivery_time",
+      "decision_start_and_end",
+      "command_send_time",
+      "command_accept_time",
+      "physical_action_interval",
+      "event_estimate_and_delivery",
+      "teacher_proposal",
+      "executed_action",
+      "teacher_privileges_and_support",
+      "harness_takeovers",
+      "independent_verdict",
+      "verdict_release_time",
+      "cost_vector",
+      "new_attempt_link"
+    ],
+    "append_only_history": true,
+    "reset_creates_new_attempt": true,
+    "original_violation_absorbing": true,
+    "teacher_proposal_is_execution_success": false,
+    "physical_time_progresses_during_reasoning": true,
+    "parallel_duration_accounting": "union of actual process-time execution intervals; dependency-aware"
+  },
+  "recovery_support": {
+    "current_interval": ["t_lower", "t_upper"],
+    "reference_interval": ["reference_lower", "reference_upper"],
+    "candidate_duration_interval": ["duration_lower", "duration_upper"],
+    "completion_relative_interval": [
+      "t_lower + duration_lower - reference_upper",
+      "t_upper + duration_upper - reference_lower"
+    ],
+    "checks": [
+      "preconditions",
+      "all_pending_required_contracts",
+      "dependency_and_resource_feasibility",
+      "calibrated_duration_support",
+      "teacher_or_skill_applicability"
+    ],
+    "contained_interval_label": "PREDICTED_ELIGIBLE",
+    "partial_overlap_label": "UNRESOLVED",
+    "disjoint_interval_label": "PREDICTED_INELIGIBLE",
+    "prediction_is_independent_certificate": false,
+    "initial_search_scope": "finite validated option graph",
+    "global_viability_guarantee": false
+  },
+  "student": {
+    "inputs": [
+      "public_history",
+      "language_task_and_contract",
+      "public_contract_estimate",
+      "permitted_prior_attempt_memory"
+    ],
+    "outputs": [
+      "categorical_option_or_typed_device_command",
+      "short_end_effector_action_chunk",
+      "gripper_state"
+    ],
+    "auxiliary_targets": [
+      "measured_duration_distribution_with_mask",
+      "adjudicated_candidate_outcome_with_mask"
+    ],
+    "model_sizes": null,
+    "history_length": null,
+    "action_chunk_length": null,
+    "denoising_steps": null,
+    "loss_weights": null,
+    "freeze_rule": "pilot first; freeze before confirmatory evaluation",
+    "auxiliary_prediction_is_judgement": false
+  },
+  "verdicts": {
+    "values": ["TRUE", "FALSE", "UNKNOWN"],
+    "joint": "any trustworthy required FALSE -> FALSE; all required TRUE -> TRUE; otherwise UNKNOWN",
+    "adjudicator_version_locked": true,
+    "full_cohort_denominator": true,
+    "abort_is_original_task_success": false,
+    "physical_safety_guaranteed": false
+  },
+  "ledgers": {
+    "K": {
+      "purpose": "engineering artifacts and validated repairs",
+      "fields": [
+        "artifact_id",
+        "content_hash",
+        "dependencies",
+        "version",
+        "applicability",
+        "test_evidence",
+        "expiry_or_drift_conditions",
+        "creation_cost",
+        "reuse_cost"
+      ],
+      "identity_implies_validation": false
+    },
+    "D": {
+      "purpose": "all attempt histories with consumer-specific admission",
+      "contains_failure_and_unknown": true,
+      "consumers": ["behavior_cloning", "value_learning", "diagnosis", "memory", "evaluation"],
+      "evaluation_filtered_by_training_admission": false
+    },
+    "M": {
+      "purpose": "permitted history view derived from D",
+      "contains_unreleased_private_labels": false
+    }
+  },
+  "improvement_selector": {
+    "initial_type": "auditable evidence-based rules",
+    "operators": ["compose", "repair", "collect", "train", "calibrate", "terminate"],
+    "runtime_adapter_edit_during_active_reaction": false,
+    "rejected_candidate_costs_count": true,
+    "comparison": "fixed recipe versus evidence-adaptive operator choice at matched resource budgets",
+    "rsi_claim": "requires evidence that adaptive improvement choice helps; fixed pipeline execution is insufficient"
+  }
+}

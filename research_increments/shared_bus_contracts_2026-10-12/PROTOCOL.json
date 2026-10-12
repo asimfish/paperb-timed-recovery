@@ -1,0 +1,93 @@
+{
+  "id": "paperB.shared_bus_temporal_contracts.execution.v1",
+  "status": "DEVELOPMENT_NOT_CONFIRMATORY",
+  "design_sha256": "5acf1f98baaa028e24cb4f27e67cfc953bcd3a3ab026bf42097527d3db59f1ba",
+  "dt_ns": 10000000,
+  "horizon_ns": 10000000000,
+  "rgb_period_ns": 1000000000,
+  "hold_ns": 200000000,
+  "speed_threshold": 0.1,
+  "drive_torque": 0.06,
+  "first_A_delay_ns": 50000000,
+  "retry_A_delay_ns": 450000000,
+  "selective_B_delay_ns": 450000000,
+  "relay_delay_ns": 50000000,
+  "fault_detection_wait_ns": 200000000,
+  "delivery_delays_ns": [
+    0,
+    300000000,
+    900000000
+  ],
+  "A_windows_ns": [
+    [
+      0,
+      1500000000
+    ],
+    [
+      0,
+      2500000000
+    ]
+  ],
+  "B_windows_ns": [
+    [
+      2000000000,
+      3000000000
+    ],
+    [
+      3000000000,
+      4000000000
+    ]
+  ],
+  "faults": [
+    "none",
+    "drop_first",
+    "persistent_primary"
+  ],
+  "arms": [
+    "global_relay_first",
+    "ordinary_selective_retry_with_B_controller",
+    "A_only_temporal_filter_with_B_controller",
+    "joint_contract_finite_branch_scheduler"
+  ],
+  "A_settings": [
+    {
+      "id": "calibration_fast",
+      "inertia": 0.0015,
+      "damping": 0.006,
+      "split": "covered_development"
+    },
+    {
+      "id": "calibration_slow",
+      "inertia": 0.002,
+      "damping": 0.006,
+      "split": "covered_development"
+    },
+    {
+      "id": "response_shift",
+      "inertia": 0.003,
+      "damping": 0.006,
+      "split": "outside_calibration_support"
+    }
+  ],
+  "B_setting": {
+    "id": "fixed_calibrated_B",
+    "inertia": 0.002,
+    "damping": 0.006
+  },
+  "full_cohort": 432,
+  "cases": 108,
+  "private_fault_label_to_actor": false,
+  "reference_each": "first actual shaft angle crossing2rad; each trajectory independently",
+  "effect_each": "start of speed<=0.1rad/s lasting0.2s",
+  "B_continuity": "no low-speed sample strictly before reference+lower window; definite early sample FALSE, ambiguous reference-boundary sample UNKNOWN",
+  "chemical_outcome": "UNKNOWN; joint temporal result is not chemistry",
+  "host_compute_advances_simulation": false,
+  "declared_delays_advance_simulation": true,
+  "strong_baseline": "joint_contract_finite_branch_scheduler is deterministic, not a learned method",
+  "global_bus_relay": "reliable fixture stop both, irreversible within attempt; outside selective serial channel",
+  "B_selective_stop": "fixture reliable",
+  "command_ACK": "received, not plant success; controller sees failure only after delivered power packet and fault wait",
+  "preregistered": false,
+  "learning_runs": 0,
+  "real_robot_runs": 0
+}

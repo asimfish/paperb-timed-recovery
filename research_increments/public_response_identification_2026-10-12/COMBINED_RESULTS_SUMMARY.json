@@ -1,0 +1,358 @@
+{
+  "status": "PASS_COMBINED_PUBLIC_ID_AND_ROBUST_FIRST_AUDIT",
+  "new_native_rollouts": 612,
+  "retained_native_comparators": 108,
+  "comparison_cells": 720,
+  "parameter_cases": 180,
+  "new_native_samples": 612612,
+  "new_RGB_frames_verified": 6732,
+  "public_controller_replays": 612,
+  "paired_prefix_groups": 180,
+  "hidden_fault_indistinguishable_pairs": 240,
+  "independent_parameter_fits": 540,
+  "max_parameter_absolute_error": 9.020562075079397e-17,
+  "max_native_replay_absolute_error": 0.0,
+  "counts": {
+    "fixed_joint/all": {
+      "A_time": {
+        "TRUE": 33,
+        "FALSE": 145,
+        "UNKNOWN": 2
+      },
+      "B_time": {
+        "TRUE": 180
+      },
+      "B_continuity": {
+        "TRUE": 180
+      },
+      "joint_temporal": {
+        "TRUE": 33,
+        "FALSE": 145,
+        "UNKNOWN": 2
+      }
+    },
+    "fixed_joint/covered_development": {
+      "A_time": {
+        "TRUE": 20,
+        "FALSE": 50,
+        "UNKNOWN": 2
+      },
+      "B_time": {
+        "TRUE": 72
+      },
+      "B_continuity": {
+        "TRUE": 72
+      },
+      "joint_temporal": {
+        "TRUE": 20,
+        "FALSE": 50,
+        "UNKNOWN": 2
+      }
+    },
+    "fixed_joint/outside_calibration_support": {
+      "A_time": {
+        "FALSE": 34,
+        "TRUE": 2
+      },
+      "B_time": {
+        "TRUE": 36
+      },
+      "B_continuity": {
+        "TRUE": 36
+      },
+      "joint_temporal": {
+        "FALSE": 34,
+        "TRUE": 2
+      }
+    },
+    "online_ID_joint/all": {
+      "A_time": {
+        "TRUE": 33,
+        "FALSE": 145,
+        "UNKNOWN": 2
+      },
+      "B_time": {
+        "TRUE": 180
+      },
+      "B_continuity": {
+        "TRUE": 180
+      },
+      "joint_temporal": {
+        "TRUE": 33,
+        "FALSE": 145,
+        "UNKNOWN": 2
+      }
+    },
+    "online_ID_joint/covered_development": {
+      "A_time": {
+        "TRUE": 20,
+        "FALSE": 50,
+        "UNKNOWN": 2
+      },
+      "B_time": {
+        "TRUE": 72
+      },
+      "B_continuity": {
+        "TRUE": 72
+      },
+      "joint_temporal": {
+        "TRUE": 20,
+        "FALSE": 50,
+        "UNKNOWN": 2
+      }
+    },
+    "online_ID_success_branch/all": {
+      "A_time": {
+        "TRUE": 36,
+        "FALSE": 141,
+        "UNKNOWN": 3
+      },
+      "B_time": {
+        "TRUE": 180
+      },
+      "B_continuity": {
+        "TRUE": 180
+      },
+      "joint_temporal": {
+        "TRUE": 36,
+        "FALSE": 141,
+        "UNKNOWN": 3
+      }
+    },
+    "online_ID_success_branch/covered_development": {
+      "A_time": {
+        "TRUE": 22,
+        "FALSE": 47,
+        "UNKNOWN": 3
+      },
+      "B_time": {
+        "TRUE": 72
+      },
+      "B_continuity": {
+        "TRUE": 72
+      },
+      "joint_temporal": {
+        "TRUE": 22,
+        "FALSE": 47,
+        "UNKNOWN": 3
+      }
+    },
+    "online_ID_joint/outside_calibration_support": {
+      "A_time": {
+        "FALSE": 34,
+        "TRUE": 2
+      },
+      "B_time": {
+        "TRUE": 36
+      },
+      "B_continuity": {
+        "TRUE": 36
+      },
+      "joint_temporal": {
+        "FALSE": 34,
+        "TRUE": 2
+      }
+    },
+    "online_ID_success_branch/outside_calibration_support": {
+      "A_time": {
+        "FALSE": 34,
+        "TRUE": 2
+      },
+      "B_time": {
+        "TRUE": 36
+      },
+      "B_continuity": {
+        "TRUE": 36
+      },
+      "joint_temporal": {
+        "FALSE": 34,
+        "TRUE": 2
+      }
+    },
+    "fixed_joint/fresh_response_development": {
+      "A_time": {
+        "TRUE": 11,
+        "FALSE": 61
+      },
+      "B_time": {
+        "TRUE": 72
+      },
+      "B_continuity": {
+        "TRUE": 72
+      },
+      "joint_temporal": {
+        "TRUE": 11,
+        "FALSE": 61
+      }
+    },
+    "online_ID_joint/fresh_response_development": {
+      "A_time": {
+        "TRUE": 11,
+        "FALSE": 61
+      },
+      "B_time": {
+        "TRUE": 72
+      },
+      "B_continuity": {
+        "TRUE": 72
+      },
+      "joint_temporal": {
+        "TRUE": 11,
+        "FALSE": 61
+      }
+    },
+    "online_ID_success_branch/fresh_response_development": {
+      "A_time": {
+        "TRUE": 12,
+        "FALSE": 60
+      },
+      "B_time": {
+        "TRUE": 72
+      },
+      "B_continuity": {
+        "TRUE": 72
+      },
+      "joint_temporal": {
+        "TRUE": 12,
+        "FALSE": 60
+      }
+    },
+    "online_ID_robust_first/all": {
+      "A_time": {
+        "TRUE": 37,
+        "FALSE": 141,
+        "UNKNOWN": 2
+      },
+      "B_time": {
+        "TRUE": 180
+      },
+      "B_continuity": {
+        "TRUE": 180
+      },
+      "joint_temporal": {
+        "TRUE": 37,
+        "FALSE": 141,
+        "UNKNOWN": 2
+      }
+    },
+    "online_ID_robust_first/covered_development": {
+      "A_time": {
+        "TRUE": 23,
+        "FALSE": 47,
+        "UNKNOWN": 2
+      },
+      "B_time": {
+        "TRUE": 72
+      },
+      "B_continuity": {
+        "TRUE": 72
+      },
+      "joint_temporal": {
+        "TRUE": 23,
+        "FALSE": 47,
+        "UNKNOWN": 2
+      }
+    },
+    "online_ID_robust_first/outside_calibration_support": {
+      "A_time": {
+        "FALSE": 34,
+        "TRUE": 2
+      },
+      "B_time": {
+        "TRUE": 36
+      },
+      "B_continuity": {
+        "TRUE": 36
+      },
+      "joint_temporal": {
+        "FALSE": 34,
+        "TRUE": 2
+      }
+    },
+    "online_ID_robust_first/fresh_response_development": {
+      "A_time": {
+        "TRUE": 12,
+        "FALSE": 60
+      },
+      "B_time": {
+        "TRUE": 72
+      },
+      "B_continuity": {
+        "TRUE": 72
+      },
+      "joint_temporal": {
+        "TRUE": 12,
+        "FALSE": 60
+      }
+    }
+  },
+  "paired_outcomes": {
+    "online_ID_joint": {
+      "repairs_vs_fixed": [],
+      "harms_vs_fixed": []
+    },
+    "online_ID_success_branch": {
+      "repairs_vs_fixed": [
+        "calibration_fast-d0-a2500-b3000-drop_first-online_ID_success_branch",
+        "calibration_fast-d300-a2500-b3000-drop_first-online_ID_success_branch",
+        "calibration_slow-d0-a2500-b3000-drop_first-online_ID_success_branch",
+        "fresh_inertia_damping_1-d0-a2500-b3000-drop_first-online_ID_success_branch"
+      ],
+      "harms_vs_fixed": [
+        "calibration_slow-d0-a2500-b2000-persistent_primary-online_ID_success_branch"
+      ]
+    }
+  },
+  "risk_admission_outcomes": {
+    "repairs_vs_full_branch": [
+      "calibration_fast-d0-a2500-b3000-drop_first-online_ID_success_branch",
+      "calibration_fast-d300-a2500-b3000-drop_first-online_ID_success_branch",
+      "calibration_slow-d0-a2500-b3000-drop_first-online_ID_success_branch",
+      "fresh_inertia_damping_1-d0-a2500-b3000-drop_first-online_ID_success_branch"
+    ],
+    "harms_vs_full_branch": [
+      "calibration_slow-d0-a2500-b2000-persistent_primary-online_ID_success_branch"
+    ]
+  },
+  "full_support_eligible_non_TRUE": {
+    "fixed_joint": [
+      "response_shift-d0-a2500-b2000-drop_first-joint_contract_finite_branch_scheduler",
+      "response_shift-d0-a2500-b2000-persistent_primary-joint_contract_finite_branch_scheduler",
+      "response_shift-d300-a2500-b2000-drop_first-joint_contract_finite_branch_scheduler",
+      "response_shift-d300-a2500-b2000-persistent_primary-joint_contract_finite_branch_scheduler",
+      "fresh_inertia_damping_2-d0-a2500-b2000-drop_first-fixed_joint",
+      "fresh_inertia_damping_2-d0-a2500-b2000-persistent_primary-fixed_joint",
+      "fresh_inertia_damping_2-d300-a2500-b2000-drop_first-fixed_joint",
+      "fresh_inertia_damping_2-d300-a2500-b2000-persistent_primary-fixed_joint"
+    ],
+    "online_ID_joint": [],
+    "online_ID_success_branch": [],
+    "online_ID_robust_first": []
+  },
+  "success_branch_retry_non_TRUE": [
+    "calibration_fast-d0-a2500-b3000-persistent_primary-online_ID_success_branch",
+    "calibration_fast-d300-a2500-b3000-persistent_primary-online_ID_success_branch",
+    "calibration_slow-d0-a2500-b2000-persistent_primary-online_ID_success_branch",
+    "calibration_slow-d0-a2500-b3000-persistent_primary-online_ID_success_branch",
+    "fresh_inertia_damping_1-d0-a2500-b3000-persistent_primary-online_ID_success_branch"
+  ],
+  "learning_runs": 0,
+  "chemical_joint_certified": 0,
+  "confirmatory": false,
+  "independent_task_or_real_batch_clusters": 0,
+  "hardware_calibration_or_coverage": false,
+  "extension_release": "post-main developmental, independently frozen before its 180 executions",
+  "robust_first_outcomes": {
+    "repairs_vs_full_branch": [
+      "calibration_fast-d0-a2500-b3000-drop_first-online_ID_robust_first",
+      "calibration_fast-d300-a2500-b3000-drop_first-online_ID_robust_first",
+      "calibration_slow-d0-a2500-b3000-drop_first-online_ID_robust_first",
+      "fresh_inertia_damping_1-d0-a2500-b3000-drop_first-online_ID_robust_first"
+    ],
+    "harms_vs_full_branch": []
+  },
+  "audit_files": [
+    "development_v1/AUDIT.json",
+    "robust_first_v1/AUDIT.json"
+  ]
+}
