@@ -1,0 +1,211 @@
+{
+  "schema": "paperb-task-graph-native-protocol-v1",
+  "status": "DEVELOPMENT_COMPONENT_NOT_CONFIRMATORY",
+  "dt_ns": 10000000,
+  "horizon_ns": 10000000000,
+  "hold_ns": 200000000,
+  "reference_angle_rad": 2.0,
+  "speed_threshold": 0.1,
+  "drive_torque": 0.06,
+  "first_A_delay_ns": 50000000,
+  "selective_B_delay_ns": 450000000,
+  "relay_delay_ns": 50000000,
+  "public_delivery_delay_ns": 300000000,
+  "private_A_setting": {
+    "id": "fixed_supported_A",
+    "inertia": 0.002,
+    "damping": 0.006
+  },
+  "private_B_setting": {
+    "id": "fixed_supported_B",
+    "inertia": 0.002,
+    "damping": 0.006
+  },
+  "initial_state": {
+    "qpos": [
+      0.0,
+      0.0
+    ],
+    "qvel": [
+      0.0,
+      0.0
+    ]
+  },
+  "private_fault": "none",
+  "graphs": {
+    "G-parallel": {
+      "windows_ns": [
+        [
+          0,
+          3000000000
+        ],
+        [
+          0,
+          3000000000
+        ]
+      ],
+      "edges": [],
+      "minimum_edge_gap_ns": 300000000,
+      "B_power_hold_lower_ns": null
+    },
+    "G-A-before-B": {
+      "windows_ns": [
+        [
+          0,
+          3000000000
+        ],
+        [
+          0,
+          3000000000
+        ]
+      ],
+      "edges": [
+        [
+          0,
+          1
+        ]
+      ],
+      "minimum_edge_gap_ns": 300000000,
+      "B_power_hold_lower_ns": null
+    },
+    "G-B-before-A": {
+      "windows_ns": [
+        [
+          0,
+          3000000000
+        ],
+        [
+          0,
+          3000000000
+        ]
+      ],
+      "edges": [
+        [
+          1,
+          0
+        ]
+      ],
+      "minimum_edge_gap_ns": 300000000,
+      "B_power_hold_lower_ns": null
+    },
+    "G-A-while-B-active": {
+      "windows_ns": [
+        [
+          0,
+          3000000000
+        ],
+        [
+          2500000000,
+          4500000000
+        ]
+      ],
+      "edges": [
+        [
+          0,
+          1
+        ]
+      ],
+      "minimum_edge_gap_ns": 300000000,
+      "B_power_hold_lower_ns": 2500000000
+    },
+    "S-infeasible-cycle": {
+      "windows_ns": [
+        [
+          0,
+          3000000000
+        ],
+        [
+          0,
+          3000000000
+        ]
+      ],
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "minimum_edge_gap_ns": 300000000,
+      "B_power_hold_lower_ns": null
+    }
+  },
+  "arms": [
+    "legacy_order_scheduler",
+    "graph_event_scheduler",
+    "reference_guarded_graph_scheduler"
+  ],
+  "main_cases": [
+    {
+      "id": "case-01",
+      "graph_id": "G-parallel",
+      "role": "main_component",
+      "registration_group": "previously_represented_parallel"
+    },
+    {
+      "id": "case-02",
+      "graph_id": "G-A-before-B",
+      "role": "main_component",
+      "registration_group": "new_graph_component_not_learning_holdout"
+    },
+    {
+      "id": "case-03",
+      "graph_id": "G-B-before-A",
+      "role": "main_component",
+      "registration_group": "new_graph_component_not_learning_holdout"
+    },
+    {
+      "id": "case-04",
+      "graph_id": "G-A-while-B-active",
+      "role": "main_component",
+      "registration_group": "new_graph_component_not_learning_holdout"
+    }
+  ],
+  "sentinel_cases": [
+    {
+      "id": "sentinel-feasible",
+      "graph_id": "G-parallel",
+      "role": "feasible_witness_native",
+      "arm": "reference_guarded_graph_scheduler"
+    },
+    {
+      "id": "sentinel-infeasible",
+      "graph_id": "S-infeasible-cycle",
+      "role": "infeasible_native_refusal",
+      "arm": "graph_event_scheduler"
+    }
+  ],
+  "expected_main_rollouts": 12,
+  "expected_sentinel_rollouts": 2,
+  "samples_per_controlled_rollout": 1001,
+  "prediction_scope": "known noiseless contact-free rotor calibration set; samples/model envelope, not statistical coverage guarantee",
+  "original_reference": "One same-MJCF full-power counterfactual integration; actual raw crossing must equal original interval for original-contract success; no reset",
+  "stop_event": "First abs(v)<=0.1 after a prior moving sample, held for >=200 ms of sample endpoint span; 21 samples; onset bracket and confirmation separate",
+  "B_maintenance": "Raw applied ctrl and measured speed maintained until original B reference+hold lower bound; interval boundary ambiguity UNKNOWN; sampled predicate only",
+  "controller_input_allowlist": [
+    "public graph and windows",
+    "fixed public calibration set",
+    "delivered Packet capture/arrival/qpos/qvel/powered",
+    "known service/FIFO contract"
+  ],
+  "controller_private_inputs": false,
+  "epoch_policy": "continuous 10-second native epoch; no task-period qpos/qvel/time writes",
+  "host_work_advances_plant": false,
+  "declared_delivery_and_service_delays_advance_plant": true,
+  "RGB": false,
+  "GPU": false,
+  "learning_runs": 0,
+  "real_robot_runs": 0,
+  "chemistry_or_original_A_B_C_credit": 0,
+  "planned_total_controlled_samples": 14014,
+  "reference_oracle_integrations": 1,
+  "reference_oracle_samples": 1001,
+  "random_scene_or_multi_seed": false,
+  "legacy_status": "independent-window strong A-before-B prior form; ignores new graph edges/power contract, not prior history controller reproduction",
+  "graph_scheduler_status": "joint graph/window planner permits global relay; original-reference guard separate intervention",
+  "sentinel_denominators": "12 main, 2 sentinel separately; refusal sentinel physically integrates complete no-op trace",
+  "no_statistical_or_learning_claim": true
+}

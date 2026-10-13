@@ -1,0 +1,82 @@
+{
+  "schema": "paperb-research-design-readonly-source-receipt-v1",
+  "read_scope": "Documents/full scene, YAML and key control sections; thermal source searched for relevant event/control constructs; PsiBot adapter lines 1-180. All source hashes bound after read.",
+  "files": [
+    {
+      "path": "/mnt/nas/data/lyf/chem_mem/awesome_memory_chem/papers/paperB/research_increments/benchmark_scene_timing_2026-10-13/SCENES_AND_BENCHMARK_cn.md",
+      "sha256": "3e29cb71efafbb032508c21be83d1b82ffdad4ae2bb15dc5c219bfccc9157783"
+    },
+    {
+      "path": "/mnt/nas/data/lyf/chem_mem/awesome_memory_chem/papers/paperB/research_increments/benchmark_scene_timing_2026-10-13/NEXT_EXPERIMENT_PROTOCOL.json",
+      "sha256": "1e12e0a397826578fd321576cd5acb1323051bfea32b451b64076055f2efd178"
+    },
+    {
+      "path": "/mnt/nas/data/lyf/chem_mem/awesome_memory_chem/papers/paperB/research_increments/benchmark_scene_timing_2026-10-13/PROGRESS_cn.md",
+      "sha256": "a213541ed8d0e94e775ebf1c60584388a58818dad1623ef8738e2e3d53e852bb"
+    },
+    {
+      "path": "/data/liyufeng/paperb_benchmark_scene_timing_20261013_v1/SOURCE_ORIGIN.json",
+      "sha256": "9200431f94ecf2a4be808f09c89c5f25593cac011d0823607999220f7be5e194"
+    },
+    {
+      "path": "/data/liyufeng/paperb_benchmark_scene_timing_20261013_v1/plan.json",
+      "sha256": "92e4ced4f17d9c3b56b3e8d4693f69b8294d478a84d811c37b1e5b2290c80c9c"
+    },
+    {
+      "path": "/data/liyufeng/paperb_benchmark_scene_timing_20261013_v1/code/scene_cfg_twin.py",
+      "sha256": "2df82f47af8e04534eba15edd57c23a4f696533f152bbea9de361cf30f5bf444"
+    },
+    {
+      "path": "/data/liyufeng/paperb_benchmark_scene_timing_20261013_v1/code/contact_telemetry.py",
+      "sha256": "4d76b94ecc448539b365fb8569d01ff78927e43f7a17d4bb326c571089cafe80"
+    },
+    {
+      "path": "/data/liyufeng/paperb_benchmark_scene_timing_20261013_v1/code/chemrm/papera/isaac_bridge_native.py",
+      "sha256": "6ec17a9a73d89173ecfe359a34f0202130b488966892af1acee29c95cab52001"
+    },
+    {
+      "path": "/data/liyufeng/paperb_benchmark_scene_timing_20261013_v1/code/chemrm/papera/task_worlds.py",
+      "sha256": "0d1391252ee808394be6ce7d625a2e244c43b67bee986be40a83739713efefcc"
+    },
+    {
+      "path": "/data/liyufeng/paperb_benchmark_scene_timing_20261013_v1/code/chemrm/papera/thermal_dose.py",
+      "sha256": "a17729c442c87dc10413fe0817a451ae4f808f3d6d128c2c47da0f174cdd2d35"
+    },
+    {
+      "path": "/data/liyufeng/paperb_benchmark_scene_timing_20261013_v1/code/chemrm/tasks/c05_endpoint_stop.yaml",
+      "sha256": "f7f4b059536a00fbe8544efb82d8a8f25ef4ea28700c9bddd03bd002ec72b078"
+    },
+    {
+      "path": "/data/liyufeng/paperb_benchmark_scene_timing_20261013_v1/code/chemrm/tasks/c06_timed_stirring.yaml",
+      "sha256": "978db654095b7824a611acfffff66266a42402186ded552c105b83d9942698a1"
+    },
+    {
+      "path": "/data/liyufeng/paperb_benchmark_scene_timing_20261013_v1/code/chemrm/tasks/c13_memory_time_hero.yaml",
+      "sha256": "1eb1b990f940b234f13e9f69961406e2f5aafa055a3ee16a4b66c5a4a2084453"
+    },
+    {
+      "path": "/data/liyufeng/paperb_benchmark_scene_timing_20261013_v1/inputs/original_source_manifest.json",
+      "sha256": "a9ed6e224374cfa0112a3c2bc22d6d3518539d2f9e9d42845e264b1a48b680d4"
+    },
+    {
+      "path": "/data/liyufeng/goai_workflows/alab_twin_collect/b_heating_execution.py",
+      "sha256": "5759d62f89c8a3c19e26a776da42d2efd67277afd84f2071267d8ca0ad2fad31"
+    },
+    {
+      "path": "/data/liyufeng/goai_workflows/alab_twin_collect/b_heating_parallel_execution.py",
+      "sha256": "c9e2b53dd1602043c52857fe30c9031217c371265682bfa1e14826b898f527c0"
+    },
+    {
+      "path": "/data/liyufeng/goai_workflows/alab_twin_collect/c_full_xrd_candidate_execution.py",
+      "sha256": "3a632dd2991e70f35200a4f23ca21a4fb49470c15289874f30f83e666c512081"
+    },
+    {
+      "path": "/data/liyufeng/astra_owned_formal_20261012/native_package_v50/execution/sources/native/long/sim_backend.py",
+      "sha256": "48f26297e89720fb171c90140348fb165cd3e85b4002af8427c6eb61ef25fe23"
+    }
+  ],
+  "foreign_files_modified": false,
+  "new_jobs_launched": 0,
+  "missing_candidate_path": "/mnt/nas/data/lyf/chem_mem/paperA-experiments/v80_release_resume_20261013_r3 did not exist; no V80 source inspection claimed",
+  "unavailable_historical_run_path": "Original 20260921T153124_451119577_scripted directory not present at attempted local location; current B/C source bytes matched original manifest instead."
+}

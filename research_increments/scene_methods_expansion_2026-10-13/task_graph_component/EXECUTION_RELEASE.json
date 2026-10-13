@@ -1,0 +1,27 @@
+{
+  "schema": "paperb-task-graph-execution-release-v1",
+  "status": "FROZEN_BEFORE_NATIVE_EXECUTION",
+  "created_at_utc": "2026-10-13T12:34:47.743605+00:00",
+  "files": {
+    "audit.py": "cb65425ed7646b6fc885b17068216f40979ccd33423d2c3bfe24912db7a7ea68",
+    "controller.py": "1fe855635d9ed254e9b93d7a4bac388867e49d247b209b0e64f6000dff68f245",
+    "interfaces.py": "fc123fa4e4411b167b831ceaaed1db2408dc2306d8f0caf601b9fcc30c02b2f9",
+    "plant.py": "f505a2364f13d3691b552706b58890d6c8f80f5e6e52d174b2acbd8d192d758c",
+    "prediction.py": "44620c206bd5527dd00ace7280229a718defca7a1a681d29500ff26e52de4241",
+    "preflight.py": "e4cd53a03c8d0e5ef7d362feb631959f11486d926f915b06c4015b63242f9899",
+    "referee_graph.py": "dda235a48b707f4a16cd96c8da61992e42d230be822be00fc14d4d20b4c3b5d3",
+    "run.py": "269bb5ed20d1c8d7c58d240297040fcb41753c092a19a6d20aa1718cc97fde0d",
+    "shared_bus.xml": "2fc953b4a5ab88d7a7d2ac9ad52c746ef4b3c7ad38d5e84db2dcb2728755794e",
+    "CALIBRATION.json": "cb0ce526e5af0799f607ff9223ebb3fbef8ce14e4cd00250e1615bf871c4e8ca",
+    "PROTOCOL.json": "c2018d5168330e25160ead949b2687a17805683de6065fc205ca3fe0599e4b15",
+    "SOURCE_ORIGIN.json": "b72b9b350c926177c99e7f5490ea6b4c40292a73652be88faa1dc8bab4b29939",
+    "PREFLIGHT.json": "1cfb42b9f4e10948313cb116048b15a0190a2a24a7d44033293dbc3e56b41e96"
+  },
+  "source_files": 13,
+  "main": 12,
+  "sentinel": 2,
+  "reference_integrations": 1,
+  "preflight_native_steps": 100,
+  "GPU": false,
+  "authoritative_output": "/data/liyufeng/paperb_task_graph_expansion_20261013_v1/native"
+}

@@ -1,0 +1,252 @@
+{
+  "schema": "task-graph-preflight-v1",
+  "status": "PASS_BOUNDED_PRE_RUN_CONTRACTS",
+  "plans": [
+    {
+      "graph": "G-parallel",
+      "arm": "legacy_order_scheduler",
+      "plan_found": true,
+      "form": "selective_A_then_B",
+      "commands": [
+        [
+          300000000,
+          "A",
+          "initial_A"
+        ],
+        [
+          350000000,
+          "B",
+          "selective_B"
+        ]
+      ]
+    },
+    {
+      "graph": "G-parallel",
+      "arm": "graph_event_scheduler",
+      "plan_found": true,
+      "form": "global_relay",
+      "commands": [
+        [
+          300000000,
+          "global",
+          "relay"
+        ]
+      ]
+    },
+    {
+      "graph": "G-parallel",
+      "arm": "reference_guarded_graph_scheduler",
+      "plan_found": true,
+      "form": "global_relay",
+      "commands": [
+        [
+          400000000,
+          "global",
+          "relay"
+        ]
+      ]
+    },
+    {
+      "graph": "G-A-before-B",
+      "arm": "legacy_order_scheduler",
+      "plan_found": true,
+      "form": "selective_A_then_B",
+      "commands": [
+        [
+          300000000,
+          "A",
+          "initial_A"
+        ],
+        [
+          350000000,
+          "B",
+          "selective_B"
+        ]
+      ]
+    },
+    {
+      "graph": "G-A-before-B",
+      "arm": "graph_event_scheduler",
+      "plan_found": true,
+      "form": "selective_A_then_global",
+      "commands": [
+        [
+          300000000,
+          "A",
+          "initial_A"
+        ],
+        [
+          530000000,
+          "global",
+          "relay"
+        ]
+      ]
+    },
+    {
+      "graph": "G-A-before-B",
+      "arm": "reference_guarded_graph_scheduler",
+      "plan_found": true,
+      "form": "selective_A_then_global",
+      "commands": [
+        [
+          400000000,
+          "A",
+          "initial_A"
+        ],
+        [
+          650000000,
+          "global",
+          "relay"
+        ]
+      ]
+    },
+    {
+      "graph": "G-B-before-A",
+      "arm": "legacy_order_scheduler",
+      "plan_found": true,
+      "form": "selective_A_then_B",
+      "commands": [
+        [
+          300000000,
+          "A",
+          "initial_A"
+        ],
+        [
+          350000000,
+          "B",
+          "selective_B"
+        ]
+      ]
+    },
+    {
+      "graph": "G-B-before-A",
+      "arm": "graph_event_scheduler",
+      "plan_found": true,
+      "form": "selective_B_then_A",
+      "commands": [
+        [
+          300000000,
+          "B",
+          "selective_B"
+        ],
+        [
+          1350000000,
+          "A",
+          "initial_A"
+        ]
+      ]
+    },
+    {
+      "graph": "G-B-before-A",
+      "arm": "reference_guarded_graph_scheduler",
+      "plan_found": true,
+      "form": "selective_B_then_A",
+      "commands": [
+        [
+          300000000,
+          "B",
+          "selective_B"
+        ],
+        [
+          1350000000,
+          "A",
+          "initial_A"
+        ]
+      ]
+    },
+    {
+      "graph": "G-A-while-B-active",
+      "arm": "legacy_order_scheduler",
+      "plan_found": true,
+      "form": "selective_A_then_B",
+      "commands": [
+        [
+          300000000,
+          "A",
+          "initial_A"
+        ],
+        [
+          950000000,
+          "B",
+          "selective_B"
+        ]
+      ]
+    },
+    {
+      "graph": "G-A-while-B-active",
+      "arm": "graph_event_scheduler",
+      "plan_found": true,
+      "form": "selective_A_then_B",
+      "commands": [
+        [
+          300000000,
+          "A",
+          "initial_A"
+        ],
+        [
+          2500000000,
+          "B",
+          "selective_B"
+        ]
+      ]
+    },
+    {
+      "graph": "G-A-while-B-active",
+      "arm": "reference_guarded_graph_scheduler",
+      "plan_found": true,
+      "form": "selective_A_then_B",
+      "commands": [
+        [
+          400000000,
+          "A",
+          "initial_A"
+        ],
+        [
+          2500000000,
+          "B",
+          "selective_B"
+        ]
+      ]
+    },
+    {
+      "graph": "S-infeasible-cycle",
+      "arm": "legacy_order_scheduler",
+      "plan_found": true,
+      "form": "selective_A_then_B",
+      "commands": [
+        [
+          300000000,
+          "A",
+          "initial_A"
+        ],
+        [
+          350000000,
+          "B",
+          "selective_B"
+        ]
+      ]
+    },
+    {
+      "graph": "S-infeasible-cycle",
+      "arm": "graph_event_scheduler",
+      "plan_found": false,
+      "form": null,
+      "commands": null
+    },
+    {
+      "graph": "S-infeasible-cycle",
+      "arm": "reference_guarded_graph_scheduler",
+      "plan_found": false,
+      "form": null,
+      "commands": null
+    }
+  ],
+  "initial_rest_not_stop": true,
+  "20_points_190ms_not_confirmed": true,
+  "21_points_200ms_confirmed": true,
+  "native_probe_steps": 100,
+  "native_probe_is_task_episode": false,
+  "maximum_native_equation_error": 1.4210854715202004e-14,
+  "GPU": false,
+  "new_weights": 0
+}

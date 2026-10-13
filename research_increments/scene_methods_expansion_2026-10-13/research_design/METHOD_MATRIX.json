@@ -1,0 +1,384 @@
+{
+  "schema": "paperb-scene-methods-method-design-v1",
+  "status": "DESIGN_ONLY_NO_NEW_WEIGHTS",
+  "method_count": 18,
+  "default_small_matrix": "4 independent calibration plus 16 tests: 4 frozen strong scheduling baselines times 4 fixed-scene mechanism instances; joint_interval_scheduler is the fourth baseline; exact other identities from execution release",
+  "factorial_rules": {
+    "harness_comparison": "same final independent scorer across all arms; interventions count in original denominator",
+    "data_comparison": [
+      "success only",
+      "success+failure",
+      "success+failure+verified recovery"
+    ],
+    "learning_comparison": "match data, optimizer steps, architecture/capacity where meaningful, teacher/label count, model calls and native steps; report unavoidable differences",
+    "oracle": "separate privileged diagnostic; not equal-information baseline",
+    "invalid_names": [
+      "DAgger supervised relabeling must not be renamed OPD without a distinct objective",
+      "adapted Chronos/DA-DP/RTC baseline must not be claimed as official reproduction"
+    ]
+  },
+  "methods": [
+    {
+      "method_id": "R0-nominal-script",
+      "family": "rule",
+      "policy_inputs": [
+        "same task contract",
+        "delivered RGB/proprioception",
+        "public clock/timestamps only in time-aware track",
+        "same public device/FIFO feedback"
+      ],
+      "training_or_context": "fixed original scheduling",
+      "identifies": "naive schedule versus physics event",
+      "prerequisite": "native fixed template",
+      "primary_neighbor_ids": [
+        "rtc"
+      ],
+      "status": "PROPOSED_NOT_EXECUTED_BY_RESEARCH_AGENT"
+    },
+    {
+      "method_id": "R1-calibrated-interval",
+      "family": "strong_rule",
+      "policy_inputs": [
+        "same task contract",
+        "delivered RGB/proprioception",
+        "public clock/timestamps only in time-aware track",
+        "same public device/FIFO feedback"
+      ],
+      "training_or_context": "freeze calibration-only latency bounds",
+      "identifies": "benefit of proper event scheduling",
+      "prerequisite": "independent separate calibration",
+      "primary_neighbor_ids": [
+        "da_dp",
+        "time_control"
+      ],
+      "status": "PROPOSED_NOT_EXECUTED_BY_RESEARCH_AGENT"
+    },
+    {
+      "method_id": "R2-current-feedback-MPC",
+      "family": "strong_rule",
+      "policy_inputs": [
+        "same task contract",
+        "delivered RGB/proprioception",
+        "public clock/timestamps only in time-aware track",
+        "same public device/FIFO feedback",
+        "allowed current feedback"
+      ],
+      "training_or_context": "same observation/feedback budget; no privileged model",
+      "identifies": "history versus current-loop information",
+      "prerequisite": "actuator/model calibration and measured feedback",
+      "primary_neighbor_ids": [
+        "vlash",
+        "da_dp",
+        "stl_mpc"
+      ],
+      "status": "PROPOSED_NOT_EXECUTED_BY_RESEARCH_AGENT"
+    },
+    {
+      "method_id": "R3-resource-temporal-scheduler",
+      "family": "strong_rule",
+      "policy_inputs": [
+        "same task contract",
+        "delivered RGB/proprioception",
+        "public clock/timestamps only in time-aware track",
+        "same public device/FIFO feedback",
+        "public busy/occupancy"
+      ],
+      "training_or_context": "calibrated event/option duration; resource capacity",
+      "identifies": "task-space scheduling not just timer skill",
+      "prerequisite": "registered resource model and feasible/infeasible labels",
+      "primary_neighbor_ids": [],
+      "status": "PROPOSED_NOT_EXECUTED_BY_RESEARCH_AGENT"
+    },
+    {
+      "method_id": "DP0-no-time",
+      "family": "learned",
+      "policy_inputs": [
+        "same delivered RGB/proprioception",
+        "task semantics; no added time signal"
+      ],
+      "training_or_context": "shared same-capacity DP",
+      "identifies": "temporal conditioning",
+      "prerequisite": "admitted train split",
+      "primary_neighbor_ids": [
+        "da_dp",
+        "chronos"
+      ],
+      "status": "PROPOSED_NOT_EXECUTED_BY_RESEARCH_AGENT"
+    },
+    {
+      "method_id": "DP1-public-time",
+      "family": "learned",
+      "policy_inputs": [
+        "same task contract",
+        "delivered RGB/proprioception",
+        "public clock/timestamps only in time-aware track",
+        "same public device/FIFO feedback"
+      ],
+      "training_or_context": "shared DP time feature; same optimizer/data",
+      "identifies": "remaining time input",
+      "prerequisite": "admitted train split",
+      "primary_neighbor_ids": [
+        "chronos",
+        "time_control"
+      ],
+      "status": "PROPOSED_NOT_EXECUTED_BY_RESEARCH_AGENT"
+    },
+    {
+      "method_id": "DP2-DA-DP-style",
+      "family": "adapted_neighbor",
+      "policy_inputs": [
+        "same task contract",
+        "delivered RGB/proprioception",
+        "public clock/timestamps only in time-aware track",
+        "same public device/FIFO feedback",
+        "measured delay estimate"
+      ],
+      "training_or_context": "delay-compensated training targets; same backbone",
+      "identifies": "observation-execution mismatch",
+      "prerequisite": "valid compensated labels; actual adaptation not reproduction",
+      "primary_neighbor_ids": [
+        "da_dp"
+      ],
+      "status": "PROPOSED_NOT_EXECUTED_BY_RESEARCH_AGENT"
+    },
+    {
+      "method_id": "DP3-Chronos-style",
+      "family": "adapted_neighbor",
+      "policy_inputs": [
+        "same task contract",
+        "delivered RGB/proprioception",
+        "public clock/timestamps only in time-aware track",
+        "same public device/FIFO feedback",
+        "observation capture and queried execution times"
+      ],
+      "training_or_context": "timestamp/AddTime versus time-aware RoPE and temporal randomization",
+      "identifies": "explicit physical-time encoding",
+      "prerequisite": "same backbone/data/epochs; architecture compatibility",
+      "primary_neighbor_ids": [
+        "chronos"
+      ],
+      "status": "PROPOSED_NOT_EXECUTED_BY_RESEARCH_AGENT"
+    },
+    {
+      "method_id": "DP4-RTC",
+      "family": "adapted_neighbor",
+      "policy_inputs": [
+        "same task contract",
+        "delivered RGB/proprioception",
+        "public clock/timestamps only in time-aware track",
+        "same public device/FIFO feedback",
+        "committed action prefix"
+      ],
+      "training_or_context": "same DP/flow checkpoint with asynchronous chunk executor",
+      "identifies": "prefix continuity separated from deadline learning",
+      "prerequisite": "actual prefix support and no planner pause",
+      "primary_neighbor_ids": [
+        "rtc",
+        "tt_rtc"
+      ],
+      "status": "PROPOSED_NOT_EXECUTED_BY_RESEARCH_AGENT"
+    },
+    {
+      "method_id": "DP5-history",
+      "family": "proposed_core",
+      "policy_inputs": [
+        "same task contract",
+        "delivered RGB/proprioception",
+        "public clock/timestamps only in time-aware track",
+        "same public device/FIFO feedback",
+        "admissible prior episodes/history"
+      ],
+      "training_or_context": "DP1/DP3 matched backbone; retain/reset/shuffle/foreign contexts",
+      "identifies": "history adaptation and stale-history harm",
+      "prerequisite": "past-only observed states/feedback; same context length",
+      "primary_neighbor_ids": [
+        "gpt_policy",
+        "aspire"
+      ],
+      "status": "PROPOSED_NOT_EXECUTED_BY_RESEARCH_AGENT"
+    },
+    {
+      "method_id": "G0-frozen-agent",
+      "family": "agentic",
+      "policy_inputs": [
+        "same task contract",
+        "delivered RGB/proprioception",
+        "public clock/timestamps only in time-aware track",
+        "same public device/FIFO feedback",
+        "references and legal own history"
+      ],
+      "training_or_context": "frozen VLM tools; model/task/feedback fixed",
+      "identifies": "generation/diagnosis cost and contextual contribution",
+      "prerequisite": "continuous process advancement during model calls",
+      "primary_neighbor_ids": [
+        "gpt_policy"
+      ],
+      "status": "PROPOSED_NOT_EXECUTED_BY_RESEARCH_AGENT"
+    },
+    {
+      "method_id": "G1-agent-repair-library",
+      "family": "agentic",
+      "policy_inputs": [
+        "same task contract",
+        "delivered RGB/proprioception",
+        "public clock/timestamps only in time-aware track",
+        "same public device/FIFO feedback",
+        "validated past repair guidance"
+      ],
+      "training_or_context": "same agent; no data absorption versus shared policy stage",
+      "identifies": "external repair versus parameter learning",
+      "prerequisite": "development-only revisions and regression validation",
+      "primary_neighbor_ids": [
+        "aspire",
+        "enpire",
+        "roborsi",
+        "rpg"
+      ],
+      "status": "PROPOSED_NOT_EXECUTED_BY_RESEARCH_AGENT"
+    },
+    {
+      "method_id": "L0-offline-expert-imitation",
+      "family": "student",
+      "policy_inputs": [
+        "same task contract",
+        "delivered RGB/proprioception",
+        "public clock/timestamps only in time-aware track",
+        "same public device/FIFO feedback"
+      ],
+      "training_or_context": "same teacher label count; expert states",
+      "identifies": "distribution coverage",
+      "prerequisite": "verified expert/recovery action chunks",
+      "primary_neighbor_ids": [
+        "dagger",
+        "fa_opd"
+      ],
+      "status": "PROPOSED_NOT_EXECUTED_BY_RESEARCH_AGENT"
+    },
+    {
+      "method_id": "L1-student-state-DAgger",
+      "family": "student",
+      "policy_inputs": [
+        "same task contract",
+        "delivered RGB/proprioception",
+        "public clock/timestamps only in time-aware track",
+        "same public device/FIFO feedback"
+      ],
+      "training_or_context": "student visits; same teacher relabels; supervised aggregate",
+      "identifies": "student state coverage; label budget matched",
+      "prerequisite": "teacher no unavailable test truth; infeasible targets retained",
+      "primary_neighbor_ids": [
+        "dagger"
+      ],
+      "status": "PROPOSED_NOT_EXECUTED_BY_RESEARCH_AGENT"
+    },
+    {
+      "method_id": "L2-multi-expert-OPD",
+      "family": "conditional_student",
+      "policy_inputs": [
+        "same task contract",
+        "delivered RGB/proprioception",
+        "public clock/timestamps only in time-aware track",
+        "same public device/FIFO feedback"
+      ],
+      "training_or_context": "student rollout; admitted experts; explicit teacher distribution/loss",
+      "identifies": "multi-expert conflict and on-policy distillation objective",
+      "prerequisite": "teachers reliable on student states; routing no hidden truth",
+      "primary_neighbor_ids": [
+        "fa_opd"
+      ],
+      "status": "PROPOSED_NOT_EXECUTED_BY_RESEARCH_AGENT"
+    },
+    {
+      "method_id": "RL0-offline-recovery",
+      "family": "conditional_rl",
+      "policy_inputs": [
+        "same task contract",
+        "delivered RGB/proprioception",
+        "public clock/timestamps only in time-aware track",
+        "same public device/FIFO feedback",
+        "admitted failure/recovery vector in replay not privileged actor input"
+      ],
+      "training_or_context": "BC/filtered BC versus conservative value/advantage training",
+      "identifies": "value of failures/recoveries",
+      "prerequisite": "replay support, valid rewards, terminal/truncation",
+      "primary_neighbor_ids": [
+        "time_control",
+        "stl_demos"
+      ],
+      "status": "PROPOSED_NOT_EXECUTED_BY_RESEARCH_AGENT"
+    },
+    {
+      "method_id": "RL1-online-skill-dispatch",
+      "family": "conditional_rl",
+      "policy_inputs": [
+        "same task contract",
+        "delivered RGB/proprioception",
+        "public clock/timestamps only in time-aware track",
+        "same public device/FIFO feedback"
+      ],
+      "training_or_context": "same initial checkpoint; matched native steps/compute; skill dispatch first",
+      "identifies": "improvement from exploration rather than extra data",
+      "prerequisite": "admitted safe sim and independent score",
+      "primary_neighbor_ids": [
+        "time_control",
+        "enpire"
+      ],
+      "status": "PROPOSED_NOT_EXECUTED_BY_RESEARCH_AGENT"
+    },
+    {
+      "method_id": "R4-joint-interval-scheduler",
+      "family": "strong_rule",
+      "policy_inputs": [
+        "same public absolute contact/release/duration contracts",
+        "frozen independent calibration envelope",
+        "public installed queue delay metadata"
+      ],
+      "training_or_context": "joint interval-feasible dispatch for contact and stable release with all three +/-25 ms timing contracts",
+      "identifies": "single-endpoint compensation versus joint interval scheduling; no learned contribution",
+      "prerequisite": "calibration admission before test outputs; action labels and queue implementation frozen",
+      "primary_neighbor_ids": [
+        "stl_mpc",
+        "time_control"
+      ],
+      "status": "PROPOSED_EXECUTION_AUTHORITY_IS_ROOT_RELEASE"
+    }
+  ],
+  "new_weights": 0,
+  "pilot_scope": {
+    "calibration_rollouts": 4,
+    "test_rollouts": 16,
+    "calibration_mass_factors": [
+      0.8,
+      1.2
+    ],
+    "test_mass_factors": [
+      0.9,
+      1.1
+    ],
+    "queue_delay_native_ticks": [
+      0,
+      12
+    ],
+    "physics_hz": 240,
+    "all_temporal_tolerances_s": 0.025,
+    "D_s": [
+      5,
+      5.5
+    ],
+    "contact_to_stable_release_gap_s": [
+      18,
+      18.5
+    ],
+    "D_gap_mass_are_bound": true,
+    "independent_scene_randomization": false,
+    "source_seed_changes_scene": false,
+    "test_role": "interpolation condition holdout; fixed-scene paired mechanism component; no independent factor attribution",
+    "main_joint": [
+      "cue_to_contact",
+      "cue_to_stable_release",
+      "contact_to_stable_release",
+      "original_mechanical_task"
+    ],
+    "strict_sampled_bilateral_hold": "independent diagnostic; report joint_with_hold with same denominator; no between-sample continuous-force claim"
+  }
+}

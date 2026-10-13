@@ -1,0 +1,17 @@
+{
+  "schema": "paperb-public-independent-numeric-audit-v1",
+  "status": "PASS_COMPONENT_EXACT_INTEGER_RECOMPUTATION",
+  "conditions": 7172,
+  "method_comparisons": 28688,
+  "independently_enumerated_pair_checks": 299040,
+  "candidate_exact_matches": 7172,
+  "oracle_feasible": 2606,
+  "oracle_refused": 4566,
+  "old_joint_false_refusals": 61,
+  "old_joint_false_feasible": 0,
+  "native_episode_count": 0,
+  "physics_sample_count": 0,
+  "full_audit_file": "NUMERIC_MATRIX_AUDIT_V2.json",
+  "full_audit_sha256": "db1c9eca78b7163dad90db57e220bd048fbcdff28a8943ddaa8cd5ee4d4cf818",
+  "scope": "Synthetic interval contract and grid algorithm checks only; no empirical response coverage or robotics/learning claim"
+}

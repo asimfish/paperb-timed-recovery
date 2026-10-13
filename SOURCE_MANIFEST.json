@@ -45,8 +45,8 @@
       "path": "index.html",
       "source": "web/index.html",
       "source_sha256": "07dcf1383bfb0ccae5e1f88c21928e02e25cd95949c739bf9ad481c7858f3eb6",
-      "sha256": "79738a5a57c5e5418a0210aee88fb063e0ec9a20cd19c611017059015de50b07",
-      "bytes": 224375,
+      "sha256": "5aa91824f6b8b875a0b2a1df1bcaf096d9099f119dc31c852cadd4b4f99989ee",
+      "bytes": 231941,
       "transformations": [
         "project-root evidence links",
         "current method panel and canonical GitHub URL rendered by prior build attempt, checked against canonical scripts"
@@ -1112,8 +1112,344 @@
       "sha256": "7890df39c7cae9e088c2ad6ad002ed33afc5c7979d5034bb67389d8680a62d3b",
       "bytes": 44983,
       "source": "papers/paperB/research_increments/benchmark_scene_timing_2026-10-13/videos/original_schedule.provenance.json"
+    },
+    {
+      "path": "research_increments/scene_methods_expansion_2026-10-13/README_cn.md",
+      "sha256": "ee058a42ac6a18d534ca5339865dfea93dba43cd14ae38865c40806f32e4c2d2",
+      "bytes": 6107,
+      "source": "papers/paperB/research_increments/scene_methods_expansion_2026-10-13/README_cn.md"
+    },
+    {
+      "path": "research_increments/scene_methods_expansion_2026-10-13/RESULTS_PUBLIC.json",
+      "sha256": "a67cb78fde1a7eb83a6be9756b706954cae092973574b54f228e102a38d6557d",
+      "bytes": 18605,
+      "source": "papers/paperB/research_increments/scene_methods_expansion_2026-10-13/RESULTS_PUBLIC.json"
+    },
+    {
+      "path": "research_increments/scene_methods_expansion_2026-10-13/JOINT_TIME_CONTRACT_cn.md",
+      "sha256": "afc3284d4b227ac31fbffdf449268368dcbb5d898bd454b7ddd85cd75bad21e8",
+      "bytes": 2370,
+      "source": "papers/paperB/research_increments/scene_methods_expansion_2026-10-13/JOINT_TIME_CONTRACT_cn.md"
+    },
+    {
+      "path": "research_increments/scene_methods_expansion_2026-10-13/SCIENTIFIC_ACCEPTANCE_cn.md",
+      "sha256": "09077df1df13c552f2a8925693c789a250b28eed0e056bec7b6c84b39daaed2e",
+      "bytes": 4588,
+      "source": "papers/paperB/research_increments/scene_methods_expansion_2026-10-13/SCIENTIFIC_ACCEPTANCE_cn.md"
+    },
+    {
+      "path": "research_increments/scene_methods_expansion_2026-10-13/NATIVE_A_PROGRESS.json",
+      "sha256": "5b310b4c552a2942cedc328be76c5281e43890b9f90878dbd249309b53c67dc3",
+      "bytes": 4433,
+      "source": "papers/paperB/research_increments/scene_methods_expansion_2026-10-13/NATIVE_A_PROGRESS.json"
+    },
+    {
+      "path": "research_increments/scene_methods_expansion_2026-10-13/figures/expanded_method.svg",
+      "sha256": "6f00061fdcfa835b13f8433ee338a7d82b81d88a8ad9195d189dbf3aeb8d4a01",
+      "bytes": 11243,
+      "source": "papers/paperB/research_increments/scene_methods_expansion_2026-10-13/figures/expanded_method.svg"
+    },
+    {
+      "path": "research_increments/scene_methods_expansion_2026-10-13/figures/expanded_method.pdf",
+      "sha256": "87659ab4627c16b58a06d4d0378891a7e8ced1e7a3ea3d6895c3e5f3903a67ec",
+      "bytes": 29020,
+      "source": "papers/paperB/research_increments/scene_methods_expansion_2026-10-13/figures/expanded_method.pdf"
+    },
+    {
+      "path": "research_increments/scene_methods_expansion_2026-10-13/figures/joint_scheduler_validation.svg",
+      "sha256": "77dfdee5f1f7e650f95bfe8fb9abcf95c6b9347a8bce2e4cf87b7e1d6282ef2b",
+      "bytes": 10238,
+      "source": "papers/paperB/research_increments/scene_methods_expansion_2026-10-13/figures/joint_scheduler_validation.svg"
+    },
+    {
+      "path": "research_increments/scene_methods_expansion_2026-10-13/figures/joint_scheduler_validation.pdf",
+      "sha256": "31804bcdb15f7b55e099ad1aef01fee161ee093ea5feda09739129b6670d573c",
+      "bytes": 21591,
+      "source": "papers/paperB/research_increments/scene_methods_expansion_2026-10-13/figures/joint_scheduler_validation.pdf"
+    },
+    {
+      "path": "research_increments/scene_methods_expansion_2026-10-13/figures/task_graph_contracts.svg",
+      "sha256": "a1cedf283c525c10b7d6ffa620b2794db4c0aba950bc036fc9db148357e1235c",
+      "bytes": 9019,
+      "source": "papers/paperB/research_increments/scene_methods_expansion_2026-10-13/figures/task_graph_contracts.svg"
+    },
+    {
+      "path": "research_increments/scene_methods_expansion_2026-10-13/figures/task_graph_contracts.pdf",
+      "sha256": "d53486ad60c89b8628c5d499b38dffb891a92e04e262939d4acee08841607e7a",
+      "bytes": 21339,
+      "source": "papers/paperB/research_increments/scene_methods_expansion_2026-10-13/figures/task_graph_contracts.pdf"
+    },
+    {
+      "path": "research_increments/scene_methods_expansion_2026-10-13/figures/parallel_process_raw.svg",
+      "sha256": "eac4b327959573ba4de04814991d793cea3a395d95ec2ff26665c30db869b00d",
+      "bytes": 28083,
+      "source": "papers/paperB/research_increments/scene_methods_expansion_2026-10-13/figures/parallel_process_raw.svg"
+    },
+    {
+      "path": "research_increments/scene_methods_expansion_2026-10-13/figures/parallel_process_raw.pdf",
+      "sha256": "f1f54d7ea9cf56c59323944997a274f58e26e14f7194b1fc17f9f499ded6d3b9",
+      "bytes": 22651,
+      "source": "papers/paperB/research_increments/scene_methods_expansion_2026-10-13/figures/parallel_process_raw.pdf"
+    },
+    {
+      "path": "research_increments/scene_methods_expansion_2026-10-13/paper_preview/note.pdf",
+      "sha256": "e257df029193fd2d8e782fcb1ed5bad76bb1d304a0b2e179542c50b83a4f5507",
+      "bytes": 162656,
+      "source": "papers/paperB/research_increments/scene_methods_expansion_2026-10-13/paper_preview/note.pdf"
+    },
+    {
+      "path": "research_increments/scene_methods_expansion_2026-10-13/paper_preview/source/note.tex",
+      "sha256": "792f1129ce1f80375ea4929939c38a2a1da229a53f43626487b04caadc2b533f",
+      "bytes": 13767,
+      "source": "papers/paperB/research_increments/scene_methods_expansion_2026-10-13/paper_preview/source/note.tex"
+    },
+    {
+      "path": "research_increments/scene_methods_expansion_2026-10-13/paper_preview/source/icml2026.sty",
+      "sha256": "7cdcf90f6a59c5219e7f15c88f7ed09fcaf598dad91e6cdddc4dc3cb0e397a95",
+      "bytes": 27344,
+      "source": "papers/paperB/research_increments/scene_methods_expansion_2026-10-13/paper_preview/source/icml2026.sty"
+    },
+    {
+      "path": "research_increments/scene_methods_expansion_2026-10-13/paper_preview/source/figures/task_graph_contracts_compact.pdf",
+      "sha256": "c25e4e72df2f9cbeaab5ce9095d5fd725033d725538b1f8d41cea430d078bf6f",
+      "bytes": 11799,
+      "source": "papers/paperB/research_increments/scene_methods_expansion_2026-10-13/paper_preview/source/figures/task_graph_contracts_compact.pdf"
+    },
+    {
+      "path": "research_increments/scene_methods_expansion_2026-10-13/research_design/PROJECT_STORY_cn.md",
+      "sha256": "7c57cb153b998131538643821919dcbd84df844d2d91c00300856a263ec1652f",
+      "bytes": 11334,
+      "source": "papers/paperB/research_increments/scene_methods_expansion_2026-10-13/research_design/PROJECT_STORY_cn.md"
+    },
+    {
+      "path": "research_increments/scene_methods_expansion_2026-10-13/research_design/SCENE_READINESS_cn.md",
+      "sha256": "02b1c397cf8d691529be8163fbfc82a2b1c357099c75cf5974fec40139b86a42",
+      "bytes": 5800,
+      "source": "papers/paperB/research_increments/scene_methods_expansion_2026-10-13/research_design/SCENE_READINESS_cn.md"
+    },
+    {
+      "path": "research_increments/scene_methods_expansion_2026-10-13/research_design/TASK_MATRIX.json",
+      "sha256": "0d52101fe2a6babb99a896a2a8b57c7ca29c4d11a17c99d526ac64e769b11a55",
+      "bytes": 9003,
+      "source": "papers/paperB/research_increments/scene_methods_expansion_2026-10-13/research_design/TASK_MATRIX.json"
+    },
+    {
+      "path": "research_increments/scene_methods_expansion_2026-10-13/research_design/METHOD_MATRIX.json",
+      "sha256": "67c78493cad5bb17cb0302b26170a0446cd0a4835822d2fe7be771a66c0e6137",
+      "bytes": 14106,
+      "source": "papers/paperB/research_increments/scene_methods_expansion_2026-10-13/research_design/METHOD_MATRIX.json"
+    },
+    {
+      "path": "research_increments/scene_methods_expansion_2026-10-13/research_design/RELATED_WORK_EVIDENCE.json",
+      "sha256": "f8ba51315b6f871a030507cbfb18cb80ea1f9ece5def1a16735bd87dcd699718",
+      "bytes": 11906,
+      "source": "papers/paperB/research_increments/scene_methods_expansion_2026-10-13/research_design/RELATED_WORK_EVIDENCE.json"
+    },
+    {
+      "path": "research_increments/scene_methods_expansion_2026-10-13/research_design/SOURCE_READ_RECEIPT.json",
+      "sha256": "8351fbffbee14927d3cf569084fc10ca2d969ebf06979c59d45eb287df33a752",
+      "bytes": 4467,
+      "source": "papers/paperB/research_increments/scene_methods_expansion_2026-10-13/research_design/SOURCE_READ_RECEIPT.json"
+    },
+    {
+      "path": "research_increments/scene_methods_expansion_2026-10-13/research_design/REUSABLE_FIXTURE_PROTOCOL.json",
+      "sha256": "77ea280fe05cf0f4253915dc160d201531128a08b969799e1071bf82138c614d",
+      "bytes": 4834,
+      "source": "papers/paperB/research_increments/scene_methods_expansion_2026-10-13/research_design/REUSABLE_FIXTURE_PROTOCOL.json"
+    },
+    {
+      "path": "research_increments/scene_methods_expansion_2026-10-13/research_design/DESIGN_VALIDATION.json",
+      "sha256": "b2b88e15fdb31ed164c15c14dbca7aeb8cbc7d38276f229d2ec8fd119ab52d86",
+      "bytes": 1091,
+      "source": "papers/paperB/research_increments/scene_methods_expansion_2026-10-13/research_design/DESIGN_VALIDATION.json"
+    },
+    {
+      "path": "research_increments/scene_methods_expansion_2026-10-13/methods_component/summary.json",
+      "sha256": "47b2fde352785ef2d14720f5df722299911867e338ede7cfd67a41e959b2f243",
+      "bytes": 3234,
+      "source": "papers/paperB/research_increments/scene_methods_expansion_2026-10-13/methods_component/summary.json"
+    },
+    {
+      "path": "research_increments/scene_methods_expansion_2026-10-13/methods_component/summary_pending.json",
+      "sha256": "5c045ccdeb6e4b522630fcf3ebd876d9284a0589de000b09dc3b89fa551183da",
+      "bytes": 2781,
+      "source": "papers/paperB/research_increments/scene_methods_expansion_2026-10-13/methods_component/summary_pending.json"
+    },
+    {
+      "path": "research_increments/scene_methods_expansion_2026-10-13/methods_component/README_cn.md",
+      "sha256": "15b1b3be9bca32466f0c76b8e36ca0283280570d6a229ab60db77fd7bc8beb6c",
+      "bytes": 4501,
+      "source": "papers/paperB/research_increments/scene_methods_expansion_2026-10-13/methods_component/README_cn.md"
+    },
+    {
+      "path": "research_increments/scene_methods_expansion_2026-10-13/methods_component/counterexamples.json",
+      "sha256": "d0c9cb08e0c9b00f7a4e8ba081b6103a02dc7d95efe5ac8968b755f39f5cd387",
+      "bytes": 16650,
+      "source": "papers/paperB/research_increments/scene_methods_expansion_2026-10-13/methods_component/counterexamples.json"
+    },
+    {
+      "path": "research_increments/scene_methods_expansion_2026-10-13/methods_component/THIRD_AUDIT.json",
+      "sha256": "83b9002e5864efa89316184a61e2d06fe7dc51bd0ae21074ccab7136ca02ea45",
+      "bytes": 710,
+      "source": "papers/paperB/research_increments/scene_methods_expansion_2026-10-13/methods_component/THIRD_AUDIT.json"
+    },
+    {
+      "path": "research_increments/scene_methods_expansion_2026-10-13/methods_component/THIRD_AUDIT_full.json",
+      "sha256": "db1c9eca78b7163dad90db57e220bd048fbcdff28a8943ddaa8cd5ee4d4cf818",
+      "bytes": 3001,
+      "source": "papers/paperB/research_increments/scene_methods_expansion_2026-10-13/methods_component/THIRD_AUDIT_full.json"
+    },
+    {
+      "path": "research_increments/scene_methods_expansion_2026-10-13/methods_component/EXECUTION_RELEASE.json",
+      "sha256": "3bfd54dbb80446071c5a05697952d449081565c4e5618efac08c02e1822dc94e",
+      "bytes": 1052,
+      "source": "papers/paperB/research_increments/scene_methods_expansion_2026-10-13/methods_component/EXECUTION_RELEASE.json"
+    },
+    {
+      "path": "research_increments/scene_methods_expansion_2026-10-13/methods_component/SOURCE_MEMBERS.json",
+      "sha256": "b7aee860a9f668671836535988f48f06f9a51a07caed53ed39f2132155b52a62",
+      "bytes": 4610,
+      "source": "papers/paperB/research_increments/scene_methods_expansion_2026-10-13/methods_component/SOURCE_MEMBERS.json"
+    },
+    {
+      "path": "research_increments/scene_methods_expansion_2026-10-13/methods_component/ARCHIVE_VALIDATION.json",
+      "sha256": "184e8ec33f136d4d43c827a22fbd9be2afb407f302afa4ccb16ab21069ac17b7",
+      "bytes": 1617,
+      "source": "papers/paperB/research_increments/scene_methods_expansion_2026-10-13/methods_component/ARCHIVE_VALIDATION.json"
+    },
+    {
+      "path": "research_increments/scene_methods_expansion_2026-10-13/methods_component/cpu_contract_validation_7172.tar.gz",
+      "sha256": "b093ac9582258e912729292091e28816d6d2f9addaa710ab8f851c62eed45d31",
+      "bytes": 613542,
+      "source": "papers/paperB/research_increments/scene_methods_expansion_2026-10-13/methods_component/cpu_contract_validation_7172.tar.gz"
+    },
+    {
+      "path": "research_increments/scene_methods_expansion_2026-10-13/task_graph_component/MAIN_SUMMARY.json",
+      "sha256": "2822a49330345e79b304c67d60c3472bc2a1518a3b55310b564c2a8848e34846",
+      "bytes": 18709,
+      "source": "papers/paperB/research_increments/scene_methods_expansion_2026-10-13/task_graph_component/MAIN_SUMMARY.json"
+    },
+    {
+      "path": "research_increments/scene_methods_expansion_2026-10-13/task_graph_component/README_cn.md",
+      "sha256": "ee4948de692bdf5f6f6efda8f2aeff97a03b39a3177414f6f1d249de24b0f4aa",
+      "bytes": 4994,
+      "source": "papers/paperB/research_increments/scene_methods_expansion_2026-10-13/task_graph_component/README_cn.md"
+    },
+    {
+      "path": "research_increments/scene_methods_expansion_2026-10-13/task_graph_component/PROTOCOL.json",
+      "sha256": "c2018d5168330e25160ead949b2687a17805683de6065fc205ca3fe0599e4b15",
+      "bytes": 5454,
+      "source": "papers/paperB/research_increments/scene_methods_expansion_2026-10-13/task_graph_component/PROTOCOL.json"
+    },
+    {
+      "path": "research_increments/scene_methods_expansion_2026-10-13/task_graph_component/EXECUTION_RELEASE.json",
+      "sha256": "23a1070bd1d9313217e1b6baa62f98c3e07aeea4cc1e8996bcbc37a666fcee97",
+      "bytes": 1552,
+      "source": "papers/paperB/research_increments/scene_methods_expansion_2026-10-13/task_graph_component/EXECUTION_RELEASE.json"
+    },
+    {
+      "path": "research_increments/scene_methods_expansion_2026-10-13/task_graph_component/PREFLIGHT.json",
+      "sha256": "1cfb42b9f4e10948313cb116048b15a0190a2a24a7d44033293dbc3e56b41e96",
+      "bytes": 4923,
+      "source": "papers/paperB/research_increments/scene_methods_expansion_2026-10-13/task_graph_component/PREFLIGHT.json"
+    },
+    {
+      "path": "research_increments/scene_methods_expansion_2026-10-13/task_graph_component/SELF_AUDIT.json",
+      "sha256": "b83b6665d5255aae0e1ed87695c834fcb67e2ebb59e56c940212438041d77246",
+      "bytes": 19453,
+      "source": "papers/paperB/research_increments/scene_methods_expansion_2026-10-13/task_graph_component/SELF_AUDIT.json"
+    },
+    {
+      "path": "research_increments/scene_methods_expansion_2026-10-13/task_graph_component/OWN_NATIVE_AUDIT.json",
+      "sha256": "b83b6665d5255aae0e1ed87695c834fcb67e2ebb59e56c940212438041d77246",
+      "bytes": 19453,
+      "source": "papers/paperB/research_increments/scene_methods_expansion_2026-10-13/task_graph_component/OWN_NATIVE_AUDIT.json"
+    },
+    {
+      "path": "research_increments/scene_methods_expansion_2026-10-13/task_graph_component/ARCHIVE_VALIDATION.json",
+      "sha256": "9beb648d0ad2a50ac05cff4ed1855fa64d567ee837444a5ee94f84ca416a3764",
+      "bytes": 23572,
+      "source": "papers/paperB/research_increments/scene_methods_expansion_2026-10-13/task_graph_component/ARCHIVE_VALIDATION.json"
+    },
+    {
+      "path": "research_increments/scene_methods_expansion_2026-10-13/task_graph_component/native_task_graph_bundle.tar.gz",
+      "sha256": "1e75cf6db734de8632894410ebf3afbd672fc44b56f20ac3b093c705624c2e62",
+      "bytes": 1300955,
+      "source": "papers/paperB/research_increments/scene_methods_expansion_2026-10-13/task_graph_component/native_task_graph_bundle.tar.gz"
+    },
+    {
+      "path": "research_increments/scene_methods_expansion_2026-10-13/task_graph_component/FINAL_COMPONENT_VALIDATION.json",
+      "sha256": "a59c5305185ffd1df0c6bccb6a6c2f4ccf132d292d6bdac724ec6a7164c6901e",
+      "bytes": 4873,
+      "source": "papers/paperB/research_increments/scene_methods_expansion_2026-10-13/task_graph_component/FINAL_COMPONENT_VALIDATION.json"
+    },
+    {
+      "path": "research_increments/scene_methods_expansion_2026-10-13/task_graph_component/REVIEW_ROOT_NARRATIVE.json",
+      "sha256": "4c390f6c6b83dc61edf97ac7ffec1b700dcd22a05e9234f780d33811c7a11d0b",
+      "bytes": 9733,
+      "source": "papers/paperB/research_increments/scene_methods_expansion_2026-10-13/task_graph_component/REVIEW_ROOT_NARRATIVE.json"
+    },
+    {
+      "path": "research_increments/scene_methods_expansion_2026-10-13/task_graph_component/representative_raw/case-04--graph_event_scheduler.csv",
+      "sha256": "496296459258a6ad4ad14b6bb97bbc9431b4d01d4cb610ee74cfff1f4c6e399f",
+      "bytes": 119428,
+      "source": "papers/paperB/research_increments/scene_methods_expansion_2026-10-13/task_graph_component/representative_raw/case-04--graph_event_scheduler.csv"
+    },
+    {
+      "path": "research_increments/scene_methods_expansion_2026-10-13/task_graph_component/representative_raw/case-04--legacy_order_scheduler.csv",
+      "sha256": "ac68286a418724c5ab7a4e9ae9001fef9d1379a5998321a1dca1d54b916219f4",
+      "bytes": 120121,
+      "source": "papers/paperB/research_increments/scene_methods_expansion_2026-10-13/task_graph_component/representative_raw/case-04--legacy_order_scheduler.csv"
+    },
+    {
+      "path": "research_increments/scene_methods_expansion_2026-10-13/task_graph_component/representative_raw/case-04--reference_guarded_graph_scheduler.csv",
+      "sha256": "06b85f0bc4d471d7743c775f3c3df4a743357db190e826c4915b6dffb4b983b0",
+      "bytes": 118901,
+      "source": "papers/paperB/research_increments/scene_methods_expansion_2026-10-13/task_graph_component/representative_raw/case-04--reference_guarded_graph_scheduler.csv"
+    },
+    {
+      "path": "research_increments/scene_methods_expansion_2026-10-13/independent_audits/PUBLIC_NUMERIC_AUDIT.json",
+      "sha256": "83b9002e5864efa89316184a61e2d06fe7dc51bd0ae21074ccab7136ca02ea45",
+      "bytes": 710,
+      "source": "papers/paperB/research_increments/scene_methods_expansion_2026-10-13/independent_audits/PUBLIC_NUMERIC_AUDIT.json"
+    },
+    {
+      "path": "research_increments/scene_methods_expansion_2026-10-13/independent_audits/NUMERIC_MATRIX_AUDIT_V2.json",
+      "sha256": "db1c9eca78b7163dad90db57e220bd048fbcdff28a8943ddaa8cd5ee4d4cf818",
+      "bytes": 3001,
+      "source": "papers/paperB/research_increments/scene_methods_expansion_2026-10-13/independent_audits/NUMERIC_MATRIX_AUDIT_V2.json"
+    },
+    {
+      "path": "research_increments/scene_methods_expansion_2026-10-13/independent_audits/PUBLIC_TASK_GRAPH_AUDIT.json",
+      "sha256": "c41c68cb596852e16f7cfd25f672d1d3bfffdd8b2167500fd314ae660543db5f",
+      "bytes": 1274,
+      "source": "papers/paperB/research_increments/scene_methods_expansion_2026-10-13/independent_audits/PUBLIC_TASK_GRAPH_AUDIT.json"
+    },
+    {
+      "path": "research_increments/scene_methods_expansion_2026-10-13/independent_audits/TASK_GRAPH_AUDIT.json",
+      "sha256": "2808d2ad19c6505267a9f5f3caf89a61fdfb0d9a17af5455251d0cce763a46cc",
+      "bytes": 60822,
+      "source": "papers/paperB/research_increments/scene_methods_expansion_2026-10-13/independent_audits/TASK_GRAPH_AUDIT.json"
+    },
+    {
+      "path": "research_increments/scene_methods_expansion_2026-10-13/independent_audits/audit_task_graph.py",
+      "sha256": "0317bbe96a459cd8e1fb7540c039919723e8a7c337ef0145e9a17a2d70279c35",
+      "bytes": 18608,
+      "source": "papers/paperB/research_increments/scene_methods_expansion_2026-10-13/independent_audits/audit_task_graph.py"
+    },
+    {
+      "path": "research_increments/scene_methods_expansion_2026-10-13/independent_audits/audit_numeric_matrix_v2.py",
+      "sha256": "203ede71ba04329150f8b7762741fbed6772aa7bc962eef8e6a0f6c3a8b325d0",
+      "bytes": 9530,
+      "source": "papers/paperB/research_increments/scene_methods_expansion_2026-10-13/independent_audits/audit_numeric_matrix_v2.py"
+    },
+    {
+      "path": "research_increments/scene_methods_expansion_2026-10-13/independent_audits/integer_grid_oracle_full.py",
+      "sha256": "c0ffa2e862f6a78e247550ef202ecdbf4c0279fdbe8d21ccee32ff1a3d73332d",
+      "bytes": 3510,
+      "source": "papers/paperB/research_increments/scene_methods_expansion_2026-10-13/independent_audits/integer_grid_oracle_full.py"
     }
   ],
-  "incremental_baseline_commit": "15f23640ce39b8814718eb283c58c99934636f2e",
-  "latest_increment": "benchmark_scene_timing_2026-10-13"
+  "incremental_baseline_commit": "99421f3daf6c7feca60b834316fd237218050b37",
+  "latest_increment": "scene_methods_expansion_2026-10-13"
 }

@@ -1,0 +1,117 @@
+{
+  "schema": "paperb-cpu-archive-members-v1",
+  "members": {
+    "cpu_methods/candidate_solver.py": {
+      "sha256": "0dd7a0b422f183008d90d65ef97f9e93f244862989f8ef3f6ae575b9c7c4d3f0",
+      "bytes": 2028
+    },
+    "cpu_methods/independent_oracle.py": {
+      "sha256": "02ea6cb09e32bb61e66bf32cbe9067b5de8ab2dc70dc974939cbfd1bbed61d1c",
+      "bytes": 2691
+    },
+    "cpu_methods/roster.py": {
+      "sha256": "60ea77779138bace82f0ff396954d4c50b8dd254dfc8b467ab7019a26ee28536",
+      "bytes": 2205
+    },
+    "cpu_methods/run_validation.py": {
+      "sha256": "6f4cb9b6bfc9aa1c7a01ae9158fe7dcb42dbd717bd3c01f04d6f8e39a937625c",
+      "bytes": 9566
+    },
+    "cpu_methods/test_cpu_protocol.py": {
+      "sha256": "f5ef49f82d18c1e48dc712d50e0a3750098caf4890c4432d8d44a9ada532086b",
+      "bytes": 4146
+    },
+    "cpu_methods/freeze_sources.py": {
+      "sha256": "7d2ceea543df00c1666c218afe78f5555260f64baacc154add80fdd385df361b",
+      "bytes": 1124
+    },
+    "cpu_methods/frozen_native_scheduler.py": {
+      "sha256": "deb23cb831b4e659bc8905a3d305d9073936779f970e5be88b120f68591eaa85",
+      "bytes": 17193
+    },
+    "cpu_methods/protocol.json": {
+      "sha256": "03970752bcbf94dd996eb5699fed6d45aca9267a2f77f04743af0e37c011e5fc",
+      "bytes": 2603
+    },
+    "cpu_methods/CPU_PREFLIGHT.json": {
+      "sha256": "b20e4d0dfac865359e5819765bbe5f6dc8da2d6c1e0781885cb1f5735c1e542b",
+      "bytes": 163
+    },
+    "cpu_methods/EXECUTION_RELEASE.json": {
+      "sha256": "3bfd54dbb80446071c5a05697952d449081565c4e5618efac08c02e1822dc94e",
+      "bytes": 1052
+    },
+    "cpu_methods/ROSTER.jsonl": {
+      "sha256": "34f7cdba33f4bba66221c109bdbd0f9c9c86f7580ab88538d13111368347a54a",
+      "bytes": 2405633
+    },
+    "cpu_methods/results.jsonl": {
+      "sha256": "dd645ea22ba17c8ac54b4f546034c5bdafdbb3f7f27e3dff5cb00e7b02489550",
+      "bytes": 13836128
+    },
+    "cpu_methods/oracle_pairs.jsonl": {
+      "sha256": "d7c02d5d05b93ccb78ff578989ebcec403ff2e2e8514986159c0127ec89aca29",
+      "bytes": 3590591
+    },
+    "cpu_methods/SUMMARY.json": {
+      "sha256": "09f04168c41a20c897f477d5ba48f5a015f1d7682c55fe618bbcb8e76e0e5a95",
+      "bytes": 5339
+    },
+    "cpu_methods/TARGETED_COUNTEREXAMPLES.json": {
+      "sha256": "d0c9cb08e0c9b00f7a4e8ba081b6103a02dc7d95efe5ac8968b755f39f5cd387",
+      "bytes": 16650
+    },
+    "cpu_methods/PUBLIC_SUMMARY.json": {
+      "sha256": "5c045ccdeb6e4b522630fcf3ebd876d9284a0589de000b09dc3b89fa551183da",
+      "bytes": 2781
+    },
+    "cpu_methods/PUBLIC_SUMMARY_verified.json": {
+      "sha256": "47b2fde352785ef2d14720f5df722299911867e338ede7cfd67a41e959b2f243",
+      "bytes": 3234
+    },
+    "cpu_methods/README_cn.md": {
+      "sha256": "15b1b3be9bca32466f0c76b8e36ca0283280570d6a229ab60db77fd7bc8beb6c",
+      "bytes": 4501
+    },
+    "cpu_methods/export_component.py": {
+      "sha256": "8c6836a9c72a9755288059bd0290f93b5603adfe3b71da2c43ffd0aadb57f5d8",
+      "bytes": 6237
+    },
+    "cpu_methods/third_audit/PUBLIC_NUMERIC_AUDIT.json": {
+      "sha256": "83b9002e5864efa89316184a61e2d06fe7dc51bd0ae21074ccab7136ca02ea45",
+      "bytes": 710
+    },
+    "cpu_methods/third_audit/NUMERIC_MATRIX_AUDIT_V2.json": {
+      "sha256": "db1c9eca78b7163dad90db57e220bd048fbcdff28a8943ddaa8cd5ee4d4cf818",
+      "bytes": 3001
+    },
+    "cpu_methods/third_audit/NUMERIC_MATRIX_AUDIT_ROWS_V2.jsonl": {
+      "sha256": "7a4af3b46b09dd7f30e532a5dc9f985426f0b2392b69349243ee6d110c07a1f2",
+      "bytes": 5006282
+    },
+    "cpu_methods/third_audit/audit_numeric_matrix_v2.py": {
+      "sha256": "203ede71ba04329150f8b7762741fbed6772aa7bc962eef8e6a0f6c3a8b325d0",
+      "bytes": 9530
+    },
+    "cpu_methods/third_audit/integer_grid_oracle_full.py": {
+      "sha256": "c0ffa2e862f6a78e247550ef202ecdbf4c0279fdbe8d21ccee32ff1a3d73332d",
+      "bytes": 3510
+    },
+    "cpu_methods/third_audit/test_integer_grid_oracle.py": {
+      "sha256": "6c4366489f8c49193457710c28301013c462df7e920ba70d9bf4b4942146f74e",
+      "bytes": 2229
+    },
+    "cpu_methods/third_audit/integer_grid_oracle.py": {
+      "sha256": "68569d453dca9faab0de438816ff9503314cc2e13d8df2f352861f94be97f728",
+      "bytes": 3513
+    },
+    "cpu_methods/third_audit/MIDPOINT_FALSE_REFUSAL_COUNTEREXAMPLE.json": {
+      "sha256": "07abd7bc5feff0688da332a321b67f066c46b6e407ae0cb75de353c64042a80a",
+      "bytes": 893
+    }
+  },
+  "execution_release_sha256": "3bfd54dbb80446071c5a05697952d449081565c4e5618efac08c02e1822dc94e",
+  "frozen_native_release_sha256": "cf5cc59c9b9e0b215f2f5db408052ccb9cac8912c7c89ea8adc74e9d4c8b2efa",
+  "no_native_results_in_archive": true,
+  "native_episode_count": 0
+}

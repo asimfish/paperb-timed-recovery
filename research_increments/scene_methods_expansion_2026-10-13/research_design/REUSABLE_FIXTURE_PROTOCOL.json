@@ -1,0 +1,111 @@
+{
+  "schema": "paperb-mechanical-task-graph-prototype-design-v1",
+  "status": "PROPOSED_NOT_EXECUTED_ADAPTER_REQUIRED",
+  "purpose": "Expose task-space dependencies and shared-actuator collateral harm using an existing verified dual-rotor mechanical fixture; not native A/B/C laboratory chemistry.",
+  "backend": "two powered native MuJoCo rotors, 10 ms tick, 10 s epoch; reuse only frozen physical source/calibration after source-closure check",
+  "read_source_bindings": {
+    "/mnt/nas/data/lyf/chem_mem/awesome_memory_chem/papers/paperB/research_increments/video_reference_protection_2026-10-13/PROTOCOL.json": "d3a7eecc8e9327b93c62bd29984a54e8da15acf18baad8f41f1f51e07dfdabaf",
+    "/mnt/nas/data/lyf/chem_mem/awesome_memory_chem/papers/paperB/research_increments/video_reference_protection_2026-10-13/safety_control.py": "c58e2265c68289cbe119ee58ccb9b3b8507b2e262ec5db2959ed03f05c10c226"
+  },
+  "preserve": [
+    "Original physical start/reference events",
+    "same FIFO and delivered packet times",
+    "same physical event scorer for every arm",
+    "all failures and infeasible/unknown cases",
+    "one rollout identity"
+  ],
+  "graphs": [
+    {
+      "id": "G-parallel",
+      "goals": [
+        "stop A within own window",
+        "stop B within own window"
+      ],
+      "dependencies": [],
+      "novelty_scope": "already represented by existing component, development comparator"
+    },
+    {
+      "id": "G-A-before-B",
+      "goals": [
+        "stop A within own window",
+        "stop B within own window"
+      ],
+      "dependencies": [
+        [
+          "effective_stop_A",
+          "effective_stop_B"
+        ]
+      ],
+      "novelty_scope": "task graph dependency; register nonnegative minimum separation, not command order"
+    },
+    {
+      "id": "G-B-before-A",
+      "goals": [
+        "stop A within own window",
+        "stop B within own window"
+      ],
+      "dependencies": [
+        [
+          "effective_stop_B",
+          "effective_stop_A"
+        ]
+      ],
+      "novelty_scope": "held-out reversed graph; same action alphabet and dynamics; adapted strong scheduler required"
+    },
+    {
+      "id": "G-A-while-B-active",
+      "goals": [
+        "stop A within own window",
+        "B stays powered until declared later release window"
+      ],
+      "dependencies": [
+        [
+          "effective_stop_A",
+          "effective_stop_B"
+        ]
+      ],
+      "novelty_scope": "resource/global relay collateral interruption; use real B threshold event, not requested switch state"
+    }
+  ],
+  "prospective_small_panel": {
+    "development_graphs": [
+      "G-parallel",
+      "G-A-before-B"
+    ],
+    "heldout_graphs": [
+      "G-B-before-A",
+      "G-A-while-B-active"
+    ],
+    "proposed_controls": [
+      "same-information event/resource scheduler",
+      "legacy retained history",
+      "original-reference-guarded history"
+    ],
+    "test_instances": 4,
+    "rollouts_if_all_admitted": 12,
+    "separate_feasibility_sentinels": 2,
+    "actual_new_rollouts": 0,
+    "statistical_role": "smoke/component counts only, not confirmatory learning evidence"
+  },
+  "event_contract": {
+    "effective_stop": "calibrated speed threshold and hold confirmation; actual occurrence bracket separated from confirmation",
+    "original_reference": "frozen independent full-power reference, never recalculated to hide an early stop",
+    "dependency": "entire interval obeys strict registered nonnegative gap; partial overlap INDETERMINATE",
+    "maintenance": "B must satisfy registered power/velocity/continuity checks until its valid release; globals that stop B early fail original joint contract"
+  },
+  "execution_gates": [
+    "Implement versioned graph-aware scorer/controller adapter without editing sealed source",
+    "Freeze actual graph and window roster before test outcomes",
+    "Prove graph feasible/infeasible under declared command costs/FIFO; oracle privileged only diagnostic",
+    "Verify each arm gets same graph and observation allowlist",
+    "Preserve plant advancement semantics: host computation currently does not advance this fixture, label paused-clock component",
+    "Run bounded source and event sanity preflight; include it separately as cost"
+  ],
+  "claim_boundary": [
+    "Changes in timing windows alone are temporal condition holdout, not graph generalization",
+    "Reversing dependency or concurrent goals changes task structure; no neural task-space learning without trained policy",
+    "CPU mechanical fixture adds no original A/B/C robot or chemistry evidence",
+    "No continuous real-world latency or general safe scheduling guarantee"
+  ],
+  "next_native_translation": "Only after mechanical graph/queue tests, translate shared equipment to A-r7 manipulation and B/C equipment, bind measured occupancy and independent device endpoints."
+}

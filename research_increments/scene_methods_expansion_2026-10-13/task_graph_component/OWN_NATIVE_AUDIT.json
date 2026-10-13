@@ -1,0 +1,330 @@
+{
+  "schema": "task-graph-independent-native-audit-v1",
+  "status": "PASS_COMPONENT_NATIVE_REPLAY",
+  "main_rollouts": 12,
+  "sentinel_rollouts": 2,
+  "controlled_native_samples": 14014,
+  "reference_oracle_integrations": 1,
+  "reference_oracle_samples": 1001,
+  "preflight_native_steps": 100,
+  "main_by_arm": {
+    "legacy_order_scheduler": {
+      "TRUE": 0,
+      "FALSE": 4,
+      "UNKNOWN": 0
+    },
+    "graph_event_scheduler": {
+      "TRUE": 1,
+      "FALSE": 3,
+      "UNKNOWN": 0
+    },
+    "reference_guarded_graph_scheduler": {
+      "TRUE": 4,
+      "FALSE": 0,
+      "UNKNOWN": 0
+    }
+  },
+  "sentinels": [
+    {
+      "episode_id": "sentinel-feasible--reference_guarded_graph_scheduler",
+      "case_id": "sentinel-feasible",
+      "graph_id": "G-parallel",
+      "role": "feasible_witness_native",
+      "arm": "reference_guarded_graph_scheduler",
+      "samples": 1001,
+      "commands": 1,
+      "joint_original_contract": "TRUE",
+      "host_elapsed_ns": 106947805,
+      "host_work_advances_plant": false,
+      "neural_training_runs": 0,
+      "chemical_or_lab_robot_credit": 0
+    },
+    {
+      "episode_id": "sentinel-infeasible--graph_event_scheduler",
+      "case_id": "sentinel-infeasible",
+      "graph_id": "S-infeasible-cycle",
+      "role": "infeasible_native_refusal",
+      "arm": "graph_event_scheduler",
+      "samples": 1001,
+      "commands": 0,
+      "joint_original_contract": "FALSE",
+      "host_elapsed_ns": 87683239,
+      "host_work_advances_plant": false,
+      "neural_training_runs": 0,
+      "chemical_or_lab_robot_credit": 0
+    }
+  ],
+  "checks": [
+    {
+      "episode_id": "case-01--legacy_order_scheduler",
+      "raw_native_reintegration_error": 0.0,
+      "raw_verdict_equal": true,
+      "channel_valid": true,
+      "public_delivery_boundary_valid": true,
+      "raw_artifacts": {
+        "commands.json": "527941510673adca964ca1082076eff1a983311566cd1e6dd0b0daabad4344ee",
+        "contract.json": "9c6f35e4a9a1c708dd9e9e477d5990b3c6447d51caeb056fd0ac8fef175954b4",
+        "independent_samples.csv": "945e5da058e5e924c0be1d870d03c1c43e42ad926c9e02c9202e862ede7ff3e8",
+        "independent_verdict.json": "e75e171fae30873597825c17c59e6eefc635d23436f9f47b07ad21bdc8bd7421",
+        "model_runtime.json": "7af29d4cb635549420b4b68b3a32ef25d6c2228b56f55d20c0832328e5ca239c",
+        "private_plant_effects.json": "06d7b9177b8ee39bae71c4ad4a5be8cb8bc4b4f8ca521a3d0777b31ab8437019",
+        "public_actor_inputs.json": "ed499b9f7c6b6ed18dd3e3a4d5a12da1b7bb589138a807dfca601ae436b27c33",
+        "public_decisions.json": "685b938304ee25948b5058a615ed108e629fb78e53f7de75f446d585b6d755da",
+        "public_deliveries.json": "a02643103d8f0d29a3b732f449bf88d90dc0086a55be181027262357130a51ed",
+        "summary.json": "9009e2db3d69a7f6bfd73bbc51658541e8a262b5665a672730027fc971c1b538"
+      }
+    },
+    {
+      "episode_id": "case-01--graph_event_scheduler",
+      "raw_native_reintegration_error": 0.0,
+      "raw_verdict_equal": true,
+      "channel_valid": true,
+      "public_delivery_boundary_valid": true,
+      "raw_artifacts": {
+        "commands.json": "f2848d2f1d67919eb69e00d3ee3d92e0e810e0a44e6839ba4b191f1fa8bad4b2",
+        "contract.json": "a35becce27f1cb0ea05e97cb243e5fc3d2db635b77fa63e825a5a74df82d8f8f",
+        "independent_samples.csv": "61f35eb6a80d68ef99e7829c86cb9b76c0004901962716d893b970fcc4f110da",
+        "independent_verdict.json": "8c6216eb5de95e70cc95525db631948fc9a2b50b3e39462d84d46dd9715b7bf2",
+        "model_runtime.json": "7af29d4cb635549420b4b68b3a32ef25d6c2228b56f55d20c0832328e5ca239c",
+        "private_plant_effects.json": "30a7b157bc6faaa20cd4937e29ed83f2ffc66175f9f45b6a56bd15d106fe6732",
+        "public_actor_inputs.json": "ed499b9f7c6b6ed18dd3e3a4d5a12da1b7bb589138a807dfca601ae436b27c33",
+        "public_decisions.json": "e3885ab0831f70dbd9a09bc72914657e08a9d4201fbe119b63a447ecf23a107f",
+        "public_deliveries.json": "535c7f7ad30dbabc79c1bfe02b11e90b0a023144213ef5b7e194cda3d428394b",
+        "summary.json": "c850575b06807403ec822c32d97f9ed16c48b449f973903d0da736f20e98c144"
+      }
+    },
+    {
+      "episode_id": "case-01--reference_guarded_graph_scheduler",
+      "raw_native_reintegration_error": 0.0,
+      "raw_verdict_equal": true,
+      "channel_valid": true,
+      "public_delivery_boundary_valid": true,
+      "raw_artifacts": {
+        "commands.json": "c96c41d51708aa3a36a9855f6dc11f9e13f06ca5866664cafeef3b3b19ace407",
+        "contract.json": "41733e366da1ce53b83ff45cc04c6d74d033a30d972a09ea1773a0107ddf893b",
+        "independent_samples.csv": "84734691e8569bfa013984c9f9864f9b4474d9a1a08a2159db3e6ffa1bb2da17",
+        "independent_verdict.json": "4bb0e60ae56c011540fa1fcbfa71cefeb2a8abab07b835db9e77b2b0070226e3",
+        "model_runtime.json": "7af29d4cb635549420b4b68b3a32ef25d6c2228b56f55d20c0832328e5ca239c",
+        "private_plant_effects.json": "2e0f8157a62e2b6922125a26fa123d12ecf4ffc4fb6f451c9d401639aec7fa90",
+        "public_actor_inputs.json": "ed499b9f7c6b6ed18dd3e3a4d5a12da1b7bb589138a807dfca601ae436b27c33",
+        "public_decisions.json": "a18d9c9d104063f5291b60eda95eb8e5fa07592e6a9acaa2df6b9110ab28c0e6",
+        "public_deliveries.json": "fc43e7309cb96a2eb34f6c20c73c6c7dafdd0de4b8fae5793cbaee3e07dc7ded",
+        "summary.json": "f558ca3fac3f8dd04a613dbeaa2f818b0f05ad521f770168c143bf524fac55e6"
+      }
+    },
+    {
+      "episode_id": "case-02--legacy_order_scheduler",
+      "raw_native_reintegration_error": 0.0,
+      "raw_verdict_equal": true,
+      "channel_valid": true,
+      "public_delivery_boundary_valid": true,
+      "raw_artifacts": {
+        "commands.json": "527941510673adca964ca1082076eff1a983311566cd1e6dd0b0daabad4344ee",
+        "contract.json": "90386bfc3733ca0f7d4fa9bc5835b6179b5974343a94f5bf040a0a650e4763f9",
+        "independent_samples.csv": "945e5da058e5e924c0be1d870d03c1c43e42ad926c9e02c9202e862ede7ff3e8",
+        "independent_verdict.json": "e75e171fae30873597825c17c59e6eefc635d23436f9f47b07ad21bdc8bd7421",
+        "model_runtime.json": "7af29d4cb635549420b4b68b3a32ef25d6c2228b56f55d20c0832328e5ca239c",
+        "private_plant_effects.json": "06d7b9177b8ee39bae71c4ad4a5be8cb8bc4b4f8ca521a3d0777b31ab8437019",
+        "public_actor_inputs.json": "ed499b9f7c6b6ed18dd3e3a4d5a12da1b7bb589138a807dfca601ae436b27c33",
+        "public_decisions.json": "5c85fed1b20a78ec52fa8390a959b8d7b3a729bec8b2557f076f1689a8b753ba",
+        "public_deliveries.json": "a02643103d8f0d29a3b732f449bf88d90dc0086a55be181027262357130a51ed",
+        "summary.json": "40f85f91adb2de04e3d3d2bffdb6cbf917939b9d913c1cbcead4ea30b69a1375"
+      }
+    },
+    {
+      "episode_id": "case-02--graph_event_scheduler",
+      "raw_native_reintegration_error": 0.0,
+      "raw_verdict_equal": true,
+      "channel_valid": true,
+      "public_delivery_boundary_valid": true,
+      "raw_artifacts": {
+        "commands.json": "179cb878da4d0db50a76efba5d89ef67ce7e414f8e5d2737d632442cd5596291",
+        "contract.json": "775614717a8ac96c397aa50a1a20e02f6f78773a2b0fed3edd4bcadd34d4b297",
+        "independent_samples.csv": "023037d75acd48ed562a4a6c8fca8f9ff149fcffbf59396b2543bc730c8214eb",
+        "independent_verdict.json": "2cdc930a60f85677bd497addfd30b951de975eb046ff0f7e06e377d47067ddd6",
+        "model_runtime.json": "7af29d4cb635549420b4b68b3a32ef25d6c2228b56f55d20c0832328e5ca239c",
+        "private_plant_effects.json": "c40f41981ae0a362a11623e31e7fb717cf6a08d6ee5a8a06dfffca307b7cb59a",
+        "public_actor_inputs.json": "ed499b9f7c6b6ed18dd3e3a4d5a12da1b7bb589138a807dfca601ae436b27c33",
+        "public_decisions.json": "c9a6c7cd39cd4254abe42d885e5622609c08047cf3b0540d47b15a08bc9f8efd",
+        "public_deliveries.json": "87b63038fe2da8b5453cd19ce07b6b11e68a739a9c7af042d45b8ede0f4376f2",
+        "summary.json": "f19677418b245a13d996841e74e788d19c3007dd7f6c5a08df2a73f1a9e2a3ba"
+      }
+    },
+    {
+      "episode_id": "case-02--reference_guarded_graph_scheduler",
+      "raw_native_reintegration_error": 0.0,
+      "raw_verdict_equal": true,
+      "channel_valid": true,
+      "public_delivery_boundary_valid": true,
+      "raw_artifacts": {
+        "commands.json": "92fe8499ae3fca6708fd31fe2936e4fb7d3621eb9b0005b4de00de4aa35890c5",
+        "contract.json": "2b9cf039952bfb30d7bf1a8fe9f47ae6af04a14937a61be52d13fa422d498a7a",
+        "independent_samples.csv": "96f7e7ee3ef5d9f6c69d98816611023fd88fe82d369258c02d699d14ecd5e9c0",
+        "independent_verdict.json": "28cbe6d5012d11e9666418ec0d59b6b97d93d116c8914e4bc2b622bc2b6cbcdb",
+        "model_runtime.json": "7af29d4cb635549420b4b68b3a32ef25d6c2228b56f55d20c0832328e5ca239c",
+        "private_plant_effects.json": "a8916dfdeb45217396fb1bb7cd8ee7e0a23f6d75ec96ea173ffe255bae4fa94a",
+        "public_actor_inputs.json": "ed499b9f7c6b6ed18dd3e3a4d5a12da1b7bb589138a807dfca601ae436b27c33",
+        "public_decisions.json": "af92eb64e6392a7950791dc489f0494237d7db857f8fe701079fc34a49db65b7",
+        "public_deliveries.json": "fd0c6714f3f67be90575605456e7c2ea19618719b6d252f50a345b186db5f602",
+        "summary.json": "e78ea18bf7ddf6b619acded42d7a05678d83b27b6b58a6a544705aedb87c215b"
+      }
+    },
+    {
+      "episode_id": "case-03--legacy_order_scheduler",
+      "raw_native_reintegration_error": 0.0,
+      "raw_verdict_equal": true,
+      "channel_valid": true,
+      "public_delivery_boundary_valid": true,
+      "raw_artifacts": {
+        "commands.json": "527941510673adca964ca1082076eff1a983311566cd1e6dd0b0daabad4344ee",
+        "contract.json": "f46bfaf06eb8a66356fc5d3e1d13f3e5893d2a079f0decfd36300998dd25571c",
+        "independent_samples.csv": "945e5da058e5e924c0be1d870d03c1c43e42ad926c9e02c9202e862ede7ff3e8",
+        "independent_verdict.json": "d6c122529124f7f32b4bc41d0f732e0cfdf4c686dc7a5d43fffd5562061ffc74",
+        "model_runtime.json": "7af29d4cb635549420b4b68b3a32ef25d6c2228b56f55d20c0832328e5ca239c",
+        "private_plant_effects.json": "06d7b9177b8ee39bae71c4ad4a5be8cb8bc4b4f8ca521a3d0777b31ab8437019",
+        "public_actor_inputs.json": "ed499b9f7c6b6ed18dd3e3a4d5a12da1b7bb589138a807dfca601ae436b27c33",
+        "public_decisions.json": "5eb4751b7b6362cd2222dd2e6e328a33abbcdfd3dc5ad337e2bc880116b54750",
+        "public_deliveries.json": "a02643103d8f0d29a3b732f449bf88d90dc0086a55be181027262357130a51ed",
+        "summary.json": "8dbf7d100912434ec5b7c0d1fcedc8dc76bd62619a6c885a910c11276ad5a6b9"
+      }
+    },
+    {
+      "episode_id": "case-03--graph_event_scheduler",
+      "raw_native_reintegration_error": 0.0,
+      "raw_verdict_equal": true,
+      "channel_valid": true,
+      "public_delivery_boundary_valid": true,
+      "raw_artifacts": {
+        "commands.json": "07ef6fa7ce26855e3ab2500479814c07adafc0be706681c7de2959dce5a2ade0",
+        "contract.json": "c1d14ec8125827ffa13795fb2502197c30470c4bbed8e52115554dacd6f4f881",
+        "independent_samples.csv": "328ffae30dcb3e77c8335e9cdfb663b0ee71e1646f05222429b988f67e1be927",
+        "independent_verdict.json": "55788ffc45f80773e5def9463788254406664e801b11b6b1a7e6ea0bfeeb50d2",
+        "model_runtime.json": "7af29d4cb635549420b4b68b3a32ef25d6c2228b56f55d20c0832328e5ca239c",
+        "private_plant_effects.json": "9e00eaa68cb533ff6aaa5fa1020be22513a7522bc64ed329444a9845056e5ffc",
+        "public_actor_inputs.json": "ed499b9f7c6b6ed18dd3e3a4d5a12da1b7bb589138a807dfca601ae436b27c33",
+        "public_decisions.json": "ad47dcd9fb71fe7c5234e5283a47a7e52562ce4bf44e63cca9bf0c021a2fbd72",
+        "public_deliveries.json": "34b25056e434f28c6eba90ad201ba2d6fc17194a2bb09cbf1c11068fd97a6e54",
+        "summary.json": "883bf299eacdb8bb8ff1c6e06bfc3a2622333f3c1755f959c7d5e5c33a7ea1b8"
+      }
+    },
+    {
+      "episode_id": "case-03--reference_guarded_graph_scheduler",
+      "raw_native_reintegration_error": 0.0,
+      "raw_verdict_equal": true,
+      "channel_valid": true,
+      "public_delivery_boundary_valid": true,
+      "raw_artifacts": {
+        "commands.json": "07ef6fa7ce26855e3ab2500479814c07adafc0be706681c7de2959dce5a2ade0",
+        "contract.json": "b7c5614ec9e6dd66ea4902bae76ba1d556088f0fe8bd92e49cd1c58696f6ce58",
+        "independent_samples.csv": "328ffae30dcb3e77c8335e9cdfb663b0ee71e1646f05222429b988f67e1be927",
+        "independent_verdict.json": "55788ffc45f80773e5def9463788254406664e801b11b6b1a7e6ea0bfeeb50d2",
+        "model_runtime.json": "7af29d4cb635549420b4b68b3a32ef25d6c2228b56f55d20c0832328e5ca239c",
+        "private_plant_effects.json": "9e00eaa68cb533ff6aaa5fa1020be22513a7522bc64ed329444a9845056e5ffc",
+        "public_actor_inputs.json": "ed499b9f7c6b6ed18dd3e3a4d5a12da1b7bb589138a807dfca601ae436b27c33",
+        "public_decisions.json": "7ead0cc2532f8155584901be681146f5f1cc4faf57f9f2f3ef4722d951f1e69a",
+        "public_deliveries.json": "34b25056e434f28c6eba90ad201ba2d6fc17194a2bb09cbf1c11068fd97a6e54",
+        "summary.json": "bf02d0e6c83c8a640f39f22ee464ba7ce3cf5717fd65c2ee718e6363f8c73d81"
+      }
+    },
+    {
+      "episode_id": "case-04--legacy_order_scheduler",
+      "raw_native_reintegration_error": 0.0,
+      "raw_verdict_equal": true,
+      "channel_valid": true,
+      "public_delivery_boundary_valid": true,
+      "raw_artifacts": {
+        "commands.json": "2c05b6b96ebe0df96233f38a9983ed5b071b84a202b1309364c9a9d9ff117872",
+        "contract.json": "01c55ceed8ca0e11600787455139159fe65f7b8d6cdc2342ed4b96920722895e",
+        "independent_samples.csv": "ac68286a418724c5ab7a4e9ae9001fef9d1379a5998321a1dca1d54b916219f4",
+        "independent_verdict.json": "a08cb0896bea0510318778897f48ce9a022c7869d8bd3a3c6763b61397c21652",
+        "model_runtime.json": "7af29d4cb635549420b4b68b3a32ef25d6c2228b56f55d20c0832328e5ca239c",
+        "private_plant_effects.json": "b1c466a9e708534b1b0b74652d43bdb48a4ffe93bbf175ad02a16f8c203f4895",
+        "public_actor_inputs.json": "ed499b9f7c6b6ed18dd3e3a4d5a12da1b7bb589138a807dfca601ae436b27c33",
+        "public_decisions.json": "bfd4b36f8ee03d2a75b9f18ef69623355cb52391453e5545bbf32c39964ed663",
+        "public_deliveries.json": "108edf03469f0a7a201dbd30c36e89ee88e512b753e4ef49e5e0238ccaa150cd",
+        "summary.json": "05719cd2a720e2819d9cc90f88a51f00ad0e8f4cbb424636cdc93816fc0887ea"
+      }
+    },
+    {
+      "episode_id": "case-04--graph_event_scheduler",
+      "raw_native_reintegration_error": 0.0,
+      "raw_verdict_equal": true,
+      "channel_valid": true,
+      "public_delivery_boundary_valid": true,
+      "raw_artifacts": {
+        "commands.json": "5f29d15ebacb70b20c7039146870cce3600d5cc69d5f3e25e822bab61ce9012e",
+        "contract.json": "700bafe15c47f824d7394dbe89d2606b00580c8478d37343f913050b2427c922",
+        "independent_samples.csv": "496296459258a6ad4ad14b6bb97bbc9431b4d01d4cb610ee74cfff1f4c6e399f",
+        "independent_verdict.json": "d86ee4a625b8086070947907052db8f43714149d1559cc11e2eba339c449b8e0",
+        "model_runtime.json": "7af29d4cb635549420b4b68b3a32ef25d6c2228b56f55d20c0832328e5ca239c",
+        "private_plant_effects.json": "afdcd068548423922ef6834a0c9da91fc79982a1519fc4694d63d8735c85d751",
+        "public_actor_inputs.json": "ed499b9f7c6b6ed18dd3e3a4d5a12da1b7bb589138a807dfca601ae436b27c33",
+        "public_decisions.json": "71f24c4c5c16748f23398c84f8a92f60f7bbcb0485f1c40be8d07a7129af0cd9",
+        "public_deliveries.json": "7932c4bff7391b8e30cc13f3b3cae71bedac81827326cd0cbc4bc564a627ad64",
+        "summary.json": "02e5c608f5395c20617dba1044ff07fd3a59c7c6c578e4e3a29296e7224d21bd"
+      }
+    },
+    {
+      "episode_id": "case-04--reference_guarded_graph_scheduler",
+      "raw_native_reintegration_error": 0.0,
+      "raw_verdict_equal": true,
+      "channel_valid": true,
+      "public_delivery_boundary_valid": true,
+      "raw_artifacts": {
+        "commands.json": "feb2488f749b09954887f2d63a5402ca13d1510b8b6797d1bfcf6e5033aacef9",
+        "contract.json": "c3af0ec61667b7a1b10db3f139059c66b336b801edf433dbd73d7db7f0a95cab",
+        "independent_samples.csv": "06b85f0bc4d471d7743c775f3c3df4a743357db190e826c4915b6dffb4b983b0",
+        "independent_verdict.json": "291653e8ac2ca912831df2434b8a3fc363e5c83ed37e8397fb2554d190ce33d7",
+        "model_runtime.json": "7af29d4cb635549420b4b68b3a32ef25d6c2228b56f55d20c0832328e5ca239c",
+        "private_plant_effects.json": "5fe708a087e1d982b7a07aa7ea8633c8d42593ce1e5191616ff354458c17629c",
+        "public_actor_inputs.json": "ed499b9f7c6b6ed18dd3e3a4d5a12da1b7bb589138a807dfca601ae436b27c33",
+        "public_decisions.json": "aa4c131137bb9fabf882fb3e902f346310f4719aa41f4bed9356b282c70cac92",
+        "public_deliveries.json": "1be1aa9a7d820248d578e7eb880023d36f67fd32a1fbecd524ad080989230592",
+        "summary.json": "8d00dc0decda778af855ef0808564fbd8b4cedf340ff144dcad412260ba4f655"
+      }
+    },
+    {
+      "episode_id": "sentinel-feasible--reference_guarded_graph_scheduler",
+      "raw_native_reintegration_error": 0.0,
+      "raw_verdict_equal": true,
+      "channel_valid": true,
+      "public_delivery_boundary_valid": true,
+      "raw_artifacts": {
+        "commands.json": "c96c41d51708aa3a36a9855f6dc11f9e13f06ca5866664cafeef3b3b19ace407",
+        "contract.json": "a12c15ad3fa04b1f647145e6727e14fe0ff859c0155f9f436d623f3acfdaa97c",
+        "independent_samples.csv": "84734691e8569bfa013984c9f9864f9b4474d9a1a08a2159db3e6ffa1bb2da17",
+        "independent_verdict.json": "4bb0e60ae56c011540fa1fcbfa71cefeb2a8abab07b835db9e77b2b0070226e3",
+        "model_runtime.json": "7af29d4cb635549420b4b68b3a32ef25d6c2228b56f55d20c0832328e5ca239c",
+        "private_plant_effects.json": "2e0f8157a62e2b6922125a26fa123d12ecf4ffc4fb6f451c9d401639aec7fa90",
+        "public_actor_inputs.json": "ed499b9f7c6b6ed18dd3e3a4d5a12da1b7bb589138a807dfca601ae436b27c33",
+        "public_decisions.json": "a18d9c9d104063f5291b60eda95eb8e5fa07592e6a9acaa2df6b9110ab28c0e6",
+        "public_deliveries.json": "fc43e7309cb96a2eb34f6c20c73c6c7dafdd0de4b8fae5793cbaee3e07dc7ded",
+        "summary.json": "d83b4676eb85f8660b3f593e86faadacb95d98751fec5f0de8f67d78d8106204"
+      }
+    },
+    {
+      "episode_id": "sentinel-infeasible--graph_event_scheduler",
+      "raw_native_reintegration_error": 0.0,
+      "raw_verdict_equal": true,
+      "channel_valid": true,
+      "public_delivery_boundary_valid": true,
+      "raw_artifacts": {
+        "commands.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+        "contract.json": "1617f2b1ab9b699e0d161bac12ecaa2ffc409cc05223b4799cb5aa617b7af5f1",
+        "independent_samples.csv": "b38f93f27ca33b118933b00be33b35bec8cc365f3870c03c3bcb2c448eec4696",
+        "independent_verdict.json": "6cee5483fe45b45d02769729d626f8845038127f54442522416c37e8c92d51ec",
+        "model_runtime.json": "7af29d4cb635549420b4b68b3a32ef25d6c2228b56f55d20c0832328e5ca239c",
+        "private_plant_effects.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+        "public_actor_inputs.json": "ed499b9f7c6b6ed18dd3e3a4d5a12da1b7bb589138a807dfca601ae436b27c33",
+        "public_decisions.json": "af95c5a8922c2a2240aaf86bd73fab4b5cea75facbd452b0a5c174f87f9c1d99",
+        "public_deliveries.json": "f144e3a436effd6cf46aad7ef7a0ba667035ce656fe01f5380526072caa6cd7c",
+        "summary.json": "2068179bd2b357dae8c06e22b8a305b2be1df1def39c9ad08049ee9296d3e1da"
+      }
+    }
+  ],
+  "physics_or_source_errors": 0,
+  "new_weights": 0,
+  "original_A_B_C_robot_or_chemistry_credit": 0,
+  "results_sha256": "68c83f741fc355796b92efb35568b5250f10d26931132191c6a099cb27269792",
+  "original_reference_sha256": "b38f93f27ca33b118933b00be33b35bec8cc365f3870c03c3bcb2c448eec4696"
+}

@@ -1,0 +1,27 @@
+{
+  "schema": "paperb-cpu-archive-reopen-validation-v1",
+  "status": "PASS_REOPENED_EVERY_MEMBER_EXACT",
+  "archive_name": "cpu_contract_validation_7172.tar.gz",
+  "archive_sha256": "b093ac9582258e912729292091e28816d6d2f9addaa710ab8f851c62eed45d31",
+  "archive_bytes": 613542,
+  "member_count": 27,
+  "all_member_hashes_exact": true,
+  "member_manifest_sha256": "b7aee860a9f668671836535988f48f06f9a51a07caed53ed39f2132155b52a62",
+  "cpu_execution_release_sha256": "3bfd54dbb80446071c5a05697952d449081565c4e5618efac08c02e1822dc94e",
+  "native_source_freeze_sha256": "cf5cc59c9b9e0b215f2f5db408052ccb9cac8912c7c89ea8adc74e9d4c8b2efa",
+  "frozen_native_sources_unchanged": true,
+  "conditions": 7172,
+  "native_episode_count": 0,
+  "physics_sample_count": 0,
+  "independent_audit_sha256": "83b9002e5864efa89316184a61e2d06fe7dc51bd0ae21074ccab7136ca02ea45",
+  "exports": {
+    "summary.json": "47b2fde352785ef2d14720f5df722299911867e338ede7cfd67a41e959b2f243",
+    "summary_pending.json": "5c045ccdeb6e4b522630fcf3ebd876d9284a0589de000b09dc3b89fa551183da",
+    "counterexamples.json": "d0c9cb08e0c9b00f7a4e8ba081b6103a02dc7d95efe5ac8968b755f39f5cd387",
+    "README_cn.md": "15b1b3be9bca32466f0c76b8e36ca0283280570d6a229ab60db77fd7bc8beb6c",
+    "THIRD_AUDIT.json": "83b9002e5864efa89316184a61e2d06fe7dc51bd0ae21074ccab7136ca02ea45",
+    "THIRD_AUDIT_full.json": "db1c9eca78b7163dad90db57e220bd048fbcdff28a8943ddaa8cd5ee4d4cf818",
+    "EXECUTION_RELEASE.json": "3bfd54dbb80446071c5a05697952d449081565c4e5618efac08c02e1822dc94e"
+  },
+  "builder_sha256": "8c6836a9c72a9755288059bd0290f93b5603adfe3b71da2c43ffd0aadb57f5d8"
+}

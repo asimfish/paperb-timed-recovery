@@ -1,0 +1,291 @@
+{
+  "schema": "paperb-scene-methods-task-design-v1",
+  "status": "DESIGN_ONLY_NO_NEW_EXECUTION",
+  "task_count": 8,
+  "preserve_original_contracts": {
+    "C5": {
+      "color_to_flow_stop_max_s": 2.0
+    },
+    "C6": {
+      "motion_duration_s": 120.0,
+      "tolerance_s": 10.0,
+      "clock_cues": false
+    },
+    "C13-M1": {
+      "add_A_onset_s": [
+        5.0,
+        40.0
+      ],
+      "instruction_D_s": [
+        30.0,
+        90.0
+      ],
+      "epsilon_relative": 0.15,
+      "clock_cues": false
+    }
+  },
+  "tasks": [
+    {
+      "task_id": "B-T0-contact",
+      "parent_task": "A-r7",
+      "contract_type": "event_gap",
+      "status_at_design_read": "PREVIOUS_COMPONENT_EXECUTED_ONE_INSTANCE_THREE_ARMS",
+      "controls_read": [
+        "FR3 joint targets",
+        "gravity compensation",
+        "bottle pick/place template"
+      ],
+      "observations_read": [
+        "RGB-D",
+        "wrist RGB",
+        "joint state",
+        "public cue/clock track"
+      ],
+      "independent_effective_events": [
+        "bilateral finger impulse onset interval",
+        "confirmation time separate"
+      ],
+      "unresolved_physical_gates": [
+        "mass and delayed-drive admission per new release",
+        "actual planner-wait process advancement"
+      ],
+      "proposed_task_space_holdout": [
+        "new public target times",
+        "deadline tolerances"
+      ],
+      "executed_by_this_document": false
+    },
+    {
+      "task_id": "B-T0-contact-release",
+      "parent_task": "A-r7",
+      "contract_type": "duration",
+      "status_at_design_read": "PROPOSED_MECHANICAL_NATIVE_EXTENSION",
+      "controls_read": [
+        "FR3 gripper targets",
+        "existing release/retreat template"
+      ],
+      "observations_read": [
+        "RGB-D",
+        "joint state; touch only if separately registered"
+      ],
+      "independent_effective_events": [
+        "effective contact onset",
+        "effective release plus support confirmed"
+      ],
+      "unresolved_physical_gates": [
+        "release definition/calibration",
+        "disambiguate transient contact loss and recontact",
+        "same original contact anchor"
+      ],
+      "proposed_task_space_holdout": [
+        "new contact-to-release durations",
+        "different contract order"
+      ],
+      "executed_by_this_document": false
+    },
+    {
+      "task_id": "C5",
+      "parent_task": "benchmark C5",
+      "contract_type": "event_response",
+      "status_at_design_read": "YAML_AND_UNCALIBRATED_SURROGATE_AVAILABLE",
+      "controls_read": [
+        "old bridge add_stop sets flow false"
+      ],
+      "observations_read": [
+        "RGB endpoint color; no private color verdict"
+      ],
+      "independent_effective_events": [
+        "independent endpoint appearance interval",
+        "measured effective flow stop"
+      ],
+      "unresolved_physical_gates": [
+        "physical valve/flow dynamics",
+        "downstream stop sensor",
+        "camera-color/sensor clock calibration",
+        "chemical endpoint measurement"
+      ],
+      "proposed_task_space_holdout": [
+        "endpoint event during another operation",
+        "two vessels/new dependency graph"
+      ],
+      "executed_by_this_document": false
+    },
+    {
+      "task_id": "C6",
+      "parent_task": "benchmark C6",
+      "contract_type": "duration",
+      "status_at_design_read": "YAML_AND_UNCALIBRATED_ROTOR_AVAILABLE",
+      "controls_read": [
+        "old bridge writes angular velocity"
+      ],
+      "observations_read": [
+        "no-clock benchmark track; optional public-clock separate task variant"
+      ],
+      "independent_effective_events": [
+        "physical stir motion start",
+        "physical motion stop"
+      ],
+      "unresolved_physical_gates": [
+        "motor torque/loaded dynamics",
+        "independent RPM onset/stop interval",
+        "continuity with no interruptions",
+        "no action-call/tick sidechannel"
+      ],
+      "proposed_task_space_holdout": [
+        "stir-then-sample/new order",
+        "shared stirrer among vessels"
+      ],
+      "executed_by_this_document": false
+    },
+    {
+      "task_id": "C13-M1",
+      "parent_task": "benchmark C13",
+      "contract_type": "memory_duration",
+      "status_at_design_read": "YAML_AND_UNCALIBRATED_ADDITION_AVAILABLE",
+      "controls_read": [
+        "old bridge TCP marker arrival add_B proxy"
+      ],
+      "observations_read": [
+        "transient A vessel cue",
+        "D stated in instruction",
+        "original M1 no-clock track"
+      ],
+      "independent_effective_events": [
+        "physical A addition",
+        "physical B addition to same selected vessel"
+      ],
+      "unresolved_physical_gates": [
+        "actual liquid/material addition",
+        "hidden onset and step/file-name leak audit",
+        "observation aliasing gate"
+      ],
+      "proposed_task_space_holdout": [
+        "new vessel identity/number",
+        "new addition dependencies; D holdout"
+      ],
+      "executed_by_this_document": false
+    },
+    {
+      "task_id": "B-T1-heat",
+      "parent_task": "B furnace",
+      "contract_type": "duration_and_process_endpoint",
+      "status_at_design_read": "GEOMETRY_CONTROL_EXISTS_HEAT_NOT_CALIBRATED",
+      "controls_read": [
+        "UR5e loaded tray",
+        "furnace Door_joint target"
+      ],
+      "observations_read": [
+        "RGB",
+        "joint state",
+        "proposed power/temperature sensors"
+      ],
+      "independent_effective_events": [
+        "effective electrical heating start/stop or separately specified thermal event"
+      ],
+      "unresolved_physical_gates": [
+        "power actuator",
+        "temperature transfer/residual heat calibration",
+        "continuous device clock",
+        "independent reaction analysis"
+      ],
+      "proposed_task_space_holdout": [
+        "heating plus retrieval deadline",
+        "cooling/sample dependencies"
+      ],
+      "executed_by_this_document": false
+    },
+    {
+      "task_id": "B-T2-shared-equipment",
+      "parent_task": "A/B/C or existing dual-process fixture",
+      "contract_type": "concurrent_resource",
+      "status_at_design_read": "PROPOSED_FIXTURE_FIRST_NO_NATIVE_CHEMISTRY",
+      "controls_read": [
+        "existing A actuator and B maintenance in mechanical fixture",
+        "future station skill/tool queue"
+      ],
+      "observations_read": [
+        "same permitted public event/FIFO ACK feedback for all arms"
+      ],
+      "independent_effective_events": [
+        "A original deadline events",
+        "B uninterrupted maintenance",
+        "equipment busy/acquire/release"
+      ],
+      "unresolved_physical_gates": [
+        "resource model must bind measured control occupancy",
+        "no hidden dynamic labels to actor",
+        "new instance roster before running"
+      ],
+      "proposed_task_space_holdout": [
+        "serial versus parallel goal DAG",
+        "capacity conflicts and irreversible B interruption"
+      ],
+      "executed_by_this_document": false
+    },
+    {
+      "task_id": "B-T3-reference-recovery",
+      "parent_task": "native contact or sealed mechanical fixture",
+      "contract_type": "recovery_original_reference",
+      "status_at_design_read": "PRIOR_MECHANICAL_REFERENCE_PROTECTION_ONLY",
+      "controls_read": [
+        "existing retry/guarded dispatch mechanisms"
+      ],
+      "observations_read": [
+        "original public history; no private effect truth"
+      ],
+      "independent_effective_events": [
+        "original event ledger remains invariant",
+        "independent recovery completion"
+      ],
+      "unresolved_physical_gates": [
+        "original deadline reachable under new condition",
+        "cost of protection",
+        "no reset credited as original recovery"
+      ],
+      "proposed_task_space_holdout": [
+        "unseen recovery prerequisites",
+        "drift at different episodes"
+      ],
+      "executed_by_this_document": false
+    }
+  ],
+  "new_rollouts": 0,
+  "new_weights": 0,
+  "native_expansion_pilot_boundary": {
+    "calibration_rollouts": 4,
+    "test_rollouts": 16,
+    "calibration_mass_factors": [
+      0.8,
+      1.2
+    ],
+    "test_mass_factors": [
+      0.9,
+      1.1
+    ],
+    "queue_delay_native_ticks": [
+      0,
+      12
+    ],
+    "physics_hz": 240,
+    "all_temporal_tolerances_s": 0.025,
+    "D_s": [
+      5,
+      5.5
+    ],
+    "contact_to_stable_release_gap_s": [
+      18,
+      18.5
+    ],
+    "D_gap_mass_are_bound": true,
+    "independent_scene_randomization": false,
+    "source_seed_changes_scene": false,
+    "test_role": "interpolation condition holdout; fixed-scene paired mechanism component; no independent factor attribution",
+    "main_joint": [
+      "cue_to_contact",
+      "cue_to_stable_release",
+      "contact_to_stable_release",
+      "original_mechanical_task"
+    ],
+    "strict_sampled_bilateral_hold": "independent diagnostic; report joint_with_hold with same denominator; no between-sample continuous-force claim"
+  }
+}

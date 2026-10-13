@@ -1,0 +1,250 @@
+{
+  "schema": "paperb-primary-evidence-read-v1",
+  "checked_at_utc": "2026-10-13T12:08:29.177815+00:00",
+  "evidence_policy": "Only primary arXiv papers and PMLR author/proceedings pages are used; no social-media or secondary search summaries support claims; read_scope is bounded, not full-paper reproduction.",
+  "claim_status": "Novelty distinctions are project inference, not proof of absence in all prior work.",
+  "sources": [
+    {
+      "id": "gpt_policy",
+      "title": "In-Context Robot Learning with VLM Agents",
+      "arxiv_id": "2609.19138v1",
+      "source_version_date": "2026-09-16",
+      "read_scope": [
+        "abstract",
+        "sections 3.1-3.3",
+        "section 4.5",
+        "Appendix A.3"
+      ],
+      "read_summary": "Context compiler, frozen VLM tool selection, constrained execution and returned feedback. Small task series; self-history observations alone are not a general adaptation guarantee.",
+      "project_boundary": "agent context and harness are prior art",
+      "primary_url": "https://arxiv.org/html/2609.19138v1",
+      "arxiv_doi": "https://doi.org/10.48550/arXiv.2609.19138",
+      "reproduction_status": "NOT_REPRODUCED"
+    },
+    {
+      "id": "rtc",
+      "title": "Real-Time Execution of Action Chunking Flow Policies",
+      "arxiv_id": "2506.07339",
+      "source_version_date": "2025-06-09",
+      "read_scope": [
+        "abstract",
+        "section 4.2 excerpts",
+        "Appendix A.3 latency tables"
+      ],
+      "read_summary": "Asynchronous diffusion/flow chunk inference uses committed prefixes and inpainting; evaluates dynamic Kinetix and real robot tasks under delay.",
+      "project_boundary": "chunk continuity and inference-delay robustness are prior art",
+      "primary_url": "https://arxiv.org/html/2506.07339",
+      "arxiv_doi": "https://doi.org/10.48550/arXiv.2506.07339",
+      "reproduction_status": "NOT_REPRODUCED"
+    },
+    {
+      "id": "tt_rtc",
+      "title": "Training-Time Action Conditioning for Efficient Real-Time Chunking",
+      "arxiv_id": "2512.05964",
+      "source_version_date": "2025-12-05",
+      "read_scope": [
+        "abstract",
+        "sections III-V"
+      ],
+      "read_summary": "Simulated inference delay and action-prefix conditioning during training reduce inference-time overhead; limitations include supported prefix/delay distribution.",
+      "project_boundary": "train-time prefix conditioning must be a comparator",
+      "primary_url": "https://arxiv.org/html/2512.05964",
+      "arxiv_doi": "https://doi.org/10.48550/arXiv.2512.05964",
+      "reproduction_status": "NOT_REPRODUCED"
+    },
+    {
+      "id": "vlash",
+      "title": "VLASH: Real-Time VLAs via Future-State-Aware Asynchronous Inference",
+      "arxiv_id": "2512.01031",
+      "source_version_date": "2025-11-30",
+      "read_scope": [
+        "abstract",
+        "section IV-A/B"
+      ],
+      "read_summary": "Future execution-time robot state is estimated from committed actions; current image remains stale, and offset augmentation teaches state use.",
+      "project_boundary": "future-state correction is prior art; not an event-deadline contract proof",
+      "primary_url": "https://arxiv.org/html/2512.01031",
+      "arxiv_doi": "https://doi.org/10.48550/arXiv.2512.01031",
+      "reproduction_status": "NOT_REPRODUCED"
+    },
+    {
+      "id": "da_dp",
+      "title": "Delay-Aware Diffusion Policy: Bridging the Observation–Execution Gap in Dynamic Tasks",
+      "arxiv_id": "2512.07697v2",
+      "source_version_date": "2026-03-24",
+      "read_scope": [
+        "abstract",
+        "sections III-IV"
+      ],
+      "read_summary": "Measured-delay conditioning and delay-compensated trajectories address dynamic observation-execution mismatch; corrected actions must still meet physical limits.",
+      "project_boundary": "delay conditioning and data compensation are prior art",
+      "primary_url": "https://arxiv.org/html/2512.07697",
+      "arxiv_doi": "https://doi.org/10.48550/arXiv.2512.07697",
+      "reproduction_status": "NOT_REPRODUCED"
+    },
+    {
+      "id": "chronos",
+      "title": "Chronos Policy: Learning Robot Policies on Physical Time",
+      "arxiv_id": "2610.13929v1",
+      "source_version_date": "2026-10-09",
+      "read_scope": [
+        "abstract",
+        "sections 1-3.1 and 3.2 opening"
+      ],
+      "read_summary": "Conditions on observation capture and queried execution timestamps, uses time-aware RoPE or AddTime, and randomizes temporal sampling/schedules.",
+      "project_boundary": "explicit physical-time diffusion learning cannot be claimed new",
+      "primary_url": "https://arxiv.org/html/2610.13929",
+      "arxiv_doi": "https://doi.org/10.48550/arXiv.2610.13929",
+      "reproduction_status": "NOT_REPRODUCED"
+    },
+    {
+      "id": "time_control",
+      "title": "Time as a Control Dimension in Robot Learning",
+      "arxiv_id": "2511.07654v2",
+      "source_version_date": "2026-03-11",
+      "read_scope": [
+        "abstract",
+        "Introduction equations 2-5",
+        "Results setup/tasks opening"
+      ],
+      "read_summary": "Remaining-time/time-ratio policy learning includes punctuality objectives, stability constraints, perturbation recovery and multi-agent coordination.",
+      "project_boundary": "task punctuality, deadline-conditioned RL and recovery are direct prior art",
+      "primary_url": "https://arxiv.org/html/2511.07654",
+      "arxiv_doi": "https://doi.org/10.48550/arXiv.2511.07654",
+      "reproduction_status": "NOT_REPRODUCED"
+    },
+    {
+      "id": "tarc",
+      "title": "TARC: Time-Adaptive Robotic Control",
+      "arxiv_id": "2510.23176v2",
+      "source_version_date": "2026-09-15",
+      "read_scope": [
+        "abstract"
+      ],
+      "read_summary": "RL predicts control actions plus their duration under switch constraints; evaluates hardware and simulated VLA.",
+      "project_boundary": "variable application duration/control frequency differs from verified process-endpoint timing",
+      "primary_url": "https://arxiv.org/abs/2510.23176",
+      "arxiv_doi": "https://doi.org/10.48550/arXiv.2510.23176",
+      "reproduction_status": "NOT_REPRODUCED"
+    },
+    {
+      "id": "aspire",
+      "title": "ASPIRE: Agentic /Skills Discovery for Robotics",
+      "arxiv_id": "2607.00272",
+      "source_version_date": "2026-06-30",
+      "read_scope": [
+        "abstract",
+        "sections 2 and 3.1-3.7"
+      ],
+      "read_summary": "Fine-grained multimodal trace diagnosis, validated repairs, reusable skill library and search; task/debug/evaluation splits matter.",
+      "project_boundary": "validated agent repair/library and transfer are prior art",
+      "primary_url": "https://arxiv.org/html/2607.00272",
+      "arxiv_doi": "https://doi.org/10.48550/arXiv.2607.00272",
+      "reproduction_status": "NOT_REPRODUCED"
+    },
+    {
+      "id": "enpire",
+      "title": "ENPIRE: Agentic Robot Policy Self-Improvement in the Real World",
+      "arxiv_id": "2606.19980",
+      "source_version_date": "2026-06-18",
+      "read_scope": [
+        "abstract",
+        "automated verification subsection"
+      ],
+      "read_summary": "Harness exposes reset, rollout, policy improvement and agent evolution; agents synthesize sensor-dependent verification/reward.",
+      "project_boundary": "physical closed-loop policy engineering is prior art; independently calibrate our endpoints",
+      "primary_url": "https://arxiv.org/html/2606.19980",
+      "arxiv_doi": "https://doi.org/10.48550/arXiv.2606.19980",
+      "reproduction_status": "NOT_REPRODUCED"
+    },
+    {
+      "id": "roborsi",
+      "title": "RoboRSI: Stable, Efficient, and Reusable Robot Self-Evolution in Complex Real-World Environments",
+      "arxiv_id": "2610.12424v1",
+      "source_version_date": "2026-10-08",
+      "read_scope": [
+        "abstract",
+        "Introduction",
+        "section 4.5.5"
+      ],
+      "read_summary": "Task-skill contracts and scoped repair coordinate agents; successful executions also train compact ACT skills.",
+      "project_boundary": "agent skill contracts and execution-to-policy absorption are prior art",
+      "primary_url": "https://arxiv.org/html/2610.12424",
+      "arxiv_doi": "https://doi.org/10.48550/arXiv.2610.12424",
+      "reproduction_status": "NOT_REPRODUCED"
+    },
+    {
+      "id": "rpg",
+      "title": "Reconstruct, Practice, Go Real: Guided Self-Improvement for Embodied Agents",
+      "arxiv_id": "2610.02204",
+      "source_version_date": "2026-10-01",
+      "read_scope": [
+        "abstract",
+        "privileged-agent distinction",
+        "Appendix cross-task validation and held-out evaluation"
+      ],
+      "read_summary": "Reconstructs simulation practice from datasets, uses privileged diagnosis, revises shared skills/prompts and retests cross-task changes.",
+      "project_boundary": "reconstruct-practice-transfer and cross-task regression gate are prior art; separate development privilege",
+      "primary_url": "https://arxiv.org/html/2610.02204",
+      "arxiv_doi": "https://doi.org/10.48550/arXiv.2610.02204",
+      "reproduction_status": "NOT_REPRODUCED"
+    },
+    {
+      "id": "dagger",
+      "title": "A Reduction of Imitation Learning and Structured Prediction to No-Regret Online Learning",
+      "arxiv_id": "1011.0686",
+      "source_version_date": "2011",
+      "read_scope": [
+        "PMLR abstract",
+        "Algorithm 3.1 in primary PDF"
+      ],
+      "read_summary": "Aggregates expert action labels on learner-visited states and retrains under a no-regret reduction with stated assumptions.",
+      "project_boundary": "student-state relabeling is DAgger prior art",
+      "primary_url": "https://proceedings.mlr.press/v15/ross11a.html",
+      "arxiv_doi": "https://doi.org/10.48550/arXiv.1011.0686",
+      "reproduction_status": "NOT_REPRODUCED"
+    },
+    {
+      "id": "fa_opd",
+      "title": "Adversarial Dual On-Policy Distillation from Expressive Teacher",
+      "arxiv_id": "2605.27095",
+      "source_version_date": "2026",
+      "read_scope": [
+        "PMLR abstract"
+      ],
+      "read_summary": "Flow teacher supplies student-visited action targets and an expert-likeness reward channel for coupled online exploration.",
+      "project_boundary": "on-policy robot distillation and reward/action dual signals are prior art",
+      "primary_url": "https://proceedings.mlr.press/v306/wan26n.html",
+      "arxiv_doi": "https://doi.org/10.48550/arXiv.2605.27095",
+      "reproduction_status": "NOT_REPRODUCED"
+    },
+    {
+      "id": "stl_mpc",
+      "title": "Model-based Reinforcement Learning from Signal Temporal Logic Specifications",
+      "arxiv_id": "2011.04950",
+      "source_version_date": "2020-11-10",
+      "read_scope": [
+        "primary arXiv abstract"
+      ],
+      "read_summary": "STL specifies robot behavior and model-based learning constructs finite-horizon model-predictive control to optimize specification satisfaction.",
+      "project_boundary": "logic-constrained learned control/MPC is prior art; our physical interval calibration is not a new STL theorem",
+      "primary_url": "https://arxiv.org/abs/2011.04950",
+      "arxiv_doi": "https://doi.org/10.48550/arXiv.2011.04950",
+      "reproduction_status": "NOT_REPRODUCED"
+    },
+    {
+      "id": "stl_demos",
+      "title": "Learning from Demonstrations using Signal Temporal Logic",
+      "arxiv_id": null,
+      "source_version_date": "2021 proceedings of CoRL 2020",
+      "read_scope": [
+        "primary PMLR abstract"
+      ],
+      "read_summary": "STL ranks demonstration quality and supplies non-Markovian rewards and sequential-task dependencies.",
+      "project_boundary": "temporal-logic demonstration scoring/selection and causal task dependencies are prior art",
+      "primary_url": "https://proceedings.mlr.press/v155/puranic21a.html",
+      "arxiv_doi": null,
+      "reproduction_status": "NOT_REPRODUCED"
+    }
+  ]
+}

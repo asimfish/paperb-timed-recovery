@@ -1,0 +1,22 @@
+{
+  "schema": "paperb-research-design-content-check-v1",
+  "status": "PASS_DESIGN_AND_EVIDENCE_BINDINGS_ONLY",
+  "task_entries": 8,
+  "method_entries": 18,
+  "primary_sources": 16,
+  "local_read_source_bindings": 18,
+  "cross_reference_errors": 0,
+  "new_jobs": 0,
+  "new_rollouts": 0,
+  "new_weights": 0,
+  "scientific_acceptance": "NOT_EVALUATED; root experiment audit authoritative",
+  "files": {
+    "METHOD_MATRIX.json": "67c78493cad5bb17cb0302b26170a0446cd0a4835822d2fe7be771a66c0e6137",
+    "PROJECT_STORY_cn.md": "7c57cb153b998131538643821919dcbd84df844d2d91c00300856a263ec1652f",
+    "RELATED_WORK_EVIDENCE.json": "f8ba51315b6f871a030507cbfb18cb80ea1f9ece5def1a16735bd87dcd699718",
+    "REUSABLE_FIXTURE_PROTOCOL.json": "77ea280fe05cf0f4253915dc160d201531128a08b969799e1071bf82138c614d",
+    "SCENE_READINESS_cn.md": "02b1c397cf8d691529be8163fbfc82a2b1c357099c75cf5974fec40139b86a42",
+    "SOURCE_READ_RECEIPT.json": "8351fbffbee14927d3cf569084fc10ca2d969ebf06979c59d45eb287df33a752",
+    "TASK_MATRIX.json": "0d52101fe2a6babb99a896a2a8b57c7ca29c4d11a17c99d526ac64e769b11a55"
+  }
+}

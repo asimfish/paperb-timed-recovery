@@ -1,0 +1,605 @@
+{
+  "schema": "paperb-task-graph-main-summary-v1",
+  "status": "OWN_NATIVE_REPLAY_PASS_EXTERNAL_REVIEW_PENDING",
+  "created_at_utc": "2026-10-13T12:37:50.403659+00:00",
+  "main_contract_instances": 4,
+  "main_rollouts": 12,
+  "sentinel_rollouts": 2,
+  "main_by_arm": {
+    "legacy_order_scheduler": {
+      "main_rollouts": 4,
+      "joint": {
+        "TRUE": 0,
+        "FALSE": 4,
+        "UNKNOWN": 0
+      },
+      "A_time": {
+        "TRUE": 4,
+        "FALSE": 0,
+        "UNKNOWN": 0
+      },
+      "B_time": {
+        "TRUE": 4,
+        "FALSE": 0,
+        "UNKNOWN": 0
+      },
+      "graph_dependencies": {
+        "TRUE": 3,
+        "FALSE": 1,
+        "UNKNOWN": 0
+      },
+      "B_sampled_power_and_motion_maintenance": {
+        "TRUE": 3,
+        "FALSE": 1,
+        "UNKNOWN": 0
+      },
+      "original_reference_violation_episodes": 4,
+      "original_reference_violation_events": 4,
+      "A_original_reference": {
+        "TRUE": 0,
+        "FALSE": 4,
+        "UNKNOWN": 0
+      },
+      "B_original_reference": {
+        "TRUE": 4,
+        "FALSE": 0,
+        "UNKNOWN": 0
+      },
+      "only_B_maintenance_required_episodes": 1,
+      "native_samples": 4004,
+      "B_required_maintenance": {
+        "TRUE": 0,
+        "FALSE": 1,
+        "UNKNOWN": 0
+      },
+      "graph_required_dependency_episodes": 3,
+      "nonrequired_predicates_are_vacuously_true": true
+    },
+    "graph_event_scheduler": {
+      "main_rollouts": 4,
+      "joint": {
+        "TRUE": 1,
+        "FALSE": 3,
+        "UNKNOWN": 0
+      },
+      "A_time": {
+        "TRUE": 4,
+        "FALSE": 0,
+        "UNKNOWN": 0
+      },
+      "B_time": {
+        "TRUE": 4,
+        "FALSE": 0,
+        "UNKNOWN": 0
+      },
+      "graph_dependencies": {
+        "TRUE": 4,
+        "FALSE": 0,
+        "UNKNOWN": 0
+      },
+      "B_sampled_power_and_motion_maintenance": {
+        "TRUE": 4,
+        "FALSE": 0,
+        "UNKNOWN": 0
+      },
+      "original_reference_violation_episodes": 3,
+      "original_reference_violation_events": 4,
+      "A_original_reference": {
+        "TRUE": 1,
+        "FALSE": 3,
+        "UNKNOWN": 0
+      },
+      "B_original_reference": {
+        "TRUE": 3,
+        "FALSE": 1,
+        "UNKNOWN": 0
+      },
+      "only_B_maintenance_required_episodes": 1,
+      "native_samples": 4004,
+      "B_required_maintenance": {
+        "TRUE": 1,
+        "FALSE": 0,
+        "UNKNOWN": 0
+      },
+      "graph_required_dependency_episodes": 3,
+      "nonrequired_predicates_are_vacuously_true": true
+    },
+    "reference_guarded_graph_scheduler": {
+      "main_rollouts": 4,
+      "joint": {
+        "TRUE": 4,
+        "FALSE": 0,
+        "UNKNOWN": 0
+      },
+      "A_time": {
+        "TRUE": 4,
+        "FALSE": 0,
+        "UNKNOWN": 0
+      },
+      "B_time": {
+        "TRUE": 4,
+        "FALSE": 0,
+        "UNKNOWN": 0
+      },
+      "graph_dependencies": {
+        "TRUE": 4,
+        "FALSE": 0,
+        "UNKNOWN": 0
+      },
+      "B_sampled_power_and_motion_maintenance": {
+        "TRUE": 4,
+        "FALSE": 0,
+        "UNKNOWN": 0
+      },
+      "original_reference_violation_episodes": 0,
+      "original_reference_violation_events": 0,
+      "A_original_reference": {
+        "TRUE": 4,
+        "FALSE": 0,
+        "UNKNOWN": 0
+      },
+      "B_original_reference": {
+        "TRUE": 4,
+        "FALSE": 0,
+        "UNKNOWN": 0
+      },
+      "only_B_maintenance_required_episodes": 1,
+      "native_samples": 4004,
+      "B_required_maintenance": {
+        "TRUE": 1,
+        "FALSE": 0,
+        "UNKNOWN": 0
+      },
+      "graph_required_dependency_episodes": 3,
+      "nonrequired_predicates_are_vacuously_true": true
+    }
+  },
+  "main_by_graph": [
+    {
+      "episode_id": "case-01--legacy_order_scheduler",
+      "case_id": "case-01",
+      "graph_id": "G-parallel",
+      "role": "main_component",
+      "arm": "legacy_order_scheduler",
+      "samples": 1001,
+      "commands": 2,
+      "joint_original_contract": "FALSE",
+      "host_elapsed_ns": 59014766,
+      "host_work_advances_plant": false,
+      "neural_training_runs": 0,
+      "chemical_or_lab_robot_credit": 0,
+      "independent_components": {
+        "A_time": "TRUE",
+        "A_original_reference": "FALSE",
+        "B_time": "TRUE",
+        "B_original_reference": "TRUE",
+        "graph_dependencies": "TRUE",
+        "B_sampled_power_and_motion_maintenance": "TRUE",
+        "joint_original_contract": "FALSE"
+      }
+    },
+    {
+      "episode_id": "case-01--graph_event_scheduler",
+      "case_id": "case-01",
+      "graph_id": "G-parallel",
+      "role": "main_component",
+      "arm": "graph_event_scheduler",
+      "samples": 1001,
+      "commands": 1,
+      "joint_original_contract": "FALSE",
+      "host_elapsed_ns": 100051185,
+      "host_work_advances_plant": false,
+      "neural_training_runs": 0,
+      "chemical_or_lab_robot_credit": 0,
+      "independent_components": {
+        "A_time": "TRUE",
+        "A_original_reference": "FALSE",
+        "B_time": "TRUE",
+        "B_original_reference": "FALSE",
+        "graph_dependencies": "TRUE",
+        "B_sampled_power_and_motion_maintenance": "TRUE",
+        "joint_original_contract": "FALSE"
+      }
+    },
+    {
+      "episode_id": "case-01--reference_guarded_graph_scheduler",
+      "case_id": "case-01",
+      "graph_id": "G-parallel",
+      "role": "main_component",
+      "arm": "reference_guarded_graph_scheduler",
+      "samples": 1001,
+      "commands": 1,
+      "joint_original_contract": "TRUE",
+      "host_elapsed_ns": 119245504,
+      "host_work_advances_plant": false,
+      "neural_training_runs": 0,
+      "chemical_or_lab_robot_credit": 0,
+      "independent_components": {
+        "A_time": "TRUE",
+        "A_original_reference": "TRUE",
+        "B_time": "TRUE",
+        "B_original_reference": "TRUE",
+        "graph_dependencies": "TRUE",
+        "B_sampled_power_and_motion_maintenance": "TRUE",
+        "joint_original_contract": "TRUE"
+      }
+    },
+    {
+      "episode_id": "case-02--legacy_order_scheduler",
+      "case_id": "case-02",
+      "graph_id": "G-A-before-B",
+      "role": "main_component",
+      "arm": "legacy_order_scheduler",
+      "samples": 1001,
+      "commands": 2,
+      "joint_original_contract": "FALSE",
+      "host_elapsed_ns": 52348713,
+      "host_work_advances_plant": false,
+      "neural_training_runs": 0,
+      "chemical_or_lab_robot_credit": 0,
+      "independent_components": {
+        "A_time": "TRUE",
+        "A_original_reference": "FALSE",
+        "B_time": "TRUE",
+        "B_original_reference": "TRUE",
+        "graph_dependencies": "TRUE",
+        "B_sampled_power_and_motion_maintenance": "TRUE",
+        "joint_original_contract": "FALSE"
+      }
+    },
+    {
+      "episode_id": "case-02--graph_event_scheduler",
+      "case_id": "case-02",
+      "graph_id": "G-A-before-B",
+      "role": "main_component",
+      "arm": "graph_event_scheduler",
+      "samples": 1001,
+      "commands": 2,
+      "joint_original_contract": "FALSE",
+      "host_elapsed_ns": 99327117,
+      "host_work_advances_plant": false,
+      "neural_training_runs": 0,
+      "chemical_or_lab_robot_credit": 0,
+      "independent_components": {
+        "A_time": "TRUE",
+        "A_original_reference": "FALSE",
+        "B_time": "TRUE",
+        "B_original_reference": "TRUE",
+        "graph_dependencies": "TRUE",
+        "B_sampled_power_and_motion_maintenance": "TRUE",
+        "joint_original_contract": "FALSE"
+      }
+    },
+    {
+      "episode_id": "case-02--reference_guarded_graph_scheduler",
+      "case_id": "case-02",
+      "graph_id": "G-A-before-B",
+      "role": "main_component",
+      "arm": "reference_guarded_graph_scheduler",
+      "samples": 1001,
+      "commands": 2,
+      "joint_original_contract": "TRUE",
+      "host_elapsed_ns": 106164862,
+      "host_work_advances_plant": false,
+      "neural_training_runs": 0,
+      "chemical_or_lab_robot_credit": 0,
+      "independent_components": {
+        "A_time": "TRUE",
+        "A_original_reference": "TRUE",
+        "B_time": "TRUE",
+        "B_original_reference": "TRUE",
+        "graph_dependencies": "TRUE",
+        "B_sampled_power_and_motion_maintenance": "TRUE",
+        "joint_original_contract": "TRUE"
+      }
+    },
+    {
+      "episode_id": "case-03--legacy_order_scheduler",
+      "case_id": "case-03",
+      "graph_id": "G-B-before-A",
+      "role": "main_component",
+      "arm": "legacy_order_scheduler",
+      "samples": 1001,
+      "commands": 2,
+      "joint_original_contract": "FALSE",
+      "host_elapsed_ns": 45577480,
+      "host_work_advances_plant": false,
+      "neural_training_runs": 0,
+      "chemical_or_lab_robot_credit": 0,
+      "independent_components": {
+        "A_time": "TRUE",
+        "A_original_reference": "FALSE",
+        "B_time": "TRUE",
+        "B_original_reference": "TRUE",
+        "graph_dependencies": "FALSE",
+        "B_sampled_power_and_motion_maintenance": "TRUE",
+        "joint_original_contract": "FALSE"
+      }
+    },
+    {
+      "episode_id": "case-03--graph_event_scheduler",
+      "case_id": "case-03",
+      "graph_id": "G-B-before-A",
+      "role": "main_component",
+      "arm": "graph_event_scheduler",
+      "samples": 1001,
+      "commands": 2,
+      "joint_original_contract": "TRUE",
+      "host_elapsed_ns": 81485322,
+      "host_work_advances_plant": false,
+      "neural_training_runs": 0,
+      "chemical_or_lab_robot_credit": 0,
+      "independent_components": {
+        "A_time": "TRUE",
+        "A_original_reference": "TRUE",
+        "B_time": "TRUE",
+        "B_original_reference": "TRUE",
+        "graph_dependencies": "TRUE",
+        "B_sampled_power_and_motion_maintenance": "TRUE",
+        "joint_original_contract": "TRUE"
+      }
+    },
+    {
+      "episode_id": "case-03--reference_guarded_graph_scheduler",
+      "case_id": "case-03",
+      "graph_id": "G-B-before-A",
+      "role": "main_component",
+      "arm": "reference_guarded_graph_scheduler",
+      "samples": 1001,
+      "commands": 2,
+      "joint_original_contract": "TRUE",
+      "host_elapsed_ns": 88602185,
+      "host_work_advances_plant": false,
+      "neural_training_runs": 0,
+      "chemical_or_lab_robot_credit": 0,
+      "independent_components": {
+        "A_time": "TRUE",
+        "A_original_reference": "TRUE",
+        "B_time": "TRUE",
+        "B_original_reference": "TRUE",
+        "graph_dependencies": "TRUE",
+        "B_sampled_power_and_motion_maintenance": "TRUE",
+        "joint_original_contract": "TRUE"
+      }
+    },
+    {
+      "episode_id": "case-04--legacy_order_scheduler",
+      "case_id": "case-04",
+      "graph_id": "G-A-while-B-active",
+      "role": "main_component",
+      "arm": "legacy_order_scheduler",
+      "samples": 1001,
+      "commands": 2,
+      "joint_original_contract": "FALSE",
+      "host_elapsed_ns": 73348458,
+      "host_work_advances_plant": false,
+      "neural_training_runs": 0,
+      "chemical_or_lab_robot_credit": 0,
+      "independent_components": {
+        "A_time": "TRUE",
+        "A_original_reference": "FALSE",
+        "B_time": "TRUE",
+        "B_original_reference": "TRUE",
+        "graph_dependencies": "TRUE",
+        "B_sampled_power_and_motion_maintenance": "FALSE",
+        "joint_original_contract": "FALSE"
+      }
+    },
+    {
+      "episode_id": "case-04--graph_event_scheduler",
+      "case_id": "case-04",
+      "graph_id": "G-A-while-B-active",
+      "role": "main_component",
+      "arm": "graph_event_scheduler",
+      "samples": 1001,
+      "commands": 2,
+      "joint_original_contract": "FALSE",
+      "host_elapsed_ns": 120495351,
+      "host_work_advances_plant": false,
+      "neural_training_runs": 0,
+      "chemical_or_lab_robot_credit": 0,
+      "independent_components": {
+        "A_time": "TRUE",
+        "A_original_reference": "FALSE",
+        "B_time": "TRUE",
+        "B_original_reference": "TRUE",
+        "graph_dependencies": "TRUE",
+        "B_sampled_power_and_motion_maintenance": "TRUE",
+        "joint_original_contract": "FALSE"
+      }
+    },
+    {
+      "episode_id": "case-04--reference_guarded_graph_scheduler",
+      "case_id": "case-04",
+      "graph_id": "G-A-while-B-active",
+      "role": "main_component",
+      "arm": "reference_guarded_graph_scheduler",
+      "samples": 1001,
+      "commands": 2,
+      "joint_original_contract": "TRUE",
+      "host_elapsed_ns": 127544260,
+      "host_work_advances_plant": false,
+      "neural_training_runs": 0,
+      "chemical_or_lab_robot_credit": 0,
+      "independent_components": {
+        "A_time": "TRUE",
+        "A_original_reference": "TRUE",
+        "B_time": "TRUE",
+        "B_original_reference": "TRUE",
+        "graph_dependencies": "TRUE",
+        "B_sampled_power_and_motion_maintenance": "TRUE",
+        "joint_original_contract": "TRUE"
+      }
+    }
+  ],
+  "sentinels": [
+    {
+      "episode_id": "sentinel-feasible--reference_guarded_graph_scheduler",
+      "case_id": "sentinel-feasible",
+      "graph_id": "G-parallel",
+      "role": "feasible_witness_native",
+      "arm": "reference_guarded_graph_scheduler",
+      "samples": 1001,
+      "commands": 1,
+      "joint_original_contract": "TRUE",
+      "host_elapsed_ns": 106947805,
+      "host_work_advances_plant": false,
+      "neural_training_runs": 0,
+      "chemical_or_lab_robot_credit": 0,
+      "independent_verdict": {
+        "original_references": [
+          [
+            440000000,
+            450000000
+          ],
+          [
+            440000000,
+            450000000
+          ]
+        ],
+        "actual_references": [
+          [
+            440000000,
+            450000000
+          ],
+          [
+            440000000,
+            450000000
+          ]
+        ],
+        "stop_events": [
+          {
+            "occurrence_interval_ns": [
+              1900000000,
+              1910000000
+            ],
+            "confirmation_ns": 2110000000,
+            "low_sample_count": 21,
+            "had_prior_moving_sample": true
+          },
+          {
+            "occurrence_interval_ns": [
+              1900000000,
+              1910000000
+            ],
+            "confirmation_ns": 2110000000,
+            "low_sample_count": 21,
+            "had_prior_moving_sample": true
+          }
+        ],
+        "A_time": "TRUE",
+        "A_original_reference": "TRUE",
+        "B_time": "TRUE",
+        "B_original_reference": "TRUE",
+        "graph_dependencies": "TRUE",
+        "B_sampled_power_and_motion_maintenance": "TRUE",
+        "joint_original_contract": "TRUE",
+        "maintenance_failure_witness_ns": null,
+        "sampled_not_continuous": true,
+        "chemical_certified": 0,
+        "robot_task_certified": 0
+      }
+    },
+    {
+      "episode_id": "sentinel-infeasible--graph_event_scheduler",
+      "case_id": "sentinel-infeasible",
+      "graph_id": "S-infeasible-cycle",
+      "role": "infeasible_native_refusal",
+      "arm": "graph_event_scheduler",
+      "samples": 1001,
+      "commands": 0,
+      "joint_original_contract": "FALSE",
+      "host_elapsed_ns": 87683239,
+      "host_work_advances_plant": false,
+      "neural_training_runs": 0,
+      "chemical_or_lab_robot_credit": 0,
+      "independent_verdict": {
+        "original_references": [
+          [
+            440000000,
+            450000000
+          ],
+          [
+            440000000,
+            450000000
+          ]
+        ],
+        "actual_references": [
+          [
+            440000000,
+            450000000
+          ],
+          [
+            440000000,
+            450000000
+          ]
+        ],
+        "stop_events": [
+          null,
+          null
+        ],
+        "A_time": "FALSE",
+        "A_original_reference": "TRUE",
+        "B_time": "FALSE",
+        "B_original_reference": "TRUE",
+        "graph_dependencies": "FALSE",
+        "B_sampled_power_and_motion_maintenance": "TRUE",
+        "joint_original_contract": "FALSE",
+        "maintenance_failure_witness_ns": null,
+        "sampled_not_continuous": true,
+        "chemical_certified": 0,
+        "robot_task_certified": 0
+      }
+    }
+  ],
+  "counts": {
+    "controlled_native_epochs": 14,
+    "main_native_epochs": 12,
+    "sentinel_native_epochs": 2,
+    "reference_oracle_epochs": 1,
+    "controlled_native_samples": 14014,
+    "main_native_samples": 12012,
+    "sentinel_native_samples": 2002,
+    "reference_oracle_samples": 1001,
+    "total_persisted_state_samples_including_reference": 15015,
+    "controlled_native_integration_steps": 14000,
+    "reference_oracle_steps": 1000,
+    "preflight_native_probe_steps": 100,
+    "fullpower_original_reference_event_definitions": 2,
+    "controlled_actual_angle_reference_occurrences": 28,
+    "controlled_confirmed_stop_events": 26,
+    "controlled_missing_stop_events": 2,
+    "main_original_reference_violation_episodes": 7,
+    "main_original_reference_violation_events": 8,
+    "self_audit_verification_reintegration_steps": 15000,
+    "new_controlled_episodes_from_self_audit_or_export": 0
+  },
+  "physical_clock": "14 independent uninterrupted 10-second native epochs; actual MuJoCo time recorded; host computation does not advance plant; only declared delivery/service delays advance ticks",
+  "effective_stop_definition": "abs(v)<=0.1 after prior moving sample, 200ms endpoint span/21 samples, occurrence interval separate from confirmation",
+  "original_reference_definition": "same initial state/MJCF full-power reference; actual position crossing must keep same occurrence bracket; zero application before this point can shift event and fail original contract",
+  "claims": {
+    "supported": [
+      "Four task/maintenance graph contracts are physically executed and independently replayed",
+      "Graph constraints and preserving the full-power original position reference change outcomes in this known fixture",
+      "One original-contract feasible witness and one cyclic infeasibility/refusal trace retained"
+    ],
+    "not_supported": [
+      "general learned-policy adaptation",
+      "official reproduction of previous history controller",
+      "C5/C6/C13 physical chemistry",
+      "A/B/C original robot scene",
+      "real-world continuous latency",
+      "between-sample continuous maintenance",
+      "statistical generalization"
+    ]
+  },
+  "GPU": false,
+  "RGB_frames": 0,
+  "new_weights": 0,
+  "chemical_credit": 0,
+  "lab_robot_credit": 0,
+  "execution_release_sha256": "23a1070bd1d9313217e1b6baa62f98c3e07aeea4cc1e8996bcbc37a666fcee97",
+  "audit_sha256": "b83b6665d5255aae0e1ed87695c834fcb67e2ebb59e56c940212438041d77246",
+  "results_sha256": "68c83f741fc355796b92efb35568b5250f10d26931132191c6a099cb27269792",
+  "original_fullpower_reference_sha256": "b38f93f27ca33b118933b00be33b35bec8cc365f3870c03c3bcb2c448eec4696"
+}

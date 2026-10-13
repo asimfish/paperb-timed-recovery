@@ -1,0 +1,659 @@
+[
+  {
+    "case": {
+      "id": "counterexample_midpoint_false_refusal",
+      "family": "targeted",
+      "dt_ratio": "1/240",
+      "mechanical_contact_interval_s": [
+        "79/500",
+        "81/500"
+      ],
+      "mechanical_release_interval_s": [
+        "59/500",
+        "61/500"
+      ],
+      "public_delay_ticks": 0,
+      "tolerance_s": ".025",
+      "contact_request_s": "5",
+      "duration_request_s": "17.95",
+      "min_skill_gap_s": "18",
+      "earliest_contact_dispatch_s": "4"
+    },
+    "result": {
+      "case_id": "counterexample_midpoint_false_refusal",
+      "oracle_feasible": true,
+      "oracle_feasible_pair_count": 21,
+      "oracle_selected_ticks": [
+        1160,
+        5480
+      ],
+      "methods": [
+        {
+          "method": "nominal_prior",
+          "status": "SCHEDULED",
+          "selected_ticks": [
+            1158,
+            5487
+          ],
+          "diagnostic_fallback_ticks": null,
+          "robust_checks": {
+            "contact": true,
+            "release": false,
+            "duration_gap": false,
+            "min_skill": true,
+            "joint": false
+          },
+          "robust_joint_pass": false,
+          "joint_interval_certificate": null,
+          "exception": null
+        },
+        {
+          "method": "public_delay_prior",
+          "status": "SCHEDULED",
+          "selected_ticks": [
+            1158,
+            5487
+          ],
+          "diagnostic_fallback_ticks": null,
+          "robust_checks": {
+            "contact": true,
+            "release": false,
+            "duration_gap": false,
+            "min_skill": true,
+            "joint": false
+          },
+          "robust_joint_pass": false,
+          "joint_interval_certificate": null,
+          "exception": null
+        },
+        {
+          "method": "calibrated_interval",
+          "status": "EXCEPTION_RETAINED_AS_REJECTION",
+          "selected_ticks": null,
+          "diagnostic_fallback_ticks": null,
+          "robust_checks": null,
+          "robust_joint_pass": false,
+          "joint_interval_certificate": null,
+          "exception": {
+            "type": "ValueError",
+            "message": "requested release precedes feasible source release stage"
+          }
+        },
+        {
+          "method": "joint_interval_scheduler",
+          "status": "EXCEPTION_RETAINED_AS_REJECTION",
+          "selected_ticks": null,
+          "diagnostic_fallback_ticks": null,
+          "robust_checks": null,
+          "robust_joint_pass": false,
+          "joint_interval_certificate": null,
+          "exception": {
+            "type": "ValueError",
+            "message": "requested release precedes feasible source release stage"
+          }
+        }
+      ],
+      "candidate": {
+        "status": "FEASIBLE",
+        "selected_ticks": [
+          1160,
+          5480
+        ],
+        "objective_ratio": "1/18000",
+        "considered_contact_ticks": 11
+      },
+      "candidate_matches_oracle": true,
+      "old_joint_false_refusal": true,
+      "old_joint_false_feasible": false
+    },
+    "oracle": {
+      "feasible_pairs": [
+        [
+          1157,
+          5477
+        ],
+        [
+          1157,
+          5478
+        ],
+        [
+          1157,
+          5479
+        ],
+        [
+          1158,
+          5478
+        ],
+        [
+          1158,
+          5479
+        ],
+        [
+          1158,
+          5480
+        ],
+        [
+          1159,
+          5479
+        ],
+        [
+          1159,
+          5480
+        ],
+        [
+          1159,
+          5481
+        ],
+        [
+          1160,
+          5480
+        ],
+        [
+          1160,
+          5481
+        ],
+        [
+          1160,
+          5482
+        ],
+        [
+          1161,
+          5481
+        ],
+        [
+          1161,
+          5482
+        ],
+        [
+          1161,
+          5483
+        ],
+        [
+          1162,
+          5482
+        ],
+        [
+          1162,
+          5483
+        ],
+        [
+          1162,
+          5484
+        ],
+        [
+          1163,
+          5483
+        ],
+        [
+          1163,
+          5484
+        ],
+        [
+          1164,
+          5484
+        ]
+      ],
+      "feasible_pair_count": 21,
+      "absolute_a_ticks": [
+        1157,
+        1158,
+        1159,
+        1160,
+        1161,
+        1162,
+        1163,
+        1164,
+        1165,
+        1166,
+        1167
+      ],
+      "absolute_b_ticks": [
+        5474,
+        5475,
+        5476,
+        5477,
+        5478,
+        5479,
+        5480,
+        5481,
+        5482,
+        5483,
+        5484
+      ],
+      "pairs_checked": 121,
+      "selected_ticks": [
+        1160,
+        5480
+      ],
+      "objective_ratio": "1/18000"
+    }
+  },
+  {
+    "case": {
+      "id": "counterexample_two_absolute_windows_gap_failure",
+      "family": "targeted",
+      "dt_ratio": "1/240",
+      "mechanical_contact_interval_s": [
+        "9/50",
+        "11/50"
+      ],
+      "mechanical_release_interval_s": [
+        "1/10",
+        "7/50"
+      ],
+      "public_delay_ticks": 0,
+      "tolerance_s": ".025",
+      "contact_request_s": "5",
+      "duration_request_s": "18",
+      "min_skill_gap_s": "17",
+      "earliest_contact_dispatch_s": "4"
+    },
+    "result": {
+      "case_id": "counterexample_two_absolute_windows_gap_failure",
+      "oracle_feasible": false,
+      "oracle_feasible_pair_count": 0,
+      "oracle_selected_ticks": null,
+      "methods": [
+        {
+          "method": "nominal_prior",
+          "status": "SCHEDULED",
+          "selected_ticks": [
+            1158,
+            5499
+          ],
+          "diagnostic_fallback_ticks": null,
+          "robust_checks": {
+            "contact": false,
+            "release": false,
+            "duration_gap": false,
+            "min_skill": true,
+            "joint": false
+          },
+          "robust_joint_pass": false,
+          "joint_interval_certificate": null,
+          "exception": null
+        },
+        {
+          "method": "public_delay_prior",
+          "status": "SCHEDULED",
+          "selected_ticks": [
+            1158,
+            5499
+          ],
+          "diagnostic_fallback_ticks": null,
+          "robust_checks": {
+            "contact": false,
+            "release": false,
+            "duration_gap": false,
+            "min_skill": true,
+            "joint": false
+          },
+          "robust_joint_pass": false,
+          "joint_interval_certificate": null,
+          "exception": null
+        },
+        {
+          "method": "calibrated_interval",
+          "status": "SCHEDULED",
+          "selected_ticks": [
+            1152,
+            5492
+          ],
+          "diagnostic_fallback_ticks": null,
+          "robust_checks": {
+            "contact": true,
+            "release": true,
+            "duration_gap": false,
+            "min_skill": true,
+            "joint": false
+          },
+          "robust_joint_pass": false,
+          "joint_interval_certificate": null,
+          "exception": null
+        },
+        {
+          "method": "joint_interval_scheduler",
+          "status": "REFUSED_WITH_DIAGNOSTIC_FALLBACK",
+          "selected_ticks": null,
+          "diagnostic_fallback_ticks": [
+            960,
+            5040
+          ],
+          "robust_checks": {
+            "contact": false,
+            "release": false,
+            "duration_gap": false,
+            "min_skill": true,
+            "joint": false
+          },
+          "robust_joint_pass": false,
+          "joint_interval_certificate": {
+            "contact_dispatch_bounds_s": [
+              4.795,
+              4.805000000000001
+            ],
+            "release_dispatch_bounds_s": [
+              22.875,
+              22.884999999999998
+            ],
+            "command_difference_bounds_s": [
+              18.095000000000002,
+              18.064999999999998
+            ],
+            "min_source_stage_gap_s": 17.0,
+            "grid_feasible_candidates": 0,
+            "refused": true,
+            "interval_scope": "FOUR_CALIBRATION_EMPIRICAL_ENVELOPE; NOT_TRUE_SUPPORT_OR_CONFIDENCE_GUARANTEE"
+          },
+          "exception": null
+        }
+      ],
+      "candidate": {
+        "status": "REFUSED",
+        "selected_ticks": null,
+        "objective_ratio": null,
+        "considered_contact_ticks": 3
+      },
+      "candidate_matches_oracle": true,
+      "old_joint_false_refusal": false,
+      "old_joint_false_feasible": false
+    },
+    "oracle": {
+      "feasible_pairs": [],
+      "feasible_pair_count": 0,
+      "absolute_a_ticks": [
+        1151,
+        1152,
+        1153
+      ],
+      "absolute_b_ticks": [
+        5490,
+        5491,
+        5492
+      ],
+      "pairs_checked": 9,
+      "selected_ticks": null,
+      "objective_ratio": null
+    }
+  },
+  {
+    "case": {
+      "id": "counterexample_grid_quantization",
+      "family": "targeted",
+      "dt_ratio": "1/40",
+      "mechanical_contact_interval_s": [
+        "799/4000",
+        "801/4000"
+      ],
+      "mechanical_release_interval_s": [
+        "399/4000",
+        "401/4000"
+      ],
+      "public_delay_ticks": 0,
+      "tolerance_s": ".001",
+      "contact_request_s": "5.003",
+      "duration_request_s": "18.003",
+      "min_skill_gap_s": "17",
+      "earliest_contact_dispatch_s": "4"
+    },
+    "result": {
+      "case_id": "counterexample_grid_quantization",
+      "oracle_feasible": false,
+      "oracle_feasible_pair_count": 0,
+      "oracle_selected_ticks": null,
+      "methods": [
+        {
+          "method": "nominal_prior",
+          "status": "SCHEDULED",
+          "selected_ticks": [
+            194,
+            917
+          ],
+          "diagnostic_fallback_ticks": null,
+          "robust_checks": {
+            "contact": false,
+            "release": false,
+            "duration_gap": false,
+            "min_skill": true,
+            "joint": false
+          },
+          "robust_joint_pass": false,
+          "joint_interval_certificate": null,
+          "exception": null
+        },
+        {
+          "method": "public_delay_prior",
+          "status": "SCHEDULED",
+          "selected_ticks": [
+            194,
+            917
+          ],
+          "diagnostic_fallback_ticks": null,
+          "robust_checks": {
+            "contact": false,
+            "release": false,
+            "duration_gap": false,
+            "min_skill": true,
+            "joint": false
+          },
+          "robust_joint_pass": false,
+          "joint_interval_certificate": null,
+          "exception": null
+        },
+        {
+          "method": "calibrated_interval",
+          "status": "SCHEDULED",
+          "selected_ticks": [
+            193,
+            917
+          ],
+          "diagnostic_fallback_ticks": null,
+          "robust_checks": {
+            "contact": false,
+            "release": false,
+            "duration_gap": false,
+            "min_skill": true,
+            "joint": false
+          },
+          "robust_joint_pass": false,
+          "joint_interval_certificate": null,
+          "exception": null
+        },
+        {
+          "method": "joint_interval_scheduler",
+          "status": "REFUSED_WITH_DIAGNOSTIC_FALLBACK",
+          "selected_ticks": null,
+          "diagnostic_fallback_ticks": [
+            160,
+            840
+          ],
+          "robust_checks": {
+            "contact": false,
+            "release": false,
+            "duration_gap": false,
+            "min_skill": true,
+            "joint": false
+          },
+          "robust_joint_pass": false,
+          "joint_interval_certificate": {
+            "contact_dispatch_bounds_s": [
+              4.80225,
+              4.803750000000001
+            ],
+            "release_dispatch_bounds_s": [
+              22.90525,
+              22.906750000000002
+            ],
+            "command_difference_bounds_s": [
+              18.1025,
+              18.1035
+            ],
+            "min_source_stage_gap_s": 17.0,
+            "grid_feasible_candidates": 0,
+            "refused": true,
+            "interval_scope": "FOUR_CALIBRATION_EMPIRICAL_ENVELOPE; NOT_TRUE_SUPPORT_OR_CONFIDENCE_GUARANTEE"
+          },
+          "exception": null
+        }
+      ],
+      "candidate": {
+        "status": "REFUSED",
+        "selected_ticks": null,
+        "objective_ratio": null,
+        "considered_contact_ticks": 0
+      },
+      "candidate_matches_oracle": true,
+      "old_joint_false_refusal": false,
+      "old_joint_false_feasible": false
+    },
+    "oracle": {
+      "feasible_pairs": [],
+      "feasible_pair_count": 0,
+      "absolute_a_ticks": [],
+      "absolute_b_ticks": [],
+      "pairs_checked": 0,
+      "selected_ticks": null,
+      "objective_ratio": null
+    }
+  },
+  {
+    "case": {
+      "id": "counterexample_wide_calibration_refusal",
+      "family": "targeted",
+      "dt_ratio": "1/240",
+      "mechanical_contact_interval_s": [
+        "17/100",
+        "23/100"
+      ],
+      "mechanical_release_interval_s": [
+        "7/100",
+        "13/100"
+      ],
+      "public_delay_ticks": 0,
+      "tolerance_s": ".025",
+      "contact_request_s": "5",
+      "duration_request_s": "18",
+      "min_skill_gap_s": "17",
+      "earliest_contact_dispatch_s": "4"
+    },
+    "result": {
+      "case_id": "counterexample_wide_calibration_refusal",
+      "oracle_feasible": false,
+      "oracle_feasible_pair_count": 0,
+      "oracle_selected_ticks": null,
+      "methods": [
+        {
+          "method": "nominal_prior",
+          "status": "SCHEDULED",
+          "selected_ticks": [
+            1158,
+            5499
+          ],
+          "diagnostic_fallback_ticks": null,
+          "robust_checks": {
+            "contact": false,
+            "release": false,
+            "duration_gap": false,
+            "min_skill": true,
+            "joint": false
+          },
+          "robust_joint_pass": false,
+          "joint_interval_certificate": null,
+          "exception": null
+        },
+        {
+          "method": "public_delay_prior",
+          "status": "SCHEDULED",
+          "selected_ticks": [
+            1158,
+            5499
+          ],
+          "diagnostic_fallback_ticks": null,
+          "robust_checks": {
+            "contact": false,
+            "release": false,
+            "duration_gap": false,
+            "min_skill": true,
+            "joint": false
+          },
+          "robust_joint_pass": false,
+          "joint_interval_certificate": null,
+          "exception": null
+        },
+        {
+          "method": "calibrated_interval",
+          "status": "SCHEDULED",
+          "selected_ticks": [
+            1152,
+            5496
+          ],
+          "diagnostic_fallback_ticks": null,
+          "robust_checks": {
+            "contact": false,
+            "release": false,
+            "duration_gap": false,
+            "min_skill": true,
+            "joint": false
+          },
+          "robust_joint_pass": false,
+          "joint_interval_certificate": null,
+          "exception": null
+        },
+        {
+          "method": "joint_interval_scheduler",
+          "status": "REFUSED_WITH_DIAGNOSTIC_FALLBACK",
+          "selected_ticks": null,
+          "diagnostic_fallback_ticks": [
+            960,
+            5040
+          ],
+          "robust_checks": {
+            "contact": false,
+            "release": false,
+            "duration_gap": false,
+            "min_skill": true,
+            "joint": false
+          },
+          "robust_joint_pass": false,
+          "joint_interval_certificate": {
+            "contact_dispatch_bounds_s": [
+              4.805,
+              4.795
+            ],
+            "release_dispatch_bounds_s": [
+              22.905,
+              22.895
+            ],
+            "command_difference_bounds_s": [
+              18.135,
+              18.064999999999998
+            ],
+            "min_source_stage_gap_s": 17.0,
+            "grid_feasible_candidates": 0,
+            "refused": true,
+            "interval_scope": "FOUR_CALIBRATION_EMPIRICAL_ENVELOPE; NOT_TRUE_SUPPORT_OR_CONFIDENCE_GUARANTEE"
+          },
+          "exception": null
+        }
+      ],
+      "candidate": {
+        "status": "REFUSED",
+        "selected_ticks": null,
+        "objective_ratio": null,
+        "considered_contact_ticks": 0
+      },
+      "candidate_matches_oracle": true,
+      "old_joint_false_refusal": false,
+      "old_joint_false_feasible": false
+    },
+    "oracle": {
+      "feasible_pairs": [],
+      "feasible_pair_count": 0,
+      "absolute_a_ticks": [],
+      "absolute_b_ticks": [],
+      "pairs_checked": 0,
+      "selected_ticks": null,
+      "objective_ratio": null
+    }
+  }
+]

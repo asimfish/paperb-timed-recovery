@@ -1,0 +1,18 @@
+{
+  "schema": "paperb-pure-cpu-execution-release-v1",
+  "files": {
+    "candidate_solver.py": "0dd7a0b422f183008d90d65ef97f9e93f244862989f8ef3f6ae575b9c7c4d3f0",
+    "independent_oracle.py": "02ea6cb09e32bb61e66bf32cbe9067b5de8ab2dc70dc974939cbfd1bbed61d1c",
+    "roster.py": "60ea77779138bace82f0ff396954d4c50b8dd254dfc8b467ab7019a26ee28536",
+    "run_validation.py": "6f4cb9b6bfc9aa1c7a01ae9158fe7dcb42dbd717bd3c01f04d6f8e39a937625c",
+    "test_cpu_protocol.py": "f5ef49f82d18c1e48dc712d50e0a3750098caf4890c4432d8d44a9ada532086b",
+    "freeze_sources.py": "7d2ceea543df00c1666c218afe78f5555260f64baacc154add80fdd385df361b",
+    "frozen_native_scheduler.py": "deb23cb831b4e659bc8905a3d305d9073936779f970e5be88b120f68591eaa85",
+    "protocol.json": "03970752bcbf94dd996eb5699fed6d45aca9267a2f77f04743af0e37c011e5fc",
+    "CPU_PREFLIGHT.json": "b20e4d0dfac865359e5819765bbe5f6dc8da2d6c1e0781885cb1f5735c1e542b"
+  },
+  "scope": "DIGITAL_CONTRACT_MATH_ONLY",
+  "native_episode_count": 0,
+  "physics_sample_count": 0,
+  "frozen_before_full_matrix": true
+}

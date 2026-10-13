@@ -1,0 +1,72 @@
+{
+  "schema": "paperb-third-party-integer-scheduling-audit-v2",
+  "status": "PASS_COMPONENT_EXACT_INTEGER_RECOMPUTATION",
+  "created_at_utc": "2026-10-13T12:38:07.018876+00:00",
+  "source_root": "/data/liyufeng/paperb_joint_scheduler_validation_20261013_v1",
+  "conditions": 7172,
+  "independently_enumerated_pair_checks": 299040,
+  "families": {
+    "grid": 6912,
+    "synthetic_draw": 256,
+    "targeted": 4
+  },
+  "feasible_conditions": 2606,
+  "refused_conditions": 4566,
+  "frozen_method_comparisons": 28688,
+  "candidate_denominator": 7172,
+  "candidate_exact_matches": 7172,
+  "old_joint_false_refusals": 61,
+  "old_joint_false_feasible": 0,
+  "method_summary": {
+    "nominal_prior": {
+      "denominator": 7172,
+      "SCHEDULED": 6197,
+      "robust_joint_pass": 409,
+      "contact_and_release_pass_gap_fail": 324,
+      "EXCEPTION_RETAINED_AS_REJECTION": 975
+    },
+    "public_delay_prior": {
+      "denominator": 7172,
+      "SCHEDULED": 6191,
+      "robust_joint_pass": 788,
+      "contact_and_release_pass_gap_fail": 647,
+      "EXCEPTION_RETAINED_AS_REJECTION": 981
+    },
+    "calibrated_interval": {
+      "denominator": 7172,
+      "SCHEDULED": 5974,
+      "robust_joint_pass": 2375,
+      "contact_and_release_pass_gap_fail": 994,
+      "EXCEPTION_RETAINED_AS_REJECTION": 1198
+    },
+    "joint_interval_scheduler": {
+      "denominator": 7172,
+      "SCHEDULED": 2545,
+      "robust_joint_pass": 2545,
+      "contact_and_release_pass_gap_fail": 0,
+      "EXCEPTION_RETAINED_AS_REJECTION": 1198,
+      "REFUSED_WITH_DIAGNOSTIC_FALLBACK": 3429
+    }
+  },
+  "native_episode_count": 0,
+  "physics_sample_count": 0,
+  "new_policy_weights": 0,
+  "chemistry_evidence": false,
+  "statistical_coverage_guarantee": false,
+  "oracle": "Independent exact common-denominator integer enumeration of all effect corners and minimum skill differences; minimum exact squared objective with lexicographic tie break",
+  "producer_implementation_or_oracle_imported": false,
+  "source_execution_release_sha256": "3bfd54dbb80446071c5a05697952d449081565c4e5618efac08c02e1822dc94e",
+  "source_artifact_sha256": {
+    "ROSTER.jsonl": "34f7cdba33f4bba66221c109bdbd0f9c9c86f7580ab88538d13111368347a54a",
+    "results.jsonl": "dd645ea22ba17c8ac54b4f546034c5bdafdbb3f7f27e3dff5cb00e7b02489550",
+    "oracle_pairs.jsonl": "d7c02d5d05b93ccb78ff578989ebcec403ff2e2e8514986159c0127ec89aca29",
+    "SUMMARY.json": "09f04168c41a20c897f477d5ba48f5a015f1d7682c55fe618bbcb8e76e0e5a95",
+    "protocol.json": "03970752bcbf94dd996eb5699fed6d45aca9267a2f77f04743af0e37c011e5fc"
+  },
+  "independent_rows_sha256": "7a4af3b46b09dd7f30e532a5dc9f985426f0b2392b69349243ee6d110c07a1f2",
+  "auditor_source_sha256": {
+    "audit_numeric_matrix_v2.py": "203ede71ba04329150f8b7762741fbed6772aa7bc962eef8e6a0f6c3a8b325d0",
+    "integer_grid_oracle_full.py": "c0ffa2e862f6a78e247550ef202ecdbf4c0279fdbe8d21ccee32ff1a3d73332d",
+    "test_integer_grid_oracle.py": "6c4366489f8c49193457710c28301013c462df7e920ba70d9bf4b4942146f74e"
+  }
+}

@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="815" viewBox="0 0 1200 815">
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8" fill="#405168"/></marker></defs>
+<rect width="1200" height="815" fill="white"/>
+<text x="35" y="42" fill="#233147" font-family="Arial,Helvetica,sans-serif" font-size="27" font-weight="600" text-anchor="start">Physical-event contracts → verified experience → a shared policy</text>
+<text x="35" y="72" fill="#637089" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="400" text-anchor="start">Independent event scoring is operational; policy learning is a proposed next stage.</text>
+<rect x="25" y="95" width="1150" height="285" rx="8" fill="#ffffff" stroke="#c9d1df"/>
+<text x="45" y="125" fill="#244d7b" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="600" text-anchor="start">A   COUPLED TIME CONTRACTS</text>
+<text x="45" y="155" fill="#233147" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="600" text-anchor="start">Public cue</text>
+<text x="45" y="179" fill="#637089" font-family="Arial,Helvetica,sans-serif" font-size="15" font-weight="400" text-anchor="start">Original anchor c</text>
+<rect x="250" y="141" width="205" height="63" rx="8" fill="#edf3fa" stroke="#a7bad1"/>
+<text x="352" y="166" fill="#233147" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="600" text-anchor="middle">Dispatch</text>
+<text x="352" y="190" fill="#526a83" font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="400" text-anchor="middle">legal actor information</text>
+<rect x="495" y="141" width="205" height="63" rx="8" fill="#edf3fa" stroke="#a7bad1"/>
+<text x="597" y="166" fill="#233147" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="600" text-anchor="middle">FIFO + mechanics</text>
+<text x="597" y="190" fill="#526a83" font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="400" text-anchor="middle">measured latency envelope</text>
+<rect x="800" y="141" width="205" height="63" rx="8" fill="#edf3fa" stroke="#a7bad1"/>
+<text x="902" y="166" fill="#233147" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="600" text-anchor="middle">Physical event</text>
+<text x="902" y="190" fill="#526a83" font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="400" text-anchor="middle">raw sensor onset interval</text>
+<path d="M183,173 L238,173" fill="none" stroke="#405168" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M457,173 L481,173" fill="none" stroke="#405168" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M704,173 L786,173" fill="none" stroke="#405168" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="1030" y="165" fill="#8a5a27" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="600" text-anchor="start">Verifier</text>
+<text x="1030" y="190" fill="#637089" font-family="Arial,Helvetica,sans-serif" font-size="15" font-weight="400" text-anchor="start">score only</text>
+<path d="M1008,173 L1023,173" fill="none" stroke="#8a5a27" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M150,268 L1055,268" fill="none" stroke="#718096" stroke-width="1.5" marker-end="url(#arrow)"/>
+<path d="M170,254 L170,282" fill="none" stroke="#405168" stroke-width="2"/>
+<text x="170" y="305" fill="#233147" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="400" text-anchor="middle">c</text>
+<rect x="486" y="249" width="28" height="38" rx="0" fill="#d4e9f7" stroke="#4682af"/>
+<text x="500" y="306" fill="#233147" font-family="Arial,Helvetica,sans-serif" font-size="16" font-weight="400" text-anchor="middle">contact</text>
+<rect x="966" y="249" width="28" height="38" rx="0" fill="#d4e9f7" stroke="#4682af"/>
+<text x="980" y="306" fill="#233147" font-family="Arial,Helvetica,sans-serif" font-size="16" font-weight="400" text-anchor="middle">stable release</text>
+<path d="M170,231 L499,231" fill="none" stroke="#4682af" stroke-width="2"/>
+<text x="335" y="223" fill="#24567d" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="600" text-anchor="middle">D ± ε</text>
+<path d="M500,330 L980,330" fill="none" stroke="#4682af" stroke-width="2"/>
+<text x="740" y="353" fill="#24567d" font-family="Arial,Helvetica,sans-serif" font-size="16" font-weight="600" text-anchor="middle">H ± ε: original event-to-event gap</text>
+<text x="45" y="357" fill="#637089" font-family="Arial,Helvetica,sans-serif" font-size="15" font-weight="400" text-anchor="start">Keep onset and confirmation separate.</text>
+<text x="650" y="231" fill="#8a5a27" font-family="Arial,Helvetica,sans-serif" font-size="16" font-weight="400" text-anchor="start">Both absolute windows + gap + mechanics</text>
+<rect x="25" y="399" width="1150" height="176" rx="8" fill="#ffffff" stroke="#c9d1df"/>
+<text x="45" y="430" fill="#244d7b" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="600" text-anchor="start">B   TASK GRAPH AND RESOURCE EXPANSION</text>
+<text x="165" y="460" fill="#233147" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="600" text-anchor="middle">Parallel</text>
+<rect x="88" y="484" width="44" height="42" rx="9" fill="#eaf2fb" stroke="#9db1cb"/>
+<text x="110" y="511" fill="#233147" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="600" text-anchor="middle">A</text>
+<rect x="198" y="484" width="44" height="42" rx="9" fill="#f6e9d8" stroke="#9db1cb"/>
+<text x="220" y="511" fill="#233147" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="600" text-anchor="middle">B</text>
+<text x="455" y="460" fill="#233147" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="600" text-anchor="middle">A before B</text>
+<rect x="378" y="484" width="44" height="42" rx="9" fill="#eaf2fb" stroke="#9db1cb"/>
+<text x="400" y="511" fill="#233147" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="600" text-anchor="middle">A</text>
+<rect x="488" y="484" width="44" height="42" rx="9" fill="#f6e9d8" stroke="#9db1cb"/>
+<text x="510" y="511" fill="#233147" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="600" text-anchor="middle">B</text>
+<path d="M427,505 L481,505" fill="none" stroke="#405168" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="745" y="460" fill="#233147" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="600" text-anchor="middle">B before A</text>
+<rect x="668" y="484" width="44" height="42" rx="9" fill="#eaf2fb" stroke="#9db1cb"/>
+<text x="690" y="511" fill="#233147" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="600" text-anchor="middle">A</text>
+<rect x="778" y="484" width="44" height="42" rx="9" fill="#f6e9d8" stroke="#9db1cb"/>
+<text x="800" y="511" fill="#233147" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="600" text-anchor="middle">B</text>
+<path d="M773,505 L719,505" fill="none" stroke="#405168" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="1035" y="460" fill="#233147" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="600" text-anchor="middle">A while B active</text>
+<rect x="958" y="484" width="44" height="42" rx="9" fill="#eaf2fb" stroke="#9db1cb"/>
+<text x="980" y="511" fill="#233147" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="600" text-anchor="middle">A</text>
+<rect x="1068" y="484" width="44" height="42" rx="9" fill="#f6e9d8" stroke="#9db1cb"/>
+<text x="1090" y="511" fill="#233147" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="600" text-anchor="middle">B</text>
+<path d="M980,534 L1090,534" fill="none" stroke="#a17742" stroke-width="2" stroke-dasharray="6 4"/>
+<text x="1035" y="555" fill="#8a5a27" font-family="Arial,Helvetica,sans-serif" font-size="14" font-weight="400" text-anchor="middle">sampled B maintenance</text>
+<text x="45" y="562" fill="#637089" font-family="Arial,Helvetica,sans-serif" font-size="15" font-weight="400" text-anchor="start">Same controls and sensors. Serial command bus and shared relay are explicit resources.</text>
+<rect x="25" y="595" width="1150" height="181" rx="8" fill="#ffffff" stroke="#c9d1df"/>
+<text x="45" y="626" fill="#244d7b" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="600" text-anchor="start">C   PROPOSED EXPERIENCE ABSORPTION</text>
+<rect x="45" y="645" width="270" height="68" rx="8" fill="#edf3fa" stroke="#b9c5d4"/>
+<text x="180.0" y="672" fill="#233147" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="600" text-anchor="middle">Agent + task compiler</text>
+<text x="180.0" y="697" fill="#637089" font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="400" text-anchor="middle">choose, diagnose, propose repair</text>
+<path d="M318,680 L337,680" fill="none" stroke="#405168" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="345" y="645" width="280" height="68" rx="8" fill="#edf3fa" stroke="#b9c5d4"/>
+<text x="485.0" y="672" fill="#233147" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="600" text-anchor="middle">Independent verification</text>
+<text x="485.0" y="697" fill="#637089" font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="400" text-anchor="middle">success / failure / recovery vector</text>
+<path d="M628,680 L647,680" fill="none" stroke="#405168" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="655" y="645" width="240" height="68" rx="8" fill="#edf3fa" stroke="#b9c5d4"/>
+<text x="775.0" y="672" fill="#233147" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="600" text-anchor="middle">Admitted replay</text>
+<text x="775.0" y="697" fill="#637089" font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="400" text-anchor="middle">original references retained</text>
+<path d="M898,680 L917,680" fill="none" stroke="#405168" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="925" y="645" width="225" height="68" rx="8" fill="#f8f6f1" stroke="#b9c5d4"/>
+<text x="1037.5" y="672" fill="#233147" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="600" text-anchor="middle">Shared policy</text>
+<text x="1037.5" y="697" fill="#637089" font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="400" text-anchor="middle">DP; relabeling; RL as ablations</text>
+<path d="M1040,730 L1040,751" fill="none" stroke="#405168" stroke-width="2" stroke-dasharray="6 4"/>
+<path d="M1040,751 L177,751" fill="none" stroke="#405168" stroke-width="2" stroke-dasharray="6 4"/>
+<path d="M177,751 L177,720" fill="none" stroke="#405168" stroke-width="2" marker-end="url(#arrow)" stroke-dasharray="6 4"/>
+<text x="570" y="742" fill="#637089" font-family="Arial,Helvetica,sans-serif" font-size="14" font-weight="400" text-anchor="middle">Training/admission labels only; deployment feedback → recollection / calibration</text>
+<text x="35" y="803" fill="#637089" font-family="Arial,Helvetica,sans-serif" font-size="14" font-weight="400" text-anchor="start">Task graphs shown are mechanical-fixture contracts. Chemical endpoints, wall-clock continuity and new policy weights remain open.</text>
+</svg>

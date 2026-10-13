@@ -1,0 +1,159 @@
+{
+  "schema": "native-A-progress-snapshot-v1",
+  "snapshot_scope": "EXECUTION_PROGRESS_ONLY; NOT_CALIBRATION_ADMISSION_OR_TEST_RESULT",
+  "planned_calibration": 4,
+  "planned_test": 16,
+  "cases": [
+    {
+      "case_id": "cal_m080_d00",
+      "role": "calibration",
+      "execution_status": "COMPLETE",
+      "terminal_sha256": "e2ad1b959d20fef32c1c193d49a30b7ba4bf5a5f555741d9e5725b0a6265a677",
+      "test_admitted": false
+    },
+    {
+      "case_id": "cal_m080_d12",
+      "role": "calibration",
+      "execution_status": "NOT_STARTED",
+      "terminal_sha256": null,
+      "test_admitted": false
+    },
+    {
+      "case_id": "cal_m120_d00",
+      "role": "calibration",
+      "execution_status": "NOT_STARTED",
+      "terminal_sha256": null,
+      "test_admitted": false
+    },
+    {
+      "case_id": "cal_m120_d12",
+      "role": "calibration",
+      "execution_status": "NOT_STARTED",
+      "terminal_sha256": null,
+      "test_admitted": false
+    },
+    {
+      "case_id": "test_m090_d00_nominal_prior",
+      "role": "test",
+      "execution_status": "NOT_STARTED",
+      "terminal_sha256": null,
+      "test_admitted": false
+    },
+    {
+      "case_id": "test_m090_d00_public_delay_prior",
+      "role": "test",
+      "execution_status": "NOT_STARTED",
+      "terminal_sha256": null,
+      "test_admitted": false
+    },
+    {
+      "case_id": "test_m090_d00_calibrated_interval",
+      "role": "test",
+      "execution_status": "NOT_STARTED",
+      "terminal_sha256": null,
+      "test_admitted": false
+    },
+    {
+      "case_id": "test_m090_d00_joint_interval_scheduler",
+      "role": "test",
+      "execution_status": "NOT_STARTED",
+      "terminal_sha256": null,
+      "test_admitted": false
+    },
+    {
+      "case_id": "test_m090_d12_nominal_prior",
+      "role": "test",
+      "execution_status": "NOT_STARTED",
+      "terminal_sha256": null,
+      "test_admitted": false
+    },
+    {
+      "case_id": "test_m090_d12_public_delay_prior",
+      "role": "test",
+      "execution_status": "NOT_STARTED",
+      "terminal_sha256": null,
+      "test_admitted": false
+    },
+    {
+      "case_id": "test_m090_d12_calibrated_interval",
+      "role": "test",
+      "execution_status": "NOT_STARTED",
+      "terminal_sha256": null,
+      "test_admitted": false
+    },
+    {
+      "case_id": "test_m090_d12_joint_interval_scheduler",
+      "role": "test",
+      "execution_status": "NOT_STARTED",
+      "terminal_sha256": null,
+      "test_admitted": false
+    },
+    {
+      "case_id": "test_m110_d00_nominal_prior",
+      "role": "test",
+      "execution_status": "NOT_STARTED",
+      "terminal_sha256": null,
+      "test_admitted": false
+    },
+    {
+      "case_id": "test_m110_d00_public_delay_prior",
+      "role": "test",
+      "execution_status": "NOT_STARTED",
+      "terminal_sha256": null,
+      "test_admitted": false
+    },
+    {
+      "case_id": "test_m110_d00_calibrated_interval",
+      "role": "test",
+      "execution_status": "NOT_STARTED",
+      "terminal_sha256": null,
+      "test_admitted": false
+    },
+    {
+      "case_id": "test_m110_d00_joint_interval_scheduler",
+      "role": "test",
+      "execution_status": "NOT_STARTED",
+      "terminal_sha256": null,
+      "test_admitted": false
+    },
+    {
+      "case_id": "test_m110_d12_nominal_prior",
+      "role": "test",
+      "execution_status": "NOT_STARTED",
+      "terminal_sha256": null,
+      "test_admitted": false
+    },
+    {
+      "case_id": "test_m110_d12_public_delay_prior",
+      "role": "test",
+      "execution_status": "NOT_STARTED",
+      "terminal_sha256": null,
+      "test_admitted": false
+    },
+    {
+      "case_id": "test_m110_d12_calibrated_interval",
+      "role": "test",
+      "execution_status": "NOT_STARTED",
+      "terminal_sha256": null,
+      "test_admitted": false
+    },
+    {
+      "case_id": "test_m110_d12_joint_interval_scheduler",
+      "role": "test",
+      "execution_status": "NOT_STARTED",
+      "terminal_sha256": null,
+      "test_admitted": false
+    }
+  ],
+  "completed_calibration": 1,
+  "completed_test": 0,
+  "minimum_free_MiB": 24576,
+  "threshold_lowered": false,
+  "foreign_processes_preempted": false,
+  "execution_release_sha256": "cf5cc59c9b9e0b215f2f5db408052ccb9cac8912c7c89ea8adc74e9d4c8b2efa",
+  "source_frozen_files": 118,
+  "calibration_audit": "WAITING_FOR_ALL_FOUR_CALIBRATIONS",
+  "new_policy_weights": 0,
+  "chemical_hardware_credit": 0,
+  "initial_resource_refusals": 1
+}

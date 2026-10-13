@@ -1,0 +1,37 @@
+{
+  "schema": "paperb-third-party-native-graph-audit-v1",
+  "status": "PASS_COMPONENT_RAW_REPLAY_AND_CONTRACTS",
+  "main_episode_count": 12,
+  "sentinel_episode_count": 2,
+  "main_task_graph_instances": 4,
+  "controlled_native_samples": 14014,
+  "original_reference_integrations": 1,
+  "original_reference_samples": 1001,
+  "total_existing_native_samples_including_reference": 15015,
+  "arm_main_counts": {
+    "legacy_order_scheduler": {
+      "TRUE": 0,
+      "FALSE": 4,
+      "UNKNOWN": 0
+    },
+    "graph_event_scheduler": {
+      "TRUE": 1,
+      "FALSE": 3,
+      "UNKNOWN": 0
+    },
+    "reference_guarded_graph_scheduler": {
+      "TRUE": 4,
+      "FALSE": 0,
+      "UNKNOWN": 0
+    }
+  },
+  "component_scope": "Contact-free two-rotor known noiseless physics, fixed graph programs and rule controllers; no learning/robot/chemistry generalization claim",
+  "real_robot_runs": 0,
+  "chemistry_claims": 0,
+  "new_policy_weights": 0,
+  "full_audit_file": "TASK_GRAPH_AUDIT.json",
+  "full_audit_sha256": "2808d2ad19c6505267a9f5f3caf89a61fdfb0d9a17af5455251d0cce763a46cc",
+  "source_execution_release_sha256": "23a1070bd1d9313217e1b6baa62f98c3e07aeea4cc1e8996bcbc37a666fcee97",
+  "raw_replay_max_absolute_error": 0.0,
+  "new_experiment_rollouts_created_by_auditor": 0
+}

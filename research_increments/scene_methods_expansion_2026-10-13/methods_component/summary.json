@@ -1,0 +1,89 @@
+{
+  "schema": "paperb-cpu-contract-public-summary-v1",
+  "evidence_class": "PURE_CPU_SYNTHETIC_INTERVAL_SCHEDULING",
+  "conditional_validation_status": "PASS_COMPONENT_WITH_INDEPENDENT_EXACT_INTEGER_AUDIT",
+  "conditions": 7172,
+  "condition_breakdown": {
+    "full_grid": 6912,
+    "seeded_synthetic_draws": 256,
+    "targeted": 4
+  },
+  "frozen_sources_sha256": "3bfd54dbb80446071c5a05697952d449081565c4e5618efac08c02e1822dc94e",
+  "synthetic_sampling_seed": 391704,
+  "physical_seed": null,
+  "total_old_method_comparisons": 28688,
+  "enumerated_grid_pairs": 299040,
+  "oracle_feasible_conditions": 2606,
+  "oracle_infeasible_conditions": 4566,
+  "candidate_exact_oracle_matches": 7172,
+  "old_joint_false_refusals": 61,
+  "old_joint_false_feasible": 0,
+  "method_rows": [
+    {
+      "method": "nominal_prior",
+      "denominator": 7172,
+      "scheduled": 6197,
+      "robust_contract_pass": 409,
+      "explicit_refusal": 0,
+      "retained_exception": 975,
+      "two_absolute_pass_gap_fail": 324
+    },
+    {
+      "method": "public_delay_prior",
+      "denominator": 7172,
+      "scheduled": 6191,
+      "robust_contract_pass": 788,
+      "explicit_refusal": 0,
+      "retained_exception": 981,
+      "two_absolute_pass_gap_fail": 647
+    },
+    {
+      "method": "calibrated_interval",
+      "denominator": 7172,
+      "scheduled": 5974,
+      "robust_contract_pass": 2375,
+      "explicit_refusal": 0,
+      "retained_exception": 1198,
+      "two_absolute_pass_gap_fail": 994
+    },
+    {
+      "method": "joint_interval_scheduler",
+      "denominator": 7172,
+      "scheduled": 2545,
+      "robust_contract_pass": 2545,
+      "explicit_refusal": 3429,
+      "retained_exception": 1198,
+      "two_absolute_pass_gap_fail": 0
+    },
+    {
+      "method": "candidate_joint_solver",
+      "denominator": 7172,
+      "scheduled": 2606,
+      "robust_contract_pass": 2606,
+      "explicit_refusal": 4566,
+      "retained_exception": 0,
+      "two_absolute_pass_gap_fail": 0
+    }
+  ],
+  "uncertainty_scope": "CONDITIONAL_EMPIRICAL_OR_SYNTHETIC_INTERVAL_BOX; NO TRUE SUPPORT_OR_CONFIDENCE GUARANTEE",
+  "native_episode_count": 0,
+  "new_physics_samples": 0,
+  "learning_updates": 0,
+  "native_matrix_executed": false,
+  "independent_audit": {
+    "status": "PASS_COMPONENT_EXACT_INTEGER_RECOMPUTATION",
+    "public_receipt_sha256": "83b9002e5864efa89316184a61e2d06fe7dc51bd0ae21074ccab7136ca02ea45",
+    "full_receipt_sha256": "db1c9eca78b7163dad90db57e220bd048fbcdff28a8943ddaa8cd5ee4d4cf818",
+    "independent_rows_sha256": "7a4af3b46b09dd7f30e532a5dc9f985426f0b2392b69349243ee6d110c07a1f2",
+    "producer_implementation_or_oracle_imported": false,
+    "independently_enumerated_grid_pairs": 299040,
+    "candidate_exact_matches": 7172
+  },
+  "artifacts": {
+    "SUMMARY.json": "09f04168c41a20c897f477d5ba48f5a015f1d7682c55fe618bbcb8e76e0e5a95",
+    "TARGETED_COUNTEREXAMPLES.json": "d0c9cb08e0c9b00f7a4e8ba081b6103a02dc7d95efe5ac8968b755f39f5cd387",
+    "ROSTER.jsonl": "34f7cdba33f4bba66221c109bdbd0f9c9c86f7580ab88538d13111368347a54a",
+    "results.jsonl": "dd645ea22ba17c8ac54b4f546034c5bdafdbb3f7f27e3dff5cb00e7b02489550",
+    "oracle_pairs.jsonl": "d7c02d5d05b93ccb78ff578989ebcec403ff2e2e8514986159c0127ec89aca29"
+  }
+}

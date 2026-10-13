@@ -1,0 +1,128 @@
+{
+  "schema": "paperb-independent-root-narrative-review-v1",
+  "reviewed_at_utc": "2026-10-13T12:48:53.812870+00:00",
+  "authority": "Read-only review of root files; writes limited to requested review artifact; no root code/image changes",
+  "scope": "Explicit candidate files, no Git comparison base. Figure visually inspected at full resolution. Full PDF/end-to-end note build not run by this reviewer. Root dynamic calibration status is a temporary runtime-bound field and is not treated as an execution request or duplicated.",
+  "verdict": "Pass",
+  "dimensions": [
+    {
+      "dimension": "Functional achievement",
+      "status": "Pass",
+      "evidence": "Component-only abstract, explicit open learning/chemistry gates, independent audits bind 7172 synthetic conditions and 12+2 controlled native trajectories."
+    },
+    {
+      "dimension": "Correctness and reliability",
+      "status": "Pass",
+      "evidence": "Equations correct for common fixed delta/supplied box; root explicitly separates counterfactual component reference from proposed already-observed event ledger."
+    },
+    {
+      "dimension": "Architecture",
+      "status": "Pass",
+      "evidence": "Text and visually reinspected panel C exclude private deployment inputs and label replay/admission training targets."
+    },
+    {
+      "dimension": "Function and API design",
+      "status": "Pass",
+      "evidence": "Observed/planned, interval/confirmation, ordinary/guarded, original/mechanical/chemical evidence are separated. No interface implementation change requested."
+    },
+    {
+      "dimension": "Style and maintainability",
+      "status": "Pass",
+      "evidence": "Updated figure legible at full width, labels sampled maintenance and proposed policy learning; final narrow responsive/PDF layout remains root gate."
+    },
+    {
+      "dimension": "Performance",
+      "status": "Pass",
+      "evidence": "No release-critical performance claim in this scoped narrative. Native real-time/host waiting behavior is explicitly excluded. No additional timing benchmark needed for prose/figure review."
+    }
+  ],
+  "blocking_findings": [],
+  "nonblocking_improvements": [
+    {
+      "id": "NR-003",
+      "severity": "Minor",
+      "evidence": "/mnt/nas/data/lyf/chem_mem/awesome_memory_chem/papers/paperB/research_increments/scene_methods_expansion_2026-10-13/build_note.py:108 and :183",
+      "impact": "FIFO cancellation is valid only for identical constant delays. The sentence about preserving sentinel records avoiding pruning from main evaluation can blur explicitly separate denominators.",
+      "minimum_fix": "Retain the common fixed-delta assumption; if extending to different/variable delays, include delta_B-delta_A. Say all12 main cases are retained and the2 sentinels are separately reported, rather than imply sentinels enter main denominator.",
+      "verification": "Static derivation t_B-t_A=d_B-d_A+b-a+delta_B-delta_A and explicit main12/sentinel2/reference1 counting."
+    },
+    {
+      "id": "NR-004",
+      "severity": "Minor",
+      "evidence": "Positioning cites Chronos, Time Control, GPT-Policy and RoboRSI, explicitly rejects time-conditioned DP and generic agent pipeline novelty.",
+      "impact": "Appropriate conservatism now; full method paper should compare directly with delay-aware/chunked execution and STL demonstration-scoring/control instead of implying a new temporal-verification principle.",
+      "minimum_fix": "When expanding the full related-work section, use already read DA-DP/RTC/TT-RTC/VLASH and STL primary sources; current component draft may remain brief if scope wording stays conservative.",
+      "verification": "Full-paper claim table maps mechanism to matched strong baseline; no claim that prior work ignores deadlines."
+    }
+  ],
+  "minimum_required_repair": "No remaining required repair in scoped narrative. Optional fixed-delay/sentinel wording and full related-work expansion remain minor. No experiment rerun needed.",
+  "accepted_checks": {
+    "three_interval_inequalities": "PASS static derivation under common fixed delay and supplied latency box",
+    "7172_denominator": "PASS public independent numeric audit: feasible2606/refused4566, candidate matches7172, old false refusals61",
+    "native_denominators": "PASS 4 graph instances x3 controls=12 main;2 sentinels separate;1 fullpower diagnostic=1001 samples",
+    "controlled_samples": "PASS 14014; reference1001; preflight100 steps separately",
+    "single_time_windows_not_joint": "PASS all12 A/B single timing items TRUE but original-reference/dependency/maintenance cause failures",
+    "original_reference_violations": "PASS main7 episodes/8 events; result0/4,1/4,4/4 not learned gains",
+    "learning_and_chemical_claims": "PASS explicitly proposed/open; current hand-written noiseless fixed fixture only",
+    "actor_boundary_execution": "PASS third raw audit verifies delayed packets and excludes private model/fault/oracle; figure clarification suggested",
+    "observed_native_scene_randomization": "NONE; not multi-seed or trained task holdout",
+    "runtime_zero_placeholder": "Not a finding; root dynamically updates actual calibration state; no duplicate execution triggered"
+  },
+  "unavailable_evidence": [
+    "RESULTS_PUBLIC.json absent at bounded read, so final note builder dependency was not executed or independently verified here",
+    "Final PDF and online visual layout are root terminal gates, not inferred from PNG inspection"
+  ],
+  "reviewed_sha256": {
+    "/mnt/nas/data/lyf/chem_mem/awesome_memory_chem/papers/paperB/research_increments/scene_methods_expansion_2026-10-13/build_note.py": "1d40bb4ee4d60cb11392ed2a99c005c9248d3b8bf468f46c0d17c780034b7825",
+    "/mnt/nas/data/lyf/chem_mem/awesome_memory_chem/papers/paperB/research_increments/scene_methods_expansion_2026-10-13/SCIENTIFIC_ACCEPTANCE_cn.md": "09077df1df13c552f2a8925693c789a250b28eed0e056bec7b6c84b39daaed2e",
+    "/mnt/nas/data/lyf/chem_mem/awesome_memory_chem/papers/paperB/research_increments/scene_methods_expansion_2026-10-13/figures/expanded_method.png": "91345fddf0c1f59bef79d19e9ec53af763d8a836f2c3b80d128b45fe9f223478",
+    "/data/liyufeng/paperb_scene_methods_audit_20261013_v1/cpu_extensions/PUBLIC_NUMERIC_AUDIT.json": "83b9002e5864efa89316184a61e2d06fe7dc51bd0ae21074ccab7136ca02ea45",
+    "/mnt/nas/data/lyf/chem_mem/awesome_memory_chem/papers/paperB/research_increments/scene_methods_expansion_2026-10-13/task_graph_component/PUBLIC_TASK_GRAPH_AUDIT.json": "c41c68cb596852e16f7cfd25f672d1d3bfffdd8b2167500fd314ae660543db5f",
+    "/mnt/nas/data/lyf/chem_mem/awesome_memory_chem/papers/paperB/research_increments/scene_methods_expansion_2026-10-13/task_graph_component/MAIN_SUMMARY.json": "2822a49330345e79b304c67d60c3472bc2a1518a3b55310b564c2a8848e34846"
+  },
+  "new_runs": 0,
+  "root_files_modified": false,
+  "revision_checked_at_utc": "2026-10-13T12:51:01.049244+00:00",
+  "verdict_scope": "Scoped narrative/math/figure review only; full Paper B remains MAJOR_OPEN and final PDF/site execution are independent root gates.",
+  "resolved_findings": [
+    {
+      "id": "NR-001",
+      "severity": "Major",
+      "dimension": "Correctness and reliability",
+      "status": "Risk",
+      "scope_relationship": "Exposed",
+      "evidence": [
+        {
+          "path": "/mnt/nas/data/lyf/chem_mem/awesome_memory_chem/papers/paperB/research_increments/scene_methods_expansion_2026-10-13/build_note.py",
+          "line": 92,
+          "text": "The reference ledger retains already established original anchors."
+        },
+        {
+          "path": "/mnt/nas/data/lyf/chem_mem/awesome_memory_chem/papers/paperB/research_increments/scene_methods_expansion_2026-10-13/build_note.py",
+          "line": 164,
+          "text": "full-power trajectory supplies original reference crossing intervals"
+        }
+      ],
+      "impact": "A reader can confuse this component counterfactual benchmark reference with an already occurred external-event ledger. The fixture uses independently reconstructed full-power crossing [0.44,0.45]s, while interventions can change actual crossing to [0.47,0.48]s; it does not test recovery after an immutable externally observed chemical start.",
+      "minimum_fix": "Add an explicit sentence in the physics component: its original reference is a same-model full-power counterfactual; preserving the actual crossing bracket is a registered fixture contract, not evidence for recovery from an already observed chemical-event ledger. Keep proposed ledger mechanism separate.",
+      "verification": "Read the generated note paragraph and caption alongside MAIN_SUMMARY.original_reference_definition and raw angle reference intervals; no physical experiment rerun required.",
+      "resolution": "Root now states general ledger is proposed and explicitly labels physical component counterfactual reference; text says it does not validate ledger recovery for an already occurred chemical event. Verified updated build_note.py lines92 and164-169."
+    }
+  ],
+  "required_publication_clarification": [],
+  "resolved_nonblocking": [
+    {
+      "id": "NR-002",
+      "resolution": "Visually reinspected updated PNG: sampled B maintenance replaces uninterrupted B; panel C footer explicitly says training/admission labels only and deployment input stays public."
+    }
+  ],
+  "reviewed_root_revision_evidence": {
+    "ledger": "For the proposed general system",
+    "fixture": "counterfactual benchmark reference crossing intervals",
+    "limits": "does not validate a ledger recovery for an externally observed, already occurred chemical event",
+    "diagram": [
+      "sampled B maintenance",
+      "Training/admission labels only; deployment input stays public"
+    ]
+  }
+}
