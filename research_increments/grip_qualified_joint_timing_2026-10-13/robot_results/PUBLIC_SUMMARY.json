@@ -1,0 +1,1167 @@
+{
+  "status": "PASS_ALL16_POSTHOC_RECORDED_RAW_COMPONENT_REPORT",
+  "created_at_utc": "2026-10-13T16:12:25.752452+00:00",
+  "source_release_sha256": "0c3cff79148f20f6b5f212eb484ac205122b02e63fac98d657ad8e14db3041dd",
+  "calibration_sha256": "0bfe857c9d8731272172386be7debc8dd0a7b6dc626ab92665009e31b2c8d133",
+  "calibration_audit_sha256": "50aea5b4a3d19f05faa249f6f881926a7d490e8bfbac201cfef426a2118312f0",
+  "test_audit_sha256": "05f16f70848049a30a9725c3a0a351d40c480587084a96793ce41ff1813bda36",
+  "independent_public_summary_sha256": "daf80096f3245d03a15f9374a453dbb02009009ea0f170dcfaaf4be6172a0748",
+  "auditor_release_sha256": "e9ed710d579bbe3692ec5b29e702aa15035645a5ed3fdb98f4d2b6e16c7d661d",
+  "declared_test_episodes": 16,
+  "complete_raw_audits": 16,
+  "calibration_episodes": 4,
+  "calibration_tasks_samples": 53732,
+  "test_task_samples": 224132,
+  "all20_task_samples": 277864,
+  "calibration_allocated_gpu_hours_upper_bound": 0.3011841987363813,
+  "test_allocated_gpu_hours_upper_bound": 1.1707272459961113,
+  "methods": {
+    "nominal_prior": {
+      "denominator": 4,
+      "primary": 0,
+      "mechanism": 4,
+      "strict_hold": 0,
+      "joint_with_hold": 0,
+      "refusals": 0,
+      "contracts": {
+        "contact": 0,
+        "release": 2,
+        "duration_gap": 0
+      },
+      "primary_T_F_U": {
+        "TRUE": 0,
+        "FALSE": 2,
+        "UNKNOWN": 2
+      }
+    },
+    "public_delay_prior": {
+      "denominator": 4,
+      "primary": 0,
+      "mechanism": 4,
+      "strict_hold": 0,
+      "joint_with_hold": 0,
+      "refusals": 0,
+      "contracts": {
+        "contact": 0,
+        "release": 4,
+        "duration_gap": 0
+      },
+      "primary_T_F_U": {
+        "TRUE": 0,
+        "FALSE": 0,
+        "UNKNOWN": 4
+      }
+    },
+    "calibrated_interval": {
+      "denominator": 4,
+      "primary": 4,
+      "mechanism": 4,
+      "strict_hold": 0,
+      "joint_with_hold": 0,
+      "refusals": 0,
+      "contracts": {
+        "contact": 4,
+        "release": 4,
+        "duration_gap": 4
+      },
+      "primary_T_F_U": {
+        "TRUE": 4,
+        "FALSE": 0,
+        "UNKNOWN": 0
+      }
+    },
+    "joint_exact_grid": {
+      "denominator": 4,
+      "primary": 4,
+      "mechanism": 4,
+      "strict_hold": 0,
+      "joint_with_hold": 0,
+      "refusals": 0,
+      "contracts": {
+        "contact": 4,
+        "release": 4,
+        "duration_gap": 4
+      },
+      "primary_T_F_U": {
+        "TRUE": 4,
+        "FALSE": 0,
+        "UNKNOWN": 0
+      }
+    }
+  },
+  "cases": [
+    {
+      "case_id": "test_m090_d00_nominal_prior",
+      "method": "nominal_prior",
+      "mass_factor": 0.9,
+      "fifo_ticks": 0,
+      "raw_audit_pass": true,
+      "mechanism_pass": true,
+      "primary_joint_pass": false,
+      "strict_sampled_hold_pass": false,
+      "joint_with_hold_pass": false,
+      "missing_bilateral_samples": 11,
+      "schedule_refused": false,
+      "task_samples": 13886,
+      "native_span_s": 57.85833635088056,
+      "allocated_gpu_hours_upper_bound": 0.10794840231363195,
+      "contact_verdict": "INDETERMINATE",
+      "contact_pass": false,
+      "contact_error_interval_s": [
+        -0.02916640741750598,
+        -0.024999740533530712
+      ],
+      "release_verdict": "PASS",
+      "release_pass": true,
+      "release_error_interval_s": [
+        -0.00833213422447443,
+        -0.004165467340499163
+      ],
+      "duration_gap_verdict": "INDETERMINATE",
+      "duration_gap_pass": false,
+      "duration_gap_error_interval_s": [
+        0.016667606309056282,
+        0.025000940077006817
+      ],
+      "calibration_interval_coverage": {
+        "contact": {
+          "verdict": "CONTAINED",
+          "observed_mechanical_interval_s": [
+            0.14583334093913436,
+            0.15000000782310963
+          ],
+          "frozen_calibration_interval_s": [
+            0.14583334093913436,
+            0.15000000782310963
+          ],
+          "certified_outside_observed_envelope": false,
+          "sample_interval_contained": true,
+          "statistical_coverage_guarantee": false
+        },
+        "release": {
+          "verdict": "CONTAINED",
+          "observed_mechanical_interval_s": [
+            0.07916667079553008,
+            0.08333333767950535
+          ],
+          "frozen_calibration_interval_s": [
+            0.07916667079553008,
+            0.08333333767950535
+          ],
+          "certified_outside_observed_envelope": false,
+          "sample_interval_contained": true,
+          "statistical_coverage_guarantee": false
+        }
+      },
+      "primary_joint_tristate": "UNKNOWN"
+    },
+    {
+      "case_id": "test_m090_d00_public_delay_prior",
+      "method": "public_delay_prior",
+      "mass_factor": 0.9,
+      "fifo_ticks": 0,
+      "raw_audit_pass": true,
+      "mechanism_pass": true,
+      "primary_joint_pass": false,
+      "strict_sampled_hold_pass": false,
+      "joint_with_hold_pass": false,
+      "missing_bilateral_samples": 11,
+      "schedule_refused": false,
+      "task_samples": 13886,
+      "native_span_s": 57.85833635088056,
+      "allocated_gpu_hours_upper_bound": 0.0640250366027855,
+      "contact_verdict": "INDETERMINATE",
+      "contact_pass": false,
+      "contact_error_interval_s": [
+        -0.02916640741750598,
+        -0.024999740533530712
+      ],
+      "release_verdict": "PASS",
+      "release_pass": true,
+      "release_error_interval_s": [
+        -0.00833213422447443,
+        -0.004165467340499163
+      ],
+      "duration_gap_verdict": "INDETERMINATE",
+      "duration_gap_pass": false,
+      "duration_gap_error_interval_s": [
+        0.016667606309056282,
+        0.025000940077006817
+      ],
+      "calibration_interval_coverage": {
+        "contact": {
+          "verdict": "CONTAINED",
+          "observed_mechanical_interval_s": [
+            0.14583334093913436,
+            0.15000000782310963
+          ],
+          "frozen_calibration_interval_s": [
+            0.14583334093913436,
+            0.15000000782310963
+          ],
+          "certified_outside_observed_envelope": false,
+          "sample_interval_contained": true,
+          "statistical_coverage_guarantee": false
+        },
+        "release": {
+          "verdict": "CONTAINED",
+          "observed_mechanical_interval_s": [
+            0.07916667079553008,
+            0.08333333767950535
+          ],
+          "frozen_calibration_interval_s": [
+            0.07916667079553008,
+            0.08333333767950535
+          ],
+          "certified_outside_observed_envelope": false,
+          "sample_interval_contained": true,
+          "statistical_coverage_guarantee": false
+        }
+      },
+      "primary_joint_tristate": "UNKNOWN"
+    },
+    {
+      "case_id": "test_m090_d00_calibrated_interval",
+      "method": "calibrated_interval",
+      "mass_factor": 0.9,
+      "fifo_ticks": 0,
+      "raw_audit_pass": true,
+      "mechanism_pass": true,
+      "primary_joint_pass": true,
+      "strict_sampled_hold_pass": false,
+      "joint_with_hold_pass": false,
+      "missing_bilateral_samples": 11,
+      "schedule_refused": false,
+      "task_samples": 13888,
+      "native_span_s": 57.866669684648514,
+      "allocated_gpu_hours_upper_bound": 0.06422651294670585,
+      "contact_verdict": "PASS",
+      "contact_pass": true,
+      "contact_error_interval_s": [
+        2.60770320892334e-07,
+        0.00416692765429616
+      ],
+      "release_verdict": "PASS",
+      "release_pass": true,
+      "release_error_interval_s": [
+        1.1995434761047363e-06,
+        0.004167866427451372
+      ],
+      "duration_gap_verdict": "PASS",
+      "duration_gap_pass": true,
+      "duration_gap_error_interval_s": [
+        -0.004165728110820055,
+        0.00416760565713048
+      ],
+      "calibration_interval_coverage": {
+        "contact": {
+          "verdict": "CONTAINED",
+          "observed_mechanical_interval_s": [
+            0.14583334093913436,
+            0.15000000782310963
+          ],
+          "frozen_calibration_interval_s": [
+            0.14583334093913436,
+            0.15000000782310963
+          ],
+          "certified_outside_observed_envelope": false,
+          "sample_interval_contained": true,
+          "statistical_coverage_guarantee": false
+        },
+        "release": {
+          "verdict": "CONTAINED",
+          "observed_mechanical_interval_s": [
+            0.07916667079553008,
+            0.08333333767950535
+          ],
+          "frozen_calibration_interval_s": [
+            0.07916667079553008,
+            0.08333333767950535
+          ],
+          "certified_outside_observed_envelope": false,
+          "sample_interval_contained": true,
+          "statistical_coverage_guarantee": false
+        }
+      },
+      "primary_joint_tristate": "TRUE"
+    },
+    {
+      "case_id": "test_m090_d00_joint_exact_grid",
+      "method": "joint_exact_grid",
+      "mass_factor": 0.9,
+      "fifo_ticks": 0,
+      "raw_audit_pass": true,
+      "mechanism_pass": true,
+      "primary_joint_pass": true,
+      "strict_sampled_hold_pass": false,
+      "joint_with_hold_pass": false,
+      "missing_bilateral_samples": 11,
+      "schedule_refused": false,
+      "task_samples": 13887,
+      "native_span_s": 57.86250301776454,
+      "allocated_gpu_hours_upper_bound": 0.0653020246966561,
+      "contact_verdict": "PASS",
+      "contact_pass": true,
+      "contact_error_interval_s": [
+        -0.004166406113654375,
+        2.60770320892334e-07
+      ],
+      "release_verdict": "PASS",
+      "release_pass": true,
+      "release_error_interval_s": [
+        -0.004165467340499163,
+        1.1995434761047363e-06
+      ],
+      "duration_gap_verdict": "PASS",
+      "duration_gap_pass": true,
+      "duration_gap_error_interval_s": [
+        -0.004165728110820055,
+        0.00416760565713048
+      ],
+      "calibration_interval_coverage": {
+        "contact": {
+          "verdict": "CONTAINED",
+          "observed_mechanical_interval_s": [
+            0.14583334093913436,
+            0.15000000782310963
+          ],
+          "frozen_calibration_interval_s": [
+            0.14583334093913436,
+            0.15000000782310963
+          ],
+          "certified_outside_observed_envelope": false,
+          "sample_interval_contained": true,
+          "statistical_coverage_guarantee": false
+        },
+        "release": {
+          "verdict": "CONTAINED",
+          "observed_mechanical_interval_s": [
+            0.07916667079553008,
+            0.08333333767950535
+          ],
+          "frozen_calibration_interval_s": [
+            0.07916667079553008,
+            0.08333333767950535
+          ],
+          "certified_outside_observed_envelope": false,
+          "sample_interval_contained": true,
+          "statistical_coverage_guarantee": false
+        }
+      },
+      "primary_joint_tristate": "TRUE"
+    },
+    {
+      "case_id": "test_m090_d12_nominal_prior",
+      "method": "nominal_prior",
+      "mass_factor": 0.9,
+      "fifo_ticks": 12,
+      "raw_audit_pass": true,
+      "mechanism_pass": true,
+      "primary_joint_pass": false,
+      "strict_sampled_hold_pass": false,
+      "joint_with_hold_pass": false,
+      "missing_bilateral_samples": 11,
+      "schedule_refused": false,
+      "task_samples": 14018,
+      "native_span_s": 58.4083363795653,
+      "allocated_gpu_hours_upper_bound": 0.08045202122360934,
+      "contact_verdict": "INDETERMINATE",
+      "contact_pass": false,
+      "contact_error_interval_s": [
+        0.02083359519019723,
+        0.025000262074172497
+      ],
+      "release_verdict": "LATE",
+      "release_pass": false,
+      "release_error_interval_s": [
+        0.04166789446026087,
+        0.045834561344236135
+      ],
+      "duration_gap_verdict": "INDETERMINATE",
+      "duration_gap_pass": false,
+      "duration_gap_error_interval_s": [
+        0.01666763238608837,
+        0.025000966154038906
+      ],
+      "calibration_interval_coverage": {
+        "contact": {
+          "verdict": "CONTAINED",
+          "observed_mechanical_interval_s": [
+            0.14583334093913436,
+            0.15000000782310963
+          ],
+          "frozen_calibration_interval_s": [
+            0.14583334093913436,
+            0.15000000782310963
+          ],
+          "certified_outside_observed_envelope": false,
+          "sample_interval_contained": true,
+          "statistical_coverage_guarantee": false
+        },
+        "release": {
+          "verdict": "CONTAINED",
+          "observed_mechanical_interval_s": [
+            0.07916667079553008,
+            0.08333333767950535
+          ],
+          "frozen_calibration_interval_s": [
+            0.07916667079553008,
+            0.08333333767950535
+          ],
+          "certified_outside_observed_envelope": false,
+          "sample_interval_contained": true,
+          "statistical_coverage_guarantee": false
+        }
+      },
+      "primary_joint_tristate": "FALSE"
+    },
+    {
+      "case_id": "test_m090_d12_public_delay_prior",
+      "method": "public_delay_prior",
+      "mass_factor": 0.9,
+      "fifo_ticks": 12,
+      "raw_audit_pass": true,
+      "mechanism_pass": true,
+      "primary_joint_pass": false,
+      "strict_sampled_hold_pass": false,
+      "joint_with_hold_pass": false,
+      "missing_bilateral_samples": 11,
+      "schedule_refused": false,
+      "task_samples": 14006,
+      "native_span_s": 58.358336376957595,
+      "allocated_gpu_hours_upper_bound": 0.0791115815878018,
+      "contact_verdict": "INDETERMINATE",
+      "contact_pass": false,
+      "contact_error_interval_s": [
+        -0.02916640741750598,
+        -0.024999740533530712
+      ],
+      "release_verdict": "PASS",
+      "release_pass": true,
+      "release_error_interval_s": [
+        -0.00833210814744234,
+        -0.0041654412634670734
+      ],
+      "duration_gap_verdict": "INDETERMINATE",
+      "duration_gap_pass": false,
+      "duration_gap_error_interval_s": [
+        0.01666763238608837,
+        0.025000966154038906
+      ],
+      "calibration_interval_coverage": {
+        "contact": {
+          "verdict": "CONTAINED",
+          "observed_mechanical_interval_s": [
+            0.14583334093913436,
+            0.15000000782310963
+          ],
+          "frozen_calibration_interval_s": [
+            0.14583334093913436,
+            0.15000000782310963
+          ],
+          "certified_outside_observed_envelope": false,
+          "sample_interval_contained": true,
+          "statistical_coverage_guarantee": false
+        },
+        "release": {
+          "verdict": "CONTAINED",
+          "observed_mechanical_interval_s": [
+            0.07916667079553008,
+            0.08333333767950535
+          ],
+          "frozen_calibration_interval_s": [
+            0.07916667079553008,
+            0.08333333767950535
+          ],
+          "certified_outside_observed_envelope": false,
+          "sample_interval_contained": true,
+          "statistical_coverage_guarantee": false
+        }
+      },
+      "primary_joint_tristate": "UNKNOWN"
+    },
+    {
+      "case_id": "test_m090_d12_calibrated_interval",
+      "method": "calibrated_interval",
+      "mass_factor": 0.9,
+      "fifo_ticks": 12,
+      "raw_audit_pass": true,
+      "mechanism_pass": true,
+      "primary_joint_pass": true,
+      "strict_sampled_hold_pass": false,
+      "joint_with_hold_pass": false,
+      "missing_bilateral_samples": 11,
+      "schedule_refused": false,
+      "task_samples": 14008,
+      "native_span_s": 58.366669710725546,
+      "allocated_gpu_hours_upper_bound": 0.07458994562608294,
+      "contact_verdict": "PASS",
+      "contact_pass": true,
+      "contact_error_interval_s": [
+        2.60770320892334e-07,
+        0.00416692765429616
+      ],
+      "release_verdict": "PASS",
+      "release_pass": true,
+      "release_error_interval_s": [
+        1.2256205081939697e-06,
+        0.004167892504483461
+      ],
+      "duration_gap_verdict": "PASS",
+      "duration_gap_pass": true,
+      "duration_gap_error_interval_s": [
+        -0.004165702033787966,
+        0.004167631734162569
+      ],
+      "calibration_interval_coverage": {
+        "contact": {
+          "verdict": "CONTAINED",
+          "observed_mechanical_interval_s": [
+            0.14583334093913436,
+            0.15000000782310963
+          ],
+          "frozen_calibration_interval_s": [
+            0.14583334093913436,
+            0.15000000782310963
+          ],
+          "certified_outside_observed_envelope": false,
+          "sample_interval_contained": true,
+          "statistical_coverage_guarantee": false
+        },
+        "release": {
+          "verdict": "CONTAINED",
+          "observed_mechanical_interval_s": [
+            0.07916667079553008,
+            0.08333333767950535
+          ],
+          "frozen_calibration_interval_s": [
+            0.07916667079553008,
+            0.08333333767950535
+          ],
+          "certified_outside_observed_envelope": false,
+          "sample_interval_contained": true,
+          "statistical_coverage_guarantee": false
+        }
+      },
+      "primary_joint_tristate": "TRUE"
+    },
+    {
+      "case_id": "test_m090_d12_joint_exact_grid",
+      "method": "joint_exact_grid",
+      "mass_factor": 0.9,
+      "fifo_ticks": 12,
+      "raw_audit_pass": true,
+      "mechanism_pass": true,
+      "primary_joint_pass": true,
+      "strict_sampled_hold_pass": false,
+      "joint_with_hold_pass": false,
+      "missing_bilateral_samples": 11,
+      "schedule_refused": false,
+      "task_samples": 14007,
+      "native_span_s": 58.36250304384157,
+      "allocated_gpu_hours_upper_bound": 0.07952497789196464,
+      "contact_verdict": "PASS",
+      "contact_pass": true,
+      "contact_error_interval_s": [
+        -0.004166406113654375,
+        2.60770320892334e-07
+      ],
+      "release_verdict": "PASS",
+      "release_pass": true,
+      "release_error_interval_s": [
+        -0.0041654412634670734,
+        1.2256205081939697e-06
+      ],
+      "duration_gap_verdict": "PASS",
+      "duration_gap_pass": true,
+      "duration_gap_error_interval_s": [
+        -0.004165702033787966,
+        0.004167631734162569
+      ],
+      "calibration_interval_coverage": {
+        "contact": {
+          "verdict": "CONTAINED",
+          "observed_mechanical_interval_s": [
+            0.14583334093913436,
+            0.15000000782310963
+          ],
+          "frozen_calibration_interval_s": [
+            0.14583334093913436,
+            0.15000000782310963
+          ],
+          "certified_outside_observed_envelope": false,
+          "sample_interval_contained": true,
+          "statistical_coverage_guarantee": false
+        },
+        "release": {
+          "verdict": "CONTAINED",
+          "observed_mechanical_interval_s": [
+            0.07916667079553008,
+            0.08333333767950535
+          ],
+          "frozen_calibration_interval_s": [
+            0.07916667079553008,
+            0.08333333767950535
+          ],
+          "certified_outside_observed_envelope": false,
+          "sample_interval_contained": true,
+          "statistical_coverage_guarantee": false
+        }
+      },
+      "primary_joint_tristate": "TRUE"
+    },
+    {
+      "case_id": "test_m110_d00_nominal_prior",
+      "method": "nominal_prior",
+      "mass_factor": 1.1,
+      "fifo_ticks": 0,
+      "raw_audit_pass": true,
+      "mechanism_pass": true,
+      "primary_joint_pass": false,
+      "strict_sampled_hold_pass": false,
+      "joint_with_hold_pass": false,
+      "missing_bilateral_samples": 11,
+      "schedule_refused": false,
+      "task_samples": 14006,
+      "native_span_s": 58.358336376957595,
+      "allocated_gpu_hours_upper_bound": 0.07232377203776398,
+      "contact_verdict": "INDETERMINATE",
+      "contact_pass": false,
+      "contact_error_interval_s": [
+        -0.02916638134047389,
+        -0.024999714456498623
+      ],
+      "release_verdict": "PASS",
+      "release_pass": true,
+      "release_error_interval_s": [
+        -0.00833210814744234,
+        -0.0041654412634670734
+      ],
+      "duration_gap_verdict": "INDETERMINATE",
+      "duration_gap_pass": false,
+      "duration_gap_error_interval_s": [
+        0.016667606309056282,
+        0.025000940077006817
+      ],
+      "calibration_interval_coverage": {
+        "contact": {
+          "verdict": "CONTAINED",
+          "observed_mechanical_interval_s": [
+            0.14583334093913436,
+            0.15000000782310963
+          ],
+          "frozen_calibration_interval_s": [
+            0.14583334093913436,
+            0.15000000782310963
+          ],
+          "certified_outside_observed_envelope": false,
+          "sample_interval_contained": true,
+          "statistical_coverage_guarantee": false
+        },
+        "release": {
+          "verdict": "CONTAINED",
+          "observed_mechanical_interval_s": [
+            0.07916667079553008,
+            0.08333333767950535
+          ],
+          "frozen_calibration_interval_s": [
+            0.07916667079553008,
+            0.08333333767950535
+          ],
+          "certified_outside_observed_envelope": false,
+          "sample_interval_contained": true,
+          "statistical_coverage_guarantee": false
+        }
+      },
+      "primary_joint_tristate": "UNKNOWN"
+    },
+    {
+      "case_id": "test_m110_d00_public_delay_prior",
+      "method": "public_delay_prior",
+      "mass_factor": 1.1,
+      "fifo_ticks": 0,
+      "raw_audit_pass": true,
+      "mechanism_pass": true,
+      "primary_joint_pass": false,
+      "strict_sampled_hold_pass": false,
+      "joint_with_hold_pass": false,
+      "missing_bilateral_samples": 11,
+      "schedule_refused": false,
+      "task_samples": 14006,
+      "native_span_s": 58.358336376957595,
+      "allocated_gpu_hours_upper_bound": 0.06741162611469109,
+      "contact_verdict": "INDETERMINATE",
+      "contact_pass": false,
+      "contact_error_interval_s": [
+        -0.02916638134047389,
+        -0.024999714456498623
+      ],
+      "release_verdict": "PASS",
+      "release_pass": true,
+      "release_error_interval_s": [
+        -0.00833210814744234,
+        -0.0041654412634670734
+      ],
+      "duration_gap_verdict": "INDETERMINATE",
+      "duration_gap_pass": false,
+      "duration_gap_error_interval_s": [
+        0.016667606309056282,
+        0.025000940077006817
+      ],
+      "calibration_interval_coverage": {
+        "contact": {
+          "verdict": "CONTAINED",
+          "observed_mechanical_interval_s": [
+            0.14583334093913436,
+            0.15000000782310963
+          ],
+          "frozen_calibration_interval_s": [
+            0.14583334093913436,
+            0.15000000782310963
+          ],
+          "certified_outside_observed_envelope": false,
+          "sample_interval_contained": true,
+          "statistical_coverage_guarantee": false
+        },
+        "release": {
+          "verdict": "CONTAINED",
+          "observed_mechanical_interval_s": [
+            0.07916667079553008,
+            0.08333333767950535
+          ],
+          "frozen_calibration_interval_s": [
+            0.07916667079553008,
+            0.08333333767950535
+          ],
+          "certified_outside_observed_envelope": false,
+          "sample_interval_contained": true,
+          "statistical_coverage_guarantee": false
+        }
+      },
+      "primary_joint_tristate": "UNKNOWN"
+    },
+    {
+      "case_id": "test_m110_d00_calibrated_interval",
+      "method": "calibrated_interval",
+      "mass_factor": 1.1,
+      "fifo_ticks": 0,
+      "raw_audit_pass": true,
+      "mechanism_pass": true,
+      "primary_joint_pass": true,
+      "strict_sampled_hold_pass": false,
+      "joint_with_hold_pass": false,
+      "missing_bilateral_samples": 11,
+      "schedule_refused": false,
+      "task_samples": 14008,
+      "native_span_s": 58.366669710725546,
+      "allocated_gpu_hours_upper_bound": 0.06766987315890018,
+      "contact_verdict": "PASS",
+      "contact_pass": true,
+      "contact_error_interval_s": [
+        2.868473529815674e-07,
+        0.004166953731328249
+      ],
+      "release_verdict": "PASS",
+      "release_pass": true,
+      "release_error_interval_s": [
+        1.2256205081939697e-06,
+        0.004167892504483461
+      ],
+      "duration_gap_verdict": "PASS",
+      "duration_gap_pass": true,
+      "duration_gap_error_interval_s": [
+        -0.004165728110820055,
+        0.00416760565713048
+      ],
+      "calibration_interval_coverage": {
+        "contact": {
+          "verdict": "CONTAINED",
+          "observed_mechanical_interval_s": [
+            0.14583334093913436,
+            0.15000000782310963
+          ],
+          "frozen_calibration_interval_s": [
+            0.14583334093913436,
+            0.15000000782310963
+          ],
+          "certified_outside_observed_envelope": false,
+          "sample_interval_contained": true,
+          "statistical_coverage_guarantee": false
+        },
+        "release": {
+          "verdict": "CONTAINED",
+          "observed_mechanical_interval_s": [
+            0.07916667079553008,
+            0.08333333767950535
+          ],
+          "frozen_calibration_interval_s": [
+            0.07916667079553008,
+            0.08333333767950535
+          ],
+          "certified_outside_observed_envelope": false,
+          "sample_interval_contained": true,
+          "statistical_coverage_guarantee": false
+        }
+      },
+      "primary_joint_tristate": "TRUE"
+    },
+    {
+      "case_id": "test_m110_d00_joint_exact_grid",
+      "method": "joint_exact_grid",
+      "mass_factor": 1.1,
+      "fifo_ticks": 0,
+      "raw_audit_pass": true,
+      "mechanism_pass": true,
+      "primary_joint_pass": true,
+      "strict_sampled_hold_pass": false,
+      "joint_with_hold_pass": false,
+      "missing_bilateral_samples": 11,
+      "schedule_refused": false,
+      "task_samples": 14007,
+      "native_span_s": 58.36250304384157,
+      "allocated_gpu_hours_upper_bound": 0.06942632368888654,
+      "contact_verdict": "PASS",
+      "contact_pass": true,
+      "contact_error_interval_s": [
+        -0.004166380036622286,
+        2.868473529815674e-07
+      ],
+      "release_verdict": "PASS",
+      "release_pass": true,
+      "release_error_interval_s": [
+        -0.0041654412634670734,
+        1.2256205081939697e-06
+      ],
+      "duration_gap_verdict": "PASS",
+      "duration_gap_pass": true,
+      "duration_gap_error_interval_s": [
+        -0.004165728110820055,
+        0.00416760565713048
+      ],
+      "calibration_interval_coverage": {
+        "contact": {
+          "verdict": "CONTAINED",
+          "observed_mechanical_interval_s": [
+            0.14583334093913436,
+            0.15000000782310963
+          ],
+          "frozen_calibration_interval_s": [
+            0.14583334093913436,
+            0.15000000782310963
+          ],
+          "certified_outside_observed_envelope": false,
+          "sample_interval_contained": true,
+          "statistical_coverage_guarantee": false
+        },
+        "release": {
+          "verdict": "CONTAINED",
+          "observed_mechanical_interval_s": [
+            0.07916667079553008,
+            0.08333333767950535
+          ],
+          "frozen_calibration_interval_s": [
+            0.07916667079553008,
+            0.08333333767950535
+          ],
+          "certified_outside_observed_envelope": false,
+          "sample_interval_contained": true,
+          "statistical_coverage_guarantee": false
+        }
+      },
+      "primary_joint_tristate": "TRUE"
+    },
+    {
+      "case_id": "test_m110_d12_nominal_prior",
+      "method": "nominal_prior",
+      "mass_factor": 1.1,
+      "fifo_ticks": 12,
+      "raw_audit_pass": true,
+      "mechanism_pass": true,
+      "primary_joint_pass": false,
+      "strict_sampled_hold_pass": false,
+      "joint_with_hold_pass": false,
+      "missing_bilateral_samples": 11,
+      "schedule_refused": false,
+      "task_samples": 14138,
+      "native_span_s": 58.90833640564233,
+      "allocated_gpu_hours_upper_bound": 0.06889877180859912,
+      "contact_verdict": "INDETERMINATE",
+      "contact_pass": false,
+      "contact_error_interval_s": [
+        0.02083362126722932,
+        0.025000288151204586
+      ],
+      "release_verdict": "LATE",
+      "release_pass": false,
+      "release_error_interval_s": [
+        0.04166792053729296,
+        0.045834587421268225
+      ],
+      "duration_gap_verdict": "INDETERMINATE",
+      "duration_gap_pass": false,
+      "duration_gap_error_interval_s": [
+        0.01666763238608837,
+        0.025000966154038906
+      ],
+      "calibration_interval_coverage": {
+        "contact": {
+          "verdict": "CONTAINED",
+          "observed_mechanical_interval_s": [
+            0.14583334093913436,
+            0.15000000782310963
+          ],
+          "frozen_calibration_interval_s": [
+            0.14583334093913436,
+            0.15000000782310963
+          ],
+          "certified_outside_observed_envelope": false,
+          "sample_interval_contained": true,
+          "statistical_coverage_guarantee": false
+        },
+        "release": {
+          "verdict": "CONTAINED",
+          "observed_mechanical_interval_s": [
+            0.07916667079553008,
+            0.08333333767950535
+          ],
+          "frozen_calibration_interval_s": [
+            0.07916667079553008,
+            0.08333333767950535
+          ],
+          "certified_outside_observed_envelope": false,
+          "sample_interval_contained": true,
+          "statistical_coverage_guarantee": false
+        }
+      },
+      "primary_joint_tristate": "FALSE"
+    },
+    {
+      "case_id": "test_m110_d12_public_delay_prior",
+      "method": "public_delay_prior",
+      "mass_factor": 1.1,
+      "fifo_ticks": 12,
+      "raw_audit_pass": true,
+      "mechanism_pass": true,
+      "primary_joint_pass": false,
+      "strict_sampled_hold_pass": false,
+      "joint_with_hold_pass": false,
+      "missing_bilateral_samples": 11,
+      "schedule_refused": false,
+      "task_samples": 14126,
+      "native_span_s": 58.85833640303463,
+      "allocated_gpu_hours_upper_bound": 0.07123233238079896,
+      "contact_verdict": "INDETERMINATE",
+      "contact_pass": false,
+      "contact_error_interval_s": [
+        -0.02916638134047389,
+        -0.024999714456498623
+      ],
+      "release_verdict": "PASS",
+      "release_pass": true,
+      "release_error_interval_s": [
+        -0.008332082070410252,
+        -0.004165415186434984
+      ],
+      "duration_gap_verdict": "INDETERMINATE",
+      "duration_gap_pass": false,
+      "duration_gap_error_interval_s": [
+        0.01666763238608837,
+        0.025000966154038906
+      ],
+      "calibration_interval_coverage": {
+        "contact": {
+          "verdict": "CONTAINED",
+          "observed_mechanical_interval_s": [
+            0.14583334093913436,
+            0.15000000782310963
+          ],
+          "frozen_calibration_interval_s": [
+            0.14583334093913436,
+            0.15000000782310963
+          ],
+          "certified_outside_observed_envelope": false,
+          "sample_interval_contained": true,
+          "statistical_coverage_guarantee": false
+        },
+        "release": {
+          "verdict": "CONTAINED",
+          "observed_mechanical_interval_s": [
+            0.07916667079553008,
+            0.08333333767950535
+          ],
+          "frozen_calibration_interval_s": [
+            0.07916667079553008,
+            0.08333333767950535
+          ],
+          "certified_outside_observed_envelope": false,
+          "sample_interval_contained": true,
+          "statistical_coverage_guarantee": false
+        }
+      },
+      "primary_joint_tristate": "UNKNOWN"
+    },
+    {
+      "case_id": "test_m110_d12_calibrated_interval",
+      "method": "calibrated_interval",
+      "mass_factor": 1.1,
+      "fifo_ticks": 12,
+      "raw_audit_pass": true,
+      "mechanism_pass": true,
+      "primary_joint_pass": true,
+      "strict_sampled_hold_pass": false,
+      "joint_with_hold_pass": false,
+      "missing_bilateral_samples": 11,
+      "schedule_refused": false,
+      "task_samples": 14128,
+      "native_span_s": 58.86666973680258,
+      "allocated_gpu_hours_upper_bound": 0.07171957669663243,
+      "contact_verdict": "PASS",
+      "contact_pass": true,
+      "contact_error_interval_s": [
+        2.868473529815674e-07,
+        0.004166953731328249
+      ],
+      "release_verdict": "PASS",
+      "release_pass": true,
+      "release_error_interval_s": [
+        1.2516975402832031e-06,
+        0.004167918581515551
+      ],
+      "duration_gap_verdict": "PASS",
+      "duration_gap_pass": true,
+      "duration_gap_error_interval_s": [
+        -0.004165702033787966,
+        0.004167631734162569
+      ],
+      "calibration_interval_coverage": {
+        "contact": {
+          "verdict": "CONTAINED",
+          "observed_mechanical_interval_s": [
+            0.14583334093913436,
+            0.15000000782310963
+          ],
+          "frozen_calibration_interval_s": [
+            0.14583334093913436,
+            0.15000000782310963
+          ],
+          "certified_outside_observed_envelope": false,
+          "sample_interval_contained": true,
+          "statistical_coverage_guarantee": false
+        },
+        "release": {
+          "verdict": "CONTAINED",
+          "observed_mechanical_interval_s": [
+            0.07916667079553008,
+            0.08333333767950535
+          ],
+          "frozen_calibration_interval_s": [
+            0.07916667079553008,
+            0.08333333767950535
+          ],
+          "certified_outside_observed_envelope": false,
+          "sample_interval_contained": true,
+          "statistical_coverage_guarantee": false
+        }
+      },
+      "primary_joint_tristate": "TRUE"
+    },
+    {
+      "case_id": "test_m110_d12_joint_exact_grid",
+      "method": "joint_exact_grid",
+      "mass_factor": 1.1,
+      "fifo_ticks": 12,
+      "raw_audit_pass": true,
+      "mechanism_pass": true,
+      "primary_joint_pass": true,
+      "strict_sampled_hold_pass": false,
+      "joint_with_hold_pass": false,
+      "missing_bilateral_samples": 11,
+      "schedule_refused": false,
+      "task_samples": 14127,
+      "native_span_s": 58.8625030699186,
+      "allocated_gpu_hours_upper_bound": 0.0668644672206008,
+      "contact_verdict": "PASS",
+      "contact_pass": true,
+      "contact_error_interval_s": [
+        -0.004166380036622286,
+        2.868473529815674e-07
+      ],
+      "release_verdict": "PASS",
+      "release_pass": true,
+      "release_error_interval_s": [
+        -0.004165415186434984,
+        1.2516975402832031e-06
+      ],
+      "duration_gap_verdict": "PASS",
+      "duration_gap_pass": true,
+      "duration_gap_error_interval_s": [
+        -0.004165702033787966,
+        0.004167631734162569
+      ],
+      "calibration_interval_coverage": {
+        "contact": {
+          "verdict": "CONTAINED",
+          "observed_mechanical_interval_s": [
+            0.14583334093913436,
+            0.15000000782310963
+          ],
+          "frozen_calibration_interval_s": [
+            0.14583334093913436,
+            0.15000000782310963
+          ],
+          "certified_outside_observed_envelope": false,
+          "sample_interval_contained": true,
+          "statistical_coverage_guarantee": false
+        },
+        "release": {
+          "verdict": "CONTAINED",
+          "observed_mechanical_interval_s": [
+            0.07916667079553008,
+            0.08333333767950535
+          ],
+          "frozen_calibration_interval_s": [
+            0.07916667079553008,
+            0.08333333767950535
+          ],
+          "certified_outside_observed_envelope": false,
+          "sample_interval_contained": true,
+          "statistical_coverage_guarantee": false
+        }
+      },
+      "primary_joint_tristate": "TRUE"
+    }
+  ],
+  "overall_primary_T_F_U": {
+    "TRUE": 8,
+    "FALSE": 2,
+    "UNKNOWN": 6
+  },
+  "test_RGBD_snapshots": 816,
+  "calibration_RGBD_snapshots": 36,
+  "all20_RGBD_snapshots": 852,
+  "four_fixed_video_source_frames": 672,
+  "empirical_calibration_intervals_s": {
+    "contact": [
+      0.14583334093913436,
+      0.15000000782310963
+    ],
+    "release": [
+      0.07916667079553008,
+      0.08333333767950535
+    ]
+  },
+  "clocks_scope": "NATIVE_PHYSICS_TIME_WITH_POSITION_TARGET_FIFO; NOT_WHOLE_COMM_OR_REAL_LLM_INFERENCE",
+  "active_parameters_scope": "FULL_ARRAYS_AT_BEFORE_AFTER_END; NOT_PER_TICK_ACTIVE_GAIN_TELEMETRY",
+  "event_scope": "BILATERAL_ONSET_AND_COMPOSITE_STABLE_RELEASE_ONSET; CONFIRMATION_SEPARATE",
+  "strict_hold_scope": "SAMPLED_ONLY; NEGATIVE_POST_OPEN_PRE_RELEASE_POINTS_RETAINED",
+  "fixed_scene_instances": 4,
+  "randomized_seeds": 0,
+  "confidence_interval_claim": false,
+  "method_factor_independence_claim": false,
+  "novel_learned_method_claim": false,
+  "real_robot_episodes": 0,
+  "chemical_endpoints": 0,
+  "learned_policy_updates": 0,
+  "scientific_acceptance": "MAJOR_OPEN",
+  "outcome_used_to_adjust_frozen_parameters": false
+}

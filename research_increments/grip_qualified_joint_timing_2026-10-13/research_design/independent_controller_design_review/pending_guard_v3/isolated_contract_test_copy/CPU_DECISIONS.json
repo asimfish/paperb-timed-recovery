@@ -1,0 +1,2158 @@
+{
+  "status": "SYNTHETIC_PUBLIC_INITIAL_DECISIONS_NOT_FORMAL32_OR_NATIVE_WITNESSES",
+  "decisions": [
+    {
+      "graph": [
+        "A",
+        "C"
+      ],
+      "B_service_ns": 50000000,
+      "D_ns": 2800000000,
+      "method": "sameinfo_calibrated_batch_joint",
+      "status": "FEASIBLE_PUBLIC_CONDITIONAL_DECISION",
+      "budget": {
+        "candidate_evaluations": 300,
+        "cumulative_candidate_evaluations": 300,
+        "prediction_calls": 653,
+        "budget_exhausted": false,
+        "component_stage_counts": {
+          "resource_feasible_A_proposals": 4,
+          "resource_feasible_C_proposals": 215,
+          "A_window_feasible_proposals": 216,
+          "C_window_feasible_proposals": 29,
+          "graph_gap_feasible_proposals": 215
+        },
+        "search_family": "EARLIEST_FEASIBLE_A_PREFIX_THEN_C_OR_C_THEN_TWO_A; NOT_ALL_POLICIES",
+        "search_refusal_is_not_physical_infeasibility": true
+      },
+      "program": {
+        "actions": [
+          {
+            "submit_ns": 700000000,
+            "target": "A",
+            "tag": "A_stop",
+            "service_start_ns": 700000000,
+            "ACK_ns": 750000000
+          },
+          {
+            "submit_ns": 750000000,
+            "target": "A",
+            "tag": "A_stop",
+            "service_start_ns": 750000000,
+            "ACK_ns": 800000000
+          },
+          {
+            "submit_ns": 1240000000,
+            "target": "C",
+            "tag": "C_stop",
+            "service_start_ns": 1240000000,
+            "ACK_ns": 1690000000
+          }
+        ],
+        "A_box_ns": [
+          2260000000,
+          2330000000
+        ],
+        "C_box_ns": [
+          3240000000,
+          3250000000
+        ],
+        "C_midpoint_error_twice_ns": 0,
+        "branch_scope": "CONDITIONAL_NONE_OR_SINGLE_A_DROP; PERSISTENT_DROP_NOT_GUARANTEED",
+        "blind_A_redundancy_available_to_all": true,
+        "resource_calendar_feasible": true,
+        "deadline_and_graph_box_feasible": true
+      },
+      "charged_decision_ns": 20000000,
+      "measured_host_compute_ns": 1458063,
+      "conditional_public_model_only": true,
+      "new_native_episodes": 0
+    },
+    {
+      "graph": [
+        "A",
+        "C"
+      ],
+      "B_service_ns": 50000000,
+      "D_ns": 2800000000,
+      "method": "sameinfo_robust_hsm",
+      "status": "FEASIBLE_PUBLIC_CONDITIONAL_DECISION",
+      "budget": {
+        "candidate_evaluations": 300,
+        "cumulative_candidate_evaluations": 300,
+        "prediction_calls": 653,
+        "budget_exhausted": false,
+        "component_stage_counts": {
+          "resource_feasible_A_proposals": 4,
+          "resource_feasible_C_proposals": 215,
+          "A_window_feasible_proposals": 216,
+          "C_window_feasible_proposals": 29,
+          "graph_gap_feasible_proposals": 215
+        },
+        "search_family": "EARLIEST_FEASIBLE_A_PREFIX_THEN_C_OR_C_THEN_TWO_A; NOT_ALL_POLICIES",
+        "search_refusal_is_not_physical_infeasibility": true
+      },
+      "program": {
+        "actions": [
+          {
+            "submit_ns": 700000000,
+            "target": "A",
+            "tag": "A_stop",
+            "service_start_ns": 700000000,
+            "ACK_ns": 750000000
+          },
+          {
+            "submit_ns": 750000000,
+            "target": "A",
+            "tag": "A_stop",
+            "service_start_ns": 750000000,
+            "ACK_ns": 800000000
+          },
+          {
+            "submit_ns": 1240000000,
+            "target": "C",
+            "tag": "C_stop",
+            "service_start_ns": 1240000000,
+            "ACK_ns": 1690000000
+          }
+        ],
+        "A_box_ns": [
+          2260000000,
+          2330000000
+        ],
+        "C_box_ns": [
+          3240000000,
+          3250000000
+        ],
+        "C_midpoint_error_twice_ns": 0,
+        "branch_scope": "CONDITIONAL_NONE_OR_SINGLE_A_DROP; PERSISTENT_DROP_NOT_GUARANTEED",
+        "blind_A_redundancy_available_to_all": true,
+        "resource_calendar_feasible": true,
+        "deadline_and_graph_box_feasible": true
+      },
+      "charged_decision_ns": 20000000,
+      "measured_host_compute_ns": 1375005,
+      "conditional_public_model_only": true,
+      "new_native_episodes": 0
+    },
+    {
+      "graph": [
+        "A",
+        "C"
+      ],
+      "B_service_ns": 50000000,
+      "D_ns": 2800000000,
+      "method": "sameinfo_edf_event_replanner",
+      "status": "FEASIBLE_PUBLIC_CONDITIONAL_DECISION",
+      "budget": {
+        "candidate_evaluations": 300,
+        "cumulative_candidate_evaluations": 300,
+        "prediction_calls": 653,
+        "budget_exhausted": false,
+        "component_stage_counts": {
+          "resource_feasible_A_proposals": 4,
+          "resource_feasible_C_proposals": 215,
+          "A_window_feasible_proposals": 216,
+          "C_window_feasible_proposals": 29,
+          "graph_gap_feasible_proposals": 215
+        },
+        "search_family": "EARLIEST_FEASIBLE_A_PREFIX_THEN_C_OR_C_THEN_TWO_A; NOT_ALL_POLICIES",
+        "search_refusal_is_not_physical_infeasibility": true
+      },
+      "program": {
+        "actions": [
+          {
+            "submit_ns": 700000000,
+            "target": "A",
+            "tag": "A_stop",
+            "service_start_ns": 700000000,
+            "ACK_ns": 750000000
+          },
+          {
+            "submit_ns": 750000000,
+            "target": "A",
+            "tag": "A_stop",
+            "service_start_ns": 750000000,
+            "ACK_ns": 800000000
+          },
+          {
+            "submit_ns": 1240000000,
+            "target": "C",
+            "tag": "C_stop",
+            "service_start_ns": 1240000000,
+            "ACK_ns": 1690000000
+          }
+        ],
+        "A_box_ns": [
+          2260000000,
+          2330000000
+        ],
+        "C_box_ns": [
+          3240000000,
+          3250000000
+        ],
+        "C_midpoint_error_twice_ns": 0,
+        "branch_scope": "CONDITIONAL_NONE_OR_SINGLE_A_DROP; PERSISTENT_DROP_NOT_GUARANTEED",
+        "blind_A_redundancy_available_to_all": true,
+        "resource_calendar_feasible": true,
+        "deadline_and_graph_box_feasible": true
+      },
+      "charged_decision_ns": 20000000,
+      "measured_host_compute_ns": 1473637,
+      "conditional_public_model_only": true,
+      "new_native_episodes": 0
+    },
+    {
+      "graph": [
+        "A",
+        "C"
+      ],
+      "B_service_ns": 50000000,
+      "D_ns": 2800000000,
+      "method": "sameinfo_joint_interval_mpc",
+      "status": "FEASIBLE_PUBLIC_CONDITIONAL_DECISION",
+      "budget": {
+        "candidate_evaluations": 300,
+        "cumulative_candidate_evaluations": 300,
+        "prediction_calls": 653,
+        "budget_exhausted": false,
+        "component_stage_counts": {
+          "resource_feasible_A_proposals": 4,
+          "resource_feasible_C_proposals": 215,
+          "A_window_feasible_proposals": 216,
+          "C_window_feasible_proposals": 29,
+          "graph_gap_feasible_proposals": 215
+        },
+        "search_family": "EARLIEST_FEASIBLE_A_PREFIX_THEN_C_OR_C_THEN_TWO_A; NOT_ALL_POLICIES",
+        "search_refusal_is_not_physical_infeasibility": true
+      },
+      "program": {
+        "actions": [
+          {
+            "submit_ns": 700000000,
+            "target": "A",
+            "tag": "A_stop",
+            "service_start_ns": 700000000,
+            "ACK_ns": 750000000
+          },
+          {
+            "submit_ns": 750000000,
+            "target": "A",
+            "tag": "A_stop",
+            "service_start_ns": 750000000,
+            "ACK_ns": 800000000
+          },
+          {
+            "submit_ns": 1240000000,
+            "target": "C",
+            "tag": "C_stop",
+            "service_start_ns": 1240000000,
+            "ACK_ns": 1690000000
+          }
+        ],
+        "A_box_ns": [
+          2260000000,
+          2330000000
+        ],
+        "C_box_ns": [
+          3240000000,
+          3250000000
+        ],
+        "C_midpoint_error_twice_ns": 0,
+        "branch_scope": "CONDITIONAL_NONE_OR_SINGLE_A_DROP; PERSISTENT_DROP_NOT_GUARANTEED",
+        "blind_A_redundancy_available_to_all": true,
+        "resource_calendar_feasible": true,
+        "deadline_and_graph_box_feasible": true
+      },
+      "charged_decision_ns": 20000000,
+      "measured_host_compute_ns": 1418171,
+      "conditional_public_model_only": true,
+      "new_native_episodes": 0
+    },
+    {
+      "graph": [
+        "A",
+        "C"
+      ],
+      "B_service_ns": 50000000,
+      "D_ns": 3100000000,
+      "method": "sameinfo_calibrated_batch_joint",
+      "status": "FEASIBLE_PUBLIC_CONDITIONAL_DECISION",
+      "budget": {
+        "candidate_evaluations": 330,
+        "cumulative_candidate_evaluations": 330,
+        "prediction_calls": 743,
+        "budget_exhausted": false,
+        "component_stage_counts": {
+          "resource_feasible_A_proposals": 4,
+          "resource_feasible_C_proposals": 245,
+          "A_window_feasible_proposals": 246,
+          "C_window_feasible_proposals": 29,
+          "graph_gap_feasible_proposals": 245
+        },
+        "search_family": "EARLIEST_FEASIBLE_A_PREFIX_THEN_C_OR_C_THEN_TWO_A; NOT_ALL_POLICIES",
+        "search_refusal_is_not_physical_infeasibility": true
+      },
+      "program": {
+        "actions": [
+          {
+            "submit_ns": 700000000,
+            "target": "A",
+            "tag": "A_stop",
+            "service_start_ns": 700000000,
+            "ACK_ns": 750000000
+          },
+          {
+            "submit_ns": 750000000,
+            "target": "A",
+            "tag": "A_stop",
+            "service_start_ns": 750000000,
+            "ACK_ns": 800000000
+          },
+          {
+            "submit_ns": 1540000000,
+            "target": "C",
+            "tag": "C_stop",
+            "service_start_ns": 1540000000,
+            "ACK_ns": 1990000000
+          }
+        ],
+        "A_box_ns": [
+          2260000000,
+          2330000000
+        ],
+        "C_box_ns": [
+          3540000000,
+          3550000000
+        ],
+        "C_midpoint_error_twice_ns": 0,
+        "branch_scope": "CONDITIONAL_NONE_OR_SINGLE_A_DROP; PERSISTENT_DROP_NOT_GUARANTEED",
+        "blind_A_redundancy_available_to_all": true,
+        "resource_calendar_feasible": true,
+        "deadline_and_graph_box_feasible": true
+      },
+      "charged_decision_ns": 20000000,
+      "measured_host_compute_ns": 1612422,
+      "conditional_public_model_only": true,
+      "new_native_episodes": 0
+    },
+    {
+      "graph": [
+        "A",
+        "C"
+      ],
+      "B_service_ns": 50000000,
+      "D_ns": 3100000000,
+      "method": "sameinfo_robust_hsm",
+      "status": "FEASIBLE_PUBLIC_CONDITIONAL_DECISION",
+      "budget": {
+        "candidate_evaluations": 330,
+        "cumulative_candidate_evaluations": 330,
+        "prediction_calls": 743,
+        "budget_exhausted": false,
+        "component_stage_counts": {
+          "resource_feasible_A_proposals": 4,
+          "resource_feasible_C_proposals": 245,
+          "A_window_feasible_proposals": 246,
+          "C_window_feasible_proposals": 29,
+          "graph_gap_feasible_proposals": 245
+        },
+        "search_family": "EARLIEST_FEASIBLE_A_PREFIX_THEN_C_OR_C_THEN_TWO_A; NOT_ALL_POLICIES",
+        "search_refusal_is_not_physical_infeasibility": true
+      },
+      "program": {
+        "actions": [
+          {
+            "submit_ns": 700000000,
+            "target": "A",
+            "tag": "A_stop",
+            "service_start_ns": 700000000,
+            "ACK_ns": 750000000
+          },
+          {
+            "submit_ns": 750000000,
+            "target": "A",
+            "tag": "A_stop",
+            "service_start_ns": 750000000,
+            "ACK_ns": 800000000
+          },
+          {
+            "submit_ns": 1540000000,
+            "target": "C",
+            "tag": "C_stop",
+            "service_start_ns": 1540000000,
+            "ACK_ns": 1990000000
+          }
+        ],
+        "A_box_ns": [
+          2260000000,
+          2330000000
+        ],
+        "C_box_ns": [
+          3540000000,
+          3550000000
+        ],
+        "C_midpoint_error_twice_ns": 0,
+        "branch_scope": "CONDITIONAL_NONE_OR_SINGLE_A_DROP; PERSISTENT_DROP_NOT_GUARANTEED",
+        "blind_A_redundancy_available_to_all": true,
+        "resource_calendar_feasible": true,
+        "deadline_and_graph_box_feasible": true
+      },
+      "charged_decision_ns": 20000000,
+      "measured_host_compute_ns": 1790547,
+      "conditional_public_model_only": true,
+      "new_native_episodes": 0
+    },
+    {
+      "graph": [
+        "A",
+        "C"
+      ],
+      "B_service_ns": 50000000,
+      "D_ns": 3100000000,
+      "method": "sameinfo_edf_event_replanner",
+      "status": "FEASIBLE_PUBLIC_CONDITIONAL_DECISION",
+      "budget": {
+        "candidate_evaluations": 330,
+        "cumulative_candidate_evaluations": 330,
+        "prediction_calls": 743,
+        "budget_exhausted": false,
+        "component_stage_counts": {
+          "resource_feasible_A_proposals": 4,
+          "resource_feasible_C_proposals": 245,
+          "A_window_feasible_proposals": 246,
+          "C_window_feasible_proposals": 29,
+          "graph_gap_feasible_proposals": 245
+        },
+        "search_family": "EARLIEST_FEASIBLE_A_PREFIX_THEN_C_OR_C_THEN_TWO_A; NOT_ALL_POLICIES",
+        "search_refusal_is_not_physical_infeasibility": true
+      },
+      "program": {
+        "actions": [
+          {
+            "submit_ns": 700000000,
+            "target": "A",
+            "tag": "A_stop",
+            "service_start_ns": 700000000,
+            "ACK_ns": 750000000
+          },
+          {
+            "submit_ns": 750000000,
+            "target": "A",
+            "tag": "A_stop",
+            "service_start_ns": 750000000,
+            "ACK_ns": 800000000
+          },
+          {
+            "submit_ns": 1540000000,
+            "target": "C",
+            "tag": "C_stop",
+            "service_start_ns": 1540000000,
+            "ACK_ns": 1990000000
+          }
+        ],
+        "A_box_ns": [
+          2260000000,
+          2330000000
+        ],
+        "C_box_ns": [
+          3540000000,
+          3550000000
+        ],
+        "C_midpoint_error_twice_ns": 0,
+        "branch_scope": "CONDITIONAL_NONE_OR_SINGLE_A_DROP; PERSISTENT_DROP_NOT_GUARANTEED",
+        "blind_A_redundancy_available_to_all": true,
+        "resource_calendar_feasible": true,
+        "deadline_and_graph_box_feasible": true
+      },
+      "charged_decision_ns": 20000000,
+      "measured_host_compute_ns": 1788233,
+      "conditional_public_model_only": true,
+      "new_native_episodes": 0
+    },
+    {
+      "graph": [
+        "A",
+        "C"
+      ],
+      "B_service_ns": 50000000,
+      "D_ns": 3100000000,
+      "method": "sameinfo_joint_interval_mpc",
+      "status": "FEASIBLE_PUBLIC_CONDITIONAL_DECISION",
+      "budget": {
+        "candidate_evaluations": 330,
+        "cumulative_candidate_evaluations": 330,
+        "prediction_calls": 743,
+        "budget_exhausted": false,
+        "component_stage_counts": {
+          "resource_feasible_A_proposals": 4,
+          "resource_feasible_C_proposals": 245,
+          "A_window_feasible_proposals": 246,
+          "C_window_feasible_proposals": 29,
+          "graph_gap_feasible_proposals": 245
+        },
+        "search_family": "EARLIEST_FEASIBLE_A_PREFIX_THEN_C_OR_C_THEN_TWO_A; NOT_ALL_POLICIES",
+        "search_refusal_is_not_physical_infeasibility": true
+      },
+      "program": {
+        "actions": [
+          {
+            "submit_ns": 700000000,
+            "target": "A",
+            "tag": "A_stop",
+            "service_start_ns": 700000000,
+            "ACK_ns": 750000000
+          },
+          {
+            "submit_ns": 750000000,
+            "target": "A",
+            "tag": "A_stop",
+            "service_start_ns": 750000000,
+            "ACK_ns": 800000000
+          },
+          {
+            "submit_ns": 1540000000,
+            "target": "C",
+            "tag": "C_stop",
+            "service_start_ns": 1540000000,
+            "ACK_ns": 1990000000
+          }
+        ],
+        "A_box_ns": [
+          2260000000,
+          2330000000
+        ],
+        "C_box_ns": [
+          3540000000,
+          3550000000
+        ],
+        "C_midpoint_error_twice_ns": 0,
+        "branch_scope": "CONDITIONAL_NONE_OR_SINGLE_A_DROP; PERSISTENT_DROP_NOT_GUARANTEED",
+        "blind_A_redundancy_available_to_all": true,
+        "resource_calendar_feasible": true,
+        "deadline_and_graph_box_feasible": true
+      },
+      "charged_decision_ns": 20000000,
+      "measured_host_compute_ns": 1490703,
+      "conditional_public_model_only": true,
+      "new_native_episodes": 0
+    },
+    {
+      "graph": [
+        "A",
+        "C"
+      ],
+      "B_service_ns": 450000000,
+      "D_ns": 2800000000,
+      "method": "sameinfo_calibrated_batch_joint",
+      "status": "FEASIBLE_PUBLIC_CONDITIONAL_DECISION",
+      "budget": {
+        "candidate_evaluations": 340,
+        "cumulative_candidate_evaluations": 340,
+        "prediction_calls": 533,
+        "budget_exhausted": false,
+        "component_stage_counts": {
+          "resource_feasible_A_proposals": 4,
+          "resource_feasible_C_proposals": 175,
+          "A_window_feasible_proposals": 176,
+          "C_window_feasible_proposals": 19,
+          "graph_gap_feasible_proposals": 175
+        },
+        "search_family": "EARLIEST_FEASIBLE_A_PREFIX_THEN_C_OR_C_THEN_TWO_A; NOT_ALL_POLICIES",
+        "search_refusal_is_not_physical_infeasibility": true
+      },
+      "program": {
+        "actions": [
+          {
+            "submit_ns": 1100000000,
+            "target": "A",
+            "tag": "A_stop",
+            "service_start_ns": 1100000000,
+            "ACK_ns": 1150000000
+          },
+          {
+            "submit_ns": 1150000000,
+            "target": "A",
+            "tag": "A_stop",
+            "service_start_ns": 1150000000,
+            "ACK_ns": 1200000000
+          },
+          {
+            "submit_ns": 1240000000,
+            "target": "C",
+            "tag": "C_stop",
+            "service_start_ns": 1240000000,
+            "ACK_ns": 1690000000
+          }
+        ],
+        "A_box_ns": [
+          2690000000,
+          2750000000
+        ],
+        "C_box_ns": [
+          3240000000,
+          3250000000
+        ],
+        "C_midpoint_error_twice_ns": 0,
+        "branch_scope": "CONDITIONAL_NONE_OR_SINGLE_A_DROP; PERSISTENT_DROP_NOT_GUARANTEED",
+        "blind_A_redundancy_available_to_all": true,
+        "resource_calendar_feasible": true,
+        "deadline_and_graph_box_feasible": true
+      },
+      "charged_decision_ns": 20000000,
+      "measured_host_compute_ns": 1235979,
+      "conditional_public_model_only": true,
+      "new_native_episodes": 0
+    },
+    {
+      "graph": [
+        "A",
+        "C"
+      ],
+      "B_service_ns": 450000000,
+      "D_ns": 2800000000,
+      "method": "sameinfo_robust_hsm",
+      "status": "FEASIBLE_PUBLIC_CONDITIONAL_DECISION",
+      "budget": {
+        "candidate_evaluations": 340,
+        "cumulative_candidate_evaluations": 340,
+        "prediction_calls": 533,
+        "budget_exhausted": false,
+        "component_stage_counts": {
+          "resource_feasible_A_proposals": 4,
+          "resource_feasible_C_proposals": 175,
+          "A_window_feasible_proposals": 176,
+          "C_window_feasible_proposals": 19,
+          "graph_gap_feasible_proposals": 175
+        },
+        "search_family": "EARLIEST_FEASIBLE_A_PREFIX_THEN_C_OR_C_THEN_TWO_A; NOT_ALL_POLICIES",
+        "search_refusal_is_not_physical_infeasibility": true
+      },
+      "program": {
+        "actions": [
+          {
+            "submit_ns": 1100000000,
+            "target": "A",
+            "tag": "A_stop",
+            "service_start_ns": 1100000000,
+            "ACK_ns": 1150000000
+          },
+          {
+            "submit_ns": 1150000000,
+            "target": "A",
+            "tag": "A_stop",
+            "service_start_ns": 1150000000,
+            "ACK_ns": 1200000000
+          },
+          {
+            "submit_ns": 1240000000,
+            "target": "C",
+            "tag": "C_stop",
+            "service_start_ns": 1240000000,
+            "ACK_ns": 1690000000
+          }
+        ],
+        "A_box_ns": [
+          2690000000,
+          2750000000
+        ],
+        "C_box_ns": [
+          3240000000,
+          3250000000
+        ],
+        "C_midpoint_error_twice_ns": 0,
+        "branch_scope": "CONDITIONAL_NONE_OR_SINGLE_A_DROP; PERSISTENT_DROP_NOT_GUARANTEED",
+        "blind_A_redundancy_available_to_all": true,
+        "resource_calendar_feasible": true,
+        "deadline_and_graph_box_feasible": true
+      },
+      "charged_decision_ns": 20000000,
+      "measured_host_compute_ns": 1249711,
+      "conditional_public_model_only": true,
+      "new_native_episodes": 0
+    },
+    {
+      "graph": [
+        "A",
+        "C"
+      ],
+      "B_service_ns": 450000000,
+      "D_ns": 2800000000,
+      "method": "sameinfo_edf_event_replanner",
+      "status": "FEASIBLE_PUBLIC_CONDITIONAL_DECISION",
+      "budget": {
+        "candidate_evaluations": 340,
+        "cumulative_candidate_evaluations": 340,
+        "prediction_calls": 533,
+        "budget_exhausted": false,
+        "component_stage_counts": {
+          "resource_feasible_A_proposals": 4,
+          "resource_feasible_C_proposals": 175,
+          "A_window_feasible_proposals": 176,
+          "C_window_feasible_proposals": 19,
+          "graph_gap_feasible_proposals": 175
+        },
+        "search_family": "EARLIEST_FEASIBLE_A_PREFIX_THEN_C_OR_C_THEN_TWO_A; NOT_ALL_POLICIES",
+        "search_refusal_is_not_physical_infeasibility": true
+      },
+      "program": {
+        "actions": [
+          {
+            "submit_ns": 1100000000,
+            "target": "A",
+            "tag": "A_stop",
+            "service_start_ns": 1100000000,
+            "ACK_ns": 1150000000
+          },
+          {
+            "submit_ns": 1150000000,
+            "target": "A",
+            "tag": "A_stop",
+            "service_start_ns": 1150000000,
+            "ACK_ns": 1200000000
+          },
+          {
+            "submit_ns": 1240000000,
+            "target": "C",
+            "tag": "C_stop",
+            "service_start_ns": 1240000000,
+            "ACK_ns": 1690000000
+          }
+        ],
+        "A_box_ns": [
+          2690000000,
+          2750000000
+        ],
+        "C_box_ns": [
+          3240000000,
+          3250000000
+        ],
+        "C_midpoint_error_twice_ns": 0,
+        "branch_scope": "CONDITIONAL_NONE_OR_SINGLE_A_DROP; PERSISTENT_DROP_NOT_GUARANTEED",
+        "blind_A_redundancy_available_to_all": true,
+        "resource_calendar_feasible": true,
+        "deadline_and_graph_box_feasible": true
+      },
+      "charged_decision_ns": 20000000,
+      "measured_host_compute_ns": 1324266,
+      "conditional_public_model_only": true,
+      "new_native_episodes": 0
+    },
+    {
+      "graph": [
+        "A",
+        "C"
+      ],
+      "B_service_ns": 450000000,
+      "D_ns": 2800000000,
+      "method": "sameinfo_joint_interval_mpc",
+      "status": "FEASIBLE_PUBLIC_CONDITIONAL_DECISION",
+      "budget": {
+        "candidate_evaluations": 340,
+        "cumulative_candidate_evaluations": 340,
+        "prediction_calls": 533,
+        "budget_exhausted": false,
+        "component_stage_counts": {
+          "resource_feasible_A_proposals": 4,
+          "resource_feasible_C_proposals": 175,
+          "A_window_feasible_proposals": 176,
+          "C_window_feasible_proposals": 19,
+          "graph_gap_feasible_proposals": 175
+        },
+        "search_family": "EARLIEST_FEASIBLE_A_PREFIX_THEN_C_OR_C_THEN_TWO_A; NOT_ALL_POLICIES",
+        "search_refusal_is_not_physical_infeasibility": true
+      },
+      "program": {
+        "actions": [
+          {
+            "submit_ns": 1100000000,
+            "target": "A",
+            "tag": "A_stop",
+            "service_start_ns": 1100000000,
+            "ACK_ns": 1150000000
+          },
+          {
+            "submit_ns": 1150000000,
+            "target": "A",
+            "tag": "A_stop",
+            "service_start_ns": 1150000000,
+            "ACK_ns": 1200000000
+          },
+          {
+            "submit_ns": 1240000000,
+            "target": "C",
+            "tag": "C_stop",
+            "service_start_ns": 1240000000,
+            "ACK_ns": 1690000000
+          }
+        ],
+        "A_box_ns": [
+          2690000000,
+          2750000000
+        ],
+        "C_box_ns": [
+          3240000000,
+          3250000000
+        ],
+        "C_midpoint_error_twice_ns": 0,
+        "branch_scope": "CONDITIONAL_NONE_OR_SINGLE_A_DROP; PERSISTENT_DROP_NOT_GUARANTEED",
+        "blind_A_redundancy_available_to_all": true,
+        "resource_calendar_feasible": true,
+        "deadline_and_graph_box_feasible": true
+      },
+      "charged_decision_ns": 20000000,
+      "measured_host_compute_ns": 1386803,
+      "conditional_public_model_only": true,
+      "new_native_episodes": 0
+    },
+    {
+      "graph": [
+        "A",
+        "C"
+      ],
+      "B_service_ns": 450000000,
+      "D_ns": 3100000000,
+      "method": "sameinfo_calibrated_batch_joint",
+      "status": "FEASIBLE_PUBLIC_CONDITIONAL_DECISION",
+      "budget": {
+        "candidate_evaluations": 370,
+        "cumulative_candidate_evaluations": 370,
+        "prediction_calls": 623,
+        "budget_exhausted": false,
+        "component_stage_counts": {
+          "resource_feasible_A_proposals": 4,
+          "resource_feasible_C_proposals": 205,
+          "A_window_feasible_proposals": 206,
+          "C_window_feasible_proposals": 29,
+          "graph_gap_feasible_proposals": 205
+        },
+        "search_family": "EARLIEST_FEASIBLE_A_PREFIX_THEN_C_OR_C_THEN_TWO_A; NOT_ALL_POLICIES",
+        "search_refusal_is_not_physical_infeasibility": true
+      },
+      "program": {
+        "actions": [
+          {
+            "submit_ns": 1100000000,
+            "target": "A",
+            "tag": "A_stop",
+            "service_start_ns": 1100000000,
+            "ACK_ns": 1150000000
+          },
+          {
+            "submit_ns": 1150000000,
+            "target": "A",
+            "tag": "A_stop",
+            "service_start_ns": 1150000000,
+            "ACK_ns": 1200000000
+          },
+          {
+            "submit_ns": 1540000000,
+            "target": "C",
+            "tag": "C_stop",
+            "service_start_ns": 1540000000,
+            "ACK_ns": 1990000000
+          }
+        ],
+        "A_box_ns": [
+          2690000000,
+          2750000000
+        ],
+        "C_box_ns": [
+          3540000000,
+          3550000000
+        ],
+        "C_midpoint_error_twice_ns": 0,
+        "branch_scope": "CONDITIONAL_NONE_OR_SINGLE_A_DROP; PERSISTENT_DROP_NOT_GUARANTEED",
+        "blind_A_redundancy_available_to_all": true,
+        "resource_calendar_feasible": true,
+        "deadline_and_graph_box_feasible": true
+      },
+      "charged_decision_ns": 20000000,
+      "measured_host_compute_ns": 1690262,
+      "conditional_public_model_only": true,
+      "new_native_episodes": 0
+    },
+    {
+      "graph": [
+        "A",
+        "C"
+      ],
+      "B_service_ns": 450000000,
+      "D_ns": 3100000000,
+      "method": "sameinfo_robust_hsm",
+      "status": "FEASIBLE_PUBLIC_CONDITIONAL_DECISION",
+      "budget": {
+        "candidate_evaluations": 370,
+        "cumulative_candidate_evaluations": 370,
+        "prediction_calls": 623,
+        "budget_exhausted": false,
+        "component_stage_counts": {
+          "resource_feasible_A_proposals": 4,
+          "resource_feasible_C_proposals": 205,
+          "A_window_feasible_proposals": 206,
+          "C_window_feasible_proposals": 29,
+          "graph_gap_feasible_proposals": 205
+        },
+        "search_family": "EARLIEST_FEASIBLE_A_PREFIX_THEN_C_OR_C_THEN_TWO_A; NOT_ALL_POLICIES",
+        "search_refusal_is_not_physical_infeasibility": true
+      },
+      "program": {
+        "actions": [
+          {
+            "submit_ns": 1100000000,
+            "target": "A",
+            "tag": "A_stop",
+            "service_start_ns": 1100000000,
+            "ACK_ns": 1150000000
+          },
+          {
+            "submit_ns": 1150000000,
+            "target": "A",
+            "tag": "A_stop",
+            "service_start_ns": 1150000000,
+            "ACK_ns": 1200000000
+          },
+          {
+            "submit_ns": 1540000000,
+            "target": "C",
+            "tag": "C_stop",
+            "service_start_ns": 1540000000,
+            "ACK_ns": 1990000000
+          }
+        ],
+        "A_box_ns": [
+          2690000000,
+          2750000000
+        ],
+        "C_box_ns": [
+          3540000000,
+          3550000000
+        ],
+        "C_midpoint_error_twice_ns": 0,
+        "branch_scope": "CONDITIONAL_NONE_OR_SINGLE_A_DROP; PERSISTENT_DROP_NOT_GUARANTEED",
+        "blind_A_redundancy_available_to_all": true,
+        "resource_calendar_feasible": true,
+        "deadline_and_graph_box_feasible": true
+      },
+      "charged_decision_ns": 20000000,
+      "measured_host_compute_ns": 1476281,
+      "conditional_public_model_only": true,
+      "new_native_episodes": 0
+    },
+    {
+      "graph": [
+        "A",
+        "C"
+      ],
+      "B_service_ns": 450000000,
+      "D_ns": 3100000000,
+      "method": "sameinfo_edf_event_replanner",
+      "status": "FEASIBLE_PUBLIC_CONDITIONAL_DECISION",
+      "budget": {
+        "candidate_evaluations": 370,
+        "cumulative_candidate_evaluations": 370,
+        "prediction_calls": 623,
+        "budget_exhausted": false,
+        "component_stage_counts": {
+          "resource_feasible_A_proposals": 4,
+          "resource_feasible_C_proposals": 205,
+          "A_window_feasible_proposals": 206,
+          "C_window_feasible_proposals": 29,
+          "graph_gap_feasible_proposals": 205
+        },
+        "search_family": "EARLIEST_FEASIBLE_A_PREFIX_THEN_C_OR_C_THEN_TWO_A; NOT_ALL_POLICIES",
+        "search_refusal_is_not_physical_infeasibility": true
+      },
+      "program": {
+        "actions": [
+          {
+            "submit_ns": 1100000000,
+            "target": "A",
+            "tag": "A_stop",
+            "service_start_ns": 1100000000,
+            "ACK_ns": 1150000000
+          },
+          {
+            "submit_ns": 1150000000,
+            "target": "A",
+            "tag": "A_stop",
+            "service_start_ns": 1150000000,
+            "ACK_ns": 1200000000
+          },
+          {
+            "submit_ns": 1540000000,
+            "target": "C",
+            "tag": "C_stop",
+            "service_start_ns": 1540000000,
+            "ACK_ns": 1990000000
+          }
+        ],
+        "A_box_ns": [
+          2690000000,
+          2750000000
+        ],
+        "C_box_ns": [
+          3540000000,
+          3550000000
+        ],
+        "C_midpoint_error_twice_ns": 0,
+        "branch_scope": "CONDITIONAL_NONE_OR_SINGLE_A_DROP; PERSISTENT_DROP_NOT_GUARANTEED",
+        "blind_A_redundancy_available_to_all": true,
+        "resource_calendar_feasible": true,
+        "deadline_and_graph_box_feasible": true
+      },
+      "charged_decision_ns": 20000000,
+      "measured_host_compute_ns": 1582555,
+      "conditional_public_model_only": true,
+      "new_native_episodes": 0
+    },
+    {
+      "graph": [
+        "A",
+        "C"
+      ],
+      "B_service_ns": 450000000,
+      "D_ns": 3100000000,
+      "method": "sameinfo_joint_interval_mpc",
+      "status": "FEASIBLE_PUBLIC_CONDITIONAL_DECISION",
+      "budget": {
+        "candidate_evaluations": 370,
+        "cumulative_candidate_evaluations": 370,
+        "prediction_calls": 623,
+        "budget_exhausted": false,
+        "component_stage_counts": {
+          "resource_feasible_A_proposals": 4,
+          "resource_feasible_C_proposals": 205,
+          "A_window_feasible_proposals": 206,
+          "C_window_feasible_proposals": 29,
+          "graph_gap_feasible_proposals": 205
+        },
+        "search_family": "EARLIEST_FEASIBLE_A_PREFIX_THEN_C_OR_C_THEN_TWO_A; NOT_ALL_POLICIES",
+        "search_refusal_is_not_physical_infeasibility": true
+      },
+      "program": {
+        "actions": [
+          {
+            "submit_ns": 1100000000,
+            "target": "A",
+            "tag": "A_stop",
+            "service_start_ns": 1100000000,
+            "ACK_ns": 1150000000
+          },
+          {
+            "submit_ns": 1150000000,
+            "target": "A",
+            "tag": "A_stop",
+            "service_start_ns": 1150000000,
+            "ACK_ns": 1200000000
+          },
+          {
+            "submit_ns": 1540000000,
+            "target": "C",
+            "tag": "C_stop",
+            "service_start_ns": 1540000000,
+            "ACK_ns": 1990000000
+          }
+        ],
+        "A_box_ns": [
+          2690000000,
+          2750000000
+        ],
+        "C_box_ns": [
+          3540000000,
+          3550000000
+        ],
+        "C_midpoint_error_twice_ns": 0,
+        "branch_scope": "CONDITIONAL_NONE_OR_SINGLE_A_DROP; PERSISTENT_DROP_NOT_GUARANTEED",
+        "blind_A_redundancy_available_to_all": true,
+        "resource_calendar_feasible": true,
+        "deadline_and_graph_box_feasible": true
+      },
+      "charged_decision_ns": 20000000,
+      "measured_host_compute_ns": 1538347,
+      "conditional_public_model_only": true,
+      "new_native_episodes": 0
+    },
+    {
+      "graph": [
+        "C",
+        "A"
+      ],
+      "B_service_ns": 50000000,
+      "D_ns": 2800000000,
+      "method": "sameinfo_calibrated_batch_joint",
+      "status": "FEASIBLE_PUBLIC_CONDITIONAL_DECISION",
+      "budget": {
+        "candidate_evaluations": 282,
+        "cumulative_candidate_evaluations": 282,
+        "prediction_calls": 675,
+        "budget_exhausted": false,
+        "component_stage_counts": {
+          "resource_feasible_A_proposals": 0,
+          "resource_feasible_C_proposals": 225,
+          "A_window_feasible_proposals": 44,
+          "C_window_feasible_proposals": 29,
+          "graph_gap_feasible_proposals": 225
+        },
+        "search_family": "EARLIEST_FEASIBLE_A_PREFIX_THEN_C_OR_C_THEN_TWO_A; NOT_ALL_POLICIES",
+        "search_refusal_is_not_physical_infeasibility": true
+      },
+      "program": {
+        "actions": [
+          {
+            "submit_ns": 1130000000,
+            "target": "C",
+            "tag": "C_stop",
+            "service_start_ns": 1130000000,
+            "ACK_ns": 1580000000
+          },
+          {
+            "submit_ns": 1580000000,
+            "target": "A",
+            "tag": "A_stop",
+            "service_start_ns": 1580000000,
+            "ACK_ns": 1630000000
+          },
+          {
+            "submit_ns": 1630000000,
+            "target": "A",
+            "tag": "A_stop",
+            "service_start_ns": 1630000000,
+            "ACK_ns": 1680000000
+          }
+        ],
+        "A_box_ns": [
+          3180000000,
+          3240000000
+        ],
+        "C_box_ns": [
+          3130000000,
+          3140000000
+        ],
+        "C_midpoint_error_twice_ns": 220000000,
+        "branch_scope": "CONDITIONAL_NONE_OR_SINGLE_A_DROP; PERSISTENT_DROP_NOT_GUARANTEED",
+        "blind_A_redundancy_available_to_all": true,
+        "resource_calendar_feasible": true,
+        "deadline_and_graph_box_feasible": true
+      },
+      "charged_decision_ns": 20000000,
+      "measured_host_compute_ns": 2660381,
+      "conditional_public_model_only": true,
+      "new_native_episodes": 0
+    },
+    {
+      "graph": [
+        "C",
+        "A"
+      ],
+      "B_service_ns": 50000000,
+      "D_ns": 2800000000,
+      "method": "sameinfo_robust_hsm",
+      "status": "FEASIBLE_PUBLIC_CONDITIONAL_DECISION",
+      "budget": {
+        "candidate_evaluations": 282,
+        "cumulative_candidate_evaluations": 282,
+        "prediction_calls": 675,
+        "budget_exhausted": false,
+        "component_stage_counts": {
+          "resource_feasible_A_proposals": 0,
+          "resource_feasible_C_proposals": 225,
+          "A_window_feasible_proposals": 44,
+          "C_window_feasible_proposals": 29,
+          "graph_gap_feasible_proposals": 225
+        },
+        "search_family": "EARLIEST_FEASIBLE_A_PREFIX_THEN_C_OR_C_THEN_TWO_A; NOT_ALL_POLICIES",
+        "search_refusal_is_not_physical_infeasibility": true
+      },
+      "program": {
+        "actions": [
+          {
+            "submit_ns": 1100000000,
+            "target": "C",
+            "tag": "C_stop",
+            "service_start_ns": 1100000000,
+            "ACK_ns": 1550000000
+          },
+          {
+            "submit_ns": 1550000000,
+            "target": "A",
+            "tag": "A_stop",
+            "service_start_ns": 1550000000,
+            "ACK_ns": 1600000000
+          },
+          {
+            "submit_ns": 1600000000,
+            "target": "A",
+            "tag": "A_stop",
+            "service_start_ns": 1600000000,
+            "ACK_ns": 1650000000
+          }
+        ],
+        "A_box_ns": [
+          3150000000,
+          3210000000
+        ],
+        "C_box_ns": [
+          3100000000,
+          3110000000
+        ],
+        "C_midpoint_error_twice_ns": 280000000,
+        "branch_scope": "CONDITIONAL_NONE_OR_SINGLE_A_DROP; PERSISTENT_DROP_NOT_GUARANTEED",
+        "blind_A_redundancy_available_to_all": true,
+        "resource_calendar_feasible": true,
+        "deadline_and_graph_box_feasible": true
+      },
+      "charged_decision_ns": 20000000,
+      "measured_host_compute_ns": 2544902,
+      "conditional_public_model_only": true,
+      "new_native_episodes": 0
+    },
+    {
+      "graph": [
+        "C",
+        "A"
+      ],
+      "B_service_ns": 50000000,
+      "D_ns": 2800000000,
+      "method": "sameinfo_edf_event_replanner",
+      "status": "FEASIBLE_PUBLIC_CONDITIONAL_DECISION",
+      "budget": {
+        "candidate_evaluations": 282,
+        "cumulative_candidate_evaluations": 282,
+        "prediction_calls": 675,
+        "budget_exhausted": false,
+        "component_stage_counts": {
+          "resource_feasible_A_proposals": 0,
+          "resource_feasible_C_proposals": 225,
+          "A_window_feasible_proposals": 44,
+          "C_window_feasible_proposals": 29,
+          "graph_gap_feasible_proposals": 225
+        },
+        "search_family": "EARLIEST_FEASIBLE_A_PREFIX_THEN_C_OR_C_THEN_TWO_A; NOT_ALL_POLICIES",
+        "search_refusal_is_not_physical_infeasibility": true
+      },
+      "program": {
+        "actions": [
+          {
+            "submit_ns": 1100000000,
+            "target": "C",
+            "tag": "C_stop",
+            "service_start_ns": 1100000000,
+            "ACK_ns": 1550000000
+          },
+          {
+            "submit_ns": 1550000000,
+            "target": "A",
+            "tag": "A_stop",
+            "service_start_ns": 1550000000,
+            "ACK_ns": 1600000000
+          },
+          {
+            "submit_ns": 1600000000,
+            "target": "A",
+            "tag": "A_stop",
+            "service_start_ns": 1600000000,
+            "ACK_ns": 1650000000
+          }
+        ],
+        "A_box_ns": [
+          3150000000,
+          3210000000
+        ],
+        "C_box_ns": [
+          3100000000,
+          3110000000
+        ],
+        "C_midpoint_error_twice_ns": 280000000,
+        "branch_scope": "CONDITIONAL_NONE_OR_SINGLE_A_DROP; PERSISTENT_DROP_NOT_GUARANTEED",
+        "blind_A_redundancy_available_to_all": true,
+        "resource_calendar_feasible": true,
+        "deadline_and_graph_box_feasible": true
+      },
+      "charged_decision_ns": 20000000,
+      "measured_host_compute_ns": 2690597,
+      "conditional_public_model_only": true,
+      "new_native_episodes": 0
+    },
+    {
+      "graph": [
+        "C",
+        "A"
+      ],
+      "B_service_ns": 50000000,
+      "D_ns": 2800000000,
+      "method": "sameinfo_joint_interval_mpc",
+      "status": "FEASIBLE_PUBLIC_CONDITIONAL_DECISION",
+      "budget": {
+        "candidate_evaluations": 282,
+        "cumulative_candidate_evaluations": 282,
+        "prediction_calls": 675,
+        "budget_exhausted": false,
+        "component_stage_counts": {
+          "resource_feasible_A_proposals": 0,
+          "resource_feasible_C_proposals": 225,
+          "A_window_feasible_proposals": 44,
+          "C_window_feasible_proposals": 29,
+          "graph_gap_feasible_proposals": 225
+        },
+        "search_family": "EARLIEST_FEASIBLE_A_PREFIX_THEN_C_OR_C_THEN_TWO_A; NOT_ALL_POLICIES",
+        "search_refusal_is_not_physical_infeasibility": true
+      },
+      "program": {
+        "actions": [
+          {
+            "submit_ns": 1130000000,
+            "target": "C",
+            "tag": "C_stop",
+            "service_start_ns": 1130000000,
+            "ACK_ns": 1580000000
+          },
+          {
+            "submit_ns": 1580000000,
+            "target": "A",
+            "tag": "A_stop",
+            "service_start_ns": 1580000000,
+            "ACK_ns": 1630000000
+          },
+          {
+            "submit_ns": 1630000000,
+            "target": "A",
+            "tag": "A_stop",
+            "service_start_ns": 1630000000,
+            "ACK_ns": 1680000000
+          }
+        ],
+        "A_box_ns": [
+          3180000000,
+          3240000000
+        ],
+        "C_box_ns": [
+          3130000000,
+          3140000000
+        ],
+        "C_midpoint_error_twice_ns": 220000000,
+        "branch_scope": "CONDITIONAL_NONE_OR_SINGLE_A_DROP; PERSISTENT_DROP_NOT_GUARANTEED",
+        "blind_A_redundancy_available_to_all": true,
+        "resource_calendar_feasible": true,
+        "deadline_and_graph_box_feasible": true
+      },
+      "charged_decision_ns": 20000000,
+      "measured_host_compute_ns": 2516929,
+      "conditional_public_model_only": true,
+      "new_native_episodes": 0
+    },
+    {
+      "graph": [
+        "C",
+        "A"
+      ],
+      "B_service_ns": 50000000,
+      "D_ns": 3100000000,
+      "method": "sameinfo_calibrated_batch_joint",
+      "status": "FEASIBLE_PUBLIC_CONDITIONAL_DECISION",
+      "budget": {
+        "candidate_evaluations": 312,
+        "cumulative_candidate_evaluations": 312,
+        "prediction_calls": 765,
+        "budget_exhausted": false,
+        "component_stage_counts": {
+          "resource_feasible_A_proposals": 0,
+          "resource_feasible_C_proposals": 255,
+          "A_window_feasible_proposals": 74,
+          "C_window_feasible_proposals": 29,
+          "graph_gap_feasible_proposals": 255
+        },
+        "search_family": "EARLIEST_FEASIBLE_A_PREFIX_THEN_C_OR_C_THEN_TWO_A; NOT_ALL_POLICIES",
+        "search_refusal_is_not_physical_infeasibility": true
+      },
+      "program": {
+        "actions": [
+          {
+            "submit_ns": 1430000000,
+            "target": "C",
+            "tag": "C_stop",
+            "service_start_ns": 1430000000,
+            "ACK_ns": 1880000000
+          },
+          {
+            "submit_ns": 1880000000,
+            "target": "A",
+            "tag": "A_stop",
+            "service_start_ns": 1880000000,
+            "ACK_ns": 1930000000
+          },
+          {
+            "submit_ns": 1930000000,
+            "target": "A",
+            "tag": "A_stop",
+            "service_start_ns": 1930000000,
+            "ACK_ns": 1980000000
+          }
+        ],
+        "A_box_ns": [
+          3480000000,
+          3540000000
+        ],
+        "C_box_ns": [
+          3430000000,
+          3440000000
+        ],
+        "C_midpoint_error_twice_ns": 220000000,
+        "branch_scope": "CONDITIONAL_NONE_OR_SINGLE_A_DROP; PERSISTENT_DROP_NOT_GUARANTEED",
+        "blind_A_redundancy_available_to_all": true,
+        "resource_calendar_feasible": true,
+        "deadline_and_graph_box_feasible": true
+      },
+      "charged_decision_ns": 20000000,
+      "measured_host_compute_ns": 2840549,
+      "conditional_public_model_only": true,
+      "new_native_episodes": 0
+    },
+    {
+      "graph": [
+        "C",
+        "A"
+      ],
+      "B_service_ns": 50000000,
+      "D_ns": 3100000000,
+      "method": "sameinfo_robust_hsm",
+      "status": "FEASIBLE_PUBLIC_CONDITIONAL_DECISION",
+      "budget": {
+        "candidate_evaluations": 312,
+        "cumulative_candidate_evaluations": 312,
+        "prediction_calls": 765,
+        "budget_exhausted": false,
+        "component_stage_counts": {
+          "resource_feasible_A_proposals": 0,
+          "resource_feasible_C_proposals": 255,
+          "A_window_feasible_proposals": 74,
+          "C_window_feasible_proposals": 29,
+          "graph_gap_feasible_proposals": 255
+        },
+        "search_family": "EARLIEST_FEASIBLE_A_PREFIX_THEN_C_OR_C_THEN_TWO_A; NOT_ALL_POLICIES",
+        "search_refusal_is_not_physical_infeasibility": true
+      },
+      "program": {
+        "actions": [
+          {
+            "submit_ns": 1400000000,
+            "target": "C",
+            "tag": "C_stop",
+            "service_start_ns": 1400000000,
+            "ACK_ns": 1850000000
+          },
+          {
+            "submit_ns": 1850000000,
+            "target": "A",
+            "tag": "A_stop",
+            "service_start_ns": 1850000000,
+            "ACK_ns": 1900000000
+          },
+          {
+            "submit_ns": 1900000000,
+            "target": "A",
+            "tag": "A_stop",
+            "service_start_ns": 1900000000,
+            "ACK_ns": 1950000000
+          }
+        ],
+        "A_box_ns": [
+          3450000000,
+          3510000000
+        ],
+        "C_box_ns": [
+          3400000000,
+          3410000000
+        ],
+        "C_midpoint_error_twice_ns": 280000000,
+        "branch_scope": "CONDITIONAL_NONE_OR_SINGLE_A_DROP; PERSISTENT_DROP_NOT_GUARANTEED",
+        "blind_A_redundancy_available_to_all": true,
+        "resource_calendar_feasible": true,
+        "deadline_and_graph_box_feasible": true
+      },
+      "charged_decision_ns": 20000000,
+      "measured_host_compute_ns": 2722456,
+      "conditional_public_model_only": true,
+      "new_native_episodes": 0
+    },
+    {
+      "graph": [
+        "C",
+        "A"
+      ],
+      "B_service_ns": 50000000,
+      "D_ns": 3100000000,
+      "method": "sameinfo_edf_event_replanner",
+      "status": "FEASIBLE_PUBLIC_CONDITIONAL_DECISION",
+      "budget": {
+        "candidate_evaluations": 312,
+        "cumulative_candidate_evaluations": 312,
+        "prediction_calls": 765,
+        "budget_exhausted": false,
+        "component_stage_counts": {
+          "resource_feasible_A_proposals": 0,
+          "resource_feasible_C_proposals": 255,
+          "A_window_feasible_proposals": 74,
+          "C_window_feasible_proposals": 29,
+          "graph_gap_feasible_proposals": 255
+        },
+        "search_family": "EARLIEST_FEASIBLE_A_PREFIX_THEN_C_OR_C_THEN_TWO_A; NOT_ALL_POLICIES",
+        "search_refusal_is_not_physical_infeasibility": true
+      },
+      "program": {
+        "actions": [
+          {
+            "submit_ns": 1400000000,
+            "target": "C",
+            "tag": "C_stop",
+            "service_start_ns": 1400000000,
+            "ACK_ns": 1850000000
+          },
+          {
+            "submit_ns": 1850000000,
+            "target": "A",
+            "tag": "A_stop",
+            "service_start_ns": 1850000000,
+            "ACK_ns": 1900000000
+          },
+          {
+            "submit_ns": 1900000000,
+            "target": "A",
+            "tag": "A_stop",
+            "service_start_ns": 1900000000,
+            "ACK_ns": 1950000000
+          }
+        ],
+        "A_box_ns": [
+          3450000000,
+          3510000000
+        ],
+        "C_box_ns": [
+          3400000000,
+          3410000000
+        ],
+        "C_midpoint_error_twice_ns": 280000000,
+        "branch_scope": "CONDITIONAL_NONE_OR_SINGLE_A_DROP; PERSISTENT_DROP_NOT_GUARANTEED",
+        "blind_A_redundancy_available_to_all": true,
+        "resource_calendar_feasible": true,
+        "deadline_and_graph_box_feasible": true
+      },
+      "charged_decision_ns": 20000000,
+      "measured_host_compute_ns": 3103535,
+      "conditional_public_model_only": true,
+      "new_native_episodes": 0
+    },
+    {
+      "graph": [
+        "C",
+        "A"
+      ],
+      "B_service_ns": 50000000,
+      "D_ns": 3100000000,
+      "method": "sameinfo_joint_interval_mpc",
+      "status": "FEASIBLE_PUBLIC_CONDITIONAL_DECISION",
+      "budget": {
+        "candidate_evaluations": 312,
+        "cumulative_candidate_evaluations": 312,
+        "prediction_calls": 765,
+        "budget_exhausted": false,
+        "component_stage_counts": {
+          "resource_feasible_A_proposals": 0,
+          "resource_feasible_C_proposals": 255,
+          "A_window_feasible_proposals": 74,
+          "C_window_feasible_proposals": 29,
+          "graph_gap_feasible_proposals": 255
+        },
+        "search_family": "EARLIEST_FEASIBLE_A_PREFIX_THEN_C_OR_C_THEN_TWO_A; NOT_ALL_POLICIES",
+        "search_refusal_is_not_physical_infeasibility": true
+      },
+      "program": {
+        "actions": [
+          {
+            "submit_ns": 1430000000,
+            "target": "C",
+            "tag": "C_stop",
+            "service_start_ns": 1430000000,
+            "ACK_ns": 1880000000
+          },
+          {
+            "submit_ns": 1880000000,
+            "target": "A",
+            "tag": "A_stop",
+            "service_start_ns": 1880000000,
+            "ACK_ns": 1930000000
+          },
+          {
+            "submit_ns": 1930000000,
+            "target": "A",
+            "tag": "A_stop",
+            "service_start_ns": 1930000000,
+            "ACK_ns": 1980000000
+          }
+        ],
+        "A_box_ns": [
+          3480000000,
+          3540000000
+        ],
+        "C_box_ns": [
+          3430000000,
+          3440000000
+        ],
+        "C_midpoint_error_twice_ns": 220000000,
+        "branch_scope": "CONDITIONAL_NONE_OR_SINGLE_A_DROP; PERSISTENT_DROP_NOT_GUARANTEED",
+        "blind_A_redundancy_available_to_all": true,
+        "resource_calendar_feasible": true,
+        "deadline_and_graph_box_feasible": true
+      },
+      "charged_decision_ns": 20000000,
+      "measured_host_compute_ns": 3096935,
+      "conditional_public_model_only": true,
+      "new_native_episodes": 0
+    },
+    {
+      "graph": [
+        "C",
+        "A"
+      ],
+      "B_service_ns": 450000000,
+      "D_ns": 2800000000,
+      "method": "sameinfo_calibrated_batch_joint",
+      "status": "FEASIBLE_PUBLIC_CONDITIONAL_DECISION",
+      "budget": {
+        "candidate_evaluations": 282,
+        "cumulative_candidate_evaluations": 282,
+        "prediction_calls": 555,
+        "budget_exhausted": false,
+        "component_stage_counts": {
+          "resource_feasible_A_proposals": 0,
+          "resource_feasible_C_proposals": 185,
+          "A_window_feasible_proposals": 4,
+          "C_window_feasible_proposals": 29,
+          "graph_gap_feasible_proposals": 185
+        },
+        "search_family": "EARLIEST_FEASIBLE_A_PREFIX_THEN_C_OR_C_THEN_TWO_A; NOT_ALL_POLICIES",
+        "search_refusal_is_not_physical_infeasibility": true
+      },
+      "program": {
+        "actions": [
+          {
+            "submit_ns": 1130000000,
+            "target": "C",
+            "tag": "C_stop",
+            "service_start_ns": 1130000000,
+            "ACK_ns": 1580000000
+          },
+          {
+            "submit_ns": 1580000000,
+            "target": "A",
+            "tag": "A_stop",
+            "service_start_ns": 1580000000,
+            "ACK_ns": 1630000000
+          },
+          {
+            "submit_ns": 1630000000,
+            "target": "A",
+            "tag": "A_stop",
+            "service_start_ns": 1630000000,
+            "ACK_ns": 1680000000
+          }
+        ],
+        "A_box_ns": [
+          3180000000,
+          3240000000
+        ],
+        "C_box_ns": [
+          3130000000,
+          3140000000
+        ],
+        "C_midpoint_error_twice_ns": 220000000,
+        "branch_scope": "CONDITIONAL_NONE_OR_SINGLE_A_DROP; PERSISTENT_DROP_NOT_GUARANTEED",
+        "blind_A_redundancy_available_to_all": true,
+        "resource_calendar_feasible": true,
+        "deadline_and_graph_box_feasible": true
+      },
+      "charged_decision_ns": 20000000,
+      "measured_host_compute_ns": 1856068,
+      "conditional_public_model_only": true,
+      "new_native_episodes": 0
+    },
+    {
+      "graph": [
+        "C",
+        "A"
+      ],
+      "B_service_ns": 450000000,
+      "D_ns": 2800000000,
+      "method": "sameinfo_robust_hsm",
+      "status": "FEASIBLE_PUBLIC_CONDITIONAL_DECISION",
+      "budget": {
+        "candidate_evaluations": 282,
+        "cumulative_candidate_evaluations": 282,
+        "prediction_calls": 555,
+        "budget_exhausted": false,
+        "component_stage_counts": {
+          "resource_feasible_A_proposals": 0,
+          "resource_feasible_C_proposals": 185,
+          "A_window_feasible_proposals": 4,
+          "C_window_feasible_proposals": 29,
+          "graph_gap_feasible_proposals": 185
+        },
+        "search_family": "EARLIEST_FEASIBLE_A_PREFIX_THEN_C_OR_C_THEN_TWO_A; NOT_ALL_POLICIES",
+        "search_refusal_is_not_physical_infeasibility": true
+      },
+      "program": {
+        "actions": [
+          {
+            "submit_ns": 1100000000,
+            "target": "C",
+            "tag": "C_stop",
+            "service_start_ns": 1100000000,
+            "ACK_ns": 1550000000
+          },
+          {
+            "submit_ns": 1550000000,
+            "target": "A",
+            "tag": "A_stop",
+            "service_start_ns": 1550000000,
+            "ACK_ns": 1600000000
+          },
+          {
+            "submit_ns": 1600000000,
+            "target": "A",
+            "tag": "A_stop",
+            "service_start_ns": 1600000000,
+            "ACK_ns": 1650000000
+          }
+        ],
+        "A_box_ns": [
+          3150000000,
+          3210000000
+        ],
+        "C_box_ns": [
+          3100000000,
+          3110000000
+        ],
+        "C_midpoint_error_twice_ns": 280000000,
+        "branch_scope": "CONDITIONAL_NONE_OR_SINGLE_A_DROP; PERSISTENT_DROP_NOT_GUARANTEED",
+        "blind_A_redundancy_available_to_all": true,
+        "resource_calendar_feasible": true,
+        "deadline_and_graph_box_feasible": true
+      },
+      "charged_decision_ns": 20000000,
+      "measured_host_compute_ns": 1961551,
+      "conditional_public_model_only": true,
+      "new_native_episodes": 0
+    },
+    {
+      "graph": [
+        "C",
+        "A"
+      ],
+      "B_service_ns": 450000000,
+      "D_ns": 2800000000,
+      "method": "sameinfo_edf_event_replanner",
+      "status": "FEASIBLE_PUBLIC_CONDITIONAL_DECISION",
+      "budget": {
+        "candidate_evaluations": 282,
+        "cumulative_candidate_evaluations": 282,
+        "prediction_calls": 555,
+        "budget_exhausted": false,
+        "component_stage_counts": {
+          "resource_feasible_A_proposals": 0,
+          "resource_feasible_C_proposals": 185,
+          "A_window_feasible_proposals": 4,
+          "C_window_feasible_proposals": 29,
+          "graph_gap_feasible_proposals": 185
+        },
+        "search_family": "EARLIEST_FEASIBLE_A_PREFIX_THEN_C_OR_C_THEN_TWO_A; NOT_ALL_POLICIES",
+        "search_refusal_is_not_physical_infeasibility": true
+      },
+      "program": {
+        "actions": [
+          {
+            "submit_ns": 1100000000,
+            "target": "C",
+            "tag": "C_stop",
+            "service_start_ns": 1100000000,
+            "ACK_ns": 1550000000
+          },
+          {
+            "submit_ns": 1550000000,
+            "target": "A",
+            "tag": "A_stop",
+            "service_start_ns": 1550000000,
+            "ACK_ns": 1600000000
+          },
+          {
+            "submit_ns": 1600000000,
+            "target": "A",
+            "tag": "A_stop",
+            "service_start_ns": 1600000000,
+            "ACK_ns": 1650000000
+          }
+        ],
+        "A_box_ns": [
+          3150000000,
+          3210000000
+        ],
+        "C_box_ns": [
+          3100000000,
+          3110000000
+        ],
+        "C_midpoint_error_twice_ns": 280000000,
+        "branch_scope": "CONDITIONAL_NONE_OR_SINGLE_A_DROP; PERSISTENT_DROP_NOT_GUARANTEED",
+        "blind_A_redundancy_available_to_all": true,
+        "resource_calendar_feasible": true,
+        "deadline_and_graph_box_feasible": true
+      },
+      "charged_decision_ns": 20000000,
+      "measured_host_compute_ns": 1884862,
+      "conditional_public_model_only": true,
+      "new_native_episodes": 0
+    },
+    {
+      "graph": [
+        "C",
+        "A"
+      ],
+      "B_service_ns": 450000000,
+      "D_ns": 2800000000,
+      "method": "sameinfo_joint_interval_mpc",
+      "status": "FEASIBLE_PUBLIC_CONDITIONAL_DECISION",
+      "budget": {
+        "candidate_evaluations": 282,
+        "cumulative_candidate_evaluations": 282,
+        "prediction_calls": 555,
+        "budget_exhausted": false,
+        "component_stage_counts": {
+          "resource_feasible_A_proposals": 0,
+          "resource_feasible_C_proposals": 185,
+          "A_window_feasible_proposals": 4,
+          "C_window_feasible_proposals": 29,
+          "graph_gap_feasible_proposals": 185
+        },
+        "search_family": "EARLIEST_FEASIBLE_A_PREFIX_THEN_C_OR_C_THEN_TWO_A; NOT_ALL_POLICIES",
+        "search_refusal_is_not_physical_infeasibility": true
+      },
+      "program": {
+        "actions": [
+          {
+            "submit_ns": 1130000000,
+            "target": "C",
+            "tag": "C_stop",
+            "service_start_ns": 1130000000,
+            "ACK_ns": 1580000000
+          },
+          {
+            "submit_ns": 1580000000,
+            "target": "A",
+            "tag": "A_stop",
+            "service_start_ns": 1580000000,
+            "ACK_ns": 1630000000
+          },
+          {
+            "submit_ns": 1630000000,
+            "target": "A",
+            "tag": "A_stop",
+            "service_start_ns": 1630000000,
+            "ACK_ns": 1680000000
+          }
+        ],
+        "A_box_ns": [
+          3180000000,
+          3240000000
+        ],
+        "C_box_ns": [
+          3130000000,
+          3140000000
+        ],
+        "C_midpoint_error_twice_ns": 220000000,
+        "branch_scope": "CONDITIONAL_NONE_OR_SINGLE_A_DROP; PERSISTENT_DROP_NOT_GUARANTEED",
+        "blind_A_redundancy_available_to_all": true,
+        "resource_calendar_feasible": true,
+        "deadline_and_graph_box_feasible": true
+      },
+      "charged_decision_ns": 20000000,
+      "measured_host_compute_ns": 2187099,
+      "conditional_public_model_only": true,
+      "new_native_episodes": 0
+    },
+    {
+      "graph": [
+        "C",
+        "A"
+      ],
+      "B_service_ns": 450000000,
+      "D_ns": 3100000000,
+      "method": "sameinfo_calibrated_batch_joint",
+      "status": "FEASIBLE_PUBLIC_CONDITIONAL_DECISION",
+      "budget": {
+        "candidate_evaluations": 312,
+        "cumulative_candidate_evaluations": 312,
+        "prediction_calls": 645,
+        "budget_exhausted": false,
+        "component_stage_counts": {
+          "resource_feasible_A_proposals": 0,
+          "resource_feasible_C_proposals": 215,
+          "A_window_feasible_proposals": 34,
+          "C_window_feasible_proposals": 29,
+          "graph_gap_feasible_proposals": 215
+        },
+        "search_family": "EARLIEST_FEASIBLE_A_PREFIX_THEN_C_OR_C_THEN_TWO_A; NOT_ALL_POLICIES",
+        "search_refusal_is_not_physical_infeasibility": true
+      },
+      "program": {
+        "actions": [
+          {
+            "submit_ns": 1430000000,
+            "target": "C",
+            "tag": "C_stop",
+            "service_start_ns": 1430000000,
+            "ACK_ns": 1880000000
+          },
+          {
+            "submit_ns": 1880000000,
+            "target": "A",
+            "tag": "A_stop",
+            "service_start_ns": 1880000000,
+            "ACK_ns": 1930000000
+          },
+          {
+            "submit_ns": 1930000000,
+            "target": "A",
+            "tag": "A_stop",
+            "service_start_ns": 1930000000,
+            "ACK_ns": 1980000000
+          }
+        ],
+        "A_box_ns": [
+          3480000000,
+          3540000000
+        ],
+        "C_box_ns": [
+          3430000000,
+          3440000000
+        ],
+        "C_midpoint_error_twice_ns": 220000000,
+        "branch_scope": "CONDITIONAL_NONE_OR_SINGLE_A_DROP; PERSISTENT_DROP_NOT_GUARANTEED",
+        "blind_A_redundancy_available_to_all": true,
+        "resource_calendar_feasible": true,
+        "deadline_and_graph_box_feasible": true
+      },
+      "charged_decision_ns": 20000000,
+      "measured_host_compute_ns": 2301275,
+      "conditional_public_model_only": true,
+      "new_native_episodes": 0
+    },
+    {
+      "graph": [
+        "C",
+        "A"
+      ],
+      "B_service_ns": 450000000,
+      "D_ns": 3100000000,
+      "method": "sameinfo_robust_hsm",
+      "status": "FEASIBLE_PUBLIC_CONDITIONAL_DECISION",
+      "budget": {
+        "candidate_evaluations": 312,
+        "cumulative_candidate_evaluations": 312,
+        "prediction_calls": 645,
+        "budget_exhausted": false,
+        "component_stage_counts": {
+          "resource_feasible_A_proposals": 0,
+          "resource_feasible_C_proposals": 215,
+          "A_window_feasible_proposals": 34,
+          "C_window_feasible_proposals": 29,
+          "graph_gap_feasible_proposals": 215
+        },
+        "search_family": "EARLIEST_FEASIBLE_A_PREFIX_THEN_C_OR_C_THEN_TWO_A; NOT_ALL_POLICIES",
+        "search_refusal_is_not_physical_infeasibility": true
+      },
+      "program": {
+        "actions": [
+          {
+            "submit_ns": 1400000000,
+            "target": "C",
+            "tag": "C_stop",
+            "service_start_ns": 1400000000,
+            "ACK_ns": 1850000000
+          },
+          {
+            "submit_ns": 1850000000,
+            "target": "A",
+            "tag": "A_stop",
+            "service_start_ns": 1850000000,
+            "ACK_ns": 1900000000
+          },
+          {
+            "submit_ns": 1900000000,
+            "target": "A",
+            "tag": "A_stop",
+            "service_start_ns": 1900000000,
+            "ACK_ns": 1950000000
+          }
+        ],
+        "A_box_ns": [
+          3450000000,
+          3510000000
+        ],
+        "C_box_ns": [
+          3400000000,
+          3410000000
+        ],
+        "C_midpoint_error_twice_ns": 280000000,
+        "branch_scope": "CONDITIONAL_NONE_OR_SINGLE_A_DROP; PERSISTENT_DROP_NOT_GUARANTEED",
+        "blind_A_redundancy_available_to_all": true,
+        "resource_calendar_feasible": true,
+        "deadline_and_graph_box_feasible": true
+      },
+      "charged_decision_ns": 20000000,
+      "measured_host_compute_ns": 2208723,
+      "conditional_public_model_only": true,
+      "new_native_episodes": 0
+    },
+    {
+      "graph": [
+        "C",
+        "A"
+      ],
+      "B_service_ns": 450000000,
+      "D_ns": 3100000000,
+      "method": "sameinfo_edf_event_replanner",
+      "status": "FEASIBLE_PUBLIC_CONDITIONAL_DECISION",
+      "budget": {
+        "candidate_evaluations": 312,
+        "cumulative_candidate_evaluations": 312,
+        "prediction_calls": 645,
+        "budget_exhausted": false,
+        "component_stage_counts": {
+          "resource_feasible_A_proposals": 0,
+          "resource_feasible_C_proposals": 215,
+          "A_window_feasible_proposals": 34,
+          "C_window_feasible_proposals": 29,
+          "graph_gap_feasible_proposals": 215
+        },
+        "search_family": "EARLIEST_FEASIBLE_A_PREFIX_THEN_C_OR_C_THEN_TWO_A; NOT_ALL_POLICIES",
+        "search_refusal_is_not_physical_infeasibility": true
+      },
+      "program": {
+        "actions": [
+          {
+            "submit_ns": 1400000000,
+            "target": "C",
+            "tag": "C_stop",
+            "service_start_ns": 1400000000,
+            "ACK_ns": 1850000000
+          },
+          {
+            "submit_ns": 1850000000,
+            "target": "A",
+            "tag": "A_stop",
+            "service_start_ns": 1850000000,
+            "ACK_ns": 1900000000
+          },
+          {
+            "submit_ns": 1900000000,
+            "target": "A",
+            "tag": "A_stop",
+            "service_start_ns": 1900000000,
+            "ACK_ns": 1950000000
+          }
+        ],
+        "A_box_ns": [
+          3450000000,
+          3510000000
+        ],
+        "C_box_ns": [
+          3400000000,
+          3410000000
+        ],
+        "C_midpoint_error_twice_ns": 280000000,
+        "branch_scope": "CONDITIONAL_NONE_OR_SINGLE_A_DROP; PERSISTENT_DROP_NOT_GUARANTEED",
+        "blind_A_redundancy_available_to_all": true,
+        "resource_calendar_feasible": true,
+        "deadline_and_graph_box_feasible": true
+      },
+      "charged_decision_ns": 20000000,
+      "measured_host_compute_ns": 2114217,
+      "conditional_public_model_only": true,
+      "new_native_episodes": 0
+    },
+    {
+      "graph": [
+        "C",
+        "A"
+      ],
+      "B_service_ns": 450000000,
+      "D_ns": 3100000000,
+      "method": "sameinfo_joint_interval_mpc",
+      "status": "FEASIBLE_PUBLIC_CONDITIONAL_DECISION",
+      "budget": {
+        "candidate_evaluations": 312,
+        "cumulative_candidate_evaluations": 312,
+        "prediction_calls": 645,
+        "budget_exhausted": false,
+        "component_stage_counts": {
+          "resource_feasible_A_proposals": 0,
+          "resource_feasible_C_proposals": 215,
+          "A_window_feasible_proposals": 34,
+          "C_window_feasible_proposals": 29,
+          "graph_gap_feasible_proposals": 215
+        },
+        "search_family": "EARLIEST_FEASIBLE_A_PREFIX_THEN_C_OR_C_THEN_TWO_A; NOT_ALL_POLICIES",
+        "search_refusal_is_not_physical_infeasibility": true
+      },
+      "program": {
+        "actions": [
+          {
+            "submit_ns": 1430000000,
+            "target": "C",
+            "tag": "C_stop",
+            "service_start_ns": 1430000000,
+            "ACK_ns": 1880000000
+          },
+          {
+            "submit_ns": 1880000000,
+            "target": "A",
+            "tag": "A_stop",
+            "service_start_ns": 1880000000,
+            "ACK_ns": 1930000000
+          },
+          {
+            "submit_ns": 1930000000,
+            "target": "A",
+            "tag": "A_stop",
+            "service_start_ns": 1930000000,
+            "ACK_ns": 1980000000
+          }
+        ],
+        "A_box_ns": [
+          3480000000,
+          3540000000
+        ],
+        "C_box_ns": [
+          3430000000,
+          3440000000
+        ],
+        "C_midpoint_error_twice_ns": 220000000,
+        "branch_scope": "CONDITIONAL_NONE_OR_SINGLE_A_DROP; PERSISTENT_DROP_NOT_GUARANTEED",
+        "blind_A_redundancy_available_to_all": true,
+        "resource_calendar_feasible": true,
+        "deadline_and_graph_box_feasible": true
+      },
+      "charged_decision_ns": 20000000,
+      "measured_host_compute_ns": 2244709,
+      "conditional_public_model_only": true,
+      "new_native_episodes": 0
+    }
+  ],
+  "shared_estimator_available_all_arms": true,
+  "synthetic_cases": 8,
+  "method_decisions": 32,
+  "initial_public_plans_feasible": 32,
+  "new_native_episodes": 0,
+  "formal_test_outcomes": 0,
+  "fit_executed": false,
+  "all_strong_baselines_can_solve_this_initial_plan_family": true,
+  "not_evidence_of_agentic_or_query_necessity": true
+}

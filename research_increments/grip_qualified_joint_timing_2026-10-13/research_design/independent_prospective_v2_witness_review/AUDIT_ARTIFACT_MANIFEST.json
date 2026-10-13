@@ -1,0 +1,15 @@
+{
+  "files": {
+    "SEMANTIC_COUNTEREXAMPLES.json": "2a0abd9154f7a5d510506f394f3db7c00c68225c57d1f62b8fe76a6cd21a863e",
+    "audit_witnesses.py": "4b71d8b0c1db77f552f87fdb1c6c83901ecce27e13970689499919295c940f5f",
+    "EVIDENCE_LIMITATIONS.json": "ea8081e1f85f5c107f88e0b942441cc871fc27b0ec1e06f48ff27cbced5a4ce4",
+    "review_public_schedule.py": "a2a03d5dd2e52a3d9999c035161b56db34bd41d1b4ba56573e1b5e1b703ea10c",
+    "CODE_AND_SCIENTIFIC_SCOPE_REVIEW.json": "b14579742fa24bff0c2ebf6b572a571444cdc730c65273ae234592c6815f497b",
+    "WITNESS_AUDIT.json": "6488f157cc29e959e05cdeae65a77377f0fef63022976cfb1bf4e25ef7efccbb",
+    "PUBLIC_AUDIT.json": "4d98ce08da0752f90839cc7a5391c02f8f8b1d0971e4d095515836b3fc1a26f6",
+    "PUBLIC_SCHEDULE_ENUMERATION_AUDIT.json": "cbcfd44ca307f0a48d4724e7ec8abdd0485802789f2d25f9cda74037c0f43529"
+  },
+  "source_release_sha256": "a759e9cebe249ad636e604d4c42ee73e8df058feb9130d6f8469f2429006459e",
+  "third_diagnostic_native_epochs": 8,
+  "all_native_roles_separate": true
+}

@@ -1,0 +1,3274 @@
+{
+  "schema": "paperb-recorded-native-video-decoding-validation-v1",
+  "status": "PASS_RECORDED_RGBD_CLOCK_HASH_AND_CPU_DECODE",
+  "case_id": "test_m090_d12_calibrated_interval",
+  "source_release_sha256": "0c3cff79148f20f6b5f212eb484ac205122b02e63fac98d657ad8e14db3041dd",
+  "frames": 168,
+  "fps": 6,
+  "recorded_backend": "IsaacLab / PhysX native simulation",
+  "physical_hardware_episodes": 0,
+  "chemical_endpoint_verified": false,
+  "native_clock_is_sensor_clock": false,
+  "camera_renderer_stamped_with_measured_native_physics_clock": true,
+  "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+  "first_native_time_s": 14.133334070444107,
+  "last_native_time_s": 41.96666885539889,
+  "actual_recorded_clock_span_s": 27.833334784954786,
+  "actual_frame_gap_min_s": 0.1666666753590107,
+  "actual_frame_gap_max_s": 0.1666666753590107,
+  "encoded_duration_s": 28.0,
+  "video_sha256": "8440f23102b054b73f7a55d7e32f8d278b6042e00dc9bd8ad1323475ae24e489",
+  "video_bytes": 695052,
+  "frame_index_sha256": "9b218254dd5de007a88856d0f9d87f120d4010b8edd892dd29237063c611af3d",
+  "states_sha256": "397ca2a107c25341c4f32229f558ef220c66050abb08c3d03bd94ea121b8f9a2",
+  "source_RGBD_frames": [
+    {
+      "tick": 2160,
+      "native_time_s": 14.133334070444107,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_calibrated_interval/task/images/02160.jpg",
+      "image_sha256": "6c245265a27abc9683e2fc18e3435630cd62f857a03da0da88f8dd6a0cb3dabc",
+      "depth": "cases/test_m090_d12_calibrated_interval/task/depth/02160.npz",
+      "depth_sha256": "076a92a07a2c1813e908195807e7204def88ce80e486969dc5de572df6908fa6",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "fb3970fcfeccec82808a7ebd132f379445719fa6d984ddf514f708af3436d6a2"
+    },
+    {
+      "tick": 2200,
+      "native_time_s": 14.300000745803118,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_calibrated_interval/task/images/02200.jpg",
+      "image_sha256": "6b98ed935febb12d75c706a89d014f7d3c5b93c331e51d5aaff3a9fcbcfee175",
+      "depth": "cases/test_m090_d12_calibrated_interval/task/depth/02200.npz",
+      "depth_sha256": "1908ee1f97e167bf740be63881660d9c30f15169a83c71cd82a2f995fede5819",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "7aaf7c54d2439e111afd659cd4426381969df608768de15aaee71db7c5363bee"
+    },
+    {
+      "tick": 2240,
+      "native_time_s": 14.466667421162128,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_calibrated_interval/task/images/02240.jpg",
+      "image_sha256": "e59c72fb1868592e36ed312809c44bcc82731c0169d68d0066fc762d4d325f5d",
+      "depth": "cases/test_m090_d12_calibrated_interval/task/depth/02240.npz",
+      "depth_sha256": "9d1343df4758bbd609ca008f3daf00a1c17bfd67e8ddc96273ce7d45d7b7af8c",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "b799b32391d804aaae26bb4d4e7bbadb7ab1b9d071e08d265c8c736f2a9cf253"
+    },
+    {
+      "tick": 2280,
+      "native_time_s": 14.63333409652114,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_calibrated_interval/task/images/02280.jpg",
+      "image_sha256": "9d297f57eedf90e43e276634ce3c4fd26881b7f6bd89c6441cea0e1942db93d2",
+      "depth": "cases/test_m090_d12_calibrated_interval/task/depth/02280.npz",
+      "depth_sha256": "d1bd8cc8be29dc11f1cfe6eb590d9bf003230f7821f0f2c91b7fff2cca66ffab",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "a02169233c3d5b09599c2f1450f921e598bcceba6d6faed46f96836cba82ce31"
+    },
+    {
+      "tick": 2320,
+      "native_time_s": 14.80000077188015,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_calibrated_interval/task/images/02320.jpg",
+      "image_sha256": "266e22568b85bcf1511c43adebad3e908392f93c0e0fb11460c590d5831a4ee2",
+      "depth": "cases/test_m090_d12_calibrated_interval/task/depth/02320.npz",
+      "depth_sha256": "8af8e4555675f813429ad50ca284f63a191cda8697350b9076bf5a2a7e5e5d54",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "5dafa49aadf1519a8684e82d1db38994d5a1be198796c3393f23b1ce4909be5b"
+    },
+    {
+      "tick": 2360,
+      "native_time_s": 14.96666744723916,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_calibrated_interval/task/images/02360.jpg",
+      "image_sha256": "702d68868b01d1d9284055b94fe8eb170e165a1970b30237c2b8241a45166071",
+      "depth": "cases/test_m090_d12_calibrated_interval/task/depth/02360.npz",
+      "depth_sha256": "cf448da9338291961b06912495543b1d9edf66899a7135c5cfc70478234a8d4d",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "5cc5b0c9f15708ee8e16410e665e659623d0e971be9c25ee9b23f8ccfa9dde31"
+    },
+    {
+      "tick": 2400,
+      "native_time_s": 15.133334122598171,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_calibrated_interval/task/images/02400.jpg",
+      "image_sha256": "e36ff8abc8c2fe191bde1478c3e18b1f7d48b6210d2cb5be3a6eaed709cf2929",
+      "depth": "cases/test_m090_d12_calibrated_interval/task/depth/02400.npz",
+      "depth_sha256": "d757b6fff249ac51f1703c30c7f19e406703d2105a70a0ce564696c678b331d5",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "c0b1da5d47ea294a3dded01c47679e7f4e02ebb7fbfb89308734407076f0a8ee"
+    },
+    {
+      "tick": 2440,
+      "native_time_s": 15.300000797957182,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_calibrated_interval/task/images/02440.jpg",
+      "image_sha256": "34a1879574d1a11cdf649c8f92fa829140ca82e97018d449b154e5db19025fd2",
+      "depth": "cases/test_m090_d12_calibrated_interval/task/depth/02440.npz",
+      "depth_sha256": "fb6bcf8620468ed0f097f5e830f2a5a5c6a4c50fe3d26ff9a0423652d33cccfa",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "dc5c45264b3e7b04acce9a105c6e28609b9689af96bc51ee7669b3dfe6787596"
+    },
+    {
+      "tick": 2480,
+      "native_time_s": 15.466667473316193,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_calibrated_interval/task/images/02480.jpg",
+      "image_sha256": "2c2a38bfc0a12e2d5698507824d0952170e41fc85023f39b56714ef58b673538",
+      "depth": "cases/test_m090_d12_calibrated_interval/task/depth/02480.npz",
+      "depth_sha256": "9aac920ee8188815bf722dbd18bc77ddcfac7d2b74053b0fb7bddd709480a13f",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "791042bdad540ad6ae0e443ae6f9b42f9af6d576bd6ec44baefeedc5d85e4585"
+    },
+    {
+      "tick": 2520,
+      "native_time_s": 15.633334148675203,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_calibrated_interval/task/images/02520.jpg",
+      "image_sha256": "a885bf5803e9616aad06a741c2386d672e62678758449a5a6757deaf1306cf35",
+      "depth": "cases/test_m090_d12_calibrated_interval/task/depth/02520.npz",
+      "depth_sha256": "7f434a9bf3966e4a92df050f7d2b64165a0cfccc5dbe6615c0275e72cfab52e9",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "d7f3f4338c5a4e4f900ad1255f98f225d144c722fe58ae9f443638136026a387"
+    },
+    {
+      "tick": 2560,
+      "native_time_s": 15.800000824034214,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_calibrated_interval/task/images/02560.jpg",
+      "image_sha256": "0efbfc0f2e07adc5b8041c3185384eb94e99b8c587028571c64cf1aa14660737",
+      "depth": "cases/test_m090_d12_calibrated_interval/task/depth/02560.npz",
+      "depth_sha256": "dc2274ac3d032d7bf2504ed12fba7f364652a10f41cce47a9763cb10f757e2ec",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "4ac3f85317d7a02413139620d8f71d42f4b66757677950fd7b4554cd687d7897"
+    },
+    {
+      "tick": 2600,
+      "native_time_s": 15.966667499393225,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_calibrated_interval/task/images/02600.jpg",
+      "image_sha256": "5c48cb04ec4d759b2067b3f4366dea9d05f94475e28872cdce8de16b81db4311",
+      "depth": "cases/test_m090_d12_calibrated_interval/task/depth/02600.npz",
+      "depth_sha256": "7d6b854534c804d22b3a7c80484897592f55a0e13974ac6e3e11bd728549f456",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "2837faf4f7277a163a28633861b24adf6f0951d10c8c6eaba1ca732e545ec550"
+    },
+    {
+      "tick": 2640,
+      "native_time_s": 16.133334174752235,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_calibrated_interval/task/images/02640.jpg",
+      "image_sha256": "21ae37a64f460cfbf10450c4335f515bed71334c1912526498fd153494910ef4",
+      "depth": "cases/test_m090_d12_calibrated_interval/task/depth/02640.npz",
+      "depth_sha256": "ed34d60a3f55f5696635c9d21dfaa0a5c50ed7aebb8496e8f1e58fc0bf1058b5",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "31c8e33d84d4cb2997440d981029936ca4fc5602d0acf4eb3591a06ff6b8a3fe"
+    },
+    {
+      "tick": 2680,
+      "native_time_s": 16.300000850111246,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_calibrated_interval/task/images/02680.jpg",
+      "image_sha256": "54e641fd0c0bba78f264934ab4f174e1fa191c678fbc1bf0c77ecd604869c0bf",
+      "depth": "cases/test_m090_d12_calibrated_interval/task/depth/02680.npz",
+      "depth_sha256": "3df063a9e1165d92d3ec74aa2ccc9f9b7705bf7557043fbcc44bfdf46c524aae",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "6b4e827669db6a1fc0255d841c4827dd1c4d412b1869ea1b27388d740e20535c"
+    },
+    {
+      "tick": 2720,
+      "native_time_s": 16.466667525470257,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_calibrated_interval/task/images/02720.jpg",
+      "image_sha256": "8627ed0ceb050251de61ac935210e21392ce7861ab8c8682ca32ddcb21f2cc90",
+      "depth": "cases/test_m090_d12_calibrated_interval/task/depth/02720.npz",
+      "depth_sha256": "7471bdb180fee1c4e0fce3d4096db926ae0d7238d361e038d14a18aebe0d8651",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "ce6a7a54438b984d56a8088f35b093a06b020831095b4ffed0004e882e9f8577"
+    },
+    {
+      "tick": 2760,
+      "native_time_s": 16.633334200829268,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_calibrated_interval/task/images/02760.jpg",
+      "image_sha256": "86fc4ccf6f1b29667e6ed2de45c40bc10981d54daa6253242709d5646113d714",
+      "depth": "cases/test_m090_d12_calibrated_interval/task/depth/02760.npz",
+      "depth_sha256": "d5f471a3c7c246be6486f3e633aa92fe983619677b09cfcb08d08de5b0aee1c1",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "7975b10a551b7ef7be401b4e0209d40d9c41490b00528dc5958c1ee92857b17e"
+    },
+    {
+      "tick": 2800,
+      "native_time_s": 16.800000876188278,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_calibrated_interval/task/images/02800.jpg",
+      "image_sha256": "e5a6cb7f4dafb3056dd6727fb2d1d7f639ad7f3b053ba204a3b076f61ab5afa5",
+      "depth": "cases/test_m090_d12_calibrated_interval/task/depth/02800.npz",
+      "depth_sha256": "233ff210b7d345a7d6dbcb885de5b86bcf4a93979d5f44300440750aced2c5d8",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "577e75c489a836836e0bd3a747fcdcaf4e9a6f6fa774bed7fd8aee66fd140ebb"
+    },
+    {
+      "tick": 2840,
+      "native_time_s": 16.96666755154729,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_calibrated_interval/task/images/02840.jpg",
+      "image_sha256": "049a8ba46ca4c41623320cd8d68584e7af1a671241ddec186407df10af9e0e28",
+      "depth": "cases/test_m090_d12_calibrated_interval/task/depth/02840.npz",
+      "depth_sha256": "ede2b195536e5dad77bb99fb16b611f1e80f4542d97e5862d53372bf88a40989",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "778e279b7145fdd4e4f71d8a63837059948224b90666335153b5f38478c2b617"
+    },
+    {
+      "tick": 2880,
+      "native_time_s": 17.1333342269063,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_calibrated_interval/task/images/02880.jpg",
+      "image_sha256": "c4ae0c0c75502f3c89e98d04724a0467171c41105d4ec0fda403b7547758983e",
+      "depth": "cases/test_m090_d12_calibrated_interval/task/depth/02880.npz",
+      "depth_sha256": "b561c5e8705c9562380746ce6a99e0517cf38f0137056676f2da7ee962b59a93",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "8b086d2c78fb684ce8dd090f6653e96e3a1ff6bd313019d61103bfc7e2d857e1"
+    },
+    {
+      "tick": 2920,
+      "native_time_s": 17.30000090226531,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_calibrated_interval/task/images/02920.jpg",
+      "image_sha256": "a9a7bf4102fd27812b0a666c176b725c230c5a8363e92ef66b758f8be299f274",
+      "depth": "cases/test_m090_d12_calibrated_interval/task/depth/02920.npz",
+      "depth_sha256": "f7cfd33e86bf84c652aede7142e8f31b194aeeb97fa684465da8fea8910e2421",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "ff3bf6587337ae85eca670460f336171147030a1275a8cc455c81ec198d3de77"
+    },
+    {
+      "tick": 2960,
+      "native_time_s": 17.46666757762432,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_calibrated_interval/task/images/02960.jpg",
+      "image_sha256": "ec7737629eb4b5d8d359da3eacce3bd7dd17194649c7aa30213e9e3e9c6fa104",
+      "depth": "cases/test_m090_d12_calibrated_interval/task/depth/02960.npz",
+      "depth_sha256": "3185ab86637c1c90750cc3df1584db913aa3a9a6712eecca0cbfd3b9b61b6a81",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "79a1183875f2f352316399c869836418e9aa360bc2a28af455ddb3b6a8fbaa5e"
+    },
+    {
+      "tick": 3000,
+      "native_time_s": 17.63333425298333,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_calibrated_interval/task/images/03000.jpg",
+      "image_sha256": "aa5360f54b23929c2217fed8f0c5a679066ec9648f6887fa096f70fa75f66aa1",
+      "depth": "cases/test_m090_d12_calibrated_interval/task/depth/03000.npz",
+      "depth_sha256": "bfe6767101e48f9d4dfe0e17143f06e78b955834e05c0023834ee6a62542e0c8",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "4b4fbfcf18dd8782ded55b21a68457b1a98080eb3904502cfd31990540149150"
+    },
+    {
+      "tick": 3040,
+      "native_time_s": 17.800000928342342,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_calibrated_interval/task/images/03040.jpg",
+      "image_sha256": "8491db4bea4d3e68fc626c9093f0d917f5a4dd4683e9924fae772c53b02babb4",
+      "depth": "cases/test_m090_d12_calibrated_interval/task/depth/03040.npz",
+      "depth_sha256": "79910ce7aa6a3a2bd2eff3894a816dc688b91b6f4fe7ca63d06e4522e8902fea",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "1d2cfab988fc60afbdc02c5a2835ddc5638e4f743a9d99f8d407bb4686faf348"
+    },
+    {
+      "tick": 3080,
+      "native_time_s": 17.966667603701353,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_calibrated_interval/task/images/03080.jpg",
+      "image_sha256": "5511df24fb456d16430dcbeabb57d16d606e013ba6033782ed59df859c9ca27b",
+      "depth": "cases/test_m090_d12_calibrated_interval/task/depth/03080.npz",
+      "depth_sha256": "96b1d7a89e383a5dd8f1a258081b224124fc6ac969e890b197f37f6570a0593a",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "6f46d00279229955b7770d476b7889c76fb3e30d5073a273b56c0bc6fbd78203"
+    },
+    {
+      "tick": 3120,
+      "native_time_s": 18.133334279060364,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_calibrated_interval/task/images/03120.jpg",
+      "image_sha256": "197e9b82750c1e8d3bb325dd4480524ba9bab33675efc1ae682662359ec4d224",
+      "depth": "cases/test_m090_d12_calibrated_interval/task/depth/03120.npz",
+      "depth_sha256": "03855b3de3dcff5db1916218eea8c675b11482a594bca8bb3a65b05a323d5de0",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "0abd06656badf018f71fe9b4465d1e957934e2adae2a8140bbe29fe42c730656"
+    },
+    {
+      "tick": 3160,
+      "native_time_s": 18.300000954419374,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_calibrated_interval/task/images/03160.jpg",
+      "image_sha256": "0b8e6b7bc8a88836d4d0bae013c31337683435a946c9e2ae406929327955e91b",
+      "depth": "cases/test_m090_d12_calibrated_interval/task/depth/03160.npz",
+      "depth_sha256": "90a4eba18629ddbb4c2014d388b74e5ebf06357f5dbc355f0abb8ee1834f6aa1",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "e848b00d8e98550440dd643b06bf01c85fce458efa8be88a53bdba53f4b90c31"
+    },
+    {
+      "tick": 3200,
+      "native_time_s": 18.466667629778385,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_calibrated_interval/task/images/03200.jpg",
+      "image_sha256": "9c434b9adf6934c3c4a13099eea69cf10d54df074986c6546e5a6316cafcba8c",
+      "depth": "cases/test_m090_d12_calibrated_interval/task/depth/03200.npz",
+      "depth_sha256": "237736bfbabd0f1fb89b5d7a85228779318ac04f1c461823d0185f3cbe18f946",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "e2a486df158a423b97cc4793a1ead6b61ecec72affe49ec3e69176c1ad04f79d"
+    },
+    {
+      "tick": 3240,
+      "native_time_s": 18.633334305137396,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_calibrated_interval/task/images/03240.jpg",
+      "image_sha256": "5a17a7aefe5e318c0803a34e003e3aed303091ccdfffb358ef944bcdf4184ad3",
+      "depth": "cases/test_m090_d12_calibrated_interval/task/depth/03240.npz",
+      "depth_sha256": "8cf640ba91c150eee8396662fa9f854fe8cc3913a7196943353afa00e3985674",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "a220d4a3507dde05400a178841dcfeeabb7f8ec98c293ffc874da2de321c004a"
+    },
+    {
+      "tick": 3280,
+      "native_time_s": 18.800000980496407,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_calibrated_interval/task/images/03280.jpg",
+      "image_sha256": "6c7001bf836be10e7c1bb98e00ee4ecfc77925c30f2bd9b265fab01db3f1911d",
+      "depth": "cases/test_m090_d12_calibrated_interval/task/depth/03280.npz",
+      "depth_sha256": "4d3f69c0dff195f991147c5c8aace7cb7724db46884e3b910d9240fd5022d4e3",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "c26d5d87d0d19c038afa220f4b1501be04c9fd0303cfa03d257e20bfd8c45345"
+    },
+    {
+      "tick": 3320,
+      "native_time_s": 18.966667655855417,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_calibrated_interval/task/images/03320.jpg",
+      "image_sha256": "0376ab953e6fb9264543ed666ea00d8e1e235c3bc98ab1e8c71e52dec744dd40",
+      "depth": "cases/test_m090_d12_calibrated_interval/task/depth/03320.npz",
+      "depth_sha256": "89a9fd13abae279896508c656db19485bb995be8123d7b33c5199ec87576bbcf",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "d9cd60002aba916dc9be6f6127921eec88411f18b3415b1da17a7fc3310c0112"
+    },
+    {
+      "tick": 3360,
+      "native_time_s": 19.133334331214428,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_calibrated_interval/task/images/03360.jpg",
+      "image_sha256": "c6ba65e6bf230b07030d8619669ea81383695f0bddfdb58b79c1e15b1d8fa45e",
+      "depth": "cases/test_m090_d12_calibrated_interval/task/depth/03360.npz",
+      "depth_sha256": "54d9a51564ed62071d6ac7a417592700bbd26cda80555890395c5f354090e6ae",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "dcfd47899d384fa173c53aeec80b611ed4bc54d4fd76c814e113f8d9eaed9e6f"
+    },
+    {
+      "tick": 3400,
+      "native_time_s": 19.30000100657344,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_calibrated_interval/task/images/03400.jpg",
+      "image_sha256": "d7dce3c47e6a815b27a0b36622b015d4b42579e77d49cf4444ed68984b2615cc",
+      "depth": "cases/test_m090_d12_calibrated_interval/task/depth/03400.npz",
+      "depth_sha256": "8b9c745a8526535435a455d22f94c91c7e8c8375217a9d9480fd729bb0a89370",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "fe63bba03c4fcd8271cf7a3050cb390a6db54f7a2ac200840c3d02435b09be19"
+    },
+    {
+      "tick": 3440,
+      "native_time_s": 19.46666768193245,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_calibrated_interval/task/images/03440.jpg",
+      "image_sha256": "cc953d14851268a41dd1b7d257927b0db7be7d48862fdf6e80df5c90314acb55",
+      "depth": "cases/test_m090_d12_calibrated_interval/task/depth/03440.npz",
+      "depth_sha256": "bceb66d99877ff543c579f13c8e08ebcea6cf6375f2e6905a883f57fd023a36e",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "04c5783195e5159c468681290d9b1c490699df0e84d2dbc1792b09e8fd155f31"
+    },
+    {
+      "tick": 3480,
+      "native_time_s": 19.63333435729146,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_calibrated_interval/task/images/03480.jpg",
+      "image_sha256": "f7b811c18906d067b28c206f1fd85ef665e7d256b724e38819531ff68be45e5c",
+      "depth": "cases/test_m090_d12_calibrated_interval/task/depth/03480.npz",
+      "depth_sha256": "13960c3b44720812d9b473d8ada03d6a57528fe3bfe8bb539b9df0a46eb73e3a",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "f0afd4184dca230f9ca41706e78d7bcf483f3dce9526b405351b28573f080ebd"
+    },
+    {
+      "tick": 3520,
+      "native_time_s": 19.80000103265047,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_calibrated_interval/task/images/03520.jpg",
+      "image_sha256": "e3bcdebeb33eabcd0e4b2af755f76d62053687faf9948db2c95d089cda9659e4",
+      "depth": "cases/test_m090_d12_calibrated_interval/task/depth/03520.npz",
+      "depth_sha256": "5e32de20b1b7273059121a53f6f6ca556ca6264b310afe6445beed79da0e75d8",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "fdd28b5bff8cdf5b3919391265f54cd332a38d03ade6842aa3204a5d63147256"
+    },
+    {
+      "tick": 3560,
+      "native_time_s": 19.96666770800948,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_calibrated_interval/task/images/03560.jpg",
+      "image_sha256": "9b0ecc3939e95da0b5a8e5c695503cb6ab7273442987326ad15351bd08e46f43",
+      "depth": "cases/test_m090_d12_calibrated_interval/task/depth/03560.npz",
+      "depth_sha256": "ceb85ec1f13a5b6444bbc36db99f6d2a46bc7afcae2118fafc9a17d3677559a4",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "970a45df33ddb6630a26eeb0739b515a583a7adfbb9186339f8ab9e82f13baf2"
+    },
+    {
+      "tick": 3600,
+      "native_time_s": 20.133334383368492,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_calibrated_interval/task/images/03600.jpg",
+      "image_sha256": "4c7647ebc57d5248cc3fd044b1c76020d96a9d185fad7208127fe41a62cc119b",
+      "depth": "cases/test_m090_d12_calibrated_interval/task/depth/03600.npz",
+      "depth_sha256": "fa7850d5cd57306f93163f253236a584831f3e3202d55550c95f8fcd54fc041b",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "fb874c744e87eabde53f330238d6cfeac42a1bb74665e39229a90d007027716b"
+    },
+    {
+      "tick": 3640,
+      "native_time_s": 20.300001058727503,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_calibrated_interval/task/images/03640.jpg",
+      "image_sha256": "758c1b23c647daed911ea6b3629e3c1c97fe1e7bd570e3bb0e314dccaf81561b",
+      "depth": "cases/test_m090_d12_calibrated_interval/task/depth/03640.npz",
+      "depth_sha256": "de0f7094765381c44dd6fd10cfca99c237d15d84d10908393bc111883d8321f0",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "18218d23679532c075f7bbdad8114eadacaeca02bc90c72b1362065c08f98f30"
+    },
+    {
+      "tick": 3680,
+      "native_time_s": 20.466667734086514,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_calibrated_interval/task/images/03680.jpg",
+      "image_sha256": "d42cf365adba16e56c0e8821033076e7c789c9819a6533c8dbf6a646cfee652d",
+      "depth": "cases/test_m090_d12_calibrated_interval/task/depth/03680.npz",
+      "depth_sha256": "fbf4bc40045cb48ab6c1a964f6e3a3360ee26a302b702f623c6189fc08f4fc59",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "85f3a2b4f1416d4c877ee785bc16c1a43c631f88430b6679164e32acec5dab08"
+    },
+    {
+      "tick": 3720,
+      "native_time_s": 20.633334409445524,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_calibrated_interval/task/images/03720.jpg",
+      "image_sha256": "a07bff2c948f994856d3fd5ae2178f1faf8906427c609a78869f6bdcc6c46cc0",
+      "depth": "cases/test_m090_d12_calibrated_interval/task/depth/03720.npz",
+      "depth_sha256": "169d7c0d0cf545da0dfb8cd63eaa69e0b39e93b83fe0504e9bb47dd01df2e283",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "732884ea335406a5f0397a8d4b0b660d32cec8db169a02960f8c547d3437407f"
+    },
+    {
+      "tick": 3760,
+      "native_time_s": 20.800001084804535,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_calibrated_interval/task/images/03760.jpg",
+      "image_sha256": "6faefccd175c45c4b60f1b1a5b0e72dececd37e66f2ebee7da107147d4ceaf7f",
+      "depth": "cases/test_m090_d12_calibrated_interval/task/depth/03760.npz",
+      "depth_sha256": "8a430a923b3fe7e94986e35122869c75dc6e6e853767243780607ff0b446f871",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "6c04722e2915e00cb6fd3cdd59ae612e487d7fe1f9c5755c59b6dead655ad0a0"
+    },
+    {
+      "tick": 3800,
+      "native_time_s": 20.966667760163546,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_calibrated_interval/task/images/03800.jpg",
+      "image_sha256": "8bd99313974812dd9f63ba0c928ca63140005defa7651a36ba0045eb7837540e",
+      "depth": "cases/test_m090_d12_calibrated_interval/task/depth/03800.npz",
+      "depth_sha256": "965c3e23040d2078fb2a7c4f32b907830faf1ef566222b7e12da9d7369bdf475",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "dd1a700e63c2fb509082553494458a728884de125d3a2ffcab135da467181812"
+    },
+    {
+      "tick": 3840,
+      "native_time_s": 21.133334435522556,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_calibrated_interval/task/images/03840.jpg",
+      "image_sha256": "08d7a246f933da45f64f05018707ed3a20e43f89524868b5c87a3282f04f63ae",
+      "depth": "cases/test_m090_d12_calibrated_interval/task/depth/03840.npz",
+      "depth_sha256": "944726a67e38a2d10e87de615a452b6bf834f6e48dd68f2ae2f889e9dddbdaf3",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "680e08e70cb774dcb703a2451088401eae56c62177e8ae5d34e8234830d78473"
+    },
+    {
+      "tick": 3880,
+      "native_time_s": 21.300001110881567,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_calibrated_interval/task/images/03880.jpg",
+      "image_sha256": "e0f1dca66d6c7cda3c342f69725e38c95f9144048c58e672eeee8d2f3bf7d788",
+      "depth": "cases/test_m090_d12_calibrated_interval/task/depth/03880.npz",
+      "depth_sha256": "eab7c1494c65b2063dcebc5579fcc89d42fb20878ea7208b77a7c864bd8ee9a5",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "a1f8de58f86b760e82720d46146bac239ccbf6c75920043451fca03b966bf2b6"
+    },
+    {
+      "tick": 3920,
+      "native_time_s": 21.466667786240578,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_calibrated_interval/task/images/03920.jpg",
+      "image_sha256": "7667703900f3bab7c30b9e9a8eba68a812e51ba5e1593972175ab6b0f3556203",
+      "depth": "cases/test_m090_d12_calibrated_interval/task/depth/03920.npz",
+      "depth_sha256": "a17e4bda81569eba916cf22f83eac87b2324c78ee72eec232ede6871eb65ef59",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "adf6b58330860180e46ae381a178acee61d2b4679c3e8041f8d25e843e9f4844"
+    },
+    {
+      "tick": 3960,
+      "native_time_s": 21.63333446159959,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_calibrated_interval/task/images/03960.jpg",
+      "image_sha256": "e31804f865d97638789751d0f09b02b9fe43354f3aecb7d23e49acc3237789d6",
+      "depth": "cases/test_m090_d12_calibrated_interval/task/depth/03960.npz",
+      "depth_sha256": "69ab180fc38df7578adc420253d529b9fc039d7d91e1c6768e44152a26b2d778",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "8ac73926c91be5b76df3e93354891ff3b2e909ce939858c78329af3ac2aed981"
+    },
+    {
+      "tick": 4000,
+      "native_time_s": 21.8000011369586,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_calibrated_interval/task/images/04000.jpg",
+      "image_sha256": "a238fe3fbd32759678917f8bb663cddcb81688bf96301fab429b8a58ee99732a",
+      "depth": "cases/test_m090_d12_calibrated_interval/task/depth/04000.npz",
+      "depth_sha256": "92023c9ab32773dc10a3752f2cbf9c0fd650418b4fa1dcbb46863449e451014c",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "d704e5ab192f701303d4dff9994cf556c22282b36b0edca16c42e64a33f6d368"
+    },
+    {
+      "tick": 4040,
+      "native_time_s": 21.96666781231761,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_calibrated_interval/task/images/04040.jpg",
+      "image_sha256": "f94eae601b9972f1e4042ac4b8be2e023c67bd806b9179d8d4b319c2e157f244",
+      "depth": "cases/test_m090_d12_calibrated_interval/task/depth/04040.npz",
+      "depth_sha256": "2784612cea0fb59d81ba889f760e8f001ad9a3d40c81708630b49be230bb2aa2",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "13e0646cef0e3bfd2f64e13fff927e3380d6501e43b4d917d52a11962e6a9ffc"
+    },
+    {
+      "tick": 4080,
+      "native_time_s": 22.13333448767662,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_calibrated_interval/task/images/04080.jpg",
+      "image_sha256": "407880ae3013c43ebfb25fb99c60d5cca07d711a2723c65372b2db98fc4f563e",
+      "depth": "cases/test_m090_d12_calibrated_interval/task/depth/04080.npz",
+      "depth_sha256": "94711dcfaf2355390347f936026d7b853743b7114df8e3d7df51ebc9091136b9",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "3f246ac0635f52d4532851a6fd8e96efd03c55e9d796be5d3fd7bb4f3596abda"
+    },
+    {
+      "tick": 4120,
+      "native_time_s": 22.30000116303563,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_calibrated_interval/task/images/04120.jpg",
+      "image_sha256": "b05134b87ec198a4b13bb8fd0bf2f7d9741870c4812fe5e9b81301576cbcf716",
+      "depth": "cases/test_m090_d12_calibrated_interval/task/depth/04120.npz",
+      "depth_sha256": "1d2c4712e0bd416ae90a97615a5b4216757e32e35b1d4fa99c5af9fb4fb2e2b6",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "5aab30fe44833e5290fcd64b6dd7a0c0d155eefc862076d615ab3c1f706a6091"
+    },
+    {
+      "tick": 4160,
+      "native_time_s": 22.466667838394642,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_calibrated_interval/task/images/04160.jpg",
+      "image_sha256": "8fd569c2b67db6f35be475952a141495cca5907915192e3a271400a3007edf55",
+      "depth": "cases/test_m090_d12_calibrated_interval/task/depth/04160.npz",
+      "depth_sha256": "c69a7d293ee65269ec87580104d67ece4cda80ac9d482fc150d81fe8e56b108d",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "1acd1d494b8c80ce08b9d146e1c2a9ee121a799d7e5d19e0f71eac6af7a1566b"
+    },
+    {
+      "tick": 4200,
+      "native_time_s": 22.633334513753653,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_calibrated_interval/task/images/04200.jpg",
+      "image_sha256": "0bc1ad398fef9e337495d762bbd0741910468680b8ea11c1b3825dbb5271225c",
+      "depth": "cases/test_m090_d12_calibrated_interval/task/depth/04200.npz",
+      "depth_sha256": "5ca06b242c395ab11ec1203d7e3d078a266c4c7bb597822606290d229c427cbc",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "1e86025bfa5e8be7f674840b14d23e016b7041773aa4261214751054cc86dfe3"
+    },
+    {
+      "tick": 4240,
+      "native_time_s": 22.800001189112663,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_calibrated_interval/task/images/04240.jpg",
+      "image_sha256": "29a9d5e0a9b8765776d6f8433bc359d1d8757231cef774d97b2850c9140b9ed4",
+      "depth": "cases/test_m090_d12_calibrated_interval/task/depth/04240.npz",
+      "depth_sha256": "113b2c65d1e01341f0e2fe9a1cad0a8fbbaa6c4bc5a114925c1100987ffa4d44",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "492d873d6aba6e0130541b65acb8976cbcaed9a68d8518dd9f23c13ca11958b2"
+    },
+    {
+      "tick": 4280,
+      "native_time_s": 22.966667864471674,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_calibrated_interval/task/images/04280.jpg",
+      "image_sha256": "1b0d3fbe966601cef626ae187c3ec7dbe18c684e653b9710f27d6598b8b5b7fc",
+      "depth": "cases/test_m090_d12_calibrated_interval/task/depth/04280.npz",
+      "depth_sha256": "cdd935b286c1bb36296325335dbd44427e3d9811885d01146b448b9808ed09ca",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "aa79a4bdf7227a791263cc348ae0100f3fce21b932bc632a59dbf89fd9ca1658"
+    },
+    {
+      "tick": 4320,
+      "native_time_s": 23.133334539830685,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_calibrated_interval/task/images/04320.jpg",
+      "image_sha256": "230f8ba84f80902bb74bfda19e0aac459fc9a55049210cac8f136be70ae2d5b9",
+      "depth": "cases/test_m090_d12_calibrated_interval/task/depth/04320.npz",
+      "depth_sha256": "6c655ddfd234fefd9b5a1578b2dd8dd0f3a2aa6f2947aa3d8c53d2f64270377b",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "2e0fba422f94ab3187e89e99b54db97ad6b3cfa3f8c047bf22d390d82544ac34"
+    },
+    {
+      "tick": 4360,
+      "native_time_s": 23.300001215189695,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_calibrated_interval/task/images/04360.jpg",
+      "image_sha256": "eb2de7d0ec1bf433fb79c4a505ecc62bd9b268a4b827f5d7ae5f69eafa802766",
+      "depth": "cases/test_m090_d12_calibrated_interval/task/depth/04360.npz",
+      "depth_sha256": "8b67924595c251e6cbca5251ff255462ebbe7ffc6be3b4e1659615598ca561e6",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "130d81649deefe212aeca7cf1dffee174a62b5cd574a15b41e0f525a797c0e83"
+    },
+    {
+      "tick": 4400,
+      "native_time_s": 23.466667890548706,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_calibrated_interval/task/images/04400.jpg",
+      "image_sha256": "875cb74af82aa485a20ddb15b692a096e28529bed08ccfc4ad4b00947718b669",
+      "depth": "cases/test_m090_d12_calibrated_interval/task/depth/04400.npz",
+      "depth_sha256": "588e6fbf3cca8edb231c87f187dbdbad9002daebe874402ba51c53f7d78451d8",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "4758f03e14401ba94199e6df58959dff720d75cfedec6a67a6c722170b97197c"
+    },
+    {
+      "tick": 4440,
+      "native_time_s": 23.633334565907717,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_calibrated_interval/task/images/04440.jpg",
+      "image_sha256": "c6c8c4c87e598b8a2a2c038e7676f45aa53ddece8ecd00fc4ac83fcde790fdbe",
+      "depth": "cases/test_m090_d12_calibrated_interval/task/depth/04440.npz",
+      "depth_sha256": "78f8b5b211f1f5170123b07e2363b64b15598a83f2de30e15788d2ca8408e012",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "44ca567c761487bb7622d969531a6804def7f314c470a5b4ba8d0437e76e5fe0"
+    },
+    {
+      "tick": 4480,
+      "native_time_s": 23.800001241266727,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_calibrated_interval/task/images/04480.jpg",
+      "image_sha256": "08c2b4206fac64df8ae74a8b38d3d58a728eb593d69cd8d93cee1ebbc47cceaf",
+      "depth": "cases/test_m090_d12_calibrated_interval/task/depth/04480.npz",
+      "depth_sha256": "be6ad5cc225708ce5d08c1cc54866dc195a6dbd258dc3a783f1aeaee2ac64b1c",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "03fd01da2768eff2d8401c819a7e9dcdc53a750908f87ac7166d2c4950b35524"
+    },
+    {
+      "tick": 4520,
+      "native_time_s": 23.966667916625738,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_calibrated_interval/task/images/04520.jpg",
+      "image_sha256": "f2e55d3269ce6d93a09da7f7d32871cd922304fdc52f0618ef5a381ff4855b89",
+      "depth": "cases/test_m090_d12_calibrated_interval/task/depth/04520.npz",
+      "depth_sha256": "2104fb701673211f9382aa088b2a108152f2433af74db5db8962b1862dee7107",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "b4b2ae44da0a9133d64995377abff956491dcf4a3bf0693742954f01ca10e6c9"
+    },
+    {
+      "tick": 4560,
+      "native_time_s": 24.13333459198475,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_calibrated_interval/task/images/04560.jpg",
+      "image_sha256": "78a51ce1cf5726a9832524a9944ed7fb909d799cd2c7257214f6629ad80d8e87",
+      "depth": "cases/test_m090_d12_calibrated_interval/task/depth/04560.npz",
+      "depth_sha256": "68febaf4f2c2256a47cbfae4a892b6486f3b53a91e0235d2e3e037d28cfac93d",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "3b27a8cbe2d29c8b25009516023c58622b61fd7f760ff06f9b2f689fcfcd28de"
+    },
+    {
+      "tick": 4600,
+      "native_time_s": 24.30000126734376,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_calibrated_interval/task/images/04600.jpg",
+      "image_sha256": "cf06e1181ecf2d24e19d6c66358fb3189a962a858410934d4ae142f205d15e2a",
+      "depth": "cases/test_m090_d12_calibrated_interval/task/depth/04600.npz",
+      "depth_sha256": "a8098f4fca02d51e1c1e92b2657c74b5240f4398e5ef1408436bf8ce386ec25e",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "0042332305924465959b3c29b738b0de83b2dcbccdfbc78f508a3cb49c8eda0a"
+    },
+    {
+      "tick": 4640,
+      "native_time_s": 24.46666794270277,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_calibrated_interval/task/images/04640.jpg",
+      "image_sha256": "19646be85d716466d49635dfe21e0e3eacbed57916b9c0e2f5d7be7c2b504aa9",
+      "depth": "cases/test_m090_d12_calibrated_interval/task/depth/04640.npz",
+      "depth_sha256": "e62874e07fb950c94ac59437a5aab09bb2082c826ce4963fab1c41bd454bcb18",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "105e080ec7c040d541e0937641855255af575b846a71af9900c5f6c00ee2b646"
+    },
+    {
+      "tick": 4680,
+      "native_time_s": 24.63333461806178,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_calibrated_interval/task/images/04680.jpg",
+      "image_sha256": "d169e4c9e26fe5a558513dc33c513c9babb46c0ad6dec774123ff3e99e426421",
+      "depth": "cases/test_m090_d12_calibrated_interval/task/depth/04680.npz",
+      "depth_sha256": "bb3c9762899d9cfc616c51a29a8fad0d9e9ea8a0a197cb0730f596abe45481e1",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "c4d802e80f0ed10746d44cffb1166eeeae06c1b6df9e8b702f0b65604ad863c5"
+    },
+    {
+      "tick": 4720,
+      "native_time_s": 24.80000129342079,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_calibrated_interval/task/images/04720.jpg",
+      "image_sha256": "cb7bfd6c74a73429ed37128ca585b4b9840207a480687a4404044c14299063af",
+      "depth": "cases/test_m090_d12_calibrated_interval/task/depth/04720.npz",
+      "depth_sha256": "977ad36eea56e9c9560ffb387e2e6a633c4d84abef171f08f32590382ffa838f",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "02019beb8ca387c2ec2ef1b710bf5222a2a96c1b7acd45affb29c978ea0a1141"
+    },
+    {
+      "tick": 4760,
+      "native_time_s": 24.966667968779802,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_calibrated_interval/task/images/04760.jpg",
+      "image_sha256": "0f6dfd6aee8af51863de670cd57ab45ba0377ca6c259b55cf840e5890f5d0c3e",
+      "depth": "cases/test_m090_d12_calibrated_interval/task/depth/04760.npz",
+      "depth_sha256": "f3992e2c21f902761341c315954ecd9f1e288967f9842d2a1ec589e2f0e7086e",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "69673c368ae6672defc0d72d5e61b94174709bf6bea2c700be8a2bf463a30335"
+    },
+    {
+      "tick": 4800,
+      "native_time_s": 25.133334644138813,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_calibrated_interval/task/images/04800.jpg",
+      "image_sha256": "872e5c6b9df499f333c33a4c234e6d41bf29561c51c6ae5b3870f850c914a7cc",
+      "depth": "cases/test_m090_d12_calibrated_interval/task/depth/04800.npz",
+      "depth_sha256": "43639f1017e4ede27b02da15f1fd1d52df19c7ee92096957349941fb6df76916",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "36d98999d2c51be0e3fd9db7d00fa75e433dcacbe9924158ea334dc7e473b957"
+    },
+    {
+      "tick": 4840,
+      "native_time_s": 25.300001319497824,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_calibrated_interval/task/images/04840.jpg",
+      "image_sha256": "bfcd4b4b53a6250e2818883fb209370837090d7af5f1f8f2cdfc2ba72ea9026e",
+      "depth": "cases/test_m090_d12_calibrated_interval/task/depth/04840.npz",
+      "depth_sha256": "e6ff0fc7fc8084b704452900eb490c92ec62e230c1841ddcb3d13c9af815c4ad",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "cf7c9b54fe78070e5e2ab83a2543c68f7e485129b94efce20d520e21c2b49864"
+    },
+    {
+      "tick": 4880,
+      "native_time_s": 25.466667994856834,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_calibrated_interval/task/images/04880.jpg",
+      "image_sha256": "7f1a9342d4f30a6d049e1dbd991d3a4ac3c9c8c194451f38618a1d73e54a89d9",
+      "depth": "cases/test_m090_d12_calibrated_interval/task/depth/04880.npz",
+      "depth_sha256": "7cd8f5f9332dc9f1cf15234ee4624783f3ef382e042eeca5c1f2f1162f9bedf5",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "b49d973e2cf879d85d9ea2862ed70a9b4261239cf4a6ccd5669f33b25057d54b"
+    },
+    {
+      "tick": 4920,
+      "native_time_s": 25.633334670215845,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_calibrated_interval/task/images/04920.jpg",
+      "image_sha256": "f21458a642a7f595a30b16a422f40c7783a81d117ae8b11bff4050ce5d12b276",
+      "depth": "cases/test_m090_d12_calibrated_interval/task/depth/04920.npz",
+      "depth_sha256": "70852fa533e6411ab965180ae26f35c6cef1101be1b274f3afdc985a072d9883",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "7415f262180dbf512dd09ab1fe889d2bed7ff483783266071e48785c86d03b73"
+    },
+    {
+      "tick": 4960,
+      "native_time_s": 25.800001345574856,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_calibrated_interval/task/images/04960.jpg",
+      "image_sha256": "0f54a7a035ea941382727d3f6aca63ed55b689d97962752a17aad8c655b33c03",
+      "depth": "cases/test_m090_d12_calibrated_interval/task/depth/04960.npz",
+      "depth_sha256": "0c7c518bdc976f4d7edc9de94b7c83a1da5025e6e10816a399872e048ba4e479",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "129a61ecf814fe642008cce391426db6165ac9433fa64c5342f23d14ad3354a3"
+    },
+    {
+      "tick": 5000,
+      "native_time_s": 25.966668020933867,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_calibrated_interval/task/images/05000.jpg",
+      "image_sha256": "8627fe5ac250f79eee2cb91a40081a29fad0af39f2f64618cd984e649c89a588",
+      "depth": "cases/test_m090_d12_calibrated_interval/task/depth/05000.npz",
+      "depth_sha256": "e31f6f6d3571d9fdbce099495b46ae3d3ce9c99fa72843b731115d7fa9e3de40",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "4f9e4b295760c0d428481817b6e413122a29d49f4658f18ff0b838a6286162bf"
+    },
+    {
+      "tick": 5040,
+      "native_time_s": 26.133334696292877,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_calibrated_interval/task/images/05040.jpg",
+      "image_sha256": "8ac64b4729889cbf2c5bf0025cccb7fd37ea2788d999092d53a2f3690194acee",
+      "depth": "cases/test_m090_d12_calibrated_interval/task/depth/05040.npz",
+      "depth_sha256": "85301d8731d98ae0d770b8dc8b4132dd3a2b52d438a60f38b907be87c775f4fe",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "f80f26660644111c3aaffe2d943c02572725ac1654f74b0249a7b9aad3bac583"
+    },
+    {
+      "tick": 5080,
+      "native_time_s": 26.300001371651888,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_calibrated_interval/task/images/05080.jpg",
+      "image_sha256": "84c1f49f02906db79c6d8e1ce84cde1aeed95f8f0c07be7701e7e025fc1a6b8e",
+      "depth": "cases/test_m090_d12_calibrated_interval/task/depth/05080.npz",
+      "depth_sha256": "4197160161ae3c461035a64ecfcee957da796a036d1fd04243256b5e41d049b3",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "f68b3865ceb185287b9da25f86bc3e23b88ea3bff06c1fdd88cb02b4884fd954"
+    },
+    {
+      "tick": 5120,
+      "native_time_s": 26.4666680470109,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_calibrated_interval/task/images/05120.jpg",
+      "image_sha256": "d3e3a5da860b1a3cb3fec81b5bb564d0bd9d574b2937f16eba5579a4bf2dac84",
+      "depth": "cases/test_m090_d12_calibrated_interval/task/depth/05120.npz",
+      "depth_sha256": "fe7bf1c2a4f4874931abb4ac0990029ea6b15e72e284db5745be904656af07c0",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "f8180c143335ee06c6bb6e78dfb5fba6df815d218eee73ea57ee60cf51dfeba2"
+    },
+    {
+      "tick": 5160,
+      "native_time_s": 26.63333472236991,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_calibrated_interval/task/images/05160.jpg",
+      "image_sha256": "102dff8bc4ccbde50fdfa7f991aebc0643c0ef0ca5cbcfc3103784015a76dcea",
+      "depth": "cases/test_m090_d12_calibrated_interval/task/depth/05160.npz",
+      "depth_sha256": "03710f070ce3620398c7ba408f25ceb2b84b311e4596bf8e3b2e33fdbb077447",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "d54d3d2601b503ec9566846d60aebeb9b7b5aee9f26d315c891108b14327d5e6"
+    },
+    {
+      "tick": 5200,
+      "native_time_s": 26.80000139772892,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_calibrated_interval/task/images/05200.jpg",
+      "image_sha256": "31d2cee891715cf5629012a7493e1402640e314f2cfaf345df857c6f559a3169",
+      "depth": "cases/test_m090_d12_calibrated_interval/task/depth/05200.npz",
+      "depth_sha256": "1f1e1b83206a68df944f579610576be8f466dbb57b8cde2f8adaebec7ede7307",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "009a12915576e34128d99f53fb7ba4405c21d527fba2184c51457f013ab18c07"
+    },
+    {
+      "tick": 5240,
+      "native_time_s": 26.96666807308793,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_calibrated_interval/task/images/05240.jpg",
+      "image_sha256": "662eff59e43097d016537a1e26f99a9bc6242a573e638352970fe26d4cf65e8b",
+      "depth": "cases/test_m090_d12_calibrated_interval/task/depth/05240.npz",
+      "depth_sha256": "2d7f7c6b1fef2e164525e2b74959f30aebd831ab1e1e7179b8b9af571b779465",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "dfc9a3d327063d4ca0aceb28e1b9ef6dd6a62abba975b4cc008c6e9a82954d09"
+    },
+    {
+      "tick": 5280,
+      "native_time_s": 27.13333474844694,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_calibrated_interval/task/images/05280.jpg",
+      "image_sha256": "be72ceb03f62c8285309f5f532c8a135ff17849128355f624a4b5a7827fafd63",
+      "depth": "cases/test_m090_d12_calibrated_interval/task/depth/05280.npz",
+      "depth_sha256": "0f0f0295603d9f9053377fee49d8bf615deced2963f7aec74013d74afa8789a4",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "0eb6deee144e75f67a6cda01c3c16f4d4d518a3b78feb2991942f510db2bf934"
+    },
+    {
+      "tick": 5320,
+      "native_time_s": 27.300001423805952,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_calibrated_interval/task/images/05320.jpg",
+      "image_sha256": "048c5baa346c57d528ee08534b94b2e38f94cf098fbc59539b3ec32f451e3d50",
+      "depth": "cases/test_m090_d12_calibrated_interval/task/depth/05320.npz",
+      "depth_sha256": "0b03b02ebb445dec56ed26d8236e8e96adb7a879c262a38840d8d8bf8025721b",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "78b89d017f7f52d4dc218bf4e083ceb809520ada7ab89b5823205a5057850476"
+    },
+    {
+      "tick": 5360,
+      "native_time_s": 27.466668099164963,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_calibrated_interval/task/images/05360.jpg",
+      "image_sha256": "0d95cdddacfd4b3b6e5e00467bd04436b61d14fb176cb5758351700e062875f7",
+      "depth": "cases/test_m090_d12_calibrated_interval/task/depth/05360.npz",
+      "depth_sha256": "18eab08be2b79cd51023c4887104b0af04c166031ad7d4c92685811d7a24d319",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "58329c52bc2a57082a721c86abd7ed62116c56b4adb3d41e0fee77f303cc9cab"
+    },
+    {
+      "tick": 5400,
+      "native_time_s": 27.633334774523973,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_calibrated_interval/task/images/05400.jpg",
+      "image_sha256": "70baa3f9bfcd5300d24f79dca06a613efb437da32898843df89719d2bfd29e2e",
+      "depth": "cases/test_m090_d12_calibrated_interval/task/depth/05400.npz",
+      "depth_sha256": "171a5893a55e433f75ab8b327150033955f9af619a2df8802c2ed5a4167c1569",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "cc75821e188b0f642d1e4ae50efa6d69b553c96a7677b464e09f6cd7ba5bc098"
+    },
+    {
+      "tick": 5440,
+      "native_time_s": 27.800001449882984,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_calibrated_interval/task/images/05440.jpg",
+      "image_sha256": "baf2608e2b2bacd569cad9c1e1c59a4e0fc01eedd1fb6264e17b0b7029350344",
+      "depth": "cases/test_m090_d12_calibrated_interval/task/depth/05440.npz",
+      "depth_sha256": "da867548927682fe07a9d7be68b06df8ae41433664719d5ef4dea154edb3999f",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "532e9e50fa7c42e66a3ebb8c6a61852dd50ce446958123820058e052de1e1b1e"
+    },
+    {
+      "tick": 5480,
+      "native_time_s": 27.966668125241995,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_calibrated_interval/task/images/05480.jpg",
+      "image_sha256": "84591a0ebc9904bca31d881a3b34112ff91c1429a73b5d9fd49787cd7f9e0e80",
+      "depth": "cases/test_m090_d12_calibrated_interval/task/depth/05480.npz",
+      "depth_sha256": "9ff671de89b9582a233296402efaa7d0c40f6109358144175c1423e5db00d293",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "256c81da6a261429e59b1304e0f715b5f19c764fcf77f841fcc8a2df08eb50df"
+    },
+    {
+      "tick": 5520,
+      "native_time_s": 28.133334800601006,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_calibrated_interval/task/images/05520.jpg",
+      "image_sha256": "1e5ff6bbe0a268ba8b8df994cc43932b9f00ab786fa1400f5b586a8f35f2a20c",
+      "depth": "cases/test_m090_d12_calibrated_interval/task/depth/05520.npz",
+      "depth_sha256": "49094a9e1577dec0cdc545473dd4c87e3dc869ab8852bd1a33d47dbc12a94447",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "3b893a857a0b1021cb2b4572043d24b56ea6f4844b6e90fba60974e33b294a0a"
+    },
+    {
+      "tick": 5560,
+      "native_time_s": 28.300001475960016,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_calibrated_interval/task/images/05560.jpg",
+      "image_sha256": "a99b919f62527d860a65b1f8db205d9e57ad82e293fed80da956c3d49c600a10",
+      "depth": "cases/test_m090_d12_calibrated_interval/task/depth/05560.npz",
+      "depth_sha256": "abf9d4d0afcb7a1f6b9428704e0f6235a3285d886e2061c8a29388c36821c4de",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "31437b448dc3f511b8b073c73d7a2a48f9d2d0071aaee35318c9ffe5ae56b82e"
+    },
+    {
+      "tick": 5600,
+      "native_time_s": 28.466668151319027,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_calibrated_interval/task/images/05600.jpg",
+      "image_sha256": "0062d6bdcd3687637bcd598ffdd4f882acbc21b539f15fd78a7f67f9c34a237e",
+      "depth": "cases/test_m090_d12_calibrated_interval/task/depth/05600.npz",
+      "depth_sha256": "cc96f177cce5d8494637d8207e4928c50b6a52bbed956b7f40705fe137dc0a74",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "e0be92900574b4cb29e1eacd95005d995383ef01a4fd5cffb46db7d696b5d435"
+    },
+    {
+      "tick": 5640,
+      "native_time_s": 28.633334826678038,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_calibrated_interval/task/images/05640.jpg",
+      "image_sha256": "30f15313aaac2793d0cb973bd927412a19eec12baf49ab732e82f0e8993df56a",
+      "depth": "cases/test_m090_d12_calibrated_interval/task/depth/05640.npz",
+      "depth_sha256": "32e6d1bd8b5246d922acaed6ec1a6c46d332abdfebb702cfdd5e5c6dac6246b1",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "e1f0c4c804e43ce4fea5bb000b8312e8e76f1aa7d4bb5afc8bd92ccb4011144a"
+    },
+    {
+      "tick": 5680,
+      "native_time_s": 28.80000150203705,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_calibrated_interval/task/images/05680.jpg",
+      "image_sha256": "f7e50a6fe477b71acd8f12099a948810faae786c34ec9f566a0fe8c70fee4096",
+      "depth": "cases/test_m090_d12_calibrated_interval/task/depth/05680.npz",
+      "depth_sha256": "6e88f3a2c1067ead9775a5ce07b6c1edbecff8c1cffb263e22c1ae854f6bc6b8",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "5c1ea88bfe1295d0cb24b25704161e740770641ec0f90cad8fa9b5ab59e500e6"
+    },
+    {
+      "tick": 5720,
+      "native_time_s": 28.96666817739606,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_calibrated_interval/task/images/05720.jpg",
+      "image_sha256": "294654b16d07e6731d094525dee58f355e61c77d304603ab40fba987d9e471c9",
+      "depth": "cases/test_m090_d12_calibrated_interval/task/depth/05720.npz",
+      "depth_sha256": "3589de2ce75ca53eac85c784783323bb5451de4166275586e9f4bce7e5bf0a43",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "5232f13256d820b6488a9a54af9ccd86dfe55075d58cf14380ed587a5d63a7a2"
+    },
+    {
+      "tick": 5760,
+      "native_time_s": 29.13333485275507,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_calibrated_interval/task/images/05760.jpg",
+      "image_sha256": "7a944dd793760c7b2e6d0fc08478af816ce8a8bc9504c5996390fe244170677f",
+      "depth": "cases/test_m090_d12_calibrated_interval/task/depth/05760.npz",
+      "depth_sha256": "f96f1834006890ce1a30e3ae32d5044ab1ec2fb4fd5293a3710651ee4c2e8125",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "c18f00432168c906b0158b2bafa8510f2c42cf12c2926c4953c7d73bee88352a"
+    },
+    {
+      "tick": 5800,
+      "native_time_s": 29.30000152811408,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_calibrated_interval/task/images/05800.jpg",
+      "image_sha256": "8b41972bb490cbaaef380d9f274381619a98031d14eef43be8c94f61ae3fb211",
+      "depth": "cases/test_m090_d12_calibrated_interval/task/depth/05800.npz",
+      "depth_sha256": "afb227b6ac0faf6ad1ce6fea2d0d341e8d30c5511f7d54da995e777e96fbb46d",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "cddbddfbd32024ff830c5da9f609204ab274bd862e752314fbcce9b612f2f58e"
+    },
+    {
+      "tick": 5840,
+      "native_time_s": 29.46666820347309,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_calibrated_interval/task/images/05840.jpg",
+      "image_sha256": "44b280050075f06b0183c6c3e248d9fe33388915fb5c821ec6209653c9d39bdb",
+      "depth": "cases/test_m090_d12_calibrated_interval/task/depth/05840.npz",
+      "depth_sha256": "3cd066d880b72323c465e20dd4e6505760ccff3b2d410f3ccc8c35e5c65a2ba1",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "59323aa4ef53e3cec3ba8cd194f101ab99fce55723f99bc1af21ad11738eec69"
+    },
+    {
+      "tick": 5880,
+      "native_time_s": 29.633334878832102,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_calibrated_interval/task/images/05880.jpg",
+      "image_sha256": "d47a816bd1a33068aedb886ffec7dc06f3003603f3479cd7476cfea784b85994",
+      "depth": "cases/test_m090_d12_calibrated_interval/task/depth/05880.npz",
+      "depth_sha256": "0114b0ef43b181ec86d282f320dc9b171e22bc32ad10977c9bfb8500835fe4d6",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "e4b3973dad7af1f98b88358d3da71944c0359c65360f17ded40bfbbabb8167b2"
+    },
+    {
+      "tick": 5920,
+      "native_time_s": 29.800001554191113,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_calibrated_interval/task/images/05920.jpg",
+      "image_sha256": "493004951c5d6f5627c15a14ec054e3ad7bcb7d27e19fb3c391bf285c02347b1",
+      "depth": "cases/test_m090_d12_calibrated_interval/task/depth/05920.npz",
+      "depth_sha256": "bdc107a91305758ac1a1f8c8fed7042af36d0e57bd48b3a4a2803d0784585b7e",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "87847143147d005b335aaf6dd83831e17329a904ac074fe20def354c21f616b9"
+    },
+    {
+      "tick": 5960,
+      "native_time_s": 29.966668229550123,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_calibrated_interval/task/images/05960.jpg",
+      "image_sha256": "870e7ec2e69686d91b0d1ec26755f24da9987db65719e1e14c0297afd9acb8f6",
+      "depth": "cases/test_m090_d12_calibrated_interval/task/depth/05960.npz",
+      "depth_sha256": "81ac24618e4f893bd1b8475bcc3a87013b5ebc935f3c90a4f6b2d58dd42711b9",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "c25f25f7c9e1df8a6ac0f1ecd49aa6cbd1301a617b441e1217e51b5edc1e3148"
+    },
+    {
+      "tick": 6000,
+      "native_time_s": 30.133334904909134,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_calibrated_interval/task/images/06000.jpg",
+      "image_sha256": "5963355e64c4d62b1ff0dc89a0d2da12377cc2e083d7281c8cadb18349f6510b",
+      "depth": "cases/test_m090_d12_calibrated_interval/task/depth/06000.npz",
+      "depth_sha256": "d5d837ee5c6219fb52a59e082c5b787963e7f5fac5fd8a167f8438ef92172361",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "52449038695bd9f5c9e2f4c88c490d79000f1edadb9d29fc592cf6e22e3759ff"
+    },
+    {
+      "tick": 6040,
+      "native_time_s": 30.300001580268145,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_calibrated_interval/task/images/06040.jpg",
+      "image_sha256": "45a74ce038bfdff2c0ec1d1df9368f45a640f29fc7da80dba5fb3091ac3aa7dd",
+      "depth": "cases/test_m090_d12_calibrated_interval/task/depth/06040.npz",
+      "depth_sha256": "1086c94808a8ef96079ba876e0648ec36c6d5ee753305b067de215935c5876d6",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "91da2e2f332b42371af5d118f4f60bfdec68aafe3d5f5ab9a08f28e973b6106c"
+    },
+    {
+      "tick": 6080,
+      "native_time_s": 30.466668255627155,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_calibrated_interval/task/images/06080.jpg",
+      "image_sha256": "12fc087e2b284ae62994acf60456620af9a38a1f94f4985300f253580aa6e7fd",
+      "depth": "cases/test_m090_d12_calibrated_interval/task/depth/06080.npz",
+      "depth_sha256": "2f4bf8852e79802a1d82a1f8d51ac44f01e34bb1420d470a3058892871e0d225",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "e8c7836d552502b9e7d4db63e8e8e0c3f228b736e44c57d28bd245949f79fb5e"
+    },
+    {
+      "tick": 6120,
+      "native_time_s": 30.633334930986166,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_calibrated_interval/task/images/06120.jpg",
+      "image_sha256": "9227e1c4dbf2b92844c03f19c630caac2a78249e91e9c2ef080750348c3d14c8",
+      "depth": "cases/test_m090_d12_calibrated_interval/task/depth/06120.npz",
+      "depth_sha256": "6406c3c93cce935320651a6312a596f57516de5ad692fd4694daecaf6ff1a218",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "361ec479cc24e1e4216652cec88e2652c5b21790d3fc7f69b2772a6ef1bdc147"
+    },
+    {
+      "tick": 6160,
+      "native_time_s": 30.800001606345177,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_calibrated_interval/task/images/06160.jpg",
+      "image_sha256": "339f0396ce9c5f658c6d7fd84754055a0ebc39cc8f25442c50c6f65abcf4f502",
+      "depth": "cases/test_m090_d12_calibrated_interval/task/depth/06160.npz",
+      "depth_sha256": "db8fe65c5dc9f7c4eecaf2533441035577e1a33402c56505b0a65e79925ec0aa",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "ddec3674741362a75e56b4ffe98e7c8f208261d2b1b3b7acef7941d60172dae0"
+    },
+    {
+      "tick": 6200,
+      "native_time_s": 30.966668281704187,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_calibrated_interval/task/images/06200.jpg",
+      "image_sha256": "26169d5fc4404bf6e99c7d778452cb18d07230e91cc95840a7d7ea24b495e9e4",
+      "depth": "cases/test_m090_d12_calibrated_interval/task/depth/06200.npz",
+      "depth_sha256": "994ac3fb1d1b46e6a11e5723b91d6b3c5976aa04322f34bfc0a9bbc0edb7c622",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "9b3a7f1e69bcd0741c0ee803c8e119db30aaf715fbd502975f57c74e66e2a94d"
+    },
+    {
+      "tick": 6240,
+      "native_time_s": 31.133334957063198,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_calibrated_interval/task/images/06240.jpg",
+      "image_sha256": "c6304fb308cd144e5a7d6905d2df6fb53200e22403fdb2f682d0827ed9283666",
+      "depth": "cases/test_m090_d12_calibrated_interval/task/depth/06240.npz",
+      "depth_sha256": "b4e9b08a8b078f52254ff2ca308dca4943d5780eb27a2dc7818fbe010bb4c454",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "244597ab69177703df694b1bdad8a26ca1e355a6e3cd734dbacc6e65d46b9b52"
+    },
+    {
+      "tick": 6280,
+      "native_time_s": 31.30000163242221,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_calibrated_interval/task/images/06280.jpg",
+      "image_sha256": "20139260d8e5cee71c0a5040f63a20f768b94369b128212721bcac9fbe85b8ed",
+      "depth": "cases/test_m090_d12_calibrated_interval/task/depth/06280.npz",
+      "depth_sha256": "e03b930654075ff62d062253bc188df327cd1f60c18c4481562659dbf3847311",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "0c206d1cf8b3f8183ecebb21f70c4f0e2df98f0277dafa6da6a432652967057f"
+    },
+    {
+      "tick": 6320,
+      "native_time_s": 31.46666830778122,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_calibrated_interval/task/images/06320.jpg",
+      "image_sha256": "958ab00de111d00d86a8b1e4a2eb11efcc2580ffd6a718e3689a67404b483ac4",
+      "depth": "cases/test_m090_d12_calibrated_interval/task/depth/06320.npz",
+      "depth_sha256": "0d5e3e917bdfd4c89e60cb0f4cee618eda521cdbb519774d24599f85d61eef8c",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "4e0cf0cf56d4ae679b4e80c7df18ddd5ffc0a649bd1f801dd8c165a6267eca95"
+    },
+    {
+      "tick": 6360,
+      "native_time_s": 31.63333498314023,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_calibrated_interval/task/images/06360.jpg",
+      "image_sha256": "4efc0e7d8fdd7e998671506bbbaee6084a055dc21e7c0cf8cce74746616ad0dc",
+      "depth": "cases/test_m090_d12_calibrated_interval/task/depth/06360.npz",
+      "depth_sha256": "a590c2c532c1143c971140b9237e5bad91d49b22e91df598c1a4ae5318632045",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "a167b09395978f6fdea29c342e28902c8f08456022481f0362eea3beeef3c730"
+    },
+    {
+      "tick": 6400,
+      "native_time_s": 31.80000165849924,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_calibrated_interval/task/images/06400.jpg",
+      "image_sha256": "f5ff2d3fc31ca134ef4fef38078891bcb976279c5def7ecb42de74b0b1f8272b",
+      "depth": "cases/test_m090_d12_calibrated_interval/task/depth/06400.npz",
+      "depth_sha256": "321d0b523eb9ca8c4bcb69e46fd93b4be2fd92f770ae12b1cd2b5d7d1c620aa9",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "f3ad236f301366ad61d314836ce8b866820dd0f9b47bc57c429f528b241f6a9e"
+    },
+    {
+      "tick": 6440,
+      "native_time_s": 31.96666833385825,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_calibrated_interval/task/images/06440.jpg",
+      "image_sha256": "4e34fbfcdd2e2b18b2ccb9dad095a88ee164aa2b04338e9523f14d7b68c67dc7",
+      "depth": "cases/test_m090_d12_calibrated_interval/task/depth/06440.npz",
+      "depth_sha256": "8de3d57102adc840f012782b55a309d0f625697b9d18281cfeb86cf94636df01",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "afdd80f296c850dc9f073346828e0211b2ccdbfb19cf60a6a00ed1c8be8f2ea3"
+    },
+    {
+      "tick": 6480,
+      "native_time_s": 32.13333500921726,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_calibrated_interval/task/images/06480.jpg",
+      "image_sha256": "02911228198e4ff3f22c341ee987496c31ead6a2a3af07971f687aa26b2138d3",
+      "depth": "cases/test_m090_d12_calibrated_interval/task/depth/06480.npz",
+      "depth_sha256": "18dc6deebbb43316b8cbc4d99e9f51100e2a7a5904c2fd17dfd0ba8b660c5b50",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "c1a86939b052438d78a5833b7371d0772a444f85ce9830d6366907ddbfc09825"
+    },
+    {
+      "tick": 6520,
+      "native_time_s": 32.30000168457627,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_calibrated_interval/task/images/06520.jpg",
+      "image_sha256": "8a835ff4e19cbb18c4df009188c8e0a6309625e872ac4c46a1aa1efcd62ba338",
+      "depth": "cases/test_m090_d12_calibrated_interval/task/depth/06520.npz",
+      "depth_sha256": "d1b295062b3214e19c22951a6483b3bd812a29dd7c2c659a35ddffd9fb06798c",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "d8d54671ed61412d9b7e4a222d248f0e242d3f5d900fc0e2a2617410b13655dc"
+    },
+    {
+      "tick": 6560,
+      "native_time_s": 32.466668359935284,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_calibrated_interval/task/images/06560.jpg",
+      "image_sha256": "a3cb873dcd119829d5c6a1e535c7ba9f174d530e615e2aba359b8f087e9f2554",
+      "depth": "cases/test_m090_d12_calibrated_interval/task/depth/06560.npz",
+      "depth_sha256": "7af3ea273863afe7737b5da63dbeaac3dab2258ac89bf92b66b5e1ef33067252",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "90e93ca8e4b1d9f2036fe5fae690620292815c783824c2b5918ee452def048e9"
+    },
+    {
+      "tick": 6600,
+      "native_time_s": 32.633335035294294,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_calibrated_interval/task/images/06600.jpg",
+      "image_sha256": "f98d906eb478eba69517ab1533be84cf2bc143fb9973d36426b9e2cc3697165b",
+      "depth": "cases/test_m090_d12_calibrated_interval/task/depth/06600.npz",
+      "depth_sha256": "fe3c9c9f59d1f4106f7afc05cc83511fa369fdfd1f348548e25872dce529586a",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "21b2628e434a586b4b00d7942a71d77846e95733627a71d75bccd3b652b914c9"
+    },
+    {
+      "tick": 6640,
+      "native_time_s": 32.800001710653305,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_calibrated_interval/task/images/06640.jpg",
+      "image_sha256": "9843263ccb288412228c8832de20024473114a18fc9c39cdf7a70dd5a1a84a84",
+      "depth": "cases/test_m090_d12_calibrated_interval/task/depth/06640.npz",
+      "depth_sha256": "567cdae07f4f8e409163abaa9678e1a54cddc95e40501e90c24de2c318969db4",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "a61f8f579b4ca78dcb7146843ad9009963a0f3dc069c994cb79da5fccf356ae9"
+    },
+    {
+      "tick": 6680,
+      "native_time_s": 32.966668386012316,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_calibrated_interval/task/images/06680.jpg",
+      "image_sha256": "efdc994b3a4486ea9dd45d88d8f2179861b24da127e9c16bd8b1393f7365014d",
+      "depth": "cases/test_m090_d12_calibrated_interval/task/depth/06680.npz",
+      "depth_sha256": "763dd3f3658a79282f334fdbdf38458af8505eccf17d3a7e5a8672c1e462fe91",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "781b117b90ca1e99f692d973dd1d61daedd2cb37f0452efb3b4df571671ec947"
+    },
+    {
+      "tick": 6720,
+      "native_time_s": 33.133335061371326,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_calibrated_interval/task/images/06720.jpg",
+      "image_sha256": "8aad9d25cfceaa149885687384a527d6006931325d3b494ba0d8182952c935dc",
+      "depth": "cases/test_m090_d12_calibrated_interval/task/depth/06720.npz",
+      "depth_sha256": "1d2f23ff7fa2342d61f6e53ed8252fbcd3f3f5600c199a8387e7532d491f2da6",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "c7ffbdaba37871489db6cce964bee44ca376a6bf958afc72452dc52404c7c3d0"
+    },
+    {
+      "tick": 6760,
+      "native_time_s": 33.30000173673034,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_calibrated_interval/task/images/06760.jpg",
+      "image_sha256": "508cc9e1091ee88cb4b4ea9ed25e67970f843e3b656c36fce1c2e87a99da5d41",
+      "depth": "cases/test_m090_d12_calibrated_interval/task/depth/06760.npz",
+      "depth_sha256": "db2c23d50e3705c6b98694184696410dc87b82b21df119105788bfad05b3388f",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "f26ed4562fa44793c625219fa863b27beb1703a6df665b8b3edfe73923332985"
+    },
+    {
+      "tick": 6800,
+      "native_time_s": 33.46666841208935,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_calibrated_interval/task/images/06800.jpg",
+      "image_sha256": "6841a9865eab5fbbf8a3d0845b2f3f523ff1d1098a41d8fa58ab4d3a8d7cd833",
+      "depth": "cases/test_m090_d12_calibrated_interval/task/depth/06800.npz",
+      "depth_sha256": "428dad1f8bc306e0f8ae88a8b2423e7c616bb5cb70b2290b71afca57a81e6400",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "91bab5ad9c602a973e384325d2a978d80de6476edee96a7bc18ac365e01ad0fa"
+    },
+    {
+      "tick": 6840,
+      "native_time_s": 33.63333508744836,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_calibrated_interval/task/images/06840.jpg",
+      "image_sha256": "a06a0a72e31c74e770d34e994bebeb60f64a5a1e7bc805e73e66297f194c623c",
+      "depth": "cases/test_m090_d12_calibrated_interval/task/depth/06840.npz",
+      "depth_sha256": "03ea9882f27091c205ffe06633037b62600d8c987feb2630bd812e4e73cc7fae",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "f58818dc32f78f344408a26605e8da8d64d469ad7bdac66b66e2d258e948ed96"
+    },
+    {
+      "tick": 6880,
+      "native_time_s": 33.80000176280737,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_calibrated_interval/task/images/06880.jpg",
+      "image_sha256": "7dba3ef5addc89147958546bd076484edd076d18f17ad03553fa3d0d23e5491d",
+      "depth": "cases/test_m090_d12_calibrated_interval/task/depth/06880.npz",
+      "depth_sha256": "6ba3283be47cb934d6f8bc0f2ec5167f6726f10a43ec9b67aaae5bd88ea2c916",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "4d2d6d4418ac3f9959a8ec57589322cf5a4b93b9221b8129fbcc270f829ed44c"
+    },
+    {
+      "tick": 6920,
+      "native_time_s": 33.96666843816638,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_calibrated_interval/task/images/06920.jpg",
+      "image_sha256": "1ee3df0eb4d879b38a51aacd82bb5e6fb4b3c3c139ad45ad84ad021b4285660d",
+      "depth": "cases/test_m090_d12_calibrated_interval/task/depth/06920.npz",
+      "depth_sha256": "a356db42ae6c640c139e8eee46998a50a429b7df0aeed5fd691baf6e9c31b727",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "5447ab6ef91466740b179ec43a6f8e43eec8278150324c00e13535e65a0cf689"
+    },
+    {
+      "tick": 6960,
+      "native_time_s": 34.13333511352539,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_calibrated_interval/task/images/06960.jpg",
+      "image_sha256": "5aa103599d3acc767c0f4f3f6ccdb582c20b2431ce6976837d04a126320f7d9a",
+      "depth": "cases/test_m090_d12_calibrated_interval/task/depth/06960.npz",
+      "depth_sha256": "5300a6cf25a73abae085c776147695a204dbabb84fa7a214c4511f35f924e90b",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "2739616c4657895726bcd724986e491b149545c2fe6f0061e1528667a0b82f4f"
+    },
+    {
+      "tick": 7000,
+      "native_time_s": 34.3000017888844,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_calibrated_interval/task/images/07000.jpg",
+      "image_sha256": "a37f5c05b3cd98144ec9939978f224daf7c9b5ce74a524ec771a5ea50c9ea563",
+      "depth": "cases/test_m090_d12_calibrated_interval/task/depth/07000.npz",
+      "depth_sha256": "e554e34708018ab8c5c91e9671250cc64c00faeabbb9d4cb4d12662ea760e361",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "d10a9bdda9fa214717c828ea12f31e9bc34009c1ac78a7a13b325fdcd7a2338c"
+    },
+    {
+      "tick": 7040,
+      "native_time_s": 34.46666846424341,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_calibrated_interval/task/images/07040.jpg",
+      "image_sha256": "aee89aaa1eb9f9c74aca525f706e41dd9718829f700cb74a8f00d331c0a1b559",
+      "depth": "cases/test_m090_d12_calibrated_interval/task/depth/07040.npz",
+      "depth_sha256": "49cc719d375e5112ea2226c9cc16073956dfd696d1df66e2d7cdfda8d65a2a49",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "5c3986ff4f96f3d85ddc1a507c53f4edc32cae19d721ee36da68bb45a55ac634"
+    },
+    {
+      "tick": 7080,
+      "native_time_s": 34.63333513960242,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_calibrated_interval/task/images/07080.jpg",
+      "image_sha256": "6ae247dfe85daccb005094cf3532bf801378254c6c067a24b2c950d0d4f39d80",
+      "depth": "cases/test_m090_d12_calibrated_interval/task/depth/07080.npz",
+      "depth_sha256": "b648c518fc7b9d863f61fdee3f3ba4596407452df933d17cd3b964d7407d9bcd",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "90af96cb420e7757eefa1accb1908976bf7966ec79c25eebda64693b96cc8061"
+    },
+    {
+      "tick": 7120,
+      "native_time_s": 34.80000181496143,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_calibrated_interval/task/images/07120.jpg",
+      "image_sha256": "0cf443e73b003a71c892d11ccb4a83e220a6b1b483a185fb2c5e691f2d5229db",
+      "depth": "cases/test_m090_d12_calibrated_interval/task/depth/07120.npz",
+      "depth_sha256": "ceb12ad7d030b57ffed7667108b59270be136962b617c03aceab5fbfaea40eda",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "488a2244613c1fe0e2f2eea371d6268d3fa782f7b9405bdca6bd1db832dca3e3"
+    },
+    {
+      "tick": 7160,
+      "native_time_s": 34.966668490320444,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_calibrated_interval/task/images/07160.jpg",
+      "image_sha256": "5f9bcac08db6f6acb0f74cc823c1d9ebe8f7d56088394ba1eeb4e6ad6ba034fd",
+      "depth": "cases/test_m090_d12_calibrated_interval/task/depth/07160.npz",
+      "depth_sha256": "3e05e27920aaf359b0fef6037fc56161353f0b89c50ff6e52b640f8191e4373b",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "f27d0c5ffd499b4023862f3f76f93760091051b7b810e17a3de96f9fcd4459a9"
+    },
+    {
+      "tick": 7200,
+      "native_time_s": 35.133335165679455,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_calibrated_interval/task/images/07200.jpg",
+      "image_sha256": "dd4252c07196f1138fd37655d2e2d0e711087323c9acfa05ae030500a6827118",
+      "depth": "cases/test_m090_d12_calibrated_interval/task/depth/07200.npz",
+      "depth_sha256": "e027f179733a05d5c5b8ef40bdbd965b793f42b0486af3d78a43c978a75acb28",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "ce3d9986323465c9f67d5c26b6881cafa9215c0c4f9b34d54e36291232dbee3c"
+    },
+    {
+      "tick": 7240,
+      "native_time_s": 35.300001841038465,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_calibrated_interval/task/images/07240.jpg",
+      "image_sha256": "43e87e0a90ee1c0f6a911d74943fc9005400777627f2bb3070f6e7d8ef5f7684",
+      "depth": "cases/test_m090_d12_calibrated_interval/task/depth/07240.npz",
+      "depth_sha256": "5c54b2f01e7aac1b47b135af3a32caec4d1427ca8b1014f97e37125929338ec7",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "644d2a51e3b1f1a19ee82ec43161e879d4bf4c1a8fc9b27918084a249eec6d8a"
+    },
+    {
+      "tick": 7280,
+      "native_time_s": 35.466668516397476,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_calibrated_interval/task/images/07280.jpg",
+      "image_sha256": "630492672861816951bcd8453539cfb1ebdf660e1262421c1bd960d4fffce727",
+      "depth": "cases/test_m090_d12_calibrated_interval/task/depth/07280.npz",
+      "depth_sha256": "dfe6355dd9a8e3bc149b2acbf36f38939b68453d27cd555846ee87f56222e653",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "1a11fe338bb72662572c8e69b191559d28d9174922d58c4781d269b06f75138f"
+    },
+    {
+      "tick": 7320,
+      "native_time_s": 35.63333519175649,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_calibrated_interval/task/images/07320.jpg",
+      "image_sha256": "3ef0bb3b86cc94a489b109e7073f034cb26cd06fc938ccad69fe9d5b6247bc1b",
+      "depth": "cases/test_m090_d12_calibrated_interval/task/depth/07320.npz",
+      "depth_sha256": "ab7e4efed2f3412879671af8f5ab3fcbffef89b52b922b41cdb38ff0aa1c141c",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "408d4048b4ba3fdb1977ea20572e36c2eea16132c535da3b4f5a36114bf8161c"
+    },
+    {
+      "tick": 7360,
+      "native_time_s": 35.8000018671155,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_calibrated_interval/task/images/07360.jpg",
+      "image_sha256": "c82f976a2d4b40c2609bed55439ab95297fb797f745757553f749ad84a74d943",
+      "depth": "cases/test_m090_d12_calibrated_interval/task/depth/07360.npz",
+      "depth_sha256": "b37146d293f00e3637559d3bd1902587309f3967fa0bc1db2e6683c02891ceac",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "e097c49dc2559e2858d00ff52e18178f9f909c2e397e62a66b7ef6e2b343b3ad"
+    },
+    {
+      "tick": 7400,
+      "native_time_s": 35.96666854247451,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_calibrated_interval/task/images/07400.jpg",
+      "image_sha256": "c6738ae57f1e2bbeb55dec1d7d007c09b5455246e0d28e346911c9176f362256",
+      "depth": "cases/test_m090_d12_calibrated_interval/task/depth/07400.npz",
+      "depth_sha256": "ba8e55676194f9445efa2c9d678ba5025877a64d5e206909b32902b3cbaf89c2",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "f43443473c3b655fd2536b01f6dd2f1597bebc25876ae2d84509f1e758278b1a"
+    },
+    {
+      "tick": 7440,
+      "native_time_s": 36.13333521783352,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_calibrated_interval/task/images/07440.jpg",
+      "image_sha256": "bfd12040bdc4c5ac25b835220a7dc38b90c1554a910bf37b5d8b86837b24dec1",
+      "depth": "cases/test_m090_d12_calibrated_interval/task/depth/07440.npz",
+      "depth_sha256": "e5db5274f661678b85e2b6cb90e27aec8a866762de27a66cfa0e569349d9eef4",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "98a7c21944628e86be2ef8c9ce36c4ee8f65ddb636c658bc30b5d267c3f0fd3d"
+    },
+    {
+      "tick": 7480,
+      "native_time_s": 36.30000189319253,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_calibrated_interval/task/images/07480.jpg",
+      "image_sha256": "84f627a834f153a9c3e3127d592f8f6723fa5c812703c778a83ed3047a7e47f3",
+      "depth": "cases/test_m090_d12_calibrated_interval/task/depth/07480.npz",
+      "depth_sha256": "f6847cbb94b2821e2ce684816ceecfc44f8a56cb349cad8ec3bb133e108b4e4a",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "9c07af52b15f9030bd2ab5c8e44b2a034c3d3df6782a39449d8e3ba8759c823c"
+    },
+    {
+      "tick": 7520,
+      "native_time_s": 36.46666856855154,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_calibrated_interval/task/images/07520.jpg",
+      "image_sha256": "8b30a1d6bdf82c00ccfb8ee0c051bae5f11b29a025c8831700f98f7888c214ab",
+      "depth": "cases/test_m090_d12_calibrated_interval/task/depth/07520.npz",
+      "depth_sha256": "fef6ef9e80bc805be8f58a36a08af3f5b749cc2e7f21e57c106a5343c2967b29",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "67afb0ac034c0055f38452de3d1fca0ff52f1ef4c329908b128f1f902c4dc5d1"
+    },
+    {
+      "tick": 7560,
+      "native_time_s": 36.63333524391055,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_calibrated_interval/task/images/07560.jpg",
+      "image_sha256": "94323a52981cc831a772548495c1f326e4dcb589ab9bf0ad7d5c494cc2737e39",
+      "depth": "cases/test_m090_d12_calibrated_interval/task/depth/07560.npz",
+      "depth_sha256": "71a60f2a190dd3bd4ad5dd508b5ce311c7297a88ff607ac26ac3f68131d8175c",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "ab596a53129b38b3f3e1115cfe6ab532950d420eb12d3bb8b307ba7e3fdac15d"
+    },
+    {
+      "tick": 7600,
+      "native_time_s": 36.80000191926956,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_calibrated_interval/task/images/07600.jpg",
+      "image_sha256": "e1037211196499d3b0a3694dc61e2432c56c7b8ae3c1690654e6f8c94b62e455",
+      "depth": "cases/test_m090_d12_calibrated_interval/task/depth/07600.npz",
+      "depth_sha256": "05110e858dcef4976c4ced12b2382e71b326adaff144e58409ac787e2f78ea59",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "88852b22e0064b277633b1b8a9ca91068a69e946ef1554da40bd1fffedfed12f"
+    },
+    {
+      "tick": 7640,
+      "native_time_s": 36.96666859462857,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_calibrated_interval/task/images/07640.jpg",
+      "image_sha256": "545e0e8a7bcacb14fe6d88c1c506047db4b7b91220721ab9fd85a741c3f16937",
+      "depth": "cases/test_m090_d12_calibrated_interval/task/depth/07640.npz",
+      "depth_sha256": "e2a129ad7eeb6c39948b326bdf139cec2a7081dd3de1fd96dab49c53448ed423",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "31b53bfb7c3a312688a69760ba387994995b6ff958293bfdc87f8f547f78e406"
+    },
+    {
+      "tick": 7680,
+      "native_time_s": 37.13333526998758,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_calibrated_interval/task/images/07680.jpg",
+      "image_sha256": "5e7b98a5ff1cf28033995a44f1b0a872833b35b488dcedfd6954de92a6f5e6c5",
+      "depth": "cases/test_m090_d12_calibrated_interval/task/depth/07680.npz",
+      "depth_sha256": "27ef73067d9234532d459b9dac7ec18be079e0f7e58b37c639ba7450afcfd93f",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "5e865f789a08c4361c2b724c3317d218a8c5b785df55cb2b4beb8dc014b422b7"
+    },
+    {
+      "tick": 7720,
+      "native_time_s": 37.300001945346594,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_calibrated_interval/task/images/07720.jpg",
+      "image_sha256": "51d210f2617560771c907f4a363977667ddc526aec37bc2ee1f4722a08c36096",
+      "depth": "cases/test_m090_d12_calibrated_interval/task/depth/07720.npz",
+      "depth_sha256": "fa028444406d7f87f4738ecb0ce1f189b87b32c1bcc559084f2a1e53c329a3fa",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "5d1620a3555e8da2f85a8b57d754ad7e02d65cd08bab7ac9972627e2b509ddee"
+    },
+    {
+      "tick": 7760,
+      "native_time_s": 37.466668620705605,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_calibrated_interval/task/images/07760.jpg",
+      "image_sha256": "1d19f09d14cf38f95dd1f2a3a4fe9c7f4d1bb5080fa1a9ce022488455e7a3f8b",
+      "depth": "cases/test_m090_d12_calibrated_interval/task/depth/07760.npz",
+      "depth_sha256": "e7a508c9de87a0cac7c61475947283f5ef2b5e3f6274ddb9bcdccad28aabcc68",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "d31f0607de1d0d27ac686ef9145b7c67d32cf3cd7a887b07b7bd9a5cc85a7b14"
+    },
+    {
+      "tick": 7800,
+      "native_time_s": 37.633335296064615,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_calibrated_interval/task/images/07800.jpg",
+      "image_sha256": "3be61477c62f91d16a1e799afab42ff0a9fee8d007f54bbf945c78008da1d9d0",
+      "depth": "cases/test_m090_d12_calibrated_interval/task/depth/07800.npz",
+      "depth_sha256": "215303c6e71d144c0af7e4eef6861f58091f01082f1d036d20e6db82cfb8d015",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "8df9affc7061ad5f3679682ee2e81f0a147ce99cc476a01b7c3055f74683f827"
+    },
+    {
+      "tick": 7840,
+      "native_time_s": 37.800001971423626,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_calibrated_interval/task/images/07840.jpg",
+      "image_sha256": "844eda61cce2cbea23eaeed1befdc66388175c5ba1c28de3afbdc781dc85aa45",
+      "depth": "cases/test_m090_d12_calibrated_interval/task/depth/07840.npz",
+      "depth_sha256": "51afc17b2fa933faa9e90f05ac286d3b91691732b069ed97ed12ab2ec01fab00",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "f53fdbcff45503d34af8fe6bb70c4f2941769df95bc084ca72b4633818e6873a"
+    },
+    {
+      "tick": 7880,
+      "native_time_s": 37.96666864678264,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_calibrated_interval/task/images/07880.jpg",
+      "image_sha256": "1ff2f66456e312dfa468f3d2762a6877e1d25ce92a478826b6a1b5cbe81ba117",
+      "depth": "cases/test_m090_d12_calibrated_interval/task/depth/07880.npz",
+      "depth_sha256": "6835aa67d3d2e48f1a637533fc2e9e39b3e371c0f2b646c84a7541848360da17",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "36f7faf8e6f9a49cadd11cf9d94e022b3a2911455a98cce11495825d9ddac1ca"
+    },
+    {
+      "tick": 7920,
+      "native_time_s": 38.13333532214165,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_calibrated_interval/task/images/07920.jpg",
+      "image_sha256": "69dc44c2ca4b59ca9265dcba5b10cdb01b1793634ddee4ce01926ffc513622f7",
+      "depth": "cases/test_m090_d12_calibrated_interval/task/depth/07920.npz",
+      "depth_sha256": "9ec9bd9f9107d623a905a5a5fe44976d34c1a9d7007a1d7bf573cd604ebe772a",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "365fe9517d35560473c1c5b712b19ac9c93ac6d144a03460532a8bc0cb47d084"
+    },
+    {
+      "tick": 7960,
+      "native_time_s": 38.30000199750066,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_calibrated_interval/task/images/07960.jpg",
+      "image_sha256": "00e4ae0f12b2e9f1bc7ccbc03ed9566686e83bcfae6ee0e35bb13feb25ebcde0",
+      "depth": "cases/test_m090_d12_calibrated_interval/task/depth/07960.npz",
+      "depth_sha256": "2900e72a38ed9ec3fe6bc4b7fe1b173fefaffcf7289c634ead49a2c72e29a75c",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "16d3166cf5acab418b2fc8805356538ddfe6db7074d27c478bee4f7e6acd3e1f"
+    },
+    {
+      "tick": 8000,
+      "native_time_s": 38.46666867285967,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_calibrated_interval/task/images/08000.jpg",
+      "image_sha256": "2fd188961b44843ae4160aa8fa8c1bda66915bb0880e82b94a372d50ff7f431f",
+      "depth": "cases/test_m090_d12_calibrated_interval/task/depth/08000.npz",
+      "depth_sha256": "4e29bd1ed186114f4d138eec767cff86b749b5ac146acc5d307145caa68ee5f5",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "f739d842f5d7d1a65df8579a55c7dbc9cd0894da0b931ad6d84039be108c9255"
+    },
+    {
+      "tick": 8040,
+      "native_time_s": 38.63333534821868,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_calibrated_interval/task/images/08040.jpg",
+      "image_sha256": "dbe2aeff2e1e83260ae4df088483cd77544ab09d96a64f3403bb7009cf71d5ea",
+      "depth": "cases/test_m090_d12_calibrated_interval/task/depth/08040.npz",
+      "depth_sha256": "50c3ac0c680e0895a33988f12b74d4042f4fee8ab1e3772f17de8e713bd39a3b",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "8f659060c1c7ff2e0d062505fe217a414d62c797ba0b3a49312f285852bfb4ef"
+    },
+    {
+      "tick": 8080,
+      "native_time_s": 38.80000202357769,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_calibrated_interval/task/images/08080.jpg",
+      "image_sha256": "3767b7106b1ab38ab91daf355ea89e8c0c0f1b972f67989db14071caf642fe96",
+      "depth": "cases/test_m090_d12_calibrated_interval/task/depth/08080.npz",
+      "depth_sha256": "4b20d1d4d1c3e2832b99650c1b7f012079bd98986d3c9667f044b2c446136200",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "abd2b8e2b855eb4d29420efd32bbd8ef860cc947f7429bd4dd1a73e68a0efef2"
+    },
+    {
+      "tick": 8120,
+      "native_time_s": 38.9666686989367,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_calibrated_interval/task/images/08120.jpg",
+      "image_sha256": "904eefb3d73a9bedd7481cba1faebe6d675caabd1475fe2966245df6c51ae78c",
+      "depth": "cases/test_m090_d12_calibrated_interval/task/depth/08120.npz",
+      "depth_sha256": "302e7eecfde3f3b0c6b7839313eabe8d68e4973f3cc471db5b4ec16054cc837f",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "05633bb09ac9079cad4aa71c6bbd7391b12af387a26d54a147623294aa1d94fd"
+    },
+    {
+      "tick": 8160,
+      "native_time_s": 39.13333537429571,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_calibrated_interval/task/images/08160.jpg",
+      "image_sha256": "3c086a23adff5955fe0b539380fc92118339c7706ae0c4a2711e806769ed59bb",
+      "depth": "cases/test_m090_d12_calibrated_interval/task/depth/08160.npz",
+      "depth_sha256": "5b876b0070cc9223a8b2f40321f0aa7dbde030b53013c70bc59a6fd952d4f71b",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "fcff2e643c5d3403a65f8df0e98103cdb7d5dca556b2670e9142c4c0e447ffa3"
+    },
+    {
+      "tick": 8200,
+      "native_time_s": 39.30000204965472,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_calibrated_interval/task/images/08200.jpg",
+      "image_sha256": "f87bbbf880c6ce955091f0ca1a39e4db634c214429a632d67d661674dba41447",
+      "depth": "cases/test_m090_d12_calibrated_interval/task/depth/08200.npz",
+      "depth_sha256": "97226301f8eda95d7c06ba505e152ab2d64e563ead6e93edd007f7beb7083426",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "d31ddb45335c0dc189fc21b1bf42f894c429839aec9765a3ac76b825edf02c06"
+    },
+    {
+      "tick": 8240,
+      "native_time_s": 39.46666872501373,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_calibrated_interval/task/images/08240.jpg",
+      "image_sha256": "b61c828ae7ae1c3663fc0be505ddfbd2733a313af006d133859b8c908561ca9f",
+      "depth": "cases/test_m090_d12_calibrated_interval/task/depth/08240.npz",
+      "depth_sha256": "78508b58fe731c0638e556ba951dfc96762c643385bd896315c91abf7fc18ef3",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "bcfd4b8caeaea766a946e341cb16235a8ed30e7522392af217b57339ae99d9af"
+    },
+    {
+      "tick": 8280,
+      "native_time_s": 39.633335400372744,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_calibrated_interval/task/images/08280.jpg",
+      "image_sha256": "dea1da4d1499b8813dcaaf418d047ec70bdf522911c6637ab5ec356f0b920633",
+      "depth": "cases/test_m090_d12_calibrated_interval/task/depth/08280.npz",
+      "depth_sha256": "c6daa00e82eace296f338c267cff03c30b998770b8e2d4c3b65f1a404080e6a6",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "2eabb4d528d6c51be353030daed36714e0e5670bcf38202e1d3312118f1e1b7c"
+    },
+    {
+      "tick": 8320,
+      "native_time_s": 39.800002075731754,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_calibrated_interval/task/images/08320.jpg",
+      "image_sha256": "43b732ba1ee485b82494b195406c2d5db662bd8942f4e1ebfa53b9d92fecbeb2",
+      "depth": "cases/test_m090_d12_calibrated_interval/task/depth/08320.npz",
+      "depth_sha256": "54765e8cd905382edd4cdee52f1eff4a6245d1dc808ab997731d5471b050d96b",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "575351c7165cd340b9ec992c4e773198a8fefff7521e5368bd14ff60ca92b46f"
+    },
+    {
+      "tick": 8360,
+      "native_time_s": 39.966668751090765,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_calibrated_interval/task/images/08360.jpg",
+      "image_sha256": "c8c6f4cf9d3ad1c2653fadbd5828486592fd9bd80d1bb47f00c4db0c2cb8c0df",
+      "depth": "cases/test_m090_d12_calibrated_interval/task/depth/08360.npz",
+      "depth_sha256": "f52c9a16ae84c1dcbb3eae91c71e523cfa29b0a82cb36f682be61ad42426b96d",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "4be9f99cfd978fbbadcb4a61feb64e8244182ad718a59c68a68b94a80e75f218"
+    },
+    {
+      "tick": 8400,
+      "native_time_s": 40.133335426449776,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_calibrated_interval/task/images/08400.jpg",
+      "image_sha256": "1c20c646deb09950553ed59098aa8be4abb6d1d18c9fb023002c1d23c74b9447",
+      "depth": "cases/test_m090_d12_calibrated_interval/task/depth/08400.npz",
+      "depth_sha256": "aef0cd691d852ad7758d1011ec2a869faeb48c611afe214c912f8222695d718e",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "cfcaa817981e99d64ac869fcc7d922c7bfc4518b9231e58f30e59fdbd9f8a025"
+    },
+    {
+      "tick": 8440,
+      "native_time_s": 40.300002101808786,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_calibrated_interval/task/images/08440.jpg",
+      "image_sha256": "7e98ab8451ccd733fe6e87ec290a38fd299a738d4e8206812d107cd2b2eb02d1",
+      "depth": "cases/test_m090_d12_calibrated_interval/task/depth/08440.npz",
+      "depth_sha256": "d37adada52f55fce2836ff69b244228c3688f3bf59d07bddf3f1084c9371821a",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "50d15c52945d78e21c930ff9a5c3eb9c82eddfa45ab335c6866c864445e1e3bf"
+    },
+    {
+      "tick": 8480,
+      "native_time_s": 40.4666687771678,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_calibrated_interval/task/images/08480.jpg",
+      "image_sha256": "d8b6b0f16ab24e8339620a9fdb6758d58266b08faf451e58113d65a0db4c968b",
+      "depth": "cases/test_m090_d12_calibrated_interval/task/depth/08480.npz",
+      "depth_sha256": "43490ee5f738b88beb807e0f7d85c0350b4bd068f9b5743258013844ffb88646",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "a62d5191773f05dedd0d6a7d37937840a34e15abb621643985fdc6f286ecc460"
+    },
+    {
+      "tick": 8520,
+      "native_time_s": 40.63333545252681,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_calibrated_interval/task/images/08520.jpg",
+      "image_sha256": "5765a9ce6f956164276b581f9f154c838d8fab8c54818d8503a78e32487cd573",
+      "depth": "cases/test_m090_d12_calibrated_interval/task/depth/08520.npz",
+      "depth_sha256": "933f86671a701f90ae8939b53ad84d24575733329c40d5b533845445cf999ba2",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "b5c4d3001050cb23aef3fae9dd04a71a245d441bb8c889cb21a5c7d9f8010db8"
+    },
+    {
+      "tick": 8560,
+      "native_time_s": 40.80000212788582,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_calibrated_interval/task/images/08560.jpg",
+      "image_sha256": "bb24c16bddbadcc31b03c5e7064b896c565a8adc7905170dbbfe9331f8ed52dc",
+      "depth": "cases/test_m090_d12_calibrated_interval/task/depth/08560.npz",
+      "depth_sha256": "7555ec45b066cc1dcbf3354d39e39691a19c35eaacf944a1c8aada37b504cf00",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "921c3f16fe5a852008d37badab431a099ab9a5b61a5c1e3038bab2c0b3bcb011"
+    },
+    {
+      "tick": 8600,
+      "native_time_s": 40.96666880324483,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_calibrated_interval/task/images/08600.jpg",
+      "image_sha256": "13197ab3734a989700a44e2e4518840fca48112a741d494dd26339d743153805",
+      "depth": "cases/test_m090_d12_calibrated_interval/task/depth/08600.npz",
+      "depth_sha256": "d2556372b26520e304e7abfe1c8ff829194d387bc675f493e507e57583e5375b",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "35105b83eafa5ebfad1645d869614e068ec896f062e9cde03a7d4adfe108889e"
+    },
+    {
+      "tick": 8640,
+      "native_time_s": 41.13333547860384,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_calibrated_interval/task/images/08640.jpg",
+      "image_sha256": "2fe05269075d0fab56d976b3a4a6487211638fdeb444917ab2bc8ed655388c22",
+      "depth": "cases/test_m090_d12_calibrated_interval/task/depth/08640.npz",
+      "depth_sha256": "a0c291d1a39b8b75cc4b43df825d66e462cfed1f27d5cc344464a12277e66ddf",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "39117a9c693f4610d2c5ffd8af7112bccf94357f36c260b2632686c7b581b0c4"
+    },
+    {
+      "tick": 8680,
+      "native_time_s": 41.30000215396285,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_calibrated_interval/task/images/08680.jpg",
+      "image_sha256": "45a7f7d799c45cd325ad4e3672225e2c6a4ea4ceadd80089cf54217444732c9e",
+      "depth": "cases/test_m090_d12_calibrated_interval/task/depth/08680.npz",
+      "depth_sha256": "635fcb31e9440eca4b557ef2cce3c741baa7a0ca56f81928ce027dabbdbd4460",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "cbc8c8a0ad26560561bf68391819cce67608b61f1297c5f57db7d36a75e9d7b1"
+    },
+    {
+      "tick": 8720,
+      "native_time_s": 41.46666882932186,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_calibrated_interval/task/images/08720.jpg",
+      "image_sha256": "fba806b4bce630d50b0ad9f184f8fab69519c5337c1e21a82755ba325a3e045a",
+      "depth": "cases/test_m090_d12_calibrated_interval/task/depth/08720.npz",
+      "depth_sha256": "eee0538b540c654b4ff77930dc2c74b841f32ab5bf076ab81d3ee59e106bc4f4",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "8debffcd50add28892bcb1f94607389cbfe19545a1e9e9d158b7790869462e6a"
+    },
+    {
+      "tick": 8760,
+      "native_time_s": 41.63333550468087,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_calibrated_interval/task/images/08760.jpg",
+      "image_sha256": "77fc62cf189d613799715e00bf8a50834b24c58ea1d0edd9e3974cad82bb2e24",
+      "depth": "cases/test_m090_d12_calibrated_interval/task/depth/08760.npz",
+      "depth_sha256": "298207ed686b5aa152dc0f034959b29932ef0a476becea528e9ef1d9181feb45",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "b97e0ab9af8283361bc842002da3f5e5d138dbca302e9953ff4b089d7aa3a945"
+    },
+    {
+      "tick": 8800,
+      "native_time_s": 41.80000218003988,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_calibrated_interval/task/images/08800.jpg",
+      "image_sha256": "83fe14521ac97030279131e337b43d2ad00862739764dac347e5a2153d22a088",
+      "depth": "cases/test_m090_d12_calibrated_interval/task/depth/08800.npz",
+      "depth_sha256": "28961c4a9e617a7e5a30d1600687504f911dfd6c77cbacdf5664585bf39c1374",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "0d22b9b28725b86447819304b1fca3d253c7e7cbff4229addcc20c0e1cadaddc"
+    },
+    {
+      "tick": 8840,
+      "native_time_s": 41.96666885539889,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_calibrated_interval/task/images/08840.jpg",
+      "image_sha256": "cf7e6b55b16d124cf226a6b9cdc22ef5da496acb41064036c46c4ee747da31e4",
+      "depth": "cases/test_m090_d12_calibrated_interval/task/depth/08840.npz",
+      "depth_sha256": "78804cbdbd9b1506478b9593f124002bbc939e845db95e82eacfd81a20f54016",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "0f89a28b5648baf2653d63d0779b7b9fa2bbf224f0e4bcb31ea7f4d5e7c9bd6f"
+    }
+  ],
+  "ffprobe": {
+    "programs": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "width": 640,
+        "height": 400,
+        "r_frame_rate": "6/1",
+        "avg_frame_rate": "6/1",
+        "duration": "28.000000",
+        "nb_read_frames": "168"
+      }
+    ],
+    "format": {
+      "duration": "28.000000"
+    }
+  },
+  "ffmpeg_decode_command": [
+    "ffmpeg",
+    "-hide_banner",
+    "-loglevel",
+    "error",
+    "-threads",
+    "2",
+    "-i",
+    "/data/liyufeng/paperb_grip_qualified_analysis_tools_20261013_v1/test_videos/test_m090_d12_calibrated_interval/recorded_native_rgb.mp4",
+    "-f",
+    "null",
+    "-"
+  ],
+  "ffprobe_command": [
+    "ffprobe",
+    "-v",
+    "error",
+    "-count_frames",
+    "-select_streams",
+    "v:0",
+    "-show_entries",
+    "stream=codec_name,width,height,nb_read_frames,avg_frame_rate,r_frame_rate,duration:format=duration",
+    "-of",
+    "json",
+    "/data/liyufeng/paperb_grip_qualified_analysis_tools_20261013_v1/test_videos/test_m090_d12_calibrated_interval/recorded_native_rgb.mp4"
+  ],
+  "ffmpeg_full_decode_exit_code": 0,
+  "synthetic_or_interpolated_frames": 0,
+  "CPU_encoder": "libx264 threads2",
+  "original_JPEG_is_lossy": true,
+  "MP4_is_lossy": true,
+  "depth_is_preserved_in_original_NPZ_not_encoded_in_MP4": true,
+  "native_uncompressed_RGB_sha_is_recorder_metadata_not_recomputed_from_lossy_JPEG": true,
+  "video_is_not_25ms_timing_oracle": true,
+  "test_score_files_read": 0,
+  "test_outcome_used_for_selection": false,
+  "new_native_episodes": 0,
+  "GPU_jobs_started": 0,
+  "fit_executed": false
+}

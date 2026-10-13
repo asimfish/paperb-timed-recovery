@@ -1,0 +1,51 @@
+{
+  "verdict": "Pass",
+  "scope": "FROZEN_EIGHT_NATIVE_DEVELOPMENT_REACHABILITY_WITNESSES_AND_114_MEMBER_ARCHIVE_ONLY",
+  "dimensions": {
+    "functional_achievement": {
+      "status": "Pass",
+      "evidence": "All8 complete1201-sample native witnesses,10 original RAW conditions and explicit nonempty graph edges independently TRUE. No formal32 outcome claim."
+    },
+    "correctness_and_reliability": {
+      "status": "Pass",
+      "evidence": "Public capture-before-ACK/deliver-after100ms/1201actorinputrows exact; full independent command MuJoCo replay8\u00d71201 state/timeerror0; 8semanticnegative CPUchecks; independent eight public candidate enumerations action/boxes/budget exact."
+    },
+    "architecture": {
+      "status": "Pass",
+      "evidence": "Actor constructor only public contract/resource/dt/charge; estimator/planner do not importplant/referee. Actor liveplanning explicitly known_drop_oracle=False. Private-oracle path remains model-analysis-only."
+    },
+    "function_and_API_design": {
+      "status": "Pass",
+      "evidence": "Queue request/start/ACK/effect separated; immutable originalcoarseidentity and conditional refined sameeventprovenance; neither ACK nor confirmation used as physical occurrence."
+    },
+    "style_and_maintainability": {
+      "status": "Pass",
+      "evidence": "Frozen15 source andsource_snapshot exact, oldwarning and versiontransition retained; smalldevelopment components have explicit roles and no frozen-file edits."
+    },
+    "performance": {
+      "status": "Risk",
+      "evidence": "Chosenprograms obey20ms simulated charge and nativeintegration continues. Hostcomputation is measured but does not advanceplant; no hardreal-time guarantee is evidenced."
+    }
+  },
+  "blocking_findings": [],
+  "non_blocking_improvements": [
+    {
+      "id": "DECLARED_MODEL_LIMIT",
+      "evidence": "All8 privateplants I.002/D.006/noiseless/publicsame_nominal/faultfirst_A_stop_drop. Nonebranch conditionalmodelchecked; no native nonebranch experiment or unknown-modelsupport guarantee."
+    },
+    {
+      "id": "NO_AGENTIC_NECESSITY_SUPPORTED",
+      "evidence": "One publicknown-model strongbatch withblind2A solves8/8. No query, statefulfeedbackrecovery, learning, weights, OPD, or episodicadaptation advantage follows."
+    },
+    {
+      "id": "DEVELOPMENT_SPLIT_AND_SAMPLE_LIMIT",
+      "evidence": "Eightconditions inspected/developmentseen; same-condition32 repeats cannotbeunseenheldout. 200ms21point stopandBmaintenancesampled, nocontinuousproof, nooriginalrobot/chemistry/RGBVLA."
+    }
+  ],
+  "minimum_required_repair": "None for retaining these8 asdevelopmentwitnesses. Formal32 requires separatefreeze ofcontrollers/causalchargedruntime/public-inputauditor/independentpredicate gates and clearfixed-paired split; donotweakenstrongbatch to manufactureadvantage.",
+  "created_at_utc": "2026-10-13T15:36:30.844338+00:00",
+  "full_independent_audit_sha256": "6488f157cc29e959e05cdeae65a77377f0fef63022976cfb1bf4e25ef7efccbb",
+  "public_audit_sha256": "4d98ce08da0752f90839cc7a5391c02f8f8b1d0971e4d095515836b3fc1a26f6",
+  "public_schedule_enumeration_sha256": "cbcfd44ca307f0a48d4724e7ec8abdd0485802789f2d25f9cda74037c0f43529",
+  "auditor_scope_after_outcome_development_review_not_new_prospective_method_protocol": true
+}

@@ -1,0 +1,934 @@
+{
+  "schema": "paperb-third-independent-prospective-v2-witness-audit-v1",
+  "created_at_utc": "2026-10-13T15:31:43.593581+00:00",
+  "status": "PASS_DEVELOPMENT_WITNESS_COMPONENT_ONLY",
+  "source_release_sha256": "a759e9cebe249ad636e604d4c42ee73e8df058feb9130d6f8469f2429006459e",
+  "source_and_input_boundary_review": {
+    "frozen_source_files": 15,
+    "source_snapshot_exact": true,
+    "actor_constructor_only_public_contract_resource_dt_charge": true,
+    "live_actor_known_drop_oracle_explicit_False": true,
+    "actor_estimator_planner_no_private_simulator_or_referee_imports": true,
+    "information_boundary_is_trusted_implementation_dataflow_not_process_sandbox": true
+  },
+  "archive_reopen_review": {
+    "archive_sha256": "a8f6036f4f0a89fe83c15f07620cbd1eb6de2fcfaeaf54bee91467014a747a9a",
+    "archive_bytes": 894593,
+    "regular_member_count": 114,
+    "all_member_SHA_independently_reopened_exact": true,
+    "no_extraction_or_execution_of_member_code": true
+  },
+  "case_rows": [
+    {
+      "case_id": "v2_diag-A_then_C-B5-D2p8",
+      "raw_samples": 1201,
+      "primary_role": "DEVELOPMENT_WITNESS_NOT_FORMAL",
+      "joint": "TRUE",
+      "values": {
+        "raw_one_epoch": "TRUE",
+        "actual_B_original_anchor": "TRUE",
+        "irreversible_B_angle": "TRUE",
+        "A_original_time": "TRUE",
+        "C_original_time": "TRUE",
+        "B_sampled_maintenance": "TRUE",
+        "service_capacity": "TRUE",
+        "original_anchor_before_failure": "TRUE",
+        "actual_drop_and_effective_recovery": "TRUE",
+        "graph": "TRUE"
+      },
+      "raw_first_B_event_ns": [
+        440000000,
+        450000000
+      ],
+      "original_public_coarse": {
+        "lower_ns": 400000000,
+        "upper_ns": 450000000,
+        "first_arrival_ns": 550000000,
+        "kind": "B_PUBLIC_OBSERVED_FIRST_Q2"
+      },
+      "conditional_same_event_public_model": {
+        "lower_ns": 440000000,
+        "upper_ns": 450000000,
+        "first_arrival_ns": 550000000,
+        "kind": "B_SAME_EVENT_CONDITIONAL_PUBLIC_MODEL"
+      },
+      "public_model_forward_residual_recomputed": [
+        0.0,
+        8.881784197001252e-16
+      ],
+      "refinement_is_conditional_not_support_guarantee": true,
+      "stop_events": {
+        "A": {
+          "interval_ns": [
+            2320000000,
+            2330000000
+          ],
+          "confirmation_ns": 2530000000,
+          "confirmation_positive_samples": 21,
+          "had_prior_moving_sample": true
+        },
+        "C": {
+          "interval_ns": [
+            3240000000,
+            3250000000
+          ],
+          "confirmation_ns": 3450000000,
+          "confirmation_positive_samples": 21,
+          "had_prior_moving_sample": true
+        }
+      },
+      "time_scores": {
+        "A": {
+          "verdict": "TRUE",
+          "duration_interval_ns": [
+            1870000000,
+            1890000000
+          ]
+        },
+        "C": {
+          "verdict": "TRUE",
+          "duration_interval_ns": [
+            2790000000,
+            2810000000
+          ]
+        }
+      },
+      "B_sampled_maintenance_checked_samples": 600,
+      "graph_gap_lower_ns": 910000000,
+      "native_charged_decision_ns": 20000000,
+      "candidate_evaluations": 300,
+      "selective_action_requests": 3,
+      "A_requests": 2,
+      "C_requests": 1,
+      "recovery_kind": "PREPLANNED_BLIND_TWO_A_REDUNDANCY; NOT_FEEDBACK_TRIGGERED_RECOVERY",
+      "decision_before_actual_drop_ns": 560000000,
+      "first_A_drop_ACK_ns": 750000000,
+      "second_A_request_ns": 750000000,
+      "earliest_post_drop_public_packet_arrival_ns": 900000000,
+      "physical_native_reintegration_diagnostic": {
+        "samples": 1201,
+        "native_steps": 1200,
+        "state_max_absolute_error": 0.0,
+        "native_time_absolute_error": 0.0,
+        "independent_native_epoch": true,
+        "integration_input_is_declared_private_plant_and_command_ACKs_not_RAW_ctrl_or_effect_success_flags": true
+      },
+      "raw_artifact_sha256": {
+        "SUMMARY.json": "ec7eb4b3bfcb86326ff44878c1c214341ff9d06f9cb4db112542dd505e3ab34d",
+        "public_deliveries.json": "01059699da12b7eb7a668653887be196df976f5c45df5ec428dfd4310ee8bc22",
+        "public_actor_inputs.json": "9f0016eaa355333fb254477400bb2637a235ef0703d1dee96bbea3e2b536b9dc",
+        "contract.json": "febf826eb3ea6b45d59fa188bb317ad84707814d22d1bba7e47382f236f3b33a",
+        "private_effects.json": "9c6eb392f134206973a8d3442a104045be033549aee398bf79b9f2539d8e2455",
+        "commands.json": "56739cda9ebea363780e801667b5d08920758988101a64ea5b21a3f62f445b3b",
+        "public_captures.json": "59abe5d3936deaed0ea3d69156bf50529e4540ea6bd72064bd0d2e92094b49f9",
+        "public_model_refinement_evidence.json": "c9d07c58f5dd7445349fd18b3b2a6e0fb982beed361cca738dbb6d2c0d7300fa",
+        "independent_samples.csv": "bd9ba9fcd5442bfd95309c9e7602fe605ce94329c732127913ab3dfce18c6f62",
+        "raw_verdict.json": "e4b0c16c517c75839d3205f1c8f5e9d87d0c82762671729fa51880fd75926b31",
+        "public_decisions.json": "461575c90f64bf5cd03a5052d3721bab781c9f54aee4fa7c2e90ed7e406821d7"
+      },
+      "physical_continuity_between_ticks_not_established": true,
+      "chemical_hardware_RGB_learning_claim": false
+    },
+    {
+      "case_id": "v2_diag-A_then_C-B5-D3p1",
+      "raw_samples": 1201,
+      "primary_role": "DEVELOPMENT_WITNESS_NOT_FORMAL",
+      "joint": "TRUE",
+      "values": {
+        "raw_one_epoch": "TRUE",
+        "actual_B_original_anchor": "TRUE",
+        "irreversible_B_angle": "TRUE",
+        "A_original_time": "TRUE",
+        "C_original_time": "TRUE",
+        "B_sampled_maintenance": "TRUE",
+        "service_capacity": "TRUE",
+        "original_anchor_before_failure": "TRUE",
+        "actual_drop_and_effective_recovery": "TRUE",
+        "graph": "TRUE"
+      },
+      "raw_first_B_event_ns": [
+        440000000,
+        450000000
+      ],
+      "original_public_coarse": {
+        "lower_ns": 400000000,
+        "upper_ns": 450000000,
+        "first_arrival_ns": 550000000,
+        "kind": "B_PUBLIC_OBSERVED_FIRST_Q2"
+      },
+      "conditional_same_event_public_model": {
+        "lower_ns": 440000000,
+        "upper_ns": 450000000,
+        "first_arrival_ns": 550000000,
+        "kind": "B_SAME_EVENT_CONDITIONAL_PUBLIC_MODEL"
+      },
+      "public_model_forward_residual_recomputed": [
+        0.0,
+        8.881784197001252e-16
+      ],
+      "refinement_is_conditional_not_support_guarantee": true,
+      "stop_events": {
+        "A": {
+          "interval_ns": [
+            2320000000,
+            2330000000
+          ],
+          "confirmation_ns": 2530000000,
+          "confirmation_positive_samples": 21,
+          "had_prior_moving_sample": true
+        },
+        "C": {
+          "interval_ns": [
+            3540000000,
+            3550000000
+          ],
+          "confirmation_ns": 3750000000,
+          "confirmation_positive_samples": 21,
+          "had_prior_moving_sample": true
+        }
+      },
+      "time_scores": {
+        "A": {
+          "verdict": "TRUE",
+          "duration_interval_ns": [
+            1870000000,
+            1890000000
+          ]
+        },
+        "C": {
+          "verdict": "TRUE",
+          "duration_interval_ns": [
+            3090000000,
+            3110000000
+          ]
+        }
+      },
+      "B_sampled_maintenance_checked_samples": 600,
+      "graph_gap_lower_ns": 1210000000,
+      "native_charged_decision_ns": 20000000,
+      "candidate_evaluations": 330,
+      "selective_action_requests": 3,
+      "A_requests": 2,
+      "C_requests": 1,
+      "recovery_kind": "PREPLANNED_BLIND_TWO_A_REDUNDANCY; NOT_FEEDBACK_TRIGGERED_RECOVERY",
+      "decision_before_actual_drop_ns": 560000000,
+      "first_A_drop_ACK_ns": 750000000,
+      "second_A_request_ns": 750000000,
+      "earliest_post_drop_public_packet_arrival_ns": 900000000,
+      "physical_native_reintegration_diagnostic": {
+        "samples": 1201,
+        "native_steps": 1200,
+        "state_max_absolute_error": 0.0,
+        "native_time_absolute_error": 0.0,
+        "independent_native_epoch": true,
+        "integration_input_is_declared_private_plant_and_command_ACKs_not_RAW_ctrl_or_effect_success_flags": true
+      },
+      "raw_artifact_sha256": {
+        "SUMMARY.json": "11072429f32ea654018df5b77910fc5cdd31e372d2ae4e8227d7db8c6ab2a8d1",
+        "public_deliveries.json": "2d92677509aa57fd0be098b08a396421a89c35a592807d0e843e773b4a2835bf",
+        "public_actor_inputs.json": "22db87e76e124dcb5b2372c435c42e2532a82b0198b46c84c5de8821ed602917",
+        "contract.json": "9bbf359db46cd974db665b27218c86cef0de10df66bd4b959130766e9c120826",
+        "private_effects.json": "af021ac3f82c357fa50c0b5a693e72aeea8bafe53c44e1bfa076863f0a44ad96",
+        "commands.json": "cb0f02f9ee8cf0cecab523001edb4a9ca5ec8341f17df4f3f504ac8625083c7c",
+        "public_captures.json": "c2e5ee7c1ee069fa48259f91a7c951b5ab82c5b1f09dbd945d15a9f5c6195056",
+        "public_model_refinement_evidence.json": "c9d07c58f5dd7445349fd18b3b2a6e0fb982beed361cca738dbb6d2c0d7300fa",
+        "independent_samples.csv": "921c2f45377bb8fe21d9acd1ab3b20b8b545e5f55de0260de6d74497d3645339",
+        "raw_verdict.json": "8042a4fed9b9c49c24983b868c9e6e6ac83acb2623ae09076cfb971e390db7b5",
+        "public_decisions.json": "3cb2379eb328659e7c00cb2e144b8f38e693715a5ab36e486ee63cf7a2310822"
+      },
+      "physical_continuity_between_ticks_not_established": true,
+      "chemical_hardware_RGB_learning_claim": false
+    },
+    {
+      "case_id": "v2_diag-A_then_C-B45-D2p8",
+      "raw_samples": 1201,
+      "primary_role": "DEVELOPMENT_WITNESS_NOT_FORMAL",
+      "joint": "TRUE",
+      "values": {
+        "raw_one_epoch": "TRUE",
+        "actual_B_original_anchor": "TRUE",
+        "irreversible_B_angle": "TRUE",
+        "A_original_time": "TRUE",
+        "C_original_time": "TRUE",
+        "B_sampled_maintenance": "TRUE",
+        "service_capacity": "TRUE",
+        "original_anchor_before_failure": "TRUE",
+        "actual_drop_and_effective_recovery": "TRUE",
+        "graph": "TRUE"
+      },
+      "raw_first_B_event_ns": [
+        440000000,
+        450000000
+      ],
+      "original_public_coarse": {
+        "lower_ns": 400000000,
+        "upper_ns": 450000000,
+        "first_arrival_ns": 550000000,
+        "kind": "B_PUBLIC_OBSERVED_FIRST_Q2"
+      },
+      "conditional_same_event_public_model": {
+        "lower_ns": 440000000,
+        "upper_ns": 450000000,
+        "first_arrival_ns": 550000000,
+        "kind": "B_SAME_EVENT_CONDITIONAL_PUBLIC_MODEL"
+      },
+      "public_model_forward_residual_recomputed": [
+        0.0,
+        8.881784197001252e-16
+      ],
+      "refinement_is_conditional_not_support_guarantee": true,
+      "stop_events": {
+        "A": {
+          "interval_ns": [
+            2740000000,
+            2750000000
+          ],
+          "confirmation_ns": 2950000000,
+          "confirmation_positive_samples": 21,
+          "had_prior_moving_sample": true
+        },
+        "C": {
+          "interval_ns": [
+            3240000000,
+            3250000000
+          ],
+          "confirmation_ns": 3450000000,
+          "confirmation_positive_samples": 21,
+          "had_prior_moving_sample": true
+        }
+      },
+      "time_scores": {
+        "A": {
+          "verdict": "TRUE",
+          "duration_interval_ns": [
+            2290000000,
+            2310000000
+          ]
+        },
+        "C": {
+          "verdict": "TRUE",
+          "duration_interval_ns": [
+            2790000000,
+            2810000000
+          ]
+        }
+      },
+      "B_sampled_maintenance_checked_samples": 600,
+      "graph_gap_lower_ns": 490000000,
+      "native_charged_decision_ns": 20000000,
+      "candidate_evaluations": 340,
+      "selective_action_requests": 3,
+      "A_requests": 2,
+      "C_requests": 1,
+      "recovery_kind": "PREPLANNED_BLIND_TWO_A_REDUNDANCY; NOT_FEEDBACK_TRIGGERED_RECOVERY",
+      "decision_before_actual_drop_ns": 560000000,
+      "first_A_drop_ACK_ns": 1150000000,
+      "second_A_request_ns": 1150000000,
+      "earliest_post_drop_public_packet_arrival_ns": 1300000000,
+      "physical_native_reintegration_diagnostic": {
+        "samples": 1201,
+        "native_steps": 1200,
+        "state_max_absolute_error": 0.0,
+        "native_time_absolute_error": 0.0,
+        "independent_native_epoch": true,
+        "integration_input_is_declared_private_plant_and_command_ACKs_not_RAW_ctrl_or_effect_success_flags": true
+      },
+      "raw_artifact_sha256": {
+        "SUMMARY.json": "f8db21c0c80e4341c4e525467882c1e9b3a2545b6ce650537758d88e1b96309e",
+        "public_deliveries.json": "8733ab4e595e17b0d4985d1c1d82aa53fde7da0081195702b731969433a16614",
+        "public_actor_inputs.json": "255d9dc9f4626459dbf6b9cd5cd88ce5e39d645499b81ded65b40785c8eb4e7d",
+        "contract.json": "350386baf373c2e8a7b7b50e2217abfcb366913295b9749a8d50b21c14c4853d",
+        "private_effects.json": "c945dd4f29e002b83a36a6a0c4239fd0b2c821444b8fde9804ed090cc12ffc7b",
+        "commands.json": "c36fe224b28e26638b66c76e10ad69d84290a4439c051bfe7cb68f7a81df6364",
+        "public_captures.json": "61ee3c864cf56f0edc047d8b9107b8fd9c5edf375384f90200034d409434f577",
+        "public_model_refinement_evidence.json": "c9d07c58f5dd7445349fd18b3b2a6e0fb982beed361cca738dbb6d2c0d7300fa",
+        "independent_samples.csv": "f08a1aa99c8ff734f8a61981b7fb77015b88b816e5f5969ed2c4568218c0116f",
+        "raw_verdict.json": "a7eb40da531bd50b25fcb50e1907b714abf331e95655953f6a45a640e1c19b6e",
+        "public_decisions.json": "6a0e99107fec172c15190ea22ad2ba7ece3ae101d384156a301895d1003517fa"
+      },
+      "physical_continuity_between_ticks_not_established": true,
+      "chemical_hardware_RGB_learning_claim": false
+    },
+    {
+      "case_id": "v2_diag-A_then_C-B45-D3p1",
+      "raw_samples": 1201,
+      "primary_role": "DEVELOPMENT_WITNESS_NOT_FORMAL",
+      "joint": "TRUE",
+      "values": {
+        "raw_one_epoch": "TRUE",
+        "actual_B_original_anchor": "TRUE",
+        "irreversible_B_angle": "TRUE",
+        "A_original_time": "TRUE",
+        "C_original_time": "TRUE",
+        "B_sampled_maintenance": "TRUE",
+        "service_capacity": "TRUE",
+        "original_anchor_before_failure": "TRUE",
+        "actual_drop_and_effective_recovery": "TRUE",
+        "graph": "TRUE"
+      },
+      "raw_first_B_event_ns": [
+        440000000,
+        450000000
+      ],
+      "original_public_coarse": {
+        "lower_ns": 400000000,
+        "upper_ns": 450000000,
+        "first_arrival_ns": 550000000,
+        "kind": "B_PUBLIC_OBSERVED_FIRST_Q2"
+      },
+      "conditional_same_event_public_model": {
+        "lower_ns": 440000000,
+        "upper_ns": 450000000,
+        "first_arrival_ns": 550000000,
+        "kind": "B_SAME_EVENT_CONDITIONAL_PUBLIC_MODEL"
+      },
+      "public_model_forward_residual_recomputed": [
+        0.0,
+        8.881784197001252e-16
+      ],
+      "refinement_is_conditional_not_support_guarantee": true,
+      "stop_events": {
+        "A": {
+          "interval_ns": [
+            2740000000,
+            2750000000
+          ],
+          "confirmation_ns": 2950000000,
+          "confirmation_positive_samples": 21,
+          "had_prior_moving_sample": true
+        },
+        "C": {
+          "interval_ns": [
+            3540000000,
+            3550000000
+          ],
+          "confirmation_ns": 3750000000,
+          "confirmation_positive_samples": 21,
+          "had_prior_moving_sample": true
+        }
+      },
+      "time_scores": {
+        "A": {
+          "verdict": "TRUE",
+          "duration_interval_ns": [
+            2290000000,
+            2310000000
+          ]
+        },
+        "C": {
+          "verdict": "TRUE",
+          "duration_interval_ns": [
+            3090000000,
+            3110000000
+          ]
+        }
+      },
+      "B_sampled_maintenance_checked_samples": 600,
+      "graph_gap_lower_ns": 790000000,
+      "native_charged_decision_ns": 20000000,
+      "candidate_evaluations": 370,
+      "selective_action_requests": 3,
+      "A_requests": 2,
+      "C_requests": 1,
+      "recovery_kind": "PREPLANNED_BLIND_TWO_A_REDUNDANCY; NOT_FEEDBACK_TRIGGERED_RECOVERY",
+      "decision_before_actual_drop_ns": 560000000,
+      "first_A_drop_ACK_ns": 1150000000,
+      "second_A_request_ns": 1150000000,
+      "earliest_post_drop_public_packet_arrival_ns": 1300000000,
+      "physical_native_reintegration_diagnostic": {
+        "samples": 1201,
+        "native_steps": 1200,
+        "state_max_absolute_error": 0.0,
+        "native_time_absolute_error": 0.0,
+        "independent_native_epoch": true,
+        "integration_input_is_declared_private_plant_and_command_ACKs_not_RAW_ctrl_or_effect_success_flags": true
+      },
+      "raw_artifact_sha256": {
+        "SUMMARY.json": "1e56761a8b213157e14dadd0de235eb029f31156994c6a96a35a4c8a5179b870",
+        "public_deliveries.json": "4ea2dd79294ebdd51620d2cbae946f4e0044038dbe5c597867983e1d13827d16",
+        "public_actor_inputs.json": "1b5916d9e544c33dfec3f7bfe3e789f245d6d00e9d4f6c5d48477727bdcdd050",
+        "contract.json": "280b279ef992c4867de61cad9d509e3a297b6de0883f6bbf30feb938e1d6b45c",
+        "private_effects.json": "8a531133028deed72bd4d6c178fcc52738496b3c0a44fa23daa31fe8574fa462",
+        "commands.json": "bc92f7f0c87f53ea9ca579ee4afeca4de7147ead7623076605a42920791bc36e",
+        "public_captures.json": "3d35e7fb6a056653945a8963f91223de640b3f8ba1d11c052d2ff1c10a554c53",
+        "public_model_refinement_evidence.json": "c9d07c58f5dd7445349fd18b3b2a6e0fb982beed361cca738dbb6d2c0d7300fa",
+        "independent_samples.csv": "861371f0c4992b663c782cfd9ff42315930fe5e9ec26404f9cba26f023f3cca1",
+        "raw_verdict.json": "958cd78358c83f2312e230e9eabf62aaeed8eab1b4dee36fe1180292e97ebc50",
+        "public_decisions.json": "02f5d0fd967808eab237b1f74f3e046f6c5d33971d90f010130463cd75255459"
+      },
+      "physical_continuity_between_ticks_not_established": true,
+      "chemical_hardware_RGB_learning_claim": false
+    },
+    {
+      "case_id": "v2_diag-C_then_A-B5-D2p8",
+      "raw_samples": 1201,
+      "primary_role": "DEVELOPMENT_WITNESS_NOT_FORMAL",
+      "joint": "TRUE",
+      "values": {
+        "raw_one_epoch": "TRUE",
+        "actual_B_original_anchor": "TRUE",
+        "irreversible_B_angle": "TRUE",
+        "A_original_time": "TRUE",
+        "C_original_time": "TRUE",
+        "B_sampled_maintenance": "TRUE",
+        "service_capacity": "TRUE",
+        "original_anchor_before_failure": "TRUE",
+        "actual_drop_and_effective_recovery": "TRUE",
+        "graph": "TRUE"
+      },
+      "raw_first_B_event_ns": [
+        440000000,
+        450000000
+      ],
+      "original_public_coarse": {
+        "lower_ns": 400000000,
+        "upper_ns": 450000000,
+        "first_arrival_ns": 550000000,
+        "kind": "B_PUBLIC_OBSERVED_FIRST_Q2"
+      },
+      "conditional_same_event_public_model": {
+        "lower_ns": 440000000,
+        "upper_ns": 450000000,
+        "first_arrival_ns": 550000000,
+        "kind": "B_SAME_EVENT_CONDITIONAL_PUBLIC_MODEL"
+      },
+      "public_model_forward_residual_recomputed": [
+        0.0,
+        8.881784197001252e-16
+      ],
+      "refinement_is_conditional_not_support_guarantee": true,
+      "stop_events": {
+        "A": {
+          "interval_ns": [
+            3230000000,
+            3240000000
+          ],
+          "confirmation_ns": 3440000000,
+          "confirmation_positive_samples": 21,
+          "had_prior_moving_sample": true
+        },
+        "C": {
+          "interval_ns": [
+            3130000000,
+            3140000000
+          ],
+          "confirmation_ns": 3340000000,
+          "confirmation_positive_samples": 21,
+          "had_prior_moving_sample": true
+        }
+      },
+      "time_scores": {
+        "A": {
+          "verdict": "TRUE",
+          "duration_interval_ns": [
+            2780000000,
+            2800000000
+          ]
+        },
+        "C": {
+          "verdict": "TRUE",
+          "duration_interval_ns": [
+            2680000000,
+            2700000000
+          ]
+        }
+      },
+      "B_sampled_maintenance_checked_samples": 600,
+      "graph_gap_lower_ns": 90000000,
+      "native_charged_decision_ns": 20000000,
+      "candidate_evaluations": 282,
+      "selective_action_requests": 3,
+      "A_requests": 2,
+      "C_requests": 1,
+      "recovery_kind": "PREPLANNED_BLIND_TWO_A_REDUNDANCY; NOT_FEEDBACK_TRIGGERED_RECOVERY",
+      "decision_before_actual_drop_ns": 560000000,
+      "first_A_drop_ACK_ns": 1630000000,
+      "second_A_request_ns": 1630000000,
+      "earliest_post_drop_public_packet_arrival_ns": 1750000000,
+      "physical_native_reintegration_diagnostic": {
+        "samples": 1201,
+        "native_steps": 1200,
+        "state_max_absolute_error": 0.0,
+        "native_time_absolute_error": 0.0,
+        "independent_native_epoch": true,
+        "integration_input_is_declared_private_plant_and_command_ACKs_not_RAW_ctrl_or_effect_success_flags": true
+      },
+      "raw_artifact_sha256": {
+        "SUMMARY.json": "f5f532bdf4b9c196811d4bf0b86a7f4063f0fda0edfdbab092cb610c38f46dcf",
+        "public_deliveries.json": "58e7b1fc889a1bd6949b67eecb3c2b5369b7e29056f7fa0c37e2d9f27e40bbe2",
+        "public_actor_inputs.json": "9cb127469bdd2b31dc3ce6480407c36b238d29b8b4631f5b5246abae4ec695e0",
+        "contract.json": "22a6fb8597ba2fb0da9350dd1d52cc459d7d7e6ac09f3d655c2b5c5195aaf629",
+        "private_effects.json": "2264e12e212b669e95b0ebd0203dc28e2a76de823ba4d5e6c46367f572b5e51e",
+        "commands.json": "a6f47c1f75309cf43fff42de0a357e36d92d0827bcd6e4bde06b320be5bc085f",
+        "public_captures.json": "77bd9222ed383e615cf732aebd8c824fd90925c543f847a336b4bf3189049620",
+        "public_model_refinement_evidence.json": "c9d07c58f5dd7445349fd18b3b2a6e0fb982beed361cca738dbb6d2c0d7300fa",
+        "independent_samples.csv": "7f36e1fcc920c9cad2871cf4871ad0d318660e61476265cd1f42d5f8872e4ec0",
+        "raw_verdict.json": "43513882379f49038d9d8dd80de8dd1d56d17c591da66292c3b9dd7c4696929b",
+        "public_decisions.json": "acdda61a3d7f11bcd7a606a7a1325b4d3ba16a4c80811e47114d5cc121a4b2bb"
+      },
+      "physical_continuity_between_ticks_not_established": true,
+      "chemical_hardware_RGB_learning_claim": false
+    },
+    {
+      "case_id": "v2_diag-C_then_A-B5-D3p1",
+      "raw_samples": 1201,
+      "primary_role": "DEVELOPMENT_WITNESS_NOT_FORMAL",
+      "joint": "TRUE",
+      "values": {
+        "raw_one_epoch": "TRUE",
+        "actual_B_original_anchor": "TRUE",
+        "irreversible_B_angle": "TRUE",
+        "A_original_time": "TRUE",
+        "C_original_time": "TRUE",
+        "B_sampled_maintenance": "TRUE",
+        "service_capacity": "TRUE",
+        "original_anchor_before_failure": "TRUE",
+        "actual_drop_and_effective_recovery": "TRUE",
+        "graph": "TRUE"
+      },
+      "raw_first_B_event_ns": [
+        440000000,
+        450000000
+      ],
+      "original_public_coarse": {
+        "lower_ns": 400000000,
+        "upper_ns": 450000000,
+        "first_arrival_ns": 550000000,
+        "kind": "B_PUBLIC_OBSERVED_FIRST_Q2"
+      },
+      "conditional_same_event_public_model": {
+        "lower_ns": 440000000,
+        "upper_ns": 450000000,
+        "first_arrival_ns": 550000000,
+        "kind": "B_SAME_EVENT_CONDITIONAL_PUBLIC_MODEL"
+      },
+      "public_model_forward_residual_recomputed": [
+        0.0,
+        8.881784197001252e-16
+      ],
+      "refinement_is_conditional_not_support_guarantee": true,
+      "stop_events": {
+        "A": {
+          "interval_ns": [
+            3530000000,
+            3540000000
+          ],
+          "confirmation_ns": 3740000000,
+          "confirmation_positive_samples": 21,
+          "had_prior_moving_sample": true
+        },
+        "C": {
+          "interval_ns": [
+            3430000000,
+            3440000000
+          ],
+          "confirmation_ns": 3640000000,
+          "confirmation_positive_samples": 21,
+          "had_prior_moving_sample": true
+        }
+      },
+      "time_scores": {
+        "A": {
+          "verdict": "TRUE",
+          "duration_interval_ns": [
+            3080000000,
+            3100000000
+          ]
+        },
+        "C": {
+          "verdict": "TRUE",
+          "duration_interval_ns": [
+            2980000000,
+            3000000000
+          ]
+        }
+      },
+      "B_sampled_maintenance_checked_samples": 600,
+      "graph_gap_lower_ns": 90000000,
+      "native_charged_decision_ns": 20000000,
+      "candidate_evaluations": 312,
+      "selective_action_requests": 3,
+      "A_requests": 2,
+      "C_requests": 1,
+      "recovery_kind": "PREPLANNED_BLIND_TWO_A_REDUNDANCY; NOT_FEEDBACK_TRIGGERED_RECOVERY",
+      "decision_before_actual_drop_ns": 560000000,
+      "first_A_drop_ACK_ns": 1930000000,
+      "second_A_request_ns": 1930000000,
+      "earliest_post_drop_public_packet_arrival_ns": 2050000000,
+      "physical_native_reintegration_diagnostic": {
+        "samples": 1201,
+        "native_steps": 1200,
+        "state_max_absolute_error": 0.0,
+        "native_time_absolute_error": 0.0,
+        "independent_native_epoch": true,
+        "integration_input_is_declared_private_plant_and_command_ACKs_not_RAW_ctrl_or_effect_success_flags": true
+      },
+      "raw_artifact_sha256": {
+        "SUMMARY.json": "3544b0c9f52fc0dd2ddf3ad19e63eeab05c5da3acaf873da06d9bfb301d2a4ed",
+        "public_deliveries.json": "2e193295ce308b37d83a2caa49224cb57622e580c58f4e83ccd822c653a3bfb2",
+        "public_actor_inputs.json": "bd34437a9eca4cd94dd9f7b69523a08ef022820356bc8d84c656824caf78ee53",
+        "contract.json": "e366ceb3b2a636e7e1a427a41e850c7cf9046c47ff030d295626c22c70d605ba",
+        "private_effects.json": "0ea929e988df39fdaa81f575880d262333db9320c78002cd8075e37ebac83f38",
+        "commands.json": "b62ac7a0906278cdd6c6c074ccd91d47243d2a97739773ed071ff4d714f471eb",
+        "public_captures.json": "4bed665cca7dcebaa8d97ffe18bd6c47762c41ef4073a0476511a16feef7b609",
+        "public_model_refinement_evidence.json": "c9d07c58f5dd7445349fd18b3b2a6e0fb982beed361cca738dbb6d2c0d7300fa",
+        "independent_samples.csv": "887b1a9ea21973a10345955ac6b0dcf414d86b0ba8919b44fd250fbe59fbba4d",
+        "raw_verdict.json": "7ba66ca225c43190a85ae6fb25395f3c8948eaf3594ec151fce7d4f727e79714",
+        "public_decisions.json": "343f353938d3ba195e392a26bb182f71da447d327a85d6a6d15dfcfdb919443b"
+      },
+      "physical_continuity_between_ticks_not_established": true,
+      "chemical_hardware_RGB_learning_claim": false
+    },
+    {
+      "case_id": "v2_diag-C_then_A-B45-D2p8",
+      "raw_samples": 1201,
+      "primary_role": "DEVELOPMENT_WITNESS_NOT_FORMAL",
+      "joint": "TRUE",
+      "values": {
+        "raw_one_epoch": "TRUE",
+        "actual_B_original_anchor": "TRUE",
+        "irreversible_B_angle": "TRUE",
+        "A_original_time": "TRUE",
+        "C_original_time": "TRUE",
+        "B_sampled_maintenance": "TRUE",
+        "service_capacity": "TRUE",
+        "original_anchor_before_failure": "TRUE",
+        "actual_drop_and_effective_recovery": "TRUE",
+        "graph": "TRUE"
+      },
+      "raw_first_B_event_ns": [
+        440000000,
+        450000000
+      ],
+      "original_public_coarse": {
+        "lower_ns": 400000000,
+        "upper_ns": 450000000,
+        "first_arrival_ns": 550000000,
+        "kind": "B_PUBLIC_OBSERVED_FIRST_Q2"
+      },
+      "conditional_same_event_public_model": {
+        "lower_ns": 440000000,
+        "upper_ns": 450000000,
+        "first_arrival_ns": 550000000,
+        "kind": "B_SAME_EVENT_CONDITIONAL_PUBLIC_MODEL"
+      },
+      "public_model_forward_residual_recomputed": [
+        0.0,
+        8.881784197001252e-16
+      ],
+      "refinement_is_conditional_not_support_guarantee": true,
+      "stop_events": {
+        "A": {
+          "interval_ns": [
+            3230000000,
+            3240000000
+          ],
+          "confirmation_ns": 3440000000,
+          "confirmation_positive_samples": 21,
+          "had_prior_moving_sample": true
+        },
+        "C": {
+          "interval_ns": [
+            3130000000,
+            3140000000
+          ],
+          "confirmation_ns": 3340000000,
+          "confirmation_positive_samples": 21,
+          "had_prior_moving_sample": true
+        }
+      },
+      "time_scores": {
+        "A": {
+          "verdict": "TRUE",
+          "duration_interval_ns": [
+            2780000000,
+            2800000000
+          ]
+        },
+        "C": {
+          "verdict": "TRUE",
+          "duration_interval_ns": [
+            2680000000,
+            2700000000
+          ]
+        }
+      },
+      "B_sampled_maintenance_checked_samples": 600,
+      "graph_gap_lower_ns": 90000000,
+      "native_charged_decision_ns": 20000000,
+      "candidate_evaluations": 282,
+      "selective_action_requests": 3,
+      "A_requests": 2,
+      "C_requests": 1,
+      "recovery_kind": "PREPLANNED_BLIND_TWO_A_REDUNDANCY; NOT_FEEDBACK_TRIGGERED_RECOVERY",
+      "decision_before_actual_drop_ns": 560000000,
+      "first_A_drop_ACK_ns": 1630000000,
+      "second_A_request_ns": 1630000000,
+      "earliest_post_drop_public_packet_arrival_ns": 1750000000,
+      "physical_native_reintegration_diagnostic": {
+        "samples": 1201,
+        "native_steps": 1200,
+        "state_max_absolute_error": 0.0,
+        "native_time_absolute_error": 0.0,
+        "independent_native_epoch": true,
+        "integration_input_is_declared_private_plant_and_command_ACKs_not_RAW_ctrl_or_effect_success_flags": true
+      },
+      "raw_artifact_sha256": {
+        "SUMMARY.json": "b6545c7daf46c6d59e5c6fe3a9465c31c785c112c017517b4fc8ad2ace524918",
+        "public_deliveries.json": "ae37fc429aafaf86eb59f4539ea75f989bd5b1643088acfd962fd32a151d94ad",
+        "public_actor_inputs.json": "068ff61afb7a4ad0b287a930a7c4a481d89037a4b4b56c64ca96fa16e1e2bed1",
+        "contract.json": "9bbaa1271e4120b931983ffbe2d7951bce58eab1a706d2dec0f272aa82379f9f",
+        "private_effects.json": "5bed762aa5bd82b205dd55de876937dac17ca0dd8abc4b9c853f3624051ab38d",
+        "commands.json": "3749bb88e47be660a9d2950e42f0f0ef5b56d9c8469f26ec4fa7c6428b25d25e",
+        "public_captures.json": "a25afc8a194c40abaa37dc15f901e32959331fc1c60f06682d686b698521fdc8",
+        "public_model_refinement_evidence.json": "c9d07c58f5dd7445349fd18b3b2a6e0fb982beed361cca738dbb6d2c0d7300fa",
+        "independent_samples.csv": "343d808b2467d8a97206feb0d2668be732c641ab9374314ac2da7a0db552e7ce",
+        "raw_verdict.json": "43513882379f49038d9d8dd80de8dd1d56d17c591da66292c3b9dd7c4696929b",
+        "public_decisions.json": "3a916795be50793647fbeec94e02638e0ea53bfbbef3cea7a2dfb9058fc9a6be"
+      },
+      "physical_continuity_between_ticks_not_established": true,
+      "chemical_hardware_RGB_learning_claim": false
+    },
+    {
+      "case_id": "v2_diag-C_then_A-B45-D3p1",
+      "raw_samples": 1201,
+      "primary_role": "DEVELOPMENT_WITNESS_NOT_FORMAL",
+      "joint": "TRUE",
+      "values": {
+        "raw_one_epoch": "TRUE",
+        "actual_B_original_anchor": "TRUE",
+        "irreversible_B_angle": "TRUE",
+        "A_original_time": "TRUE",
+        "C_original_time": "TRUE",
+        "B_sampled_maintenance": "TRUE",
+        "service_capacity": "TRUE",
+        "original_anchor_before_failure": "TRUE",
+        "actual_drop_and_effective_recovery": "TRUE",
+        "graph": "TRUE"
+      },
+      "raw_first_B_event_ns": [
+        440000000,
+        450000000
+      ],
+      "original_public_coarse": {
+        "lower_ns": 400000000,
+        "upper_ns": 450000000,
+        "first_arrival_ns": 550000000,
+        "kind": "B_PUBLIC_OBSERVED_FIRST_Q2"
+      },
+      "conditional_same_event_public_model": {
+        "lower_ns": 440000000,
+        "upper_ns": 450000000,
+        "first_arrival_ns": 550000000,
+        "kind": "B_SAME_EVENT_CONDITIONAL_PUBLIC_MODEL"
+      },
+      "public_model_forward_residual_recomputed": [
+        0.0,
+        8.881784197001252e-16
+      ],
+      "refinement_is_conditional_not_support_guarantee": true,
+      "stop_events": {
+        "A": {
+          "interval_ns": [
+            3530000000,
+            3540000000
+          ],
+          "confirmation_ns": 3740000000,
+          "confirmation_positive_samples": 21,
+          "had_prior_moving_sample": true
+        },
+        "C": {
+          "interval_ns": [
+            3430000000,
+            3440000000
+          ],
+          "confirmation_ns": 3640000000,
+          "confirmation_positive_samples": 21,
+          "had_prior_moving_sample": true
+        }
+      },
+      "time_scores": {
+        "A": {
+          "verdict": "TRUE",
+          "duration_interval_ns": [
+            3080000000,
+            3100000000
+          ]
+        },
+        "C": {
+          "verdict": "TRUE",
+          "duration_interval_ns": [
+            2980000000,
+            3000000000
+          ]
+        }
+      },
+      "B_sampled_maintenance_checked_samples": 600,
+      "graph_gap_lower_ns": 90000000,
+      "native_charged_decision_ns": 20000000,
+      "candidate_evaluations": 312,
+      "selective_action_requests": 3,
+      "A_requests": 2,
+      "C_requests": 1,
+      "recovery_kind": "PREPLANNED_BLIND_TWO_A_REDUNDANCY; NOT_FEEDBACK_TRIGGERED_RECOVERY",
+      "decision_before_actual_drop_ns": 560000000,
+      "first_A_drop_ACK_ns": 1930000000,
+      "second_A_request_ns": 1930000000,
+      "earliest_post_drop_public_packet_arrival_ns": 2050000000,
+      "physical_native_reintegration_diagnostic": {
+        "samples": 1201,
+        "native_steps": 1200,
+        "state_max_absolute_error": 0.0,
+        "native_time_absolute_error": 0.0,
+        "independent_native_epoch": true,
+        "integration_input_is_declared_private_plant_and_command_ACKs_not_RAW_ctrl_or_effect_success_flags": true
+      },
+      "raw_artifact_sha256": {
+        "SUMMARY.json": "d7c7b7b8a0ecf35306f46f8f550c9fffe6d8c31d57d0958a0c5775548c6cabe2",
+        "public_deliveries.json": "c8cf63be7075ca6874eae8ce90d591a0a2d9a4ced7101420da7755463972655b",
+        "public_actor_inputs.json": "df5d6af21dee28933ef23c1c26f2a2defd7801718d8696933b76c19dbd2a9774",
+        "contract.json": "6c7405a4b3925d77b258c3192ae5d5afb73163a4a0c1d06f02926133313382ea",
+        "private_effects.json": "a4d7b6704157cefeb1bb607019cb6f51aacc9d699d896b1993a46e7a4ad27886",
+        "commands.json": "b15497043fd0aa375cb867318db7d8788297ae0cfcd5661a28f4cd85179a703d",
+        "public_captures.json": "6732f03afacbe47eaee3bc27726aade048afdd54a715e2179f2f464297797b21",
+        "public_model_refinement_evidence.json": "c9d07c58f5dd7445349fd18b3b2a6e0fb982beed361cca738dbb6d2c0d7300fa",
+        "independent_samples.csv": "6d644b2df9a6e8a85357ce06098f9403d5f1e49a975312de523973f6868395d4",
+        "raw_verdict.json": "7ba66ca225c43190a85ae6fb25395f3c8948eaf3594ec151fce7d4f727e79714",
+        "public_decisions.json": "22da00c865609b23cbffb9a74b606d8ee23103d8baf4bd8f7380a8999ba8516a"
+      },
+      "physical_continuity_between_ticks_not_established": true,
+      "chemical_hardware_RGB_learning_claim": false
+    }
+  ],
+  "controlled_development_native_epochs": 8,
+  "controlled_development_native_samples": 9608,
+  "producer_reintegration_diagnostic_epochs": 8,
+  "producer_reintegration_diagnostic_samples": 9608,
+  "third_independent_command_reintegration_diagnostic_epochs": 8,
+  "third_independent_command_reintegration_diagnostic_samples": 9608,
+  "total_integration_epochs_all_distinct_roles": 24,
+  "total_samples_all_distinct_roles": 28824,
+  "controlled_witness_joint_T": 8,
+  "controlled_witness_joint_F": 0,
+  "controlled_witness_joint_U": 0,
+  "formal32_native_tests": 0,
+  "formal32_controller_release_frozen": false,
+  "new_unseen_holdout_instances": 0,
+  "all_eight_configurations_are_development_seen_not_unseen_test_split": true,
+  "one_strong_public_known_model_batch_solves_all_eight_diagnostics": true,
+  "agentic_or_query_necessity_or_learning_advantage_supported": false,
+  "history_query_count": 0,
+  "LLM_calls": 0,
+  "fit": 0,
+  "new_policy_weights": 0,
+  "GPU": 0,
+  "public_coarse50ms_is_not_irreducible_information_bound_in_known_model_family": true,
+  "event_identity_preserved_when_conditional_public_model_refines_to10ms": true,
+  "blind_two_A_not_feedback_recovery_or_context_learning": true,
+  "independent_referee_from_RAW_not_producer_self_check_as_oracle": true,
+  "new_audit_native_integrations_are_replay_diagnostics_not_primary_trials": true,
+  "independent_review_after_development_outcomes_available_not_prospective_auditor_freeze": true,
+  "no_original_source_or_primary_RAW_or_protocol_modified": true,
+  "mujoco": "3.3.7",
+  "numpy": "2.2.6"
+}

@@ -1,0 +1,181 @@
+{
+  "schema": "paperb-actual-raw-vector-figure-data-v1",
+  "created_at_utc": "2026-10-13T15:52:15.188454+00:00",
+  "sources": {
+    "/data/liyufeng/paperb_external_event_shared_resource_20261013_v1/development_native/independent_samples.csv": "706fc4c36d6b7ba3ef8c5a376cd637ac47624a1b271e5de89195f07b446c3628",
+    "/data/liyufeng/paperb_external_event_shared_resource_20261013_v1/development_native/commands.json": "9c517b505d0cc07d421284aae97de61b4e1cd2f74007959e559a72901e97326d",
+    "/data/liyufeng/paperb_external_event_shared_resource_20261013_v1/development_native/public_actor_inputs.json": "f6eda9fcd25b3ebed2f2f8083c45345231a02142a12a243c8b1fc5a9237f2fec",
+    "/data/liyufeng/paperb_external_event_shared_resource_20261013_v1/development_native/contract.json": "55d584df53c2e63579eba7b717f15cb3a5f88af3ff4135b2fd661f7535bb0ba1",
+    "/data/liyufeng/paperb_external_event_shared_resource_20261013_v1/development_native/independent_verdict.json": "5dd3f97fe9dc7f16354443715d4d6b051ee17e59eae71491676f80ab7145130b",
+    "/data/liyufeng/paperb_external_event_shared_resource_20261013_v1/prospective_v2/native_witnesses/v2_diag-C_then_A-B45-D2p8/independent_samples.csv": "343d808b2467d8a97206feb0d2668be732c641ab9374314ac2da7a0db552e7ce",
+    "/data/liyufeng/paperb_external_event_shared_resource_20261013_v1/prospective_v2/native_witnesses/v2_diag-C_then_A-B45-D2p8/commands.json": "3749bb88e47be660a9d2950e42f0f0ef5b56d9c8469f26ec4fa7c6428b25d25e",
+    "/data/liyufeng/paperb_external_event_shared_resource_20261013_v1/prospective_v2/native_witnesses/v2_diag-C_then_A-B45-D2p8/public_actor_inputs.json": "068ff61afb7a4ad0b287a930a7c4a481d89037a4b4b56c64ca96fa16e1e2bed1",
+    "/data/liyufeng/paperb_external_event_shared_resource_20261013_v1/prospective_v2/native_witnesses/v2_diag-C_then_A-B45-D2p8/contract.json": "9bbaa1271e4120b931983ffbe2d7951bce58eab1a706d2dec0f272aa82379f9f",
+    "/data/liyufeng/paperb_external_event_shared_resource_20261013_v1/prospective_v2/native_witnesses/v2_diag-C_then_A-B45-D2p8/raw_verdict.json": "43513882379f49038d9d8dd80de8dd1d56d17c591da66292c3b9dd7c4696929b"
+  },
+  "cases": [
+    {
+      "id": "a",
+      "path": "/data/liyufeng/paperb_external_event_shared_resource_20261013_v1/development_native",
+      "full_raw_samples": 1201,
+      "shown_time_limit_s": 4.2,
+      "commands": [
+        {
+          "seq": 0,
+          "target": "B",
+          "tag": "B_reserved_drive_change",
+          "request_ns": 0,
+          "service_start_ns": 1500000000,
+          "ack_ns": 1750000000,
+          "external": true
+        },
+        {
+          "seq": 1,
+          "target": "A",
+          "tag": "A_stop",
+          "request_ns": 800000000,
+          "service_start_ns": 800000000,
+          "ack_ns": 850000000,
+          "external": false
+        },
+        {
+          "seq": 2,
+          "target": "A",
+          "tag": "A_stop",
+          "request_ns": 1020000000,
+          "service_start_ns": 1020000000,
+          "ack_ns": 1070000000,
+          "external": false
+        },
+        {
+          "seq": 3,
+          "target": "C",
+          "tag": "C_stop",
+          "request_ns": 1060000000,
+          "service_start_ns": 1750000000,
+          "ack_ns": 2200000000,
+          "external": false
+        }
+      ],
+      "coarse_B": {
+        "lower_ns": 400000000,
+        "upper_ns": 450000000,
+        "first_arrival_ns": 550000000,
+        "kind": "B_PUBLIC_OBSERVED_FIRST_Q2"
+      },
+      "same_event_refinement": null,
+      "RAW_events": {
+        "A": {
+          "interval_ns": [
+            2610000000,
+            2620000000
+          ],
+          "confirmation_ns": 2820000000,
+          "confirmation_positive_samples": 21,
+          "had_prior_moving_sample": true
+        },
+        "C": {
+          "interval_ns": [
+            3750000000,
+            3760000000
+          ],
+          "confirmation_ns": 3960000000,
+          "confirmation_positive_samples": 21,
+          "had_prior_moving_sample": true
+        }
+      }
+    },
+    {
+      "id": "b",
+      "path": "/data/liyufeng/paperb_external_event_shared_resource_20261013_v1/prospective_v2/native_witnesses/v2_diag-C_then_A-B45-D2p8",
+      "full_raw_samples": 1201,
+      "shown_time_limit_s": 4.2,
+      "commands": [
+        {
+          "seq": 0,
+          "target": "B",
+          "tag": "B_reserved_drive_change",
+          "request_ns": 0,
+          "service_start_ns": 650000000,
+          "ack_ns": 1100000000,
+          "external": true
+        },
+        {
+          "seq": 1,
+          "target": "C",
+          "tag": "C_stop",
+          "request_ns": 1130000000,
+          "service_start_ns": 1130000000,
+          "ack_ns": 1580000000,
+          "external": false
+        },
+        {
+          "seq": 2,
+          "target": "A",
+          "tag": "A_stop",
+          "request_ns": 1580000000,
+          "service_start_ns": 1580000000,
+          "ack_ns": 1630000000,
+          "external": false
+        },
+        {
+          "seq": 3,
+          "target": "A",
+          "tag": "A_stop",
+          "request_ns": 1630000000,
+          "service_start_ns": 1630000000,
+          "ack_ns": 1680000000,
+          "external": false
+        }
+      ],
+      "coarse_B": {
+        "lower_ns": 400000000,
+        "upper_ns": 450000000,
+        "first_arrival_ns": 550000000,
+        "kind": "B_PUBLIC_OBSERVED_FIRST_Q2"
+      },
+      "same_event_refinement": {
+        "lower_ns": 440000000,
+        "upper_ns": 450000000,
+        "first_arrival_ns": 550000000,
+        "kind": "B_SAME_EVENT_CONDITIONAL_PUBLIC_MODEL"
+      },
+      "RAW_events": {
+        "A": {
+          "interval_ns": [
+            3230000000,
+            3240000000
+          ],
+          "confirmation_ns": 3440000000,
+          "confirmation_positive_samples": 21,
+          "had_prior_moving_sample": true
+        },
+        "C": {
+          "interval_ns": [
+            3130000000,
+            3140000000
+          ],
+          "confirmation_ns": 3340000000,
+          "confirmation_positive_samples": 21,
+          "had_prior_moving_sample": true
+        }
+      }
+    }
+  ],
+  "figures": {
+    "physical_event_timeline": "Actual measured action/service/onset/confirmation; no fakeframes",
+    "physical_event_timeline_compact": "Same RAW coordinates in compact ICML vector layout",
+    "raw_velocity_traces": "All actual RAW samples within displayed4.2s crop, not predicted curve",
+    "confirmation_samples": "Exact21samples from first low-speed point to200ms confirmation"
+  },
+  "counts": {
+    "new_native_runs": 0,
+    "fits": 0,
+    "GPU": 0,
+    "LLM": 0,
+    "formal32": 0
+  },
+  "no_between_tick_continuity_claim": true,
+  "SVG_editable_text": true,
+  "PDF_vector": true
+}

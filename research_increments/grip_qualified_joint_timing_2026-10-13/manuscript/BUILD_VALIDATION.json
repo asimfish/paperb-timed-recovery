@@ -1,0 +1,85 @@
+{
+  "schema": "paperb-component-two-page-manuscript-build-validation-v1",
+  "status": "PASS_TWO_PAGE_NATIVE_RAW_MECHANICAL_COMPONENT_NOTE",
+  "created_at_utc": "2026-10-13T16:02:32.832551+00:00",
+  "scope": "Mechanical simulation development component, non-VLA; strong public rule null; no learning claim",
+  "primary_witnesses": 8,
+  "producer_replays": 8,
+  "third_replays": 8,
+  "total_integration_epochs": 24,
+  "total_rows": 28824,
+  "third_audit_sha256": "4d98ce08da0752f90839cc7a5391c02f8f8b1d0971e4d095515836b3fc1a26f6",
+  "third_audit_prospective": false,
+  "compiled_pages": 2,
+  "official_style_sha256": "7cdcf90f6a59c5219e7f15c88f7ed09fcaf598dad91e6cdddc4dc3cb0e397a95",
+  "official_style_unchanged": true,
+  "font_margin_or_style_hacks": false,
+  "final_two_compile_logs": {
+    "compile_final1.log": "c635ab959941d3b492c3af0975ca836b99d2298f89c54cb41834bb327a52b7f3",
+    "compile_final2.log": "c635ab959941d3b492c3af0975ca836b99d2298f89c54cb41834bb327a52b7f3"
+  },
+  "undefined_citations": false,
+  "overfull_boxes": false,
+  "nonfatal_warnings": [
+    "epstopdf shell escape disabled intentionally",
+    "hyperref pending-author empty anchor/title linebreak",
+    "two bibliography underfull hboxes"
+  ],
+  "inspected_visuals": [
+    "physical_event_timeline.png",
+    "confirmation_samples.png",
+    "raw_velocity_traces.png",
+    "build/component_page-1.png",
+    "build/component_page-2.png"
+  ],
+  "figure_source_files_reverified": 10,
+  "SVG_editable_text": true,
+  "PDF_vector": true,
+  "no_fabricated_frames": true,
+  "no_live_robot_outcomes_imported": true,
+  "rendering_environment": {
+    "python": "/usr/bin/python3 with PYTHONNOUSERSITE=1",
+    "numpy": "1.21.5",
+    "matplotlib": "3.5.1",
+    "initial_default_python_render_failure": "NumPy2.2.6/system-matplotlib1.x ABI mismatch; isolated rendering selected, no package install or global mutation"
+  },
+  "old_frozen_exports_reverified": [
+    {
+      "path": "research_design/DESIGN_VALIDATION.json",
+      "sha256": "5455ae1d318c8b2d13da545f119b6fd2b526973573d08bee3bb74470e9163b63",
+      "listed_files_verified": 6
+    },
+    {
+      "path": "research_design/prospective_v2/PROSPECTIVE_V2_VALIDATION.json",
+      "sha256": "e79763920103646476fa51d700509e85b40f4526de36a6bc694c36a28a80deab",
+      "listed_files_verified": 16
+    }
+  ],
+  "new_physics_runs": 0,
+  "new_GPU_jobs": 0,
+  "fits": 0,
+  "LLM_calls": 0,
+  "weights": 0,
+  "formal32": 0,
+  "outputs": {
+    "manuscript/COMPONENT_NOTE.pdf": "c3395f3aec39fc34edb18919495381bad1f67fa81a7433164db97bc6471e10ea",
+    "manuscript/METHOD_EXPANSION_cn.md": "f3df6cb627ebaffb6ec5d0329fd972aa774ee739c40add1c20aea211954932db",
+    "manuscript/README_cn.md": "779c5fcbed693a0c095858d66b4706abb27e562b1d204a0294cc37d1c801e431",
+    "manuscript/source/component.tex": "2219e7639a6f6d2187980a5d84c3c33730f0f0aa2e18684a78af1ef8326a69c3",
+    "manuscript/source/icml2026.sty": "7cdcf90f6a59c5219e7f15c88f7ed09fcaf598dad91e6cdddc4dc3cb0e397a95",
+    "figures/build_raw_figures.py": "f5aa31cb6c5b8c0157406a245ef0a5d7416ae1c68144457a8979d39ce4fc3e1e",
+    "figures/FIGURE_DATA.json": "3c24adf0b3201f928244a97059921ef009caed3fa0cf2675abe2c13e29027440",
+    "figures/confirmation_samples.svg": "b5b70a6005d7e60db8d7bba1ba91e84b7847524c5cd869e4a349722a6a3da519",
+    "figures/physical_event_timeline.svg": "1e07e9dfed7c944d18a4265e18ac169ba2b528ae5c0fad19d35c8bf0a498da23",
+    "figures/physical_event_timeline_compact.svg": "2da5a4584cccda4a1bdf3b119c1ad51f35916b62771c34a5706d7a6469d382a8",
+    "figures/raw_velocity_traces.svg": "d3426dd00374235398438552e17d5a36a10410fa4b879d042aa40650301eed70",
+    "figures/confirmation_samples.pdf": "c231a3816dd00f4c28c482c99b7ba6667f703dbc4c22fce813fdb8da5f55d037",
+    "figures/physical_event_timeline.pdf": "b1eab532ed60aad65dcaa7b961abf427343bd975e2471298f0fc8590aea63882",
+    "figures/physical_event_timeline_compact.pdf": "097750e4dd87ea7a3c1addf9e8670bee98bdc914ebe4972b468c971b94eaea1c",
+    "figures/raw_velocity_traces.pdf": "4976e9ae07cfa9417fbe27839fd31abddedc05ffdc5b215d81d802efe99f5045",
+    "figures/confirmation_samples.png": "6acb217af1954068afce5987faf99cd4953ca60ebe9e0056f45f99e15d3a3cf1",
+    "figures/physical_event_timeline.png": "f77a2d1b8e2ba6a768993486b012c71bf59d35dfbeb76c39f7348396fb939ab3",
+    "figures/physical_event_timeline_compact.png": "97b02aad8d7adf837612216e86a447b400f71e454019cfe0d4685f0765ee7300",
+    "figures/raw_velocity_traces.png": "d2dd3e4a7d0e124ab17331fbd9310922947aff105df2d97549ec7e957ec82462"
+  }
+}

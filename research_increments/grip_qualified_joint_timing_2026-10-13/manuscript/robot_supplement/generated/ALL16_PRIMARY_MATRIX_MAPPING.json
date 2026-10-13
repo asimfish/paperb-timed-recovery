@@ -1,0 +1,98 @@
+[
+  {
+    "condition": "m0.9/d0",
+    "method": "nominal_prior",
+    "case_id": "test_m090_d00_nominal_prior",
+    "primary": "UNKNOWN"
+  },
+  {
+    "condition": "m0.9/d0",
+    "method": "public_delay_prior",
+    "case_id": "test_m090_d00_public_delay_prior",
+    "primary": "UNKNOWN"
+  },
+  {
+    "condition": "m0.9/d0",
+    "method": "calibrated_interval",
+    "case_id": "test_m090_d00_calibrated_interval",
+    "primary": "TRUE"
+  },
+  {
+    "condition": "m0.9/d0",
+    "method": "joint_exact_grid",
+    "case_id": "test_m090_d00_joint_exact_grid",
+    "primary": "TRUE"
+  },
+  {
+    "condition": "m0.9/d12",
+    "method": "nominal_prior",
+    "case_id": "test_m090_d12_nominal_prior",
+    "primary": "FALSE"
+  },
+  {
+    "condition": "m0.9/d12",
+    "method": "public_delay_prior",
+    "case_id": "test_m090_d12_public_delay_prior",
+    "primary": "UNKNOWN"
+  },
+  {
+    "condition": "m0.9/d12",
+    "method": "calibrated_interval",
+    "case_id": "test_m090_d12_calibrated_interval",
+    "primary": "TRUE"
+  },
+  {
+    "condition": "m0.9/d12",
+    "method": "joint_exact_grid",
+    "case_id": "test_m090_d12_joint_exact_grid",
+    "primary": "TRUE"
+  },
+  {
+    "condition": "m1.1/d0",
+    "method": "nominal_prior",
+    "case_id": "test_m110_d00_nominal_prior",
+    "primary": "UNKNOWN"
+  },
+  {
+    "condition": "m1.1/d0",
+    "method": "public_delay_prior",
+    "case_id": "test_m110_d00_public_delay_prior",
+    "primary": "UNKNOWN"
+  },
+  {
+    "condition": "m1.1/d0",
+    "method": "calibrated_interval",
+    "case_id": "test_m110_d00_calibrated_interval",
+    "primary": "TRUE"
+  },
+  {
+    "condition": "m1.1/d0",
+    "method": "joint_exact_grid",
+    "case_id": "test_m110_d00_joint_exact_grid",
+    "primary": "TRUE"
+  },
+  {
+    "condition": "m1.1/d12",
+    "method": "nominal_prior",
+    "case_id": "test_m110_d12_nominal_prior",
+    "primary": "FALSE"
+  },
+  {
+    "condition": "m1.1/d12",
+    "method": "public_delay_prior",
+    "case_id": "test_m110_d12_public_delay_prior",
+    "primary": "UNKNOWN"
+  },
+  {
+    "condition": "m1.1/d12",
+    "method": "calibrated_interval",
+    "case_id": "test_m110_d12_calibrated_interval",
+    "primary": "TRUE"
+  },
+  {
+    "condition": "m1.1/d12",
+    "method": "joint_exact_grid",
+    "case_id": "test_m110_d12_joint_exact_grid",
+    "primary": "TRUE"
+  }
+]

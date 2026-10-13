@@ -1,0 +1,59 @@
+{
+  "schema": "paperb-four-cell-calibration-and-prospective-plans-report-v1",
+  "status": "POSTHOC_CALIBRATION_REPORT_AND_FROZEN_PROSPECTIVE_PLANS",
+  "calibration_cells": 4,
+  "independent_observation_slots": 8,
+  "recorded_task_rows": 53732,
+  "calibration_mechanical_interval_cells_equal_in_this_recorded_cohort": true,
+  "empirical_envelope_s": {
+    "contact": [
+      0.14583334093913436,
+      0.15000000782310963
+    ],
+    "release": [
+      0.07916667079553008,
+      0.08333333767950535
+    ]
+  },
+  "prospective_test_plans": 16,
+  "test_outcomes_accessed": 0,
+  "new_native_episodes": 0,
+  "fit_executed_here": false,
+  "policy_or_frozen_source_changed": false,
+  "does_not_prove_true_support_or_statistical_coverage": true,
+  "fixed_scene_mass_interpolation_not_independent_random_episodes": true,
+  "mass_and_contract_are_paired_not_separately_identified": true,
+  "onset_and_confirmation_distinct": true,
+  "gap_is_not_continuous_contact_hold": true,
+  "raw_input_sha256": {
+    "/data/liyufeng/paperb_grip_qualified_joint_timing_20261013_v1/protocol.json": "cad51fcb553f61b6dee2f102206ad70d8093bd4c73031fd1e1055d241551ef02",
+    "/data/liyufeng/paperb_grip_qualified_joint_timing_20261013_v1/EXECUTION_RELEASE.json": "0c3cff79148f20f6b5f212eb484ac205122b02e63fac98d657ad8e14db3041dd",
+    "/data/liyufeng/paperb_grip_qualified_joint_timing_20261013_v1/CALIBRATION.json": "0bfe857c9d8731272172386be7debc8dd0a7b6dc626ab92665009e31b2c8d133",
+    "/data/liyufeng/paperb_grip_qualified_joint_timing_20261013_v1/CALIBRATION_RELEASE.json": "b961e4144fd7e8db50dd6de5da7bfa776d889728a8287f6570e8ed5c9e4dd3d9",
+    "/data/liyufeng/paperb_grip_qualified_timing_audit_20261013_v1/CALIBRATION_AUDIT.json": "50aea5b4a3d19f05faa249f6f881926a7d490e8bfbac201cfef426a2118312f0",
+    "/data/liyufeng/paperb_grip_qualified_joint_timing_20261013_v1/cases/cal_m080_d00/task/states.jsonl": "b7357e6be16db25308e6f808646d58ab52f673f7bfa0a0e0ee05e6ab92a73376",
+    "/data/liyufeng/paperb_grip_qualified_joint_timing_20261013_v1/cases/cal_m080_d00/task/public_cue.json": "5ebe5a97c0dca7f79b32cec25b20d45e427960e29089644f1730929631a37818",
+    "/data/liyufeng/paperb_grip_qualified_joint_timing_20261013_v1/logs/cal_m080_d00.json": "8e1a0479bdd8e6a82d56511614029f62a1f0cc2693af1ef162a60e78081efdb6",
+    "/data/liyufeng/paperb_grip_qualified_joint_timing_20261013_v1/cases/cal_m080_d00/case.json": "f78a0bfdd301a987da08226befa2a22af2fd077cf39d8bc7d8ca559c0500179b",
+    "/data/liyufeng/paperb_grip_qualified_joint_timing_20261013_v1/cases/cal_m080_d00/RESULT.json": "9323ef0509a3d922d85a630f5753e304ee3b8f31343f83217807c7a601c74dd7",
+    "/data/liyufeng/paperb_grip_qualified_joint_timing_20261013_v1/cases/cal_m080_d12/task/states.jsonl": "fb55369cafa8e1f0c04ba998817b0f1320f25a3144792222c989d46d99d3ac54",
+    "/data/liyufeng/paperb_grip_qualified_joint_timing_20261013_v1/cases/cal_m080_d12/task/public_cue.json": "cb3076892ae9d9f9c382cd831405fcf09817e5cd78f14bc92d54dccc6aecb224",
+    "/data/liyufeng/paperb_grip_qualified_joint_timing_20261013_v1/logs/cal_m080_d12.json": "e823488ffc2804d5f9da004ef5f317ccdd739ec80ccddea52f9b2bb200449452",
+    "/data/liyufeng/paperb_grip_qualified_joint_timing_20261013_v1/cases/cal_m080_d12/case.json": "bab74ba41d83311b09c64257723f2aada40579a6b1c36a42bbabef33164ce9aa",
+    "/data/liyufeng/paperb_grip_qualified_joint_timing_20261013_v1/cases/cal_m080_d12/RESULT.json": "6630ab1df666bd5df2bf26a71af2a68a606e8ea3b71301085a089a4f267ab821",
+    "/data/liyufeng/paperb_grip_qualified_joint_timing_20261013_v1/cases/cal_m120_d00/task/states.jsonl": "3cd0c6d6461d4e93b498fe17f7da5f39a0f3d7dc97d70868476f4ec565ea7d98",
+    "/data/liyufeng/paperb_grip_qualified_joint_timing_20261013_v1/cases/cal_m120_d00/task/public_cue.json": "f5020ecbd5937bba85f9703b06d03fa9201c7b38ee56458d877fefbe43cce504",
+    "/data/liyufeng/paperb_grip_qualified_joint_timing_20261013_v1/logs/cal_m120_d00.json": "c5e7ae8f340b71f367f1f09bd73b82f4ed33123faf90ed4fbca0170076abdc2c",
+    "/data/liyufeng/paperb_grip_qualified_joint_timing_20261013_v1/cases/cal_m120_d00/case.json": "e8048703b98bd6bfef9383f8dabf6e98557feebeb29498c03f669710f91254d4",
+    "/data/liyufeng/paperb_grip_qualified_joint_timing_20261013_v1/cases/cal_m120_d00/RESULT.json": "a2b856b043dc201a9b09358260e7b258a07bceae75a55b6a19a3233ca4244fc0",
+    "/data/liyufeng/paperb_grip_qualified_joint_timing_20261013_v1/cases/cal_m120_d12/task/states.jsonl": "dd86290c3f9ad7e69f375ab519d5f09c00c0c887c2a77c267f353e62ce8d18fa",
+    "/data/liyufeng/paperb_grip_qualified_joint_timing_20261013_v1/cases/cal_m120_d12/task/public_cue.json": "f9ae0ae7522ecd8759c6ed375ab60b4e0dfae63899e773751aa877afd8c8cee1",
+    "/data/liyufeng/paperb_grip_qualified_joint_timing_20261013_v1/logs/cal_m120_d12.json": "c8bed91c8d609111c7ad29f9355cf74c8c38039e134a096c790c7e8718a08c75",
+    "/data/liyufeng/paperb_grip_qualified_joint_timing_20261013_v1/cases/cal_m120_d12/case.json": "51d719c26cf87363aba79863e8b05eb8305972dda2b526c941e6cb996e0c5cd9",
+    "/data/liyufeng/paperb_grip_qualified_joint_timing_20261013_v1/cases/cal_m120_d12/RESULT.json": "6eb7b491555e28bfcdb3be5d24de3cde01b2a017285d43d612953aa80d7c64df"
+  },
+  "source_release_sha256": "0c3cff79148f20f6b5f212eb484ac205122b02e63fac98d657ad8e14db3041dd",
+  "calibration_release_sha256": "b961e4144fd7e8db50dd6de5da7bfa776d889728a8287f6570e8ed5c9e4dd3d9",
+  "independent_audit_sha256": "50aea5b4a3d19f05faa249f6f881926a7d490e8bfbac201cfef426a2118312f0",
+  "formal_test_results_in_this_report": null
+}

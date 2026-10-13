@@ -1,0 +1,89 @@
+{
+  "schema": "paperb-final-robot-ICML-compilation-validation-v1",
+  "status": "PASS_FINAL_TWO_PAGE_SOURCE_COMPILE_AND_ALL_PAGE_VISUAL",
+  "created_at_utc": "2026-10-13T16:16:45.228568+00:00",
+  "declared_tests": 16,
+  "separate_calibration": 4,
+  "full_case_ledger_rows": 16,
+  "pages": 2,
+  "two_compile_logs": {
+    "compile_final1.log": "61a59b5a6856bab48bb374b48b4688efcc9512255b38cd986a0bb230f4a28cd1",
+    "compile_final2.log": "61a59b5a6856bab48bb374b48b4688efcc9512255b38cd986a0bb230f4a28cd1"
+  },
+  "undefined_citations": false,
+  "overfull_boxes": false,
+  "input_files": {
+    "robot_results/PUBLIC_SUMMARY.json": "39fc19002c08adc7f7e9b1cc15074b19f2af1f30068391e30f5a077f15e611a4",
+    "robot_results/ALL16_RESULTS.csv": "89f6c756e66f75d042356d748369b7d83faefe65b4d80a5ca664186a4d3a9c07",
+    "robot_results/all16_timing_intervals.pdf": "341e3309cd43f934d3ca3cefe12aeb2432689b97b06eadadca817229283a9004",
+    "independent_audit/LEGACY_ACTIVE_READBACK_CORRECTION.json": "e1e0ea3b6c939733a15576b573e85a4eb42f7a61d0481893fd8f5dd0fb780305",
+    "independent_audit/TEST_PUBLIC_SUMMARY.json": "daf80096f3245d03a15f9374a453dbb02009009ea0f170dcfaaf4be6172a0748"
+  },
+  "generation_receipt_sha256": "f1764fe10956ce3795a0bc3413b5deed92ebca89dc11bc1e3955068bd4020382",
+  "final_source_sha256": "fc060b37303f3b6c55b5e317425cad984650a169108f1053bb27707624d75d55",
+  "canonical_pdf_sha256": "ae7e2629691064c8572ff085573ff691bd89df8d3ef98a63c959df24df60dc1d",
+  "no_live_worker_or_private_RAW": true,
+  "final_source_has_no_preview_branch": true,
+  "new_physics_runs_by_this_exporter": 0,
+  "GPU_jobs_by_this_exporter": 0,
+  "fits_by_this_exporter": 0,
+  "formal32_native_experiments": 0,
+  "existing_reported_native_test_episodes": 16,
+  "existing_reported_native_calibration_episodes": 4,
+  "generation_receipt_zero_run_scope": "Report formatting only; does not erase existing native20 executions",
+  "official_style_sha256": "7cdcf90f6a59c5219e7f15c88f7ed09fcaf598dad91e6cdddc4dc3cb0e397a95",
+  "finalized_at_utc": "2026-10-13T16:23:29.230961+00:00",
+  "all_page_visual_inspection": {
+    "pages": [
+      1,
+      2
+    ],
+    "sha256": {
+      "page-1.png": "1e724078a3c5e525195acf3848d97eb477c4b0e8b8ac5ce1e25a628166374d11",
+      "page-2.png": "ae4997d3a50f09c6aa467548a14522496e4f14cbc943ff994fec212fceba391e"
+    },
+    "abstract_before_front_metrics": true,
+    "all16_matrix_cells_present": true,
+    "no_clipping_or_label_overlap": true
+  },
+  "primary_T_F_U": {
+    "TRUE": 8,
+    "FALSE": 2,
+    "UNKNOWN": 6
+  },
+  "strict_hold_T_F_U": {
+    "TRUE": 0,
+    "FALSE": 16,
+    "UNKNOWN": 0
+  },
+  "joint_with_hold_pass": 0,
+  "UNKNOWN_preserved_not_hard_failure": true,
+  "boundary_sensitive_prior_noncertification_not_large_lateness": true,
+  "calibrated_midpoint_equals_exact_joint": true,
+  "dimensionless_mass_inertia_factors": true,
+  "paper_figure_receipt_sha256": "394d81bc6934d5615ceaca41e333a1117b089b03a6c4e034004630febc933cc0",
+  "paper_figure_min_font_pt_at_ICML_width": 8.024475524475523,
+  "original_root_interval_values_unchanged": true,
+  "root_report_sha256": "39fc19002c08adc7f7e9b1cc15074b19f2af1f30068391e30f5a077f15e611a4",
+  "independent_public_summary_sha256": "daf80096f3245d03a15f9374a453dbb02009009ea0f170dcfaaf4be6172a0748",
+  "public_package_scope": "Final reports/CSV/scored intervals/source, not all robot RAW",
+  "CPU_note_and8member_archive_unchanged": true,
+  "formatting_successor_receipt_sha256": "13114e5ea35ef4265bb2d7b8a155e0e3a93f1b6045dccaaeeca764cbd2d2df3b",
+  "nonfatal_warnings": [
+    "No shell escape",
+    "Pending author empty anchor",
+    "Underfull boxes in two-column text/legacy link"
+  ],
+  "public_final_files": {
+    "ROBOT_TIMING_SUPPLEMENT.pdf": "ae7e2629691064c8572ff085573ff691bd89df8d3ef98a63c959df24df60dc1d",
+    "source/robot_timing_supplement.tex": "fc060b37303f3b6c55b5e317425cad984650a169108f1053bb27707624d75d55",
+    "source/icml2026.sty": "7cdcf90f6a59c5219e7f15c88f7ed09fcaf598dad91e6cdddc4dc3cb0e397a95",
+    "generated/robot_report_generated.tex": "230ffe4d7c0a2da750933a943e8b29b6737e5c1750ed8f93e26c564fdc8629c3",
+    "generated/ALL16_PRIMARY_MATRIX_MAPPING.json": "37f4d926fe87e74b13ba27d9a9c0a0d39f5a86c703c76580244ba42f0d24c749",
+    "generated/ALL16_RESULTS.csv": "89f6c756e66f75d042356d748369b7d83faefe65b4d80a5ca664186a4d3a9c07",
+    "generated/robot_timing_intervals_paper.pdf": "c7a0220745ffe37da314868aa37f618238e039af3edbf72cac0677788cbcc0cd",
+    "generated/robot_timing_intervals_paper.svg": "5397216310c6ce78166d1c9b00c53a9b352e8152ceca6436303df670438156e0",
+    "generated/PAPER_FIGURE_RECEIPT.json": "394d81bc6934d5615ceaca41e333a1117b089b03a6c4e034004630febc933cc0",
+    "FINAL_README_cn.md": "e102056f933ec8a2c3b3d6dbedd147fef4e70d6bf250d46327020d0be1f4f577"
+  }
+}

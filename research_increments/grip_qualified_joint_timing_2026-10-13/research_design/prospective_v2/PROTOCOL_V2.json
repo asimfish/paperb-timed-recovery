@@ -1,0 +1,242 @@
+{
+  "schema": "paperb-prospective-v2-development-witness-protocol-v1",
+  "role": "PROSPECTIVE_NATIVE_DIAGNOSTIC_NOT_FORMAL_TEST",
+  "dt_ns": 10000000,
+  "horizon_ns": 12000000000,
+  "sensor_period_ticks": 5,
+  "sensor_lag_ns": 100000000,
+  "decision_period_ticks": 2,
+  "charged_decision_ns": 20000000,
+  "initial_state": {
+    "qpos": [
+      0,
+      0,
+      0
+    ],
+    "qvel": [
+      0,
+      0,
+      0
+    ],
+    "torque": [
+      0.06,
+      0.06,
+      0.06
+    ]
+  },
+  "private_plant": {
+    "inertia": 0.002,
+    "damping": 0.006,
+    "fault": "first_A_stop_drop"
+  },
+  "public": {
+    "eps_C_ns": 150000000,
+    "minimum_edge_gap_ns": 40000000,
+    "original_B_angle": 2.0,
+    "moving_threshold": 0.1,
+    "stop_hold_ns": 200000000,
+    "B_maintenance_ns": 6000000000,
+    "public_nominal_model": {
+      "inertia": 0.002,
+      "damping": 0.006
+    },
+    "model_scope": "PREDECLARED_UNFITTED_PUBLIC_NOMINAL_SINGLE_MODEL; CONDITIONAL_NOT_TRUE_SUPPORT",
+    "initial_torque": 0.06,
+    "max_requests_A_C": 4,
+    "max_requests_per_rotor": 2,
+    "maximum_candidates_per_decision": 1000,
+    "maximum_candidates_epoch": 10000,
+    "recoverable_fault_hypotheses": [
+      "none",
+      "first_A_stop_drop"
+    ],
+    "current_private_fault_given_to_actor": false,
+    "blind_redundant_stop_allowed_all_arms": true
+  },
+  "resource": {
+    "capacity": 1,
+    "services_ns": {
+      "A_stop": 50000000,
+      "C_stop": 450000000
+    },
+    "B_reservation": {
+      "request_ns": 0,
+      "service_start_ns": 650000000,
+      "tag": "B_reserved_drive_change",
+      "torque_after_ACK": 0.045
+    }
+  },
+  "candidate_change_basis": "Before formal execution, independent symbolic resource/deadline/support checks; no formal outcomes/fit/selected successful traces.",
+  "original_event_identity": "B_FIRST_ACTUAL_Q2; keep first public coarse observation forever. Public known-model/history inference refines same event bounds; no new epoch or anchor.",
+  "formal32_status": "NOT_FROZEN_NOT_EXECUTED",
+  "native_witness_mode": "Public model-conditioned no-query, fault-hypothesis-robust batch with allowed redundancy; native results are development reachability diagnostics, not method rates.",
+  "unsupported_claims": [
+    "Neural or agentic advantage",
+    "Learned model",
+    "Physical model support/confidence coverage",
+    "Unknown-model/noise observability lower bound",
+    "Real chemistry/original robot",
+    "Continuous-time maintenance"
+  ],
+  "main_cross": {
+    "graph": [
+      "A_then_C",
+      "C_then_A"
+    ],
+    "B_service_ticks": [
+      5,
+      45
+    ],
+    "D_s": [
+      2.8,
+      3.1
+    ]
+  },
+  "counts": {
+    "planned_native_witnesses": 8,
+    "formal_tests": 0,
+    "calibration": 0,
+    "fits": 0,
+    "GPU": 0,
+    "LLM": 0,
+    "weights": 0
+  },
+  "cases": [
+    {
+      "id": "v2_diag-A_then_C-B5-D2p8",
+      "role": "NATIVE_DEVELOPMENT_REACHABILITY_DIAGNOSTIC",
+      "graph_id": "A_then_C",
+      "graph_edges": [
+        [
+          "A",
+          "C"
+        ]
+      ],
+      "D_C_ns": 2800000000,
+      "A_window_ns": [
+        1800000000,
+        2800000000
+      ],
+      "B_service_ns": 50000000
+    },
+    {
+      "id": "v2_diag-A_then_C-B5-D3p1",
+      "role": "NATIVE_DEVELOPMENT_REACHABILITY_DIAGNOSTIC",
+      "graph_id": "A_then_C",
+      "graph_edges": [
+        [
+          "A",
+          "C"
+        ]
+      ],
+      "D_C_ns": 3100000000,
+      "A_window_ns": [
+        1800000000,
+        3100000000
+      ],
+      "B_service_ns": 50000000
+    },
+    {
+      "id": "v2_diag-A_then_C-B45-D2p8",
+      "role": "NATIVE_DEVELOPMENT_REACHABILITY_DIAGNOSTIC",
+      "graph_id": "A_then_C",
+      "graph_edges": [
+        [
+          "A",
+          "C"
+        ]
+      ],
+      "D_C_ns": 2800000000,
+      "A_window_ns": [
+        1800000000,
+        2800000000
+      ],
+      "B_service_ns": 450000000
+    },
+    {
+      "id": "v2_diag-A_then_C-B45-D3p1",
+      "role": "NATIVE_DEVELOPMENT_REACHABILITY_DIAGNOSTIC",
+      "graph_id": "A_then_C",
+      "graph_edges": [
+        [
+          "A",
+          "C"
+        ]
+      ],
+      "D_C_ns": 3100000000,
+      "A_window_ns": [
+        1800000000,
+        3100000000
+      ],
+      "B_service_ns": 450000000
+    },
+    {
+      "id": "v2_diag-C_then_A-B5-D2p8",
+      "role": "NATIVE_DEVELOPMENT_REACHABILITY_DIAGNOSTIC",
+      "graph_id": "C_then_A",
+      "graph_edges": [
+        [
+          "C",
+          "A"
+        ]
+      ],
+      "D_C_ns": 2800000000,
+      "A_window_ns": [
+        1800000000,
+        2800000000
+      ],
+      "B_service_ns": 50000000
+    },
+    {
+      "id": "v2_diag-C_then_A-B5-D3p1",
+      "role": "NATIVE_DEVELOPMENT_REACHABILITY_DIAGNOSTIC",
+      "graph_id": "C_then_A",
+      "graph_edges": [
+        [
+          "C",
+          "A"
+        ]
+      ],
+      "D_C_ns": 3100000000,
+      "A_window_ns": [
+        1800000000,
+        3100000000
+      ],
+      "B_service_ns": 50000000
+    },
+    {
+      "id": "v2_diag-C_then_A-B45-D2p8",
+      "role": "NATIVE_DEVELOPMENT_REACHABILITY_DIAGNOSTIC",
+      "graph_id": "C_then_A",
+      "graph_edges": [
+        [
+          "C",
+          "A"
+        ]
+      ],
+      "D_C_ns": 2800000000,
+      "A_window_ns": [
+        1800000000,
+        2800000000
+      ],
+      "B_service_ns": 450000000
+    },
+    {
+      "id": "v2_diag-C_then_A-B45-D3p1",
+      "role": "NATIVE_DEVELOPMENT_REACHABILITY_DIAGNOSTIC",
+      "graph_id": "C_then_A",
+      "graph_edges": [
+        [
+          "C",
+          "A"
+        ]
+      ],
+      "D_C_ns": 3100000000,
+      "A_window_ns": [
+        1800000000,
+        3100000000
+      ],
+      "B_service_ns": 450000000
+    }
+  ]
+}

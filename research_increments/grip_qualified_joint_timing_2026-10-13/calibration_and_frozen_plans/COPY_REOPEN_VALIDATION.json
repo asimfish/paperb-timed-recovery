@@ -1,0 +1,24 @@
+{
+  "status": "PASS_REMOTE_COPY_BYTES_AND_ALL31_ARCHIVE_MEMBERS_EXACT",
+  "copied_files": 13,
+  "copied_file_source_sha256": {
+    "ARCHIVE_VALIDATION.json": "7149fb492a7d5d3e0b1190b2bd3a7b0f8a34f21d11ce89a829b6324f12c822b4",
+    "summary.json": "eaddb94cb6eabc0bbf2a14283b8f998f5d66edddb08125e31bc8baa1dcd7ee2a",
+    "README_cn.md": "d1b4b587d26988d13f0a1a4ea24ed98e04d112b3437ffe15f89fd9bdb4a0e261",
+    "EXPORT_MANIFEST.json": "74fc3003aa0d1ca50490355fca9f63c6513eaaa1fe969a9d4c077a7ac1c8d272",
+    "REPORT_SCOPE.json": "05dea49aaa89eb217063c450ec0af7618d61f8309236bacbfc314e6679da9487",
+    "REPORT_SCOPE_cn.md": "f103516b5d9516b7cc3d651eb1997fa281d664b919bbb25fa9a40c6648b2d63f",
+    "calibration_cells.csv": "a21593f1e5a5aaaf0bda2188f3bc9605ad44cab053c0eaa3f30161e309a5c837",
+    "prospective_16_plans.csv": "1dc2bd89bbf6076787dcaa58d63e747bed46543d969a0d93e33b19fa7ae17662",
+    "four_calibration_states.svg": "30f7042a1c9a03827b77c51b4e5323d98322249eef55fae5f4a7daa4e9555d3a",
+    "four_calibration_states.pdf": "022236205198ac78541d0ba74892bf59651f963006a8c86bc152c5e49226c1a8",
+    "four_calibration_states.png": "88e1be9328582fc3dc1e13472bb7bdb45ac22c30441c6a21586321da61a24dd5",
+    "CALIBRATION.json": "0bfe857c9d8731272172386be7debc8dd0a7b6dc626ab92665009e31b2c8d133",
+    "CALIBRATION_RELEASE.json": "b961e4144fd7e8db50dd6de5da7bfa776d889728a8287f6570e8ed5c9e4dd3d9"
+  },
+  "archive_members_reopened": 31,
+  "archive_sha256": "b83dce5b5b9a42f66ce96938ee79ff2a2b7c67c96b8bd7decb9b2f0caf91717f",
+  "scope_is_preserved_additive_outside_archive": true,
+  "source_or_policy_changes": false,
+  "test_score_reads": 0
+}

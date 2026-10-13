@@ -1,0 +1,16 @@
+{
+  "status": "PASS_EIGHT_FOCUSED_NEGATIVE_SEMANTIC_TESTS",
+  "tests": {
+    "initial_stationary_never_stop": true,
+    "twenty_positive_190ms_not_confirmed": true,
+    "twenty_one_positive_200ms_confirmed": true,
+    "occurrence_interval_not_confirmation": true,
+    "negative_prior_motion_valid": true,
+    "missing_event_unknown": true,
+    "straddling_window_unknown": true,
+    "duration_uses_occurrence_not_confirmation": true
+  },
+  "native_integrations": 0,
+  "auditor_function_defs_loaded_without_top_level_native_execution": true,
+  "auditor_source_sha256": "4b71d8b0c1db77f552f87fdb1c6c83901ecce27e13970689499919295c940f5f"
+}

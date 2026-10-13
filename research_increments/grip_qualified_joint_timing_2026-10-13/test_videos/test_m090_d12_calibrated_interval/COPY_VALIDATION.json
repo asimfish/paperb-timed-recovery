@@ -1,0 +1,34 @@
+{
+  "status": "PASS_ORIGINAL_VIDEO_AND_POSTER_BYTES_SAFE_COPY",
+  "case_id": "test_m090_d12_calibrated_interval",
+  "source_video_file": "/data/liyufeng/paperb_grip_qualified_analysis_tools_20261013_v1/test_videos/test_m090_d12_calibrated_interval/recorded_native_rgb.mp4",
+  "video_sha256": "8440f23102b054b73f7a55d7e32f8d278b6042e00dc9bd8ad1323475ae24e489",
+  "poster_source_frame_index": 84,
+  "poster_selection_rule": "FIXED_MIDPOINT_OF_RECORDED_SEQUENCE_NO_OUTCOME_SELECTION",
+  "poster_source": {
+    "command_index": 5520,
+    "native_time_s": 28.133334800601006,
+    "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+    "native_rgb_sha256": "3b893a857a0b1021cb2b4572043d24b56ea6f4844b6e90fba60974e33b294a0a",
+    "image": "images/05520.jpg",
+    "image_sha256": "1e5ff6bbe0a268ba8b8df994cc43932b9f00ab786fa1400f5b586a8f35f2a20c",
+    "depth": "depth/05520.npz",
+    "physics_callbacks_during_render": 0,
+    "physical_state_changed": false,
+    "sensor_clock_is_native_clock": false,
+    "camera_frame": 89
+  },
+  "poster_byte_sha256": "1e5ff6bbe0a268ba8b8df994cc43932b9f00ab786fa1400f5b586a8f35f2a20c",
+  "source_validation_sha256": "c8d31fa623d73ce1461d0a7a5066d2f4d8c6612b9e076173178b797781525f74",
+  "source_provenance_sha256": "458cdb17262729537da7caef8fd7358923464528bd2839cb69e656284aed63b6",
+  "destination_file_sha256": {
+    "test_m090_d12_calibrated_interval.mp4": "8440f23102b054b73f7a55d7e32f8d278b6042e00dc9bd8ad1323475ae24e489",
+    "poster.jpg": "1e5ff6bbe0a268ba8b8df994cc43932b9f00ab786fa1400f5b586a8f35f2a20c",
+    "VIDEO_PROVENANCE.json": "458cdb17262729537da7caef8fd7358923464528bd2839cb69e656284aed63b6",
+    "VIDEO_VALIDATION.json": "c8d31fa623d73ce1461d0a7a5066d2f4d8c6612b9e076173178b797781525f74"
+  },
+  "no_source_video_or_raw_changes": true,
+  "test_scores_read_for_selection": 0,
+  "new_native_episodes": 0,
+  "GPU_jobs_started": 0
+}

@@ -1,0 +1,16 @@
+{
+  "schema": "paperb-video-export-tool-source-snapshot-v1",
+  "status": "CPU_EXPORT_TOOL_SNAPSHOT_NOT_NATIVE_CONTROLLER_SOURCE",
+  "files": {
+    "export_video.py": "24f4fda3591f682187b8b6f2d62b2b3a34263fa87df5d96dc699fda1a2959f09",
+    "plot_case.py": "be14b206fb6246991060e1de711ee6efbc798e531add40e4834cef64d55a58b2",
+    "export_frozen_test_videos.py": "fcd03549d213f166cd845c6895465ac1ec4b84e071042fe34960761072fbc1f9"
+  },
+  "python_version": "3.10.12 (main, Aug 31 2026, 10:18:17) [GCC 11.4.0]",
+  "numpy_version": "1.21.5",
+  "ffmpeg_version": "ffmpeg version 4.4.2-0ubuntu0.22.04.1 Copyright (c) 2000-2021 the FFmpeg developers",
+  "ffprobe_version": "ffprobe version 4.4.2-0ubuntu0.22.04.1 Copyright (c) 2007-2021 the FFmpeg developers",
+  "GPU_jobs_started": 0,
+  "new_native_episodes": 0,
+  "fit_executed": false
+}

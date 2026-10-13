@@ -1,0 +1,22 @@
+{
+  "status": "PASS_QUEUE_WAIT_SPLIT_AND_AUDIT_ACCOUNTING",
+  "C_queue_wait_ns": 690000000,
+  "C_queue_wait_intervals": 69,
+  "C_queue_first_q": 7.411922280683639,
+  "C_queue_last_q": 14.086129302050598,
+  "C_service_duration_ns": 450000000,
+  "C_service_intervals": 45,
+  "C_drive_full_until_ACK": true,
+  "original_development_primary_epochs": 1,
+  "producer_reintegration_diagnostic_epochs": 1,
+  "third_auditor_reintegration_invocations": 2,
+  "third_audit_samples_per_invocation": 1201,
+  "third_audit_total_verification_samples": 2402,
+  "total_existing_and_verification_samples_all_four_epochs": 4804,
+  "formal_main_episodes": 0,
+  "calibration_or_fit_or_GPU": 0,
+  "reason_two_audit_invocations": "Initial independent replay and repeated verification after adding complete cached condition-vector comparison. Same frozen primary RAW/source; not two independent policy attempts.",
+  "preliminary_receipt_sha256": "ffd219f706dbac36c19a197a0d4dd4a36120ab6ef73f1159533f9db9d66e3a9d",
+  "final_receipt_sha256": "11d53c07a14e0db81a201fd8c19a2df942e9470ecbfc0035796b002b2102531c",
+  "raw_SHA": "706fc4c36d6b7ba3ef8c5a376cd637ac47624a1b271e5de89195f07b446c3628"
+}

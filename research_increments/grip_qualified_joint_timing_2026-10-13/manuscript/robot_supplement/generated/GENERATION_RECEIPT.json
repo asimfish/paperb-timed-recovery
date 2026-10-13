@@ -1,0 +1,31 @@
+{
+  "schema": "paperb-final-report-to-ICML-data-receipt-v1",
+  "status": "PASS_FINAL_ROOT_REPORT_ONLY",
+  "created_at_utc": "2026-10-13T16:16:40.954491+00:00",
+  "input_files": {
+    "robot_results/PUBLIC_SUMMARY.json": "39fc19002c08adc7f7e9b1cc15074b19f2af1f30068391e30f5a077f15e611a4",
+    "robot_results/ALL16_RESULTS.csv": "89f6c756e66f75d042356d748369b7d83faefe65b4d80a5ca664186a4d3a9c07",
+    "robot_results/all16_timing_intervals.pdf": "341e3309cd43f934d3ca3cefe12aeb2432689b97b06eadadca817229283a9004",
+    "independent_audit/LEGACY_ACTIVE_READBACK_CORRECTION.json": "e1e0ea3b6c939733a15576b573e85a4eb42f7a61d0481893fd8f5dd0fb780305",
+    "independent_audit/TEST_PUBLIC_SUMMARY.json": "daf80096f3245d03a15f9374a453dbb02009009ea0f170dcfaaf4be6172a0748"
+  },
+  "declared_tests": 16,
+  "separate_calibration": 4,
+  "methods_denominator": 4,
+  "raw_rows_retained": 16,
+  "paper_primary_ledger": "COMPLETE_4X4_TRISTATE_MATRIX; all16 case ids bound in mapping and CSV",
+  "calibrated_exact_primary_tie": true,
+  "actual_physics_runs": 0,
+  "GPU": 0,
+  "fits": 0,
+  "outcome_files_before_gate": 0,
+  "no_worker_or_private_raw_inputs": true,
+  "source_template_sha256": "7ade05290015be9f7ae15b02c4bf9328f958a4a7d1948631a2eb326076c2a326",
+  "builder_sha256": "eff008ae331a82efeed456d35dbefc40f7b9f11eb00cdf275471e08f2a4f0668",
+  "outputs": {
+    "all16_timing_intervals.pdf": "341e3309cd43f934d3ca3cefe12aeb2432689b97b06eadadca817229283a9004",
+    "robot_report_generated.tex": "230ffe4d7c0a2da750933a943e8b29b6737e5c1750ed8f93e26c564fdc8629c3",
+    "ALL16_RESULTS.csv": "89f6c756e66f75d042356d748369b7d83faefe65b4d80a5ca664186a4d3a9c07",
+    "ALL16_PRIMARY_MATRIX_MAPPING.json": "37f4d926fe87e74b13ba27d9a9c0a0d39f5a86c703c76580244ba42f0d24c749"
+  }
+}

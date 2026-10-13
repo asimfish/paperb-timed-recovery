@@ -1,0 +1,84 @@
+{
+  "schema": "paperb-third-independent-v2-public-schedule-enumeration-v1",
+  "created_at_utc": "2026-10-13T15:33:27.108682+00:00",
+  "status": "PASS_EIGHT_PUBLIC_FAMILY_PLANS_AND_BUDGET_COUNTS",
+  "cases": [
+    {
+      "case_id": "v2_diag-A_then_C-B5-D2p8",
+      "counted_ACK_grid_proposals": 300,
+      "selected_program_exact": true,
+      "selected_A_and_C_box_exact": true,
+      "conditional_feasible_candidates_in_disclosed_family": 29,
+      "lowest_center_cost_and_ACK_exact": true,
+      "domain_is_bounded_public_prefix_family_not_all_policy_oracle": true
+    },
+    {
+      "case_id": "v2_diag-A_then_C-B5-D3p1",
+      "counted_ACK_grid_proposals": 330,
+      "selected_program_exact": true,
+      "selected_A_and_C_box_exact": true,
+      "conditional_feasible_candidates_in_disclosed_family": 29,
+      "lowest_center_cost_and_ACK_exact": true,
+      "domain_is_bounded_public_prefix_family_not_all_policy_oracle": true
+    },
+    {
+      "case_id": "v2_diag-A_then_C-B45-D2p8",
+      "counted_ACK_grid_proposals": 340,
+      "selected_program_exact": true,
+      "selected_A_and_C_box_exact": true,
+      "conditional_feasible_candidates_in_disclosed_family": 19,
+      "lowest_center_cost_and_ACK_exact": true,
+      "domain_is_bounded_public_prefix_family_not_all_policy_oracle": true
+    },
+    {
+      "case_id": "v2_diag-A_then_C-B45-D3p1",
+      "counted_ACK_grid_proposals": 370,
+      "selected_program_exact": true,
+      "selected_A_and_C_box_exact": true,
+      "conditional_feasible_candidates_in_disclosed_family": 29,
+      "lowest_center_cost_and_ACK_exact": true,
+      "domain_is_bounded_public_prefix_family_not_all_policy_oracle": true
+    },
+    {
+      "case_id": "v2_diag-C_then_A-B5-D2p8",
+      "counted_ACK_grid_proposals": 282,
+      "selected_program_exact": true,
+      "selected_A_and_C_box_exact": true,
+      "conditional_feasible_candidates_in_disclosed_family": 4,
+      "lowest_center_cost_and_ACK_exact": true,
+      "domain_is_bounded_public_prefix_family_not_all_policy_oracle": true
+    },
+    {
+      "case_id": "v2_diag-C_then_A-B5-D3p1",
+      "counted_ACK_grid_proposals": 312,
+      "selected_program_exact": true,
+      "selected_A_and_C_box_exact": true,
+      "conditional_feasible_candidates_in_disclosed_family": 4,
+      "lowest_center_cost_and_ACK_exact": true,
+      "domain_is_bounded_public_prefix_family_not_all_policy_oracle": true
+    },
+    {
+      "case_id": "v2_diag-C_then_A-B45-D2p8",
+      "counted_ACK_grid_proposals": 282,
+      "selected_program_exact": true,
+      "selected_A_and_C_box_exact": true,
+      "conditional_feasible_candidates_in_disclosed_family": 4,
+      "lowest_center_cost_and_ACK_exact": true,
+      "domain_is_bounded_public_prefix_family_not_all_policy_oracle": true
+    },
+    {
+      "case_id": "v2_diag-C_then_A-B45-D3p1",
+      "counted_ACK_grid_proposals": 312,
+      "selected_program_exact": true,
+      "selected_A_and_C_box_exact": true,
+      "conditional_feasible_candidates_in_disclosed_family": 4,
+      "lowest_center_cost_and_ACK_exact": true,
+      "domain_is_bounded_public_prefix_family_not_all_policy_oracle": true
+    }
+  ],
+  "native_integrations": 0,
+  "fit": 0,
+  "GPU": 0,
+  "no_private_model_or_raw_event_labels_or_actor_flags_used_for_planning": true,
+  "model_is_declared_public_nominal_no_support_guarantee": true
+}

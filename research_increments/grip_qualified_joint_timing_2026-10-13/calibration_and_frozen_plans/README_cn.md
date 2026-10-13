@@ -1,0 +1,9 @@
+本报告包含四条独立校准episode的8个机械响应区间、完整记录的夹指/瓶体曲线，以及通过冻结校准生成的16条未来测试计划。它不读取任何测试case目录或结果，不启动native/GPU，不执行fit，不更新策略或冻结源。
+
+4格质量×FIFO校准全部由独立RAW审计准入。这个记录队列中，各格contact区间恰好相同，release区间也相同；这不证明载荷或延迟永远不影响机械响应，更不提供真实延迟support或统计覆盖保证。各格分别保留，不能把8个事件slot写成8个机器人episode。
+
+prospective_16_plans.csv仅列合同、dispatch和hold决策。planned_schedules/保留完整source index映射及executor同编码SHA；它们不是测试成功率。16条测试是4方法×4固定配对条件，质量0.9/1.1在校准0.8/1.2之间插值，并与D5/5.5和gap18/18.5配对，不能独立归因质量和合同。
+
+曲线横轴来自记录的native钟。蓝/紫阴影为独立审计的contact/verified stable release物理onset bracket，点线为confirmation，二者没有互换。contact→stable release的gap不是连续bilateral hold；正式joint与joint_with_hold分开计分。本图没有重新计分接触或机械验收。
+
+CALIBRATION_AUDIT.json是独立准入依据，CALIBRATION_RELEASE.json绑定根执行源和fit产物。EXPORT_MANIFEST.json列导出成员SHA。export_report.py只导出已完成4cal及静态test roster，可重放到全新目录；不应覆盖旧输出。

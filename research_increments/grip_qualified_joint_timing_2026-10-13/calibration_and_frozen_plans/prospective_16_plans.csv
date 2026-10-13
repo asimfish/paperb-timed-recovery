@@ -1,0 +1,17 @@
+case_id,method,mass_factor,public_FIFO_ticks,contact_contract_s,contact_to_stable_release_gap_contract_s,tolerance_s,command_contact_since_cue_s,command_release_since_cue_s,hold_before_close_ticks,hold_before_release_ticks,source_submission_count,schedule_refused,exact_grid_feasible_candidates,executor_schedule_sha256,observed_test_outcome
+test_m090_d00_nominal_prior,nominal_prior,0.9,0,5.0,18.0,0.025,4.825,22.9125,198,261,13886,False,N/A,fe0a7bd00360cdfeb98f6d8e2341283373a3b938a7ed2b56e2a61ad356607fda,NOT_READ
+test_m090_d00_public_delay_prior,public_delay_prior,0.9,0,5.0,18.0,0.025,4.825,22.9125,198,261,13886,False,N/A,fe0a7bd00360cdfeb98f6d8e2341283373a3b938a7ed2b56e2a61ad356607fda,NOT_READ
+test_m090_d00_calibrated_interval,calibrated_interval,0.9,0,5.0,18.0,0.025,4.854166666666667,22.920833333333334,205,256,13888,False,N/A,0e951a77a61014958237e07cbb661a4ef5311c412867b3126293ba411c53df3e,NOT_READ
+test_m090_d00_joint_exact_grid,joint_exact_grid,0.9,0,5.0,18.0,0.025,4.85,22.916666666666668,204,256,13887,False,85,649ca100581b9cf8aaf8d3f58d28a26a57ffc7ea1676b181d7e02add2b2180d1,NOT_READ
+test_m090_d12_nominal_prior,nominal_prior,0.9,12,5.0,18.5,0.025,4.825,23.4125,198,381,14006,False,N/A,16dd577868f100735c0bee7bdff49d72d3bda5ec1c3731a38b52683fdf3c7563,NOT_READ
+test_m090_d12_public_delay_prior,public_delay_prior,0.9,12,5.0,18.5,0.025,4.775,23.3625,186,381,13994,False,N/A,6eabfb2fe1d71b7386e48a670b35a9c638fadf8fa60802d8eeb8412393d18266,NOT_READ
+test_m090_d12_calibrated_interval,calibrated_interval,0.9,12,5.0,18.5,0.025,4.804166666666666,23.370833333333334,193,376,13996,False,N/A,4b6e2e77e6de6ca442f41f4177c2bd3f9a7ea43b661b92655b8e03785b719d3d,NOT_READ
+test_m090_d12_joint_exact_grid,joint_exact_grid,0.9,12,5.0,18.5,0.025,4.8,23.366666666666667,192,376,13995,False,85,02f4d3e6cf170880c906d4e2168b922bf81ea97fa4b2bb852d4e7851bce3b7c6,NOT_READ
+test_m110_d00_nominal_prior,nominal_prior,1.1,0,5.5,18.0,0.025,5.325,23.4125,318,261,14006,False,N/A,f8c62d653eb3cc476a160fb6384f9f5776aaf9e09ac526b9a9a2d145bc42fb7a,NOT_READ
+test_m110_d00_public_delay_prior,public_delay_prior,1.1,0,5.5,18.0,0.025,5.325,23.4125,318,261,14006,False,N/A,f8c62d653eb3cc476a160fb6384f9f5776aaf9e09ac526b9a9a2d145bc42fb7a,NOT_READ
+test_m110_d00_calibrated_interval,calibrated_interval,1.1,0,5.5,18.0,0.025,5.354166666666667,23.420833333333334,325,256,14008,False,N/A,f77fa99237e28b5feeefbb5b808093a50b64e1d52969e123da79ccedb68bfdbe,NOT_READ
+test_m110_d00_joint_exact_grid,joint_exact_grid,1.1,0,5.5,18.0,0.025,5.35,23.416666666666668,324,256,14007,False,85,22847dbc5c197ab5208dc2917cf81e0953804116fb3bb656d7b31ec243d61e88,NOT_READ
+test_m110_d12_nominal_prior,nominal_prior,1.1,12,5.5,18.5,0.025,5.325,23.9125,318,381,14126,False,N/A,92c9505b8d898d8f1a6799ac6f485205e5b06be214409cb2d7b97b56d430be42,NOT_READ
+test_m110_d12_public_delay_prior,public_delay_prior,1.1,12,5.5,18.5,0.025,5.275,23.8625,306,381,14114,False,N/A,603453a1e42e00bd41f692e07b616edbd14573daec808e72a0abeaa83ab6baaa,NOT_READ
+test_m110_d12_calibrated_interval,calibrated_interval,1.1,12,5.5,18.5,0.025,5.304166666666666,23.870833333333334,313,376,14116,False,N/A,bb329f4ea8ad617010667af7a46b0db83148317c9a2713b296c621eaad444207,NOT_READ
+test_m110_d12_joint_exact_grid,joint_exact_grid,1.1,12,5.5,18.5,0.025,5.3,23.866666666666667,312,376,14115,False,85,51d66c3fc180ac4110aa4ee3042905d1415d30ecb824ff54197d7a30a54fe73d,NOT_READ

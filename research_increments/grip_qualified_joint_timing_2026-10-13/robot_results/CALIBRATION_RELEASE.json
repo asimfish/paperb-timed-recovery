@@ -1,0 +1,14 @@
+{
+  "schema": "paperb-calibration-release-v2",
+  "calibration_sha256": "0bfe857c9d8731272172386be7debc8dd0a7b6dc626ab92665009e31b2c8d133",
+  "execution_release_sha256": "0c3cff79148f20f6b5f212eb484ac205122b02e63fac98d657ad8e14db3041dd",
+  "protocol_sha256": "cad51fcb553f61b6dee2f102206ad70d8093bd4c73031fd1e1055d241551ef02",
+  "independent_audit_sha256": "50aea5b4a3d19f05faa249f6f881926a7d490e8bfbac201cfef426a2118312f0",
+  "fitted_episode_ids": [
+    "cal_m080_d00",
+    "cal_m080_d12",
+    "cal_m120_d00",
+    "cal_m120_d12"
+  ],
+  "uses_test_outputs": false
+}

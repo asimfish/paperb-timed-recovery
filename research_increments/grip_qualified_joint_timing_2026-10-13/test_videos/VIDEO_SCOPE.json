@@ -1,0 +1,15 @@
+{
+  "recorded_backend": "IsaacLab / PhysX native simulation",
+  "hardware_robot_episodes": 0,
+  "chemical_endpoint_verified": false,
+  "video_selection": "exact frozen four video_case_ids, independent of test score/success",
+  "fps": 6,
+  "interpolated_frames": 0,
+  "MP4_is_lossy": true,
+  "original_JPEG_is_lossy": true,
+  "native_RGB_uncompressed_hash_is_recorder_metadata": true,
+  "original_depth_preserved_as_NPZ": true,
+  "depth_is_not_encoded_in_MP4": true,
+  "six_fps_video_is_not_25ms_contract_oracle": true,
+  "formal_test_success_inferred": false
+}

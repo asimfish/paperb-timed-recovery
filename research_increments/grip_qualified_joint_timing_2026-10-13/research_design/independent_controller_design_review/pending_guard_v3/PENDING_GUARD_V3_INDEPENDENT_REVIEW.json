@@ -1,0 +1,99 @@
+{
+  "schema": "paperb-third-independent-pending-guard-v3-review-v1",
+  "created_at_utc": "2026-10-13T15:35:37.998006+00:00",
+  "verdict": "Pass",
+  "scope": "PENDING_GUARD_REPAIR_AND_UNCHANGED_INITIAL_PLANS_ONLY",
+  "dimensions": {
+    "functional_achievement": "Pass: all4\u00d7pendingA/C direct cases refuse newprogram, all4 externalB initial contexts retain plan",
+    "correctness_and_reliability": "Pass: copied18CPUtests,32original program+budget exact against independent reviewer copy before repair",
+    "architecture": "Pass: one shared narrow entry guard, no extra stateful dispatcher layer introduced",
+    "function_and_API_design": "Pass for scopedinitial ABI: accepted nonexternal A/C or ACK rejects; no complete lifecycle implementation claim",
+    "style_and_maintainability": "Pass for isolated guardrepair: pre-repair source and redreceipt retained",
+    "performance": "Not a performance claim; full charged runtime/host-deadline behavior remains unverified"
+  },
+  "blocking_findings": [],
+  "non_blocking_improvements": [
+    "Full stateful issued/pending/remaining-budget dispatcher is still pending and requires separate native acceptance."
+  ],
+  "minimum_required_repair": "None for this pending-entry repair; full controller integration has separate declared gates.",
+  "focused_tests_passed": 18,
+  "direct_guard_boundary_checks": [
+    {
+      "method": "sameinfo_calibrated_batch_joint",
+      "pending_target": "A",
+      "status": "INITIAL_DECISION_ADAPTER_ONLY_FEEDBACK_LIFECYCLE_SPEC_PENDING",
+      "new_program": false
+    },
+    {
+      "method": "sameinfo_calibrated_batch_joint",
+      "pending_target": "C",
+      "status": "INITIAL_DECISION_ADAPTER_ONLY_FEEDBACK_LIFECYCLE_SPEC_PENDING",
+      "new_program": false
+    },
+    {
+      "method": "sameinfo_calibrated_batch_joint",
+      "external_B_only_initial_context": "PASS_LEGAL_INITIAL_PLAN"
+    },
+    {
+      "method": "sameinfo_robust_hsm",
+      "pending_target": "A",
+      "status": "INITIAL_DECISION_ADAPTER_ONLY_FEEDBACK_LIFECYCLE_SPEC_PENDING",
+      "new_program": false
+    },
+    {
+      "method": "sameinfo_robust_hsm",
+      "pending_target": "C",
+      "status": "INITIAL_DECISION_ADAPTER_ONLY_FEEDBACK_LIFECYCLE_SPEC_PENDING",
+      "new_program": false
+    },
+    {
+      "method": "sameinfo_robust_hsm",
+      "external_B_only_initial_context": "PASS_LEGAL_INITIAL_PLAN"
+    },
+    {
+      "method": "sameinfo_edf_event_replanner",
+      "pending_target": "A",
+      "status": "INITIAL_DECISION_ADAPTER_ONLY_FEEDBACK_LIFECYCLE_SPEC_PENDING",
+      "new_program": false
+    },
+    {
+      "method": "sameinfo_edf_event_replanner",
+      "pending_target": "C",
+      "status": "INITIAL_DECISION_ADAPTER_ONLY_FEEDBACK_LIFECYCLE_SPEC_PENDING",
+      "new_program": false
+    },
+    {
+      "method": "sameinfo_edf_event_replanner",
+      "external_B_only_initial_context": "PASS_LEGAL_INITIAL_PLAN"
+    },
+    {
+      "method": "sameinfo_joint_interval_mpc",
+      "pending_target": "A",
+      "status": "INITIAL_DECISION_ADAPTER_ONLY_FEEDBACK_LIFECYCLE_SPEC_PENDING",
+      "new_program": false
+    },
+    {
+      "method": "sameinfo_joint_interval_mpc",
+      "pending_target": "C",
+      "status": "INITIAL_DECISION_ADAPTER_ONLY_FEEDBACK_LIFECYCLE_SPEC_PENDING",
+      "new_program": false
+    },
+    {
+      "method": "sameinfo_joint_interval_mpc",
+      "external_B_only_initial_context": "PASS_LEGAL_INITIAL_PLAN"
+    }
+  ],
+  "original_32_programs_and_accounting_exact": true,
+  "public_adapters_sha256": "2d60b1d39a755ab4a4608ddd7d4d360f70ed3df468ef673a1f6dc64a2a769b02",
+  "source_files": {
+    "public_adapters.py": "2d60b1d39a755ab4a4608ddd7d4d360f70ed3df468ef673a1f6dc64a2a769b02",
+    "public_types.py": "6da1c5c930d366afc00d34620bacda016ea5e10a6fff55e3ec8fc8b01c03a396",
+    "test_public_decisions.py": "759196ce45c5aa6f4b71fac7a925a32da229dc239c6377a605cf05e89aa80693",
+    "summary.json": "570383d4c03474133e877fd982f740d55056d065a8895e4a878860ba8660e293",
+    "PENDING_RESERVATION_REGRESSION_GREEN.json": "d9b525f94fab0f4f95c8b0a3ebb94343eeda7c02a9a14a912f96a90933d5f724"
+  },
+  "regression_before_repair_counterexample_sha256": "50a3e7b809db26757ee81d7a6da9b81abe32d9054011a478d3a0cc4cb3fef8c2",
+  "prior11review_artifacts_preserved": true,
+  "no_native_runs_fit_GPU_or_formal32": true,
+  "copy_only_test_outputs_source_not_modified": true
+}

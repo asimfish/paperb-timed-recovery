@@ -1,0 +1,12 @@
+{
+  "files": {
+    "COPIED_CPU_TEST_RUN.txt": "f1c093d5c2ce44311fb9991c8ad1707bcec5d20de1fcf6613f573031ee23a4b5",
+    "PENDING_GUARD_V3_INDEPENDENT_REVIEW.json": "8482e149830c6e690206dd38a8d14a27b335b6b6fbe034f23a9674508f81d5dd",
+    "isolated_contract_test_copy/public_adapters.py": "2d60b1d39a755ab4a4608ddd7d4d360f70ed3df468ef673a1f6dc64a2a769b02",
+    "isolated_contract_test_copy/CPU_DECISIONS.json": "bb1d13992a9939cb829a5141b1a052f801e959a704422f254c5d0dfc7cc11cb4",
+    "isolated_contract_test_copy/CPU_PREFLIGHT.json": "ef4a2f92e7b007dcb0311e7d0c8a284f9bfb9a57e308b7fb3de478f733eef24b",
+    "isolated_contract_test_copy/public_types.py": "6da1c5c930d366afc00d34620bacda016ea5e10a6fff55e3ec8fc8b01c03a396",
+    "isolated_contract_test_copy/test_public_decisions.py": "759196ce45c5aa6f4b71fac7a925a32da229dc239c6377a605cf05e89aa80693"
+  },
+  "source_read_after_repair_not_prospective_native_release": true
+}

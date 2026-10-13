@@ -1,0 +1,3274 @@
+{
+  "schema": "paperb-recorded-native-video-decoding-validation-v1",
+  "status": "PASS_RECORDED_RGBD_CLOCK_HASH_AND_CPU_DECODE",
+  "case_id": "test_m090_d12_nominal_prior",
+  "source_release_sha256": "0c3cff79148f20f6b5f212eb484ac205122b02e63fac98d657ad8e14db3041dd",
+  "frames": 168,
+  "fps": 6,
+  "recorded_backend": "IsaacLab / PhysX native simulation",
+  "physical_hardware_episodes": 0,
+  "chemical_endpoint_verified": false,
+  "native_clock_is_sensor_clock": false,
+  "camera_renderer_stamped_with_measured_native_physics_clock": true,
+  "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_nominal_prior:cad51fcb553f61b6",
+  "first_native_time_s": 14.133334070444107,
+  "last_native_time_s": 41.96666885539889,
+  "actual_recorded_clock_span_s": 27.833334784954786,
+  "actual_frame_gap_min_s": 0.1666666753590107,
+  "actual_frame_gap_max_s": 0.1666666753590107,
+  "encoded_duration_s": 28.0,
+  "video_sha256": "9475f208b19ec78cf3300fafba462827e6accc0686991341ac699c6bad97717e",
+  "video_bytes": 690329,
+  "frame_index_sha256": "5c05945832c47c21ff579c25b1b2eeadb4c7370cbd704386fa23cd2648977120",
+  "states_sha256": "ddf6352c17f4abf03dfed3f4379a53d511c951bd87f1db2b22f4c282056dfdd0",
+  "source_RGBD_frames": [
+    {
+      "tick": 2160,
+      "native_time_s": 14.133334070444107,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_nominal_prior:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_nominal_prior/task/images/02160.jpg",
+      "image_sha256": "4822e8e4bdcc2132ef497bdb72e26075f06983ba95d86641ecdeff3d8e57e0c2",
+      "depth": "cases/test_m090_d12_nominal_prior/task/depth/02160.npz",
+      "depth_sha256": "076a92a07a2c1813e908195807e7204def88ce80e486969dc5de572df6908fa6",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "e1b37de3cebe1439a01a9c6aa9c9dc42785fe9f745dcd922aca1998a26a5c96f"
+    },
+    {
+      "tick": 2200,
+      "native_time_s": 14.300000745803118,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_nominal_prior:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_nominal_prior/task/images/02200.jpg",
+      "image_sha256": "6c96cb11c2c97f1d8b78244616b8ca6c5c2920c6fe48bb4255e80908da38ba77",
+      "depth": "cases/test_m090_d12_nominal_prior/task/depth/02200.npz",
+      "depth_sha256": "1908ee1f97e167bf740be63881660d9c30f15169a83c71cd82a2f995fede5819",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "171a3f020fb08651f238c1a89c073364b09f4e4d109e24b5a31957ee1f6facbd"
+    },
+    {
+      "tick": 2240,
+      "native_time_s": 14.466667421162128,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_nominal_prior:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_nominal_prior/task/images/02240.jpg",
+      "image_sha256": "079f02f153ac252f96ff0cdcb4c1c5f5db7725fc220f6933ad18fd0bdec65174",
+      "depth": "cases/test_m090_d12_nominal_prior/task/depth/02240.npz",
+      "depth_sha256": "9d1343df4758bbd609ca008f3daf00a1c17bfd67e8ddc96273ce7d45d7b7af8c",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "371fa69975af1d44483a7026919d9ea710d9ead5946fb3b3a1979084a16962df"
+    },
+    {
+      "tick": 2280,
+      "native_time_s": 14.63333409652114,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_nominal_prior:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_nominal_prior/task/images/02280.jpg",
+      "image_sha256": "961dfc7cb22ba563fd6cf8e4d26ef96aca68ddb9d160b2c0d453e5fca69286c3",
+      "depth": "cases/test_m090_d12_nominal_prior/task/depth/02280.npz",
+      "depth_sha256": "d1bd8cc8be29dc11f1cfe6eb590d9bf003230f7821f0f2c91b7fff2cca66ffab",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "01dfaa69800032abc77b8b2041a5923a8203869318206d0ccde48761231ea827"
+    },
+    {
+      "tick": 2320,
+      "native_time_s": 14.80000077188015,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_nominal_prior:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_nominal_prior/task/images/02320.jpg",
+      "image_sha256": "2696cded258ca84ee3df1aeec35b2a2f8f749e6736f3ea7c60938e41abcbb75d",
+      "depth": "cases/test_m090_d12_nominal_prior/task/depth/02320.npz",
+      "depth_sha256": "8af8e4555675f813429ad50ca284f63a191cda8697350b9076bf5a2a7e5e5d54",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "e19b5fb7b9ae8243481024d1e316c9d0d1355ef0bb77bbe3f5a1cacd706fcfbc"
+    },
+    {
+      "tick": 2360,
+      "native_time_s": 14.96666744723916,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_nominal_prior:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_nominal_prior/task/images/02360.jpg",
+      "image_sha256": "c0a755b57cdfe3dfb5939a95c849cc609206bfbe044c04325ed8a2ddb12d767c",
+      "depth": "cases/test_m090_d12_nominal_prior/task/depth/02360.npz",
+      "depth_sha256": "cf448da9338291961b06912495543b1d9edf66899a7135c5cfc70478234a8d4d",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "f66ffb6c3bfd3b632e11f27b0351cb58096e0415411e2bd10f48125aa6a9dc7f"
+    },
+    {
+      "tick": 2400,
+      "native_time_s": 15.133334122598171,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_nominal_prior:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_nominal_prior/task/images/02400.jpg",
+      "image_sha256": "ef61adb7b986e05346756a0c52b7cafdb9d28517b8efcaafb223b161c69648b9",
+      "depth": "cases/test_m090_d12_nominal_prior/task/depth/02400.npz",
+      "depth_sha256": "d757b6fff249ac51f1703c30c7f19e406703d2105a70a0ce564696c678b331d5",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "547c6cc5568d6e8d2bd3d655a9d1fd66a273b5a00d3ddaec932941b32bebd509"
+    },
+    {
+      "tick": 2440,
+      "native_time_s": 15.300000797957182,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_nominal_prior:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_nominal_prior/task/images/02440.jpg",
+      "image_sha256": "00604dca7d3c29faf9ad4e518c80c51ad998303b27c0930f251d54900479ffcb",
+      "depth": "cases/test_m090_d12_nominal_prior/task/depth/02440.npz",
+      "depth_sha256": "fb6bcf8620468ed0f097f5e830f2a5a5c6a4c50fe3d26ff9a0423652d33cccfa",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "1d012d1be0a13a9d11089f36dfbdb5e1fcb5d4edfa3b730271b4f0cd1eaf00df"
+    },
+    {
+      "tick": 2480,
+      "native_time_s": 15.466667473316193,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_nominal_prior:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_nominal_prior/task/images/02480.jpg",
+      "image_sha256": "2b1e1b7a825e18f716630d5c3f06cce9ec703e693a394d177391b5475728489a",
+      "depth": "cases/test_m090_d12_nominal_prior/task/depth/02480.npz",
+      "depth_sha256": "9aac920ee8188815bf722dbd18bc77ddcfac7d2b74053b0fb7bddd709480a13f",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "d699cf529f4094cb892a8345c39b50bc79ba150f5e6beb67f059ee41767303d9"
+    },
+    {
+      "tick": 2520,
+      "native_time_s": 15.633334148675203,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_nominal_prior:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_nominal_prior/task/images/02520.jpg",
+      "image_sha256": "7589bf852d01bbd77a0ad4ece4a9759b444004da9a9526a331880997657b884f",
+      "depth": "cases/test_m090_d12_nominal_prior/task/depth/02520.npz",
+      "depth_sha256": "7f434a9bf3966e4a92df050f7d2b64165a0cfccc5dbe6615c0275e72cfab52e9",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "9181d22cdf2f04485512be4aacad7852f095127df0053215b6261d3072c3c07f"
+    },
+    {
+      "tick": 2560,
+      "native_time_s": 15.800000824034214,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_nominal_prior:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_nominal_prior/task/images/02560.jpg",
+      "image_sha256": "af44f366e90cc2f9ba1846c040b0646c21d12f397c72a7fbaa9f8fc204c3aca2",
+      "depth": "cases/test_m090_d12_nominal_prior/task/depth/02560.npz",
+      "depth_sha256": "dc2274ac3d032d7bf2504ed12fba7f364652a10f41cce47a9763cb10f757e2ec",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "58511cbf404b8cb49ac1260b232a8e48e8a7c880d9a7879653cfedef39f84dda"
+    },
+    {
+      "tick": 2600,
+      "native_time_s": 15.966667499393225,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_nominal_prior:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_nominal_prior/task/images/02600.jpg",
+      "image_sha256": "bca12cac7669a493e5fb52d512b143d16fe91992050c1e3d55dace25813fd341",
+      "depth": "cases/test_m090_d12_nominal_prior/task/depth/02600.npz",
+      "depth_sha256": "7d6b854534c804d22b3a7c80484897592f55a0e13974ac6e3e11bd728549f456",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "911179b7af144935d628b8b4de6ccba2c3477a9a60042dd0d841321650b88fa6"
+    },
+    {
+      "tick": 2640,
+      "native_time_s": 16.133334174752235,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_nominal_prior:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_nominal_prior/task/images/02640.jpg",
+      "image_sha256": "bc1086e5a4661d079fcd125364eba0e360ee8c5915b0062f7476e309f3ece486",
+      "depth": "cases/test_m090_d12_nominal_prior/task/depth/02640.npz",
+      "depth_sha256": "ed34d60a3f55f5696635c9d21dfaa0a5c50ed7aebb8496e8f1e58fc0bf1058b5",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "1dee5ff6d48accd4cd2b5e63cb6879a97f09f59356fd3998cc5bd4562fed8733"
+    },
+    {
+      "tick": 2680,
+      "native_time_s": 16.300000850111246,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_nominal_prior:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_nominal_prior/task/images/02680.jpg",
+      "image_sha256": "8a7352fdf14c1c852699baf62bcbfb8e8237f7fd0635932a855870eea2cad42c",
+      "depth": "cases/test_m090_d12_nominal_prior/task/depth/02680.npz",
+      "depth_sha256": "3df063a9e1165d92d3ec74aa2ccc9f9b7705bf7557043fbcc44bfdf46c524aae",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "1238d6f1f9f7d9b1dcc661f0d16ea2c5caae3943b732b635a6044c577a63e232"
+    },
+    {
+      "tick": 2720,
+      "native_time_s": 16.466667525470257,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_nominal_prior:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_nominal_prior/task/images/02720.jpg",
+      "image_sha256": "30211a81604aee5f54236fe5e41c03edfb60f922b3930692e20fd05854214f14",
+      "depth": "cases/test_m090_d12_nominal_prior/task/depth/02720.npz",
+      "depth_sha256": "7471bdb180fee1c4e0fce3d4096db926ae0d7238d361e038d14a18aebe0d8651",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "5a305f2d70bf985f52b1ae58fe4b31cd8d264d7ebcfa0b3e560cbc605b0cf870"
+    },
+    {
+      "tick": 2760,
+      "native_time_s": 16.633334200829268,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_nominal_prior:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_nominal_prior/task/images/02760.jpg",
+      "image_sha256": "82413e1036db1090fa5cc075cb3ba295766be65b15d13e300d75c387118ffe90",
+      "depth": "cases/test_m090_d12_nominal_prior/task/depth/02760.npz",
+      "depth_sha256": "d5f471a3c7c246be6486f3e633aa92fe983619677b09cfcb08d08de5b0aee1c1",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "c75e006cd3b1ea768bed0071b57ab4d829ae5522017d0c7cf5758b545fb03db0"
+    },
+    {
+      "tick": 2800,
+      "native_time_s": 16.800000876188278,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_nominal_prior:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_nominal_prior/task/images/02800.jpg",
+      "image_sha256": "e046c54f397635bbe49ad98e2c054712f05e5c46d2f7061448047a23c81bb297",
+      "depth": "cases/test_m090_d12_nominal_prior/task/depth/02800.npz",
+      "depth_sha256": "233ff210b7d345a7d6dbcb885de5b86bcf4a93979d5f44300440750aced2c5d8",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "615cd872929fd6bde1d88a25ac79e7eff08519804628b08ca81ce23dc26185f6"
+    },
+    {
+      "tick": 2840,
+      "native_time_s": 16.96666755154729,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_nominal_prior:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_nominal_prior/task/images/02840.jpg",
+      "image_sha256": "cbcd3d69e1161a08ba5f338d54e512f9ad3671536a43d14311085b7a50f10d6f",
+      "depth": "cases/test_m090_d12_nominal_prior/task/depth/02840.npz",
+      "depth_sha256": "ede2b195536e5dad77bb99fb16b611f1e80f4542d97e5862d53372bf88a40989",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "b9f7eb8bfedfec4c73ea86dc3b22f903e43aada38793acc6d6e1ffb1abf5bf2b"
+    },
+    {
+      "tick": 2880,
+      "native_time_s": 17.1333342269063,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_nominal_prior:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_nominal_prior/task/images/02880.jpg",
+      "image_sha256": "6c3cdecb2d9c45fd43d411493053a976355d10859cad04821aeb94104f8eeac3",
+      "depth": "cases/test_m090_d12_nominal_prior/task/depth/02880.npz",
+      "depth_sha256": "b561c5e8705c9562380746ce6a99e0517cf38f0137056676f2da7ee962b59a93",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "c85247f0b800f3cfdb1e5a821563859b7628446d7769cb484d9a880b8da6414c"
+    },
+    {
+      "tick": 2920,
+      "native_time_s": 17.30000090226531,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_nominal_prior:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_nominal_prior/task/images/02920.jpg",
+      "image_sha256": "77bd6912e2bd7d86b4d3a2e357ead96a75f20be15e91c6caf5fa3bbe2037cd7a",
+      "depth": "cases/test_m090_d12_nominal_prior/task/depth/02920.npz",
+      "depth_sha256": "f7cfd33e86bf84c652aede7142e8f31b194aeeb97fa684465da8fea8910e2421",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "aef5037e8fc9f8362baa38d958dce3149c0b895c8afb548cbaa388e81a05eaac"
+    },
+    {
+      "tick": 2960,
+      "native_time_s": 17.46666757762432,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_nominal_prior:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_nominal_prior/task/images/02960.jpg",
+      "image_sha256": "e0add9fef9667b74cea7d5d2d6395fea499686c5e6263ee1214621cd12e6d4c2",
+      "depth": "cases/test_m090_d12_nominal_prior/task/depth/02960.npz",
+      "depth_sha256": "3185ab86637c1c90750cc3df1584db913aa3a9a6712eecca0cbfd3b9b61b6a81",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "15828b286550bd327444cfbbfb3aaf233ac952216438b775f53bc662f7d10c52"
+    },
+    {
+      "tick": 3000,
+      "native_time_s": 17.63333425298333,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_nominal_prior:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_nominal_prior/task/images/03000.jpg",
+      "image_sha256": "7d03d682fc9712a770de5c6b9854d7ab876b22b2476207c3252d931608219f4f",
+      "depth": "cases/test_m090_d12_nominal_prior/task/depth/03000.npz",
+      "depth_sha256": "bfe6767101e48f9d4dfe0e17143f06e78b955834e05c0023834ee6a62542e0c8",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "3c42b3002a08886ef2a60fb07ac156592ed3ec3737b464184f5406d9c8a11115"
+    },
+    {
+      "tick": 3040,
+      "native_time_s": 17.800000928342342,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_nominal_prior:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_nominal_prior/task/images/03040.jpg",
+      "image_sha256": "5e84241bb53947b5df0ef47ed844565d07530c9490184f6e3c5ba4a31be74d5e",
+      "depth": "cases/test_m090_d12_nominal_prior/task/depth/03040.npz",
+      "depth_sha256": "79910ce7aa6a3a2bd2eff3894a816dc688b91b6f4fe7ca63d06e4522e8902fea",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "97adca923ee69920ea09ca3bdfd42a8f370a4dad6df678b1a0ec5420eaa1d270"
+    },
+    {
+      "tick": 3080,
+      "native_time_s": 17.966667603701353,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_nominal_prior:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_nominal_prior/task/images/03080.jpg",
+      "image_sha256": "fdcbe850711c3118dcae23b85e09a040b501b9a1ca4f4733269fb101d85e37fa",
+      "depth": "cases/test_m090_d12_nominal_prior/task/depth/03080.npz",
+      "depth_sha256": "96b1d7a89e383a5dd8f1a258081b224124fc6ac969e890b197f37f6570a0593a",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "88070f4ea4adf8e9eeed59b0b2ad1cba8d7141f3ab776d8bbb49cb1a0c949e0f"
+    },
+    {
+      "tick": 3120,
+      "native_time_s": 18.133334279060364,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_nominal_prior:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_nominal_prior/task/images/03120.jpg",
+      "image_sha256": "4b08037745d9f5b4573506349fd1117fa51c2e6c803e772d653a3a937b37bbbc",
+      "depth": "cases/test_m090_d12_nominal_prior/task/depth/03120.npz",
+      "depth_sha256": "03855b3de3dcff5db1916218eea8c675b11482a594bca8bb3a65b05a323d5de0",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "5897352381c7f4f084973da141ba57592a34b3adae008146eede80542d3478eb"
+    },
+    {
+      "tick": 3160,
+      "native_time_s": 18.300000954419374,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_nominal_prior:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_nominal_prior/task/images/03160.jpg",
+      "image_sha256": "a3aca8f4f871ca1f12a1e5c484d1df22779f752ad9f484f3367dd61e8240b8e0",
+      "depth": "cases/test_m090_d12_nominal_prior/task/depth/03160.npz",
+      "depth_sha256": "90a4eba18629ddbb4c2014d388b74e5ebf06357f5dbc355f0abb8ee1834f6aa1",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "747c2896e96d8464ce7e2eb75abf767f2b8121f437c7e2df0c84c9a3346c21d8"
+    },
+    {
+      "tick": 3200,
+      "native_time_s": 18.466667629778385,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_nominal_prior:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_nominal_prior/task/images/03200.jpg",
+      "image_sha256": "c32f15955f49d22eeef4c19d3c790e6794140983eec84732fe4161bd8d12a805",
+      "depth": "cases/test_m090_d12_nominal_prior/task/depth/03200.npz",
+      "depth_sha256": "237736bfbabd0f1fb89b5d7a85228779318ac04f1c461823d0185f3cbe18f946",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "5f41ad0d05d66e1e3d0096ec2c690170fff39982620326102e7b07ef47148936"
+    },
+    {
+      "tick": 3240,
+      "native_time_s": 18.633334305137396,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_nominal_prior:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_nominal_prior/task/images/03240.jpg",
+      "image_sha256": "23e01ce6cd8b59d075d76b9bb30e76b6ad0eb02b563f1796135127dce1f01e34",
+      "depth": "cases/test_m090_d12_nominal_prior/task/depth/03240.npz",
+      "depth_sha256": "8cf640ba91c150eee8396662fa9f854fe8cc3913a7196943353afa00e3985674",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "1a65127e4e576d3ad871a6d9693d621336b5cabe1f67f0ee9a1b7865f6baed34"
+    },
+    {
+      "tick": 3280,
+      "native_time_s": 18.800000980496407,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_nominal_prior:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_nominal_prior/task/images/03280.jpg",
+      "image_sha256": "e42068b99a37593985be1f82c1efca0ad20d87c51ba53552c1f0ac42dccbb11e",
+      "depth": "cases/test_m090_d12_nominal_prior/task/depth/03280.npz",
+      "depth_sha256": "4d3f69c0dff195f991147c5c8aace7cb7724db46884e3b910d9240fd5022d4e3",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "7309b976cc41a68d74fe756ab2b663526ade81109a0e8507c441a3b8e17d6cfc"
+    },
+    {
+      "tick": 3320,
+      "native_time_s": 18.966667655855417,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_nominal_prior:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_nominal_prior/task/images/03320.jpg",
+      "image_sha256": "669f4a4ba470e2347ed411476e1467b402dec9334f155686655f54c18855ecd1",
+      "depth": "cases/test_m090_d12_nominal_prior/task/depth/03320.npz",
+      "depth_sha256": "89a9fd13abae279896508c656db19485bb995be8123d7b33c5199ec87576bbcf",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "38c886953c2283f65d0f81df6631a8c152cbbab3cec5814e48c0980044063fd4"
+    },
+    {
+      "tick": 3360,
+      "native_time_s": 19.133334331214428,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_nominal_prior:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_nominal_prior/task/images/03360.jpg",
+      "image_sha256": "5e5786a26cd7cb26148813d34ad9157bcd92abbb20dcd9617e2894a586455615",
+      "depth": "cases/test_m090_d12_nominal_prior/task/depth/03360.npz",
+      "depth_sha256": "54d9a51564ed62071d6ac7a417592700bbd26cda80555890395c5f354090e6ae",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "784472054c546e062206cd52ccac52cc7ce1612cce2fda0f908e991c83fff52a"
+    },
+    {
+      "tick": 3400,
+      "native_time_s": 19.30000100657344,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_nominal_prior:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_nominal_prior/task/images/03400.jpg",
+      "image_sha256": "56803ef8fdddc8b278a606c390dc327dca0fb415328d288a329ee2b9d9630986",
+      "depth": "cases/test_m090_d12_nominal_prior/task/depth/03400.npz",
+      "depth_sha256": "8b9c745a8526535435a455d22f94c91c7e8c8375217a9d9480fd729bb0a89370",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "5bd1076c9ab9f60f9a6f0176db3566649c1efaec7dbadd36b624389303945767"
+    },
+    {
+      "tick": 3440,
+      "native_time_s": 19.46666768193245,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_nominal_prior:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_nominal_prior/task/images/03440.jpg",
+      "image_sha256": "b0492c4173443d366bfbf44de3a721816d7113f0b5b5ced03feb8294898d0ff0",
+      "depth": "cases/test_m090_d12_nominal_prior/task/depth/03440.npz",
+      "depth_sha256": "bceb66d99877ff543c579f13c8e08ebcea6cf6375f2e6905a883f57fd023a36e",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "2fc0965ed8e6e596dfc89dac4649836361c07ef5187768cbf438662896217310"
+    },
+    {
+      "tick": 3480,
+      "native_time_s": 19.63333435729146,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_nominal_prior:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_nominal_prior/task/images/03480.jpg",
+      "image_sha256": "9b72f6e5873e8b54f184159ca247058d77086cf99071f85e1b1d3425575f616e",
+      "depth": "cases/test_m090_d12_nominal_prior/task/depth/03480.npz",
+      "depth_sha256": "13960c3b44720812d9b473d8ada03d6a57528fe3bfe8bb539b9df0a46eb73e3a",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "34ec122cd5f1a16f7a8845fb24d6a28402bbce13f31a6a8708a219d4b53f0f6b"
+    },
+    {
+      "tick": 3520,
+      "native_time_s": 19.80000103265047,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_nominal_prior:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_nominal_prior/task/images/03520.jpg",
+      "image_sha256": "d10eaf860f1f21a15c0af78d5cc2e3140d4e92eb7f379efd316242e6e9d2d162",
+      "depth": "cases/test_m090_d12_nominal_prior/task/depth/03520.npz",
+      "depth_sha256": "5e32de20b1b7273059121a53f6f6ca556ca6264b310afe6445beed79da0e75d8",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "e54bd964c4790193d459dbe0c6c8b1b121eeb4a593e4b347e0ac45f20542dcef"
+    },
+    {
+      "tick": 3560,
+      "native_time_s": 19.96666770800948,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_nominal_prior:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_nominal_prior/task/images/03560.jpg",
+      "image_sha256": "8426e6388ebc79988135da7e4269a0fca6df15f226cb2b97c551918230f69a60",
+      "depth": "cases/test_m090_d12_nominal_prior/task/depth/03560.npz",
+      "depth_sha256": "ceb85ec1f13a5b6444bbc36db99f6d2a46bc7afcae2118fafc9a17d3677559a4",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "85b59c0f4f3efbd8e9e5f6cc4fe8873ad5abc998e0897ad2da3f4eff0cee0f5e"
+    },
+    {
+      "tick": 3600,
+      "native_time_s": 20.133334383368492,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_nominal_prior:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_nominal_prior/task/images/03600.jpg",
+      "image_sha256": "3e52053731ff7e316bb6799f715086b43685719bdafd546298aec0a3b573252c",
+      "depth": "cases/test_m090_d12_nominal_prior/task/depth/03600.npz",
+      "depth_sha256": "efa56f49f0c1953b3bdc0710f9b72baa2d9174cac25001476617a121d0a4f883",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "9ca3061878bc129175ef5892f6809d3baee5cbfe98b3ba8b6e3e5201a03cee6a"
+    },
+    {
+      "tick": 3640,
+      "native_time_s": 20.300001058727503,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_nominal_prior:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_nominal_prior/task/images/03640.jpg",
+      "image_sha256": "8144c2b2f3cd3565e53874985da1d2441e9c0f2efbaf6198f8aec62b8dd42f05",
+      "depth": "cases/test_m090_d12_nominal_prior/task/depth/03640.npz",
+      "depth_sha256": "792ce2f6a97bb997b6e54b4d8cf770e445448ea1e23e8d7eaa5e86998182d37c",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "dc83dd53bef6486f79bbc5972af33f60508b902160594e27ec3c3230c948fc17"
+    },
+    {
+      "tick": 3680,
+      "native_time_s": 20.466667734086514,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_nominal_prior:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_nominal_prior/task/images/03680.jpg",
+      "image_sha256": "ae4c8977da00c9557c27fb9b8565b50a934356147191ecc130da0a2ed6386768",
+      "depth": "cases/test_m090_d12_nominal_prior/task/depth/03680.npz",
+      "depth_sha256": "869881e991a59e939ce3796382eb006a6410f3899278be39c1afbf194e066fde",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "7f9d1912462c8ba8f6df4a7022e7226698eb565fe66274520630cac04c14df39"
+    },
+    {
+      "tick": 3720,
+      "native_time_s": 20.633334409445524,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_nominal_prior:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_nominal_prior/task/images/03720.jpg",
+      "image_sha256": "04bc2ed47f1f31a8d54b73ccb498b2c3f956672db87ebd4ae2dcd8c2ea62c7dd",
+      "depth": "cases/test_m090_d12_nominal_prior/task/depth/03720.npz",
+      "depth_sha256": "a85f20b4223c49f4ddd8b1a66d1b6cb3275e5b1575ce5b0cdd39b6ddb1ed29ec",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "d11e6b7e8acf58a809a4acecc15b61d90859d708bb7e36527b01e82bef9fe772"
+    },
+    {
+      "tick": 3760,
+      "native_time_s": 20.800001084804535,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_nominal_prior:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_nominal_prior/task/images/03760.jpg",
+      "image_sha256": "18ed29a73410aeebb494509e575ea67830792ec0258e2f11669f71ee6f938834",
+      "depth": "cases/test_m090_d12_nominal_prior/task/depth/03760.npz",
+      "depth_sha256": "1f6b079761437f34875be68694902a56eb59bd7b40565aad7dfefb1e1b55a287",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "caa8cb2035bd03ce20b512eb0dbe2227515c9c2c333d69c335ab16abe32cea60"
+    },
+    {
+      "tick": 3800,
+      "native_time_s": 20.966667760163546,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_nominal_prior:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_nominal_prior/task/images/03800.jpg",
+      "image_sha256": "8696a37160984e773e2db83fd18fc504d73fdefb78fceb66670f8b037a3ea107",
+      "depth": "cases/test_m090_d12_nominal_prior/task/depth/03800.npz",
+      "depth_sha256": "b842cc4c3e65615165ced2351d5105037d5473f55091fd489ee7128d3277559e",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "d2f30b64ee816e1c144011cd87e4522195679aef31c92fcbeeab4b8134e9e1e5"
+    },
+    {
+      "tick": 3840,
+      "native_time_s": 21.133334435522556,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_nominal_prior:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_nominal_prior/task/images/03840.jpg",
+      "image_sha256": "781501edd6f91b2728c64ad6a7684c8199959bc3685d8f81c8582976ead2e7a0",
+      "depth": "cases/test_m090_d12_nominal_prior/task/depth/03840.npz",
+      "depth_sha256": "f568f52afc77d61193ccbd7d36508add4f6f26ab24a6fb55de199e6618315127",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "4c2d3aa7f2cc88a1ef4e5e925e5e634c10f72494751da3fd92ea0f587706a6d1"
+    },
+    {
+      "tick": 3880,
+      "native_time_s": 21.300001110881567,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_nominal_prior:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_nominal_prior/task/images/03880.jpg",
+      "image_sha256": "84fc7b6ceec9151a7e26936bd6db1f8ec07ebb091e47385d78e38234fb717e0e",
+      "depth": "cases/test_m090_d12_nominal_prior/task/depth/03880.npz",
+      "depth_sha256": "0b60b16c29e9f9ff5b5ea5cc05f73511f3af25cdabd15a2c2d15c140677de227",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "c9d7b8ec662cf764cd64744f59cd3b58e7078e77b322f6330172be5cc1db932d"
+    },
+    {
+      "tick": 3920,
+      "native_time_s": 21.466667786240578,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_nominal_prior:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_nominal_prior/task/images/03920.jpg",
+      "image_sha256": "244885412693ee9b280dc855b2cbf30ae18926144b12a2fc37d319bc94e976d9",
+      "depth": "cases/test_m090_d12_nominal_prior/task/depth/03920.npz",
+      "depth_sha256": "49eebde8209971d9351190bea57c748e01fcb329ae93b7309205a52fcb797e77",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "668a36ff9c0cb43828765c1ddc6c1d1dd0c19f3f1d6605b0adb86baa2f0529bb"
+    },
+    {
+      "tick": 3960,
+      "native_time_s": 21.63333446159959,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_nominal_prior:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_nominal_prior/task/images/03960.jpg",
+      "image_sha256": "df237106ba92250fdce0dc49b35131336db9033f86c2992d5f621798d444a256",
+      "depth": "cases/test_m090_d12_nominal_prior/task/depth/03960.npz",
+      "depth_sha256": "273b02e544d7cd3dea87a0eabbae10694522609028df0c8edb9af0d99740cb99",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "4f95f6d8b55b2d12aa3f61b57de32bceaa7cec0e07eb6ee89d7d3213e1b1b202"
+    },
+    {
+      "tick": 4000,
+      "native_time_s": 21.8000011369586,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_nominal_prior:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_nominal_prior/task/images/04000.jpg",
+      "image_sha256": "2d15e3858c6d0836fbd0c9cf26cedc0b5666a8ce7bc0b00d087228e025981c1a",
+      "depth": "cases/test_m090_d12_nominal_prior/task/depth/04000.npz",
+      "depth_sha256": "b291fd0774fdd8fc90ee316e09eb755a9f1e31c63e9905629daccb513bbac077",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "c9aa976f06215d8e087a571b8d8568159e425e559da73f3c0fc6adda82e9f5e5"
+    },
+    {
+      "tick": 4040,
+      "native_time_s": 21.96666781231761,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_nominal_prior:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_nominal_prior/task/images/04040.jpg",
+      "image_sha256": "2ba924c7ea0df1f005c2f060eb5eb4b1d329b42fada966b66d1b68bb2a0c5879",
+      "depth": "cases/test_m090_d12_nominal_prior/task/depth/04040.npz",
+      "depth_sha256": "285b4726c3b7f63beca7f274e0877d9a0d975e933f9fce42e95dd9258c1c7323",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "43f90aa83bfe3d626c752c105138aa13543219150ee2e706e123b4e30157cdbd"
+    },
+    {
+      "tick": 4080,
+      "native_time_s": 22.13333448767662,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_nominal_prior:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_nominal_prior/task/images/04080.jpg",
+      "image_sha256": "5fa831dc353e82da845af31b61a6fca91ff62913b0de7178b851cf4953eb6be3",
+      "depth": "cases/test_m090_d12_nominal_prior/task/depth/04080.npz",
+      "depth_sha256": "71e3f1a22aba8e48508d9b41996344d67770c25a9f8e4aa194103a6c1c49b37c",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "43d2f4734f063cb14aef2c6a5829197594fe068b8896a1f92446e3053850cbbb"
+    },
+    {
+      "tick": 4120,
+      "native_time_s": 22.30000116303563,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_nominal_prior:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_nominal_prior/task/images/04120.jpg",
+      "image_sha256": "49b2d1b5f4d34e96676bb134f596a55a3dd2b623084e24c72beecf4cb08a39ee",
+      "depth": "cases/test_m090_d12_nominal_prior/task/depth/04120.npz",
+      "depth_sha256": "d783cc789bab6f877be56e90d7b132f035990096b076daf963c2dd21270f574f",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "ac59dde58d6fb2f0a06a5e18d737c202cc61367c113d405699ddd340b3dffef9"
+    },
+    {
+      "tick": 4160,
+      "native_time_s": 22.466667838394642,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_nominal_prior:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_nominal_prior/task/images/04160.jpg",
+      "image_sha256": "2333f4af1d874aa9417e75dca34d1ccc8ff1b1ce63eb482c3399bf86656abb47",
+      "depth": "cases/test_m090_d12_nominal_prior/task/depth/04160.npz",
+      "depth_sha256": "1e1819dc69d868f43db2a5aed308c04704b11eb4b6f922cd2f594ae071732a91",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "24f058a4b2a8906ccd5f6c6368708036570f89232dcca4af5493201feee872a8"
+    },
+    {
+      "tick": 4200,
+      "native_time_s": 22.633334513753653,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_nominal_prior:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_nominal_prior/task/images/04200.jpg",
+      "image_sha256": "729ac259ce4faceb563f86ef7e848c16d02e4f8ba8572d4545549f35f6b44fb2",
+      "depth": "cases/test_m090_d12_nominal_prior/task/depth/04200.npz",
+      "depth_sha256": "fb14a7ac3eca6117758de91ff9e0406f2f89bbb48145284cda1f39024702abd4",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "90431b81415af9978a40aa3f25cbb048a4257ab106929e28d09f298102e6958d"
+    },
+    {
+      "tick": 4240,
+      "native_time_s": 22.800001189112663,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_nominal_prior:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_nominal_prior/task/images/04240.jpg",
+      "image_sha256": "f944b1b530fe5008e419492461b862a56793d733d13f26d5ec03c909b01a2c95",
+      "depth": "cases/test_m090_d12_nominal_prior/task/depth/04240.npz",
+      "depth_sha256": "78cca26c9fe84d9c1a5e59145fc9cc3340c7ec93992d70d2be29424a01e1cffc",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "4d0955e83be46034e427fde25dfe260696a265c069fa3cdc37c51eeac9d34981"
+    },
+    {
+      "tick": 4280,
+      "native_time_s": 22.966667864471674,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_nominal_prior:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_nominal_prior/task/images/04280.jpg",
+      "image_sha256": "10a6f6bb57924e30525de5e4d9a0454fa2b6c6095b82471e98547a14f3dc3cda",
+      "depth": "cases/test_m090_d12_nominal_prior/task/depth/04280.npz",
+      "depth_sha256": "4d1c1020958e10ae71f3e6c1a7608071870d7aab150975d23abfe75b54db456b",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "e3f5c26cc0506de306723812cd12cebce664edf20bd7740cd0b991f9051d0600"
+    },
+    {
+      "tick": 4320,
+      "native_time_s": 23.133334539830685,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_nominal_prior:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_nominal_prior/task/images/04320.jpg",
+      "image_sha256": "dbc2d8f474b5d61b2d75112f03c7a3eded38a1e3a5f8391131eea924c0cbeb12",
+      "depth": "cases/test_m090_d12_nominal_prior/task/depth/04320.npz",
+      "depth_sha256": "98bceeb6e16a79ee18c318f00fb1c21e4de05b846a36b52e2233708398528b80",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "5b1ff74cb527e762ec35606d39dbe229d24aa17eb63ee19ee93d8009d6a75d18"
+    },
+    {
+      "tick": 4360,
+      "native_time_s": 23.300001215189695,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_nominal_prior:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_nominal_prior/task/images/04360.jpg",
+      "image_sha256": "24ed61640827f52cdf0c15d0d66b9821bdc3924091c51bbf8afffb0c8d0c92dc",
+      "depth": "cases/test_m090_d12_nominal_prior/task/depth/04360.npz",
+      "depth_sha256": "7940f877c6727e24fe44a5c464cf1f2718277210f904609772fd1e225704a31e",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "69a810d05b27053c3d34b19511d08ab0c1b681e9b1beaf3b791743dce3114bdb"
+    },
+    {
+      "tick": 4400,
+      "native_time_s": 23.466667890548706,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_nominal_prior:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_nominal_prior/task/images/04400.jpg",
+      "image_sha256": "e0e8d1446662084db223e259ba3017415053609510fca4a875ad3e7a457dbccd",
+      "depth": "cases/test_m090_d12_nominal_prior/task/depth/04400.npz",
+      "depth_sha256": "4f4ab76fc0e4ac4a009b5fee84a07e7633961c143858675a63a6aa2b39106cd6",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "016ce384034eff1601cbdb5d4cce41548a2e716eb05282255330d1fa359ffdb4"
+    },
+    {
+      "tick": 4440,
+      "native_time_s": 23.633334565907717,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_nominal_prior:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_nominal_prior/task/images/04440.jpg",
+      "image_sha256": "6592578f997af94a4995a5fd32b5ae602d5ca1d9055a8a17e80003fe51202da6",
+      "depth": "cases/test_m090_d12_nominal_prior/task/depth/04440.npz",
+      "depth_sha256": "453d041f73cda390f5c6f79a0abf21114b0e4238ef0f133a55cd8a30b138227e",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "b9e47cecf207fab6cf062dd9842a7c28c0a6c5517482a3e125f7d2e0d13847bd"
+    },
+    {
+      "tick": 4480,
+      "native_time_s": 23.800001241266727,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_nominal_prior:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_nominal_prior/task/images/04480.jpg",
+      "image_sha256": "afdae298e17cf8156219fc6078fe63a42d85d5af27eb50e0488e6d0f80a1a897",
+      "depth": "cases/test_m090_d12_nominal_prior/task/depth/04480.npz",
+      "depth_sha256": "030489a4a74fd4fe6a0b89e85dc6979d09fd7812caf457fa211ff4440eeaeb3c",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "61998e3033782bf24d0618dbca79d2c1b75fa63f79330f814107fc5acbccc296"
+    },
+    {
+      "tick": 4520,
+      "native_time_s": 23.966667916625738,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_nominal_prior:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_nominal_prior/task/images/04520.jpg",
+      "image_sha256": "262a1996c100d22084a3b4e5b8c887e47b16025a3191c70c39bf7078a60a6fa8",
+      "depth": "cases/test_m090_d12_nominal_prior/task/depth/04520.npz",
+      "depth_sha256": "dab8e54b7207cd06406235dc88db055f90c1d3eaef746bae4f44a0de1de8deef",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "7a0afc12ec7906328f0a1ea81e4587f1130722a3830a04a98b58875dc5599589"
+    },
+    {
+      "tick": 4560,
+      "native_time_s": 24.13333459198475,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_nominal_prior:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_nominal_prior/task/images/04560.jpg",
+      "image_sha256": "f5529e998e12cf8af3aaa6abf846e5edd37c0c032ec0d08e3af0c11fc763f792",
+      "depth": "cases/test_m090_d12_nominal_prior/task/depth/04560.npz",
+      "depth_sha256": "072dbd9ffa98725cee249d28294e137eca7782071a1dd4d2a55d9b639afea72c",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "b960a33d2153d9da5cd6b9919b7f8571aa20cce9be89b1798ffbde85bddd341e"
+    },
+    {
+      "tick": 4600,
+      "native_time_s": 24.30000126734376,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_nominal_prior:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_nominal_prior/task/images/04600.jpg",
+      "image_sha256": "a97587243d665b8ee9f2d5789d113106695056a150a6e0523a5a3f7597bdf1d0",
+      "depth": "cases/test_m090_d12_nominal_prior/task/depth/04600.npz",
+      "depth_sha256": "198cd757874bdf49cceb8ac9e75b454161f57edff051eb3c1535a60584742935",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "b393c87a07a5e5cde40b74dbb6b3a519d120b9952a63fc6d25c3e9e39b5702ae"
+    },
+    {
+      "tick": 4640,
+      "native_time_s": 24.46666794270277,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_nominal_prior:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_nominal_prior/task/images/04640.jpg",
+      "image_sha256": "927d0bd77f049e438cb040db1767237be415cc7eb18be4423e836d2c586f697d",
+      "depth": "cases/test_m090_d12_nominal_prior/task/depth/04640.npz",
+      "depth_sha256": "9e1fc1c6b26e695f724e7027d833afbf7ceeb4de5568946ba7d2ce880884e76f",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "4ef953563fcef45497be3c5d89b2cd581ce64d6efbefea72c51d50959a52dcff"
+    },
+    {
+      "tick": 4680,
+      "native_time_s": 24.63333461806178,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_nominal_prior:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_nominal_prior/task/images/04680.jpg",
+      "image_sha256": "f185b77dcdd2a8d81b4870863dd07f74aa950c60c501da0f604310c03c29ec27",
+      "depth": "cases/test_m090_d12_nominal_prior/task/depth/04680.npz",
+      "depth_sha256": "45a32c58ac46e464fb8145e2ad872a53ffd5b7a16e3a69d76495bdb4332a9908",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "499e8e4d84bcc4d050b9b6026e71c103f22258993850fb1cb887310a1b81bd87"
+    },
+    {
+      "tick": 4720,
+      "native_time_s": 24.80000129342079,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_nominal_prior:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_nominal_prior/task/images/04720.jpg",
+      "image_sha256": "d9831f5f1fabc271f252b8ac100ae0e080203183e5b78be38cdcb31966e3ec0a",
+      "depth": "cases/test_m090_d12_nominal_prior/task/depth/04720.npz",
+      "depth_sha256": "55bb897a8a697f93edf3b499b063a8af72f8e63a0553c22066f6a4ae5f896806",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "c60cc2092b4b76d7bcb1101bfbcceff8b193f8e6bcb1cbea336e216203165b5c"
+    },
+    {
+      "tick": 4760,
+      "native_time_s": 24.966667968779802,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_nominal_prior:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_nominal_prior/task/images/04760.jpg",
+      "image_sha256": "23fd114e767ea6a66adbba014984a61dc809e61971a9aae9e776f9967b1ad6cc",
+      "depth": "cases/test_m090_d12_nominal_prior/task/depth/04760.npz",
+      "depth_sha256": "345a0e811819dbc5aa1e3202c19389b11c7d5e2fb31b565a01fbb268ae8d2066",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "ddafe8e70c64ec774e9e752a77eada4449c2d2231e11223ce19b445a72ba3dc2"
+    },
+    {
+      "tick": 4800,
+      "native_time_s": 25.133334644138813,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_nominal_prior:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_nominal_prior/task/images/04800.jpg",
+      "image_sha256": "db8bc12a3e009609fbf4e63a606f3f1895f9af82b73f3d0f70ad6f7ad0b7ba6d",
+      "depth": "cases/test_m090_d12_nominal_prior/task/depth/04800.npz",
+      "depth_sha256": "12f3402eb18f51842f2cd6494c8693dbcb6315cac64b2cad4d770daa37c37dad",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "b7f99898332b2d81bbc4c02c412d5ffd2ec1f249455ad0175cda9a2f34ce76c6"
+    },
+    {
+      "tick": 4840,
+      "native_time_s": 25.300001319497824,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_nominal_prior:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_nominal_prior/task/images/04840.jpg",
+      "image_sha256": "fafde5197cdecb41a4ca19cffba3da658bbccb0aa9824692fabe0928540180f0",
+      "depth": "cases/test_m090_d12_nominal_prior/task/depth/04840.npz",
+      "depth_sha256": "3e268faa667385559cb0692522e64e2863d4b895e8b00b19a633be4337fa6879",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "86ae134a57cf2c0fa8b27305d71c70b9e1d29ceacca072f167eeffa8ccd10bec"
+    },
+    {
+      "tick": 4880,
+      "native_time_s": 25.466667994856834,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_nominal_prior:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_nominal_prior/task/images/04880.jpg",
+      "image_sha256": "22a5a40ced56115051b73c104ec4c291cc6f317b8a8608709a5f2095953ea0fc",
+      "depth": "cases/test_m090_d12_nominal_prior/task/depth/04880.npz",
+      "depth_sha256": "c01378957b5eae072f7a6f014ffa51aab0fbadf7fdd2f9cbafbe9ab2f1fa864f",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "0f0db85d22bbb636feeee906181f618d74fced9fd08e1d9057dcf1e9ba67830a"
+    },
+    {
+      "tick": 4920,
+      "native_time_s": 25.633334670215845,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_nominal_prior:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_nominal_prior/task/images/04920.jpg",
+      "image_sha256": "2fccdb6a22e5a9f918163c10f67cc0e9a8e8da4f7749580c96ba7ac38e2b2c6f",
+      "depth": "cases/test_m090_d12_nominal_prior/task/depth/04920.npz",
+      "depth_sha256": "396ea053d133542908d9c88f684b7e8f3f35d38381aedc97ea16979ff985a91c",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "b05a40b7e25fc39b96e5589e1fce476a6b23b69d0162d5845c0e54999819533c"
+    },
+    {
+      "tick": 4960,
+      "native_time_s": 25.800001345574856,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_nominal_prior:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_nominal_prior/task/images/04960.jpg",
+      "image_sha256": "ff69b80b4b669dbbd4a502f3d823825137af39277d0bab34cac84fb5b8d857bf",
+      "depth": "cases/test_m090_d12_nominal_prior/task/depth/04960.npz",
+      "depth_sha256": "f8c6f633ccd92f21f7f20b985975e28df9f11e7f9fd310803599148349c00a1e",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "27c60080e20cf751d62bcabc76d9a9889731d82588c6193f52c7a69edf4c4a19"
+    },
+    {
+      "tick": 5000,
+      "native_time_s": 25.966668020933867,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_nominal_prior:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_nominal_prior/task/images/05000.jpg",
+      "image_sha256": "f01b69c414a7f0c661fcea9b0f962a64be1a868c7ff24be30abd4451d4ee0515",
+      "depth": "cases/test_m090_d12_nominal_prior/task/depth/05000.npz",
+      "depth_sha256": "7ad13b1970d79e94d1e2570454ebd869c88757bdec5fa389102a941f154ba14b",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "b42a72a926c605015fabc8079e493398f7213e6dbf582108f363160875baa17f"
+    },
+    {
+      "tick": 5040,
+      "native_time_s": 26.133334696292877,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_nominal_prior:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_nominal_prior/task/images/05040.jpg",
+      "image_sha256": "5de9f5805e83e62b5a554a22a95c2a9106885db01a1d7811bcf73fe3d4889711",
+      "depth": "cases/test_m090_d12_nominal_prior/task/depth/05040.npz",
+      "depth_sha256": "11d2a9a6d5d586f9041aae0e0b71c2e4799cf87879d3fb99e8427b8b915205e2",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "33ed98c9f41d480cd99142b1745287385ac8fdcb5ad9880a64a4323cb0921b0f"
+    },
+    {
+      "tick": 5080,
+      "native_time_s": 26.300001371651888,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_nominal_prior:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_nominal_prior/task/images/05080.jpg",
+      "image_sha256": "f1a522652e9f242f5fd185b4f05414791207a7a460f02c7d86abfc69c0aaf040",
+      "depth": "cases/test_m090_d12_nominal_prior/task/depth/05080.npz",
+      "depth_sha256": "f2a1ee3a00fd45121f4e65f09c6cbc77fdf508a9bb4c4821099eaa2bec31cbca",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "4a0e9c3fa2c4ce225ab3a45235b0e6560d208ec2b3e2871aa12b7c5860cbcb60"
+    },
+    {
+      "tick": 5120,
+      "native_time_s": 26.4666680470109,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_nominal_prior:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_nominal_prior/task/images/05120.jpg",
+      "image_sha256": "16499fb7e13ff9dfa7c3f5308de227e5a9eb391c890132bb99a042996e292987",
+      "depth": "cases/test_m090_d12_nominal_prior/task/depth/05120.npz",
+      "depth_sha256": "36ccbb684d9acf5c419e3f324738abda30e6a0967a5a303a6ccefdc871f8b67d",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "36c826fb6808c4884c67d1cb900aeb62b56a32240181f0f2f298a93cc5ec079a"
+    },
+    {
+      "tick": 5160,
+      "native_time_s": 26.63333472236991,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_nominal_prior:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_nominal_prior/task/images/05160.jpg",
+      "image_sha256": "055e74e8e8e0ff8ff8d3e56c35e9ae58161ca1f5a680fa1939c01ec58f5dd77a",
+      "depth": "cases/test_m090_d12_nominal_prior/task/depth/05160.npz",
+      "depth_sha256": "366a0bd174ab1d1b1ebcb64f06cf4acb8c4093615b70ce0a5aa717cda903bf4d",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "c7927ad9370e63a7b52d8fd3857269c0c0718968e979ec16994db3df19d2f848"
+    },
+    {
+      "tick": 5200,
+      "native_time_s": 26.80000139772892,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_nominal_prior:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_nominal_prior/task/images/05200.jpg",
+      "image_sha256": "d5e8fb16f3f0d73bf9d4ea788ec3b76318fd4abcd498076ce4ac3f0eef03228c",
+      "depth": "cases/test_m090_d12_nominal_prior/task/depth/05200.npz",
+      "depth_sha256": "23d92269b439dd4fa055b9694fb609c1d18acdd083ef2bece613896b08129db0",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "e9433c06bbae4558c4e49f0a38dbfe7993a54d98915a6f7f2f95b61762d26668"
+    },
+    {
+      "tick": 5240,
+      "native_time_s": 26.96666807308793,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_nominal_prior:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_nominal_prior/task/images/05240.jpg",
+      "image_sha256": "9150b6ecbd83a9b29b8e5176b5ffac6e00473143aa9d1919f309090e268a0948",
+      "depth": "cases/test_m090_d12_nominal_prior/task/depth/05240.npz",
+      "depth_sha256": "a924952555e19af3d56bf8ecbbecea1dd327489619bacd2e77150d39cbdafff8",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "f6895bb54299cc7c9eaa35e15688667971f43833e7d0a3a14e339328a6784312"
+    },
+    {
+      "tick": 5280,
+      "native_time_s": 27.13333474844694,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_nominal_prior:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_nominal_prior/task/images/05280.jpg",
+      "image_sha256": "08acc787ba511ea8db87eb6598b4863a86850ad37a42e9840e5601b3d1598ab1",
+      "depth": "cases/test_m090_d12_nominal_prior/task/depth/05280.npz",
+      "depth_sha256": "0d907b47f5b0008f91cbf42c015dfe74c9d22976642dac7aa9eec13f1f748269",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "7da75a4ff2ce86d5cd62c337bc46b35f0c2a455c7c6b9affe015586da72ba224"
+    },
+    {
+      "tick": 5320,
+      "native_time_s": 27.300001423805952,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_nominal_prior:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_nominal_prior/task/images/05320.jpg",
+      "image_sha256": "027197b23d3d73727653689a170310397b0307335f0e2e78fee1b4b2719a6a83",
+      "depth": "cases/test_m090_d12_nominal_prior/task/depth/05320.npz",
+      "depth_sha256": "906d7b9ed21a370d5b2db77def23de28ead94957a00d6b5345146180001a9cfc",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "9bf0be52eed28866d01f944cad2fa0a26d729c82b914ebb64e54cb485a9083f0"
+    },
+    {
+      "tick": 5360,
+      "native_time_s": 27.466668099164963,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_nominal_prior:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_nominal_prior/task/images/05360.jpg",
+      "image_sha256": "d2f7eb3a51f68cc3ea4f665777e47fade50f9a51a9e802ef8900fe034ae2ab1a",
+      "depth": "cases/test_m090_d12_nominal_prior/task/depth/05360.npz",
+      "depth_sha256": "10eb532e32184aa736309d9d29c79dcc840f7f9143391971b2ae7ed0235113ad",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "fe825ac3bb18148f48cbc98a3203fd486c3d42d5fdaa973da6506ed733779ab5"
+    },
+    {
+      "tick": 5400,
+      "native_time_s": 27.633334774523973,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_nominal_prior:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_nominal_prior/task/images/05400.jpg",
+      "image_sha256": "d437199283097bf6ae2e121eab594b9d9f55c23c8a12fd6f6c76fafdb9935ec6",
+      "depth": "cases/test_m090_d12_nominal_prior/task/depth/05400.npz",
+      "depth_sha256": "468a48b7f4ac43d9552c4e43dfba13dc8683107e6e9a2cd74991102694da13b1",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "a44f06a63a2a8623a884c3b5d71246da049065b315fda3b81cd8f4624e50bb0d"
+    },
+    {
+      "tick": 5440,
+      "native_time_s": 27.800001449882984,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_nominal_prior:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_nominal_prior/task/images/05440.jpg",
+      "image_sha256": "7b39232fa578aaf881971d73026d10bebac63f3ef4e8ca7dea707d99b0bc01de",
+      "depth": "cases/test_m090_d12_nominal_prior/task/depth/05440.npz",
+      "depth_sha256": "b2fb8d060dff90b96fc1a52f504c0dec6f8d22be72ba25889c8611ede2e62336",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "dd75a42abc1468ef5845f894431326a3ae515f6c361a7c5cee3164286655654a"
+    },
+    {
+      "tick": 5480,
+      "native_time_s": 27.966668125241995,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_nominal_prior:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_nominal_prior/task/images/05480.jpg",
+      "image_sha256": "81def3b89c5a1844208342415ea42f32b06c5188aa79ed704ece43231e5a214d",
+      "depth": "cases/test_m090_d12_nominal_prior/task/depth/05480.npz",
+      "depth_sha256": "5f79a8d8622b064b61ff63117dfc0d0ab1f6134383b6965ea53fe1a7a37d0d7a",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "2e9275c176cdd919bfd9d12fa6f154f10874fb844e968d4b09a5ee26972fc1ac"
+    },
+    {
+      "tick": 5520,
+      "native_time_s": 28.133334800601006,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_nominal_prior:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_nominal_prior/task/images/05520.jpg",
+      "image_sha256": "e0fcb2e157357148c8fd8fa13f9006b04433478978a525b93803c2090fecc0dd",
+      "depth": "cases/test_m090_d12_nominal_prior/task/depth/05520.npz",
+      "depth_sha256": "eb80067b389225974cd9a641c46c05cbd696c1591d6ecf55f9a6960154ce6ec8",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "a94748bc95d04510684bba16752a8b4a279c0cfb42b57e2cfb6b9caa7ab02d6b"
+    },
+    {
+      "tick": 5560,
+      "native_time_s": 28.300001475960016,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_nominal_prior:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_nominal_prior/task/images/05560.jpg",
+      "image_sha256": "b07624584068c75cf7b7a5a77fbcaec2adf6b3ed78af9fffb6539a1e65176124",
+      "depth": "cases/test_m090_d12_nominal_prior/task/depth/05560.npz",
+      "depth_sha256": "e428134e3d4aa14ef95c453ebd31f5e58352066ee740eed01cd79f9a62a3f693",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "72a4852d41f06ccc015e5b1e838643eedcb095b492fa17ad4146a7c1cbea9d99"
+    },
+    {
+      "tick": 5600,
+      "native_time_s": 28.466668151319027,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_nominal_prior:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_nominal_prior/task/images/05600.jpg",
+      "image_sha256": "f5d0cbfc936fa367f1493fc1054114f01a332f44c8db9211e133ab52432218c4",
+      "depth": "cases/test_m090_d12_nominal_prior/task/depth/05600.npz",
+      "depth_sha256": "d09b4f6c73b07069d85f05eda7b8e3d09b6cef33d68b9bd94418921d406b9bf5",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "2c4882ba4582b93e00b04e3e9a1ce05151c4558c0199f4ab38a550bcf57ad43e"
+    },
+    {
+      "tick": 5640,
+      "native_time_s": 28.633334826678038,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_nominal_prior:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_nominal_prior/task/images/05640.jpg",
+      "image_sha256": "3a58084356cf5f4280479f297f5ef6c3214470c9d09dc640be26a3f3b175764e",
+      "depth": "cases/test_m090_d12_nominal_prior/task/depth/05640.npz",
+      "depth_sha256": "2020e4a4b784808285c6a86ece529f481b75b7dc572a1451b8c6f5ae928fb17e",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "cb2ef435eebdca12288157bb43e8a0e4fbb9dddc2616dc1e82a57431e5a414fa"
+    },
+    {
+      "tick": 5680,
+      "native_time_s": 28.80000150203705,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_nominal_prior:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_nominal_prior/task/images/05680.jpg",
+      "image_sha256": "302336b528797fc5cf562b0a08cac4c58689f81f32096d1c4c8e918bc01dc9cf",
+      "depth": "cases/test_m090_d12_nominal_prior/task/depth/05680.npz",
+      "depth_sha256": "2f1ac0bc00fefa9d5a3d66778c7b663551aa5d5796573f3c8a15c75ca7d7e763",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "230253eb0bf54a25e915646ce52c737e3a9e341e1312386bd42f3ecfffe83116"
+    },
+    {
+      "tick": 5720,
+      "native_time_s": 28.96666817739606,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_nominal_prior:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_nominal_prior/task/images/05720.jpg",
+      "image_sha256": "8f3985ca8b6a651cb54cddf9c1b5f33e58259c4f420b5a4733598e18816b7c70",
+      "depth": "cases/test_m090_d12_nominal_prior/task/depth/05720.npz",
+      "depth_sha256": "66cd0b2c2abddfd599cc0e97b3b9378e4342d86f5210786fa752977e093096ee",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "886b1898bcb31e7de1c024983a70f4d9d6439765d69e6a82bdac7053b1ebb7ed"
+    },
+    {
+      "tick": 5760,
+      "native_time_s": 29.13333485275507,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_nominal_prior:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_nominal_prior/task/images/05760.jpg",
+      "image_sha256": "247b1bc144d1a274404aa7e16dbbdce4c0b26161108ba5ff11a2537325be6da5",
+      "depth": "cases/test_m090_d12_nominal_prior/task/depth/05760.npz",
+      "depth_sha256": "aeb00fd75811c7de011bb67d0cb9ae2bba1074490758326b69e0047d5e56ebd3",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "345c39fdd1f5fde11295dcf2eb3684602166ce4b7b0aa6c8602670308f899a5d"
+    },
+    {
+      "tick": 5800,
+      "native_time_s": 29.30000152811408,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_nominal_prior:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_nominal_prior/task/images/05800.jpg",
+      "image_sha256": "1bd5167543f19286142627c9f29027cb3f1b36b0862f61ba802715018d80152c",
+      "depth": "cases/test_m090_d12_nominal_prior/task/depth/05800.npz",
+      "depth_sha256": "614f7ab7d7e9f8eaae2fd7adea23f4181df72fca0cf80f3335212e9dd6639019",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "72272149c059c31308a303bd447d338abad3fd571cebef9d00c5a272a019a4e4"
+    },
+    {
+      "tick": 5840,
+      "native_time_s": 29.46666820347309,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_nominal_prior:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_nominal_prior/task/images/05840.jpg",
+      "image_sha256": "62f97fd1bcf6fe91754ddf71d8ca89a67b6f2e78ec3c1630da0252d2321b97b3",
+      "depth": "cases/test_m090_d12_nominal_prior/task/depth/05840.npz",
+      "depth_sha256": "d9dd7bb3a2598f0ccac2351d07c15f27d74ea8f04a6c947698704ca4db47a993",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "eb16f9b1b976e2bde26f3ee3985fe768d7c41b27337d11c4cbc11d991725201e"
+    },
+    {
+      "tick": 5880,
+      "native_time_s": 29.633334878832102,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_nominal_prior:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_nominal_prior/task/images/05880.jpg",
+      "image_sha256": "d922943abced564d5f16802f78505915bc7e14f416f57b9ba4c730560d51cf7f",
+      "depth": "cases/test_m090_d12_nominal_prior/task/depth/05880.npz",
+      "depth_sha256": "94c02beb47f3ad8923edb231c846e80c50efa1a2156c6279d32502f8215f3371",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "e28368028b79ca1514bbbc7cf31c9cb920e9b973eae83bce3fefbd6814982383"
+    },
+    {
+      "tick": 5920,
+      "native_time_s": 29.800001554191113,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_nominal_prior:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_nominal_prior/task/images/05920.jpg",
+      "image_sha256": "4a410c3a732a81f3fdf19765f85fd740dcba82dae4744e2a348c6d75b96aa6a3",
+      "depth": "cases/test_m090_d12_nominal_prior/task/depth/05920.npz",
+      "depth_sha256": "e0ced866202b8d2937f96dba1d6dcb6327a66f11f33db73e33cb1fb5edf7cd70",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "691ebb3d2bd147c5c8329bb1928f93db3c17f41f2570efc6f98ea3a64c35a4f1"
+    },
+    {
+      "tick": 5960,
+      "native_time_s": 29.966668229550123,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_nominal_prior:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_nominal_prior/task/images/05960.jpg",
+      "image_sha256": "8054ca3e053257f989cf2b5a23afbe1ede00ef58f36cfbe6337d90f7300fcc7e",
+      "depth": "cases/test_m090_d12_nominal_prior/task/depth/05960.npz",
+      "depth_sha256": "7d4863a5699f783dfa96f4935f9e0f9838740b25e15bf8d9b4380ca6300f6d09",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "3f6fa01f3cf0c507ed90747dd1a86592230dc2e7244c288ca3905461ad2d3c57"
+    },
+    {
+      "tick": 6000,
+      "native_time_s": 30.133334904909134,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_nominal_prior:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_nominal_prior/task/images/06000.jpg",
+      "image_sha256": "e02f26ef80d55f7c5d8d9438d861cc70208d17935f30858a9904a479b9d4bb40",
+      "depth": "cases/test_m090_d12_nominal_prior/task/depth/06000.npz",
+      "depth_sha256": "7e66f17a35b26f95eac8fe8747da3b0783354343108efd4e16c29c184b81323b",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "295dfe9a1e2978110da063ff1ea56c1b5319ddface0d581f632680c56f35c50a"
+    },
+    {
+      "tick": 6040,
+      "native_time_s": 30.300001580268145,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_nominal_prior:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_nominal_prior/task/images/06040.jpg",
+      "image_sha256": "75fbea32b9212ac129065431263714d6d5eaf89068547cf28bdd4a77d1eeeb9a",
+      "depth": "cases/test_m090_d12_nominal_prior/task/depth/06040.npz",
+      "depth_sha256": "42c0df4721c04fefda40375230fa8dcd0b33b9df7bec51479ed69d3660df7c0d",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "c520f15f9c47cc143c22926850e394d18bf543fa65b55c9d52e7ca3e35be7a5b"
+    },
+    {
+      "tick": 6080,
+      "native_time_s": 30.466668255627155,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_nominal_prior:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_nominal_prior/task/images/06080.jpg",
+      "image_sha256": "6a8c007a00ed818b98853e00ba9b15e272c9d319f375261ed5679f1028c7f6a5",
+      "depth": "cases/test_m090_d12_nominal_prior/task/depth/06080.npz",
+      "depth_sha256": "a75dac94a4f86dd7045f30be45f537bc7e771c6b49bc910cb54fb249383e61d8",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "f7d1923349772e83e5b35e4a159e46504d69a484b1eb9bef4fbb1a07cfd918ff"
+    },
+    {
+      "tick": 6120,
+      "native_time_s": 30.633334930986166,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_nominal_prior:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_nominal_prior/task/images/06120.jpg",
+      "image_sha256": "dd4909302cd47aa9ea9d0f5a8565a09428709fb3738a8ce277a6fb3bfafbd57a",
+      "depth": "cases/test_m090_d12_nominal_prior/task/depth/06120.npz",
+      "depth_sha256": "ba67fceb04d62f973e2afa4ae674a177c37842f130bbe43178eec5140dae49c3",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "e44c2a2fc92bc120076e761e8fbfcee563d089589ce3ae3e8dcf37a19fc9d06d"
+    },
+    {
+      "tick": 6160,
+      "native_time_s": 30.800001606345177,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_nominal_prior:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_nominal_prior/task/images/06160.jpg",
+      "image_sha256": "50856858d7e18a9099f7b35f6b50380613bfcce867c13bdd90e82b50c791b8cc",
+      "depth": "cases/test_m090_d12_nominal_prior/task/depth/06160.npz",
+      "depth_sha256": "8bb4c9cd0e701bb8a802770eaf6469271346be7bb11adb5f7e40dbbf4c6550ad",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "03c4f1e4ef481fd7468411a4be3fb65f2fc8a8b6aed2f6b8230b758c640c974b"
+    },
+    {
+      "tick": 6200,
+      "native_time_s": 30.966668281704187,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_nominal_prior:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_nominal_prior/task/images/06200.jpg",
+      "image_sha256": "b065722af3bd37aeec82313b615236f4096d37d742536eac8f0fea5430fe3bd8",
+      "depth": "cases/test_m090_d12_nominal_prior/task/depth/06200.npz",
+      "depth_sha256": "45132eeb1bc9436cfa76131e17431679176dda5847ef8d1e9416f0fedc65b5df",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "4fb506771afa7f2bca16785118a90d18001c0038dc6642de1f6f0f31ef76d441"
+    },
+    {
+      "tick": 6240,
+      "native_time_s": 31.133334957063198,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_nominal_prior:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_nominal_prior/task/images/06240.jpg",
+      "image_sha256": "58b6635a1ff76b4d88105f347de8da2b269713e52265fa993a19d498d4efb72d",
+      "depth": "cases/test_m090_d12_nominal_prior/task/depth/06240.npz",
+      "depth_sha256": "e5850da450ea25dcb6d11a8140457e3c4aaa87fc246f175cac69504a90c668fb",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "db057ec90054d74271f32586f0129df2023e683e6fcf515e4889e45748a4a250"
+    },
+    {
+      "tick": 6280,
+      "native_time_s": 31.30000163242221,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_nominal_prior:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_nominal_prior/task/images/06280.jpg",
+      "image_sha256": "c693a131fc095a8a8282cabfba5d0e9eb83b6e965c0f28ee4436492a8c8b3db3",
+      "depth": "cases/test_m090_d12_nominal_prior/task/depth/06280.npz",
+      "depth_sha256": "e5026fa9947df9abcb66111740d273fc7a78e8fdefa1c0ac722763826093e28f",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "e9073fa51717c7f5b7ff448c544fb78cb3a68671ea9ad0283c10c974828cff4f"
+    },
+    {
+      "tick": 6320,
+      "native_time_s": 31.46666830778122,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_nominal_prior:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_nominal_prior/task/images/06320.jpg",
+      "image_sha256": "24d2c3527c4706216d2f603e7e40285ae2653cdf98b94dd66210e18bbe1f632d",
+      "depth": "cases/test_m090_d12_nominal_prior/task/depth/06320.npz",
+      "depth_sha256": "a3dc718cd938b9449f298feedad7507b5d393a3ad11f82dce2ca37c81cb8d7da",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "a76fe5386c0419d7703182b1711174a0f6913a8600962673449bab443e2dda5a"
+    },
+    {
+      "tick": 6360,
+      "native_time_s": 31.63333498314023,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_nominal_prior:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_nominal_prior/task/images/06360.jpg",
+      "image_sha256": "fcb1419b481799fbc3216b4eb64ccdd4f28919823b4a07f53bf3853bd3cc8b91",
+      "depth": "cases/test_m090_d12_nominal_prior/task/depth/06360.npz",
+      "depth_sha256": "b0c68a16126c6d4682ac2b4d48c855b3959e1f156fd61fadf1a4f74cc7258e0d",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "63a0d59443c32d93d76735018ddf05f51d4e779a9e03af32134dedad967fbc1b"
+    },
+    {
+      "tick": 6400,
+      "native_time_s": 31.80000165849924,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_nominal_prior:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_nominal_prior/task/images/06400.jpg",
+      "image_sha256": "799544e4d93d4278b518fff0e3a695c6f49f4e7a8dda295cbe39804c1c66b1ea",
+      "depth": "cases/test_m090_d12_nominal_prior/task/depth/06400.npz",
+      "depth_sha256": "bcc3f553be6fb779160d1f06682d98b42d60264acd5e476fa5859869fe38fea3",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "867e8f91d541199726d17e112aa1349edd221efb1eb3c0908962efe939afaab4"
+    },
+    {
+      "tick": 6440,
+      "native_time_s": 31.96666833385825,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_nominal_prior:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_nominal_prior/task/images/06440.jpg",
+      "image_sha256": "56ad1b22fbb9204b88fec74846c776fd16e2b888a1230fb1239c512e0095798b",
+      "depth": "cases/test_m090_d12_nominal_prior/task/depth/06440.npz",
+      "depth_sha256": "df0d2f5230748637ebad530ecff4496e6127a88421c0b8b24840c05455c979b4",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "d36d4668224cc71cb87bf504de1d448b1f02ac9fa7c8c4d9ca9835cea6a50d76"
+    },
+    {
+      "tick": 6480,
+      "native_time_s": 32.13333500921726,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_nominal_prior:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_nominal_prior/task/images/06480.jpg",
+      "image_sha256": "c14620a39026aca81febd2b885801e8e6284f7e83e45648f05be345f9ed78493",
+      "depth": "cases/test_m090_d12_nominal_prior/task/depth/06480.npz",
+      "depth_sha256": "95a71aaaf5ba716dd6db53315e04e777bceae03444c38899b50fba853882b0af",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "648c9c5d7225b263ec4c690cffe0cbcfca86a193b005e66c96f5ee60da21d4eb"
+    },
+    {
+      "tick": 6520,
+      "native_time_s": 32.30000168457627,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_nominal_prior:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_nominal_prior/task/images/06520.jpg",
+      "image_sha256": "8f2fdb0fbaeee68657be680ee9bca47edf6888ec4a5ce017305bafdbb1280ca1",
+      "depth": "cases/test_m090_d12_nominal_prior/task/depth/06520.npz",
+      "depth_sha256": "dae3834f97d43a4c22777b2325531c1b8c6559d8ba0b3175117be88eca5baa62",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "7a74191034000d6d5c3dce966d20e1b00356fa68ff4626a4b65ac4225c69a4b7"
+    },
+    {
+      "tick": 6560,
+      "native_time_s": 32.466668359935284,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_nominal_prior:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_nominal_prior/task/images/06560.jpg",
+      "image_sha256": "a5e886ddedd5ec789cf53e36d9659a38bf9ba994179bbdec68049a8b0fd0b018",
+      "depth": "cases/test_m090_d12_nominal_prior/task/depth/06560.npz",
+      "depth_sha256": "5a59b22913233880e169115fa8128d03b6140e0a7bbf8f5294e3c0fd757bb0e5",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "08cbdaa212dbb50303a9f479f2dc9a684a852637fbcf3456f70fc302a8f67bf6"
+    },
+    {
+      "tick": 6600,
+      "native_time_s": 32.633335035294294,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_nominal_prior:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_nominal_prior/task/images/06600.jpg",
+      "image_sha256": "1690d6fab8101afad53f8f4af6310614802a531e2e51a33a85bcae239cfaa4c5",
+      "depth": "cases/test_m090_d12_nominal_prior/task/depth/06600.npz",
+      "depth_sha256": "47068314bcf78a00da6f15dd510efcd986455ad66e94f73077198cfe7a5f8ff2",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "cfbacb40e477ce88f68b4ca999203e18035c322e93d43753458b51adad976240"
+    },
+    {
+      "tick": 6640,
+      "native_time_s": 32.800001710653305,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_nominal_prior:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_nominal_prior/task/images/06640.jpg",
+      "image_sha256": "2c396ef42fd0027a2280f36326e2e8a6fb48a7c6cc0770085ee049f16a61a606",
+      "depth": "cases/test_m090_d12_nominal_prior/task/depth/06640.npz",
+      "depth_sha256": "078ec20c3ed1107bf169b14570b68099a5f1bc9caadd415fa3413934f2ba3eac",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "2ed34271affa5eba13922dacd5c79713586dde4e093faae2dab4dad4c7909fac"
+    },
+    {
+      "tick": 6680,
+      "native_time_s": 32.966668386012316,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_nominal_prior:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_nominal_prior/task/images/06680.jpg",
+      "image_sha256": "143fdb093dceab4a3051bbf3c74901fbe3191c6b6772857af1dfba0d8084feac",
+      "depth": "cases/test_m090_d12_nominal_prior/task/depth/06680.npz",
+      "depth_sha256": "36a215a85c263a49e188345ee8ced712fe5b07f8734b8db0a9ea1a9f35fe4d2d",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "fd07844716b1f067c8ca564d2d941adea748a96d7e3ed3de06ea3ae7251b75e9"
+    },
+    {
+      "tick": 6720,
+      "native_time_s": 33.133335061371326,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_nominal_prior:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_nominal_prior/task/images/06720.jpg",
+      "image_sha256": "69dd045189d5c94adfefdc182fb4c3e667c3aa471a7b77d12c778269ef4f04ff",
+      "depth": "cases/test_m090_d12_nominal_prior/task/depth/06720.npz",
+      "depth_sha256": "86d933201beaad22cbcc30c68db5b26afabf79e346c515b240ccae51b8a6dccd",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "789d9694f6c4fc92164195c94cfcb3088da65ab3ed66b587f6aeeef4370d7588"
+    },
+    {
+      "tick": 6760,
+      "native_time_s": 33.30000173673034,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_nominal_prior:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_nominal_prior/task/images/06760.jpg",
+      "image_sha256": "69f26ae4517f834d9c15d582b66bac1ba5b73912b0f171a2ce6a575cc194ac1d",
+      "depth": "cases/test_m090_d12_nominal_prior/task/depth/06760.npz",
+      "depth_sha256": "ac4d16d8257f667179f34fc8a4bc35357fd1ce722af9be3426bb1d8bad07fe06",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "645a1b298a274e39bbbe870edeeeffb2ee3b8ebccb16dca55f3725027f6bc4c1"
+    },
+    {
+      "tick": 6800,
+      "native_time_s": 33.46666841208935,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_nominal_prior:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_nominal_prior/task/images/06800.jpg",
+      "image_sha256": "30477a715f6d0087c03588f65a0f2460070b3a804bc1682680d0ce77b13e0409",
+      "depth": "cases/test_m090_d12_nominal_prior/task/depth/06800.npz",
+      "depth_sha256": "a5afda10148a8c16ef051a2c852bb93213d6d2f2e4597292a91c793cbf25e6ef",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "4b7705a20f3adbaf49bc983851938c00cd1f7ba0af08c028f62dd13dfe265a6c"
+    },
+    {
+      "tick": 6840,
+      "native_time_s": 33.63333508744836,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_nominal_prior:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_nominal_prior/task/images/06840.jpg",
+      "image_sha256": "d023698390afcc5eebe2124eb41ce2811728946085488519cd94237a9ca5e211",
+      "depth": "cases/test_m090_d12_nominal_prior/task/depth/06840.npz",
+      "depth_sha256": "12d1f4970e2d03deae30eaa5e46e09218e9f149366c08fe79f1460a5fa329800",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "e40f349e71b71962079ccb51702c82e9bb4694b9a0f4021f19ad334c0f5828e6"
+    },
+    {
+      "tick": 6880,
+      "native_time_s": 33.80000176280737,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_nominal_prior:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_nominal_prior/task/images/06880.jpg",
+      "image_sha256": "9ac83cf9a92bdc85ad3ead8fc00af22cbbddc867f717cb8e4c0dacc75a03d2db",
+      "depth": "cases/test_m090_d12_nominal_prior/task/depth/06880.npz",
+      "depth_sha256": "3f81ebb35fcae80f85af8663cf6fbe202d5703430aad75fc4445b6926f3a315f",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "3d18857a30fdaae7c3d5efe8b79905fee8484e92d009f780135217a48220183d"
+    },
+    {
+      "tick": 6920,
+      "native_time_s": 33.96666843816638,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_nominal_prior:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_nominal_prior/task/images/06920.jpg",
+      "image_sha256": "2884e7f4a1dbac8b3acbbdda4ff678d42c3628e09eb8ae43bde8f86377cb8784",
+      "depth": "cases/test_m090_d12_nominal_prior/task/depth/06920.npz",
+      "depth_sha256": "388924a5b07fa8d5b82e1852830e579e8ad38a2f793bb69dcc8e34f7d76352d2",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "3def3e44497439f90dfd5487ec836bfc0a1b9ac3a5fc5610cb34235f8bb3e55c"
+    },
+    {
+      "tick": 6960,
+      "native_time_s": 34.13333511352539,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_nominal_prior:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_nominal_prior/task/images/06960.jpg",
+      "image_sha256": "751dfca785a132ce264e76c3210210016c72c1b5f69a9dbc707de7a4929ef3a2",
+      "depth": "cases/test_m090_d12_nominal_prior/task/depth/06960.npz",
+      "depth_sha256": "ec52b6a162d07bc68c025c0fdbd445881113ba2a7ca9e2455345fcedf7f52275",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "ccd16031ac65d10328bdd5f947942474f89ff9341daad104423e61fac7ddf457"
+    },
+    {
+      "tick": 7000,
+      "native_time_s": 34.3000017888844,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_nominal_prior:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_nominal_prior/task/images/07000.jpg",
+      "image_sha256": "03246ce95bd24dde8dcb688a558a49bb9dfdbdfcd2b9c86a0516f17f75641887",
+      "depth": "cases/test_m090_d12_nominal_prior/task/depth/07000.npz",
+      "depth_sha256": "b08c84bd6e83829db7b8982267c90f15c67ab0e57d6296c94026a8a912195fb4",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "d5a74065c79ce6d17bf3023a42892ba9f690997542af11b232ccfba803bdb376"
+    },
+    {
+      "tick": 7040,
+      "native_time_s": 34.46666846424341,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_nominal_prior:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_nominal_prior/task/images/07040.jpg",
+      "image_sha256": "2731c1d202e5b940f02b2123f5af953bfa260cb55b0a349652cda5772a6b0fc0",
+      "depth": "cases/test_m090_d12_nominal_prior/task/depth/07040.npz",
+      "depth_sha256": "7187d6896818407320b563942e900f9c8efbe632440b58b4b54a2dfc734ee5dc",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "6c8a7bb7655eff63d9c7a8560d4e79f47582c2e11c842ca3a74588347777d594"
+    },
+    {
+      "tick": 7080,
+      "native_time_s": 34.63333513960242,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_nominal_prior:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_nominal_prior/task/images/07080.jpg",
+      "image_sha256": "bc3157aa18605dedec3ac1e5f9ef732992e2d62decb05d97eefbda355b401fa6",
+      "depth": "cases/test_m090_d12_nominal_prior/task/depth/07080.npz",
+      "depth_sha256": "a566c953570fef0c6f074fd72a9c352c966b73cd20c583e718b85886d15b538a",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "3d3ea8695bfde2a47d74a53e3a27fb0112a08435ad7b55ec9034e10567ff31a2"
+    },
+    {
+      "tick": 7120,
+      "native_time_s": 34.80000181496143,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_nominal_prior:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_nominal_prior/task/images/07120.jpg",
+      "image_sha256": "56a964dcc517cd95796934945289e3fcb39ec5a1ccc41f6aa2fe2ed60a139677",
+      "depth": "cases/test_m090_d12_nominal_prior/task/depth/07120.npz",
+      "depth_sha256": "0ef4df60165b5e135222d01ad71ac3a0f45cd2d898457a516c754a47e5e7a8eb",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "f16b2f9d96209f1a3b76f1884e3f9286bdf8bc5a8f2e29f4e9fcd6b85b82a2ff"
+    },
+    {
+      "tick": 7160,
+      "native_time_s": 34.966668490320444,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_nominal_prior:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_nominal_prior/task/images/07160.jpg",
+      "image_sha256": "d7a520b4a29ee9e646467380c6a25860194a4ce771b40ddc53a9ed96bef34c2a",
+      "depth": "cases/test_m090_d12_nominal_prior/task/depth/07160.npz",
+      "depth_sha256": "6617511abc6cec3e94f3047970b8d76148e568479266c1e6ceb9f2c963bd63dd",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "2b3a4046bd05029a68ccdd1377d7ded9994196f9243bfb2b3c9766dcbf295ea3"
+    },
+    {
+      "tick": 7200,
+      "native_time_s": 35.133335165679455,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_nominal_prior:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_nominal_prior/task/images/07200.jpg",
+      "image_sha256": "6392dd2429b2c491a3e9bb3c2c6ccc7ee1c779238d7b0d7ed90e1a7e56e56050",
+      "depth": "cases/test_m090_d12_nominal_prior/task/depth/07200.npz",
+      "depth_sha256": "1cf6554603848c426b4c9653c21b9b2fa6620bea10431c0f8c04d2fada79fc21",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "311d8f8ba1359989bd6c50b687196624af4027b0994af92b597b4ec64e2395c4"
+    },
+    {
+      "tick": 7240,
+      "native_time_s": 35.300001841038465,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_nominal_prior:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_nominal_prior/task/images/07240.jpg",
+      "image_sha256": "4ea66c644da0926d1d1bd20798e958189c3be3d35bb390417089f7755699bd5a",
+      "depth": "cases/test_m090_d12_nominal_prior/task/depth/07240.npz",
+      "depth_sha256": "f4ba16f2a96c8f73522a5f56b00a90b3f1f3d88347bdbbe45e78e7eb5134d0db",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "038a92e33f8cd5a25d14013c75abc615fa91be8fbcc0a141de620a765634780e"
+    },
+    {
+      "tick": 7280,
+      "native_time_s": 35.466668516397476,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_nominal_prior:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_nominal_prior/task/images/07280.jpg",
+      "image_sha256": "37db6aa37c288160e6a114d8cd4075b6c993c04fc585d501e7f24493253e6f02",
+      "depth": "cases/test_m090_d12_nominal_prior/task/depth/07280.npz",
+      "depth_sha256": "dc0310c1fdf70931d77a00b33c4a1518ab5d7c4e357f38fd0dd2aab9c067cb0b",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "a7bf01239b218475d49368f88dfdb06b602f32b29e17fd7437ef02161c19b746"
+    },
+    {
+      "tick": 7320,
+      "native_time_s": 35.63333519175649,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_nominal_prior:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_nominal_prior/task/images/07320.jpg",
+      "image_sha256": "85d9ac5ccbd84b4ea4465a63ea02eea3ff6e937acb88e2b6f56741a72f01daf5",
+      "depth": "cases/test_m090_d12_nominal_prior/task/depth/07320.npz",
+      "depth_sha256": "e1fffed9670b2631c20c2f45abc529e7f737a972fa86463444ae10bc8515031a",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "f971bfccd5b096ca20da66eca8d56c5ae7f8022c5e525628ac21bd5618a0a68b"
+    },
+    {
+      "tick": 7360,
+      "native_time_s": 35.8000018671155,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_nominal_prior:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_nominal_prior/task/images/07360.jpg",
+      "image_sha256": "f1915871417d0e08f11c79afa0b060e4e610bbdb7d6a727dc1aee7288a790f46",
+      "depth": "cases/test_m090_d12_nominal_prior/task/depth/07360.npz",
+      "depth_sha256": "5c12f7e08dbd5a8c9ce89f38707c6fccdc41212fcb368ad18ef79ee53a120b59",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "0609000ca39d06bdf2263cf65c6139dd79945a20bfd883825bcb4cf67c019b30"
+    },
+    {
+      "tick": 7400,
+      "native_time_s": 35.96666854247451,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_nominal_prior:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_nominal_prior/task/images/07400.jpg",
+      "image_sha256": "1aad78c5b0715661ef8d0c07956ae245f8114a40d9b0464bef57d748452e5fe9",
+      "depth": "cases/test_m090_d12_nominal_prior/task/depth/07400.npz",
+      "depth_sha256": "fd5e12a89cbe29ca3635ad4e0a20f7d1481cd784c9ec78e24aa76fc82b017116",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "e2e4182ea916806f74a9587536e316319efd6ad4d523b7220120922a658a3942"
+    },
+    {
+      "tick": 7440,
+      "native_time_s": 36.13333521783352,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_nominal_prior:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_nominal_prior/task/images/07440.jpg",
+      "image_sha256": "fde55d67c93785a09f8303614f38a192309ed36b2c76967e276c541e8c5f5ff0",
+      "depth": "cases/test_m090_d12_nominal_prior/task/depth/07440.npz",
+      "depth_sha256": "e605cfa3fe7ae16952e62344c83086a838ffd4819c8a34f150dfd3bd6170265f",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "f4721299535ffc14cd9abcaf6ffac6ef38d0e1017561bf2e2d29448e80e295d3"
+    },
+    {
+      "tick": 7480,
+      "native_time_s": 36.30000189319253,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_nominal_prior:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_nominal_prior/task/images/07480.jpg",
+      "image_sha256": "2479047e45d4d13c8310519feb67b3ef82a8e13c5356a6a1b41b64d82dd9feba",
+      "depth": "cases/test_m090_d12_nominal_prior/task/depth/07480.npz",
+      "depth_sha256": "ed98866de47e3ea1d99cbb35965e1602ea9321a405f16beab3b29e243320c8c6",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "06ee910183dc3d809633ab46d06549e17d214eb2bad40230672e6b5f764534bc"
+    },
+    {
+      "tick": 7520,
+      "native_time_s": 36.46666856855154,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_nominal_prior:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_nominal_prior/task/images/07520.jpg",
+      "image_sha256": "33e187de1efcc6521c7e720944525ec448002ed7dc7868e3076c68aae41be027",
+      "depth": "cases/test_m090_d12_nominal_prior/task/depth/07520.npz",
+      "depth_sha256": "5138b20ab9a223267f8ffbe08ef8c61551500be13db500d95a002f0a732521be",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "b0d890e7d001d8a83fa941ddc567ff67b09a6bc27fe153d8f1345f5da8da55c8"
+    },
+    {
+      "tick": 7560,
+      "native_time_s": 36.63333524391055,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_nominal_prior:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_nominal_prior/task/images/07560.jpg",
+      "image_sha256": "3e640eba665adecde8e9984872f42ecd832af4233091cb622b8085ff1e146e08",
+      "depth": "cases/test_m090_d12_nominal_prior/task/depth/07560.npz",
+      "depth_sha256": "39f0e225b7eb5985c30d4ff668575a4436912bf05797852fec882659dbd4529e",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "0768bc094a317007f6040c7213b5d106e2eeccb154ea1123fd712970289fcbdc"
+    },
+    {
+      "tick": 7600,
+      "native_time_s": 36.80000191926956,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_nominal_prior:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_nominal_prior/task/images/07600.jpg",
+      "image_sha256": "7cc9e7c3f5d5bdedce1930c0612eff9c5ef4bb7a98d59ff5a444961995b7fb8b",
+      "depth": "cases/test_m090_d12_nominal_prior/task/depth/07600.npz",
+      "depth_sha256": "dca2fa93477bf689f5a7f374ea13f0f5776f1fec5de5a496e515f171422d408c",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "465db558a7bca5c299057039b06bff0e80da0bba6940591a9c22cb5655f3d899"
+    },
+    {
+      "tick": 7640,
+      "native_time_s": 36.96666859462857,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_nominal_prior:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_nominal_prior/task/images/07640.jpg",
+      "image_sha256": "87d41f36c732ca3bad253837dfc70c8006a0e0df9836dbcdd389ab03b170b80c",
+      "depth": "cases/test_m090_d12_nominal_prior/task/depth/07640.npz",
+      "depth_sha256": "c85dfc4f78abf4a363cd9d911bff9dad49d41b9839a708b92fd7386cb03b46f1",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "983d80a666de98d7935bbca521c4837a7faf9b9dad5916f644215596c9fbbedb"
+    },
+    {
+      "tick": 7680,
+      "native_time_s": 37.13333526998758,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_nominal_prior:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_nominal_prior/task/images/07680.jpg",
+      "image_sha256": "a80187577825a271ef0e2025bcdf93b0a00b1a5a53d7a6e89d00b3968f2409ef",
+      "depth": "cases/test_m090_d12_nominal_prior/task/depth/07680.npz",
+      "depth_sha256": "f2d4a47c96f24cc1d80960d577add9ca84b24f2dcac9df346f71f19bb9492f8c",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "8fb688d72cbfd86f8517724a1bc0d7f41135b22abb3c16b6777fb3fc6931746c"
+    },
+    {
+      "tick": 7720,
+      "native_time_s": 37.300001945346594,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_nominal_prior:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_nominal_prior/task/images/07720.jpg",
+      "image_sha256": "97cd8f0d004c277d49be8c0325d07c8942edade5036f86c14528eac438e49ac0",
+      "depth": "cases/test_m090_d12_nominal_prior/task/depth/07720.npz",
+      "depth_sha256": "042bf44390a802acb1e2d5644a0b318ae192890318d4bd6b9020d90028508d3b",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "c2ec7139ac1dab1c3f2352cc73cce782e5c9f1af4cfe3727b15df2ef36900cf5"
+    },
+    {
+      "tick": 7760,
+      "native_time_s": 37.466668620705605,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_nominal_prior:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_nominal_prior/task/images/07760.jpg",
+      "image_sha256": "8359d0122970ac20ebd29e24f01258141e42963d6f879166cb750c8e787a292e",
+      "depth": "cases/test_m090_d12_nominal_prior/task/depth/07760.npz",
+      "depth_sha256": "ffb356fbaaa8995868ddd8096f330e4236dc6bd7041eae9001baf53458700e0b",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "cc612f05efe717864b1d0c92cd576bcc339d909afd32ece698e244f2dda2c758"
+    },
+    {
+      "tick": 7800,
+      "native_time_s": 37.633335296064615,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_nominal_prior:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_nominal_prior/task/images/07800.jpg",
+      "image_sha256": "54327e88768b90b37211109ce89eacc90a4ac051bfdf3722b374956b213d05d9",
+      "depth": "cases/test_m090_d12_nominal_prior/task/depth/07800.npz",
+      "depth_sha256": "87ac90ec5f60bb797666f99926418408935d4061b6a73899f0d559526ba02db2",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "2cda1c3ccc67ee44f57729641f725f09b90054f1c6c701ff53b96cd47654e91d"
+    },
+    {
+      "tick": 7840,
+      "native_time_s": 37.800001971423626,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_nominal_prior:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_nominal_prior/task/images/07840.jpg",
+      "image_sha256": "867c3648e3de4d3b28a8ec8009dacc48815f343012043ab6dd8192f2356d5a57",
+      "depth": "cases/test_m090_d12_nominal_prior/task/depth/07840.npz",
+      "depth_sha256": "7eef1a3452f761ce648c10851672cdd21149dfe240634f0cf81b88bddadbe649",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "622a3ffd0689675aff3a514a7900276e3a45d23c81a408550f59c252d917413c"
+    },
+    {
+      "tick": 7880,
+      "native_time_s": 37.96666864678264,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_nominal_prior:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_nominal_prior/task/images/07880.jpg",
+      "image_sha256": "f2724710e6c291373595b381a4c3c577e3a95babd059f94066dd8c6f763052af",
+      "depth": "cases/test_m090_d12_nominal_prior/task/depth/07880.npz",
+      "depth_sha256": "3b188e4bc49b8b6b784345505af545178547152c00525fe400eb22fdc5fe8d35",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "ec4090bb89e050c470a24dfa9d243b5105f67d47d5017855516eff68e903f409"
+    },
+    {
+      "tick": 7920,
+      "native_time_s": 38.13333532214165,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_nominal_prior:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_nominal_prior/task/images/07920.jpg",
+      "image_sha256": "931fdf99e289ca819c2b6f464856b76cfe76ffc86938da9e85eead21f03dc61a",
+      "depth": "cases/test_m090_d12_nominal_prior/task/depth/07920.npz",
+      "depth_sha256": "fd337e1594c75224a1d9d03097dbf7ffece60d81b3db4dda5ca4fb4aa6d29a70",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "47ddd34b4422119e62bcaf8d83ac8263cb5f870dc7d585c77ae746775fa81bf2"
+    },
+    {
+      "tick": 7960,
+      "native_time_s": 38.30000199750066,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_nominal_prior:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_nominal_prior/task/images/07960.jpg",
+      "image_sha256": "1a033aee0d0c7a3bf1ef400e1a450365af3519846b46545b5a1f3471b87e01f6",
+      "depth": "cases/test_m090_d12_nominal_prior/task/depth/07960.npz",
+      "depth_sha256": "da2a7844c26036158bb7254765715a9477048e792b5e99cea608f6438c8bc821",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "7a59608841046b3c4e0fbb61393125f5a07d444daf056513e722a4eba42dd69c"
+    },
+    {
+      "tick": 8000,
+      "native_time_s": 38.46666867285967,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_nominal_prior:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_nominal_prior/task/images/08000.jpg",
+      "image_sha256": "891c8da655d116a2680da97733ca24d911cb4de1e976752817bb2ef2391fb81d",
+      "depth": "cases/test_m090_d12_nominal_prior/task/depth/08000.npz",
+      "depth_sha256": "c3347121bd4c4c8b3180856a93a55c5e7fd256a3c14dd5fb1658a7c80e880b57",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "392ab437a94406e22e71542a7921508783611a8587f8e5d310f9d542978baca0"
+    },
+    {
+      "tick": 8040,
+      "native_time_s": 38.63333534821868,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_nominal_prior:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_nominal_prior/task/images/08040.jpg",
+      "image_sha256": "98cd97829c776ae23f72d3920260097da360a1eaaa0c896369b1c79e51462027",
+      "depth": "cases/test_m090_d12_nominal_prior/task/depth/08040.npz",
+      "depth_sha256": "3a8e50286c8796b105fa6c29ab05dab388265f06f9ced6bd5b25d0591837cfc9",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "f3617ed4b0de25b0c35c721f73577511566c687f17e199f4378f4e92e5f8464a"
+    },
+    {
+      "tick": 8080,
+      "native_time_s": 38.80000202357769,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_nominal_prior:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_nominal_prior/task/images/08080.jpg",
+      "image_sha256": "c0cb5227cb97105eb01c75c63a0c59d3e6994fcfb2c4e07f70a07956242075de",
+      "depth": "cases/test_m090_d12_nominal_prior/task/depth/08080.npz",
+      "depth_sha256": "47eb9b540511cdbeaba82c54fcbfe77b49be67b376dce3204ee784fb54b3a20e",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "0bfdafcaf008207f8f7f005b92f129912bcce92351c38852e2d7b5f2029e625e"
+    },
+    {
+      "tick": 8120,
+      "native_time_s": 38.9666686989367,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_nominal_prior:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_nominal_prior/task/images/08120.jpg",
+      "image_sha256": "54ee22f1a43971f22af1de613b2c28283e899ed2b905637f482ea634a5db8622",
+      "depth": "cases/test_m090_d12_nominal_prior/task/depth/08120.npz",
+      "depth_sha256": "21f27943ec116753c215b168f7cdf8944b4939bb74ddbe5e45b0946c9460e847",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "db111781e63069327f3b139bff5bc0c75c85a35ce3e91b8a572cc1a090234448"
+    },
+    {
+      "tick": 8160,
+      "native_time_s": 39.13333537429571,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_nominal_prior:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_nominal_prior/task/images/08160.jpg",
+      "image_sha256": "db1f2744b33d68abfa051cabb0de87b775710e9db834f228cdddd634f8425f50",
+      "depth": "cases/test_m090_d12_nominal_prior/task/depth/08160.npz",
+      "depth_sha256": "4328f81fca2e32b1df8c09062edea58b397e64f43981d1af4ac9b965e9bcc804",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "1fe81348562be629ee5e6d9d7fea90245a3202e5343e71ae37209308eb785760"
+    },
+    {
+      "tick": 8200,
+      "native_time_s": 39.30000204965472,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_nominal_prior:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_nominal_prior/task/images/08200.jpg",
+      "image_sha256": "02bf1279906ac73752a0a44fd64ea54d91dfa8ce504de30bde32bb55f99a3748",
+      "depth": "cases/test_m090_d12_nominal_prior/task/depth/08200.npz",
+      "depth_sha256": "628c8f8210a957e911037bf4ccbfc63ee1b13ab1c96836a824ec67c306d7f1cd",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "b7e62c58f8ab04af011df88aab927b8ea7c21ce29bae2724f392d3acbc64db4c"
+    },
+    {
+      "tick": 8240,
+      "native_time_s": 39.46666872501373,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_nominal_prior:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_nominal_prior/task/images/08240.jpg",
+      "image_sha256": "6822e7e5ce12dd1a0c150d491e9e34b7da26c449dac23bb8f8f4972318c025d7",
+      "depth": "cases/test_m090_d12_nominal_prior/task/depth/08240.npz",
+      "depth_sha256": "9f67ac12e3d0d0b4800d81770773b78b1b50ceba38e9c8ec90f3607afb89947e",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "d7cc6b1922d34c34d6f61bba46553cab8cd7c9d8fe3542d7564b03e7efe3c365"
+    },
+    {
+      "tick": 8280,
+      "native_time_s": 39.633335400372744,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_nominal_prior:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_nominal_prior/task/images/08280.jpg",
+      "image_sha256": "47732398493a2e6205a9942d2277169fefa2d0e9fc89c6b30479f7ac067be9a4",
+      "depth": "cases/test_m090_d12_nominal_prior/task/depth/08280.npz",
+      "depth_sha256": "2227d9775242481e27dd4eb35ff4e8cc13a237058271ca56d109b86d65c49075",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "671edf9d9388ab5ed2983b69bc9f8c3031d4f1ead9f7efe1bc59a72519f07d74"
+    },
+    {
+      "tick": 8320,
+      "native_time_s": 39.800002075731754,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_nominal_prior:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_nominal_prior/task/images/08320.jpg",
+      "image_sha256": "836ccae18dd30e67b641702010279423bbb6334fdbcb8e486ac731cbe494a45d",
+      "depth": "cases/test_m090_d12_nominal_prior/task/depth/08320.npz",
+      "depth_sha256": "546b831271357d85a48ed93ecc3fb014109c4dc761d1d5417165607e6182697c",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "31af5daeb822fb655cb100f6cb6ba51a0ee17aa607b72448a003e0f7dd755d48"
+    },
+    {
+      "tick": 8360,
+      "native_time_s": 39.966668751090765,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_nominal_prior:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_nominal_prior/task/images/08360.jpg",
+      "image_sha256": "73a9ce2b945dc95cbda579378eff18f8314d073a55d8182a3f0af825e76b78df",
+      "depth": "cases/test_m090_d12_nominal_prior/task/depth/08360.npz",
+      "depth_sha256": "f42ca00fcd4687793af24aac88042a0dbad6741ea9b76b36be5e9633a84a9ff2",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "2af6599e7a47ea8e07716ea015cca1683314cf1279e88691af6d120d2d85b676"
+    },
+    {
+      "tick": 8400,
+      "native_time_s": 40.133335426449776,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_nominal_prior:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_nominal_prior/task/images/08400.jpg",
+      "image_sha256": "efcd064312f622fe028a041b8772541a0073bd2bc5a9f490ba85833b59f264e7",
+      "depth": "cases/test_m090_d12_nominal_prior/task/depth/08400.npz",
+      "depth_sha256": "fad9d2bf5e980edaef17b2a0f1fa0723e3f44b85ffad1cd65d5b2214c35e0e9d",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "3d8720aae28ad22183cd166b4361d5e3808ea28666f607b4cb885ea0ff4b39c7"
+    },
+    {
+      "tick": 8440,
+      "native_time_s": 40.300002101808786,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_nominal_prior:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_nominal_prior/task/images/08440.jpg",
+      "image_sha256": "30ba7ec362a3b74fdde271b7a9433455375ae9b03546b75dff35badbe5b827c8",
+      "depth": "cases/test_m090_d12_nominal_prior/task/depth/08440.npz",
+      "depth_sha256": "df02c436f7ccc9308d0f54be121d41a40292a018dd6130a5a1c0a256aa3dd0b7",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "97e8bf92828f31d9605c6cfb94998ad6b5bc116087f4abda5a2f6328dc9553f5"
+    },
+    {
+      "tick": 8480,
+      "native_time_s": 40.4666687771678,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_nominal_prior:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_nominal_prior/task/images/08480.jpg",
+      "image_sha256": "a3fbe1413cca002966f40a4f9bd4f236b92a868265b75a9cf626e7e7ad475328",
+      "depth": "cases/test_m090_d12_nominal_prior/task/depth/08480.npz",
+      "depth_sha256": "c3e3301a499921cbec90eb864794650b21ba4effb04e71563b9325ae31a028b0",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "e3ab39332e5fd115a4cdd2c2855a3a9617b9d645dd929cae23df123fa8547aaa"
+    },
+    {
+      "tick": 8520,
+      "native_time_s": 40.63333545252681,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_nominal_prior:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_nominal_prior/task/images/08520.jpg",
+      "image_sha256": "4172cf87e4faa6050bb09cf0b3b57b69f640a72b923bf32599f42b0aacb4626b",
+      "depth": "cases/test_m090_d12_nominal_prior/task/depth/08520.npz",
+      "depth_sha256": "0ecb748cc76ea7629ad452e4e8455e3ab63a2fe9151b844d3f5b6f823e492f41",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "b8a4d31488f43aac8f6599fc935bef3fa125a698f27459a335c5b43b70804e02"
+    },
+    {
+      "tick": 8560,
+      "native_time_s": 40.80000212788582,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_nominal_prior:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_nominal_prior/task/images/08560.jpg",
+      "image_sha256": "1eb1512ab4fc1db2edcc01efa98dc2f888c6875d9f66dfc8ba8d21d2e6120669",
+      "depth": "cases/test_m090_d12_nominal_prior/task/depth/08560.npz",
+      "depth_sha256": "fc6d8f656206942324fb28ac167aeb085941a37a534bd3dedeed8a76e940a030",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "c7f57cef05838d44296e32fcaddf7c31053f2de8ee4fb2b3478b2459ceb132b9"
+    },
+    {
+      "tick": 8600,
+      "native_time_s": 40.96666880324483,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_nominal_prior:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_nominal_prior/task/images/08600.jpg",
+      "image_sha256": "cc112cab8ec6bcae7a18fb5c3ed76624eed8b44dc0acd34d4ec023c8a5adae5f",
+      "depth": "cases/test_m090_d12_nominal_prior/task/depth/08600.npz",
+      "depth_sha256": "b78fd572a21f6e515f2d64cc8407c800625fc7ae187424bad3f277d428869404",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "6ddee916b4c38dc6dabcd6610ebf1b49d410236cd803660d12282e2ec25e1ff8"
+    },
+    {
+      "tick": 8640,
+      "native_time_s": 41.13333547860384,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_nominal_prior:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_nominal_prior/task/images/08640.jpg",
+      "image_sha256": "f877e1d9d82cf48473947ad39109705086020ea1596850afe03c0bed5178901f",
+      "depth": "cases/test_m090_d12_nominal_prior/task/depth/08640.npz",
+      "depth_sha256": "4a831c3fdafceef5eaf7e2cd2ce795f4716e29890ec1a41dbc09b6d0fc2b3bd4",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "d6a6c945435eff02b3a85891f22b742a7cd30efb4e1e68c10caf2d504c909401"
+    },
+    {
+      "tick": 8680,
+      "native_time_s": 41.30000215396285,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_nominal_prior:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_nominal_prior/task/images/08680.jpg",
+      "image_sha256": "0925dc293eb7ad15b75671046cc95a486ac52589bbb061d7f7a8c691cf11292b",
+      "depth": "cases/test_m090_d12_nominal_prior/task/depth/08680.npz",
+      "depth_sha256": "7089e3aa7966a7af33326123cc8556d54e1807b7519d53e601a079182525e539",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "428b2be5c1b4e0e911fc60487be8a5867575c72a7f48f1d8f4be4f3674587eea"
+    },
+    {
+      "tick": 8720,
+      "native_time_s": 41.46666882932186,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_nominal_prior:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_nominal_prior/task/images/08720.jpg",
+      "image_sha256": "2272109b82bf411f790f6608fdf5978dce202d9a152690bb7593ccb69e4d7c7c",
+      "depth": "cases/test_m090_d12_nominal_prior/task/depth/08720.npz",
+      "depth_sha256": "9d2cc7ed7430f871cb26266fe921acc08a57e36825333cd74b0a5704fb7f2d94",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "76b1eb4432081749b2dd330095d82003f963ca76c1e9ba918fa2f2e1e7d01a01"
+    },
+    {
+      "tick": 8760,
+      "native_time_s": 41.63333550468087,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_nominal_prior:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_nominal_prior/task/images/08760.jpg",
+      "image_sha256": "8e7ddf6c925d6f5d4364b55a765c44984179a561e57165754e6d2759d414bc56",
+      "depth": "cases/test_m090_d12_nominal_prior/task/depth/08760.npz",
+      "depth_sha256": "5f2dafaf09248e2962960fa368a711c6de7a958afa1dd4d393a6e96592dfa472",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "9f682db212ca2b68e28ed9326195209522130233f93198f978d3b87e85013b3c"
+    },
+    {
+      "tick": 8800,
+      "native_time_s": 41.80000218003988,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_nominal_prior:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_nominal_prior/task/images/08800.jpg",
+      "image_sha256": "24023bf39e23c5efdbd847274cac10ea4b575058219220558c5c40b6ec54d389",
+      "depth": "cases/test_m090_d12_nominal_prior/task/depth/08800.npz",
+      "depth_sha256": "d94a6679843322aca2eead0667f3cee40265980dcd472a7805ebf14f8fbbf376",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "0a0ed3e803a5fb8e93dabefd4abafe7abb68cb86ceaf1fc50b25c90d119c6f41"
+    },
+    {
+      "tick": 8840,
+      "native_time_s": 41.96666885539889,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_nominal_prior:cad51fcb553f61b6",
+      "image": "cases/test_m090_d12_nominal_prior/task/images/08840.jpg",
+      "image_sha256": "ef1c9cd9afcaf58eb658a8a6512757f4fd62ada697c43ac9f0a43e1a82b6840e",
+      "depth": "cases/test_m090_d12_nominal_prior/task/depth/08840.npz",
+      "depth_sha256": "92c180d99eb5cac46caf1617aefc1aa285f3dc6e416d8b09cff66c4894f5514d",
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_dtype": "float32",
+      "finite_depth_fraction": 1.0,
+      "finite_depth_min_m": 2.082545757293701,
+      "finite_depth_max_m": 6.322329044342041,
+      "recorded_native_rgb_sha256": "b7f9f51e736accdb405193af8516875da949f399e11169d50789eed26db2b771"
+    }
+  ],
+  "ffprobe": {
+    "programs": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "width": 640,
+        "height": 400,
+        "r_frame_rate": "6/1",
+        "avg_frame_rate": "6/1",
+        "duration": "28.000000",
+        "nb_read_frames": "168"
+      }
+    ],
+    "format": {
+      "duration": "28.000000"
+    }
+  },
+  "ffmpeg_decode_command": [
+    "ffmpeg",
+    "-hide_banner",
+    "-loglevel",
+    "error",
+    "-threads",
+    "2",
+    "-i",
+    "/data/liyufeng/paperb_grip_qualified_analysis_tools_20261013_v1/test_videos/test_m090_d12_nominal_prior/recorded_native_rgb.mp4",
+    "-f",
+    "null",
+    "-"
+  ],
+  "ffprobe_command": [
+    "ffprobe",
+    "-v",
+    "error",
+    "-count_frames",
+    "-select_streams",
+    "v:0",
+    "-show_entries",
+    "stream=codec_name,width,height,nb_read_frames,avg_frame_rate,r_frame_rate,duration:format=duration",
+    "-of",
+    "json",
+    "/data/liyufeng/paperb_grip_qualified_analysis_tools_20261013_v1/test_videos/test_m090_d12_nominal_prior/recorded_native_rgb.mp4"
+  ],
+  "ffmpeg_full_decode_exit_code": 0,
+  "synthetic_or_interpolated_frames": 0,
+  "CPU_encoder": "libx264 threads2",
+  "original_JPEG_is_lossy": true,
+  "MP4_is_lossy": true,
+  "depth_is_preserved_in_original_NPZ_not_encoded_in_MP4": true,
+  "native_uncompressed_RGB_sha_is_recorder_metadata_not_recomputed_from_lossy_JPEG": true,
+  "video_is_not_25ms_timing_oracle": true,
+  "test_score_files_read": 0,
+  "test_outcome_used_for_selection": false,
+  "new_native_episodes": 0,
+  "GPU_jobs_started": 0,
+  "fit_executed": false
+}

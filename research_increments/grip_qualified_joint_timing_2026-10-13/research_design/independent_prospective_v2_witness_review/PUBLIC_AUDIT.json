@@ -1,0 +1,271 @@
+{
+  "schema": "paperb-third-independent-prospective-v2-witness-audit-v1",
+  "created_at_utc": "2026-10-13T15:31:43.593581+00:00",
+  "status": "PASS_DEVELOPMENT_WITNESS_COMPONENT_ONLY",
+  "source_release_sha256": "a759e9cebe249ad636e604d4c42ee73e8df058feb9130d6f8469f2429006459e",
+  "source_and_input_boundary_review": {
+    "frozen_source_files": 15,
+    "source_snapshot_exact": true,
+    "actor_constructor_only_public_contract_resource_dt_charge": true,
+    "live_actor_known_drop_oracle_explicit_False": true,
+    "actor_estimator_planner_no_private_simulator_or_referee_imports": true,
+    "information_boundary_is_trusted_implementation_dataflow_not_process_sandbox": true
+  },
+  "archive_reopen_review": {
+    "archive_sha256": "a8f6036f4f0a89fe83c15f07620cbd1eb6de2fcfaeaf54bee91467014a747a9a",
+    "archive_bytes": 894593,
+    "regular_member_count": 114,
+    "all_member_SHA_independently_reopened_exact": true,
+    "no_extraction_or_execution_of_member_code": true
+  },
+  "controlled_development_native_epochs": 8,
+  "controlled_development_native_samples": 9608,
+  "producer_reintegration_diagnostic_epochs": 8,
+  "producer_reintegration_diagnostic_samples": 9608,
+  "third_independent_command_reintegration_diagnostic_epochs": 8,
+  "third_independent_command_reintegration_diagnostic_samples": 9608,
+  "total_integration_epochs_all_distinct_roles": 24,
+  "total_samples_all_distinct_roles": 28824,
+  "controlled_witness_joint_T": 8,
+  "controlled_witness_joint_F": 0,
+  "controlled_witness_joint_U": 0,
+  "formal32_native_tests": 0,
+  "formal32_controller_release_frozen": false,
+  "new_unseen_holdout_instances": 0,
+  "all_eight_configurations_are_development_seen_not_unseen_test_split": true,
+  "one_strong_public_known_model_batch_solves_all_eight_diagnostics": true,
+  "agentic_or_query_necessity_or_learning_advantage_supported": false,
+  "history_query_count": 0,
+  "LLM_calls": 0,
+  "fit": 0,
+  "new_policy_weights": 0,
+  "GPU": 0,
+  "public_coarse50ms_is_not_irreducible_information_bound_in_known_model_family": true,
+  "event_identity_preserved_when_conditional_public_model_refines_to10ms": true,
+  "blind_two_A_not_feedback_recovery_or_context_learning": true,
+  "independent_referee_from_RAW_not_producer_self_check_as_oracle": true,
+  "new_audit_native_integrations_are_replay_diagnostics_not_primary_trials": true,
+  "independent_review_after_development_outcomes_available_not_prospective_auditor_freeze": true,
+  "no_original_source_or_primary_RAW_or_protocol_modified": true,
+  "mujoco": "3.3.7",
+  "numpy": "2.2.6",
+  "case_table": [
+    {
+      "case_id": "v2_diag-A_then_C-B5-D2p8",
+      "joint": "TRUE",
+      "raw_samples": 1201,
+      "stop_events": {
+        "A": {
+          "interval_ns": [
+            2320000000,
+            2330000000
+          ],
+          "confirmation_ns": 2530000000,
+          "confirmation_positive_samples": 21,
+          "had_prior_moving_sample": true
+        },
+        "C": {
+          "interval_ns": [
+            3240000000,
+            3250000000
+          ],
+          "confirmation_ns": 3450000000,
+          "confirmation_positive_samples": 21,
+          "had_prior_moving_sample": true
+        }
+      },
+      "recovery_kind": "PREPLANNED_BLIND_TWO_A_REDUNDANCY; NOT_FEEDBACK_TRIGGERED_RECOVERY",
+      "candidate_evaluations": 300
+    },
+    {
+      "case_id": "v2_diag-A_then_C-B5-D3p1",
+      "joint": "TRUE",
+      "raw_samples": 1201,
+      "stop_events": {
+        "A": {
+          "interval_ns": [
+            2320000000,
+            2330000000
+          ],
+          "confirmation_ns": 2530000000,
+          "confirmation_positive_samples": 21,
+          "had_prior_moving_sample": true
+        },
+        "C": {
+          "interval_ns": [
+            3540000000,
+            3550000000
+          ],
+          "confirmation_ns": 3750000000,
+          "confirmation_positive_samples": 21,
+          "had_prior_moving_sample": true
+        }
+      },
+      "recovery_kind": "PREPLANNED_BLIND_TWO_A_REDUNDANCY; NOT_FEEDBACK_TRIGGERED_RECOVERY",
+      "candidate_evaluations": 330
+    },
+    {
+      "case_id": "v2_diag-A_then_C-B45-D2p8",
+      "joint": "TRUE",
+      "raw_samples": 1201,
+      "stop_events": {
+        "A": {
+          "interval_ns": [
+            2740000000,
+            2750000000
+          ],
+          "confirmation_ns": 2950000000,
+          "confirmation_positive_samples": 21,
+          "had_prior_moving_sample": true
+        },
+        "C": {
+          "interval_ns": [
+            3240000000,
+            3250000000
+          ],
+          "confirmation_ns": 3450000000,
+          "confirmation_positive_samples": 21,
+          "had_prior_moving_sample": true
+        }
+      },
+      "recovery_kind": "PREPLANNED_BLIND_TWO_A_REDUNDANCY; NOT_FEEDBACK_TRIGGERED_RECOVERY",
+      "candidate_evaluations": 340
+    },
+    {
+      "case_id": "v2_diag-A_then_C-B45-D3p1",
+      "joint": "TRUE",
+      "raw_samples": 1201,
+      "stop_events": {
+        "A": {
+          "interval_ns": [
+            2740000000,
+            2750000000
+          ],
+          "confirmation_ns": 2950000000,
+          "confirmation_positive_samples": 21,
+          "had_prior_moving_sample": true
+        },
+        "C": {
+          "interval_ns": [
+            3540000000,
+            3550000000
+          ],
+          "confirmation_ns": 3750000000,
+          "confirmation_positive_samples": 21,
+          "had_prior_moving_sample": true
+        }
+      },
+      "recovery_kind": "PREPLANNED_BLIND_TWO_A_REDUNDANCY; NOT_FEEDBACK_TRIGGERED_RECOVERY",
+      "candidate_evaluations": 370
+    },
+    {
+      "case_id": "v2_diag-C_then_A-B5-D2p8",
+      "joint": "TRUE",
+      "raw_samples": 1201,
+      "stop_events": {
+        "A": {
+          "interval_ns": [
+            3230000000,
+            3240000000
+          ],
+          "confirmation_ns": 3440000000,
+          "confirmation_positive_samples": 21,
+          "had_prior_moving_sample": true
+        },
+        "C": {
+          "interval_ns": [
+            3130000000,
+            3140000000
+          ],
+          "confirmation_ns": 3340000000,
+          "confirmation_positive_samples": 21,
+          "had_prior_moving_sample": true
+        }
+      },
+      "recovery_kind": "PREPLANNED_BLIND_TWO_A_REDUNDANCY; NOT_FEEDBACK_TRIGGERED_RECOVERY",
+      "candidate_evaluations": 282
+    },
+    {
+      "case_id": "v2_diag-C_then_A-B5-D3p1",
+      "joint": "TRUE",
+      "raw_samples": 1201,
+      "stop_events": {
+        "A": {
+          "interval_ns": [
+            3530000000,
+            3540000000
+          ],
+          "confirmation_ns": 3740000000,
+          "confirmation_positive_samples": 21,
+          "had_prior_moving_sample": true
+        },
+        "C": {
+          "interval_ns": [
+            3430000000,
+            3440000000
+          ],
+          "confirmation_ns": 3640000000,
+          "confirmation_positive_samples": 21,
+          "had_prior_moving_sample": true
+        }
+      },
+      "recovery_kind": "PREPLANNED_BLIND_TWO_A_REDUNDANCY; NOT_FEEDBACK_TRIGGERED_RECOVERY",
+      "candidate_evaluations": 312
+    },
+    {
+      "case_id": "v2_diag-C_then_A-B45-D2p8",
+      "joint": "TRUE",
+      "raw_samples": 1201,
+      "stop_events": {
+        "A": {
+          "interval_ns": [
+            3230000000,
+            3240000000
+          ],
+          "confirmation_ns": 3440000000,
+          "confirmation_positive_samples": 21,
+          "had_prior_moving_sample": true
+        },
+        "C": {
+          "interval_ns": [
+            3130000000,
+            3140000000
+          ],
+          "confirmation_ns": 3340000000,
+          "confirmation_positive_samples": 21,
+          "had_prior_moving_sample": true
+        }
+      },
+      "recovery_kind": "PREPLANNED_BLIND_TWO_A_REDUNDANCY; NOT_FEEDBACK_TRIGGERED_RECOVERY",
+      "candidate_evaluations": 282
+    },
+    {
+      "case_id": "v2_diag-C_then_A-B45-D3p1",
+      "joint": "TRUE",
+      "raw_samples": 1201,
+      "stop_events": {
+        "A": {
+          "interval_ns": [
+            3530000000,
+            3540000000
+          ],
+          "confirmation_ns": 3740000000,
+          "confirmation_positive_samples": 21,
+          "had_prior_moving_sample": true
+        },
+        "C": {
+          "interval_ns": [
+            3430000000,
+            3440000000
+          ],
+          "confirmation_ns": 3640000000,
+          "confirmation_positive_samples": 21,
+          "had_prior_moving_sample": true
+        }
+      },
+      "recovery_kind": "PREPLANNED_BLIND_TWO_A_REDUNDANCY; NOT_FEEDBACK_TRIGGERED_RECOVERY",
+      "candidate_evaluations": 312
+    }
+  ],
+  "full_audit_sha256": "6488f157cc29e959e05cdeae65a77377f0fef63022976cfb1bf4e25ef7efccbb"
+}

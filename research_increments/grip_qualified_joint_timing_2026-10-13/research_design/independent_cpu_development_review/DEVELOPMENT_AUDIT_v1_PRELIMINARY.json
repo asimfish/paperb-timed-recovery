@@ -1,0 +1,159 @@
+{
+  "schema": "paperb-third-independent-nonmain-development-audit-v1",
+  "status": "PASS_ONE_DEVELOPMENT_COMPONENT_THIRD_RAW_AUDIT",
+  "created_at_utc": "2026-10-13T14:47:07.758011+00:00",
+  "code_review_verdict": "Conditional pass: one development component only; formal32 infeasibility warning and witnesses remain unresolved",
+  "source_release_sha256": "956df07127eb45670b648bfb541ab2a5575086019008c251230f019729e3d2cc",
+  "source_files": {
+    "controller.py": "898e84bf443ecd786e7adc431c3fa849c23fa7cd768440674f727cd62700cb9e",
+    "BUILD_READINESS.json": "6b19e95b60e1daf61e4370110aad7922198e23a1c609429f3d609bf608a6afc3",
+    "interfaces.py": "6da1c5c930d366afc00d34620bacda016ea5e10a6fff55e3ec8fc8b01c03a396",
+    "SOURCE_ORIGIN.json": "eaa010d5a32cbb3b63a84d162a267defd6187fe08f0821d28ab253def0bea022",
+    "referee.py": "c5eb0d57dc1f85894dc0240b785f0265614cbe2d989c8eab0a3b91353e46d807",
+    "PUBLIC_PRIVATE_BOUNDARY.json": "6765a5517a02fec621f45cec1d76c9b86912883df1e996e2a39e76d865743afc",
+    "plant.py": "6108b54dd1785d2b289a5095cd721fbaa7db9f20ea32d363b06814955c4af81f",
+    "run_development.py": "89c3864a8506e82b72e99979bc535784507825a55eba9e17e39217551f9e373b",
+    "replay_development.py": "d117449296055586034a3f7430b63b201b6868657c547b8e9f2ae66a120b1729",
+    "three_rotors.xml": "89dcbd628b33f102969813569190ee69aacd8480a88dac435b919add6a67db3c",
+    "PROTOCOL_DEV.json": "55d584df53c2e63579eba7b717f15cb3a5f88af3ff4135b2fd661f7535bb0ba1",
+    "prior_readonly/interfaces.py": "fc123fa4e4411b167b831ceaaed1db2408dc2306d8f0caf601b9fcc30c02b2f9",
+    "prior_readonly/plant.py": "f505a2364f13d3691b552706b58890d6c8f80f5e6e52d174b2acbd8d192d758c",
+    "prior_readonly/shared_bus.xml": "2fc953b4a5ab88d7a7d2ac9ad52c746ef4b3c7ad38d5e84db2dcb2728755794e",
+    "prior_readonly/referee_graph.py": "dda235a48b707f4a16cd96c8da61992e42d230be822be00fc14d4d20b4c3b5d3"
+  },
+  "archive_sha256": "f4e3f4b6eef3532d9e06f5694ee1fd3312d0c46df8fc89ee2f394d9c97d5dc5f",
+  "archive_member_hashes_independently_checked": 31,
+  "primary_development_epochs": 1,
+  "raw_primary_samples": 1201,
+  "existing_producer_reintegration_epochs": 1,
+  "third_independent_reintegration_epochs": 1,
+  "third_reintegration_samples": 1201,
+  "new_formal_main_episodes": 0,
+  "formal32_frozen": false,
+  "new_calibration_or_fit_or_GPU": 0,
+  "native_reintegration_max_state_control_error": 0.0,
+  "native_reintegration_max_time_error_s": 0.0,
+  "public_actor_isolation_observed": true,
+  "public_only_decisions_and_plans_independently_rebuilt": {
+    "original_B_public": {
+      "lower_ns": 400000000,
+      "upper_ns": 450000000,
+      "first_arrival_ns": 550000000,
+      "kind": "B_PUBLIC_OBSERVED_FIRST_Q2"
+    },
+    "delivered": 239,
+    "captured": 241,
+    "undelivered_after_horizon": 2,
+    "decisions_rebuilt": 573,
+    "total_candidates": 643,
+    "max_candidates_per_decision": 643,
+    "actions": [
+      {
+        "submit_ns": 800000000,
+        "target": "A",
+        "tag": "A_stop"
+      },
+      {
+        "submit_ns": 1060000000,
+        "target": "C",
+        "tag": "C_stop"
+      },
+      {
+        "submit_ns": 1020000000,
+        "target": "A",
+        "tag": "A_stop"
+      }
+    ]
+  },
+  "original_B_raw_interval_ns": [
+    440000000,
+    450000000
+  ],
+  "lagged_B_public_observed": {
+    "lower_ns": 400000000,
+    "upper_ns": 450000000,
+    "first_arrival_ns": 550000000,
+    "kind": "B_PUBLIC_OBSERVED_FIRST_Q2"
+  },
+  "stop_events": {
+    "A": {
+      "interval_ns": [
+        2610000000,
+        2620000000
+      ],
+      "confirmation_ns": 2820000000,
+      "confirmation_positive_samples": 21,
+      "had_prior_moving_sample": true
+    },
+    "C": {
+      "interval_ns": [
+        3750000000,
+        3760000000
+      ],
+      "confirmation_ns": 3960000000,
+      "confirmation_positive_samples": 21,
+      "had_prior_moving_sample": true
+    }
+  },
+  "time_scores": {
+    "A": {
+      "verdict": "TRUE",
+      "duration_interval_ns": [
+        2160000000,
+        2180000000
+      ]
+    },
+    "C": {
+      "verdict": "TRUE",
+      "duration_interval_ns": [
+        3300000000,
+        3320000000
+      ]
+    }
+  },
+  "raw_A_drop_ACK_ns": 850000000,
+  "raw_A_effective_retry_ACK_ns": 1070000000,
+  "C_bus_transaction": {
+    "seq": 3,
+    "target": "C",
+    "tag": "C_stop",
+    "request_ns": 1060000000,
+    "service_start_ns": 1750000000,
+    "ack_ns": 2200000000,
+    "external": false
+  },
+  "C_wait_until_ACK_native_samples": 114,
+  "C_wait_start_q": 7.411922280683639,
+  "C_wait_final_q": 18.571813339182413,
+  "capacity1_verified": true,
+  "actual_request_and_candidate_budgets_satisfied": true,
+  "B_sampled_maintenance_through_ns": 6450000000,
+  "graph_edges": [],
+  "graph_TRUE_is_vacuous": true,
+  "limitations": [
+    "Contact-free three motor rotors with public numeric state/torque, not chemical/hardware/RGB/VLA.",
+    "21 positive10ms endpoints span200ms; continuous intersample maintenance not proven.",
+    "Public model equals this declared native parameter cell, but is an unfitted development prior, not a learned twin.",
+    "Trusted implementation-level actor input separation, not an adversarial OS sandbox.",
+    "Budgets observed for this fixed actor; a generic runner rejection of arbitrary policy budget excess was not tested.",
+    "Charged20ms native decision delay is a simulated cost; host compute does not advance plant and no real robot/inference realtime claim.",
+    "Only developmentD3.3/parallel/Bservice250ms; formal32 draft blocked pending revised protocol and positive witnesses.",
+    "Producer self-check/reintegration is not third-party evidence; this auditor independently reconstructs its own native model/observer/service/predictions/events."
+  ],
+  "raw_artifact_sha256": {
+    "development_native/SUMMARY.json": "b6783c57283cadd734b3e01ef449e2dec7c8af76b2204fe123438db1f0da868b",
+    "development_native/public_deliveries.json": "b783027619fcb116024088652e5f8f592c4fb9824372ef5debd5e09e7d522d2c",
+    "development_native/REINTEGRATION.json": "7c7b13d4a509013d39cac7bd2dc6abb8350dab4495dddfd74928e51d791ccfb6",
+    "development_native/public_actor_inputs.json": "f6eda9fcd25b3ebed2f2f8083c45345231a02142a12a243c8b1fc5a9237f2fec",
+    "development_native/development_release_snapshot.json": "956df07127eb45670b648bfb541ab2a5575086019008c251230f019729e3d2cc",
+    "development_native/contract.json": "55d584df53c2e63579eba7b717f15cb3a5f88af3ff4135b2fd661f7535bb0ba1",
+    "development_native/private_effects.json": "81599e609c48577591b61a0c76144363bbc78423bc5aa6b63ad3b554451640af",
+    "development_native/commands.json": "9c517b505d0cc07d421284aae97de61b4e1cd2f74007959e559a72901e97326d",
+    "development_native/public_captures.json": "5080fc2367f82031a3d9bca4077350c44f83c28569a1762d7ead23504a236484",
+    "development_native/independent_samples.csv": "706fc4c36d6b7ba3ef8c5a376cd637ac47624a1b271e5de89195f07b446c3628",
+    "development_native/independent_verdict.json": "5dd3f97fe9dc7f16354443715d4d6b051ee17e59eae71491676f80ab7145130b",
+    "development_native/public_decisions.json": "f691f057e7bb860b4458a89c2ad6413306ccb54d5ec953db7092bb06f7457ae2"
+  },
+  "mujoco": "3.3.7",
+  "numpy": "2.2.6"
+}

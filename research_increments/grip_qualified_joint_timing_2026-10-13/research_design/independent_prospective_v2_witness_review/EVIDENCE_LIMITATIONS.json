@@ -1,0 +1,19 @@
+{
+  "created_at_utc": "2026-10-13T15:34:55.766639+00:00",
+  "evidence_limitations": [
+    "Producer reintegration8/9608 counts are bound to producer receipt and frozen replay implementation; they are not eight additional independently exported controller RAW logs. Third audit actually performed its own8 command reintegrations and compares every exported primary sample/time exactly.",
+    "Public packets are sourced from true native state, then delivered with frozen100ms lag; private model is available to environment and independent reconstruction but not passed to actor/estimator/planner.",
+    "Source release timestamp precedes RAW export and run checks all15 hashes before primary native creation; this is implementation/FS provenance, not external time attestation.",
+    "All physical scoring is sampled. 21 positive points over200ms are not a proof of uninterrupted continuous-time hold.",
+    "All8 conditions have been inspected during development; same-condition four-arm later runs are fixed paired comparisons, not heldout generalization.",
+    "No independent calibration of true latency/model support is present. Public scalar noiseless model conditions the legal refinement; packet-fit residual is not a support or information-theoretic guarantee.",
+    "Planner candidate family is bounded prefix search, not all-policy optimality. Eight exact independent enumeration checks validate the declared plan and counted proposals only.",
+    "Blind two-A actions were planned before actual drop/public feedback. Mechanical recovery happened but this is not feedback diagnosis, episodic adaptation, learning, or an agentic necessity result."
+  ],
+  "source_release": {
+    "path": "code/WITNESS_RELEASE.json",
+    "sha256": "a759e9cebe249ad636e604d4c42ee73e8df058feb9130d6f8469f2429006459e",
+    "created_at_utc": "2026-10-13T15:04:27.244740+00:00"
+  },
+  "no_additional_native_integrations_in_notes": true
+}

@@ -1,0 +1,12 @@
+{
+  "created_at_utc": "2026-10-13T16:08:45.349593+00:00",
+  "files": {
+    "TEST_AUDIT.json": "05f16f70848049a30a9725c3a0a351d40c480587084a96793ce41ff1813bda36",
+    "TEST_AUDIT_RUN.log": "6a2790ecaadffbabb1a05e0e13607d617e8b6c4bc32b1159eb59406963733285",
+    "TEST_CAPTURE_AND_IDENTITY_RECHECK.json": "68fc2c4189cad11f99fc434e06a588ff2464d8dab5cf0ebfc536f22a19f16a5e",
+    "TEST_PUBLIC_SUMMARY.json": "daf80096f3245d03a15f9374a453dbb02009009ea0f170dcfaaf4be6172a0748",
+    "TEST_CASE_TABLE.csv": "f9f22df1324650949f3293681c3ee7b6dd77a27902d9b8249f89e9ac9b28f625",
+    "final_test_acceptance.py": "1e40161dc54d9908d04595cfda15aaeaff83f3fef3fcffbd628131b8846f7fe8"
+  },
+  "frozen16_auditor_sources_were_not_modified": true
+}

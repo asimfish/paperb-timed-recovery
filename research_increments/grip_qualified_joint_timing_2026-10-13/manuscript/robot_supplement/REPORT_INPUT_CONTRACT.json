@@ -1,0 +1,28 @@
+{
+  "schema": "paperb-root-final-robot-report-input-contract-v1",
+  "status": "SOURCE_TEMPLATE_ONLY_NO_RESULTS_READ",
+  "accepted_report_relative_path": "../../robot_results/PUBLIC_SUMMARY.json",
+  "accepted_csv_relative_path": "../../robot_results/ALL16_RESULTS.csv",
+  "accepted_status": "PASS_ALL16_POSTHOC_RECORDED_RAW_COMPONENT_REPORT",
+  "source_release_sha256": "0c3cff79148f20f6b5f212eb484ac205122b02e63fac98d657ad8e14db3041dd",
+  "calibration_sha256": "0bfe857c9d8731272172386be7debc8dd0a7b6dc626ab92665009e31b2c8d133",
+  "required_declared_tests": 16,
+  "required_complete_raw_audits": 16,
+  "required_calibration_episodes": 4,
+  "required_methods": [
+    "nominal_prior",
+    "public_delay_prior",
+    "calibrated_interval",
+    "joint_exact_grid"
+  ],
+  "denominator_per_method": 4,
+  "fixed_instances": 4,
+  "randomized_seeds": 0,
+  "primary_and_strict_hold_and_joint_with_hold_front_table": true,
+  "no_live_worker_or_private_outcome_inputs": true,
+  "no_generated_result_until_final_report_gate": true,
+  "legacy_correction_relative_path": "../../independent_audit/LEGACY_ACTIVE_READBACK_CORRECTION.json",
+  "legacy_correction_sha256": "e1e0ea3b6c939733a15576b573e85a4eb42f7a61d0481893fd8f5dd0fb780305",
+  "legacy_correction_summary": "Old4 export full9DOF K/D/effort at warmup1200; absence-of-all-readbacks claim was overbroad. Dedicated after30/pre/post/end snapshots absent, old scores unchanged.",
+  "created_at_utc": "2026-10-13T15:58:23.036811+00:00"
+}

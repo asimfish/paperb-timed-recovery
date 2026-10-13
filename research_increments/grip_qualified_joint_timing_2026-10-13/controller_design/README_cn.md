@@ -1,0 +1,13 @@
+# 同信息控制器设计与CPU初次决策原型
+
+本目录只新增方法规格、ADR、公平计费及纯public决策原型。原15dev、131机器人执行源、旧封存与prospective_v2场景均未修改。没有formal32run、fit、GPU、native integration或权重更新。
+
+18个CPU合同测试验证公共边界、原事件model refinement、ACK与effect区别、same-tick preACK拒绝误诊、2tick费用、candidate和action预算、禁止private RAW/字段/模型wrapper或nested getter、budget exhaustion、原事件不能换成later anchor，以及旧slot中的resource可服务但deadline不可达不能混淆。新增已accepted但未ACK的A/C reservation和已服务但ACK缺失反例：初次决策器必须返回pending且不新增program；external B reservation仍是合法初始资源输入。另有4臂×8 synthetic公共条件共32个**初次CPU决策**全部在已声明model下有可行程序；它们不是32个native实验，也不证明四个闭环方法均已实现。
+
+公共B coarse50ms与private RAW10ms严格分离。不过known public model能从合法前后q/v包条件重建同事件10ms，四臂共享；不应把coarse50ms当不可约信息下界。模型残差不兼容则保留coarse，公共原身份不变。
+
+四方法的完整可实现生命周期见`METHOD_SPECIFICATION.md`。`public_adapters.py`只实现初次planning/selection与公共诊断，不冒充已实现stateful HSM/EDF/MPC；存在ACK或任何nonexternal A/C accepted reservation时显式返回pending，不自动发送更多动作或混入private状态。完整runner/ledger/cancellation和独立native验证仍是正式controller冻结的阻断项。独立审查发现的旧pending重复提交反例、修前源/结果均保留在`PENDING_RESERVATION_REGRESSION_RED.json`与`pre_pending_guard_v3/`，旧32空A/C ledger初始计划未被推翻。
+
+同信息强batch已可解决scenario agent的新8development配置。本family当前不能支持query或agentic算法必要性；这应写成有效否证，不能调fault、删强方法或把fixed development配置重新称为未见OOD。旧6/8不可达资源草案也不因新方案成功而抹去。
+
+复验命令：`PYTHONDONTWRITEBYTECODE=1 python3 -s test_public_decisions.py`，输出采用write-once；若已包含receipt，应在个人新目录检查/复验，避免覆盖封存证据。`CPU_DECISIONS.json`与`CPU_PREFLIGHT.json`说明所有计数和能力边界。

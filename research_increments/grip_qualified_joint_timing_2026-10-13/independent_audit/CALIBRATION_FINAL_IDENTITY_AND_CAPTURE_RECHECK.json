@@ -1,0 +1,746 @@
+{
+  "created_at_utc": "2026-10-13T15:17:26.129140+00:00",
+  "identity": {
+    "native_source": {
+      "checked_files": 131,
+      "hash_mismatches": 0
+    },
+    "required_calibration_raw": {
+      "checked_files": 124,
+      "hash_mismatches": 0
+    },
+    "sealed_auditor": {
+      "checked_files": 16,
+      "hash_mismatches": 0
+    },
+    "frozen_fit_raw_bindings": {
+      "checked_files": 52,
+      "hash_mismatches": 0
+    },
+    "model_sha256": "0bfe857c9d8731272172386be7debc8dd0a7b6dc626ab92665009e31b2c8d133",
+    "model_release_sha256": "b961e4144fd7e8db50dd6de5da7bfa776d889728a8287f6570e8ed5c9e4dd3d9",
+    "fit_is_all_four_eight_unique_observations_min_lower_max_upper_not_average": true
+  },
+  "captures": [
+    {
+      "case_id": "cal_m080_d00",
+      "command_index": 0,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:cal_m080_d00:cad51fcb553f61b6",
+      "native_time_s": 5.1333336010575294,
+      "image_sha256": "0f12bdd1b2bfb19ce03e3e039dc6d8e1b30cb38dff90434ed4c65428f93df84c",
+      "depth_sha256": "f57f24828ca0efcd9edfcd5ccd9630410988919f885ad476fb079900a1236d18",
+      "image_size": [
+        640,
+        400
+      ],
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_nonfinite_pixels": 0,
+      "render_clock_did_not_advance_is_exported_claim": true,
+      "lossy_JPEG_cannot_reconstruct_native_RGB_byte_hash": true
+    },
+    {
+      "case_id": "cal_m080_d00",
+      "command_index": 2400,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:cal_m080_d00:cad51fcb553f61b6",
+      "native_time_s": 15.133334122598171,
+      "image_sha256": "4a84558dea78ff14718b0ca9377928246fe0ad08b2ffcdd48bb1aeef0e38107b",
+      "depth_sha256": "670104bf9466691daffada72fe7bdf3af698c443a622cfea261a21e11449594f",
+      "image_size": [
+        640,
+        400
+      ],
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_nonfinite_pixels": 0,
+      "render_clock_did_not_advance_is_exported_claim": true,
+      "lossy_JPEG_cannot_reconstruct_native_RGB_byte_hash": true
+    },
+    {
+      "case_id": "cal_m080_d00",
+      "command_index": 3840,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:cal_m080_d00:cad51fcb553f61b6",
+      "native_time_s": 21.133334435522556,
+      "image_sha256": "4d070093f03aa00edecdabf8cdac4048876e3fa5d234204714dafb67625a49e6",
+      "depth_sha256": "7aaf1222433aace551e374c7855ba68753d452b73516df493e876cd3992afd6c",
+      "image_size": [
+        640,
+        400
+      ],
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_nonfinite_pixels": 0,
+      "render_clock_did_not_advance_is_exported_claim": true,
+      "lossy_JPEG_cannot_reconstruct_native_RGB_byte_hash": true
+    },
+    {
+      "case_id": "cal_m080_d00",
+      "command_index": 4560,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:cal_m080_d00:cad51fcb553f61b6",
+      "native_time_s": 24.13333459198475,
+      "image_sha256": "7922044d0da8f05c210420ee2cbe5fdbca572f0b4141a638a97ad8c7fc76d42b",
+      "depth_sha256": "d840ffc0968f3e6644fdd8994ce7d7ffe48aa5d07708e6494ad5d89440089b3b",
+      "image_size": [
+        640,
+        400
+      ],
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_nonfinite_pixels": 0,
+      "render_clock_did_not_advance_is_exported_claim": true,
+      "lossy_JPEG_cannot_reconstruct_native_RGB_byte_hash": true
+    },
+    {
+      "case_id": "cal_m080_d00",
+      "command_index": 6480,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:cal_m080_d00:cad51fcb553f61b6",
+      "native_time_s": 32.13333500921726,
+      "image_sha256": "a14d72716792e37949c4a34354b15e59013bbab9251070f8dc296e0f416ff6c7",
+      "depth_sha256": "b79febb92868d99cff9db1535a1e4fe5e12f90279513820430d228d143007fe8",
+      "image_size": [
+        640,
+        400
+      ],
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_nonfinite_pixels": 0,
+      "render_clock_did_not_advance_is_exported_claim": true,
+      "lossy_JPEG_cannot_reconstruct_native_RGB_byte_hash": true
+    },
+    {
+      "case_id": "cal_m080_d00",
+      "command_index": 7920,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:cal_m080_d00:cad51fcb553f61b6",
+      "native_time_s": 38.13333532214165,
+      "image_sha256": "940979883d0cc7365251bcbc2cd0a5164467e93647b4415fb242a88909a05f6b",
+      "depth_sha256": "e9879abf8c106ce7d06ec61c5c3a05cf220d14040a176324c3dc7bc76d6a1566",
+      "image_size": [
+        640,
+        400
+      ],
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_nonfinite_pixels": 0,
+      "render_clock_did_not_advance_is_exported_claim": true,
+      "lossy_JPEG_cannot_reconstruct_native_RGB_byte_hash": true
+    },
+    {
+      "case_id": "cal_m080_d00",
+      "command_index": 9600,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:cal_m080_d00:cad51fcb553f61b6",
+      "native_time_s": 45.1333356872201,
+      "image_sha256": "06477ed7fa87cbad167535e34f60e377a08baf7270fee8a124490b6bb9d8e51b",
+      "depth_sha256": "55f96f8acad27d227fd65279541ac61240a3f5ba8e594bbd624704dc42f39a7e",
+      "image_size": [
+        640,
+        400
+      ],
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_nonfinite_pixels": 0,
+      "render_clock_did_not_advance_is_exported_claim": true,
+      "lossy_JPEG_cannot_reconstruct_native_RGB_byte_hash": true
+    },
+    {
+      "case_id": "cal_m080_d00",
+      "command_index": 12707,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:cal_m080_d00:cad51fcb553f61b6",
+      "native_time_s": 58.07916969573125,
+      "image_sha256": "9b151eea3e245b737d92f846bce43b7a8c4d4a821ebdf616ef6d9bcc224831e9",
+      "depth_sha256": "99503370b00c528ad971809f9ec8adb65f2292e2a72b5a0eebd1ae483f6eb38d",
+      "image_size": [
+        640,
+        400
+      ],
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_nonfinite_pixels": 0,
+      "render_clock_did_not_advance_is_exported_claim": true,
+      "lossy_JPEG_cannot_reconstruct_native_RGB_byte_hash": true
+    },
+    {
+      "case_id": "cal_m080_d00",
+      "command_index": 13427,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:cal_m080_d00:cad51fcb553f61b6",
+      "native_time_s": 61.079169852193445,
+      "image_sha256": "03bb75cf8a59d2573c213b94ad8697aaaa6e6608f66f57dadb349363603c0227",
+      "depth_sha256": "a9ffa95c03d747891949aa46e4496e103d616c594e364035557860f985ee17e3",
+      "image_size": [
+        640,
+        400
+      ],
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_nonfinite_pixels": 0,
+      "render_clock_did_not_advance_is_exported_claim": true,
+      "lossy_JPEG_cannot_reconstruct_native_RGB_byte_hash": true
+    },
+    {
+      "case_id": "cal_m080_d12",
+      "command_index": 0,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:cal_m080_d12:cad51fcb553f61b6",
+      "native_time_s": 5.1333336010575294,
+      "image_sha256": "c96cbef645936d1e241f595041aba7d65e572c72bddfb87705f7ef449f4dbb78",
+      "depth_sha256": "f57f24828ca0efcd9edfcd5ccd9630410988919f885ad476fb079900a1236d18",
+      "image_size": [
+        640,
+        400
+      ],
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_nonfinite_pixels": 0,
+      "render_clock_did_not_advance_is_exported_claim": true,
+      "lossy_JPEG_cannot_reconstruct_native_RGB_byte_hash": true
+    },
+    {
+      "case_id": "cal_m080_d12",
+      "command_index": 2412,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:cal_m080_d12:cad51fcb553f61b6",
+      "native_time_s": 15.183334125205874,
+      "image_sha256": "4990ca7473f37209e73895af35e78590492bd2124a2bc45d6b13832b46d242a9",
+      "depth_sha256": "7e3ef0ba9d34a26185704873c6b76d8889b3d486fc324e5f2c4c0bb2acbc723c",
+      "image_size": [
+        640,
+        400
+      ],
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_nonfinite_pixels": 0,
+      "render_clock_did_not_advance_is_exported_claim": true,
+      "lossy_JPEG_cannot_reconstruct_native_RGB_byte_hash": true
+    },
+    {
+      "case_id": "cal_m080_d12",
+      "command_index": 3852,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:cal_m080_d12:cad51fcb553f61b6",
+      "native_time_s": 21.18333443813026,
+      "image_sha256": "eee43f4f452c789fc4e26766d36b34e2a96637518572a0cf94ce72b3e8d497dd",
+      "depth_sha256": "a95c420f9525dcf82655197c1e5c108b1fa0d7b2437f97cc23682b4755a2acff",
+      "image_size": [
+        640,
+        400
+      ],
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_nonfinite_pixels": 0,
+      "render_clock_did_not_advance_is_exported_claim": true,
+      "lossy_JPEG_cannot_reconstruct_native_RGB_byte_hash": true
+    },
+    {
+      "case_id": "cal_m080_d12",
+      "command_index": 4572,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:cal_m080_d12:cad51fcb553f61b6",
+      "native_time_s": 24.183334594592452,
+      "image_sha256": "252669a255085050efaa3cf85537a1b64d42ffb4161fff0ab64fcc9b69723c32",
+      "depth_sha256": "e9b6b7c8d7b92a6c290b8261b2322729678b3bedaeb1f1533c10525cc0dce9b1",
+      "image_size": [
+        640,
+        400
+      ],
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_nonfinite_pixels": 0,
+      "render_clock_did_not_advance_is_exported_claim": true,
+      "lossy_JPEG_cannot_reconstruct_native_RGB_byte_hash": true
+    },
+    {
+      "case_id": "cal_m080_d12",
+      "command_index": 6492,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:cal_m080_d12:cad51fcb553f61b6",
+      "native_time_s": 32.183335011824965,
+      "image_sha256": "b8a2ce0ceaf52635ee57b8bab2dc9f483af2829f5c5277474e50ce6413f514df",
+      "depth_sha256": "29acc3ebd630f653d1453fe900bf5a1353e9dfbadcff478572de15371caa9fe2",
+      "image_size": [
+        640,
+        400
+      ],
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_nonfinite_pixels": 0,
+      "render_clock_did_not_advance_is_exported_claim": true,
+      "lossy_JPEG_cannot_reconstruct_native_RGB_byte_hash": true
+    },
+    {
+      "case_id": "cal_m080_d12",
+      "command_index": 7932,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:cal_m080_d12:cad51fcb553f61b6",
+      "native_time_s": 38.18333532474935,
+      "image_sha256": "abadc5861af9e32cb4443a5f76fa7e37d650829219bc4020abc31b8c9343f767",
+      "depth_sha256": "20ae05f04f0dac21ea23b82a251c440866cff2219d5912053f4379aaca26c262",
+      "image_size": [
+        640,
+        400
+      ],
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_nonfinite_pixels": 0,
+      "render_clock_did_not_advance_is_exported_claim": true,
+      "lossy_JPEG_cannot_reconstruct_native_RGB_byte_hash": true
+    },
+    {
+      "case_id": "cal_m080_d12",
+      "command_index": 9612,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:cal_m080_d12:cad51fcb553f61b6",
+      "native_time_s": 45.1833356898278,
+      "image_sha256": "24c88f80c97a680daf2604f434544c8ffad1315b397c0fec0ebf75725c083ed8",
+      "depth_sha256": "19202502dad528d01f146826addb0d9edfbc0ee0f3285e13af3324e27e57b7b6",
+      "image_size": [
+        640,
+        400
+      ],
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_nonfinite_pixels": 0,
+      "render_clock_did_not_advance_is_exported_claim": true,
+      "lossy_JPEG_cannot_reconstruct_native_RGB_byte_hash": true
+    },
+    {
+      "case_id": "cal_m080_d12",
+      "command_index": 12719,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:cal_m080_d12:cad51fcb553f61b6",
+      "native_time_s": 58.129169698338956,
+      "image_sha256": "d69d11013b70b369010c337ef97cc5be3d08653bec59de6ab45a3d2ee24fb6a2",
+      "depth_sha256": "fab8252135e344e605dc8c589cb3425079e64bbf79b5492bc0733c97cea8a3ae",
+      "image_size": [
+        640,
+        400
+      ],
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_nonfinite_pixels": 0,
+      "render_clock_did_not_advance_is_exported_claim": true,
+      "lossy_JPEG_cannot_reconstruct_native_RGB_byte_hash": true
+    },
+    {
+      "case_id": "cal_m080_d12",
+      "command_index": 13439,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:cal_m080_d12:cad51fcb553f61b6",
+      "native_time_s": 61.12916985480115,
+      "image_sha256": "1337a374c8663b0106504d9f1f973a59f48eefd2c08a9d57e702924bc6837dd1",
+      "depth_sha256": "fccf247144258cc8df63d9ea44187f3c912b7fd6db8642a1ed6cd3f7589429c6",
+      "image_size": [
+        640,
+        400
+      ],
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_nonfinite_pixels": 0,
+      "render_clock_did_not_advance_is_exported_claim": true,
+      "lossy_JPEG_cannot_reconstruct_native_RGB_byte_hash": true
+    },
+    {
+      "case_id": "cal_m120_d00",
+      "command_index": 0,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:cal_m120_d00:cad51fcb553f61b6",
+      "native_time_s": 5.1333336010575294,
+      "image_sha256": "86bf211b309cc7d2938259816e6d99ceb2983fa92ebdb3e1acac14867fb02c60",
+      "depth_sha256": "7649f1dcdc59ff97d30c0e3dd85f28c7ecfc34f1a1f36d60815fda8a6b867d4e",
+      "image_size": [
+        640,
+        400
+      ],
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_nonfinite_pixels": 0,
+      "render_clock_did_not_advance_is_exported_claim": true,
+      "lossy_JPEG_cannot_reconstruct_native_RGB_byte_hash": true
+    },
+    {
+      "case_id": "cal_m120_d00",
+      "command_index": 2400,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:cal_m120_d00:cad51fcb553f61b6",
+      "native_time_s": 15.133334122598171,
+      "image_sha256": "9b9be551d617f0cc16b04ab0ad601c3c0eb2e3fa83b5ef3270b5ec1175bb4a26",
+      "depth_sha256": "38308e9211e8ae23614f6c1dc1b7ecb3f3eef617bb404e3bb4234f0dbc612a9b",
+      "image_size": [
+        640,
+        400
+      ],
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_nonfinite_pixels": 0,
+      "render_clock_did_not_advance_is_exported_claim": true,
+      "lossy_JPEG_cannot_reconstruct_native_RGB_byte_hash": true
+    },
+    {
+      "case_id": "cal_m120_d00",
+      "command_index": 3840,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:cal_m120_d00:cad51fcb553f61b6",
+      "native_time_s": 21.133334435522556,
+      "image_sha256": "116aec23c18047b7851e39a7ff878e2c8f8b59159a1c170a52e55ec3747b41e1",
+      "depth_sha256": "80bd7ac49e0a144c433b3f12d92247a153483c90c3ab1ac5cfbb4c18d23b9a19",
+      "image_size": [
+        640,
+        400
+      ],
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_nonfinite_pixels": 0,
+      "render_clock_did_not_advance_is_exported_claim": true,
+      "lossy_JPEG_cannot_reconstruct_native_RGB_byte_hash": true
+    },
+    {
+      "case_id": "cal_m120_d00",
+      "command_index": 4560,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:cal_m120_d00:cad51fcb553f61b6",
+      "native_time_s": 24.13333459198475,
+      "image_sha256": "02ba48b1b595a593be6e1679df2cbd205a3ce0c469bfccae56be02ce509ad686",
+      "depth_sha256": "3e60182da3f6d541f1519ef15572e1fdb85a40329eb1bd18bb3dcd2cc8ce4436",
+      "image_size": [
+        640,
+        400
+      ],
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_nonfinite_pixels": 0,
+      "render_clock_did_not_advance_is_exported_claim": true,
+      "lossy_JPEG_cannot_reconstruct_native_RGB_byte_hash": true
+    },
+    {
+      "case_id": "cal_m120_d00",
+      "command_index": 6480,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:cal_m120_d00:cad51fcb553f61b6",
+      "native_time_s": 32.13333500921726,
+      "image_sha256": "ee0ac27fe8cf33e9184cd69fd433303193975df9f603c52e32703cbd3c7fc17c",
+      "depth_sha256": "19e78285c0ce70fb54540f992575b9674f1f3a8383ba8de2523b86b0b1bf73e9",
+      "image_size": [
+        640,
+        400
+      ],
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_nonfinite_pixels": 0,
+      "render_clock_did_not_advance_is_exported_claim": true,
+      "lossy_JPEG_cannot_reconstruct_native_RGB_byte_hash": true
+    },
+    {
+      "case_id": "cal_m120_d00",
+      "command_index": 7920,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:cal_m120_d00:cad51fcb553f61b6",
+      "native_time_s": 38.13333532214165,
+      "image_sha256": "3c437393ab0d008e8c6a0cbf481d58411c9d484cf66eb7cbc4765d9fb2307481",
+      "depth_sha256": "89dfb2183038408ab8ade94369e717c94e3a041df8e0772bed667d9858eff9e7",
+      "image_size": [
+        640,
+        400
+      ],
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_nonfinite_pixels": 0,
+      "render_clock_did_not_advance_is_exported_claim": true,
+      "lossy_JPEG_cannot_reconstruct_native_RGB_byte_hash": true
+    },
+    {
+      "case_id": "cal_m120_d00",
+      "command_index": 9600,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:cal_m120_d00:cad51fcb553f61b6",
+      "native_time_s": 45.1333356872201,
+      "image_sha256": "2cd0e55b739fd7f3113cc2cef8e0fc685579a4507df758472b12eba81d3d0c69",
+      "depth_sha256": "4c234406423f19f076999811e0bf91d26e9f32a1982afa776220756f081a9c2c",
+      "image_size": [
+        640,
+        400
+      ],
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_nonfinite_pixels": 0,
+      "render_clock_did_not_advance_is_exported_claim": true,
+      "lossy_JPEG_cannot_reconstruct_native_RGB_byte_hash": true
+    },
+    {
+      "case_id": "cal_m120_d00",
+      "command_index": 12707,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:cal_m120_d00:cad51fcb553f61b6",
+      "native_time_s": 58.07916969573125,
+      "image_sha256": "9d0d2b8defdbd08c5d00fe845cd1800682a3bd0c5e0c9e58a5de61532804ee13",
+      "depth_sha256": "3c18811537b52ca38daf1ecb80e3dfaa2303c622a7fb641503e926ac7e75d0e8",
+      "image_size": [
+        640,
+        400
+      ],
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_nonfinite_pixels": 0,
+      "render_clock_did_not_advance_is_exported_claim": true,
+      "lossy_JPEG_cannot_reconstruct_native_RGB_byte_hash": true
+    },
+    {
+      "case_id": "cal_m120_d00",
+      "command_index": 13427,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:cal_m120_d00:cad51fcb553f61b6",
+      "native_time_s": 61.079169852193445,
+      "image_sha256": "dd8cefd3c1ca715552dc8ebf502067c43e6d36d67186ef94740624dd93b89e1a",
+      "depth_sha256": "3c165fb1ceed350d10017d78baab6f7b936991a9714517664e0ba36c20e7e1bf",
+      "image_size": [
+        640,
+        400
+      ],
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_nonfinite_pixels": 0,
+      "render_clock_did_not_advance_is_exported_claim": true,
+      "lossy_JPEG_cannot_reconstruct_native_RGB_byte_hash": true
+    },
+    {
+      "case_id": "cal_m120_d12",
+      "command_index": 0,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:cal_m120_d12:cad51fcb553f61b6",
+      "native_time_s": 5.1333336010575294,
+      "image_sha256": "75816aa69efd0a5842cb3e552d6662a66f186e9a36be25b6f4c939348d7cfafe",
+      "depth_sha256": "7649f1dcdc59ff97d30c0e3dd85f28c7ecfc34f1a1f36d60815fda8a6b867d4e",
+      "image_size": [
+        640,
+        400
+      ],
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_nonfinite_pixels": 0,
+      "render_clock_did_not_advance_is_exported_claim": true,
+      "lossy_JPEG_cannot_reconstruct_native_RGB_byte_hash": true
+    },
+    {
+      "case_id": "cal_m120_d12",
+      "command_index": 2412,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:cal_m120_d12:cad51fcb553f61b6",
+      "native_time_s": 15.183334125205874,
+      "image_sha256": "0b722ce5c19d57efdecd3984ee3049402f9bc567531d1a072f54df79bc231192",
+      "depth_sha256": "fe87998338be52af86ae9ce9b2f48a6708e430c76ec1e24c65575b70ce9263fe",
+      "image_size": [
+        640,
+        400
+      ],
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_nonfinite_pixels": 0,
+      "render_clock_did_not_advance_is_exported_claim": true,
+      "lossy_JPEG_cannot_reconstruct_native_RGB_byte_hash": true
+    },
+    {
+      "case_id": "cal_m120_d12",
+      "command_index": 3852,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:cal_m120_d12:cad51fcb553f61b6",
+      "native_time_s": 21.18333443813026,
+      "image_sha256": "78ac733eed63a7e314990987ea97f9233a608beb68805599357668a0e5dc3845",
+      "depth_sha256": "86f2c641b663428450ec8fb0c024917f87d66746a47dc2015a867aa6f77bb689",
+      "image_size": [
+        640,
+        400
+      ],
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_nonfinite_pixels": 0,
+      "render_clock_did_not_advance_is_exported_claim": true,
+      "lossy_JPEG_cannot_reconstruct_native_RGB_byte_hash": true
+    },
+    {
+      "case_id": "cal_m120_d12",
+      "command_index": 4572,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:cal_m120_d12:cad51fcb553f61b6",
+      "native_time_s": 24.183334594592452,
+      "image_sha256": "cb370c91179c23c932c73670730b345ff925f6a11bf928a9e1cbaf40cd537ff1",
+      "depth_sha256": "fd65df5da15e9ba9406630926739b7a37f09861bda90ba010ff6a09292a056b3",
+      "image_size": [
+        640,
+        400
+      ],
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_nonfinite_pixels": 0,
+      "render_clock_did_not_advance_is_exported_claim": true,
+      "lossy_JPEG_cannot_reconstruct_native_RGB_byte_hash": true
+    },
+    {
+      "case_id": "cal_m120_d12",
+      "command_index": 6492,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:cal_m120_d12:cad51fcb553f61b6",
+      "native_time_s": 32.183335011824965,
+      "image_sha256": "a55f47a7ff96731ccda5f62b52462a7f52f7f86b7f4d07ade2b156d525c67d5c",
+      "depth_sha256": "732f063e8ddf09b20c9464e9575bfbb7f67b6ff5a9497e0dd97ab4361285f056",
+      "image_size": [
+        640,
+        400
+      ],
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_nonfinite_pixels": 0,
+      "render_clock_did_not_advance_is_exported_claim": true,
+      "lossy_JPEG_cannot_reconstruct_native_RGB_byte_hash": true
+    },
+    {
+      "case_id": "cal_m120_d12",
+      "command_index": 7932,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:cal_m120_d12:cad51fcb553f61b6",
+      "native_time_s": 38.18333532474935,
+      "image_sha256": "d07681b8202a30220f65c3259b3ade1b3a622b2348628c306b56bb12cc96d18d",
+      "depth_sha256": "52dfc2155d1f71ac2e9f5b43bb66e0205f0b7c6106cd3fe971ee368d9f583f05",
+      "image_size": [
+        640,
+        400
+      ],
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_nonfinite_pixels": 0,
+      "render_clock_did_not_advance_is_exported_claim": true,
+      "lossy_JPEG_cannot_reconstruct_native_RGB_byte_hash": true
+    },
+    {
+      "case_id": "cal_m120_d12",
+      "command_index": 9612,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:cal_m120_d12:cad51fcb553f61b6",
+      "native_time_s": 45.1833356898278,
+      "image_sha256": "6103c9dc605113f02b6f1242ad3966e92c5818be70d18f5cda95b34b192495c0",
+      "depth_sha256": "a39b2a51908ab582f52c6e1113328f0d16b64d91af071bbb5c97016666a0574d",
+      "image_size": [
+        640,
+        400
+      ],
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_nonfinite_pixels": 0,
+      "render_clock_did_not_advance_is_exported_claim": true,
+      "lossy_JPEG_cannot_reconstruct_native_RGB_byte_hash": true
+    },
+    {
+      "case_id": "cal_m120_d12",
+      "command_index": 12719,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:cal_m120_d12:cad51fcb553f61b6",
+      "native_time_s": 58.129169698338956,
+      "image_sha256": "9cd1f0ce396544307ec6e69c98accf691091f3d91c7334da890f17e016766aca",
+      "depth_sha256": "f5276fdb173c697df2146efee6ee2ee85e325525e8aeed94e76c75dd6c8f6cdc",
+      "image_size": [
+        640,
+        400
+      ],
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_nonfinite_pixels": 0,
+      "render_clock_did_not_advance_is_exported_claim": true,
+      "lossy_JPEG_cannot_reconstruct_native_RGB_byte_hash": true
+    },
+    {
+      "case_id": "cal_m120_d12",
+      "command_index": 13439,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:cal_m120_d12:cad51fcb553f61b6",
+      "native_time_s": 61.12916985480115,
+      "image_sha256": "5be9d3aa7aeb268d0ad12da14ef7257ffbf339ea43231f933ba0ad5950c2d6ed",
+      "depth_sha256": "9a1584c25b94aebd534afe0d7904832518f9fb6f785a61ac8518da570e1d1887",
+      "image_size": [
+        640,
+        400
+      ],
+      "depth_shape": [
+        400,
+        640,
+        1
+      ],
+      "depth_nonfinite_pixels": 0,
+      "render_clock_did_not_advance_is_exported_claim": true,
+      "lossy_JPEG_cannot_reconstruct_native_RGB_byte_hash": true
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "schema": "paperb-third-independent-development-public-summary-v1",
+  "status": "PASS_ONE_DEVELOPMENT_COMPONENT_THIRD_RAW_AUDIT",
+  "created_at_utc": "2026-10-13T15:00:47.271688+00:00",
+  "primary_development_epochs": 1,
+  "primary_samples": 1201,
+  "producer_reintegration_epochs": 1,
+  "third_independent_reintegration_invocations": 2,
+  "third_independent_reintegration_samples": 2402,
+  "formal_main": 0,
+  "calibration": 0,
+  "fit": 0,
+  "learned_weights": 0,
+  "LLM": 0,
+  "GPU": 0,
+  "chemical_hardware_and_original_robot_scene_credit": 0,
+  "source_release_sha256": "956df07127eb45670b648bfb541ab2a5575086019008c251230f019729e3d2cc",
+  "source_files_checked": 15,
+  "archive_member_hashes_checked": 31,
+  "archive_sha256": "f4e3f4b6eef3532d9e06f5694ee1fd3312d0c46df8fc89ee2f394d9c97d5dc5f",
+  "all_three_rotor_state_control_and_native_clock_errors": 0,
+  "original_B_native_interval_ns": [
+    440000000,
+    450000000
+  ],
+  "B_public_delayed_packet_bracket": {
+    "lower_ns": 400000000,
+    "upper_ns": 450000000,
+    "first_arrival_ns": 550000000,
+    "kind": "B_PUBLIC_OBSERVED_FIRST_Q2"
+  },
+  "public_packets_captured": 241,
+  "public_packets_delivered": 239,
+  "packets_outside_horizon_not_lost": 2,
+  "public_only_decisions_rebuilt": 573,
+  "total_candidate_evaluations": 643,
+  "selective_A_C_requests": 3,
+  "max_requests_A_C": 4,
+  "per_rotor_A_requests": 2,
+  "per_rotor_C_requests": 1,
+  "A_failed_ACK_ns": 850000000,
+  "A_effective_recovery_ACK_ns": 1070000000,
+  "C_request_ns": 1060000000,
+  "C_service_start_ns": 1750000000,
+  "C_effective_ACK_ns": 2200000000,
+  "C_queue_wait_ns": 690000000,
+  "C_queue_wait_native_intervals": 69,
+  "C_service_native_intervals": 45,
+  "queue_and_service_drive_and_motion_continue": true,
+  "stop_events": {
+    "A": {
+      "interval_ns": [
+        2610000000,
+        2620000000
+      ],
+      "confirmation_ns": 2820000000,
+      "confirmation_positive_samples": 21,
+      "had_prior_moving_sample": true
+    },
+    "C": {
+      "interval_ns": [
+        3750000000,
+        3760000000
+      ],
+      "confirmation_ns": 3960000000,
+      "confirmation_positive_samples": 21,
+      "had_prior_moving_sample": true
+    }
+  },
+  "time_scores": {
+    "A": {
+      "verdict": "TRUE",
+      "duration_interval_ns": [
+        2160000000,
+        2180000000
+      ]
+    },
+    "C": {
+      "verdict": "TRUE",
+      "duration_interval_ns": [
+        3300000000,
+        3320000000
+      ]
+    }
+  },
+  "B_sampled_maintenance_through_ns": 6450000000,
+  "graph_has_no_edges": true,
+  "graph_TRUE_vacuous": true,
+  "formal32_readiness": "BLOCKED_PENDING_PROSPECTIVE_REVISION_AND_EACH_ORIGINAL_PARAMETER_POSITIVE_WITNESS",
+  "conditional_necessary_C_support_gap_instances_at_least": 6,
+  "draft_instances": 8,
+  "remaining_two_not_certified_jointly_feasible": true,
+  "third_audit_receipt_sha256": "11d53c07a14e0db81a201fd8c19a2df942e9470ecbfc0035796b002b2102531c",
+  "audit_count_supplement_sha256": "4c197eaccb05e601ee5c7cad20e2b82425864f1ed768abffc9966a8e7e629f49",
+  "conditional_reachability_sha256": "4df4c501f681c2ff56120a9692b44f6357a9baa3b7886cadb7fb27e982f1dd44",
+  "limitations": [
+    "Contact-free three motor rotors with public numeric state/torque, not chemical/hardware/RGB/VLA.",
+    "21 positive10ms endpoints span200ms; continuous intersample maintenance not proven.",
+    "Public model equals this declared native parameter cell, but is an unfitted development prior, not a learned twin.",
+    "Trusted implementation-level actor input separation, not an adversarial OS sandbox.",
+    "Budgets observed for this fixed actor; a generic runner rejection of arbitrary policy budget excess was not tested.",
+    "Charged20ms native decision delay is a simulated cost; host compute does not advance plant and no real robot/inference realtime claim.",
+    "Only developmentD3.3/parallel/Bservice250ms; formal32 draft blocked pending revised protocol and positive witnesses.",
+    "Producer self-check/reintegration is not third-party evidence; this auditor independently reconstructs its own native model/observer/service/predictions/events."
+  ],
+  "source_pre_frozen_before_primary": true,
+  "third_review_happened_after_development_outcome": true
+}

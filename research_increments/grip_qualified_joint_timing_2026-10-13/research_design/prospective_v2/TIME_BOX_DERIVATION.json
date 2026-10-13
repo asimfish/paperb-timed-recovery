@@ -1,0 +1,45 @@
+{
+  "schema": "paperb-v2-time-box-derivation-v1",
+  "variables": {
+    "B": "[bL,bU], widthw",
+    "C": "[cL,cU],widthc",
+    "A": "[aL,aU],widtha",
+    "C_request": "D±eps",
+    "A_upper": "U_A",
+    "edge": "aL-cU>=g"
+  },
+  "steps": [
+    "C lower bound cL-bU>=D-eps",
+    "A upper aU-bL<=U_A",
+    "edge+box widths aU>=cL+c+g+a",
+    "combine bU+D-eps+c+g+a<=bL+U_A",
+    "thus w+c+g+a<=U_A-D+eps"
+  ],
+  "conditions": "Necessary for this interval-box proof; sufficient as unconstrained algebra when chosen lower bounds/widths fixed, not sufficient for physics,causality,resource. Shared uncertainties/correlations may make box conservative.",
+  "same_UA_D": "w+c+g+a<=eps",
+  "pre_feedback_fault_box": "Two allowed A ACKs50ms apart; for this free identical rotor public model a=60ms (two10ms onset brackets union). This is not forever fixed: public torque feedback mayresolve actual branch to10ms, and same-event model inference mayrefine w.",
+  "examples_ms": [
+    {
+      "observation": "coarse no refinement",
+      "w": 50,
+      "c": 10,
+      "g": 40,
+      "a": 60,
+      "sum": 160,
+      "eps": 150,
+      "certificate": "unsupported box, not policy impossible"
+    },
+    {
+      "observation": "shared public known-model conditional refinement",
+      "w": 10,
+      "c": 10,
+      "g": 40,
+      "a": 60,
+      "sum": 120,
+      "eps": 150,
+      "certificate": "passes necessary test; each resource/nativewitness still required"
+    }
+  ],
+  "information_bound_guardrail": "No indistinguishable-physical-histories proof provided. Known public B model already permits finer inference withoutquery. Cannotcall50ms an irreducible information lower bound.",
+  "root_provided_g40_eps100_example": "w50+c10+g40+a10=110>100 for that fixedbox, correctly unsupported; not copied as v2 actuala or physical impossibility."
+}

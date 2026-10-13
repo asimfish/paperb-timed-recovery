@@ -1,0 +1,782 @@
+{
+  "schema": "paperb-independent-legacy-active-readback-correction-v1",
+  "created_at_utc": "2026-10-13T15:19:43.829967+00:00",
+  "status": "VERIFIED_CORRECTION_OF_PRIOR_OVERBROAD_METADATA_AND_DESCRIPTION",
+  "incorrect_prior_claim": "THE_OLD_FAILED_COHORT_HAD_NO_ACTIVE_CONTROLLER_READBACKS_AT_ALL",
+  "correction": "ALL_FOUR_ORIGINAL_CALIBRATION_CASES_EXPORT_REAL_PHYSX_GETTER_K_D_AND_EFFORT_LIMIT_ARRAYS_AT_WARMUP_1200_ENDPOINT; THEY_LACK_THE_NEW_DEDICATED_AFTER_30_BEFORE_AFTER_END_FULL_SNAPSHOTS",
+  "old_source_release_sha256": "cf5cc59c9b9e0b215f2f5db408052ccb9cac8912c7c89ea8adc74e9d4c8b2efa",
+  "old_source_files_verified": 118,
+  "original_protocol_sha256": "e63e0d47b5d834cded62383983878deda4a6c58dc14e979393b6df39f3d10036",
+  "old_getter_and_clock_source": [
+    {
+      "relative_path": "code/chemrm/papera/legacy_reconstruction/checkpoint_runtime.py",
+      "sha256": "52cdfdc9b5566d37bc22cc91fd1a2e21024ca7dd49b804510499430ddc901ad6",
+      "lines": [
+        63,
+        64,
+        65,
+        66,
+        67
+      ]
+    },
+    {
+      "relative_path": "native_probe.py",
+      "sha256": "64bc865fc2813afce0ecf2dfde47072760ad1b6d2bab22287cbe7dcc2e3fb3a6",
+      "lines": [
+        158,
+        161,
+        163,
+        165,
+        166,
+        169,
+        170,
+        183,
+        184,
+        185,
+        186,
+        188,
+        191,
+        192,
+        193
+      ]
+    }
+  ],
+  "case_rows": [
+    {
+      "case_id": "cal_m080_d00",
+      "raw_files": {
+        "setup/boundary_state.json": "12b9378d59caafdf54488c58a2e3194e708d0ec8fe4dbd6f89a6e7c8d03abc76",
+        "setup/stages/released/manifest.json": "31345a56998f136ffaf11c8140e5ddd4de79332f6e984562d190d80eddfe8434",
+        "setup/native_clock.jsonl": "acde598b686a837ae9c3cf3c0983921383884bfdb86c09489ba9da34d4940075",
+        "uninterrupted_transient_verdict.json": "72edeaa1aa16faa32c1f820591a323f1b110f936f4e1992c7d1d832392f7cd33",
+        "RESULT.json": "2ce90cf0006df7ebac0555fb1c56b401d758098623978fcc71da6db04ffedeea"
+      },
+      "snapshot_scope": "WARMUP_1200_ENDPOINT_BEFORE_MATCHED_30_TRANSIENT",
+      "fr3_getter_readback_arrays": {
+        "damping": [
+          343774.6875,
+          343774.6875,
+          343774.6875,
+          343774.6875,
+          343774.6875,
+          343774.6875,
+          343774.6875,
+          40.0,
+          40.0
+        ],
+        "effort_limit": [
+          87.0,
+          87.0,
+          87.0,
+          87.0,
+          12.0,
+          12.0,
+          12.0,
+          100.0,
+          3.4028234663852886e+38
+        ],
+        "stiffness": [
+          3437746.75,
+          3437746.75,
+          3437746.75,
+          3437746.75,
+          3437746.75,
+          3437746.75,
+          3437746.75,
+          800.0,
+          800.0
+        ]
+      },
+      "getter_source_binding": {
+        "relative_path": "code/chemrm/papera/legacy_reconstruction/checkpoint_runtime.py",
+        "sha256": "52cdfdc9b5566d37bc22cc91fd1a2e21024ca7dd49b804510499430ddc901ad6",
+        "lines": [
+          63,
+          64,
+          65,
+          66,
+          67
+        ]
+      },
+      "warmup_host_tick_exported": 1200,
+      "manifest_native_time_s_exported": 5.008333594538271,
+      "warmup_native_clock_start_s": 0.008333333767950535,
+      "warmup_native_clock_end_s": 5.008333594538271,
+      "warmup_clock_rows": 1200,
+      "boundary_has_direct_native_epoch_field": false,
+      "associated_case_native_epoch": "paperb_native_expansion_v2:cal_m080_d00:e63e0d47b5d834cd",
+      "epoch_association_scope": "CASE_RESULT_PLUS_FROZEN_SOURCE_EPOCH_CONSTRUCTION; NOT_STANDALONE_BOUNDARY_EPOCH_FIELD",
+      "boundary_has_direct_physics_callback_counter": false,
+      "one_callback_per_warmup_step_is_frozen_source_assertion": true,
+      "warmup_1200_callbacks_inferred_from_1200_clock_rows_and_frozen_advance_assertion": true,
+      "matched_30_transient_drive_state_equal_exported_verdict": true,
+      "matched_30_transient_full_numeric_K_D_effort_snapshot_available": false,
+      "dedicated_task_start_after_30_K_D_effort_snapshot_available": false,
+      "dedicated_task_end_K_D_effort_snapshot_available": false,
+      "not_available_dedicated_paths": [
+        "CONTROLLER_BEFORE.json",
+        "CONTROLLER_AFTER.json",
+        "CONTROLLER_INSTALLATION.json",
+        "task/ACTIVE_DRIVE_END.json"
+      ],
+      "available_dedicated_paths_checked_absent": true,
+      "other_articulation_readback_key_presence": [
+        {
+          "articulation_id": "fr3_A",
+          "joint_count": 9,
+          "observed_runtime_property_keys": [
+            "damping",
+            "effort_limit",
+            "stiffness"
+          ],
+          "numeric_values_independently_compared_in_this_correction": true
+        },
+        {
+          "articulation_id": "ur5e_B",
+          "joint_count": 14,
+          "observed_runtime_property_keys": [
+            "damping",
+            "effort_limit",
+            "stiffness"
+          ],
+          "numeric_values_independently_compared_in_this_correction": false
+        },
+        {
+          "articulation_id": "ur5e_C",
+          "joint_count": 14,
+          "observed_runtime_property_keys": [
+            "damping",
+            "effort_limit",
+            "stiffness"
+          ],
+          "numeric_values_independently_compared_in_this_correction": false
+        },
+        {
+          "articulation_id": "furnace_1",
+          "joint_count": 1,
+          "observed_runtime_property_keys": [
+            "damping",
+            "effort_limit",
+            "stiffness"
+          ],
+          "numeric_values_independently_compared_in_this_correction": false
+        },
+        {
+          "articulation_id": "furnace_2",
+          "joint_count": 1,
+          "observed_runtime_property_keys": [
+            "damping",
+            "effort_limit",
+            "stiffness"
+          ],
+          "numeric_values_independently_compared_in_this_correction": false
+        },
+        {
+          "articulation_id": "furnace_3",
+          "joint_count": 1,
+          "observed_runtime_property_keys": [
+            "damping",
+            "effort_limit",
+            "stiffness"
+          ],
+          "numeric_values_independently_compared_in_this_correction": false
+        },
+        {
+          "articulation_id": "furnace_4",
+          "joint_count": 1,
+          "observed_runtime_property_keys": [
+            "damping",
+            "effort_limit",
+            "stiffness"
+          ],
+          "numeric_values_independently_compared_in_this_correction": false
+        },
+        {
+          "articulation_id": "xrd",
+          "joint_count": 1,
+          "observed_runtime_property_keys": [
+            "damping",
+            "effort_limit",
+            "stiffness"
+          ],
+          "numeric_values_independently_compared_in_this_correction": false
+        },
+        {
+          "articulation_id": "drying_oven",
+          "joint_count": 1,
+          "observed_runtime_property_keys": [
+            "damping",
+            "effort_limit",
+            "stiffness"
+          ],
+          "numeric_values_independently_compared_in_this_correction": false
+        }
+      ],
+      "full_task_gain_invariance_cannot_be_inferred_from_this_warmup_snapshot": true,
+      "original_mechanical_verdict_preserved": true
+    },
+    {
+      "case_id": "cal_m080_d12",
+      "raw_files": {
+        "setup/boundary_state.json": "12b9378d59caafdf54488c58a2e3194e708d0ec8fe4dbd6f89a6e7c8d03abc76",
+        "setup/stages/released/manifest.json": "a6f8d8c8658a4624711e098db263ef5a317ab023f1a326d0a34186941085a9bd",
+        "setup/native_clock.jsonl": "acde598b686a837ae9c3cf3c0983921383884bfdb86c09489ba9da34d4940075",
+        "uninterrupted_transient_verdict.json": "72edeaa1aa16faa32c1f820591a323f1b110f936f4e1992c7d1d832392f7cd33",
+        "RESULT.json": "e54117c3c602be071263b090ab3ad87918ae27467bf1a89ef336873e61700e16"
+      },
+      "snapshot_scope": "WARMUP_1200_ENDPOINT_BEFORE_MATCHED_30_TRANSIENT",
+      "fr3_getter_readback_arrays": {
+        "damping": [
+          343774.6875,
+          343774.6875,
+          343774.6875,
+          343774.6875,
+          343774.6875,
+          343774.6875,
+          343774.6875,
+          40.0,
+          40.0
+        ],
+        "effort_limit": [
+          87.0,
+          87.0,
+          87.0,
+          87.0,
+          12.0,
+          12.0,
+          12.0,
+          100.0,
+          3.4028234663852886e+38
+        ],
+        "stiffness": [
+          3437746.75,
+          3437746.75,
+          3437746.75,
+          3437746.75,
+          3437746.75,
+          3437746.75,
+          3437746.75,
+          800.0,
+          800.0
+        ]
+      },
+      "getter_source_binding": {
+        "relative_path": "code/chemrm/papera/legacy_reconstruction/checkpoint_runtime.py",
+        "sha256": "52cdfdc9b5566d37bc22cc91fd1a2e21024ca7dd49b804510499430ddc901ad6",
+        "lines": [
+          63,
+          64,
+          65,
+          66,
+          67
+        ]
+      },
+      "warmup_host_tick_exported": 1200,
+      "manifest_native_time_s_exported": 5.008333594538271,
+      "warmup_native_clock_start_s": 0.008333333767950535,
+      "warmup_native_clock_end_s": 5.008333594538271,
+      "warmup_clock_rows": 1200,
+      "boundary_has_direct_native_epoch_field": false,
+      "associated_case_native_epoch": "paperb_native_expansion_v2:cal_m080_d12:e63e0d47b5d834cd",
+      "epoch_association_scope": "CASE_RESULT_PLUS_FROZEN_SOURCE_EPOCH_CONSTRUCTION; NOT_STANDALONE_BOUNDARY_EPOCH_FIELD",
+      "boundary_has_direct_physics_callback_counter": false,
+      "one_callback_per_warmup_step_is_frozen_source_assertion": true,
+      "warmup_1200_callbacks_inferred_from_1200_clock_rows_and_frozen_advance_assertion": true,
+      "matched_30_transient_drive_state_equal_exported_verdict": true,
+      "matched_30_transient_full_numeric_K_D_effort_snapshot_available": false,
+      "dedicated_task_start_after_30_K_D_effort_snapshot_available": false,
+      "dedicated_task_end_K_D_effort_snapshot_available": false,
+      "not_available_dedicated_paths": [
+        "CONTROLLER_BEFORE.json",
+        "CONTROLLER_AFTER.json",
+        "CONTROLLER_INSTALLATION.json",
+        "task/ACTIVE_DRIVE_END.json"
+      ],
+      "available_dedicated_paths_checked_absent": true,
+      "other_articulation_readback_key_presence": [
+        {
+          "articulation_id": "fr3_A",
+          "joint_count": 9,
+          "observed_runtime_property_keys": [
+            "damping",
+            "effort_limit",
+            "stiffness"
+          ],
+          "numeric_values_independently_compared_in_this_correction": true
+        },
+        {
+          "articulation_id": "ur5e_B",
+          "joint_count": 14,
+          "observed_runtime_property_keys": [
+            "damping",
+            "effort_limit",
+            "stiffness"
+          ],
+          "numeric_values_independently_compared_in_this_correction": false
+        },
+        {
+          "articulation_id": "ur5e_C",
+          "joint_count": 14,
+          "observed_runtime_property_keys": [
+            "damping",
+            "effort_limit",
+            "stiffness"
+          ],
+          "numeric_values_independently_compared_in_this_correction": false
+        },
+        {
+          "articulation_id": "furnace_1",
+          "joint_count": 1,
+          "observed_runtime_property_keys": [
+            "damping",
+            "effort_limit",
+            "stiffness"
+          ],
+          "numeric_values_independently_compared_in_this_correction": false
+        },
+        {
+          "articulation_id": "furnace_2",
+          "joint_count": 1,
+          "observed_runtime_property_keys": [
+            "damping",
+            "effort_limit",
+            "stiffness"
+          ],
+          "numeric_values_independently_compared_in_this_correction": false
+        },
+        {
+          "articulation_id": "furnace_3",
+          "joint_count": 1,
+          "observed_runtime_property_keys": [
+            "damping",
+            "effort_limit",
+            "stiffness"
+          ],
+          "numeric_values_independently_compared_in_this_correction": false
+        },
+        {
+          "articulation_id": "furnace_4",
+          "joint_count": 1,
+          "observed_runtime_property_keys": [
+            "damping",
+            "effort_limit",
+            "stiffness"
+          ],
+          "numeric_values_independently_compared_in_this_correction": false
+        },
+        {
+          "articulation_id": "xrd",
+          "joint_count": 1,
+          "observed_runtime_property_keys": [
+            "damping",
+            "effort_limit",
+            "stiffness"
+          ],
+          "numeric_values_independently_compared_in_this_correction": false
+        },
+        {
+          "articulation_id": "drying_oven",
+          "joint_count": 1,
+          "observed_runtime_property_keys": [
+            "damping",
+            "effort_limit",
+            "stiffness"
+          ],
+          "numeric_values_independently_compared_in_this_correction": false
+        }
+      ],
+      "full_task_gain_invariance_cannot_be_inferred_from_this_warmup_snapshot": true,
+      "original_mechanical_verdict_preserved": true
+    },
+    {
+      "case_id": "cal_m120_d00",
+      "raw_files": {
+        "setup/boundary_state.json": "f9cbc779aa3a13c0bac99f0503abf86d4e11e1c8f56249635259372f98e787d1",
+        "setup/stages/released/manifest.json": "f4ff60e92a356320898db35d107abf019ee198e7a3880bddb1625266669ab873",
+        "setup/native_clock.jsonl": "acde598b686a837ae9c3cf3c0983921383884bfdb86c09489ba9da34d4940075",
+        "uninterrupted_transient_verdict.json": "72edeaa1aa16faa32c1f820591a323f1b110f936f4e1992c7d1d832392f7cd33",
+        "RESULT.json": "2a994a0fb1499538cb171cc4fe40fd543d864d45c93e78d297ba69bd0597fb32"
+      },
+      "snapshot_scope": "WARMUP_1200_ENDPOINT_BEFORE_MATCHED_30_TRANSIENT",
+      "fr3_getter_readback_arrays": {
+        "damping": [
+          343774.6875,
+          343774.6875,
+          343774.6875,
+          343774.6875,
+          343774.6875,
+          343774.6875,
+          343774.6875,
+          40.0,
+          40.0
+        ],
+        "effort_limit": [
+          87.0,
+          87.0,
+          87.0,
+          87.0,
+          12.0,
+          12.0,
+          12.0,
+          100.0,
+          3.4028234663852886e+38
+        ],
+        "stiffness": [
+          3437746.75,
+          3437746.75,
+          3437746.75,
+          3437746.75,
+          3437746.75,
+          3437746.75,
+          3437746.75,
+          800.0,
+          800.0
+        ]
+      },
+      "getter_source_binding": {
+        "relative_path": "code/chemrm/papera/legacy_reconstruction/checkpoint_runtime.py",
+        "sha256": "52cdfdc9b5566d37bc22cc91fd1a2e21024ca7dd49b804510499430ddc901ad6",
+        "lines": [
+          63,
+          64,
+          65,
+          66,
+          67
+        ]
+      },
+      "warmup_host_tick_exported": 1200,
+      "manifest_native_time_s_exported": 5.008333594538271,
+      "warmup_native_clock_start_s": 0.008333333767950535,
+      "warmup_native_clock_end_s": 5.008333594538271,
+      "warmup_clock_rows": 1200,
+      "boundary_has_direct_native_epoch_field": false,
+      "associated_case_native_epoch": "paperb_native_expansion_v2:cal_m120_d00:e63e0d47b5d834cd",
+      "epoch_association_scope": "CASE_RESULT_PLUS_FROZEN_SOURCE_EPOCH_CONSTRUCTION; NOT_STANDALONE_BOUNDARY_EPOCH_FIELD",
+      "boundary_has_direct_physics_callback_counter": false,
+      "one_callback_per_warmup_step_is_frozen_source_assertion": true,
+      "warmup_1200_callbacks_inferred_from_1200_clock_rows_and_frozen_advance_assertion": true,
+      "matched_30_transient_drive_state_equal_exported_verdict": true,
+      "matched_30_transient_full_numeric_K_D_effort_snapshot_available": false,
+      "dedicated_task_start_after_30_K_D_effort_snapshot_available": false,
+      "dedicated_task_end_K_D_effort_snapshot_available": false,
+      "not_available_dedicated_paths": [
+        "CONTROLLER_BEFORE.json",
+        "CONTROLLER_AFTER.json",
+        "CONTROLLER_INSTALLATION.json",
+        "task/ACTIVE_DRIVE_END.json"
+      ],
+      "available_dedicated_paths_checked_absent": true,
+      "other_articulation_readback_key_presence": [
+        {
+          "articulation_id": "fr3_A",
+          "joint_count": 9,
+          "observed_runtime_property_keys": [
+            "damping",
+            "effort_limit",
+            "stiffness"
+          ],
+          "numeric_values_independently_compared_in_this_correction": true
+        },
+        {
+          "articulation_id": "ur5e_B",
+          "joint_count": 14,
+          "observed_runtime_property_keys": [
+            "damping",
+            "effort_limit",
+            "stiffness"
+          ],
+          "numeric_values_independently_compared_in_this_correction": false
+        },
+        {
+          "articulation_id": "ur5e_C",
+          "joint_count": 14,
+          "observed_runtime_property_keys": [
+            "damping",
+            "effort_limit",
+            "stiffness"
+          ],
+          "numeric_values_independently_compared_in_this_correction": false
+        },
+        {
+          "articulation_id": "furnace_1",
+          "joint_count": 1,
+          "observed_runtime_property_keys": [
+            "damping",
+            "effort_limit",
+            "stiffness"
+          ],
+          "numeric_values_independently_compared_in_this_correction": false
+        },
+        {
+          "articulation_id": "furnace_2",
+          "joint_count": 1,
+          "observed_runtime_property_keys": [
+            "damping",
+            "effort_limit",
+            "stiffness"
+          ],
+          "numeric_values_independently_compared_in_this_correction": false
+        },
+        {
+          "articulation_id": "furnace_3",
+          "joint_count": 1,
+          "observed_runtime_property_keys": [
+            "damping",
+            "effort_limit",
+            "stiffness"
+          ],
+          "numeric_values_independently_compared_in_this_correction": false
+        },
+        {
+          "articulation_id": "furnace_4",
+          "joint_count": 1,
+          "observed_runtime_property_keys": [
+            "damping",
+            "effort_limit",
+            "stiffness"
+          ],
+          "numeric_values_independently_compared_in_this_correction": false
+        },
+        {
+          "articulation_id": "xrd",
+          "joint_count": 1,
+          "observed_runtime_property_keys": [
+            "damping",
+            "effort_limit",
+            "stiffness"
+          ],
+          "numeric_values_independently_compared_in_this_correction": false
+        },
+        {
+          "articulation_id": "drying_oven",
+          "joint_count": 1,
+          "observed_runtime_property_keys": [
+            "damping",
+            "effort_limit",
+            "stiffness"
+          ],
+          "numeric_values_independently_compared_in_this_correction": false
+        }
+      ],
+      "full_task_gain_invariance_cannot_be_inferred_from_this_warmup_snapshot": true,
+      "original_mechanical_verdict_preserved": false
+    },
+    {
+      "case_id": "cal_m120_d12",
+      "raw_files": {
+        "setup/boundary_state.json": "f9cbc779aa3a13c0bac99f0503abf86d4e11e1c8f56249635259372f98e787d1",
+        "setup/stages/released/manifest.json": "37646e0a32e72dc0314674099c57eec003753acded6cf3dc57f624d63a31cfd2",
+        "setup/native_clock.jsonl": "acde598b686a837ae9c3cf3c0983921383884bfdb86c09489ba9da34d4940075",
+        "uninterrupted_transient_verdict.json": "72edeaa1aa16faa32c1f820591a323f1b110f936f4e1992c7d1d832392f7cd33",
+        "RESULT.json": "535d4dd6775a1f247839a5e66549f6ca6be293f5e0b5082000c518e2014ce8ef"
+      },
+      "snapshot_scope": "WARMUP_1200_ENDPOINT_BEFORE_MATCHED_30_TRANSIENT",
+      "fr3_getter_readback_arrays": {
+        "damping": [
+          343774.6875,
+          343774.6875,
+          343774.6875,
+          343774.6875,
+          343774.6875,
+          343774.6875,
+          343774.6875,
+          40.0,
+          40.0
+        ],
+        "effort_limit": [
+          87.0,
+          87.0,
+          87.0,
+          87.0,
+          12.0,
+          12.0,
+          12.0,
+          100.0,
+          3.4028234663852886e+38
+        ],
+        "stiffness": [
+          3437746.75,
+          3437746.75,
+          3437746.75,
+          3437746.75,
+          3437746.75,
+          3437746.75,
+          3437746.75,
+          800.0,
+          800.0
+        ]
+      },
+      "getter_source_binding": {
+        "relative_path": "code/chemrm/papera/legacy_reconstruction/checkpoint_runtime.py",
+        "sha256": "52cdfdc9b5566d37bc22cc91fd1a2e21024ca7dd49b804510499430ddc901ad6",
+        "lines": [
+          63,
+          64,
+          65,
+          66,
+          67
+        ]
+      },
+      "warmup_host_tick_exported": 1200,
+      "manifest_native_time_s_exported": 5.008333594538271,
+      "warmup_native_clock_start_s": 0.008333333767950535,
+      "warmup_native_clock_end_s": 5.008333594538271,
+      "warmup_clock_rows": 1200,
+      "boundary_has_direct_native_epoch_field": false,
+      "associated_case_native_epoch": "paperb_native_expansion_v2:cal_m120_d12:e63e0d47b5d834cd",
+      "epoch_association_scope": "CASE_RESULT_PLUS_FROZEN_SOURCE_EPOCH_CONSTRUCTION; NOT_STANDALONE_BOUNDARY_EPOCH_FIELD",
+      "boundary_has_direct_physics_callback_counter": false,
+      "one_callback_per_warmup_step_is_frozen_source_assertion": true,
+      "warmup_1200_callbacks_inferred_from_1200_clock_rows_and_frozen_advance_assertion": true,
+      "matched_30_transient_drive_state_equal_exported_verdict": true,
+      "matched_30_transient_full_numeric_K_D_effort_snapshot_available": false,
+      "dedicated_task_start_after_30_K_D_effort_snapshot_available": false,
+      "dedicated_task_end_K_D_effort_snapshot_available": false,
+      "not_available_dedicated_paths": [
+        "CONTROLLER_BEFORE.json",
+        "CONTROLLER_AFTER.json",
+        "CONTROLLER_INSTALLATION.json",
+        "task/ACTIVE_DRIVE_END.json"
+      ],
+      "available_dedicated_paths_checked_absent": true,
+      "other_articulation_readback_key_presence": [
+        {
+          "articulation_id": "fr3_A",
+          "joint_count": 9,
+          "observed_runtime_property_keys": [
+            "damping",
+            "effort_limit",
+            "stiffness"
+          ],
+          "numeric_values_independently_compared_in_this_correction": true
+        },
+        {
+          "articulation_id": "ur5e_B",
+          "joint_count": 14,
+          "observed_runtime_property_keys": [
+            "damping",
+            "effort_limit",
+            "stiffness"
+          ],
+          "numeric_values_independently_compared_in_this_correction": false
+        },
+        {
+          "articulation_id": "ur5e_C",
+          "joint_count": 14,
+          "observed_runtime_property_keys": [
+            "damping",
+            "effort_limit",
+            "stiffness"
+          ],
+          "numeric_values_independently_compared_in_this_correction": false
+        },
+        {
+          "articulation_id": "furnace_1",
+          "joint_count": 1,
+          "observed_runtime_property_keys": [
+            "damping",
+            "effort_limit",
+            "stiffness"
+          ],
+          "numeric_values_independently_compared_in_this_correction": false
+        },
+        {
+          "articulation_id": "furnace_2",
+          "joint_count": 1,
+          "observed_runtime_property_keys": [
+            "damping",
+            "effort_limit",
+            "stiffness"
+          ],
+          "numeric_values_independently_compared_in_this_correction": false
+        },
+        {
+          "articulation_id": "furnace_3",
+          "joint_count": 1,
+          "observed_runtime_property_keys": [
+            "damping",
+            "effort_limit",
+            "stiffness"
+          ],
+          "numeric_values_independently_compared_in_this_correction": false
+        },
+        {
+          "articulation_id": "furnace_4",
+          "joint_count": 1,
+          "observed_runtime_property_keys": [
+            "damping",
+            "effort_limit",
+            "stiffness"
+          ],
+          "numeric_values_independently_compared_in_this_correction": false
+        },
+        {
+          "articulation_id": "xrd",
+          "joint_count": 1,
+          "observed_runtime_property_keys": [
+            "damping",
+            "effort_limit",
+            "stiffness"
+          ],
+          "numeric_values_independently_compared_in_this_correction": false
+        },
+        {
+          "articulation_id": "drying_oven",
+          "joint_count": 1,
+          "observed_runtime_property_keys": [
+            "damping",
+            "effort_limit",
+            "stiffness"
+          ],
+          "numeric_values_independently_compared_in_this_correction": false
+        }
+      ],
+      "full_task_gain_invariance_cannot_be_inferred_from_this_warmup_snapshot": true,
+      "original_mechanical_verdict_preserved": false
+    }
+  ],
+  "case_inspection_matrix": {
+    "original_calibration_cases": {
+      "inspected": [
+        "cal_m080_d00",
+        "cal_m080_d12",
+        "cal_m120_d00",
+        "cal_m120_d12"
+      ],
+      "warmup_active_FR3_full_arrays_found": 4,
+      "after_30_dedicated_full_numeric_snapshots_found": 0,
+      "task_end_dedicated_full_numeric_snapshots_found": 0
+    },
+    "other_historical_cohorts": "NOT_EXHAUSTIVELY_INSPECTED_IN_THIS_CORRECTION; NO_BROAD_ABSENCE_CLAIM"
+  },
+  "frozen_metadata_overstatements": [
+    {
+      "path": "/data/liyufeng/paperb_grip_stiffness_qualification_20261013_v1/gain_installation.py",
+      "sha256": "c59f68963f1f48b4e58a817ecc19c9cd3a5907fdac3ff2056771aaf5c0b092c7",
+      "frozen_literal_preserved": {
+        "line": 84,
+        "text": "runtime_view_is_authoritative=True,original_failed_cohort_active_readback_available=False)"
+      },
+      "classification": "METADATA_OVERSTATEMENT_IN_FROZEN_SOURCE; NOT_ACCURATE_AS_ANY_ACTIVE_READBACK_ABSENCE",
+      "no_reinterpretation_as_narrow_snapshot_flag": true
+    },
+    {
+      "path": "/data/liyufeng/paperb_grip_qualified_joint_timing_20261013_v1/gain_installation.py",
+      "sha256": "9b95ad86fa8dbee10a044b6f1269f8abcbcedf61349259d9f753735a71d5f61e",
+      "frozen_literal_preserved": {
+        "line": 113,
+        "text": "original_failed_cohort_active_readback_available=False)"
+      },
+      "classification": "METADATA_OVERSTATEMENT_IN_FROZEN_SOURCE; NOT_ACCURATE_AS_ANY_ACTIVE_READBACK_ABSENCE",
+      "no_reinterpretation_as_narrow_snapshot_flag": true
+    }
+  ],
+  "original_metadata_text_and_all_old_sources_preserved": true,
+  "no_changes_to_scores_results_budgets_or_case_denominators": true,
+  "old_calibration_admission_remains_2_ELIGIBLE_2_FAILED_NO_FIT": true,
+  "new_qualification_and_four_calibration_verdicts_not_changed": true,
+  "gain_setter_causal_effect_or_hidden_solver_state_not_proven_by_warmup_snapshot": true,
+  "old_warmup_callbacks_are_source_and_clock_associated_not_direct_boundary_counter": true,
+  "raw_complete_warmup_snapshot_does_not_establish_per_tick_controller_gains_during_task": true,
+  "scope": "SIMULATED_CONTROLLER_READBACK_PROVENANCE_CORRECTION_ONLY; NO_CHEMICAL_OR_HARDWARE_CLAIM"
+}

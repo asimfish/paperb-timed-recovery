@@ -1,0 +1,34 @@
+{
+  "status": "PASS_ORIGINAL_VIDEO_AND_POSTER_BYTES_SAFE_COPY",
+  "case_id": "test_m090_d12_nominal_prior",
+  "source_video_file": "/data/liyufeng/paperb_grip_qualified_analysis_tools_20261013_v1/test_videos/test_m090_d12_nominal_prior/recorded_native_rgb.mp4",
+  "video_sha256": "9475f208b19ec78cf3300fafba462827e6accc0686991341ac699c6bad97717e",
+  "poster_source_frame_index": 84,
+  "poster_selection_rule": "FIXED_MIDPOINT_OF_RECORDED_SEQUENCE_NO_OUTCOME_SELECTION",
+  "poster_source": {
+    "command_index": 5520,
+    "native_time_s": 28.133334800601006,
+    "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_nominal_prior:cad51fcb553f61b6",
+    "native_rgb_sha256": "a94748bc95d04510684bba16752a8b4a279c0cfb42b57e2cfb6b9caa7ab02d6b",
+    "image": "images/05520.jpg",
+    "image_sha256": "e0fcb2e157357148c8fd8fa13f9006b04433478978a525b93803c2090fecc0dd",
+    "depth": "depth/05520.npz",
+    "physics_callbacks_during_render": 0,
+    "physical_state_changed": false,
+    "sensor_clock_is_native_clock": false,
+    "camera_frame": 89
+  },
+  "poster_byte_sha256": "e0fcb2e157357148c8fd8fa13f9006b04433478978a525b93803c2090fecc0dd",
+  "source_validation_sha256": "9a990d64d6e3c7fe6261c058d8e16a0a32dd2e69636ccae83e5d066882d1ffa4",
+  "source_provenance_sha256": "c6d54d65ae48041d9e460a6458305bed88204f9fb1e1b22faf22624389578b9b",
+  "destination_file_sha256": {
+    "test_m090_d12_nominal_prior.mp4": "9475f208b19ec78cf3300fafba462827e6accc0686991341ac699c6bad97717e",
+    "poster.jpg": "e0fcb2e157357148c8fd8fa13f9006b04433478978a525b93803c2090fecc0dd",
+    "VIDEO_PROVENANCE.json": "c6d54d65ae48041d9e460a6458305bed88204f9fb1e1b22faf22624389578b9b",
+    "VIDEO_VALIDATION.json": "9a990d64d6e3c7fe6261c058d8e16a0a32dd2e69636ccae83e5d066882d1ffa4"
+  },
+  "no_source_video_or_raw_changes": true,
+  "test_scores_read_for_selection": 0,
+  "new_native_episodes": 0,
+  "GPU_jobs_started": 0
+}

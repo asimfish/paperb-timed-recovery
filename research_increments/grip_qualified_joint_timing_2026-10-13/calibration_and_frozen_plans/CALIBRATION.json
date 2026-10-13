@@ -1,0 +1,212 @@
+{
+  "schema": "paperb-complete-raw-grip-qualified-timing-calibration-v1",
+  "status": "FROZEN_CALIBRATION",
+  "fitted_episode_ids": [
+    "cal_m080_d00",
+    "cal_m080_d12",
+    "cal_m120_d00",
+    "cal_m120_d12"
+  ],
+  "mechanical_latency_intervals_s": {
+    "contact": [
+      0.14583334093913436,
+      0.15000000782310963
+    ],
+    "release": [
+      0.07916667079553008,
+      0.08333333767950535
+    ]
+  },
+  "observations": [
+    {
+      "case_id": "cal_m080_d00",
+      "kind": "contact",
+      "mechanical_interval_s": [
+        0.14583334093913436,
+        0.15000000782310963
+      ]
+    },
+    {
+      "case_id": "cal_m080_d00",
+      "kind": "release",
+      "mechanical_interval_s": [
+        0.07916667079553008,
+        0.08333333767950535
+      ]
+    },
+    {
+      "case_id": "cal_m080_d12",
+      "kind": "contact",
+      "mechanical_interval_s": [
+        0.14583334093913436,
+        0.15000000782310963
+      ]
+    },
+    {
+      "case_id": "cal_m080_d12",
+      "kind": "release",
+      "mechanical_interval_s": [
+        0.07916667079553008,
+        0.08333333767950535
+      ]
+    },
+    {
+      "case_id": "cal_m120_d00",
+      "kind": "contact",
+      "mechanical_interval_s": [
+        0.14583334093913436,
+        0.15000000782310963
+      ]
+    },
+    {
+      "case_id": "cal_m120_d00",
+      "kind": "release",
+      "mechanical_interval_s": [
+        0.07916667079553008,
+        0.08333333767950535
+      ]
+    },
+    {
+      "case_id": "cal_m120_d12",
+      "kind": "contact",
+      "mechanical_interval_s": [
+        0.14583334093913436,
+        0.15000000782310963
+      ]
+    },
+    {
+      "case_id": "cal_m120_d12",
+      "kind": "release",
+      "mechanical_interval_s": [
+        0.07916667079553008,
+        0.08333333767950535
+      ]
+    }
+  ],
+  "sources": {
+    "cases/cal_m080_d00/RESULT.json": "9323ef0509a3d922d85a630f5753e304ee3b8f31343f83217807c7a601c74dd7",
+    "cases/cal_m080_d00/case.json": "f78a0bfdd301a987da08226befa2a22af2fd077cf39d8bc7d8ca559c0500179b",
+    "cases/cal_m080_d00/mass_parameter_readback.json": "76dc03436903d53fd31be1dfa54e5e98fe2a081c2a983d6cbb7339e38f066735",
+    "cases/cal_m080_d00/task/expanded_events.json": "ae66b74defa4b9739a425487adaaff9daa45b8d38fa171abb2d710a2447919f6",
+    "cases/cal_m080_d00/task/dispatch.jsonl": "9f2e4f4dbc2c4a1b9780b8a1a0e0068a0f9caecca022a3cf0cf53de4cac9eb1d",
+    "cases/cal_m080_d00/task/states.jsonl": "b7357e6be16db25308e6f808646d58ab52f673f7bfa0a0e0ee05e6ab92a73376",
+    "cases/cal_m080_d00/task/contact_rows.jsonl": "1587c7100df24ede0cf9edd6e854df09ee744d44acbcbae5dd70861063a7a619",
+    "cases/cal_m080_d12/RESULT.json": "6630ab1df666bd5df2bf26a71af2a68a606e8ea3b71301085a089a4f267ab821",
+    "cases/cal_m080_d12/case.json": "bab74ba41d83311b09c64257723f2aada40579a6b1c36a42bbabef33164ce9aa",
+    "cases/cal_m080_d12/mass_parameter_readback.json": "76dc03436903d53fd31be1dfa54e5e98fe2a081c2a983d6cbb7339e38f066735",
+    "cases/cal_m080_d12/task/expanded_events.json": "58662d055a2fc1934cf46823f4ee148a62b9e7fecb43ee24663d9bf573a8d3b4",
+    "cases/cal_m080_d12/task/dispatch.jsonl": "08990d8d3034a41fb2d9d38af8e828c2ce242c438523977fc76fbefcff8e2b8a",
+    "cases/cal_m080_d12/task/states.jsonl": "fb55369cafa8e1f0c04ba998817b0f1320f25a3144792222c989d46d99d3ac54",
+    "cases/cal_m080_d12/task/contact_rows.jsonl": "37d969018ec8f8a8aa6b884963b229feec049ff241a600efe7df68877a1dffd5",
+    "cases/cal_m120_d00/RESULT.json": "a2b856b043dc201a9b09358260e7b258a07bceae75a55b6a19a3233ca4244fc0",
+    "cases/cal_m120_d00/case.json": "e8048703b98bd6bfef9383f8dabf6e98557feebeb29498c03f669710f91254d4",
+    "cases/cal_m120_d00/mass_parameter_readback.json": "33ae4140e6f33366a0f49e44d053e29155107ce5ef5da0ffc364ab603d29d475",
+    "cases/cal_m120_d00/task/expanded_events.json": "654a317c44e23026ffdc4915568f17426e7a4274ec9829eda0def453be7e3705",
+    "cases/cal_m120_d00/task/dispatch.jsonl": "b4288f44f519f207bf7c04455578558358ef8d6716f6592b07aea62bb567a287",
+    "cases/cal_m120_d00/task/states.jsonl": "3cd0c6d6461d4e93b498fe17f7da5f39a0f3d7dc97d70868476f4ec565ea7d98",
+    "cases/cal_m120_d00/task/contact_rows.jsonl": "2560d74790b8496a2a3a69622b091054bc0623c6947cd666ef705dd5d2f52c91",
+    "cases/cal_m120_d12/RESULT.json": "6eb7b491555e28bfcdb3be5d24de3cde01b2a017285d43d612953aa80d7c64df",
+    "cases/cal_m120_d12/case.json": "51d719c26cf87363aba79863e8b05eb8305972dda2b526c941e6cb996e0c5cd9",
+    "cases/cal_m120_d12/mass_parameter_readback.json": "33ae4140e6f33366a0f49e44d053e29155107ce5ef5da0ffc364ab603d29d475",
+    "cases/cal_m120_d12/task/expanded_events.json": "1cd4271d961171dd70a89d07f49a9ab3c78ed2a37b4a561664a73f3bf97f0505",
+    "cases/cal_m120_d12/task/dispatch.jsonl": "acd6e2824d8231361f1455f74373283f15a04d9dd14b7ec744cd19596869c03b",
+    "cases/cal_m120_d12/task/states.jsonl": "dd86290c3f9ad7e69f375ab519d5f09c00c0c887c2a77c267f353e62ce8d18fa",
+    "cases/cal_m120_d12/task/contact_rows.jsonl": "11b923ecc287b95b8ae463e411cd638413175faf658203579444e4eca3b07ddd",
+    "cases/cal_m080_d00/CONTROLLER_BEFORE.json": "db4a70e70035fc8016ceda73fe4b99b55945c8bdacf792d7eaa63ccded3830e3",
+    "cases/cal_m080_d00/CONTROLLER_AFTER.json": "6fe20dd9a198811e88ab56d13f09ab1317eaa4740779b57459fa894b897e4342",
+    "cases/cal_m080_d00/CONTROLLER_INSTALLATION.json": "90913d451e24d5eeb3469e9d4dc65416631a83ab9cc2577556f71b8260eba7c4",
+    "cases/cal_m080_d00/task/ACTIVE_DRIVE_END.json": "b84eb89597594a6e2de0f3b9f5f55ec73ffdd8134cc681a1eab9e24c8a65369a",
+    "cases/cal_m080_d00/task/controller_origin.json": "27ecbdd590181f54a2cf28a3b0f9c153a20ffbd5688eec38e9c8e457b98198b1",
+    "cases/cal_m080_d00/task/installed_properties_end.json": "7864ad2972643ae6dc2ba9cd934f6e326d00f31072391262343ef779ba4fc88a",
+    "cases/cal_m080_d12/CONTROLLER_BEFORE.json": "c8f8cf111f15588e48ff09802e31e92bb4ec09b92640e75b60902aa333b410df",
+    "cases/cal_m080_d12/CONTROLLER_AFTER.json": "8467f8c749aac396af0093861417fd399ff4bc71c9b89e685aee9a450eb2a927",
+    "cases/cal_m080_d12/CONTROLLER_INSTALLATION.json": "a36df12e44f97a836c602af0c9aa34d6f1791f3cecbc338153df3b1d163b70af",
+    "cases/cal_m080_d12/task/ACTIVE_DRIVE_END.json": "14025c52a259c73971e2592753965223530d44a235a2399e0593552219f69cd9",
+    "cases/cal_m080_d12/task/controller_origin.json": "52ef00bc4aee96e4e8ec064e1b4b5ff152c21c30636e4ef3de836cb1171c4c77",
+    "cases/cal_m080_d12/task/installed_properties_end.json": "7864ad2972643ae6dc2ba9cd934f6e326d00f31072391262343ef779ba4fc88a",
+    "cases/cal_m120_d00/CONTROLLER_BEFORE.json": "2b9f912c88c3ad9010c563fea27d324c77581774742031d5f3b27059426cd4b8",
+    "cases/cal_m120_d00/CONTROLLER_AFTER.json": "359ed00b6585e5f3e868f9036a201871b2c2ebaeba8867c54d496dcc0801aeb9",
+    "cases/cal_m120_d00/CONTROLLER_INSTALLATION.json": "0bc7e5d358fa9dfce2ca3ff732c2dc83d3b4c329159cd3e2711fa21380604695",
+    "cases/cal_m120_d00/task/ACTIVE_DRIVE_END.json": "e66f3e5771c20b349bc777760e6d80fbac23dc225fa68f89950498d3f207a8eb",
+    "cases/cal_m120_d00/task/controller_origin.json": "054cf03dbe69d5f7c7269807cce43954149b03f920bde6e8daff60a3f01f7bca",
+    "cases/cal_m120_d00/task/installed_properties_end.json": "28b44bafb20a4602335701068ec714d753517a49a8b5b695bbda9d026b020694",
+    "cases/cal_m120_d12/CONTROLLER_BEFORE.json": "768a53993e0dd75b3e64f7d17a6eeba42c478ecdf90342279614b8e5678ee01b",
+    "cases/cal_m120_d12/CONTROLLER_AFTER.json": "1dc25de4e38993097828e0334af2d95e1b1d20b65b6f4ae3959612027f4b65b4",
+    "cases/cal_m120_d12/CONTROLLER_INSTALLATION.json": "30ef3cbc8d886882032ab9ae6e7fe805d640e5308950e2526f1d522ab26afe0b",
+    "cases/cal_m120_d12/task/ACTIVE_DRIVE_END.json": "ac02b71031897517055a4cb71a3a4f7f3834967ab8d3e7a9e4d0534895982a8c",
+    "cases/cal_m120_d12/task/controller_origin.json": "38991f4524f8a75d34a3312b0acac19c354f9bd15e1855df1d1059e44a0effff",
+    "cases/cal_m120_d12/task/installed_properties_end.json": "28b44bafb20a4602335701068ec714d753517a49a8b5b695bbda9d026b020694"
+  },
+  "uses_test_events": false,
+  "calibration_is_statistical_coverage_guarantee": false,
+  "method": "MIN_MAX_SAMPLED_CALIBRATION_MECHANICAL_LATENCY; NO_ESTIMATED_MASS_AT_TEST",
+  "calibration_cells": [
+    {
+      "case_id": "cal_m080_d00",
+      "mass_factor": 0.8,
+      "public_delay_ticks": 0,
+      "intervals": {
+        "contact": [
+          0.14583334093913436,
+          0.15000000782310963
+        ],
+        "release": [
+          0.07916667079553008,
+          0.08333333767950535
+        ]
+      }
+    },
+    {
+      "case_id": "cal_m080_d12",
+      "mass_factor": 0.8,
+      "public_delay_ticks": 12,
+      "intervals": {
+        "contact": [
+          0.14583334093913436,
+          0.15000000782310963
+        ],
+        "release": [
+          0.07916667079553008,
+          0.08333333767950535
+        ]
+      }
+    },
+    {
+      "case_id": "cal_m120_d00",
+      "mass_factor": 1.2,
+      "public_delay_ticks": 0,
+      "intervals": {
+        "contact": [
+          0.14583334093913436,
+          0.15000000782310963
+        ],
+        "release": [
+          0.07916667079553008,
+          0.08333333767950535
+        ]
+      }
+    },
+    {
+      "case_id": "cal_m120_d12",
+      "mass_factor": 1.2,
+      "public_delay_ticks": 12,
+      "intervals": {
+        "contact": [
+          0.14583334093913436,
+          0.15000000782310963
+        ],
+        "release": [
+          0.07916667079553008,
+          0.08333333767950535
+        ]
+      }
+    }
+  ],
+  "missing_cell_policy": "REFUSE_FIT; NO_FILTERING_OR_MEDIAN_IMPUTATION",
+  "variability_scope": "UNION_OF_ALL_EIGHT_RECORDED_MECHANICAL_INTERVALS; NOT_AVERAGE_OR_TRUE_SUPPORT",
+  "previous_qualification_or_failed_cohort_used_for_fit": false,
+  "all_four_common_actor_installations_required": true,
+  "independent_audit_path": "/data/liyufeng/paperb_grip_qualified_timing_audit_20261013_v1/CALIBRATION_AUDIT.json",
+  "independent_audit_sha256": "50aea5b4a3d19f05faa249f6f881926a7d490e8bfbac201cfef426a2118312f0",
+  "independent_auditor_release_sha256": "e9ed710d579bbe3692ec5b29e702aa15035645a5ed3fdb98f4d2b6e16c7d661d"
+}

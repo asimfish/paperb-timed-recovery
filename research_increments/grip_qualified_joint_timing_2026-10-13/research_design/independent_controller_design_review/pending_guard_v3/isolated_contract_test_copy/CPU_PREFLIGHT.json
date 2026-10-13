@@ -1,0 +1,10 @@
+{
+  "status": "PASS_PUBLIC_DECISION_CONTRACTS_NOT_STATEFUL_NATIVE_CONTROLLERS",
+  "focused_tests": 18,
+  "synthetic_public_initial_decisions": 32,
+  "native_integrations": 0,
+  "formal32_runs": 0,
+  "fit": 0,
+  "GPU": 0,
+  "full_HSM_EDF_MPC_feedback_integration_pending": true
+}

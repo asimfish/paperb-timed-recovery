@@ -1,0 +1,27 @@
+{
+  "schema": "paperb-final-public-interval-paper-vector-v1",
+  "created_at_utc": "2026-10-13T16:19:34.785045+00:00",
+  "input_files": {
+    "robot_results/PUBLIC_SUMMARY.json": "39fc19002c08adc7f7e9b1cc15074b19f2af1f30068391e30f5a077f15e611a4",
+    "robot_results/ALL16_RESULTS.csv": "89f6c756e66f75d042356d748369b7d83faefe65b4d80a5ca664186a4d3a9c07",
+    "robot_results/all16_timing_intervals.pdf": "341e3309cd43f934d3ca3cefe12aeb2432689b97b06eadadca817229283a9004",
+    "independent_audit/LEGACY_ACTIVE_READBACK_CORRECTION.json": "e1e0ea3b6c939733a15576b573e85a4eb42f7a61d0481893fd8f5dd0fb780305",
+    "independent_audit/TEST_PUBLIC_SUMMARY.json": "daf80096f3245d03a15f9374a453dbb02009009ea0f170dcfaaf4be6172a0748"
+  },
+  "all16_declared_cases_retained": true,
+  "contract_slots": 48,
+  "contract_slots_not_episodes": true,
+  "error_bounds_unmodified": true,
+  "fill_uses_report_frozen_interval_pass": true,
+  "UNKNOWN_not_definite_failure": true,
+  "dimensionless_mass_inertia_factor": true,
+  "no_fakeframes": true,
+  "new_physics_runs": 0,
+  "GPU_jobs": 0,
+  "new_policy_weights": 0,
+  "output_files": {
+    "robot_timing_intervals_paper.png": "c39619cce3bed93a4a54c7c1288ad96f45028319e2ac873ec97e44c640d13f56",
+    "robot_timing_intervals_paper.pdf": "c7a0220745ffe37da314868aa37f618238e039af3edbf72cac0677788cbcc0cd",
+    "robot_timing_intervals_paper.svg": "5397216310c6ce78166d1c9b00c53a9b352e8152ceca6436303df670438156e0"
+  }
+}

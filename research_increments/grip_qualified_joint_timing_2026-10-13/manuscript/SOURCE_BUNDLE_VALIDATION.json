@@ -1,0 +1,20 @@
+{
+  "schema": "paperb-component-note-source-bundle-reopen-validation-v1",
+  "status": "PASS_ALL_MEMBERS_REOPEN_SHA_EXACT",
+  "created_at_utc": "2026-10-13T16:04:32.644653+00:00",
+  "archive_sha256": "150b3335b13f0cef3412565f097a48d3c7a0778c474458750b88381f69400183",
+  "archive_bytes": 175686,
+  "regular_members": 8,
+  "members": {
+    "manuscript/source/component.tex": "2219e7639a6f6d2187980a5d84c3c33730f0f0aa2e18684a78af1ef8326a69c3",
+    "manuscript/source/icml2026.sty": "7cdcf90f6a59c5219e7f15c88f7ed09fcaf598dad91e6cdddc4dc3cb0e397a95",
+    "figures/physical_event_timeline_compact.pdf": "097750e4dd87ea7a3c1addf9e8670bee98bdc914ebe4972b468c971b94eaea1c",
+    "manuscript/COMPONENT_NOTE.pdf": "c3395f3aec39fc34edb18919495381bad1f67fa81a7433164db97bc6471e10ea",
+    "manuscript/METHOD_EXPANSION_cn.md": "f3df6cb627ebaffb6ec5d0329fd972aa774ee739c40add1c20aea211954932db",
+    "manuscript/README_cn.md": "779c5fcbed693a0c095858d66b4706abb27e562b1d204a0294cc37d1c801e431",
+    "manuscript/BUILD_VALIDATION.json": "1f015f1cb1345fdae3889f9e3f3765391c7a0fe0bd032c697fca3a99fffe0611",
+    "figures/FIGURE_DATA.json": "3c24adf0b3201f928244a97059921ef009caed3fa0cf2675abe2c13e29027440"
+  },
+  "whole_raw_bundles": "Existing dev/v2 archives stay separate, no success filtering or duplicate native execution",
+  "new_physics_runs": 0
+}

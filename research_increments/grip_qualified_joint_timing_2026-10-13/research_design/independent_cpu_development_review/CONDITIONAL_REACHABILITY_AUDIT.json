@@ -1,0 +1,97 @@
+{
+  "status": "VERIFIED_CONDITIONAL_NECESSARY_RESOURCE_SUPPORT_GAP; NOT_FORMAL_INFEASIBILITY_CERTIFICATE",
+  "assumptions": [
+    "Free contactless torque motor I.002,D.006,10ms implicit damped update.",
+    "C full torque.06 until first serviced stop, then0, no faults/resets/reverse/restart.",
+    "Nonpreemptive shared resource B slot starts1.50s and C service450ms; A reservations can only reduce C availability.",
+    "Original B first crossing bracket440-450ms precedes slot and cannot be substituted."
+  ],
+  "cells": [
+    {
+      "B_service_ns": 50000000,
+      "D_ns": 2800000000,
+      "latest_early_ACK_ns": 1500000000,
+      "latest_early_stop_interval_ns": [
+        3050000000,
+        3060000000
+      ],
+      "first_allowed_post_Bslot_ACK_ns": 2000000000,
+      "first_late_stop_interval_ns": [
+        3550000000,
+        3560000000
+      ],
+      "required_stop_confirmation_candidate_onset_upper_ns": [
+        3160000000,
+        3340000000
+      ],
+      "necessary_C_time_support_gap": true
+    },
+    {
+      "B_service_ns": 50000000,
+      "D_ns": 3100000000,
+      "latest_early_ACK_ns": 1500000000,
+      "latest_early_stop_interval_ns": [
+        3050000000,
+        3060000000
+      ],
+      "first_allowed_post_Bslot_ACK_ns": 2000000000,
+      "first_late_stop_interval_ns": [
+        3550000000,
+        3560000000
+      ],
+      "required_stop_confirmation_candidate_onset_upper_ns": [
+        3460000000,
+        3640000000
+      ],
+      "necessary_C_time_support_gap": false
+    },
+    {
+      "B_service_ns": 450000000,
+      "D_ns": 2800000000,
+      "latest_early_ACK_ns": 1500000000,
+      "latest_early_stop_interval_ns": [
+        3050000000,
+        3060000000
+      ],
+      "first_allowed_post_Bslot_ACK_ns": 2400000000,
+      "first_late_stop_interval_ns": [
+        3950000000,
+        3960000000
+      ],
+      "required_stop_confirmation_candidate_onset_upper_ns": [
+        3160000000,
+        3340000000
+      ],
+      "necessary_C_time_support_gap": true
+    },
+    {
+      "B_service_ns": 450000000,
+      "D_ns": 3100000000,
+      "latest_early_ACK_ns": 1500000000,
+      "latest_early_stop_interval_ns": [
+        3050000000,
+        3060000000
+      ],
+      "first_allowed_post_Bslot_ACK_ns": 2400000000,
+      "first_late_stop_interval_ns": [
+        3950000000,
+        3960000000
+      ],
+      "required_stop_confirmation_candidate_onset_upper_ns": [
+        3460000000,
+        3640000000
+      ],
+      "necessary_C_time_support_gap": true
+    }
+  ],
+  "C_time_support_gap_cells": 3,
+  "total_D_service_cells": 4,
+  "graph_multiplicity": 2,
+  "at_least_unreachable_cells_under_assumptions": 6,
+  "total_draft_instances": 8,
+  "remaining_two_cells_not_certified_jointly_feasible": true,
+  "formal32_main_tests_run": 0,
+  "formal_protocol_revised_by_auditor": false,
+  "new_native_epochs": 0,
+  "proof": "Any C transaction ends no later than Bslot_start or starts after Bslot_end. Its ACK belongs to an early or late interval. First stop-onset time is monotone in fullpower duration. A later redundantC stop cannot alter a zero-drive trajectory. Exact rational decay endpoints therefore bound a gap in conservative timing support, unaffected by task graph changes."
+}

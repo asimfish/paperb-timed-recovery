@@ -1,0 +1,1369 @@
+{
+  "schema": "paperb-recorded-native-CPU-video-export-v1",
+  "case_id": "test_m090_d12_calibrated_interval",
+  "role": "test",
+  "fps": 6,
+  "frames": 168,
+  "source_frame_index_sha256": "9b218254dd5de007a88856d0f9d87f120d4010b8edd892dd29237063c611af3d",
+  "source_frames": [
+    {
+      "file": "cases/test_m090_d12_calibrated_interval/task/images/02160.jpg",
+      "sha256": "6c245265a27abc9683e2fc18e3435630cd62f857a03da0da88f8dd6a0cb3dabc",
+      "native_time_s": 14.133334070444107,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "native_rgb_sha256": "fb3970fcfeccec82808a7ebd132f379445719fa6d984ddf514f708af3436d6a2",
+      "task_tick": 2160
+    },
+    {
+      "file": "cases/test_m090_d12_calibrated_interval/task/images/02200.jpg",
+      "sha256": "6b98ed935febb12d75c706a89d014f7d3c5b93c331e51d5aaff3a9fcbcfee175",
+      "native_time_s": 14.300000745803118,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "native_rgb_sha256": "7aaf7c54d2439e111afd659cd4426381969df608768de15aaee71db7c5363bee",
+      "task_tick": 2200
+    },
+    {
+      "file": "cases/test_m090_d12_calibrated_interval/task/images/02240.jpg",
+      "sha256": "e59c72fb1868592e36ed312809c44bcc82731c0169d68d0066fc762d4d325f5d",
+      "native_time_s": 14.466667421162128,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "native_rgb_sha256": "b799b32391d804aaae26bb4d4e7bbadb7ab1b9d071e08d265c8c736f2a9cf253",
+      "task_tick": 2240
+    },
+    {
+      "file": "cases/test_m090_d12_calibrated_interval/task/images/02280.jpg",
+      "sha256": "9d297f57eedf90e43e276634ce3c4fd26881b7f6bd89c6441cea0e1942db93d2",
+      "native_time_s": 14.63333409652114,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "native_rgb_sha256": "a02169233c3d5b09599c2f1450f921e598bcceba6d6faed46f96836cba82ce31",
+      "task_tick": 2280
+    },
+    {
+      "file": "cases/test_m090_d12_calibrated_interval/task/images/02320.jpg",
+      "sha256": "266e22568b85bcf1511c43adebad3e908392f93c0e0fb11460c590d5831a4ee2",
+      "native_time_s": 14.80000077188015,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "native_rgb_sha256": "5dafa49aadf1519a8684e82d1db38994d5a1be198796c3393f23b1ce4909be5b",
+      "task_tick": 2320
+    },
+    {
+      "file": "cases/test_m090_d12_calibrated_interval/task/images/02360.jpg",
+      "sha256": "702d68868b01d1d9284055b94fe8eb170e165a1970b30237c2b8241a45166071",
+      "native_time_s": 14.96666744723916,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "native_rgb_sha256": "5cc5b0c9f15708ee8e16410e665e659623d0e971be9c25ee9b23f8ccfa9dde31",
+      "task_tick": 2360
+    },
+    {
+      "file": "cases/test_m090_d12_calibrated_interval/task/images/02400.jpg",
+      "sha256": "e36ff8abc8c2fe191bde1478c3e18b1f7d48b6210d2cb5be3a6eaed709cf2929",
+      "native_time_s": 15.133334122598171,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "native_rgb_sha256": "c0b1da5d47ea294a3dded01c47679e7f4e02ebb7fbfb89308734407076f0a8ee",
+      "task_tick": 2400
+    },
+    {
+      "file": "cases/test_m090_d12_calibrated_interval/task/images/02440.jpg",
+      "sha256": "34a1879574d1a11cdf649c8f92fa829140ca82e97018d449b154e5db19025fd2",
+      "native_time_s": 15.300000797957182,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "native_rgb_sha256": "dc5c45264b3e7b04acce9a105c6e28609b9689af96bc51ee7669b3dfe6787596",
+      "task_tick": 2440
+    },
+    {
+      "file": "cases/test_m090_d12_calibrated_interval/task/images/02480.jpg",
+      "sha256": "2c2a38bfc0a12e2d5698507824d0952170e41fc85023f39b56714ef58b673538",
+      "native_time_s": 15.466667473316193,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "native_rgb_sha256": "791042bdad540ad6ae0e443ae6f9b42f9af6d576bd6ec44baefeedc5d85e4585",
+      "task_tick": 2480
+    },
+    {
+      "file": "cases/test_m090_d12_calibrated_interval/task/images/02520.jpg",
+      "sha256": "a885bf5803e9616aad06a741c2386d672e62678758449a5a6757deaf1306cf35",
+      "native_time_s": 15.633334148675203,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "native_rgb_sha256": "d7f3f4338c5a4e4f900ad1255f98f225d144c722fe58ae9f443638136026a387",
+      "task_tick": 2520
+    },
+    {
+      "file": "cases/test_m090_d12_calibrated_interval/task/images/02560.jpg",
+      "sha256": "0efbfc0f2e07adc5b8041c3185384eb94e99b8c587028571c64cf1aa14660737",
+      "native_time_s": 15.800000824034214,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "native_rgb_sha256": "4ac3f85317d7a02413139620d8f71d42f4b66757677950fd7b4554cd687d7897",
+      "task_tick": 2560
+    },
+    {
+      "file": "cases/test_m090_d12_calibrated_interval/task/images/02600.jpg",
+      "sha256": "5c48cb04ec4d759b2067b3f4366dea9d05f94475e28872cdce8de16b81db4311",
+      "native_time_s": 15.966667499393225,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "native_rgb_sha256": "2837faf4f7277a163a28633861b24adf6f0951d10c8c6eaba1ca732e545ec550",
+      "task_tick": 2600
+    },
+    {
+      "file": "cases/test_m090_d12_calibrated_interval/task/images/02640.jpg",
+      "sha256": "21ae37a64f460cfbf10450c4335f515bed71334c1912526498fd153494910ef4",
+      "native_time_s": 16.133334174752235,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "native_rgb_sha256": "31c8e33d84d4cb2997440d981029936ca4fc5602d0acf4eb3591a06ff6b8a3fe",
+      "task_tick": 2640
+    },
+    {
+      "file": "cases/test_m090_d12_calibrated_interval/task/images/02680.jpg",
+      "sha256": "54e641fd0c0bba78f264934ab4f174e1fa191c678fbc1bf0c77ecd604869c0bf",
+      "native_time_s": 16.300000850111246,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "native_rgb_sha256": "6b4e827669db6a1fc0255d841c4827dd1c4d412b1869ea1b27388d740e20535c",
+      "task_tick": 2680
+    },
+    {
+      "file": "cases/test_m090_d12_calibrated_interval/task/images/02720.jpg",
+      "sha256": "8627ed0ceb050251de61ac935210e21392ce7861ab8c8682ca32ddcb21f2cc90",
+      "native_time_s": 16.466667525470257,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "native_rgb_sha256": "ce6a7a54438b984d56a8088f35b093a06b020831095b4ffed0004e882e9f8577",
+      "task_tick": 2720
+    },
+    {
+      "file": "cases/test_m090_d12_calibrated_interval/task/images/02760.jpg",
+      "sha256": "86fc4ccf6f1b29667e6ed2de45c40bc10981d54daa6253242709d5646113d714",
+      "native_time_s": 16.633334200829268,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "native_rgb_sha256": "7975b10a551b7ef7be401b4e0209d40d9c41490b00528dc5958c1ee92857b17e",
+      "task_tick": 2760
+    },
+    {
+      "file": "cases/test_m090_d12_calibrated_interval/task/images/02800.jpg",
+      "sha256": "e5a6cb7f4dafb3056dd6727fb2d1d7f639ad7f3b053ba204a3b076f61ab5afa5",
+      "native_time_s": 16.800000876188278,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "native_rgb_sha256": "577e75c489a836836e0bd3a747fcdcaf4e9a6f6fa774bed7fd8aee66fd140ebb",
+      "task_tick": 2800
+    },
+    {
+      "file": "cases/test_m090_d12_calibrated_interval/task/images/02840.jpg",
+      "sha256": "049a8ba46ca4c41623320cd8d68584e7af1a671241ddec186407df10af9e0e28",
+      "native_time_s": 16.96666755154729,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "native_rgb_sha256": "778e279b7145fdd4e4f71d8a63837059948224b90666335153b5f38478c2b617",
+      "task_tick": 2840
+    },
+    {
+      "file": "cases/test_m090_d12_calibrated_interval/task/images/02880.jpg",
+      "sha256": "c4ae0c0c75502f3c89e98d04724a0467171c41105d4ec0fda403b7547758983e",
+      "native_time_s": 17.1333342269063,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "native_rgb_sha256": "8b086d2c78fb684ce8dd090f6653e96e3a1ff6bd313019d61103bfc7e2d857e1",
+      "task_tick": 2880
+    },
+    {
+      "file": "cases/test_m090_d12_calibrated_interval/task/images/02920.jpg",
+      "sha256": "a9a7bf4102fd27812b0a666c176b725c230c5a8363e92ef66b758f8be299f274",
+      "native_time_s": 17.30000090226531,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "native_rgb_sha256": "ff3bf6587337ae85eca670460f336171147030a1275a8cc455c81ec198d3de77",
+      "task_tick": 2920
+    },
+    {
+      "file": "cases/test_m090_d12_calibrated_interval/task/images/02960.jpg",
+      "sha256": "ec7737629eb4b5d8d359da3eacce3bd7dd17194649c7aa30213e9e3e9c6fa104",
+      "native_time_s": 17.46666757762432,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "native_rgb_sha256": "79a1183875f2f352316399c869836418e9aa360bc2a28af455ddb3b6a8fbaa5e",
+      "task_tick": 2960
+    },
+    {
+      "file": "cases/test_m090_d12_calibrated_interval/task/images/03000.jpg",
+      "sha256": "aa5360f54b23929c2217fed8f0c5a679066ec9648f6887fa096f70fa75f66aa1",
+      "native_time_s": 17.63333425298333,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "native_rgb_sha256": "4b4fbfcf18dd8782ded55b21a68457b1a98080eb3904502cfd31990540149150",
+      "task_tick": 3000
+    },
+    {
+      "file": "cases/test_m090_d12_calibrated_interval/task/images/03040.jpg",
+      "sha256": "8491db4bea4d3e68fc626c9093f0d917f5a4dd4683e9924fae772c53b02babb4",
+      "native_time_s": 17.800000928342342,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "native_rgb_sha256": "1d2cfab988fc60afbdc02c5a2835ddc5638e4f743a9d99f8d407bb4686faf348",
+      "task_tick": 3040
+    },
+    {
+      "file": "cases/test_m090_d12_calibrated_interval/task/images/03080.jpg",
+      "sha256": "5511df24fb456d16430dcbeabb57d16d606e013ba6033782ed59df859c9ca27b",
+      "native_time_s": 17.966667603701353,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "native_rgb_sha256": "6f46d00279229955b7770d476b7889c76fb3e30d5073a273b56c0bc6fbd78203",
+      "task_tick": 3080
+    },
+    {
+      "file": "cases/test_m090_d12_calibrated_interval/task/images/03120.jpg",
+      "sha256": "197e9b82750c1e8d3bb325dd4480524ba9bab33675efc1ae682662359ec4d224",
+      "native_time_s": 18.133334279060364,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "native_rgb_sha256": "0abd06656badf018f71fe9b4465d1e957934e2adae2a8140bbe29fe42c730656",
+      "task_tick": 3120
+    },
+    {
+      "file": "cases/test_m090_d12_calibrated_interval/task/images/03160.jpg",
+      "sha256": "0b8e6b7bc8a88836d4d0bae013c31337683435a946c9e2ae406929327955e91b",
+      "native_time_s": 18.300000954419374,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "native_rgb_sha256": "e848b00d8e98550440dd643b06bf01c85fce458efa8be88a53bdba53f4b90c31",
+      "task_tick": 3160
+    },
+    {
+      "file": "cases/test_m090_d12_calibrated_interval/task/images/03200.jpg",
+      "sha256": "9c434b9adf6934c3c4a13099eea69cf10d54df074986c6546e5a6316cafcba8c",
+      "native_time_s": 18.466667629778385,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "native_rgb_sha256": "e2a486df158a423b97cc4793a1ead6b61ecec72affe49ec3e69176c1ad04f79d",
+      "task_tick": 3200
+    },
+    {
+      "file": "cases/test_m090_d12_calibrated_interval/task/images/03240.jpg",
+      "sha256": "5a17a7aefe5e318c0803a34e003e3aed303091ccdfffb358ef944bcdf4184ad3",
+      "native_time_s": 18.633334305137396,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "native_rgb_sha256": "a220d4a3507dde05400a178841dcfeeabb7f8ec98c293ffc874da2de321c004a",
+      "task_tick": 3240
+    },
+    {
+      "file": "cases/test_m090_d12_calibrated_interval/task/images/03280.jpg",
+      "sha256": "6c7001bf836be10e7c1bb98e00ee4ecfc77925c30f2bd9b265fab01db3f1911d",
+      "native_time_s": 18.800000980496407,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "native_rgb_sha256": "c26d5d87d0d19c038afa220f4b1501be04c9fd0303cfa03d257e20bfd8c45345",
+      "task_tick": 3280
+    },
+    {
+      "file": "cases/test_m090_d12_calibrated_interval/task/images/03320.jpg",
+      "sha256": "0376ab953e6fb9264543ed666ea00d8e1e235c3bc98ab1e8c71e52dec744dd40",
+      "native_time_s": 18.966667655855417,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "native_rgb_sha256": "d9cd60002aba916dc9be6f6127921eec88411f18b3415b1da17a7fc3310c0112",
+      "task_tick": 3320
+    },
+    {
+      "file": "cases/test_m090_d12_calibrated_interval/task/images/03360.jpg",
+      "sha256": "c6ba65e6bf230b07030d8619669ea81383695f0bddfdb58b79c1e15b1d8fa45e",
+      "native_time_s": 19.133334331214428,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "native_rgb_sha256": "dcfd47899d384fa173c53aeec80b611ed4bc54d4fd76c814e113f8d9eaed9e6f",
+      "task_tick": 3360
+    },
+    {
+      "file": "cases/test_m090_d12_calibrated_interval/task/images/03400.jpg",
+      "sha256": "d7dce3c47e6a815b27a0b36622b015d4b42579e77d49cf4444ed68984b2615cc",
+      "native_time_s": 19.30000100657344,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "native_rgb_sha256": "fe63bba03c4fcd8271cf7a3050cb390a6db54f7a2ac200840c3d02435b09be19",
+      "task_tick": 3400
+    },
+    {
+      "file": "cases/test_m090_d12_calibrated_interval/task/images/03440.jpg",
+      "sha256": "cc953d14851268a41dd1b7d257927b0db7be7d48862fdf6e80df5c90314acb55",
+      "native_time_s": 19.46666768193245,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "native_rgb_sha256": "04c5783195e5159c468681290d9b1c490699df0e84d2dbc1792b09e8fd155f31",
+      "task_tick": 3440
+    },
+    {
+      "file": "cases/test_m090_d12_calibrated_interval/task/images/03480.jpg",
+      "sha256": "f7b811c18906d067b28c206f1fd85ef665e7d256b724e38819531ff68be45e5c",
+      "native_time_s": 19.63333435729146,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "native_rgb_sha256": "f0afd4184dca230f9ca41706e78d7bcf483f3dce9526b405351b28573f080ebd",
+      "task_tick": 3480
+    },
+    {
+      "file": "cases/test_m090_d12_calibrated_interval/task/images/03520.jpg",
+      "sha256": "e3bcdebeb33eabcd0e4b2af755f76d62053687faf9948db2c95d089cda9659e4",
+      "native_time_s": 19.80000103265047,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "native_rgb_sha256": "fdd28b5bff8cdf5b3919391265f54cd332a38d03ade6842aa3204a5d63147256",
+      "task_tick": 3520
+    },
+    {
+      "file": "cases/test_m090_d12_calibrated_interval/task/images/03560.jpg",
+      "sha256": "9b0ecc3939e95da0b5a8e5c695503cb6ab7273442987326ad15351bd08e46f43",
+      "native_time_s": 19.96666770800948,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "native_rgb_sha256": "970a45df33ddb6630a26eeb0739b515a583a7adfbb9186339f8ab9e82f13baf2",
+      "task_tick": 3560
+    },
+    {
+      "file": "cases/test_m090_d12_calibrated_interval/task/images/03600.jpg",
+      "sha256": "4c7647ebc57d5248cc3fd044b1c76020d96a9d185fad7208127fe41a62cc119b",
+      "native_time_s": 20.133334383368492,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "native_rgb_sha256": "fb874c744e87eabde53f330238d6cfeac42a1bb74665e39229a90d007027716b",
+      "task_tick": 3600
+    },
+    {
+      "file": "cases/test_m090_d12_calibrated_interval/task/images/03640.jpg",
+      "sha256": "758c1b23c647daed911ea6b3629e3c1c97fe1e7bd570e3bb0e314dccaf81561b",
+      "native_time_s": 20.300001058727503,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "native_rgb_sha256": "18218d23679532c075f7bbdad8114eadacaeca02bc90c72b1362065c08f98f30",
+      "task_tick": 3640
+    },
+    {
+      "file": "cases/test_m090_d12_calibrated_interval/task/images/03680.jpg",
+      "sha256": "d42cf365adba16e56c0e8821033076e7c789c9819a6533c8dbf6a646cfee652d",
+      "native_time_s": 20.466667734086514,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "native_rgb_sha256": "85f3a2b4f1416d4c877ee785bc16c1a43c631f88430b6679164e32acec5dab08",
+      "task_tick": 3680
+    },
+    {
+      "file": "cases/test_m090_d12_calibrated_interval/task/images/03720.jpg",
+      "sha256": "a07bff2c948f994856d3fd5ae2178f1faf8906427c609a78869f6bdcc6c46cc0",
+      "native_time_s": 20.633334409445524,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "native_rgb_sha256": "732884ea335406a5f0397a8d4b0b660d32cec8db169a02960f8c547d3437407f",
+      "task_tick": 3720
+    },
+    {
+      "file": "cases/test_m090_d12_calibrated_interval/task/images/03760.jpg",
+      "sha256": "6faefccd175c45c4b60f1b1a5b0e72dececd37e66f2ebee7da107147d4ceaf7f",
+      "native_time_s": 20.800001084804535,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "native_rgb_sha256": "6c04722e2915e00cb6fd3cdd59ae612e487d7fe1f9c5755c59b6dead655ad0a0",
+      "task_tick": 3760
+    },
+    {
+      "file": "cases/test_m090_d12_calibrated_interval/task/images/03800.jpg",
+      "sha256": "8bd99313974812dd9f63ba0c928ca63140005defa7651a36ba0045eb7837540e",
+      "native_time_s": 20.966667760163546,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "native_rgb_sha256": "dd1a700e63c2fb509082553494458a728884de125d3a2ffcab135da467181812",
+      "task_tick": 3800
+    },
+    {
+      "file": "cases/test_m090_d12_calibrated_interval/task/images/03840.jpg",
+      "sha256": "08d7a246f933da45f64f05018707ed3a20e43f89524868b5c87a3282f04f63ae",
+      "native_time_s": 21.133334435522556,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "native_rgb_sha256": "680e08e70cb774dcb703a2451088401eae56c62177e8ae5d34e8234830d78473",
+      "task_tick": 3840
+    },
+    {
+      "file": "cases/test_m090_d12_calibrated_interval/task/images/03880.jpg",
+      "sha256": "e0f1dca66d6c7cda3c342f69725e38c95f9144048c58e672eeee8d2f3bf7d788",
+      "native_time_s": 21.300001110881567,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "native_rgb_sha256": "a1f8de58f86b760e82720d46146bac239ccbf6c75920043451fca03b966bf2b6",
+      "task_tick": 3880
+    },
+    {
+      "file": "cases/test_m090_d12_calibrated_interval/task/images/03920.jpg",
+      "sha256": "7667703900f3bab7c30b9e9a8eba68a812e51ba5e1593972175ab6b0f3556203",
+      "native_time_s": 21.466667786240578,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "native_rgb_sha256": "adf6b58330860180e46ae381a178acee61d2b4679c3e8041f8d25e843e9f4844",
+      "task_tick": 3920
+    },
+    {
+      "file": "cases/test_m090_d12_calibrated_interval/task/images/03960.jpg",
+      "sha256": "e31804f865d97638789751d0f09b02b9fe43354f3aecb7d23e49acc3237789d6",
+      "native_time_s": 21.63333446159959,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "native_rgb_sha256": "8ac73926c91be5b76df3e93354891ff3b2e909ce939858c78329af3ac2aed981",
+      "task_tick": 3960
+    },
+    {
+      "file": "cases/test_m090_d12_calibrated_interval/task/images/04000.jpg",
+      "sha256": "a238fe3fbd32759678917f8bb663cddcb81688bf96301fab429b8a58ee99732a",
+      "native_time_s": 21.8000011369586,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "native_rgb_sha256": "d704e5ab192f701303d4dff9994cf556c22282b36b0edca16c42e64a33f6d368",
+      "task_tick": 4000
+    },
+    {
+      "file": "cases/test_m090_d12_calibrated_interval/task/images/04040.jpg",
+      "sha256": "f94eae601b9972f1e4042ac4b8be2e023c67bd806b9179d8d4b319c2e157f244",
+      "native_time_s": 21.96666781231761,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "native_rgb_sha256": "13e0646cef0e3bfd2f64e13fff927e3380d6501e43b4d917d52a11962e6a9ffc",
+      "task_tick": 4040
+    },
+    {
+      "file": "cases/test_m090_d12_calibrated_interval/task/images/04080.jpg",
+      "sha256": "407880ae3013c43ebfb25fb99c60d5cca07d711a2723c65372b2db98fc4f563e",
+      "native_time_s": 22.13333448767662,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "native_rgb_sha256": "3f246ac0635f52d4532851a6fd8e96efd03c55e9d796be5d3fd7bb4f3596abda",
+      "task_tick": 4080
+    },
+    {
+      "file": "cases/test_m090_d12_calibrated_interval/task/images/04120.jpg",
+      "sha256": "b05134b87ec198a4b13bb8fd0bf2f7d9741870c4812fe5e9b81301576cbcf716",
+      "native_time_s": 22.30000116303563,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "native_rgb_sha256": "5aab30fe44833e5290fcd64b6dd7a0c0d155eefc862076d615ab3c1f706a6091",
+      "task_tick": 4120
+    },
+    {
+      "file": "cases/test_m090_d12_calibrated_interval/task/images/04160.jpg",
+      "sha256": "8fd569c2b67db6f35be475952a141495cca5907915192e3a271400a3007edf55",
+      "native_time_s": 22.466667838394642,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "native_rgb_sha256": "1acd1d494b8c80ce08b9d146e1c2a9ee121a799d7e5d19e0f71eac6af7a1566b",
+      "task_tick": 4160
+    },
+    {
+      "file": "cases/test_m090_d12_calibrated_interval/task/images/04200.jpg",
+      "sha256": "0bc1ad398fef9e337495d762bbd0741910468680b8ea11c1b3825dbb5271225c",
+      "native_time_s": 22.633334513753653,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "native_rgb_sha256": "1e86025bfa5e8be7f674840b14d23e016b7041773aa4261214751054cc86dfe3",
+      "task_tick": 4200
+    },
+    {
+      "file": "cases/test_m090_d12_calibrated_interval/task/images/04240.jpg",
+      "sha256": "29a9d5e0a9b8765776d6f8433bc359d1d8757231cef774d97b2850c9140b9ed4",
+      "native_time_s": 22.800001189112663,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "native_rgb_sha256": "492d873d6aba6e0130541b65acb8976cbcaed9a68d8518dd9f23c13ca11958b2",
+      "task_tick": 4240
+    },
+    {
+      "file": "cases/test_m090_d12_calibrated_interval/task/images/04280.jpg",
+      "sha256": "1b0d3fbe966601cef626ae187c3ec7dbe18c684e653b9710f27d6598b8b5b7fc",
+      "native_time_s": 22.966667864471674,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "native_rgb_sha256": "aa79a4bdf7227a791263cc348ae0100f3fce21b932bc632a59dbf89fd9ca1658",
+      "task_tick": 4280
+    },
+    {
+      "file": "cases/test_m090_d12_calibrated_interval/task/images/04320.jpg",
+      "sha256": "230f8ba84f80902bb74bfda19e0aac459fc9a55049210cac8f136be70ae2d5b9",
+      "native_time_s": 23.133334539830685,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "native_rgb_sha256": "2e0fba422f94ab3187e89e99b54db97ad6b3cfa3f8c047bf22d390d82544ac34",
+      "task_tick": 4320
+    },
+    {
+      "file": "cases/test_m090_d12_calibrated_interval/task/images/04360.jpg",
+      "sha256": "eb2de7d0ec1bf433fb79c4a505ecc62bd9b268a4b827f5d7ae5f69eafa802766",
+      "native_time_s": 23.300001215189695,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "native_rgb_sha256": "130d81649deefe212aeca7cf1dffee174a62b5cd574a15b41e0f525a797c0e83",
+      "task_tick": 4360
+    },
+    {
+      "file": "cases/test_m090_d12_calibrated_interval/task/images/04400.jpg",
+      "sha256": "875cb74af82aa485a20ddb15b692a096e28529bed08ccfc4ad4b00947718b669",
+      "native_time_s": 23.466667890548706,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "native_rgb_sha256": "4758f03e14401ba94199e6df58959dff720d75cfedec6a67a6c722170b97197c",
+      "task_tick": 4400
+    },
+    {
+      "file": "cases/test_m090_d12_calibrated_interval/task/images/04440.jpg",
+      "sha256": "c6c8c4c87e598b8a2a2c038e7676f45aa53ddece8ecd00fc4ac83fcde790fdbe",
+      "native_time_s": 23.633334565907717,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "native_rgb_sha256": "44ca567c761487bb7622d969531a6804def7f314c470a5b4ba8d0437e76e5fe0",
+      "task_tick": 4440
+    },
+    {
+      "file": "cases/test_m090_d12_calibrated_interval/task/images/04480.jpg",
+      "sha256": "08c2b4206fac64df8ae74a8b38d3d58a728eb593d69cd8d93cee1ebbc47cceaf",
+      "native_time_s": 23.800001241266727,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "native_rgb_sha256": "03fd01da2768eff2d8401c819a7e9dcdc53a750908f87ac7166d2c4950b35524",
+      "task_tick": 4480
+    },
+    {
+      "file": "cases/test_m090_d12_calibrated_interval/task/images/04520.jpg",
+      "sha256": "f2e55d3269ce6d93a09da7f7d32871cd922304fdc52f0618ef5a381ff4855b89",
+      "native_time_s": 23.966667916625738,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "native_rgb_sha256": "b4b2ae44da0a9133d64995377abff956491dcf4a3bf0693742954f01ca10e6c9",
+      "task_tick": 4520
+    },
+    {
+      "file": "cases/test_m090_d12_calibrated_interval/task/images/04560.jpg",
+      "sha256": "78a51ce1cf5726a9832524a9944ed7fb909d799cd2c7257214f6629ad80d8e87",
+      "native_time_s": 24.13333459198475,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "native_rgb_sha256": "3b27a8cbe2d29c8b25009516023c58622b61fd7f760ff06f9b2f689fcfcd28de",
+      "task_tick": 4560
+    },
+    {
+      "file": "cases/test_m090_d12_calibrated_interval/task/images/04600.jpg",
+      "sha256": "cf06e1181ecf2d24e19d6c66358fb3189a962a858410934d4ae142f205d15e2a",
+      "native_time_s": 24.30000126734376,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "native_rgb_sha256": "0042332305924465959b3c29b738b0de83b2dcbccdfbc78f508a3cb49c8eda0a",
+      "task_tick": 4600
+    },
+    {
+      "file": "cases/test_m090_d12_calibrated_interval/task/images/04640.jpg",
+      "sha256": "19646be85d716466d49635dfe21e0e3eacbed57916b9c0e2f5d7be7c2b504aa9",
+      "native_time_s": 24.46666794270277,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "native_rgb_sha256": "105e080ec7c040d541e0937641855255af575b846a71af9900c5f6c00ee2b646",
+      "task_tick": 4640
+    },
+    {
+      "file": "cases/test_m090_d12_calibrated_interval/task/images/04680.jpg",
+      "sha256": "d169e4c9e26fe5a558513dc33c513c9babb46c0ad6dec774123ff3e99e426421",
+      "native_time_s": 24.63333461806178,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "native_rgb_sha256": "c4d802e80f0ed10746d44cffb1166eeeae06c1b6df9e8b702f0b65604ad863c5",
+      "task_tick": 4680
+    },
+    {
+      "file": "cases/test_m090_d12_calibrated_interval/task/images/04720.jpg",
+      "sha256": "cb7bfd6c74a73429ed37128ca585b4b9840207a480687a4404044c14299063af",
+      "native_time_s": 24.80000129342079,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "native_rgb_sha256": "02019beb8ca387c2ec2ef1b710bf5222a2a96c1b7acd45affb29c978ea0a1141",
+      "task_tick": 4720
+    },
+    {
+      "file": "cases/test_m090_d12_calibrated_interval/task/images/04760.jpg",
+      "sha256": "0f6dfd6aee8af51863de670cd57ab45ba0377ca6c259b55cf840e5890f5d0c3e",
+      "native_time_s": 24.966667968779802,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "native_rgb_sha256": "69673c368ae6672defc0d72d5e61b94174709bf6bea2c700be8a2bf463a30335",
+      "task_tick": 4760
+    },
+    {
+      "file": "cases/test_m090_d12_calibrated_interval/task/images/04800.jpg",
+      "sha256": "872e5c6b9df499f333c33a4c234e6d41bf29561c51c6ae5b3870f850c914a7cc",
+      "native_time_s": 25.133334644138813,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "native_rgb_sha256": "36d98999d2c51be0e3fd9db7d00fa75e433dcacbe9924158ea334dc7e473b957",
+      "task_tick": 4800
+    },
+    {
+      "file": "cases/test_m090_d12_calibrated_interval/task/images/04840.jpg",
+      "sha256": "bfcd4b4b53a6250e2818883fb209370837090d7af5f1f8f2cdfc2ba72ea9026e",
+      "native_time_s": 25.300001319497824,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "native_rgb_sha256": "cf7c9b54fe78070e5e2ab83a2543c68f7e485129b94efce20d520e21c2b49864",
+      "task_tick": 4840
+    },
+    {
+      "file": "cases/test_m090_d12_calibrated_interval/task/images/04880.jpg",
+      "sha256": "7f1a9342d4f30a6d049e1dbd991d3a4ac3c9c8c194451f38618a1d73e54a89d9",
+      "native_time_s": 25.466667994856834,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "native_rgb_sha256": "b49d973e2cf879d85d9ea2862ed70a9b4261239cf4a6ccd5669f33b25057d54b",
+      "task_tick": 4880
+    },
+    {
+      "file": "cases/test_m090_d12_calibrated_interval/task/images/04920.jpg",
+      "sha256": "f21458a642a7f595a30b16a422f40c7783a81d117ae8b11bff4050ce5d12b276",
+      "native_time_s": 25.633334670215845,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "native_rgb_sha256": "7415f262180dbf512dd09ab1fe889d2bed7ff483783266071e48785c86d03b73",
+      "task_tick": 4920
+    },
+    {
+      "file": "cases/test_m090_d12_calibrated_interval/task/images/04960.jpg",
+      "sha256": "0f54a7a035ea941382727d3f6aca63ed55b689d97962752a17aad8c655b33c03",
+      "native_time_s": 25.800001345574856,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "native_rgb_sha256": "129a61ecf814fe642008cce391426db6165ac9433fa64c5342f23d14ad3354a3",
+      "task_tick": 4960
+    },
+    {
+      "file": "cases/test_m090_d12_calibrated_interval/task/images/05000.jpg",
+      "sha256": "8627fe5ac250f79eee2cb91a40081a29fad0af39f2f64618cd984e649c89a588",
+      "native_time_s": 25.966668020933867,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "native_rgb_sha256": "4f9e4b295760c0d428481817b6e413122a29d49f4658f18ff0b838a6286162bf",
+      "task_tick": 5000
+    },
+    {
+      "file": "cases/test_m090_d12_calibrated_interval/task/images/05040.jpg",
+      "sha256": "8ac64b4729889cbf2c5bf0025cccb7fd37ea2788d999092d53a2f3690194acee",
+      "native_time_s": 26.133334696292877,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "native_rgb_sha256": "f80f26660644111c3aaffe2d943c02572725ac1654f74b0249a7b9aad3bac583",
+      "task_tick": 5040
+    },
+    {
+      "file": "cases/test_m090_d12_calibrated_interval/task/images/05080.jpg",
+      "sha256": "84c1f49f02906db79c6d8e1ce84cde1aeed95f8f0c07be7701e7e025fc1a6b8e",
+      "native_time_s": 26.300001371651888,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "native_rgb_sha256": "f68b3865ceb185287b9da25f86bc3e23b88ea3bff06c1fdd88cb02b4884fd954",
+      "task_tick": 5080
+    },
+    {
+      "file": "cases/test_m090_d12_calibrated_interval/task/images/05120.jpg",
+      "sha256": "d3e3a5da860b1a3cb3fec81b5bb564d0bd9d574b2937f16eba5579a4bf2dac84",
+      "native_time_s": 26.4666680470109,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "native_rgb_sha256": "f8180c143335ee06c6bb6e78dfb5fba6df815d218eee73ea57ee60cf51dfeba2",
+      "task_tick": 5120
+    },
+    {
+      "file": "cases/test_m090_d12_calibrated_interval/task/images/05160.jpg",
+      "sha256": "102dff8bc4ccbde50fdfa7f991aebc0643c0ef0ca5cbcfc3103784015a76dcea",
+      "native_time_s": 26.63333472236991,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "native_rgb_sha256": "d54d3d2601b503ec9566846d60aebeb9b7b5aee9f26d315c891108b14327d5e6",
+      "task_tick": 5160
+    },
+    {
+      "file": "cases/test_m090_d12_calibrated_interval/task/images/05200.jpg",
+      "sha256": "31d2cee891715cf5629012a7493e1402640e314f2cfaf345df857c6f559a3169",
+      "native_time_s": 26.80000139772892,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "native_rgb_sha256": "009a12915576e34128d99f53fb7ba4405c21d527fba2184c51457f013ab18c07",
+      "task_tick": 5200
+    },
+    {
+      "file": "cases/test_m090_d12_calibrated_interval/task/images/05240.jpg",
+      "sha256": "662eff59e43097d016537a1e26f99a9bc6242a573e638352970fe26d4cf65e8b",
+      "native_time_s": 26.96666807308793,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "native_rgb_sha256": "dfc9a3d327063d4ca0aceb28e1b9ef6dd6a62abba975b4cc008c6e9a82954d09",
+      "task_tick": 5240
+    },
+    {
+      "file": "cases/test_m090_d12_calibrated_interval/task/images/05280.jpg",
+      "sha256": "be72ceb03f62c8285309f5f532c8a135ff17849128355f624a4b5a7827fafd63",
+      "native_time_s": 27.13333474844694,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "native_rgb_sha256": "0eb6deee144e75f67a6cda01c3c16f4d4d518a3b78feb2991942f510db2bf934",
+      "task_tick": 5280
+    },
+    {
+      "file": "cases/test_m090_d12_calibrated_interval/task/images/05320.jpg",
+      "sha256": "048c5baa346c57d528ee08534b94b2e38f94cf098fbc59539b3ec32f451e3d50",
+      "native_time_s": 27.300001423805952,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "native_rgb_sha256": "78b89d017f7f52d4dc218bf4e083ceb809520ada7ab89b5823205a5057850476",
+      "task_tick": 5320
+    },
+    {
+      "file": "cases/test_m090_d12_calibrated_interval/task/images/05360.jpg",
+      "sha256": "0d95cdddacfd4b3b6e5e00467bd04436b61d14fb176cb5758351700e062875f7",
+      "native_time_s": 27.466668099164963,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "native_rgb_sha256": "58329c52bc2a57082a721c86abd7ed62116c56b4adb3d41e0fee77f303cc9cab",
+      "task_tick": 5360
+    },
+    {
+      "file": "cases/test_m090_d12_calibrated_interval/task/images/05400.jpg",
+      "sha256": "70baa3f9bfcd5300d24f79dca06a613efb437da32898843df89719d2bfd29e2e",
+      "native_time_s": 27.633334774523973,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "native_rgb_sha256": "cc75821e188b0f642d1e4ae50efa6d69b553c96a7677b464e09f6cd7ba5bc098",
+      "task_tick": 5400
+    },
+    {
+      "file": "cases/test_m090_d12_calibrated_interval/task/images/05440.jpg",
+      "sha256": "baf2608e2b2bacd569cad9c1e1c59a4e0fc01eedd1fb6264e17b0b7029350344",
+      "native_time_s": 27.800001449882984,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "native_rgb_sha256": "532e9e50fa7c42e66a3ebb8c6a61852dd50ce446958123820058e052de1e1b1e",
+      "task_tick": 5440
+    },
+    {
+      "file": "cases/test_m090_d12_calibrated_interval/task/images/05480.jpg",
+      "sha256": "84591a0ebc9904bca31d881a3b34112ff91c1429a73b5d9fd49787cd7f9e0e80",
+      "native_time_s": 27.966668125241995,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "native_rgb_sha256": "256c81da6a261429e59b1304e0f715b5f19c764fcf77f841fcc8a2df08eb50df",
+      "task_tick": 5480
+    },
+    {
+      "file": "cases/test_m090_d12_calibrated_interval/task/images/05520.jpg",
+      "sha256": "1e5ff6bbe0a268ba8b8df994cc43932b9f00ab786fa1400f5b586a8f35f2a20c",
+      "native_time_s": 28.133334800601006,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "native_rgb_sha256": "3b893a857a0b1021cb2b4572043d24b56ea6f4844b6e90fba60974e33b294a0a",
+      "task_tick": 5520
+    },
+    {
+      "file": "cases/test_m090_d12_calibrated_interval/task/images/05560.jpg",
+      "sha256": "a99b919f62527d860a65b1f8db205d9e57ad82e293fed80da956c3d49c600a10",
+      "native_time_s": 28.300001475960016,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "native_rgb_sha256": "31437b448dc3f511b8b073c73d7a2a48f9d2d0071aaee35318c9ffe5ae56b82e",
+      "task_tick": 5560
+    },
+    {
+      "file": "cases/test_m090_d12_calibrated_interval/task/images/05600.jpg",
+      "sha256": "0062d6bdcd3687637bcd598ffdd4f882acbc21b539f15fd78a7f67f9c34a237e",
+      "native_time_s": 28.466668151319027,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "native_rgb_sha256": "e0be92900574b4cb29e1eacd95005d995383ef01a4fd5cffb46db7d696b5d435",
+      "task_tick": 5600
+    },
+    {
+      "file": "cases/test_m090_d12_calibrated_interval/task/images/05640.jpg",
+      "sha256": "30f15313aaac2793d0cb973bd927412a19eec12baf49ab732e82f0e8993df56a",
+      "native_time_s": 28.633334826678038,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "native_rgb_sha256": "e1f0c4c804e43ce4fea5bb000b8312e8e76f1aa7d4bb5afc8bd92ccb4011144a",
+      "task_tick": 5640
+    },
+    {
+      "file": "cases/test_m090_d12_calibrated_interval/task/images/05680.jpg",
+      "sha256": "f7e50a6fe477b71acd8f12099a948810faae786c34ec9f566a0fe8c70fee4096",
+      "native_time_s": 28.80000150203705,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "native_rgb_sha256": "5c1ea88bfe1295d0cb24b25704161e740770641ec0f90cad8fa9b5ab59e500e6",
+      "task_tick": 5680
+    },
+    {
+      "file": "cases/test_m090_d12_calibrated_interval/task/images/05720.jpg",
+      "sha256": "294654b16d07e6731d094525dee58f355e61c77d304603ab40fba987d9e471c9",
+      "native_time_s": 28.96666817739606,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "native_rgb_sha256": "5232f13256d820b6488a9a54af9ccd86dfe55075d58cf14380ed587a5d63a7a2",
+      "task_tick": 5720
+    },
+    {
+      "file": "cases/test_m090_d12_calibrated_interval/task/images/05760.jpg",
+      "sha256": "7a944dd793760c7b2e6d0fc08478af816ce8a8bc9504c5996390fe244170677f",
+      "native_time_s": 29.13333485275507,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "native_rgb_sha256": "c18f00432168c906b0158b2bafa8510f2c42cf12c2926c4953c7d73bee88352a",
+      "task_tick": 5760
+    },
+    {
+      "file": "cases/test_m090_d12_calibrated_interval/task/images/05800.jpg",
+      "sha256": "8b41972bb490cbaaef380d9f274381619a98031d14eef43be8c94f61ae3fb211",
+      "native_time_s": 29.30000152811408,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "native_rgb_sha256": "cddbddfbd32024ff830c5da9f609204ab274bd862e752314fbcce9b612f2f58e",
+      "task_tick": 5800
+    },
+    {
+      "file": "cases/test_m090_d12_calibrated_interval/task/images/05840.jpg",
+      "sha256": "44b280050075f06b0183c6c3e248d9fe33388915fb5c821ec6209653c9d39bdb",
+      "native_time_s": 29.46666820347309,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "native_rgb_sha256": "59323aa4ef53e3cec3ba8cd194f101ab99fce55723f99bc1af21ad11738eec69",
+      "task_tick": 5840
+    },
+    {
+      "file": "cases/test_m090_d12_calibrated_interval/task/images/05880.jpg",
+      "sha256": "d47a816bd1a33068aedb886ffec7dc06f3003603f3479cd7476cfea784b85994",
+      "native_time_s": 29.633334878832102,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "native_rgb_sha256": "e4b3973dad7af1f98b88358d3da71944c0359c65360f17ded40bfbbabb8167b2",
+      "task_tick": 5880
+    },
+    {
+      "file": "cases/test_m090_d12_calibrated_interval/task/images/05920.jpg",
+      "sha256": "493004951c5d6f5627c15a14ec054e3ad7bcb7d27e19fb3c391bf285c02347b1",
+      "native_time_s": 29.800001554191113,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "native_rgb_sha256": "87847143147d005b335aaf6dd83831e17329a904ac074fe20def354c21f616b9",
+      "task_tick": 5920
+    },
+    {
+      "file": "cases/test_m090_d12_calibrated_interval/task/images/05960.jpg",
+      "sha256": "870e7ec2e69686d91b0d1ec26755f24da9987db65719e1e14c0297afd9acb8f6",
+      "native_time_s": 29.966668229550123,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "native_rgb_sha256": "c25f25f7c9e1df8a6ac0f1ecd49aa6cbd1301a617b441e1217e51b5edc1e3148",
+      "task_tick": 5960
+    },
+    {
+      "file": "cases/test_m090_d12_calibrated_interval/task/images/06000.jpg",
+      "sha256": "5963355e64c4d62b1ff0dc89a0d2da12377cc2e083d7281c8cadb18349f6510b",
+      "native_time_s": 30.133334904909134,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "native_rgb_sha256": "52449038695bd9f5c9e2f4c88c490d79000f1edadb9d29fc592cf6e22e3759ff",
+      "task_tick": 6000
+    },
+    {
+      "file": "cases/test_m090_d12_calibrated_interval/task/images/06040.jpg",
+      "sha256": "45a74ce038bfdff2c0ec1d1df9368f45a640f29fc7da80dba5fb3091ac3aa7dd",
+      "native_time_s": 30.300001580268145,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "native_rgb_sha256": "91da2e2f332b42371af5d118f4f60bfdec68aafe3d5f5ab9a08f28e973b6106c",
+      "task_tick": 6040
+    },
+    {
+      "file": "cases/test_m090_d12_calibrated_interval/task/images/06080.jpg",
+      "sha256": "12fc087e2b284ae62994acf60456620af9a38a1f94f4985300f253580aa6e7fd",
+      "native_time_s": 30.466668255627155,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "native_rgb_sha256": "e8c7836d552502b9e7d4db63e8e8e0c3f228b736e44c57d28bd245949f79fb5e",
+      "task_tick": 6080
+    },
+    {
+      "file": "cases/test_m090_d12_calibrated_interval/task/images/06120.jpg",
+      "sha256": "9227e1c4dbf2b92844c03f19c630caac2a78249e91e9c2ef080750348c3d14c8",
+      "native_time_s": 30.633334930986166,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "native_rgb_sha256": "361ec479cc24e1e4216652cec88e2652c5b21790d3fc7f69b2772a6ef1bdc147",
+      "task_tick": 6120
+    },
+    {
+      "file": "cases/test_m090_d12_calibrated_interval/task/images/06160.jpg",
+      "sha256": "339f0396ce9c5f658c6d7fd84754055a0ebc39cc8f25442c50c6f65abcf4f502",
+      "native_time_s": 30.800001606345177,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "native_rgb_sha256": "ddec3674741362a75e56b4ffe98e7c8f208261d2b1b3b7acef7941d60172dae0",
+      "task_tick": 6160
+    },
+    {
+      "file": "cases/test_m090_d12_calibrated_interval/task/images/06200.jpg",
+      "sha256": "26169d5fc4404bf6e99c7d778452cb18d07230e91cc95840a7d7ea24b495e9e4",
+      "native_time_s": 30.966668281704187,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "native_rgb_sha256": "9b3a7f1e69bcd0741c0ee803c8e119db30aaf715fbd502975f57c74e66e2a94d",
+      "task_tick": 6200
+    },
+    {
+      "file": "cases/test_m090_d12_calibrated_interval/task/images/06240.jpg",
+      "sha256": "c6304fb308cd144e5a7d6905d2df6fb53200e22403fdb2f682d0827ed9283666",
+      "native_time_s": 31.133334957063198,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "native_rgb_sha256": "244597ab69177703df694b1bdad8a26ca1e355a6e3cd734dbacc6e65d46b9b52",
+      "task_tick": 6240
+    },
+    {
+      "file": "cases/test_m090_d12_calibrated_interval/task/images/06280.jpg",
+      "sha256": "20139260d8e5cee71c0a5040f63a20f768b94369b128212721bcac9fbe85b8ed",
+      "native_time_s": 31.30000163242221,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "native_rgb_sha256": "0c206d1cf8b3f8183ecebb21f70c4f0e2df98f0277dafa6da6a432652967057f",
+      "task_tick": 6280
+    },
+    {
+      "file": "cases/test_m090_d12_calibrated_interval/task/images/06320.jpg",
+      "sha256": "958ab00de111d00d86a8b1e4a2eb11efcc2580ffd6a718e3689a67404b483ac4",
+      "native_time_s": 31.46666830778122,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "native_rgb_sha256": "4e0cf0cf56d4ae679b4e80c7df18ddd5ffc0a649bd1f801dd8c165a6267eca95",
+      "task_tick": 6320
+    },
+    {
+      "file": "cases/test_m090_d12_calibrated_interval/task/images/06360.jpg",
+      "sha256": "4efc0e7d8fdd7e998671506bbbaee6084a055dc21e7c0cf8cce74746616ad0dc",
+      "native_time_s": 31.63333498314023,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "native_rgb_sha256": "a167b09395978f6fdea29c342e28902c8f08456022481f0362eea3beeef3c730",
+      "task_tick": 6360
+    },
+    {
+      "file": "cases/test_m090_d12_calibrated_interval/task/images/06400.jpg",
+      "sha256": "f5ff2d3fc31ca134ef4fef38078891bcb976279c5def7ecb42de74b0b1f8272b",
+      "native_time_s": 31.80000165849924,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "native_rgb_sha256": "f3ad236f301366ad61d314836ce8b866820dd0f9b47bc57c429f528b241f6a9e",
+      "task_tick": 6400
+    },
+    {
+      "file": "cases/test_m090_d12_calibrated_interval/task/images/06440.jpg",
+      "sha256": "4e34fbfcdd2e2b18b2ccb9dad095a88ee164aa2b04338e9523f14d7b68c67dc7",
+      "native_time_s": 31.96666833385825,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "native_rgb_sha256": "afdd80f296c850dc9f073346828e0211b2ccdbfb19cf60a6a00ed1c8be8f2ea3",
+      "task_tick": 6440
+    },
+    {
+      "file": "cases/test_m090_d12_calibrated_interval/task/images/06480.jpg",
+      "sha256": "02911228198e4ff3f22c341ee987496c31ead6a2a3af07971f687aa26b2138d3",
+      "native_time_s": 32.13333500921726,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "native_rgb_sha256": "c1a86939b052438d78a5833b7371d0772a444f85ce9830d6366907ddbfc09825",
+      "task_tick": 6480
+    },
+    {
+      "file": "cases/test_m090_d12_calibrated_interval/task/images/06520.jpg",
+      "sha256": "8a835ff4e19cbb18c4df009188c8e0a6309625e872ac4c46a1aa1efcd62ba338",
+      "native_time_s": 32.30000168457627,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "native_rgb_sha256": "d8d54671ed61412d9b7e4a222d248f0e242d3f5d900fc0e2a2617410b13655dc",
+      "task_tick": 6520
+    },
+    {
+      "file": "cases/test_m090_d12_calibrated_interval/task/images/06560.jpg",
+      "sha256": "a3cb873dcd119829d5c6a1e535c7ba9f174d530e615e2aba359b8f087e9f2554",
+      "native_time_s": 32.466668359935284,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "native_rgb_sha256": "90e93ca8e4b1d9f2036fe5fae690620292815c783824c2b5918ee452def048e9",
+      "task_tick": 6560
+    },
+    {
+      "file": "cases/test_m090_d12_calibrated_interval/task/images/06600.jpg",
+      "sha256": "f98d906eb478eba69517ab1533be84cf2bc143fb9973d36426b9e2cc3697165b",
+      "native_time_s": 32.633335035294294,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "native_rgb_sha256": "21b2628e434a586b4b00d7942a71d77846e95733627a71d75bccd3b652b914c9",
+      "task_tick": 6600
+    },
+    {
+      "file": "cases/test_m090_d12_calibrated_interval/task/images/06640.jpg",
+      "sha256": "9843263ccb288412228c8832de20024473114a18fc9c39cdf7a70dd5a1a84a84",
+      "native_time_s": 32.800001710653305,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "native_rgb_sha256": "a61f8f579b4ca78dcb7146843ad9009963a0f3dc069c994cb79da5fccf356ae9",
+      "task_tick": 6640
+    },
+    {
+      "file": "cases/test_m090_d12_calibrated_interval/task/images/06680.jpg",
+      "sha256": "efdc994b3a4486ea9dd45d88d8f2179861b24da127e9c16bd8b1393f7365014d",
+      "native_time_s": 32.966668386012316,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "native_rgb_sha256": "781b117b90ca1e99f692d973dd1d61daedd2cb37f0452efb3b4df571671ec947",
+      "task_tick": 6680
+    },
+    {
+      "file": "cases/test_m090_d12_calibrated_interval/task/images/06720.jpg",
+      "sha256": "8aad9d25cfceaa149885687384a527d6006931325d3b494ba0d8182952c935dc",
+      "native_time_s": 33.133335061371326,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "native_rgb_sha256": "c7ffbdaba37871489db6cce964bee44ca376a6bf958afc72452dc52404c7c3d0",
+      "task_tick": 6720
+    },
+    {
+      "file": "cases/test_m090_d12_calibrated_interval/task/images/06760.jpg",
+      "sha256": "508cc9e1091ee88cb4b4ea9ed25e67970f843e3b656c36fce1c2e87a99da5d41",
+      "native_time_s": 33.30000173673034,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "native_rgb_sha256": "f26ed4562fa44793c625219fa863b27beb1703a6df665b8b3edfe73923332985",
+      "task_tick": 6760
+    },
+    {
+      "file": "cases/test_m090_d12_calibrated_interval/task/images/06800.jpg",
+      "sha256": "6841a9865eab5fbbf8a3d0845b2f3f523ff1d1098a41d8fa58ab4d3a8d7cd833",
+      "native_time_s": 33.46666841208935,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "native_rgb_sha256": "91bab5ad9c602a973e384325d2a978d80de6476edee96a7bc18ac365e01ad0fa",
+      "task_tick": 6800
+    },
+    {
+      "file": "cases/test_m090_d12_calibrated_interval/task/images/06840.jpg",
+      "sha256": "a06a0a72e31c74e770d34e994bebeb60f64a5a1e7bc805e73e66297f194c623c",
+      "native_time_s": 33.63333508744836,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "native_rgb_sha256": "f58818dc32f78f344408a26605e8da8d64d469ad7bdac66b66e2d258e948ed96",
+      "task_tick": 6840
+    },
+    {
+      "file": "cases/test_m090_d12_calibrated_interval/task/images/06880.jpg",
+      "sha256": "7dba3ef5addc89147958546bd076484edd076d18f17ad03553fa3d0d23e5491d",
+      "native_time_s": 33.80000176280737,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "native_rgb_sha256": "4d2d6d4418ac3f9959a8ec57589322cf5a4b93b9221b8129fbcc270f829ed44c",
+      "task_tick": 6880
+    },
+    {
+      "file": "cases/test_m090_d12_calibrated_interval/task/images/06920.jpg",
+      "sha256": "1ee3df0eb4d879b38a51aacd82bb5e6fb4b3c3c139ad45ad84ad021b4285660d",
+      "native_time_s": 33.96666843816638,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "native_rgb_sha256": "5447ab6ef91466740b179ec43a6f8e43eec8278150324c00e13535e65a0cf689",
+      "task_tick": 6920
+    },
+    {
+      "file": "cases/test_m090_d12_calibrated_interval/task/images/06960.jpg",
+      "sha256": "5aa103599d3acc767c0f4f3f6ccdb582c20b2431ce6976837d04a126320f7d9a",
+      "native_time_s": 34.13333511352539,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "native_rgb_sha256": "2739616c4657895726bcd724986e491b149545c2fe6f0061e1528667a0b82f4f",
+      "task_tick": 6960
+    },
+    {
+      "file": "cases/test_m090_d12_calibrated_interval/task/images/07000.jpg",
+      "sha256": "a37f5c05b3cd98144ec9939978f224daf7c9b5ce74a524ec771a5ea50c9ea563",
+      "native_time_s": 34.3000017888844,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "native_rgb_sha256": "d10a9bdda9fa214717c828ea12f31e9bc34009c1ac78a7a13b325fdcd7a2338c",
+      "task_tick": 7000
+    },
+    {
+      "file": "cases/test_m090_d12_calibrated_interval/task/images/07040.jpg",
+      "sha256": "aee89aaa1eb9f9c74aca525f706e41dd9718829f700cb74a8f00d331c0a1b559",
+      "native_time_s": 34.46666846424341,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "native_rgb_sha256": "5c3986ff4f96f3d85ddc1a507c53f4edc32cae19d721ee36da68bb45a55ac634",
+      "task_tick": 7040
+    },
+    {
+      "file": "cases/test_m090_d12_calibrated_interval/task/images/07080.jpg",
+      "sha256": "6ae247dfe85daccb005094cf3532bf801378254c6c067a24b2c950d0d4f39d80",
+      "native_time_s": 34.63333513960242,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "native_rgb_sha256": "90af96cb420e7757eefa1accb1908976bf7966ec79c25eebda64693b96cc8061",
+      "task_tick": 7080
+    },
+    {
+      "file": "cases/test_m090_d12_calibrated_interval/task/images/07120.jpg",
+      "sha256": "0cf443e73b003a71c892d11ccb4a83e220a6b1b483a185fb2c5e691f2d5229db",
+      "native_time_s": 34.80000181496143,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "native_rgb_sha256": "488a2244613c1fe0e2f2eea371d6268d3fa782f7b9405bdca6bd1db832dca3e3",
+      "task_tick": 7120
+    },
+    {
+      "file": "cases/test_m090_d12_calibrated_interval/task/images/07160.jpg",
+      "sha256": "5f9bcac08db6f6acb0f74cc823c1d9ebe8f7d56088394ba1eeb4e6ad6ba034fd",
+      "native_time_s": 34.966668490320444,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "native_rgb_sha256": "f27d0c5ffd499b4023862f3f76f93760091051b7b810e17a3de96f9fcd4459a9",
+      "task_tick": 7160
+    },
+    {
+      "file": "cases/test_m090_d12_calibrated_interval/task/images/07200.jpg",
+      "sha256": "dd4252c07196f1138fd37655d2e2d0e711087323c9acfa05ae030500a6827118",
+      "native_time_s": 35.133335165679455,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "native_rgb_sha256": "ce3d9986323465c9f67d5c26b6881cafa9215c0c4f9b34d54e36291232dbee3c",
+      "task_tick": 7200
+    },
+    {
+      "file": "cases/test_m090_d12_calibrated_interval/task/images/07240.jpg",
+      "sha256": "43e87e0a90ee1c0f6a911d74943fc9005400777627f2bb3070f6e7d8ef5f7684",
+      "native_time_s": 35.300001841038465,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "native_rgb_sha256": "644d2a51e3b1f1a19ee82ec43161e879d4bf4c1a8fc9b27918084a249eec6d8a",
+      "task_tick": 7240
+    },
+    {
+      "file": "cases/test_m090_d12_calibrated_interval/task/images/07280.jpg",
+      "sha256": "630492672861816951bcd8453539cfb1ebdf660e1262421c1bd960d4fffce727",
+      "native_time_s": 35.466668516397476,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "native_rgb_sha256": "1a11fe338bb72662572c8e69b191559d28d9174922d58c4781d269b06f75138f",
+      "task_tick": 7280
+    },
+    {
+      "file": "cases/test_m090_d12_calibrated_interval/task/images/07320.jpg",
+      "sha256": "3ef0bb3b86cc94a489b109e7073f034cb26cd06fc938ccad69fe9d5b6247bc1b",
+      "native_time_s": 35.63333519175649,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "native_rgb_sha256": "408d4048b4ba3fdb1977ea20572e36c2eea16132c535da3b4f5a36114bf8161c",
+      "task_tick": 7320
+    },
+    {
+      "file": "cases/test_m090_d12_calibrated_interval/task/images/07360.jpg",
+      "sha256": "c82f976a2d4b40c2609bed55439ab95297fb797f745757553f749ad84a74d943",
+      "native_time_s": 35.8000018671155,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "native_rgb_sha256": "e097c49dc2559e2858d00ff52e18178f9f909c2e397e62a66b7ef6e2b343b3ad",
+      "task_tick": 7360
+    },
+    {
+      "file": "cases/test_m090_d12_calibrated_interval/task/images/07400.jpg",
+      "sha256": "c6738ae57f1e2bbeb55dec1d7d007c09b5455246e0d28e346911c9176f362256",
+      "native_time_s": 35.96666854247451,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "native_rgb_sha256": "f43443473c3b655fd2536b01f6dd2f1597bebc25876ae2d84509f1e758278b1a",
+      "task_tick": 7400
+    },
+    {
+      "file": "cases/test_m090_d12_calibrated_interval/task/images/07440.jpg",
+      "sha256": "bfd12040bdc4c5ac25b835220a7dc38b90c1554a910bf37b5d8b86837b24dec1",
+      "native_time_s": 36.13333521783352,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "native_rgb_sha256": "98a7c21944628e86be2ef8c9ce36c4ee8f65ddb636c658bc30b5d267c3f0fd3d",
+      "task_tick": 7440
+    },
+    {
+      "file": "cases/test_m090_d12_calibrated_interval/task/images/07480.jpg",
+      "sha256": "84f627a834f153a9c3e3127d592f8f6723fa5c812703c778a83ed3047a7e47f3",
+      "native_time_s": 36.30000189319253,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "native_rgb_sha256": "9c07af52b15f9030bd2ab5c8e44b2a034c3d3df6782a39449d8e3ba8759c823c",
+      "task_tick": 7480
+    },
+    {
+      "file": "cases/test_m090_d12_calibrated_interval/task/images/07520.jpg",
+      "sha256": "8b30a1d6bdf82c00ccfb8ee0c051bae5f11b29a025c8831700f98f7888c214ab",
+      "native_time_s": 36.46666856855154,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "native_rgb_sha256": "67afb0ac034c0055f38452de3d1fca0ff52f1ef4c329908b128f1f902c4dc5d1",
+      "task_tick": 7520
+    },
+    {
+      "file": "cases/test_m090_d12_calibrated_interval/task/images/07560.jpg",
+      "sha256": "94323a52981cc831a772548495c1f326e4dcb589ab9bf0ad7d5c494cc2737e39",
+      "native_time_s": 36.63333524391055,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "native_rgb_sha256": "ab596a53129b38b3f3e1115cfe6ab532950d420eb12d3bb8b307ba7e3fdac15d",
+      "task_tick": 7560
+    },
+    {
+      "file": "cases/test_m090_d12_calibrated_interval/task/images/07600.jpg",
+      "sha256": "e1037211196499d3b0a3694dc61e2432c56c7b8ae3c1690654e6f8c94b62e455",
+      "native_time_s": 36.80000191926956,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "native_rgb_sha256": "88852b22e0064b277633b1b8a9ca91068a69e946ef1554da40bd1fffedfed12f",
+      "task_tick": 7600
+    },
+    {
+      "file": "cases/test_m090_d12_calibrated_interval/task/images/07640.jpg",
+      "sha256": "545e0e8a7bcacb14fe6d88c1c506047db4b7b91220721ab9fd85a741c3f16937",
+      "native_time_s": 36.96666859462857,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "native_rgb_sha256": "31b53bfb7c3a312688a69760ba387994995b6ff958293bfdc87f8f547f78e406",
+      "task_tick": 7640
+    },
+    {
+      "file": "cases/test_m090_d12_calibrated_interval/task/images/07680.jpg",
+      "sha256": "5e7b98a5ff1cf28033995a44f1b0a872833b35b488dcedfd6954de92a6f5e6c5",
+      "native_time_s": 37.13333526998758,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "native_rgb_sha256": "5e865f789a08c4361c2b724c3317d218a8c5b785df55cb2b4beb8dc014b422b7",
+      "task_tick": 7680
+    },
+    {
+      "file": "cases/test_m090_d12_calibrated_interval/task/images/07720.jpg",
+      "sha256": "51d210f2617560771c907f4a363977667ddc526aec37bc2ee1f4722a08c36096",
+      "native_time_s": 37.300001945346594,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "native_rgb_sha256": "5d1620a3555e8da2f85a8b57d754ad7e02d65cd08bab7ac9972627e2b509ddee",
+      "task_tick": 7720
+    },
+    {
+      "file": "cases/test_m090_d12_calibrated_interval/task/images/07760.jpg",
+      "sha256": "1d19f09d14cf38f95dd1f2a3a4fe9c7f4d1bb5080fa1a9ce022488455e7a3f8b",
+      "native_time_s": 37.466668620705605,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "native_rgb_sha256": "d31f0607de1d0d27ac686ef9145b7c67d32cf3cd7a887b07b7bd9a5cc85a7b14",
+      "task_tick": 7760
+    },
+    {
+      "file": "cases/test_m090_d12_calibrated_interval/task/images/07800.jpg",
+      "sha256": "3be61477c62f91d16a1e799afab42ff0a9fee8d007f54bbf945c78008da1d9d0",
+      "native_time_s": 37.633335296064615,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "native_rgb_sha256": "8df9affc7061ad5f3679682ee2e81f0a147ce99cc476a01b7c3055f74683f827",
+      "task_tick": 7800
+    },
+    {
+      "file": "cases/test_m090_d12_calibrated_interval/task/images/07840.jpg",
+      "sha256": "844eda61cce2cbea23eaeed1befdc66388175c5ba1c28de3afbdc781dc85aa45",
+      "native_time_s": 37.800001971423626,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "native_rgb_sha256": "f53fdbcff45503d34af8fe6bb70c4f2941769df95bc084ca72b4633818e6873a",
+      "task_tick": 7840
+    },
+    {
+      "file": "cases/test_m090_d12_calibrated_interval/task/images/07880.jpg",
+      "sha256": "1ff2f66456e312dfa468f3d2762a6877e1d25ce92a478826b6a1b5cbe81ba117",
+      "native_time_s": 37.96666864678264,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "native_rgb_sha256": "36f7faf8e6f9a49cadd11cf9d94e022b3a2911455a98cce11495825d9ddac1ca",
+      "task_tick": 7880
+    },
+    {
+      "file": "cases/test_m090_d12_calibrated_interval/task/images/07920.jpg",
+      "sha256": "69dc44c2ca4b59ca9265dcba5b10cdb01b1793634ddee4ce01926ffc513622f7",
+      "native_time_s": 38.13333532214165,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "native_rgb_sha256": "365fe9517d35560473c1c5b712b19ac9c93ac6d144a03460532a8bc0cb47d084",
+      "task_tick": 7920
+    },
+    {
+      "file": "cases/test_m090_d12_calibrated_interval/task/images/07960.jpg",
+      "sha256": "00e4ae0f12b2e9f1bc7ccbc03ed9566686e83bcfae6ee0e35bb13feb25ebcde0",
+      "native_time_s": 38.30000199750066,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "native_rgb_sha256": "16d3166cf5acab418b2fc8805356538ddfe6db7074d27c478bee4f7e6acd3e1f",
+      "task_tick": 7960
+    },
+    {
+      "file": "cases/test_m090_d12_calibrated_interval/task/images/08000.jpg",
+      "sha256": "2fd188961b44843ae4160aa8fa8c1bda66915bb0880e82b94a372d50ff7f431f",
+      "native_time_s": 38.46666867285967,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "native_rgb_sha256": "f739d842f5d7d1a65df8579a55c7dbc9cd0894da0b931ad6d84039be108c9255",
+      "task_tick": 8000
+    },
+    {
+      "file": "cases/test_m090_d12_calibrated_interval/task/images/08040.jpg",
+      "sha256": "dbe2aeff2e1e83260ae4df088483cd77544ab09d96a64f3403bb7009cf71d5ea",
+      "native_time_s": 38.63333534821868,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "native_rgb_sha256": "8f659060c1c7ff2e0d062505fe217a414d62c797ba0b3a49312f285852bfb4ef",
+      "task_tick": 8040
+    },
+    {
+      "file": "cases/test_m090_d12_calibrated_interval/task/images/08080.jpg",
+      "sha256": "3767b7106b1ab38ab91daf355ea89e8c0c0f1b972f67989db14071caf642fe96",
+      "native_time_s": 38.80000202357769,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "native_rgb_sha256": "abd2b8e2b855eb4d29420efd32bbd8ef860cc947f7429bd4dd1a73e68a0efef2",
+      "task_tick": 8080
+    },
+    {
+      "file": "cases/test_m090_d12_calibrated_interval/task/images/08120.jpg",
+      "sha256": "904eefb3d73a9bedd7481cba1faebe6d675caabd1475fe2966245df6c51ae78c",
+      "native_time_s": 38.9666686989367,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "native_rgb_sha256": "05633bb09ac9079cad4aa71c6bbd7391b12af387a26d54a147623294aa1d94fd",
+      "task_tick": 8120
+    },
+    {
+      "file": "cases/test_m090_d12_calibrated_interval/task/images/08160.jpg",
+      "sha256": "3c086a23adff5955fe0b539380fc92118339c7706ae0c4a2711e806769ed59bb",
+      "native_time_s": 39.13333537429571,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "native_rgb_sha256": "fcff2e643c5d3403a65f8df0e98103cdb7d5dca556b2670e9142c4c0e447ffa3",
+      "task_tick": 8160
+    },
+    {
+      "file": "cases/test_m090_d12_calibrated_interval/task/images/08200.jpg",
+      "sha256": "f87bbbf880c6ce955091f0ca1a39e4db634c214429a632d67d661674dba41447",
+      "native_time_s": 39.30000204965472,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "native_rgb_sha256": "d31ddb45335c0dc189fc21b1bf42f894c429839aec9765a3ac76b825edf02c06",
+      "task_tick": 8200
+    },
+    {
+      "file": "cases/test_m090_d12_calibrated_interval/task/images/08240.jpg",
+      "sha256": "b61c828ae7ae1c3663fc0be505ddfbd2733a313af006d133859b8c908561ca9f",
+      "native_time_s": 39.46666872501373,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "native_rgb_sha256": "bcfd4b8caeaea766a946e341cb16235a8ed30e7522392af217b57339ae99d9af",
+      "task_tick": 8240
+    },
+    {
+      "file": "cases/test_m090_d12_calibrated_interval/task/images/08280.jpg",
+      "sha256": "dea1da4d1499b8813dcaaf418d047ec70bdf522911c6637ab5ec356f0b920633",
+      "native_time_s": 39.633335400372744,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "native_rgb_sha256": "2eabb4d528d6c51be353030daed36714e0e5670bcf38202e1d3312118f1e1b7c",
+      "task_tick": 8280
+    },
+    {
+      "file": "cases/test_m090_d12_calibrated_interval/task/images/08320.jpg",
+      "sha256": "43b732ba1ee485b82494b195406c2d5db662bd8942f4e1ebfa53b9d92fecbeb2",
+      "native_time_s": 39.800002075731754,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "native_rgb_sha256": "575351c7165cd340b9ec992c4e773198a8fefff7521e5368bd14ff60ca92b46f",
+      "task_tick": 8320
+    },
+    {
+      "file": "cases/test_m090_d12_calibrated_interval/task/images/08360.jpg",
+      "sha256": "c8c6f4cf9d3ad1c2653fadbd5828486592fd9bd80d1bb47f00c4db0c2cb8c0df",
+      "native_time_s": 39.966668751090765,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "native_rgb_sha256": "4be9f99cfd978fbbadcb4a61feb64e8244182ad718a59c68a68b94a80e75f218",
+      "task_tick": 8360
+    },
+    {
+      "file": "cases/test_m090_d12_calibrated_interval/task/images/08400.jpg",
+      "sha256": "1c20c646deb09950553ed59098aa8be4abb6d1d18c9fb023002c1d23c74b9447",
+      "native_time_s": 40.133335426449776,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "native_rgb_sha256": "cfcaa817981e99d64ac869fcc7d922c7bfc4518b9231e58f30e59fdbd9f8a025",
+      "task_tick": 8400
+    },
+    {
+      "file": "cases/test_m090_d12_calibrated_interval/task/images/08440.jpg",
+      "sha256": "7e98ab8451ccd733fe6e87ec290a38fd299a738d4e8206812d107cd2b2eb02d1",
+      "native_time_s": 40.300002101808786,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "native_rgb_sha256": "50d15c52945d78e21c930ff9a5c3eb9c82eddfa45ab335c6866c864445e1e3bf",
+      "task_tick": 8440
+    },
+    {
+      "file": "cases/test_m090_d12_calibrated_interval/task/images/08480.jpg",
+      "sha256": "d8b6b0f16ab24e8339620a9fdb6758d58266b08faf451e58113d65a0db4c968b",
+      "native_time_s": 40.4666687771678,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "native_rgb_sha256": "a62d5191773f05dedd0d6a7d37937840a34e15abb621643985fdc6f286ecc460",
+      "task_tick": 8480
+    },
+    {
+      "file": "cases/test_m090_d12_calibrated_interval/task/images/08520.jpg",
+      "sha256": "5765a9ce6f956164276b581f9f154c838d8fab8c54818d8503a78e32487cd573",
+      "native_time_s": 40.63333545252681,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "native_rgb_sha256": "b5c4d3001050cb23aef3fae9dd04a71a245d441bb8c889cb21a5c7d9f8010db8",
+      "task_tick": 8520
+    },
+    {
+      "file": "cases/test_m090_d12_calibrated_interval/task/images/08560.jpg",
+      "sha256": "bb24c16bddbadcc31b03c5e7064b896c565a8adc7905170dbbfe9331f8ed52dc",
+      "native_time_s": 40.80000212788582,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "native_rgb_sha256": "921c3f16fe5a852008d37badab431a099ab9a5b61a5c1e3038bab2c0b3bcb011",
+      "task_tick": 8560
+    },
+    {
+      "file": "cases/test_m090_d12_calibrated_interval/task/images/08600.jpg",
+      "sha256": "13197ab3734a989700a44e2e4518840fca48112a741d494dd26339d743153805",
+      "native_time_s": 40.96666880324483,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "native_rgb_sha256": "35105b83eafa5ebfad1645d869614e068ec896f062e9cde03a7d4adfe108889e",
+      "task_tick": 8600
+    },
+    {
+      "file": "cases/test_m090_d12_calibrated_interval/task/images/08640.jpg",
+      "sha256": "2fe05269075d0fab56d976b3a4a6487211638fdeb444917ab2bc8ed655388c22",
+      "native_time_s": 41.13333547860384,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "native_rgb_sha256": "39117a9c693f4610d2c5ffd8af7112bccf94357f36c260b2632686c7b581b0c4",
+      "task_tick": 8640
+    },
+    {
+      "file": "cases/test_m090_d12_calibrated_interval/task/images/08680.jpg",
+      "sha256": "45a7f7d799c45cd325ad4e3672225e2c6a4ea4ceadd80089cf54217444732c9e",
+      "native_time_s": 41.30000215396285,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "native_rgb_sha256": "cbc8c8a0ad26560561bf68391819cce67608b61f1297c5f57db7d36a75e9d7b1",
+      "task_tick": 8680
+    },
+    {
+      "file": "cases/test_m090_d12_calibrated_interval/task/images/08720.jpg",
+      "sha256": "fba806b4bce630d50b0ad9f184f8fab69519c5337c1e21a82755ba325a3e045a",
+      "native_time_s": 41.46666882932186,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "native_rgb_sha256": "8debffcd50add28892bcb1f94607389cbfe19545a1e9e9d158b7790869462e6a",
+      "task_tick": 8720
+    },
+    {
+      "file": "cases/test_m090_d12_calibrated_interval/task/images/08760.jpg",
+      "sha256": "77fc62cf189d613799715e00bf8a50834b24c58ea1d0edd9e3974cad82bb2e24",
+      "native_time_s": 41.63333550468087,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "native_rgb_sha256": "b97e0ab9af8283361bc842002da3f5e5d138dbca302e9953ff4b089d7aa3a945",
+      "task_tick": 8760
+    },
+    {
+      "file": "cases/test_m090_d12_calibrated_interval/task/images/08800.jpg",
+      "sha256": "83fe14521ac97030279131e337b43d2ad00862739764dac347e5a2153d22a088",
+      "native_time_s": 41.80000218003988,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "native_rgb_sha256": "0d22b9b28725b86447819304b1fca3d253c7e7cbff4229addcc20c0e1cadaddc",
+      "task_tick": 8800
+    },
+    {
+      "file": "cases/test_m090_d12_calibrated_interval/task/images/08840.jpg",
+      "sha256": "cf7e6b55b16d124cf226a6b9cdc22ef5da496acb41064036c46c4ee747da31e4",
+      "native_time_s": 41.96666885539889,
+      "native_epoch": "paperb_grip_qualified_joint_timing_v1:test_m090_d12_calibrated_interval:cad51fcb553f61b6",
+      "native_rgb_sha256": "0f89a28b5648baf2653d63d0779b7b9fa2bbf224f0e4bcb31ea7f4d5e7c9bd6f",
+      "task_tick": 8840
+    }
+  ],
+  "native_origin_s": 5.1333336010575294,
+  "first_native_time_s": 14.133334070444107,
+  "last_native_time_s": 41.96666885539889,
+  "real_native_time_span_s": 27.833334784954786,
+  "encoded_frame_duration_s": 28.0,
+  "encoder": "CPU_LIBX264; NO_GPU_ALLOCATION",
+  "output_sha256": "8440f23102b054b73f7a55d7e32f8d278b6042e00dc9bd8ad1323475ae24e489",
+  "original_JPEG_inputs_unmodified": true,
+  "synthetic_frames_created": false,
+  "lossy_video_encoding": true,
+  "spatial_or_scene_edits": false,
+  "new_native_episodes": 0,
+  "source_or_policy_modified": false,
+  "video_is_not_25ms_timing_oracle": true,
+  "independent_acceptance_inferred": false
+}
