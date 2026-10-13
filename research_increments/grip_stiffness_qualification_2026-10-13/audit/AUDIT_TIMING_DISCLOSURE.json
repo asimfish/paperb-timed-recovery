@@ -1,0 +1,20 @@
+{
+  "schema": "paperb-independent-qualification-audit-timing-disclosure-v1",
+  "execution_release_sha256": "a41e73f426c232899f7b74ecd16db3caaf715cfa5ca11ce1023a06c15330000c",
+  "execution_release_file_mtime_utc": "2026-10-13T13:39:44.643587+00:00",
+  "native_attempt_id": "20261013T134431477939Z-2312901",
+  "native_worker_terminal_log_mtime_utc": "2026-10-13T13:51:22.842649+00:00",
+  "initial_auditor_release_created_at_utc": "2026-10-13T13:55:47.274831+00:00",
+  "initial_auditor_release_sha256": "217c5b1f53f08026d971e78b150eee60f9ce03dfe025bfc12b80819bec11c73d",
+  "initial_failure_receipt_created_at_utc": "2026-10-13T13:55:56.188423+00:00",
+  "V2_auditor_release_created_at_utc": "2026-10-13T13:56:44.986920+00:00",
+  "V2_auditor_release_sha256": "698b936db18427cbaa5ec5276e4e362d186bae788ae45995da6a50ee4e551b90",
+  "V2_receipt_created_at_utc": "2026-10-13T13:56:53.832701+00:00",
+  "initial_auditor_frozen_before_native_execution": false,
+  "initial_auditor_frozen_after_terminal_outputs_present_before_outcome_inspection": true,
+  "V2_frozen_after_outcome_inspection": true,
+  "V2_change": "Only proper worker exit schema/path; no gate or native data modified",
+  "receipt_boolean_interpretation": "audit_frozen_after_outputs_present_before_outcome_inspection in V2 receipt refers to the original V1 audit contract, not the timestamp of V2 schema alignment.",
+  "filesystem_timestamp_is_not_a_remote_attestation": true,
+  "source_execution_predeclared": true
+}

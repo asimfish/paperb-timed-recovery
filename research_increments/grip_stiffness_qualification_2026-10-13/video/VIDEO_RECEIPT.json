@@ -1,0 +1,112 @@
+{
+  "status": "PASS_ACTUAL_NATIVE_FRAME_VIDEO_EXPORT",
+  "qualification_episodes": 1,
+  "new_episodes_from_export": 0,
+  "video_sha256": "4bb40b1246a5d557f67da7ea5a720d796a8fc688f22b33909427fa6286c3e141",
+  "video_bytes": 1021456,
+  "poster_sha256": "51e27b93f2a088de64219f5e5d39da8ad62c498d51c6a74f9f990d675979a813",
+  "frame_index_sha256": "e518bd0add2da13b1889250641557d6c26c6423d5401d029734d7110a808d11d",
+  "source_summary_sha256": "8147e04fe2064dc611b500de6453b5bd53c7140b9e7a327dc4d138b75a631c5e",
+  "encoded_frames": 168,
+  "fps": 6,
+  "duration_s": 28,
+  "width": 640,
+  "height": 400,
+  "decode_all_frames_pass": true,
+  "native_epoch": "paperb_native_expansion_v2:qual_m120_d00_hand_k1600:35a568180f82e6eb",
+  "native_physics_time_range_s": [
+    14.133334070444107,
+    41.96666885539889
+  ],
+  "task_elapsed_time_range_s": [
+    9.000000469386578,
+    36.833335254341364
+  ],
+  "task_origin_native_time_s": 5.1333336010575294,
+  "task_origin_source_sha256": "e04b6104c888cf322ba8783389b015d1c2a30a302f8e37f58e4c662b67d83bbb",
+  "source_jpeg_hashes_verified": true,
+  "no_inserted_interpolated_or_ai_frames": true,
+  "audio": false,
+  "actual_renderer": "Isaac Sim 5.1 native camera JPEG export",
+  "hardware_video": false,
+  "timing_semantics": "Presentation uses uniform nominal 6fps for native samples spaced40 physics ticks. Renderer has a separate sensor frame clock and causes no physics callbacks; not real-time wall-clock robot or inference footage.",
+  "lossy_source_limit": "Encoded JPEG digests are verified. Original uncompressed RGB hashes cannot be reconstructed from lossy JPEG.",
+  "qualification_not_timing_test": true,
+  "probe": {
+    "streams": [
+      {
+        "index": 0,
+        "codec_name": "h264",
+        "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+        "profile": "High",
+        "codec_type": "video",
+        "codec_tag_string": "avc1",
+        "codec_tag": "0x31637661",
+        "width": 640,
+        "height": 400,
+        "coded_width": 640,
+        "coded_height": 400,
+        "closed_captions": 0,
+        "has_b_frames": 2,
+        "sample_aspect_ratio": "1:1",
+        "display_aspect_ratio": "8:5",
+        "pix_fmt": "yuv420p",
+        "level": 22,
+        "color_range": "tv",
+        "color_space": "bt470bg",
+        "chroma_location": "left",
+        "refs": 4,
+        "is_avc": "true",
+        "nal_length_size": "4",
+        "r_frame_rate": "6/1",
+        "avg_frame_rate": "6/1",
+        "time_base": "1/12288",
+        "start_pts": 0,
+        "start_time": "0.000000",
+        "duration_ts": 344064,
+        "duration": "28.000000",
+        "bit_rate": "291017",
+        "bits_per_raw_sample": "8",
+        "nb_frames": "168",
+        "nb_read_frames": "168",
+        "disposition": {
+          "default": 1,
+          "dub": 0,
+          "original": 0,
+          "comment": 0,
+          "lyrics": 0,
+          "karaoke": 0,
+          "forced": 0,
+          "hearing_impaired": 0,
+          "visual_impaired": 0,
+          "clean_effects": 0,
+          "attached_pic": 0,
+          "timed_thumbnails": 0
+        },
+        "tags": {
+          "language": "und",
+          "handler_name": "VideoHandler",
+          "vendor_id": "[0][0][0][0]"
+        }
+      }
+    ],
+    "format": {
+      "filename": "/mnt/nas/data/lyf/chem_mem/awesome_memory_chem/papers/paperB/research_increments/grip_stiffness_qualification_2026-10-13/video/qual_m120_d00_hand_k1600.mp4",
+      "nb_streams": 1,
+      "nb_programs": 0,
+      "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+      "format_long_name": "QuickTime / MOV",
+      "start_time": "0.000000",
+      "duration": "28.000000",
+      "size": "1021456",
+      "bit_rate": "291844",
+      "probe_score": 100,
+      "tags": {
+        "major_brand": "isom",
+        "minor_version": "512",
+        "compatible_brands": "isomiso2avc1mp41",
+        "encoder": "Lavf58.76.100"
+      }
+    }
+  }
+}

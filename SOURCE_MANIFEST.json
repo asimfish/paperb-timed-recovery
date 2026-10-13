@@ -45,8 +45,8 @@
       "path": "index.html",
       "source": "web/index.html",
       "source_sha256": "07dcf1383bfb0ccae5e1f88c21928e02e25cd95949c739bf9ad481c7858f3eb6",
-      "sha256": "c5aab33cff70efa04c1be4e4625e8703ec5b371c37fd3526abd039e6142367c6",
-      "bytes": 238290,
+      "sha256": "dc7d446dc2e83c14cd46826b63405daeda44cd0d47f99918b891e35ea7dc6771",
+      "bytes": 241820,
       "transformations": [
         "project-root evidence links",
         "current method panel and canonical GitHub URL rendered by prior build attempt, checked against canonical scripts"
@@ -1676,8 +1676,104 @@
       "sha256": "ffc8396642c60161ac4f6f90df29ec08130736c701f24ce68aeaccd0db7f1020",
       "bytes": 498591,
       "source": "papers/paperB/research_increments/native_calibration_failure_2026-10-13/qualification_design/single_parameter_qualification_design.tar.gz"
+    },
+    {
+      "path": "research_increments/grip_stiffness_qualification_2026-10-13/README_cn.md",
+      "sha256": "3cf8bbf539e886b0c6930cb758c78b3268feb31b0d2fffbd5081f0adb8553c25",
+      "bytes": 3661,
+      "source": "papers/paperB/research_increments/grip_stiffness_qualification_2026-10-13/README_cn.md"
+    },
+    {
+      "path": "research_increments/grip_stiffness_qualification_2026-10-13/audit/PUBLIC_SUMMARY.json",
+      "sha256": "8147e04fe2064dc611b500de6453b5bd53c7140b9e7a327dc4d138b75a631c5e",
+      "bytes": 7200,
+      "source": "papers/paperB/research_increments/grip_stiffness_qualification_2026-10-13/audit/PUBLIC_SUMMARY.json"
+    },
+    {
+      "path": "research_increments/grip_stiffness_qualification_2026-10-13/audit/AUDIT_TIMING_DISCLOSURE.json",
+      "sha256": "7f827ba7d68d41890bb8f0f1cc035529287db820bb076fc3229b7cc3208d2b1b",
+      "bytes": 1471,
+      "source": "papers/paperB/research_increments/grip_stiffness_qualification_2026-10-13/audit/AUDIT_TIMING_DISCLOSURE.json"
+    },
+    {
+      "path": "research_increments/grip_stiffness_qualification_2026-10-13/audit/INSTALLATION_READBACK_CONTRACT.json",
+      "sha256": "618ec39c6b9c7d5d7138df8a4dc7d660501354e17aed1d7daf707005e38cfb73",
+      "bytes": 1554,
+      "source": "papers/paperB/research_increments/grip_stiffness_qualification_2026-10-13/audit/INSTALLATION_READBACK_CONTRACT.json"
+    },
+    {
+      "path": "research_increments/grip_stiffness_qualification_2026-10-13/audit/auditor_v2/QUALIFICATION_AUDIT.json",
+      "sha256": "cca8f7f9519a0792e1f9e12d86f4931646eec87045e1831ae0667e8cca1a7e45",
+      "bytes": 44895,
+      "source": "papers/paperB/research_increments/grip_stiffness_qualification_2026-10-13/audit/auditor_v2/QUALIFICATION_AUDIT.json"
+    },
+    {
+      "path": "research_increments/grip_stiffness_qualification_2026-10-13/audit/auditor_v2/CAPTURE_AUDIT.json",
+      "sha256": "6e487aaa62284816cfe0f463096484a6370c0e1a488208ada695c087663681dd",
+      "bytes": 111205,
+      "source": "papers/paperB/research_increments/grip_stiffness_qualification_2026-10-13/audit/auditor_v2/CAPTURE_AUDIT.json"
+    },
+    {
+      "path": "research_increments/grip_stiffness_qualification_2026-10-13/audit/auditor_v2/VERSION_DIFFERENCE.json",
+      "sha256": "1e7a6d01c19c9eb2217bda54f4363dec34be840bb5d2469d96074064e699dc20",
+      "bytes": 606,
+      "source": "papers/paperB/research_increments/grip_stiffness_qualification_2026-10-13/audit/auditor_v2/VERSION_DIFFERENCE.json"
+    },
+    {
+      "path": "research_increments/grip_stiffness_qualification_2026-10-13/audit/auditor_v2/CPU_TESTS.json",
+      "sha256": "984e91dfbb91368e6418049daf8f3d9973dbe630bb08fba754c36b20fe4469c6",
+      "bytes": 216,
+      "source": "papers/paperB/research_increments/grip_stiffness_qualification_2026-10-13/audit/auditor_v2/CPU_TESTS.json"
+    },
+    {
+      "path": "research_increments/grip_stiffness_qualification_2026-10-13/video/qual_m120_d00_hand_k1600.mp4",
+      "sha256": "4bb40b1246a5d557f67da7ea5a720d796a8fc688f22b33909427fa6286c3e141",
+      "bytes": 1021456,
+      "source": "papers/paperB/research_increments/grip_stiffness_qualification_2026-10-13/video/qual_m120_d00_hand_k1600.mp4"
+    },
+    {
+      "path": "research_increments/grip_stiffness_qualification_2026-10-13/video/poster.jpg",
+      "sha256": "51e27b93f2a088de64219f5e5d39da8ad62c498d51c6a74f9f990d675979a813",
+      "bytes": 42479,
+      "source": "papers/paperB/research_increments/grip_stiffness_qualification_2026-10-13/video/poster.jpg"
+    },
+    {
+      "path": "research_increments/grip_stiffness_qualification_2026-10-13/video/native_frame_index.json",
+      "sha256": "e518bd0add2da13b1889250641557d6c26c6423d5401d029734d7110a808d11d",
+      "bytes": 98623,
+      "source": "papers/paperB/research_increments/grip_stiffness_qualification_2026-10-13/video/native_frame_index.json"
+    },
+    {
+      "path": "research_increments/grip_stiffness_qualification_2026-10-13/video/VIDEO_RECEIPT.json",
+      "sha256": "35b749483f0dd52b9339d5def13e87b0dccbd58e69da444b9479e76ba5c0f481",
+      "bytes": 3910,
+      "source": "papers/paperB/research_increments/grip_stiffness_qualification_2026-10-13/video/VIDEO_RECEIPT.json"
+    },
+    {
+      "path": "research_increments/grip_stiffness_qualification_2026-10-13/execution/CPU_PREFLIGHT.json",
+      "sha256": "f874a4899794a6e955fc108b216fc9fb50065b6d0f7772fe00d1a9bd5ebfa847",
+      "bytes": 207,
+      "source": "papers/paperB/research_increments/grip_stiffness_qualification_2026-10-13/execution/CPU_PREFLIGHT.json"
+    },
+    {
+      "path": "research_increments/grip_stiffness_qualification_2026-10-13/execution/EXECUTION_RELEASE.json",
+      "sha256": "a41e73f426c232899f7b74ecd16db3caaf715cfa5ca11ce1023a06c15330000c",
+      "bytes": 13339,
+      "source": "papers/paperB/research_increments/grip_stiffness_qualification_2026-10-13/execution/EXECUTION_RELEASE.json"
+    },
+    {
+      "path": "research_increments/grip_stiffness_qualification_2026-10-13/execution/INSTALLED_API_READ_ONLY.json",
+      "sha256": "121cec7ef673df7405ec19f65cad793f68381ed93f2f183e6377ab9df2335177",
+      "bytes": 1012,
+      "source": "papers/paperB/research_increments/grip_stiffness_qualification_2026-10-13/execution/INSTALLED_API_READ_ONLY.json"
+    },
+    {
+      "path": "research_increments/grip_stiffness_qualification_2026-10-13/execution/protocol.json",
+      "sha256": "35a568180f82e6eb0d367855601f85d80a424a4fd103dd0575ab8f9c0051b475",
+      "bytes": 6945,
+      "source": "papers/paperB/research_increments/grip_stiffness_qualification_2026-10-13/execution/protocol.json"
     }
   ],
-  "incremental_baseline_commit": "46189a6b6bf77ef9b41bf3ca0b56ed4d61157e3a",
-  "latest_increment": "native_calibration_failure_2026-10-13"
+  "incremental_baseline_commit": "6be0cd582ea0ea9fd978a5970173bc85bdb87543",
+  "latest_increment": "grip_stiffness_qualification_2026-10-13"
 }

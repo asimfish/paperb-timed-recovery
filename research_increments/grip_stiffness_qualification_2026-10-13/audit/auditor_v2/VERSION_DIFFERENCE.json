@@ -1,0 +1,14 @@
+{
+  "schema": "paperb-independent-qualification-auditor-schema-alignment-v1",
+  "old_release_sha256": "217c5b1f53f08026d971e78b150eee60f9ce03dfe025bfc12b80819bec11c73d",
+  "old_failed_receipt_sha256": "6d63b482259774768fb95f6a9b82ce44bd2d8b6041ca04c34d216dd81496015c",
+  "old_error": "KeyError exit_code from PROCESS_EXIT.json",
+  "native_PROCESS_EXIT_fields": [
+    "mode",
+    "graceful_sdk_cleanup",
+    "scientific_admission"
+  ],
+  "actual_worker_completion_path": "logs/<case_id>.json",
+  "native_source_or_RAW_changed": false,
+  "mechanical_timing_gain_or_installed_property_gates_changed": false
+}

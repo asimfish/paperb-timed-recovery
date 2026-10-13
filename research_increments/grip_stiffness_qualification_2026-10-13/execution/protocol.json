@@ -1,0 +1,225 @@
+{
+  "schema": "paperb-single-factor-grip-stiffness-qualification-v1",
+  "policy_kind": "UNCHANGED_PINNED_DRIVE_SKILL_WITH_DECLARED_POST_BASELINE_HAND_GAIN_INSTALLATION",
+  "command_policy_sha256": "03a63a0b77037785741540465ef39d8b0a45e17563f9ec5b9c15133497de410a",
+  "original_raw_sha256": "503ba7c9914bc5a172684d97a8b130d8fdea41beb4a49f9ce395917285bdbb88",
+  "original_helper_sha256": {
+    "contact_telemetry.py": "4d76b94ecc448539b365fb8569d01ff78927e43f7a17d4bb326c571089cafe80",
+    "robot_collision_filters.py": "5ddc6ba71451c6e7a6ad32e8a5e40c8df4731bc66524f767811716c0ad008b71",
+    "gripper_geometry.py": "42feb1593894a666b4f42987b9b444185de20788a8a31986804cb946628d8b5f",
+    "trajectory_audit.py": "b0b5ed98a47610928683aec399ca66759303d13416be52dd94d69803e7779959"
+  },
+  "dt_s": 0.004166666666666667,
+  "total_commands": 13427,
+  "joint_names": [
+    "fr3_joint1",
+    "fr3_joint2",
+    "fr3_joint3",
+    "fr3_joint4",
+    "fr3_joint5",
+    "fr3_joint6",
+    "fr3_joint7",
+    "fr3_finger_joint1",
+    "fr3_finger_joint2"
+  ],
+  "object": "precursor_1",
+  "warmup_ticks": 1200,
+  "restore_ticks": 30,
+  "stage_plan": [
+    {
+      "id": "approach",
+      "start_tick": 0,
+      "end_tick": 2400
+    },
+    {
+      "id": "grasp",
+      "start_tick": 2400,
+      "end_tick": 3840
+    },
+    {
+      "id": "lift",
+      "start_tick": 3840,
+      "end_tick": 4560
+    },
+    {
+      "id": "transport",
+      "start_tick": 4560,
+      "end_tick": 6480
+    },
+    {
+      "id": "place_release",
+      "start_tick": 6480,
+      "end_tick": 7920
+    },
+    {
+      "id": "regrasp",
+      "start_tick": 7920,
+      "end_tick": 9600
+    },
+    {
+      "id": "return",
+      "start_tick": 9600,
+      "end_tick": 12707
+    },
+    {
+      "id": "retreat",
+      "start_tick": 12707,
+      "end_tick": 13427
+    }
+  ],
+  "capture_ticks": [
+    0,
+    2400,
+    3360,
+    3840,
+    4560,
+    6480,
+    7440,
+    7920,
+    9120,
+    9600,
+    11520,
+    12227,
+    12707,
+    13187,
+    13427
+  ],
+  "camera_resolution": [
+    640,
+    400
+  ],
+  "integrate_physics": true,
+  "object_state_actions": false,
+  "robot_state_actions": false,
+  "max_worker_seconds": 700,
+  "requested_operation_gap_s": 5.0,
+  "event_memory_test": false,
+  "task_description": "One mass1.2 delay0 full rigid-bottle skill qualification after declared k800-to1600 hand-controller installation; not a timing test or proof of cause",
+  "benchmark_admission": false,
+  "training_admission": false,
+  "arms": [
+    "qualification_skill"
+  ],
+  "cue_source_index": 2400,
+  "first_close_source_index": 3360,
+  "tolerance_s": 0.05,
+  "latency_upper_s": 0.175,
+  "latency_source": "V79 parent independently sampled contact interval; no current-trial labels",
+  "latency_source_sha256": "5f954338ef0dd5a2385d2f5960ff6d839a41c06e3616f6aa9f12a51fc35f6600",
+  "video_start_task_s": 9.0,
+  "video_end_task_s": 37.0,
+  "video_fps": 6,
+  "calibration_scope": "NATIVE_CONTACT_TIMING_INTERFACE_ONLY; NOT_HARDWARE_OR_CHEMICAL_CALIBRATION",
+  "first_open_source_index": 7440,
+  "regrasp_source_index": 9120,
+  "object_prim": "/World/StationA/precursor_1",
+  "robot_prim": "/World/Robots/fr3_A",
+  "release_definition": {
+    "support_prim_prefixes": [
+      "/World/StationA/dosing_balance"
+    ],
+    "min_jaw_width_m": 0.058,
+    "max_tilt_deg": 5.0,
+    "confirmation_count": 8,
+    "max_confirmation_displacement_m": 0.002,
+    "contact_impulse_min": 1e-08,
+    "endpoint_semantics": "EARLIEST_8_SAMPLE_SUPPORTED_UNLOADED_STABLE_WINDOW_ONSET; NOT_FIRST_UNLOADING_TIME",
+    "continuous_dwell_established": false,
+    "uses_execution_phase_or_source_index": false
+  },
+  "preflight_max_worker_seconds": 700,
+  "cases": [
+    {
+      "id": "qual_m120_d00_hand_k1600",
+      "role": "qualification",
+      "method": "qualification_skill",
+      "mass_factor": 1.2,
+      "public_transport_delay_ticks": 0,
+      "requested_contact_gap_s": 5.0,
+      "requested_contact_to_release_s": 18.0,
+      "contact_tolerance_s": 0.025,
+      "duration_tolerance_s": 0.025
+    }
+  ],
+  "nominal_mechanical_latency_s": {
+    "contact": 0.175,
+    "release": 0.08958333800546825
+  },
+  "nominal_release_source": {
+    "root": "/data/liyufeng/paperb_benchmark_scene_timing_20261013_v1",
+    "source_files": {
+      "effect_anticipation/task/states.jsonl": "a412db8e00866443c8780b0b3767ee16114b9987cd9ee99d37ad10ef7d4fabaa",
+      "effect_anticipation/task/contact_rows.jsonl": "fe460b8895a2f26ae06333b178b78ba5dc9d8fe31710cd0aca5b73ab3cc54e4f"
+    },
+    "sampled_latency_interval_s": [
+      0.08750000456348062,
+      0.09166667144745588
+    ],
+    "scope": "OLDER_INDEPENDENT_NATIVE_ATTEMPT; NOT_CURRENT_CALIBRATION_OR_TEST"
+  },
+  "split_contract": {
+    "qualification_episodes": 1,
+    "test_episodes": 0,
+    "calibration_episodes": 0,
+    "prior_failed_calibrations_preserved": 4,
+    "actor_parameter_changes": 1,
+    "H_for_future_main_tests_s": [
+      18,
+      18.5
+    ],
+    "minimum_skill_gap_s": 17,
+    "slowing_transport_allowed": false,
+    "scalar_installation_rule": "same unconditional hand gain for every future method; no hidden mass-conditioned scheduling",
+    "future_main_shared_denominator": 16
+  },
+  "primary_score_definition": {
+    "contact": "CUE_TO_BILATERAL_ONSET",
+    "release": "CUE_TO_VERIFIED_STABLE_RELEASE_ONSET",
+    "duration": "BILATERAL_ONSET_TO_VERIFIED_STABLE_RELEASE_ONSET",
+    "joint": [
+      "contact",
+      "release",
+      "duration",
+      "original_mechanism"
+    ],
+    "strict_sampled_hold": "SEPARATE_DIAGNOSTIC; NO_CONTINUOUS_HOLD_CLAIM",
+    "joint_with_hold": [
+      "joint",
+      "strict_sampled_hold"
+    ],
+    "shared_denominator": 1,
+    "release_tolerance_s": 0.025,
+    "missing_events_fail_primary": true,
+    "refused_schedule_fails_primary": true
+  },
+  "video_roles": [
+    "qualification"
+  ],
+  "video_case_ids": [
+    "qual_m120_d00_hand_k1600"
+  ],
+  "transport_channel_scope": "ONLY_JOINT_POSITION_TARGET_FIFO; LIVE_GRAVITY_COMPENSATION_AND_GUARDS_ARE_IMMEDIATE; NO_INFERENCE_OR_WHOLE_COMMUNICATION_DELAY_CLAIM",
+  "qualification_actor_change": {
+    "parameter": "FR3_HAND_STIFFNESS_N_PER_M",
+    "baseline": 800.0,
+    "candidate": 1600.0,
+    "damping_unchanged": 40.0,
+    "installation": "AFTER_ORIGINAL_WARMUP_AND_MATCHED_30_TICK_BASELINE_PASS_BEFORE_TASK",
+    "targets_unchanged": true,
+    "mass_factor_unchanged": 1.2,
+    "FIFO_delay_unchanged": 0,
+    "friction_unchanged": true,
+    "mechanical_thresholds_unchanged": true,
+    "private_truth_not_policy_input": true,
+    "root_cause_not_yet_proven": true
+  },
+  "qualification_primary_gates": [
+    "all_full_commands_applied",
+    "original_mechanism_all_conditions",
+    "independent_contact_and_supported_release_available",
+    "active_gain_before_after_end_verified",
+    "all_other_drive_parameters_unchanged",
+    "no_callbacks_or_time_advance_and_fresh_physics_view_plus_cached_state_fingerprints_unchanged"
+  ],
+  "calibration_admission": false
+}

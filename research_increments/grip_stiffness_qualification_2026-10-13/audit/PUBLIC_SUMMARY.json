@@ -1,0 +1,192 @@
+{
+  "schema": "paperb-native-single-factor-grip-stiffness-qualification-public-summary-v1",
+  "created_at_utc": "2026-10-13T14:00:59.672598+00:00",
+  "status": "PASS_RECORDED_RAW_QUALIFICATION_WITH_LOGGING_LIMITATIONS",
+  "qualification_episodes": 1,
+  "completed_native_qualification_episodes": 1,
+  "independent_raw_integrity_pass_episodes": 1,
+  "independent_original_mechanical_pass_episodes": 1,
+  "independent_grasp_available_episodes": 1,
+  "independent_stable_release_available_episodes": 1,
+  "qualification_behavior_passes": 1,
+  "qualification_shared_denominator": 1,
+  "prior_failed_calibration_cohort_episodes": 4,
+  "prior_calibration_admission_rejection_preserved": true,
+  "calibration_fit": false,
+  "new_calibration_episodes": 0,
+  "heldout_timing_tests": 0,
+  "learning_runs": 0,
+  "hardware_runs": 0,
+  "chemical_endpoints": 0,
+  "causal_root_cause_proven": false,
+  "only_declared_actor_parameter": "TWO_FR3_FINGER_STIFFNESSES_800_TO_1600_AFTER_ORIGINAL_MATCHED_BASELINE_ACCEPTANCE",
+  "case_id": "qual_m120_d00_hand_k1600",
+  "mass_factor": 1.2,
+  "public_target_FIFO_delay_ticks": 0,
+  "pinned_commands_applied": 13427,
+  "task_samples": 13427,
+  "native_steps_including_setup": 14657,
+  "baseline_warmup_steps": 1200,
+  "baseline_matched_transient_steps": 30,
+  "native_task_span_s": 55.945836251135916,
+  "native_RGBD_snapshots": 172,
+  "native_video_RGB_frames": 168,
+  "video_fps": 6,
+  "image_bytes_depth_and_clock_audit_status": "PASS_NATIVE_CAPTURE_EXPORTS_CLOCK_AND_BYTEHASHES",
+  "encoded_RGB_source": "NATIVE_ISAAC_CAMERA_JPEG_EXPORTS",
+  "hardware_video": false,
+  "installed_gain_readback": {
+    "before_hand_K": [
+      800.0,
+      800.0
+    ],
+    "after_hand_K": [
+      1600.0,
+      1600.0
+    ],
+    "end_hand_K": [
+      1600.0,
+      1600.0
+    ],
+    "after_hand_D": [
+      40.0,
+      40.0
+    ],
+    "end_hand_D": [
+      40.0,
+      40.0
+    ],
+    "all_other_K_before_after_exact": true,
+    "all_nine_K_D_effort_after_end_exact": true,
+    "before_D_effort_arrays_exported": false,
+    "before_after_D_effort_assertion": "FROZEN_SETTER_ASSERTIONS_ONLY",
+    "fresh_cached_fingerprint_preimages_exported": false,
+    "equal_reported_hashes_time_callbacks": true
+  },
+  "native_contact_onset": {
+    "status": "DETECTED",
+    "event": {
+      "clock_id": "paperb_native_expansion_v2:qual_m120_d00_hand_k1600:35a568180f82e6eb",
+      "bounds_s": [
+        19.279167672153562,
+        19.283334339037538
+      ]
+    },
+    "onset_sample_index": 3395,
+    "confirmation_sample_index": 3397,
+    "confirmation_time_s": 19.291667672805488,
+    "confirmation_count": 3,
+    "physical_continuity_between_ticks_established": false
+  },
+  "native_stable_release_onset": {
+    "status": "DETECTED",
+    "event": {
+      "clock_id": "paperb_native_expansion_v2:qual_m120_d00_hand_k1600:35a568180f82e6eb",
+      "bounds_s": [
+        36.21250188862905,
+        36.216668555513024
+      ]
+    },
+    "onset_sample_index": 7459,
+    "confirmation_sample_index": 7466,
+    "confirmation_time_s": 36.24583522370085,
+    "confirmation_count": 8,
+    "max_window_displacement_m": 4.805480091749757e-07,
+    "semantics": "EARLIEST_VERIFIED_STABLE_RELEASE_WINDOW_ONSET",
+    "physical_first_unload_time_established": false,
+    "physical_continuity_between_ticks_established": false
+  },
+  "actual_applied_command_to_effect_intervals_s": {
+    "contact": [
+      0.14583334093913436,
+      0.15000000782310963
+    ],
+    "release": [
+      0.07916667079553008,
+      0.08333333767950535
+    ]
+  },
+  "original_mechanical_conditions": {
+    "all_phases_complete": true,
+    "physical_grasp": true,
+    "not_diagnostic": false,
+    "finite_trajectory": true,
+    "joint_state_valid": true,
+    "contact_rows_complete": true,
+    "contact_parse_errors_zero": true,
+    "contact_coverage_verified": true,
+    "penetration_ticks_zero": true,
+    "transport_relative_pose_ok": true,
+    "transport_contact_continuity_ok": true,
+    "transport_tilt_ok": true
+  },
+  "transport_max_relative_displacement_mm": 1.7388782998552046,
+  "transport_bilateral_contact_fraction": 0.998767258382643,
+  "transport_max_tilt_rad": 0.011865730956379512,
+  "final_position_error_mm": 0.2160863292057604,
+  "negative_penetration_ticks": 0,
+  "descriptive_unheld_timing": {
+    "contact": {
+      "verdict": "EARLY",
+      "error_interval_s": [
+        -0.8541664504446089,
+        -0.8499997835606337
+      ],
+      "timing_pass": false
+    },
+    "release": {
+      "verdict": "EARLY",
+      "error_interval_s": [
+        -1.9208322339691222,
+        -1.916665567085147
+      ],
+      "timing_pass": false
+    },
+    "duration_gap": {
+      "verdict": "EARLY",
+      "error_interval_s": [
+        -1.0708324504084885,
+        -1.062499116640538
+      ],
+      "timing_pass": false
+    }
+  },
+  "descriptive_primary_joint_pass": false,
+  "strict_sampled_contact_hold_pass": false,
+  "strict_hold_missing_samples": [
+    7448,
+    7449,
+    7450,
+    7451,
+    7452,
+    7453,
+    7454,
+    7455,
+    7456,
+    7457,
+    7458
+  ],
+  "strict_hold_interpretation": "All11 missing bilateral samples occur after applied opening index7440 and before composite stable-release onset7459; strict sampled hold remains false without claiming premature transport loss.",
+  "resource_upper_bound": {
+    "worker_wall_s": 411.2933986398857,
+    "allocated_GPU_hours": 0.11424816628885714,
+    "training_GPU_hours": 0,
+    "owned_process_group_empty": true
+  },
+  "independent_counterexamples": 39,
+  "execution_source_file_count": 117,
+  "execution_release_sha256": "a41e73f426c232899f7b74ecd16db3caaf715cfa5ca11ce1023a06c15330000c",
+  "independent_raw_audit_sha256": "cca8f7f9519a0792e1f9e12d86f4931646eec87045e1831ae0667e8cca1a7e45",
+  "independent_auditor_release_sha256": "698b936db18427cbaa5ec5276e4e362d186bae788ae45995da6a50ee4e551b90",
+  "independent_capture_audit_sha256": "6e487aaa62284816cfe0f463096484a6370c0e1a488208ada695c087663681dd",
+  "audit_version_disclosure": "Initial audit was frozen after result files existed but before outcome inspection; retained V1 failed only because it read exit_code from PROCESS_EXIT instead of worker log. V2 is a post-inspection schema alignment; original mechanical/events/queue/gain thresholds identical.",
+  "capture_audit_version_disclosure": "Retained capture V1/V2 assumption failures use legacy capture_ticks and2D depth; current schema follows frozen runtime stage-end captures and installed SDK H,W,1 depth. No native file or metric changed.",
+  "limitations": [
+    "Single rigid-bottle qualification with one seed: no statistical effectiveness or causal controller-gain proof.",
+    "Before D/effort arrays absent and state-token preimages absent; not a fully independent three-snapshot parameter/state audit.",
+    "No fitted timing model or heldout timing experiment; inherited unheld skill scores all time contracts EARLY.",
+    "Composite supported stable-release onset is distinct from first physical unload; sampled continuity only.",
+    "Lossy JPEG native uncompressed RGB digest cannot be independently reconstructed; encoded bytes/depth/clock verified.",
+    "No chemical, real robot, learned VLA/DP/RL/OPD or RGB-agent evidence."
+  ]
+}

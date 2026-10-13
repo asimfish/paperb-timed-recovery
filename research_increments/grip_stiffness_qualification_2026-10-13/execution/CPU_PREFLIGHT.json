@@ -1,0 +1,7 @@
+{
+  "status": "PASS_GPU_FREE_QUALIFICATION_GATE",
+  "tests": 8,
+  "native_episode_count": 0,
+  "cuda_initialized": false,
+  "scope": "FAKE_INTERFACE_CONTRACT_TESTS_AND_STATIC_LINEAGE; NOT_NATIVE_READBACK"
+}

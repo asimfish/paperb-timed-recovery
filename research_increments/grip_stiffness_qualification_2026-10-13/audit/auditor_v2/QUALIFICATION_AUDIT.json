@@ -1,0 +1,759 @@
+{
+  "schema": "paperb-independent-grip-stiffness-qualification-audit-v2",
+  "auditor_version_change": "WORKER_EXIT_SCHEMA_ALIGNMENT_ONLY",
+  "mechanical_event_queue_gain_thresholds_changed": false,
+  "status": "PASS_RECORDED_RAW_QUALIFICATION_WITH_LOGGING_LIMITATIONS",
+  "created_at_utc": "2026-10-13T13:56:53.832701+00:00",
+  "numpy_version": "1.26.0",
+  "qualification_denominator": 1,
+  "complete_raw_audits": 1,
+  "qualification_behavior_passes": 1,
+  "cases": [
+    {
+      "case_id": "qual_m120_d00_hand_k1600",
+      "role": "qualification",
+      "method": "qualification_skill",
+      "mass_factor": 1.2,
+      "public_transport_delay_ticks": 0,
+      "status": "COMPLETE_RAW_AUDIT",
+      "task_mechanism_pass": true,
+      "contracts": [
+        {
+          "name": "contact",
+          "verdict": "EARLY",
+          "pass": false
+        },
+        {
+          "name": "release",
+          "verdict": "EARLY",
+          "pass": false
+        },
+        {
+          "name": "duration_gap",
+          "verdict": "EARLY",
+          "pass": false
+        }
+      ],
+      "timing_scores": {
+        "contact": {
+          "verdict": "EARLY",
+          "error_interval_s": [
+            -0.8541664504446089,
+            -0.8499997835606337
+          ],
+          "timing_pass": false
+        },
+        "release": {
+          "verdict": "EARLY",
+          "error_interval_s": [
+            -1.9208322339691222,
+            -1.916665567085147
+          ],
+          "timing_pass": false
+        },
+        "duration_gap": {
+          "verdict": "EARLY",
+          "error_interval_s": [
+            -1.0708324504084885,
+            -1.062499116640538
+          ],
+          "timing_pass": false
+        }
+      },
+      "primary_joint_pass": false,
+      "joint_with_hold_pass": false,
+      "strict_sampled_hold": {
+        "pass": false,
+        "missing_bilateral_sample_indices": [
+          7448,
+          7449,
+          7450,
+          7451,
+          7452,
+          7453,
+          7454,
+          7455,
+          7456,
+          7457,
+          7458
+        ],
+        "physical_continuity_between_ticks_established": false
+      },
+      "events": {
+        "bilateral_contact": {
+          "status": "DETECTED",
+          "event": {
+            "clock_id": "paperb_native_expansion_v2:qual_m120_d00_hand_k1600:35a568180f82e6eb",
+            "bounds_s": [
+              19.279167672153562,
+              19.283334339037538
+            ]
+          },
+          "onset_sample_index": 3395,
+          "confirmation_sample_index": 3397,
+          "confirmation_time_s": 19.291667672805488,
+          "confirmation_count": 3,
+          "physical_continuity_between_ticks_established": false
+        },
+        "verified_stable_release": {
+          "status": "DETECTED",
+          "event": {
+            "clock_id": "paperb_native_expansion_v2:qual_m120_d00_hand_k1600:35a568180f82e6eb",
+            "bounds_s": [
+              36.21250188862905,
+              36.216668555513024
+            ]
+          },
+          "onset_sample_index": 7459,
+          "confirmation_sample_index": 7466,
+          "confirmation_time_s": 36.24583522370085,
+          "confirmation_count": 8,
+          "max_window_displacement_m": 4.805480091749757e-07,
+          "semantics": "EARLIEST_VERIFIED_STABLE_RELEASE_WINDOW_ONSET",
+          "physical_first_unload_time_established": false,
+          "physical_continuity_between_ticks_established": false
+        }
+      },
+      "applied_commands": {
+        "contact": {
+          "clock_id": "paperb_native_expansion_v2:qual_m120_d00_hand_k1600:35a568180f82e6eb",
+          "bounds_s": [
+            19.133334331214428,
+            19.133334331214428
+          ]
+        },
+        "release": {
+          "clock_id": "paperb_native_expansion_v2:qual_m120_d00_hand_k1600:35a568180f82e6eb",
+          "bounds_s": [
+            36.13333521783352,
+            36.13333521783352
+          ]
+        }
+      },
+      "mechanical_latency_intervals_s": {
+        "contact": [
+          0.14583334093913436,
+          0.15000000782310963
+        ],
+        "release": [
+          0.07916667079553008,
+          0.08333333767950535
+        ]
+      },
+      "cal_delay_coverage": {},
+      "native": {
+        "samples": 13427,
+        "epoch": "paperb_native_expansion_v2:qual_m120_d00_hand_k1600:35a568180f82e6eb",
+        "dt_s": 0.004166666666666667,
+        "native_span_s": 55.945836251135916
+      },
+      "fifo": {
+        "status": "PASS_FIFO_ACTUAL_APPLICATIONS",
+        "submitted_commands": 13427,
+        "applied_commands": 13427,
+        "observed_ticks": 13427,
+        "queue_acceptance_is_not_physical_effect": true
+      },
+      "installed_properties": {
+        "requested_factor": 1.2,
+        "actual_mass_kg": [
+          [
+            0.18000000715255737
+          ]
+        ],
+        "actual_inertia": [
+          [
+            0.0002502386341802776,
+            3.6260466629300936e-08,
+            -1.5877935766184237e-07,
+            3.626092137665182e-08,
+            0.0002515837550163269,
+            -4.929390229335695e-07,
+            -1.5877935766184237e-07,
+            -4.929390229335695e-07,
+            8.644441550131887e-05
+          ]
+        ],
+        "actual_physx_readback_checked": true,
+        "installation_readback_errors": {
+          "mass": {
+            "signed_error": [
+              [
+                0.0
+              ]
+            ],
+            "absolute_error": [
+              [
+                0.0
+              ]
+            ],
+            "relative_error": [
+              [
+                0.0
+              ]
+            ],
+            "allowed_absolute_error": [
+              [
+                1.8999999440438842e-07
+              ]
+            ],
+            "max_absolute_error": 0.0,
+            "tolerances": {
+              "rtol": 1e-06,
+              "atol": 1e-08
+            },
+            "zero_requested_relative_error_is_undefined": true,
+            "all_elements_within_prospective_tolerance": true
+          },
+          "inertia": {
+            "signed_error": [
+              [
+                5.820766091346741e-11,
+                -2.184918912462308e-12,
+                -2.842170943040401e-14,
+                -2.2737367544323206e-12,
+                0.0,
+                1.1368683772161603e-13,
+                -2.842170943040401e-14,
+                1.1368683772161603e-13,
+                1.4551915228366852e-11
+              ]
+            ],
+            "absolute_error": [
+              [
+                5.820766091346741e-11,
+                2.184918912462308e-12,
+                2.842170943040401e-14,
+                2.2737367544323206e-12,
+                0.0,
+                1.1368683772161603e-13,
+                2.842170943040401e-14,
+                1.1368683772161603e-13,
+                1.4551915228366852e-11
+              ]
+            ],
+            "relative_error": [
+              [
+                2.3260867010321817e-07,
+                6.0252597904764116e-05,
+                1.7900131865644653e-07,
+                6.270095036597922e-05,
+                0.0,
+                2.3063057597028092e-07,
+                1.7900131865644653e-07,
+                2.3063057597028092e-07,
+                1.6833843119457015e-07
+              ]
+            ],
+            "allowed_absolute_error": [
+              [
+                3.502385881315462e-10,
+                1.0003626399468502e-10,
+                1.001587840443463e-10,
+                1.0003626399468502e-10,
+                3.5158376210375764e-10,
+                1.0049294035807677e-10,
+                1.001587840443463e-10,
+                1.0049294035807677e-10,
+                1.8644440158421816e-10
+              ]
+            ],
+            "max_absolute_error": 5.820766091346741e-11,
+            "tolerances": {
+              "rtol": 1e-06,
+              "atol": 1e-10
+            },
+            "zero_requested_relative_error_is_undefined": true,
+            "all_elements_within_prospective_tolerance": true
+          }
+        },
+        "prospective_installation_contract_sha256": "618ec39c6b9c7d5d7138df8a4dc7d660501354e17aed1d7daf707005e38cfb73",
+        "requested_scaling_exact": true,
+        "installed_properties_unchanged_during_task_exact": true,
+        "usd_authored_defaults_are_not_actual_physics_mass": true
+      },
+      "prospective_schedule_audit": {
+        "status": "PASS_PROSPECTIVE_PUBLIC_SCHEDULE",
+        "schedule_refused": false,
+        "current_test_events_used": false,
+        "empirical_envelope_is_not_true_support": true
+      },
+      "raw_artifact_sha256": {
+        "cases/qual_m120_d00_hand_k1600/RESULT.json": "5ba59c879275c0686af434d74f31f5906c2c2b557ddbe749a312ad6b3a00ed2d",
+        "cases/qual_m120_d00_hand_k1600/case.json": "01d6426f6c7a58ddf76758f174a887a270275a28f5f39d5c98f2080eb172b2ac",
+        "cases/qual_m120_d00_hand_k1600/schedule_decision.json": "0a94a0f206919341c379a23f7bbed33c631e77ccac53746f18b10d23fb7b3f19",
+        "cases/qual_m120_d00_hand_k1600/mass_parameter_readback.json": "33ae4140e6f33366a0f49e44d053e29155107ce5ef5da0ffc364ab603d29d475",
+        "cases/qual_m120_d00_hand_k1600/task/installed_properties_end.json": "28b44bafb20a4602335701068ec714d753517a49a8b5b695bbda9d026b020694",
+        "cases/qual_m120_d00_hand_k1600/task/states.jsonl": "3d4fdb3f9de0ce1a6996dd3ec8aeaa691c2d9a0b64b90a0f12f61ed63c6b5888",
+        "cases/qual_m120_d00_hand_k1600/task/contact_rows.jsonl": "2560d74790b8496a2a3a69622b091054bc0623c6947cd666ef705dd5d2f52c91",
+        "cases/qual_m120_d00_hand_k1600/task/dispatch.jsonl": "1184c6f178b62882f403821b64fda38d8a281031ccbd8425dd309f601eb93430",
+        "cases/qual_m120_d00_hand_k1600/task/command_events.jsonl": "b02f1ba377a8beec0a8479547573f2c57d7efb415ade83359fa2466d34a57e62",
+        "cases/qual_m120_d00_hand_k1600/task/queue_completion.json": "52073bf8a629eecdd8539f2e7b2fe715f5acb57c67e1c4924d6b5ed3e9f05b2a",
+        "cases/qual_m120_d00_hand_k1600/task/measured_arrays.npz": "9ef1455e6e08c0ed6ebcd3232f070f67ee1de023c3636aae515dd09b5e0a90fd",
+        "cases/qual_m120_d00_hand_k1600/task/contract.json": "e895757f6ad3a38b29c008c5af3f81284b47839b961fa81e2b35d0c23e8d91f2",
+        "cases/qual_m120_d00_hand_k1600/task/contact_coverage.json": "86e11eae71a30271340609df7fcce8910999c7b0890729df1037b60f32ec4c63",
+        "cases/qual_m120_d00_hand_k1600/task/independent_score.json": "7e711c978bea7bbc62585a995dc4af1c73eff819693f954e984b06976e534af5",
+        "cases/qual_m120_d00_hand_k1600/task/expanded_events.json": "2a373c2238c3b522836deb2f5be2707db6110e0530e6ed98aeda049af806910e",
+        "cases/qual_m120_d00_hand_k1600/task/public_cue.json": "021ebf945365b3b2a97253ae4847e2a736de7fb38df7348725302f23fc25467c",
+        "cases/qual_m120_d00_hand_k1600/task/timing_score.json": "c8bd95600cc1ccd6dfe943dedc362f8ea8bf4f6e258be9f52ec123fe367c5674",
+        "cases/qual_m120_d00_hand_k1600/task/action_write_audit.json": "45d5478b9367ac2d8142789ff66e7d0c83895d3b0dabdca2385c76184ecb1b76",
+        "cases/qual_m120_d00_hand_k1600/CONTROLLER_INSTALLATION.json": "5bdcd1805c6be8984d1285f8a721f9a61181c38ec7cb859a9aa59db7d97951e1",
+        "cases/qual_m120_d00_hand_k1600/task/ACTIVE_DRIVE_END.json": "795a5da2ad5ab7af8d51f9bdad4b24d83c79f43cd8f0af055d90cee97eb9fb12",
+        "cases/qual_m120_d00_hand_k1600/MATERIAL_ACTIVE_READBACK.json": "9a659f0d44b70257ea2cf3e6b538088cd1ff9810d48e7c4a658764c64ab26d68",
+        "cases/qual_m120_d00_hand_k1600/uninterrupted_transient_verdict.json": "72edeaa1aa16faa32c1f820591a323f1b110f936f4e1992c7d1d832392f7cd33",
+        "cases/qual_m120_d00_hand_k1600/setup/native_clock.jsonl": "acde598b686a837ae9c3cf3c0983921383884bfdb86c09489ba9da34d4940075",
+        "cases/qual_m120_d00_hand_k1600/setup/stability.json": "4ce60b10b0712b437c74e9e71b7bb32316fd779d50bb0e969d6b1ec3f6b808ed",
+        "cases/qual_m120_d00_hand_k1600/setup/boundary_state.json": "e66e60693024a49eb465594e001acde6f9d61b6b6a856fdca93ea3da2d62877e",
+        "cases/qual_m120_d00_hand_k1600/task/qualification_score.json": "27f081e1616457b2a810c009d3c7dc95fd6190de89ceb4b4b17d1a14046a427e",
+        "cases/qual_m120_d00_hand_k1600/PROCESS_EXIT.json": "50035bb9145196079352cc0e0364f8546ebecc258eede21b9254d45092808895",
+        "logs/qual_m120_d00_hand_k1600.json": "a6aa4f81b312f55c612a64755e9f602f6749cc0f802a00bde0ae889393be8a3a"
+      },
+      "fresh_independent_mechanical_score": {
+        "stage": 4,
+        "gate_pass": false,
+        "phases": [
+          {
+            "object": "precursor_1",
+            "stage": 4,
+            "grasp_confirmed": true,
+            "lift_confirmed": true,
+            "target_operation_completed": true,
+            "placement_stable": true,
+            "transport_max_relative_displacement_m": 0.0017388782998552046,
+            "transport_bilateral_contact_fraction": 0.998767258382643,
+            "final_position_error_mm": 0.2160863292057604,
+            "minimum_position_error_mm": 0.0,
+            "final_tilt_rad": 5.215406417846739e-07,
+            "transport_max_tilt_rad": 0.011865730956379512
+          }
+        ],
+        "conditions": {
+          "all_phases_complete": true,
+          "physical_grasp": true,
+          "not_diagnostic": false,
+          "finite_trajectory": true,
+          "joint_state_valid": true,
+          "contact_rows_complete": true,
+          "contact_parse_errors_zero": true,
+          "contact_coverage_verified": true,
+          "penetration_ticks_zero": true,
+          "transport_relative_pose_ok": true,
+          "transport_contact_continuity_ok": true,
+          "transport_tilt_ok": true
+        },
+        "penetration_ticks": 0,
+        "penetration_tick_indices": [],
+        "penetration_numerical_tolerance_m": 0.0,
+        "raw_negative_separation_ticks": 0,
+        "below_minus_1mm_ticks": 0,
+        "minimum_relevant_separation_m": 0.0009555985452607274,
+        "contact_rows_n": 13427,
+        "ticks_n": 13427,
+        "contact_parse_errors": 0,
+        "all_joint_state_check": {
+          "required": true,
+          "evaluated": true,
+          "position_violation_ticks": 0,
+          "velocity_violation_ticks": 0,
+          "violating_joint_names": []
+        }
+      },
+      "scientific_admission": false,
+      "training_admission": false,
+      "worker_completion": {
+        "status": "COMPLETE",
+        "case_id": "qual_m120_d00_hand_k1600",
+        "gpu_uuid": "GPU-b129224c-c735-a03f-de6c-185d2a2724b1",
+        "exit_code": 0,
+        "timed_out": false,
+        "wall_s": 411.2933986398857,
+        "attempt_id": "20261013T134431477939Z-2312901",
+        "launch_log": "launch_attempts/qual_m120_d00_hand_k1600/20261013T134431477939Z-2312901.log",
+        "native_output_exists": true,
+        "formal_episode_started": true,
+        "retry_after_resource_change_allowed": false,
+        "allocated_gpu_hours_upper_bound": 0.11424816628885714,
+        "owned_process_group_empty": true,
+        "model_calls": 0,
+        "training_gpu_hours": 0,
+        "foreign_processes_signaled": false,
+        "gpu_global_configuration_changes": false
+      },
+      "gain_audit": {
+        "status": "PASS_ALL_RECORDED_GAIN_FIELDS",
+        "finger_indices": [
+          7,
+          8
+        ],
+        "stiffness_before": [
+          [
+            3437746.75,
+            3437746.75,
+            3437746.75,
+            3437746.75,
+            3437746.75,
+            3437746.75,
+            3437746.75,
+            800.0,
+            800.0
+          ]
+        ],
+        "stiffness_after": [
+          [
+            3437746.75,
+            3437746.75,
+            3437746.75,
+            3437746.75,
+            3437746.75,
+            3437746.75,
+            3437746.75,
+            1600.0,
+            1600.0
+          ]
+        ],
+        "stiffness_end": [
+          [
+            3437746.75,
+            3437746.75,
+            3437746.75,
+            3437746.75,
+            3437746.75,
+            3437746.75,
+            3437746.75,
+            1600.0,
+            1600.0
+          ]
+        ],
+        "damping_after": [
+          [
+            343774.6875,
+            343774.6875,
+            343774.6875,
+            343774.6875,
+            343774.6875,
+            343774.6875,
+            343774.6875,
+            40.0,
+            40.0
+          ]
+        ],
+        "damping_end": [
+          [
+            343774.6875,
+            343774.6875,
+            343774.6875,
+            343774.6875,
+            343774.6875,
+            343774.6875,
+            343774.6875,
+            40.0,
+            40.0
+          ]
+        ],
+        "effort_limits_after": [
+          [
+            87.0,
+            87.0,
+            87.0,
+            87.0,
+            12.0,
+            12.0,
+            12.0,
+            100.0,
+            3.4028234663852886e+38
+          ]
+        ],
+        "effort_limits_end": [
+          [
+            87.0,
+            87.0,
+            87.0,
+            87.0,
+            12.0,
+            12.0,
+            12.0,
+            100.0,
+            3.4028234663852886e+38
+          ]
+        ],
+        "all_nine_stiffness_before_after_comparisons_exact": true,
+        "all_nine_K_D_effort_after_end_comparisons_exact": true,
+        "reported_native_time_callbacks_and_fresh_and_cached_fingerprints_unchanged": true,
+        "native_time_s": 5.1333336010575294,
+        "physics_callback_count_at_installation": 1230,
+        "damping_effort_before_tensors_exported": false,
+        "independent_D_effort_before_after_tensor_comparison_possible": false,
+        "state_fingerprint_preimages_exported": false,
+        "independent_state_fingerprint_recomputation_possible": false,
+        "before_after_D_effort_equality_evidence": "FROZEN_SETTER_TORCH_EQUAL_ASSERTIONS_ONLY",
+        "state_no_change_evidence": "EQUAL_REPORTED_FRESH_AND_CACHED_HASHES_TIME_CALLBACKS_PLUS_FROZEN_GETTER_IMPLEMENTATION"
+      },
+      "qualification_behavior_pass": true,
+      "independent_contact_available": true,
+      "independent_release_available": true,
+      "calibration_episodes": 0,
+      "test_episodes": 0,
+      "fit_completed": false,
+      "baseline_warmup_samples": 1200,
+      "baseline_matched_ticks": 30
+    }
+  ],
+  "execution_release_sha256": "a41e73f426c232899f7b74ecd16db3caaf715cfa5ca11ce1023a06c15330000c",
+  "auditor_release_sha256": "698b936db18427cbaa5ec5276e4e362d186bae788ae45995da6a50ee4e551b90",
+  "source_freeze_files": {
+    "code/chemrm/__init__.py": "c8877fea9103ee54a69cebecf07b97847aca393c7e86059bb23f41b90e8708b7",
+    "code/chemrm/aliasing.py": "737c5860011adc88e488bc6e48acdfa07044785ee27a95f427f5a8596e9c4bb5",
+    "code/chemrm/constraints.py": "6a154dfad3127914f4bec062e873e5baf7df0b163dcf577c73ddae5c52d30801",
+    "code/chemrm/core_family.py": "c54e62b511fd8b7b0d33e0a8d189cb4214a2141296843b3eed048e6ed30b0990",
+    "code/chemrm/events.py": "f8a998978aa2d27ddb90361b940836d1476f5f54491acfd0e87985ebdc595dcf",
+    "code/chemrm/gate0/__init__.py": "38e0296487c8b914cb684c53c323a48f56a0854bf253a4a06636249c63004ade",
+    "code/chemrm/gate0/addon_noise.py": "f30ed91b63b70535e8d953f17b1d94c9b73141f08a6f1a7575465934f66bce8f",
+    "code/chemrm/gate0/env.py": "17d8eabf22bf9625484da30eb178022d48e62ba7a0adaa52ab3293848127895b",
+    "code/chemrm/gate0/evaluate.py": "56d31333cd09cc88667c55f81623abfc09ab5cc7d9d3351d1af62b5493481aa4",
+    "code/chemrm/gate0/leak_audit.py": "9a0f382c6a26fe0b6ea9df4d17b1e2dddebdc7a6217b143ca194af3f693c03e9",
+    "code/chemrm/gate0/policies.py": "0181273aee49f55090723c9b51b7625d6b8b1465afd3b55e0ecd6d74e04ce507",
+    "code/chemrm/gate0/run_pilot.py": "edb874febda02f96b36d65cce5f93445ddee5b6ddd8e21e78f56c9101de0303e",
+    "code/chemrm/gate0/timing_report.py": "1484e611d49791ab5a8bfa0ff4eb7301fee8a0ec24f601cab4fae42a86d488d4",
+    "code/chemrm/gate0/train.py": "ce6e36ff63e0c319e99e84418f7891d8314aa672245173ba2108c917d7af76f8",
+    "code/chemrm/gates.py": "dc594c0f153cfca40d34831ec166b01bc6aa7468a77725703ef72e081fd7976d",
+    "code/chemrm/papera/README.md": "b8e84d2e8ef0e64efdbe33bcc763208979438408b34d41091af623e97ee25588",
+    "code/chemrm/papera/__init__.py": "e2abd6e28fe510e34495423c5571632726048e233b2be1539bdc30d092866f43",
+    "code/chemrm/papera/astra_boundary_v70.py": "cbfdceaef38e9fa86f3fca5d9d7a18bef5a39ac0d9cd682304a4e393bc6f0898",
+    "code/chemrm/papera/calibrate_isaac_bridge.py": "45c1e68796ee00a1cb8ec62d824837a3fe81c4f2ca42ff6689e7f0ba11d824d6",
+    "code/chemrm/papera/calibrate_native_clock_repair.py": "7c8de669bfb878a2d39c3e697e4051502bf2a8d1f9edbcfa08b9086d5edf0147",
+    "code/chemrm/papera/camera_coverage_v20.py": "f2df399eb9aa9070c16359b641d83e8f17ce5a9dd12f5759187cb01c0ac791c1",
+    "code/chemrm/papera/clock_repair_v17.py": "ee4450b6ff1917764e0a3346d9e833a5145b6dc19e4235b87703b877f47602fc",
+    "code/chemrm/papera/codex_vision_v75.py": "d783831af08d22010d65741322433dad84f45e1759307d4715f73790249bf57f",
+    "code/chemrm/papera/collection_engine_v70.py": "0a2792269edf3d9a1b30bc2356c4d98aa9b42c6933fbdb3054d02d74d1edb3b2",
+    "code/chemrm/papera/confirmation_v19.py": "6a9b7e220b49a18104723f49a1a9a30fa925a4069af4384104142bc786ac33d7",
+    "code/chemrm/papera/contract.py": "4194fa6e4b3f732201b4ff3a80c0c19b73122796af1904577570fc9136991447",
+    "code/chemrm/papera/core_f0.py": "02afb9b6cc7b35afeb5b547fb75e0ca0999b73b5788def3862ed89cfbee933fa",
+    "code/chemrm/papera/diagnose_native_clock.py": "dc8d667417ef0b9f326b7c308925f3db805bae6f8c1261619f66fe574065b49b",
+    "code/chemrm/papera/diagnostic_v19.py": "f000194ff5eeb6a2047014338253a460b6378290a84cf49d9ae65f3cf4c25d3a",
+    "code/chemrm/papera/fixed_light_features.py": "369faeb439df6f139802de5df869505fb11f02cccc03a54c45bde02993012a94",
+    "code/chemrm/papera/fixed_light_native_v17.py": "78fb6ea544f9a0b4fb4d4f9dc62dbc9483cca37da17a05b00ad6efa0783b76ed",
+    "code/chemrm/papera/frozen_execution.py": "8136300f4d8393d089af0a1d5631db2558105b642769cc0c78c5387d15e35639",
+    "code/chemrm/papera/generated_world.py": "12e1c4751faf85a7288d140b7f88aed0422585cdd5d806172c1b2115df805cfd",
+    "code/chemrm/papera/generator.py": "a367a76531dc0dd9a951b8dfde1d88966f0653c6a7cab38e00eff24d5e2805c8",
+    "code/chemrm/papera/isaac_bridge_contract.py": "969981fb2d6f3bf68e47ebd40724d37efb24d1355d49efb04d957d9d08648ef4",
+    "code/chemrm/papera/isaac_bridge_native.py": "6ec17a9a73d89173ecfe359a34f0202130b488966892af1acee29c95cab52001",
+    "code/chemrm/papera/isaac_bridge_policies.py": "22f4f18149666e3fc25d3028bc7c35ed8425616ca819e550ffc7eb06dab2b14c",
+    "code/chemrm/papera/isaac_bridge_verify.py": "df660d85ffa3676e25395a4148c849d414c3811821ffb345eb0fbe0b49e39363",
+    "code/chemrm/papera/legacy_reconstruction/__init__.py": "336a463060c15f0fdbefc17868f7e2c30f72ecddbc5f820bd12d8b804d55e0ef",
+    "code/chemrm/papera/legacy_reconstruction/checkpoint_runtime.py": "52cdfdc9b5566d37bc22cc91fd1a2e21024ca7dd49b804510499430ddc901ad6",
+    "code/chemrm/papera/legacy_reconstruction/checkpoint_schema.py": "0ab2d3bd07be9db446465f00ce649fb6943721c5a3543d7923789bbfc8e09431",
+    "code/chemrm/papera/long_task_plan_v74.py": "ee78dee8c33d94dc6a1767e9da639daee57bf7c95eb0dc6cd72a1ebc7e8651d8",
+    "code/chemrm/papera/manifest.py": "cf87abda6b11bdf91247dc10cd0f723c6782f1b4a2d914867834f9f4b51397ed",
+    "code/chemrm/papera/native_clock_denoiser_probe.py": "3717ece1863e2ed5c49a1c7b098802df9fbb61082dbae899fd89d0bfc199378a",
+    "code/chemrm/papera/native_clock_lighting_probe.py": "b9598653a49b47e6bf0847d7c504ae44111c80c31e3b104d73ed59e2cca16345",
+    "code/chemrm/papera/native_clock_repair_candidate.py": "ca9313b422a791613d3ae993029a1c2de1e4b45a2d1214cfda3b33c36941aef1",
+    "code/chemrm/papera/native_clock_settings_probe.py": "56f786ab31c3b46debf83362b23e4be9dd181b7fa342ca7b4bc755f67134f3a2",
+    "code/chemrm/papera/native_leakage.py": "cf1045092638d8e483559dd8efe33a9a49c3c32a84f78e7d288393a19e6e4e49",
+    "code/chemrm/papera/physical_bottle_baseline.py": "48e8864bed27cd4c9ef582d56b380284a3b83ba1de1ecaca75139acd8649f468",
+    "code/chemrm/papera/reconstruction.py": "73c53063f9a10d3cca12ee30b80a3a1f74b1ed9378e25d60d17da2d89c9aba3f",
+    "code/chemrm/papera/release.py": "e7f6efa3808a26a237a4fe02b9de1d8d38637edc53d712daba94a8d2a8754482",
+    "code/chemrm/papera/replay_chemistry.py": "d798d7eb745cdaff6fa0292fa7a309dd2639a9c91cb4a10d0bd42c9cd036abcd",
+    "code/chemrm/papera/run_camera_coverage_v20.py": "6f0ed99126d042c272d84064d4e79a40f1128b573a8c8d1173a5b5fbb204f7aa",
+    "code/chemrm/papera/run_chemistry.py": "e283adf877bb261a99b2f12b6af854eb49c578cefa71462547a6f6805a67d6f6",
+    "code/chemrm/papera/run_clock_repair_v17.py": "9dcbb9bd5b3093f43f92c9dac3124a0871dd6c8e5d052a6fc5aeb7a81542b67e",
+    "code/chemrm/papera/run_confirmation_v19.py": "8daffb1d2ad61c73efe6df6fdba0b656419ab7a00ca5b9eb32d0db3804a90e95",
+    "code/chemrm/papera/run_diagnostic_v19.py": "fb6e8de0303f60ab30be017fba2f878ad1e305f29b92fd166d4a19512809ba46",
+    "code/chemrm/papera/run_f0.py": "c873d96f324a1838215607389048b499a105f6102265bc01fd429bde47f1eae8",
+    "code/chemrm/papera/run_f1_release.py": "1b3a02b773d6a44f66890a62a0ce923790aae62ebf9b5ca8023432f935aa3205",
+    "code/chemrm/papera/run_generate.py": "6aa0029dd5b5a0a5a95ae606b97e68ec853ced4bcf676ebaa80b32474982641e",
+    "code/chemrm/papera/run_generated.py": "3bcb401239226957c1820d363ee6b36a790a2b7c667546fce75ee065732e2dd1",
+    "code/chemrm/papera/run_isaac_bridge.py": "1db84602bb0b3eeadb79cd5a374445d60b9deeb7fe8e0edd65bbc2cf72e93ee1",
+    "code/chemrm/papera/run_manifest.py": "83fd1d41beb072a76f1db01e255d5c236bbfe9a632de0ee786f37a3eeff7ebfe",
+    "code/chemrm/papera/run_native_leakage.py": "9b2f2a2e883f46876b88125679f4f9aaf117ed41b860cb110eef0b25b721c98e",
+    "code/chemrm/papera/run_strong_probe_v18.py": "1433eea17dfccd78863e00806744605dd6bfa959852a51e505380a93c4f6eff7",
+    "code/chemrm/papera/run_tasks.py": "148446c824067f6c1962c966f4f998ad3fb21457c25fb5828189971c23b26c2b",
+    "code/chemrm/papera/run_temporal_evidence_v74.py": "c65728a90682544ff729374b8d30ce8f429c35a0fac7a4ce2fcad6bf5720083f",
+    "code/chemrm/papera/runner.py": "dd1ddc4ea89f91104b450f1384939630d2b3992462d8fd92c1655535f2cef168",
+    "code/chemrm/papera/semantics.py": "f3eceeffd67e195697e6acc9a162178816b8645bcf698aabfce20ef8b83e1769",
+    "code/chemrm/papera/settled_capture_v19.py": "7ff12359e70322934cfa8fb553e49654dcac599b6667c2e9f01ef38c41c82647",
+    "code/chemrm/papera/spec.py": "d36ed47c9f26b8a9b806a214c191945f98a3e48b357ad18f366e492830cc3352",
+    "code/chemrm/papera/staged_collection.py": "c8c4e19c9aa92fab55ca969ef0e3dc77ef52dc20ab2a018dd5de4d6895d3f2e6",
+    "code/chemrm/papera/strong_features_v18.py": "a50aa122fe46e4d864d180ac55c604b5f00fed08c7d63b29f5e48fb65b0b764f",
+    "code/chemrm/papera/strong_probe_v18.py": "9ab5a91a81000628595872b77e6825e3fccb1a0d5553586ffb9d8f482886cac3",
+    "code/chemrm/papera/task_actor_v75.py": "bf288473274598e1215b008c9eeded03ee2dd0de45cd9832fe0a2c2e5fad5cc2",
+    "code/chemrm/papera/task_worlds.py": "0d1391252ee808394be6ce7d625a2e244c43b67bee986be40a83739713efefcc",
+    "code/chemrm/papera/temporal_evidence_v74.py": "a51ef04f5a2a973f1a56e52ee3678b8399728d5480e13ec5b7c720b70192abee",
+    "code/chemrm/papera/thermal_dose.py": "a17729c442c87dc10413fe0817a451ae4f808f3d6d128c2c47da0f174cdd2d35",
+    "code/chemrm/paperb/README.md": "1c1cc474b60130a796ed78c47a376b7a49a485ce0bdb4eaa5ca9f23e0555c05b",
+    "code/chemrm/paperb/__init__.py": "f2ec35120dd08ad7d5ed97ef7250b6b982f1b7cc5d7697bcc52796b29cbdb3bd",
+    "code/chemrm/paperb/q0a.py": "b86a4552f2f5705bc29fa9a2f53c749de7161c4cff9eeb40ea16447d43d3ae28",
+    "code/chemrm/paperb/readout.py": "becf8d3cffec055e63dee63d4b5f787e6afd2fe17ba8148381794021b282a58a",
+    "code/chemrm/paperb/run_q0a.py": "cc266df692c386bd4b1ae48653baa5c98c2d69910d0be9f0dbbefd6a13dd4c4c",
+    "code/chemrm/paperb/summarize.py": "fd8fbb0a319b696953e04b88f17dd3d6bd86a346f5cb13d8bd5303517126d008",
+    "code/chemrm/process_models.py": "c1da7834fd9ed0509f49f4e3afd4e1b962a5ae71be9a297afe593ec3fdb51786",
+    "code/chemrm/quality.py": "f1e2d47603d291682b4774cf736d2d47085455e259d2fea525913907a6f91537",
+    "code/chemrm/task_program.py": "bbc01113fd88489d701c3b143531e2f0cd2b886b1e9aeace65d05a834880243d",
+    "code/chemrm/task_schema.py": "070614228ac4f8289e3fc4cac6730caa51363c84898e32f911e06923fd72d65d",
+    "code/chemrm/tasks/c05_endpoint_stop.yaml": "f7f4b059536a00fbe8544efb82d8a8f25ef4ea28700c9bddd03bd002ec72b078",
+    "code/chemrm/tasks/c06_timed_stirring.yaml": "978db654095b7824a611acfffff66266a42402186ded552c105b83d9942698a1",
+    "code/chemrm/tasks/c13_memory_time_hero.yaml": "1eb1b990f940b234f13e9f69961406e2f5aafa055a3ee16a4b66c5a4a2084453",
+    "code/chemrm/timing_metrics.py": "bbcc7d2a47827718975e421e515610151388c1c0fd74ad70df5594f2a1604261",
+    "code/contact_calibration.json": "ecb00042b3f24c61d82d4f6e8d07a58d3afef8866acb9ddc756672cdd040f3a3",
+    "code/contact_telemetry.py": "4d76b94ecc448539b365fb8569d01ff78927e43f7a17d4bb326c571089cafe80",
+    "code/gripper_geometry.py": "42feb1593894a666b4f42987b9b444185de20788a8a31986804cb946628d8b5f",
+    "code/robot_collision_filters.py": "5ddc6ba71451c6e7a6ad32e8a5e40c8df4731bc66524f767811716c0ad008b71",
+    "code/scene_cfg_twin.py": "2df82f47af8e04534eba15edd57c23a4f696533f152bbea9de361cf30f5bf444",
+    "code/trajectory_audit.py": "b0b5ed98a47610928683aec399ca66759303d13416be52dd94d69803e7779959",
+    "code/xrd_window_cfg.py": "3b1f42aaa2c4e32507faac900eb59914aabef526941b97fbc9707dedc0d16560",
+    "code/xrd_window_passive_cfg.py": "b62550a3de60e37123bb69fca671bcac816ab33b2cb477d08120406438dedafd",
+    "inputs/commands.npz": "03a63a0b77037785741540465ef39d8b0a45e17563f9ec5b9c15133497de410a",
+    "inputs/original_contract.json": "065137feb94cd4a90f62acf707c7292e2ea2a5c1da743281e91a6effcc5bd7e4",
+    "inputs/original_source_manifest.json": "a9ed6e224374cfa0112a3c2bc22d6d3518539d2f9e9d42845e264b1a48b680d4",
+    "plan.json": "92e4ced4f17d9c3b56b3e8d4693f69b8294d478a84d811c37b1e5b2290c80c9c",
+    "source_pins.json": "87b649d8b0b5000f9cc3bec9c16fa70a5c41e1b28c801e845f2d078f646f1f47",
+    "native_probe.py": "e4d27a7c690b402257830f7a40cfd646ed45f054ca937446b7f5dea925ff8bdc",
+    "expansion_protocol.py": "a04bde9796104786ef517f307607e739b4d8db4e23cab876f9080b63a7065bb2",
+    "gain_installation.py": "c59f68963f1f48b4e58a817ecc19c9cd3a5907fdac3ff2056771aaf5c0b092c7",
+    "protocol.json": "35a568180f82e6eb0d367855601f85d80a424a4fd103dd0575ab8f9c0051b475",
+    "run_worker.py": "f491948c0a54384a2b99d4ee65b2d49502e9a409c9c32a1948737c9bc276adf9",
+    "gpu_mapping.py": "8de25a859f84b733e2a1b8bd1d300030249f68f97fc22de03004a2a6961c47e3",
+    "launch_worker.sh": "dc6b54c4d44a1aba63e03388868fb26964debe884e0894d0135138f0386d4267",
+    "test_qualification.py": "3d19a53a383c9519a2c1124763b17747a86be80e5f7dee99afa3c8c71f87b587",
+    "freeze_sources.py": "fefda3c5959dbc8da2e0d55774ac6a7089cf61873fc18e22aeea5fd57631d76b",
+    "SOURCE_ORIGIN.json": "6783cefa7541c1a08a80333699ab8080985ba5b1c875091975d535ea090fde2e",
+    "CPU_PREFLIGHT.json": "f874a4899794a6e955fc108b216fc9fb50065b6d0f7772fe00d1a9bd5ebfa847",
+    "INSTALLED_API_READ_ONLY.json": "121cec7ef673df7405ec19f65cad793f68381ed93f2f183e6377ab9df2335177"
+  },
+  "auditor_source_files": {
+    "CPU_TESTS.json": "984e91dfbb91368e6418049daf8f3d9973dbe630bb08fba754c36b20fe4469c6",
+    "INSTALLATION_READBACK_CONTRACT.json": "618ec39c6b9c7d5d7138df8a4dc7d660501354e17aed1d7daf707005e38cfb73",
+    "QUALIFICATION_AUDIT_CONTRACT.json": "b57409045d26baecb80ec2c86393b4b0cb5a0d9aa8f58082c5fe6731c8b548af",
+    "VERSION_DIFFERENCE.json": "1e7a6d01c19c9eb2217bda54f4363dec34be840bb5d2469d96074064e699dc20",
+    "audit_expansion.py": "0d171ce89a6657103bdf71ddef0a0977f9d3f6526b9316a5cbdb0b9ed9bc0e31",
+    "audit_qualification.py": "440aa1e4305502f958af9f2111f04d5d532dca930c5f8d23396949f63a665e61",
+    "gain_audit.py": "f8627a9026737d0724921937b843cb4c2b672e41bcb072b2d0efc9a43eb30041",
+    "independent_protocol.py": "7736d42ee0f90882e7a31900fed17bea5c945a7b79cdeb7844265ad635a21f41",
+    "raw_native.py": "33662c9303680bb00e49296a434bc11e3e46fb19e94a4a77964ec67fbf220d2c",
+    "test_gain_audit.py": "c57bc08e75c5ab42db2199f0cced99a50261bab43cfd54b122932ef616aeb868",
+    "test_independent_protocol.py": "051a3260082afab6229540324eb8504986afed7cb7e2cdd3d638b7765c7bb1aa",
+    "test_raw_native.py": "d1c99acd39b410b11f7eaa73c62667a67ef5992526e9b857e90559e4f16ae070"
+  },
+  "baseline_input_lineage_sha256": {
+    "code/chemrm/__init__.py": "c8877fea9103ee54a69cebecf07b97847aca393c7e86059bb23f41b90e8708b7",
+    "code/chemrm/aliasing.py": "737c5860011adc88e488bc6e48acdfa07044785ee27a95f427f5a8596e9c4bb5",
+    "code/chemrm/constraints.py": "6a154dfad3127914f4bec062e873e5baf7df0b163dcf577c73ddae5c52d30801",
+    "code/chemrm/core_family.py": "c54e62b511fd8b7b0d33e0a8d189cb4214a2141296843b3eed048e6ed30b0990",
+    "code/chemrm/events.py": "f8a998978aa2d27ddb90361b940836d1476f5f54491acfd0e87985ebdc595dcf",
+    "code/chemrm/gate0/__init__.py": "38e0296487c8b914cb684c53c323a48f56a0854bf253a4a06636249c63004ade",
+    "code/chemrm/gate0/addon_noise.py": "f30ed91b63b70535e8d953f17b1d94c9b73141f08a6f1a7575465934f66bce8f",
+    "code/chemrm/gate0/env.py": "17d8eabf22bf9625484da30eb178022d48e62ba7a0adaa52ab3293848127895b",
+    "code/chemrm/gate0/evaluate.py": "56d31333cd09cc88667c55f81623abfc09ab5cc7d9d3351d1af62b5493481aa4",
+    "code/chemrm/gate0/leak_audit.py": "9a0f382c6a26fe0b6ea9df4d17b1e2dddebdc7a6217b143ca194af3f693c03e9",
+    "code/chemrm/gate0/policies.py": "0181273aee49f55090723c9b51b7625d6b8b1465afd3b55e0ecd6d74e04ce507",
+    "code/chemrm/gate0/run_pilot.py": "edb874febda02f96b36d65cce5f93445ddee5b6ddd8e21e78f56c9101de0303e",
+    "code/chemrm/gate0/timing_report.py": "1484e611d49791ab5a8bfa0ff4eb7301fee8a0ec24f601cab4fae42a86d488d4",
+    "code/chemrm/gate0/train.py": "ce6e36ff63e0c319e99e84418f7891d8314aa672245173ba2108c917d7af76f8",
+    "code/chemrm/gates.py": "dc594c0f153cfca40d34831ec166b01bc6aa7468a77725703ef72e081fd7976d",
+    "code/chemrm/papera/README.md": "b8e84d2e8ef0e64efdbe33bcc763208979438408b34d41091af623e97ee25588",
+    "code/chemrm/papera/__init__.py": "e2abd6e28fe510e34495423c5571632726048e233b2be1539bdc30d092866f43",
+    "code/chemrm/papera/astra_boundary_v70.py": "cbfdceaef38e9fa86f3fca5d9d7a18bef5a39ac0d9cd682304a4e393bc6f0898",
+    "code/chemrm/papera/calibrate_isaac_bridge.py": "45c1e68796ee00a1cb8ec62d824837a3fe81c4f2ca42ff6689e7f0ba11d824d6",
+    "code/chemrm/papera/calibrate_native_clock_repair.py": "7c8de669bfb878a2d39c3e697e4051502bf2a8d1f9edbcfa08b9086d5edf0147",
+    "code/chemrm/papera/camera_coverage_v20.py": "f2df399eb9aa9070c16359b641d83e8f17ce5a9dd12f5759187cb01c0ac791c1",
+    "code/chemrm/papera/clock_repair_v17.py": "ee4450b6ff1917764e0a3346d9e833a5145b6dc19e4235b87703b877f47602fc",
+    "code/chemrm/papera/codex_vision_v75.py": "d783831af08d22010d65741322433dad84f45e1759307d4715f73790249bf57f",
+    "code/chemrm/papera/collection_engine_v70.py": "0a2792269edf3d9a1b30bc2356c4d98aa9b42c6933fbdb3054d02d74d1edb3b2",
+    "code/chemrm/papera/confirmation_v19.py": "6a9b7e220b49a18104723f49a1a9a30fa925a4069af4384104142bc786ac33d7",
+    "code/chemrm/papera/contract.py": "4194fa6e4b3f732201b4ff3a80c0c19b73122796af1904577570fc9136991447",
+    "code/chemrm/papera/core_f0.py": "02afb9b6cc7b35afeb5b547fb75e0ca0999b73b5788def3862ed89cfbee933fa",
+    "code/chemrm/papera/diagnose_native_clock.py": "dc8d667417ef0b9f326b7c308925f3db805bae6f8c1261619f66fe574065b49b",
+    "code/chemrm/papera/diagnostic_v19.py": "f000194ff5eeb6a2047014338253a460b6378290a84cf49d9ae65f3cf4c25d3a",
+    "code/chemrm/papera/fixed_light_features.py": "369faeb439df6f139802de5df869505fb11f02cccc03a54c45bde02993012a94",
+    "code/chemrm/papera/fixed_light_native_v17.py": "78fb6ea544f9a0b4fb4d4f9dc62dbc9483cca37da17a05b00ad6efa0783b76ed",
+    "code/chemrm/papera/frozen_execution.py": "8136300f4d8393d089af0a1d5631db2558105b642769cc0c78c5387d15e35639",
+    "code/chemrm/papera/generated_world.py": "12e1c4751faf85a7288d140b7f88aed0422585cdd5d806172c1b2115df805cfd",
+    "code/chemrm/papera/generator.py": "a367a76531dc0dd9a951b8dfde1d88966f0653c6a7cab38e00eff24d5e2805c8",
+    "code/chemrm/papera/isaac_bridge_contract.py": "969981fb2d6f3bf68e47ebd40724d37efb24d1355d49efb04d957d9d08648ef4",
+    "code/chemrm/papera/isaac_bridge_native.py": "6ec17a9a73d89173ecfe359a34f0202130b488966892af1acee29c95cab52001",
+    "code/chemrm/papera/isaac_bridge_policies.py": "22f4f18149666e3fc25d3028bc7c35ed8425616ca819e550ffc7eb06dab2b14c",
+    "code/chemrm/papera/isaac_bridge_verify.py": "df660d85ffa3676e25395a4148c849d414c3811821ffb345eb0fbe0b49e39363",
+    "code/chemrm/papera/legacy_reconstruction/__init__.py": "336a463060c15f0fdbefc17868f7e2c30f72ecddbc5f820bd12d8b804d55e0ef",
+    "code/chemrm/papera/legacy_reconstruction/checkpoint_runtime.py": "52cdfdc9b5566d37bc22cc91fd1a2e21024ca7dd49b804510499430ddc901ad6",
+    "code/chemrm/papera/legacy_reconstruction/checkpoint_schema.py": "0ab2d3bd07be9db446465f00ce649fb6943721c5a3543d7923789bbfc8e09431",
+    "code/chemrm/papera/long_task_plan_v74.py": "ee78dee8c33d94dc6a1767e9da639daee57bf7c95eb0dc6cd72a1ebc7e8651d8",
+    "code/chemrm/papera/manifest.py": "cf87abda6b11bdf91247dc10cd0f723c6782f1b4a2d914867834f9f4b51397ed",
+    "code/chemrm/papera/native_clock_denoiser_probe.py": "3717ece1863e2ed5c49a1c7b098802df9fbb61082dbae899fd89d0bfc199378a",
+    "code/chemrm/papera/native_clock_lighting_probe.py": "b9598653a49b47e6bf0847d7c504ae44111c80c31e3b104d73ed59e2cca16345",
+    "code/chemrm/papera/native_clock_repair_candidate.py": "ca9313b422a791613d3ae993029a1c2de1e4b45a2d1214cfda3b33c36941aef1",
+    "code/chemrm/papera/native_clock_settings_probe.py": "56f786ab31c3b46debf83362b23e4be9dd181b7fa342ca7b4bc755f67134f3a2",
+    "code/chemrm/papera/native_leakage.py": "cf1045092638d8e483559dd8efe33a9a49c3c32a84f78e7d288393a19e6e4e49",
+    "code/chemrm/papera/physical_bottle_baseline.py": "48e8864bed27cd4c9ef582d56b380284a3b83ba1de1ecaca75139acd8649f468",
+    "code/chemrm/papera/reconstruction.py": "73c53063f9a10d3cca12ee30b80a3a1f74b1ed9378e25d60d17da2d89c9aba3f",
+    "code/chemrm/papera/release.py": "e7f6efa3808a26a237a4fe02b9de1d8d38637edc53d712daba94a8d2a8754482",
+    "code/chemrm/papera/replay_chemistry.py": "d798d7eb745cdaff6fa0292fa7a309dd2639a9c91cb4a10d0bd42c9cd036abcd",
+    "code/chemrm/papera/run_camera_coverage_v20.py": "6f0ed99126d042c272d84064d4e79a40f1128b573a8c8d1173a5b5fbb204f7aa",
+    "code/chemrm/papera/run_chemistry.py": "e283adf877bb261a99b2f12b6af854eb49c578cefa71462547a6f6805a67d6f6",
+    "code/chemrm/papera/run_clock_repair_v17.py": "9dcbb9bd5b3093f43f92c9dac3124a0871dd6c8e5d052a6fc5aeb7a81542b67e",
+    "code/chemrm/papera/run_confirmation_v19.py": "8daffb1d2ad61c73efe6df6fdba0b656419ab7a00ca5b9eb32d0db3804a90e95",
+    "code/chemrm/papera/run_diagnostic_v19.py": "fb6e8de0303f60ab30be017fba2f878ad1e305f29b92fd166d4a19512809ba46",
+    "code/chemrm/papera/run_f0.py": "c873d96f324a1838215607389048b499a105f6102265bc01fd429bde47f1eae8",
+    "code/chemrm/papera/run_f1_release.py": "1b3a02b773d6a44f66890a62a0ce923790aae62ebf9b5ca8023432f935aa3205",
+    "code/chemrm/papera/run_generate.py": "6aa0029dd5b5a0a5a95ae606b97e68ec853ced4bcf676ebaa80b32474982641e",
+    "code/chemrm/papera/run_generated.py": "3bcb401239226957c1820d363ee6b36a790a2b7c667546fce75ee065732e2dd1",
+    "code/chemrm/papera/run_isaac_bridge.py": "1db84602bb0b3eeadb79cd5a374445d60b9deeb7fe8e0edd65bbc2cf72e93ee1",
+    "code/chemrm/papera/run_manifest.py": "83fd1d41beb072a76f1db01e255d5c236bbfe9a632de0ee786f37a3eeff7ebfe",
+    "code/chemrm/papera/run_native_leakage.py": "9b2f2a2e883f46876b88125679f4f9aaf117ed41b860cb110eef0b25b721c98e",
+    "code/chemrm/papera/run_strong_probe_v18.py": "1433eea17dfccd78863e00806744605dd6bfa959852a51e505380a93c4f6eff7",
+    "code/chemrm/papera/run_tasks.py": "148446c824067f6c1962c966f4f998ad3fb21457c25fb5828189971c23b26c2b",
+    "code/chemrm/papera/run_temporal_evidence_v74.py": "c65728a90682544ff729374b8d30ce8f429c35a0fac7a4ce2fcad6bf5720083f",
+    "code/chemrm/papera/runner.py": "dd1ddc4ea89f91104b450f1384939630d2b3992462d8fd92c1655535f2cef168",
+    "code/chemrm/papera/semantics.py": "f3eceeffd67e195697e6acc9a162178816b8645bcf698aabfce20ef8b83e1769",
+    "code/chemrm/papera/settled_capture_v19.py": "7ff12359e70322934cfa8fb553e49654dcac599b6667c2e9f01ef38c41c82647",
+    "code/chemrm/papera/spec.py": "d36ed47c9f26b8a9b806a214c191945f98a3e48b357ad18f366e492830cc3352",
+    "code/chemrm/papera/staged_collection.py": "c8c4e19c9aa92fab55ca969ef0e3dc77ef52dc20ab2a018dd5de4d6895d3f2e6",
+    "code/chemrm/papera/strong_features_v18.py": "a50aa122fe46e4d864d180ac55c604b5f00fed08c7d63b29f5e48fb65b0b764f",
+    "code/chemrm/papera/strong_probe_v18.py": "9ab5a91a81000628595872b77e6825e3fccb1a0d5553586ffb9d8f482886cac3",
+    "code/chemrm/papera/task_actor_v75.py": "bf288473274598e1215b008c9eeded03ee2dd0de45cd9832fe0a2c2e5fad5cc2",
+    "code/chemrm/papera/task_worlds.py": "0d1391252ee808394be6ce7d625a2e244c43b67bee986be40a83739713efefcc",
+    "code/chemrm/papera/temporal_evidence_v74.py": "a51ef04f5a2a973f1a56e52ee3678b8399728d5480e13ec5b7c720b70192abee",
+    "code/chemrm/papera/thermal_dose.py": "a17729c442c87dc10413fe0817a451ae4f808f3d6d128c2c47da0f174cdd2d35",
+    "code/chemrm/paperb/README.md": "1c1cc474b60130a796ed78c47a376b7a49a485ce0bdb4eaa5ca9f23e0555c05b",
+    "code/chemrm/paperb/__init__.py": "f2ec35120dd08ad7d5ed97ef7250b6b982f1b7cc5d7697bcc52796b29cbdb3bd",
+    "code/chemrm/paperb/q0a.py": "b86a4552f2f5705bc29fa9a2f53c749de7161c4cff9eeb40ea16447d43d3ae28",
+    "code/chemrm/paperb/readout.py": "becf8d3cffec055e63dee63d4b5f787e6afd2fe17ba8148381794021b282a58a",
+    "code/chemrm/paperb/run_q0a.py": "cc266df692c386bd4b1ae48653baa5c98c2d69910d0be9f0dbbefd6a13dd4c4c",
+    "code/chemrm/paperb/summarize.py": "fd8fbb0a319b696953e04b88f17dd3d6bd86a346f5cb13d8bd5303517126d008",
+    "code/chemrm/process_models.py": "c1da7834fd9ed0509f49f4e3afd4e1b962a5ae71be9a297afe593ec3fdb51786",
+    "code/chemrm/quality.py": "f1e2d47603d291682b4774cf736d2d47085455e259d2fea525913907a6f91537",
+    "code/chemrm/task_program.py": "bbc01113fd88489d701c3b143531e2f0cd2b886b1e9aeace65d05a834880243d",
+    "code/chemrm/task_schema.py": "070614228ac4f8289e3fc4cac6730caa51363c84898e32f911e06923fd72d65d",
+    "code/chemrm/tasks/c05_endpoint_stop.yaml": "f7f4b059536a00fbe8544efb82d8a8f25ef4ea28700c9bddd03bd002ec72b078",
+    "code/chemrm/tasks/c06_timed_stirring.yaml": "978db654095b7824a611acfffff66266a42402186ded552c105b83d9942698a1",
+    "code/chemrm/tasks/c13_memory_time_hero.yaml": "1eb1b990f940b234f13e9f69961406e2f5aafa055a3ee16a4b66c5a4a2084453",
+    "code/chemrm/timing_metrics.py": "bbcc7d2a47827718975e421e515610151388c1c0fd74ad70df5594f2a1604261",
+    "code/contact_calibration.json": "ecb00042b3f24c61d82d4f6e8d07a58d3afef8866acb9ddc756672cdd040f3a3",
+    "code/contact_telemetry.py": "4d76b94ecc448539b365fb8569d01ff78927e43f7a17d4bb326c571089cafe80",
+    "code/gripper_geometry.py": "42feb1593894a666b4f42987b9b444185de20788a8a31986804cb946628d8b5f",
+    "code/robot_collision_filters.py": "5ddc6ba71451c6e7a6ad32e8a5e40c8df4731bc66524f767811716c0ad008b71",
+    "code/scene_cfg_twin.py": "2df82f47af8e04534eba15edd57c23a4f696533f152bbea9de361cf30f5bf444",
+    "code/trajectory_audit.py": "b0b5ed98a47610928683aec399ca66759303d13416be52dd94d69803e7779959",
+    "code/xrd_window_cfg.py": "3b1f42aaa2c4e32507faac900eb59914aabef526941b97fbc9707dedc0d16560",
+    "code/xrd_window_passive_cfg.py": "b62550a3de60e37123bb69fca671bcac816ab33b2cb477d08120406438dedafd",
+    "inputs/commands.npz": "03a63a0b77037785741540465ef39d8b0a45e17563f9ec5b9c15133497de410a",
+    "inputs/original_contract.json": "065137feb94cd4a90f62acf707c7292e2ea2a5c1da743281e91a6effcc5bd7e4",
+    "inputs/original_source_manifest.json": "a9ed6e224374cfa0112a3c2bc22d6d3518539d2f9e9d42845e264b1a48b680d4",
+    "plan.json": "92e4ced4f17d9c3b56b3e8d4693f69b8294d478a84d811c37b1e5b2290c80c9c",
+    "source_pins.json": "87b649d8b0b5000f9cc3bec9c16fa70a5c41e1b28c801e845f2d078f646f1f47",
+    "gpu_mapping.py": "8de25a859f84b733e2a1b8bd1d300030249f68f97fc22de03004a2a6961c47e3"
+  },
+  "independently_recorded_before_D_effort_tensors": false,
+  "fresh_state_fingerprint_preimages_exported": false,
+  "install_D_effort_before_after_equality_source_assertion_only": true,
+  "audit_frozen_before_native_run": false,
+  "audit_frozen_after_outputs_present_before_outcome_inspection": true,
+  "calibration_fit": false,
+  "test_episodes": 0,
+  "calibration_episodes": 0,
+  "new_native_rollouts_by_auditor": 0,
+  "prior_failed_calibrations_preserved": 4,
+  "chemistry_validated": false,
+  "hardware_validated": false,
+  "learned_policy": false,
+  "causal_root_cause_proven": false,
+  "bounds": "Single rigid-bottle native simulation qualification; independently reconstructs RAW events and original mechanical score; timing results descriptive, not heldout performance"
+}

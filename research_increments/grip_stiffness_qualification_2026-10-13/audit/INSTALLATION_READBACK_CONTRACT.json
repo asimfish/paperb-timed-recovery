@@ -1,0 +1,26 @@
+{
+  "schema": "paperb-prospective-physx-installation-readback-contract-v1",
+  "native_source_file": "native_probe.py",
+  "native_source_sha256": "e4d27a7c690b402257830f7a40cfd646ed45f054ca937446b7f5dea925ff8bdc",
+  "execution_release_sha256": "a41e73f426c232899f7b74ecd16db3caaf715cfa5ca11ce1023a06c15330000c",
+  "source_excerpt_lines": [
+    120,
+    123
+  ],
+  "source_excerpt": "    if not torch.isfinite(mass_after).all() or not (mass_after>0).all() or not torch.allclose(mass_after,requested_mass,rtol=1e-6,atol=1e-8):\n        raise RuntimeError('actual native mass readback differs from requested installed mass')\n    if not torch.isfinite(inertia_after).all() or not torch.allclose(inertia_after,requested_inertia,rtol=1e-6,atol=1e-10):\n        raise RuntimeError('actual native inertia readback differs from requested installed inertia')\n",
+  "source_excerpt_sha256": "bada29f4e7bbe562bf8e3169b313eff630358d1e4eda2fab4901da3fca9078bb",
+  "execution_release_filesystem_mtime_utc": "2026-10-13T13:39:44.643587+00:00",
+  "execution_release_filesystem_mtime_ns": 1791898784643586720,
+  "first_native_launch_attempt_id": "See frozen executor admission JSON; qualification separate denominator1",
+  "time_evidence_scope": "Filesystem source-release mtime and recorded UTC admission identity; source hash frozen before first native launch",
+  "mass": {
+    "rtol": 1e-06,
+    "atol": 1e-08
+  },
+  "inertia": {
+    "rtol": 1e-06,
+    "atol": 1e-10
+  },
+  "native_api_tolerance_frozen_before_first_native_case": true,
+  "score_gates_changed": false
+}

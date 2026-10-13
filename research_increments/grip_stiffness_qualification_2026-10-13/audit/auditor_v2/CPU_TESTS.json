@@ -1,0 +1,9 @@
+{
+  "status": "PASS_CPU_COUNTEREXAMPLES",
+  "total": 39,
+  "gain_field_tests": 12,
+  "retained_timing_queue_raw_event_tests": 27,
+  "numpy_version": "1.26.0",
+  "new_native_rollouts": 0,
+  "gpu_initialized": false
+}

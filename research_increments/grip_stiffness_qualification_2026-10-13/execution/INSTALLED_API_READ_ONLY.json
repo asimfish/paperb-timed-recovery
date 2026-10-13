@@ -1,0 +1,26 @@
+{
+  "schema": "paperb-installed-readback-api-verification-v1",
+  "source_hashes": {
+    "/home/liyufeng/safeduo_isaaclab/source/isaaclab/isaaclab/assets/rigid_object/rigid_object_data.py": "5cc9e908106694d6fe0a4e2f56bf124874bac0b7e09810c308a6b321a60b0093",
+    "/home/liyufeng/safeduo_isaaclab/source/isaaclab/isaaclab/assets/articulation/articulation_data.py": "d69495c66c409fb20823e4e467f9d90e63163b2050b77d2ac8e433221d1d208a",
+    "/home/liyufeng/safeduo_isaaclab/source/isaaclab/isaaclab/assets/articulation/articulation.py": "fb179aacdd848906367d01105020e1d36412bd0f1da7187be09f0781ff589309"
+  },
+  "rigid_getters": [
+    "get_transforms",
+    "get_velocities"
+  ],
+  "articulation_getters": [
+    "get_root_transforms",
+    "get_root_velocities",
+    "get_dof_positions",
+    "get_dof_velocities"
+  ],
+  "parameter_getters": [
+    "get_dof_stiffnesses",
+    "get_dof_dampings",
+    "get_dof_max_forces"
+  ],
+  "setter": "write_joint_stiffness_to_sim",
+  "inspection_only": true,
+  "no_gpu_started": true
+}
