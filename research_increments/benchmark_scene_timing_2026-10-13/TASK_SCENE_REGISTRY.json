@@ -1,0 +1,132 @@
+{
+  "schema": "paperb-benchmark-task-scene-registry-v1",
+  "tasks": [
+    {
+      "task_id": "B-T0",
+      "scene_id": "A-r7",
+      "robot": "fr3_A",
+      "object": "precursor_1",
+      "native_physics_hz": 240.0,
+      "time_contract": {
+        "requested_gap_s": 5.0,
+        "tolerance_s": 0.05
+      },
+      "effective_events": [
+        "public_task_cue",
+        "bilateral_finger_contact"
+      ],
+      "observation_track": "PUBLIC_CUE_AND_CLOCK_SCRIPTED_SKILL",
+      "status": "PASS_NATIVE_CONTACT_INTERFACE_DIAGNOSTIC",
+      "calibration_scope": "native sampled contact interface only",
+      "scientific_admission": false,
+      "training_admission": false,
+      "independent_instances": 1,
+      "arms": 3,
+      "new_native_rollouts": 3
+    },
+    {
+      "task_id": "C5",
+      "source_file": "chemrm/tasks/c05_endpoint_stop.yaml",
+      "source_sha256": "f7f4b059536a00fbe8544efb82d8a8f25ef4ea28700c9bddd03bd002ec72b078",
+      "time_contract": {
+        "response_deadline_s": 2.0
+      },
+      "effective_events": [
+        "color_change",
+        "effective_add_stop"
+      ],
+      "observation_track": "M0_NO_MEMORY",
+      "native_backend_readiness": "independent color/flow calibration pending",
+      "scientific_admission": false,
+      "benchmark_definition_preserved": true
+    },
+    {
+      "task_id": "C6",
+      "source_file": "chemrm/tasks/c06_timed_stirring.yaml",
+      "source_sha256": "978db654095b7824a611acfffff66266a42402186ded552c105b83d9942698a1",
+      "time_contract": {
+        "duration_s": 120.0,
+        "tolerance_s": 10.0
+      },
+      "effective_events": [
+        "effective_stir_start",
+        "effective_stir_stop"
+      ],
+      "observation_track": "ORIGINAL_NO_CLOCK_CUES",
+      "native_backend_readiness": "independent native stir motion pending",
+      "scientific_admission": false,
+      "benchmark_definition_preserved": true
+    },
+    {
+      "task_id": "C13",
+      "source_file": "chemrm/tasks/c13_memory_time_hero.yaml",
+      "source_sha256": "1eb1b990f940b234f13e9f69961406e2f5aafa055a3ee16a4b66c5a4a2084453",
+      "time_contract": {
+        "randomized_D_s": [
+          30.0,
+          90.0
+        ],
+        "nominal_D_s": 60.0,
+        "eps_relative": 0.15
+      },
+      "effective_events": [
+        "effective_add_A",
+        "effective_add_B"
+      ],
+      "observation_track": "M1_NO_HIDDEN_CLOCK_OR_SCHEDULE",
+      "native_backend_readiness": "original M1 observation/aliasing and real A/B events pending",
+      "scientific_admission": false,
+      "benchmark_definition_preserved": true
+    },
+    {
+      "task_id": "B-T1",
+      "title": "Heating Duration",
+      "status": "DESIGN_ONLY",
+      "requires": [
+        "physical heater state",
+        "temperature and residual heat",
+        "independent chemical endpoint"
+      ],
+      "scientific_admission": false
+    },
+    {
+      "task_id": "B-T2",
+      "title": "Concurrent Deadlines",
+      "status": "NATIVE_ROBOT_IMPLEMENTATION_PENDING",
+      "requires": [
+        "shared physical time",
+        "resource contention",
+        "B process continuity"
+      ],
+      "scientific_admission": false
+    }
+  ],
+  "scene": {
+    "id": "A-r7",
+    "registry": {
+      "rigid_objects": 56,
+      "articulations": 9
+    },
+    "plan_sha256": "92e4ced4f17d9c3b56b3e8d4693f69b8294d478a84d811c37b1e5b2290c80c9c",
+    "full_asset_calibration_claim": false,
+    "preserved_stations": [
+      "A",
+      "B",
+      "C"
+    ],
+    "previous_benchmark_evidence": "https://asimfish.github.io/chemrmbench-report/scenes.html#midtask"
+  },
+  "restart_rules": {
+    "released_rigid_boundary": "V80 scoped acceptance",
+    "active_timed_process": "reject unless independent continuous process clock and evolution proved",
+    "mid_carry": "not admitted",
+    "PBD_liquid": "not admitted"
+  },
+  "train_test_protocol": {
+    "split_unit": "task instance, before any learning",
+    "state_space": "layout/camera/dynamics",
+    "task_space": "goal/order/dependency/concurrency",
+    "no_test_result_tuning": true,
+    "new_training_episodes": 0
+  }
+}

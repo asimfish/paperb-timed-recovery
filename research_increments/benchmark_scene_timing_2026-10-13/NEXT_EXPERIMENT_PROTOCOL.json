@@ -1,0 +1,56 @@
+{
+  "schema": "paperb-benchmark-next-experiment-design-v1",
+  "status": "DESIGN_ONLY_NOT_EXECUTED",
+  "next_frontier": "Randomized native timing under changed latency/dynamics, then independent chemical event calibration and shared-policy learning",
+  "preserve_completed": ["V79/V80 benchmark evidence", "three B-T0 native timing rollouts", "previous mechanical fault-history experiments"],
+  "native_timing_grid": {
+    "task_family": "B-T0",
+    "requested_gap_s": [4.5, 5.0, 5.5],
+    "tolerance_s": [0.025, 0.05],
+    "initial_bottle_mass_factor": [0.8, 1.0, 1.2],
+    "native_dispatch_delay_s": [0.0, 0.05],
+    "registered_seeds": [0, 1, 2],
+    "prospective_instances": 108,
+    "three_arm_rollouts_if_all_conditions_admitted": 324,
+    "conditions_are_not_independent_instances": true,
+    "randomization_gate": "Validate native mass assignment and delayed-drive FIFO without task state writes before any collection",
+    "calibration_gate": "Fit and freeze response intervals on separate calibration instances; no test-outcome tuning",
+    "resource_gate": "Fresh UUID, ownership, free-memory and per-worker budget check; shared nonpreemptive GPU; no launch from this file"
+  },
+  "observation_tracks": {
+    "time_aware_robot": "public task/goal, delivered RGB/proprioception and explicitly public clock",
+    "M1_no_clock": "original transient-cue observation only; no schedule step, hidden onset, file-name time or verifier labels",
+    "oracle": "separate non-policy diagnostic upper bound; cannot be reported as a baseline with equal information"
+  },
+  "policy_comparisons": [
+    "strong deterministic timing rule with the same calibrated information",
+    "time-conditioned DP",
+    "history-conditioned DP with matched data and capacity",
+    "student-state relabeling / DAgger",
+    "offline expert imitation with matched teacher and budget",
+    "retain / reset / shuffle / cross-task context"
+  ],
+  "learning_gate": "Versioned instance split, admissible observations, source-verified action labels, independent timing and task score; current formal training admission remains false",
+  "chemical_backends": {
+    "C5": "Original color event and measured effective flow stop within 2 seconds",
+    "C6": "Original effective stirring duration 120 +/-10 seconds; no clock cues",
+    "C13": "Original randomized A/B gap and M1 cue; independent physical addition events",
+    "B-T1": "Effective heating and stopping, temperature and residual heat; design only"
+  },
+  "generalization": {
+    "state_space": "layout, appearance and dynamics with fixed goal graph",
+    "task_space": "new goal combinations, order, dependencies and concurrent resource use",
+    "split_before_learning": true,
+    "report_separately": true
+  },
+  "acceptance": [
+    "All failures, indeterminate and unavailable events remain in the denominator",
+    "One rollout ID across exports, rescoring and paper reuse",
+    "Physical process advances during actual planner wait; otherwise report paused-clock track",
+    "No continuous-time claim through cold rebuild without independent device continuity proof",
+    "Frozen reference events survive failure/recovery",
+    "Learning benefit survives equal-information strong rules and held-out instances"
+  ],
+  "new_rollouts_from_this_plan": 0,
+  "new_weights_from_this_plan": 0
+}

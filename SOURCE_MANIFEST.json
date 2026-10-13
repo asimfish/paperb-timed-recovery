@@ -45,8 +45,8 @@
       "path": "index.html",
       "source": "web/index.html",
       "source_sha256": "07dcf1383bfb0ccae5e1f88c21928e02e25cd95949c739bf9ad481c7858f3eb6",
-      "sha256": "f66f4539482de6d68910ef5fbd9d1a18f0a09b7be5f93953fa482649b1d60567",
-      "bytes": 219060,
+      "sha256": "79738a5a57c5e5418a0210aee88fb063e0ec9a20cd19c611017059015de50b07",
+      "bytes": 224375,
       "transformations": [
         "project-root evidence links",
         "current method panel and canonical GitHub URL rendered by prior build attempt, checked against canonical scripts"
@@ -980,7 +980,140 @@
       "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
       "bytes": 0,
       "transformations": []
+    },
+    {
+      "path": "research_increments/benchmark_scene_timing_2026-10-13/AUDIT_PUBLIC.json",
+      "sha256": "24dfa2514ca48419de87aa10c44118109fd57178c737795715945b9455870441",
+      "bytes": 3163,
+      "source": "papers/paperB/research_increments/benchmark_scene_timing_2026-10-13/AUDIT_PUBLIC.json"
+    },
+    {
+      "path": "research_increments/benchmark_scene_timing_2026-10-13/EXECUTION_RELEASE.json",
+      "sha256": "26204b03263094d3c226a755b2521c15957dd5f697a3d9278ac3241f534d7fe1",
+      "bytes": 12759,
+      "source": "papers/paperB/research_increments/benchmark_scene_timing_2026-10-13/EXECUTION_RELEASE.json"
+    },
+    {
+      "path": "research_increments/benchmark_scene_timing_2026-10-13/HISTORY_RECOVERY.json",
+      "sha256": "561fabf6102605acb847d16e7329d678d43a022ff2475cbc2e711bd40f404324",
+      "bytes": 4869,
+      "source": "papers/paperB/research_increments/benchmark_scene_timing_2026-10-13/HISTORY_RECOVERY.json"
+    },
+    {
+      "path": "research_increments/benchmark_scene_timing_2026-10-13/NEXT_EXPERIMENT_PROTOCOL.json",
+      "sha256": "1e12e0a397826578fd321576cd5acb1323051bfea32b451b64076055f2efd178",
+      "bytes": 3323,
+      "source": "papers/paperB/research_increments/benchmark_scene_timing_2026-10-13/NEXT_EXPERIMENT_PROTOCOL.json"
+    },
+    {
+      "path": "research_increments/benchmark_scene_timing_2026-10-13/README_cn.md",
+      "sha256": "66b9140b8ba0034beba1975d0179484f6cd1d0bcea902ff258b3f4e298b52492",
+      "bytes": 2367,
+      "source": "papers/paperB/research_increments/benchmark_scene_timing_2026-10-13/README_cn.md"
+    },
+    {
+      "path": "research_increments/benchmark_scene_timing_2026-10-13/SCENES_AND_BENCHMARK_cn.md",
+      "sha256": "3e29cb71efafbb032508c21be83d1b82ffdad4ae2bb15dc5c219bfccc9157783",
+      "bytes": 6256,
+      "source": "papers/paperB/research_increments/benchmark_scene_timing_2026-10-13/SCENES_AND_BENCHMARK_cn.md"
+    },
+    {
+      "path": "research_increments/benchmark_scene_timing_2026-10-13/TASK_SCENE_REGISTRY.json",
+      "sha256": "b495bb26dd479368b2fa10e7858438d0e35336dee0aff9db66447132122639c6",
+      "bytes": 4085,
+      "source": "papers/paperB/research_increments/benchmark_scene_timing_2026-10-13/TASK_SCENE_REGISTRY.json"
+    },
+    {
+      "path": "research_increments/benchmark_scene_timing_2026-10-13/VIDEO_VALIDATION.json",
+      "sha256": "129905383006fdcb97b7759e7fbce35c295ef709fa21fc92e97dc9a924eb580e",
+      "bytes": 1265,
+      "source": "papers/paperB/research_increments/benchmark_scene_timing_2026-10-13/VIDEO_VALIDATION.json"
+    },
+    {
+      "path": "research_increments/benchmark_scene_timing_2026-10-13/figures/native_robot_timing.pdf",
+      "sha256": "f0fca2d0f9470e0cb3da3494b46b59700ce998aa57989b8efcd8878870fb4e85",
+      "bytes": 22653,
+      "source": "papers/paperB/research_increments/benchmark_scene_timing_2026-10-13/figures/native_robot_timing.pdf"
+    },
+    {
+      "path": "research_increments/benchmark_scene_timing_2026-10-13/figures/native_robot_timing.svg",
+      "sha256": "f7e171309e233b9b7002b0c43c682b4aae2677f7104252bf8e53ef0644a1d812",
+      "bytes": 15447,
+      "source": "papers/paperB/research_increments/benchmark_scene_timing_2026-10-13/figures/native_robot_timing.svg"
+    },
+    {
+      "path": "research_increments/benchmark_scene_timing_2026-10-13/figures/timing_interface.svg",
+      "sha256": "0edcced71e55f83e2c100a4ec925d52a667f48893c583da7226d0ee871b5d885",
+      "bytes": 9753,
+      "source": "papers/paperB/research_increments/benchmark_scene_timing_2026-10-13/figures/timing_interface.svg"
+    },
+    {
+      "path": "research_increments/benchmark_scene_timing_2026-10-13/paper_preview/note.pdf",
+      "sha256": "cc858223392000b08d645b90a2343f89aeedb5913eb2326ddd0f153eca441340",
+      "bytes": 110486,
+      "source": "papers/paperB/research_increments/benchmark_scene_timing_2026-10-13/paper_preview/note.pdf"
+    },
+    {
+      "path": "research_increments/benchmark_scene_timing_2026-10-13/paper_preview/source/note.tex",
+      "sha256": "3807eb8a6fb8adba203238e4ae9593ae09bb743add445db344b704d3f0895e65",
+      "bytes": 7158,
+      "source": "papers/paperB/research_increments/benchmark_scene_timing_2026-10-13/paper_preview/source/note.tex"
+    },
+    {
+      "path": "research_increments/benchmark_scene_timing_2026-10-13/videos/command_at_target.jpg",
+      "sha256": "203b2db24d4b32cc948f46cb9eb1f6493b6a1901f0e39c212fc7658e12c48792",
+      "bytes": 67181,
+      "source": "papers/paperB/research_increments/benchmark_scene_timing_2026-10-13/videos/command_at_target.jpg"
+    },
+    {
+      "path": "research_increments/benchmark_scene_timing_2026-10-13/videos/command_at_target.mp4",
+      "sha256": "a22c850f19ae37041d1add8b2a0165d3080349ebaad0d36f80ea7377e43d3bd2",
+      "bytes": 307747,
+      "source": "papers/paperB/research_increments/benchmark_scene_timing_2026-10-13/videos/command_at_target.mp4"
+    },
+    {
+      "path": "research_increments/benchmark_scene_timing_2026-10-13/videos/command_at_target.provenance.json",
+      "sha256": "f8616a8c4b97253e7769ee24ae8ad1b5537d9fab1c1b04c3be7810eca96eb08c",
+      "bytes": 44983,
+      "source": "papers/paperB/research_increments/benchmark_scene_timing_2026-10-13/videos/command_at_target.provenance.json"
+    },
+    {
+      "path": "research_increments/benchmark_scene_timing_2026-10-13/videos/effect_anticipation.jpg",
+      "sha256": "afc35aa36b0b3b4a49e027905867f6b03371b1abf81d46d69425c8a0394eeda3",
+      "bytes": 68658,
+      "source": "papers/paperB/research_increments/benchmark_scene_timing_2026-10-13/videos/effect_anticipation.jpg"
+    },
+    {
+      "path": "research_increments/benchmark_scene_timing_2026-10-13/videos/effect_anticipation.mp4",
+      "sha256": "f173cbf0369c5c44662782fe8972166d92a896f27a050b0d08c3dd9b5afff638",
+      "bytes": 313778,
+      "source": "papers/paperB/research_increments/benchmark_scene_timing_2026-10-13/videos/effect_anticipation.mp4"
+    },
+    {
+      "path": "research_increments/benchmark_scene_timing_2026-10-13/videos/effect_anticipation.provenance.json",
+      "sha256": "156143d66ad3bb3f33ba1409f1ae53364b3c3372d577c23d75fd52578a7f0c5b",
+      "bytes": 44985,
+      "source": "papers/paperB/research_increments/benchmark_scene_timing_2026-10-13/videos/effect_anticipation.provenance.json"
+    },
+    {
+      "path": "research_increments/benchmark_scene_timing_2026-10-13/videos/original_schedule.jpg",
+      "sha256": "6b7d20b6d6ae5f2e817c26a5a44f8869646f1ca2043a8feb62f28ed04cc13ef4",
+      "bytes": 67222,
+      "source": "papers/paperB/research_increments/benchmark_scene_timing_2026-10-13/videos/original_schedule.jpg"
+    },
+    {
+      "path": "research_increments/benchmark_scene_timing_2026-10-13/videos/original_schedule.mp4",
+      "sha256": "a82d13d6cdd56c5564b0d83bd5eca51ed42bcb7c9cb11e9686ca055039cb4606",
+      "bytes": 310534,
+      "source": "papers/paperB/research_increments/benchmark_scene_timing_2026-10-13/videos/original_schedule.mp4"
+    },
+    {
+      "path": "research_increments/benchmark_scene_timing_2026-10-13/videos/original_schedule.provenance.json",
+      "sha256": "7890df39c7cae9e088c2ad6ad002ed33afc5c7979d5034bb67389d8680a62d3b",
+      "bytes": 44983,
+      "source": "papers/paperB/research_increments/benchmark_scene_timing_2026-10-13/videos/original_schedule.provenance.json"
     }
   ],
-  "incremental_baseline_commit": "40aeef9098e0bf1e6410fff7b94f985a4200282a"
+  "incremental_baseline_commit": "15f23640ce39b8814718eb283c58c99934636f2e",
+  "latest_increment": "benchmark_scene_timing_2026-10-13"
 }

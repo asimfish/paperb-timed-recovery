@@ -1,0 +1,49 @@
+{
+  "status": "PASS",
+  "video_files_decoded": 3,
+  "total_decoded_frames": 252,
+  "videos": [
+    {
+      "arm": "original_schedule",
+      "video_sha256": "a82d13d6cdd56c5564b0d83bd5eca51ed42bcb7c9cb11e9686ca055039cb4606",
+      "decoded_frames": 84,
+      "metadata": {
+        "codec_name": "h264",
+        "width": 640,
+        "height": 480,
+        "pix_fmt": "yuv420p",
+        "r_frame_rate": "12/1",
+        "duration": "7.000000",
+        "nb_frames": "84"
+      }
+    },
+    {
+      "arm": "command_at_target",
+      "video_sha256": "a22c850f19ae37041d1add8b2a0165d3080349ebaad0d36f80ea7377e43d3bd2",
+      "decoded_frames": 84,
+      "metadata": {
+        "codec_name": "h264",
+        "width": 640,
+        "height": 480,
+        "pix_fmt": "yuv420p",
+        "r_frame_rate": "12/1",
+        "duration": "7.000000",
+        "nb_frames": "84"
+      }
+    },
+    {
+      "arm": "effect_anticipation",
+      "video_sha256": "f173cbf0369c5c44662782fe8972166d92a896f27a050b0d08c3dd9b5afff638",
+      "decoded_frames": 84,
+      "metadata": {
+        "codec_name": "h264",
+        "width": 640,
+        "height": 480,
+        "pix_fmt": "yuv420p",
+        "r_frame_rate": "12/1",
+        "duration": "7.000000",
+        "nb_frames": "84"
+      }
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+\documentclass{article}
+\usepackage{microtype,graphicx,booktabs,hyperref,amsmath,amssymb}
+\newcommand{\theHalgorithm}{\arabic{algorithm}}
+\usepackage[preprint]{icml2026}
+\icmltitlerunning{Native Robot Timing and Benchmark Scene Alignment}
+\makeatletter\gdef\icmlcorrespondingauthor@text{Author details pending}\makeatother
+\begin{document}
+\twocolumn[
+\icmltitle{Native Robot Timing on a Preserved Laboratory Scene:\\Benchmark Alignment and an Audited Component Pilot}
+\begin{icmlauthorlist}\icmlauthor{Research development draft}{draft}\end{icmlauthorlist}
+\icmlaffiliation{draft}{Scoped experiment note; full learning-system evaluation remains open}
+\vskip .3in]
+\printAffiliationsAndNotice{}
+\begin{abstract}
+Time-constrained manipulation requires physical effects within the requested
+window, rather than timely dispatch alone. We reuse the benchmark's preserved
+A-r7 laboratory and execute three uninterrupted native trials for one fixed
+contact-timing contract. A public cue requests bilateral finger contact five
+seconds later, within 50 milliseconds. The original drive schedule is early;
+dispatch at the target is late; anticipation using a previously frozen contact
+delay meets the diagnostic window. All three complete the same bottle task.
+We preserve raw contacts, states, continuous native clock records and actual
+RGB frames. This pilot establishes a robot timing interface and strong baseline,
+not neural learning, chemical calibration, hardware timing or benchmark-wide performance.
+\end{abstract}
+
+\section{Problem and benchmark alignment}
+The proposed Paper B system generates, verifies, repairs and absorbs robot
+experience under physical time contracts. The benchmark provides task programs,
+scene identity, observation boundaries and independent event scoring. Experience
+generation and policy absorption must use those same definitions.
+
+The preserved A-r7 scene contains 56 rigid objects and nine articulations.
+The pilot uses its FR3 A arm, original bottle, scale and carousel. Existing
+V79/V80 evidence establishes bottle manipulation and released-boundary
+reconstruction. It does not establish liquid restoration, chemical event
+calibration or continuous reaction time through a cold rebuild.
+
+Original task definitions are retained: C5 requires stopping addition within
+two seconds of a color change; C6 specifies 120$\pm$10 seconds of stirring;
+C13 couples a transient A event with a randomized A-to-B wait in the M1 track.
+Our new B-T0 contact task is a separately labeled interface diagnostic. Its
+public event message and native clock cannot count as no-clock M1 performance.
+
+\section{Effective-event formulation}
+Let independently measured cue and effect times be conservative intervals
+$I_c=[\ell_c,u_c]$ and $I_e=[\ell_e,u_e]$ on the same identified clock.
+For requested gap $D$ and tolerance $\epsilon$, the error interval is
+\[ I_{\rm err}=[\ell_e-u_c-D,\ u_e-\ell_c-D]. \]
+PASS requires $I_{\rm err}\subseteq[-\epsilon,\epsilon]$.
+Overlap without containment is indeterminate; missing or censored evidence
+is unavailable. A dispatch timestamp is distinct from an effective contact.
+The onset bracket and its subsequent confirmation timestamp are both retained.
+Three consecutive sampled contacts do not prove continuous contact between samples.
+
+Clock IDs must match. Reconstructed workers form separate epochs unless an
+independent continuous process clock and evolution are established. Renaming
+the reference event or restarting a process cannot retrospectively repair the
+original deadline. Host inference time is not subtracted from native time
+without calibration.
+
+\section{Prospective native protocol}
+The Isaac Sim 5.1 / PhysX scene integrates at 240 Hz. We copy and verify 108
+benchmark source/input files; the separate pilot freezes 115 execution inputs.
+Each condition creates a fresh worker with its own uninterrupted task epoch.
+Only joint drive targets and measured gravity compensation are used; task-time
+root-pose and joint-state writes are prohibited.
+
+The cue occurs after the ten-second approach prefix. The original skill closes
+four seconds after this cue. Dispatch-at-target inserts 240 hold ticks and
+issues closure at five seconds. Anticipation inserts 198 hold ticks and issues
+closure at 4.825 seconds, using the previously measured 0.175-second contact
+delay upper bound. No current-trial contact labels tune either schedule.
+The original approach, closure shape and remaining bottle skill are retained.
+
+The scorer reconstructs the first run of three bilateral finger contacts from
+raw PhysX impulses, rechecks continuous integration and compares every drive
+target with the frozen command source. It separately recomputes manipulation
+conditions from observed states and contacts. RGB capture does not advance
+physics; 84 native frames per condition form three seven-second clips.
+Post-run video annotations are presentation data, never policy inputs.
+
+\section{Component result and limits}
+\begin{table}[t]\centering\small
+\caption{One fixed instance, three fresh trials. Times are seconds after the cue.}
+\begin{tabular}{lrrl}\toprule
+Condition & Dispatch & Effective contact & Verdict\\\midrule
+Original & 4.000 & 4.171--4.175 & EARLY \\
+Dispatch at target & 5.000 & 5.171--5.175 & LATE \\
+Anticipation & 4.825 & 4.996--5.000 & PASS \\
+\bottomrule\end{tabular}\end{table}
+The three complete trajectories contain 40,719 measured task samples.
+All finish the bottle manipulation and pass the existing mechanical conditions.
+The timing difference follows deterministic actuator latency and scheduling;
+it does not demonstrate adaptation or a learned improvement. There is one
+independent task instance, with no statistical claim across seeds.
+
+\begin{figure}[t]\centering
+\includegraphics[width=\columnwidth]{figures/native_robot_timing_compact.pdf}
+\caption{Squares: dispatch. Circles/bars: sampled physical contact. The shaded band is the requested window.}
+\end{figure}
+
+Formal chemical and training admission remain false. No Astra call, new
+DP/RL/OPD weights, real hardware rollout or chemical outcome is credited.
+Models do not run in this pilot, so it cannot establish physical progress
+during planner waits or real inference deadlines. Controlled worker exit
+preserves evidence but does not close graceful SDK shutdown acceptance.
+
+\section{Next scientific tests}
+The learning study must compare a shared history-conditioned policy against
+strong timing rules under identical information and experience budgets.
+Separate successful, failed and recovered data; compare offline expert
+imitation with student-state relabeling; test context reset/shuffle and
+changed dynamics. Split task instances before learning and separately hold
+out state variation and goal/order/dependency variation.
+
+Chemical extension requires independently calibrated flow-stop, stirring,
+heater/temperature and endpoint events. Active processes must continue through
+planning delays; long-task restoration must preserve the original reference
+and account for every discontinuity. Until those gates pass, this component
+supports interface development rather than the full method-paper claim.
+\end{document}

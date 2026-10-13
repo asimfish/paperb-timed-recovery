@@ -1,0 +1,102 @@
+{
+  "schema": "paperb-ar7-native-timing-audit-v1",
+  "status": "PASS_COMPONENT_RAW_TIMING_AND_ACTIONS",
+  "arms": [
+    {
+      "arm": "original_schedule",
+      "inserted_hold_ticks": 0,
+      "samples": 13427,
+      "native_epoch": "paperb_native_timing_v1:original_schedule:87b649d8b0b5000f",
+      "cue_native_s": 15.133334122598171,
+      "command_gap_s": 4.000000208616257,
+      "effect_gap_interval_s": [
+        4.170833550859243,
+        4.175000217743218
+      ],
+      "error_interval_s": [
+        -0.8291664491407573,
+        -0.824999782256782
+      ],
+      "confirmation_gap_s": 4.1833335515111685,
+      "latency_interval_s": [
+        0.17083334224298596,
+        0.17500000912696123
+      ],
+      "timing_verdict": "EARLY",
+      "task_mechanism_pass": true,
+      "native_rgb_frames": 84,
+      "placement_error_mm": null,
+      "scientific_admission": false,
+      "training_admission": false,
+      "final_position_error_mm": 0.7424939193819795
+    },
+    {
+      "arm": "command_at_target",
+      "inserted_hold_ticks": 240,
+      "samples": 13667,
+      "native_epoch": "paperb_native_timing_v1:command_at_target:87b649d8b0b5000f",
+      "cue_native_s": 15.133334122598171,
+      "command_gap_s": 5.000000260770321,
+      "effect_gap_interval_s": [
+        5.170833603013307,
+        5.175000269897282
+      ],
+      "error_interval_s": [
+        0.17083360301330686,
+        0.17500026989728212
+      ],
+      "confirmation_gap_s": 5.183333603665233,
+      "latency_interval_s": [
+        0.17083334224298596,
+        0.17500000912696123
+      ],
+      "timing_verdict": "LATE",
+      "task_mechanism_pass": true,
+      "native_rgb_frames": 84,
+      "placement_error_mm": null,
+      "scientific_admission": false,
+      "training_admission": false,
+      "final_position_error_mm": 0.5880684149175073
+    },
+    {
+      "arm": "effect_anticipation",
+      "inserted_hold_ticks": 198,
+      "samples": 13625,
+      "native_epoch": "paperb_native_timing_v1:effect_anticipation:87b649d8b0b5000f",
+      "cue_native_s": 15.133334122598171,
+      "command_gap_s": 4.82500025164336,
+      "effect_gap_interval_s": [
+        4.995833593886346,
+        5.000000260770321
+      ],
+      "error_interval_s": [
+        -0.004166406113654375,
+        2.60770320892334e-07
+      ],
+      "confirmation_gap_s": 5.008333594538271,
+      "latency_interval_s": [
+        0.17083334224298596,
+        0.17500000912696123
+      ],
+      "timing_verdict": "PASS",
+      "task_mechanism_pass": true,
+      "native_rgb_frames": 84,
+      "placement_error_mm": null,
+      "scientific_admission": false,
+      "training_admission": false,
+      "final_position_error_mm": 0.41684597946807905
+    }
+  ],
+  "new_native_rollouts": 3,
+  "independent_task_instances": 1,
+  "total_samples": 40719,
+  "native_rgb_video_frames": 252,
+  "source_freeze_files": 115,
+  "benchmark_original_files_unchanged": 108,
+  "full_scientific_acceptance": false,
+  "new_policy_weights": 0,
+  "astra_model_calls": 0,
+  "chemical_event_verified": false,
+  "native_rgbd_captures_total": 292,
+  "raw_audit_sha256": "2ffb1da45ac85058b6ea24ed1e8e5609e97571ca1ce56395a2bd274f67fbecac"
+}
