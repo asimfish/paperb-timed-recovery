@@ -1,0 +1,22 @@
+{
+  "schema": "paperb-packaged-calibration-score-recomputation-receipt-v1",
+  "status": "PASS_ARCHIVED_ESSENTIAL_PACKAGE_RECOMPUTATION",
+  "created_at_utc": "2026-10-13T13:42:14.851448+00:00",
+  "archive_sha256": "acde3df69031a57cead17bca5418ddc88c197a8395af034ad2f691ed96fff2b9",
+  "archive_bytes": 292674671,
+  "verified_extracted_members": 314,
+  "original_case_results_exactly_equal_to_packaged_recomputation": 4,
+  "all_raw_artifact_hashes_equal": true,
+  "all_calibration_observations_equal": true,
+  "expected_calibration_admission_still_rejected": true,
+  "fitted_model_created": false,
+  "heldout_test_started": false,
+  "source_runtime_numpy": "1.26.0",
+  "SDK_or_scene_asset_used": false,
+  "full_scene_replay_claim": false,
+  "original_report_status": "FAIL_COMPONENT_RAW_AUDIT",
+  "recomputed_report_status": "FAIL_COMPONENT_RAW_AUDIT",
+  "new_physics_rollouts": 0,
+  "recomputed_receipt_sha256": "d3d4e2c981e382267a5a45f27dea938154ecb83b69e8c241677cb429213e1162",
+  "verification_source_root": "/tmp/paperb_four_calibration_package_verify_20261013"
+}

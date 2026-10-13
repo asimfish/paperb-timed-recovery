@@ -1,0 +1,565 @@
+{
+  "schema": "paperb-calibration-admission-failure-report-v1",
+  "status": "REJECTED_CALIBRATION_ADMISSION_RAW_INTEGRITY_PASS",
+  "declared_native_calibration_episodes": 4,
+  "native_completed_episodes": 4,
+  "raw_integrity_pass_episodes": 4,
+  "mechanical_pass_episodes": 2,
+  "mechanical_failed_episodes": 2,
+  "stable_release_missing_episodes": 2,
+  "task_samples": 53732,
+  "native_rgb_snapshots": 36,
+  "four_calibration_denominator_preserved": true,
+  "no_missing_endpoint_silently_filtered": true,
+  "fit_runs": 0,
+  "heldout_test_native_episodes": 0,
+  "allocated_gpu_hours_upper_bound_total": 0.40952511010840276,
+  "worker_wall_s_total": 1474.29039639025,
+  "simulated_rigid_bottle_robot_motion_only": true,
+  "real_robot_episodes": 0,
+  "chemical_event_certified": 0,
+  "learning_updates": 0,
+  "cases": [
+    {
+      "case_id": "cal_m080_d00",
+      "mass_factor": 0.8,
+      "delay_ticks": 0,
+      "task_samples": 13427,
+      "mechanical_pass": true,
+      "failed_mechanical_conditions": [],
+      "contact_event": "OBSERVED",
+      "stable_release_event": "OBSERVED",
+      "native_rgb_snapshot_count": 9,
+      "allocated_gpu_hours_upper_bound": 0.1331341580122373
+    },
+    {
+      "case_id": "cal_m080_d12",
+      "mass_factor": 0.8,
+      "delay_ticks": 12,
+      "task_samples": 13439,
+      "mechanical_pass": true,
+      "failed_mechanical_conditions": [],
+      "contact_event": "OBSERVED",
+      "stable_release_event": "OBSERVED",
+      "native_rgb_snapshot_count": 9,
+      "allocated_gpu_hours_upper_bound": 0.08690784607056735
+    },
+    {
+      "case_id": "cal_m120_d00",
+      "mass_factor": 1.2,
+      "delay_ticks": 0,
+      "task_samples": 13427,
+      "mechanical_pass": false,
+      "failed_mechanical_conditions": [
+        "all_phases_complete",
+        "penetration_ticks_zero",
+        "transport_relative_pose_ok",
+        "transport_contact_continuity_ok",
+        "transport_tilt_ok"
+      ],
+      "contact_event": "OBSERVED",
+      "stable_release_event": "MISSING",
+      "native_rgb_snapshot_count": 9,
+      "allocated_gpu_hours_upper_bound": 0.0965472487058206
+    },
+    {
+      "case_id": "cal_m120_d12",
+      "mass_factor": 1.2,
+      "delay_ticks": 12,
+      "task_samples": 13439,
+      "mechanical_pass": false,
+      "failed_mechanical_conditions": [
+        "all_phases_complete",
+        "transport_relative_pose_ok",
+        "transport_contact_continuity_ok",
+        "transport_tilt_ok"
+      ],
+      "contact_event": "OBSERVED",
+      "stable_release_event": "MISSING",
+      "native_rgb_snapshot_count": 9,
+      "allocated_gpu_hours_upper_bound": 0.09293585731977752
+    }
+  ],
+  "full_report_sha256": "15dcf55d77464e1553fd91c42bcbd1e0e8544db9fde3e973543f7e65b0f70f5c",
+  "native_execution_release_sha256": "cf5cc59c9b9e0b215f2f5db408052ccb9cac8912c7c89ea8adc74e9d4c8b2efa",
+  "auditor_v2_release_sha256": "bec7ed7033ff0bedcee42fedf32943a4c6947e75a5ff0ec9178a5faaa7bf0916",
+  "scope": "Four attempted simulated A-r7 bottle calibration trajectories. No calibration fit or heldout test is admitted. Missing heavy-payload stable-release endpoints are retained as failures.",
+  "all_contact_responses_retained": [
+    {
+      "case_id": "cal_m080_d00",
+      "kind": "contact",
+      "status": "OBSERVED",
+      "mechanical_interval_s": [
+        0.17083334224298596,
+        0.17500000912696123
+      ],
+      "effect_onset": {
+        "clock_id": "paperb_native_expansion_v2:cal_m080_d00:e63e0d47b5d834cd",
+        "bounds_s": [
+          19.304167673457414,
+          19.30833434034139
+        ]
+      },
+      "confirmation_time_s": 19.31666767410934,
+      "applied_command": {
+        "clock_id": "paperb_native_expansion_v2:cal_m080_d00:e63e0d47b5d834cd",
+        "bounds_s": [
+          19.133334331214428,
+          19.133334331214428
+        ]
+      },
+      "mechanical_case_pass": true,
+      "admitted_to_fit": false
+    },
+    {
+      "case_id": "cal_m080_d12",
+      "kind": "contact",
+      "status": "OBSERVED",
+      "mechanical_interval_s": [
+        0.17083334224298596,
+        0.17500000912696123
+      ],
+      "effect_onset": {
+        "clock_id": "paperb_native_expansion_v2:cal_m080_d12:e63e0d47b5d834cd",
+        "bounds_s": [
+          19.354167676065117,
+          19.358334342949092
+        ]
+      },
+      "confirmation_time_s": 19.366667676717043,
+      "applied_command": {
+        "clock_id": "paperb_native_expansion_v2:cal_m080_d12:e63e0d47b5d834cd",
+        "bounds_s": [
+          19.18333433382213,
+          19.18333433382213
+        ]
+      },
+      "mechanical_case_pass": true,
+      "admitted_to_fit": false
+    },
+    {
+      "case_id": "cal_m120_d00",
+      "kind": "contact",
+      "status": "OBSERVED",
+      "mechanical_interval_s": [
+        0.17083334224298596,
+        0.17500000912696123
+      ],
+      "effect_onset": {
+        "clock_id": "paperb_native_expansion_v2:cal_m120_d00:e63e0d47b5d834cd",
+        "bounds_s": [
+          19.304167673457414,
+          19.30833434034139
+        ]
+      },
+      "confirmation_time_s": 19.31666767410934,
+      "applied_command": {
+        "clock_id": "paperb_native_expansion_v2:cal_m120_d00:e63e0d47b5d834cd",
+        "bounds_s": [
+          19.133334331214428,
+          19.133334331214428
+        ]
+      },
+      "mechanical_case_pass": false,
+      "admitted_to_fit": false
+    },
+    {
+      "case_id": "cal_m120_d12",
+      "kind": "contact",
+      "status": "OBSERVED",
+      "mechanical_interval_s": [
+        0.17083334224298596,
+        0.17500000912696123
+      ],
+      "effect_onset": {
+        "clock_id": "paperb_native_expansion_v2:cal_m120_d12:e63e0d47b5d834cd",
+        "bounds_s": [
+          19.354167676065117,
+          19.358334342949092
+        ]
+      },
+      "confirmation_time_s": 19.366667676717043,
+      "applied_command": {
+        "clock_id": "paperb_native_expansion_v2:cal_m120_d12:e63e0d47b5d834cd",
+        "bounds_s": [
+          19.18333433382213,
+          19.18333433382213
+        ]
+      },
+      "mechanical_case_pass": false,
+      "admitted_to_fit": false
+    }
+  ],
+  "all_release_observation_slots_retained": [
+    {
+      "case_id": "cal_m080_d00",
+      "kind": "release",
+      "status": "OBSERVED",
+      "mechanical_interval_s": [
+        0.08750000456348062,
+        0.09166667144745588
+      ],
+      "effect_onset": {
+        "clock_id": "paperb_native_expansion_v2:cal_m080_d00:e63e0d47b5d834cd",
+        "bounds_s": [
+          36.220835222397,
+          36.225001889280975
+        ]
+      },
+      "confirmation_time_s": 36.2541685574688,
+      "applied_command": {
+        "clock_id": "paperb_native_expansion_v2:cal_m080_d00:e63e0d47b5d834cd",
+        "bounds_s": [
+          36.13333521783352,
+          36.13333521783352
+        ]
+      },
+      "mechanical_case_pass": true,
+      "admitted_to_fit": false
+    },
+    {
+      "case_id": "cal_m080_d12",
+      "kind": "release",
+      "status": "OBSERVED",
+      "mechanical_interval_s": [
+        0.08750000456348062,
+        0.09166667144745588
+      ],
+      "effect_onset": {
+        "clock_id": "paperb_native_expansion_v2:cal_m080_d12:e63e0d47b5d834cd",
+        "bounds_s": [
+          36.2708352250047,
+          36.27500189188868
+        ]
+      },
+      "confirmation_time_s": 36.304168560076505,
+      "applied_command": {
+        "clock_id": "paperb_native_expansion_v2:cal_m080_d12:e63e0d47b5d834cd",
+        "bounds_s": [
+          36.18333522044122,
+          36.18333522044122
+        ]
+      },
+      "mechanical_case_pass": true,
+      "admitted_to_fit": false
+    },
+    {
+      "case_id": "cal_m120_d00",
+      "kind": "release",
+      "status": "MISSING",
+      "mechanical_interval_s": null,
+      "effect_onset": null,
+      "confirmation_time_s": null,
+      "applied_command": {
+        "clock_id": "paperb_native_expansion_v2:cal_m120_d00:e63e0d47b5d834cd",
+        "bounds_s": [
+          36.13333521783352,
+          36.13333521783352
+        ]
+      },
+      "mechanical_case_pass": false,
+      "admitted_to_fit": false
+    },
+    {
+      "case_id": "cal_m120_d12",
+      "kind": "release",
+      "status": "MISSING",
+      "mechanical_interval_s": null,
+      "effect_onset": null,
+      "confirmation_time_s": null,
+      "applied_command": {
+        "clock_id": "paperb_native_expansion_v2:cal_m120_d12:e63e0d47b5d834cd",
+        "bounds_s": [
+          36.18333522044122,
+          36.18333522044122
+        ]
+      },
+      "mechanical_case_pass": false,
+      "admitted_to_fit": false
+    }
+  ],
+  "calibration_fit_permitted": false,
+  "native_test_runs": 0,
+  "raw_consistency_status": "PASS_ALL_FOUR",
+  "calibration_admission_status": "REJECTED_ALL_FOUR_REQUIRED",
+  "formal_audit_status_name_is_not_raw_corruption": true,
+  "heavy_payload_case_summaries": [
+    {
+      "case_id": "cal_m120_d00",
+      "phases": [
+        {
+          "object": "precursor_1",
+          "stage": 2,
+          "grasp_confirmed": true,
+          "lift_confirmed": true,
+          "target_operation_completed": false,
+          "placement_stable": false,
+          "transport_max_relative_displacement_m": 0.4699453038730085,
+          "transport_bilateral_contact_fraction": 0.5799852107468573,
+          "final_position_error_mm": 327.12888321562605,
+          "minimum_position_error_mm": 0.0,
+          "final_tilt_rad": 1.5699164115545612,
+          "transport_max_tilt_rad": 1.5880474101615896
+        }
+      ],
+      "penetration_ticks": 1,
+      "first_bad_observations": {
+        "first_sustained_over_20mm_relative_displacement_before_open": {
+          "onset_sample": 5446,
+          "onset_bracket_native_s": [
+            27.825001451186836,
+            27.82916811807081
+          ],
+          "confirmation_sample": 5494,
+          "confirmation_time_s": 28.029168128501624,
+          "minimum_sample_span_s": 0.2
+        },
+        "first_sustained_over_0_25rad_tilt_before_open": {
+          "onset_sample": 5801,
+          "onset_bracket_native_s": [
+            29.304168194998056,
+            29.30833486188203
+          ],
+          "confirmation_sample": 5849,
+          "confirmation_time_s": 29.508334872312844,
+          "minimum_sample_span_s": 0.2
+        },
+        "physical_stop_or_release_not_inferred_from_command_index": true,
+        "first_negative_contact": {
+          "sample_index": 5796,
+          "native_time_s": 29.287501527462155,
+          "raw_contact_points": [
+            {
+              "actor0": "/World/StationA/precursor_4",
+              "actor1": "/World/StationA/precursor_1",
+              "collider0": "/World/StationA/precursor_4/model/ReagentBottle001/ReagentBottle001_Lid/Collisions/ReagentBottle001_Collider29",
+              "collider1": "/World/StationA/precursor_1/model/ReagentBottle004/Collisions/ReagentBottle004_Collider98",
+              "event": "ContactEventType.CONTACT_FOUND",
+              "separation_m": -0.0007897745817899704,
+              "position_m": [
+                1.8841931819915771,
+                0.2343418002128601,
+                1.2428728342056274
+              ],
+              "normal": [
+                0.2666406035423279,
+                -0.9635535478591919,
+                -0.021619098260998726
+              ],
+              "impulse": [
+                0.31546905636787415,
+                -1.1400038003921509,
+                -0.025578085333108902
+              ]
+            },
+            {
+              "actor0": "/World/StationA/precursor_4",
+              "actor1": "/World/StationA/precursor_1",
+              "collider0": "/World/StationA/precursor_4/model/ReagentBottle001/ReagentBottle001_Lid/Collisions/ReagentBottle001_Collider29",
+              "collider1": "/World/StationA/precursor_1/model/ReagentBottle004/Collisions/ReagentBottle004_Collider98",
+              "event": "ContactEventType.CONTACT_FOUND",
+              "separation_m": -0.0007783696055412292,
+              "position_m": [
+                1.8841900825500488,
+                0.23435278236865997,
+                1.2423456907272339
+              ],
+              "normal": [
+                0.2666406035423279,
+                -0.9635535478591919,
+                -0.021619098260998726
+              ],
+              "impulse": [
+                0.003397005144506693,
+                -0.01227568555623293,
+                -0.00027542762109078467
+              ]
+            },
+            {
+              "actor0": "/World/StationA/precursor_4",
+              "actor1": "/World/StationA/precursor_1",
+              "collider0": "/World/StationA/precursor_4/model/ReagentBottle001/ReagentBottle001_Lid/Collisions/ReagentBottle001_Collider9",
+              "collider1": "/World/StationA/precursor_1/model/ReagentBottle004/Collisions/ReagentBottle004_Collider98",
+              "event": "ContactEventType.CONTACT_FOUND",
+              "separation_m": -0.0005266766529530287,
+              "position_m": [
+                1.8839561939239502,
+                0.23510800302028656,
+                1.242363452911377
+              ],
+              "normal": [
+                -0.03635307028889656,
+                0.012360447086393833,
+                -0.9992625713348389
+              ],
+              "impulse": [
+                -0.10115505754947662,
+                0.03439383953809738,
+                -2.7805206775665283
+              ]
+            },
+            {
+              "actor0": "/World/StationA/precursor_4",
+              "actor1": "/World/StationA/precursor_1",
+              "collider0": "/World/StationA/precursor_4/model/ReagentBottle001/ReagentBottle001_Lid/Collisions/ReagentBottle001_Collider9",
+              "collider1": "/World/StationA/precursor_1/model/ReagentBottle004/Collisions/ReagentBottle004_Collider98",
+              "event": "ContactEventType.CONTACT_FOUND",
+              "separation_m": -0.00043231467134319246,
+              "position_m": [
+                1.8807867765426636,
+                0.23340846598148346,
+                1.2424577474594116
+              ],
+              "normal": [
+                -0.03635307028889656,
+                0.012360447086393833,
+                -0.9992625713348389
+              ],
+              "impulse": [
+                -0.00034828466596081853,
+                0.00011842064850497991,
+                -0.009573547169566154
+              ]
+            },
+            {
+              "actor0": "/World/StationA/precursor_4",
+              "actor1": "/World/StationA/precursor_1",
+              "collider0": "/World/StationA/precursor_4/model/ReagentBottle001/ReagentBottle001_Lid/Collisions/ReagentBottle001_Collider9",
+              "collider1": "/World/StationA/precursor_1/model/ReagentBottle004/Collisions/ReagentBottle004_Collider98",
+              "event": "ContactEventType.CONTACT_FOUND",
+              "separation_m": -0.0005457601509988308,
+              "position_m": [
+                1.88422691822052,
+                0.23436298966407776,
+                1.2423444986343384
+              ],
+              "normal": [
+                -0.03635307028889656,
+                0.012360447086393833,
+                -0.9992625713348389
+              ],
+              "impulse": [
+                -0.0,
+                0.0,
+                -0.0
+              ]
+            },
+            {
+              "actor0": "/World/StationA/precursor_4",
+              "actor1": "/World/StationA/precursor_1",
+              "collider0": "/World/StationA/precursor_4/model/ReagentBottle001/ReagentBottle001_Lid/Collisions/ReagentBottle001_Collider9",
+              "collider1": "/World/StationA/precursor_1/model/ReagentBottle004/Collisions/ReagentBottle004_Collider98",
+              "event": "ContactEventType.CONTACT_FOUND",
+              "separation_m": -0.000376387732103467,
+              "position_m": [
+                1.8792439699172974,
+                0.23338791728019714,
+                1.242513656616211
+              ],
+              "normal": [
+                -0.03635307028889656,
+                0.012360447086393833,
+                -0.9992625713348389
+              ],
+              "impulse": [
+                -0.000516737753059715,
+                0.00017569656483829021,
+                -0.014203936792910099
+              ]
+            },
+            {
+              "actor0": "/World/StationA/precursor_4",
+              "actor1": "/World/StationA/precursor_1",
+              "collider0": "/World/StationA/precursor_4/model/ReagentBottle001/ReagentBottle001_Lid/Collisions/ReagentBottle001_Collider12",
+              "collider1": "/World/StationA/precursor_1/model/ReagentBottle004/Collisions/ReagentBottle004_Collider98",
+              "event": "ContactEventType.CONTACT_FOUND",
+              "separation_m": -7.982179522514343e-05,
+              "position_m": [
+                1.8818753957748413,
+                0.2337055206298828,
+                1.2426443099975586
+              ],
+              "normal": [
+                0.2666406035423279,
+                -0.9635535478591919,
+                -0.021619098260998726
+              ],
+              "impulse": [
+                0.4025503098964691,
+                -1.4546875953674316,
+                -0.03263859450817108
+              ]
+            },
+            {
+              "actor0": "/World/StationA/precursor_4",
+              "actor1": "/World/StationA/precursor_1",
+              "collider0": "/World/StationA/precursor_4/model/ReagentBottle001/ReagentBottle001_Lid/Collisions/ReagentBottle001_Collider12",
+              "collider1": "/World/StationA/precursor_1/model/ReagentBottle004/Collisions/ReagentBottle004_Collider98",
+              "event": "ContactEventType.CONTACT_FOUND",
+              "separation_m": -7.50124454498291e-05,
+              "position_m": [
+                1.8818740844726562,
+                0.2337101548910141,
+                1.2424219846725464
+              ],
+              "normal": [
+                0.2666406035423279,
+                -0.9635535478591919,
+                -0.021619098260998726
+              ],
+              "impulse": [
+                0.0019277591491118073,
+                -0.0069663031026721,
+                -0.0001563018304295838
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "case_id": "cal_m120_d12",
+      "phases": [
+        {
+          "object": "precursor_1",
+          "stage": 2,
+          "grasp_confirmed": true,
+          "lift_confirmed": true,
+          "target_operation_completed": false,
+          "placement_stable": false,
+          "transport_max_relative_displacement_m": 0.4003355344780167,
+          "transport_bilateral_contact_fraction": 0.6741434557554844,
+          "final_position_error_mm": 355.06766749648335,
+          "minimum_position_error_mm": 0.0,
+          "final_tilt_rad": 3.141589245618974,
+          "transport_max_tilt_rad": 3.141592653589793
+        }
+      ],
+      "penetration_ticks": 0,
+      "first_bad_observations": {
+        "first_sustained_over_20mm_relative_displacement_before_open": {
+          "onset_sample": 5924,
+          "onset_bracket_native_s": [
+            29.816668221727014,
+            29.82083488861099
+          ],
+          "confirmation_sample": 5972,
+          "confirmation_time_s": 30.0208348990418,
+          "minimum_sample_span_s": 0.2
+        },
+        "first_sustained_over_0_25rad_tilt_before_open": {
+          "onset_sample": 6226,
+          "onset_bracket_native_s": [
+            31.075001620687544,
+            31.07916828757152
+          ],
+          "confirmation_sample": 6274,
+          "confirmation_time_s": 31.279168298002332,
+          "minimum_sample_span_s": 0.2
+        },
+        "physical_stop_or_release_not_inferred_from_command_index": true,
+        "first_negative_contact": null
+      }
+    }
+  ]
+}

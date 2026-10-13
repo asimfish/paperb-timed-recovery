@@ -1,0 +1,16 @@
+{
+  "status": "PASS_RAW_DERIVED_CALIBRATION_FIGURE",
+  "scope": "OBSERVATION_LOCALIZATION; NOT_CAUSAL_ROOT_OR_REPAIR_PROOF",
+  "new_native_episodes": 0,
+  "inputs": {
+    "cal_m120_d12.csv": "a04968c08cb69e4cd91a7af2a2f4e466de106f14a06c6956b392b549da83a93a",
+    "cal_m080_d00.csv": "189ecf3c0ce7cb64b4080019c16fd0d93af423b7b0d5a5752f725d1ab255e029",
+    "cal_m080_d12.csv": "96daf3d6e65ceaf25bbd2d0e201cff034aad1ed3bb9a2f99d44eb19a3bd4fa0c",
+    "cal_m120_d00.csv": "352000ff9f84f761c40326e1e000d27d97e6220827961ad4e95416c721d63ac4"
+  },
+  "files": {
+    "payload_failure.pdf": "dcc96dfe2f33d441cb48f21447c6a75cb194613b56f2adc9257f7636c022867f",
+    "payload_failure.png": "bbd083bac36674a85dfd9ebf731ac94a32a5239af9bcdddb3c08c605af0ea2ed",
+    "payload_failure.svg": "6af536c357d9d80cc79effdd1e58fd24c8adefad890b73245b19949d13af814e"
+  }
+}

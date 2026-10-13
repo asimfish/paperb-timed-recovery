@@ -1,0 +1,159 @@
+{
+  "schema": "paperb-core-reference-fair-experiment-design-v1",
+  "status": "DESIGN_ONLY_NOT_EXECUTED",
+  "baseline_families": [
+    {
+      "id": "B0-matterix-inspired-hsm",
+      "role": "minimal adapted workflow baseline",
+      "tools": [
+        "IK/MP/grasp/wait",
+        "same device interface",
+        "same admitted public state"
+      ],
+      "verification": "fixed independent event/time scorer always used; internal semantic checks may remain as legal runtime checks",
+      "original_reproduction_status": "Not claimed; exact official runtime/source gap remains prior handoff"
+    },
+    {
+      "id": "B1-calibrated-event-resource-control",
+      "role": "strong deterministic temporal baseline",
+      "tools": [
+        "same calibration and sensor feedback",
+        "interval/MPC event dispatch",
+        "shared resource scheduling"
+      ],
+      "verification": "same original contract and failure/unknown denominator"
+    },
+    {
+      "id": "B2-agent-fixed-actor",
+      "role": "engineering loop/control versus actor learning",
+      "tools": [
+        "same legal task/context",
+        "permitted component repair/data selection",
+        "fixed actor version"
+      ],
+      "verification": "K/perception/twin/harness changes logged; not frozen-all-parameters ICL"
+    },
+    {
+      "id": "B3-shared-DP",
+      "role": "first neural comparison",
+      "tools": [
+        "same backbone/data/optimizer",
+        "public-time versus capture/query timestamps",
+        "legal history retain/reset/shuffle"
+      ],
+      "verification": "same instance split/scorer/external stack; no-clock track separate"
+    },
+    {
+      "id": "B4-offline-expert-imitation",
+      "role": "absorption baseline",
+      "tools": [
+        "same teacher",
+        "matched labels/updates/native steps"
+      ],
+      "verification": "expert-state labels only; recovery provenance explicit"
+    },
+    {
+      "id": "B5-student-state-DAgger",
+      "role": "matched strong student occupancy baseline already supported in supplied engineering source",
+      "tools": [
+        "student rollout",
+        "same-information expert relabeling",
+        "supervised aggregation"
+      ],
+      "verification": "same label/teacher/compute total, no unobserved simulator truth; call DAgger not new OPD"
+    }
+  ],
+  "experiments": [
+    {
+      "id": "E1-physical-time-contracts",
+      "question": "Does candidate beat HSM/calibrated event-resource control under equal observations?",
+      "compare": [
+        "B0",
+        "B1",
+        "candidate"
+      ],
+      "needed": [
+        "independent real flow/RPM/addition event calibration",
+        "full instance split",
+        "original C5/C6/C13 track preserved"
+      ],
+      "completed_in_this_round": false
+    },
+    {
+      "id": "E2-original-event-recovery",
+      "question": "Does recovery still satisfy an already occurred external-event contract and concurrent process?",
+      "compare": [
+        "no recovery",
+        "safe abort/reset separately",
+        "verified valid recovery"
+      ],
+      "needed": [
+        "event occurred before failure",
+        "immutable original observed anchor",
+        "irreversible process and native/device clock continuity",
+        "all failed/unknown kept"
+      ],
+      "completed_in_this_round": false
+    },
+    {
+      "id": "E3-parameter-context-attribution",
+      "question": "Are benefits in theta rather than K/perception/twin?",
+      "compare": [
+        "theta fixed/updated x context reset/retained"
+      ],
+      "needed": [
+        "common frozen K/perception/twin/harness",
+        "no online expert during test",
+        "clear context for absorption measurement"
+      ],
+      "completed_in_this_round": false
+    },
+    {
+      "id": "E4-student-state-labels",
+      "question": "Does student occupancy labeling outperform offline imitation at the same budget?",
+      "compare": [
+        "B4",
+        "B5",
+        "separately specified multi-expert OPD objective if admitted"
+      ],
+      "needed": [
+        "same teacher permissions",
+        "same total labels/optimizer/native steps/compute",
+        "student-state coverage and infeasible labels logged"
+      ],
+      "completed_in_this_round": false
+    },
+    {
+      "id": "E5-engineering-reuse",
+      "question": "Does verified K reduce total deployment cost with the same actor?",
+      "compare": [
+        "cold start",
+        "interface/calibration reuse",
+        "validated full K reuse"
+      ],
+      "needed": [
+        "same task order/initial hardware state",
+        "historical K creation cost plus incremental cost",
+        "wall-clock/control cadence/process deadline measured separately"
+      ],
+      "completed_in_this_round": false
+    }
+  ],
+  "fairness": [
+    "State pose/compound truth in a simulator is not equal to RGB estimation; privileged oracle reported separately",
+    "Shared preprocessing/observer and actual public clock across comparable arms",
+    "No-clock M1 and public-clock deployment are different tracks",
+    "Preserve calibration/agent/teacher/diagnostic material and compute costs",
+    "Split complete task instances, not frames; multiple contracts do not add episodes",
+    "Refusal/timeout/failure/unknown and unsuccessful budget exhaustion remain in denominator",
+    "Changing K or tracker cannot be reported as theta absorption",
+    "MATTERIX-inspired adapter versus original source reproduction explicitly named"
+  ],
+  "counts_in_this_round": {
+    "physics_runs": 0,
+    "model_calls": 0,
+    "GPU_jobs": 0,
+    "policy_weights": 0
+  },
+  "no_sample_size_claim": "Sample sizes and budgets need a measured pilot and preregistration; do not invent completed trials from this design."
+}

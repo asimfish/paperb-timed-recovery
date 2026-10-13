@@ -1,0 +1,87 @@
+{
+  "schema": "paperb-calibration-admission-failure-report-v1",
+  "status": "REJECTED_CALIBRATION_ADMISSION_RAW_INTEGRITY_PASS",
+  "declared_native_calibration_episodes": 4,
+  "native_completed_episodes": 4,
+  "raw_integrity_pass_episodes": 4,
+  "mechanical_pass_episodes": 2,
+  "mechanical_failed_episodes": 2,
+  "stable_release_missing_episodes": 2,
+  "task_samples": 53732,
+  "native_rgb_snapshots": 36,
+  "four_calibration_denominator_preserved": true,
+  "no_missing_endpoint_silently_filtered": true,
+  "fit_runs": 0,
+  "heldout_test_native_episodes": 0,
+  "allocated_gpu_hours_upper_bound_total": 0.40952511010840276,
+  "worker_wall_s_total": 1474.29039639025,
+  "simulated_rigid_bottle_robot_motion_only": true,
+  "real_robot_episodes": 0,
+  "chemical_event_certified": 0,
+  "learning_updates": 0,
+  "cases": [
+    {
+      "case_id": "cal_m080_d00",
+      "mass_factor": 0.8,
+      "delay_ticks": 0,
+      "task_samples": 13427,
+      "mechanical_pass": true,
+      "failed_mechanical_conditions": [],
+      "contact_event": "OBSERVED",
+      "stable_release_event": "OBSERVED",
+      "native_rgb_snapshot_count": 9,
+      "allocated_gpu_hours_upper_bound": 0.1331341580122373
+    },
+    {
+      "case_id": "cal_m080_d12",
+      "mass_factor": 0.8,
+      "delay_ticks": 12,
+      "task_samples": 13439,
+      "mechanical_pass": true,
+      "failed_mechanical_conditions": [],
+      "contact_event": "OBSERVED",
+      "stable_release_event": "OBSERVED",
+      "native_rgb_snapshot_count": 9,
+      "allocated_gpu_hours_upper_bound": 0.08690784607056735
+    },
+    {
+      "case_id": "cal_m120_d00",
+      "mass_factor": 1.2,
+      "delay_ticks": 0,
+      "task_samples": 13427,
+      "mechanical_pass": false,
+      "failed_mechanical_conditions": [
+        "all_phases_complete",
+        "penetration_ticks_zero",
+        "transport_relative_pose_ok",
+        "transport_contact_continuity_ok",
+        "transport_tilt_ok"
+      ],
+      "contact_event": "OBSERVED",
+      "stable_release_event": "MISSING",
+      "native_rgb_snapshot_count": 9,
+      "allocated_gpu_hours_upper_bound": 0.0965472487058206
+    },
+    {
+      "case_id": "cal_m120_d12",
+      "mass_factor": 1.2,
+      "delay_ticks": 12,
+      "task_samples": 13439,
+      "mechanical_pass": false,
+      "failed_mechanical_conditions": [
+        "all_phases_complete",
+        "transport_relative_pose_ok",
+        "transport_contact_continuity_ok",
+        "transport_tilt_ok"
+      ],
+      "contact_event": "OBSERVED",
+      "stable_release_event": "MISSING",
+      "native_rgb_snapshot_count": 9,
+      "allocated_gpu_hours_upper_bound": 0.09293585731977752
+    }
+  ],
+  "full_report_sha256": "15dcf55d77464e1553fd91c42bcbd1e0e8544db9fde3e973543f7e65b0f70f5c",
+  "native_execution_release_sha256": "cf5cc59c9b9e0b215f2f5db408052ccb9cac8912c7c89ea8adc74e9d4c8b2efa",
+  "auditor_v2_release_sha256": "bec7ed7033ff0bedcee42fedf32943a4c6947e75a5ff0ec9178a5faaa7bf0916",
+  "scope": "Four attempted simulated A-r7 bottle calibration trajectories. No calibration fit or heldout test is admitted. Missing heavy-payload stable-release endpoints are retained as failures."
+}

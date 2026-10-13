@@ -1,0 +1,17 @@
+{
+  "schema": "paperb-evidence-archive-reopen-validation-v1",
+  "status": "PASS_ALL_MEMBERS_REOPEN_SHA256",
+  "archive": "payload_failure_diagnosis.tar.gz",
+  "archive_sha256": "e2b63ad26937387dbdb235405fcd6b594350fa14b16140155a7ec7d8e8e7b8d1",
+  "archive_bytes": 5111378,
+  "members_total": 28,
+  "each_member_sha256_exact": true,
+  "safe_regular_members_only": true,
+  "source_and_raw_modified": false,
+  "new_physics_integrations": 0,
+  "source_release_sha256": "cf5cc59c9b9e0b215f2f5db408052ccb9cac8912c7c89ea8adc74e9d4c8b2efa",
+  "original_calibration_cases": 4,
+  "original_task_samples": 53732,
+  "causal_root_cause_proven": false,
+  "independent_acceptance_replaced": false
+}

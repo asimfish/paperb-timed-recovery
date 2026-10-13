@@ -1,0 +1,20 @@
+{
+  "schema": "paperb-calibration-evidence-archive-receipt-v1",
+  "status": "PASS_ALL_MEMBERS_REOPENED_AND_HASHED",
+  "archive_file": "essential_four_calibration_evidence.tar.gz",
+  "archive_bytes": 292674671,
+  "archive_sha256": "acde3df69031a57cead17bca5418ddc88c197a8395af034ad2f691ed96fff2b9",
+  "manifest_file": "PACKAGE_MANIFEST.json",
+  "manifest_sha256": "27e6aab3e8ee072d1f8f85f6a05cbb6db32571ba63cd41d803f6c91d4b8d47ed",
+  "verified_members": 314,
+  "uncompressed_member_bytes": 2639370341,
+  "file_mode": "0o600",
+  "private_archive": true,
+  "public_copy_allowed_by_root_size_limit": false,
+  "full_scene_native_replay_package": false,
+  "SDK_assets_credentials_included": false,
+  "no_physics_or_policy_rerun": true,
+  "native_calibration_admission": "REJECTED",
+  "fit_runs": 0,
+  "heldout_test_runs": 0
+}

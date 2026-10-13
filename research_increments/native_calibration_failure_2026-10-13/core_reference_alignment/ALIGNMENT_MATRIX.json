@@ -1,0 +1,127 @@
+{
+  "schema": "paperb-core-reference-mechanism-alignment-v1",
+  "status": "READING_AND_DESIGN_ONLY",
+  "mechanisms": [
+    {
+      "id": "multiscale_twin",
+      "reference": "MATTERIX",
+      "evidence_location": "printed pp68-70,77-78/Fig1-3",
+      "coverage_status": "COVERED",
+      "existing_mechanism": "USD physical/particle assets, continuous/logical semantics and sensor/device interfaces",
+      "project_test_or_interface": "Reuse scene and device adapters; validate units, assets/runtime and actual event sensors",
+      "claim_boundary": "Not new chemical twin claim"
+    },
+    {
+      "id": "physical_process_time",
+      "reference": "MATTERIX",
+      "evidence_location": "printed pp72,75,78",
+      "coverage_status": "COVERED",
+      "existing_mechanism": "Events/processes and waiting; heater off versus later reaction end already distinguished",
+      "project_test_or_interface": "Tight event interval scoring with independent calibrated measurement; no command-as-endpoint",
+      "claim_boundary": "Device off != process end is prior art"
+    },
+    {
+      "id": "workflow_verification",
+      "reference": "MATTERIX",
+      "evidence_location": "printed p79 System and workflow verification",
+      "coverage_status": "COVERED",
+      "existing_mechanism": "Compound/precondition checks and approximate concentration updates support workflow debugging/training",
+      "project_test_or_interface": "Raw independent endpoint/time/calibration boundary and unknown handling",
+      "claim_boundary": "Temporal verification as a general principle is not novel"
+    },
+    {
+      "id": "workflow_skills",
+      "reference": "MATTERIX",
+      "evidence_location": "printed pp72,79-80",
+      "coverage_status": "COVERED",
+      "existing_mechanism": "IK/MP/grasp/wait/RL/IL leaves organized in HSM tree",
+      "project_test_or_interface": "Registered primitive interface and same-information HSM baseline",
+      "claim_boundary": "Our4 mechanical graphs do not establish a new compositional framework"
+    },
+    {
+      "id": "parallel_resources",
+      "reference": "MATTERIX",
+      "evidence_location": "printed p78 Environment generation",
+      "coverage_status": "COVERED",
+      "existing_mechanism": "Multiple heterogenous robots/devices can execute concurrently and support scheduling research",
+      "project_test_or_interface": "Bind actual resource occupancy, continuity and deadlines; compare strong scheduling",
+      "claim_boundary": "Do not claim first multi-agent or parallel chemistry"
+    },
+    {
+      "id": "recovery",
+      "reference": "MATTERIX + supplied Auto-Engineering",
+      "evidence_location": "printed p76 Discussion; MD §§6-7",
+      "coverage_status": "RELATED_PARTLY_COVERED",
+      "existing_mechanism": "Matterix names recovery/contingency limitations; engineering source diagnoses and validates repairs",
+      "project_test_or_interface": "Valid recovery under already occurred external event deadlines and irreversible process state",
+      "claim_boundary": "Current counterfactual rotor guard does not prove chemical ledger recovery"
+    },
+    {
+      "id": "four_harness_engineering",
+      "reference": "supplied Auto-Engineering",
+      "evidence_location": "MD §§3-7",
+      "coverage_status": "COVERED",
+      "existing_mechanism": "Ingestion/world experience/skill creation/deployment diagnosis plus artifact reuse",
+      "project_test_or_interface": "Measure engineering K, context M and actor theta separately; baseline fixed actor engineering loop",
+      "claim_boundary": "Generic agentic RSI/harness is not novel"
+    },
+    {
+      "id": "synth_bc_dagger",
+      "reference": "supplied Auto-Engineering",
+      "evidence_location": "MD §5.2",
+      "coverage_status": "COVERED",
+      "existing_mechanism": "Synthetic BC and DAgger for reactive pouring with state/eef representation",
+      "project_test_or_interface": "Same teacher, labels, observations and compute for student-state learning",
+      "claim_boundary": "Student-state supervised relabeling is already present; not new OPD by naming"
+    },
+    {
+      "id": "timed_chemical_admission",
+      "reference": "both read core sources",
+      "evidence_location": "bounded scopes above",
+      "coverage_status": "NOT_ESTABLISHED_BY_CURRENT_READ_SCOPE",
+      "existing_mechanism": "Read sources do not provide this project calibrated C5/C6/C13 original-window admission/evaluation protocol",
+      "project_test_or_interface": "Run calibrated physical endpoint tasks with matched HSM/rules and all failures/unknown",
+      "claim_boundary": "This is a candidate problem/protocol; not proof of absence in all original code/versions"
+    },
+    {
+      "id": "shared_actor_absorption",
+      "reference": "both read core sources",
+      "evidence_location": "MATTERIX reusable learning skills; MD §5.2-5.4,§7",
+      "coverage_status": "RELATED_PARTLY_COVERED",
+      "existing_mechanism": "Learning/adaptation and skill reuse are already reported; not the same as project shared temporal-recovery actor ablation",
+      "project_test_or_interface": "Theta x context on frozen external stack; actor labels/budgets held equal; clear context before test",
+      "claim_boundary": "Fullpaper actor absorption/generation advantage is not yet established"
+    }
+  ],
+  "absence_policy": "Not established in the bounded read scope does not prove absence in all versions, implementations or the field.",
+  "current_component_context": {
+    "task_graph_main_instances": 4,
+    "task_graph_main_rollouts": 12,
+    "sentinels": 2,
+    "fullpower_counterfactual_diagnostic_integrations": 1,
+    "main_joint_counts": [
+      {
+        "arm": "legacy_order_scheduler",
+        "TRUE": 0,
+        "FALSE": 4,
+        "UNKNOWN": 0
+      },
+      {
+        "arm": "graph_event_scheduler",
+        "TRUE": 1,
+        "FALSE": 3,
+        "UNKNOWN": 0
+      },
+      {
+        "arm": "reference_guarded_graph_scheduler",
+        "TRUE": 4,
+        "FALSE": 0,
+        "UNKNOWN": 0
+      }
+    ],
+    "scope": "Known noiseless twin rotors and handwritten controllers; no neural actor or chemical credit",
+    "already_occurred_external_event_ledger_recovery_verified": false
+  },
+  "fullpaper_status": "MAJOR_OPEN",
+  "new_runs_this_alignment": 0
+}

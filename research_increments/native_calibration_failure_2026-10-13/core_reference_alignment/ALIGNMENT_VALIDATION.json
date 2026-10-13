@@ -1,0 +1,28 @@
+{
+  "schema": "paperb-core-reference-alignment-validation-v1",
+  "status": "PASS_BOUNDED_READING_METADATA_DESIGN_AND_EXPORT",
+  "nature_authors": 23,
+  "citation_year": 2026,
+  "online_year": 2025,
+  "mechanism_rows": 10,
+  "baseline_families": 6,
+  "prospective_experiments": 5,
+  "source_attachments_match_prior_intake": true,
+  "old_source_files_unchanged": true,
+  "new_model_calls": 0,
+  "new_GPU_jobs": 0,
+  "new_physics_episodes": 0,
+  "new_weights": 0,
+  "formal_paper_innovation": "MAJOR_OPEN_NOT_ESTABLISHED_BY_THIS_ALIGNMENT",
+  "published_outputs": {
+    "README_cn.md": "5dead9aa920ca4aa72ece27f779766bf710d15f34cbf13e54f46f78e1ace0679",
+    "CORE_REFERENCE_ALIGNMENT_cn.md": "54debf2ec43f2e90392458467d39fe50c57879401bcbc633528c536e21a77812",
+    "CITATION_METADATA.json": "5f26c378c7ff01283327fe9e91d601f8a50384d4b2e99d20142c392d7e7bb9f5",
+    "ALIGNMENT_MATRIX.json": "e48228fe87b8d55411a70000746da58a8da8b81dca1253707da5e2502aa4c027",
+    "MINIMAL_BASELINES_AND_EXPERIMENTS.json": "83394ff06bdf9a8d2181b31b58fdb482a54ca2809a949593a6f001a800d4e962",
+    "SOURCE_READ_RECEIPT.json": "5d298a5cd136c65a9f98029c4ea65fb6470d5a35e6ea0800aceee9c22ca1d7ec",
+    "core_references.bib": "3f04dc02cf3e9cd60397820591c1b6f79aca386fab50109a3a4e0c50f72c899b"
+  },
+  "private_extraction_excluded": true,
+  "old_reproduction_repeated": false
+}

@@ -1,0 +1,110 @@
+{
+  "schema": "paperb-core-reference-scoped-read-receipt-v1",
+  "status": "PASS_SOURCE_IDENTITY_AND_BOUNDED_READ",
+  "provided_sources": [
+    {
+      "path": "/mnt/nas/data/lyf/chem_mem/.whalent_tmp/2026-10-11/pxfc0mhsuehpslmztauf65uae-s43588-025-00924-4.pdf",
+      "sha256": "9a0b9dc6c1ea6bbff2625685719df6acd1f97b1ebfa5fad98f328c096a3e7ca8",
+      "bytes": 5271829,
+      "pages": 19,
+      "mechanism_pages_read_this_pass_pdf": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        7,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "main_printed_pages_cited": [
+        68,
+        69,
+        70,
+        72,
+        73,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80
+      ],
+      "read_range_note": "p7/p9 full plus bounded relevant excerpts; not Supplementary Sections1-6 or source-data reproduction"
+    },
+    {
+      "path": "/mnt/nas/data/lyf/chem_mem/.whalent_tmp/2026-10-11/8su4dbukncegfwklrrihral16-general-robotics-auto-engineering.md",
+      "sha256": "a3a2e1fecd39f03ed71a0a119a5fd8e50d9c4721e055db31353dadbde92ace4c",
+      "bytes": 19625,
+      "sections_read": [
+        "metadata",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5.1",
+        "5.2",
+        "5.3",
+        "5.4",
+        "6",
+        "7"
+      ]
+    }
+  ],
+  "matches_old_intake": true,
+  "prior_work_read": [
+    {
+      "path": "/mnt/nas/data/lyf/chem_mem/awesome_memory_chem/papers/paperB/research_increments/robot_rsi_matterix_review_2026-10-11/README_cn.md",
+      "sha256": "0b312062d28119dfe8a886e33d83970a1c4b619292dc9db626b892fec8c817ae"
+    },
+    {
+      "path": "/mnt/nas/data/lyf/chem_mem/awesome_memory_chem/papers/paperB/research_increments/robot_rsi_matterix_review_2026-10-11/SOURCE_INTAKE.json",
+      "sha256": "1bc474ae8d01a899e7f342461af608cf7577ecd95ef52efe17361a616778f7b1"
+    },
+    {
+      "path": "/mnt/nas/data/lyf/chem_mem/awesome_memory_chem/papers/paperB/research_increments/robot_rsi_matterix_review_2026-10-11/paper_rewriting_output/MATTERIX_REPRODUCTION_MATRIX_cn.md",
+      "sha256": "182aa16cb32f568f193b415c25e6e97060cd5b693d64cd61a6fca878c06e53f0"
+    },
+    {
+      "path": "/mnt/nas/data/lyf/chem_mem/awesome_memory_chem/papers/paperB/research_increments/auto_engineering_source_review_2026-10-11/README_cn.md",
+      "sha256": "3fecf523af342f6b4e8d219db26ec4d490e29422538ee0409801fb5a7c262784"
+    },
+    {
+      "path": "/mnt/nas/data/lyf/chem_mem/awesome_memory_chem/papers/paperB/research_increments/auto_engineering_source_review_2026-10-11/SOURCE_INTAKE.json",
+      "sha256": "fc01a49485f0bcaa0cc5152b156fe86f4762a0fc471bb6d2bac1004eec65996e"
+    },
+    {
+      "path": "/mnt/nas/data/lyf/chem_mem/awesome_memory_chem/papers/paperB/research_increments/auto_engineering_source_review_2026-10-11/paper_rewriting_output/SOURCE_REVIEW_AND_DESIGN_DELTA_cn.md",
+      "sha256": "4113f70540c15c2101a3b07345fbce584b75f919d5307eaa3147c9afa3fcabb9"
+    },
+    {
+      "path": "/mnt/nas/data/lyf/chem_mem/awesome_memory_chem/papers/paperB/research_increments/chemical_auto_engineering_design_2026-10-11/README_cn.md",
+      "sha256": "eb5a9a6b7c00438bbc7c1d1f8e21fcac52942e66397129ea4c6f14761461fc1b"
+    },
+    {
+      "path": "/mnt/nas/data/lyf/chem_mem/awesome_memory_chem/papers/paperB/research_increments/scene_methods_expansion_2026-10-13/task_graph_component/FINAL_COMPONENT_VALIDATION.json",
+      "sha256": "a59c5305185ffd1df0c6bccb6a6c2f4ccf132d292d6bdac724ec6a7164c6901e"
+    }
+  ],
+  "nature_official_metadata_read": {
+    "url": "https://www.nature.com/articles/s43588-025-00924-4",
+    "scope": "Header/abstract metadata/code-availability/correction entry; main body subscription-limited; subsequent find calls errored, no full official-body read claimed"
+  },
+  "private_text_extraction_path": "/data/liyufeng/paperb_core_reference_alignment_20261013_v1/matterix_text.txt",
+  "public_export_excludes": [
+    "user PDF",
+    "entire extracted copyrighted text",
+    "user MD",
+    "third-party figures",
+    "third-party repository/assets",
+    "credentials"
+  ],
+  "old_reproduction_repeated": false,
+  "old_files_modified": false,
+  "new_jobs": 0,
+  "new_policy_weights": 0
+}

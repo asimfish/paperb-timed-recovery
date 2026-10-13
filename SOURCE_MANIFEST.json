@@ -45,8 +45,8 @@
       "path": "index.html",
       "source": "web/index.html",
       "source_sha256": "07dcf1383bfb0ccae5e1f88c21928e02e25cd95949c739bf9ad481c7858f3eb6",
-      "sha256": "5aa91824f6b8b875a0b2a1df1bcaf096d9099f119dc31c852cadd4b4f99989ee",
-      "bytes": 231941,
+      "sha256": "c5aab33cff70efa04c1be4e4625e8703ec5b371c37fd3526abd039e6142367c6",
+      "bytes": 238290,
       "transformations": [
         "project-root evidence links",
         "current method panel and canonical GitHub URL rendered by prior build attempt, checked against canonical scripts"
@@ -1448,8 +1448,236 @@
       "sha256": "c0ffa2e862f6a78e247550ef202ecdbf4c0279fdbe8d21ccee32ff1a3d73332d",
       "bytes": 3510,
       "source": "papers/paperB/research_increments/scene_methods_expansion_2026-10-13/independent_audits/integer_grid_oracle_full.py"
+    },
+    {
+      "path": "research_increments/native_calibration_failure_2026-10-13/README_cn.md",
+      "sha256": "a769e194b7bd5a9807853e724e61280adfeaa0fffa43d03909b46f51f9ca6c21",
+      "bytes": 3801,
+      "source": "papers/paperB/research_increments/native_calibration_failure_2026-10-13/README_cn.md"
+    },
+    {
+      "path": "research_increments/native_calibration_failure_2026-10-13/IMAGE_PROVENANCE.json",
+      "sha256": "b9b0aa9c052199d5c3792db2a8be60bb7fc231b9816cd93ef988a0fdb300565e",
+      "bytes": 1582,
+      "source": "papers/paperB/research_increments/native_calibration_failure_2026-10-13/IMAGE_PROVENANCE.json"
+    },
+    {
+      "path": "research_increments/native_calibration_failure_2026-10-13/audit/PUBLIC_SUMMARY.json",
+      "sha256": "2c30996a02e99ea774c0721615aa907bc252107f23e7a8974ba0997a5fd268fa",
+      "bytes": 19741,
+      "source": "papers/paperB/research_increments/native_calibration_failure_2026-10-13/audit/PUBLIC_SUMMARY.json"
+    },
+    {
+      "path": "research_increments/native_calibration_failure_2026-10-13/audit/PUBLIC_AUDIT.json",
+      "sha256": "e20eb3dd171fc3234cc39ae361e2270657a05802e99ee4d07fef418008eb80f0",
+      "bytes": 3141,
+      "source": "papers/paperB/research_increments/native_calibration_failure_2026-10-13/audit/PUBLIC_AUDIT.json"
+    },
+    {
+      "path": "research_increments/native_calibration_failure_2026-10-13/audit/CALIBRATION_ADMISSION_REPORT.json",
+      "sha256": "15dcf55d77464e1553fd91c42bcbd1e0e8544db9fde3e973543f7e65b0f70f5c",
+      "bytes": 94526,
+      "source": "papers/paperB/research_increments/native_calibration_failure_2026-10-13/audit/CALIBRATION_ADMISSION_REPORT.json"
+    },
+    {
+      "path": "research_increments/native_calibration_failure_2026-10-13/audit/CALIBRATION_AUDIT_V2_RETAINED.json",
+      "sha256": "74d3b9578150846e66b1cf0396d15c3e2ce965537937f9d2414a4797e956dead",
+      "bytes": 72169,
+      "source": "papers/paperB/research_increments/native_calibration_failure_2026-10-13/audit/CALIBRATION_AUDIT_V2_RETAINED.json"
+    },
+    {
+      "path": "research_increments/native_calibration_failure_2026-10-13/figures/payload_failure.svg",
+      "sha256": "6af536c357d9d80cc79effdd1e58fd24c8adefad890b73245b19949d13af814e",
+      "bytes": 31160,
+      "source": "papers/paperB/research_increments/native_calibration_failure_2026-10-13/figures/payload_failure.svg"
+    },
+    {
+      "path": "research_increments/native_calibration_failure_2026-10-13/figures/payload_failure.pdf",
+      "sha256": "dcc96dfe2f33d441cb48f21447c6a75cb194613b56f2adc9257f7636c022867f",
+      "bytes": 27008,
+      "source": "papers/paperB/research_increments/native_calibration_failure_2026-10-13/figures/payload_failure.pdf"
+    },
+    {
+      "path": "research_increments/native_calibration_failure_2026-10-13/figures/FIGURE_RECEIPT.json",
+      "sha256": "775aa98bd3c016f4ce2004b17f896e899c52bd465f5c0440d4c3c755b29a26df",
+      "bytes": 842,
+      "source": "papers/paperB/research_increments/native_calibration_failure_2026-10-13/figures/FIGURE_RECEIPT.json"
+    },
+    {
+      "path": "research_increments/native_calibration_failure_2026-10-13/paper_preview/note.pdf",
+      "sha256": "d1dc4d0d658baff1ab8b3392f2879290bc62161c335e864aa6ad2b2968855c43",
+      "bytes": 111787,
+      "source": "papers/paperB/research_increments/native_calibration_failure_2026-10-13/paper_preview/note.pdf"
+    },
+    {
+      "path": "research_increments/native_calibration_failure_2026-10-13/paper_preview/source/note.tex",
+      "sha256": "eb15cef742ee7d4efcd10b727be9204648376c0fef2e256e3ca63cc2bcf32786",
+      "bytes": 6127,
+      "source": "papers/paperB/research_increments/native_calibration_failure_2026-10-13/paper_preview/source/note.tex"
+    },
+    {
+      "path": "research_increments/native_calibration_failure_2026-10-13/paper_preview/source/icml2026.sty",
+      "sha256": "7cdcf90f6a59c5219e7f15c88f7ed09fcaf598dad91e6cdddc4dc3cb0e397a95",
+      "bytes": 27344,
+      "source": "papers/paperB/research_increments/native_calibration_failure_2026-10-13/paper_preview/source/icml2026.sty"
+    },
+    {
+      "path": "research_increments/native_calibration_failure_2026-10-13/paper_preview/source/payload_failure.pdf",
+      "sha256": "dcc96dfe2f33d441cb48f21447c6a75cb194613b56f2adc9257f7636c022867f",
+      "bytes": 27008,
+      "source": "papers/paperB/research_increments/native_calibration_failure_2026-10-13/paper_preview/source/payload_failure.pdf"
+    },
+    {
+      "path": "research_increments/native_calibration_failure_2026-10-13/core_reference_alignment/ALIGNMENT_MATRIX.json",
+      "sha256": "e48228fe87b8d55411a70000746da58a8da8b81dca1253707da5e2502aa4c027",
+      "bytes": 6284,
+      "source": "papers/paperB/research_increments/native_calibration_failure_2026-10-13/core_reference_alignment/ALIGNMENT_MATRIX.json"
+    },
+    {
+      "path": "research_increments/native_calibration_failure_2026-10-13/core_reference_alignment/ALIGNMENT_VALIDATION.json",
+      "sha256": "4c4662d0fc2c7178e9db538cba743fddbe16b671da99d1a3fe1f94c713f220ac",
+      "bytes": 1343,
+      "source": "papers/paperB/research_increments/native_calibration_failure_2026-10-13/core_reference_alignment/ALIGNMENT_VALIDATION.json"
+    },
+    {
+      "path": "research_increments/native_calibration_failure_2026-10-13/core_reference_alignment/CITATION_METADATA.json",
+      "sha256": "5f26c378c7ff01283327fe9e91d601f8a50384d4b2e99d20142c392d7e7bb9f5",
+      "bytes": 3095,
+      "source": "papers/paperB/research_increments/native_calibration_failure_2026-10-13/core_reference_alignment/CITATION_METADATA.json"
+    },
+    {
+      "path": "research_increments/native_calibration_failure_2026-10-13/core_reference_alignment/CORE_REFERENCE_ALIGNMENT_cn.md",
+      "sha256": "54debf2ec43f2e90392458467d39fe50c57879401bcbc633528c536e21a77812",
+      "bytes": 11031,
+      "source": "papers/paperB/research_increments/native_calibration_failure_2026-10-13/core_reference_alignment/CORE_REFERENCE_ALIGNMENT_cn.md"
+    },
+    {
+      "path": "research_increments/native_calibration_failure_2026-10-13/core_reference_alignment/MINIMAL_BASELINES_AND_EXPERIMENTS.json",
+      "sha256": "83394ff06bdf9a8d2181b31b58fdb482a54ca2809a949593a6f001a800d4e962",
+      "bytes": 5750,
+      "source": "papers/paperB/research_increments/native_calibration_failure_2026-10-13/core_reference_alignment/MINIMAL_BASELINES_AND_EXPERIMENTS.json"
+    },
+    {
+      "path": "research_increments/native_calibration_failure_2026-10-13/core_reference_alignment/README_cn.md",
+      "sha256": "5dead9aa920ca4aa72ece27f779766bf710d15f34cbf13e54f46f78e1ace0679",
+      "bytes": 1537,
+      "source": "papers/paperB/research_increments/native_calibration_failure_2026-10-13/core_reference_alignment/README_cn.md"
+    },
+    {
+      "path": "research_increments/native_calibration_failure_2026-10-13/core_reference_alignment/SOURCE_READ_RECEIPT.json",
+      "sha256": "5d298a5cd136c65a9f98029c4ea65fb6470d5a35e6ea0800aceee9c22ca1d7ec",
+      "bytes": 4206,
+      "source": "papers/paperB/research_increments/native_calibration_failure_2026-10-13/core_reference_alignment/SOURCE_READ_RECEIPT.json"
+    },
+    {
+      "path": "research_increments/native_calibration_failure_2026-10-13/core_reference_alignment/core_references.bib",
+      "sha256": "3f04dc02cf3e9cd60397820591c1b6f79aca386fab50109a3a4e0c50f72c899b",
+      "bytes": 1782,
+      "source": "papers/paperB/research_increments/native_calibration_failure_2026-10-13/core_reference_alignment/core_references.bib"
+    },
+    {
+      "path": "research_increments/native_calibration_failure_2026-10-13/images/cal_m080_d00--04560.jpg",
+      "sha256": "25644b6385cbae87df4bdde6be1a65641f4df32f45c4b5ed570a206c8ffbd0d4",
+      "bytes": 38684,
+      "source": "papers/paperB/research_increments/native_calibration_failure_2026-10-13/images/cal_m080_d00--04560.jpg"
+    },
+    {
+      "path": "research_increments/native_calibration_failure_2026-10-13/images/cal_m080_d00--06480.jpg",
+      "sha256": "632a395e0d000cd983a851a81cfe08b1a033240e10c1870b35c517bcc22f932b",
+      "bytes": 39787,
+      "source": "papers/paperB/research_increments/native_calibration_failure_2026-10-13/images/cal_m080_d00--06480.jpg"
+    },
+    {
+      "path": "research_increments/native_calibration_failure_2026-10-13/images/cal_m120_d00--04560.jpg",
+      "sha256": "a0374f17f486785c4f3d9e27f0e7f25c48f3af8ead6f395ac926115c6ea0ac9b",
+      "bytes": 38689,
+      "source": "papers/paperB/research_increments/native_calibration_failure_2026-10-13/images/cal_m120_d00--04560.jpg"
+    },
+    {
+      "path": "research_increments/native_calibration_failure_2026-10-13/images/cal_m120_d00--06480.jpg",
+      "sha256": "7a707580ef0c154770c2e2e14ae5d37a2af11702ed4dd25841a204281aa17c5b",
+      "bytes": 39738,
+      "source": "papers/paperB/research_increments/native_calibration_failure_2026-10-13/images/cal_m120_d00--06480.jpg"
+    },
+    {
+      "path": "research_increments/native_calibration_failure_2026-10-13/diagnostic_raw/cal_m080_d00.csv",
+      "sha256": "189ecf3c0ce7cb64b4080019c16fd0d93af423b7b0d5a5752f725d1ab255e029",
+      "bytes": 3517543,
+      "source": "papers/paperB/research_increments/native_calibration_failure_2026-10-13/diagnostic_raw/cal_m080_d00.csv"
+    },
+    {
+      "path": "research_increments/native_calibration_failure_2026-10-13/diagnostic_raw/cal_m080_d12.csv",
+      "sha256": "96daf3d6e65ceaf25bbd2d0e201cff034aad1ed3bb9a2f99d44eb19a3bd4fa0c",
+      "bytes": 3519910,
+      "source": "papers/paperB/research_increments/native_calibration_failure_2026-10-13/diagnostic_raw/cal_m080_d12.csv"
+    },
+    {
+      "path": "research_increments/native_calibration_failure_2026-10-13/diagnostic_raw/cal_m120_d00.csv",
+      "sha256": "352000ff9f84f761c40326e1e000d27d97e6220827961ad4e95416c721d63ac4",
+      "bytes": 3400204,
+      "source": "papers/paperB/research_increments/native_calibration_failure_2026-10-13/diagnostic_raw/cal_m120_d00.csv"
+    },
+    {
+      "path": "research_increments/native_calibration_failure_2026-10-13/diagnostic_raw/cal_m120_d12.csv",
+      "sha256": "a04968c08cb69e4cd91a7af2a2f4e466de106f14a06c6956b392b549da83a93a",
+      "bytes": 3425915,
+      "source": "papers/paperB/research_increments/native_calibration_failure_2026-10-13/diagnostic_raw/cal_m120_d12.csv"
+    },
+    {
+      "path": "research_increments/native_calibration_failure_2026-10-13/audit/ARCHIVE_RECEIPT.json",
+      "sha256": "5ce137a78e7ad632964fa8d751705d8accf643be742c40ed212574fc1e217e13",
+      "bytes": 820,
+      "source": "papers/paperB/research_increments/native_calibration_failure_2026-10-13/audit/ARCHIVE_RECEIPT.json"
+    },
+    {
+      "path": "research_increments/native_calibration_failure_2026-10-13/audit/PACKAGE_MANIFEST.json",
+      "sha256": "27e6aab3e8ee072d1f8f85f6a05cbb6db32571ba63cd41d803f6c91d4b8d47ed",
+      "bytes": 56275,
+      "source": "papers/paperB/research_increments/native_calibration_failure_2026-10-13/audit/PACKAGE_MANIFEST.json"
+    },
+    {
+      "path": "research_increments/native_calibration_failure_2026-10-13/audit/PACKAGE_RECOMPUTATION_RECEIPT.json",
+      "sha256": "144f749c923a49cd1c9a3ec2cd55440686c7bdaf29a6d1328f25e322e17f9209",
+      "bytes": 1064,
+      "source": "papers/paperB/research_increments/native_calibration_failure_2026-10-13/audit/PACKAGE_RECOMPUTATION_RECEIPT.json"
+    },
+    {
+      "path": "research_increments/native_calibration_failure_2026-10-13/diagnosis/README_cn.md",
+      "sha256": "44f70f3fa048c737e670e01eba34f2990e616accd455388d45373b75d347ead8",
+      "bytes": 3984,
+      "source": "papers/paperB/research_increments/native_calibration_failure_2026-10-13/diagnosis/README_cn.md"
+    },
+    {
+      "path": "research_increments/native_calibration_failure_2026-10-13/diagnosis/ARCHIVE_VALIDATION.json",
+      "sha256": "f7617a45ce4e8ac10509f045b52b8ae392eeadf22d3c3c5fdb1572ab8920d673",
+      "bytes": 684,
+      "source": "papers/paperB/research_increments/native_calibration_failure_2026-10-13/diagnosis/ARCHIVE_VALIDATION.json"
+    },
+    {
+      "path": "research_increments/native_calibration_failure_2026-10-13/diagnosis/payload_failure_diagnosis.tar.gz",
+      "sha256": "e2b63ad26937387dbdb235405fcd6b594350fa14b16140155a7ec7d8e8e7b8d1",
+      "bytes": 5111378,
+      "source": "papers/paperB/research_increments/native_calibration_failure_2026-10-13/diagnosis/payload_failure_diagnosis.tar.gz"
+    },
+    {
+      "path": "research_increments/native_calibration_failure_2026-10-13/qualification_design/README_cn.md",
+      "sha256": "93bf58d31ac32bb5ff6cb31f025baef2f3fe59ad3f58abf5a75447555430fc2c",
+      "bytes": 2747,
+      "source": "papers/paperB/research_increments/native_calibration_failure_2026-10-13/qualification_design/README_cn.md"
+    },
+    {
+      "path": "research_increments/native_calibration_failure_2026-10-13/qualification_design/ARCHIVE_VALIDATION.json",
+      "sha256": "4a804a5c46f5bc9e56c1c5d9827ef381ce61247d416501ca998b141132a9f89d",
+      "bytes": 704,
+      "source": "papers/paperB/research_increments/native_calibration_failure_2026-10-13/qualification_design/ARCHIVE_VALIDATION.json"
+    },
+    {
+      "path": "research_increments/native_calibration_failure_2026-10-13/qualification_design/single_parameter_qualification_design.tar.gz",
+      "sha256": "ffc8396642c60161ac4f6f90df29ec08130736c701f24ce68aeaccd0db7f1020",
+      "bytes": 498591,
+      "source": "papers/paperB/research_increments/native_calibration_failure_2026-10-13/qualification_design/single_parameter_qualification_design.tar.gz"
     }
   ],
-  "incremental_baseline_commit": "99421f3daf6c7feca60b834316fd237218050b37",
-  "latest_increment": "scene_methods_expansion_2026-10-13"
+  "incremental_baseline_commit": "46189a6b6bf77ef9b41bf3ca0b56ed4d61157e3a",
+  "latest_increment": "native_calibration_failure_2026-10-13"
 }

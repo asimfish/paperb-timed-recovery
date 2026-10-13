@@ -1,0 +1,33 @@
+{
+  "status": "SOURCE_BYTES_PRESERVED",
+  "files": [
+    {
+      "path": "images/cal_m080_d00--04560.jpg",
+      "source": "/data/liyufeng/paperb_scene_methods_expansion_20261013_v1/cases/cal_m080_d00/task/images/04560.jpg",
+      "sha256": "25644b6385cbae87df4bdde6be1a65641f4df32f45c4b5ed570a206c8ffbd0d4",
+      "source_frame_index": 4560,
+      "scope": "UNEDITED_NATIVE_RGB_CALIBRATION_SNAPSHOT; NOT_VIDEO_OR_NEW_EPISODE"
+    },
+    {
+      "path": "images/cal_m080_d00--06480.jpg",
+      "source": "/data/liyufeng/paperb_scene_methods_expansion_20261013_v1/cases/cal_m080_d00/task/images/06480.jpg",
+      "sha256": "632a395e0d000cd983a851a81cfe08b1a033240e10c1870b35c517bcc22f932b",
+      "source_frame_index": 6480,
+      "scope": "UNEDITED_NATIVE_RGB_CALIBRATION_SNAPSHOT; NOT_VIDEO_OR_NEW_EPISODE"
+    },
+    {
+      "path": "images/cal_m120_d00--04560.jpg",
+      "source": "/data/liyufeng/paperb_scene_methods_expansion_20261013_v1/cases/cal_m120_d00/task/images/04560.jpg",
+      "sha256": "a0374f17f486785c4f3d9e27f0e7f25c48f3af8ead6f395ac926115c6ea0ac9b",
+      "source_frame_index": 4560,
+      "scope": "UNEDITED_NATIVE_RGB_CALIBRATION_SNAPSHOT; NOT_VIDEO_OR_NEW_EPISODE"
+    },
+    {
+      "path": "images/cal_m120_d00--06480.jpg",
+      "source": "/data/liyufeng/paperb_scene_methods_expansion_20261013_v1/cases/cal_m120_d00/task/images/06480.jpg",
+      "sha256": "7a707580ef0c154770c2e2e14ae5d37a2af11702ed4dd25841a204281aa17c5b",
+      "source_frame_index": 6480,
+      "scope": "UNEDITED_NATIVE_RGB_CALIBRATION_SNAPSHOT; NOT_VIDEO_OR_NEW_EPISODE"
+    }
+  ]
+}
