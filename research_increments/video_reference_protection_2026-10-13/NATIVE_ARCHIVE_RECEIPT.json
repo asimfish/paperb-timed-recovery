@@ -1,0 +1,11 @@
+{
+  "archive": "native_execution_v2.tar.gz",
+  "sha256": "de1188978d15791659363aa5cdf80f9fa259fb92f4b64add646f65b10a16528d",
+  "bytes": 114747383,
+  "contains": "all 2160 native attempts, physical/state/control/public logs, root results and independent audit, byte-identical MJCF cache",
+  "source_root": "/tmp/paperb_reference_protection_native_v2",
+  "source_audit_sha256": "4e160061fdb09ea88734ad99eaee6b6d9b7a21214f0ee3c63fc66b62bf162cc7",
+  "source_results_sha256": "7714c6910aa96040c29a7a78079d8d7747a3b8a14b652319855f0e5b0aaa67e0",
+  "private_not_pushed_to_public_repository": true,
+  "new_native_rollouts": 2160
+}

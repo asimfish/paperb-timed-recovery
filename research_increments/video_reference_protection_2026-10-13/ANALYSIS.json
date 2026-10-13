@@ -1,0 +1,396 @@
+{
+  "status": "POST_EXECUTION_ALL_CASE_ANALYSIS",
+  "source_results_sha256": "7714c6910aa96040c29a7a78079d8d7747a3b8a14b652319855f0e5b0aaa67e0",
+  "transition_counts": {
+    "none->drop_first/context_reset": {
+      "FALSE": 46,
+      "TRUE": 14
+    },
+    "none->drop_first/current_attempt_probation": {
+      "FALSE": 46,
+      "TRUE": 14
+    },
+    "none->drop_first/reference_guarded": {
+      "FALSE": 46,
+      "TRUE": 14
+    },
+    "none->drop_first/retained_history": {
+      "FALSE": 46,
+      "TRUE": 14
+    },
+    "none->none/context_reset": {
+      "TRUE": 34,
+      "FALSE": 26
+    },
+    "none->none/current_attempt_probation": {
+      "TRUE": 34,
+      "FALSE": 26
+    },
+    "none->none/reference_guarded": {
+      "TRUE": 34,
+      "FALSE": 26
+    },
+    "none->none/retained_history": {
+      "TRUE": 34,
+      "FALSE": 26
+    },
+    "none->persistent_primary/context_reset": {
+      "FALSE": 51,
+      "TRUE": 9
+    },
+    "none->persistent_primary/current_attempt_probation": {
+      "FALSE": 51,
+      "TRUE": 9
+    },
+    "none->persistent_primary/reference_guarded": {
+      "FALSE": 51,
+      "TRUE": 9
+    },
+    "none->persistent_primary/retained_history": {
+      "FALSE": 51,
+      "TRUE": 9
+    },
+    "drop_first->drop_first/context_reset": {
+      "FALSE": 46,
+      "TRUE": 14
+    },
+    "drop_first->drop_first/current_attempt_probation": {
+      "FALSE": 46,
+      "TRUE": 14
+    },
+    "drop_first->drop_first/reference_guarded": {
+      "FALSE": 43,
+      "TRUE": 17
+    },
+    "drop_first->drop_first/retained_history": {
+      "TRUE": 23,
+      "FALSE": 37
+    },
+    "drop_first->none/context_reset": {
+      "TRUE": 34,
+      "FALSE": 26
+    },
+    "drop_first->none/current_attempt_probation": {
+      "TRUE": 34,
+      "FALSE": 26
+    },
+    "drop_first->none/reference_guarded": {
+      "TRUE": 34,
+      "FALSE": 26
+    },
+    "drop_first->none/retained_history": {
+      "FALSE": 40,
+      "TRUE": 20
+    },
+    "drop_first->persistent_primary/context_reset": {
+      "FALSE": 51,
+      "TRUE": 9
+    },
+    "drop_first->persistent_primary/current_attempt_probation": {
+      "FALSE": 51,
+      "TRUE": 9
+    },
+    "drop_first->persistent_primary/reference_guarded": {
+      "FALSE": 51,
+      "TRUE": 9
+    },
+    "drop_first->persistent_primary/retained_history": {
+      "FALSE": 51,
+      "TRUE": 9
+    },
+    "persistent_primary->drop_first/context_reset": {
+      "FALSE": 46,
+      "TRUE": 14
+    },
+    "persistent_primary->drop_first/current_attempt_probation": {
+      "FALSE": 46,
+      "TRUE": 14
+    },
+    "persistent_primary->drop_first/reference_guarded": {
+      "FALSE": 46,
+      "TRUE": 14
+    },
+    "persistent_primary->drop_first/retained_history": {
+      "FALSE": 46,
+      "TRUE": 14
+    },
+    "persistent_primary->none/context_reset": {
+      "TRUE": 34,
+      "FALSE": 26
+    },
+    "persistent_primary->none/current_attempt_probation": {
+      "TRUE": 34,
+      "FALSE": 26
+    },
+    "persistent_primary->none/reference_guarded": {
+      "TRUE": 34,
+      "FALSE": 26
+    },
+    "persistent_primary->none/retained_history": {
+      "TRUE": 34,
+      "FALSE": 26
+    },
+    "persistent_primary->persistent_primary/context_reset": {
+      "FALSE": 51,
+      "TRUE": 9
+    },
+    "persistent_primary->persistent_primary/current_attempt_probation": {
+      "FALSE": 51,
+      "TRUE": 9
+    },
+    "persistent_primary->persistent_primary/reference_guarded": {
+      "FALSE": 51,
+      "TRUE": 9
+    },
+    "persistent_primary->persistent_primary/retained_history": {
+      "FALSE": 51,
+      "TRUE": 9
+    }
+  },
+  "stable_guard_losses": [
+    {
+      "retained": "c001-drop_first-to-drop_first-retained_history",
+      "guarded": "c001-drop_first-to-drop_first-reference_guarded",
+      "retained_plan": {
+        "form": "A_retry_then_global",
+        "commands": [
+          [
+            80000000,
+            "A",
+            "initial_A"
+          ],
+          [
+            130000000,
+            "A",
+            "retry_A"
+          ],
+          [
+            870000000,
+            "global",
+            "relay"
+          ]
+        ],
+        "fault_support": [
+          "drop_first"
+        ],
+        "source": "delivered public model and prior support; not privileged oracle",
+        "predicted_joint_support": true
+      },
+      "guarded_plan": null,
+      "reference": [
+        [
+          390000000,
+          400000000
+        ],
+        [
+          440000000,
+          450000000
+        ]
+      ]
+    },
+    {
+      "retained": "c004-drop_first-to-drop_first-retained_history",
+      "guarded": "c004-drop_first-to-drop_first-reference_guarded",
+      "retained_plan": {
+        "form": "A_retry_then_global",
+        "commands": [
+          [
+            80000000,
+            "A",
+            "initial_A"
+          ],
+          [
+            130000000,
+            "A",
+            "retry_A"
+          ],
+          [
+            1850000000,
+            "global",
+            "relay"
+          ]
+        ],
+        "fault_support": [
+          "drop_first"
+        ],
+        "source": "delivered public model and prior support; not privileged oracle",
+        "predicted_joint_support": true
+      },
+      "guarded_plan": null,
+      "reference": [
+        [
+          390000000,
+          400000000
+        ],
+        [
+          440000000,
+          450000000
+        ]
+      ]
+    },
+    {
+      "retained": "c079-drop_first-to-drop_first-retained_history",
+      "guarded": "c079-drop_first-to-drop_first-reference_guarded",
+      "retained_plan": {
+        "form": "A_retry_then_global",
+        "commands": [
+          [
+            80000000,
+            "A",
+            "initial_A"
+          ],
+          [
+            130000000,
+            "A",
+            "retry_A"
+          ],
+          [
+            870000000,
+            "global",
+            "relay"
+          ]
+        ],
+        "fault_support": [
+          "drop_first"
+        ],
+        "source": "delivered public model and prior support; not privileged oracle",
+        "predicted_joint_support": true
+      },
+      "guarded_plan": null,
+      "reference": [
+        [
+          520000000,
+          530000000
+        ],
+        [
+          440000000,
+          450000000
+        ]
+      ]
+    },
+    {
+      "retained": "c082-drop_first-to-drop_first-retained_history",
+      "guarded": "c082-drop_first-to-drop_first-reference_guarded",
+      "retained_plan": {
+        "form": "A_retry_then_global",
+        "commands": [
+          [
+            80000000,
+            "A",
+            "initial_A"
+          ],
+          [
+            130000000,
+            "A",
+            "retry_A"
+          ],
+          [
+            1850000000,
+            "global",
+            "relay"
+          ]
+        ],
+        "fault_support": [
+          "drop_first"
+        ],
+        "source": "delivered public model and prior support; not privileged oracle",
+        "predicted_joint_support": true
+      },
+      "guarded_plan": null,
+      "reference": [
+        [
+          520000000,
+          530000000
+        ],
+        [
+          440000000,
+          450000000
+        ]
+      ]
+    },
+    {
+      "retained": "c109-drop_first-to-drop_first-retained_history",
+      "guarded": "c109-drop_first-to-drop_first-reference_guarded",
+      "retained_plan": {
+        "form": "A_retry_then_global",
+        "commands": [
+          [
+            80000000,
+            "A",
+            "initial_A"
+          ],
+          [
+            130000000,
+            "A",
+            "retry_A"
+          ],
+          [
+            870000000,
+            "global",
+            "relay"
+          ]
+        ],
+        "fault_support": [
+          "drop_first"
+        ],
+        "source": "delivered public model and prior support; not privileged oracle",
+        "predicted_joint_support": true
+      },
+      "guarded_plan": null,
+      "reference": [
+        [
+          510000000,
+          520000000
+        ],
+        [
+          440000000,
+          450000000
+        ]
+      ]
+    },
+    {
+      "retained": "c112-drop_first-to-drop_first-retained_history",
+      "guarded": "c112-drop_first-to-drop_first-reference_guarded",
+      "retained_plan": {
+        "form": "A_retry_then_global",
+        "commands": [
+          [
+            80000000,
+            "A",
+            "initial_A"
+          ],
+          [
+            130000000,
+            "A",
+            "retry_A"
+          ],
+          [
+            1850000000,
+            "global",
+            "relay"
+          ]
+        ],
+        "fault_support": [
+          "drop_first"
+        ],
+        "source": "delivered public model and prior support; not privileged oracle",
+        "predicted_joint_support": true
+      },
+      "guarded_plan": null,
+      "reference": [
+        [
+          510000000,
+          520000000
+        ],
+        [
+          440000000,
+          450000000
+        ]
+      ]
+    }
+  ],
+  "probation_matches_reset": true,
+  "same_candidate_hardware_but_guard_and_ranking_rules_explicitly_differ": true,
+  "checkpoint_only": true,
+  "theoretical_optimality_proved": false
+}

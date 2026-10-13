@@ -1,0 +1,1672 @@
+{
+  "status": "PASS_SAME_PHYSICS_AND_CONTROL_IN_PRESERVED_OVERLAP",
+  "partial_dirs": 106,
+  "matched_file_count": 416,
+  "comparisons": [
+    {
+      "path": "c002-persistent_primary-to-persistent_primary-retained_history/independent_samples.csv",
+      "sha256": "ce8765a86d7af42a0fb085fc22eff605c574ab4c8fee2621ea830d08c889ae12"
+    },
+    {
+      "path": "c002-persistent_primary-to-persistent_primary-retained_history/reservations.json",
+      "sha256": "d8745c7adcd9fc0627c9c1b16bbf783bc2f40135fdb68bc1cc781f602386f2e4"
+    },
+    {
+      "path": "c002-persistent_primary-to-persistent_primary-retained_history/public_decisions.json",
+      "sha256": "91ec91b29d82f31a9b5efcff07229b5b1d26a90f3de19cda02ff66bb81350692"
+    },
+    {
+      "path": "c002-persistent_primary-to-persistent_primary-retained_history/private_plant_effects.json",
+      "sha256": "dfda85755b1de988ed8f22c4b68a25ba0371a88f7c81877c719c0afe41e967e8"
+    },
+    {
+      "path": "c001-drop_first-to-none-context_reset/independent_samples.csv",
+      "sha256": "8d1a45108ad4ed7aa031e7be8e396156adac75c9c09c65066cc3d95a21a70c16"
+    },
+    {
+      "path": "c001-drop_first-to-none-context_reset/reservations.json",
+      "sha256": "813a9580fe5c679d69f92bcfe5e2c4607b95750adc8b283a39043847487db6cb"
+    },
+    {
+      "path": "c001-drop_first-to-none-context_reset/public_decisions.json",
+      "sha256": "6359be24a2754224c61bb71ebd2b0c99e72de63f1a07f4192d880765f7af139b"
+    },
+    {
+      "path": "c001-drop_first-to-none-context_reset/private_plant_effects.json",
+      "sha256": "28359d72b73e5a4b83822882a71530bacd06f67a0d3cc5a58800ec7f176525d0"
+    },
+    {
+      "path": "c000-none-to-persistent_primary-reference_guarded/independent_samples.csv",
+      "sha256": "ce8765a86d7af42a0fb085fc22eff605c574ab4c8fee2621ea830d08c889ae12"
+    },
+    {
+      "path": "c000-none-to-persistent_primary-reference_guarded/reservations.json",
+      "sha256": "d8745c7adcd9fc0627c9c1b16bbf783bc2f40135fdb68bc1cc781f602386f2e4"
+    },
+    {
+      "path": "c000-none-to-persistent_primary-reference_guarded/public_decisions.json",
+      "sha256": "e9ec8592067e1b6b7b48185f421c6ab4a253db9bbe4614fd6e151b768af09784"
+    },
+    {
+      "path": "c000-none-to-persistent_primary-reference_guarded/private_plant_effects.json",
+      "sha256": "dfda85755b1de988ed8f22c4b68a25ba0371a88f7c81877c719c0afe41e967e8"
+    },
+    {
+      "path": "c000-none-to-none-reference_guarded/independent_samples.csv",
+      "sha256": "8d1a45108ad4ed7aa031e7be8e396156adac75c9c09c65066cc3d95a21a70c16"
+    },
+    {
+      "path": "c000-none-to-none-reference_guarded/reservations.json",
+      "sha256": "813a9580fe5c679d69f92bcfe5e2c4607b95750adc8b283a39043847487db6cb"
+    },
+    {
+      "path": "c000-none-to-none-reference_guarded/public_decisions.json",
+      "sha256": "53f007d70334809a430bca01e1c9e940e77083bd7dfaeb20cd5e53be0ac525de"
+    },
+    {
+      "path": "c000-none-to-none-reference_guarded/private_plant_effects.json",
+      "sha256": "28359d72b73e5a4b83822882a71530bacd06f67a0d3cc5a58800ec7f176525d0"
+    },
+    {
+      "path": "c005-persistent_primary-to-persistent_primary-context_reset/independent_samples.csv",
+      "sha256": "37ca3bfee68a7e943c5115152800327d81d2e2e28be74c743af439fb703ec056"
+    },
+    {
+      "path": "c005-persistent_primary-to-persistent_primary-context_reset/reservations.json",
+      "sha256": "b3a11a9100ac8aff3edf3568e7957558d595a605c506e7041bd68cd065b0f14c"
+    },
+    {
+      "path": "c005-persistent_primary-to-persistent_primary-context_reset/public_decisions.json",
+      "sha256": "c17419443e0d242b8a22ecbe9877d3bbbad92162d82fcef2d9ff38376e240f0d"
+    },
+    {
+      "path": "c005-persistent_primary-to-persistent_primary-context_reset/private_plant_effects.json",
+      "sha256": "6def4d7b0ad49f67df0df3192958eea5851fc4388b9b65f65bf95efdc07fac8a"
+    },
+    {
+      "path": "c004-drop_first-to-none-reference_guarded/independent_samples.csv",
+      "sha256": "f1103b3f5d94af23be9d1c5ef75f568e4546a6aa8b6c6c73bf6b9282b3a79fae"
+    },
+    {
+      "path": "c004-drop_first-to-none-reference_guarded/reservations.json",
+      "sha256": "34d4d30e7d3e2add129d7f629f4e05191b443b44c0eb26099d6f7d812ac13d82"
+    },
+    {
+      "path": "c004-drop_first-to-none-reference_guarded/public_decisions.json",
+      "sha256": "04992e1fbce1aa7a12d69342c9cec044b56b71550edd980e43780fcf8d40a2d7"
+    },
+    {
+      "path": "c004-drop_first-to-none-reference_guarded/private_plant_effects.json",
+      "sha256": "d2b7e61b85e9d9df2627113a6f30d69c51376c3e9ea6a87a864ea4796c4cb49c"
+    },
+    {
+      "path": "c007-drop_first-to-persistent_primary-context_reset/independent_samples.csv",
+      "sha256": "ce8765a86d7af42a0fb085fc22eff605c574ab4c8fee2621ea830d08c889ae12"
+    },
+    {
+      "path": "c007-drop_first-to-persistent_primary-context_reset/reservations.json",
+      "sha256": "b869bb6db28dbba01a81617e5dac88eae123513410eb19454a9524d31ef09ea1"
+    },
+    {
+      "path": "c007-drop_first-to-persistent_primary-context_reset/public_decisions.json",
+      "sha256": "6563c0e6d7c8b421de784ae461c8b3caa918028e995a4078638143542033a177"
+    },
+    {
+      "path": "c007-drop_first-to-persistent_primary-context_reset/private_plant_effects.json",
+      "sha256": "85f5867c34aa02d390bac5e27de73e6819e40e11f5ce68b925f4b688dc355f16"
+    },
+    {
+      "path": "c005-persistent_primary-to-persistent_primary-current_attempt_probation/independent_samples.csv",
+      "sha256": "37ca3bfee68a7e943c5115152800327d81d2e2e28be74c743af439fb703ec056"
+    },
+    {
+      "path": "c005-persistent_primary-to-persistent_primary-current_attempt_probation/reservations.json",
+      "sha256": "b3a11a9100ac8aff3edf3568e7957558d595a605c506e7041bd68cd065b0f14c"
+    },
+    {
+      "path": "c005-persistent_primary-to-persistent_primary-current_attempt_probation/public_decisions.json",
+      "sha256": "56f79a75b7b004bf616b4f415cd442d472b48a9653a485f5df469b5942829df9"
+    },
+    {
+      "path": "c005-persistent_primary-to-persistent_primary-current_attempt_probation/private_plant_effects.json",
+      "sha256": "6def4d7b0ad49f67df0df3192958eea5851fc4388b9b65f65bf95efdc07fac8a"
+    },
+    {
+      "path": "c001-drop_first-to-persistent_primary-reference_guarded/independent_samples.csv",
+      "sha256": "ce8765a86d7af42a0fb085fc22eff605c574ab4c8fee2621ea830d08c889ae12"
+    },
+    {
+      "path": "c001-drop_first-to-persistent_primary-reference_guarded/reservations.json",
+      "sha256": "d8745c7adcd9fc0627c9c1b16bbf783bc2f40135fdb68bc1cc781f602386f2e4"
+    },
+    {
+      "path": "c001-drop_first-to-persistent_primary-reference_guarded/public_decisions.json",
+      "sha256": "e9ec8592067e1b6b7b48185f421c6ab4a253db9bbe4614fd6e151b768af09784"
+    },
+    {
+      "path": "c001-drop_first-to-persistent_primary-reference_guarded/private_plant_effects.json",
+      "sha256": "dfda85755b1de988ed8f22c4b68a25ba0371a88f7c81877c719c0afe41e967e8"
+    },
+    {
+      "path": "c004-drop_first-to-persistent_primary-retained_history/independent_samples.csv",
+      "sha256": "37ca3bfee68a7e943c5115152800327d81d2e2e28be74c743af439fb703ec056"
+    },
+    {
+      "path": "c004-drop_first-to-persistent_primary-retained_history/reservations.json",
+      "sha256": "4fd4a18b7bebe47837fd5fb4df2a02cd9f26076922ca1e5a8797a56cd49171dc"
+    },
+    {
+      "path": "c004-drop_first-to-persistent_primary-retained_history/public_decisions.json",
+      "sha256": "e484acff9f9c8730396774c7367ab3f2aafc421df184a341ceda58d6a3a7b115"
+    },
+    {
+      "path": "c004-drop_first-to-persistent_primary-retained_history/private_plant_effects.json",
+      "sha256": "876064fe663a0e3509b78addca86a4682763b2c3afb710b51bbe9cbbc3b2762a"
+    },
+    {
+      "path": "c008-persistent_primary-to-none-current_attempt_probation/independent_samples.csv",
+      "sha256": "ce8765a86d7af42a0fb085fc22eff605c574ab4c8fee2621ea830d08c889ae12"
+    },
+    {
+      "path": "c008-persistent_primary-to-none-current_attempt_probation/reservations.json",
+      "sha256": "b869bb6db28dbba01a81617e5dac88eae123513410eb19454a9524d31ef09ea1"
+    },
+    {
+      "path": "c008-persistent_primary-to-none-current_attempt_probation/public_decisions.json",
+      "sha256": "ce1b708ee6c93d277a494d2f69a7a1de7eceefa6c7edcf0820ff6a3f0b8e50e4"
+    },
+    {
+      "path": "c008-persistent_primary-to-none-current_attempt_probation/private_plant_effects.json",
+      "sha256": "85f5867c34aa02d390bac5e27de73e6819e40e11f5ce68b925f4b688dc355f16"
+    },
+    {
+      "path": "c007-drop_first-to-persistent_primary-reference_guarded/independent_samples.csv",
+      "sha256": "ce8765a86d7af42a0fb085fc22eff605c574ab4c8fee2621ea830d08c889ae12"
+    },
+    {
+      "path": "c007-drop_first-to-persistent_primary-reference_guarded/reservations.json",
+      "sha256": "b869bb6db28dbba01a81617e5dac88eae123513410eb19454a9524d31ef09ea1"
+    },
+    {
+      "path": "c007-drop_first-to-persistent_primary-reference_guarded/public_decisions.json",
+      "sha256": "ce1b708ee6c93d277a494d2f69a7a1de7eceefa6c7edcf0820ff6a3f0b8e50e4"
+    },
+    {
+      "path": "c007-drop_first-to-persistent_primary-reference_guarded/private_plant_effects.json",
+      "sha256": "85f5867c34aa02d390bac5e27de73e6819e40e11f5ce68b925f4b688dc355f16"
+    },
+    {
+      "path": "c006-none-to-persistent_primary-current_attempt_probation/independent_samples.csv",
+      "sha256": "ce8765a86d7af42a0fb085fc22eff605c574ab4c8fee2621ea830d08c889ae12"
+    },
+    {
+      "path": "c006-none-to-persistent_primary-current_attempt_probation/reservations.json",
+      "sha256": "b869bb6db28dbba01a81617e5dac88eae123513410eb19454a9524d31ef09ea1"
+    },
+    {
+      "path": "c006-none-to-persistent_primary-current_attempt_probation/public_decisions.json",
+      "sha256": "ce1b708ee6c93d277a494d2f69a7a1de7eceefa6c7edcf0820ff6a3f0b8e50e4"
+    },
+    {
+      "path": "c006-none-to-persistent_primary-current_attempt_probation/private_plant_effects.json",
+      "sha256": "85f5867c34aa02d390bac5e27de73e6819e40e11f5ce68b925f4b688dc355f16"
+    },
+    {
+      "path": "c007-drop_first-to-drop_first-context_reset/independent_samples.csv",
+      "sha256": "ce8765a86d7af42a0fb085fc22eff605c574ab4c8fee2621ea830d08c889ae12"
+    },
+    {
+      "path": "c007-drop_first-to-drop_first-context_reset/reservations.json",
+      "sha256": "b869bb6db28dbba01a81617e5dac88eae123513410eb19454a9524d31ef09ea1"
+    },
+    {
+      "path": "c007-drop_first-to-drop_first-context_reset/public_decisions.json",
+      "sha256": "6563c0e6d7c8b421de784ae461c8b3caa918028e995a4078638143542033a177"
+    },
+    {
+      "path": "c007-drop_first-to-drop_first-context_reset/private_plant_effects.json",
+      "sha256": "85f5867c34aa02d390bac5e27de73e6819e40e11f5ce68b925f4b688dc355f16"
+    },
+    {
+      "path": "c006-none-to-none-current_attempt_probation/independent_samples.csv",
+      "sha256": "ce8765a86d7af42a0fb085fc22eff605c574ab4c8fee2621ea830d08c889ae12"
+    },
+    {
+      "path": "c006-none-to-none-current_attempt_probation/reservations.json",
+      "sha256": "b869bb6db28dbba01a81617e5dac88eae123513410eb19454a9524d31ef09ea1"
+    },
+    {
+      "path": "c006-none-to-none-current_attempt_probation/public_decisions.json",
+      "sha256": "ce1b708ee6c93d277a494d2f69a7a1de7eceefa6c7edcf0820ff6a3f0b8e50e4"
+    },
+    {
+      "path": "c006-none-to-none-current_attempt_probation/private_plant_effects.json",
+      "sha256": "85f5867c34aa02d390bac5e27de73e6819e40e11f5ce68b925f4b688dc355f16"
+    },
+    {
+      "path": "c004-drop_first-to-persistent_primary-reference_guarded/independent_samples.csv",
+      "sha256": "37ca3bfee68a7e943c5115152800327d81d2e2e28be74c743af439fb703ec056"
+    },
+    {
+      "path": "c004-drop_first-to-persistent_primary-reference_guarded/reservations.json",
+      "sha256": "b3a11a9100ac8aff3edf3568e7957558d595a605c506e7041bd68cd065b0f14c"
+    },
+    {
+      "path": "c004-drop_first-to-persistent_primary-reference_guarded/public_decisions.json",
+      "sha256": "56f79a75b7b004bf616b4f415cd442d472b48a9653a485f5df469b5942829df9"
+    },
+    {
+      "path": "c004-drop_first-to-persistent_primary-reference_guarded/private_plant_effects.json",
+      "sha256": "6def4d7b0ad49f67df0df3192958eea5851fc4388b9b65f65bf95efdc07fac8a"
+    },
+    {
+      "path": "c003-none-to-drop_first-current_attempt_probation/independent_samples.csv",
+      "sha256": "37ca3bfee68a7e943c5115152800327d81d2e2e28be74c743af439fb703ec056"
+    },
+    {
+      "path": "c003-none-to-drop_first-current_attempt_probation/reservations.json",
+      "sha256": "b3a11a9100ac8aff3edf3568e7957558d595a605c506e7041bd68cd065b0f14c"
+    },
+    {
+      "path": "c003-none-to-drop_first-current_attempt_probation/public_decisions.json",
+      "sha256": "56f79a75b7b004bf616b4f415cd442d472b48a9653a485f5df469b5942829df9"
+    },
+    {
+      "path": "c003-none-to-drop_first-current_attempt_probation/private_plant_effects.json",
+      "sha256": "6def4d7b0ad49f67df0df3192958eea5851fc4388b9b65f65bf95efdc07fac8a"
+    },
+    {
+      "path": "c008-persistent_primary-to-drop_first-reference_guarded/independent_samples.csv",
+      "sha256": "ce8765a86d7af42a0fb085fc22eff605c574ab4c8fee2621ea830d08c889ae12"
+    },
+    {
+      "path": "c008-persistent_primary-to-drop_first-reference_guarded/reservations.json",
+      "sha256": "b869bb6db28dbba01a81617e5dac88eae123513410eb19454a9524d31ef09ea1"
+    },
+    {
+      "path": "c008-persistent_primary-to-drop_first-reference_guarded/public_decisions.json",
+      "sha256": "ce1b708ee6c93d277a494d2f69a7a1de7eceefa6c7edcf0820ff6a3f0b8e50e4"
+    },
+    {
+      "path": "c008-persistent_primary-to-drop_first-reference_guarded/private_plant_effects.json",
+      "sha256": "85f5867c34aa02d390bac5e27de73e6819e40e11f5ce68b925f4b688dc355f16"
+    },
+    {
+      "path": "c003-none-to-drop_first-context_reset/independent_samples.csv",
+      "sha256": "37ca3bfee68a7e943c5115152800327d81d2e2e28be74c743af439fb703ec056"
+    },
+    {
+      "path": "c003-none-to-drop_first-context_reset/reservations.json",
+      "sha256": "b3a11a9100ac8aff3edf3568e7957558d595a605c506e7041bd68cd065b0f14c"
+    },
+    {
+      "path": "c003-none-to-drop_first-context_reset/public_decisions.json",
+      "sha256": "c17419443e0d242b8a22ecbe9877d3bbbad92162d82fcef2d9ff38376e240f0d"
+    },
+    {
+      "path": "c003-none-to-drop_first-context_reset/private_plant_effects.json",
+      "sha256": "6def4d7b0ad49f67df0df3192958eea5851fc4388b9b65f65bf95efdc07fac8a"
+    },
+    {
+      "path": "c006-none-to-none-retained_history/independent_samples.csv",
+      "sha256": "ce8765a86d7af42a0fb085fc22eff605c574ab4c8fee2621ea830d08c889ae12"
+    },
+    {
+      "path": "c006-none-to-none-retained_history/reservations.json",
+      "sha256": "b869bb6db28dbba01a81617e5dac88eae123513410eb19454a9524d31ef09ea1"
+    },
+    {
+      "path": "c006-none-to-none-retained_history/public_decisions.json",
+      "sha256": "6563c0e6d7c8b421de784ae461c8b3caa918028e995a4078638143542033a177"
+    },
+    {
+      "path": "c006-none-to-none-retained_history/private_plant_effects.json",
+      "sha256": "85f5867c34aa02d390bac5e27de73e6819e40e11f5ce68b925f4b688dc355f16"
+    },
+    {
+      "path": "c002-persistent_primary-to-none-retained_history/independent_samples.csv",
+      "sha256": "8d1a45108ad4ed7aa031e7be8e396156adac75c9c09c65066cc3d95a21a70c16"
+    },
+    {
+      "path": "c002-persistent_primary-to-none-retained_history/reservations.json",
+      "sha256": "813a9580fe5c679d69f92bcfe5e2c4607b95750adc8b283a39043847487db6cb"
+    },
+    {
+      "path": "c002-persistent_primary-to-none-retained_history/public_decisions.json",
+      "sha256": "6359be24a2754224c61bb71ebd2b0c99e72de63f1a07f4192d880765f7af139b"
+    },
+    {
+      "path": "c002-persistent_primary-to-none-retained_history/private_plant_effects.json",
+      "sha256": "28359d72b73e5a4b83822882a71530bacd06f67a0d3cc5a58800ec7f176525d0"
+    },
+    {
+      "path": "c002-persistent_primary-to-drop_first-retained_history/independent_samples.csv",
+      "sha256": "ce8765a86d7af42a0fb085fc22eff605c574ab4c8fee2621ea830d08c889ae12"
+    },
+    {
+      "path": "c002-persistent_primary-to-drop_first-retained_history/reservations.json",
+      "sha256": "d8745c7adcd9fc0627c9c1b16bbf783bc2f40135fdb68bc1cc781f602386f2e4"
+    },
+    {
+      "path": "c002-persistent_primary-to-drop_first-retained_history/public_decisions.json",
+      "sha256": "91ec91b29d82f31a9b5efcff07229b5b1d26a90f3de19cda02ff66bb81350692"
+    },
+    {
+      "path": "c002-persistent_primary-to-drop_first-retained_history/private_plant_effects.json",
+      "sha256": "dfda85755b1de988ed8f22c4b68a25ba0371a88f7c81877c719c0afe41e967e8"
+    },
+    {
+      "path": "c006-none-to-persistent_primary-retained_history/independent_samples.csv",
+      "sha256": "ce8765a86d7af42a0fb085fc22eff605c574ab4c8fee2621ea830d08c889ae12"
+    },
+    {
+      "path": "c006-none-to-persistent_primary-retained_history/reservations.json",
+      "sha256": "b869bb6db28dbba01a81617e5dac88eae123513410eb19454a9524d31ef09ea1"
+    },
+    {
+      "path": "c006-none-to-persistent_primary-retained_history/public_decisions.json",
+      "sha256": "6563c0e6d7c8b421de784ae461c8b3caa918028e995a4078638143542033a177"
+    },
+    {
+      "path": "c006-none-to-persistent_primary-retained_history/private_plant_effects.json",
+      "sha256": "85f5867c34aa02d390bac5e27de73e6819e40e11f5ce68b925f4b688dc355f16"
+    },
+    {
+      "path": "c006-none-to-persistent_primary-context_reset/independent_samples.csv",
+      "sha256": "ce8765a86d7af42a0fb085fc22eff605c574ab4c8fee2621ea830d08c889ae12"
+    },
+    {
+      "path": "c006-none-to-persistent_primary-context_reset/reservations.json",
+      "sha256": "b869bb6db28dbba01a81617e5dac88eae123513410eb19454a9524d31ef09ea1"
+    },
+    {
+      "path": "c006-none-to-persistent_primary-context_reset/public_decisions.json",
+      "sha256": "6563c0e6d7c8b421de784ae461c8b3caa918028e995a4078638143542033a177"
+    },
+    {
+      "path": "c006-none-to-persistent_primary-context_reset/private_plant_effects.json",
+      "sha256": "85f5867c34aa02d390bac5e27de73e6819e40e11f5ce68b925f4b688dc355f16"
+    },
+    {
+      "path": "c005-persistent_primary-to-drop_first-current_attempt_probation/independent_samples.csv",
+      "sha256": "37ca3bfee68a7e943c5115152800327d81d2e2e28be74c743af439fb703ec056"
+    },
+    {
+      "path": "c005-persistent_primary-to-drop_first-current_attempt_probation/reservations.json",
+      "sha256": "b3a11a9100ac8aff3edf3568e7957558d595a605c506e7041bd68cd065b0f14c"
+    },
+    {
+      "path": "c005-persistent_primary-to-drop_first-current_attempt_probation/public_decisions.json",
+      "sha256": "56f79a75b7b004bf616b4f415cd442d472b48a9653a485f5df469b5942829df9"
+    },
+    {
+      "path": "c005-persistent_primary-to-drop_first-current_attempt_probation/private_plant_effects.json",
+      "sha256": "6def4d7b0ad49f67df0df3192958eea5851fc4388b9b65f65bf95efdc07fac8a"
+    },
+    {
+      "path": "c005-persistent_primary-to-drop_first-reference_guarded/independent_samples.csv",
+      "sha256": "37ca3bfee68a7e943c5115152800327d81d2e2e28be74c743af439fb703ec056"
+    },
+    {
+      "path": "c005-persistent_primary-to-drop_first-reference_guarded/reservations.json",
+      "sha256": "b3a11a9100ac8aff3edf3568e7957558d595a605c506e7041bd68cd065b0f14c"
+    },
+    {
+      "path": "c005-persistent_primary-to-drop_first-reference_guarded/public_decisions.json",
+      "sha256": "56f79a75b7b004bf616b4f415cd442d472b48a9653a485f5df469b5942829df9"
+    },
+    {
+      "path": "c005-persistent_primary-to-drop_first-reference_guarded/private_plant_effects.json",
+      "sha256": "6def4d7b0ad49f67df0df3192958eea5851fc4388b9b65f65bf95efdc07fac8a"
+    },
+    {
+      "path": "c000-none-to-persistent_primary-retained_history/independent_samples.csv",
+      "sha256": "ce8765a86d7af42a0fb085fc22eff605c574ab4c8fee2621ea830d08c889ae12"
+    },
+    {
+      "path": "c000-none-to-persistent_primary-retained_history/reservations.json",
+      "sha256": "d8745c7adcd9fc0627c9c1b16bbf783bc2f40135fdb68bc1cc781f602386f2e4"
+    },
+    {
+      "path": "c000-none-to-persistent_primary-retained_history/public_decisions.json",
+      "sha256": "91ec91b29d82f31a9b5efcff07229b5b1d26a90f3de19cda02ff66bb81350692"
+    },
+    {
+      "path": "c000-none-to-persistent_primary-retained_history/private_plant_effects.json",
+      "sha256": "dfda85755b1de988ed8f22c4b68a25ba0371a88f7c81877c719c0afe41e967e8"
+    },
+    {
+      "path": "c006-none-to-drop_first-retained_history/independent_samples.csv",
+      "sha256": "ce8765a86d7af42a0fb085fc22eff605c574ab4c8fee2621ea830d08c889ae12"
+    },
+    {
+      "path": "c006-none-to-drop_first-retained_history/reservations.json",
+      "sha256": "b869bb6db28dbba01a81617e5dac88eae123513410eb19454a9524d31ef09ea1"
+    },
+    {
+      "path": "c006-none-to-drop_first-retained_history/public_decisions.json",
+      "sha256": "6563c0e6d7c8b421de784ae461c8b3caa918028e995a4078638143542033a177"
+    },
+    {
+      "path": "c006-none-to-drop_first-retained_history/private_plant_effects.json",
+      "sha256": "85f5867c34aa02d390bac5e27de73e6819e40e11f5ce68b925f4b688dc355f16"
+    },
+    {
+      "path": "c002-persistent_primary-to-drop_first-reference_guarded/independent_samples.csv",
+      "sha256": "ce8765a86d7af42a0fb085fc22eff605c574ab4c8fee2621ea830d08c889ae12"
+    },
+    {
+      "path": "c002-persistent_primary-to-drop_first-reference_guarded/reservations.json",
+      "sha256": "d8745c7adcd9fc0627c9c1b16bbf783bc2f40135fdb68bc1cc781f602386f2e4"
+    },
+    {
+      "path": "c002-persistent_primary-to-drop_first-reference_guarded/public_decisions.json",
+      "sha256": "e9ec8592067e1b6b7b48185f421c6ab4a253db9bbe4614fd6e151b768af09784"
+    },
+    {
+      "path": "c002-persistent_primary-to-drop_first-reference_guarded/private_plant_effects.json",
+      "sha256": "dfda85755b1de988ed8f22c4b68a25ba0371a88f7c81877c719c0afe41e967e8"
+    },
+    {
+      "path": "c007-drop_first-to-persistent_primary-retained_history/independent_samples.csv",
+      "sha256": "ce8765a86d7af42a0fb085fc22eff605c574ab4c8fee2621ea830d08c889ae12"
+    },
+    {
+      "path": "c007-drop_first-to-persistent_primary-retained_history/reservations.json",
+      "sha256": "3d87806afd2f9198b02433ac2d8260444431bfbe5504f4bf109df6141879efcc"
+    },
+    {
+      "path": "c007-drop_first-to-persistent_primary-retained_history/public_decisions.json",
+      "sha256": "e484acff9f9c8730396774c7367ab3f2aafc421df184a341ceda58d6a3a7b115"
+    },
+    {
+      "path": "c007-drop_first-to-persistent_primary-retained_history/private_plant_effects.json",
+      "sha256": "ace3567c47418372226197bbdb879860cac6dbb969deea0fe7ee689f96f48160"
+    },
+    {
+      "path": "c006-none-to-none-context_reset/independent_samples.csv",
+      "sha256": "ce8765a86d7af42a0fb085fc22eff605c574ab4c8fee2621ea830d08c889ae12"
+    },
+    {
+      "path": "c006-none-to-none-context_reset/reservations.json",
+      "sha256": "b869bb6db28dbba01a81617e5dac88eae123513410eb19454a9524d31ef09ea1"
+    },
+    {
+      "path": "c006-none-to-none-context_reset/public_decisions.json",
+      "sha256": "6563c0e6d7c8b421de784ae461c8b3caa918028e995a4078638143542033a177"
+    },
+    {
+      "path": "c006-none-to-none-context_reset/private_plant_effects.json",
+      "sha256": "85f5867c34aa02d390bac5e27de73e6819e40e11f5ce68b925f4b688dc355f16"
+    },
+    {
+      "path": "c002-persistent_primary-to-persistent_primary-current_attempt_probation/independent_samples.csv",
+      "sha256": "ce8765a86d7af42a0fb085fc22eff605c574ab4c8fee2621ea830d08c889ae12"
+    },
+    {
+      "path": "c002-persistent_primary-to-persistent_primary-current_attempt_probation/reservations.json",
+      "sha256": "d8745c7adcd9fc0627c9c1b16bbf783bc2f40135fdb68bc1cc781f602386f2e4"
+    },
+    {
+      "path": "c002-persistent_primary-to-persistent_primary-current_attempt_probation/public_decisions.json",
+      "sha256": "e9ec8592067e1b6b7b48185f421c6ab4a253db9bbe4614fd6e151b768af09784"
+    },
+    {
+      "path": "c002-persistent_primary-to-persistent_primary-current_attempt_probation/private_plant_effects.json",
+      "sha256": "dfda85755b1de988ed8f22c4b68a25ba0371a88f7c81877c719c0afe41e967e8"
+    },
+    {
+      "path": "c000-none-to-none-retained_history/independent_samples.csv",
+      "sha256": "8d1a45108ad4ed7aa031e7be8e396156adac75c9c09c65066cc3d95a21a70c16"
+    },
+    {
+      "path": "c000-none-to-none-retained_history/reservations.json",
+      "sha256": "813a9580fe5c679d69f92bcfe5e2c4607b95750adc8b283a39043847487db6cb"
+    },
+    {
+      "path": "c000-none-to-none-retained_history/public_decisions.json",
+      "sha256": "6359be24a2754224c61bb71ebd2b0c99e72de63f1a07f4192d880765f7af139b"
+    },
+    {
+      "path": "c000-none-to-none-retained_history/private_plant_effects.json",
+      "sha256": "28359d72b73e5a4b83822882a71530bacd06f67a0d3cc5a58800ec7f176525d0"
+    },
+    {
+      "path": "c001-drop_first-to-none-current_attempt_probation/independent_samples.csv",
+      "sha256": "8d1a45108ad4ed7aa031e7be8e396156adac75c9c09c65066cc3d95a21a70c16"
+    },
+    {
+      "path": "c001-drop_first-to-none-current_attempt_probation/reservations.json",
+      "sha256": "813a9580fe5c679d69f92bcfe5e2c4607b95750adc8b283a39043847487db6cb"
+    },
+    {
+      "path": "c001-drop_first-to-none-current_attempt_probation/public_decisions.json",
+      "sha256": "53f007d70334809a430bca01e1c9e940e77083bd7dfaeb20cd5e53be0ac525de"
+    },
+    {
+      "path": "c001-drop_first-to-none-current_attempt_probation/private_plant_effects.json",
+      "sha256": "28359d72b73e5a4b83822882a71530bacd06f67a0d3cc5a58800ec7f176525d0"
+    },
+    {
+      "path": "c002-persistent_primary-to-persistent_primary-context_reset/independent_samples.csv",
+      "sha256": "ce8765a86d7af42a0fb085fc22eff605c574ab4c8fee2621ea830d08c889ae12"
+    },
+    {
+      "path": "c002-persistent_primary-to-persistent_primary-context_reset/reservations.json",
+      "sha256": "d8745c7adcd9fc0627c9c1b16bbf783bc2f40135fdb68bc1cc781f602386f2e4"
+    },
+    {
+      "path": "c002-persistent_primary-to-persistent_primary-context_reset/public_decisions.json",
+      "sha256": "91ec91b29d82f31a9b5efcff07229b5b1d26a90f3de19cda02ff66bb81350692"
+    },
+    {
+      "path": "c002-persistent_primary-to-persistent_primary-context_reset/private_plant_effects.json",
+      "sha256": "dfda85755b1de988ed8f22c4b68a25ba0371a88f7c81877c719c0afe41e967e8"
+    },
+    {
+      "path": "c008-persistent_primary-to-none-retained_history/independent_samples.csv",
+      "sha256": "ce8765a86d7af42a0fb085fc22eff605c574ab4c8fee2621ea830d08c889ae12"
+    },
+    {
+      "path": "c008-persistent_primary-to-none-retained_history/reservations.json",
+      "sha256": "b869bb6db28dbba01a81617e5dac88eae123513410eb19454a9524d31ef09ea1"
+    },
+    {
+      "path": "c008-persistent_primary-to-none-retained_history/public_decisions.json",
+      "sha256": "6563c0e6d7c8b421de784ae461c8b3caa918028e995a4078638143542033a177"
+    },
+    {
+      "path": "c008-persistent_primary-to-none-retained_history/private_plant_effects.json",
+      "sha256": "85f5867c34aa02d390bac5e27de73e6819e40e11f5ce68b925f4b688dc355f16"
+    },
+    {
+      "path": "c001-drop_first-to-persistent_primary-current_attempt_probation/independent_samples.csv",
+      "sha256": "ce8765a86d7af42a0fb085fc22eff605c574ab4c8fee2621ea830d08c889ae12"
+    },
+    {
+      "path": "c001-drop_first-to-persistent_primary-current_attempt_probation/reservations.json",
+      "sha256": "d8745c7adcd9fc0627c9c1b16bbf783bc2f40135fdb68bc1cc781f602386f2e4"
+    },
+    {
+      "path": "c001-drop_first-to-persistent_primary-current_attempt_probation/public_decisions.json",
+      "sha256": "e9ec8592067e1b6b7b48185f421c6ab4a253db9bbe4614fd6e151b768af09784"
+    },
+    {
+      "path": "c001-drop_first-to-persistent_primary-current_attempt_probation/private_plant_effects.json",
+      "sha256": "dfda85755b1de988ed8f22c4b68a25ba0371a88f7c81877c719c0afe41e967e8"
+    },
+    {
+      "path": "c004-drop_first-to-persistent_primary-current_attempt_probation/independent_samples.csv",
+      "sha256": "37ca3bfee68a7e943c5115152800327d81d2e2e28be74c743af439fb703ec056"
+    },
+    {
+      "path": "c004-drop_first-to-persistent_primary-current_attempt_probation/reservations.json",
+      "sha256": "b3a11a9100ac8aff3edf3568e7957558d595a605c506e7041bd68cd065b0f14c"
+    },
+    {
+      "path": "c004-drop_first-to-persistent_primary-current_attempt_probation/public_decisions.json",
+      "sha256": "56f79a75b7b004bf616b4f415cd442d472b48a9653a485f5df469b5942829df9"
+    },
+    {
+      "path": "c004-drop_first-to-persistent_primary-current_attempt_probation/private_plant_effects.json",
+      "sha256": "6def4d7b0ad49f67df0df3192958eea5851fc4388b9b65f65bf95efdc07fac8a"
+    },
+    {
+      "path": "c004-drop_first-to-persistent_primary-context_reset/independent_samples.csv",
+      "sha256": "37ca3bfee68a7e943c5115152800327d81d2e2e28be74c743af439fb703ec056"
+    },
+    {
+      "path": "c004-drop_first-to-persistent_primary-context_reset/reservations.json",
+      "sha256": "b3a11a9100ac8aff3edf3568e7957558d595a605c506e7041bd68cd065b0f14c"
+    },
+    {
+      "path": "c004-drop_first-to-persistent_primary-context_reset/public_decisions.json",
+      "sha256": "c17419443e0d242b8a22ecbe9877d3bbbad92162d82fcef2d9ff38376e240f0d"
+    },
+    {
+      "path": "c004-drop_first-to-persistent_primary-context_reset/private_plant_effects.json",
+      "sha256": "6def4d7b0ad49f67df0df3192958eea5851fc4388b9b65f65bf95efdc07fac8a"
+    },
+    {
+      "path": "c003-none-to-none-current_attempt_probation/independent_samples.csv",
+      "sha256": "f1103b3f5d94af23be9d1c5ef75f568e4546a6aa8b6c6c73bf6b9282b3a79fae"
+    },
+    {
+      "path": "c003-none-to-none-current_attempt_probation/reservations.json",
+      "sha256": "34d4d30e7d3e2add129d7f629f4e05191b443b44c0eb26099d6f7d812ac13d82"
+    },
+    {
+      "path": "c003-none-to-none-current_attempt_probation/public_decisions.json",
+      "sha256": "04992e1fbce1aa7a12d69342c9cec044b56b71550edd980e43780fcf8d40a2d7"
+    },
+    {
+      "path": "c003-none-to-none-current_attempt_probation/private_plant_effects.json",
+      "sha256": "d2b7e61b85e9d9df2627113a6f30d69c51376c3e9ea6a87a864ea4796c4cb49c"
+    },
+    {
+      "path": "c000-none-to-persistent_primary-current_attempt_probation/independent_samples.csv",
+      "sha256": "ce8765a86d7af42a0fb085fc22eff605c574ab4c8fee2621ea830d08c889ae12"
+    },
+    {
+      "path": "c000-none-to-persistent_primary-current_attempt_probation/reservations.json",
+      "sha256": "d8745c7adcd9fc0627c9c1b16bbf783bc2f40135fdb68bc1cc781f602386f2e4"
+    },
+    {
+      "path": "c000-none-to-persistent_primary-current_attempt_probation/public_decisions.json",
+      "sha256": "e9ec8592067e1b6b7b48185f421c6ab4a253db9bbe4614fd6e151b768af09784"
+    },
+    {
+      "path": "c000-none-to-persistent_primary-current_attempt_probation/private_plant_effects.json",
+      "sha256": "dfda85755b1de988ed8f22c4b68a25ba0371a88f7c81877c719c0afe41e967e8"
+    },
+    {
+      "path": "c004-drop_first-to-none-current_attempt_probation/independent_samples.csv",
+      "sha256": "f1103b3f5d94af23be9d1c5ef75f568e4546a6aa8b6c6c73bf6b9282b3a79fae"
+    },
+    {
+      "path": "c004-drop_first-to-none-current_attempt_probation/reservations.json",
+      "sha256": "34d4d30e7d3e2add129d7f629f4e05191b443b44c0eb26099d6f7d812ac13d82"
+    },
+    {
+      "path": "c004-drop_first-to-none-current_attempt_probation/public_decisions.json",
+      "sha256": "04992e1fbce1aa7a12d69342c9cec044b56b71550edd980e43780fcf8d40a2d7"
+    },
+    {
+      "path": "c004-drop_first-to-none-current_attempt_probation/private_plant_effects.json",
+      "sha256": "d2b7e61b85e9d9df2627113a6f30d69c51376c3e9ea6a87a864ea4796c4cb49c"
+    },
+    {
+      "path": "c002-persistent_primary-to-none-context_reset/independent_samples.csv",
+      "sha256": "8d1a45108ad4ed7aa031e7be8e396156adac75c9c09c65066cc3d95a21a70c16"
+    },
+    {
+      "path": "c002-persistent_primary-to-none-context_reset/reservations.json",
+      "sha256": "813a9580fe5c679d69f92bcfe5e2c4607b95750adc8b283a39043847487db6cb"
+    },
+    {
+      "path": "c002-persistent_primary-to-none-context_reset/public_decisions.json",
+      "sha256": "6359be24a2754224c61bb71ebd2b0c99e72de63f1a07f4192d880765f7af139b"
+    },
+    {
+      "path": "c002-persistent_primary-to-none-context_reset/private_plant_effects.json",
+      "sha256": "28359d72b73e5a4b83822882a71530bacd06f67a0d3cc5a58800ec7f176525d0"
+    },
+    {
+      "path": "c004-drop_first-to-drop_first-retained_history/independent_samples.csv",
+      "sha256": "eb867d4a31bdf7393129a960b78d2514cf076fc1eaac3d64a0a231db2450901f"
+    },
+    {
+      "path": "c004-drop_first-to-drop_first-retained_history/reservations.json",
+      "sha256": "4fd4a18b7bebe47837fd5fb4df2a02cd9f26076922ca1e5a8797a56cd49171dc"
+    },
+    {
+      "path": "c004-drop_first-to-drop_first-retained_history/public_decisions.json",
+      "sha256": "e484acff9f9c8730396774c7367ab3f2aafc421df184a341ceda58d6a3a7b115"
+    },
+    {
+      "path": "c004-drop_first-to-drop_first-retained_history/private_plant_effects.json",
+      "sha256": "388984260f59e5b76a9c7532afa98bd1346cf0e31fc442a1cc36b55758afa11e"
+    },
+    {
+      "path": "c003-none-to-persistent_primary-context_reset/independent_samples.csv",
+      "sha256": "37ca3bfee68a7e943c5115152800327d81d2e2e28be74c743af439fb703ec056"
+    },
+    {
+      "path": "c003-none-to-persistent_primary-context_reset/reservations.json",
+      "sha256": "b3a11a9100ac8aff3edf3568e7957558d595a605c506e7041bd68cd065b0f14c"
+    },
+    {
+      "path": "c003-none-to-persistent_primary-context_reset/public_decisions.json",
+      "sha256": "c17419443e0d242b8a22ecbe9877d3bbbad92162d82fcef2d9ff38376e240f0d"
+    },
+    {
+      "path": "c003-none-to-persistent_primary-context_reset/private_plant_effects.json",
+      "sha256": "6def4d7b0ad49f67df0df3192958eea5851fc4388b9b65f65bf95efdc07fac8a"
+    },
+    {
+      "path": "c004-drop_first-to-none-context_reset/independent_samples.csv",
+      "sha256": "f1103b3f5d94af23be9d1c5ef75f568e4546a6aa8b6c6c73bf6b9282b3a79fae"
+    },
+    {
+      "path": "c004-drop_first-to-none-context_reset/reservations.json",
+      "sha256": "34d4d30e7d3e2add129d7f629f4e05191b443b44c0eb26099d6f7d812ac13d82"
+    },
+    {
+      "path": "c004-drop_first-to-none-context_reset/public_decisions.json",
+      "sha256": "2713e7f6f8a4024096b8699f06026b0afb6749aa016a5551c64366709085ddec"
+    },
+    {
+      "path": "c004-drop_first-to-none-context_reset/private_plant_effects.json",
+      "sha256": "d2b7e61b85e9d9df2627113a6f30d69c51376c3e9ea6a87a864ea4796c4cb49c"
+    },
+    {
+      "path": "c002-persistent_primary-to-drop_first-context_reset/independent_samples.csv",
+      "sha256": "ce8765a86d7af42a0fb085fc22eff605c574ab4c8fee2621ea830d08c889ae12"
+    },
+    {
+      "path": "c002-persistent_primary-to-drop_first-context_reset/reservations.json",
+      "sha256": "d8745c7adcd9fc0627c9c1b16bbf783bc2f40135fdb68bc1cc781f602386f2e4"
+    },
+    {
+      "path": "c002-persistent_primary-to-drop_first-context_reset/public_decisions.json",
+      "sha256": "91ec91b29d82f31a9b5efcff07229b5b1d26a90f3de19cda02ff66bb81350692"
+    },
+    {
+      "path": "c002-persistent_primary-to-drop_first-context_reset/private_plant_effects.json",
+      "sha256": "dfda85755b1de988ed8f22c4b68a25ba0371a88f7c81877c719c0afe41e967e8"
+    },
+    {
+      "path": "c003-none-to-drop_first-retained_history/independent_samples.csv",
+      "sha256": "37ca3bfee68a7e943c5115152800327d81d2e2e28be74c743af439fb703ec056"
+    },
+    {
+      "path": "c003-none-to-drop_first-retained_history/reservations.json",
+      "sha256": "b3a11a9100ac8aff3edf3568e7957558d595a605c506e7041bd68cd065b0f14c"
+    },
+    {
+      "path": "c003-none-to-drop_first-retained_history/public_decisions.json",
+      "sha256": "c17419443e0d242b8a22ecbe9877d3bbbad92162d82fcef2d9ff38376e240f0d"
+    },
+    {
+      "path": "c003-none-to-drop_first-retained_history/private_plant_effects.json",
+      "sha256": "6def4d7b0ad49f67df0df3192958eea5851fc4388b9b65f65bf95efdc07fac8a"
+    },
+    {
+      "path": "c008-persistent_primary-to-drop_first-context_reset/independent_samples.csv",
+      "sha256": "ce8765a86d7af42a0fb085fc22eff605c574ab4c8fee2621ea830d08c889ae12"
+    },
+    {
+      "path": "c008-persistent_primary-to-drop_first-context_reset/reservations.json",
+      "sha256": "b869bb6db28dbba01a81617e5dac88eae123513410eb19454a9524d31ef09ea1"
+    },
+    {
+      "path": "c008-persistent_primary-to-drop_first-context_reset/public_decisions.json",
+      "sha256": "6563c0e6d7c8b421de784ae461c8b3caa918028e995a4078638143542033a177"
+    },
+    {
+      "path": "c008-persistent_primary-to-drop_first-context_reset/private_plant_effects.json",
+      "sha256": "85f5867c34aa02d390bac5e27de73e6819e40e11f5ce68b925f4b688dc355f16"
+    },
+    {
+      "path": "c007-drop_first-to-none-retained_history/independent_samples.csv",
+      "sha256": "e79ef92bcf6d011b44201b1141b61735ef7c9de31d96ab540ba76f8097d16b41"
+    },
+    {
+      "path": "c007-drop_first-to-none-retained_history/reservations.json",
+      "sha256": "3d87806afd2f9198b02433ac2d8260444431bfbe5504f4bf109df6141879efcc"
+    },
+    {
+      "path": "c007-drop_first-to-none-retained_history/public_decisions.json",
+      "sha256": "e484acff9f9c8730396774c7367ab3f2aafc421df184a341ceda58d6a3a7b115"
+    },
+    {
+      "path": "c007-drop_first-to-none-retained_history/private_plant_effects.json",
+      "sha256": "82afe5219e4ccad7e4df9bed92c989d135541f50e729be3d602ba260a11386cf"
+    },
+    {
+      "path": "c002-persistent_primary-to-drop_first-current_attempt_probation/independent_samples.csv",
+      "sha256": "ce8765a86d7af42a0fb085fc22eff605c574ab4c8fee2621ea830d08c889ae12"
+    },
+    {
+      "path": "c002-persistent_primary-to-drop_first-current_attempt_probation/reservations.json",
+      "sha256": "d8745c7adcd9fc0627c9c1b16bbf783bc2f40135fdb68bc1cc781f602386f2e4"
+    },
+    {
+      "path": "c002-persistent_primary-to-drop_first-current_attempt_probation/public_decisions.json",
+      "sha256": "e9ec8592067e1b6b7b48185f421c6ab4a253db9bbe4614fd6e151b768af09784"
+    },
+    {
+      "path": "c002-persistent_primary-to-drop_first-current_attempt_probation/private_plant_effects.json",
+      "sha256": "dfda85755b1de988ed8f22c4b68a25ba0371a88f7c81877c719c0afe41e967e8"
+    },
+    {
+      "path": "c005-persistent_primary-to-none-retained_history/independent_samples.csv",
+      "sha256": "f1103b3f5d94af23be9d1c5ef75f568e4546a6aa8b6c6c73bf6b9282b3a79fae"
+    },
+    {
+      "path": "c005-persistent_primary-to-none-retained_history/reservations.json",
+      "sha256": "34d4d30e7d3e2add129d7f629f4e05191b443b44c0eb26099d6f7d812ac13d82"
+    },
+    {
+      "path": "c005-persistent_primary-to-none-retained_history/public_decisions.json",
+      "sha256": "2713e7f6f8a4024096b8699f06026b0afb6749aa016a5551c64366709085ddec"
+    },
+    {
+      "path": "c005-persistent_primary-to-none-retained_history/private_plant_effects.json",
+      "sha256": "d2b7e61b85e9d9df2627113a6f30d69c51376c3e9ea6a87a864ea4796c4cb49c"
+    },
+    {
+      "path": "c006-none-to-drop_first-current_attempt_probation/independent_samples.csv",
+      "sha256": "ce8765a86d7af42a0fb085fc22eff605c574ab4c8fee2621ea830d08c889ae12"
+    },
+    {
+      "path": "c006-none-to-drop_first-current_attempt_probation/reservations.json",
+      "sha256": "b869bb6db28dbba01a81617e5dac88eae123513410eb19454a9524d31ef09ea1"
+    },
+    {
+      "path": "c006-none-to-drop_first-current_attempt_probation/public_decisions.json",
+      "sha256": "ce1b708ee6c93d277a494d2f69a7a1de7eceefa6c7edcf0820ff6a3f0b8e50e4"
+    },
+    {
+      "path": "c006-none-to-drop_first-current_attempt_probation/private_plant_effects.json",
+      "sha256": "85f5867c34aa02d390bac5e27de73e6819e40e11f5ce68b925f4b688dc355f16"
+    },
+    {
+      "path": "c007-drop_first-to-persistent_primary-current_attempt_probation/independent_samples.csv",
+      "sha256": "ce8765a86d7af42a0fb085fc22eff605c574ab4c8fee2621ea830d08c889ae12"
+    },
+    {
+      "path": "c007-drop_first-to-persistent_primary-current_attempt_probation/reservations.json",
+      "sha256": "b869bb6db28dbba01a81617e5dac88eae123513410eb19454a9524d31ef09ea1"
+    },
+    {
+      "path": "c007-drop_first-to-persistent_primary-current_attempt_probation/public_decisions.json",
+      "sha256": "ce1b708ee6c93d277a494d2f69a7a1de7eceefa6c7edcf0820ff6a3f0b8e50e4"
+    },
+    {
+      "path": "c007-drop_first-to-persistent_primary-current_attempt_probation/private_plant_effects.json",
+      "sha256": "85f5867c34aa02d390bac5e27de73e6819e40e11f5ce68b925f4b688dc355f16"
+    },
+    {
+      "path": "c005-persistent_primary-to-drop_first-retained_history/independent_samples.csv",
+      "sha256": "37ca3bfee68a7e943c5115152800327d81d2e2e28be74c743af439fb703ec056"
+    },
+    {
+      "path": "c005-persistent_primary-to-drop_first-retained_history/reservations.json",
+      "sha256": "b3a11a9100ac8aff3edf3568e7957558d595a605c506e7041bd68cd065b0f14c"
+    },
+    {
+      "path": "c005-persistent_primary-to-drop_first-retained_history/public_decisions.json",
+      "sha256": "c17419443e0d242b8a22ecbe9877d3bbbad92162d82fcef2d9ff38376e240f0d"
+    },
+    {
+      "path": "c005-persistent_primary-to-drop_first-retained_history/private_plant_effects.json",
+      "sha256": "6def4d7b0ad49f67df0df3192958eea5851fc4388b9b65f65bf95efdc07fac8a"
+    },
+    {
+      "path": "c005-persistent_primary-to-drop_first-context_reset/independent_samples.csv",
+      "sha256": "37ca3bfee68a7e943c5115152800327d81d2e2e28be74c743af439fb703ec056"
+    },
+    {
+      "path": "c005-persistent_primary-to-drop_first-context_reset/reservations.json",
+      "sha256": "b3a11a9100ac8aff3edf3568e7957558d595a605c506e7041bd68cd065b0f14c"
+    },
+    {
+      "path": "c005-persistent_primary-to-drop_first-context_reset/public_decisions.json",
+      "sha256": "c17419443e0d242b8a22ecbe9877d3bbbad92162d82fcef2d9ff38376e240f0d"
+    },
+    {
+      "path": "c005-persistent_primary-to-drop_first-context_reset/private_plant_effects.json",
+      "sha256": "6def4d7b0ad49f67df0df3192958eea5851fc4388b9b65f65bf95efdc07fac8a"
+    },
+    {
+      "path": "c006-none-to-drop_first-reference_guarded/independent_samples.csv",
+      "sha256": "ce8765a86d7af42a0fb085fc22eff605c574ab4c8fee2621ea830d08c889ae12"
+    },
+    {
+      "path": "c006-none-to-drop_first-reference_guarded/reservations.json",
+      "sha256": "b869bb6db28dbba01a81617e5dac88eae123513410eb19454a9524d31ef09ea1"
+    },
+    {
+      "path": "c006-none-to-drop_first-reference_guarded/public_decisions.json",
+      "sha256": "ce1b708ee6c93d277a494d2f69a7a1de7eceefa6c7edcf0820ff6a3f0b8e50e4"
+    },
+    {
+      "path": "c006-none-to-drop_first-reference_guarded/private_plant_effects.json",
+      "sha256": "85f5867c34aa02d390bac5e27de73e6819e40e11f5ce68b925f4b688dc355f16"
+    },
+    {
+      "path": "c007-drop_first-to-none-reference_guarded/independent_samples.csv",
+      "sha256": "ce8765a86d7af42a0fb085fc22eff605c574ab4c8fee2621ea830d08c889ae12"
+    },
+    {
+      "path": "c007-drop_first-to-none-reference_guarded/reservations.json",
+      "sha256": "b869bb6db28dbba01a81617e5dac88eae123513410eb19454a9524d31ef09ea1"
+    },
+    {
+      "path": "c007-drop_first-to-none-reference_guarded/public_decisions.json",
+      "sha256": "ce1b708ee6c93d277a494d2f69a7a1de7eceefa6c7edcf0820ff6a3f0b8e50e4"
+    },
+    {
+      "path": "c007-drop_first-to-none-reference_guarded/private_plant_effects.json",
+      "sha256": "85f5867c34aa02d390bac5e27de73e6819e40e11f5ce68b925f4b688dc355f16"
+    },
+    {
+      "path": "c000-none-to-persistent_primary-context_reset/independent_samples.csv",
+      "sha256": "ce8765a86d7af42a0fb085fc22eff605c574ab4c8fee2621ea830d08c889ae12"
+    },
+    {
+      "path": "c000-none-to-persistent_primary-context_reset/reservations.json",
+      "sha256": "d8745c7adcd9fc0627c9c1b16bbf783bc2f40135fdb68bc1cc781f602386f2e4"
+    },
+    {
+      "path": "c000-none-to-persistent_primary-context_reset/public_decisions.json",
+      "sha256": "91ec91b29d82f31a9b5efcff07229b5b1d26a90f3de19cda02ff66bb81350692"
+    },
+    {
+      "path": "c000-none-to-persistent_primary-context_reset/private_plant_effects.json",
+      "sha256": "dfda85755b1de988ed8f22c4b68a25ba0371a88f7c81877c719c0afe41e967e8"
+    },
+    {
+      "path": "c006-none-to-drop_first-context_reset/independent_samples.csv",
+      "sha256": "ce8765a86d7af42a0fb085fc22eff605c574ab4c8fee2621ea830d08c889ae12"
+    },
+    {
+      "path": "c006-none-to-drop_first-context_reset/reservations.json",
+      "sha256": "b869bb6db28dbba01a81617e5dac88eae123513410eb19454a9524d31ef09ea1"
+    },
+    {
+      "path": "c006-none-to-drop_first-context_reset/public_decisions.json",
+      "sha256": "6563c0e6d7c8b421de784ae461c8b3caa918028e995a4078638143542033a177"
+    },
+    {
+      "path": "c006-none-to-drop_first-context_reset/private_plant_effects.json",
+      "sha256": "85f5867c34aa02d390bac5e27de73e6819e40e11f5ce68b925f4b688dc355f16"
+    },
+    {
+      "path": "c005-persistent_primary-to-persistent_primary-retained_history/independent_samples.csv",
+      "sha256": "37ca3bfee68a7e943c5115152800327d81d2e2e28be74c743af439fb703ec056"
+    },
+    {
+      "path": "c005-persistent_primary-to-persistent_primary-retained_history/reservations.json",
+      "sha256": "b3a11a9100ac8aff3edf3568e7957558d595a605c506e7041bd68cd065b0f14c"
+    },
+    {
+      "path": "c005-persistent_primary-to-persistent_primary-retained_history/public_decisions.json",
+      "sha256": "c17419443e0d242b8a22ecbe9877d3bbbad92162d82fcef2d9ff38376e240f0d"
+    },
+    {
+      "path": "c005-persistent_primary-to-persistent_primary-retained_history/private_plant_effects.json",
+      "sha256": "6def4d7b0ad49f67df0df3192958eea5851fc4388b9b65f65bf95efdc07fac8a"
+    },
+    {
+      "path": "c002-persistent_primary-to-none-reference_guarded/independent_samples.csv",
+      "sha256": "8d1a45108ad4ed7aa031e7be8e396156adac75c9c09c65066cc3d95a21a70c16"
+    },
+    {
+      "path": "c002-persistent_primary-to-none-reference_guarded/reservations.json",
+      "sha256": "813a9580fe5c679d69f92bcfe5e2c4607b95750adc8b283a39043847487db6cb"
+    },
+    {
+      "path": "c002-persistent_primary-to-none-reference_guarded/public_decisions.json",
+      "sha256": "53f007d70334809a430bca01e1c9e940e77083bd7dfaeb20cd5e53be0ac525de"
+    },
+    {
+      "path": "c002-persistent_primary-to-none-reference_guarded/private_plant_effects.json",
+      "sha256": "28359d72b73e5a4b83822882a71530bacd06f67a0d3cc5a58800ec7f176525d0"
+    },
+    {
+      "path": "c001-drop_first-to-persistent_primary-retained_history/independent_samples.csv",
+      "sha256": "ce8765a86d7af42a0fb085fc22eff605c574ab4c8fee2621ea830d08c889ae12"
+    },
+    {
+      "path": "c001-drop_first-to-persistent_primary-retained_history/reservations.json",
+      "sha256": "3d87806afd2f9198b02433ac2d8260444431bfbe5504f4bf109df6141879efcc"
+    },
+    {
+      "path": "c001-drop_first-to-persistent_primary-retained_history/public_decisions.json",
+      "sha256": "e484acff9f9c8730396774c7367ab3f2aafc421df184a341ceda58d6a3a7b115"
+    },
+    {
+      "path": "c001-drop_first-to-persistent_primary-retained_history/private_plant_effects.json",
+      "sha256": "ace3567c47418372226197bbdb879860cac6dbb969deea0fe7ee689f96f48160"
+    },
+    {
+      "path": "c007-drop_first-to-drop_first-reference_guarded/independent_samples.csv",
+      "sha256": "ce8765a86d7af42a0fb085fc22eff605c574ab4c8fee2621ea830d08c889ae12"
+    },
+    {
+      "path": "c007-drop_first-to-drop_first-reference_guarded/reservations.json",
+      "sha256": "b869bb6db28dbba01a81617e5dac88eae123513410eb19454a9524d31ef09ea1"
+    },
+    {
+      "path": "c007-drop_first-to-drop_first-reference_guarded/public_decisions.json",
+      "sha256": "ce1b708ee6c93d277a494d2f69a7a1de7eceefa6c7edcf0820ff6a3f0b8e50e4"
+    },
+    {
+      "path": "c007-drop_first-to-drop_first-reference_guarded/private_plant_effects.json",
+      "sha256": "85f5867c34aa02d390bac5e27de73e6819e40e11f5ce68b925f4b688dc355f16"
+    },
+    {
+      "path": "c001-drop_first-to-persistent_primary-context_reset/independent_samples.csv",
+      "sha256": "ce8765a86d7af42a0fb085fc22eff605c574ab4c8fee2621ea830d08c889ae12"
+    },
+    {
+      "path": "c001-drop_first-to-persistent_primary-context_reset/reservations.json",
+      "sha256": "d8745c7adcd9fc0627c9c1b16bbf783bc2f40135fdb68bc1cc781f602386f2e4"
+    },
+    {
+      "path": "c001-drop_first-to-persistent_primary-context_reset/public_decisions.json",
+      "sha256": "91ec91b29d82f31a9b5efcff07229b5b1d26a90f3de19cda02ff66bb81350692"
+    },
+    {
+      "path": "c001-drop_first-to-persistent_primary-context_reset/private_plant_effects.json",
+      "sha256": "dfda85755b1de988ed8f22c4b68a25ba0371a88f7c81877c719c0afe41e967e8"
+    },
+    {
+      "path": "c000-none-to-none-context_reset/independent_samples.csv",
+      "sha256": "8d1a45108ad4ed7aa031e7be8e396156adac75c9c09c65066cc3d95a21a70c16"
+    },
+    {
+      "path": "c000-none-to-none-context_reset/reservations.json",
+      "sha256": "813a9580fe5c679d69f92bcfe5e2c4607b95750adc8b283a39043847487db6cb"
+    },
+    {
+      "path": "c000-none-to-none-context_reset/public_decisions.json",
+      "sha256": "6359be24a2754224c61bb71ebd2b0c99e72de63f1a07f4192d880765f7af139b"
+    },
+    {
+      "path": "c000-none-to-none-context_reset/private_plant_effects.json",
+      "sha256": "28359d72b73e5a4b83822882a71530bacd06f67a0d3cc5a58800ec7f176525d0"
+    },
+    {
+      "path": "c005-persistent_primary-to-persistent_primary-reference_guarded/independent_samples.csv",
+      "sha256": "37ca3bfee68a7e943c5115152800327d81d2e2e28be74c743af439fb703ec056"
+    },
+    {
+      "path": "c005-persistent_primary-to-persistent_primary-reference_guarded/reservations.json",
+      "sha256": "b3a11a9100ac8aff3edf3568e7957558d595a605c506e7041bd68cd065b0f14c"
+    },
+    {
+      "path": "c005-persistent_primary-to-persistent_primary-reference_guarded/public_decisions.json",
+      "sha256": "56f79a75b7b004bf616b4f415cd442d472b48a9653a485f5df469b5942829df9"
+    },
+    {
+      "path": "c005-persistent_primary-to-persistent_primary-reference_guarded/private_plant_effects.json",
+      "sha256": "6def4d7b0ad49f67df0df3192958eea5851fc4388b9b65f65bf95efdc07fac8a"
+    },
+    {
+      "path": "c000-none-to-drop_first-reference_guarded/independent_samples.csv",
+      "sha256": "ce8765a86d7af42a0fb085fc22eff605c574ab4c8fee2621ea830d08c889ae12"
+    },
+    {
+      "path": "c000-none-to-drop_first-reference_guarded/reservations.json",
+      "sha256": "d8745c7adcd9fc0627c9c1b16bbf783bc2f40135fdb68bc1cc781f602386f2e4"
+    },
+    {
+      "path": "c000-none-to-drop_first-reference_guarded/public_decisions.json",
+      "sha256": "e9ec8592067e1b6b7b48185f421c6ab4a253db9bbe4614fd6e151b768af09784"
+    },
+    {
+      "path": "c000-none-to-drop_first-reference_guarded/private_plant_effects.json",
+      "sha256": "dfda85755b1de988ed8f22c4b68a25ba0371a88f7c81877c719c0afe41e967e8"
+    },
+    {
+      "path": "c001-drop_first-to-none-reference_guarded/independent_samples.csv",
+      "sha256": "8d1a45108ad4ed7aa031e7be8e396156adac75c9c09c65066cc3d95a21a70c16"
+    },
+    {
+      "path": "c001-drop_first-to-none-reference_guarded/reservations.json",
+      "sha256": "813a9580fe5c679d69f92bcfe5e2c4607b95750adc8b283a39043847487db6cb"
+    },
+    {
+      "path": "c001-drop_first-to-none-reference_guarded/public_decisions.json",
+      "sha256": "53f007d70334809a430bca01e1c9e940e77083bd7dfaeb20cd5e53be0ac525de"
+    },
+    {
+      "path": "c001-drop_first-to-none-reference_guarded/private_plant_effects.json",
+      "sha256": "28359d72b73e5a4b83822882a71530bacd06f67a0d3cc5a58800ec7f176525d0"
+    },
+    {
+      "path": "c008-persistent_primary-to-none-reference_guarded/independent_samples.csv",
+      "sha256": "ce8765a86d7af42a0fb085fc22eff605c574ab4c8fee2621ea830d08c889ae12"
+    },
+    {
+      "path": "c008-persistent_primary-to-none-reference_guarded/reservations.json",
+      "sha256": "b869bb6db28dbba01a81617e5dac88eae123513410eb19454a9524d31ef09ea1"
+    },
+    {
+      "path": "c008-persistent_primary-to-none-reference_guarded/public_decisions.json",
+      "sha256": "ce1b708ee6c93d277a494d2f69a7a1de7eceefa6c7edcf0820ff6a3f0b8e50e4"
+    },
+    {
+      "path": "c008-persistent_primary-to-none-reference_guarded/private_plant_effects.json",
+      "sha256": "85f5867c34aa02d390bac5e27de73e6819e40e11f5ce68b925f4b688dc355f16"
+    },
+    {
+      "path": "c005-persistent_primary-to-none-context_reset/independent_samples.csv",
+      "sha256": "f1103b3f5d94af23be9d1c5ef75f568e4546a6aa8b6c6c73bf6b9282b3a79fae"
+    },
+    {
+      "path": "c005-persistent_primary-to-none-context_reset/reservations.json",
+      "sha256": "34d4d30e7d3e2add129d7f629f4e05191b443b44c0eb26099d6f7d812ac13d82"
+    },
+    {
+      "path": "c005-persistent_primary-to-none-context_reset/public_decisions.json",
+      "sha256": "2713e7f6f8a4024096b8699f06026b0afb6749aa016a5551c64366709085ddec"
+    },
+    {
+      "path": "c005-persistent_primary-to-none-context_reset/private_plant_effects.json",
+      "sha256": "d2b7e61b85e9d9df2627113a6f30d69c51376c3e9ea6a87a864ea4796c4cb49c"
+    },
+    {
+      "path": "c000-none-to-drop_first-context_reset/independent_samples.csv",
+      "sha256": "ce8765a86d7af42a0fb085fc22eff605c574ab4c8fee2621ea830d08c889ae12"
+    },
+    {
+      "path": "c000-none-to-drop_first-context_reset/reservations.json",
+      "sha256": "d8745c7adcd9fc0627c9c1b16bbf783bc2f40135fdb68bc1cc781f602386f2e4"
+    },
+    {
+      "path": "c000-none-to-drop_first-context_reset/public_decisions.json",
+      "sha256": "91ec91b29d82f31a9b5efcff07229b5b1d26a90f3de19cda02ff66bb81350692"
+    },
+    {
+      "path": "c000-none-to-drop_first-context_reset/private_plant_effects.json",
+      "sha256": "dfda85755b1de988ed8f22c4b68a25ba0371a88f7c81877c719c0afe41e967e8"
+    },
+    {
+      "path": "c008-persistent_primary-to-drop_first-current_attempt_probation/independent_samples.csv",
+      "sha256": "ce8765a86d7af42a0fb085fc22eff605c574ab4c8fee2621ea830d08c889ae12"
+    },
+    {
+      "path": "c008-persistent_primary-to-drop_first-current_attempt_probation/reservations.json",
+      "sha256": "b869bb6db28dbba01a81617e5dac88eae123513410eb19454a9524d31ef09ea1"
+    },
+    {
+      "path": "c008-persistent_primary-to-drop_first-current_attempt_probation/public_decisions.json",
+      "sha256": "ce1b708ee6c93d277a494d2f69a7a1de7eceefa6c7edcf0820ff6a3f0b8e50e4"
+    },
+    {
+      "path": "c008-persistent_primary-to-drop_first-current_attempt_probation/private_plant_effects.json",
+      "sha256": "85f5867c34aa02d390bac5e27de73e6819e40e11f5ce68b925f4b688dc355f16"
+    },
+    {
+      "path": "c001-drop_first-to-none-retained_history/independent_samples.csv",
+      "sha256": "e79ef92bcf6d011b44201b1141b61735ef7c9de31d96ab540ba76f8097d16b41"
+    },
+    {
+      "path": "c001-drop_first-to-none-retained_history/reservations.json",
+      "sha256": "3d87806afd2f9198b02433ac2d8260444431bfbe5504f4bf109df6141879efcc"
+    },
+    {
+      "path": "c001-drop_first-to-none-retained_history/public_decisions.json",
+      "sha256": "e484acff9f9c8730396774c7367ab3f2aafc421df184a341ceda58d6a3a7b115"
+    },
+    {
+      "path": "c001-drop_first-to-none-retained_history/private_plant_effects.json",
+      "sha256": "82afe5219e4ccad7e4df9bed92c989d135541f50e729be3d602ba260a11386cf"
+    },
+    {
+      "path": "c004-drop_first-to-drop_first-context_reset/independent_samples.csv",
+      "sha256": "37ca3bfee68a7e943c5115152800327d81d2e2e28be74c743af439fb703ec056"
+    },
+    {
+      "path": "c004-drop_first-to-drop_first-context_reset/reservations.json",
+      "sha256": "b3a11a9100ac8aff3edf3568e7957558d595a605c506e7041bd68cd065b0f14c"
+    },
+    {
+      "path": "c004-drop_first-to-drop_first-context_reset/public_decisions.json",
+      "sha256": "c17419443e0d242b8a22ecbe9877d3bbbad92162d82fcef2d9ff38376e240f0d"
+    },
+    {
+      "path": "c004-drop_first-to-drop_first-context_reset/private_plant_effects.json",
+      "sha256": "6def4d7b0ad49f67df0df3192958eea5851fc4388b9b65f65bf95efdc07fac8a"
+    },
+    {
+      "path": "c004-drop_first-to-drop_first-reference_guarded/independent_samples.csv",
+      "sha256": "37ca3bfee68a7e943c5115152800327d81d2e2e28be74c743af439fb703ec056"
+    },
+    {
+      "path": "c004-drop_first-to-drop_first-reference_guarded/reservations.json",
+      "sha256": "b3a11a9100ac8aff3edf3568e7957558d595a605c506e7041bd68cd065b0f14c"
+    },
+    {
+      "path": "c004-drop_first-to-drop_first-reference_guarded/public_decisions.json",
+      "sha256": "56f79a75b7b004bf616b4f415cd442d472b48a9653a485f5df469b5942829df9"
+    },
+    {
+      "path": "c004-drop_first-to-drop_first-reference_guarded/private_plant_effects.json",
+      "sha256": "6def4d7b0ad49f67df0df3192958eea5851fc4388b9b65f65bf95efdc07fac8a"
+    },
+    {
+      "path": "c004-drop_first-to-drop_first-current_attempt_probation/independent_samples.csv",
+      "sha256": "37ca3bfee68a7e943c5115152800327d81d2e2e28be74c743af439fb703ec056"
+    },
+    {
+      "path": "c004-drop_first-to-drop_first-current_attempt_probation/reservations.json",
+      "sha256": "b3a11a9100ac8aff3edf3568e7957558d595a605c506e7041bd68cd065b0f14c"
+    },
+    {
+      "path": "c004-drop_first-to-drop_first-current_attempt_probation/public_decisions.json",
+      "sha256": "56f79a75b7b004bf616b4f415cd442d472b48a9653a485f5df469b5942829df9"
+    },
+    {
+      "path": "c004-drop_first-to-drop_first-current_attempt_probation/private_plant_effects.json",
+      "sha256": "6def4d7b0ad49f67df0df3192958eea5851fc4388b9b65f65bf95efdc07fac8a"
+    },
+    {
+      "path": "c003-none-to-none-reference_guarded/independent_samples.csv",
+      "sha256": "f1103b3f5d94af23be9d1c5ef75f568e4546a6aa8b6c6c73bf6b9282b3a79fae"
+    },
+    {
+      "path": "c003-none-to-none-reference_guarded/reservations.json",
+      "sha256": "34d4d30e7d3e2add129d7f629f4e05191b443b44c0eb26099d6f7d812ac13d82"
+    },
+    {
+      "path": "c003-none-to-none-reference_guarded/public_decisions.json",
+      "sha256": "04992e1fbce1aa7a12d69342c9cec044b56b71550edd980e43780fcf8d40a2d7"
+    },
+    {
+      "path": "c003-none-to-none-reference_guarded/private_plant_effects.json",
+      "sha256": "d2b7e61b85e9d9df2627113a6f30d69c51376c3e9ea6a87a864ea4796c4cb49c"
+    },
+    {
+      "path": "c003-none-to-persistent_primary-reference_guarded/independent_samples.csv",
+      "sha256": "37ca3bfee68a7e943c5115152800327d81d2e2e28be74c743af439fb703ec056"
+    },
+    {
+      "path": "c003-none-to-persistent_primary-reference_guarded/reservations.json",
+      "sha256": "b3a11a9100ac8aff3edf3568e7957558d595a605c506e7041bd68cd065b0f14c"
+    },
+    {
+      "path": "c003-none-to-persistent_primary-reference_guarded/public_decisions.json",
+      "sha256": "56f79a75b7b004bf616b4f415cd442d472b48a9653a485f5df469b5942829df9"
+    },
+    {
+      "path": "c003-none-to-persistent_primary-reference_guarded/private_plant_effects.json",
+      "sha256": "6def4d7b0ad49f67df0df3192958eea5851fc4388b9b65f65bf95efdc07fac8a"
+    },
+    {
+      "path": "c003-none-to-persistent_primary-current_attempt_probation/independent_samples.csv",
+      "sha256": "37ca3bfee68a7e943c5115152800327d81d2e2e28be74c743af439fb703ec056"
+    },
+    {
+      "path": "c003-none-to-persistent_primary-current_attempt_probation/reservations.json",
+      "sha256": "b3a11a9100ac8aff3edf3568e7957558d595a605c506e7041bd68cd065b0f14c"
+    },
+    {
+      "path": "c003-none-to-persistent_primary-current_attempt_probation/public_decisions.json",
+      "sha256": "56f79a75b7b004bf616b4f415cd442d472b48a9653a485f5df469b5942829df9"
+    },
+    {
+      "path": "c003-none-to-persistent_primary-current_attempt_probation/private_plant_effects.json",
+      "sha256": "6def4d7b0ad49f67df0df3192958eea5851fc4388b9b65f65bf95efdc07fac8a"
+    },
+    {
+      "path": "c007-drop_first-to-drop_first-current_attempt_probation/independent_samples.csv",
+      "sha256": "ce8765a86d7af42a0fb085fc22eff605c574ab4c8fee2621ea830d08c889ae12"
+    },
+    {
+      "path": "c007-drop_first-to-drop_first-current_attempt_probation/reservations.json",
+      "sha256": "b869bb6db28dbba01a81617e5dac88eae123513410eb19454a9524d31ef09ea1"
+    },
+    {
+      "path": "c007-drop_first-to-drop_first-current_attempt_probation/public_decisions.json",
+      "sha256": "ce1b708ee6c93d277a494d2f69a7a1de7eceefa6c7edcf0820ff6a3f0b8e50e4"
+    },
+    {
+      "path": "c007-drop_first-to-drop_first-current_attempt_probation/private_plant_effects.json",
+      "sha256": "85f5867c34aa02d390bac5e27de73e6819e40e11f5ce68b925f4b688dc355f16"
+    },
+    {
+      "path": "c007-drop_first-to-drop_first-retained_history/independent_samples.csv",
+      "sha256": "37bf4f7cd7fb8e3e524f572befcbd149a1b0562818be1cc7cf21a4b28569bad6"
+    },
+    {
+      "path": "c007-drop_first-to-drop_first-retained_history/reservations.json",
+      "sha256": "3d87806afd2f9198b02433ac2d8260444431bfbe5504f4bf109df6141879efcc"
+    },
+    {
+      "path": "c007-drop_first-to-drop_first-retained_history/public_decisions.json",
+      "sha256": "e484acff9f9c8730396774c7367ab3f2aafc421df184a341ceda58d6a3a7b115"
+    },
+    {
+      "path": "c007-drop_first-to-drop_first-retained_history/private_plant_effects.json",
+      "sha256": "e5af5f83e70b94f5b337fa549be37507185ba87f96cded4465159aeaa4a4628e"
+    },
+    {
+      "path": "c008-persistent_primary-to-none-context_reset/independent_samples.csv",
+      "sha256": "ce8765a86d7af42a0fb085fc22eff605c574ab4c8fee2621ea830d08c889ae12"
+    },
+    {
+      "path": "c008-persistent_primary-to-none-context_reset/reservations.json",
+      "sha256": "b869bb6db28dbba01a81617e5dac88eae123513410eb19454a9524d31ef09ea1"
+    },
+    {
+      "path": "c008-persistent_primary-to-none-context_reset/public_decisions.json",
+      "sha256": "6563c0e6d7c8b421de784ae461c8b3caa918028e995a4078638143542033a177"
+    },
+    {
+      "path": "c008-persistent_primary-to-none-context_reset/private_plant_effects.json",
+      "sha256": "85f5867c34aa02d390bac5e27de73e6819e40e11f5ce68b925f4b688dc355f16"
+    },
+    {
+      "path": "c001-drop_first-to-drop_first-current_attempt_probation/independent_samples.csv",
+      "sha256": "ce8765a86d7af42a0fb085fc22eff605c574ab4c8fee2621ea830d08c889ae12"
+    },
+    {
+      "path": "c001-drop_first-to-drop_first-current_attempt_probation/reservations.json",
+      "sha256": "d8745c7adcd9fc0627c9c1b16bbf783bc2f40135fdb68bc1cc781f602386f2e4"
+    },
+    {
+      "path": "c001-drop_first-to-drop_first-current_attempt_probation/public_decisions.json",
+      "sha256": "e9ec8592067e1b6b7b48185f421c6ab4a253db9bbe4614fd6e151b768af09784"
+    },
+    {
+      "path": "c001-drop_first-to-drop_first-current_attempt_probation/private_plant_effects.json",
+      "sha256": "dfda85755b1de988ed8f22c4b68a25ba0371a88f7c81877c719c0afe41e967e8"
+    },
+    {
+      "path": "c000-none-to-drop_first-current_attempt_probation/independent_samples.csv",
+      "sha256": "ce8765a86d7af42a0fb085fc22eff605c574ab4c8fee2621ea830d08c889ae12"
+    },
+    {
+      "path": "c000-none-to-drop_first-current_attempt_probation/reservations.json",
+      "sha256": "d8745c7adcd9fc0627c9c1b16bbf783bc2f40135fdb68bc1cc781f602386f2e4"
+    },
+    {
+      "path": "c000-none-to-drop_first-current_attempt_probation/public_decisions.json",
+      "sha256": "e9ec8592067e1b6b7b48185f421c6ab4a253db9bbe4614fd6e151b768af09784"
+    },
+    {
+      "path": "c000-none-to-drop_first-current_attempt_probation/private_plant_effects.json",
+      "sha256": "dfda85755b1de988ed8f22c4b68a25ba0371a88f7c81877c719c0afe41e967e8"
+    },
+    {
+      "path": "c003-none-to-none-context_reset/independent_samples.csv",
+      "sha256": "f1103b3f5d94af23be9d1c5ef75f568e4546a6aa8b6c6c73bf6b9282b3a79fae"
+    },
+    {
+      "path": "c003-none-to-none-context_reset/reservations.json",
+      "sha256": "34d4d30e7d3e2add129d7f629f4e05191b443b44c0eb26099d6f7d812ac13d82"
+    },
+    {
+      "path": "c003-none-to-none-context_reset/public_decisions.json",
+      "sha256": "2713e7f6f8a4024096b8699f06026b0afb6749aa016a5551c64366709085ddec"
+    },
+    {
+      "path": "c003-none-to-none-context_reset/private_plant_effects.json",
+      "sha256": "d2b7e61b85e9d9df2627113a6f30d69c51376c3e9ea6a87a864ea4796c4cb49c"
+    },
+    {
+      "path": "c001-drop_first-to-drop_first-retained_history/independent_samples.csv",
+      "sha256": "37bf4f7cd7fb8e3e524f572befcbd149a1b0562818be1cc7cf21a4b28569bad6"
+    },
+    {
+      "path": "c001-drop_first-to-drop_first-retained_history/reservations.json",
+      "sha256": "3d87806afd2f9198b02433ac2d8260444431bfbe5504f4bf109df6141879efcc"
+    },
+    {
+      "path": "c001-drop_first-to-drop_first-retained_history/public_decisions.json",
+      "sha256": "e484acff9f9c8730396774c7367ab3f2aafc421df184a341ceda58d6a3a7b115"
+    },
+    {
+      "path": "c001-drop_first-to-drop_first-retained_history/private_plant_effects.json",
+      "sha256": "e5af5f83e70b94f5b337fa549be37507185ba87f96cded4465159aeaa4a4628e"
+    },
+    {
+      "path": "c004-drop_first-to-none-retained_history/independent_samples.csv",
+      "sha256": "13bfd2dc81c69bd70b50899dd339a464b07fe8820c4aa3c38a08fff797b31099"
+    },
+    {
+      "path": "c004-drop_first-to-none-retained_history/reservations.json",
+      "sha256": "4fd4a18b7bebe47837fd5fb4df2a02cd9f26076922ca1e5a8797a56cd49171dc"
+    },
+    {
+      "path": "c004-drop_first-to-none-retained_history/public_decisions.json",
+      "sha256": "e484acff9f9c8730396774c7367ab3f2aafc421df184a341ceda58d6a3a7b115"
+    },
+    {
+      "path": "c004-drop_first-to-none-retained_history/private_plant_effects.json",
+      "sha256": "9cb7d35cb652a1d3f73c978fe985e2fa62b7aa4a40cf2fffae5def368b4d9af2"
+    },
+    {
+      "path": "c005-persistent_primary-to-none-reference_guarded/independent_samples.csv",
+      "sha256": "f1103b3f5d94af23be9d1c5ef75f568e4546a6aa8b6c6c73bf6b9282b3a79fae"
+    },
+    {
+      "path": "c005-persistent_primary-to-none-reference_guarded/reservations.json",
+      "sha256": "34d4d30e7d3e2add129d7f629f4e05191b443b44c0eb26099d6f7d812ac13d82"
+    },
+    {
+      "path": "c005-persistent_primary-to-none-reference_guarded/public_decisions.json",
+      "sha256": "04992e1fbce1aa7a12d69342c9cec044b56b71550edd980e43780fcf8d40a2d7"
+    },
+    {
+      "path": "c005-persistent_primary-to-none-reference_guarded/private_plant_effects.json",
+      "sha256": "d2b7e61b85e9d9df2627113a6f30d69c51376c3e9ea6a87a864ea4796c4cb49c"
+    },
+    {
+      "path": "c006-none-to-persistent_primary-reference_guarded/independent_samples.csv",
+      "sha256": "ce8765a86d7af42a0fb085fc22eff605c574ab4c8fee2621ea830d08c889ae12"
+    },
+    {
+      "path": "c006-none-to-persistent_primary-reference_guarded/reservations.json",
+      "sha256": "b869bb6db28dbba01a81617e5dac88eae123513410eb19454a9524d31ef09ea1"
+    },
+    {
+      "path": "c006-none-to-persistent_primary-reference_guarded/public_decisions.json",
+      "sha256": "ce1b708ee6c93d277a494d2f69a7a1de7eceefa6c7edcf0820ff6a3f0b8e50e4"
+    },
+    {
+      "path": "c006-none-to-persistent_primary-reference_guarded/private_plant_effects.json",
+      "sha256": "85f5867c34aa02d390bac5e27de73e6819e40e11f5ce68b925f4b688dc355f16"
+    },
+    {
+      "path": "c006-none-to-none-reference_guarded/independent_samples.csv",
+      "sha256": "ce8765a86d7af42a0fb085fc22eff605c574ab4c8fee2621ea830d08c889ae12"
+    },
+    {
+      "path": "c006-none-to-none-reference_guarded/reservations.json",
+      "sha256": "b869bb6db28dbba01a81617e5dac88eae123513410eb19454a9524d31ef09ea1"
+    },
+    {
+      "path": "c006-none-to-none-reference_guarded/public_decisions.json",
+      "sha256": "ce1b708ee6c93d277a494d2f69a7a1de7eceefa6c7edcf0820ff6a3f0b8e50e4"
+    },
+    {
+      "path": "c006-none-to-none-reference_guarded/private_plant_effects.json",
+      "sha256": "85f5867c34aa02d390bac5e27de73e6819e40e11f5ce68b925f4b688dc355f16"
+    },
+    {
+      "path": "c002-persistent_primary-to-persistent_primary-reference_guarded/independent_samples.csv",
+      "sha256": "ce8765a86d7af42a0fb085fc22eff605c574ab4c8fee2621ea830d08c889ae12"
+    },
+    {
+      "path": "c002-persistent_primary-to-persistent_primary-reference_guarded/reservations.json",
+      "sha256": "d8745c7adcd9fc0627c9c1b16bbf783bc2f40135fdb68bc1cc781f602386f2e4"
+    },
+    {
+      "path": "c002-persistent_primary-to-persistent_primary-reference_guarded/public_decisions.json",
+      "sha256": "e9ec8592067e1b6b7b48185f421c6ab4a253db9bbe4614fd6e151b768af09784"
+    },
+    {
+      "path": "c002-persistent_primary-to-persistent_primary-reference_guarded/private_plant_effects.json",
+      "sha256": "dfda85755b1de988ed8f22c4b68a25ba0371a88f7c81877c719c0afe41e967e8"
+    },
+    {
+      "path": "c007-drop_first-to-none-context_reset/independent_samples.csv",
+      "sha256": "ce8765a86d7af42a0fb085fc22eff605c574ab4c8fee2621ea830d08c889ae12"
+    },
+    {
+      "path": "c007-drop_first-to-none-context_reset/reservations.json",
+      "sha256": "b869bb6db28dbba01a81617e5dac88eae123513410eb19454a9524d31ef09ea1"
+    },
+    {
+      "path": "c007-drop_first-to-none-context_reset/public_decisions.json",
+      "sha256": "6563c0e6d7c8b421de784ae461c8b3caa918028e995a4078638143542033a177"
+    },
+    {
+      "path": "c007-drop_first-to-none-context_reset/private_plant_effects.json",
+      "sha256": "85f5867c34aa02d390bac5e27de73e6819e40e11f5ce68b925f4b688dc355f16"
+    },
+    {
+      "path": "c002-persistent_primary-to-none-current_attempt_probation/independent_samples.csv",
+      "sha256": "8d1a45108ad4ed7aa031e7be8e396156adac75c9c09c65066cc3d95a21a70c16"
+    },
+    {
+      "path": "c002-persistent_primary-to-none-current_attempt_probation/reservations.json",
+      "sha256": "813a9580fe5c679d69f92bcfe5e2c4607b95750adc8b283a39043847487db6cb"
+    },
+    {
+      "path": "c002-persistent_primary-to-none-current_attempt_probation/public_decisions.json",
+      "sha256": "53f007d70334809a430bca01e1c9e940e77083bd7dfaeb20cd5e53be0ac525de"
+    },
+    {
+      "path": "c002-persistent_primary-to-none-current_attempt_probation/private_plant_effects.json",
+      "sha256": "28359d72b73e5a4b83822882a71530bacd06f67a0d3cc5a58800ec7f176525d0"
+    },
+    {
+      "path": "c003-none-to-persistent_primary-retained_history/independent_samples.csv",
+      "sha256": "37ca3bfee68a7e943c5115152800327d81d2e2e28be74c743af439fb703ec056"
+    },
+    {
+      "path": "c003-none-to-persistent_primary-retained_history/reservations.json",
+      "sha256": "b3a11a9100ac8aff3edf3568e7957558d595a605c506e7041bd68cd065b0f14c"
+    },
+    {
+      "path": "c003-none-to-persistent_primary-retained_history/public_decisions.json",
+      "sha256": "c17419443e0d242b8a22ecbe9877d3bbbad92162d82fcef2d9ff38376e240f0d"
+    },
+    {
+      "path": "c003-none-to-persistent_primary-retained_history/private_plant_effects.json",
+      "sha256": "6def4d7b0ad49f67df0df3192958eea5851fc4388b9b65f65bf95efdc07fac8a"
+    },
+    {
+      "path": "c003-none-to-drop_first-reference_guarded/independent_samples.csv",
+      "sha256": "37ca3bfee68a7e943c5115152800327d81d2e2e28be74c743af439fb703ec056"
+    },
+    {
+      "path": "c003-none-to-drop_first-reference_guarded/reservations.json",
+      "sha256": "b3a11a9100ac8aff3edf3568e7957558d595a605c506e7041bd68cd065b0f14c"
+    },
+    {
+      "path": "c003-none-to-drop_first-reference_guarded/public_decisions.json",
+      "sha256": "56f79a75b7b004bf616b4f415cd442d472b48a9653a485f5df469b5942829df9"
+    },
+    {
+      "path": "c003-none-to-drop_first-reference_guarded/private_plant_effects.json",
+      "sha256": "6def4d7b0ad49f67df0df3192958eea5851fc4388b9b65f65bf95efdc07fac8a"
+    },
+    {
+      "path": "c005-persistent_primary-to-none-current_attempt_probation/independent_samples.csv",
+      "sha256": "f1103b3f5d94af23be9d1c5ef75f568e4546a6aa8b6c6c73bf6b9282b3a79fae"
+    },
+    {
+      "path": "c005-persistent_primary-to-none-current_attempt_probation/reservations.json",
+      "sha256": "34d4d30e7d3e2add129d7f629f4e05191b443b44c0eb26099d6f7d812ac13d82"
+    },
+    {
+      "path": "c005-persistent_primary-to-none-current_attempt_probation/public_decisions.json",
+      "sha256": "04992e1fbce1aa7a12d69342c9cec044b56b71550edd980e43780fcf8d40a2d7"
+    },
+    {
+      "path": "c005-persistent_primary-to-none-current_attempt_probation/private_plant_effects.json",
+      "sha256": "d2b7e61b85e9d9df2627113a6f30d69c51376c3e9ea6a87a864ea4796c4cb49c"
+    },
+    {
+      "path": "c007-drop_first-to-none-current_attempt_probation/independent_samples.csv",
+      "sha256": "ce8765a86d7af42a0fb085fc22eff605c574ab4c8fee2621ea830d08c889ae12"
+    },
+    {
+      "path": "c007-drop_first-to-none-current_attempt_probation/reservations.json",
+      "sha256": "b869bb6db28dbba01a81617e5dac88eae123513410eb19454a9524d31ef09ea1"
+    },
+    {
+      "path": "c007-drop_first-to-none-current_attempt_probation/public_decisions.json",
+      "sha256": "ce1b708ee6c93d277a494d2f69a7a1de7eceefa6c7edcf0820ff6a3f0b8e50e4"
+    },
+    {
+      "path": "c007-drop_first-to-none-current_attempt_probation/private_plant_effects.json",
+      "sha256": "85f5867c34aa02d390bac5e27de73e6819e40e11f5ce68b925f4b688dc355f16"
+    },
+    {
+      "path": "c000-none-to-drop_first-retained_history/independent_samples.csv",
+      "sha256": "ce8765a86d7af42a0fb085fc22eff605c574ab4c8fee2621ea830d08c889ae12"
+    },
+    {
+      "path": "c000-none-to-drop_first-retained_history/reservations.json",
+      "sha256": "d8745c7adcd9fc0627c9c1b16bbf783bc2f40135fdb68bc1cc781f602386f2e4"
+    },
+    {
+      "path": "c000-none-to-drop_first-retained_history/public_decisions.json",
+      "sha256": "91ec91b29d82f31a9b5efcff07229b5b1d26a90f3de19cda02ff66bb81350692"
+    },
+    {
+      "path": "c000-none-to-drop_first-retained_history/private_plant_effects.json",
+      "sha256": "dfda85755b1de988ed8f22c4b68a25ba0371a88f7c81877c719c0afe41e967e8"
+    },
+    {
+      "path": "c001-drop_first-to-drop_first-reference_guarded/independent_samples.csv",
+      "sha256": "ce8765a86d7af42a0fb085fc22eff605c574ab4c8fee2621ea830d08c889ae12"
+    },
+    {
+      "path": "c001-drop_first-to-drop_first-reference_guarded/reservations.json",
+      "sha256": "d8745c7adcd9fc0627c9c1b16bbf783bc2f40135fdb68bc1cc781f602386f2e4"
+    },
+    {
+      "path": "c001-drop_first-to-drop_first-reference_guarded/public_decisions.json",
+      "sha256": "e9ec8592067e1b6b7b48185f421c6ab4a253db9bbe4614fd6e151b768af09784"
+    },
+    {
+      "path": "c001-drop_first-to-drop_first-reference_guarded/private_plant_effects.json",
+      "sha256": "dfda85755b1de988ed8f22c4b68a25ba0371a88f7c81877c719c0afe41e967e8"
+    },
+    {
+      "path": "c008-persistent_primary-to-drop_first-retained_history/independent_samples.csv",
+      "sha256": "ce8765a86d7af42a0fb085fc22eff605c574ab4c8fee2621ea830d08c889ae12"
+    },
+    {
+      "path": "c008-persistent_primary-to-drop_first-retained_history/reservations.json",
+      "sha256": "b869bb6db28dbba01a81617e5dac88eae123513410eb19454a9524d31ef09ea1"
+    },
+    {
+      "path": "c008-persistent_primary-to-drop_first-retained_history/public_decisions.json",
+      "sha256": "6563c0e6d7c8b421de784ae461c8b3caa918028e995a4078638143542033a177"
+    },
+    {
+      "path": "c008-persistent_primary-to-drop_first-retained_history/private_plant_effects.json",
+      "sha256": "85f5867c34aa02d390bac5e27de73e6819e40e11f5ce68b925f4b688dc355f16"
+    },
+    {
+      "path": "c001-drop_first-to-drop_first-context_reset/independent_samples.csv",
+      "sha256": "ce8765a86d7af42a0fb085fc22eff605c574ab4c8fee2621ea830d08c889ae12"
+    },
+    {
+      "path": "c001-drop_first-to-drop_first-context_reset/reservations.json",
+      "sha256": "d8745c7adcd9fc0627c9c1b16bbf783bc2f40135fdb68bc1cc781f602386f2e4"
+    },
+    {
+      "path": "c001-drop_first-to-drop_first-context_reset/public_decisions.json",
+      "sha256": "91ec91b29d82f31a9b5efcff07229b5b1d26a90f3de19cda02ff66bb81350692"
+    },
+    {
+      "path": "c001-drop_first-to-drop_first-context_reset/private_plant_effects.json",
+      "sha256": "dfda85755b1de988ed8f22c4b68a25ba0371a88f7c81877c719c0afe41e967e8"
+    },
+    {
+      "path": "c000-none-to-none-current_attempt_probation/independent_samples.csv",
+      "sha256": "8d1a45108ad4ed7aa031e7be8e396156adac75c9c09c65066cc3d95a21a70c16"
+    },
+    {
+      "path": "c000-none-to-none-current_attempt_probation/reservations.json",
+      "sha256": "813a9580fe5c679d69f92bcfe5e2c4607b95750adc8b283a39043847487db6cb"
+    },
+    {
+      "path": "c000-none-to-none-current_attempt_probation/public_decisions.json",
+      "sha256": "53f007d70334809a430bca01e1c9e940e77083bd7dfaeb20cd5e53be0ac525de"
+    },
+    {
+      "path": "c000-none-to-none-current_attempt_probation/private_plant_effects.json",
+      "sha256": "28359d72b73e5a4b83822882a71530bacd06f67a0d3cc5a58800ec7f176525d0"
+    },
+    {
+      "path": "c003-none-to-none-retained_history/independent_samples.csv",
+      "sha256": "f1103b3f5d94af23be9d1c5ef75f568e4546a6aa8b6c6c73bf6b9282b3a79fae"
+    },
+    {
+      "path": "c003-none-to-none-retained_history/reservations.json",
+      "sha256": "34d4d30e7d3e2add129d7f629f4e05191b443b44c0eb26099d6f7d812ac13d82"
+    },
+    {
+      "path": "c003-none-to-none-retained_history/public_decisions.json",
+      "sha256": "2713e7f6f8a4024096b8699f06026b0afb6749aa016a5551c64366709085ddec"
+    },
+    {
+      "path": "c003-none-to-none-retained_history/private_plant_effects.json",
+      "sha256": "d2b7e61b85e9d9df2627113a6f30d69c51376c3e9ea6a87a864ea4796c4cb49c"
+    }
+  ],
+  "partial_cohort_counted_in_formal_total": false
+}

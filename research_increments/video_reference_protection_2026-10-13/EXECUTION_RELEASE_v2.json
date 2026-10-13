@@ -1,0 +1,20 @@
+{
+  "frozen_at_utc": "2026-10-13T06:13:45.980012+00:00",
+  "status": "FROZEN_LOCAL_IO_RELOCATION",
+  "sources": {
+    "BINDINGS.json": "5038955abb4d19c1b3b42c66ef03897f773a9cbc437155415dc9ecd67ae9c7c2",
+    "PROTOCOL.json": "d3a7eecc8e9327b93c62bd29984a54e8da15acf18baad8f41f1f51e07dfdabaf",
+    "bridge.py": "0643daeb48446e7a31c000638eebfe1519c343fecbd5e3df1db861a8fbca3e31",
+    "safety_control.py": "c58e2265c68289cbe119ee58ccb9b3b8507b2e262ec5db2959ed03f05c10c226",
+    "native_safety_runner.py": "b6930ceaf67355be6abe7458ce9d968508a33c7715af7456a3fe87a3de0ed7e3",
+    "run_safety_experiment.py": "cd55e3b55bf5e66012b7ab4e2ad70fa4d2b77b0141058024d75136f50388fdda",
+    "preflight.py": "aa99c0982d587c535a690e7412c590488b3fff3dbe2156a075bcb70933361c5f",
+    "run_safety_experiment_v2.py": "d7a1d82486e248e78e3fe77b5f2398ff23ee5e5e98185cbf494a479c8f8ae5eb"
+  },
+  "new_native_rollouts": 2160,
+  "preregistered": false,
+  "existing_source_history_reused": true,
+  "source_release_sha256": "8ed6033cbc8d6200fe28282dd4c49e65a8316060ff8e956a88adad70e22ccfa9",
+  "physical_scientific_change": false,
+  "new_native_output": "/tmp/paperb_reference_protection_native_v2"
+}

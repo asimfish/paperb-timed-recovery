@@ -44,12 +44,12 @@
     {
       "path": "index.html",
       "source": "web/index.html",
-      "source_sha256": "c27fd20d1d00c70f6f9e86124a711765f79955e2ce4cae4a60604791f38ab858",
-      "sha256": "e879de20a54fc78500ea0f1620c8374878eab163b7543f84319a3892b878a15b",
-      "bytes": 211809,
+      "source_sha256": "07dcf1383bfb0ccae5e1f88c21928e02e25cd95949c739bf9ad481c7858f3eb6",
+      "sha256": "f66f4539482de6d68910ef5fbd9d1a18f0a09b7be5f93953fa482649b1d60567",
+      "bytes": 219060,
       "transformations": [
-        "evidence links relative to project root",
-        "current-method panel and canonical GitHub Pages URL"
+        "project-root evidence links",
+        "current method panel and canonical GitHub URL rendered by prior build attempt, checked against canonical scripts"
       ]
     },
     {
@@ -751,35 +751,236 @@
       "transformations": []
     },
     {
+      "path": "reference_protection_results.svg",
+      "source": "web/reference_protection_results.svg",
+      "source_sha256": "c71306a1e33892b1cd78fc924038ac0c15626dec6a7c350f86b6ae34698c0a5c",
+      "sha256": "c71306a1e33892b1cd78fc924038ac0c15626dec6a7c350f86b6ae34698c0a5c",
+      "bytes": 24111,
+      "transformations": []
+    },
+    {
+      "path": "research_increments/video_reference_protection_2026-10-13/README_cn.md",
+      "source": "research_increments/video_reference_protection_2026-10-13/README_cn.md",
+      "source_sha256": "33a6282503b76157befe42f47ac7cf0c2293d57757fe65422aa74bdb2d02198b",
+      "sha256": "33a6282503b76157befe42f47ac7cf0c2293d57757fe65422aa74bdb2d02198b",
+      "bytes": 6247,
+      "transformations": []
+    },
+    {
+      "path": "research_increments/video_reference_protection_2026-10-13/RESULTS_SUMMARY.json",
+      "source": "research_increments/video_reference_protection_2026-10-13/RESULTS_SUMMARY.json",
+      "source_sha256": "74670b7f03a366fd7f8d38c733cda5ff7f1b94598084f9eaaa4b889d1046ac61",
+      "sha256": "74670b7f03a366fd7f8d38c733cda5ff7f1b94598084f9eaaa4b889d1046ac61",
+      "bytes": 4245,
+      "transformations": []
+    },
+    {
+      "path": "research_increments/video_reference_protection_2026-10-13/ANALYSIS.json",
+      "source": "research_increments/video_reference_protection_2026-10-13/ANALYSIS.json",
+      "source_sha256": "8d32aa2047992832f6bb5c05c1ea65fde85896591c5b08d97fd2435c59ab6f92",
+      "sha256": "8d32aa2047992832f6bb5c05c1ea65fde85896591c5b08d97fd2435c59ab6f92",
+      "bytes": 9115,
+      "transformations": []
+    },
+    {
+      "path": "research_increments/video_reference_protection_2026-10-13/PROTOCOL.json",
+      "source": "research_increments/video_reference_protection_2026-10-13/PROTOCOL.json",
+      "source_sha256": "d3a7eecc8e9327b93c62bd29984a54e8da15acf18baad8f41f1f51e07dfdabaf",
+      "sha256": "d3a7eecc8e9327b93c62bd29984a54e8da15acf18baad8f41f1f51e07dfdabaf",
+      "bytes": 5552,
+      "transformations": []
+    },
+    {
+      "path": "research_increments/video_reference_protection_2026-10-13/EXECUTION_RELEASE_v2.json",
+      "source": "research_increments/video_reference_protection_2026-10-13/EXECUTION_RELEASE_v2.json",
+      "source_sha256": "e88ef8661c6fc437620ec1c3dcfea242df3421e458f9518e55a8e2667e222c01",
+      "sha256": "e88ef8661c6fc437620ec1c3dcfea242df3421e458f9518e55a8e2667e222c01",
+      "bytes": 1167,
+      "transformations": []
+    },
+    {
+      "path": "research_increments/video_reference_protection_2026-10-13/NATIVE_ARCHIVE_RECEIPT.json",
+      "source": "research_increments/video_reference_protection_2026-10-13/NATIVE_ARCHIVE_RECEIPT.json",
+      "source_sha256": "bc3aa227a8b9f392787b122b55a70f22d851aa3b279dd6df0e459e2880020412",
+      "sha256": "bc3aa227a8b9f392787b122b55a70f22d851aa3b279dd6df0e459e2880020412",
+      "bytes": 622,
+      "transformations": []
+    },
+    {
+      "path": "research_increments/video_reference_protection_2026-10-13/IO_RELOCATION_VERIFICATION.json",
+      "source": "research_increments/video_reference_protection_2026-10-13/IO_RELOCATION_VERIFICATION.json",
+      "source_sha256": "161468a18a9b2b1ede10691b9818144be9dca5181cf8caeed743ad97a5c4b833",
+      "sha256": "161468a18a9b2b1ede10691b9818144be9dca5181cf8caeed743ad97a5c4b833",
+      "bytes": 77267,
+      "transformations": []
+    },
+    {
+      "path": "research_increments/video_reference_protection_2026-10-13/VIDEO_VALIDATION.json",
+      "source": "research_increments/video_reference_protection_2026-10-13/VIDEO_VALIDATION.json",
+      "source_sha256": "9239e241135bfbf53226996bc437f6682516ffac3ef4e3717c213c1a69cb5c70",
+      "sha256": "9239e241135bfbf53226996bc437f6682516ffac3ef4e3717c213c1a69cb5c70",
+      "bytes": 3158,
+      "transformations": []
+    },
+    {
+      "path": "research_increments/video_reference_protection_2026-10-13/figures/reference_protection_results.pdf",
+      "source": "research_increments/video_reference_protection_2026-10-13/figures/reference_protection_results.pdf",
+      "source_sha256": "d1ca9b50bdbc8762cfc2cf251710cb54ccd399187242f70e49a87c661e470b81",
+      "sha256": "d1ca9b50bdbc8762cfc2cf251710cb54ccd399187242f70e49a87c661e470b81",
+      "bytes": 24798,
+      "transformations": []
+    },
+    {
+      "path": "research_increments/video_reference_protection_2026-10-13/videos/verified_history_repair.mp4",
+      "source": "research_increments/video_reference_protection_2026-10-13/videos/verified_history_repair.mp4",
+      "source_sha256": "1da86c3a060184e00aedfe1a02386289f328ce4e413f29eccc9aadd1f0540471",
+      "sha256": "1da86c3a060184e00aedfe1a02386289f328ce4e413f29eccc9aadd1f0540471",
+      "bytes": 171764,
+      "transformations": []
+    },
+    {
+      "path": "research_increments/video_reference_protection_2026-10-13/videos/verified_history_repair_decoded_2s.png",
+      "source": "research_increments/video_reference_protection_2026-10-13/videos/verified_history_repair_decoded_2s.png",
+      "source_sha256": "732e46af0989ce16eeb3b52a16cee5334dc5b25d683b0c5520c10728b9d975df",
+      "sha256": "732e46af0989ce16eeb3b52a16cee5334dc5b25d683b0c5520c10728b9d975df",
+      "bytes": 234268,
+      "transformations": []
+    },
+    {
+      "path": "research_increments/video_reference_protection_2026-10-13/videos/verified_history_repair_PROVENANCE.json",
+      "source": "research_increments/video_reference_protection_2026-10-13/videos/verified_history_repair_PROVENANCE.json",
+      "source_sha256": "46cfcaeca0e005c8e1a1d20e89c01de51071a8978cbb99cb6b7edb0f939031fb",
+      "sha256": "46cfcaeca0e005c8e1a1d20e89c01de51071a8978cbb99cb6b7edb0f939031fb",
+      "bytes": 140631,
+      "transformations": []
+    },
+    {
+      "path": "research_increments/video_reference_protection_2026-10-13/videos/stale_history_failure.mp4",
+      "source": "research_increments/video_reference_protection_2026-10-13/videos/stale_history_failure.mp4",
+      "source_sha256": "4cc2a920ec274b14f35900ae93177afe38f8e70855fbacc1882bcfa496cc3194",
+      "sha256": "4cc2a920ec274b14f35900ae93177afe38f8e70855fbacc1882bcfa496cc3194",
+      "bytes": 167534,
+      "transformations": []
+    },
+    {
+      "path": "research_increments/video_reference_protection_2026-10-13/videos/stale_history_failure_decoded_052s.png",
+      "source": "research_increments/video_reference_protection_2026-10-13/videos/stale_history_failure_decoded_052s.png",
+      "source_sha256": "7b9361f5919119d22ff4d41f073b34cd315c5a7dd7bb85116af5818c1153836d",
+      "sha256": "7b9361f5919119d22ff4d41f073b34cd315c5a7dd7bb85116af5818c1153836d",
+      "bytes": 237685,
+      "transformations": []
+    },
+    {
+      "path": "research_increments/video_reference_protection_2026-10-13/videos/stale_history_failure_PROVENANCE.json",
+      "source": "research_increments/video_reference_protection_2026-10-13/videos/stale_history_failure_PROVENANCE.json",
+      "source_sha256": "35f53213e06686ea80b9fa1e3981e282a8080921e59614318fc9e77638a51bfe",
+      "sha256": "35f53213e06686ea80b9fa1e3981e282a8080921e59614318fc9e77638a51bfe",
+      "bytes": 140599,
+      "transformations": []
+    },
+    {
+      "path": "research_increments/video_reference_protection_2026-10-13/videos/reference_guard_repair.mp4",
+      "source": "research_increments/video_reference_protection_2026-10-13/videos/reference_guard_repair.mp4",
+      "source_sha256": "cad9639443bce37c82f4715569d9fdeb2b189ba6bfff2ef0f74d67cc34a0a8f2",
+      "sha256": "cad9639443bce37c82f4715569d9fdeb2b189ba6bfff2ef0f74d67cc34a0a8f2",
+      "bytes": 168895,
+      "transformations": []
+    },
+    {
+      "path": "research_increments/video_reference_protection_2026-10-13/videos/reference_guard_repair_decoded_2s.png",
+      "source": "research_increments/video_reference_protection_2026-10-13/videos/reference_guard_repair_decoded_2s.png",
+      "source_sha256": "21a3fdeafa5cb0fd2f5d7d64cb823aa2bf8534d0946c95a6ac7bb1351ecb689a",
+      "sha256": "21a3fdeafa5cb0fd2f5d7d64cb823aa2bf8534d0946c95a6ac7bb1351ecb689a",
+      "bytes": 244542,
+      "transformations": []
+    },
+    {
+      "path": "research_increments/video_reference_protection_2026-10-13/videos/reference_guard_repair_PROVENANCE.json",
+      "source": "research_increments/video_reference_protection_2026-10-13/videos/reference_guard_repair_PROVENANCE.json",
+      "source_sha256": "1de43f8b890bca66fbc77cb755f19384d60441b63a4ecdedc30a8a28cc47b5c4",
+      "sha256": "1de43f8b890bca66fbc77cb755f19384d60441b63a4ecdedc30a8a28cc47b5c4",
+      "bytes": 140628,
+      "transformations": []
+    },
+    {
+      "path": "research_increments/video_reference_protection_2026-10-13/videos/reference_guard_cost.mp4",
+      "source": "research_increments/video_reference_protection_2026-10-13/videos/reference_guard_cost.mp4",
+      "source_sha256": "32dd29a73beae603b241f9b297d54b4f72bec3199cfa886263742989fbc34c62",
+      "sha256": "32dd29a73beae603b241f9b297d54b4f72bec3199cfa886263742989fbc34c62",
+      "bytes": 172872,
+      "transformations": []
+    },
+    {
+      "path": "research_increments/video_reference_protection_2026-10-13/videos/reference_guard_cost_decoded_2s.png",
+      "source": "research_increments/video_reference_protection_2026-10-13/videos/reference_guard_cost_decoded_2s.png",
+      "source_sha256": "cb679b4cd3a02a6853ebc4338698103a17c8ce66c1e507489a9dc952e40fea92",
+      "sha256": "cb679b4cd3a02a6853ebc4338698103a17c8ce66c1e507489a9dc952e40fea92",
+      "bytes": 240607,
+      "transformations": []
+    },
+    {
+      "path": "research_increments/video_reference_protection_2026-10-13/videos/reference_guard_cost_PROVENANCE.json",
+      "source": "research_increments/video_reference_protection_2026-10-13/videos/reference_guard_cost_PROVENANCE.json",
+      "source_sha256": "9bb79f230bc6e2c0e43b86c00c254539bc4f30dbe75c34763f87bc07eb202a1a",
+      "sha256": "9bb79f230bc6e2c0e43b86c00c254539bc4f30dbe75c34763f87bc07eb202a1a",
+      "bytes": 140650,
+      "transformations": []
+    },
+    {
+      "path": "research_increments/video_reference_protection_2026-10-13/videos/safelab_existing_robot_trial.mp4",
+      "source": "research_increments/video_reference_protection_2026-10-13/videos/safelab_existing_robot_trial.mp4",
+      "source_sha256": "48fc7a351764a650c768517101bc84f1d58ec41e59f53a7a0a4631049e2d33ee",
+      "sha256": "48fc7a351764a650c768517101bc84f1d58ec41e59f53a7a0a4631049e2d33ee",
+      "bytes": 327066,
+      "transformations": []
+    },
+    {
+      "path": "research_increments/video_reference_protection_2026-10-13/videos/safelab_existing_robot_trial_decoded_8s.png",
+      "source": "research_increments/video_reference_protection_2026-10-13/videos/safelab_existing_robot_trial_decoded_8s.png",
+      "source_sha256": "d3be14fef74ca2a3a7c079ee5a79f56039b77ce72ef3bfb9937dfd6ef5a8c568",
+      "sha256": "d3be14fef74ca2a3a7c079ee5a79f56039b77ce72ef3bfb9937dfd6ef5a8c568",
+      "bytes": 189200,
+      "transformations": []
+    },
+    {
+      "path": "research_increments/video_reference_protection_2026-10-13/videos/safelab_existing_robot_trial_PROVENANCE.json",
+      "source": "research_increments/video_reference_protection_2026-10-13/videos/safelab_existing_robot_trial_PROVENANCE.json",
+      "source_sha256": "7e91dc122686e6e00f4df5a33dbaef8422a63303d2002ae619240d647c4c97d4",
+      "sha256": "7e91dc122686e6e00f4df5a33dbaef8422a63303d2002ae619240d647c4c97d4",
+      "bytes": 1189,
+      "transformations": []
+    },
+    {
       "path": "CURRENT_METHOD_cn.md",
       "source": "publication supplement",
-      "source_sha256": "c66685d67258147a3bf7d0fd9c76dc2adc73bc2bea813ffe40a1fead894162f4",
-      "sha256": "c66685d67258147a3bf7d0fd9c76dc2adc73bc2bea813ffe40a1fead894162f4",
-      "bytes": 6385,
+      "source_sha256": "e9012bc24fc476a8b3777a6754c694ccc69e2f7e7129c3b2ab379f88b58eecca",
+      "sha256": "e9012bc24fc476a8b3777a6754c694ccc69e2f7e7129c3b2ab379f88b58eecca",
+      "bytes": 6933,
       "transformations": []
     },
     {
       "path": "README.md",
       "source": "publication supplement",
-      "source_sha256": "88b78c011570313185b20242d8dd6662be12128ceeb0f1ba6e05ac696ffefdb7",
-      "sha256": "88b78c011570313185b20242d8dd6662be12128ceeb0f1ba6e05ac696ffefdb7",
-      "bytes": 2105,
+      "source_sha256": "5c9575d25c4e319f4477a2d26f949b8d9d1a36e72f66c7f7cc14113c3e51952e",
+      "sha256": "5c9575d25c4e319f4477a2d26f949b8d9d1a36e72f66c7f7cc14113c3e51952e",
+      "bytes": 2675,
       "transformations": []
     },
     {
       "path": "check_site.py",
       "source": "publication supplement",
-      "source_sha256": "358636bac9220273ec4dcacfa087993b36f5f054fe57a8aa74fd5199af896c3c",
-      "sha256": "358636bac9220273ec4dcacfa087993b36f5f054fe57a8aa74fd5199af896c3c",
-      "bytes": 3148,
+      "source_sha256": "afcd0ef51e191227098ed966bd098f7df5b8fd1a4f392221890246f63b911c5d",
+      "sha256": "afcd0ef51e191227098ed966bd098f7df5b8fd1a4f392221890246f63b911c5d",
+      "bytes": 3383,
       "transformations": []
     },
     {
       "path": ".nojekyll",
-      "source": "generated static-site marker",
+      "source": "generated marker",
       "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
       "bytes": 0,
       "transformations": []
     }
-  ]
+  ],
+  "incremental_baseline_commit": "40aeef9098e0bf1e6410fff7b94f985a4200282a"
 }

@@ -15,7 +15,7 @@ class References(HTMLParser):
 
     def handle_starttag(self, tag, attrs):
         for key, value in attrs:
-            if (tag == "a" and key == "href") or (tag == "img" and key == "src"):
+            if (tag == "a" and key == "href") or (tag in {"img", "source"} and key == "src") or (tag == "video" and key == "poster"):
                 self.references.append(value)
 
 
@@ -54,6 +54,8 @@ def main():
     assert 'id="history_adaptation"' in main_html
     assert '57 / 123 / 0' in main_html and '66 / 114 / 0' in main_html
     assert '622 / 1176 / 2' in main_html and '11 / 16' in main_html
+    assert main_html.count('<video class="experiment-video"') == 5
+    assert 'id="reference_protection_table"' in main_html and '60 / 120 / 0' in main_html and '0 / 14' in main_html
     http = []
     if args.base_url:
         assert args.base_url.endswith("/")

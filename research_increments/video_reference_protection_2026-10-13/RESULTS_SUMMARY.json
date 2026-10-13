@@ -1,0 +1,161 @@
+{
+  "status": "PASS_NATIVE_SAFETY_CHECKPOINT_AUDIT",
+  "new_native_rollouts": 2160,
+  "native_samples": 2162160,
+  "max_native_error": 0.0,
+  "counts": {
+    "stable/retained_history": {
+      "TRUE": 66,
+      "FALSE": 114
+    },
+    "stable/context_reset": {
+      "TRUE": 57,
+      "FALSE": 123
+    },
+    "stable/current_attempt_probation": {
+      "TRUE": 57,
+      "FALSE": 123
+    },
+    "stable/reference_guarded": {
+      "TRUE": 60,
+      "FALSE": 120
+    },
+    "fault_change/retained_history": {
+      "FALSE": 260,
+      "TRUE": 100
+    },
+    "fault_change/reference_guarded": {
+      "FALSE": 246,
+      "TRUE": 114
+    },
+    "fault_change/context_reset": {
+      "FALSE": 246,
+      "TRUE": 114
+    },
+    "fault_change/current_attempt_probation": {
+      "FALSE": 246,
+      "TRUE": 114
+    }
+  },
+  "reference_integrity": {
+    "stable/retained_history": {
+      "TRUE": 180
+    },
+    "stable/context_reset": {
+      "TRUE": 180
+    },
+    "stable/current_attempt_probation": {
+      "TRUE": 180
+    },
+    "stable/reference_guarded": {
+      "TRUE": 180
+    },
+    "fault_change/retained_history": {
+      "TRUE": 346,
+      "FALSE": 14
+    },
+    "fault_change/reference_guarded": {
+      "TRUE": 360
+    },
+    "fault_change/context_reset": {
+      "TRUE": 360
+    },
+    "fault_change/current_attempt_probation": {
+      "TRUE": 360
+    }
+  },
+  "B_continuity": {
+    "stable/retained_history": {
+      "TRUE": 180
+    },
+    "stable/context_reset": {
+      "TRUE": 180
+    },
+    "stable/current_attempt_probation": {
+      "TRUE": 180
+    },
+    "stable/reference_guarded": {
+      "TRUE": 180
+    },
+    "fault_change/retained_history": {
+      "TRUE": 360
+    },
+    "fault_change/reference_guarded": {
+      "TRUE": 360
+    },
+    "fault_change/context_reset": {
+      "TRUE": 360
+    },
+    "fault_change/current_attempt_probation": {
+      "TRUE": 360
+    }
+  },
+  "paired_vs_context_reset": {
+    "stable/retained_history": {
+      "repairs": [
+        "c001-drop_first-to-drop_first-retained_history",
+        "c004-drop_first-to-drop_first-retained_history",
+        "c034-drop_first-to-drop_first-retained_history",
+        "c058-drop_first-to-drop_first-retained_history",
+        "c079-drop_first-to-drop_first-retained_history",
+        "c082-drop_first-to-drop_first-retained_history",
+        "c109-drop_first-to-drop_first-retained_history",
+        "c112-drop_first-to-drop_first-retained_history",
+        "c142-drop_first-to-drop_first-retained_history"
+      ],
+      "harms": []
+    },
+    "stable/context_reset": {
+      "repairs": [],
+      "harms": []
+    },
+    "stable/current_attempt_probation": {
+      "repairs": [],
+      "harms": []
+    },
+    "stable/reference_guarded": {
+      "repairs": [
+        "c034-drop_first-to-drop_first-reference_guarded",
+        "c058-drop_first-to-drop_first-reference_guarded",
+        "c142-drop_first-to-drop_first-reference_guarded"
+      ],
+      "harms": []
+    },
+    "fault_change/retained_history": {
+      "repairs": [],
+      "harms": [
+        "c001-drop_first-to-none-retained_history",
+        "c004-drop_first-to-none-retained_history",
+        "c007-drop_first-to-none-retained_history",
+        "c010-drop_first-to-none-retained_history",
+        "c043-drop_first-to-none-retained_history",
+        "c046-drop_first-to-none-retained_history",
+        "c079-drop_first-to-none-retained_history",
+        "c082-drop_first-to-none-retained_history",
+        "c109-drop_first-to-none-retained_history",
+        "c112-drop_first-to-none-retained_history",
+        "c115-drop_first-to-none-retained_history",
+        "c118-drop_first-to-none-retained_history",
+        "c127-drop_first-to-none-retained_history",
+        "c130-drop_first-to-none-retained_history"
+      ]
+    },
+    "fault_change/reference_guarded": {
+      "repairs": [],
+      "harms": []
+    },
+    "fault_change/context_reset": {
+      "repairs": [],
+      "harms": []
+    },
+    "fault_change/current_attempt_probation": {
+      "repairs": [],
+      "harms": []
+    }
+  },
+  "source_results_sha256": "7714c6910aa96040c29a7a78079d8d7747a3b8a14b652319855f0e5b0aaa67e0",
+  "weight_training_runs": 0,
+  "real_robot_runs": 0,
+  "chemical_batches": 0,
+  "checkpoint_only": true
+}

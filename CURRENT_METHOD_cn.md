@@ -55,3 +55,7 @@ Offline RL 仅在可信的决策级转移能覆盖剩余瓶颈时加入；online
 完整设计：[系统规范](research_increments/chemical_auto_engineering_design_2026-10-11/SYSTEM_SPEC.json)。最新报告：[公开历史组件实验](research_increments/public_history_adaptation_2026-10-13/README_cn.md)、[数学表述](research_increments/public_history_adaptation_2026-10-13/FORMULATION_cn.md)、[方法决策v5](research_increments/public_history_adaptation_2026-10-13/METHOD_DECISION_v5_cn.md)、[ICML增量稿](research_increments/public_history_adaptation_2026-10-13/paper_preview/note.pdf)。
 
 完整学习系统尚未完成：没有新方案的VLA、RL学习收益，真机、持续物理时钟和独立化学终点仍MAJOR_OPEN。公开GitHub仓库发布方案、图和审计摘要；原始科研轨迹保存在工作区，不构成完整公开数据集。
+
+## 8. 新执行与视频
+
+最新2160次原生检查点独立审计通过。稳定保留历史66/180、参照保护60/180、清空及当前尝试复核57/180；变化保留100/360与其他114/360，保护消除14个原参照损害但稳定条件失去6个通过机会。四段状态和命令驱动回放MP4已发布，另附既有SafeLab机器人失败基建示例（本轮计数0）。这次没有新VLA训练、机器人硬件或化学终点。见[本轮执行与视频](research_increments/video_reference_protection_2026-10-13/README_cn.md)。
