@@ -1,0 +1,165 @@
+{
+  "actor_import_inventory": {
+    "controller_contract": [
+      "dataclasses",
+      "json",
+      "math",
+      "public_types"
+    ],
+    "initial_public_math": [
+      "dataclasses",
+      "math",
+      "public_types",
+      "time"
+    ],
+    "public_types": [
+      "dataclasses"
+    ],
+    "request_ledger": [
+      "dataclasses",
+      "public_types"
+    ],
+    "schedule_model": [
+      "controller_contract",
+      "initial_public_math",
+      "public_types"
+    ],
+    "stateful_controllers": [
+      "controller_contract",
+      "dataclasses",
+      "initial_public_math",
+      "request_ledger",
+      "schedule_model",
+      "temporal_facts",
+      "time",
+      "typing"
+    ],
+    "temporal_facts": [
+      "dataclasses",
+      "initial_public_math",
+      "math",
+      "public_types"
+    ]
+  },
+  "agentic_necessity_or_advantage_supported": false,
+  "all_denominators_retained": true,
+  "blocking_findings": [],
+  "closed_v1_findings": [
+    {
+      "evidence": "CR-001; request_ledger.py:39",
+      "id": "CR-001",
+      "result": "Originalseq1 retained, extra acceptedseq2 conservatively charged and actor sticky failure prevents later action.",
+      "status": "CLOSED_IN_V2_ACTOR"
+    },
+    {
+      "evidence": "CR-002-frame/time-at-actor,nested-metadata;controller_contract.py:55,stateful_controllers.py:70",
+      "id": "CR-002",
+      "result": "Invalid frames/times rejected before callbacks; exact nested schema rejects fake private label. Old DTO constructor outside actor boundary is explicitly not sandboxed.",
+      "status": "CLOSED_AT_ACTOR_ENTRY_TRUSTED_ADAPTER_REQUIRED"
+    },
+    {
+      "evidence": "CR-003-calendar,paid-old-intent-preservation;stateful_controllers.py:81,request_ledger.py:99",
+      "id": "CR-003",
+      "result": "560ms planning\u2192570ms public calendar change\u2192580ms stale discard for all4. Committed A executes during paid pending, old C survives, accepted A cannot cancel/refund.",
+      "status": "RESOLVED_ADR_AND_FOUR_ARM_REGRESSIONS"
+    },
+    {
+      "evidence": "CR-004-B-control across4arms;temporal_facts.py:59",
+      "id": "CR-004",
+      "result": "B torque.04 never passes despite still-moving B. Definite intervalFALSE; uncertain tailUNKNOWN independently unit-tested. Not native continuous verification.",
+      "status": "CLOSED_PUBLIC_SAMPLED_SCOPE"
+    },
+    {
+      "evidence": "transient-stop,missing-confirmation-sample;temporal_facts.py:47",
+      "id": "TRANSIENT_STOP_COVERAGE",
+      "result": "Failed candidate retained; later FIRST confirmed stable stop allowed;200ms confirmed onset retained through later movement. Missing expected sample prevents confirmation.",
+      "status": "CLOSED_SOFTWARE_SCOPE"
+    }
+  ],
+  "counts": {
+    "GPU": 0,
+    "fit": 0,
+    "formal32": 0,
+    "new_native_epochs": 0,
+    "own_independent_regressions": 11,
+    "own_recorded_public_observer_replays": 8,
+    "own_software_matrix": 64,
+    "own_software_stress": 12,
+    "own_unit_tests": 31,
+    "unseen_holdout": 0
+  },
+  "created_at_utc": "2026-10-13T17:36:52.050334+00:00",
+  "dimensions": [
+    {
+      "evidence": "31 behavioral tests,64 software fixtures,12 stress all retained and independently passed. Batch/HSM/EDF/MPC execute distinct lifecycles. Native end-to-end outside scope.",
+      "name": "Functional achievement",
+      "state": "Pass"
+    },
+    {
+      "evidence": "11 independent regressions close token identity/sticky rejection, exact actor DTO, paid-calendar staleness, old intent, B-control, transient stop, missing sample, fresh ACK and lifetime candidate cap.",
+      "name": "Correctness and reliability",
+      "state": "Pass"
+    },
+    {
+      "evidence": "Seven-module public actor import closure has no file/plant/referee/native reader. Shared canonical input/ledger/facts/model enforce common information and budgets; ADR resolves paid transaction semantics.",
+      "name": "Architecture",
+      "state": "Pass"
+    },
+    {
+      "evidence": "Exact PublicFrame and type-first checks precede actor callbacks/comparisons. Fake nested reservation private label rejected. Native bridge must construct exact primitive DTOs; no hostile-Python sandbox claim.",
+      "name": "Function and API design",
+      "state": "Pass"
+    },
+    {
+      "evidence": "Focused modules remain below1000lines and share ownership rather than duplicate event/budget semantics. No verified merge-relevant structural defect found.",
+      "name": "Style and maintainability",
+      "state": "Pass"
+    },
+    {
+      "evidence": "Scoped accounting evidence: every software decision charges20ms,candidates1000/10000,actionsA2/C2/total4. No speed/native-latency claim;15.038s gate host time diagnostic only.",
+      "name": "Performance",
+      "state": "Pass"
+    }
+  ],
+  "evidence": {
+    "each_gate_gzip_members_reopened": 84,
+    "each_gate_hashed_members_verified": 87,
+    "independent_gate": {
+      "path": "v2_snapshot_20261014/cpu_outputs/independent_terminal_v2_20261014/CPU_GATE.json",
+      "sha256": "860c5becf6ddef994b2ef4e5c43eca8f094e731496e341c9fa125bd4e2dec660"
+    },
+    "old_v1_red_members_unchanged": 16,
+    "readback_sha256": "783d2d32c55edab55eb1a7b23016b10962c7504dc4d501f18e2497f009945430",
+    "regressions_sha256": "b94952a39370f3e26c9d232cd5f01c930bfe3ca473b30499fdd59a7f354fba7f",
+    "root_gate_sha256": "032eba924d963a614d41a5638b7ab875e8f226ba5d8fd922db62e26d2a056069",
+    "root_independent_non_host_time_facts_match": true
+  },
+  "minimum_next_verification": "Separate immutable native bridge source review and root admission before at most1predeclared development epoch. This review executes0native.",
+  "native_bridge_review_or_execution_part_of_this_verdict": false,
+  "nonblocking_improvements_or_limitations": [
+    {
+      "id": "NB-1",
+      "note": "Packet.__post_init__ is copied unchanged and can compare nonplain supplied values outside actor entry. Independent benign constructor callback is retained in V2_INDEPENDENT_REGRESSIONS. Future bridge must create DTOs from exact primitive data; no arbitrary object adapters/sandbox claim."
+    },
+    {
+      "id": "NB-2",
+      "note": "Unfitted conditional-model refinement and public sampled stop/maintenance are not true-support or continuous-time guarantees. Independent native RAW/referee is separate and UNKNOWN/refusal retained."
+    },
+    {
+      "id": "NB-3",
+      "note": "Eight fixed configurations already seen. Strongbatch solves all64 software fixtures. Lifecycle/decision-count differences do not prove agentic advantage,learning,OOD,formal32 or native method rates."
+    }
+  ],
+  "producer_source_or_old604_files_modified": false,
+  "review_authority": "copy-only independent software review; no source fixes",
+  "reviewed_source_file_count": 30,
+  "schema": "paperb-independent-stateful-cpu-final-review-v2",
+  "scope": "PINNED_CPU_COMPONENT_ONLY_NOT_NATIVE_ADMISSION",
+  "skills_applied": [
+    "code-review",
+    "security"
+  ],
+  "source_pin_sha256": "ea39d01ac8a884e9e8fb135a8a7e4bd5b9a7958d67fff4f4031dcef7bad0d800",
+  "strong_batch_solves_all_software_cases": true,
+  "verdict": "Pass"
+}

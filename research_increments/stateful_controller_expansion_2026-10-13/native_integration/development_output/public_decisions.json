@@ -1,0 +1,499 @@
+[
+  {
+    "budget": {
+      "adaptation_trials_included_in_budget": true,
+      "adaptive_candidates": 2,
+      "blind_candidates_available": 19,
+      "budget_exhausted": false,
+      "candidate_evaluations": 359,
+      "component_stage_counts": {
+        "A_window_feasible_proposals": 176,
+        "C_window_feasible_proposals": 19,
+        "graph_gap_feasible_proposals": 175,
+        "resource_feasible_A_proposals": 4,
+        "resource_feasible_C_proposals": 175
+      },
+      "cumulative_candidate_evaluations": 359,
+      "prediction_calls": 533,
+      "search_family": "EARLIEST_FEASIBLE_A_PREFIX_THEN_C_OR_C_THEN_TWO_A; NOT_ALL_POLICIES",
+      "search_refusal_is_not_physical_infeasibility": true
+    },
+    "charged_decision_ns": 20000000,
+    "created_ns": 560000000,
+    "ledger_before": {
+      "ACK_is_effect_success": false,
+      "ACKs": [],
+      "accepted_reservations": [
+        {
+          "ack_ns": 1100000000,
+          "external": true,
+          "request_ns": 0,
+          "seq": 0,
+          "service_start_ns": 650000000,
+          "tag": "B_reserved_drive_change",
+          "target": "B"
+        }
+      ],
+      "counts": {
+        "A": 0,
+        "C": 0
+      },
+      "history": [],
+      "intents": [],
+      "remaining": {
+        "A": 2,
+        "C": 2
+      },
+      "unclaimed_accepted_requests": []
+    },
+    "measured_host_compute_ns": 2366079,
+    "method": "guarded_hsm_retry",
+    "new_native_episode": false,
+    "original_B": {
+      "first_arrival_ns": 550000000,
+      "kind": "B_PUBLIC_OBSERVED_FIRST_Q2",
+      "lower_ns": 400000000,
+      "upper_ns": 450000000
+    },
+    "private_fault_read": false,
+    "public_power_evidence": {},
+    "ready_ns": 580000000,
+    "reference": {
+      "first_arrival_ns": 550000000,
+      "kind": "B_SAME_EVENT_CONDITIONAL_PUBLIC_MODEL",
+      "lower_ns": 440000000,
+      "upper_ns": 450000000
+    },
+    "selected_plan": {
+      "A_box_ns": [
+        2690000000,
+        2930000000
+      ],
+      "C_box_ns": [
+        3370000000,
+        3380000000
+      ],
+      "C_midpoint_error_twice_ns": 260000000,
+      "actions": [
+        {
+          "ACK_ns": 1150000000,
+          "service_start_ns": 1100000000,
+          "submit_ns": 1100000000,
+          "tag": "A_stop",
+          "target": "A"
+        },
+        {
+          "ACK_ns": 1370000000,
+          "feedback_retry_slot": true,
+          "service_start_ns": 1320000000,
+          "submit_ns": 1320000000,
+          "tag": "A_stop",
+          "target": "A"
+        },
+        {
+          "ACK_ns": 1820000000,
+          "service_start_ns": 1370000000,
+          "submit_ns": 1370000000,
+          "tag": "C_stop",
+          "target": "C"
+        }
+      ],
+      "blind_fallback_if_feedback_missing": true,
+      "calendar_feasible": true,
+      "conditional_none_or_first_A_drop_only": true,
+      "feedback_retry_slot": true,
+      "original_event_not_reanchored": true
+    }
+  },
+  {
+    "budget": {
+      "budget_exhausted": false,
+      "candidate_evaluations": 214,
+      "cumulative_candidate_evaluations": 573,
+      "remaining_A_requests_planned": 1,
+      "remaining_C_requests_planned": 1,
+      "search_refusal_is_not_physical_infeasibility": true,
+      "status": "REMAINING_PUBLIC_CANDIDATES"
+    },
+    "charged_decision_ns": 20000000,
+    "created_ns": 1300000000,
+    "ledger_before": {
+      "ACK_is_effect_success": false,
+      "ACKs": [
+        {
+          "ack_ns": 1100000000,
+          "seq": 0,
+          "tag": "B_reserved_drive_change",
+          "target": "B"
+        },
+        {
+          "ack_ns": 1150000000,
+          "seq": 1,
+          "tag": "A_stop",
+          "target": "A"
+        }
+      ],
+      "accepted_reservations": [
+        {
+          "ack_ns": 1100000000,
+          "external": true,
+          "request_ns": 0,
+          "seq": 0,
+          "service_start_ns": 650000000,
+          "tag": "B_reserved_drive_change",
+          "target": "B"
+        },
+        {
+          "ack_ns": 1150000000,
+          "external": false,
+          "request_ns": 1100000000,
+          "seq": 1,
+          "service_start_ns": 1100000000,
+          "tag": "A_stop",
+          "target": "A"
+        }
+      ],
+      "counts": {
+        "A": 1,
+        "C": 0
+      },
+      "history": [
+        {
+          "event": "INSTALL_UNSENT_PROGRAM",
+          "installed": 3,
+          "prefix_only": false,
+          "version": 1
+        },
+        {
+          "ack": {
+            "ack_ns": 1100000000,
+            "seq": 0,
+            "tag": "B_reserved_drive_change",
+            "target": "B"
+          },
+          "event": "ACK_RECEIVED_NOT_EFFECT_SUCCESS"
+        },
+        {
+          "action": {
+            "client_token": "stateful-development-native-epoch0/1/A/0",
+            "request_ns": 1100000000,
+            "tag": "A_stop",
+            "target": "A"
+          },
+          "event": "EMIT_COUNTS_ONCE_PENDING_RECEIPT"
+        },
+        {
+          "ack": {
+            "ack_ns": 1150000000,
+            "seq": 1,
+            "tag": "A_stop",
+            "target": "A"
+          },
+          "event": "ACK_RECEIVED_NOT_EFFECT_SUCCESS"
+        }
+      ],
+      "intents": [
+        {
+          "ACK_ns": 1150000000,
+          "emitted_ns": 1100000000,
+          "mode": "feedback_retry",
+          "seq": 1,
+          "service_start_ns": 1100000000,
+          "status": "ACKED",
+          "submit_ns": 1100000000,
+          "target": "A",
+          "token": "stateful-development-native-epoch0/1/A/0"
+        },
+        {
+          "ACK_ns": 1370000000,
+          "emitted_ns": null,
+          "mode": "feedback_retry",
+          "seq": null,
+          "service_start_ns": 1320000000,
+          "status": "UNSENT",
+          "submit_ns": 1320000000,
+          "target": "A",
+          "token": "stateful-development-native-epoch0/1/A/1"
+        },
+        {
+          "ACK_ns": 1820000000,
+          "emitted_ns": null,
+          "mode": "feedback_retry",
+          "seq": null,
+          "service_start_ns": 1370000000,
+          "status": "UNSENT",
+          "submit_ns": 1370000000,
+          "target": "C",
+          "token": "stateful-development-native-epoch0/1/C/2"
+        }
+      ],
+      "remaining": {
+        "A": 1,
+        "C": 2
+      },
+      "unclaimed_accepted_requests": []
+    },
+    "measured_host_compute_ns": 8006522,
+    "method": "guarded_hsm_retry",
+    "new_native_episode": false,
+    "original_B": {
+      "first_arrival_ns": 550000000,
+      "kind": "B_PUBLIC_OBSERVED_FIRST_Q2",
+      "lower_ns": 400000000,
+      "upper_ns": 450000000
+    },
+    "private_fault_read": false,
+    "public_power_evidence": {
+      "A": {
+        "ACK_ns": 1150000000,
+        "ACK_seq": 1,
+        "mode": "POWERED_AFTER_SERVICE",
+        "packet_arrival_ns": 1300000000,
+        "packet_capture_ns": 1200000000
+      }
+    },
+    "ready_ns": 1320000000,
+    "reference": {
+      "first_arrival_ns": 550000000,
+      "kind": "B_SAME_EVENT_CONDITIONAL_PUBLIC_MODEL",
+      "lower_ns": 440000000,
+      "upper_ns": 450000000
+    },
+    "selected_plan": {
+      "A_box_ns": [
+        2920000000,
+        2930000000
+      ],
+      "C_box_ns": [
+        3370000000,
+        3380000000
+      ],
+      "C_midpoint_error_twice_ns": 260000000,
+      "actions": [
+        {
+          "ACK_ns": 1370000000,
+          "service_start_ns": 1320000000,
+          "submit_ns": 1320000000,
+          "tag": "A_stop",
+          "target": "A"
+        },
+        {
+          "ACK_ns": 1820000000,
+          "service_start_ns": 1370000000,
+          "submit_ns": 1370000000,
+          "tag": "C_stop",
+          "target": "C"
+        }
+      ],
+      "calendar_feasible": true,
+      "conditional_none_or_first_A_drop_only": true,
+      "original_event_not_reanchored": true
+    }
+  },
+  {
+    "budget": {
+      "candidate_evaluations": 0,
+      "cumulative_candidate_evaluations": 573,
+      "status": "VERIFY_WITH_NO_NEW_RECOVERY_ACTION"
+    },
+    "charged_decision_ns": 20000000,
+    "created_ns": 1340000000,
+    "ledger_before": {
+      "ACK_is_effect_success": false,
+      "ACKs": [
+        {
+          "ack_ns": 1100000000,
+          "seq": 0,
+          "tag": "B_reserved_drive_change",
+          "target": "B"
+        },
+        {
+          "ack_ns": 1150000000,
+          "seq": 1,
+          "tag": "A_stop",
+          "target": "A"
+        }
+      ],
+      "accepted_reservations": [
+        {
+          "ack_ns": 1100000000,
+          "external": true,
+          "request_ns": 0,
+          "seq": 0,
+          "service_start_ns": 650000000,
+          "tag": "B_reserved_drive_change",
+          "target": "B"
+        },
+        {
+          "ack_ns": 1150000000,
+          "external": false,
+          "request_ns": 1100000000,
+          "seq": 1,
+          "service_start_ns": 1100000000,
+          "tag": "A_stop",
+          "target": "A"
+        },
+        {
+          "ack_ns": 1370000000,
+          "external": false,
+          "request_ns": 1320000000,
+          "seq": 2,
+          "service_start_ns": 1320000000,
+          "tag": "A_stop",
+          "target": "A"
+        }
+      ],
+      "counts": {
+        "A": 2,
+        "C": 0
+      },
+      "history": [
+        {
+          "event": "INSTALL_UNSENT_PROGRAM",
+          "installed": 3,
+          "prefix_only": false,
+          "version": 1
+        },
+        {
+          "ack": {
+            "ack_ns": 1100000000,
+            "seq": 0,
+            "tag": "B_reserved_drive_change",
+            "target": "B"
+          },
+          "event": "ACK_RECEIVED_NOT_EFFECT_SUCCESS"
+        },
+        {
+          "action": {
+            "client_token": "stateful-development-native-epoch0/1/A/0",
+            "request_ns": 1100000000,
+            "tag": "A_stop",
+            "target": "A"
+          },
+          "event": "EMIT_COUNTS_ONCE_PENDING_RECEIPT"
+        },
+        {
+          "ack": {
+            "ack_ns": 1150000000,
+            "seq": 1,
+            "tag": "A_stop",
+            "target": "A"
+          },
+          "event": "ACK_RECEIVED_NOT_EFFECT_SUCCESS"
+        },
+        {
+          "event": "CANCEL_UNSENT_INTENT",
+          "token": "stateful-development-native-epoch0/1/A/1"
+        },
+        {
+          "event": "CANCEL_UNSENT_INTENT",
+          "token": "stateful-development-native-epoch0/1/C/2"
+        },
+        {
+          "event": "INSTALL_UNSENT_PROGRAM",
+          "installed": 2,
+          "prefix_only": false,
+          "version": 2
+        },
+        {
+          "action": {
+            "client_token": "stateful-development-native-epoch0/2/A/0",
+            "request_ns": 1320000000,
+            "tag": "A_stop",
+            "target": "A"
+          },
+          "event": "EMIT_COUNTS_ONCE_PENDING_RECEIPT"
+        }
+      ],
+      "intents": [
+        {
+          "ACK_ns": 1150000000,
+          "emitted_ns": 1100000000,
+          "mode": "feedback_retry",
+          "seq": 1,
+          "service_start_ns": 1100000000,
+          "status": "ACKED",
+          "submit_ns": 1100000000,
+          "target": "A",
+          "token": "stateful-development-native-epoch0/1/A/0"
+        },
+        {
+          "ACK_ns": 1370000000,
+          "emitted_ns": null,
+          "mode": "feedback_retry",
+          "seq": null,
+          "service_start_ns": 1320000000,
+          "status": "CANCELLED_UNSENT",
+          "submit_ns": 1320000000,
+          "target": "A",
+          "token": "stateful-development-native-epoch0/1/A/1"
+        },
+        {
+          "ACK_ns": 1820000000,
+          "emitted_ns": null,
+          "mode": "feedback_retry",
+          "seq": null,
+          "service_start_ns": 1370000000,
+          "status": "CANCELLED_UNSENT",
+          "submit_ns": 1370000000,
+          "target": "C",
+          "token": "stateful-development-native-epoch0/1/C/2"
+        },
+        {
+          "ACK_ns": 1370000000,
+          "emitted_ns": 1320000000,
+          "mode": "blind",
+          "seq": 2,
+          "service_start_ns": 1320000000,
+          "status": "ACCEPTED",
+          "submit_ns": 1320000000,
+          "target": "A",
+          "token": "stateful-development-native-epoch0/2/A/0"
+        },
+        {
+          "ACK_ns": 1820000000,
+          "emitted_ns": null,
+          "mode": "blind",
+          "seq": null,
+          "service_start_ns": 1370000000,
+          "status": "UNSENT",
+          "submit_ns": 1370000000,
+          "target": "C",
+          "token": "stateful-development-native-epoch0/2/C/1"
+        }
+      ],
+      "remaining": {
+        "A": 0,
+        "C": 2
+      },
+      "unclaimed_accepted_requests": []
+    },
+    "measured_host_compute_ns": 4577,
+    "method": "guarded_hsm_retry",
+    "new_native_episode": false,
+    "original_B": {
+      "first_arrival_ns": 550000000,
+      "kind": "B_PUBLIC_OBSERVED_FIRST_Q2",
+      "lower_ns": 400000000,
+      "upper_ns": 450000000
+    },
+    "private_fault_read": false,
+    "public_power_evidence": {
+      "A": {
+        "ACK_ns": 1150000000,
+        "ACK_seq": 1,
+        "mode": "POWERED_AFTER_SERVICE",
+        "packet_arrival_ns": 1300000000,
+        "packet_capture_ns": 1200000000
+      }
+    },
+    "ready_ns": 1360000000,
+    "reference": {
+      "first_arrival_ns": 550000000,
+      "kind": "B_SAME_EVENT_CONDITIONAL_PUBLIC_MODEL",
+      "lower_ns": 440000000,
+      "upper_ns": 450000000
+    },
+    "selected_plan": null
+  }
+]

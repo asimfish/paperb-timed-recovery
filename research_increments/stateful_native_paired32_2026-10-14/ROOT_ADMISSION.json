@@ -1,0 +1,15 @@
+{
+  "schema": "paperb-stateful-paired32-root-admission-v1",
+  "approved": true,
+  "created_at_utc": "2026-10-13T18:11:02.256138+00:00",
+  "paired32_source_release_sha256": "171b6e1154341261b5437fc752f72bcbb0267ee236b344badc3f2fc189f692fd",
+  "cpu_source_pin_sha256": "ea39d01ac8a884e9e8fb135a8a7e4bd5b9a7958d67fff4f4031dcef7bad0d800",
+  "maximum_controlled_native_epochs": 32,
+  "GPU": 0,
+  "formal_statistical_trials": 0,
+  "heldout": false,
+  "single_raw_receipt_sha256": "ecf2d35f9c3a24c17cd42e2b80f2fd421b03f4d088f2b415d9f2d31e3a40d42a",
+  "source_review_receipt_sha256": "560dcb32169f21770efe65cef5896da76a8d921386c565a2a920217799932c29",
+  "independent_auditor_release_sha256": "05994806faddf77510b779d36b06197dde457b1d44d57bda5c98eabe44b8041e",
+  "scope": "fixed seen eight configurations x four controllers; all failure/unknown/missing cases retained; no training or hardware"
+}

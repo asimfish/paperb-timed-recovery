@@ -1,0 +1,142 @@
+{
+  "ACKs.jsonl": {
+    "fields": [
+      "seq",
+      "target",
+      "tag",
+      "ack_ns"
+    ],
+    "meaning": "actual service transaction, not stopping"
+  },
+  "CASE_CLAIM.json": "write-once fixed row/source/actual audit+review+root proofs, before all case setup",
+  "MATRIX_CLAIM.json": "fixed32 roster/release/prerequisite proofs; resume identity check before any new epoch",
+  "SETUP.json": "spec_driver_only, public Contract, version, source pins, active dt/damping/inertia/initial qpos/qvel/ctrl; private fields never passed to actor",
+  "TERMINAL.json": "case status/error/roster/source/admission proofs/created and started epoch/actual steps and rows/counts/budget/pending; recording is separate from independent acceptance",
+  "acceptance": "independent RAW, service/command identity, exact clocks, public causal sequence and immutable-origin audit required; actor or exit0 alone insufficient",
+  "case": "every fixed row in ROSTER.json",
+  "commands.json": "all actual accepted reservations, including original external B and any pending A/C",
+  "controller_ticks.jsonl": {
+    "expected_rows": 1201,
+    "fields": [
+      "now_ns",
+      "native_time_s",
+      "phase",
+      "actual_new_submissions",
+      "ledger_counts",
+      "candidate_epoch",
+      "pending_paid_decision_ready_ns",
+      "decision_count",
+      "measured_advance_host_ns",
+      "public_protocol_failure",
+      "native_epoch"
+    ]
+  },
+  "independent_samples.csv": {
+    "expected_rows": 1201,
+    "fields": [
+      "sim_ns",
+      "native_time_s",
+      "epoch",
+      "A_q",
+      "A_v",
+      "A_ctrl_next",
+      "B_q",
+      "B_v",
+      "B_ctrl_next",
+      "C_q",
+      "C_v",
+      "C_ctrl_next"
+    ],
+    "native_clock": "native_time_s is actual data.time, sim_ns=round(actual data.time*1e9) checked against fixed grid",
+    "no_truth_from_actor": true,
+    "phase": "post service effects, pre controller requests and pre native step"
+  },
+  "method": "row.method; four exact pinned registry classes",
+  "native_steps.jsonl": {
+    "expected_rows": 1200,
+    "fields": [
+      "step_index",
+      "epoch",
+      "before_time_s",
+      "after_time_s",
+      "before_native_ns",
+      "after_native_ns",
+      "mj_step_calls",
+      "mj_forward_calls"
+    ]
+  },
+  "partial_exception": "partial files/row counts preserved plus EXCEPTION.json and NATIVE_DEV_RESULT.json; no complete-record status",
+  "private_effects.jsonl": {
+    "actor_input": false,
+    "fields": [
+      "seq",
+      "target",
+      "actual_ACK_ns",
+      "torque_before",
+      "torque_after"
+    ],
+    "source": "unchanged origin Effects.apply"
+  },
+  "public_actor_inputs.jsonl": {
+    "expected_rows": 1201,
+    "fields": [
+      "epoch",
+      "now_ns",
+      "latest",
+      "acks",
+      "reservations"
+    ],
+    "none_or_repeated_latest_is_preserved": true,
+    "source": "exact data-only PublicFrame"
+  },
+  "public_captures.jsonl": {
+    "arrival_ns_is_predicted_public_delivery_clock": true,
+    "expected_rows": 241,
+    "fields": [
+      "capture_ns",
+      "arrival_ns",
+      "positions",
+      "velocities",
+      "torques"
+    ],
+    "phase": "pre service effects"
+  },
+  "public_decisions.json": "all paid decisions including declined/discarded decisions and budget/model/input evidence",
+  "public_deliveries.jsonl": {
+    "expected_rows": 239,
+    "fields": [
+      "capture_ns",
+      "arrival_ns",
+      "positions",
+      "velocities",
+      "torques"
+    ]
+  },
+  "public_final_snapshot.json": "entire pinned controller snapshot, ledger history, cumulative counts and original-event facts",
+  "raw_verdict.json": "unchanged copied referee's output only after execution, never passed to actor",
+  "schema": "paperb-stateful-native-paired32-raw-schema-v1",
+  "submissions.jsonl": {
+    "failed_and_pending_requests_remain_in_denominator": true,
+    "fields": [
+      "request",
+      "actual_accepted_reservation",
+      "actual_native_time_s"
+    ],
+    "request_fields": [
+      "client_token",
+      "target",
+      "tag",
+      "request_ns"
+    ],
+    "reservation_fields": [
+      "seq",
+      "target",
+      "tag",
+      "request_ns",
+      "service_start_ns",
+      "ack_ns",
+      "external"
+    ],
+    "source": "actual ReservedChannel.submit, not planner forecasts"
+  }
+}

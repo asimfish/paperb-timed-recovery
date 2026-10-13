@@ -1,0 +1,12 @@
+{
+  "status": "PASS_SAME64_DATA_LEGEND_PLACEMENT_ONLY",
+  "source_results_sha256": "2665bc53d8882bf78ec2af6a144a226b7eab715e0ef35b30def485f64d1c8958",
+  "plot_source_sha256": "023317f7f621e2c477e80f7e106cc1987778e5c55feac923a843789a678df863",
+  "first_figure_version_preserved": true,
+  "no_new_experiments": true,
+  "figures": {
+    "stateful_workload_v2.pdf": "c8eb3bee86211340ce1e2bbe761ef62afe794bb99f46edef2c4152b84aa9c9b8",
+    "stateful_workload_v2.png": "f4e6538691315ee042d494bd1b15f19613324fa921b194b7fdf9d27fb6e2320f",
+    "stateful_workload_v2.svg": "d2e312023061605e59c6943fec7edf66553c9a80469e13a0371efeea6da53aae"
+  }
+}

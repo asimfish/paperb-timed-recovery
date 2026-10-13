@@ -1,0 +1,874 @@
+{
+  "actual_native_epochs_so_far": 0,
+  "count": 32,
+  "ordering": "source case order outer; canonical METHODS inner",
+  "per_method_denominator": 8,
+  "rows": [
+    {
+      "case": {
+        "A_window_ns": [
+          1800000000,
+          2800000000
+        ],
+        "B_service_ns": 50000000,
+        "D_C_ns": 2800000000,
+        "graph_edges": [
+          [
+            "A",
+            "C"
+          ]
+        ],
+        "graph_id": "A_then_C",
+        "id": "v2_diag-A_then_C-B5-D2p8",
+        "role": "NATIVE_DEVELOPMENT_REACHABILITY_DIAGNOSTIC"
+      },
+      "epoch": 0,
+      "id": "paired32-v2_diag-A_then_C-B5-D2p8__strong_batch",
+      "method": "strong_batch",
+      "order": 0,
+      "private_fault_driver_only": "first_A_stop_drop",
+      "public_epoch": "paired32-0-epoch0",
+      "role": "DEVELOPMENT_SEEN_PAIRED_MECHANISM_VALIDATION_NOT_HELDOUT",
+      "source_case_id": "v2_diag-A_then_C-B5-D2p8"
+    },
+    {
+      "case": {
+        "A_window_ns": [
+          1800000000,
+          2800000000
+        ],
+        "B_service_ns": 50000000,
+        "D_C_ns": 2800000000,
+        "graph_edges": [
+          [
+            "A",
+            "C"
+          ]
+        ],
+        "graph_id": "A_then_C",
+        "id": "v2_diag-A_then_C-B5-D2p8",
+        "role": "NATIVE_DEVELOPMENT_REACHABILITY_DIAGNOSTIC"
+      },
+      "epoch": 0,
+      "id": "paired32-v2_diag-A_then_C-B5-D2p8__guarded_hsm_retry",
+      "method": "guarded_hsm_retry",
+      "order": 1,
+      "private_fault_driver_only": "first_A_stop_drop",
+      "public_epoch": "paired32-1-epoch0",
+      "role": "DEVELOPMENT_SEEN_PAIRED_MECHANISM_VALIDATION_NOT_HELDOUT",
+      "source_case_id": "v2_diag-A_then_C-B5-D2p8"
+    },
+    {
+      "case": {
+        "A_window_ns": [
+          1800000000,
+          2800000000
+        ],
+        "B_service_ns": 50000000,
+        "D_C_ns": 2800000000,
+        "graph_edges": [
+          [
+            "A",
+            "C"
+          ]
+        ],
+        "graph_id": "A_then_C",
+        "id": "v2_diag-A_then_C-B5-D2p8",
+        "role": "NATIVE_DEVELOPMENT_REACHABILITY_DIAGNOSTIC"
+      },
+      "epoch": 0,
+      "id": "paired32-v2_diag-A_then_C-B5-D2p8__event_resource_edf",
+      "method": "event_resource_edf",
+      "order": 2,
+      "private_fault_driver_only": "first_A_stop_drop",
+      "public_epoch": "paired32-2-epoch0",
+      "role": "DEVELOPMENT_SEEN_PAIRED_MECHANISM_VALIDATION_NOT_HELDOUT",
+      "source_case_id": "v2_diag-A_then_C-B5-D2p8"
+    },
+    {
+      "case": {
+        "A_window_ns": [
+          1800000000,
+          2800000000
+        ],
+        "B_service_ns": 50000000,
+        "D_C_ns": 2800000000,
+        "graph_edges": [
+          [
+            "A",
+            "C"
+          ]
+        ],
+        "graph_id": "A_then_C",
+        "id": "v2_diag-A_then_C-B5-D2p8",
+        "role": "NATIVE_DEVELOPMENT_REACHABILITY_DIAGNOSTIC"
+      },
+      "epoch": 0,
+      "id": "paired32-v2_diag-A_then_C-B5-D2p8__joint_interval_mpc",
+      "method": "joint_interval_mpc",
+      "order": 3,
+      "private_fault_driver_only": "first_A_stop_drop",
+      "public_epoch": "paired32-3-epoch0",
+      "role": "DEVELOPMENT_SEEN_PAIRED_MECHANISM_VALIDATION_NOT_HELDOUT",
+      "source_case_id": "v2_diag-A_then_C-B5-D2p8"
+    },
+    {
+      "case": {
+        "A_window_ns": [
+          1800000000,
+          3100000000
+        ],
+        "B_service_ns": 50000000,
+        "D_C_ns": 3100000000,
+        "graph_edges": [
+          [
+            "A",
+            "C"
+          ]
+        ],
+        "graph_id": "A_then_C",
+        "id": "v2_diag-A_then_C-B5-D3p1",
+        "role": "NATIVE_DEVELOPMENT_REACHABILITY_DIAGNOSTIC"
+      },
+      "epoch": 0,
+      "id": "paired32-v2_diag-A_then_C-B5-D3p1__strong_batch",
+      "method": "strong_batch",
+      "order": 4,
+      "private_fault_driver_only": "first_A_stop_drop",
+      "public_epoch": "paired32-4-epoch0",
+      "role": "DEVELOPMENT_SEEN_PAIRED_MECHANISM_VALIDATION_NOT_HELDOUT",
+      "source_case_id": "v2_diag-A_then_C-B5-D3p1"
+    },
+    {
+      "case": {
+        "A_window_ns": [
+          1800000000,
+          3100000000
+        ],
+        "B_service_ns": 50000000,
+        "D_C_ns": 3100000000,
+        "graph_edges": [
+          [
+            "A",
+            "C"
+          ]
+        ],
+        "graph_id": "A_then_C",
+        "id": "v2_diag-A_then_C-B5-D3p1",
+        "role": "NATIVE_DEVELOPMENT_REACHABILITY_DIAGNOSTIC"
+      },
+      "epoch": 0,
+      "id": "paired32-v2_diag-A_then_C-B5-D3p1__guarded_hsm_retry",
+      "method": "guarded_hsm_retry",
+      "order": 5,
+      "private_fault_driver_only": "first_A_stop_drop",
+      "public_epoch": "paired32-5-epoch0",
+      "role": "DEVELOPMENT_SEEN_PAIRED_MECHANISM_VALIDATION_NOT_HELDOUT",
+      "source_case_id": "v2_diag-A_then_C-B5-D3p1"
+    },
+    {
+      "case": {
+        "A_window_ns": [
+          1800000000,
+          3100000000
+        ],
+        "B_service_ns": 50000000,
+        "D_C_ns": 3100000000,
+        "graph_edges": [
+          [
+            "A",
+            "C"
+          ]
+        ],
+        "graph_id": "A_then_C",
+        "id": "v2_diag-A_then_C-B5-D3p1",
+        "role": "NATIVE_DEVELOPMENT_REACHABILITY_DIAGNOSTIC"
+      },
+      "epoch": 0,
+      "id": "paired32-v2_diag-A_then_C-B5-D3p1__event_resource_edf",
+      "method": "event_resource_edf",
+      "order": 6,
+      "private_fault_driver_only": "first_A_stop_drop",
+      "public_epoch": "paired32-6-epoch0",
+      "role": "DEVELOPMENT_SEEN_PAIRED_MECHANISM_VALIDATION_NOT_HELDOUT",
+      "source_case_id": "v2_diag-A_then_C-B5-D3p1"
+    },
+    {
+      "case": {
+        "A_window_ns": [
+          1800000000,
+          3100000000
+        ],
+        "B_service_ns": 50000000,
+        "D_C_ns": 3100000000,
+        "graph_edges": [
+          [
+            "A",
+            "C"
+          ]
+        ],
+        "graph_id": "A_then_C",
+        "id": "v2_diag-A_then_C-B5-D3p1",
+        "role": "NATIVE_DEVELOPMENT_REACHABILITY_DIAGNOSTIC"
+      },
+      "epoch": 0,
+      "id": "paired32-v2_diag-A_then_C-B5-D3p1__joint_interval_mpc",
+      "method": "joint_interval_mpc",
+      "order": 7,
+      "private_fault_driver_only": "first_A_stop_drop",
+      "public_epoch": "paired32-7-epoch0",
+      "role": "DEVELOPMENT_SEEN_PAIRED_MECHANISM_VALIDATION_NOT_HELDOUT",
+      "source_case_id": "v2_diag-A_then_C-B5-D3p1"
+    },
+    {
+      "case": {
+        "A_window_ns": [
+          1800000000,
+          2800000000
+        ],
+        "B_service_ns": 450000000,
+        "D_C_ns": 2800000000,
+        "graph_edges": [
+          [
+            "A",
+            "C"
+          ]
+        ],
+        "graph_id": "A_then_C",
+        "id": "v2_diag-A_then_C-B45-D2p8",
+        "role": "NATIVE_DEVELOPMENT_REACHABILITY_DIAGNOSTIC"
+      },
+      "epoch": 0,
+      "id": "paired32-v2_diag-A_then_C-B45-D2p8__strong_batch",
+      "method": "strong_batch",
+      "order": 8,
+      "private_fault_driver_only": "first_A_stop_drop",
+      "public_epoch": "paired32-8-epoch0",
+      "role": "DEVELOPMENT_SEEN_PAIRED_MECHANISM_VALIDATION_NOT_HELDOUT",
+      "source_case_id": "v2_diag-A_then_C-B45-D2p8"
+    },
+    {
+      "case": {
+        "A_window_ns": [
+          1800000000,
+          2800000000
+        ],
+        "B_service_ns": 450000000,
+        "D_C_ns": 2800000000,
+        "graph_edges": [
+          [
+            "A",
+            "C"
+          ]
+        ],
+        "graph_id": "A_then_C",
+        "id": "v2_diag-A_then_C-B45-D2p8",
+        "role": "NATIVE_DEVELOPMENT_REACHABILITY_DIAGNOSTIC"
+      },
+      "epoch": 0,
+      "id": "paired32-v2_diag-A_then_C-B45-D2p8__guarded_hsm_retry",
+      "method": "guarded_hsm_retry",
+      "order": 9,
+      "private_fault_driver_only": "first_A_stop_drop",
+      "public_epoch": "paired32-9-epoch0",
+      "role": "DEVELOPMENT_SEEN_PAIRED_MECHANISM_VALIDATION_NOT_HELDOUT",
+      "source_case_id": "v2_diag-A_then_C-B45-D2p8"
+    },
+    {
+      "case": {
+        "A_window_ns": [
+          1800000000,
+          2800000000
+        ],
+        "B_service_ns": 450000000,
+        "D_C_ns": 2800000000,
+        "graph_edges": [
+          [
+            "A",
+            "C"
+          ]
+        ],
+        "graph_id": "A_then_C",
+        "id": "v2_diag-A_then_C-B45-D2p8",
+        "role": "NATIVE_DEVELOPMENT_REACHABILITY_DIAGNOSTIC"
+      },
+      "epoch": 0,
+      "id": "paired32-v2_diag-A_then_C-B45-D2p8__event_resource_edf",
+      "method": "event_resource_edf",
+      "order": 10,
+      "private_fault_driver_only": "first_A_stop_drop",
+      "public_epoch": "paired32-10-epoch0",
+      "role": "DEVELOPMENT_SEEN_PAIRED_MECHANISM_VALIDATION_NOT_HELDOUT",
+      "source_case_id": "v2_diag-A_then_C-B45-D2p8"
+    },
+    {
+      "case": {
+        "A_window_ns": [
+          1800000000,
+          2800000000
+        ],
+        "B_service_ns": 450000000,
+        "D_C_ns": 2800000000,
+        "graph_edges": [
+          [
+            "A",
+            "C"
+          ]
+        ],
+        "graph_id": "A_then_C",
+        "id": "v2_diag-A_then_C-B45-D2p8",
+        "role": "NATIVE_DEVELOPMENT_REACHABILITY_DIAGNOSTIC"
+      },
+      "epoch": 0,
+      "id": "paired32-v2_diag-A_then_C-B45-D2p8__joint_interval_mpc",
+      "method": "joint_interval_mpc",
+      "order": 11,
+      "private_fault_driver_only": "first_A_stop_drop",
+      "public_epoch": "paired32-11-epoch0",
+      "role": "DEVELOPMENT_SEEN_PAIRED_MECHANISM_VALIDATION_NOT_HELDOUT",
+      "source_case_id": "v2_diag-A_then_C-B45-D2p8"
+    },
+    {
+      "case": {
+        "A_window_ns": [
+          1800000000,
+          3100000000
+        ],
+        "B_service_ns": 450000000,
+        "D_C_ns": 3100000000,
+        "graph_edges": [
+          [
+            "A",
+            "C"
+          ]
+        ],
+        "graph_id": "A_then_C",
+        "id": "v2_diag-A_then_C-B45-D3p1",
+        "role": "NATIVE_DEVELOPMENT_REACHABILITY_DIAGNOSTIC"
+      },
+      "epoch": 0,
+      "id": "paired32-v2_diag-A_then_C-B45-D3p1__strong_batch",
+      "method": "strong_batch",
+      "order": 12,
+      "private_fault_driver_only": "first_A_stop_drop",
+      "public_epoch": "paired32-12-epoch0",
+      "role": "DEVELOPMENT_SEEN_PAIRED_MECHANISM_VALIDATION_NOT_HELDOUT",
+      "source_case_id": "v2_diag-A_then_C-B45-D3p1"
+    },
+    {
+      "case": {
+        "A_window_ns": [
+          1800000000,
+          3100000000
+        ],
+        "B_service_ns": 450000000,
+        "D_C_ns": 3100000000,
+        "graph_edges": [
+          [
+            "A",
+            "C"
+          ]
+        ],
+        "graph_id": "A_then_C",
+        "id": "v2_diag-A_then_C-B45-D3p1",
+        "role": "NATIVE_DEVELOPMENT_REACHABILITY_DIAGNOSTIC"
+      },
+      "epoch": 0,
+      "id": "paired32-v2_diag-A_then_C-B45-D3p1__guarded_hsm_retry",
+      "method": "guarded_hsm_retry",
+      "order": 13,
+      "private_fault_driver_only": "first_A_stop_drop",
+      "public_epoch": "paired32-13-epoch0",
+      "role": "DEVELOPMENT_SEEN_PAIRED_MECHANISM_VALIDATION_NOT_HELDOUT",
+      "source_case_id": "v2_diag-A_then_C-B45-D3p1"
+    },
+    {
+      "case": {
+        "A_window_ns": [
+          1800000000,
+          3100000000
+        ],
+        "B_service_ns": 450000000,
+        "D_C_ns": 3100000000,
+        "graph_edges": [
+          [
+            "A",
+            "C"
+          ]
+        ],
+        "graph_id": "A_then_C",
+        "id": "v2_diag-A_then_C-B45-D3p1",
+        "role": "NATIVE_DEVELOPMENT_REACHABILITY_DIAGNOSTIC"
+      },
+      "epoch": 0,
+      "id": "paired32-v2_diag-A_then_C-B45-D3p1__event_resource_edf",
+      "method": "event_resource_edf",
+      "order": 14,
+      "private_fault_driver_only": "first_A_stop_drop",
+      "public_epoch": "paired32-14-epoch0",
+      "role": "DEVELOPMENT_SEEN_PAIRED_MECHANISM_VALIDATION_NOT_HELDOUT",
+      "source_case_id": "v2_diag-A_then_C-B45-D3p1"
+    },
+    {
+      "case": {
+        "A_window_ns": [
+          1800000000,
+          3100000000
+        ],
+        "B_service_ns": 450000000,
+        "D_C_ns": 3100000000,
+        "graph_edges": [
+          [
+            "A",
+            "C"
+          ]
+        ],
+        "graph_id": "A_then_C",
+        "id": "v2_diag-A_then_C-B45-D3p1",
+        "role": "NATIVE_DEVELOPMENT_REACHABILITY_DIAGNOSTIC"
+      },
+      "epoch": 0,
+      "id": "paired32-v2_diag-A_then_C-B45-D3p1__joint_interval_mpc",
+      "method": "joint_interval_mpc",
+      "order": 15,
+      "private_fault_driver_only": "first_A_stop_drop",
+      "public_epoch": "paired32-15-epoch0",
+      "role": "DEVELOPMENT_SEEN_PAIRED_MECHANISM_VALIDATION_NOT_HELDOUT",
+      "source_case_id": "v2_diag-A_then_C-B45-D3p1"
+    },
+    {
+      "case": {
+        "A_window_ns": [
+          1800000000,
+          2800000000
+        ],
+        "B_service_ns": 50000000,
+        "D_C_ns": 2800000000,
+        "graph_edges": [
+          [
+            "C",
+            "A"
+          ]
+        ],
+        "graph_id": "C_then_A",
+        "id": "v2_diag-C_then_A-B5-D2p8",
+        "role": "NATIVE_DEVELOPMENT_REACHABILITY_DIAGNOSTIC"
+      },
+      "epoch": 0,
+      "id": "paired32-v2_diag-C_then_A-B5-D2p8__strong_batch",
+      "method": "strong_batch",
+      "order": 16,
+      "private_fault_driver_only": "first_A_stop_drop",
+      "public_epoch": "paired32-16-epoch0",
+      "role": "DEVELOPMENT_SEEN_PAIRED_MECHANISM_VALIDATION_NOT_HELDOUT",
+      "source_case_id": "v2_diag-C_then_A-B5-D2p8"
+    },
+    {
+      "case": {
+        "A_window_ns": [
+          1800000000,
+          2800000000
+        ],
+        "B_service_ns": 50000000,
+        "D_C_ns": 2800000000,
+        "graph_edges": [
+          [
+            "C",
+            "A"
+          ]
+        ],
+        "graph_id": "C_then_A",
+        "id": "v2_diag-C_then_A-B5-D2p8",
+        "role": "NATIVE_DEVELOPMENT_REACHABILITY_DIAGNOSTIC"
+      },
+      "epoch": 0,
+      "id": "paired32-v2_diag-C_then_A-B5-D2p8__guarded_hsm_retry",
+      "method": "guarded_hsm_retry",
+      "order": 17,
+      "private_fault_driver_only": "first_A_stop_drop",
+      "public_epoch": "paired32-17-epoch0",
+      "role": "DEVELOPMENT_SEEN_PAIRED_MECHANISM_VALIDATION_NOT_HELDOUT",
+      "source_case_id": "v2_diag-C_then_A-B5-D2p8"
+    },
+    {
+      "case": {
+        "A_window_ns": [
+          1800000000,
+          2800000000
+        ],
+        "B_service_ns": 50000000,
+        "D_C_ns": 2800000000,
+        "graph_edges": [
+          [
+            "C",
+            "A"
+          ]
+        ],
+        "graph_id": "C_then_A",
+        "id": "v2_diag-C_then_A-B5-D2p8",
+        "role": "NATIVE_DEVELOPMENT_REACHABILITY_DIAGNOSTIC"
+      },
+      "epoch": 0,
+      "id": "paired32-v2_diag-C_then_A-B5-D2p8__event_resource_edf",
+      "method": "event_resource_edf",
+      "order": 18,
+      "private_fault_driver_only": "first_A_stop_drop",
+      "public_epoch": "paired32-18-epoch0",
+      "role": "DEVELOPMENT_SEEN_PAIRED_MECHANISM_VALIDATION_NOT_HELDOUT",
+      "source_case_id": "v2_diag-C_then_A-B5-D2p8"
+    },
+    {
+      "case": {
+        "A_window_ns": [
+          1800000000,
+          2800000000
+        ],
+        "B_service_ns": 50000000,
+        "D_C_ns": 2800000000,
+        "graph_edges": [
+          [
+            "C",
+            "A"
+          ]
+        ],
+        "graph_id": "C_then_A",
+        "id": "v2_diag-C_then_A-B5-D2p8",
+        "role": "NATIVE_DEVELOPMENT_REACHABILITY_DIAGNOSTIC"
+      },
+      "epoch": 0,
+      "id": "paired32-v2_diag-C_then_A-B5-D2p8__joint_interval_mpc",
+      "method": "joint_interval_mpc",
+      "order": 19,
+      "private_fault_driver_only": "first_A_stop_drop",
+      "public_epoch": "paired32-19-epoch0",
+      "role": "DEVELOPMENT_SEEN_PAIRED_MECHANISM_VALIDATION_NOT_HELDOUT",
+      "source_case_id": "v2_diag-C_then_A-B5-D2p8"
+    },
+    {
+      "case": {
+        "A_window_ns": [
+          1800000000,
+          3100000000
+        ],
+        "B_service_ns": 50000000,
+        "D_C_ns": 3100000000,
+        "graph_edges": [
+          [
+            "C",
+            "A"
+          ]
+        ],
+        "graph_id": "C_then_A",
+        "id": "v2_diag-C_then_A-B5-D3p1",
+        "role": "NATIVE_DEVELOPMENT_REACHABILITY_DIAGNOSTIC"
+      },
+      "epoch": 0,
+      "id": "paired32-v2_diag-C_then_A-B5-D3p1__strong_batch",
+      "method": "strong_batch",
+      "order": 20,
+      "private_fault_driver_only": "first_A_stop_drop",
+      "public_epoch": "paired32-20-epoch0",
+      "role": "DEVELOPMENT_SEEN_PAIRED_MECHANISM_VALIDATION_NOT_HELDOUT",
+      "source_case_id": "v2_diag-C_then_A-B5-D3p1"
+    },
+    {
+      "case": {
+        "A_window_ns": [
+          1800000000,
+          3100000000
+        ],
+        "B_service_ns": 50000000,
+        "D_C_ns": 3100000000,
+        "graph_edges": [
+          [
+            "C",
+            "A"
+          ]
+        ],
+        "graph_id": "C_then_A",
+        "id": "v2_diag-C_then_A-B5-D3p1",
+        "role": "NATIVE_DEVELOPMENT_REACHABILITY_DIAGNOSTIC"
+      },
+      "epoch": 0,
+      "id": "paired32-v2_diag-C_then_A-B5-D3p1__guarded_hsm_retry",
+      "method": "guarded_hsm_retry",
+      "order": 21,
+      "private_fault_driver_only": "first_A_stop_drop",
+      "public_epoch": "paired32-21-epoch0",
+      "role": "DEVELOPMENT_SEEN_PAIRED_MECHANISM_VALIDATION_NOT_HELDOUT",
+      "source_case_id": "v2_diag-C_then_A-B5-D3p1"
+    },
+    {
+      "case": {
+        "A_window_ns": [
+          1800000000,
+          3100000000
+        ],
+        "B_service_ns": 50000000,
+        "D_C_ns": 3100000000,
+        "graph_edges": [
+          [
+            "C",
+            "A"
+          ]
+        ],
+        "graph_id": "C_then_A",
+        "id": "v2_diag-C_then_A-B5-D3p1",
+        "role": "NATIVE_DEVELOPMENT_REACHABILITY_DIAGNOSTIC"
+      },
+      "epoch": 0,
+      "id": "paired32-v2_diag-C_then_A-B5-D3p1__event_resource_edf",
+      "method": "event_resource_edf",
+      "order": 22,
+      "private_fault_driver_only": "first_A_stop_drop",
+      "public_epoch": "paired32-22-epoch0",
+      "role": "DEVELOPMENT_SEEN_PAIRED_MECHANISM_VALIDATION_NOT_HELDOUT",
+      "source_case_id": "v2_diag-C_then_A-B5-D3p1"
+    },
+    {
+      "case": {
+        "A_window_ns": [
+          1800000000,
+          3100000000
+        ],
+        "B_service_ns": 50000000,
+        "D_C_ns": 3100000000,
+        "graph_edges": [
+          [
+            "C",
+            "A"
+          ]
+        ],
+        "graph_id": "C_then_A",
+        "id": "v2_diag-C_then_A-B5-D3p1",
+        "role": "NATIVE_DEVELOPMENT_REACHABILITY_DIAGNOSTIC"
+      },
+      "epoch": 0,
+      "id": "paired32-v2_diag-C_then_A-B5-D3p1__joint_interval_mpc",
+      "method": "joint_interval_mpc",
+      "order": 23,
+      "private_fault_driver_only": "first_A_stop_drop",
+      "public_epoch": "paired32-23-epoch0",
+      "role": "DEVELOPMENT_SEEN_PAIRED_MECHANISM_VALIDATION_NOT_HELDOUT",
+      "source_case_id": "v2_diag-C_then_A-B5-D3p1"
+    },
+    {
+      "case": {
+        "A_window_ns": [
+          1800000000,
+          2800000000
+        ],
+        "B_service_ns": 450000000,
+        "D_C_ns": 2800000000,
+        "graph_edges": [
+          [
+            "C",
+            "A"
+          ]
+        ],
+        "graph_id": "C_then_A",
+        "id": "v2_diag-C_then_A-B45-D2p8",
+        "role": "NATIVE_DEVELOPMENT_REACHABILITY_DIAGNOSTIC"
+      },
+      "epoch": 0,
+      "id": "paired32-v2_diag-C_then_A-B45-D2p8__strong_batch",
+      "method": "strong_batch",
+      "order": 24,
+      "private_fault_driver_only": "first_A_stop_drop",
+      "public_epoch": "paired32-24-epoch0",
+      "role": "DEVELOPMENT_SEEN_PAIRED_MECHANISM_VALIDATION_NOT_HELDOUT",
+      "source_case_id": "v2_diag-C_then_A-B45-D2p8"
+    },
+    {
+      "case": {
+        "A_window_ns": [
+          1800000000,
+          2800000000
+        ],
+        "B_service_ns": 450000000,
+        "D_C_ns": 2800000000,
+        "graph_edges": [
+          [
+            "C",
+            "A"
+          ]
+        ],
+        "graph_id": "C_then_A",
+        "id": "v2_diag-C_then_A-B45-D2p8",
+        "role": "NATIVE_DEVELOPMENT_REACHABILITY_DIAGNOSTIC"
+      },
+      "epoch": 0,
+      "id": "paired32-v2_diag-C_then_A-B45-D2p8__guarded_hsm_retry",
+      "method": "guarded_hsm_retry",
+      "order": 25,
+      "private_fault_driver_only": "first_A_stop_drop",
+      "public_epoch": "paired32-25-epoch0",
+      "role": "DEVELOPMENT_SEEN_PAIRED_MECHANISM_VALIDATION_NOT_HELDOUT",
+      "source_case_id": "v2_diag-C_then_A-B45-D2p8"
+    },
+    {
+      "case": {
+        "A_window_ns": [
+          1800000000,
+          2800000000
+        ],
+        "B_service_ns": 450000000,
+        "D_C_ns": 2800000000,
+        "graph_edges": [
+          [
+            "C",
+            "A"
+          ]
+        ],
+        "graph_id": "C_then_A",
+        "id": "v2_diag-C_then_A-B45-D2p8",
+        "role": "NATIVE_DEVELOPMENT_REACHABILITY_DIAGNOSTIC"
+      },
+      "epoch": 0,
+      "id": "paired32-v2_diag-C_then_A-B45-D2p8__event_resource_edf",
+      "method": "event_resource_edf",
+      "order": 26,
+      "private_fault_driver_only": "first_A_stop_drop",
+      "public_epoch": "paired32-26-epoch0",
+      "role": "DEVELOPMENT_SEEN_PAIRED_MECHANISM_VALIDATION_NOT_HELDOUT",
+      "source_case_id": "v2_diag-C_then_A-B45-D2p8"
+    },
+    {
+      "case": {
+        "A_window_ns": [
+          1800000000,
+          2800000000
+        ],
+        "B_service_ns": 450000000,
+        "D_C_ns": 2800000000,
+        "graph_edges": [
+          [
+            "C",
+            "A"
+          ]
+        ],
+        "graph_id": "C_then_A",
+        "id": "v2_diag-C_then_A-B45-D2p8",
+        "role": "NATIVE_DEVELOPMENT_REACHABILITY_DIAGNOSTIC"
+      },
+      "epoch": 0,
+      "id": "paired32-v2_diag-C_then_A-B45-D2p8__joint_interval_mpc",
+      "method": "joint_interval_mpc",
+      "order": 27,
+      "private_fault_driver_only": "first_A_stop_drop",
+      "public_epoch": "paired32-27-epoch0",
+      "role": "DEVELOPMENT_SEEN_PAIRED_MECHANISM_VALIDATION_NOT_HELDOUT",
+      "source_case_id": "v2_diag-C_then_A-B45-D2p8"
+    },
+    {
+      "case": {
+        "A_window_ns": [
+          1800000000,
+          3100000000
+        ],
+        "B_service_ns": 450000000,
+        "D_C_ns": 3100000000,
+        "graph_edges": [
+          [
+            "C",
+            "A"
+          ]
+        ],
+        "graph_id": "C_then_A",
+        "id": "v2_diag-C_then_A-B45-D3p1",
+        "role": "NATIVE_DEVELOPMENT_REACHABILITY_DIAGNOSTIC"
+      },
+      "epoch": 0,
+      "id": "paired32-v2_diag-C_then_A-B45-D3p1__strong_batch",
+      "method": "strong_batch",
+      "order": 28,
+      "private_fault_driver_only": "first_A_stop_drop",
+      "public_epoch": "paired32-28-epoch0",
+      "role": "DEVELOPMENT_SEEN_PAIRED_MECHANISM_VALIDATION_NOT_HELDOUT",
+      "source_case_id": "v2_diag-C_then_A-B45-D3p1"
+    },
+    {
+      "case": {
+        "A_window_ns": [
+          1800000000,
+          3100000000
+        ],
+        "B_service_ns": 450000000,
+        "D_C_ns": 3100000000,
+        "graph_edges": [
+          [
+            "C",
+            "A"
+          ]
+        ],
+        "graph_id": "C_then_A",
+        "id": "v2_diag-C_then_A-B45-D3p1",
+        "role": "NATIVE_DEVELOPMENT_REACHABILITY_DIAGNOSTIC"
+      },
+      "epoch": 0,
+      "id": "paired32-v2_diag-C_then_A-B45-D3p1__guarded_hsm_retry",
+      "method": "guarded_hsm_retry",
+      "order": 29,
+      "private_fault_driver_only": "first_A_stop_drop",
+      "public_epoch": "paired32-29-epoch0",
+      "role": "DEVELOPMENT_SEEN_PAIRED_MECHANISM_VALIDATION_NOT_HELDOUT",
+      "source_case_id": "v2_diag-C_then_A-B45-D3p1"
+    },
+    {
+      "case": {
+        "A_window_ns": [
+          1800000000,
+          3100000000
+        ],
+        "B_service_ns": 450000000,
+        "D_C_ns": 3100000000,
+        "graph_edges": [
+          [
+            "C",
+            "A"
+          ]
+        ],
+        "graph_id": "C_then_A",
+        "id": "v2_diag-C_then_A-B45-D3p1",
+        "role": "NATIVE_DEVELOPMENT_REACHABILITY_DIAGNOSTIC"
+      },
+      "epoch": 0,
+      "id": "paired32-v2_diag-C_then_A-B45-D3p1__event_resource_edf",
+      "method": "event_resource_edf",
+      "order": 30,
+      "private_fault_driver_only": "first_A_stop_drop",
+      "public_epoch": "paired32-30-epoch0",
+      "role": "DEVELOPMENT_SEEN_PAIRED_MECHANISM_VALIDATION_NOT_HELDOUT",
+      "source_case_id": "v2_diag-C_then_A-B45-D3p1"
+    },
+    {
+      "case": {
+        "A_window_ns": [
+          1800000000,
+          3100000000
+        ],
+        "B_service_ns": 450000000,
+        "D_C_ns": 3100000000,
+        "graph_edges": [
+          [
+            "C",
+            "A"
+          ]
+        ],
+        "graph_id": "C_then_A",
+        "id": "v2_diag-C_then_A-B45-D3p1",
+        "role": "NATIVE_DEVELOPMENT_REACHABILITY_DIAGNOSTIC"
+      },
+      "epoch": 0,
+      "id": "paired32-v2_diag-C_then_A-B45-D3p1__joint_interval_mpc",
+      "method": "joint_interval_mpc",
+      "order": 31,
+      "private_fault_driver_only": "first_A_stop_drop",
+      "public_epoch": "paired32-31-epoch0",
+      "role": "DEVELOPMENT_SEEN_PAIRED_MECHANISM_VALIDATION_NOT_HELDOUT",
+      "source_case_id": "v2_diag-C_then_A-B45-D3p1"
+    }
+  ],
+  "schema": "paperb-stateful-native-paired32-fixed-roster-v1",
+  "unseen_or_random_instances": false
+}

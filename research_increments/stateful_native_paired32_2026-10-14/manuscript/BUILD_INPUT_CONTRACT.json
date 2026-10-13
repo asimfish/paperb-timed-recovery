@@ -1,0 +1,40 @@
+{
+  "schema": "paperb-paired32-component-manuscript-input-contract-v1",
+  "scope": "Two-page ICML preprint component note; mechanical simulation and evidence interface only",
+  "formal_PDF_before_actual32_audit": false,
+  "source_release_sha256": "171b6e1154341261b5437fc752f72bcbb0267ee236b344badc3f2fc189f692fd",
+  "official_style_sha256": "7cdcf90f6a59c5219e7f15c88f7ed09fcaf598dad91e6cdddc4dc3cb0e397a95",
+  "canonical_root_summary": "../results/PUBLIC_SUMMARY.json",
+  "canonical_root_csv": "../results/ALL32_RESULTS.csv",
+  "canonical_root_figure": "../figures/native_paired32_summary.pdf",
+  "actual32_independent_audit": "root-supplied final audit receipt and full artifact, each byte-SHA bound to PUBLIC_SUMMARY",
+  "required_before_generation": [
+    "Exactly the fixed ROSTER32 rows, eight per method, with failed/refused/unknown/unstarted retained",
+    "All32 terminal closure and independent RAW audit decision recorded, not actor/copied-referee/exit0 acceptance",
+    "Public summary, ALL32 CSV, independent audit and figure share the final source release and actual audit binding",
+    "Method T/F/U counts are recomputed from all CSV rows and agree with independent audit/public summary",
+    "Decisions and candidate counts use actual audited per-episode records, not planned or synthetic values",
+    "Primary32 and diagnostic reintegration32 remain separate; single primary1/diagnostic1 not reused",
+    "Strong-batch tie/null retained whenever present; no inference of IID, OOD, heldout or agentic learning benefit"
+  ],
+  "required_build_gate": [
+    "Generate canonical completed TeX from .tex.in using actual bound data; no unresolved markers/pending/TODO text",
+    "Keep official style bytes/font/margins unchanged",
+    "Run LaTeX twice after final edits with zero undefined citations and zero overfull boxes",
+    "Confirm exactly two pages and inspect every rendered page visually",
+    "Archive canonical source, actual input receipts, CSV and vector figure; reopen every member and verify SHA",
+    "Root conducts separate final visual/fact review"
+  ],
+  "separate_base_evidence": {
+    "software_matrix": 64,
+    "single_primary": 1,
+    "single_diagnostic_reintegration": 1,
+    "legacy_metadata_records": 28,
+    "legacy_image_action_candidates": 852,
+    "legacy_UNKNOWN_policy_delivery": 832,
+    "legacy_REJECTED_no_future_submission": 20,
+    "metadata_CPU_checks": 34,
+    "DP_offline_RL_OPD_training_admitted": 0
+  },
+  "new_native_GPU_fit_by_manuscript_builder": 0
+}

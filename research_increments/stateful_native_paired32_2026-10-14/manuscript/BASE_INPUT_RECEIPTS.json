@@ -1,0 +1,40 @@
+{
+  "actual32_result_inputs_received": false,
+  "created_at_utc": "2026-10-13T18:10:47.234820+00:00",
+  "formal_PDF_generated": false,
+  "inputs": {
+    "CPU_GATE.json": {
+      "sha256": "032eba924d963a614d41a5638b7ab875e8f226ba5d8fd922db62e26d2a056069",
+      "source": "/mnt/nas/data/lyf/chem_mem/awesome_memory_chem/papers/paperB/research_increments/stateful_controller_expansion_2026-10-13/cpu_outputs/root_terminal_v2_20261014/CPU_GATE.json"
+    },
+    "METADATA_CPU_ACCEPTANCE.json": {
+      "sha256": "ec3653149a723d3041d36ad948ce2e999f50e85c358b10cdcfa865765f221302",
+      "source": "/mnt/nas/data/lyf/chem_mem/awesome_memory_chem/papers/paperB/research_increments/stateful_controller_expansion_2026-10-13/learning_data_design/CPU_ACCEPTANCE.json"
+    },
+    "METADATA_PUBLIC_SUMMARY.json": {
+      "sha256": "4f21d78ecbd5fedd4d339ca563010e6c04fc87d3b9945790d1a2db0b00682cd0",
+      "source": "/mnt/nas/data/lyf/chem_mem/awesome_memory_chem/papers/paperB/research_increments/stateful_controller_expansion_2026-10-13/learning_data_design/PUBLIC_SUMMARY.json"
+    },
+    "METADATA_SUMMARY.json": {
+      "sha256": "545f3d0530ab416e311101d4133d86b78444b6ad4cca0ac26bf8ba844381bc88",
+      "source": "/mnt/nas/data/lyf/chem_mem/awesome_memory_chem/papers/paperB/research_increments/stateful_controller_expansion_2026-10-13/learning_data_design/metadata_v1/SUMMARY.json"
+    },
+    "PUBLIC_METADATA_REPLAY.json": {
+      "sha256": "2d12bc4c2565c4d2dfc0f47e5f617d78c05afb1edee221d7bd969f816686b0d4",
+      "source": "/mnt/nas/data/lyf/chem_mem/awesome_memory_chem/papers/paperB/research_increments/stateful_controller_expansion_2026-10-13/PUBLIC_METADATA_REPLAY.json"
+    },
+    "SINGLE_PUBLIC_RECEIPT.json": {
+      "sha256": "ecf2d35f9c3a24c17cd42e2b80f2fd421b03f4d088f2b415d9f2d31e3a40d42a",
+      "source": "/mnt/nas/data/lyf/chem_mem/awesome_memory_chem/papers/paperB/research_increments/stateful_native_paired32_2026-10-14/single_prerequisite/PUBLIC_SINGLE_RAW_RECEIPT.json"
+    },
+    "SINGLE_RAW_AUDIT.json": {
+      "sha256": "ec1d2cdf59ce5b958cdd32322162e27eff45d3897bb4cb58b9df7491169e01dd",
+      "source": "/mnt/nas/data/lyf/chem_mem/awesome_memory_chem/papers/paperB/research_increments/stateful_native_paired32_2026-10-14/single_prerequisite/full_independent_audit/NATIVE_RAW_AUDIT.json"
+    }
+  },
+  "new_native_GPU_fit": 0,
+  "official_style_copy_unchanged": true,
+  "official_style_sha256": "7cdcf90f6a59c5219e7f15c88f7ed09fcaf598dad91e6cdddc4dc3cb0e397a95",
+  "schema": "paperb-paired32-manuscript-base-inputs-v1",
+  "source_mutations_outside_owned_manuscript": 0
+}

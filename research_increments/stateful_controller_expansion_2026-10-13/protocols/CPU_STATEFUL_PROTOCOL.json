@@ -1,0 +1,66 @@
+{
+  "schema": "paperb-public-stateful-cpu-protocol-v1",
+  "role": "SOFTWARE_LIFECYCLE_AND_RECORDED_PUBLIC_OBSERVER_COMPONENT",
+  "status": "CPU_COMPONENT_ONLY; FORMAL_NATIVE32_NOT_FROZEN_NOT_EXECUTED",
+  "previous_development_probes_disclosed": true,
+  "cases_are_eight_previously_seen_development_configurations": true,
+  "main_software_roster": {
+    "cases": "all eight cases in source_inputs/scenario_PROTOCOL_V2.json in their stored order",
+    "methods": ["strong_batch", "guarded_hsm_retry", "event_resource_edf", "joint_interval_mpc"],
+    "software_counterfactual_faults": ["none", "first_A_stop_drop"],
+    "count": 64,
+    "count_definition": "8 fixed configurations x 4 actual lifecycles x 2 scalar software branch fixtures",
+    "all_failures_and_missing_cases_retained": true,
+    "not_native_robot_or_chemistry_or_formal32": true,
+    "none_branch_timing_success_is_not_source_referee_recovery_joint": true
+  },
+  "public_packet_replay": {
+    "source": "unchanged complete_native_witness_bundle.tar.gz",
+    "allowed_members": "eight public_deliveries.json only",
+    "count": 8,
+    "role": "recorded public observer conformance, no newly executed policy actions",
+    "scores_or_private_effects_used_as_actor_input": false
+  },
+  "stress_fixtures": {
+    "separate_from_64": true,
+    "cases": ["public_calendar_added_after_initial_plan", "persistent_A_power_after_both_requests", "B_torque_0.04_outside_public_profile", "missing_public_sample", "uncertain_anchor_tail", "transient_unconfirmed_stop"],
+    "canonical_scene_changed": false,
+    "method_advantage_claim": false
+  },
+  "shared_information": ["exact public Contract", "causal Packet capture/arrival", "accepted public Reservation", "service ACK", "original immutable B event", "same predeclared unfitted nominal model", "none/first_A_stop_drop hypothesis union"],
+  "shared_budget": {
+    "dt_ns": 10000000,
+    "paid_decision_ns": 20000000,
+    "physics_or_software_fixture_continues_during_decision_charge": true,
+    "maximum_candidates_per_decision": 1000,
+    "maximum_candidates_per_epoch": 10000,
+    "maximum_requests_A": 2,
+    "maximum_requests_C": 2,
+    "maximum_requests_total": 4,
+    "resource_rejected_candidate_charged": true,
+    "emitted_pending_requests_charged_before_receipt": true,
+    "accepted_requests_never_cancelled_or_refunded": true,
+    "blind_redundancy_allowed_all_methods": true,
+    "mpc_min_replan_interval_ns": 100000000
+  },
+  "event_semantics": {
+    "B_coarse_immutable_identity": true,
+    "same_event_model_refinement_conditional_not_true_support": true,
+    "ACK_is_effect": false,
+    "fresh_effect_packet_capture_at_least_ACK_plus_dt": true,
+    "stop_confirmation_ns": 200000000,
+    "first_confirmed_stop_only": true,
+    "B_maintenance_ns": 6000000000,
+    "B_control_profile": [0.06, 0.045],
+    "B_uncertain_anchor_tail_violation": "UNKNOWN; not a definite failure and never PASS",
+    "missing_expected_samples": "UNKNOWN; not continuous-time assurance"
+  },
+  "new_native_episodes": 0,
+  "GPU": 0,
+  "fit": 0,
+  "new_weights": 0,
+  "future_native_development_cap": 1,
+  "future_native_development_admission": "independent source review and root approval first; no execution by this CPU gate",
+  "future_candidate_development_case": "v2_diag-A_then_C-B45-D2p8, guarded_hsm_retry, original first_A_stop_drop; not a formal method rate",
+  "unsupported_claims": ["agentic necessity or advantage", "unseen heldout generalization", "real chemistry", "new robot episodes", "model support guarantee", "all-policy infeasibility", "hostile Python process sandbox"]
+}

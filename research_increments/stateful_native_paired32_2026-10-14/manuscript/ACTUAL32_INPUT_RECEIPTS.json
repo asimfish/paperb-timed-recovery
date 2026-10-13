@@ -1,0 +1,61 @@
+{
+  "all32_CSV_sha256": "bf61ed86dde4f0f4da316c614e2b6a59ab67c2b358db13efceac609393efa9fa",
+  "all32_data_compared_with_independent_audit": true,
+  "canonical_tex_sha256": "3a11f48a213abd00eec6c593cf8625792defc214f4a98a9362c7094509e95ffb",
+  "created_at_utc": "2026-10-13T18:32:17.606842+00:00",
+  "diagnostic_reintegration": 32,
+  "heldout": false,
+  "independent_audit_sha256": "ecff99605f7899785ec25c630309e0a5084039955133de33faad486ee9e8967b",
+  "inputs": {
+    "ALL32_RESULTS.csv": {
+      "bytes": 11992,
+      "copied_path": "inputs/ALL32_RESULTS.csv",
+      "sha256": "bf61ed86dde4f0f4da316c614e2b6a59ab67c2b358db13efceac609393efa9fa",
+      "source_path": "/mnt/nas/data/lyf/chem_mem/awesome_memory_chem/papers/paperB/research_increments/stateful_native_paired32_2026-10-14/results/ALL32_RESULTS.csv"
+    },
+    "FIGURE_PROVENANCE.json": {
+      "bytes": 730,
+      "copied_path": "inputs/FIGURE_PROVENANCE.json",
+      "sha256": "0bac294ca2c73bcdd24b9ccc78dee3231c20fd025c5e64c811d29d80cf2a2ef1",
+      "source_path": "/mnt/nas/data/lyf/chem_mem/awesome_memory_chem/papers/paperB/research_increments/stateful_native_paired32_2026-10-14/figures/FIGURE_PROVENANCE.json"
+    },
+    "PAIRED_PUBLIC_SUMMARY.json": {
+      "bytes": 3730,
+      "copied_path": "inputs/PAIRED_PUBLIC_SUMMARY.json",
+      "sha256": "9aa298f0e8fb686c06aeb213f0e1c0be3c323f4eca9afb34cddd048454dad00e",
+      "source_path": "/mnt/nas/data/lyf/chem_mem/awesome_memory_chem/papers/paperB/research_increments/stateful_native_paired32_2026-10-14/results/PUBLIC_SUMMARY.json"
+    },
+    "PAIRED_RAW_AUDIT.json": {
+      "bytes": 228475,
+      "copied_path": "inputs/PAIRED_RAW_AUDIT.json",
+      "sha256": "ecff99605f7899785ec25c630309e0a5084039955133de33faad486ee9e8967b",
+      "source_path": "/mnt/nas/data/lyf/chem_mem/awesome_memory_chem/papers/paperB/research_increments/stateful_native_paired32_2026-10-14/independent_raw_audit/PAIRED_RAW_AUDIT.json"
+    },
+    "native_paired32_summary.pdf": {
+      "bytes": 21177,
+      "copied_path": "inputs/native_paired32_summary.pdf",
+      "sha256": "f5a3df7808b768a414e5bc15280588e5c7b45b9226b17cb3bf5ec52cf5f36129",
+      "source_path": "/mnt/nas/data/lyf/chem_mem/awesome_memory_chem/papers/paperB/research_increments/stateful_native_paired32_2026-10-14/figures/native_paired32_summary.pdf"
+    },
+    "native_paired32_summary.png": {
+      "bytes": 111204,
+      "copied_path": "inputs/native_paired32_summary.png",
+      "sha256": "673bd77b35e4e3c416720aa30a4768692bf73838e43adaed1ba104b7856995fb",
+      "source_path": "/mnt/nas/data/lyf/chem_mem/awesome_memory_chem/papers/paperB/research_increments/stateful_native_paired32_2026-10-14/figures/native_paired32_summary.png"
+    },
+    "native_paired32_summary.svg": {
+      "bytes": 51845,
+      "copied_path": "inputs/native_paired32_summary.svg",
+      "sha256": "c1ef462e02328e65874c899139d84316de2ca39ac9921febf24ae2b804768677",
+      "source_path": "/mnt/nas/data/lyf/chem_mem/awesome_memory_chem/papers/paperB/research_increments/stateful_native_paired32_2026-10-14/figures/native_paired32_summary.svg"
+    }
+  },
+  "new_native_GPU_fit": 0,
+  "official_style_sha256": "7cdcf90f6a59c5219e7f15c88f7ed09fcaf598dad91e6cdddc4dc3cb0e397a95",
+  "primary": 32,
+  "root_summary_sha256": "9aa298f0e8fb686c06aeb213f0e1c0be3c323f4eca9afb34cddd048454dad00e",
+  "schema": "paperb-paired32-manuscript-actual-inputs-v1",
+  "source_release_sha256": "171b6e1154341261b5437fc752f72bcbb0267ee236b344badc3f2fc189f692fd",
+  "strong_batch_tie_retained": true,
+  "training_rows": 0
+}

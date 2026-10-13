@@ -1,0 +1,13 @@
+{
+  "source_csv_sha256": "bf61ed86dde4f0f4da316c614e2b6a59ab67c2b358db13efceac609393efa9fa",
+  "independent_audit_sha256": "ecff99605f7899785ec25c630309e0a5084039955133de33faad486ee9e8967b",
+  "plot_source_sha256": "1b27ff6d601684e623b2bc7d72eb0ec6b93c144a9c5aee0ea0e7d33b5408de42",
+  "files": {
+    "native_paired32_summary.pdf": "f5a3df7808b768a414e5bc15280588e5c7b45b9226b17cb3bf5ec52cf5f36129",
+    "native_paired32_summary.png": "673bd77b35e4e3c416720aa30a4768692bf73838e43adaed1ba104b7856995fb",
+    "native_paired32_summary.svg": "c1ef462e02328e65874c899139d84316de2ca39ac9921febf24ae2b804768677"
+  },
+  "raw_interval_whole_containment_not_midpoint_scoring": true,
+  "all32_cases_present": true,
+  "extra_native_runs": 0
+}

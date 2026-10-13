@@ -1,0 +1,161 @@
+{
+  "schema": "paperb-paired32-root-physical-report-v1",
+  "status": "PASS_ALL32_SOURCE_BOUND_INDEPENDENT_RAW_REPORT",
+  "source_release_sha256": "171b6e1154341261b5437fc752f72bcbb0267ee236b344badc3f2fc189f692fd",
+  "independent_auditor_release_sha256": "05994806faddf77510b779d36b06197dde457b1d44d57bda5c98eabe44b8041e",
+  "independent_audit_sha256": "ecff99605f7899785ec25c630309e0a5084039955133de33faad486ee9e8967b",
+  "primary_case_denominator": 32,
+  "per_method_denominator": 8,
+  "by_method": {
+    "strong_batch": {
+      "denominator": 8,
+      "T_F_U": {
+        "TRUE": 8,
+        "FALSE": 0,
+        "UNKNOWN": 0
+      },
+      "RAW_integrity_PASS": 8,
+      "decisions_range": [
+        1,
+        1
+      ],
+      "candidates_range": [
+        282,
+        370
+      ],
+      "actual_A_requests_range": [
+        2,
+        2
+      ],
+      "actual_C_requests_range": [
+        1,
+        1
+      ],
+      "virtual_charge_range_ns": [
+        20000000,
+        20000000
+      ],
+      "maximum_queue_wait_ns": 0
+    },
+    "guarded_hsm_retry": {
+      "denominator": 8,
+      "T_F_U": {
+        "TRUE": 8,
+        "FALSE": 0,
+        "UNKNOWN": 0
+      },
+      "RAW_integrity_PASS": 8,
+      "decisions_range": [
+        1,
+        4
+      ],
+      "candidates_range": [
+        286,
+        901
+      ],
+      "actual_A_requests_range": [
+        2,
+        2
+      ],
+      "actual_C_requests_range": [
+        1,
+        1
+      ],
+      "virtual_charge_range_ns": [
+        20000000,
+        80000000
+      ],
+      "maximum_queue_wait_ns": 0
+    },
+    "event_resource_edf": {
+      "denominator": 8,
+      "T_F_U": {
+        "TRUE": 8,
+        "FALSE": 0,
+        "UNKNOWN": 0
+      },
+      "RAW_integrity_PASS": 8,
+      "decisions_range": [
+        3,
+        4
+      ],
+      "candidates_range": [
+        284,
+        1197
+      ],
+      "actual_A_requests_range": [
+        2,
+        2
+      ],
+      "actual_C_requests_range": [
+        1,
+        1
+      ],
+      "virtual_charge_range_ns": [
+        60000000,
+        80000000
+      ],
+      "maximum_queue_wait_ns": 20000000
+    },
+    "joint_interval_mpc": {
+      "denominator": 8,
+      "T_F_U": {
+        "TRUE": 8,
+        "FALSE": 0,
+        "UNKNOWN": 0
+      },
+      "RAW_integrity_PASS": 8,
+      "decisions_range": [
+        8,
+        15
+      ],
+      "candidates_range": [
+        1548,
+        3131
+      ],
+      "actual_A_requests_range": [
+        2,
+        2
+      ],
+      "actual_C_requests_range": [
+        1,
+        1
+      ],
+      "virtual_charge_range_ns": [
+        160000000,
+        300000000
+      ],
+      "maximum_queue_wait_ns": 10000000
+    }
+  },
+  "T_F_U": {
+    "FALSE": 0,
+    "TRUE": 32,
+    "UNKNOWN": 0
+  },
+  "RAW_integrity_PASS": 32,
+  "controlled_native_steps": 38400,
+  "controlled_RAW_samples": 38432,
+  "public_captures": 7712,
+  "delivered_packets": 7648,
+  "diagnostic_native_epochs": 32,
+  "diagnostic_native_steps": 38400,
+  "diagnostic_samples": 38432,
+  "zero_error_reintegration_cases": 32,
+  "controlled_and_diagnostic_denominators_separate": true,
+  "all32_retained": true,
+  "previously_seen_conditions": 8,
+  "D_changes_both_C_window_and_A_upper": true,
+  "random_seeds": 0,
+  "statistical_IID_or_CI_claim": false,
+  "heldout": false,
+  "agentic_necessity_or_advantage_supported": false,
+  "new_policy_weights": 0,
+  "GPU": 0,
+  "real_robot_episodes": 0,
+  "chemical_endpoints": 0,
+  "host_computation_advances_physics": false,
+  "virtual_decision_charge_ns": 20000000,
+  "model_dimensions_basis": "fixed source guard, 3-axis RAW and independent reintegration; no numeric nq getter exported in SETUP",
+  "CSV_sha256": "bf61ed86dde4f0f4da316c614e2b6a59ab67c2b358db13efceac609393efa9fa"
+}

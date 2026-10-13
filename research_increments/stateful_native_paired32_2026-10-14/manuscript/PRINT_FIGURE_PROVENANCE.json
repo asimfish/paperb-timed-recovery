@@ -1,0 +1,57 @@
+{
+  "all32_case_ids": [
+    "paired32-v2_diag-A_then_C-B5-D2p8__strong_batch",
+    "paired32-v2_diag-A_then_C-B5-D2p8__guarded_hsm_retry",
+    "paired32-v2_diag-A_then_C-B5-D2p8__event_resource_edf",
+    "paired32-v2_diag-A_then_C-B5-D2p8__joint_interval_mpc",
+    "paired32-v2_diag-A_then_C-B5-D3p1__strong_batch",
+    "paired32-v2_diag-A_then_C-B5-D3p1__guarded_hsm_retry",
+    "paired32-v2_diag-A_then_C-B5-D3p1__event_resource_edf",
+    "paired32-v2_diag-A_then_C-B5-D3p1__joint_interval_mpc",
+    "paired32-v2_diag-A_then_C-B45-D2p8__strong_batch",
+    "paired32-v2_diag-A_then_C-B45-D2p8__guarded_hsm_retry",
+    "paired32-v2_diag-A_then_C-B45-D2p8__event_resource_edf",
+    "paired32-v2_diag-A_then_C-B45-D2p8__joint_interval_mpc",
+    "paired32-v2_diag-A_then_C-B45-D3p1__strong_batch",
+    "paired32-v2_diag-A_then_C-B45-D3p1__guarded_hsm_retry",
+    "paired32-v2_diag-A_then_C-B45-D3p1__event_resource_edf",
+    "paired32-v2_diag-A_then_C-B45-D3p1__joint_interval_mpc",
+    "paired32-v2_diag-C_then_A-B5-D2p8__strong_batch",
+    "paired32-v2_diag-C_then_A-B5-D2p8__guarded_hsm_retry",
+    "paired32-v2_diag-C_then_A-B5-D2p8__event_resource_edf",
+    "paired32-v2_diag-C_then_A-B5-D2p8__joint_interval_mpc",
+    "paired32-v2_diag-C_then_A-B5-D3p1__strong_batch",
+    "paired32-v2_diag-C_then_A-B5-D3p1__guarded_hsm_retry",
+    "paired32-v2_diag-C_then_A-B5-D3p1__event_resource_edf",
+    "paired32-v2_diag-C_then_A-B5-D3p1__joint_interval_mpc",
+    "paired32-v2_diag-C_then_A-B45-D2p8__strong_batch",
+    "paired32-v2_diag-C_then_A-B45-D2p8__guarded_hsm_retry",
+    "paired32-v2_diag-C_then_A-B45-D2p8__event_resource_edf",
+    "paired32-v2_diag-C_then_A-B45-D2p8__joint_interval_mpc",
+    "paired32-v2_diag-C_then_A-B45-D3p1__strong_batch",
+    "paired32-v2_diag-C_then_A-B45-D3p1__guarded_hsm_retry",
+    "paired32-v2_diag-C_then_A-B45-D3p1__event_resource_edf",
+    "paired32-v2_diag-C_then_A-B45-D3p1__joint_interval_mpc"
+  ],
+  "all32_intervals_and_actual_decisions_present": true,
+  "figure_size_in": [
+    6.75,
+    2.9
+  ],
+  "files": {
+    "paired32_print.pdf": "b5dfd11f05deff21564a4bea988301d24f51f56dd285f796e9d6f9e6a8617490",
+    "paired32_print.png": "b33953f129df3df1f6098ce0c2058f8e75afce904084433f10cbaa3734b5c34a",
+    "paired32_print.svg": "9a89fec140e481f7806673a47f85d51902080eae166a4101fcc033db3eec7510"
+  },
+  "independent_audit_sha256": "ecff99605f7899785ec25c630309e0a5084039955133de33faad486ee9e8967b",
+  "new_native_GPU_fit": 0,
+  "points_are_interval_midpoints_not_scoring": true,
+  "root_figures_unchanged_original_bytes_also_in_archive": true,
+  "schema": "paperb-paired32-manuscript-print-figure-v1",
+  "scoring_is_whole_interval_containment": true,
+  "source_csv_sha256": "bf61ed86dde4f0f4da316c614e2b6a59ab67c2b358db13efceac609393efa9fa",
+  "style_font_size_pt": [
+    8.5,
+    9.0
+  ]
+}

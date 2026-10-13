@@ -1,0 +1,48 @@
+{
+  "CPU_tests": 34,
+  "DP_offline_RL_OPD_admitted_rows": 0,
+  "actual_VLA_observation_admitted": 0,
+  "causal_frame_references": 852,
+  "created_at_utc": "2026-10-13T17:37:25.427178+00:00",
+  "exact_private_dispatch_metadata_replay_pass": true,
+  "full_timed_and_hold_demo_success": 0,
+  "full_timed_and_hold_robot_denominator": 20,
+  "future_legacy_training_can_be_separately_authorized": true,
+  "input_pin_sha256": "3cf2d73fe03a55dbd9ec458aea094d448770d123f75758625ff900d5b6a97d3d",
+  "large_frame_copies": 0,
+  "limits": [
+    "No full-success DP demonstrations in old robot cohort",
+    "Old strict-hold objective unchanged; investigate joint satisfiability before a new support-handoff contract",
+    "Privileged targets/referee rewards are audit labels only; actual public student channels need provenance and policy-delivery evidence",
+    "CPU blind redundancy is not feedback-triggered recovery; scripted actors are not neural expert teachers",
+    "No training or future heldout claims; metadata test pass is not an end-to-end VLA data-loader gate"
+  ],
+  "metadata_prototype_created_after_original_outcomes_not_old_prospective_freeze": true,
+  "no_future_submission_REJECTED": 20,
+  "old_cases_cannot_be_future_untouched_heldout": true,
+  "original_604_sealed_increment_modified": false,
+  "original_roles": {
+    "CPU_DEVELOPMENT_SEEN": 8,
+    "calibration": 4,
+    "test": 16
+  },
+  "policy_image_delivery_UNKNOWN": 832,
+  "public_data_scope": "SMALL_METADATA_AND_CPU_CONTRACT_ONLY; PRIVATE_NATIVE_RAW_NOT_PUBLIC_DATASET_DOWNLOAD",
+  "receipt_sha256": "ec3653149a723d3041d36ad948ce2e999f50e85c358b10cdcfa865765f221302",
+  "robot_legacy_episodes": 20,
+  "robot_test_primary_T_F_U": {
+    "FALSE": 2,
+    "TRUE": 8,
+    "UNKNOWN": 6
+  },
+  "schema": "VerifiedReplayPublicMetadataSummary/0.1",
+  "schema_validated_causal_records": 852,
+  "schema_validated_episode_records": 28,
+  "source_release_sha256": "0c3cff79148f20f6b5f212eb484ac205122b02e63fac98d657ad8e14db3041dd",
+  "status": "PASS_CPU_METADATA_INTERFACE; TRAINING_NOT_ADMITTED",
+  "strict_hold_test_denominator": 16,
+  "strict_hold_test_success": 0,
+  "student_inputs_materialized": 0,
+  "summary_sha256": "545f3d0530ab416e311101d4133d86b78444b6ad4cca0ac26bf8ba844381bc88",
+  "weights_training_GPU_new_native_or_reintegration_epochs": 0
+}

@@ -1,0 +1,47 @@
+{
+  "frozen_native_order_source": {
+    "initial_capture": "before first FIFO step",
+    "later_capture": "after advance(i), before FIFO step(i+1)",
+    "path": "native_probe.py",
+    "sha256": "e16b2b31e86618196dbffeaad9dc257255c347078f355c0ebc301b572bf55faa"
+  },
+  "inputs": {
+    "calibration_audit": {
+      "path": "/data/liyufeng/paperb_grip_qualified_timing_audit_20261013_v1/CALIBRATION_AUDIT.json",
+      "sha256": "50aea5b4a3d19f05faa249f6f881926a7d490e8bfbac201cfef426a2118312f0"
+    },
+    "capture_audit": {
+      "path": "/data/liyufeng/paperb_grip_qualified_timing_audit_20261013_v1/TEST_CAPTURE_AND_IDENTITY_RECHECK.json",
+      "sha256": "68fc2c4189cad11f99fc434e06a588ff2464d8dab5cf0ebfc536f22a19f16a5e"
+    },
+    "native_release": {
+      "path": "/data/liyufeng/paperb_grip_qualified_joint_timing_20261013_v1/EXECUTION_RELEASE.json",
+      "sha256": "0c3cff79148f20f6b5f212eb484ac205122b02e63fac98d657ad8e14db3041dd"
+    },
+    "package_manifest": {
+      "path": "/data/liyufeng/paperb_grip_qualified_timing_evidence_20261013_v1/PACKAGE_MANIFEST.json",
+      "sha256": "544181fd19bc3f78f4e7924109b7157fa9d19c23891c00284b22cdd4038390f8"
+    },
+    "private_evidence_receipt": {
+      "path": "/data/liyufeng/paperb_grip_qualified_timing_evidence_20261013_v1/PUBLIC_EVIDENCE_RECEIPT.json",
+      "sha256": "bfdd37c77f9f35260f05d6c4c3f914053b8936e3ad6903a4237e2657a98b68d2"
+    },
+    "protocol": {
+      "path": "/data/liyufeng/paperb_grip_qualified_joint_timing_20261013_v1/protocol.json",
+      "sha256": "cad51fcb553f61b6dee2f102206ad70d8093bd4c73031fd1e1055d241551ef02"
+    },
+    "test_audit": {
+      "path": "/data/liyufeng/paperb_grip_qualified_timing_audit_20261013_v1/TEST_AUDIT.json",
+      "sha256": "05f16f70848049a30a9725c3a0a351d40c480587084a96793ce41ff1813bda36"
+    },
+    "witness_audit": {
+      "path": "/data/liyufeng/paperb_prospective_v2_witness_audit_20261013_v1/WITNESS_AUDIT.json",
+      "sha256": "6488f157cc29e959e05cdeae65a77377f0fef63022976cfb1bf4e25ef7efccbb"
+    }
+  },
+  "metadata_design_after_original_results_available": true,
+  "native_root": "/data/liyufeng/paperb_grip_qualified_joint_timing_20261013_v1",
+  "old_increment_write_prohibited": true,
+  "schema": "VerifiedReplayInputPin/0.1",
+  "source_release_sha256": "0c3cff79148f20f6b5f212eb484ac205122b02e63fac98d657ad8e14db3041dd"
+}

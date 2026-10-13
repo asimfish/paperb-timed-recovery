@@ -1,0 +1,113 @@
+{
+  "agentic_necessity_or_advantage_supported": false,
+  "all_cases_retained": true,
+  "measured_gate_host_wall_ns": 24896270591,
+  "python": "3.10.12",
+  "recorded_public_observer_pass": 8,
+  "recorded_public_observer_replays": 8,
+  "schema": "paperb-public-stateful-cpu-gate-v1",
+  "scope": {
+    "GPU": 0,
+    "chemical_endpoints": 0,
+    "conditional_model_is_true_support": false,
+    "fit": 0,
+    "formal_native32": 0,
+    "heldout": false,
+    "new_native_episodes": 0,
+    "new_weights": 0,
+    "old_sources_modified": false,
+    "public_replay_is_new_policy_closed_loop": false,
+    "real_robot_episodes": 0,
+    "software_none_branch_is_full_source_referee_joint": false
+  },
+  "software_matrix": [
+    {
+      "budget_and_action_caps_pass": 16,
+      "candidate_evaluations_range": [
+        282,
+        370
+      ],
+      "decisions_range": [
+        1,
+        1
+      ],
+      "errors": 0,
+      "method": "strong_batch",
+      "public_sampled_conditional_pass": 16,
+      "requests_A_range": [
+        2,
+        2
+      ],
+      "software_fixture_denominator": 16,
+      "synthetic_model_contract_pass": 16
+    },
+    {
+      "budget_and_action_caps_pass": 16,
+      "candidate_evaluations_range": [
+        286,
+        901
+      ],
+      "decisions_range": [
+        1,
+        4
+      ],
+      "errors": 0,
+      "method": "guarded_hsm_retry",
+      "public_sampled_conditional_pass": 16,
+      "requests_A_range": [
+        1,
+        2
+      ],
+      "software_fixture_denominator": 16,
+      "synthetic_model_contract_pass": 16
+    },
+    {
+      "budget_and_action_caps_pass": 16,
+      "candidate_evaluations_range": [
+        284,
+        1197
+      ],
+      "decisions_range": [
+        3,
+        4
+      ],
+      "errors": 0,
+      "method": "event_resource_edf",
+      "public_sampled_conditional_pass": 16,
+      "requests_A_range": [
+        2,
+        2
+      ],
+      "software_fixture_denominator": 16,
+      "synthetic_model_contract_pass": 16
+    },
+    {
+      "budget_and_action_caps_pass": 16,
+      "candidate_evaluations_range": [
+        1548,
+        3131
+      ],
+      "decisions_range": [
+        8,
+        15
+      ],
+      "errors": 0,
+      "method": "joint_interval_mpc",
+      "public_sampled_conditional_pass": 16,
+      "requests_A_range": [
+        2,
+        2
+      ],
+      "software_fixture_denominator": 16,
+      "synthetic_model_contract_pass": 16
+    }
+  ],
+  "software_matrix_denominator": 64,
+  "software_stress_denominator": 12,
+  "software_stress_expected_behavior_pass": 12,
+  "source_pin_sha256": "ea39d01ac8a884e9e8fb135a8a7e4bd5b9a7958d67fff4f4031dcef7bad0d800",
+  "status": "PASS_CPU_COMPONENT_ONLY",
+  "strong_batch_already_solves_all_software_cases": true,
+  "unit_tests": 31,
+  "unit_tests_pass": true
+}

@@ -1,0 +1,216 @@
+{
+  "$id": "VerifiedReplayCausalCandidate-0.1",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "additionalProperties": false,
+  "properties": {
+    "action_label": {
+      "additionalProperties": false,
+      "properties": {
+        "actual_application": {
+          "type": [
+            "object",
+            "null"
+          ]
+        },
+        "arm_target": {
+          "items": {
+            "type": "number"
+          },
+          "maxItems": 7,
+          "minItems": 7,
+          "type": "array"
+        },
+        "clock_id": {
+          "type": "string"
+        },
+        "command_id": {
+          "type": "integer"
+        },
+        "effect_not_assumed_from_FIFO_ACK": {
+          "const": true
+        },
+        "grip_target": {
+          "items": {
+            "type": "number"
+          },
+          "maxItems": 2,
+          "minItems": 2,
+          "type": "array"
+        },
+        "physical_effect_time": {
+          "type": "null"
+        },
+        "semantic": {
+          "const": "FUTURE_SUBMITTED_TARGET"
+        },
+        "source_index": {
+          "type": "integer"
+        },
+        "submission_tick": {
+          "type": "integer"
+        },
+        "submission_time": {
+          "type": "number"
+        },
+        "unit": {
+          "const": "s"
+        }
+      },
+      "required": [
+        "command_id",
+        "source_index",
+        "submission_tick",
+        "submission_time",
+        "clock_id",
+        "unit",
+        "semantic",
+        "arm_target",
+        "grip_target",
+        "actual_application",
+        "physical_effect_time",
+        "effect_not_assumed_from_FIFO_ACK"
+      ],
+      "type": [
+        "object",
+        "null"
+      ]
+    },
+    "admission": {
+      "additionalProperties": false,
+      "properties": {
+        "physical_effect_is_not_submission": {
+          "const": true
+        },
+        "reasons": {
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        },
+        "status": {
+          "enum": [
+            "UNKNOWN",
+            "REJECTED"
+          ]
+        },
+        "temporal_pair_is_not_evidence_actor_saw_image": {
+          "const": true
+        },
+        "training_admitted": {
+          "const": false
+        }
+      },
+      "required": [
+        "status",
+        "reasons",
+        "training_admitted",
+        "physical_effect_is_not_submission",
+        "temporal_pair_is_not_evidence_actor_saw_image"
+      ],
+      "type": "object"
+    },
+    "episode_id": {
+      "type": "string"
+    },
+    "input_materialized": {
+      "const": false
+    },
+    "observation": {
+      "additionalProperties": false,
+      "properties": {
+        "JPEG_sha256": {
+          "pattern": "^[0-9a-f]{64}$",
+          "type": "string"
+        },
+        "camera_frame": {
+          "minimum": 1,
+          "type": "integer"
+        },
+        "capture_index": {
+          "minimum": 0,
+          "type": "integer"
+        },
+        "capture_phase": {
+          "enum": [
+            "TASK_ORIGIN_PRE_FIRST_SUBMISSION",
+            "POSTSTEP_PRE_NEXT_SUBMISSION"
+          ]
+        },
+        "capture_time": {
+          "type": "number"
+        },
+        "clock_id": {
+          "type": "string"
+        },
+        "depth_sha256": {
+          "pattern": "^[0-9a-f]{64}$",
+          "type": "string"
+        },
+        "next_submission_tick": {
+          "type": "integer"
+        },
+        "policy_delivery_clock_id": {
+          "type": "null"
+        },
+        "policy_delivery_time": {
+          "type": "null"
+        },
+        "reference_scope": {
+          "const": "PRIVATE_FRAME_REFERENCE_ONLY_NO_FRAME_COPY"
+        },
+        "uncompressed_RGB_digest_not_recovered_from_lossy_JPEG": {
+          "const": true
+        },
+        "unit": {
+          "const": "s"
+        }
+      },
+      "required": [
+        "capture_index",
+        "camera_frame",
+        "capture_phase",
+        "capture_time",
+        "clock_id",
+        "unit",
+        "next_submission_tick",
+        "policy_delivery_time",
+        "policy_delivery_clock_id",
+        "JPEG_sha256",
+        "depth_sha256",
+        "reference_scope",
+        "uncompressed_RGB_digest_not_recovered_from_lossy_JPEG"
+      ],
+      "type": "object"
+    },
+    "same_time_source_order": {
+      "const": "CAPTURE_BEFORE_SUBMISSION"
+    },
+    "schema": {
+      "const": "VerifiedReplayCausalCandidate/0.1"
+    },
+    "scripted_actor_observed_image": {
+      "const": false
+    },
+    "source_dispatch_sha256": {
+      "pattern": "^[0-9a-f]{64}$",
+      "type": "string"
+    },
+    "source_order_evidence": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "schema",
+    "episode_id",
+    "observation",
+    "same_time_source_order",
+    "source_order_evidence",
+    "action_label",
+    "source_dispatch_sha256",
+    "input_materialized",
+    "scripted_actor_observed_image",
+    "admission"
+  ],
+  "title": "Private-frame future-submission metadata candidate, no VLA or training admission",
+  "type": "object"
+}

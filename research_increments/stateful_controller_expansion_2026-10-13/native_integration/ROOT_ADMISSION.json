@@ -1,0 +1,16 @@
+{
+  "schema": "paperb-single-native-root-admission-v1",
+  "approved": true,
+  "created_at_utc": "2026-10-13T17:52:51.912711+00:00",
+  "bridge_release_sha256": "fb0f660cf1b8fc0058c626c4b717f5d93e0731ca1824b1b028be671f1a688ab6",
+  "cpu_source_pin_sha256": "ea39d01ac8a884e9e8fb135a8a7e4bd5b9a7958d67fff4f4031dcef7bad0d800",
+  "case_id": "v2_diag-A_then_C-B45-D2p8",
+  "method": "guarded_hsm_retry",
+  "maximum_controlled_native_epochs": 1,
+  "GPU": 0,
+  "formal_native32": 0,
+  "independent_review_receipt_sha256": "3d1ee4616ecc2d48b4cc30f2eb1cff8e635c6e3230b9e66483e0d0385869bd79",
+  "independent_auditor_release_sha256": "f1cc68202a38e0f916d35802f780f12c4021320e56654dde1cdc24c01430a9e4",
+  "user_authorization": "continue experiments with delegated implementation and independent review",
+  "scope": "one previously seen development case; all outcomes retained; no learning or hardware claim"
+}

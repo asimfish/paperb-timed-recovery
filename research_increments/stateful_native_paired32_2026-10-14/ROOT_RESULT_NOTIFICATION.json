@@ -1,0 +1,19 @@
+{
+  "root_completed_matrix_terminal_or_retained": true,
+  "created_at_utc": "2026-10-13T18:11:50.262448+00:00",
+  "producer_release_sha256": "171b6e1154341261b5437fc752f72bcbb0267ee236b344badc3f2fc189f692fd",
+  "auditor_release_sha256": "05994806faddf77510b779d36b06197dde457b1d44d57bda5c98eabe44b8041e",
+  "matrix_snapshot_relative_path": "MATRIX_SNAPSHOT_2037963974566494.json",
+  "matrix_snapshot_sha256": "f6860f15691bcbaf75f0779bc2749244e72dbfb8265a388b10bfc09db8272e4b",
+  "admission_proofs": {
+    "root_admission_sha256": "34ef81b6dd3dd0abcfb3e3b669fe080343bd52d2d1e622c7e6719245d20b51a4",
+    "single_raw_receipt_sha256": "ecf2d35f9c3a24c17cd42e2b80f2fd421b03f4d088f2b415d9f2d31e3a40d42a",
+    "source_review_receipt_sha256": "560dcb32169f21770efe65cef5896da76a8d921386c565a2a920217799932c29"
+  },
+  "controlled_native_episode_count": 32,
+  "controlled_native_steps": 38400,
+  "controlled_RAW_samples": 38432,
+  "maximum_diagnostic_reintegration_epochs": 32,
+  "GPU": 0,
+  "new_weights": 0
+}

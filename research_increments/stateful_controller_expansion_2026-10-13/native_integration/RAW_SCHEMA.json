@@ -1,0 +1,32 @@
+{
+  "schema": "paperb-single-stateful-native-raw-schema-v1",
+  "case": "v2_diag-A_then_C-B45-D2p8",
+  "method": "guarded_hsm_retry",
+  "independent_samples.csv": {
+    "fields": ["sim_ns", "native_time_s", "epoch", "A_q", "A_v", "A_ctrl_next", "B_q", "B_v", "B_ctrl_next", "C_q", "C_v", "C_ctrl_next"],
+    "phase": "post service effects, pre controller requests and pre native step",
+    "expected_rows": 1201,
+    "native_clock": "native_time_s is actual data.time, sim_ns=round(actual data.time*1e9) checked against fixed grid",
+    "no_truth_from_actor": true
+  },
+  "native_steps.jsonl": {"fields": ["step_index", "epoch", "before_time_s", "after_time_s", "before_native_ns", "after_native_ns", "mj_step_calls", "mj_forward_calls"], "expected_rows": 1200},
+  "public_captures.jsonl": {"fields": ["capture_ns", "arrival_ns", "positions", "velocities", "torques"], "expected_rows": 241, "phase": "pre service effects", "arrival_ns_is_predicted_public_delivery_clock": true},
+  "public_deliveries.jsonl": {"fields": ["capture_ns", "arrival_ns", "positions", "velocities", "torques"], "expected_rows": 239},
+  "public_actor_inputs.jsonl": {"fields": ["epoch", "now_ns", "latest", "acks", "reservations"], "expected_rows": 1201, "none_or_repeated_latest_is_preserved": true, "source": "exact data-only PublicFrame"},
+  "submissions.jsonl": {
+    "fields": ["request", "actual_accepted_reservation", "actual_native_time_s"],
+    "request_fields": ["client_token", "target", "tag", "request_ns"],
+    "reservation_fields": ["seq", "target", "tag", "request_ns", "service_start_ns", "ack_ns", "external"],
+    "source": "actual ReservedChannel.submit, not planner forecasts",
+    "failed_and_pending_requests_remain_in_denominator": true
+  },
+  "ACKs.jsonl": {"fields": ["seq", "target", "tag", "ack_ns"], "meaning": "actual service transaction, not stopping"},
+  "private_effects.jsonl": {"fields": ["seq", "target", "actual_ACK_ns", "torque_before", "torque_after"], "source": "unchanged origin Effects.apply", "actor_input": false},
+  "controller_ticks.jsonl": {"fields": ["now_ns", "native_time_s", "phase", "actual_new_submissions", "ledger_counts", "candidate_epoch", "pending_paid_decision_ready_ns", "decision_count", "measured_advance_host_ns", "public_protocol_failure", "native_epoch"], "expected_rows": 1201},
+  "public_decisions.json": "all paid decisions including declined/discarded decisions and budget/model/input evidence",
+  "public_final_snapshot.json": "entire pinned controller snapshot, ledger history, cumulative counts and original-event facts",
+  "commands.json": "all actual accepted reservations, including original external B and any pending A/C",
+  "raw_verdict.json": "unchanged copied referee's output only after execution, never passed to actor",
+  "partial_exception": "partial files/row counts preserved plus EXCEPTION.json and NATIVE_DEV_RESULT.json; no complete-record status",
+  "acceptance": "independent RAW, service/command identity, exact clocks, public causal sequence and immutable-origin audit required; actor or exit0 alone insufficient"
+}

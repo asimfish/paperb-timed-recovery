@@ -1,0 +1,150 @@
+{
+  "chemical_endpoints": 0,
+  "frozen_shared_controls": {
+    "ACK_is_stopping_or_success": false,
+    "A_request_cap": 2,
+    "B_coarse50ms_is_irreducible_bound": false,
+    "C_request_cap": 2,
+    "blind_redundancy_allowed_all_methods": true,
+    "candidate_epoch_cap": 10000,
+    "candidate_per_decision_cap": 1000,
+    "decision_charge_ns": 20000000,
+    "host_computation_steps_physics": false,
+    "initial_state": "original q=0 v=0 ctrl=.06 for all three rotors before each case; no within-epoch reset or state writes",
+    "mpc_replan_cadence_ns": 100000000,
+    "physics_model": "unchanged plant.py/three_rotors.xml, I.002 damping.006, implicitfast10ms",
+    "public_info": [
+      "Packet capture/arrival q/v/torque",
+      "actual Reservation",
+      "service ACK",
+      "original immutable B event",
+      "same-event public model refinement"
+    ],
+    "public_prior": "unchanged unfitted nominal model and none/first_A_stop_drop union",
+    "referee": "unchanged original RAW referee.py",
+    "sensor_lag_ns": 100000000,
+    "sensor_period_ns": 50000000,
+    "total_request_cap": 4
+  },
+  "future_root_admission": "paperb-stateful-paired32-root-admission-v1; exact source + single RAW + independent source review SHA; approved32 cap",
+  "future_source_review": "PASS_PAIRED32_NATIVE_SOURCE_REVIEW binding new release and single RAW receipt SHA",
+  "new_native_epochs_so_far": 0,
+  "old_single_or_parent_source_or_results_changed": false,
+  "outputs": {
+    "actor_flags_or_exit0_acceptance": false,
+    "exceptions": "EXCEPTION.json plus all partial streams; no retries or pruning",
+    "independent_RAW_command_clock_public_causality_audit_required": true,
+    "missing_or_unstarted": "retained in each matrix snapshot and planned32/per-method8 denominator",
+    "per_case": [
+      "CASE_CLAIM.json",
+      "SETUP.json",
+      "independent_samples.csv",
+      "native_steps.jsonl",
+      "public_captures.jsonl",
+      "public_deliveries.jsonl",
+      "public_actor_inputs.jsonl",
+      "submissions.jsonl",
+      "ACKs.jsonl",
+      "private_effects.jsonl",
+      "controller_ticks.jsonl",
+      "commands.json",
+      "public_decisions.json",
+      "public_final_snapshot.json",
+      "raw_verdict.json",
+      "TERMINAL.json",
+      "ARTIFACT_MANIFEST.json"
+    ],
+    "resume": "only never-created fixed-roster directories may execute; existing complete/failed/partial attempts preserved; source and row identities checked",
+    "root": "native_cases/; each fixed case exclusive directory"
+  },
+  "physical_contracts": {
+    "A_window": "original [1.8s,D] after original B event",
+    "B_ctrl_profile": [
+      0.06,
+      0.045
+    ],
+    "B_maintenance_ns": 6000000000,
+    "B_service_busy_ns": [
+      50000000,
+      450000000
+    ],
+    "C_window": "D plus/minus.15s after original B event",
+    "D_ns": [
+      2800000000,
+      3100000000
+    ],
+    "graph": [
+      "A_then_C",
+      "C_then_A"
+    ],
+    "graph_busy_D_fully_crossed": true,
+    "minimum_graph_gap_ns": 40000000,
+    "moving_threshold": 0.1,
+    "original_B_angle": 2.0,
+    "stop_hold_ns": 200000000
+  },
+  "real_robot_episodes": 0,
+  "recording_budget": {
+    "LLM_calls": 0,
+    "fits": 0,
+    "hardware_GPU_budget": 0,
+    "maximum_case_host_wall_s": 120,
+    "maximum_expected_native_steps_all32": 38400,
+    "maximum_expected_raw_samples_all32": 38432,
+    "maximum_sum_case_host_wall_s": 3840,
+    "native_steps_per_case": 1200,
+    "new_weights": 0,
+    "public_captures_per_case": 241,
+    "public_deliveries_per_case": 239,
+    "raw_samples_per_case": 1201
+  },
+  "role": "DEVELOPMENT_SEEN_FIXED_PAIRED_MECHANISM_VALIDATION",
+  "roster": {
+    "case_selection_or_arm_specific_model_changes": false,
+    "maximum_per_case_model_creations": 1,
+    "maximum_total_controlled_native_epochs": 32,
+    "methods": [
+      "strong_batch",
+      "guarded_hsm_retry",
+      "event_resource_edf",
+      "joint_interval_mpc"
+    ],
+    "native_epoch_per_case": 0,
+    "ordering": "outer: unchanged source scenario_PROTOCOL_V2 cases stored order; inner: METHODS listed order",
+    "per_method_planned_denominator": 8,
+    "planned_denominator": 32,
+    "random_physical_seed_claim": false,
+    "same_private_first_A_stop_drop_all_cases": true,
+    "source_configurations": 8,
+    "unique_case_id": "paired32-<original case id>__<method>",
+    "unique_public_epoch": "paired32-<order0..31>-epoch0"
+  },
+  "schema": "paperb-stateful-native-paired32-draft-protocol-v1",
+  "single_independent_full_audit_artifact_sha256": "ec1d2cdf59ce5b958cdd32322162e27eff45d3897bb4cb58b9df7491169e01dd",
+  "single_independent_raw_receipt_sha256": "ecf2d35f9c3a24c17cd42e2b80f2fd421b03f4d088f2b415d9f2d31e3a40d42a",
+  "single_precondition": {
+    "actual_fullaudit": "single_prerequisite/full_independent_audit/NATIVE_RAW_AUDIT.json",
+    "actual_receipt": "single_prerequisite/PUBLIC_SINGLE_RAW_RECEIPT.json",
+    "case_id": "v2_diag-A_then_C-B45-D2p8",
+    "complete_recorded_raw_pass": true,
+    "controlled_native_episode_count": 1,
+    "cpu_source_pin_sha256": "ea39d01ac8a884e9e8fb135a8a7e4bd5b9a7958d67fff4f4031dcef7bad0d800",
+    "independent_commands_clocks_events_pass": true,
+    "independent_full_audit_artifact_sha256_required": true,
+    "method": "guarded_hsm_retry",
+    "receipt_byte_sha256_required": true,
+    "single_output_reused_as_one_of32": false,
+    "source_bridge_release_sha256": "fb0f660cf1b8fc0058c626c4b717f5d93e0731ca1824b1b028be671f1a688ab6",
+    "status": "PASS_SINGLE_STATEFUL_NATIVE_RECORDED_RAW"
+  },
+  "source_release": "FINAL_SOURCE_PIN_CREATED_AFTER_ACTUAL_SINGLE_RAW_ACCEPTANCE; FUTURE_INDEPENDENT_SOURCE_REVIEW_AND_ROOT_ADMISSION_STILL_REQUIRED",
+  "statistics": {
+    "IID_replication": false,
+    "OOD": false,
+    "agentic_advantage_or_necessity": false,
+    "heldout": false,
+    "paired_fixed_mechanism_only": true,
+    "significance_or_confidence_claim": false
+  },
+  "status": "FROZEN_AFTER_SINGLE_INDEPENDENT_RAW_ACCEPTANCE"
+}

@@ -1,0 +1,285 @@
+{
+  "D_changes_both_A_upper_window_and_C_target_not_C_only_causality": true,
+  "RAW_integrity_PASS": 32,
+  "actual_nonzero_queue_waits": [
+    {
+      "ACK_ns": 1650000000,
+      "accepted_queue_wait_ns": 20000000,
+      "case_id": "paired32-v2_diag-C_then_A-B5-D2p8__event_resource_edf",
+      "method": "event_resource_edf",
+      "request_ns": 1580000000,
+      "service_ns": 50000000,
+      "service_start_ns": 1600000000,
+      "target": "A"
+    },
+    {
+      "ACK_ns": 1680000000,
+      "accepted_queue_wait_ns": 10000000,
+      "case_id": "paired32-v2_diag-C_then_A-B5-D2p8__joint_interval_mpc",
+      "method": "joint_interval_mpc",
+      "request_ns": 1620000000,
+      "service_ns": 50000000,
+      "service_start_ns": 1630000000,
+      "target": "A"
+    },
+    {
+      "ACK_ns": 1950000000,
+      "accepted_queue_wait_ns": 20000000,
+      "case_id": "paired32-v2_diag-C_then_A-B5-D3p1__event_resource_edf",
+      "method": "event_resource_edf",
+      "request_ns": 1880000000,
+      "service_ns": 50000000,
+      "service_start_ns": 1900000000,
+      "target": "A"
+    },
+    {
+      "ACK_ns": 1980000000,
+      "accepted_queue_wait_ns": 10000000,
+      "case_id": "paired32-v2_diag-C_then_A-B5-D3p1__joint_interval_mpc",
+      "method": "joint_interval_mpc",
+      "request_ns": 1920000000,
+      "service_ns": 50000000,
+      "service_start_ns": 1930000000,
+      "target": "A"
+    },
+    {
+      "ACK_ns": 1650000000,
+      "accepted_queue_wait_ns": 20000000,
+      "case_id": "paired32-v2_diag-C_then_A-B45-D2p8__event_resource_edf",
+      "method": "event_resource_edf",
+      "request_ns": 1580000000,
+      "service_ns": 50000000,
+      "service_start_ns": 1600000000,
+      "target": "A"
+    },
+    {
+      "ACK_ns": 1680000000,
+      "accepted_queue_wait_ns": 10000000,
+      "case_id": "paired32-v2_diag-C_then_A-B45-D2p8__joint_interval_mpc",
+      "method": "joint_interval_mpc",
+      "request_ns": 1620000000,
+      "service_ns": 50000000,
+      "service_start_ns": 1630000000,
+      "target": "A"
+    },
+    {
+      "ACK_ns": 1950000000,
+      "accepted_queue_wait_ns": 20000000,
+      "case_id": "paired32-v2_diag-C_then_A-B45-D3p1__event_resource_edf",
+      "method": "event_resource_edf",
+      "request_ns": 1880000000,
+      "service_ns": 50000000,
+      "service_start_ns": 1900000000,
+      "target": "A"
+    },
+    {
+      "ACK_ns": 1980000000,
+      "accepted_queue_wait_ns": 10000000,
+      "case_id": "paired32-v2_diag-C_then_A-B45-D3p1__joint_interval_mpc",
+      "method": "joint_interval_mpc",
+      "request_ns": 1920000000,
+      "service_ns": 50000000,
+      "service_start_ns": 1930000000,
+      "target": "A"
+    }
+  ],
+  "agentic_or_adaptive_performance_necessity_supported": false,
+  "all32_independent_reintegrations_exact": true,
+  "all_methods_tie8_of8": true,
+  "all_paired_roles_total": {
+    "native_epochs": 64,
+    "native_samples": 76864,
+    "native_steps": 76800
+  },
+  "all_sources_auditor_fixed_roster_claims_proofs_and_17_case_artifacts_exact": true,
+  "auditor_release_sha256": "05994806faddf77510b779d36b06197dde457b1d44d57bda5c98eabe44b8041e",
+  "by_method": {
+    "event_resource_edf": {
+      "actual_accepted_A_C_requests": {
+        "A": 16,
+        "C": 8
+      },
+      "candidate_evaluations_total": 5382,
+      "candidates_per_episode": [
+        1077,
+        1197,
+        795,
+        1117,
+        284,
+        314,
+        284,
+        314
+      ],
+      "episode_denominator": 8,
+      "measured_owned_attempt_host_wall_ns_total": 3058932556,
+      "nonzero_actual_accepted_queue_waits": 4,
+      "paid_decisions_per_episode": [
+        4,
+        4,
+        3,
+        4,
+        3,
+        3,
+        3,
+        3
+      ],
+      "paid_decisions_total": 27,
+      "task_T_F_U": {
+        "FALSE": 0,
+        "TRUE": 8,
+        "UNKNOWN": 0
+      },
+      "virtual_decision_charge_ns_total": 540000000
+    },
+    "guarded_hsm_retry": {
+      "actual_accepted_A_C_requests": {
+        "A": 16,
+        "C": 8
+      },
+      "candidate_evaluations_total": 4350,
+      "candidates_per_episode": [
+        811,
+        901,
+        573,
+        861,
+        286,
+        316,
+        286,
+        316
+      ],
+      "episode_denominator": 8,
+      "measured_owned_attempt_host_wall_ns_total": 3004072029,
+      "nonzero_actual_accepted_queue_waits": 0,
+      "paid_decisions_per_episode": [
+        4,
+        4,
+        3,
+        4,
+        1,
+        1,
+        1,
+        1
+      ],
+      "paid_decisions_total": 19,
+      "task_T_F_U": {
+        "FALSE": 0,
+        "TRUE": 8,
+        "UNKNOWN": 0
+      },
+      "virtual_decision_charge_ns_total": 380000000
+    },
+    "joint_interval_mpc": {
+      "actual_accepted_A_C_requests": {
+        "A": 16,
+        "C": 8
+      },
+      "candidate_evaluations_total": 18392,
+      "candidates_per_episode": [
+        2063,
+        2999,
+        2195,
+        3131,
+        1548,
+        2454,
+        1548,
+        2454
+      ],
+      "episode_denominator": 8,
+      "measured_owned_attempt_host_wall_ns_total": 3447568357,
+      "nonzero_actual_accepted_queue_waits": 4,
+      "paid_decisions_per_episode": [
+        8,
+        11,
+        8,
+        11,
+        12,
+        15,
+        12,
+        15
+      ],
+      "paid_decisions_total": 92,
+      "task_T_F_U": {
+        "FALSE": 0,
+        "TRUE": 8,
+        "UNKNOWN": 0
+      },
+      "virtual_decision_charge_ns_total": 1840000000
+    },
+    "strong_batch": {
+      "actual_accepted_A_C_requests": {
+        "A": 16,
+        "C": 8
+      },
+      "candidate_evaluations_total": 2528,
+      "candidates_per_episode": [
+        300,
+        330,
+        340,
+        370,
+        282,
+        312,
+        282,
+        312
+      ],
+      "episode_denominator": 8,
+      "measured_owned_attempt_host_wall_ns_total": 2894546036,
+      "nonzero_actual_accepted_queue_waits": 0,
+      "paid_decisions_per_episode": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "paid_decisions_total": 8,
+      "task_T_F_U": {
+        "FALSE": 0,
+        "TRUE": 8,
+        "UNKNOWN": 0
+      },
+      "virtual_decision_charge_ns_total": 160000000
+    }
+  },
+  "created_at_utc": "2026-10-13T18:16:54.698914+00:00",
+  "feedback_lifecycle_distinction_not_learning_or_advantage": true,
+  "full_audit_sha256": "ecff99605f7899785ec25c630309e0a5084039955133de33faad486ee9e8967b",
+  "host_cost_scope": "OWNED_CASE_ATTEMPT_WALL_INCLUDING_NATIVE_STEPS_AND_ALL_STREAM_IO; NOT_INFERENCE_LATENCY_OR_HARDWARE_CONTROL_TIMING",
+  "matrix_snapshot_sha256": "f6860f15691bcbaf75f0779bc2749244e72dbfb8265a388b10bfc09db8272e4b",
+  "old_single_or_diagnostics_not_added_to_primary32": true,
+  "onset_confirmation_21points200ms_and_sampled_maintenance_separate": true,
+  "paired_eight_configs_previously_seen_not_IID_or_heldout": true,
+  "physical_continuity_or_true_model_support_proven": false,
+  "planned_primary_denominator": 32,
+  "primary_controlled_native_epochs": 32,
+  "primary_native_counts": {
+    "RAW_samples": 38432,
+    "actor_public_frames": 38432,
+    "native_steps": 38400,
+    "public_captures": 7712,
+    "public_delivered_packets": 7648
+  },
+  "producer_release_sha256": "171b6e1154341261b5437fc752f72bcbb0267ee236b344badc3f2fc189f692fd",
+  "public_exporter_created_after_outcome_not_prospectively_frozen_score": true,
+  "public_input_causality_preACK_and_original_B_identity_pass": true,
+  "robot_RGB_hardware_chemical_endpoints_weights_fit_GPU": 0,
+  "same_initial_scene_unfitted_known_model_first_A_drop_only": true,
+  "schema": "PaperBPaired32IndependentPublicAudit/0.1",
+  "separate_command_reintegration_diagnostic": {
+    "maximum_native_time_error": 0.0,
+    "maximum_state_error": 0.0,
+    "native_epochs": 32,
+    "native_samples": 38432,
+    "native_steps": 38400
+  },
+  "status": "PASS_PAIRED32_NATIVE_RAW_AUDIT",
+  "strong_batch_less_paid_decisions_and_candidates_on_these_fixed_configs": true,
+  "task_T_F_U": {
+    "FALSE": 0,
+    "TRUE": 32,
+    "UNKNOWN": 0
+  },
+  "virtual20ms_decision_charge_not_measured_host_or_LLM_latency": true
+}

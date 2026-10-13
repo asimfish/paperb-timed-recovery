@@ -1,0 +1,32 @@
+{
+  "CPU_development_seen_records": 8,
+  "OPD_student_state_teacher_labels_admitted": 0,
+  "actual_VLA_image_delivery_evidence": "UNKNOWN_NOT_LOGGED",
+  "all_old_roles_and_event_identities_preserved": true,
+  "causal_candidate_records": 852,
+  "causal_statuses": {
+    "REJECTED": 20,
+    "UNKNOWN": 832
+  },
+  "created_at_utc": "2026-10-13T17:30:26.232944+00:00",
+  "full_DP_success_rows_admitted": 0,
+  "full_timed_and_hold_success_demo_episodes": 0,
+  "input_pin_sha256": "3cf2d73fe03a55dbd9ec458aea094d448770d123f75758625ff900d5b6a97d3d",
+  "metadata_records_are_not_28_independent_robot_tests": true,
+  "offline_RL_rows_admitted": 0,
+  "original_calibration_separate": 4,
+  "original_test_denominator": 16,
+  "policy_weights_or_native_epochs_created": 0,
+  "primary_test_T_F_U": {
+    "FALSE": 2,
+    "TRUE": 8,
+    "UNKNOWN": 6
+  },
+  "records": 28,
+  "robot_episodes": 20,
+  "status": "PASS_METADATA_CAUSAL_ADMISSION_PROTOTYPE_NOT_TRAINING",
+  "strict_test_TRUE": 0,
+  "student_inputs_materialized": 0,
+  "training_admitted": 0,
+  "weights_training_GPU_new_native_frame_copy": 0
+}

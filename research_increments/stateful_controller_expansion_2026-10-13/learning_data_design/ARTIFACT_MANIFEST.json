@@ -1,0 +1,82 @@
+{
+  "closure_scope": "OWNED_CPU_METADATA_CONTRACT_CODE_SCHEMA_DOCS_LABEL_REFERENCES; NOT_PRIVATE_FRAMES_OR_NATIVE_REEXECUTION_PACKAGE",
+  "created_at_utc": "2026-10-13T17:37:25.529992+00:00",
+  "files": {
+    "ADR_verified_replay.md": {
+      "bytes": 5952,
+      "sha256": "fa16f73d44f4b07c6b64e6b99240e96d37ec128c34ba0d4e582ccbe9957325fd"
+    },
+    "CPU_ACCEPTANCE.json": {
+      "bytes": 1588,
+      "sha256": "ec3653149a723d3041d36ad948ce2e999f50e85c358b10cdcfa865765f221302"
+    },
+    "CPU_ACCEPTANCE.log": {
+      "bytes": 3082,
+      "sha256": "75e87a4b156ee0027dd3ae59ab38ac09d4583bdb61582573f648ab64f084bd06"
+    },
+    "INPUT_PIN.json": {
+      "bytes": 2345,
+      "sha256": "3cf2d73fe03a55dbd9ec458aea094d448770d123f75758625ff900d5b6a97d3d"
+    },
+    "LEARNING_OBJECTIVES_AND_GATES_cn.md": {
+      "bytes": 5212,
+      "sha256": "5e72d3b3d667b0b131ff14966140e02d1feb9c99ad2474356a2e9ae23be013c5"
+    },
+    "PUBLIC_SUMMARY.json": {
+      "bytes": 2311,
+      "sha256": "4f21d78ecbd5fedd4d339ca563010e6c04fc87d3b9945790d1a2db0b00682cd0"
+    },
+    "README.md": {
+      "bytes": 3101,
+      "sha256": "6df35a28f36e1ff4727af70edc28ae1b0dffdc802e1b6d15715faf39b32ad9c3"
+    },
+    "TEST_CONTRACT.md": {
+      "bytes": 1853,
+      "sha256": "14e543fb0887770570f8369824367930876e5f9de8a0e7a2d9c47c03906b5219"
+    },
+    "UNSAFE_ALTERNATIVES_RED.json": {
+      "bytes": 848,
+      "sha256": "f8fce1f26964e4a3cc846b1d49da442d50a364e74c1bb8611a1fb362fb96b258"
+    },
+    "VerifiedReplay.schema.json": {
+      "bytes": 6278,
+      "sha256": "b18ecf80ff5cb0abbdd153ee3fa0de6e2c962fda548958d34e9a9f054958f003"
+    },
+    "VerifiedReplayCausalCandidate.schema.json": {
+      "bytes": 5027,
+      "sha256": "35c11a0288111207ffa42d19d08076b83430a1286f59bec7c8571c5140c35b05"
+    },
+    "metadata_adapter.py": {
+      "bytes": 14366,
+      "sha256": "b9ecb55dfec38e42e507c40d128c94f6f627b68a5e0a4a1e5ab2fc22eacb5622"
+    },
+    "metadata_v1/CAUSAL_CANDIDATES.jsonl": {
+      "bytes": 1761770,
+      "sha256": "97ac42ceecf91b33b3b2a88f51e25063ecad4690d64b02456af60bb6c5864d02"
+    },
+    "metadata_v1/EPISODE_RECORDS.jsonl": {
+      "bytes": 142929,
+      "sha256": "c2d13b840a70ece0764426395b8bfa87697e46ccb19de8f50f694bda9094f309"
+    },
+    "metadata_v1/SUMMARY.json": {
+      "bytes": 1088,
+      "sha256": "545f3d0530ab416e311101d4133d86b78444b6ad4cca0ac26bf8ba844381bc88"
+    },
+    "run_cpu_acceptance.py": {
+      "bytes": 3101,
+      "sha256": "994c335cf8e7b9f606c39c56aba86ffb1ea21eff673b52e1c2e200b89d08ac68"
+    },
+    "test_verified_replay.py": {
+      "bytes": 11440,
+      "sha256": "14d5df30a1c36548eedb7aa7b15408c0354f8ade91c3979c4a614e05c0963255"
+    },
+    "verified_replay.py": {
+      "bytes": 11496,
+      "sha256": "fca90432d64f207eaa7c97db8c4040cd97e12b0cce5cbbfe50b5044fe0ea9fcc"
+    }
+  },
+  "private_input_pin_sha256": "3cf2d73fe03a55dbd9ec458aea094d448770d123f75758625ff900d5b6a97d3d",
+  "regular_member_count": 18,
+  "schema": "VerifiedReplayOwnedArtifactManifest/0.1",
+  "source_and_metadata_freeze_after_old_outcomes": true
+}

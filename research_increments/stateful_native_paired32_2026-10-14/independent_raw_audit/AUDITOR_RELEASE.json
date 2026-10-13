@@ -1,0 +1,31 @@
+{
+  "GPU": 0,
+  "created_at_utc": "2026-10-13T18:10:06.301155+00:00",
+  "file_count": 11,
+  "files": {
+    "AUDIT_PROTOCOL.json": "dc8ceb06822f05e7a13fe6cb62dfe4312769966aa7afb006bce8151c8d692d08",
+    "CPU_PREFLIGHT.json": "00a7fab16b01391274d745bb4486eb37cb496e877c3c6a881bf2712fa1b03397",
+    "CPU_PREFLIGHT.log": "59f9b916b89b2a086731e67b24d241305c0c4d48ee6b2ae1e5b96ea8c29e3d23",
+    "CPU_PREFLIGHT_FINAL.log": "229451690ae8beb7394b9ad60e72518ff841c918c9e9ee221dd31ac1899bbb2c",
+    "INPUT_PIN.json": "b51a248f2587001525455c4c340b64b9a194106c77b396060a8c0e579aaad3f3",
+    "README.md": "88f646eb14bf6db194bc22e8b4e0bf45fc8edd7e888b1819cf1b462ef906fa3f",
+    "SOURCE_ORIGIN.json": "e5153de6affdd4da287e4c293011b2aeef2c2da7dde1457fb47e901c12b57d88",
+    "audit_paired32.py": "29a8b04a3c416c2c51149aee04d88b9e995ea88376aa6aba6b26f9a0a6d9f19b",
+    "event_referee.py": "5d3a1d6ae8fb139e69c2d6509d973d0642e17c0e741fc9f51f428afd81be56bb",
+    "single_core.py": "4d6a95e911ead14fc8e973e84f52881669729691891f5e8e3b1caf4ba3f074a4",
+    "test_paired_audit.py": "b7935ac29b2c3e4e6c40158d515676a64fdcc4921056a4123c47db52e1c36c23"
+  },
+  "maximum_new_diagnostic_epochs": 32,
+  "new_native_or_diagnostics_during_preflight": 0,
+  "per_method_denominator": 8,
+  "primary_planned_attempt_denominator": 32,
+  "producer_native_cases_absent_at_seal": true,
+  "producer_release_sha256": "171b6e1154341261b5437fc752f72bcbb0267ee236b344badc3f2fc189f692fd",
+  "prospective_source_freeze": true,
+  "runtime_PASS_status": "PASS_PAIRED32_NATIVE_RAW_AUDIT",
+  "runtime_full_audit": "PAIRED_RAW_AUDIT.json",
+  "schema": "PaperBPaired32IndependentProspectiveAuditorRelease/0.1",
+  "single_full_audit_sha256": "ec1d2cdf59ce5b958cdd32322162e27eff45d3897bb4cb58b9df7491169e01dd",
+  "status": "READY_BEFORE_PAIRED32_NATIVE_EXECUTION",
+  "weights": 0
+}

@@ -1,0 +1,38 @@
+[
+  {
+    "ack_ns": 1100000000,
+    "external": true,
+    "request_ns": 0,
+    "seq": 0,
+    "service_start_ns": 650000000,
+    "tag": "B_reserved_drive_change",
+    "target": "B"
+  },
+  {
+    "ack_ns": 1150000000,
+    "external": false,
+    "request_ns": 1100000000,
+    "seq": 1,
+    "service_start_ns": 1100000000,
+    "tag": "A_stop",
+    "target": "A"
+  },
+  {
+    "ack_ns": 1370000000,
+    "external": false,
+    "request_ns": 1320000000,
+    "seq": 2,
+    "service_start_ns": 1320000000,
+    "tag": "A_stop",
+    "target": "A"
+  },
+  {
+    "ack_ns": 1820000000,
+    "external": false,
+    "request_ns": 1370000000,
+    "seq": 3,
+    "service_start_ns": 1370000000,
+    "tag": "C_stop",
+    "target": "C"
+  }
+]

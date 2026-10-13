@@ -1,0 +1,16 @@
+{
+  "status": "PASS_ROOT_INDEPENDENT_ACTUAL32_MANUSCRIPT_REVIEW",
+  "PDF_sha256": "76d55e6f0fc7817d8a35ad42c98ea6f96c616a69553d7fdc68aad4c6ce6ca7a4",
+  "build_validation_sha256": "708f85c99e0e188621edeab71f67815128118b1bff42d6dc2bd9dc6d150ebb7e",
+  "source_archive_sha256": "d7fefdfba4cbdfc8528e68ef1f5069412909ce683c1979da8d2d7c91d3d262d8",
+  "reopened_source_members": 31,
+  "all_build_outputs_readback": true,
+  "actual_CSV_and_independent_audit_byte_exact": true,
+  "compiled_pages": 2,
+  "root_visually_inspected_pages": [
+    "manuscript/build/delivery_page-1.png",
+    "manuscript/build/delivery_page-2.png"
+  ],
+  "visual_findings": "Both pages readable; full32 vector timing intervals and decision counts, table and references visible, no clipping.",
+  "claim_scope": "Seen mechanical component only; all four methods8/8 tie, no learning/agentic/chemical advantage; metadata28 not primary trials; diagnostic32 separately reported."
+}

@@ -1,0 +1,575 @@
+{
+  "all_30_pinned_files_match": true,
+  "all_pass": true,
+  "created_at_utc": "2026-10-13T17:32:45.443415+00:00",
+  "old_v1_red_files": {
+    "conditional_snapshot_20261014_v1/B_MAINTENANCE_NEGATIVE_RESULT.json": "34834c6adc3c508d31d0fa714905712ff6384f5283076f448b1615a0689348a2",
+    "conditional_snapshot_20261014_v1/B_MAINTENANCE_SOFTWARE_NEGATIVE.py": "3e792ef4216edde7db802b81d2ca157cc049ae10bd346150efb85173f94a9076",
+    "conditional_snapshot_20261014_v1/CONDITIONAL_PROBES.json": "135a5b26cb731032a2476bbdccf489db1e1c1abdcf83423da3cac4830f599fcb",
+    "conditional_snapshot_20261014_v1/NESTED_METADATA_BOUNDARY_NEGATIVE.json": "d97ac571a2186dd711a4d02fe9ee1108e3bd5094c99ecff5cde749cf7141432b",
+    "conditional_snapshot_20261014_v1/RUN_CONDITIONAL_PROBES.py": "fdf862f541ccd95014c1707e0b9509b9732395c4d02d12a1bf1e95fa068f8570",
+    "conditional_snapshot_20261014_v1/SOURCE_ORIGIN.json": "b85e6afd96327a6360574ccaa076ee5ea81d1558162d569131c90ce6d2cd5c39",
+    "conditional_snapshot_20261014_v1/SOURCE_PIN.json": "ba31bb85140448a4d14458b6a81c43ed30dcb5cca7ed283f8888b980e51172d5",
+    "conditional_snapshot_20261014_v1/code/controller_contract.py": "b91ed504d3835a34fc45e317473dc05e21fff2d60f556d77cf75b9fd6f47aa1a",
+    "conditional_snapshot_20261014_v1/code/cpu_public_fixture.py": "3b8454a1478017837fe774e279cf51623c48f0658bbd75c6799601da2bb6ce59",
+    "conditional_snapshot_20261014_v1/code/initial_public_math.py": "2d60b1d39a755ab4a4608ddd7d4d360f70ed3df468ef673a1f6dc64a2a769b02",
+    "conditional_snapshot_20261014_v1/code/public_types.py": "6da1c5c930d366afc00d34620bacda016ea5e10a6fff55e3ec8fc8b01c03a396",
+    "conditional_snapshot_20261014_v1/code/request_ledger.py": "6f1954f5496c20ad91034fcee71ce44d1809e521a84b34cfb1d010b879bbc7be",
+    "conditional_snapshot_20261014_v1/code/schedule_model.py": "a21ba080a475e70c155a5b4468549060b29ab52326d3a58759877b5daa81e434",
+    "conditional_snapshot_20261014_v1/code/stateful_controllers.py": "246b4055cf1b4427b429c0f712f8f944e15c6afcbcb9f9802417887698ecb412",
+    "conditional_snapshot_20261014_v1/code/temporal_facts.py": "2de60d4032fd6f971b6dea749bb58319841de2ab5c41a865d3b794bc5c0e90a1",
+    "conditional_snapshot_20261014_v1/source_inputs/scenario_PROTOCOL_V2.json": "2a055cfbe084e277961fbd89a769fc45a80a53e6c8c9f1913ba90e5089f9120a"
+  },
+  "regression_count": 11,
+  "results": [
+    {
+      "evidence": {
+        "counts": {
+          "A": 2,
+          "C": 0
+        },
+        "first_error": {
+          "message": "one emitted client token cannot bind two accepted server identities",
+          "type": "ValueError"
+        },
+        "ledger": {
+          "ACK_is_effect_success": false,
+          "ACKs": [],
+          "accepted_reservations": [
+            {
+              "ack_ns": 70000000,
+              "external": false,
+              "request_ns": 20000000,
+              "seq": 1,
+              "service_start_ns": 20000000,
+              "tag": "A_stop",
+              "target": "A"
+            },
+            {
+              "ack_ns": 120000000,
+              "external": false,
+              "request_ns": 20000000,
+              "seq": 2,
+              "service_start_ns": 70000000,
+              "tag": "A_stop",
+              "target": "A"
+            }
+          ],
+          "counts": {
+            "A": 2,
+            "C": 0
+          },
+          "history": [
+            {
+              "event": "INSTALL_UNSENT_PROGRAM",
+              "installed": 1,
+              "prefix_only": false,
+              "version": 1
+            },
+            {
+              "action": {
+                "client_token": "software-fixture/1/A/0",
+                "request_ns": 20000000,
+                "tag": "A_stop",
+                "target": "A"
+              },
+              "event": "EMIT_COUNTS_ONCE_PENDING_RECEIPT"
+            }
+          ],
+          "intents": [
+            {
+              "ACK_ns": 70000000,
+              "emitted_ns": 20000000,
+              "mode": "blind",
+              "seq": 1,
+              "service_start_ns": 20000000,
+              "status": "ACCEPTED",
+              "submit_ns": 20000000,
+              "target": "A",
+              "token": "software-fixture/1/A/0"
+            }
+          ],
+          "remaining": {
+            "A": 0,
+            "C": 2
+          },
+          "unclaimed_accepted_requests": [
+            {
+              "reason": "DUPLICATE_SERVER_IDENTITY_FOR_ONE_EMITTED_TOKEN",
+              "request_ns": 20000000,
+              "target": "A"
+            }
+          ]
+        },
+        "original_binding": 1,
+        "protocol_failure": {
+          "reason": "one emitted client token cannot bind two accepted server identities",
+          "type": "ValueError"
+        },
+        "subsequent_tick_error": {
+          "message": "sticky public protocol failure: no further action emission in this epoch",
+          "type": "ValueError"
+        }
+      },
+      "id": "CR-001",
+      "pass": true
+    },
+    {
+      "evidence": {
+        "callbacks": [],
+        "error": {
+          "message": "exact public data frame required before callbacks or getters",
+          "type": "TypeError"
+        },
+        "sticky_error": {
+          "message": "sticky public protocol failure: no further action emission in this epoch",
+          "type": "ValueError"
+        }
+      },
+      "id": "CR-002-frame",
+      "pass": true
+    },
+    {
+      "evidence": {
+        "callbacks": [],
+        "error": {
+          "message": "causal exact public Packet",
+          "type": "ValueError"
+        },
+        "scope": "exact public actor entry; DTO construction outside entry is a trusted adapter"
+      },
+      "id": "CR-002-time-at-actor",
+      "pass": true
+    },
+    {
+      "evidence": {
+        "actual_private_or_native_data_read": false,
+        "error": {
+          "message": "exact public B reservation fields; private metadata forbidden",
+          "type": "ValueError"
+        }
+      },
+      "id": "nested-metadata",
+      "pass": true
+    },
+    {
+      "evidence": {
+        "arms": [
+          {
+            "counts": {
+              "A": 0,
+              "C": 0
+            },
+            "initial_committed": false,
+            "method": "strong_batch",
+            "paid_created_ns": 560000000,
+            "paid_ready_ns": 580000000,
+            "pass": true,
+            "subsequent_replan_created_ns": 580000000,
+            "transactions": [
+              {
+                "created_ns": 560000000,
+                "event": "STALE_PAID_TRANSACTION_DISCARDED_ISSUED_REQUESTS_AND_CURRENT_CALENDAR_PRESERVED",
+                "ready_ns": 580000000
+              }
+            ]
+          },
+          {
+            "counts": {
+              "A": 0,
+              "C": 0
+            },
+            "initial_committed": false,
+            "method": "guarded_hsm_retry",
+            "paid_created_ns": 560000000,
+            "paid_ready_ns": 580000000,
+            "pass": true,
+            "subsequent_replan_created_ns": 580000000,
+            "transactions": [
+              {
+                "created_ns": 560000000,
+                "event": "STALE_PAID_TRANSACTION_DISCARDED_ISSUED_REQUESTS_AND_CURRENT_CALENDAR_PRESERVED",
+                "ready_ns": 580000000
+              }
+            ]
+          },
+          {
+            "counts": {
+              "A": 0,
+              "C": 0
+            },
+            "initial_committed": false,
+            "method": "event_resource_edf",
+            "paid_created_ns": 560000000,
+            "paid_ready_ns": 580000000,
+            "pass": true,
+            "subsequent_replan_created_ns": 580000000,
+            "transactions": [
+              {
+                "created_ns": 560000000,
+                "event": "STALE_PAID_TRANSACTION_DISCARDED_ISSUED_REQUESTS_AND_CURRENT_CALENDAR_PRESERVED",
+                "ready_ns": 580000000
+              }
+            ]
+          },
+          {
+            "counts": {
+              "A": 0,
+              "C": 0
+            },
+            "initial_committed": false,
+            "method": "joint_interval_mpc",
+            "paid_created_ns": 560000000,
+            "paid_ready_ns": 580000000,
+            "pass": true,
+            "subsequent_replan_created_ns": 580000000,
+            "transactions": [
+              {
+                "created_ns": 560000000,
+                "event": "STALE_PAID_TRANSACTION_DISCARDED_ISSUED_REQUESTS_AND_CURRENT_CALENDAR_PRESERVED",
+                "ready_ns": 580000000
+              }
+            ]
+          }
+        ]
+      },
+      "id": "CR-003-calendar",
+      "pass": true
+    },
+    {
+      "evidence": {
+        "accepted_cancel_error": {
+          "message": "emitted/accepted/pending/ACKED requests are never cancellable",
+          "type": "ValueError"
+        },
+        "issued_during_paid_span": [
+          {
+            "client_token": "software-fixture/1/A/0",
+            "request_ns": 30000000,
+            "tag": "A_stop",
+            "target": "A"
+          }
+        ],
+        "ledger": {
+          "ACK_is_effect_success": false,
+          "ACKs": [],
+          "accepted_reservations": [
+            {
+              "ack_ns": 80000000,
+              "external": false,
+              "request_ns": 30000000,
+              "seq": 1,
+              "service_start_ns": 30000000,
+              "tag": "A_stop",
+              "target": "A"
+            }
+          ],
+          "counts": {
+            "A": 1,
+            "C": 0
+          },
+          "history": [
+            {
+              "event": "INSTALL_UNSENT_PROGRAM",
+              "installed": 2,
+              "prefix_only": false,
+              "version": 1
+            },
+            {
+              "action": {
+                "client_token": "software-fixture/1/A/0",
+                "request_ns": 30000000,
+                "tag": "A_stop",
+                "target": "A"
+              },
+              "event": "EMIT_COUNTS_ONCE_PENDING_RECEIPT"
+            }
+          ],
+          "intents": [
+            {
+              "ACK_ns": 80000000,
+              "emitted_ns": 30000000,
+              "mode": "blind",
+              "seq": 1,
+              "service_start_ns": 30000000,
+              "status": "ACCEPTED",
+              "submit_ns": 30000000,
+              "target": "A",
+              "token": "software-fixture/1/A/0"
+            },
+            {
+              "ACK_ns": 550000000,
+              "emitted_ns": null,
+              "mode": "blind",
+              "seq": null,
+              "service_start_ns": 100000000,
+              "status": "UNSENT",
+              "submit_ns": 100000000,
+              "target": "C",
+              "token": "software-fixture/1/C/1"
+            }
+          ],
+          "remaining": {
+            "A": 1,
+            "C": 2
+          },
+          "unclaimed_accepted_requests": []
+        },
+        "old_C_retained": true,
+        "transactions": [
+          {
+            "created_ns": 20000000,
+            "event": "STALE_PAID_TRANSACTION_DISCARDED_ISSUED_REQUESTS_AND_CURRENT_CALENDAR_PRESERVED",
+            "ready_ns": 40000000
+          }
+        ]
+      },
+      "id": "paid-old-intent-preservation",
+      "pass": true
+    },
+    {
+      "evidence": {
+        "arms": [
+          {
+            "error": null,
+            "last_public_B_velocity": 6.666666666666664,
+            "method": "strong_batch",
+            "pass": true,
+            "phase": "IMMUTABLE_STRONG_BATCH_PROGRAM",
+            "verdict": {
+              "A_window": true,
+              "B_maintenance_verdict": "FALSE",
+              "B_public_control_profile": false,
+              "B_public_moving_samples": true,
+              "B_public_sample_coverage": true,
+              "B_sampled_maintenance": false,
+              "C_window": true,
+              "conditional_model_not_true_support": true,
+              "graph_gap": true,
+              "original_B_identity": {
+                "first_arrival_ns": 550000000,
+                "kind": "B_PUBLIC_OBSERVED_FIRST_Q2",
+                "lower_ns": 400000000,
+                "upper_ns": 450000000
+              },
+              "original_onset_not_confirmation_used": true,
+              "raw_referee_acceptance_inferred": false,
+              "reference": {
+                "first_arrival_ns": 550000000,
+                "kind": "B_SAME_EVENT_CONDITIONAL_PUBLIC_MODEL",
+                "lower_ns": 440000000,
+                "upper_ns": 450000000
+              },
+              "status": "PUBLIC_TIMING_OR_MAINTENANCE_UNRESOLVED_OR_FALSE"
+            }
+          },
+          {
+            "error": null,
+            "last_public_B_velocity": 6.666666666666664,
+            "method": "guarded_hsm_retry",
+            "pass": true,
+            "phase": "EXECUTE_STRONG_BLIND_FALLBACK_OR_REMAINING",
+            "verdict": {
+              "A_window": true,
+              "B_maintenance_verdict": "FALSE",
+              "B_public_control_profile": false,
+              "B_public_moving_samples": true,
+              "B_public_sample_coverage": true,
+              "B_sampled_maintenance": false,
+              "C_window": true,
+              "conditional_model_not_true_support": true,
+              "graph_gap": true,
+              "original_B_identity": {
+                "first_arrival_ns": 550000000,
+                "kind": "B_PUBLIC_OBSERVED_FIRST_Q2",
+                "lower_ns": 400000000,
+                "upper_ns": 450000000
+              },
+              "original_onset_not_confirmation_used": true,
+              "raw_referee_acceptance_inferred": false,
+              "reference": {
+                "first_arrival_ns": 550000000,
+                "kind": "B_SAME_EVENT_CONDITIONAL_PUBLIC_MODEL",
+                "lower_ns": 440000000,
+                "upper_ns": 450000000
+              },
+              "status": "PUBLIC_TIMING_OR_MAINTENANCE_UNRESOLVED_OR_FALSE"
+            }
+          },
+          {
+            "error": null,
+            "last_public_B_velocity": 6.666666666666664,
+            "method": "event_resource_edf",
+            "pass": true,
+            "phase": "EVENT_RESOURCE_REPLAN_UNSENT_ONLY",
+            "verdict": {
+              "A_window": true,
+              "B_maintenance_verdict": "FALSE",
+              "B_public_control_profile": false,
+              "B_public_moving_samples": true,
+              "B_public_sample_coverage": true,
+              "B_sampled_maintenance": false,
+              "C_window": true,
+              "conditional_model_not_true_support": true,
+              "graph_gap": true,
+              "original_B_identity": {
+                "first_arrival_ns": 550000000,
+                "kind": "B_PUBLIC_OBSERVED_FIRST_Q2",
+                "lower_ns": 400000000,
+                "upper_ns": 450000000
+              },
+              "original_onset_not_confirmation_used": true,
+              "raw_referee_acceptance_inferred": false,
+              "reference": {
+                "first_arrival_ns": 550000000,
+                "kind": "B_SAME_EVENT_CONDITIONAL_PUBLIC_MODEL",
+                "lower_ns": 440000000,
+                "upper_ns": 450000000
+              },
+              "status": "PUBLIC_TIMING_OR_MAINTENANCE_UNRESOLVED_OR_FALSE"
+            }
+          },
+          {
+            "error": null,
+            "last_public_B_velocity": 6.666666666666664,
+            "method": "joint_interval_mpc",
+            "pass": true,
+            "phase": "RECEDING_JOINT_INTERVAL_PREFIX",
+            "verdict": {
+              "A_window": true,
+              "B_maintenance_verdict": "FALSE",
+              "B_public_control_profile": false,
+              "B_public_moving_samples": true,
+              "B_public_sample_coverage": true,
+              "B_sampled_maintenance": false,
+              "C_window": true,
+              "conditional_model_not_true_support": true,
+              "graph_gap": true,
+              "original_B_identity": {
+                "first_arrival_ns": 550000000,
+                "kind": "B_PUBLIC_OBSERVED_FIRST_Q2",
+                "lower_ns": 400000000,
+                "upper_ns": 450000000
+              },
+              "original_onset_not_confirmation_used": true,
+              "raw_referee_acceptance_inferred": false,
+              "reference": {
+                "first_arrival_ns": 550000000,
+                "kind": "B_SAME_EVENT_CONDITIONAL_PUBLIC_MODEL",
+                "lower_ns": 440000000,
+                "upper_ns": 450000000
+              },
+              "status": "PUBLIC_TIMING_OR_MAINTENANCE_UNRESOLVED_OR_FALSE"
+            }
+          }
+        ]
+      },
+      "id": "CR-004-B-control",
+      "pass": true
+    },
+    {
+      "evidence": {
+        "confirmation_capture_ns": 450000000,
+        "continuous_native_hold_verified": false,
+        "failed_candidates": [
+          {
+            "candidate": {
+              "bounds_ns": [
+                100000000,
+                150000000
+              ],
+              "first_arrival_ns": 250000000,
+              "kind": "PUBLIC_SAMPLED_STOP_CROSSING",
+              "source_capture_bounds_ns": [
+                100000000,
+                150000000
+              ]
+            },
+            "failed_capture_ns": 200000000,
+            "reason": "HOLD_LOST_BEFORE_CONFIRMATION",
+            "target": "A"
+          }
+        ],
+        "final_stop": {
+          "bounds_ns": [
+            200000000,
+            250000000
+          ],
+          "first_arrival_ns": 350000000,
+          "kind": "PUBLIC_SAMPLED_STOP_CROSSING",
+          "post_confirmation_motion_observed": true,
+          "source_capture_bounds_ns": [
+            200000000,
+            250000000
+          ]
+        },
+        "first_bounds_ns": [
+          200000000,
+          250000000
+        ]
+      },
+      "id": "transient-stop",
+      "pass": true
+    },
+    {
+      "evidence": {
+        "confirmed": {},
+        "sampling_gaps": [
+          [
+            200000000,
+            300000000
+          ]
+        ]
+      },
+      "id": "missing-confirmation-sample",
+      "pass": true
+    },
+    {
+      "evidence": {
+        "confirmed": {},
+        "fresh_evidence": {
+          "A": {
+            "ACK_ns": 100000000,
+            "ACK_seq": 1,
+            "mode": "POWER_OFF_AFTER_SERVICE_NOT_TASK_SUCCESS",
+            "packet_arrival_ns": 210000000,
+            "packet_capture_ns": 110000000
+          }
+        },
+        "same_tick_pre_ACK_evidence": {}
+      },
+      "id": "fresh-post-ACK",
+      "pass": true
+    },
+    {
+      "evidence": {
+        "begin_does_not_refund_epoch": true,
+        "epoch": 10000,
+        "epoch_cap": 10000,
+        "per_decision_cap": 1000
+      },
+      "id": "shared-candidate-budget",
+      "pass": true
+    }
+  ],
+  "schema": "paperb-independent-stateful-v2-regressions-v1",
+  "scope": {
+    "GPU": 0,
+    "fit": 0,
+    "formal32": 0,
+    "heldout": false,
+    "new_native_epochs": 0,
+    "no_native_admission_inferred": true,
+    "private_plant_imports": false,
+    "synthetic_trace_calls": 5
+  },
+  "source_pin_sha256": "ea39d01ac8a884e9e8fb135a8a7e4bd5b9a7958d67fff4f4031dcef7bad0d800",
+  "trusted_adapter_limitation": {
+    "actor_entry_or_native_reader_invoked": false,
+    "constructor_callbacks": [
+      "lt"
+    ],
+    "constructor_error": null,
+    "requirement": "native bridge must build DTOs from exact plain primitive values; no arbitrary object adapter"
+  }
+}

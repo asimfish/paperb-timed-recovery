@@ -1,0 +1,14 @@
+{
+  "PDF_sha256": "76d55e6f0fc7817d8a35ad42c98ea6f96c616a69553d7fdc68aad4c6ce6ca7a4",
+  "build_validation_sha256": "708f85c99e0e188621edeab71f67815128118b1bff42d6dc2bd9dc6d150ebb7e",
+  "canonical_PDF": "PAIRED32_COMPONENT_NOTE.pdf",
+  "final_two_pages": true,
+  "independent_audit_sha256": "ecff99605f7899785ec25c630309e0a5084039955133de33faad486ee9e8967b",
+  "new_native_GPU_fit": 0,
+  "producer_stops_modifying_after_receipt": true,
+  "schema": "paperb-paired32-final-manuscript-receipt-v1",
+  "source_archive_sha256": "d7fefdfba4cbdfc8528e68ef1f5069412909ce683c1979da8d2d7c91d3d262d8",
+  "source_bundle_validation_sha256": "5d78db46e974ccd5eafab918e5e012595849f4ec3e5a4ccf07b0f62a48de6278",
+  "source_release_sha256": "171b6e1154341261b5437fc752f72bcbb0267ee236b344badc3f2fc189f692fd",
+  "status": "COMPLETE_READY_FOR_ROOT_INDEPENDENT_VISUAL_FACT_REVIEW"
+}

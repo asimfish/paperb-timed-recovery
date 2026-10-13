@@ -1,0 +1,9 @@
+# CPU acceptance boundary
+
+The unit tests assert externally visible admission status and denial reasons for unknown truth, false hold, objective mismatch, role mutation, seen-as-heldout leakage, related episode groups, explicit private inputs, opaque native objects, post-step/past-action mispairing, same-time order, delivery uncertainty, FIFO application and cross-epoch/unit errors. Twenty-seven joint truth vectors have exact logical oracles. A real in-process integration reads the 28 hash-bound metadata records and checks original 4cal/16test and 8 CPU development scopes, 8/2/6 primary test outcomes, strict 0/16, full success 0/20, and Draft-7 schema validation.
+
+No historical physical score is recomputed or changed here; existing independent audited labels are inputs. No new physics, tensors, image copies, learner, dataset migration or GPU run is part of this gate. This is not an end-to-end VLA/data-loader acceptance claim. A future loader must supply policy delivery and privileged-channel provenance.
+
+Red boundary examples are stored separately: unsafe flattening would call a mechanical/primary pass with false hold a full successful demonstration; unsafe post-step pairing would use capture k for submission k−1; implicit missing delivery would fabricate an actual policy observation. The tests require rejection/quarantine for those cases. These are illustrative unsafe alternatives, not claims that the frozen old physical auditor had these defects.
+
+Run from this owned directory using `/usr/bin/python3 -B -m unittest test_verified_replay -v`. The adapter writes once to a new local output directory: `/usr/bin/python3 -B metadata_adapter.py --output metadata_v1`. Test metadata is private-reference-only and includes no large frames. System JSON-schema version and actual command results are recorded in CPU_ACCEPTANCE.json.

@@ -1,0 +1,149 @@
+{
+  "ACK_is_not_physical_stop": true,
+  "GPU": 0,
+  "RAW_integrity": "PASS",
+  "audit_release_sha256": "f1cc68202a38e0f916d35802f780f12c4021320e56654dde1cdc24c01430a9e4",
+  "case_id": "v2_diag-A_then_C-B45-D2p8",
+  "chemical_endpoints": 0,
+  "controller": {
+    "actual_requests": {
+      "A": 2,
+      "C": 1
+    },
+    "candidate_evaluations": 573,
+    "charged_virtual_decision_ns": 60000000,
+    "decisions": 3
+  },
+  "counts": {
+    "RAW_samples": 1201,
+    "accepted_A_C": {
+      "A": 2,
+      "C": 1
+    },
+    "actual_native_step_records": 1200,
+    "public_actor_frames": 1201,
+    "public_captures": 241,
+    "public_delivered_packets": 239
+  },
+  "created_at_utc": "2026-10-13T17:54:28.782568+00:00",
+  "diagnostic_reintegration": {
+    "diagnostic_native_epochs": 1,
+    "diagnostic_native_steps": 1200,
+    "diagnostic_samples": 1201,
+    "inputs_are_original_XML_declared_private_plant_and_actual_commands_not_actor_success_or_RAW_controls": true,
+    "native_time_max_absolute_error": 0.0,
+    "state_max_absolute_error": 0.0
+  },
+  "diagnostic_reintegration_epochs": 1,
+  "formal32": 0,
+  "heldout": false,
+  "independent_RAW_referee": {
+    "chemical_or_original_robot_credit": 0,
+    "controller_internal_flags_used": false,
+    "joint": "TRUE",
+    "maintenance_failure_ticks_ns": [],
+    "original_B_raw_interval_ns": [
+      440000000,
+      450000000
+    ],
+    "physical_continuity_between_ticks_proven": false,
+    "stop_events": {
+      "A": {
+        "confirmation_ns": 3130000000,
+        "confirmation_positive_samples": 21,
+        "had_prior_moving_sample": true,
+        "interval_ns": [
+          2920000000,
+          2930000000
+        ]
+      },
+      "C": {
+        "confirmation_ns": 3580000000,
+        "confirmation_positive_samples": 21,
+        "had_prior_moving_sample": true,
+        "interval_ns": [
+          3370000000,
+          3380000000
+        ]
+      }
+    },
+    "time_scores": {
+      "A": {
+        "duration_interval_ns": [
+          2470000000,
+          2490000000
+        ],
+        "verdict": "TRUE"
+      },
+      "C": {
+        "duration_interval_ns": [
+          2920000000,
+          2940000000
+        ],
+        "verdict": "TRUE"
+      }
+    },
+    "values": {
+      "A_original_time": "TRUE",
+      "B_sampled_maintenance": "TRUE",
+      "C_original_time": "TRUE",
+      "actual_B_original_anchor": "TRUE",
+      "actual_drop_and_effective_recovery": "TRUE",
+      "graph": "TRUE",
+      "irreversible_B_angle": "TRUE",
+      "original_anchor_before_failure": "TRUE",
+      "raw_one_epoch": "TRUE",
+      "service_capacity": "TRUE"
+    }
+  },
+  "independent_task_verdict": "TRUE",
+  "method": "guarded_hsm_retry",
+  "model_refinement_does_not_replace_original_B": true,
+  "physical_continuity_between_samples_proven": false,
+  "preACK_capture_independently_reconstructed": true,
+  "primary_attempt_denominator": 1,
+  "primary_controlled_native_episodes": 1,
+  "public_anchor": {
+    "Fraction_public_model_forward_residual": [
+      4.440892098500626e-16,
+      0.0
+    ],
+    "conditional_model_not_true_support_or_privileged_event": true,
+    "original_public_B_coarse": {
+      "first_arrival_ns": 550000000,
+      "kind": "B_PUBLIC_OBSERVED_FIRST_Q2",
+      "lower_ns": 400000000,
+      "upper_ns": 450000000
+    },
+    "public_model_same_event_reference": {
+      "first_arrival_ns": 550000000,
+      "kind": "B_SAME_EVENT_CONDITIONAL_PUBLIC_MODEL",
+      "lower_ns": 440000000,
+      "upper_ns": 450000000
+    }
+  },
+  "real_robot_episodes": 0,
+  "required16_artifact_sha256": {
+    "ACKs.jsonl": "5ad4434406b8598a3592e3e8d79d0a056a422149572c61c86ce5b684cfeabdad",
+    "ARTIFACT_MANIFEST.json": "0a5aa389b8c6ec540fa089041c41cf6506e93e857387bcc4ef7240b282e44828",
+    "NATIVE_DEV_RESULT.json": "45f35e0953a39ddd321770a579967063a25e8bf1ef0e8d0e6b7d10033ef12483",
+    "SETUP.json": "af6bb1db75c02171602b0afc1e4eeab3b520c1877c445ac7e94f05c5beade9e8",
+    "commands.json": "c6ae2af7c29592f792ca0fd24e0d167c1d62969599492313487994a22ac9b746",
+    "controller_ticks.jsonl": "58440d2966eefcbd697438d3d3809e8a05d2d199b3eeab15986b2b6454c901fd",
+    "independent_samples.csv": "e879b8f94901230b39354743d0847418f7731c2e4b2d4894860d2fe2c4b23fb1",
+    "native_steps.jsonl": "956889f7dd14a7b231e9d4f2f9e12475751a37eb69a275065705f28ce1e5ef89",
+    "private_effects.jsonl": "163fdd9aba475b0d308e39e08563be927f4d504735cdd4f5f9c3a02b847631be",
+    "public_actor_inputs.jsonl": "6a0113c3add2845c88c66233ca3ceed2219f21c42acbdbe160e6acae27e40306",
+    "public_captures.jsonl": "2842adcc992262524be641cde5cab65e828af9b372ccb050bf63745477438074",
+    "public_decisions.json": "d32b16d30efcef0c5f535cee987c75bdaca1a67b306a64605c4ea05f746f8ac2",
+    "public_deliveries.jsonl": "ee0f54fea5c77aa87cf140980062c01df1ad02b99ae38480ffd83c8dfc6f160c",
+    "public_final_snapshot.json": "06a480ffa5c78ad6487444f59a934a8c252af9194cee63019dc89d0bf459fade",
+    "raw_verdict.json": "78ff40bd1cd2363a7bd114f9f95433b7fef532918e5aa72fe33af35f56a26e39",
+    "submissions.jsonl": "87c523fb67d3235a56e2a3bdc6e45cc2d5152ce7ded580be5f1a21805e1bb869"
+  },
+  "schema": "PaperBNativeRAWIndependentAudit/0.1",
+  "source_CPU30_sha256": "ea39d01ac8a884e9e8fb135a8a7e4bd5b9a7958d67fff4f4031dcef7bad0d800",
+  "source_bridge_release_sha256": "fb0f660cf1b8fc0058c626c4b717f5d93e0731ca1824b1b028be671f1a688ab6",
+  "status": "PASS_NATIVE_DEVELOPMENT_RAW_AUDIT",
+  "weights": 0
+}

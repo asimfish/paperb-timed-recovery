@@ -1,0 +1,30 @@
+{
+  "all_28_episode_and_852_candidate_Draft7_schema_and_crossfield_checks": true,
+  "created_at_utc": "2026-10-13T17:35:59.654135+00:00",
+  "exact_pinned_metadata_transform_roundtrip": {
+    "CAUSAL_CANDIDATES.jsonl": true,
+    "EPISODE_RECORDS.jsonl": true
+  },
+  "future_legacy_training_not_permanently_forbidden": true,
+  "gate_created_after_old_results_available_not_prospective_for_old_experiments": true,
+  "jsonschema_version": "3.2.0",
+  "old_source_score_contracts_calibration_and_sealed604_increment_edited": false,
+  "python_version": "3.10.12",
+  "schema": "VerifiedReplayCPUGate/0.1",
+  "source_sha256": {
+    "INPUT_PIN.json": "3cf2d73fe03a55dbd9ec458aea094d448770d123f75758625ff900d5b6a97d3d",
+    "VerifiedReplay.schema.json": "b18ecf80ff5cb0abbdd153ee3fa0de6e2c962fda548958d34e9a9f054958f003",
+    "VerifiedReplayCausalCandidate.schema.json": "35c11a0288111207ffa42d19d08076b83430a1286f59bec7c8571c5140c35b05",
+    "metadata_adapter.py": "b9ecb55dfec38e42e507c40d128c94f6f627b68a5e0a4a1e5ab2fc22eacb5622",
+    "run_cpu_acceptance.py": "994c335cf8e7b9f606c39c56aba86ffb1ea21eff673b52e1c2e200b89d08ac68",
+    "test_verified_replay.py": "14d5df30a1c36548eedb7aa7b15408c0354f8ade91c3979c4a614e05c0963255",
+    "verified_replay.py": "fca90432d64f207eaa7c97db8c4040cd97e12b0cce5cbbfe50b5044fe0ea9fcc"
+  },
+  "status": "PASS_METADATA_ONLY_NOT_TRAINING",
+  "student_tensors_large_frame_copies_dataset_migrations": 0,
+  "test_count": 34,
+  "tests_errors": 0,
+  "tests_failures": 0,
+  "training_not_admitted": true,
+  "weights_training_GPU_new_native_or_reintegration_epochs": 0
+}

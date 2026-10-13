@@ -1,0 +1,26 @@
+{
+  "status": "PASS_EXTRACTED_PUBLIC_METADATA_LOGIC_REPLAY",
+  "code_sha256": "f077826caca2b8f5c6e6395b0f3e38b197947e93ff22cf8774d15dd1ab61b266",
+  "archive_sha256": "07b89131ce7b6d17138df1a9cef255ae2afcdeadc237cbc16b372adad47236ed",
+  "command": [
+    "python3",
+    "-B",
+    "check_public_metadata.py"
+  ],
+  "from_clean_temporary_extraction": true,
+  "does_not_read_private_RAW_or_images": true,
+  "result": {
+    "admission_statuses": {
+      "REJECTED": 20,
+      "UNKNOWN": 832
+    },
+    "causal_candidates": 852,
+    "episodes": 28,
+    "new_native_epochs": 0,
+    "original_private_dispatch_transform_or_physical_labels_recomputed": false,
+    "status": "PASS_PUBLIC_METADATA_ONLY",
+    "training_admitted": 0
+  },
+  "new_native_episodes": 0,
+  "training": 0
+}

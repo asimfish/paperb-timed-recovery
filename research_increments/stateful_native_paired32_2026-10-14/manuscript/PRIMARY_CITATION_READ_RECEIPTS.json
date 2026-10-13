@@ -1,0 +1,58 @@
+{
+  "checked_at_utc": "2026-10-13T18:38:06.063096+00:00",
+  "no_novelty_absence_claim": true,
+  "no_verbatim_abstract_copy": true,
+  "schema": "paperb-paired32-note-primary-citation-read-v1",
+  "sources": [
+    {
+      "authors": [
+        "Changhao Wang",
+        "Jaden Clark",
+        "Shuran Song"
+      ],
+      "key": "chronos",
+      "primary_url": "https://arxiv.org/abs/2610.13929",
+      "read_scope": [
+        "official abstract",
+        "title/author/version metadata"
+      ],
+      "reproduction": false,
+      "source_date": "2026-10-09",
+      "title": "Chronos Policy: Learning Robot Policies on Physical Time",
+      "used_claim": "physical time is explicit in existing robot-policy research",
+      "version": "v1"
+    },
+    {
+      "authors": [
+        "Yinsen Jia",
+        "Boyuan Chen"
+      ],
+      "key": "timecontrol",
+      "primary_url": "https://arxiv.org/abs/2511.07654",
+      "read_scope": [
+        "official abstract",
+        "title/author/version metadata"
+      ],
+      "reproduction": false,
+      "source_date": "2026-03-11",
+      "title": "Time as a Control Dimension in Robot Learning",
+      "used_claim": "time-aware policy learning already exists",
+      "version": "v2"
+    },
+    {
+      "current_primary_page_fetch": "publisher cookie redirect unavailable; no retry",
+      "doi": "10.1038/s43588-025-00924-4",
+      "existing_metadata_sha256": "5f26c378c7ff01283327fe9e91d601f8a50384d4b2e99d20142c392d7e7bb9f5",
+      "existing_verified_source": "user-provided PDF and previously checked official metadata; copied CORE_CITATION_METADATA.json",
+      "first_author": "Kourosh Darvish",
+      "journal": "Nature Computational Science",
+      "key": "matterix",
+      "new_reproduction": false,
+      "pages": "67-82",
+      "primary_url": "https://www.nature.com/articles/s43588-025-00924-4",
+      "used_claim": "chemistry twins/process verification are core prior work",
+      "volume": 6,
+      "year": 2026
+    }
+  ]
+}

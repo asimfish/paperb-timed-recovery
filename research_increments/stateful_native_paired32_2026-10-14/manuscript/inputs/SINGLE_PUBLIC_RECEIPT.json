@@ -1,0 +1,66 @@
+{
+  "GPU": 0,
+  "case_id": "v2_diag-A_then_C-B45-D2p8",
+  "chemical_endpoints": 0,
+  "complete_recorded_raw_pass": true,
+  "controlled_native_episode_count": 1,
+  "controller": {
+    "actual_requests": {
+      "A": 2,
+      "C": 1
+    },
+    "candidate_evaluations": 573,
+    "charged_virtual_decision_ns": 60000000,
+    "decisions": 3
+  },
+  "copied_single_is_new_paired32_outcome": false,
+  "counts": {
+    "RAW_samples": 1201,
+    "accepted_A_C": {
+      "A": 2,
+      "C": 1
+    },
+    "actual_native_step_records": 1200,
+    "public_actor_frames": 1201,
+    "public_captures": 241,
+    "public_delivered_packets": 239
+  },
+  "cpu_source_pin_sha256": "ea39d01ac8a884e9e8fb135a8a7e4bd5b9a7958d67fff4f4031dcef7bad0d800",
+  "diagnostic_reintegration_epochs": 1,
+  "fit": 0,
+  "formal32": 0,
+  "heldout": false,
+  "independent_auditor_release_sha256": "f1cc68202a38e0f916d35802f780f12c4021320e56654dde1cdc24c01430a9e4",
+  "independent_commands_clocks_events_pass": true,
+  "independent_full_audit_artifact": "full_independent_audit/NATIVE_RAW_AUDIT.json",
+  "independent_full_audit_artifact_sha256": "ec1d2cdf59ce5b958cdd32322162e27eff45d3897bb4cb58b9df7491169e01dd",
+  "independent_referee_joint": "TRUE",
+  "independent_task_verdict": "TRUE",
+  "method": "guarded_hsm_retry",
+  "primary_attempt_denominator": 1,
+  "real_robot_episodes": 0,
+  "receipt_role": "SCHEMA_ADAPTER_FROM_HASH_BOUND_INDEPENDENT_AUDIT_NOT_ANOTHER_EXPERIMENT",
+  "required16_artifact_sha256": {
+    "ACKs.jsonl": "5ad4434406b8598a3592e3e8d79d0a056a422149572c61c86ce5b684cfeabdad",
+    "ARTIFACT_MANIFEST.json": "0a5aa389b8c6ec540fa089041c41cf6506e93e857387bcc4ef7240b282e44828",
+    "NATIVE_DEV_RESULT.json": "45f35e0953a39ddd321770a579967063a25e8bf1ef0e8d0e6b7d10033ef12483",
+    "SETUP.json": "af6bb1db75c02171602b0afc1e4eeab3b520c1877c445ac7e94f05c5beade9e8",
+    "commands.json": "c6ae2af7c29592f792ca0fd24e0d167c1d62969599492313487994a22ac9b746",
+    "controller_ticks.jsonl": "58440d2966eefcbd697438d3d3809e8a05d2d199b3eeab15986b2b6454c901fd",
+    "independent_samples.csv": "e879b8f94901230b39354743d0847418f7731c2e4b2d4894860d2fe2c4b23fb1",
+    "native_steps.jsonl": "956889f7dd14a7b231e9d4f2f9e12475751a37eb69a275065705f28ce1e5ef89",
+    "private_effects.jsonl": "163fdd9aba475b0d308e39e08563be927f4d504735cdd4f5f9c3a02b847631be",
+    "public_actor_inputs.jsonl": "6a0113c3add2845c88c66233ca3ceed2219f21c42acbdbe160e6acae27e40306",
+    "public_captures.jsonl": "2842adcc992262524be641cde5cab65e828af9b372ccb050bf63745477438074",
+    "public_decisions.json": "d32b16d30efcef0c5f535cee987c75bdaca1a67b306a64605c4ea05f746f8ac2",
+    "public_deliveries.jsonl": "ee0f54fea5c77aa87cf140980062c01df1ad02b99ae38480ffd83c8dfc6f160c",
+    "public_final_snapshot.json": "06a480ffa5c78ad6487444f59a934a8c252af9194cee63019dc89d0bf459fade",
+    "raw_verdict.json": "78ff40bd1cd2363a7bd114f9f95433b7fef532918e5aa72fe33af35f56a26e39",
+    "submissions.jsonl": "87c523fb67d3235a56e2a3bdc6e45cc2d5152ce7ded580be5f1a21805e1bb869"
+  },
+  "schema": "paperb-single-native-raw-prerequisite-adapter-v1",
+  "source_bridge_release_sha256": "fb0f660cf1b8fc0058c626c4b717f5d93e0731ca1824b1b028be671f1a688ab6",
+  "source_result_sha256": "45f35e0953a39ddd321770a579967063a25e8bf1ef0e8d0e6b7d10033ef12483",
+  "status": "PASS_SINGLE_STATEFUL_NATIVE_RECORDED_RAW",
+  "weights": 0
+}

@@ -1,0 +1,28 @@
+{
+  "examples": [
+    {
+      "case": "mechanical_and_primary_true_hold_false",
+      "current_DP_success_admission": false,
+      "required_full_success": false,
+      "unsafe_flat_success": true
+    },
+    {
+      "case": "capture_k_poststep_with_submission_k_minus_1",
+      "required_status": "REJECTED",
+      "unsafe_pair": "same-row applied target"
+    },
+    {
+      "case": "missing_policy_image_delivery",
+      "required_status": "UNKNOWN",
+      "unsafe_assumption": "capture equals student observation"
+    },
+    {
+      "case": "legacy_test_into_future_heldout",
+      "required_status": "REJECTED",
+      "unsafe_split": "shuffle observed frames"
+    }
+  ],
+  "old_negative_results_preserved": true,
+  "schema": "VerifiedReplayUnsafeAlternatives/0.1",
+  "scope": "illustrative unsafe alternatives, not frozen old auditor defects"
+}

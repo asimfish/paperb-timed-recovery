@@ -1,0 +1,59 @@
+{
+  "chemical_or_original_robot_credit": 0,
+  "controller_internal_flags_used": false,
+  "joint": "TRUE",
+  "maintenance_failure_ticks_ns": [],
+  "original_B_raw_interval_ns": [
+    440000000,
+    450000000
+  ],
+  "physical_continuity_between_ticks_proven": false,
+  "stop_events": {
+    "A": {
+      "confirmation_ns": 3130000000,
+      "confirmation_positive_samples": 21,
+      "had_prior_moving_sample": true,
+      "interval_ns": [
+        2920000000,
+        2930000000
+      ]
+    },
+    "C": {
+      "confirmation_ns": 3580000000,
+      "confirmation_positive_samples": 21,
+      "had_prior_moving_sample": true,
+      "interval_ns": [
+        3370000000,
+        3380000000
+      ]
+    }
+  },
+  "time_scores": {
+    "A": {
+      "duration_interval_ns": [
+        2470000000,
+        2490000000
+      ],
+      "verdict": "TRUE"
+    },
+    "C": {
+      "duration_interval_ns": [
+        2920000000,
+        2940000000
+      ],
+      "verdict": "TRUE"
+    }
+  },
+  "values": {
+    "A_original_time": "TRUE",
+    "B_sampled_maintenance": "TRUE",
+    "C_original_time": "TRUE",
+    "actual_B_original_anchor": "TRUE",
+    "actual_drop_and_effective_recovery": "TRUE",
+    "graph": "TRUE",
+    "irreversible_B_angle": "TRUE",
+    "original_anchor_before_failure": "TRUE",
+    "raw_one_epoch": "TRUE",
+    "service_capacity": "TRUE"
+  }
+}

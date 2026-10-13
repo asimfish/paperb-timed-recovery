@@ -1,0 +1,271 @@
+{
+  "$id": "VerifiedReplayEpisode-0.1",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "additionalProperties": false,
+  "description": "Current CPU metadata schema. Temporal/event cross-field invariants additionally require verified_replay.py; this schema is not a training authorization. Future training is a separately versioned collection/admission policy.",
+  "properties": {
+    "audit_only": {
+      "properties": {
+        "events": {
+          "items": {
+            "properties": {
+              "clock_id": {
+                "type": "string"
+              },
+              "confirmation_time": {
+                "type": [
+                  "number",
+                  "null"
+                ]
+              },
+              "event_id": {
+                "type": "string"
+              },
+              "kind": {
+                "type": "string"
+              },
+              "onset_interval": {
+                "items": {
+                  "type": "number"
+                },
+                "maxItems": 2,
+                "minItems": 2,
+                "type": "array"
+              },
+              "physical_continuity_proven": {
+                "const": false
+              },
+              "unit": {
+                "enum": [
+                  "s",
+                  "ns"
+                ]
+              }
+            },
+            "required": [
+              "event_id",
+              "kind",
+              "clock_id",
+              "unit",
+              "onset_interval",
+              "confirmation_time",
+              "physical_continuity_proven"
+            ],
+            "type": "object"
+          },
+          "type": "array"
+        }
+      },
+      "required": [
+        "events"
+      ],
+      "type": "object"
+    },
+    "clock": {
+      "properties": {
+        "clock_id": {
+          "type": "string"
+        },
+        "samples": {
+          "minimum": 1,
+          "type": "integer"
+        },
+        "unit": {
+          "enum": [
+            "s",
+            "ns"
+          ]
+        }
+      },
+      "required": [
+        "clock_id",
+        "original_epoch",
+        "unit",
+        "samples"
+      ],
+      "type": "object"
+    },
+    "dataset_kind": {
+      "enum": [
+        "robot_timing_legacy",
+        "CPU_rotor_development_seen"
+      ]
+    },
+    "episode_id": {
+      "minLength": 1,
+      "type": "string"
+    },
+    "labels": {
+      "properties": {
+        "contracts": {
+          "additionalProperties": {
+            "properties": {
+              "original_verdict": {
+                "type": "string"
+              },
+              "value": {
+                "enum": [
+                  "TRUE",
+                  "FALSE",
+                  "UNKNOWN"
+                ],
+                "type": "string"
+              }
+            },
+            "required": [
+              "value",
+              "original_verdict"
+            ],
+            "type": "object"
+          },
+          "type": "object"
+        },
+        "objectives": {
+          "additionalProperties": {
+            "additionalProperties": false,
+            "properties": {
+              "scope": {
+                "type": "string"
+              },
+              "value": {
+                "enum": [
+                  "TRUE",
+                  "FALSE",
+                  "UNKNOWN"
+                ],
+                "type": "string"
+              }
+            },
+            "required": [
+              "value",
+              "scope"
+            ],
+            "type": "object"
+          },
+          "type": "object"
+        }
+      },
+      "required": [
+        "contracts",
+        "objectives"
+      ],
+      "type": "object"
+    },
+    "objective_admissions": {
+      "type": "object"
+    },
+    "origin": {
+      "properties": {
+        "actor_kind": {
+          "type": "string"
+        },
+        "audit_sha256": {
+          "pattern": "^[0-9a-f]{64}$",
+          "type": "string"
+        },
+        "neural_expert": {
+          "type": "boolean"
+        },
+        "seen_before_design": {
+          "type": "boolean"
+        },
+        "student_rollout": {
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "seen_before_design",
+        "actor_kind",
+        "neural_expert",
+        "student_rollout",
+        "audit_sha256"
+      ],
+      "type": "object"
+    },
+    "original_role": {
+      "enum": [
+        "calibration",
+        "test",
+        "development_witness",
+        "future_collection"
+      ]
+    },
+    "public_contract_reference": {
+      "type": "object"
+    },
+    "schema": {
+      "const": "VerifiedReplayEpisode/0.1"
+    },
+    "split": {
+      "properties": {
+        "duplicate_or_scenario_group": {
+          "type": "string"
+        },
+        "future_heldout_eligible": {
+          "const": false
+        },
+        "original_role": {
+          "type": "string"
+        },
+        "pool": {
+          "const": "LEGACY_SEEN_METADATA"
+        },
+        "prospective_split_frozen": {
+          "const": false
+        }
+      },
+      "required": [
+        "original_role",
+        "pool",
+        "duplicate_or_scenario_group",
+        "future_heldout_eligible",
+        "prospective_split_frozen"
+      ],
+      "type": "object"
+    },
+    "student_input": {
+      "additionalProperties": false,
+      "properties": {
+        "actual_VLA_observation": {
+          "const": "UNKNOWN_NOT_LOGGED"
+        },
+        "materialized_features": {
+          "maxProperties": 0,
+          "type": "object"
+        },
+        "private_referee_values_allowed_as_student_inputs": {
+          "const": false
+        },
+        "status": {
+          "const": "NOT_MATERIALIZED_METADATA_ONLY"
+        }
+      },
+      "required": [
+        "status",
+        "materialized_features",
+        "actual_VLA_observation",
+        "private_referee_values_allowed_as_student_inputs"
+      ],
+      "type": "object"
+    },
+    "training_admission": {
+      "const": false
+    }
+  },
+  "required": [
+    "schema",
+    "episode_id",
+    "dataset_kind",
+    "original_role",
+    "origin",
+    "split",
+    "clock",
+    "labels",
+    "audit_only",
+    "student_input",
+    "objective_admissions",
+    "training_admission"
+  ],
+  "title": "Paper B legacy verified replay metadata only",
+  "type": "object"
+}

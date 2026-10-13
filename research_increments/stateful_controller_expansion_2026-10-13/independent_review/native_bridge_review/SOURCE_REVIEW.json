@@ -1,0 +1,103 @@
+{
+  "GPU": 0,
+  "LLM": 0,
+  "blocking_findings": [],
+  "bridge_release_sha256": "fb0f660cf1b8fc0058c626c4b717f5d93e0731ca1824b1b028be671f1a688ab6",
+  "case_id": "v2_diag-A_then_C-B45-D2p8",
+  "cpu_source_pin_sha256": "ea39d01ac8a884e9e8fb135a8a7e4bd5b9a7958d67fff4f4031dcef7bad0d800",
+  "created_at_utc": "2026-10-13T17:41:51.825924+00:00",
+  "dimensions": [
+    {
+      "evidence": "Fixed one-case HSM driver closure, exact public DTO/clock and write-once epoch claim verified statically;9CPU tests pass. Runtime physics/results outside source admission scope.",
+      "name": "Functional achievement",
+      "state": "Pass"
+    },
+    {
+      "evidence": "Native actual data.time checked each tick. Capture pre-ACK, effects at actual ACK, raw state before requests, single mj_step+forward after controller. Source counters/partial exception outputs retain failed/unknown/pending requests; no retry selector.",
+      "name": "Correctness and reliability",
+      "state": "Pass"
+    },
+    {
+      "evidence": "Private spec/plant/data/effects/referee are driver-only. Actor depends on parent30 pinned public closure; no NativePlant/referee/current fault getter is passed. Three original files byte-identical.",
+      "name": "Architecture",
+      "state": "Pass"
+    },
+    {
+      "evidence": "DTOs from primitive array copies and explicit now/ACK/Reservation. Root admission exact case/method/release/1epoch and independent review SHA required before native import. Trusted in-process boundary, not a sandbox.",
+      "name": "Function and API design",
+      "state": "Pass"
+    },
+    {
+      "evidence": "One explicit driver run with setup/loop/postrecord/finally and shared Streams; source ownership clear. No new actor or physics algorithm, no confirmed structural blocker.",
+      "name": "Style and maintainability",
+      "state": "Pass"
+    },
+    {
+      "evidence": "Predeclared accounting: paid20ms=2 native ticks while prior commitments continue; commonA2/C2/total4,candidate1000/10000.120s root-owned host cap. No actual LLM walltime or speed claim.",
+      "name": "Performance",
+      "state": "Pass"
+    }
+  ],
+  "evidence": {
+    "archive_members_reopened": 43,
+    "immutable_origins_equal": {
+      "plant.py": true,
+      "referee.py": true,
+      "three_rotors.xml": true
+    },
+    "independent_cpu_preflight_sha256": "a560690d8f2776e244d399e7ae15a683d8e2d24281db25614a952b5568c863ad",
+    "independent_pin_sha256": "b543821e637d9792c5c81983eca02e62bfcd1353f8f4431fe8c43699254b671d",
+    "native_import_before_after_cpu_tests": false,
+    "source_bundle_sha256": "367bd5686315fb25583f7be56d7750c7853915630d70295c674d682a15210a33",
+    "source_members_verified": 38,
+    "source_readback_validation_sha256": "00ab9767a14b1c362b3c83ebbe24dfa084048cabd3484a05e58666aeb5204cf3",
+    "tests_run": 9
+  },
+  "fit": 0,
+  "formal32": 0,
+  "heldout": false,
+  "maximum_controlled_native_epochs": 1,
+  "method": "guarded_hsm_retry",
+  "minimum_next_verification": "Root may create the exact one-epoch admission binding this receipt byte SHA after independent RAW auditor prospective protocol is ready, then execute once. This reviewer must not execute native. Failed and unknown attempts remain explicit.",
+  "new_native_epochs": 0,
+  "nonblocking_limits": [
+    "Native runtime/joint verdict not yet verified. Independent RAW/source/public-causality/command audit and separately counted reintegration are required after root executes; exit0/actor/copied referee alone not acceptance.",
+    "Private driver builds exact public DTOs from native arrays; source reviewed in-process boundary is not an adversarial Python process sandbox. No hardware,chemical,VLA-weight,LLM-walltime claim.",
+    "One already-seen fixed development condition cannot establish full4arm rates,formal32,heldout or agentic advantage. Source version remains pinned; any repair after failure requires new prospective release, not an overwrite."
+  ],
+  "private_fault_driver_only": "first_A_stop_drop",
+  "producer_or_old_frozen_sources_modified": false,
+  "raw_auditor_directory_written": false,
+  "review_itself_authorizes_or_executes_native": false,
+  "root_may_admit_single_fixed_development_epoch": true,
+  "runtime_order": [
+    "measured_native_clock",
+    "pre_ACK_public_capture",
+    "causal_delivery",
+    "actual_service_effect_ACK",
+    "post_ACK_RAW_state",
+    "exact_public_actor_input",
+    "controller_paid_or_prior_action",
+    "actual_request_acceptance",
+    "native_mj_step_and_forward"
+  ],
+  "schema": "paperb-independent-native-bridge-source-review-v1",
+  "scope": "SOURCE_ADMISSION_FOR_ONE_PREDECLARED_DEVELOPMENT_EPOCH_ONLY_NOT_RUNTIME_ACCEPTANCE",
+  "skills_applied": [
+    "code-review",
+    "security"
+  ],
+  "source_properties": {
+    "capture_pre_ACK_then_raw_then_public_actor_then_request_then_step": true,
+    "exact_one_create_call": true,
+    "fixed_exclusive_epoch_claim_before_native_import": true,
+    "no_bridge_pose_velocity_clock_or_direct_ctrl_writes": true,
+    "no_reset_calls": true,
+    "paid_time_is_two_native_ticks_not_actual_LLM_walltime": true,
+    "private_effects_and_raw_verdict_do_not_enter_actor": true,
+    "public_DTO_built_from_actual_array_copies": true,
+    "separate_root_and_independent_review_byte_sha_required": true
+  },
+  "status": "PASS_NATIVE_BRIDGE_SOURCE_REVIEW",
+  "verdict": "Pass"
+}

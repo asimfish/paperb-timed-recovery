@@ -1,0 +1,18 @@
+{
+  "created_at_utc": "2026-10-13T18:05:07.636315+00:00",
+  "files": {
+    "FINAL_INDEPENDENT_CPU_PREFLIGHT.json": "b822162dff656831695c652a280047f0505e45fa643a4731cb1bf1d9ca8f0159",
+    "FINAL_SOURCE_READBACK_VALIDATION.json": "0ddc0d1c3d1efea1a9350063f346f4e113900be73cc31a2ebfcc0d4766f6f170",
+    "FINAL_SOURCE_REGRESSIONS.json": "d890d49483c7862605f49b710aa100d4e0fc16cb483c3b8f493febfa2ae83812",
+    "RUN_FINAL_SOURCE_REGRESSIONS.py": "344d67979d495fe85e514d726277b2d897ec17ee7a6ee295e879da8ecae56f9d",
+    "SOURCE_REVIEW.json": "560dcb32169f21770efe65cef5896da76a8d921386c565a2a920217799932c29",
+    "SOURCE_REVIEW_cn.md": "892d7e54253fec1a4f9296053130419aa6013cd6be8b625da4037b11e2792d6f",
+    "final_source_snapshot_20261014/INDEPENDENT_PIN.json": "ce9aac7995ca539ea10e8f0ca5db1f20006c03974ddc43ec28207e6e11d10ba7",
+    "final_source_snapshot_20261014/SOURCE_RELEASE.json": "171b6e1154341261b5437fc752f72bcbb0267ee236b344badc3f2fc189f692fd"
+  },
+  "new_native_epochs": 0,
+  "pass": true,
+  "producer_source_changed": false,
+  "schema": "paperb-paired32-final-source-review-readback-v1",
+  "write_once": true
+}

@@ -1,0 +1,19 @@
+{
+  "GPU": 0,
+  "bridge_release_sha256": "fb0f660cf1b8fc0058c626c4b717f5d93e0731ca1824b1b028be671f1a688ab6",
+  "cpu_source_pin_sha256": "ea39d01ac8a884e9e8fb135a8a7e4bd5b9a7958d67fff4f4031dcef7bad0d800",
+  "errors": [],
+  "failures": [],
+  "fit": 0,
+  "formal_native32": 0,
+  "measured_host_wall_ns": 126869466,
+  "mujoco_imported_after": false,
+  "mujoco_imported_before": false,
+  "new_native_episodes": 0,
+  "output": "test_actual_native_clock_not_nominal_clock_substitution (test_bridge.BridgeTests) ... ok\ntest_actual_server_and_action_budget_audit_not_actor_flags (test_bridge.BridgeTests) ... ok\ntest_dense_raw_sample_keeps_measured_clock_and_actual_controls (test_bridge.BridgeTests) ... ok\ntest_exact_original_files_and_parent_pin_are_preserved (test_bridge.BridgeTests) ... ok\ntest_fixed_private_case_and_public_input_separation (test_bridge.BridgeTests) ... ok\ntest_native_import_and_step_only_inside_explicit_admitted_run (test_bridge.BridgeTests) ... ok\ntest_partial_streams_flush_and_no_overwrite (test_bridge.BridgeTests) ... ok\ntest_public_sensor_dto_copies_actual_values_not_driver_wrapper (test_bridge.BridgeTests) ... ok\ntest_same_source_exact_root_and_independent_receipts_required (test_bridge.BridgeTests) ... ok\n\n----------------------------------------------------------------------\nRan 9 tests in 0.118s\n\nOK\n",
+  "schema": "paperb-single-native-bridge-cpu-preflight-v1",
+  "source_hashes_verified": true,
+  "status": "PASS_NO_NATIVE_IMPORT_OR_EPOCH",
+  "tests_run": 9,
+  "unchanged_native_origins_verified": true
+}

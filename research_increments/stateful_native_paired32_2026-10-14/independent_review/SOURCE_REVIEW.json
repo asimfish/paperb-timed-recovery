@@ -1,0 +1,117 @@
+{
+  "GPU": 0,
+  "LLM": 0,
+  "OOD": false,
+  "actual_single_prerequisite": {
+    "RAW_integrity": "PASS",
+    "RAW_samples": 1201,
+    "copied_adapter_is_new_experiment": false,
+    "diagnostic_reintegration_epochs": 1,
+    "independent_task_verdict": "TRUE",
+    "native_steps": 1200,
+    "primary_controlled_native_episodes": 1,
+    "publicadapter_fullaudit_exact": true
+  },
+  "agentic_necessity_or_advantage_supported": false,
+  "blocking_findings": [],
+  "cpu_source_pin_sha256": "ea39d01ac8a884e9e8fb135a8a7e4bd5b9a7958d67fff4f4031dcef7bad0d800",
+  "created_at_utc": "2026-10-13T18:05:04.547563+00:00",
+  "dimensions": [
+    {
+      "evidence": "Immutable67source/active frozen protocol/ROSTER32 validated; actualsingle RAW prerequisite satisfies and source gate binds independent review/root receipts. Runtime32 not executed or accepted by this review.",
+      "name": "Functional achievement",
+      "state": "Pass"
+    },
+    {
+      "evidence": "12producer CPU tests independently passed;4additional regressions close setup retention/foreign resume/valid failed resume/public parity. All32planned slots kept; each case at most1model/epoch; pending/unknown/exception records retained.",
+      "name": "Correctness and reliability",
+      "state": "Pass"
+    },
+    {
+      "evidence": "One shared driver; unchanged public-controller EA30/native bridge FB8; private state/fault/effects/referee driver-only;43dependency member copies and11audit prerequisite copies exact.",
+      "name": "Architecture",
+      "state": "Pass"
+    },
+    {
+      "evidence": "Exact data-only public Contract/Packet/ACK/Reservation; sameinfo/caps for all4arms. Matrix/case/terminal release+roster+actual prerequisite proofs checked before resume. Active protocol/new release/singleaudit bind actual bytes.",
+      "name": "Function and API design",
+      "state": "Pass"
+    },
+    {
+      "evidence": "Scoped ownership and explicit matrix lifecycle; no remaining verified Major structural defect. Inherited schema wording caveat recorded below without editing immutable source.",
+      "name": "Style and maintainability",
+      "state": "Pass"
+    },
+    {
+      "evidence": "Source preserves paid20ms as2native ticks,old commitments continue;A2/C2/total4 andcandidate1000/10000 common. Not actual LLM walltime/native efficiency claim; runtime accounting awaits independent RAW audit.",
+      "name": "Performance",
+      "state": "Pass"
+    }
+  ],
+  "evidence": {
+    "CPUtests": 12,
+    "additionalregressions": 4,
+    "alloriginals_and_independent_copies_match": true,
+    "independent_CPU_preflight_sha256": "b822162dff656831695c652a280047f0505e45fa643a4731cb1bf1d9ca8f0159",
+    "independent_regressions_sha256": "d890d49483c7862605f49b710aa100d4e0fc16cb483c3b8f493febfa2ae83812",
+    "independent_source_pin_sha256": "ce9aac7995ca539ea10e8f0ca5db1f20006c03974ddc43ec28207e6e11d10ba7",
+    "single_audit_copy_members": 11,
+    "source_members_verified": 67,
+    "source_readback_validation_sha256": "0ddc0d1c3d1efea1a9350063f346f4e113900be73cc31a2ebfcc0d4766f6f170"
+  },
+  "fit": 0,
+  "fixed_seen_configurations": 8,
+  "formal_statistical_trials": 0,
+  "heldout": false,
+  "independent_RAW_auditor_directory_written": false,
+  "maximum_controlled_native_epochs": 32,
+  "minimum_next_verification": "After independent_RAW_auditor prospective source/protocol pin,root may create exact32cap admission binding this review receiptbyteSHA and single adapterSHA, then execute fixed roster. Reviewer executes0native; allfailed/refused/unknown/unstarted retained; acceptance separate.",
+  "new_paired_native_epochs_by_review": 0,
+  "new_weights": 0,
+  "nonblocking_limits": [
+    {
+      "id": "NB-1",
+      "note": "RAW_SCHEMA.partial_exception inherited NATIVE_DEV_RESULT name is stale; actual driver,outputs.per_case and TERMINAL schema correctly use TERMINAL.json. SETUP does not exportnq/nv/nu; immutable dimension assertion,3axisRAW and auditor replay are evidence,not invented getter readback. Auditor informed; no67source mutation."
+    },
+    {
+      "id": "NB-2",
+      "note": "All8conditions previously seen;32fixed paired mechanism validation only,notheldout/OOD/IID/statistical/agentic benefit. D changes withAwindow.upper byoldcatalogue; cannot attribute onlyCdeadline. Sameevent nominal refinement conditional,not modeltrue support orcontinuous assurance."
+    },
+    {
+      "id": "NB-3",
+      "note": "Postexecution independent RAW,actualclock/publiccausality,commands/endpoints/accounting and source audit required for all32 planned slots. Exit0/actor/copiedreferee doesnot itself accept results. Singleprimary1/reintegration1 separate andnotreusedas32outcome."
+    }
+  ],
+  "old_v1_red_and_v2_conditional_results_retained": true,
+  "paired32_source_release_sha256": "171b6e1154341261b5437fc752f72bcbb0267ee236b344badc3f2fc189f692fd",
+  "per_method_planned_denominator": 8,
+  "prior_findings": [
+    {
+      "evidence": "FINAL_SOURCE_REGRESSIONS[PAIR-001];12testpreflight",
+      "id": "PAIR-001",
+      "result": "CASE_CLAIM precedes setup; controlled constructor failure retains exception/terminal/UNKNOWN,0native;Noneactor/channel finalization safe.",
+      "status": "CLOSED_FINAL_SOURCE_CPU"
+    },
+    {
+      "evidence": "FINAL_SOURCE_REGRESSIONS[PAIR-002-foreign/valid-failed-resume]",
+      "id": "PAIR-002",
+      "result": "Foreign old terminal rejects before0dispatch; legitimate failed row is skipped withunchangedbytes andall32slots retained. Matrix/case/terminal binds release/roster/proofs.",
+      "status": "CLOSED_FINAL_SOURCE_CPU"
+    }
+  ],
+  "producer_or_EA30_FB8_old604_sources_modified": false,
+  "review_itself_executes_or_authorizes_native": false,
+  "root_may_admit_fixed32_after_independent_RAW_auditor_prospective_pin": true,
+  "roster_sha256": "6a2c35577f0cd36cfec0b5fc3b0a6f41e8013265b77efb2d8062439754a123dd",
+  "schema": "paperb-paired32-independent-final-source-review-v1",
+  "scope": "SOURCE_ADMISSION_FIXED_DEVELOPMENT_SEEN_PAIRED_MECHANISM_VALIDATION_NOT_RUNTIME_ACCEPTANCE",
+  "single_bridge_source_release_sha256": "fb0f660cf1b8fc0058c626c4b717f5d93e0731ca1824b1b028be671f1a688ab6",
+  "single_independent_full_audit_artifact_sha256": "ec1d2cdf59ce5b958cdd32322162e27eff45d3897bb4cb58b9df7491169e01dd",
+  "single_raw_receipt_sha256": "ecf2d35f9c3a24c17cd42e2b80f2fd421b03f4d088f2b415d9f2d31e3a40d42a",
+  "skills_applied": [
+    "code-review",
+    "security"
+  ],
+  "status": "PASS_PAIRED32_NATIVE_SOURCE_REVIEW",
+  "verdict": "Pass"
+}
