@@ -8,6 +8,8 @@
 <div class="notice">已执行：机械组件恢复实验、只读 SafeLab 接口检查和网页更新。待执行：共享 DP、学生状态 DAgger、条件启用的 RL/蒸馏，以及独立化学终点验证。当前没有新 VLA 或真实化学成功结果。</div>
 
 
+<aside class="notice" id="force_diagnostics_update" aria-label="最新受力采集结果"><strong>2026.10.14 · 受力采集进展：</strong>累计两次尝试：M0 采集预算超时，M1 完整执行 842.628 秒；基础记录分项通过，但接触点受力通道被前瞻读器拒绝，原标量未保存。受力资格与训练准入仍为 0。<a href="force-diagnostics.html">查看独立审计、失败定位与下一步 →</a></aside>
+
 <section id="native_handoff_readback" aria-labelledby="native-handoff-title">
 <div class="section-head"><h2 id="native-handoff-title">新单例原生采集：RAW 读回通过，承重与学习准入仍开放</h2><small>DEVELOPMENT_SEEN · 1 个实际 epoch</small></div>
 <p>这一已见开发单例保留原固定技能与调度，新增实际物理 getter、同刻 RGBD 和未来提交配对。原生执行来自已运行的 ARIS 分支；本 root 在 child 启动前取消重复执行，新增 worker 为 0，全局新增采集为 1。它不是 heldout、化学实验或已学习策略的成功示范。</p>

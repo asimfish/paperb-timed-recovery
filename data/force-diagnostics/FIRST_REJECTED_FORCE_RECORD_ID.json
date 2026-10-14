@@ -1,0 +1,49 @@
+{
+  "actual_native_clock": {
+    "callback_count": 4828,
+    "native_epoch": "paperb_force_diagnostics_v2:dev_seen_force_channel_diagnostics_002:0f46b16f2625568088c07367b6dab432bc693d74664250bb0aebfd0af155ce8c",
+    "time_s": 20.12500104960054
+  },
+  "applied_source_index": 3393,
+  "invalid": [
+    {
+      "channel": "normal_points",
+      "mode": "OBJECT_PARTITION",
+      "raw_scalar_or_data_saved": false,
+      "requested_filter_paths": [
+        "/World/StationA/dosing_balance",
+        "/World/Robots/fr3_A/fr3_leftfinger",
+        "/World/Robots/fr3_A/fr3_rightfinger"
+      ],
+      "requested_sensor_path": "/World/StationA/precursor_1",
+      "saved_item": {
+        "clock_after": {
+          "callback_count": 4828,
+          "native_epoch": "paperb_force_diagnostics_v2:dev_seen_force_channel_diagnostics_002:0f46b16f2625568088c07367b6dab432bc693d74664250bb0aebfd0af155ce8c",
+          "time_s": 20.12500104960054
+        },
+        "clock_before": {
+          "callback_count": 4828,
+          "native_epoch": "paperb_force_diagnostics_v2:dev_seen_force_channel_diagnostics_002:0f46b16f2625568088c07367b6dab432bc693d74664250bb0aebfd0af155ce8c",
+          "time_s": 20.12500104960054
+        },
+        "reason": "NEGATIVE_NORMAL_SCALAR",
+        "status": "INVALID"
+      },
+      "snapshot_integrity": "FAIL",
+      "snapshot_sha256": "f581003da907d05ec0964e4cba93cc37d897025c95cef39a28ef38d7910bd3aa",
+      "view_index": 0
+    }
+  ],
+  "line_1_based": 9657,
+  "line_sha256": "e1697b68f7f3df3a1328ee201508d09b221d3fbeffa0266e3035e50b44738706",
+  "phase": "POST_STEP",
+  "physical_record_sha256": "73cc8a8fabd1a6cc386f962b8224c9745089a80677e3893317b6610fbf439ed5",
+  "producer_numeric_status": "UNKNOWN",
+  "producer_reciprocal_status": [
+    "UNKNOWN",
+    "UNKNOWN",
+    "UNKNOWN"
+  ],
+  "tick": 3597
+}

@@ -1,0 +1,87 @@
+{
+  "schema": "RootRetainedM1ForceRejectionAcceptance/1",
+  "created_at_utc": "2026-10-14T06:37:37.413461+00:00",
+  "status": "ACCEPTED_INDEPENDENT_REJECTION_NOT_FORCE_OR_TRAINING_PASS",
+  "case_id": "dev_seen_force_channel_diagnostics_002",
+  "output_pin_sha256": "75089bd44f560be29652ebd9e62d8f1388e125d44dc259cff979d8b563cfe226",
+  "output_pin_members_reverified": 34,
+  "reader_source_members_reverified": 20,
+  "native_source_members_reverified": 162,
+  "installed_API_members_reverified": 12,
+  "archive_members_reopened": 31,
+  "raw_audit_sha256": "cba2f6f0988488abb2045b22c7dd1772bb8b64e90951532ad6dcede510cc363d",
+  "public_audit_sha256": "f9514aa2909ac3d3d16d00f84b3bef0f17c86e4f5e64575ef069d249e465b188",
+  "root_terminal_notification_sha256": "523a524eecaf9c65faf9d596954f73c9d0535b21345ef78b00a1f88b8aef761d",
+  "native_complete": 1,
+  "prior_M0_timeout": 1,
+  "cumulative_attempt_denominator": 2,
+  "force_gate_pass": 0,
+  "training_admitted": 0,
+  "new_weights": 0,
+  "first_failure": {
+    "actual_native_clock": {
+      "callback_count": 4828,
+      "native_epoch": "paperb_force_diagnostics_v2:dev_seen_force_channel_diagnostics_002:0f46b16f2625568088c07367b6dab432bc693d74664250bb0aebfd0af155ce8c",
+      "time_s": 20.12500104960054
+    },
+    "applied_source_index": 3393,
+    "invalid": [
+      {
+        "channel": "normal_points",
+        "mode": "OBJECT_PARTITION",
+        "raw_scalar_or_data_saved": false,
+        "requested_filter_paths": [
+          "/World/StationA/dosing_balance",
+          "/World/Robots/fr3_A/fr3_leftfinger",
+          "/World/Robots/fr3_A/fr3_rightfinger"
+        ],
+        "requested_sensor_path": "/World/StationA/precursor_1",
+        "saved_item": {
+          "clock_after": {
+            "callback_count": 4828,
+            "native_epoch": "paperb_force_diagnostics_v2:dev_seen_force_channel_diagnostics_002:0f46b16f2625568088c07367b6dab432bc693d74664250bb0aebfd0af155ce8c",
+            "time_s": 20.12500104960054
+          },
+          "clock_before": {
+            "callback_count": 4828,
+            "native_epoch": "paperb_force_diagnostics_v2:dev_seen_force_channel_diagnostics_002:0f46b16f2625568088c07367b6dab432bc693d74664250bb0aebfd0af155ce8c",
+            "time_s": 20.12500104960054
+          },
+          "reason": "NEGATIVE_NORMAL_SCALAR",
+          "status": "INVALID"
+        },
+        "snapshot_integrity": "FAIL",
+        "snapshot_sha256": "f581003da907d05ec0964e4cba93cc37d897025c95cef39a28ef38d7910bd3aa",
+        "view_index": 0
+      }
+    ],
+    "line_1_based": 9657,
+    "line_sha256": "e1697b68f7f3df3a1328ee201508d09b221d3fbeffa0266e3035e50b44738706",
+    "phase": "POST_STEP",
+    "physical_record_sha256": "73cc8a8fabd1a6cc386f962b8224c9745089a80677e3893317b6610fbf439ed5",
+    "producer_numeric_status": "UNKNOWN",
+    "producer_reciprocal_status": [
+      "UNKNOWN",
+      "UNKNOWN",
+      "UNKNOWN"
+    ],
+    "tick": 3597
+  },
+  "negative_scalar_magnitude_and_origin": "UNKNOWN_NOT_SAVED",
+  "raw_numeric_gate_not_repaired_or_relaxed": true,
+  "root_full_raw_decoder_reruns": 0,
+  "root_new_native_or_GPU_runs": 0,
+  "archive_lookup_initial_failure_receipt_sha256": "84d6c090b9c4b69cc56dc5aa9543537b7dd92995b8143bb076917b367afbce3e",
+  "secondary_failure_files": {
+    "REPORT.md": {
+      "bytes": 552,
+      "sha256": "bc7feb95456326b933c5a72d4a96b43b3457b27f401d6b7ed5c1c6f0bd8034d6"
+    },
+    "FAILURE_REPORT.json": {
+      "bytes": 3748,
+      "sha256": "7a0672c84bd3cb5e2347f13a036ba76f691100263606b89f931c244b7df0d484"
+    }
+  },
+  "force_figures_generated": 0,
+  "scientific_acceptance": "MAJOR_OPEN"
+}

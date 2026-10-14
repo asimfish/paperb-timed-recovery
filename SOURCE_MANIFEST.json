@@ -266,11 +266,75 @@
       ]
     },
     {
+      "bytes": 1823,
+      "path": "data/force-diagnostics/FIRST_REJECTED_FORCE_RECORD_ID.json",
+      "sha256": "78bdebcac4fc0d1bdcec6b279485f052781aa19df20ea3c8f6759e2d196c11e3",
+      "source": "papers/paperB/research_increments/native_handoff_force_diagnostics_v02_2026-10-14/independent_raw_audit/FIRST_REJECTED_FORCE_RECORD_ID.json",
+      "source_sha256": "78bdebcac4fc0d1bdcec6b279485f052781aa19df20ea3c8f6759e2d196c11e3",
+      "transformations": []
+    },
+    {
+      "bytes": 3405,
+      "path": "data/force-diagnostics/M0_PUBLIC_AUDIT.json",
+      "sha256": "8297e8b08fe7f0a5beee5eec2d765a1385789c5cd5d2ef218f29198ec9ff843a",
+      "source": "papers/paperB/research_increments/native_handoff_force_calibration_2026-10-14/independent_raw_audit/PUBLIC_AUDIT.json",
+      "source_sha256": "8297e8b08fe7f0a5beee5eec2d765a1385789c5cd5d2ef218f29198ec9ff843a",
+      "transformations": []
+    },
+    {
+      "bytes": 2062,
+      "path": "data/force-diagnostics/M0_PUBLIC_AUDIT.md",
+      "sha256": "b4776b3a684e249347e330bfaf91756c321328ec95573dc2edd08a33ffc1576c",
+      "source": "papers/paperB/research_increments/native_handoff_force_calibration_2026-10-14/independent_raw_audit/PUBLIC_AUDIT.md",
+      "source_sha256": "b4776b3a684e249347e330bfaf91756c321328ec95573dc2edd08a33ffc1576c",
+      "transformations": []
+    },
+    {
+      "bytes": 7359,
+      "path": "data/force-diagnostics/M1_PUBLIC_AUDIT.json",
+      "sha256": "f9514aa2909ac3d3d16d00f84b3bef0f17c86e4f5e64575ef069d249e465b188",
+      "source": "papers/paperB/research_increments/native_handoff_force_diagnostics_v02_2026-10-14/independent_raw_audit/PUBLIC_AUDIT.json",
+      "source_sha256": "f9514aa2909ac3d3d16d00f84b3bef0f17c86e4f5e64575ef069d249e465b188",
+      "transformations": []
+    },
+    {
+      "bytes": 2689,
+      "path": "data/force-diagnostics/M1_PUBLIC_AUDIT.md",
+      "sha256": "f998d625db6a777b2721c9b2e3521e01adde0d7b985ad72fbfe5b437305e4214",
+      "source": "papers/paperB/research_increments/native_handoff_force_diagnostics_v02_2026-10-14/independent_raw_audit/PUBLIC_AUDIT.md",
+      "source_sha256": "f998d625db6a777b2721c9b2e3521e01adde0d7b985ad72fbfe5b437305e4214",
+      "transformations": []
+    },
+    {
+      "bytes": 3605,
+      "path": "data/force-diagnostics/ROOT_RETAINED_FORCE_REJECTION_ACCEPTANCE.json",
+      "sha256": "6affb6790fdd4e9ba3c2761ccccf9628a34ab88d56fc104b4227da8aaf7960b9",
+      "source": "papers/paperB/research_increments/native_handoff_force_diagnostics_v02_2026-10-14/root_execution/ROOT_RETAINED_FORCE_REJECTION_ACCEPTANCE.json",
+      "source_sha256": "6affb6790fdd4e9ba3c2761ccccf9628a34ab88d56fc104b4227da8aaf7960b9",
+      "transformations": []
+    },
+    {
       "bytes": 48877,
       "path": "failure_branch_timing.svg",
       "sha256": "cc3565eec4a1d259558c84ab697c65172741a5f0e1b2f5d2caeaff5acb933ebc",
       "source": "web/failure_branch_timing.svg",
       "source_sha256": "cc3565eec4a1d259558c84ab697c65172741a5f0e1b2f5d2caeaff5acb933ebc",
+      "transformations": []
+    },
+    {
+      "bytes": 5071,
+      "path": "force-diagnostics.css",
+      "sha256": "119a523a6bc20e89fda75abc10350e9d68f47db9dfe0cf8eb13734a3437f8a60",
+      "source": "Publication authoring: force diagnostics source-only page",
+      "source_sha256": "119a523a6bc20e89fda75abc10350e9d68f47db9dfe0cf8eb13734a3437f8a60",
+      "transformations": []
+    },
+    {
+      "bytes": 11963,
+      "path": "force-diagnostics.html",
+      "sha256": "0986724e0e13a6fc17416f3f9888f4a1c3d5d91f6b0fde6e30bf5559ae505b72",
+      "source": "Publication authoring: force diagnostics source-only page",
+      "source_sha256": "0986724e0e13a6fc17416f3f9888f4a1c3d5d91f6b0fde6e30bf5559ae505b72",
       "transformations": []
     },
     {
@@ -308,13 +372,14 @@
       "transformations": []
     },
     {
-      "bytes": 282958,
+      "bytes": 283405,
       "path": "index.html",
-      "sha256": "5b01b03f6b90c1854d3982bead79a886faf1b76ec545e13563446733a5525908",
-      "source": "papers/paperB/research_increments/native_handoff_instrumentation_v2_2026-10-14/merged_delivery/public_index.html",
-      "source_sha256": "5b01b03f6b90c1854d3982bead79a886faf1b76ec545e13563446733a5525908",
+      "sha256": "91bc43a6c8e5791ac9444b58a7944d656790ef82a7ef1e1c00c2669bc93ebc37",
+      "source": "Paper B force diagnostics publication: small current-result link added to preserved be5f01f index",
+      "source_sha256": "91bc43a6c8e5791ac9444b58a7944d656790ef82a7ef1e1c00c2669bc93ebc37",
       "transformations": [
-        "Append the frozen native readback and nav to concurrent 66d4b91; retain ARIS research page, README and all original scripts; removing the two native additions restores exact 66d4b91 index bytes."
+        "Append the frozen native readback and nav to concurrent 66d4b91; retain ARIS research page, README and all original scripts; removing the two native additions restores exact 66d4b91 index bytes.",
+        "Add M0/M1 current diagnostics notice; existing native, clock, adaptation, figures and interactive results remain unchanged."
       ]
     },
     {
@@ -4348,8 +4413,22 @@
       "transformations": []
     }
   ],
-  "incremental_baseline_commit": "66d4b91c8edbd2451ac889006e391cced51d6d99",
-  "latest_increment": "native_handoff_instrumentation_v2_2026-10-14",
+  "force_diagnostics_scope": {
+    "M1_reader_post_result_repairs": 0,
+    "complete_collections": 1,
+    "force_gate_pass": 0,
+    "force_success_curves_generated": 0,
+    "native_attempt_denominator": 2,
+    "negative_scalar_value": "UNKNOWN_NOT_SAVED",
+    "new_native_after_M1": 0,
+    "new_weights": 0,
+    "original_M0_and_M1_RED_preserved": true,
+    "page": "force-diagnostics.html",
+    "source_exact_small_audit_files": 6,
+    "training_admitted": 0
+  },
+  "incremental_baseline_commit": "be5f01fcb4dc11c3471c59f110785b3edf7798d9",
+  "latest_increment": "native_handoff_force_diagnostics_v02_2026-10-14",
   "learning_frontier_source_scope": "Frozen offline diagnosis and CPU interfaces; v03 recovery-prefix red independently reproduced and v04 CPU98/independent13/archived13 fix frozen; root-notified v1 pre-native startup failure retained, no AppLauncher/native physics/RAW/RGB or production/training/weight result.",
   "merged_publication_provenance": {
     "actual_ARIS_episode_denominator": 1,

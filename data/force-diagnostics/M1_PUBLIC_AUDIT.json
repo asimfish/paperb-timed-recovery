@@ -1,0 +1,177 @@
+{
+  "M0_original_red_and_ARIS_artifacts_not_modified": true,
+  "accepted_base_integrity_counts": {
+    "FIFO_tail": 12,
+    "POST_pose_exact": 14007,
+    "RGBD": 177,
+    "case_regular_bytes": 1597868840,
+    "case_regular_files": 425,
+    "control_apply": 13995,
+    "control_submit": 13995,
+    "force_BEGIN": 1,
+    "force_END": 1,
+    "force_POST": 15237,
+    "force_PRE": 15237,
+    "force_file_bytes": 731666896,
+    "force_invalid_outer_rows": 18438,
+    "force_saved_rows": 30476,
+    "future_image_pairs": 176,
+    "invalid_object_normal_point_snapshots": 15034,
+    "invalid_support_reciprocal_normal_point_snapshots": 5524,
+    "physical_rows": 28016,
+    "rejected_normal_point_channels": 20558,
+    "source_video_frames": 168,
+    "task_states": 14007,
+    "terminal_image_without_future_pair": 1,
+    "total_native_steps": 15237,
+    "transient": 30,
+    "warmup": 1200
+  },
+  "actual_original_red_audit_sha256": "cba2f6f0988488abb2045b22c7dd1772bb8b64e90951532ad6dcede510cc363d",
+  "capture_scope": {
+    "capture_native_clock_is_not_certified_sensor_exposure_clock": true,
+    "observation_mode": "OFFLINE_CAPTURE",
+    "policy_image_delivery": "UNKNOWN_NOT_CLAIMED"
+  },
+  "case_id": "dev_seen_force_channel_diagnostics_002",
+  "classification": "COMPLETE_NATIVE_COLLECTION_BASE_RAW_INTEGRITY_PASS_FORCE_DETAIL_GETTER_CONTRACT_REJECTED",
+  "current_learning_scope": {
+    "BC_gate_used": false,
+    "DP_success_labels": 0,
+    "OPD_student_rollouts": 0,
+    "RL_rewards": 0,
+    "VLA_or_agentic_advantage_claimed": false,
+    "chemical_or_hardware_success_claimed": false,
+    "weights": 0
+  },
+  "force_saved_structure_scope": {
+    "all_force_record_numeric_integrity_NOT_accepted": true,
+    "first_reject": {
+      "actual_native_clock": {
+        "callback_count": 4828,
+        "native_epoch": "paperb_force_diagnostics_v2:dev_seen_force_channel_diagnostics_002:0f46b16f2625568088c07367b6dab432bc693d74664250bb0aebfd0af155ce8c",
+        "time_s": 20.12500104960054
+      },
+      "applied_source_index": 3393,
+      "invalid": [
+        {
+          "channel": "normal_points",
+          "mode": "OBJECT_PARTITION",
+          "raw_scalar_or_data_saved": false,
+          "requested_filter_paths": [
+            "/World/StationA/dosing_balance",
+            "/World/Robots/fr3_A/fr3_leftfinger",
+            "/World/Robots/fr3_A/fr3_rightfinger"
+          ],
+          "requested_sensor_path": "/World/StationA/precursor_1",
+          "saved_item": {
+            "clock_after": {
+              "callback_count": 4828,
+              "native_epoch": "paperb_force_diagnostics_v2:dev_seen_force_channel_diagnostics_002:0f46b16f2625568088c07367b6dab432bc693d74664250bb0aebfd0af155ce8c",
+              "time_s": 20.12500104960054
+            },
+            "clock_before": {
+              "callback_count": 4828,
+              "native_epoch": "paperb_force_diagnostics_v2:dev_seen_force_channel_diagnostics_002:0f46b16f2625568088c07367b6dab432bc693d74664250bb0aebfd0af155ce8c",
+              "time_s": 20.12500104960054
+            },
+            "reason": "NEGATIVE_NORMAL_SCALAR",
+            "status": "INVALID"
+          },
+          "snapshot_integrity": "FAIL",
+          "snapshot_sha256": "f581003da907d05ec0964e4cba93cc37d897025c95cef39a28ef38d7910bd3aa",
+          "view_index": 0
+        }
+      ],
+      "line_1_based": 9657,
+      "line_sha256": "e1697b68f7f3df3a1328ee201508d09b221d3fbeffa0266e3035e50b44738706",
+      "phase": "POST_STEP",
+      "physical_record_sha256": "73cc8a8fabd1a6cc386f962b8224c9745089a80677e3893317b6610fbf439ed5",
+      "producer_numeric_status": "UNKNOWN",
+      "producer_reciprocal_status": [
+        "UNKNOWN",
+        "UNKNOWN",
+        "UNKNOWN"
+      ],
+      "tick": 3597
+    },
+    "negative_magnitude_noise_or_sign_cause": "UNKNOWN_UNRECOVERABLE_FROM_EXPORTED_REJECTED_CHANNEL",
+    "nested_getter_clock_mismatches": 0,
+    "nested_snapshot_record_hash_mismatches": 0,
+    "no_abs_clamp_filter_or_matrix_fallback_adopted": true,
+    "phase_order_count_status_inventory_only_after_original_RED": true,
+    "rejected_scalar_value_and_point_range_were_not_saved": true
+  },
+  "force_scientific_qualification": {
+    "both_quasistatic_49_point_phases": "UNKNOWN_NOT_ACCEPTED",
+    "complete_backend_constraints": "UNKNOWN",
+    "full_friction_and_external_wrench_coverage": "UNKNOWN",
+    "load_ready": "UNKNOWN",
+    "numeric_conditional_candidates": "NOT_ACCEPTED_NOT_SCORED_AFTER_FORCE_GATE_RED",
+    "robot_unloaded": "UNKNOWN",
+    "sign_and_unit_calibration": "UNKNOWN_NOT_ACCEPTED",
+    "torque_balance": "UNKNOWN",
+    "training_admitted": 0
+  },
+  "mechanical_scientific_scope": {
+    "continuous_between_ticks_proof": false,
+    "copied_full_mechanical_gate": false,
+    "copied_not_diagnostic": false,
+    "joint_with_hold": false,
+    "old_fixed_skill_mechanism": true,
+    "primary_timing_and_mechanism": true,
+    "scope": "Same fixed expert replay, original mechanical predicates recomputed; this is not robot learning, a new heldout skill or chemistry.",
+    "strict_missing_sample_indices": [
+      8028,
+      8029,
+      8030,
+      8031,
+      8032,
+      8033,
+      8034
+    ],
+    "strict_sampled_hold_pass": false
+  },
+  "native_epoch": "paperb_force_diagnostics_v2:dev_seen_force_channel_diagnostics_002:0f46b16f2625568088c07367b6dab432bc693d74664250bb0aebfd0af155ce8c",
+  "native_execution": {
+    "cumulative_M0_M1_complete_native_collections": 1,
+    "cumulative_M0_M1_native_attempt_denominator": 2,
+    "current_force_raw_gate_pass_count": 0,
+    "current_native_attempt_denominator": 1,
+    "current_native_complete_cases": 1,
+    "exit_code": 0,
+    "heldout_or_new_policy_learning_claim": false,
+    "prior_M0_complete_cases": 0,
+    "prior_M0_failed_attempts_retained": 1,
+    "role": "DEVELOPMENT_SEEN_DIAGNOSTICS",
+    "status": "COMPLETE",
+    "successful_training_admissions": 0,
+    "timed_out": false,
+    "weights_updated": 0
+  },
+  "no_native_GPU_or_reintegration_by_auditor": true,
+  "prospective_reader_release_sha256": "f8a7311340dffe65f92d52a2d9de59c37e1d2a6590be6a51802b29e806e8cc5a",
+  "raw_large_files_and_vendor_SDK_not_in_archive": true,
+  "reader_provenance": {
+    "actual_full_reader_CPU_runs": 1,
+    "base_integrity_PASS_does_not_supersede_force_RED": true,
+    "force_parser_and_thresholds_unchanged": true,
+    "frozen_before_M1_native_or_outcome": true,
+    "post_result_reader_repairs": 0,
+    "post_result_structural_diagnosis_only": true
+  },
+  "red_diagnosis_sha256": "b30701d0674004430d12aef450f3fa59d97c0769250300b6d87d98ac11c26abf",
+  "resources": {
+    "CPU_reader_wall_s": 34.01181394001469,
+    "GPU_utilization_not_measured": true,
+    "actual_child_attempt_and_cleanup_wall_s": 842.6282066509593,
+    "allocated_GPU_wall_upper_hours": 0.23406339073637758,
+    "deadline_scope": "1000s child wait + at most30s termination waits + actual observed cleanup;not hard1000s total wall cap"
+  },
+  "root_terminal_notification_sha256": "523a524eecaf9c65faf9d596954f73c9d0535b21345ef78b00a1f88b8aef761d",
+  "schema": "IndependentM1NativeDiagnosticsPublicAudit/2",
+  "source_file_count": 162,
+  "source_release_sha256": "3bdee676f3e6511ed1c7e87af9d22754c5692cdf53ceead5671f45caad36e2be",
+  "source_review_sha256": "a488038837fb0c65250e2b7f2f8db9627c61773416b400fe9f3a0525f7ace180",
+  "status": "FAIL_OR_PARTIAL_M1_RAW_AUDIT_RETAINED"
+}
