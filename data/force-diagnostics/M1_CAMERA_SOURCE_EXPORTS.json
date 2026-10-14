@@ -1,0 +1,37 @@
+{
+  "schema": "BoundedM1SecondaryCameraSourceExports/1",
+  "scope": "Post-result secondary camera encoding and actual recorded window, not force qualification or complete RAW/native source release",
+  "encoder_release_sha256": "c26a0b742e9200d73db878af3ae0b4f2829405163658ae0fc12b5b3382c7cf8e",
+  "original_force_RED_audit_sha256": "cba2f6f0988488abb2045b22c7dd1772bb8b64e90951532ad6dcede510cc363d",
+  "base_camera_scope": "PASS_CAPTURE_RAW_BYTES_CLOCK_AND_OFFLINE_PAIRING; original full force audit RED unchanged",
+  "source_JPEG_members_verified": 168,
+  "source_metadata_files_verified": 2,
+  "new_native_attempts": 0,
+  "source_archive_members": 4,
+  "files": {
+    "M1_native_camera_force_rejected.mp4": {
+      "bytes": 975903,
+      "sha256": "9a2251470b4f4105f7235371a26d9325b20887a8973b65eaece84377ce663924"
+    },
+    "M1_native_camera_poster.jpg": {
+      "bytes": 38264,
+      "sha256": "72a1e1321f10fbd831d3bd533b371524402bdbbdeaa2a9b98b1bd82b250f07fe"
+    },
+    "M1_CAMERA_FRAME_INDEX.json": {
+      "bytes": 110265,
+      "sha256": "a48372e1d564bf62c765b80f5a91571382beb018f507132981a3b94c269b04b8"
+    },
+    "PARTIAL_CAMERA_ACCEPTANCE.json": {
+      "bytes": 3089,
+      "sha256": "7afb36a70e0b0942df8e5a48278cc74c69e8be82724d2375355b337494013a1b"
+    },
+    "CAMERA_REPORT_cn.md": {
+      "bytes": 2111,
+      "sha256": "6479b2faecd3dbc84951e7bdc53f7304e34165356c27f8a6be7f2a6c9468c87e"
+    },
+    "M1_CAMERA_SOURCE.zip": {
+      "bytes": 7623,
+      "sha256": "4ee4d34e2bac579cd5ec4aaa5bb4eaed5fc7bb9e07da74b353a00e02606097e6"
+    }
+  }
+}

@@ -192,6 +192,22 @@
       ]
     },
     {
+      "bytes": 975903,
+      "path": "assets/m1-force-camera/native-operation-window.mp4",
+      "sha256": "9a2251470b4f4105f7235371a26d9325b20887a8973b65eaece84377ce663924",
+      "source": "papers/paperB/research_increments/native_handoff_force_diagnostics_v02_2026-10-14/secondary_native_camera_report_v01/output/M1_native_camera_force_rejected.mp4",
+      "source_sha256": "9a2251470b4f4105f7235371a26d9325b20887a8973b65eaece84377ce663924",
+      "transformations": []
+    },
+    {
+      "bytes": 38264,
+      "path": "assets/m1-force-camera/poster.jpg",
+      "sha256": "72a1e1321f10fbd831d3bd533b371524402bdbbdeaa2a9b98b1bd82b250f07fe",
+      "source": "papers/paperB/research_increments/native_handoff_force_diagnostics_v02_2026-10-14/secondary_native_camera_report_v01/output/M1_native_camera_poster.jpg",
+      "source_sha256": "72a1e1321f10fbd831d3bd533b371524402bdbbdeaa2a9b98b1bd82b250f07fe",
+      "transformations": []
+    },
+    {
       "bytes": 3383,
       "path": "check_site.py",
       "sha256": "afcd0ef51e191227098ed966bd098f7df5b8fd1a4f392221890246f63b911c5d",
@@ -290,6 +306,46 @@
       "transformations": []
     },
     {
+      "bytes": 110265,
+      "path": "data/force-diagnostics/M1_CAMERA_FRAME_INDEX.json",
+      "sha256": "a48372e1d564bf62c765b80f5a91571382beb018f507132981a3b94c269b04b8",
+      "source": "papers/paperB/research_increments/native_handoff_force_diagnostics_v02_2026-10-14/secondary_native_camera_report_v01/output/M1_CAMERA_FRAME_INDEX.json",
+      "source_sha256": "a48372e1d564bf62c765b80f5a91571382beb018f507132981a3b94c269b04b8",
+      "transformations": []
+    },
+    {
+      "bytes": 2111,
+      "path": "data/force-diagnostics/M1_CAMERA_REPORT_cn.md",
+      "sha256": "6479b2faecd3dbc84951e7bdc53f7304e34165356c27f8a6be7f2a6c9468c87e",
+      "source": "papers/paperB/research_increments/native_handoff_force_diagnostics_v02_2026-10-14/secondary_native_camera_report_v01/output/CAMERA_REPORT_cn.md",
+      "source_sha256": "6479b2faecd3dbc84951e7bdc53f7304e34165356c27f8a6be7f2a6c9468c87e",
+      "transformations": []
+    },
+    {
+      "bytes": 7623,
+      "path": "data/force-diagnostics/M1_CAMERA_SOURCE.zip",
+      "sha256": "4ee4d34e2bac579cd5ec4aaa5bb4eaed5fc7bb9e07da74b353a00e02606097e6",
+      "source": "papers/paperB/research_increments/native_handoff_force_diagnostics_v02_2026-10-14/secondary_native_camera_report_v01/output/M1_CAMERA_SOURCE.zip",
+      "source_sha256": "4ee4d34e2bac579cd5ec4aaa5bb4eaed5fc7bb9e07da74b353a00e02606097e6",
+      "transformations": []
+    },
+    {
+      "bytes": 1559,
+      "path": "data/force-diagnostics/M1_CAMERA_SOURCE_EXPORTS.json",
+      "sha256": "7db07b939f77af868732b65967e5f3b4514b678ea2318e5a69a25a7c33b0f1a3",
+      "source": "papers/paperB/research_increments/native_handoff_force_diagnostics_v02_2026-10-14/secondary_native_camera_report_v01/output/PUBLIC_SOURCE_EXPORTS.json",
+      "source_sha256": "7db07b939f77af868732b65967e5f3b4514b678ea2318e5a69a25a7c33b0f1a3",
+      "transformations": []
+    },
+    {
+      "bytes": 3089,
+      "path": "data/force-diagnostics/M1_PARTIAL_CAMERA_ACCEPTANCE.json",
+      "sha256": "7afb36a70e0b0942df8e5a48278cc74c69e8be82724d2375355b337494013a1b",
+      "source": "papers/paperB/research_increments/native_handoff_force_diagnostics_v02_2026-10-14/secondary_native_camera_report_v01/output/PARTIAL_CAMERA_ACCEPTANCE.json",
+      "source_sha256": "7afb36a70e0b0942df8e5a48278cc74c69e8be82724d2375355b337494013a1b",
+      "transformations": []
+    },
+    {
       "bytes": 7359,
       "path": "data/force-diagnostics/M1_PUBLIC_AUDIT.json",
       "sha256": "f9514aa2909ac3d3d16d00f84b3bef0f17c86e4f5e64575ef069d249e465b188",
@@ -314,6 +370,46 @@
       "transformations": []
     },
     {
+      "path": "data/manuscript-v03/MANUSCRIPT_SOURCE_RELEASE.json",
+      "bytes": 3077,
+      "sha256": "6250da6ea7e742d02b8232eadffd36de19fd581a30e4591199e8fc467c3c1d39",
+      "source": "papers/paperB/research_increments/native_force_event_time_paper_v03_2026-10-14/paper_rewriting_output/final_paper/MANUSCRIPT_SOURCE_RELEASE.json",
+      "source_sha256": "6250da6ea7e742d02b8232eadffd36de19fd581a30e4591199e8fc467c3c1d39",
+      "transformations": []
+    },
+    {
+      "path": "data/manuscript-v03/SCOPE_cn.md",
+      "bytes": 1589,
+      "sha256": "88909925153386a065b0bd3f08a11d34cf882219e2c68e66f074d50cc1fb8e8b",
+      "source": "papers/paperB/research_increments/native_handoff_force_diagnostics_v02_2026-10-14/force_and_paper_delivery/MANUSCRIPT_SCOPE_cn.md",
+      "source_sha256": "88909925153386a065b0bd3f08a11d34cf882219e2c68e66f074d50cc1fb8e8b",
+      "transformations": []
+    },
+    {
+      "path": "data/manuscript-v03/paper.md",
+      "bytes": 36017,
+      "sha256": "f22c609176c693517b80c331f35ed8ac8b986e7d5a2fd235a51af0f1eb2f5f3d",
+      "source": "papers/paperB/research_increments/native_force_event_time_paper_v03_2026-10-14/paper_rewriting_output/final_paper/paper.md",
+      "source_sha256": "f22c609176c693517b80c331f35ed8ac8b986e7d5a2fd235a51af0f1eb2f5f3d",
+      "transformations": []
+    },
+    {
+      "path": "data/manuscript-v03/paper.pdf",
+      "bytes": 268165,
+      "sha256": "e36838e35df1f8ef18a63e50a5c01dfcba590e62af0ef75c41d39b29dc1943d2",
+      "source": "papers/paperB/research_increments/native_force_event_time_paper_v03_2026-10-14/paper_rewriting_output/final_paper/main.pdf",
+      "source_sha256": "e36838e35df1f8ef18a63e50a5c01dfcba590e62af0ef75c41d39b29dc1943d2",
+      "transformations": []
+    },
+    {
+      "path": "data/manuscript-v03/source.zip",
+      "bytes": 383177,
+      "sha256": "ea997efefe27f81322901915057d59c1eb8466aa2535600f1203f897e803e246",
+      "source": "papers/paperB/research_increments/native_force_event_time_paper_v03_2026-10-14/manuscript_source_v03.zip",
+      "source_sha256": "ea997efefe27f81322901915057d59c1eb8466aa2535600f1203f897e803e246",
+      "transformations": []
+    },
+    {
       "bytes": 48877,
       "path": "failure_branch_timing.svg",
       "sha256": "cc3565eec4a1d259558c84ab697c65172741a5f0e1b2f5d2caeaff5acb933ebc",
@@ -330,12 +426,14 @@
       "transformations": []
     },
     {
-      "bytes": 11963,
       "path": "force-diagnostics.html",
-      "sha256": "0986724e0e13a6fc17416f3f9888f4a1c3d5d91f6b0fde6e30bf5559ae505b72",
-      "source": "Publication authoring: force diagnostics source-only page",
-      "source_sha256": "0986724e0e13a6fc17416f3f9888f4a1c3d5d91f6b0fde6e30bf5559ae505b72",
-      "transformations": []
+      "bytes": 16193,
+      "sha256": "473c5339bbfc2e009bf8bc348e26daf84f06e5e7cdb0891b1106c161f3cd1f41",
+      "source": "papers/paperB/research_increments/native_handoff_force_diagnostics_v02_2026-10-14/force_and_paper_delivery/force-diagnostics.html",
+      "source_sha256": "473c5339bbfc2e009bf8bc348e26daf84f06e5e7cdb0891b1106c161f3cd1f41",
+      "transformations": [
+        "Compose frozen M1 camera candidate with source-bound ICML research-draft links; retain force RED, strict FALSE and unexecuted learning scope."
+      ]
     },
     {
       "bytes": 52581,
@@ -372,14 +470,13 @@
       "transformations": []
     },
     {
-      "bytes": 283405,
       "path": "index.html",
-      "sha256": "91bc43a6c8e5791ac9444b58a7944d656790ef82a7ef1e1c00c2669bc93ebc37",
-      "source": "Paper B force diagnostics publication: small current-result link added to preserved be5f01f index",
-      "source_sha256": "91bc43a6c8e5791ac9444b58a7944d656790ef82a7ef1e1c00c2669bc93ebc37",
+      "bytes": 283772,
+      "sha256": "27fcc47693e6842bab91c0a0cb0d1a7165b6e3b983bb2435b102a874f7aa2e3f",
+      "source": "papers/paperB/research_increments/native_handoff_force_diagnostics_v02_2026-10-14/force_and_paper_delivery/index.html",
+      "source_sha256": "27fcc47693e6842bab91c0a0cb0d1a7165b6e3b983bb2435b102a874f7aa2e3f",
       "transformations": [
-        "Append the frozen native readback and nav to concurrent 66d4b91; retain ARIS research page, README and all original scripts; removing the two native additions restores exact 66d4b91 index bytes.",
-        "Add M0/M1 current diagnostics notice; existing native, clock, adaptation, figures and interactive results remain unchanged."
+        "Compose frozen M1 camera candidate with source-bound ICML research-draft links; retain force RED, strict FALSE and unexecuted learning scope."
       ]
     },
     {
@@ -4415,6 +4512,7 @@
   ],
   "force_diagnostics_scope": {
     "M1_reader_post_result_repairs": 0,
+    "M1_video_not_published": false,
     "complete_collections": 1,
     "force_gate_pass": 0,
     "force_success_curves_generated": 0,
@@ -4427,8 +4525,8 @@
     "source_exact_small_audit_files": 6,
     "training_admitted": 0
   },
-  "incremental_baseline_commit": "be5f01fcb4dc11c3471c59f110785b3edf7798d9",
-  "latest_increment": "native_handoff_force_diagnostics_v02_2026-10-14",
+  "incremental_baseline_commit": "e037f9d42fcb50512412231a772e172d13e1b539",
+  "latest_increment": "M1 native-camera operation window and complete ICML research draft",
   "learning_frontier_source_scope": "Frozen offline diagnosis and CPU interfaces; v03 recovery-prefix red independently reproduced and v04 CPU98/independent13/archived13 fix frozen; root-notified v1 pre-native startup failure retained, no AppLauncher/native physics/RAW/RGB or production/training/weight result.",
   "merged_publication_provenance": {
     "actual_ARIS_episode_denominator": 1,
@@ -4450,6 +4548,22 @@
   "repository": "https://github.com/asimfish/paperb-timed-recovery",
   "schema_version": "paperB.github-pages.1",
   "scope": "curated public mechanical-component results; full learned VLA, real robot and chemical validation remain open",
+  "secondary_M1_camera_scope": {
+    "case_id": "dev_seen_force_channel_diagnostics_002",
+    "display_duration_s": 28,
+    "encoded_frames": 168,
+    "force_RED_unchanged": true,
+    "fps": "6/1",
+    "new_native_attempts": 0,
+    "new_training_or_weights": 0,
+    "qualification": "post-result secondary camera encoding based on already accepted basecamera partition",
+    "source_command_index_first": 2160,
+    "source_command_index_last": 8840,
+    "source_frames": 168,
+    "synthetic_or_ARIS_frames": 0,
+    "videoPTS_not_physical_clock": true,
+    "whole_episode_video": false
+  },
   "site": "https://asimfish.github.io/paperb-timed-recovery/",
   "source_branch": "feat/paperb-q0a",
   "source_repository": "asimfish/awesome_memory_chem",
@@ -4457,5 +4571,17 @@
     "page": "aris-research.html",
     "scope": "two audited development experiments and bounded native instrumentation status",
     "updated_at_utc": "2026-10-14T03:55:54.313184+00:00"
+  },
+  "combined_delivery_provenance": {
+    "parent_publication_commit": "e037f9d42fcb50512412231a772e172d13e1b539",
+    "camera_candidate_assets": 619,
+    "camera_new_native_runs": 0,
+    "manuscript_pdf_sha256": "e36838e35df1f8ef18a63e50a5c01dfcba590e62af0ef75c41d39b29dc1943d2",
+    "manuscript_source_zip_sha256": "ea997efefe27f81322901915057d59c1eb8466aa2535600f1203f897e803e246",
+    "manuscript_body_pages": 7,
+    "manuscript_total_pages": 10,
+    "new_VLA_weights": 0,
+    "force_gate_pass": 0,
+    "scientific_acceptance": "MAJOR_OPEN"
   }
 }

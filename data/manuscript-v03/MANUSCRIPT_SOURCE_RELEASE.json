@@ -1,0 +1,87 @@
+{
+  "schema": "PortableICMLResearchDraftSource/1",
+  "status": "PASS_DOCUMENT_SOURCE_SCIENTIFIC_MAJOR_OPEN",
+  "title": "Failure-Preserving Experience for Event-Timed Robot Policies: A Causal Contract and a Predeclared Learning Study",
+  "ICML_option": "preprint",
+  "external_registration_or_submission_claimed": false,
+  "file_count": 18,
+  "files": {
+    "INPUT_EVIDENCE_PIN_V03.json": {
+      "bytes": 3605,
+      "sha256": "ba31dc238709c85fcd72a8b2451abf7e3299342c50209d31a5d7700f1b185718"
+    },
+    "README.md": {
+      "bytes": 3206,
+      "sha256": "160db36991e7439f0699a96b72a1b11f7850b2f0f8aa3d2515cb49db287954a5"
+    },
+    "build_markdown.py": {
+      "bytes": 4769,
+      "sha256": "4b9c52bed807daa230bc62c24f47df7c795c76cc485aa5027a17a3b33e1eeae9"
+    },
+    "citation_support.json": {
+      "bytes": 23950,
+      "sha256": "8b9e4c4b1d7d43fd546b7ccabc0a84469a19f96061510b9c2dad6bf154f7c9c8"
+    },
+    "figures/FIGURE_SCOPE.json": {
+      "bytes": 280,
+      "sha256": "ab641d930c9c3796fa36d5b717867d08854393e937c3a758877d1b588ea185ff"
+    },
+    "figures/method_contract.pdf": {
+      "bytes": 25833,
+      "sha256": "e3a1274c2226a96cf524e4caf760f76e4fac070c5ec40589d6485e2422d686de"
+    },
+    "figures/method_contract.png": {
+      "bytes": 208755,
+      "sha256": "d1cc02de602daf11b52ce12a72fce0189de7addbf3428b343a424152d0176077"
+    },
+    "figures/method_contract.svg": {
+      "bytes": 13398,
+      "sha256": "7d8123326b8e7973c026da74d3cf33485851f6672efd7858ff29d5ce2afea701"
+    },
+    "figures/negative_controls.pdf": {
+      "bytes": 25745,
+      "sha256": "1da1361a43c430cfb62e6a041456c9298a39ee8a531c4fc97562b484136438a9"
+    },
+    "figures/negative_controls.png": {
+      "bytes": 76076,
+      "sha256": "933a20258bcd800d9eda24fc66115620771dd8b56c29ec80ab1840eee2c18fec"
+    },
+    "figures/negative_controls.svg": {
+      "bytes": 17473,
+      "sha256": "3c5d2628c622d451bf3194a53960d16a17189a2a6ba4f05a9fb4233a2c4fec16"
+    },
+    "generate_figures.py": {
+      "bytes": 5244,
+      "sha256": "9c247b51baa2becd6a771c0143730ee07c4c75052c72092e5f44b6f3e12ba497"
+    },
+    "icml2026.bst": {
+      "bytes": 27147,
+      "sha256": "0ec3d5eb9b02efb7e0b44a32f3775882f42a743d0bdc618f34e6936309b98764"
+    },
+    "icml2026.sty": {
+      "bytes": 27344,
+      "sha256": "7cdcf90f6a59c5219e7f15c88f7ed09fcaf598dad91e6cdddc4dc3cb0e397a95"
+    },
+    "main.bbl": {
+      "bytes": 4841,
+      "sha256": "6fcb44ab62dd9751208608cbae9fe66fbb881ebc0267d181e31c1fc10d62ec0c"
+    },
+    "main.tex": {
+      "bytes": 36089,
+      "sha256": "6138c2fcbaa1883b579dca05ed05bb2f68067a567bd5c38f64d9bac5906f603d"
+    },
+    "paper.md": {
+      "bytes": 36017,
+      "sha256": "f22c609176c693517b80c331f35ed8ac8b986e7d5a2fd235a51af0f1eb2f5f3d"
+    },
+    "refs.bib": {
+      "bytes": 5373,
+      "sha256": "87315c7632e5ff3c4e028eb0f0896818194745cc0ee981ab90fe72f615798666"
+    }
+  },
+  "PDF_delivered_separately": true,
+  "new_native_GPU_training_or_weights": 0,
+  "force_qualification": "UNKNOWN",
+  "M0_M1_native_attempt_denominator": 2,
+  "force_detail_gate_PASS": 0
+}
