@@ -1,0 +1,13 @@
+# 因果漏洞证据与范围
+
+Observed：同epoch单调0capture→10chunk→20outcome TRUE→40submit→50application，v0.2 close得到bc_success TRUE。Expected：执行依赖未发生，已知执行成功fail closed；state/proposal另typed记录，不能当执行成功。Scope为CPU接口，不是机器人/化学失败。
+
+原第三方DRAFT_CPU_RESULTS及原20源/archive/54PASS逐字保留。independent_red/replay_v02_red.py使用原snapshot、原时间/epoch/features/target不改，实际V02_REPRODUCTION证明：原trace TRUE；仅移outcome到60后仍TRUE；删future application仍TRUE；删future submit变UNKNOWN。
+
+因此不是时钟回退，也不是teacher privilege/看图差异。根因是close的完整slots map给过去标签补未来submit，并且BC没有application条件。first incorrect qualification是读取标签后全局状态给过去row判成功。
+
+v0.3只声明新schema、EXECUTION_OUTCOME、required slots，原时序不改；原反例因EXECUTION_LABEL_BEFORE_REQUIRED_SUBMISSION拒绝。标签移到相关submit/apply之后是正例。26新回归覆盖多slot、错chunk/request、late channel、同时间反序、future masks、rollback及非应用成功；FALSE TIMEOUT仍可失败RL。
+
+原54PASS不声称覆盖此漏洞，也不删除或改旧报告。新类型字段显式；无实际submit的已知执行成功加强为拒绝，另proposal类型正例保留其用途。masked tail在chunk中前声明optional且mask在label前，不等于required操作执行。
+
+修复只证明CPU接口拒绝给定未来控制回填。独立终点、真实sensor、target单位、full-task跨chunk依赖仍需collector/referee源码和原件审查。有限键不能证明重命名秘密无泄漏。生产/native/GPU/θ=0，并行UNKNOWN标签采集不依赖旧BC资格。

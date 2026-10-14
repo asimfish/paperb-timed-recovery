@@ -1,0 +1,16 @@
+{
+  "status": "PASS_ROOT_READBACK_ALL20_DIAGNOSTIC",
+  "input_output_bound_files": 53,
+  "runtime_pin_sha256": "be5c33d1aec0986bc6a8d756b30984e221fa080b40f3fbf7fb3d63ebecaf5413",
+  "cases": 20,
+  "native_rows_redecoded_by_diagnostic": 277864,
+  "calibration_roles": 4,
+  "test_roles": 16,
+  "loadbearing_UNKNOWN": 20,
+  "old_strict_FALSE": 20,
+  "root_visually_inspected": "figures/support_handoff_mechanism.png",
+  "root_reran_private_277864_RAW_decode": false,
+  "root_verification_scope": "53 exact output readbacks;20 index-to-diagnostic SHA/roles/clock/RAW identities/strict gaps/candidate labels; independent decoder receipt inherited.",
+  "new_primary_native": 0,
+  "new_training": 0
+}

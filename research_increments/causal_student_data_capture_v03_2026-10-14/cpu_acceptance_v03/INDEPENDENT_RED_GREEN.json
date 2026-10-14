@@ -1,0 +1,85 @@
+{
+  "GPU_work": 0,
+  "native_epochs": 0,
+  "only_outcome_moved_after_submission_and_application": {
+    "GPU_work": 0,
+    "actual_production_rows": 0,
+    "admitted_for_current_training_rows": 0,
+    "capture_count": 1,
+    "catalogue_is_not_future_history_input": true,
+    "dataset_kind": "CPU_FIXTURE",
+    "episode_id": "INDEPENDENT_CPU_ONLY",
+    "event_count": 5,
+    "native_epochs": 0,
+    "parameter_updates": 0,
+    "rows": [
+      {
+        "bc_recovery": {
+          "eligible_by_contract": "FALSE",
+          "reasons": [
+            "NO_VERIFIED_RECOVERY_LABEL"
+          ]
+        },
+        "bc_success": {
+          "eligible_by_contract": "TRUE",
+          "reasons": []
+        },
+        "chunk_id": "proposal",
+        "failure_vector": [],
+        "label_kind": "EXECUTION_OUTCOME",
+        "not_full_episode_success_from_local_label": true,
+        "objective": "TRUE",
+        "objective_name": "SYNTHETIC_ACTION_DEPENDENT_OBJECTIVE",
+        "offline_rl": {
+          "eligible_by_contract": "UNKNOWN",
+          "reasons": [
+            "MISSING_NEXT_OBSERVATION",
+            "REWARD_UNKNOWN_NOT_ZERO"
+          ]
+        },
+        "row_id": "scoped_row",
+        "student_available_history_ids": [
+          "before"
+        ],
+        "student_observation_id": "before",
+        "submitted_label_mask": [
+          true
+        ]
+      }
+    ],
+    "status": "PASS_READBACK_CONTRACT",
+    "student_observation_catalogue": [
+      {
+        "assets": [],
+        "capture_time_ns": 0,
+        "clock_id": "INDEPENDENT_CPU_ONLY:fake_epoch_no_physics",
+        "features": {
+          "instruction": "Independent synthetic CPU boundary only",
+          "proprioception": [
+            0.2
+          ]
+        },
+        "obs_id": "before",
+        "state_sha256": "50d5a0bf3a50238b125dcd5e2b68136e9cbd0a5ee3e990c549778d9820716442"
+      }
+    ],
+    "synthetic_fixture_eligible_rows": 1,
+    "teacher_queries": []
+  },
+  "original_independent_input_sha256": "6e77476bb5504ec89cb54bc4687c031ef3efdbf4d3e1ca64a42da48fc4555c21",
+  "original_times_ns_unchanged": [
+    0,
+    10,
+    20,
+    40,
+    50
+  ],
+  "parameter_updates": 0,
+  "production_rows": 0,
+  "schema_adaptation": "0.3 schema ids, explicit EXECUTION_OUTCOME, required_for_execution=true; no original action/clock/feature values changed",
+  "source_of_input": "third-party independent counterexample; gate itself is producer-run CPU evidence",
+  "status": "PASS_FROZEN_V02_RED_AND_V03_GREEN_PREFIX_CHECK",
+  "v02_actual_red_receipt_sha256": "84f186ffc1598cb3a655b1c8d90ecdde62b03cd13a91629fdadeea9992ed923b",
+  "v03_early_partial_raw_preserved_no_CLOSE": true,
+  "v03_early_writer_close_rejection": "EXECUTION_LABEL_BEFORE_REQUIRED_SUBMISSION_OR_ABORT"
+}

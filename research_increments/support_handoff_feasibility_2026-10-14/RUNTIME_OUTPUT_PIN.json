@@ -1,0 +1,226 @@
+{
+  "all20_loadbearing_UNKNOWN": true,
+  "auditor_writes_stop_after_this_pin": true,
+  "created_at_utc": "2026-10-13T18:59:40.460257+00:00",
+  "files": {
+    "ALL20_DECODE.log": {
+      "bytes": 3458,
+      "sha256": "ebd476b7ee55fb7443d4f9800b56efea7d45097ad208baef390b9a29f984e4a9"
+    },
+    "ANALYSIS_RELEASE_V2.json": {
+      "bytes": 1299,
+      "sha256": "b4d8c7494c728327878f509e53d1294408f1a4c8ec57a1a5f170482d007dedd6"
+    },
+    "CASE_INDEX.csv": {
+      "bytes": 10835,
+      "sha256": "1a42cb58533739bbb92c7bf62cf1efa776402ae44235d455a18ebd173ce0fdf2"
+    },
+    "CPU_PREFLIGHT.log": {
+      "bytes": 1516,
+      "sha256": "47afa815129be5ca315849ed8c38e2a7cac6c12061a7da2107b60ff4a906ac8c"
+    },
+    "CPU_PREFLIGHT_FINAL.log": {
+      "bytes": 1516,
+      "sha256": "abd47c51ade92fdb3ad88a07c39ddf927dbf70c42da70cbfd5c628fbaf048313"
+    },
+    "DELIVERY_GATE.json": {
+      "bytes": 1260,
+      "sha256": "8f7b683d24a5d9249a180c166b1ddce58c9bd8d93b6026c54641674079bcb014"
+    },
+    "FULL20_SCOPE_V2.json": {
+      "bytes": 2653,
+      "sha256": "a1bf8941e51b1966bcb539717d6010ea7d5b2f23d98de0e5ec06ee38f5c694b2"
+    },
+    "HANDOFF_DIAGNOSIS_AND_PROSPECTIVE_CONTRACT_cn.md": {
+      "bytes": 9208,
+      "sha256": "52674c4eb54c97f6f45fa1ffc932aa894cffd3b002159a90cf23bebea51e4651"
+    },
+    "PREFLIGHT_SCOPE.json": {
+      "bytes": 1406,
+      "sha256": "25b1e6d6626d54a450c3c7ca478feba5ab77cd04c919fbb164691337185616ff"
+    },
+    "PUBLIC_SUMMARY.json": {
+      "bytes": 5908,
+      "sha256": "ba15733f6e2d9300b5d7776629b18bfb91edc401791fc73fee1fe40f87c228a9"
+    },
+    "README.md": {
+      "bytes": 2368,
+      "sha256": "a71efb6ae8a666dbb2b014edb6dfd7f35fe7186dfdb083416b16b59fab0608d5"
+    },
+    "SOURCE_ORIGIN.json": {
+      "bytes": 2452,
+      "sha256": "8ad5ec7e9ccd48c033843014f4ca91e6db362005233b55e3a45bb6e4dd6d1922"
+    },
+    "all20_v2/SUMMARY.json": {
+      "bytes": 21986,
+      "sha256": "e6298fabdadbcfb8a557eec13c92d76aac67eaa8453af4b36134410e2873f28f"
+    },
+    "all20_v2/cal_m080_d00/SUPPORT_HANDOFF_DIAGNOSTIC.json": {
+      "bytes": 4776,
+      "sha256": "46cc0b63df8846d8b26199525d4c548794b72a8081f27b1e7d42f59595a989cf"
+    },
+    "all20_v2/cal_m080_d12/SUPPORT_HANDOFF_DIAGNOSTIC.json": {
+      "bytes": 4773,
+      "sha256": "b811331e979d62130597383c23a651aa898683fdb9827daadf73f0c08504b0a1"
+    },
+    "all20_v2/cal_m120_d00/SUPPORT_HANDOFF_DIAGNOSTIC.json": {
+      "bytes": 4775,
+      "sha256": "bc4d1e62a6f4e48b4427384b792205842abaf761e55f9f11c9527b6abe0847e6"
+    },
+    "all20_v2/cal_m120_d12/SUPPORT_HANDOFF_DIAGNOSTIC.json": {
+      "bytes": 4772,
+      "sha256": "d8d75beccb596fc1e2af365daab547adf78605cb799062eba7be0ea646e93a69"
+    },
+    "all20_v2/test_m090_d00_calibrated_interval/SUPPORT_HANDOFF_DIAGNOSTIC.json": {
+      "bytes": 4853,
+      "sha256": "cddf18c8c940315571cf699a9ccc6dd9fdb32143707121dbd60c1979d256023e"
+    },
+    "all20_v2/test_m090_d00_joint_exact_grid/SUPPORT_HANDOFF_DIAGNOSTIC.json": {
+      "bytes": 4839,
+      "sha256": "ee3ebd288851681057e31f6cb07ae29cd077047beb94689e7d460818e9a421d5"
+    },
+    "all20_v2/test_m090_d00_nominal_prior/SUPPORT_HANDOFF_DIAGNOSTIC.json": {
+      "bytes": 4803,
+      "sha256": "9d1634d5eed396a42d190a0b73e8f3c5fc3ab160c2309851268fe21753bc9e71"
+    },
+    "all20_v2/test_m090_d00_public_delay_prior/SUPPORT_HANDOFF_DIAGNOSTIC.json": {
+      "bytes": 4827,
+      "sha256": "752e3e619f2818938548c1b746aba33b243367ce19a211cdcc977111f986bb0c"
+    },
+    "all20_v2/test_m090_d12_calibrated_interval/SUPPORT_HANDOFF_DIAGNOSTIC.json": {
+      "bytes": 4857,
+      "sha256": "1d2256252cfd5d6815d793cdef480fda7e668bf127ac51f4b1a3e7a8892b032f"
+    },
+    "all20_v2/test_m090_d12_joint_exact_grid/SUPPORT_HANDOFF_DIAGNOSTIC.json": {
+      "bytes": 4844,
+      "sha256": "7b9ca121aa7681ffd7e962efbc459d2dfb3d6ecabdcfd9386ea6d49460f6f9df"
+    },
+    "all20_v2/test_m090_d12_joint_exact_grid/TICK_SIGNALS.csv": {
+      "bytes": 2673928,
+      "sha256": "c30b5c848b2653cf4df256fd74aed77decead7265dab2a67f0419cacd24d26f3"
+    },
+    "all20_v2/test_m090_d12_nominal_prior/SUPPORT_HANDOFF_DIAGNOSTIC.json": {
+      "bytes": 4810,
+      "sha256": "dde3668a906ca8b98c1a85d4777fc08dfab815cba4a5ab7f988bce4bfb52025f"
+    },
+    "all20_v2/test_m090_d12_public_delay_prior/SUPPORT_HANDOFF_DIAGNOSTIC.json": {
+      "bytes": 4850,
+      "sha256": "ba8dca0d3daeef1cdce8417967eac29e49fdc3084b7f99db60f79a1c416b46e5"
+    },
+    "all20_v2/test_m110_d00_calibrated_interval/SUPPORT_HANDOFF_DIAGNOSTIC.json": {
+      "bytes": 4852,
+      "sha256": "d30b8090d162cf83249ed551127d1dd083fdcdf8bd5128e1adc5254990f45422"
+    },
+    "all20_v2/test_m110_d00_joint_exact_grid/SUPPORT_HANDOFF_DIAGNOSTIC.json": {
+      "bytes": 4841,
+      "sha256": "69be8866e334699d3c0f6cf0fd57587c7fde69e74b4df2fc4c1000b4027a1aac"
+    },
+    "all20_v2/test_m110_d00_nominal_prior/SUPPORT_HANDOFF_DIAGNOSTIC.json": {
+      "bytes": 4826,
+      "sha256": "7c3a9be54d216bc4fcf2a574786b3a1b3d0c94cb5cf9986cc2a5a81502b2b8d4"
+    },
+    "all20_v2/test_m110_d00_public_delay_prior/SUPPORT_HANDOFF_DIAGNOSTIC.json": {
+      "bytes": 4851,
+      "sha256": "753826f6761e47d29101b0564ac20d011f5231d68906abd46daebd5b2e60d915"
+    },
+    "all20_v2/test_m110_d12_calibrated_interval/SUPPORT_HANDOFF_DIAGNOSTIC.json": {
+      "bytes": 4855,
+      "sha256": "400872e56f887c2509e744b4b9e91d4fd1b184e9995cf5af60866321d3610374"
+    },
+    "all20_v2/test_m110_d12_joint_exact_grid/SUPPORT_HANDOFF_DIAGNOSTIC.json": {
+      "bytes": 4842,
+      "sha256": "d619390acf8f92f8f8269b34ad2049190c0db75427c1b17c1871422c681bcfd3"
+    },
+    "all20_v2/test_m110_d12_nominal_prior/SUPPORT_HANDOFF_DIAGNOSTIC.json": {
+      "bytes": 4828,
+      "sha256": "c585bf74ea615d5bf727c76f9b16495fd30756c76bce902f7e4d49803d8962bd"
+    },
+    "all20_v2/test_m110_d12_public_delay_prior/SUPPORT_HANDOFF_DIAGNOSTIC.json": {
+      "bytes": 4854,
+      "sha256": "420d0a1ddab19bf7e0e5000e496483f0b5b10d340b0a8ed64b5a07dee20d8adc"
+    },
+    "build_public_report.py": {
+      "bytes": 10593,
+      "sha256": "08f55d8026314a9fdb86e137e958458f23522ab5acc063542afa91ffba550e48"
+    },
+    "decoder_copy/independent_protocol.py": {
+      "bytes": 11292,
+      "sha256": "7736d42ee0f90882e7a31900fed17bea5c945a7b79cdeb7844265ad635a21f41"
+    },
+    "decoder_copy/raw_native.py": {
+      "bytes": 6682,
+      "sha256": "33662c9303680bb00e49296a434bc11e3e46fb19e94a4a77964ec67fbf220d2c"
+    },
+    "diagnose_handoff.py": {
+      "bytes": 14908,
+      "sha256": "4ebfccf05a52e8a7e004186ea006c4e33ad3e947f18caf00480f8ed903ba74b4"
+    },
+    "figures/PROVENANCE.json": {
+      "bytes": 1135,
+      "sha256": "7c084434b17fcb0a92c4554b7d728e006408142ae90cd7327829a64f40bd9f7e"
+    },
+    "figures/support_handoff_mechanism.pdf": {
+      "bytes": 31700,
+      "sha256": "5e64e42d9909fa4bfb5ff06f8c96473733d1ee8a7a9ef472cfa772e36b4d98ee"
+    },
+    "figures/support_handoff_mechanism.png": {
+      "bytes": 256301,
+      "sha256": "bc711a9a79f9ec289f7c76b81f350b26784e172ee0ecc38b89b86423523af8b6"
+    },
+    "figures/support_handoff_mechanism.svg": {
+      "bytes": 57527,
+      "sha256": "d78f0614897985e0240cd48e7c4ccb356eb040134f2fd66db54fe50c19449329"
+    },
+    "history/diagnose_handoff_v1.py": {
+      "bytes": 11926,
+      "sha256": "f5c397ba8c3ae29b4d73b7b6429d606e969f1a188e123233b191ae50539afd42"
+    },
+    "history/figures_v1/PROVENANCE.json": {
+      "bytes": 1135,
+      "sha256": "d8e84f498c3046645518e50a7821ba45edaa6c5b9a06753b584250c39c2d236d"
+    },
+    "history/figures_v1/support_handoff_mechanism.pdf": {
+      "bytes": 34048,
+      "sha256": "67136192bc2427453346859dd03575ae95c23bd1c499580ee94da1863ea0cef8"
+    },
+    "history/figures_v1/support_handoff_mechanism.png": {
+      "bytes": 271095,
+      "sha256": "e6edf52567c9e76285d212c33fcac7b7fd54101db5340d5884544f8de3a34cbc"
+    },
+    "history/figures_v1/support_handoff_mechanism.svg": {
+      "bytes": 65608,
+      "sha256": "ae8b7fb8009df15b286d5579492230adaa87d6397fa10153bdbc1294c02e6de3"
+    },
+    "history/plot_representative_v1.py": {
+      "bytes": 5822,
+      "sha256": "7332ff4022c8c840a63fdb3da28c1e8394756f00af6426632acc0bcc209e50bc"
+    },
+    "plot_representative.py": {
+      "bytes": 5989,
+      "sha256": "cf276ff6888088f2665f1fbf86d8d1d049c4faf6579943e3a348ac445a33b098"
+    },
+    "representative_v1/SUPPORT_HANDOFF_DIAGNOSTIC.json": {
+      "bytes": 4845,
+      "sha256": "93446b7aae0b389318dda0402e878141faac3bf65644718cf32d43eceaba8928"
+    },
+    "representative_v1/TICK_SIGNALS.csv": {
+      "bytes": 2673928,
+      "sha256": "c30b5c848b2653cf4df256fd74aed77decead7265dab2a67f0419cacd24d26f3"
+    },
+    "test_handoff.py": {
+      "bytes": 4332,
+      "sha256": "6f1d1ebd4e127bcc121a3f3f6050f197bde7aec68eabc6a5665216cbda00abd0"
+    },
+    "verify_delivery.py": {
+      "bytes": 5677,
+      "sha256": "5ae31f4ba2333240cc825c3b6aa1fac80c4a26932ef55e4fa9ff4554916479b2"
+    }
+  },
+  "member_bytes": 6310864,
+  "new_native_GPU_weights": 0,
+  "original20_roles_scores_events_unchanged": true,
+  "private_original_RAW_not_copied_or_public_dataset": true,
+  "regular_members": 53,
+  "schema": "PaperBSupportHandoffDiagnosticRuntimePin/0.1",
+  "status": "SEALED_OFFLINE_DIAGNOSTIC_ARTIFACTS"
+}

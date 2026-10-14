@@ -1,0 +1,81 @@
+{
+  "bound_file_count": 14,
+  "gpu_jobs": 0,
+  "native_epochs": 0,
+  "old_source_changes": 0,
+  "runtime_getter_admission": "PENDING_NEW_PARENT_NATIVE_PREEXEC_AND_RAW_ACCEPTANCE",
+  "schema": "paperb-physical-collector-component-release-v1",
+  "source_files": [
+    {
+      "bytes": 5314,
+      "path": "GETTER_CONTRACT.md",
+      "sha256": "a3749f7b1bab81e4016b7f7ae8a04ca4fa129ae77c9810d2c7c0b3a3aa7a1c13"
+    },
+    {
+      "bytes": 2326,
+      "path": "PROSPECTIVE_OBSERVATION_SCOPE.json",
+      "sha256": "635ef62312f88397945826d4ce79004a9f001dced7ece054674ff28b4c756237"
+    },
+    {
+      "bytes": 1749,
+      "path": "README_cn.md",
+      "sha256": "6ec802cd4a287204f67d5f19ad71eb6555d7287ca6fad904e621a0f1b84d3d4f"
+    },
+    {
+      "bytes": 7101,
+      "path": "code/physical_capture.py",
+      "sha256": "d10610f5d508a37b65f2978fadbae304b0001606d51faf0511c8805ce4ae0d5f"
+    },
+    {
+      "bytes": 5424,
+      "path": "code/physical_validate.py",
+      "sha256": "d6c1d09324a0b054a5058c76ac4af9ba493e25c267c3099366a3274ed564bea0"
+    },
+    {
+      "bytes": 2956,
+      "path": "code/run_cpu_preflight.py",
+      "sha256": "ccd01bd61399230d01f5a44868461a80c0e2d8c2ed42ae846d85c5807c2f0de8"
+    },
+    {
+      "bytes": 8371,
+      "path": "code/test_physical_capture.py",
+      "sha256": "71a9a5273b7cf8c01bc170582fa4c3d1c0b647c752e6440420e6eafec9f2b5eb"
+    },
+    {
+      "bytes": 1158,
+      "path": "cpu_checks/CPU_PREFLIGHT.json",
+      "sha256": "a3e60a5d8acbb51b8d71372005dda84aed6ec998cd1fe7e9b61a24c71feb3918"
+    },
+    {
+      "bytes": 3538,
+      "path": "cpu_checks/SYNTHETIC_SNAPSHOT.json",
+      "sha256": "e77c63d5acd9e4fa157b2f2c821f8750c7bccb10d9629a62db67ffffdcc0d845"
+    },
+    {
+      "bytes": 1772,
+      "path": "cpu_checks/UNIT_TESTS.txt",
+      "sha256": "80981c209ec9d1b64f437b128d929f9042131c5ca6845f5c9005293eda15afc0"
+    },
+    {
+      "bytes": 3795,
+      "path": "evidence/INSTALLED_GETTER_API.json",
+      "sha256": "b570cb159b18325852af37188fb4030c7728906109e557a5c1b6124ba9e7bef4"
+    },
+    {
+      "bytes": 1390,
+      "path": "evidence/OFFLINE_USD_EVIDENCE.json",
+      "sha256": "427e055dd27348a418e66277ae1808dd2c17dbdd5597c1ce7c6e9c963a29440a"
+    },
+    {
+      "bytes": 3021,
+      "path": "evidence/SOURCE_EVIDENCE.json",
+      "sha256": "fd434b6a8a2a49b1fe3a951cfe0761a6f003b254405ae6a7ce9411ef3bcdeced"
+    },
+    {
+      "bytes": 2801,
+      "path": "instrumentation_contract.json",
+      "sha256": "efd5d858bf7b4c8dcd83e2d4b98490e0335cae8b8a2c8cb42e4eead21f2f1bf9"
+    }
+  ],
+  "status": "FROZEN_CPU_COMPONENT_NO_NATIVE"
+}

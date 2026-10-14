@@ -1,0 +1,11 @@
+# 恢复用途根因与实际反事实
+
+Observed：原v03 recovery_events仅把audit time90改170并按单调时间排序，onset[40,50]、feedback100、decision120、submit130、apply140、label160不改，实际derive及writer.close/readback仍给bc_recovery TRUE。只把label移180合法TRUE。独立13 probes和真实writer原件保留。
+
+Root cause：outcomes在全段日志读取结束后处理，原anchors仅查全局audits存在性和onset早于feedback，遗漏audit记录自身的time_ns+seq前缀。first incorrect transition是过去160行读取未来170审计并判verified恢复TRUE。不是物理onset未来、时钟回退或teacher privilege。
+
+邻接复现：恢复objective FALSE（全局失败不被改写），rec verified/recovered均TRUE时，execution_evidence只看全局objective是否TRUE，因此REJECTED/DROPPED/TIMEOUT误判bc_recovery TRUE。STATE_LABEL FALSE也可作为原执行失败。最小修复把执行成功用途统一为globalTRUE或verified recoveryTRUE，并typed检查原执行失败。
+
+回归：18项新oracle在仅schema适配的冻结v03行为上RED（12 failures/1 error），在v04 GREEN18；其中测试期历史列表oracle曾误列未delivery obs1，已按真实ONLINE_DELIVERED合同改正并重跑最终red。原始初次日志保留，不抹失败。未来anchor UNKNOWN不读未来onset，known未来anchor拒绝；同time不同seq、多个anchor、晚audit新label、audit晚于decision、required abort、未知scope但已知恢复TRUE均覆盖。
+
+Boundary：可信collector的CPU数据接口。source hash不是物理证明，真实production/native/GPU/θ0；无新增审批或数据采集。旧source、历史54/80检查及收据逐字保持。已有全局失败和合法失败RL继续存在。

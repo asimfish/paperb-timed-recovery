@@ -1,0 +1,43 @@
+{
+  "actual_native_control_epochs": 0,
+  "budget": {
+    "minimum_free_vram_MiB": 24576,
+    "no_foreign_signals": true,
+    "parent_owned_wall_cap_s": 700,
+    "resource_refusal_is_not_native_episode": true
+  },
+  "future_split": "THIS_ONE_CASE_IS_INSTRUMENTATION_DEVELOPMENT;FUTURE_TRAIN_TEST_MUST_USE_NEW_EPISODES_AND_PREDECLARED_SUPPORT_UNLOAD_RELEASE_CONTRACTS;KNOWN_OLD_SCENE_IS_NOT_HELDOUT_OR_OOD",
+  "future_strong_guarded_baseline": "ONLY_AFTER_SIGN_UNIT_ACTOR_CONSTRAINT_COVERAGE_QUALIFICATION:PAIRED_PAN_FORCE_AND_ROBOT_FORCE_PLUS_m(a-g)_BALANCE_GUARD_BEFORE_ALLOWING_RELEASE;MISSING_PREREQUISITES_UNKNOWN;NO_THRESHOLD_FIT_FROM_OLD_TEST_LABELS",
+  "maximum_native_control_epochs": 1,
+  "native_prerequisites": [
+    "NEW_SOURCE_PROTOCOL_EPOCH_OUTPUT_BINDING",
+    "INDEPENDENT_PREEXEC_REVIEW",
+    "ROOT_RESOURCE_GATE_AND_ADMISSION",
+    "WRITE_ONCE_ALL_GETTER_RESULTS_AND_EXCEPTIONS",
+    "INDEPENDENT_RAW_INSTRUMENTATION_AUDIT"
+  ],
+  "native_runtime_root_owned_by_parent": "/data/liyufeng/paperb_handoff_instrumentation_20261014_v1",
+  "new_learning_or_parameter_updates": 0,
+  "new_load_bearing_success_labels": 0,
+  "new_native_protocol_authority": "ROOT_OWNED_NEW_NATIVE_INCREMENT;THIS_FILE_IS_DESIGN_SCOPE_NOT_RUN_ADMISSION",
+  "no_relabel_old_cases": true,
+  "original_contract_score_role": "DIAGNOSTIC_ONLY_SEPARATE_FROM_INSTRUMENTATION_ACCEPTANCE",
+  "prospective_new_case_id": "dev_seen_handoff_instrumentation_001",
+  "role": "DEVELOPMENT_SEEN_INSTRUMENTATION_ONLY",
+  "schema": "paperb-handoff-prospective-observation-scope-v1",
+  "source_case_id": "test_m090_d12_joint_exact_grid",
+  "source_case_sha256": "9a47614994d02719fcde9186524c0ecf885e6db5c7e2284a741e51392fa2da89",
+  "source_schedule_sha256": "02f4d3e6cf170880c906d4e2168b922bf81ea97fa4b2bb852d4e7851bce3b7c6",
+  "strong_reference_baseline": "ORIGINAL_COMPLETE_SCRIPTED_SKILL_FIXED_SOURCE_SCHEDULE;NOT_WEAKENED_OR_RETRAINED",
+  "student_camera_role": "OFFLINE_CAPTURE_NOT_LIVE_STUDENT_CONTROL",
+  "teacher_role": "PRIVILEGED_SCRIPTED_COMMAND_REFERENCE",
+  "unchanged_control": {
+    "fifo_delay_ticks": 12,
+    "hand_stiffness": 1600,
+    "mass_factor": 0.9,
+    "original_contact_to_release_gap_s": 18.5,
+    "original_contact_window_s": 5.0,
+    "original_tolerances_s": 0.025,
+    "source_indices": "EXACT_OLD_SEEN_SCHEDULE_NO_REFIT"
+  }
+}

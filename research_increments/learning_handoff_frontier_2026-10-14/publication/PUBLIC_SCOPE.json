@@ -1,0 +1,83 @@
+{
+  "baseline_commit": "43b966821a5fedb0d810ec0d6c7c6a6be9fb0782",
+  "claim_boundary": "Frozen offline diagnosis and CPU interfaces; v03 recovery-prefix red independently reproduced and v04 CPU98/independent13/archived13 fix frozen; root-notified v1 pre-native startup failure retained, no AppLauncher/native physics/RAW/RGB or production/training/weight result.",
+  "native_case": {
+    "AppLauncher_started": false,
+    "actual_RAW_rows": 0,
+    "actual_RGB_frames": 0,
+    "actual_trial_outputs_inspected_by_builder": false,
+    "formal_native_epochs": 0,
+    "id": "dev_seen_handoff_instrumentation_001",
+    "load_bearing": "UNKNOWN_NO_NATIVE_RESULT",
+    "new_weights": 0,
+    "physics_epochs": 0,
+    "role": "DEVELOPMENT_SEEN_INSTRUMENTATION",
+    "same_v1_restart": "REFUSED_BY_PRIOR_OUTPUT_GUARD_BEFORE_SDK",
+    "source_release_sha256": "0cc48392ccb617f7c1688bf82a9a84dd32557674521ce923997b91dbfe4fb381",
+    "startup_attempts_retained": 1,
+    "status_at_root_notification": "FAILED_RETAINED_PRE_APPLAUNCHER",
+    "success_labels": 0,
+    "training_admitted": 0
+  },
+  "native_reexecution_closure": "NOT_PUBLICLY_COMPLETE: release metadata pins installed/private environment; source archives are bounded CPU/reader components.",
+  "old20": {
+    "calibration": 4,
+    "episodes": 20,
+    "geometry_opportunity_cases": 20,
+    "independent_loadbearing_UNKNOWN": 20,
+    "old_strict_FALSE": 20,
+    "old_strict_success": 0,
+    "roles_events_scores_changed": false,
+    "runtime_pin_sha256": "be5c33d1aec0986bc6a8d756b30984e221fa080b40f3fbf7fb3d63ebecaf5413",
+    "samples": 277864,
+    "test": 16
+  },
+  "private_assets_not_exported": [
+    "large native RAW",
+    "actual RGB/depth frames",
+    "native SDK/vendor distribution",
+    "weights",
+    "running native states/scores/results"
+  ],
+  "public_assets": "Selected documents, summaries, CSV index, vector/raster/PDF mechanism figure, CPU component archives and independently frozen reader sources.",
+  "schema": "PaperBLearningDataFrontierPublicScope/0.1",
+  "security_boundary": {
+    "archive_paths": "relative regular files only; no traversal/symlink; recursive nested source archives reopened",
+    "credential_features": [
+      "private_key",
+      "github_token",
+      "openai_token",
+      "aws_access_key",
+      "slack_token",
+      "bearer_value"
+    ],
+    "scan_limit": "Pattern check is evidence for listed features only; not proof of absence of all sensitive information.",
+    "sink": "GitHub static public assets; publication performed separately by root",
+    "source": "explicit allowlisted source paths and frozen archive members"
+  },
+  "v03": {
+    "current_training_rows": 0,
+    "new_weights": 0,
+    "producer_CPU_tests": 80,
+    "production_rows": 0,
+    "recovery_future_anchor_scope": "INDEPENDENT_RED_REPRODUCED_HISTORICAL_SOURCE_RETAINED",
+    "root_control_prefix_probes": 10,
+    "source_manifest_sha256": "dff7372f0513af10be429ef94063f49255c36e3deaf46fdb5bf9de8553baa0aa"
+  },
+  "v04": {
+    "GPU_work": 0,
+    "archive_bytes": 608056,
+    "archive_member_count": 248,
+    "archive_sha256": "7ee895341cb68ad8aa4e61a72a17a8688fba554a0c93369003534c13138c1a8d",
+    "archived_source_green_probes": 13,
+    "current_training_rows": 0,
+    "independent_green_probes": 13,
+    "native_epochs": 0,
+    "new_weights": 0,
+    "producer_CPU_tests": 98,
+    "production_rows": 0,
+    "scope": "SYNTHETIC_CPU_INTERFACE_WITH_READONLY_LEGACY_METADATA",
+    "source_manifest_sha256": "be4882960804a9d23fb1b0d633054e3ee85d2d3c0fdec70748f7bba7fddaebdb",
+    "source_member_count": 40
+  }
+}

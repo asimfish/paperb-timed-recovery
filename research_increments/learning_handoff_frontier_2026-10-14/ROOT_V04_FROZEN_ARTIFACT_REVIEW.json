@@ -1,0 +1,16 @@
+{
+  "status": "PASS_ROOT_V04_FROZEN_CPU_COMPONENT_READBACK_NOT_PRODUCTION_ACCEPTANCE",
+  "source_manifest_sha256": "be4882960804a9d23fb1b0d633054e3ee85d2d3c0fdec70748f7bba7fddaebdb",
+  "source_files_readback": 40,
+  "archive_sha256": "7ee895341cb68ad8aa4e61a72a17a8688fba554a0c93369003534c13138c1a8d",
+  "archive_members_readback": 248,
+  "independent_agent_CPU_probes": 13,
+  "producer_CPU_tests": 98,
+  "archived_source_independent_probes": 13,
+  "root_repeated_CPU_tests": 0,
+  "root_reviewed_execution_and_recovery_prefix_code": true,
+  "production_rows": 0,
+  "admitted_training_rows": 0,
+  "parameter_updates": 0,
+  "scope": "CPU-only contract candidate; real actor/observation/control/independent endpoint adapter and training acceptance remain open"
+}

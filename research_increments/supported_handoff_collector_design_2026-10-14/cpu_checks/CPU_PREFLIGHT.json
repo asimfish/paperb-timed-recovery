@@ -1,0 +1,29 @@
+{
+  "ast_forbidden_imports_or_physics_mutators": [],
+  "claim": "STRUCTURAL_AND_READONLY_ADAPTER_TESTS_ONLY;NOT_ACTIVE_SDK_GETTER_ACCEPTANCE",
+  "gpu_jobs": 0,
+  "load_bearing_labels_created": 0,
+  "native_epochs": 0,
+  "python_version": "3.10.12",
+  "schema": "paperb-physical-collector-cpu-preflight-v1",
+  "sdk_imported": false,
+  "simulation_steps": 0,
+  "source_sha256": {
+    "physical_capture.py": "d10610f5d508a37b65f2978fadbae304b0001606d51faf0511c8805ce4ae0d5f",
+    "physical_validate.py": "d6c1d09324a0b054a5058c76ac4af9ba493e25c267c3099366a3274ed564bea0",
+    "run_cpu_preflight.py": "ccd01bd61399230d01f5a44868461a80c0e2d8c2ed42ae846d85c5807c2f0de8",
+    "test_physical_capture.py": "71a9a5273b7cf8c01bc170582fa4c3d1c0b647c752e6440420e6eafec9f2b5eb"
+  },
+  "status": "PASS_CPU_ONLY",
+  "synthetic_snapshot_structure": {
+    "all_body_getters_observed": true,
+    "errors": [],
+    "load_bearing_verdict": "UNKNOWN",
+    "missing_getters": [],
+    "native_epochs_created": 0,
+    "structure_pass": true
+  },
+  "test_exit_code": 0,
+  "unit_test_log_sha256": "80981c209ec9d1b64f437b128d929f9042131c5ca6845f5c9005293eda15afc0",
+  "unit_tests": 22
+}

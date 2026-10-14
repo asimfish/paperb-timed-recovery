@@ -1,0 +1,133 @@
+{
+  "GPU_runs": 0,
+  "all20_diagnostic_summary_sha256": "e6298fabdadbcfb8a557eec13c92d76aac67eaa8453af4b36134410e2873f28f",
+  "analysis_release_sha256": "b4d8c7494c728327878f509e53d1294408f1a4c8ec57a1a5f170482d007dedd6",
+  "any_policy_feasibility_or_impossibility_proved": false,
+  "calibration_samples": 53732,
+  "candidate_geometry_overlap_cases": 20,
+  "candidate_span_per_episode_range_s": [
+    1.029166720341891,
+    2.616666803136468
+  ],
+  "candidate_union_samples": 10056,
+  "candidate_windows_are_not_independent_episodes": true,
+  "case_index_sha256": "1a42cb58533739bbb92c7bf62cf1efa776402ae44235d455a18ebd173ce0fdf2",
+  "created_at_utc": "2026-10-13T18:56:25.197042+00:00",
+  "data_durability": {
+    "all20_required_RAW_files_streamed_and_SHA_verified_in_this_run": true,
+    "known_private_archive_stat": {
+      "current_archive_full_hash_recomputed": false,
+      "is_file": true,
+      "path": "/data/liyufeng/paperb_grip_qualified_timing_evidence_20261013_v1/essential_twenty_episode_evidence.tar.gz",
+      "prior_verified_SHA_from_sealed_metadata": "981a43522fdefad6fcfab97a7e37286b0bb28c835b46711fca03ed4990738a5c",
+      "stat_bytes": 1431681218
+    },
+    "old_private_audit_and_manifest_paths_unavailable": [
+      "/data/liyufeng/paperb_grip_qualified_timing_audit_20261013_v1/TEST_AUDIT.json",
+      "/data/liyufeng/paperb_grip_qualified_timing_evidence_20261013_v1/PACKAGE_MANIFEST.json"
+    ],
+    "original_RAW_root": "/data/liyufeng/paperb_grip_qualified_joint_timing_20261013_v1/cases",
+    "private_RAW_not_public_training_dataset_or_full_scene_reexecution_package": true,
+    "sealed_NAS_same_SHA_copies_used": {
+      "evidence_metadata/PACKAGE_MANIFEST.json": {
+        "path": "/mnt/nas/data/lyf/chem_mem/awesome_memory_chem/papers/paperB/research_increments/grip_qualified_joint_timing_2026-10-13/evidence_metadata/PACKAGE_MANIFEST.json",
+        "sha256": "544181fd19bc3f78f4e7924109b7157fa9d19c23891c00284b22cdd4038390f8"
+      },
+      "independent_audit/CALIBRATION_AUDIT.json": {
+        "path": "/mnt/nas/data/lyf/chem_mem/awesome_memory_chem/papers/paperB/research_increments/grip_qualified_joint_timing_2026-10-13/independent_audit/CALIBRATION_AUDIT.json",
+        "sha256": "50aea5b4a3d19f05faa249f6f881926a7d490e8bfbac201cfef426a2118312f0"
+      },
+      "independent_audit/TEST_AUDIT.json": {
+        "path": "/mnt/nas/data/lyf/chem_mem/awesome_memory_chem/papers/paperB/research_increments/grip_qualified_joint_timing_2026-10-13/independent_audit/TEST_AUDIT.json",
+        "sha256": "05f16f70848049a30a9725c3a0a351d40c480587084a96793ce41ff1813bda36"
+      }
+    }
+  },
+  "decode_wall_sum_s": 144.28948029503226,
+  "independent_loadbearing_UNKNOWN_cases": 20,
+  "large_frames_copied": 0,
+  "missing_evidence": [
+    "effective scene/body gravity readback",
+    "per-tick actual object linear/angular velocity and acceleration or validated derivative",
+    "force-on-object sign/units and contact/friction aggregation semantics",
+    "robot vertical load contribution/unloading",
+    "other external support/force exclusion"
+  ],
+  "new_full_support_or_DP_success_admissions": 0,
+  "new_physics_epochs": 0,
+  "new_prospective_contract_applied_to_old_scores": false,
+  "numpy_version": "1.26.0",
+  "old_full_timed_plus_strict_hold_success": 0,
+  "old_roles_events_scores_and_clock_ids_exactly_preserved": true,
+  "old_strict_UNKNOWN": 0,
+  "old_strict_failure": 20,
+  "old_strict_missing_bilateral_samples_per_episode": [
+    11
+  ],
+  "old_strict_success": 0,
+  "original_calibration_episodes": 4,
+  "original_episodes": 20,
+  "original_execution_release_sha256": "0c3cff79148f20f6b5f212eb484ac205122b02e63fac98d657ad8e14db3041dd",
+  "original_protocol_sha256": "cad51fcb553f61b6dee2f102206ad70d8093bd4c73031fd1e1055d241551ef02",
+  "original_test_episodes": 16,
+  "redecoded_samples": 277864,
+  "representative": {
+    "candidate_regions": [
+      {
+        "candidate_start_onset_bracket_s": [
+          35.98333521001041,
+          35.987501876894385
+        ],
+        "first_candidate_confirmation_tick": 7411,
+        "first_candidate_confirmation_time_s": 36.01666854508221,
+        "first_candidate_window_start_tick": 7404,
+        "independent_loadbearing_support": "UNKNOWN",
+        "jaw_width_range_m": [
+          0.05560511350631714,
+          0.05561339855194092
+        ],
+        "last_candidate_window_start_tick": 8020,
+        "maximum_goal_error_m": 0.0017892632034644566,
+        "maximum_pose_difference_speed_proxy_m_s": 0.01498956338062769,
+        "maximum_tilt_rad": 0.0032413162410260972,
+        "support_contact_and_bilateral_sampled_geometry": true,
+        "union_native_span_s": 2.5958334687165916,
+        "union_sample_ticks": [
+          7404,
+          8027
+        ]
+      }
+    ],
+    "case_id": "test_m090_d12_joint_exact_grid",
+    "contract_sha256": "fac0c7056f24663b1f8e878098a0c5861992206621831eaea8f9e07f5993b471",
+    "native_rows": 14007,
+    "old_stable_release_confirmation_sample_index": 8046,
+    "old_stable_release_onset_sample_index": 8039,
+    "old_strict_missing_bilateral_sample_indices": [
+      8028,
+      8029,
+      8030,
+      8031,
+      8032,
+      8033,
+      8034,
+      8035,
+      8036,
+      8037,
+      8038
+    ]
+  },
+  "schema": "PaperBSupportHandoffPublicDiagnostic/0.2",
+  "scientific_scope": "Existing seen fixed-skill mechanism diagnosis, not new policy evaluation or revised old score",
+  "status": "PASS_OFFLINE_RAW_DIAGNOSTIC_LOAD_BEARING_UNKNOWN",
+  "test_samples": 224132,
+  "verified_input_SHA_and_pose_exact_cases": 20,
+  "version_history": {
+    "V1_and_V2_representative_candidate_regions_equal": true,
+    "V1_candidate_tilt_and_goal_only_checked_at_window_start": true,
+    "V2_all8_points_checked_same_thresholds": true,
+    "V2_source_pinned_before_all20_offline_decode_after_old_results_seen": true,
+    "representative_V1_preserved": true
+  },
+  "weight_updates": 0
+}

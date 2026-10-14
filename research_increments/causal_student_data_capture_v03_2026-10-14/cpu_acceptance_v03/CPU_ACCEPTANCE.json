@@ -1,0 +1,82 @@
+{
+  "GPU_work": 0,
+  "actual_production_rows": 0,
+  "actual_tests_run": 80,
+  "admitted_for_current_training_rows": 0,
+  "created_at_utc": "2026-10-13T19:21:10.214411+00:00",
+  "each_complete_fixture_independently_reopened": true,
+  "environment": {
+    "jsonschema": "3.2.0",
+    "python": "3.10.12"
+  },
+  "errors": 0,
+  "failures": 0,
+  "independent_early_execution_rejection": "EXECUTION_LABEL_BEFORE_REQUIRED_SUBMISSION_OR_ABORT",
+  "native_epochs": 0,
+  "native_modules_loaded_after": [],
+  "native_modules_loaded_before": [],
+  "parameter_updates": 0,
+  "real_image_files_copied": 0,
+  "retained_incomplete_fixture_logs": 2,
+  "retained_incomplete_rejection": "INCOMPLETE_LOG_NOT_ADMITTED",
+  "schema_static_validation": "PASS",
+  "scope": "SYNTHETIC_CPU_INTERFACE_AND_LEGACY_METADATA_CONVERSION_ONLY",
+  "source_file_sha256": {
+    "code/causal_capture.py": "b27cc1c52a0ef750b56f20b3caea1fddebabf3007823c2253062d001b9e123eb",
+    "code/cpu_fixtures.py": "c849e6c2913b5a6d326358127d190344348e781eaec4931aef8769ccf8b28c2d",
+    "code/interfaces.py": "3ded4e7b40689231192edc9e219f25aa74479d6d9122f48e3ea8a84f969f24ca",
+    "code/legacy_allowlist.py": "e5cd6985f0d179430e6963af4cda42ce7b548a92bf1511db832c6feed5ad5e1d",
+    "code/run_cpu_acceptance.py": "13d0a35cf69f7873cf2ffde21ad7418e020efb7f5a9b6c61a663c276e1dd5db6",
+    "code/schema_definition.py": "30c2b9ef137762003a19b06fac4fecc62527f4f542cbdafaba2b4565822d0826",
+    "schemas/CaptureEvent.schema.json": "7a8e5fb4d9cf66adae68bfac839e5084cf2fa153feeb952982a2e160370a591b",
+    "schemas/CaptureHeader.schema.json": "0a4660de076655e813203efa6a7bbc577c8a9beac9f98d773a3173f9a4876e50",
+    "schemas/CausalStudentCapture.schema.json": "50abffd7161584c3b87d7467c256bbd4a630bf2536b348e5dd50e70d167db284",
+    "schemas/RecoveryLabel.schema.json": "777da15d38aa07ee7e0359e954f35f5cf18531208a34eb46d6da4120c93d9e03",
+    "tests/test_causal_capture.py": "fa00a226b25f3fae7f07b1841e8cc68bf63230bf05a245eb5641881e4674a75d",
+    "tests/test_outcome_prefix.py": "42ef32072dd4ac2b97ccafee500b5558d462c1272a8b6d612e5036d4f54f0447"
+  },
+  "source_imports": {
+    "causal_capture.py": [
+      "hashlib",
+      "json",
+      "jsonschema",
+      "math",
+      "os",
+      "pathlib",
+      "schema_definition"
+    ],
+    "cpu_fixtures.py": [
+      "causal_capture",
+      "pathlib"
+    ],
+    "interfaces.py": [
+      "typing"
+    ],
+    "legacy_allowlist.py": [
+      "causal_capture",
+      "copy"
+    ],
+    "run_cpu_acceptance.py": [
+      "argparse",
+      "ast",
+      "causal_capture",
+      "cpu_fixtures",
+      "datetime",
+      "importlib",
+      "io",
+      "json",
+      "jsonschema",
+      "legacy_allowlist",
+      "os",
+      "pathlib",
+      "platform",
+      "schema_definition",
+      "sys",
+      "test_outcome_prefix",
+      "unittest"
+    ],
+    "schema_definition.py": []
+  },
+  "status": "PASS_CPU_CAPTURE_CONTRACT",
+  "synthetic_complete_fixture_logs": 7
+}

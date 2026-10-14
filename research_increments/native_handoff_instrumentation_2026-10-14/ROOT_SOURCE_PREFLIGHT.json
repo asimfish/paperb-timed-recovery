@@ -1,0 +1,14 @@
+{
+  "status": "PASS_ROOT_SOURCE_ONLY_PREFLIGHT_NOT_NATIVE_REVIEW",
+  "source_release_sha256": "0cc48392ccb617f7c1688bf82a9a84dd32557674521ce923997b91dbfe4fb381",
+  "files": 148,
+  "python_sources_compile_only": 109,
+  "physical_phase_order_checked": true,
+  "unique_epoch_new_case_full_protocol_hash": true,
+  "failure_snapshot_retained": true,
+  "original_schedule_indices": 13995,
+  "source_fit_calls_removed": true,
+  "source_pycache_written": false,
+  "SDK_imports_or_native_GPU_started": 0,
+  "new_labels_or_training": 0
+}

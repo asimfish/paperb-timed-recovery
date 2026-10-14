@@ -1,0 +1,88 @@
+{
+  "status": "PASS_ROOT_V03_CONTROL_PREFIX_PROBES_WITH_RECOVERY_SCOPE_OPEN",
+  "source_manifest_sha256": "dff7372f0513af10be429ef94063f49255c36e3deaf46fdb5bf9de8553baa0aa",
+  "exact_source_members": 27,
+  "independent_temporal_probes": 10,
+  "rows": [
+    {
+      "name": "Original independent F1 exact time sequence retained",
+      "pass_check": true,
+      "verdict": "REJECTED",
+      "reason": "EXECUTION_LABEL_BEFORE_REQUIRED_SUBMISSION_OR_ABORT"
+    },
+    {
+      "name": "Only outcome moved after actual submit/apply",
+      "pass_check": true,
+      "verdict": "TRUE",
+      "submitted_mask": [
+        true
+      ]
+    },
+    {
+      "name": "Submitted but not applied by label",
+      "pass_check": true,
+      "verdict": "REJECTED",
+      "reason": "EXECUTION_LABEL_BEFORE_REQUIRED_CHANNEL_RESULT"
+    },
+    {
+      "name": "Unknown early label preserves uncertainty",
+      "pass_check": true,
+      "verdict": "UNKNOWN",
+      "submitted_mask": [
+        null
+      ]
+    },
+    {
+      "name": "STATE_LABEL cannot become execution-success data",
+      "pass_check": true,
+      "verdict": "FALSE",
+      "submitted_mask": [
+        null
+      ]
+    },
+    {
+      "name": "PROPOSAL_LABEL cannot become execution-success data",
+      "pass_check": true,
+      "verdict": "FALSE",
+      "submitted_mask": [
+        null
+      ]
+    },
+    {
+      "name": "REJECTED cannot become execution success",
+      "pass_check": true,
+      "verdict": "REJECTED",
+      "reason": "NONAPPLIED_CONTROL_CANNOT_SUPPORT_EXECUTION_SUCCESS"
+    },
+    {
+      "name": "DROPPED cannot become execution success",
+      "pass_check": true,
+      "verdict": "REJECTED",
+      "reason": "NONAPPLIED_CONTROL_CANNOT_SUPPORT_EXECUTION_SUCCESS"
+    },
+    {
+      "name": "TIMEOUT cannot become execution success",
+      "pass_check": true,
+      "verdict": "REJECTED",
+      "reason": "NONAPPLIED_CONTROL_CANNOT_SUPPORT_EXECUTION_SUCCESS"
+    },
+    {
+      "name": "Missing application remains a blocker to known execution success",
+      "pass_check": true,
+      "verdict": "REJECTED",
+      "reason": "EXECUTION_LABEL_BEFORE_REQUIRED_CHANNEL_RESULT"
+    }
+  ],
+  "future_anchor_probe": {
+    "audit_arrival_ns": 170,
+    "recovery_label_ns": 160,
+    "observed_recovery_eligibility": "TRUE",
+    "scope": "Future audit-anchor arrival must be reviewed before asserting all recovery evidence is prefix-limited."
+  },
+  "raw_or_image_data_read": false,
+  "actual_production_rows": 0,
+  "current_training_admitted": 0,
+  "new_native": 0,
+  "new_weights": 0,
+  "claim": "Control outcome-prefix fix independently confirmed; full recovery-prefix admissibility still needs explicit resolution."
+}

@@ -1,0 +1,50 @@
+{
+  "BC_privileged_teacher_allowed": true,
+  "GPU_work": 0,
+  "actual_production_rows": 0,
+  "actual_tests_run": 80,
+  "additional_temporal_cases": 26,
+  "admitted_for_current_training_rows": 0,
+  "claim_boundary": "Producer CPU causal-data fix; no actual physical/task/chemical/learning acceptance; independent review remains separate.",
+  "cpu_receipt_sha256": "cc439475ce20d3c24c8bc99b2df35c339ba3914d0bd28f3076460f1509175e31",
+  "errors": 0,
+  "failed_OFFLINE_RL_and_recovery_preserved": true,
+  "failures": 0,
+  "known_execution_uses_outcome_prefix_only": true,
+  "label_kinds": [
+    "EXECUTION_OUTCOME",
+    "STATE_LABEL",
+    "PROPOSAL_LABEL"
+  ],
+  "legacy_causal_candidate_count": 852,
+  "legacy_episode_count": 28,
+  "native_epochs": 0,
+  "next_step": "Root and independent source audit before production learning; parallel native instrumentation labels UNKNOWN does not use v02 BC gate.",
+  "nonapplied_control_cannot_support_success": [
+    "REJECTED",
+    "DROPPED",
+    "TIMEOUT"
+  ],
+  "old19_metadata_unchanged": true,
+  "old_cases_retained_with_explicit_v03_types": 54,
+  "only_outcome_moved_after_related_controls_pass": true,
+  "optional_tail_mask_must_occur_by_label": true,
+  "original_times_ns": [
+    0,
+    10,
+    20,
+    40,
+    50
+  ],
+  "original_v02_red_actual_reproduced": true,
+  "parameter_updates": 0,
+  "retained_incomplete_logs": 2,
+  "schema": "CausalCaptureVersion03PublicSummary/0.3",
+  "status": "PASS_PRODUCER_CPU_FIX_CANDIDATE_PENDING_INDEPENDENT_REVIEW",
+  "synthetic_complete_fixture_logs": 7,
+  "synthetic_fixtures_are_not_real_robot_or_RGB_or_native_data": true,
+  "v02_preserved_CPU_tests": 54,
+  "v02_preserved_source_members": 20,
+  "v02_source_manifest_sha256": "c8f5d4d76965aef77d0f636d4a6a8486ccd1f076d027101921ce93785f8bbad7",
+  "v03_early_close_fail_closed": "EXECUTION_LABEL_BEFORE_REQUIRED_SUBMISSION_OR_ABORT"
+}

@@ -1,0 +1,112 @@
+{
+  "actual_sdk_native_getter_calls": 0,
+  "compatibility_claim": "PINNED_INSTALLED_API_ONLY;NO_CROSS_VERSION_ABI_SUPPORT_CLAIM",
+  "complete_backend_constraint_getter": "NOT_FOUND_DO_NOT_INFER_ZERO",
+  "composer_active_python_bool_assignments": [
+    38,
+    201,
+    300,
+    333
+  ],
+  "flags_installed_allocation": "(count,1),omni.uint8,torch.uint8;tolist_returns_nested_plain_int;not_bool_or_flat",
+  "frontend_create_tensor_shape_preserving_lines": [
+    59,
+    74
+  ],
+  "frontend_dtype_mapping_lines": [
+    11,
+    23
+  ],
+  "frontend_torch_path": "/home/liyufeng/miniforge3/envs/safeduo/lib/python3.11/site-packages/isaacsim/extscache/omni.physics.tensors-107.3.26+107.3.3.lx64.r.cp311.u353/omni/physics/tensors/impl/frontend_torch.py",
+  "frontend_torch_sha256": "5ea8273f656983d8396de0e347f394ac077dd5b87938881be38d43a2657599a0",
+  "inverse_mass_installed_allocation": "(count,1),float32;torch.float32",
+  "kinematic_active_getter": "NOT_FOUND_DO_NOT_INVENT",
+  "official_primary_context_sources": [
+    "https://docs.omniverse.nvidia.com/kit/docs/omni_physics/107.3/extensions/runtime/source/omni.physx/docs/api/python.html",
+    "https://nvidia-omniverse.github.io/PhysX/physx/5.1.0/_build/physx/latest/struct_px_contact_pair_point.html",
+    "https://nvidia-omniverse.github.io/PhysX/physx/5.1.2/docs/AdvancedCollisionDetection.html"
+  ],
+  "rigid_object_api_path": "/home/liyufeng/safeduo_isaaclab/source/isaaclab/isaaclab/assets/rigid_object/rigid_object.py",
+  "rigid_object_api_sha256": "0aa371d43fae2f9dbfccc98bdb1d14f75860973afb68d3832e83b815d52fb546",
+  "rigid_object_line_spans": {
+    "existing_body_view_creation": [
+      516,
+      519
+    ],
+    "existing_physics_sim_view": [
+      475,
+      476
+    ],
+    "write_data_to_sim_wrench_path": [
+      134,
+      168
+    ]
+  },
+  "schema": "paperb-handoff-installed-readonly-sdk-api-v1",
+  "simulation_manager_existing_view_subspace_root_slash_line": 185,
+  "simulation_manager_path": "/home/liyufeng/miniforge3/envs/safeduo/lib/python3.11/site-packages/isaacsim/exts/isaacsim.core.simulation_manager/isaacsim/core/simulation_manager/impl/simulation_manager.py",
+  "simulation_manager_sha256": "9f608b061c7aa4285a4a722806d3858e7e44ab82d907309635c6295a272dd659",
+  "tensor_api_path": "/home/liyufeng/miniforge3/envs/safeduo/lib/python3.11/site-packages/isaacsim/extscache/omni.physics.tensors-107.3.26+107.3.3.lx64.r.cp311.u353/omni/physics/tensors/impl/api.py",
+  "tensor_api_sha256": "5dd16f8a37eccc94ac82338d6c1127e785cccf761cae1f6f18ef03d55b0f325f",
+  "verified_by": "READ_SOURCE_ONLY",
+  "verified_line_spans": {
+    "ArticulationView.get_link_incoming_joint_force": [
+      2376,
+      2404
+    ],
+    "RigidBodyView.get_accelerations": [
+      3401,
+      3426
+    ],
+    "RigidBodyView.get_coms": [
+      3644,
+      3670
+    ],
+    "RigidBodyView.get_disable_gravities": [
+      3726,
+      3749
+    ],
+    "RigidBodyView.get_disable_simulations": [
+      3751,
+      3774
+    ],
+    "RigidBodyView.get_inertias": [
+      3672,
+      3697
+    ],
+    "RigidBodyView.get_inv_masses": [
+      3619,
+      3642
+    ],
+    "RigidBodyView.get_masses": [
+      3594,
+      3617
+    ],
+    "RigidBodyView.get_transforms": [
+      3347,
+      3372
+    ],
+    "RigidBodyView.get_velocities": [
+      3374,
+      3399
+    ],
+    "RigidContactView.get_contact_data": [
+      5877,
+      5959
+    ],
+    "SimulationView.create_rigid_contact_view": [
+      372,
+      415
+    ],
+    "SimulationView.get_gravity": [
+      608,
+      628
+    ]
+  },
+  "wrench_composer_api_path": "/home/liyufeng/safeduo_isaaclab/source/isaaclab/isaaclab/utils/wrench_composer.py",
+  "wrench_composer_api_sha256": "095ab1fcf374e4bce96b61430f810c83f3519b7225476ce6e0a6ceb403a5f6a8",
+  "wrench_readonly_properties_lines": [
+    71,
+    123
+  ]
+}

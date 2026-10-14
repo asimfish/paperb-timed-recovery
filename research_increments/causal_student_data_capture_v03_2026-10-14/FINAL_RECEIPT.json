@@ -1,0 +1,19 @@
+{
+  "GPU_work": 0,
+  "actual_production_rows": 0,
+  "actual_tests_run": 80,
+  "admitted_for_current_training_rows": 0,
+  "archive_sha256": "ffdc936aeaf94a03743a12fbe3a53ba21a7528b6fcce01404ff7df06392a9336",
+  "archive_validation_sha256": "04d600da3d2d2e302a975b80902f882f61ba128f95125ba8c6fcee57b60e45a8",
+  "cpu_receipt_sha256": "cc439475ce20d3c24c8bc99b2df35c339ba3914d0bd28f3076460f1509175e31",
+  "independent_red_green_sha256": "0f72011bb7c333b19e32f50ab465de911f6ee3aa04d5e51cd9e1f657d70e104f",
+  "native_epochs": 0,
+  "no_more_owner_writes_after_receipt": true,
+  "old19_not_changed": true,
+  "parameter_updates": 0,
+  "public_summary_sha256": "4de04b093ddd0e0186be81a18c7868e7400db2d0a8b24a9001d52e461ec593bb",
+  "source_manifest_sha256": "dff7372f0513af10be429ef94063f49255c36e3deaf46fdb5bf9de8553baa0aa",
+  "source_member_count": 27,
+  "status": "PASS_V03_PRODUCER_CPU_FIXED_CANDIDATE_FROZEN_PENDING_INDEPENDENT_REVIEW",
+  "v02_source20_archive_CPU54_preserved": true
+}

@@ -1,0 +1,29 @@
+{
+  "candidate_geometry_not_full_support": true,
+  "case_id": "test_m090_d12_joint_exact_grid",
+  "contract_sha256": "fac0c7056f24663b1f8e878098a0c5861992206621831eaea8f9e07f5993b471",
+  "derived_csv_sha256": "c30b5c848b2653cf4df256fd74aed77decead7265dab2a67f0419cacd24d26f3",
+  "diagnostic_sha256": "7b9ca121aa7681ffd7e962efbc459d2dfb3d6ecabdcfd9386ea6d49460f6f9df",
+  "numpy_version": "1.26.0",
+  "old_strict_pass": false,
+  "outputs": [
+    {
+      "bytes": 57527,
+      "path": "support_handoff_mechanism.svg",
+      "sha256": "d78f0614897985e0240cd48e7c4ccb356eb040134f2fd66db54fe50c19449329"
+    },
+    {
+      "bytes": 31700,
+      "path": "support_handoff_mechanism.pdf",
+      "sha256": "5e64e42d9909fa4bfb5ff06f8c96473733d1ee8a7a9ef472cfa772e36b4d98ee"
+    },
+    {
+      "bytes": 256301,
+      "path": "support_handoff_mechanism.png",
+      "sha256": "bc711a9a79f9ec289f7c76b81f350b26784e172ee0ecc38b89b86423523af8b6"
+    }
+  ],
+  "physics_epochs_or_large_frames_copied": 0,
+  "plot_source_sha256": "cf276ff6888088f2665f1fbf86d8d1d049c4faf6579943e3a348ac445a33b098",
+  "schema": "PaperBSupportHandoffFigureProvenance/0.1"
+}

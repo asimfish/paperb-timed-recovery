@@ -1,0 +1,34 @@
+{
+  "facts": {
+    "PRE_WRITE": "must precede write_data_to_sim merge/reset; composers describe body-frame inputs",
+    "composer_active": "Python _active only assigned False/True in installed source",
+    "disable_flags": {
+      "actual_allocation_shape": "(count,1)",
+      "allocation_lines": [
+        3726,
+        3749,
+        3751,
+        3774
+      ],
+      "backend_type": "uint8",
+      "torch_frontend_type": "torch.uint8"
+    },
+    "inverse_mass": {
+      "actual_allocation_shape": "(count,1)",
+      "allocation_lines": [
+        3619,
+        3642
+      ],
+      "backend_type": "float32"
+    },
+    "runtime_API_qualification": "PENDING_NO_NEW_NATIVE"
+  },
+  "native_GPU_or_training": 0,
+  "schema": "IndependentInstalledAPIReadonlyEvidence/0.1",
+  "source_paths_and_sha256": {
+    "/home/liyufeng/miniforge3/envs/safeduo/lib/python3.11/site-packages/isaacsim/extscache/omni.physics.tensors-107.3.26+107.3.3.lx64.r.cp311.u353/omni/physics/tensors/impl/api.py": "5dd16f8a37eccc94ac82338d6c1127e785cccf761cae1f6f18ef03d55b0f325f",
+    "/home/liyufeng/miniforge3/envs/safeduo/lib/python3.11/site-packages/isaacsim/extscache/omni.physics.tensors-107.3.26+107.3.3.lx64.r.cp311.u353/omni/physics/tensors/impl/frontend_torch.py": "5ea8273f656983d8396de0e347f394ac077dd5b87938881be38d43a2657599a0",
+    "/home/liyufeng/safeduo_isaaclab/source/isaaclab/isaaclab/assets/rigid_object/rigid_object.py": "0aa371d43fae2f9dbfccc98bdb1d14f75860973afb68d3832e83b815d52fb546",
+    "/home/liyufeng/safeduo_isaaclab/source/isaaclab/isaaclab/utils/wrench_composer.py": "095ab1fcf374e4bce96b61430f810c83f3519b7225476ce6e0a6ceb403a5f6a8"
+  }
+}

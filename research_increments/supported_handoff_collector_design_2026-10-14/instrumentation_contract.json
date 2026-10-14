@@ -1,0 +1,64 @@
+{
+  "body_count": 1,
+  "clock_requirement": "EXACT_BEFORE_EQUALS_AFTER_EACH_GETTER_GROUP",
+  "com_pose_frame": "RELATIVE_BODY_PRIM_PRINCIPAL_AXES",
+  "constraint_backend_inventory": "UNKNOWN_NO_COMPLETE_INSTALLED_GETTER",
+  "contact_force_conversion": "NO_CONVERSION_IN_COMPONENT;RAW_CONTACT_AND_FRICTION_STREAMS_REMAIN_SEPARATE",
+  "flag_raw_dtype": "uint8/plain_int_01",
+  "flag_raw_expected_shape": [
+    1,
+    1
+  ],
+  "frontend_torch_sha256": "5ea8273f656983d8396de0e347f394ac077dd5b87938881be38d43a2657599a0",
+  "gpu_jobs": 0,
+  "inertia_layout": "COLUMN_MAJOR_COM_BODY_PRIM",
+  "kinematic_backend_flag": "UNKNOWN_NO_INSTALLED_TENSOR_GETTER",
+  "load_bearing_admission_prerequisites": [
+    "ACTUAL_BODY_GRAVITY_ENABLED_AND_NONZERO_SCENE_GRAVITY",
+    "DYNAMIC_BODY_EVIDENCE_WITH_KINEMATIC_AND_CONSTRAINT_LIMITATIONS_RESOLVED",
+    "CONTACT_BODY_COLLIDER_MAP_AND_SENSOR_COVERAGE_VALIDATED",
+    "FORCE_ON_OBJECT_SIGN_FRAME_UNITS_AND_NO_DOUBLE_COUNT_VALIDATED",
+    "ALL_EXTERNAL_WRENCH_AND_ROBOT_CONTACT_CONTRIBUTIONS_ACCOUNTED",
+    "DYNAMIC_FORCE_BALANCE_WITH_ACTUAL_COM_VELOCITY_ACCELERATION",
+    "PREDECLARED_NEW_SUPPORT_UNLOAD_RELEASE_CONTRACT_IN_NEW_EPISODES"
+  ],
+  "load_bearing_verdict": "ALWAYS_UNKNOWN_INSTRUMENTATION_ONLY",
+  "mass_inertia_installation": "UNCHANGED_OLD_INSTALLATION;THIS_ADAPTER_NEVER_SETS",
+  "missing_getter_policy": "KEEP_UNKNOWN_REASON_EXCEPTION;NEVER_IMPUTE_ZERO",
+  "native_clock_fields": [
+    "native_epoch",
+    "time_s",
+    "callback_count"
+  ],
+  "native_jobs": 0,
+  "old20_labels": "UNCHANGED",
+  "phases": [
+    "PRE_WRITE",
+    "POST_STEP",
+    "TASK_BEGIN",
+    "TASK_END"
+  ],
+  "record_sha256_encoding": "UTF8_JSON_SORT_KEYS_ALLOW_NAN_FALSE_COMPACT_SEPARATORS_EXCLUDE_RECORD_SHA256",
+  "schema": "paperb-supported-handoff-physical-instrumentation-contract-v1",
+  "simulation_getter_calls": "GETTERS_ONLY;NO_NEW_SCENE_RESET_STEP_SETTER",
+  "structure_error_policy": "RETAIN_RAW_OBSERVED_ROW_AND_ERROR_IN_PARENT_CASE;NO_SUCCESS_IMPUTATION",
+  "student_interface": "PHYSICAL_SNAPSHOTS_AUDIT_ONLY_NOT_AUTOMATIC_STUDENT_FEATURES",
+  "tensor_api_sha256": "5dd16f8a37eccc94ac82338d6c1127e785cccf761cae1f6f18ef03d55b0f325f",
+  "transform_frame": "SIMULATIONVIEW_SUBSPACE;PINNED_MANAGER_INITIALIZES_ROOT_SLASH_NO_LATER_CHANGE_ALLOWED",
+  "transform_quaternion_order": "xyzw",
+  "usd_constraints_evidence": "TASK_BEGIN_END_COMPOSED_USD_JOINT_INVENTORY_AND_SOURCE_WRITES;NOT_COMPLETE_BACKEND_CONSTRAINT_VIEW",
+  "velocity_frame": "WORLD_COM_LINEAR_AND_ANGULAR",
+  "velocity_units": [
+    "m/s",
+    "rad/s"
+  ],
+  "wrench_force_frame": "BODY_LINK_FRAME",
+  "wrench_force_units": "N",
+  "wrench_input_phase": "PRE_WRITE_BEFORE_WRITE_DATA_TO_SIM_CLEARS_INSTANTANEOUS",
+  "wrench_raw_expected_shape": [
+    1,
+    1,
+    3
+  ],
+  "wrench_torque_units": "N*m"
+}

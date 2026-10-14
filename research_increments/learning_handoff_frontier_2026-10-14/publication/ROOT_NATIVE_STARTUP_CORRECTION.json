@@ -1,0 +1,22 @@
+{
+  "AppLauncher_started": false,
+  "actual_RAW_rows": 0,
+  "actual_RGB_frames": 0,
+  "case_id": "dev_seen_handoff_instrumentation_001",
+  "failure": "FileNotFoundError: cases parent directory absent; exited before AppLauncher.",
+  "formal_native_epochs": 0,
+  "future_versions_or_unfrozen_sources_exported": false,
+  "load_bearing": "UNKNOWN_NO_NATIVE_RESULT",
+  "new_videos": 0,
+  "new_weights": 0,
+  "physics_epochs": 0,
+  "same_v1_restart": "REFUSED_BY_PRIOR_OUTPUT_GUARD_BEFORE_SDK",
+  "schema": "PaperBLearningFrontierRootStartupCorrection/0.1",
+  "source": "Explicit root notification; builder did not read private native trial outputs.",
+  "success_labels": 0,
+  "terminal": "FAILED_RETAINED",
+  "training_admitted": 0,
+  "v1_startup_at_utc": "2026-10-13T19:35:07Z",
+  "worker_log_bytes": 530,
+  "worker_wall_s": 0.2405590508133173
+}

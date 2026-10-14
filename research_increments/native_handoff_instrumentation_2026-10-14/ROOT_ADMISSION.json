@@ -1,0 +1,30 @@
+{
+  "status": "ADMITTED_ONE_DEVELOPMENT_SEEN_INSTRUMENTATION",
+  "created_at_utc": "2026-10-13T19:24:11.249130+00:00",
+  "source_release_sha256": "0cc48392ccb617f7c1688bf82a9a84dd32557674521ce923997b91dbfe4fb381",
+  "review_sha256": "d89e4178aa355380feccd5c09558c8257d45c09dd202b79db80c873ec6005b33",
+  "independent_preexec_closure_pin_sha256": "38b0db63104231c5b58a9bf87884f8f683a68644c6d498acff5dba34a72905b1",
+  "source_file_count": 148,
+  "case_id": "dev_seen_handoff_instrumentation_001",
+  "maximum_controlled_native_epochs": 1,
+  "GPU_uuid": "GPU-b129224c-c735-a03f-de6c-185d2a2724b1",
+  "independent_postexecution_protocol_sha256": "0bfca485142bc57c229b160cab86109d8b6e234ff8f7490ca405ee0b081c73fa",
+  "role": "DEVELOPMENT_SEEN_INSTRUMENTATION",
+  "resource_scope": {
+    "child_wait_timeout_seconds": 700,
+    "termination_waits_seconds_up_to": 30,
+    "cleanup_cost_reported_separately": true,
+    "source_maximum_allocated_GPU_seconds_700_not_strict_total_wall_cap": true,
+    "execution_budget_clarification_supersedes_source_total_cap_interpretation": true,
+    "observation_receipt_sha256": "f4138a5473338fd146a5fce01cb7ce43f41710686c3b339c395d8d184d78f220",
+    "allocation_report": "Actual worker elapsed GPU allocation reported; no strict total wall-time guarantee.",
+    "minimum_free_GPU_MiB": 24576
+  },
+  "training_admitted": 0,
+  "outcome_or_success_labels": 0,
+  "load_bearing": "UNKNOWN_INSTRUMENTATION_ONLY",
+  "foreign_process_signals": false,
+  "global_driver_changes": false,
+  "no_reexecution_of_old20": true,
+  "no_native_reintegration_claim": true
+}

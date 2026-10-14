@@ -1,0 +1,14 @@
+{
+  "currentA_paired32_not_modified": true,
+  "new_change": "prefix-bounded typed execution labels; required slots declared before outcome; no future effect backfill; state/proposal cannot become execution success",
+  "old19_metadata_not_modified": true,
+  "original_scope": "CPU interface only; production0/native0/GPU0/weights0",
+  "original_source_and_archive_byte_exact_copies": "original_v02_snapshot/",
+  "schema": "CausalCaptureVersion03SourceOrigin/0.3",
+  "status": "NEW_VERSION_FIX_FROZEN_V02_NO_OLD_WRITES",
+  "v02_archive_sha256": "c7f0f135f8c5e6965d68e23d74ea8aed146a7ae9aa72f55c9dba7ea4eb1824ff",
+  "v02_final_CPU54_receipt_sha256": "89a18bb0f46c5463ac8f412ea79848141d79739dc266e4e3ede41b233c4d6a25",
+  "v02_independent_red_input_sha256": "6e77476bb5504ec89cb54bc4687c031ef3efdbf4d3e1ca64a42da48fc4555c21",
+  "v02_source_manifest_sha256": "c8f5d4d76965aef77d0f636d4a6a8486ccd1f076d027101921ce93785f8bbad7",
+  "v02_source_member_count": 20
+}

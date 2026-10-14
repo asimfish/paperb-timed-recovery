@@ -1,0 +1,58 @@
+{
+  "created_at_utc": "2026-10-13T19:23:24.378775+00:00",
+  "files": {
+    "COMPONENT_SOURCE_READBACK_DRAFT.json": {
+      "bytes": 457,
+      "sha256": "378a1708b0f2aa51dc29d68d38daa3d7fbb5c7f145532277c146aa9d7d95976c"
+    },
+    "DRAFT_CPU_RESULTS.json": {
+      "bytes": 6095,
+      "sha256": "6e77476bb5504ec89cb54bc4687c031ef3efdbf4d3e1ca64a42da48fc4555c21"
+    },
+    "DRAFT_FINDINGS_cn.md": {
+      "bytes": 3809,
+      "sha256": "1d9ace8778938fa61d994f28f52f963ffff8478d9540e8ba20e8c3c1937ffddc"
+    },
+    "FINAL_SOURCE_CPU_RECEIPT.json": {
+      "bytes": 3063,
+      "sha256": "abb8f135539c57807fef8630b5f8ca9a96dc76885e3a5a4748cf3441384ea0da"
+    },
+    "FINAL_SOURCE_CPU_RECEIPT_V2.json": {
+      "bytes": 2941,
+      "sha256": "fdda3d631742a6b78e40a5754c9baf6a904787d409e56f39b0af935034962a81"
+    },
+    "INSTALLED_API_INDEPENDENT.json": {
+      "bytes": 1641,
+      "sha256": "fa2cf08ead5f87084fb29ddf3a30e4611e762414d9167e980966417b629c49c7"
+    },
+    "SOURCE_REVIEW.json": {
+      "bytes": 5966,
+      "sha256": "d89e4178aa355380feccd5c09558c8257d45c09dd202b79db80c873ec6005b33"
+    },
+    "WORKER_TIMEOUT_SCOPE_OBSERVATION.json": {
+      "bytes": 748,
+      "sha256": "f4138a5473338fd146a5fce01cb7ce43f41710686c3b339c395d8d184d78f220"
+    },
+    "final_source_cpu_review.py": {
+      "bytes": 11227,
+      "sha256": "3efa21cc14611fb886e0b3be5eb2b80a900d8ba54ce4e48b0186be634098f864"
+    },
+    "history/final_source_cpu_review_v1_missing_robot_fixture.py": {
+      "bytes": 11125,
+      "sha256": "36a1b6a69b41ced99aa5f9672d76eac61658c3e470c0d34912031191ff9944c9"
+    },
+    "independent_cpu_regressions.py": {
+      "bytes": 11578,
+      "sha256": "d39de46111ecaacbbdf3b6babfdc1c581d575670b1f724029e8d5ba98f163ba1"
+    }
+  },
+  "member_bytes": 58650,
+  "native_RAW_will_be_a_new_sibling_directory": true,
+  "new_native_GPU_training": 0,
+  "regular_members": 11,
+  "review_owned_directory_writes_stop": true,
+  "schema": "IndependentNativeHandoffPreexecReviewPin/0.1",
+  "source_release_sha256": "0cc48392ccb617f7c1688bf82a9a84dd32557674521ce923997b91dbfe4fb381",
+  "source_review_sha256": "d89e4178aa355380feccd5c09558c8257d45c09dd202b79db80c873ec6005b33",
+  "status": "SEALED_PREEXEC_LIMITED_SOURCE_REVIEW"
+}

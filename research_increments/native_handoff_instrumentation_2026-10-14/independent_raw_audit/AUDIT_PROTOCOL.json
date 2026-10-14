@@ -1,0 +1,49 @@
+{
+  "applications": 13995,
+  "case_id": "dev_seen_handoff_instrumentation_001",
+  "cases_missing_or_error": "retain single attempted-case denominator1 and UNKNOWN or integrityFAIL, no silent exclusion",
+  "declared_primary_attempts": 1,
+  "labels_never_created": [
+    "load-bearing success",
+    "DPsuccess",
+    "RLreward",
+    "OPDstate"
+  ],
+  "legacy_source_and_decoder_bindings": {
+    "fifo_extracted_names": [
+      "normalized_packet",
+      "queue_audit",
+      "require"
+    ],
+    "full_controller_audit.py": "32739aa49109669af13c91e410f7660a8df486349be71e90a59de24bc6d33ab0",
+    "independent_protocol.py": "7736d42ee0f90882e7a31900fed17bea5c945a7b79cdeb7844265ad635a21f41",
+    "legacy_audit_expansion_source": "9f4883437655966320005318efe0e1e6ff4f8c8abc8491b74142135f69d61a5d",
+    "raw_native.py": "33662c9303680bb00e49296a434bc11e3e46fb19e94a4a77964ec67fbf220d2c",
+    "trajectory_audit.py": "b0b5ed98a47610928683aec399ca66759303d13416be52dd94d69803e7779959"
+  },
+  "new_capture_delivery": "OFFLINE_CAPTURE; delivery None; future submission only; no policy image use claim",
+  "new_native_commands_reintegrated": 0,
+  "new_physical_structure": "independently implemented validator; no import executor physical_validate as oracle",
+  "new_trial_outputs_read_before_reader_freeze": false,
+  "notification_required_fields": [
+    "source_release_sha256",
+    "case_id",
+    "execution_terminal",
+    "worker_log_sha256",
+    "result_sha256"
+  ],
+  "notification_result_sha256_none_allowed_only_failed_terminal": true,
+  "numpy_version": "1.26.0",
+  "physical_rows": 28016,
+  "physical_transform_vs_state_comparison": "EXACT_XYZ_AND_XYZW_TO_WXYZ_REORDER",
+  "resource_cost_rule": "700s child wait; up to30s termination wait plus observed cleanup; actual workerwall allocatedtime reported, not hard700totalcap",
+  "root_postexec_protocol_sha256": "0bfca485142bc57c229b160cab86109d8b6e234ff8f7490ca405ee0b081c73fa",
+  "schema": "IndependentOneHandoffInstrumentationAuditProtocol/0.1",
+  "scientific_mechanical_labels": "old fixed-skill mechanical re-score from saved RAW; code copied unchanged, not new independent mechanical task definition",
+  "source_release_sha256": "0cc48392ccb617f7c1688bf82a9a84dd32557674521ce923997b91dbfe4fb381",
+  "source_review_sha256": "d89e4178aa355380feccd5c09558c8257d45c09dd202b79db80c873ec6005b33",
+  "submissions": 13995,
+  "tail_ticks": 12,
+  "task_samples": 14007,
+  "warmup_and_matched_transient_steps": 1230
+}

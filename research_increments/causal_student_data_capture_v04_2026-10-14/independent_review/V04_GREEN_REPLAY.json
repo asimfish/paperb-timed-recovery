@@ -1,0 +1,126 @@
+{
+  "status": "PASS_V04_INDEPENDENT_RECOVERY_PREFIX_REPLAY",
+  "source": "/mnt/nas/data/lyf/chem_mem/awesome_memory_chem/papers/paperB/research_increments/causal_student_data_capture_v04_2026-10-14",
+  "source_manifest_sha256": "be4882960804a9d23fb1b0d633054e3ee85d2d3c0fdec70748f7bba7fddaebdb",
+  "probes": [
+    {
+      "name": "baseline anchor90 label160",
+      "observed": "TRUE",
+      "reasons": [],
+      "expected_fixed": "TRUE",
+      "pass_expected_version": true
+    },
+    {
+      "name": "late arrival170 onset40_50 label160",
+      "observed": "REJECTED",
+      "reasons": [
+        "RECOVERY_ANCHOR_NOT_KNOWN_AT_LABEL"
+      ],
+      "expected_fixed": "REJECTED",
+      "pass_expected_version": true
+    },
+    {
+      "name": "same native time anchor after label seq",
+      "observed": "REJECTED",
+      "reasons": [
+        "RECOVERY_ANCHOR_NOT_KNOWN_AT_LABEL"
+      ],
+      "expected_fixed": "REJECTED",
+      "pass_expected_version": true
+    },
+    {
+      "name": "same native time anchor before label seq",
+      "observed": "TRUE",
+      "reasons": [],
+      "expected_fixed": "TRUE",
+      "pass_expected_version": true
+    },
+    {
+      "name": "anchor125 after decision120 before label160 is privileged supervision",
+      "observed": "TRUE",
+      "reasons": [],
+      "expected_fixed": "TRUE",
+      "pass_expected_version": true
+    },
+    {
+      "name": "same late audit then new label180",
+      "observed": "TRUE",
+      "reasons": [],
+      "expected_fixed": "TRUE",
+      "pass_expected_version": true
+    },
+    {
+      "name": "future anchor with UNKNOWN verification remains unknown",
+      "observed": "UNKNOWN",
+      "reasons": [
+        "RECOVERY_ANCHOR_UNKNOWN_AT_LABEL",
+        "RECOVERY_NOT_VERIFIED_TRUE"
+      ],
+      "expected_fixed": "UNKNOWN",
+      "pass_expected_version": true
+    },
+    {
+      "name": "nonapplied REJECTED cannot support verified recovery",
+      "observed": "REJECTED",
+      "reasons": [
+        "NONAPPLIED_CONTROL_CANNOT_SUPPORT_EXECUTION_SUCCESS"
+      ],
+      "expected_fixed": "REJECTED",
+      "pass_expected_version": true
+    },
+    {
+      "name": "nonapplied DROPPED cannot support verified recovery",
+      "observed": "REJECTED",
+      "reasons": [
+        "NONAPPLIED_CONTROL_CANNOT_SUPPORT_EXECUTION_SUCCESS"
+      ],
+      "expected_fixed": "REJECTED",
+      "pass_expected_version": true
+    },
+    {
+      "name": "nonapplied TIMEOUT cannot support verified recovery",
+      "observed": "REJECTED",
+      "reasons": [
+        "NONAPPLIED_CONTROL_CANNOT_SUPPORT_EXECUTION_SUCCESS"
+      ],
+      "expected_fixed": "REJECTED",
+      "pass_expected_version": true
+    },
+    {
+      "name": "UNKNOWN recovery with definite failed TIMEOUT is retained",
+      "observed": "UNKNOWN",
+      "reasons": [
+        "RECOVERY_NOT_VERIFIED_TRUE"
+      ],
+      "expected_fixed": "UNKNOWN",
+      "pass_expected_version": true
+    },
+    {
+      "name": "state label is not an executed original failure",
+      "observed": "REJECTED",
+      "reasons": [
+        "RECOVERY_ORIGINAL_FAILURE_NOT_EXECUTION_OUTCOME"
+      ],
+      "expected_fixed": "REJECTED",
+      "pass_expected_version": true
+    },
+    {
+      "name": "missing original anchor is rejected",
+      "observed": "REJECTED",
+      "reasons": [
+        "RECOVERY_ORIGINAL_ANCHOR_MISSING"
+      ],
+      "expected_fixed": "REJECTED",
+      "pass_expected_version": true
+    }
+  ],
+  "persistent_writer_result": "RECOVERY_ANCHOR_NOT_KNOWN_AT_LABEL",
+  "persistent_CLOSE_exists": false,
+  "actual_production_rows": 0,
+  "current_training_admitted": 0,
+  "native_epochs": 0,
+  "GPU_work": 0,
+  "parameter_updates": 0,
+  "real_images_opened": 0,
+  "scope": "SYNTHETIC_JSON_CPU_INTERFACE_ONLY"
+}

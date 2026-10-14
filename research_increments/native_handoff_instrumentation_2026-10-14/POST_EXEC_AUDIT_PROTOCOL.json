@@ -1,0 +1,59 @@
+{
+  "schema": "PaperBOneHandoffPostExecutionAuditProtocol/0.1",
+  "source_release_sha256": "0cc48392ccb617f7c1688bf82a9a84dd32557674521ce923997b91dbfe4fb381",
+  "fixed_case": "dev_seen_handoff_instrumentation_001",
+  "planned_primary_denominator": 1,
+  "known_development_case": true,
+  "expected_task_native_rows": 14007,
+  "expected_submitted_commands": 13995,
+  "expected_applied_commands": 13995,
+  "expected_FIFO_tail": 12,
+  "expected_physical_snapshot_rows": 28016,
+  "required_snapshot_order": "TASK_BEGIN(-1), PRE_WRITE(i), POST_STEP(i) for i0..14006, TASK_END(14007)",
+  "clock_checks": [
+    "single source-bound epoch",
+    "native_before/after dt within original guard",
+    "one callback each integration",
+    "getter before/after clock equal",
+    "PRE_WRITE clock matches native_before",
+    "POST_STEP matches native_after",
+    "same-task captures preserve clock/state"
+  ],
+  "readback_checks": [
+    "all148 execution source digests before/after",
+    "each physical record hash, plain shape, UNKNOWN reason",
+    "POST_STEP transform vs same-tick original RAW position and xyzw/wxyz quaternion mapping",
+    "per-tick active mass/gravity/simulation flags and pre-write composer values reported as actual getter outputs",
+    "all real capture/depth bytes hashed and JPEG/depth decoded",
+    "all14k actual submissions/applications and12tail retained",
+    "original contract independent sampled events/strict hold recomputed separately; source cue not changed"
+  ],
+  "unknowns_kept": [
+    "active backend kinematic flag",
+    "complete backend constraints",
+    "contact impulse-to-force/sign qualification",
+    "robot unloading",
+    "independent load-bearing"
+  ],
+  "learning_scope": {
+    "only_offline_capture_and_raw_dispatch_collected": true,
+    "policy_image_delivery_NOT_claimed": true,
+    "causal_v02_BC_gate_NOT_used": true,
+    "new_weights": 0,
+    "current_success_training_admission": 0,
+    "OPD_student_rollouts": 0
+  },
+  "resource_scope": {
+    "max_worker_seconds": 700,
+    "foreign_process_signals": false,
+    "one_owned_GPU_worker": true
+  },
+  "not_claimed": [
+    "heldout/IID/OOD",
+    "LLM-walltime deadline guarantee",
+    "chemical endpoints",
+    "real hardware",
+    "new native command re-integration"
+  ],
+  "postexecution_labeler_procedure": "Freeze any new independent reader before inspecting outcomes; no training labels before actual RAW acceptance."
+}

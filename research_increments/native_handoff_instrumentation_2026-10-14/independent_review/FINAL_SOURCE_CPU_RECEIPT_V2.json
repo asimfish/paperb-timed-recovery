@@ -1,0 +1,111 @@
+{
+  "GPU_jobs": 0,
+  "GPU_queries": 0,
+  "bound_files": 148,
+  "checks": [
+    {
+      "name": "final_source_release_exact",
+      "status": "PASS"
+    },
+    {
+      "name": "all148_source_files_regular_and_exact",
+      "status": "PASS"
+    },
+    {
+      "name": "NAS_release_copy_exact",
+      "status": "PASS"
+    },
+    {
+      "name": "all_current_input_pins_exact",
+      "status": "PASS"
+    },
+    {
+      "name": "physical_two_sources_exact_frozen_component",
+      "status": "PASS"
+    },
+    {
+      "name": "one_seen_role_no_cal_or_heldout",
+      "status": "PASS"
+    },
+    {
+      "name": "13995_source_indices_plus12_FIFO_tail_14007_steps",
+      "status": "PASS"
+    },
+    {
+      "name": "single700s24576MiB_no_training_budget",
+      "status": "PASS"
+    },
+    {
+      "name": "no_native_case_started_at_review",
+      "status": "PASS"
+    },
+    {
+      "name": "syntax_compile_no_import_all_python_sources",
+      "status": "PASS"
+    },
+    {
+      "name": "extracted_advance_PRE_WRITE_before_clear_POST_STEP_after_update",
+      "status": "PASS"
+    },
+    {
+      "name": "no_new_load_success_or_BC_recorder_calls",
+      "status": "PASS"
+    },
+    {
+      "name": "unique_epoch_full_new_protocol_SHA_no_prefix_truncation",
+      "status": "PASS"
+    },
+    {
+      "name": "captures_OFFLINE_deliveryUNKNOWN_public_proprio_no_object_pose_feature",
+      "status": "PASS"
+    },
+    {
+      "name": "invalid_finite_physical_row_saved_before_raise",
+      "status": "PASS"
+    },
+    {
+      "name": "bash_syntax_only_no_launch",
+      "status": "PASS"
+    },
+    {
+      "name": "verify_only_no_resource_or_native_calls",
+      "status": "PASS"
+    },
+    {
+      "name": "default_execution_refused_before_resource_or_App",
+      "status": "PASS"
+    },
+    {
+      "name": "execute_without_review_and_rootproof_refused",
+      "status": "PASS"
+    },
+    {
+      "name": "foreign_source_review_refused_before_resource_or_App",
+      "status": "PASS"
+    },
+    {
+      "name": "review_receipt_hash_mismatch_refused_before_resource_or_App",
+      "status": "PASS"
+    },
+    {
+      "name": "CPU_review_no_torch_omni_isaac_or_physics_import",
+      "status": "PASS"
+    },
+    {
+      "name": "source_and_inputs_unchanged_after_CPU_review",
+      "status": "PASS"
+    }
+  ],
+  "compiled_without_import_count": 109,
+  "created_at_utc": "2026-10-13T19:18:07.115664+00:00",
+  "extracted_advance_uses_symbolic_fake_step_not_physics": true,
+  "forbidden_resource_or_native_calls": [],
+  "input_pins_count": 112,
+  "native_runtime_getter_admission": "PENDING_ONE_ROOT_OWNED_CASE_AND_INDEPENDENT_RAW_AUDIT",
+  "new_native_epochs": 0,
+  "original_sources_scores_and_20_diagnosis_not_changed": true,
+  "schema": "IndependentNativeHandoffPreexecCPUReview/0.1",
+  "source_release_sha256": "0cc48392ccb617f7c1688bf82a9a84dd32557674521ce923997b91dbfe4fb381",
+  "status": "PASS_SOURCE_CPU_REGRESSIONS",
+  "weight_updates": 0
+}

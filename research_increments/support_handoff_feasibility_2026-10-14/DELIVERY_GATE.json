@@ -1,0 +1,28 @@
+{
+  "all20_primary_new_admissions": 0,
+  "checks": {
+    "V1_preserved_and_V2_same_representative_regions": true,
+    "all20_load_UNKNOWN_no_new_admissions": true,
+    "all20_numpy126_inputSHA_and_arrays_exact": true,
+    "all20_original_labels_events_and_epochs_exact": true,
+    "all20_sample_counts_match_original_auditor": true,
+    "all9_analysis_sources_still_exact": true,
+    "caseindex20_unique_with_exact_contract_hashes": true,
+    "caseindex_exact_rowcounts": true,
+    "exact_original20_identity_and_roles": true,
+    "figure_derivedCSV_identity_and_rowcount_exact": true,
+    "figure_not_fullsupport_success": true,
+    "figure_outputs_and_script_SHA_exact": true,
+    "public_exact_counts": true,
+    "public_source_and_caseindex_bindings": true,
+    "regular_files_no_symlinks_or_bytecode": true,
+    "source_freeze_before_full20_decode": true
+  },
+  "created_at_utc": "2026-10-13T18:59:13.258613+00:00",
+  "new_physics_GPU_train": 0,
+  "original_RAW_redecoded_once_per_all20_case_plus_prior_representative": true,
+  "prior_large_private_archive_not_rehashed_here": true,
+  "schema": "PaperBSupportHandoffDeliveryGate/0.1",
+  "status": "PASS_OFFLINE_DIAGNOSTIC_DELIVERY_GATE",
+  "this_gate_reads_small_metadata_and_derived_tables_only": true
+}

@@ -1,0 +1,13 @@
+# 支持交接物理采集器：只读设计组件
+
+已完成旧131源、实际安装tensor frontend与离线USD审查。最小只读adapter与22项CPU反例均通过；native/GPU/训练次数0。旧20条load-bearing仍UNKNOWN，原控制和机械判分不更改。
+
+Root可复制冻结code/physical_capture.py与physical_validate.py到独立新instrumentation source closure。PRE_WRITE采瓶体body-frame外力composer，POST_STEP采COM速度/实际质量/重力flag等；原生时钟前后必须相同。当前SDK精确绑定(count,1)uint8 flags，不宣称跨版本兼容。
+
+完整字段与最小接入方法见GETTER_CONTRACT.md，机器契约见instrumentation_contract.json。CPU_PREFLIGHT.json仅证明纯软件形状/hash/只读操作约束，不证明实际getter已在新native场景调用成功。原始getter异常必须保留UNKNOWN，不代填零。
+
+离线USD合成仅证明瓶体资产声明kinematic=false、rigidBody=true、质量约.15kg，资产内部USDjoint0；不证明实例化场景所有constraint为空或activegravity启用。force-on-object符号、分流接触覆盖和robot卸载仍需新物理证据。
+
+未来一例沿用已经见过的旧schedule，不refit，角色DEVELOPMENT_SEEN_INSTRUMENTATION。强参考是原完整scripted skill；未来guarded support/unload/release baseline必须先取得符号/单位/约束覆盖与动力学平衡资格，不能为了速度将pan contact proxy改叫承重。该一例不属于训练/测试/heldout，不新增load-bearing成功数。
+
+COMPONENT_RELEASE.json绑定本目录设计/代码/CPU证据；collector_component.tar.gz已全部重开逐member验SHA。Root与独立审查后的实际新source/epoch/run admission另行冻结。本目录交付后停止写入。

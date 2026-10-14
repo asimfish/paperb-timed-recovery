@@ -1,0 +1,20 @@
+{
+  "status": "HISTORICAL_INPUT_MANIFEST_PATHS_UNAVAILABLE_NOT_CURRENT_RUNTIME_DEPENDENCIES",
+  "original_manifest_preserved": "parent_source/source_pins.json",
+  "unavailable_paths_and_historical_SHA": {
+    "launch.sh": "3b5296188d5e782a4ee099e36769b4b9ce733e60b21965ebe4a2c136e0723ba0",
+    "prepare_native.py": "8f5895cec6f424b152242a1e0cc31e3b9ec609488dd0ff8b1770fa3c27d6d609",
+    "probe.py": "68692ca2a7b0702933cfc36b00bc069b28c09c10ce2c9e5a30300da62129bf14",
+    "probe_original.py": "5a6dcfb9c976b4ff04b687d66561a1814045663d4e3118f9fd256d5e7056c92a",
+    "run_owned.py": "f2c91ac634da852d9d5e46849c3cc8e59936f3fa66d901922a6bc51564fef93f",
+    "run_pilot.py": "dd3050fecaba042ebe51ac81a6204a7adf03f9d93f3b2347acfe21e932ea0f0c",
+    "test_timing_protocol.py": "21cbad922eb47c0e4a4c07614959512b29fbe6f49a1ad5616c21d400c010090a",
+    "timing_protocol.py": "2a35a27f3a666b811e9d791be699a040283db47fc1fe204aa9d50271c3a33943"
+  },
+  "parent_execution131_all_copied_and_verified": true,
+  "original_manifest_not_claimed_as_full_reexecution_closure": true,
+  "old_original_RAW_and_scores_modified": false,
+  "new_native_started": 0,
+  "initial_error": "AssertionError while requiring eight stale historical paths from parent input manifest",
+  "correction": "Preserve original manifest and missing identities; bind only actually present scene inputs in a new manifest."
+}

@@ -1,0 +1,20 @@
+{
+  "CPU_scope": "11 prior boundary tests; final source repeats before decode",
+  "all20_decode_not_started_at_release": true,
+  "created_at_utc": "2026-10-13T18:48:13.066818+00:00",
+  "files": {
+    "CPU_PREFLIGHT.log": "47afa815129be5ca315849ed8c38e2a7cac6c12061a7da2107b60ff4a906ac8c",
+    "FULL20_SCOPE_V2.json": "a1bf8941e51b1966bcb539717d6010ea7d5b2f23d98de0e5ec06ee38f5c694b2",
+    "PREFLIGHT_SCOPE.json": "25b1e6d6626d54a450c3c7ca478feba5ab77cd04c919fbb164691337185616ff",
+    "SOURCE_ORIGIN.json": "8ad5ec7e9ccd48c033843014f4ca91e6db362005233b55e3a45bb6e4dd6d1922",
+    "decoder_copy/independent_protocol.py": "7736d42ee0f90882e7a31900fed17bea5c945a7b79cdeb7844265ad635a21f41",
+    "decoder_copy/raw_native.py": "33662c9303680bb00e49296a434bc11e3e46fb19e94a4a77964ec67fbf220d2c",
+    "diagnose_handoff.py": "4ebfccf05a52e8a7e004186ea006c4e33ad3e947f18caf00480f8ed903ba74b4",
+    "history/diagnose_handoff_v1.py": "f5c397ba8c3ae29b4d73b7b6429d606e969f1a188e123233b191ae50539afd42",
+    "test_handoff.py": "6f1d1ebd4e127bcc121a3f3f6050f197bde7aec68eabc6a5665216cbda00abd0"
+  },
+  "new_native_or_train_or_GPU": 0,
+  "old_data_outcomes_known_before_analysis": true,
+  "old_physical_scoring_labels_or_sources_changed": false,
+  "schema": "PaperBSupportHandoffOfflineAnalysisSourceRelease/0.2"
+}

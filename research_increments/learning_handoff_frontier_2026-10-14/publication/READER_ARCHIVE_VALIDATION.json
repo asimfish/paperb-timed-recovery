@@ -1,0 +1,78 @@
+{
+  "CPU_negative_tests_in_original_receipt": 14,
+  "archive_bytes": 28741,
+  "archive_sha256": "c4a397976aeedf89312091e73f9efb7f3ddf55025f1763068fd80e8079fd1b01",
+  "frozen_auditor_release_sha256": "4f9888dc28a3a11e320406d9e97a39961faf1ed98dff4fa705ebaa2671d60f24",
+  "member_count": 13,
+  "members": [
+    {
+      "bytes": 2460,
+      "path": "AUDIT_PROTOCOL.json",
+      "sha256": "f21c9280a32a18d5306f0f7ad0c28ec4dd064e71ac6246a03d5e2c316c5e9861"
+    },
+    {
+      "bytes": 2116,
+      "path": "CPU_NEGATIVES.log",
+      "sha256": "b4945be80891515c0b9de3cae864229e08a209a896d39002c09c2fecfef6ec22"
+    },
+    {
+      "bytes": 2275,
+      "path": "CPU_NEGATIVES_FINAL.log",
+      "sha256": "230e9532f572310a018a1dabcddb20bb0c7dc02c4f5903a19a0cbbb2c2e50dc6"
+    },
+    {
+      "bytes": 2275,
+      "path": "CPU_NEGATIVES_SEAL.log",
+      "sha256": "230e9532f572310a018a1dabcddb20bb0c7dc02c4f5903a19a0cbbb2c2e50dc6"
+    },
+    {
+      "bytes": 2419,
+      "path": "ROOT_POST_EXEC_AUDIT_PROTOCOL.json",
+      "sha256": "0bfca485142bc57c229b160cab86109d8b6e234ff8f7490ca405ee0b081c73fa"
+    },
+    {
+      "bytes": 30219,
+      "path": "audit_native_handoff.py",
+      "sha256": "d91847b2693151b635af93b3998d89b6ec2c2093c72f09aa8f92cebdc80c11a1"
+    },
+    {
+      "bytes": 4497,
+      "path": "decoder_copy/fifo_copy.py",
+      "sha256": "dfc89ca76515667fd13532b799787fd5938de3fbe07c650fc0a75e15c1550f82"
+    },
+    {
+      "bytes": 10283,
+      "path": "decoder_copy/full_controller_audit.py",
+      "sha256": "32739aa49109669af13c91e410f7660a8df486349be71e90a59de24bc6d33ab0"
+    },
+    {
+      "bytes": 11292,
+      "path": "decoder_copy/independent_protocol.py",
+      "sha256": "7736d42ee0f90882e7a31900fed17bea5c945a7b79cdeb7844265ad635a21f41"
+    },
+    {
+      "bytes": 6682,
+      "path": "decoder_copy/raw_native.py",
+      "sha256": "33662c9303680bb00e49296a434bc11e3e46fb19e94a4a77964ec67fbf220d2c"
+    },
+    {
+      "bytes": 14684,
+      "path": "decoder_copy/trajectory_audit.py",
+      "sha256": "b0b5ed98a47610928683aec399ca66759303d13416be52dd94d69803e7779959"
+    },
+    {
+      "bytes": 8634,
+      "path": "test_native_handoff_audit.py",
+      "sha256": "6438f7ca40b78e1863d5656d161db9d5585b5c731260e8bee69c1f686beb4faf"
+    },
+    {
+      "bytes": 2003,
+      "path": "AUDITOR_RELEASE.json",
+      "sha256": "4f9888dc28a3a11e320406d9e97a39961faf1ed98dff4fa705ebaa2671d60f24"
+    }
+  ],
+  "new_native_or_GPU_or_training": 0,
+  "schema": "PaperBLearningFrontierCuratedReaderArchive/0.1",
+  "scope": "Independent reader sources and frozen CPU receipts; no actual trial RAW or postexecution result; no native SDK distribution or complete native reexecution closure.",
+  "status": "PASS_BYTE_PINNED_SOURCE_MEMBERS_REOPENED"
+}
