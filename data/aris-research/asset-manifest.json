@@ -1,0 +1,83 @@
+{
+  "schema": "public-aris-research-assets-v1",
+  "generated_at_utc": "2026-10-14T03:55:54.443751+00:00",
+  "files": {
+    "aris-research.html": {
+      "bytes": 11205,
+      "sha256": "b1217ecb65b4a94308dead4e68389122b3dd4b47ec8786bca34e86cdb023dbec"
+    },
+    "aris-research.css": {
+      "bytes": 6863,
+      "sha256": "34d3c665989f55daa14b7741057e62217e32e107a469e6aafc1faa94d73a4efa"
+    },
+    "aris-research.js": {
+      "bytes": 5111,
+      "sha256": "983a8b58d42e09ba2a729df5de1dd47df44b52923ab82c98c2b0192906483df5"
+    },
+    "assets/aris-research/native-start.jpg": {
+      "bytes": 38453,
+      "sha256": "92c4e34aa5fc253c03baa9f4b18bc8a5a0a9eb06a532162d7238944bf891edf4"
+    },
+    "assets/aris-research/continuous-clock.png": {
+      "bytes": 142512,
+      "sha256": "124e75a2a5e199b853790b0be7c4830c5a5dae043514439bac4fc59098d1f273"
+    },
+    "assets/aris-research/adaptation.pdf": {
+      "bytes": 19742,
+      "sha256": "8e4402d97777e1ffd1ae3650ff242fc22c51882149b7117eca120f705b9f8690"
+    },
+    "assets/aris-research/adaptation.svg": {
+      "bytes": 65226,
+      "sha256": "c7681246714aee8ad5b2f12c8a64899bc916085f8ba2ff2b0ecb3e36cea83229"
+    },
+    "assets/aris-research/native-poster.jpg": {
+      "bytes": 38256,
+      "sha256": "4305a08f34a1d4a96dd33bb909445cf846554cef9f8f7830d8e3f381d4cabbec"
+    },
+    "assets/aris-research/continuous-clock.pdf": {
+      "bytes": 22202,
+      "sha256": "a0c13fdc1951a395fbde49fc904facc999b24e50bce1f5d235b729d77341730a"
+    },
+    "assets/aris-research/native-preview.mp4": {
+      "bytes": 697024,
+      "sha256": "7ce6bec6ff7744b62acefb06189d515d29fe389089755b0b803497c4ee6a933e"
+    },
+    "assets/aris-research/adaptation.png": {
+      "bytes": 145788,
+      "sha256": "9180508b5be23e9f20c247e6ef4e6a4743648e0c800cc4ab2df92f3f364a85da"
+    },
+    "assets/aris-research/native-end.jpg": {
+      "bytes": 42285,
+      "sha256": "a702b557c39a5f6438b1524fc1fd8fc9af59d62918c3be5503d332b9b02163a7"
+    },
+    "assets/aris-research/continuous-clock.svg": {
+      "bytes": 75561,
+      "sha256": "2d701684c079c63df5f267561fe122b2ee7a3c05addbdbbaf1e7f95d4b2862a0"
+    },
+    "assets/aris-research/media-provenance.json": {
+      "bytes": 15776,
+      "sha256": "324b68d3685e6b2ddbbd0eb0e9a369018b376842257f3a409d98473ee4db8c5c"
+    },
+    "assets/aris-research/native-middle.jpg": {
+      "bytes": 42717,
+      "sha256": "01a78c48552eb4babbb40c68c60b892adea0dffda7e189d08fb26c2e9882e926"
+    },
+    "data/aris-research/results.json": {
+      "bytes": 39532,
+      "sha256": "a3e4012fa45ca657ec897c7a1d8b5c9170bd7d56bc47a04ad0c915b3d1cf5bea"
+    },
+    "data/aris-research/traces.json": {
+      "bytes": 143532,
+      "sha256": "653a6aa867afdb8ae3cbbb7269b71fdd0c7168c77053195dea9b5152a9102fa8"
+    },
+    "data/aris-research/clock-conditions.csv": {
+      "bytes": 1059,
+      "sha256": "06dc40b620a15fe9decd1398c21d069d23fa9e5b825645ee3412256c6d4c7c2d"
+    },
+    "data/aris-research/review-summary.json": {
+      "bytes": 1327,
+      "sha256": "c71c758d06fc74a12c903db64ce6507b3fa80d4142d387b2c31b537bfb059ba3"
+    }
+  },
+  "publication_scope": "Selected results, figures and3 records; no raw private logs, filesystem paths, credentials or model checkpoints"
+}

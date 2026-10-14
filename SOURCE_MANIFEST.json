@@ -106,13 +106,14 @@
       "transformations": []
     },
     {
-      "bytes": 272758,
+      "bytes": 272803,
       "path": "index.html",
-      "sha256": "aad7fc18148caebea9044a731486d81476d8175c524185c8af4a3d536bed6655",
+      "sha256": "442d53d197317a35e6fddcf32c5dbabe9ec1e812f767c7cb746354407517047b",
       "source": "papers/paperB/research_increments/learning_handoff_frontier_2026-10-14/publication/public_index.html",
       "source_sha256": "aad7fc18148caebea9044a731486d81476d8175c524185c8af4a3d536bed6655",
       "transformations": [
-        "append learning_data_frontier and navigation to baseline 43b9668; root-corrected retained v1 pre-AppLauncher failure; add frozen v04 recovery-prefix CPU fix and retain v03 red history; all existing JavaScript and baseline nonindex assets preserved"
+        "append learning_data_frontier and navigation to baseline 43b9668; root-corrected retained v1 pre-AppLauncher failure; add frozen v04 recovery-prefix CPU fix and retain v03 red history; all existing JavaScript and baseline nonindex assets preserved",
+        "supplemental ARIS research navigation; parent scientific content preserved"
       ]
     },
     {
@@ -3880,6 +3881,206 @@
       "source": "web/shared_bus_timing.svg",
       "source_sha256": "962b702a5377198582e9574220a872cc425eb3de78106d20e7013680a021a7ba",
       "transformations": []
+    },
+    {
+      "path": "aris-research.html",
+      "source": "aris_native_site_20261014/aris-research.html",
+      "source_sha256": "b1217ecb65b4a94308dead4e68389122b3dd4b47ec8786bca34e86cdb023dbec",
+      "sha256": "b1217ecb65b4a94308dead4e68389122b3dd4b47ec8786bca34e86cdb023dbec",
+      "bytes": 11205,
+      "transformations": [
+        "curated public evidence; private logs and checkpoints excluded"
+      ]
+    },
+    {
+      "path": "aris-research.css",
+      "source": "aris_native_site_20261014/aris-research.css",
+      "source_sha256": "34d3c665989f55daa14b7741057e62217e32e107a469e6aafc1faa94d73a4efa",
+      "sha256": "34d3c665989f55daa14b7741057e62217e32e107a469e6aafc1faa94d73a4efa",
+      "bytes": 6863,
+      "transformations": [
+        "curated public evidence; private logs and checkpoints excluded"
+      ]
+    },
+    {
+      "path": "aris-research.js",
+      "source": "aris_native_site_20261014/aris-research.js",
+      "source_sha256": "983a8b58d42e09ba2a729df5de1dd47df44b52923ab82c98c2b0192906483df5",
+      "sha256": "983a8b58d42e09ba2a729df5de1dd47df44b52923ab82c98c2b0192906483df5",
+      "bytes": 5111,
+      "transformations": [
+        "curated public evidence; private logs and checkpoints excluded"
+      ]
+    },
+    {
+      "path": "assets/aris-research/native-start.jpg",
+      "source": "aris_native_site_20261014/assets/aris-research/native-start.jpg",
+      "source_sha256": "92c4e34aa5fc253c03baa9f4b18bc8a5a0a9eb06a532162d7238944bf891edf4",
+      "sha256": "92c4e34aa5fc253c03baa9f4b18bc8a5a0a9eb06a532162d7238944bf891edf4",
+      "bytes": 38453,
+      "transformations": [
+        "curated public evidence; private logs and checkpoints excluded"
+      ]
+    },
+    {
+      "path": "assets/aris-research/continuous-clock.png",
+      "source": "aris_native_site_20261014/assets/aris-research/continuous-clock.png",
+      "source_sha256": "124e75a2a5e199b853790b0be7c4830c5a5dae043514439bac4fc59098d1f273",
+      "sha256": "124e75a2a5e199b853790b0be7c4830c5a5dae043514439bac4fc59098d1f273",
+      "bytes": 142512,
+      "transformations": [
+        "curated public evidence; private logs and checkpoints excluded"
+      ]
+    },
+    {
+      "path": "assets/aris-research/adaptation.pdf",
+      "source": "aris_native_site_20261014/assets/aris-research/adaptation.pdf",
+      "source_sha256": "8e4402d97777e1ffd1ae3650ff242fc22c51882149b7117eca120f705b9f8690",
+      "sha256": "8e4402d97777e1ffd1ae3650ff242fc22c51882149b7117eca120f705b9f8690",
+      "bytes": 19742,
+      "transformations": [
+        "curated public evidence; private logs and checkpoints excluded"
+      ]
+    },
+    {
+      "path": "assets/aris-research/adaptation.svg",
+      "source": "aris_native_site_20261014/assets/aris-research/adaptation.svg",
+      "source_sha256": "c7681246714aee8ad5b2f12c8a64899bc916085f8ba2ff2b0ecb3e36cea83229",
+      "sha256": "c7681246714aee8ad5b2f12c8a64899bc916085f8ba2ff2b0ecb3e36cea83229",
+      "bytes": 65226,
+      "transformations": [
+        "curated public evidence; private logs and checkpoints excluded"
+      ]
+    },
+    {
+      "path": "assets/aris-research/native-poster.jpg",
+      "source": "aris_native_site_20261014/assets/aris-research/native-poster.jpg",
+      "source_sha256": "4305a08f34a1d4a96dd33bb909445cf846554cef9f8f7830d8e3f381d4cabbec",
+      "sha256": "4305a08f34a1d4a96dd33bb909445cf846554cef9f8f7830d8e3f381d4cabbec",
+      "bytes": 38256,
+      "transformations": [
+        "curated public evidence; private logs and checkpoints excluded"
+      ]
+    },
+    {
+      "path": "assets/aris-research/continuous-clock.pdf",
+      "source": "aris_native_site_20261014/assets/aris-research/continuous-clock.pdf",
+      "source_sha256": "a0c13fdc1951a395fbde49fc904facc999b24e50bce1f5d235b729d77341730a",
+      "sha256": "a0c13fdc1951a395fbde49fc904facc999b24e50bce1f5d235b729d77341730a",
+      "bytes": 22202,
+      "transformations": [
+        "curated public evidence; private logs and checkpoints excluded"
+      ]
+    },
+    {
+      "path": "assets/aris-research/native-preview.mp4",
+      "source": "aris_native_site_20261014/assets/aris-research/native-preview.mp4",
+      "source_sha256": "7ce6bec6ff7744b62acefb06189d515d29fe389089755b0b803497c4ee6a933e",
+      "sha256": "7ce6bec6ff7744b62acefb06189d515d29fe389089755b0b803497c4ee6a933e",
+      "bytes": 697024,
+      "transformations": [
+        "curated public evidence; private logs and checkpoints excluded"
+      ]
+    },
+    {
+      "path": "assets/aris-research/adaptation.png",
+      "source": "aris_native_site_20261014/assets/aris-research/adaptation.png",
+      "source_sha256": "9180508b5be23e9f20c247e6ef4e6a4743648e0c800cc4ab2df92f3f364a85da",
+      "sha256": "9180508b5be23e9f20c247e6ef4e6a4743648e0c800cc4ab2df92f3f364a85da",
+      "bytes": 145788,
+      "transformations": [
+        "curated public evidence; private logs and checkpoints excluded"
+      ]
+    },
+    {
+      "path": "assets/aris-research/native-end.jpg",
+      "source": "aris_native_site_20261014/assets/aris-research/native-end.jpg",
+      "source_sha256": "a702b557c39a5f6438b1524fc1fd8fc9af59d62918c3be5503d332b9b02163a7",
+      "sha256": "a702b557c39a5f6438b1524fc1fd8fc9af59d62918c3be5503d332b9b02163a7",
+      "bytes": 42285,
+      "transformations": [
+        "curated public evidence; private logs and checkpoints excluded"
+      ]
+    },
+    {
+      "path": "assets/aris-research/continuous-clock.svg",
+      "source": "aris_native_site_20261014/assets/aris-research/continuous-clock.svg",
+      "source_sha256": "2d701684c079c63df5f267561fe122b2ee7a3c05addbdbbaf1e7f95d4b2862a0",
+      "sha256": "2d701684c079c63df5f267561fe122b2ee7a3c05addbdbbaf1e7f95d4b2862a0",
+      "bytes": 75561,
+      "transformations": [
+        "curated public evidence; private logs and checkpoints excluded"
+      ]
+    },
+    {
+      "path": "assets/aris-research/media-provenance.json",
+      "source": "aris_native_site_20261014/assets/aris-research/media-provenance.json",
+      "source_sha256": "324b68d3685e6b2ddbbd0eb0e9a369018b376842257f3a409d98473ee4db8c5c",
+      "sha256": "324b68d3685e6b2ddbbd0eb0e9a369018b376842257f3a409d98473ee4db8c5c",
+      "bytes": 15776,
+      "transformations": [
+        "curated public evidence; private logs and checkpoints excluded"
+      ]
+    },
+    {
+      "path": "assets/aris-research/native-middle.jpg",
+      "source": "aris_native_site_20261014/assets/aris-research/native-middle.jpg",
+      "source_sha256": "01a78c48552eb4babbb40c68c60b892adea0dffda7e189d08fb26c2e9882e926",
+      "sha256": "01a78c48552eb4babbb40c68c60b892adea0dffda7e189d08fb26c2e9882e926",
+      "bytes": 42717,
+      "transformations": [
+        "curated public evidence; private logs and checkpoints excluded"
+      ]
+    },
+    {
+      "path": "data/aris-research/results.json",
+      "source": "aris_native_site_20261014/data/aris-research/results.json",
+      "source_sha256": "a3e4012fa45ca657ec897c7a1d8b5c9170bd7d56bc47a04ad0c915b3d1cf5bea",
+      "sha256": "a3e4012fa45ca657ec897c7a1d8b5c9170bd7d56bc47a04ad0c915b3d1cf5bea",
+      "bytes": 39532,
+      "transformations": [
+        "curated public evidence; private logs and checkpoints excluded"
+      ]
+    },
+    {
+      "path": "data/aris-research/traces.json",
+      "source": "aris_native_site_20261014/data/aris-research/traces.json",
+      "source_sha256": "653a6aa867afdb8ae3cbbb7269b71fdd0c7168c77053195dea9b5152a9102fa8",
+      "sha256": "653a6aa867afdb8ae3cbbb7269b71fdd0c7168c77053195dea9b5152a9102fa8",
+      "bytes": 143532,
+      "transformations": [
+        "curated public evidence; private logs and checkpoints excluded"
+      ]
+    },
+    {
+      "path": "data/aris-research/clock-conditions.csv",
+      "source": "aris_native_site_20261014/data/aris-research/clock-conditions.csv",
+      "source_sha256": "06dc40b620a15fe9decd1398c21d069d23fa9e5b825645ee3412256c6d4c7c2d",
+      "sha256": "06dc40b620a15fe9decd1398c21d069d23fa9e5b825645ee3412256c6d4c7c2d",
+      "bytes": 1059,
+      "transformations": [
+        "curated public evidence; private logs and checkpoints excluded"
+      ]
+    },
+    {
+      "path": "data/aris-research/review-summary.json",
+      "source": "aris_native_site_20261014/data/aris-research/review-summary.json",
+      "source_sha256": "c71c758d06fc74a12c903db64ce6507b3fa80d4142d387b2c31b537bfb059ba3",
+      "sha256": "c71c758d06fc74a12c903db64ce6507b3fa80d4142d387b2c31b537bfb059ba3",
+      "bytes": 1327,
+      "transformations": [
+        "curated public evidence; private logs and checkpoints excluded"
+      ]
+    },
+    {
+      "path": "data/aris-research/asset-manifest.json",
+      "source": "aris_native_site_20261014/data/aris-research/asset-manifest.json",
+      "source_sha256": "dffcc048d5efed6ef7d0f5a56aad134278cbef330738914c73d06af4e296d546",
+      "sha256": "dffcc048d5efed6ef7d0f5a56aad134278cbef330738914c73d06af4e296d546",
+      "bytes": 3226,
+      "transformations": [
+        "curated public evidence; private logs and checkpoints excluded"
+      ]
     }
   ],
   "incremental_baseline_commit": "43b966821a5fedb0d810ec0d6c7c6a6be9fb0782",
@@ -3892,5 +4093,10 @@
   "scope": "curated public mechanical-component results; full learned VLA, real robot and chemical validation remain open",
   "site": "https://asimfish.github.io/paperb-timed-recovery/",
   "source_branch": "feat/paperb-q0a",
-  "source_repository": "asimfish/awesome_memory_chem"
+  "source_repository": "asimfish/awesome_memory_chem",
+  "supplemental_research_log": {
+    "page": "aris-research.html",
+    "updated_at_utc": "2026-10-14T03:55:54.313184+00:00",
+    "scope": "two audited development experiments and bounded native instrumentation status"
+  }
 }

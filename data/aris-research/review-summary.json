@@ -1,0 +1,25 @@
+{
+  "assurance": "fresh-context same-family provisional",
+  "adaptation_integrity": "PASS",
+  "adaptation_mechanism_continue_gate": false,
+  "clock_integrity": "PASS",
+  "clock_samples": 21654,
+  "delivered_packets": 21345,
+  "native_dynamics_max_error": 7.460698725481052e-14,
+  "max_continuous_lag_ns": 6549582,
+  "clock_continue_gate": true,
+  "tail_boundary": "5 or6 sensor packets per attempt remain undelivered at the native horizon; complete401 native samples retained",
+  "not_claimed": [
+    "robot clock acceptance",
+    "real hardware",
+    "chemical endpoint",
+    "learned policy advantage",
+    "general ICL verdict",
+    "algorithm novelty"
+  ],
+  "native_instrumentation": {
+    "label": "已采集，未准入训练",
+    "summary": "新隔离版本完成1条已见配置原生采集，独立复核确认14,007个任务步、13,995个控制提交及应用、12个FIFO尾部条目、28,016条物理读回和177组RGB／深度记录完整。",
+    "detail": "严格采样保持连续11个点未通过，完整时间＋保持结果仍为FALSE；独立承重UNKNOWN，成功训练准入0。读回审计披露了设备编号与深度单通道形状的两项读取修正；它们没有改动原生数据。没有策略训练、LLM调用、真实硬件或化学成功，也未认证持续主机推理时钟。"
+  }
+}
