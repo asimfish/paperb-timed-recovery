@@ -1,0 +1,1771 @@
+{
+  "CPU_audit_wall_s": 12.590650083962828,
+  "actual_allocated_GPU_wall_upper_hours": 0.11525924727055503,
+  "all_case_regular_RAW_members": {
+    "cases/dev_seen_handoff_instrumentation_002_aris/CONTROLLER_AFTER.json": {
+      "bytes": 74217,
+      "sha256": "579d8c714a1b6dce9936bf2d3ed21e46f87acd37512104d45eb7c8e28eea5f2c"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/CONTROLLER_BEFORE.json": {
+      "bytes": 74214,
+      "sha256": "d74ac8dfa56e6265362ef5b696c3390b43e548accc635255661f30119ae6bd7b"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/CONTROLLER_INSTALLATION.json": {
+      "bytes": 174353,
+      "sha256": "1995f4747cfeb736d62e1a79f84cbf1839b6a5e73503147d1bca26e0dd7ca649"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/MATERIAL_ACTIVE_READBACK.json": {
+      "bytes": 39517,
+      "sha256": "9a659f0d44b70257ea2cf3e6b538088cd1ff9810d48e7c4a658764c64ab26d68"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/PROCESS_EXIT.json": {
+      "bytes": 118,
+      "sha256": "50035bb9145196079352cc0e0364f8546ebecc258eede21b9254d45092808895"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/RESULT.json": {
+      "bytes": 1103,
+      "sha256": "026ddaaa74d42f36d617fe611825e09d2fb0ad233094a1d55310c687fd200788"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/case.json": {
+      "bytes": 1287,
+      "sha256": "8ce242dd1275e6ee5e52f41f446f8632da0355712fdb3481486a372c6001cd16"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/collision_filters.json": {
+      "bytes": 12591,
+      "sha256": "4ee8560172c81032ce61aa23fc57d14d7cce96d6fd0fc4fb9f02e30b7b7f16c3"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/contacts_all.jsonl.gz": {
+      "bytes": 60412915,
+      "sha256": "259697c4c832cf3338fc4451c03c3e0020b57a7690798eb7aa5f301261a0c1a5"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/jaw_geometry.json": {
+      "bytes": 2679,
+      "sha256": "368b99937bb7abd4f8af7a7f8d6f46e006379bcc640ddf0d0d0ce2f0c6d488d5"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/mass_parameter_readback.json": {
+      "bytes": 1729,
+      "sha256": "f3526addf56b687b8e7dca8fa7831b3d0704c8dd6864b7e4e2f1d38b20698bb1"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/milestones.jsonl": {
+      "bytes": 1295,
+      "sha256": "f85254b5441e26a0e75d72ba3e82fc83fb1f6498baddc283ae9dcd6055ff82a9"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/registry.json": {
+      "bytes": 1701,
+      "sha256": "1175196ebe6a4088bf2d615583693aedfbadbeeaae416a2b3cde0361de55bc66"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/runtime_versions.json": {
+      "bytes": 319,
+      "sha256": "58c6cc06b1f4c29adc327deb592b130b932feeef4f2075eab169bb8d685f76ed"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/schedule_decision.json": {
+      "bytes": 146332,
+      "sha256": "f440d540d8abd1660b7eb3d2b5647ea2f561c63ec4115509b16e1608e99b4f43"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/setup/boundary_state.json": {
+      "bytes": 200269,
+      "sha256": "dadcd8b497488a9ccd7449cec0e38f670271b47fb8ac3e02e76a9ee7022871ea"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/setup/native_clock.jsonl": {
+      "bytes": 108354,
+      "sha256": "acde598b686a837ae9c3cf3c0983921383884bfdb86c09489ba9da34d4940075"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/setup/reconstruction/released/COMMITTED.json": {
+      "bytes": 92,
+      "sha256": "99c2ce81b45655a68e3a0ca97096fded0105d6223e664962a45260afe2e3ee36"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/setup/reconstruction/released/checkpoint.npz": {
+      "bytes": 14113,
+      "sha256": "917781ee16dd85408e5dcdcd60b7881d8d9ad8b2f08a7cc5050f3c265db71705"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/setup/reconstruction/released/manifest.json": {
+      "bytes": 616,
+      "sha256": "fbfdf0dc73fd5fda2bef9fd9b5a7146cf14be1aafa7fdc5af09f334edc05d1dd"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/setup/stability.json": {
+      "bytes": 9226,
+      "sha256": "4ce60b10b0712b437c74e9e71b7bb32316fd779d50bb0e969d6b1ec3f6b808ed"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/setup/stages/episode.json": {
+      "bytes": 349,
+      "sha256": "b7ef86b33f162d7e03e2abb6f94083a3542f62dfdf85fbf8473d51509ae498be"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/setup/stages/released/COMMITTED.json": {
+      "bytes": 92,
+      "sha256": "7a268ec5d0bd3655ae9aecf0d292406c1fb32c2825f3f8f87bf4aa87a851eeaa"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/setup/stages/released/manifest.json": {
+      "bytes": 453583,
+      "sha256": "e6b4e2b47aff4aa17c99bd476e6f0578068e035dda023fe4c3f62a0a8c6be1d1"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/ACTIVE_DRIVE_END.json": {
+      "bytes": 74984,
+      "sha256": "0db231be295b8c0f0813db2df51a89f37c47bae30133e27c07f09da704ec4883"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/action_write_audit.json": {
+      "bytes": 179,
+      "sha256": "45d5478b9367ac2d8142789ff66e7d0c83895d3b0dabdca2385c76184ecb1b76"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/capture_index.json": {
+      "bytes": 249153,
+      "sha256": "2498cc3d7b3715d68fca86ad9464ae1103dad2347d676e5b5e8f3ae7b7db50a6"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/captures.jsonl": {
+      "bytes": 204601,
+      "sha256": "1fc1cb2dd5abd604ab32fe77d12096d83de34f536c2c32c48664cc5f08dfff76"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/command_events.jsonl": {
+      "bytes": 18173352,
+      "sha256": "d78b8ea63eb2f8ca0d65f64222df3f0c57151796eeb2d22299ccbe1298a86fc5"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/contact_coverage.json": {
+      "bytes": 630,
+      "sha256": "7679db52dafbcc3959d069681f792db424d8e3af51d98564fc1ca9ab8aca5813"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/contact_rows.jsonl": {
+      "bytes": 460934672,
+      "sha256": "5612916de8849e4edd87feaa4cef07eaaad6b9a111b0719630a3d1b2ed71bcdc"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/contract.json": {
+      "bytes": 4670,
+      "sha256": "6f7ab8301950205146e719e8c6c2e5bfaa8c10f856e7058751b86afc84435331"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/controller_origin.json": {
+      "bytes": 399,
+      "sha256": "e776be29036b0382c8d50fe96a2294be59773af8a2591ca5ac418e9368e51ac6"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/depth/00000.npz": {
+      "bytes": 184748,
+      "sha256": "f297a21d5094a61f8ccca92bfc18c98bd053c73c5b38e4e6147a3dbb7425bb10"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/depth/02160.npz": {
+      "bytes": 186525,
+      "sha256": "076a92a07a2c1813e908195807e7204def88ce80e486969dc5de572df6908fa6"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/depth/02200.npz": {
+      "bytes": 185953,
+      "sha256": "1908ee1f97e167bf740be63881660d9c30f15169a83c71cd82a2f995fede5819"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/depth/02240.npz": {
+      "bytes": 185507,
+      "sha256": "9d1343df4758bbd609ca008f3daf00a1c17bfd67e8ddc96273ce7d45d7b7af8c"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/depth/02280.npz": {
+      "bytes": 185273,
+      "sha256": "d1bd8cc8be29dc11f1cfe6eb590d9bf003230f7821f0f2c91b7fff2cca66ffab"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/depth/02320.npz": {
+      "bytes": 184958,
+      "sha256": "8af8e4555675f813429ad50ca284f63a191cda8697350b9076bf5a2a7e5e5d54"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/depth/02360.npz": {
+      "bytes": 184567,
+      "sha256": "cf448da9338291961b06912495543b1d9edf66899a7135c5cfc70478234a8d4d"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/depth/02400.npz": {
+      "bytes": 184607,
+      "sha256": "d757b6fff249ac51f1703c30c7f19e406703d2105a70a0ce564696c678b331d5"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/depth/02412.npz": {
+      "bytes": 184610,
+      "sha256": "2e81e33a4e361203731d90a8cb35bfd3cb17b150ba4502e12d3a3f9ca8e2b80d"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/depth/02440.npz": {
+      "bytes": 184503,
+      "sha256": "fb6bcf8620468ed0f097f5e830f2a5a5c6a4c50fe3d26ff9a0423652d33cccfa"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/depth/02480.npz": {
+      "bytes": 184689,
+      "sha256": "9aac920ee8188815bf722dbd18bc77ddcfac7d2b74053b0fb7bddd709480a13f"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/depth/02520.npz": {
+      "bytes": 184949,
+      "sha256": "7f434a9bf3966e4a92df050f7d2b64165a0cfccc5dbe6615c0275e72cfab52e9"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/depth/02560.npz": {
+      "bytes": 184737,
+      "sha256": "dc2274ac3d032d7bf2504ed12fba7f364652a10f41cce47a9763cb10f757e2ec"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/depth/02600.npz": {
+      "bytes": 184803,
+      "sha256": "7d6b854534c804d22b3a7c80484897592f55a0e13974ac6e3e11bd728549f456"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/depth/02640.npz": {
+      "bytes": 184847,
+      "sha256": "ed34d60a3f55f5696635c9d21dfaa0a5c50ed7aebb8496e8f1e58fc0bf1058b5"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/depth/02680.npz": {
+      "bytes": 184966,
+      "sha256": "3df063a9e1165d92d3ec74aa2ccc9f9b7705bf7557043fbcc44bfdf46c524aae"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/depth/02720.npz": {
+      "bytes": 184863,
+      "sha256": "7471bdb180fee1c4e0fce3d4096db926ae0d7238d361e038d14a18aebe0d8651"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/depth/02760.npz": {
+      "bytes": 184817,
+      "sha256": "d5f471a3c7c246be6486f3e633aa92fe983619677b09cfcb08d08de5b0aee1c1"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/depth/02800.npz": {
+      "bytes": 184980,
+      "sha256": "233ff210b7d345a7d6dbcb885de5b86bcf4a93979d5f44300440750aced2c5d8"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/depth/02840.npz": {
+      "bytes": 185129,
+      "sha256": "ede2b195536e5dad77bb99fb16b611f1e80f4542d97e5862d53372bf88a40989"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/depth/02880.npz": {
+      "bytes": 185232,
+      "sha256": "b561c5e8705c9562380746ce6a99e0517cf38f0137056676f2da7ee962b59a93"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/depth/02920.npz": {
+      "bytes": 185320,
+      "sha256": "f7cfd33e86bf84c652aede7142e8f31b194aeeb97fa684465da8fea8910e2421"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/depth/02960.npz": {
+      "bytes": 185227,
+      "sha256": "3185ab86637c1c90750cc3df1584db913aa3a9a6712eecca0cbfd3b9b61b6a81"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/depth/03000.npz": {
+      "bytes": 185056,
+      "sha256": "bfe6767101e48f9d4dfe0e17143f06e78b955834e05c0023834ee6a62542e0c8"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/depth/03040.npz": {
+      "bytes": 185107,
+      "sha256": "79910ce7aa6a3a2bd2eff3894a816dc688b91b6f4fe7ca63d06e4522e8902fea"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/depth/03080.npz": {
+      "bytes": 185308,
+      "sha256": "96b1d7a89e383a5dd8f1a258081b224124fc6ac969e890b197f37f6570a0593a"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/depth/03120.npz": {
+      "bytes": 185443,
+      "sha256": "03855b3de3dcff5db1916218eea8c675b11482a594bca8bb3a65b05a323d5de0"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/depth/03160.npz": {
+      "bytes": 185533,
+      "sha256": "90a4eba18629ddbb4c2014d388b74e5ebf06357f5dbc355f0abb8ee1834f6aa1"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/depth/03200.npz": {
+      "bytes": 185490,
+      "sha256": "237736bfbabd0f1fb89b5d7a85228779318ac04f1c461823d0185f3cbe18f946"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/depth/03240.npz": {
+      "bytes": 185500,
+      "sha256": "8cf640ba91c150eee8396662fa9f854fe8cc3913a7196943353afa00e3985674"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/depth/03280.npz": {
+      "bytes": 185267,
+      "sha256": "4d3f69c0dff195f991147c5c8aace7cb7724db46884e3b910d9240fd5022d4e3"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/depth/03320.npz": {
+      "bytes": 185367,
+      "sha256": "89a9fd13abae279896508c656db19485bb995be8123d7b33c5199ec87576bbcf"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/depth/03360.npz": {
+      "bytes": 185544,
+      "sha256": "54d9a51564ed62071d6ac7a417592700bbd26cda80555890395c5f354090e6ae"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/depth/03400.npz": {
+      "bytes": 185346,
+      "sha256": "8b9c745a8526535435a455d22f94c91c7e8c8375217a9d9480fd729bb0a89370"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/depth/03440.npz": {
+      "bytes": 185389,
+      "sha256": "bceb66d99877ff543c579f13c8e08ebcea6cf6375f2e6905a883f57fd023a36e"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/depth/03480.npz": {
+      "bytes": 185614,
+      "sha256": "13960c3b44720812d9b473d8ada03d6a57528fe3bfe8bb539b9df0a46eb73e3a"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/depth/03520.npz": {
+      "bytes": 185565,
+      "sha256": "5e32de20b1b7273059121a53f6f6ca556ca6264b310afe6445beed79da0e75d8"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/depth/03560.npz": {
+      "bytes": 185570,
+      "sha256": "ceb85ec1f13a5b6444bbc36db99f6d2a46bc7afcae2118fafc9a17d3677559a4"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/depth/03600.npz": {
+      "bytes": 185704,
+      "sha256": "d23de2c474d8139d80c7b226eb640bc7fb65762988b708da460b54c7066ff1a6"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/depth/03640.npz": {
+      "bytes": 185614,
+      "sha256": "60c7984a7d360f0933644ed606189e9a839ae94284a99d1dfeda2c108ca3e40f"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/depth/03680.npz": {
+      "bytes": 185758,
+      "sha256": "75210447dd4c1d0c6097336416d86913d503ff3cd45bae0f7da90d0e925b5772"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/depth/03720.npz": {
+      "bytes": 185556,
+      "sha256": "a0ac3589f92dcb7db1bb54c0e2d6cae48c3593bf779c2b9efecca373aa19e563"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/depth/03760.npz": {
+      "bytes": 185546,
+      "sha256": "e398d705dca67722ef97bc603860184975d59248a32e87c90514220213c8f2ca"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/depth/03800.npz": {
+      "bytes": 185571,
+      "sha256": "d8149dfc6a3929efcae3f85e4184e1d1c159d30b82c6f943b8b864dd78f7922d"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/depth/03840.npz": {
+      "bytes": 185562,
+      "sha256": "6b3d641f16a45e75bf9d3130e83dc6241d7f41257056d0d997f3ce0f57a27200"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/depth/03880.npz": {
+      "bytes": 185543,
+      "sha256": "6de435c8450bb991f000df8dbce7f63a6acd223b10886b1fec4ac73e71c2438b"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/depth/03920.npz": {
+      "bytes": 185451,
+      "sha256": "7f899c8e60fa253f05a431475d474c3e231c09eeba803c76c47d348bb1f42fd8"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/depth/03960.npz": {
+      "bytes": 185612,
+      "sha256": "b64b4a973470614abfc6c805f59362fff5e35dc199a129d792a1c5f6d7024420"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/depth/04000.npz": {
+      "bytes": 185489,
+      "sha256": "bbaefa298858692c1290d2fdf8872b9bb26dcd618c6afc172764c4a1c135d1a5"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/depth/04040.npz": {
+      "bytes": 185476,
+      "sha256": "14e773f3b5da2020de483efa2cdd0bb3aabb08aa9a92ee8b0b286d5e6ccf6f09"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/depth/04044.npz": {
+      "bytes": 186006,
+      "sha256": "9136110efc9539a211e2daa07cc0be0a9bf0617213926ec6efb9fc72f9adf73f"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/depth/04080.npz": {
+      "bytes": 185943,
+      "sha256": "c2bd69b44af22596bec536217a071c7ff98b21151eaa47d1247e50be26ef0775"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/depth/04120.npz": {
+      "bytes": 185650,
+      "sha256": "ff8e63248ad400ed691ac2c9eb57e63b491757bf72cde7420d26d88dd407a6e8"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/depth/04160.npz": {
+      "bytes": 185623,
+      "sha256": "c7653cc1000179dfb3a8b3ee7d2535b9df217814c9596aea7593b2facaf4040e"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/depth/04200.npz": {
+      "bytes": 185572,
+      "sha256": "1ce7b43cf690fc82d6227a13e2b970e640b2076e63522a70cb5d792aa27d9d49"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/depth/04240.npz": {
+      "bytes": 185546,
+      "sha256": "addcd057cf354b0058c9a4068140f7561bbd80cad214d079bf4c80410a90b884"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/depth/04280.npz": {
+      "bytes": 185467,
+      "sha256": "235d0de8279aa26ec3b529cd4d2391164462846daa321d99d4608372877f145f"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/depth/04320.npz": {
+      "bytes": 185460,
+      "sha256": "a4229dd2b5c2b9a9fdf48b7daadddc59131c369ee05950fadb5cf9356f28364d"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/depth/04360.npz": {
+      "bytes": 185396,
+      "sha256": "e536fd2a649d5ee629874a8165ded63cf30d93e71b352ad099879ef3ca837e0b"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/depth/04400.npz": {
+      "bytes": 185356,
+      "sha256": "e487349f5dafdc5d25d1cfb5d7fac66268e77d92ed7704c12d567ef56dade263"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/depth/04440.npz": {
+      "bytes": 185269,
+      "sha256": "23bb4e2861263b01ac71e12a9ee38b26ff4bc9d8575def44af677e55e60fa098"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/depth/04480.npz": {
+      "bytes": 185379,
+      "sha256": "3b50627fc8fe84e155d29b0b37a1e53f7e8c702caf8174c494a1458714cb1c1e"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/depth/04520.npz": {
+      "bytes": 185202,
+      "sha256": "9bda94625853f7db07a3f149a52a06786e30388ed4dbc848b40414f42ebcd91d"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/depth/04560.npz": {
+      "bytes": 185164,
+      "sha256": "990aff71b7e36dcbf6f06c6083fb7b5166e1f363b8a3c6f18f036ebdc76b5732"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/depth/04600.npz": {
+      "bytes": 185138,
+      "sha256": "8a50953b40bbc1c006d4fddfb383ea8ac77d695cbd942d4616e2a9991499acd1"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/depth/04640.npz": {
+      "bytes": 185096,
+      "sha256": "5f85df01272c4ebdd2db6627d02e63d8a0beb91990032b524cfbc01fe2eecfe7"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/depth/04680.npz": {
+      "bytes": 185076,
+      "sha256": "ae449e15fb4f598572a23be55140416a7ea19fa99e4aea32de0ed8c8f4969fdd"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/depth/04720.npz": {
+      "bytes": 185206,
+      "sha256": "261b7329002b924b4e1d58ab79a3a359c82b1a1fec4140500ed79818822b79d5"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/depth/04760.npz": {
+      "bytes": 185109,
+      "sha256": "28ba0fdca95108f93a107a515cf3e6e74b492b12a34e2b1540cbf68119c5c815"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/depth/04764.npz": {
+      "bytes": 185127,
+      "sha256": "96a67b3add20ac103bb9c2019e4ccd0f56cb59f7b717da80d46c1258f4299e40"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/depth/04800.npz": {
+      "bytes": 185068,
+      "sha256": "07d096898e6902ef69d31bcf21862a88018b03f6bbf3dbe494b2db6038f8ae8a"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/depth/04840.npz": {
+      "bytes": 185080,
+      "sha256": "65326fe9d21bae450b7601d60097d20e38a783dc573d1cfeed90ed917c8dd0a4"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/depth/04880.npz": {
+      "bytes": 184962,
+      "sha256": "f5be2987e428eefabbe875d85a31a2109f11f5ccad51dac63866cd8e104b4dde"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/depth/04920.npz": {
+      "bytes": 185044,
+      "sha256": "ec97d0845ff285218e8a58f8dd6dbc7a471b88eb31a9820a385bd233c10272ae"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/depth/04960.npz": {
+      "bytes": 184955,
+      "sha256": "d3a5c1883ef6c3c13530d6167a22de7984142617d2b6eb989f9f856950155165"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/depth/05000.npz": {
+      "bytes": 184975,
+      "sha256": "c129636afe94cc8146a19da5bb59a2ade52d44932db8ce50c307d4b6d8bd96c2"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/depth/05040.npz": {
+      "bytes": 184808,
+      "sha256": "05c9d67761bed6b5f80fb42f1f6b0f71544df92676b5fe42a822ba3948b14d32"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/depth/05080.npz": {
+      "bytes": 184599,
+      "sha256": "7bab11d72815c6f40a3f72af60f33feaa69fbe776cdb59bf20271e5b1e3343ca"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/depth/05120.npz": {
+      "bytes": 184296,
+      "sha256": "70cb0fdfbbe12247f59f6b5d03ce6aa230380d9644332db260e9a7376ec999d5"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/depth/05160.npz": {
+      "bytes": 184307,
+      "sha256": "4cfc908cabc27d26caf05a26257bae79155253714fe3c3b0d0ff58a456b7359b"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/depth/05200.npz": {
+      "bytes": 184263,
+      "sha256": "5bc66ab8bdf442bb0445ad012aa333a7631d5a0fcd8a0128b8c330f1022fdae1"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/depth/05240.npz": {
+      "bytes": 184242,
+      "sha256": "2b9d8e39345134cdf76cfffc0a84a3856da23974a77851c56b8d866428f2058d"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/depth/05280.npz": {
+      "bytes": 184115,
+      "sha256": "19fca90147bb0001d5d8dd8d124728c4e838b3e46d4e45e059c9d8ca83804b05"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/depth/05320.npz": {
+      "bytes": 184241,
+      "sha256": "79fca614b76e98c2f8df26861e299b674de054a3a4db0040c0f9d206ebc6101c"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/depth/05360.npz": {
+      "bytes": 184231,
+      "sha256": "df658fd1ff4611da3d71bea74e7ad13f20ad3b13ca2526b9c486162ab94b48e9"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/depth/05400.npz": {
+      "bytes": 184195,
+      "sha256": "23f6c5bd906a863730a728c4aa817bcefae4d49166a3a9f3627e788cecc304d2"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/depth/05440.npz": {
+      "bytes": 184021,
+      "sha256": "8f377cf43f9380b503b425f0246349206447dbdaf8eb6fbd380588caf3850f75"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/depth/05480.npz": {
+      "bytes": 184051,
+      "sha256": "3b286748f4d0efb57434e2c69a88d1f774b46a9db581d36704312cf8877791d3"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/depth/05520.npz": {
+      "bytes": 183930,
+      "sha256": "037e825712b56e7dbec09fcf6fe208ad821d35d998e69b7b57bee46cfa48a3e6"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/depth/05560.npz": {
+      "bytes": 184026,
+      "sha256": "29ef28acc31381be5f0841d4caccd4becc0b29a2ab7594e6f6fbb3713ce7953a"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/depth/05600.npz": {
+      "bytes": 183988,
+      "sha256": "dc2c40021ec8b1a2b122786f97bc0e1f6795f10472a2f4696a237d17dd9432bb"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/depth/05640.npz": {
+      "bytes": 183990,
+      "sha256": "23dd96062cc5e1fc42613361bd78559b7c39f9c4390e66ecc86867f78d11972c"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/depth/05680.npz": {
+      "bytes": 184036,
+      "sha256": "c3d02dcd9b11a2241d9beabac6f24ab45699f30a457ae433ab8b259c384f3321"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/depth/05720.npz": {
+      "bytes": 184030,
+      "sha256": "270b1152f717689bcf8ae755d13ef0a27cc4c1721a18649c780e48bb8789a544"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/depth/05760.npz": {
+      "bytes": 183351,
+      "sha256": "82940a68e13980a85aa9baeebf8d2a470303fde8c2be4764a737db4db9d45c80"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/depth/05800.npz": {
+      "bytes": 182595,
+      "sha256": "c6a13c617f34460f8f5616323c57710f7fb5cafebc687263e85d363a44fd1541"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/depth/05840.npz": {
+      "bytes": 182603,
+      "sha256": "95ed2f64ea9a1fb8b03f9e8cf1ee017a5b4284470719f7656f513cadb18c932a"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/depth/05880.npz": {
+      "bytes": 183188,
+      "sha256": "c1b2cd2c300819317b699fb35f429613f1feb1d36954da3c41ea4b614463f4f8"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/depth/05920.npz": {
+      "bytes": 184455,
+      "sha256": "e238c253384cd8415ff76d3085dcee4ed69666c8af1824e999571de2efdc88df"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/depth/05960.npz": {
+      "bytes": 185927,
+      "sha256": "95f682284324a3e56a8a3f9ad48ba5de2e8425ee7164d3a0c29cfd75407d296e"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/depth/06000.npz": {
+      "bytes": 187088,
+      "sha256": "5f67b804f7ecc09b2110c02bce6e5479525415b5b0ef10de56e0dd46e55825ac"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/depth/06040.npz": {
+      "bytes": 187867,
+      "sha256": "6c9c413f1112726c8856aa0fa755baa2818679e31c3634ca0dbe7f45f3707b42"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/depth/06080.npz": {
+      "bytes": 188392,
+      "sha256": "0dae894fee982ded5e158d5607ae65ed16172508f977a38c55046a6e413cfd0d"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/depth/06120.npz": {
+      "bytes": 188699,
+      "sha256": "7a3345b76ed97e93edf7f68df6daecb9fd29f3d0463a90de93e1288ca67b1ea0"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/depth/06160.npz": {
+      "bytes": 188938,
+      "sha256": "eef20025a228c703e1c0e668da7c00d796944dbfff690edde98431e6e9e75d0c"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/depth/06200.npz": {
+      "bytes": 189252,
+      "sha256": "4313a17846c2600b7b7b54d25bb5afd6cd630d9902a8eab1efa8eee0cc23ce39"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/depth/06240.npz": {
+      "bytes": 189254,
+      "sha256": "4d68850afa5e0dc2bf4553bd9510a63346cbde866ab393a0ccd3e3f2b36fe7fb"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/depth/06280.npz": {
+      "bytes": 189349,
+      "sha256": "34467a2206920bafc313c1f361b91e85a5da05685ac01ffb096a6b6ff84051f5"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/depth/06320.npz": {
+      "bytes": 189203,
+      "sha256": "db43639ae3eda821f2bfaa2cd7d4be35abcd1c0dabb159d6fd9c679296d42cab"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/depth/06360.npz": {
+      "bytes": 189401,
+      "sha256": "041c84a58b6391e2e2d86f8b781a4db6cfc6ebe9954d3a4658cd8fed4573baca"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/depth/06400.npz": {
+      "bytes": 189292,
+      "sha256": "7cdc76fe920ffb7afbf3fdb394ccfba6b0b255bd6852d57b575a543779cc56d3"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/depth/06440.npz": {
+      "bytes": 189130,
+      "sha256": "d0c19d59152ccd302b701916a8c525e74123cbffa803334a13ec1e5a4cf15d07"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/depth/06480.npz": {
+      "bytes": 189138,
+      "sha256": "e802e65bda65cac71de52f383ade51ca83aeed2c500d7b01c7ac4acb37db1e01"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/depth/06520.npz": {
+      "bytes": 189016,
+      "sha256": "4356601b6376d24b89249e55d7cca2de2951a0f828d2c161ba32bc4bc7fb9c1b"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/depth/06560.npz": {
+      "bytes": 189170,
+      "sha256": "a0145795cca6f7592153a49f0c44585b9bf4f3eb6f438e3b9cb9506b92f51a4d"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/depth/06600.npz": {
+      "bytes": 189057,
+      "sha256": "13e1b7ab2a85350564a358c76fa9bbb0dd936f47cecfbc0e43a18ed2d1fa4d1e"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/depth/06640.npz": {
+      "bytes": 189152,
+      "sha256": "1c12fc912176c6118a7be1a6d1590ff17bf0dd18957549ecb460252024c0909f"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/depth/06680.npz": {
+      "bytes": 188993,
+      "sha256": "e4a005617194029bedd71848264bdcf51a6c363f6d4c788f57c53ecc33bdf4bf"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/depth/06684.npz": {
+      "bytes": 189158,
+      "sha256": "8ab415107b2de3e7069337a7535d6bfef16aced506893415b843a68d85ef9307"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/depth/06720.npz": {
+      "bytes": 188997,
+      "sha256": "262d9ef2504a6e9e4e3d7b2b059069850164d4a70ce51ea1f2c5d3993115af1f"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/depth/06760.npz": {
+      "bytes": 188784,
+      "sha256": "d90a28c698a1ced0bad53cf2c67cb813b160e98e6143a57ff2eb224837753638"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/depth/06800.npz": {
+      "bytes": 188804,
+      "sha256": "9fe56b0253343e409158ec5e881b5816287d19ef7674259f457b2df9e22bae9a"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/depth/06840.npz": {
+      "bytes": 188575,
+      "sha256": "d17c61d3363f4130566b9043b2ed58b36c9356ecb376195da38d6074f3aa8a93"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/depth/06880.npz": {
+      "bytes": 188460,
+      "sha256": "4861a09cc67d2aca553ba07b4cc2b3eb3456ef5cba126ec5b578d1a4e8a22422"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/depth/06920.npz": {
+      "bytes": 188159,
+      "sha256": "753b294758b4833de50d07ec8fa349bda684bdd5c347160c20784e7259ac38b3"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/depth/06960.npz": {
+      "bytes": 188245,
+      "sha256": "70abcd1abf00ce38f3cbf05c31fafebbc30c28f8ded236c7921ab9a8dcd2d4fc"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/depth/07000.npz": {
+      "bytes": 188139,
+      "sha256": "c0d658aa64098f98b64c7eb4adbbebfa0430e7c1077b0faafe88fcd6c3db2cec"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/depth/07040.npz": {
+      "bytes": 188035,
+      "sha256": "c81a7e9e4a3e0c59f8a0838fa113d3fc6ca25ba6df11f2f24db8ba36a23e3566"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/depth/07080.npz": {
+      "bytes": 188018,
+      "sha256": "b17769a9d49208b0a2a775c62909daf9cf22e1696e611d787ff6fe7998f1d105"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/depth/07120.npz": {
+      "bytes": 187763,
+      "sha256": "626fe13b6e2cfa54c2fc28b729ee0b639e2ec7c7b2ac415b00d77df337549a6a"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/depth/07160.npz": {
+      "bytes": 187752,
+      "sha256": "1de39fa21a7a2c598027c97dc90ae9b33b37f216d66b86a60b95307f37f10590"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/depth/07200.npz": {
+      "bytes": 187629,
+      "sha256": "c00f5fc1b3c35ed23151c6011bb94879452e61a57ba782aad49fb704b844fd88"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/depth/07240.npz": {
+      "bytes": 187591,
+      "sha256": "270a34adb25bef3c777a4e8b8b4141454b7c6733f133b5effb8d8791bf59768d"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/depth/07280.npz": {
+      "bytes": 187486,
+      "sha256": "53ad4fa225f93d110819f75234b95d9bd218d4180cce3fbf9f295dbfd98cbc99"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/depth/07320.npz": {
+      "bytes": 187411,
+      "sha256": "062e4249341f3ab174bd8e323c950d7773aacc29aff176f361f1119c699827cb"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/depth/07360.npz": {
+      "bytes": 187160,
+      "sha256": "e1b40e8fad7a959838d36068e45557f7d801f769dee3c04caa7d735f7fc894eb"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/depth/07400.npz": {
+      "bytes": 187476,
+      "sha256": "d81be12b936004801fd788fbb490c2eadca480f863399d4dcaa6211117cc0b76"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/depth/07440.npz": {
+      "bytes": 187303,
+      "sha256": "313867b3689f4cddb4453888cf7ae18bcff61a60c9728a1945292f84523f1513"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/depth/07480.npz": {
+      "bytes": 187284,
+      "sha256": "4d96a6bf97cf6ee1f9150529f61306cfdbfb4bdade85f74e69623b6d0ceb5881"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/depth/07520.npz": {
+      "bytes": 187231,
+      "sha256": "06a80ce1e7b16c3de10d4373ac87280db8bdde85092e3516f6d7293303971f54"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/depth/07560.npz": {
+      "bytes": 187324,
+      "sha256": "62b6556656f60d223b430b1d9f3dde47b9b8788511f09f85332eb3065a7128d5"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/depth/07600.npz": {
+      "bytes": 187319,
+      "sha256": "71bb9edd25544f901e88885b0984011e085a56c2735562bf76d9288282ad2fbf"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/depth/07640.npz": {
+      "bytes": 187437,
+      "sha256": "3eaee78ceb03f834b601a003360a58986255a05b2362c3fe60b5d4f95f53ef0c"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/depth/07680.npz": {
+      "bytes": 187269,
+      "sha256": "74ce72240d89796259235c664b601fb65d76c681e0e075973bd69eb830d8719f"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/depth/07720.npz": {
+      "bytes": 187260,
+      "sha256": "8d4ff0f51615afae654005124a50aa25053bd9c6744df461b0b60d0f37c45625"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/depth/07760.npz": {
+      "bytes": 187326,
+      "sha256": "644b6d408a7e69a4028419b11460fd890883829839e8b6d2923c073a13b9b2c7"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/depth/07800.npz": {
+      "bytes": 187437,
+      "sha256": "a57b16446fd49bd0541aafbc5b4d0addb41ae8ab3e69c15ff95a18022a725eb2"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/depth/07840.npz": {
+      "bytes": 187125,
+      "sha256": "6000969c85ca594274ac0105af060ee98635b4bd219c830d1c282fe3e47be205"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/depth/07880.npz": {
+      "bytes": 187214,
+      "sha256": "252e4fd5feb642673d74735912e591f04aacd2440bd0942f6a8c81a4b6cc53fa"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/depth/07920.npz": {
+      "bytes": 187452,
+      "sha256": "30c187982d02bbe5c6c89f0ac84964b963b395460f5f7f467fe0556fe1838af5"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/depth/07960.npz": {
+      "bytes": 187385,
+      "sha256": "489e4f2ee00944467e3110ceb344e234f51bb4ddeffba8d371f4f2e8e58d8c79"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/depth/08000.npz": {
+      "bytes": 187251,
+      "sha256": "9ac7334950bf7a313e1bf998e6ffad78e70bc69b0ffb983f0e2aaddacf2ae34e"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/depth/08040.npz": {
+      "bytes": 187168,
+      "sha256": "86f3918848583b71c9c35d1bb07611e51281c594cb0bb0759e7bb4fc15bdf73d"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/depth/08080.npz": {
+      "bytes": 187177,
+      "sha256": "c6d4b3e46045ce0e36afe4ba53469175848373aa7a586b25beaab2b92a7ebf47"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/depth/08120.npz": {
+      "bytes": 187354,
+      "sha256": "2329177ba3edf6cc68a804510aa43afc6cdeba948ce7f4cc3c9eade3f7166425"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/depth/08160.npz": {
+      "bytes": 187303,
+      "sha256": "3ec4e3a46df52be7b55d51760d626b915357acb451cffc90b249c9bf53f3995b"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/depth/08200.npz": {
+      "bytes": 187178,
+      "sha256": "f80db777b9bdee3d4973e84184a448980bea33146fbad80567c632dadef25987"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/depth/08240.npz": {
+      "bytes": 187328,
+      "sha256": "eb1eb4eee5e32a5863da1377ecdc09ee5b0408b4b15b3671e03725c346519f10"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/depth/08280.npz": {
+      "bytes": 187203,
+      "sha256": "ec045300a02af2b9e7e635ad8c694e6f955a644b86b3e8c07fa99bb05314c6de"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/depth/08320.npz": {
+      "bytes": 187281,
+      "sha256": "292df41f2d49551cb9848b69a9349849a2e78b7f01c67c7112329fb84d835613"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/depth/08360.npz": {
+      "bytes": 187315,
+      "sha256": "463429489356c67197d49580a6b1d066fc48361bfa90abe6baf1693cbeaebdcf"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/depth/08400.npz": {
+      "bytes": 187233,
+      "sha256": "951a67c6d14793bb8078523a5dc6bec3d3c33960153b5de2ef4044ec481ba240"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/depth/08440.npz": {
+      "bytes": 187210,
+      "sha256": "3857c2a8031c3f4deb1f0f1a5d8ea38f1a1dcd182600b2c20bdb327f40f6cca7"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/depth/08480.npz": {
+      "bytes": 187179,
+      "sha256": "38f7482bbd39017fad8c4f48c3df25f2cfdcb964bc699f49d850d376f4181b85"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/depth/08500.npz": {
+      "bytes": 187222,
+      "sha256": "8974c563aaadb397d80f2861078c97e9e88904d4ff508ae2267dcc96170895da"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/depth/08520.npz": {
+      "bytes": 187267,
+      "sha256": "6f0d46983e9d61e679cc02a4bb2230b1d989071c93f378efb7216a3eb488bc95"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/depth/08560.npz": {
+      "bytes": 187470,
+      "sha256": "25d1971568945b479132fb8b8709efb1b7bcfa9af0afe414a691be60beb744ed"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/depth/08600.npz": {
+      "bytes": 187459,
+      "sha256": "76918a8df289b77bcc3767b5f1d71b4f2e4ae3e17965ab2ed6853c4e7b6b92c7"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/depth/08640.npz": {
+      "bytes": 187751,
+      "sha256": "a8c56f0525a90f3d56940814c5333be6aaeb3e59d7800ce36cb099577bd6fa3e"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/depth/08680.npz": {
+      "bytes": 187791,
+      "sha256": "8f8f1dc81ec27df806375548149241ec7fffea088e0135263bfb10786705efdc"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/depth/08720.npz": {
+      "bytes": 187932,
+      "sha256": "c0d06e99ada3a6ea03a0d5282f94a27a3f980390accab68e3da2147501bb1da8"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/depth/08760.npz": {
+      "bytes": 187866,
+      "sha256": "c25b434e1bfd2ced387d6bf63ee50187f462758b17db2c662099576957d053f7"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/depth/08800.npz": {
+      "bytes": 187963,
+      "sha256": "d326b58147f28d884a88696e8ee39ae7f50d963044a36e6940b36f7321f8bef6"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/depth/08840.npz": {
+      "bytes": 188120,
+      "sha256": "8912ae69072ec8f9b3fca4b6ed72930760bf64adb4e0a7a7b55949e803b3c31d"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/depth/10180.npz": {
+      "bytes": 188822,
+      "sha256": "8ef30f915e950bf6b203e7bba37f2be9407bb8108cddd51e56db994c00d1aab6"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/depth/13287.npz": {
+      "bytes": 186780,
+      "sha256": "b1a0ec5e2a6f98aff0f3e51c7ac232fba2d306cca3de85325606fc35fe44fd57"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/depth/14007.npz": {
+      "bytes": 185710,
+      "sha256": "7372b71fc556f345038fe79d14a95347ee3e1414fa217f157c0eced50802de27"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/dispatch.jsonl": {
+      "bytes": 23697508,
+      "sha256": "997f5e58aa91fee57649fc122cc5aab9d5f7d66e2856a2aa00d0f4a211e0e873"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/expanded_events.json": {
+      "bytes": 3377,
+      "sha256": "f21dd8a5615c6475a81c8fe307614f251f2ff47b663651fd922fd5305bb8bea0"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/images/00000.jpg": {
+      "bytes": 38453,
+      "sha256": "92c4e34aa5fc253c03baa9f4b18bc8a5a0a9eb06a532162d7238944bf891edf4"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/images/02160.jpg": {
+      "bytes": 38256,
+      "sha256": "4305a08f34a1d4a96dd33bb909445cf846554cef9f8f7830d8e3f381d4cabbec"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/images/02200.jpg": {
+      "bytes": 38389,
+      "sha256": "a0b4d6023f860ca84e79cb7a9140a6a2b5ba210ec74b52ef954274a5779cfc20"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/images/02240.jpg": {
+      "bytes": 38735,
+      "sha256": "cd58ec34680b6f404986f9d341e59eb62dec8b60a5eef8018e1348158b4cb56b"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/images/02280.jpg": {
+      "bytes": 39100,
+      "sha256": "b0883885e2fbbedfa39e6e7d4a4cabdaefeed5e29145b7273a7c80df2c0e2351"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/images/02320.jpg": {
+      "bytes": 39531,
+      "sha256": "c20b587d02766ff6eb64a4154b42e88a872950addce07333048a64eb725cfe32"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/images/02360.jpg": {
+      "bytes": 39822,
+      "sha256": "e96e0f190fe23c7c7dcc86c55c50a51ed8036e8278fd098c2b64af05d8c218fe"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/images/02400.jpg": {
+      "bytes": 40025,
+      "sha256": "804f540b29183920f3d1f54e34aaabadb3ed1d6d31e958e416d9cbf9f34df37a"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/images/02412.jpg": {
+      "bytes": 40362,
+      "sha256": "a9567ae540c162d27b97e1e754ca4853df3049f7b16409269a5669365221731e"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/images/02440.jpg": {
+      "bytes": 40346,
+      "sha256": "c78093f42a331aa29cdb81fe34a0a407edbe17e9849b07edff92396289a50813"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/images/02480.jpg": {
+      "bytes": 40487,
+      "sha256": "72d7795fc16ec74c9e622af2009ed413ece605f73d5e42ab91595900e8192beb"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/images/02520.jpg": {
+      "bytes": 40878,
+      "sha256": "1da3ac51d14fc9034af77c4ccac1ac9f21fe971751fbc70d6b64048078993d11"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/images/02560.jpg": {
+      "bytes": 40831,
+      "sha256": "7e50341401432b033478f8bfe303463e1b7f35342e5d85479c09a83c1dde55af"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/images/02600.jpg": {
+      "bytes": 41016,
+      "sha256": "959b5b2ee75932c7b4e7511d83d610b8ce525f21e228e09a9c1e8ad8d76cbe99"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/images/02640.jpg": {
+      "bytes": 41147,
+      "sha256": "69e41dd7b6fd3a6e60073c8e9a5c4a195f32134e81f81d6356cea34b1e50fbee"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/images/02680.jpg": {
+      "bytes": 41290,
+      "sha256": "dce3dd265499158157ef7c1e732c166042df831f57ac92dcd15f4950f9ee384e"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/images/02720.jpg": {
+      "bytes": 41381,
+      "sha256": "c1ed4a7acaed779aeda5bdf62ff1c1a91deaa5fde5100822d9c9ff970bb8fac7"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/images/02760.jpg": {
+      "bytes": 41566,
+      "sha256": "d960dbaff56a94707c22fcfcdcbd3bd67510560a2fd1fef002c6274d11ecbbc5"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/images/02800.jpg": {
+      "bytes": 41603,
+      "sha256": "2b047d22d20c947e029842f73ea81f808d1335cdbde591c79a0ea00701a3c877"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/images/02840.jpg": {
+      "bytes": 41630,
+      "sha256": "a79a18e6b55621972cc31d02fe26c2058e6e7f761119d12c57cd596c6a393c7c"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/images/02880.jpg": {
+      "bytes": 41779,
+      "sha256": "f1e99cb17d86de3057efc739b592fed19993540651897b17c2735b73c71f1536"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/images/02920.jpg": {
+      "bytes": 42008,
+      "sha256": "0a1ab598d3742983346f4a257918bcd0e340cfdcb45f9ace97c62c51cd9134eb"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/images/02960.jpg": {
+      "bytes": 42052,
+      "sha256": "3f1be6f1939957d076b76c380faeb89468c528d645311ff13eff9fcef69b7a5e"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/images/03000.jpg": {
+      "bytes": 42077,
+      "sha256": "a7db2203bafd1d380e113d7eebae6da8df74a8660e3879f906f6da8cbd9af1e2"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/images/03040.jpg": {
+      "bytes": 42111,
+      "sha256": "cfa910d46e5fcc306ffe2349bb4c053bc3a05a9165050f793f3474b9bf770759"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/images/03080.jpg": {
+      "bytes": 42231,
+      "sha256": "6cecf0579848914705f4f6cee3038085e3a92b1a2a6b76ffa4da2d3d0d0128bd"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/images/03120.jpg": {
+      "bytes": 42412,
+      "sha256": "3e8b12e31f3b3206cb4aea25c22ef76894159156e4c7fa0a278ae3cf80cdb548"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/images/03160.jpg": {
+      "bytes": 42333,
+      "sha256": "6fe6fdf6d324cf4080546fa0a7a103b32eeaa0d4b9bbca3e28ed0eabd568a314"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/images/03200.jpg": {
+      "bytes": 42313,
+      "sha256": "701df08922946ee5b3f6754ed949e3c0d183a840062052aeb7d04bd18f5317d5"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/images/03240.jpg": {
+      "bytes": 42290,
+      "sha256": "3c211c1e7b0880744ac21f590d38c195b3b8c9b66c69810fa97b06c0788a48fc"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/images/03280.jpg": {
+      "bytes": 42218,
+      "sha256": "611848527a4186e8be20247136b790505ff27c7cb1bad605c53ccf85164a283c"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/images/03320.jpg": {
+      "bytes": 42235,
+      "sha256": "7bc0a1245a68390c0b19f66dd6044f366a4e650dde36e02a3ca6f46044e72034"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/images/03360.jpg": {
+      "bytes": 42116,
+      "sha256": "61d842385f08329c0c172a0737899ac717054ea62b7c1386032e1a99b5e95da8"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/images/03400.jpg": {
+      "bytes": 42134,
+      "sha256": "370822b3ae4d2d24cdcac664db39e4b418072dbca9f1d3090bbab539fb09f43c"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/images/03440.jpg": {
+      "bytes": 42147,
+      "sha256": "04efe6b59a53d2e54d523ee167d98ee2407c45738f3099dcbae1048bd698c000"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/images/03480.jpg": {
+      "bytes": 42158,
+      "sha256": "a292e7873b20a2bb1e3ac97d2e5a9f65a3cd24a37b264e3a8128f3ed4636c41f"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/images/03520.jpg": {
+      "bytes": 42187,
+      "sha256": "3537fada7b48c359f1aa30aca7a96656766d0d5ed27e563659907b539cfdce65"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/images/03560.jpg": {
+      "bytes": 42170,
+      "sha256": "2b0d580dac363dc2261ab24f9ec1524467acd794efcbc587c2ea95cf86d429ba"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/images/03600.jpg": {
+      "bytes": 42209,
+      "sha256": "89ae8ff25bafc63c087699950a698455a39a14dc7047ffe6afec52069b8735fc"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/images/03640.jpg": {
+      "bytes": 42276,
+      "sha256": "4439d0e8aea57bb37401559127b15829847dc028eb35bf3393a739a7f45edf7f"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/images/03680.jpg": {
+      "bytes": 42281,
+      "sha256": "17f825d9d9bd7f27233631cb5b9f18f6a7970db111e2fb112405d1eddf7664ab"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/images/03720.jpg": {
+      "bytes": 42270,
+      "sha256": "e764852d6aec0afc39511283d3898545b452d6096187173f32735ffdffda253b"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/images/03760.jpg": {
+      "bytes": 42351,
+      "sha256": "d89ff61d471d661ebc571b536f6bddafe824d5d0fdf8363ac1c0d5f96b0f4cbc"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/images/03800.jpg": {
+      "bytes": 42360,
+      "sha256": "142be822fa068c444583a351b99c2383540ec463750716db1d0de7c62a015231"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/images/03840.jpg": {
+      "bytes": 42455,
+      "sha256": "08ba1076160212182b86e86e18ed53cd4b36ed2ebf9aa3a625fdb10c536022cb"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/images/03880.jpg": {
+      "bytes": 42487,
+      "sha256": "ad3be126ec17b71e5e4ca785dfe5f18407e7cfd188f6339ac10a9229457f3a84"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/images/03920.jpg": {
+      "bytes": 42497,
+      "sha256": "087ab5cd7ba5222354dd1f75a140dbbce5f1c74ada4c8bed448de286c347374d"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/images/03960.jpg": {
+      "bytes": 42498,
+      "sha256": "89473921677849c6fd0e6d7e5f1d998379257f6be063b588daef49d6598d3f98"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/images/04000.jpg": {
+      "bytes": 42560,
+      "sha256": "1c94d112918ecd66efaa5a7bf26484c742129fe3999a460a3f5bbc7a26567e45"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/images/04040.jpg": {
+      "bytes": 42619,
+      "sha256": "5ae9e1b0cb46239df2ead7941fd94c989e2e25420e8bdf420724e86a6e319c9e"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/images/04044.jpg": {
+      "bytes": 42611,
+      "sha256": "085271f965980f6b56ddd474aa55ba0b042776d323b2035bcc5ed2b71046be5a"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/images/04080.jpg": {
+      "bytes": 42592,
+      "sha256": "a2c08eba78f9f9931bc3e69045393db06df63b21cdc7e997992a587fc3e68dee"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/images/04120.jpg": {
+      "bytes": 42455,
+      "sha256": "8a5cf5879914e385fa2c4ebd5c50e73d26a7ead5ec1c9133e0fd052ce75ccab6"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/images/04160.jpg": {
+      "bytes": 42556,
+      "sha256": "383419522322fcf0547976e94d6f3fd0ed356d14ada3571ee25902d009634a3f"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/images/04200.jpg": {
+      "bytes": 42531,
+      "sha256": "2f826327351ad3f674517f8887e0e1b7b46ef451f99a473275bd3069b33a022e"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/images/04240.jpg": {
+      "bytes": 42384,
+      "sha256": "00e5d67b887d48eea8d23c65e698d0196553ba14584bc8d505348d2a3e96dcf2"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/images/04280.jpg": {
+      "bytes": 42407,
+      "sha256": "f6d5e93225acf3e9506c2a8e2782a668188a72efef61e57d764195d169c4f9c4"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/images/04320.jpg": {
+      "bytes": 42441,
+      "sha256": "b0f93a1bd58e4083b93c9b307c9c9ed183e798e0d1f3a49e7eaca0c503fc00a7"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/images/04360.jpg": {
+      "bytes": 42413,
+      "sha256": "6b0a1cbc6d1ff94d9522fa2c0a8699a55e46f680a5901ee68644a038c964fdb9"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/images/04400.jpg": {
+      "bytes": 42308,
+      "sha256": "eaf8bf307863bd45c04990ca8c5304e8766e91ea1f491bf1f8c1f7d9b07727f1"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/images/04440.jpg": {
+      "bytes": 42288,
+      "sha256": "006b4505d614bb9f9d4644ad54e00b1cb01f12ca582e570480278e3cc26fb8d0"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/images/04480.jpg": {
+      "bytes": 42391,
+      "sha256": "aad29908918b1efcfc3b39e7592a4b28a4d201282d89c2307c0b7c9eba150ef2"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/images/04520.jpg": {
+      "bytes": 42400,
+      "sha256": "427046ff455036a474fceb6c8265a5c437a6f447be8d6742b67b1abbb23c2759"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/images/04560.jpg": {
+      "bytes": 42354,
+      "sha256": "6be09a39ea638c5fd6468718a2b80f52d3dad82f94ebaac2ae04b8a7fa6865aa"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/images/04600.jpg": {
+      "bytes": 42429,
+      "sha256": "36cd28489670178195b5d1e0a08f5d47339e65d9a6befaeaa6840895e1d575aa"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/images/04640.jpg": {
+      "bytes": 42374,
+      "sha256": "6b82d5e13b83dbc7e1ccf69b9b10d605814b518997960e8ea36ccaed14f0468a"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/images/04680.jpg": {
+      "bytes": 42419,
+      "sha256": "391e3580c66a9306490a49a80cc2feefa5b01b5ca57e8aaf249feb159085d371"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/images/04720.jpg": {
+      "bytes": 42492,
+      "sha256": "93fd4b1d60657fdac747583f07fcbb4690866664a35be88928b2357540e4f088"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/images/04760.jpg": {
+      "bytes": 42577,
+      "sha256": "53cd10e5651fcd98284aae4b49c9ca274d9fa70d7c6c860ca09981221cdbb7ce"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/images/04764.jpg": {
+      "bytes": 42559,
+      "sha256": "25d2e9ba34a72c774c9a42f63aab6e2df0c4af6453dba360dd0948a08bbe7192"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/images/04800.jpg": {
+      "bytes": 42469,
+      "sha256": "200d461651de69025cf5a5c77478bbe60cef554eca097df8dadaae4cdcba16d1"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/images/04840.jpg": {
+      "bytes": 42472,
+      "sha256": "7749a08db97281676dd804da3eddca92209a1b224d13d79a23216bf3ad809552"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/images/04880.jpg": {
+      "bytes": 42430,
+      "sha256": "a5a6cf023afbfb424f5fbcb294ce8b52b5534a9d714935655ec825171da115e5"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/images/04920.jpg": {
+      "bytes": 42426,
+      "sha256": "2a0a3367f3399c50989ac2d6d970893bd4a9460691aa12437eeb84cd90d8b1bb"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/images/04960.jpg": {
+      "bytes": 42515,
+      "sha256": "100d26738cb265a29ba7c605c4c98f2aca97c208688939ce52fc87e81f64e91a"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/images/05000.jpg": {
+      "bytes": 42477,
+      "sha256": "4b6e2c2b5d89f1156a5f0687539ce29e107f1da163f0f097d04c7faa9a5faa4c"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/images/05040.jpg": {
+      "bytes": 42448,
+      "sha256": "6978901dc5669a1631eef4d8a29a034e240fd8e9cffd49b57c9aae1f0d6e728d"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/images/05080.jpg": {
+      "bytes": 42475,
+      "sha256": "823582e6c090ab53682ed5ebc6676f2e89dddcbb2ea9ba8772b67fdfd63947e2"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/images/05120.jpg": {
+      "bytes": 42500,
+      "sha256": "ae33f54275e815805bd4d22036f4fa1943c8dd8259090a7090654711fbabccd3"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/images/05160.jpg": {
+      "bytes": 42589,
+      "sha256": "e24e34456ee97e782abb94884e511e49dfd63d6f7442c7644e944f42a26cb4cf"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/images/05200.jpg": {
+      "bytes": 42521,
+      "sha256": "9b05c8b410ea8087a53ae4bd05d4fae04d98c7f9e3bd0f850d31130bc9f7ece8"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/images/05240.jpg": {
+      "bytes": 42519,
+      "sha256": "9f11790772261d51203ddaf0d06bbc27ccc545256f9667204f4ba836f7f97762"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/images/05280.jpg": {
+      "bytes": 42598,
+      "sha256": "c89247497abd2532336a791e41dd3a90d031faac8052384d7217d5c93764ac4a"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/images/05320.jpg": {
+      "bytes": 42645,
+      "sha256": "c0109dda925f29a489b0330ddfbfb4051f6c22b0f05bbc02f0fd736ab36dc6d0"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/images/05360.jpg": {
+      "bytes": 42725,
+      "sha256": "a193e115d2fbf11cbca3e2eb4de484a31fde8ab1f0cc8f6dd2232f8e47926089"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/images/05400.jpg": {
+      "bytes": 42720,
+      "sha256": "6a8c3525f56b3a2130a5092d694f67bdee786d5a38ea74f4708555432a659b0a"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/images/05440.jpg": {
+      "bytes": 42783,
+      "sha256": "535647b04e9655652cce19ab29d5374863d40abf2862df9359134751b96f8f62"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/images/05480.jpg": {
+      "bytes": 42745,
+      "sha256": "e6acb50b0fcb5e8805eac6bf2237c8d079579e6daab29a1acd31b8b9e79518b9"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/images/05520.jpg": {
+      "bytes": 42717,
+      "sha256": "01a78c48552eb4babbb40c68c60b892adea0dffda7e189d08fb26c2e9882e926"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/images/05560.jpg": {
+      "bytes": 42788,
+      "sha256": "3b1662df64b835ab65d6db277be9a07c613bc063281d30d27253a95bf468ad79"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/images/05600.jpg": {
+      "bytes": 42756,
+      "sha256": "3b302c759c489d8e2ae284f71c0a76725798e3cfd4114e270eec8f975eb01128"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/images/05640.jpg": {
+      "bytes": 42742,
+      "sha256": "16a308b2bf2b3723ed9501cfef6da152f349b45b9cd45324ea4d75590ddfc727"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/images/05680.jpg": {
+      "bytes": 42724,
+      "sha256": "02f54a3e24ccc0186cadd5806f3fdb588fd8d4c6a304c70140df0c24083be49c"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/images/05720.jpg": {
+      "bytes": 42771,
+      "sha256": "673f7b9225fa19610785ca159d7f7ad8303b0798af76bbb4e8814af7750eaa7d"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/images/05760.jpg": {
+      "bytes": 42666,
+      "sha256": "68763f9b66b31b5e869a984d26c6abb4e71f0ab88966885252bee6bb9ea8c996"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/images/05800.jpg": {
+      "bytes": 42818,
+      "sha256": "24d31e438aabdb672ce86217af25264a1ddc82132ca4a6f6750308f5377670e1"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/images/05840.jpg": {
+      "bytes": 42731,
+      "sha256": "c29f5623d28b7971d0c65e87a32d9c5cf295e6b1540f5076092765708136dcc8"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/images/05880.jpg": {
+      "bytes": 42808,
+      "sha256": "0c4d7c3dd8734dc2af1e8e590604a5b6e4c6a9bee55ab4d6e67e781d2b362f3b"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/images/05920.jpg": {
+      "bytes": 42975,
+      "sha256": "be540c60f3cae49cbff8eede7d001bd629bbc9d8c9bde0cd1213189c75985e5f"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/images/05960.jpg": {
+      "bytes": 43088,
+      "sha256": "fde15ae4fa1fc3df3d1fdaf7a05336958b1b5ca38310ada534473e2872752408"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/images/06000.jpg": {
+      "bytes": 43275,
+      "sha256": "b0eb11a2634db3b3ea54f3f672026e039111b9bcf9e1bfd29acae3ddfe2b7b92"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/images/06040.jpg": {
+      "bytes": 43473,
+      "sha256": "c13f42a8c31daa00eefd21bde7ac0ba5aa3054877093c54e5f1fbf23672da711"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/images/06080.jpg": {
+      "bytes": 43597,
+      "sha256": "d7de4040f3aa2254cd2a46fbd2c4522365bda28c1d3436c2ebd8edcdcd75d0e9"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/images/06120.jpg": {
+      "bytes": 43675,
+      "sha256": "00d667fb8f49b4f1767a1ae810685a6ab276459d185558cb63c81c64affcfb7b"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/images/06160.jpg": {
+      "bytes": 43701,
+      "sha256": "b2da5b51824cc167beeb4d27c1e999408fe196152948cd311ef59f08c3a232b4"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/images/06200.jpg": {
+      "bytes": 43711,
+      "sha256": "ddaf80eca8ad155227cad7e7e4462fbe0649e8139a1291cfce69f36ba8fba210"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/images/06240.jpg": {
+      "bytes": 43681,
+      "sha256": "69559a32fa4bfa13bb4bc7e56f988aa93458d350206a8cab279e9273f45f1af7"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/images/06280.jpg": {
+      "bytes": 43793,
+      "sha256": "5c2aeb5c32af60b8b25cb4cabff79fd9c8119b6c395601fb07ec04a1a97b23b8"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/images/06320.jpg": {
+      "bytes": 43616,
+      "sha256": "0101c9d7be0c8fcb4d310f450da4de5dd02a2ecbce49027451a4879cfac00967"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/images/06360.jpg": {
+      "bytes": 43546,
+      "sha256": "6d6cb44ca2726edd41c12cf58b44811f7182d771345f1f6619ac8d27e2f26a8d"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/images/06400.jpg": {
+      "bytes": 43285,
+      "sha256": "6c94e441c7f66c1ee679b3de404e279fbdbfa0e1ced8679a677a5a264cc8dd16"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/images/06440.jpg": {
+      "bytes": 43232,
+      "sha256": "c392ca010fa6298606a4940d279da8b871094df0d44b01e3765e7f6e82c78d5b"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/images/06480.jpg": {
+      "bytes": 43008,
+      "sha256": "67abdc6aa6a14fef7a471af97eba832070f778c6a85587786236a032adc7cc79"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/images/06520.jpg": {
+      "bytes": 42966,
+      "sha256": "52a724bcceae63c9af5d7fb00d3c98b468a969a5cbef28f9e54d95e379ed84ed"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/images/06560.jpg": {
+      "bytes": 42821,
+      "sha256": "e7c9aef442aa1212a951d33e589136d653633b150724a688e99c3f8e8260d41a"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/images/06600.jpg": {
+      "bytes": 42762,
+      "sha256": "ba7b35f02ca1b355c4c7e3d1b931ed28cbe5176360387f2cab673c5e33d30cfa"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/images/06640.jpg": {
+      "bytes": 42633,
+      "sha256": "a48a79a30c3eb903bf8cb12c63ecfb8432a11b556545220218e429a21cc3fa19"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/images/06680.jpg": {
+      "bytes": 42457,
+      "sha256": "963c7d62169d4d810c3161dd44d0e96e49174298db49e2de774acbcdfb56b70e"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/images/06684.jpg": {
+      "bytes": 42478,
+      "sha256": "b0d20fdad6cb66cf8fc97a1e77f851867352f31da2e822777dfb3c03014ea661"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/images/06720.jpg": {
+      "bytes": 42294,
+      "sha256": "a10cb7daa37be2dd12852728f79c316bab0aaadc08e82b9be11df7259ce7ef64"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/images/06760.jpg": {
+      "bytes": 42473,
+      "sha256": "c66e92eac1979789979e7f8999867afc6b96c50f306751b90bc39fa976fd1f7d"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/images/06800.jpg": {
+      "bytes": 42637,
+      "sha256": "fc5e3f9363d3d52cd04fe0e18a68e42161d85e5d73b73f0e80866a764563e912"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/images/06840.jpg": {
+      "bytes": 42582,
+      "sha256": "cf20f2c9a34efcd904997955ff48658aa066d43ef2e5f700060aff66981105af"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/images/06880.jpg": {
+      "bytes": 42735,
+      "sha256": "a6e4091c8476c633427b163b653e92314ad4c63733c3ca16af32e284ad2c6d2c"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/images/06920.jpg": {
+      "bytes": 42773,
+      "sha256": "7e6e01a109eee160eef365b9623acb6f7eba9a807ec70e854e86f243f3306830"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/images/06960.jpg": {
+      "bytes": 42789,
+      "sha256": "41e210a28f69fe80132acbd20fb9771eade9cff6434e2cf285d21fdf9b891168"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/images/07000.jpg": {
+      "bytes": 42666,
+      "sha256": "3e3c865da6ee0aa7e08eb35a0f5c820edeca4c33d7ef4722069cacd8da67b400"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/images/07040.jpg": {
+      "bytes": 42731,
+      "sha256": "9fb9d50223faf0f209ab6e6dbf11995efd9d0c16f7bc1fca5944e9b3d3f4f6ce"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/images/07080.jpg": {
+      "bytes": 42834,
+      "sha256": "df84cd79fd44c2ede660a266556c48d16f36d3a1538e55ca82e94ad2f209ffe4"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/images/07120.jpg": {
+      "bytes": 42878,
+      "sha256": "e10f4da94d734f1a12106118ff2a495a6c5df8fe3475e399e5bd396d7317d2b8"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/images/07160.jpg": {
+      "bytes": 42893,
+      "sha256": "fde8873c7f56706001cec5664e0d36f687e54e9a3b69376417b3e2d6e1f35073"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/images/07200.jpg": {
+      "bytes": 43058,
+      "sha256": "a07edceac89e0bd8690df1cced6fe72a3db22f79c395ee5426f66195580d7ffd"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/images/07240.jpg": {
+      "bytes": 43061,
+      "sha256": "2f89181a206e14d52b7bc5a1dd9da49b4fedf1b4e2c4148e88fc5890d8e8dad6"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/images/07280.jpg": {
+      "bytes": 43153,
+      "sha256": "a14ac287239f809f1c21ab2c4197bc5c038750b2193034cc72e70eb4c1978d55"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/images/07320.jpg": {
+      "bytes": 43061,
+      "sha256": "1f2ebfba3990b84db4515bd3c60b3cf836fde52a69e5ec31f023f10caa981749"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/images/07360.jpg": {
+      "bytes": 43197,
+      "sha256": "002c666e93689d23deb5dd6ba8e026fc2f956b2418611edbae558af666dbcac3"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/images/07400.jpg": {
+      "bytes": 43372,
+      "sha256": "ed24cb7264fdf4c9432c2893e402b10a25c2aa8b7c9dde76af037c13ff51de2f"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/images/07440.jpg": {
+      "bytes": 43311,
+      "sha256": "6e597289c64da1afe63b8e12e438f398fe5cb1b741bf51a0116f8e1e4b4c01ef"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/images/07480.jpg": {
+      "bytes": 43233,
+      "sha256": "b600030a5b341a5115023ab9d62f0cd93f03a4ca1c3f2f18ac13bfffc3049619"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/images/07520.jpg": {
+      "bytes": 43156,
+      "sha256": "bb2a5c4e160ec248b5df737f3508e10828c7ecd11fb1599702da3cd5c8e998ce"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/images/07560.jpg": {
+      "bytes": 43117,
+      "sha256": "5761c1ccfee126fd6de422bcbb7ead5a39430eaf700a11bdf7c7ab6331441fe9"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/images/07600.jpg": {
+      "bytes": 43075,
+      "sha256": "1d14630036fae8c26d118f24dbe0fdd2c4a10204a092a39125e893ee44c9fbda"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/images/07640.jpg": {
+      "bytes": 43064,
+      "sha256": "c1e82287d8b6007a1ef92e0435d4c50f298e93c6ed13d570c9f2948abc296ba0"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/images/07680.jpg": {
+      "bytes": 43101,
+      "sha256": "d8d0ce18f7d27e8daa8fee98021c197e8c25d084c649fd2b30b5bacf4b8569c9"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/images/07720.jpg": {
+      "bytes": 43103,
+      "sha256": "d4c44777227dd5031c83cbd479aaebe1735f297946554243e978cb74ec2ace3d"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/images/07760.jpg": {
+      "bytes": 43061,
+      "sha256": "a47ab90e60d3f8b713a14cab0d9342fefd475910ac072586cf76baf7d2062371"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/images/07800.jpg": {
+      "bytes": 43050,
+      "sha256": "7417c5d082ea7e914634f4cdc0e845de42c1d19b917b5565a5c9db6e04a076ee"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/images/07840.jpg": {
+      "bytes": 43138,
+      "sha256": "7628e0d7ced368086c92df401c8cf368cb4f18de1392815bff924a82e8f3c2b2"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/images/07880.jpg": {
+      "bytes": 43139,
+      "sha256": "73b3868281aa612c36995fc979d4ee26cf66fd973a4cad86da151b36f1ae21ae"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/images/07920.jpg": {
+      "bytes": 43058,
+      "sha256": "612e14e0185ac2d107a22b5028a19d544153dad4ee17afd16a1c2f93556edd14"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/images/07960.jpg": {
+      "bytes": 43106,
+      "sha256": "29343ebef62d36ba6b356851ba7b5f522d96bca64b5640cbb9b7777a1af6211e"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/images/08000.jpg": {
+      "bytes": 43091,
+      "sha256": "4df532bb18c55cadb48b56cf2a2423bb229d168779ec931358ffb9a96dc96d70"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/images/08040.jpg": {
+      "bytes": 43101,
+      "sha256": "ef30aef7cfd74cd4a7748aade32be081859e24cb4a438d7d464960ffd87fc224"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/images/08080.jpg": {
+      "bytes": 43209,
+      "sha256": "254bc182f898916235a35e08f1d1e68cf50ef65153cefe851b34ef62f1dded72"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/images/08120.jpg": {
+      "bytes": 43250,
+      "sha256": "5ca23ca63226167eb4517362222c145bc075e39fb13f966027894b865a2fbbb8"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/images/08160.jpg": {
+      "bytes": 43231,
+      "sha256": "242ac92c6c79325ffe1bfa7571fe4ba67bc561c39e62f03ab73d7d59d18c6b9e"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/images/08200.jpg": {
+      "bytes": 43296,
+      "sha256": "86085c4c14f817ee2f0e3a6236eefff1ff23db4131478b523ad7e147eb0367ba"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/images/08240.jpg": {
+      "bytes": 43325,
+      "sha256": "b368f04f1a9899db0b1bd3fa5ee74b41dfc7dc9ff8dbc4224fab16750aa2a83a"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/images/08280.jpg": {
+      "bytes": 43373,
+      "sha256": "b6b1a72a662918fafe299a5b501e72dbd8ca7f6f067040194739e4d5b109f490"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/images/08320.jpg": {
+      "bytes": 43312,
+      "sha256": "5ad14d7b0e077d104f8e137aa9b2bf0010eb6799b2be2ab2324c476e952d384a"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/images/08360.jpg": {
+      "bytes": 43319,
+      "sha256": "ad941fdbbd104adb58777c734fae825e27db938a534fe1cf38caede3bfbbcdd4"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/images/08400.jpg": {
+      "bytes": 43311,
+      "sha256": "c47adce7961ebb77bbbf74712b4b0f007825fed5e46900b94a97f0539d486081"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/images/08440.jpg": {
+      "bytes": 43406,
+      "sha256": "34dbe3084f15833189e07bd3ccff7e5eaf08bb78333ca1e5fd1aec3ffb580c96"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/images/08480.jpg": {
+      "bytes": 43399,
+      "sha256": "5d895a2e3319541c05895b4d63b93d95fd043bc66a3f2a1e1c963cba1e318bbc"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/images/08500.jpg": {
+      "bytes": 43432,
+      "sha256": "04b789c2782394e943c5799e37289ebd5bc5e52656c24e5cd24ee2e7acfff6bb"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/images/08520.jpg": {
+      "bytes": 43393,
+      "sha256": "0540a9c31e162029b7803172d847d7549475e1a812b940ece945c27adf39f321"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/images/08560.jpg": {
+      "bytes": 43250,
+      "sha256": "b1ec2c62aa2ef7e9f3d05e8af94477798c5bd44c26179b40c21d43bed2205012"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/images/08600.jpg": {
+      "bytes": 43306,
+      "sha256": "fd37dd6b50d15afd06cde01188358f99487eff6a708be89770f7894509497ad2"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/images/08640.jpg": {
+      "bytes": 43169,
+      "sha256": "bf3e8d87feac3b69c2953d0a0f6b1d7ab27845d5604f30bbfa542e7ffabb9d80"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/images/08680.jpg": {
+      "bytes": 43042,
+      "sha256": "21cd7d62ff8f539a997d32251d3d2d259438c76a9509114db362a3e32d175374"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/images/08720.jpg": {
+      "bytes": 43181,
+      "sha256": "39a1df270a88ce736a6d5f7c0e41173cf906782e5b8e2e0f29745b9122c163b7"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/images/08760.jpg": {
+      "bytes": 43237,
+      "sha256": "3175eb47ab7a93830981c556d501c3425b0b95ff3e84b5ffa6cc3d770242ddb3"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/images/08800.jpg": {
+      "bytes": 43204,
+      "sha256": "6a24b822dd1e8208a79247c4f57b92c83ebc582d6e4d6e22c258b5b756bbbbdd"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/images/08840.jpg": {
+      "bytes": 43271,
+      "sha256": "01acea47ebb1efd7e13df78f5812820ca360ada2de98fd6193db37b3656129f2"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/images/10180.jpg": {
+      "bytes": 43485,
+      "sha256": "592924c2303204a7d896f342973b253eb6444b85deb76b5ec783dbca8f41ca00"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/images/13287.jpg": {
+      "bytes": 42630,
+      "sha256": "2aac5b3859d4da4c231cb293b48d24218d97ff3be3ca6fdb49234a664e5c2816"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/images/14007.jpg": {
+      "bytes": 42285,
+      "sha256": "a702b557c39a5f6438b1524fc1fd8fc9af59d62918c3be5503d332b9b02163a7"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/independent_score.json": {
+      "bytes": 1713,
+      "sha256": "6b4da3d4e53f5159b4fdf764b6b6ad764f7a9284dd3b82f872469bca0ab2b524"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/installed_properties_end.json": {
+      "bytes": 396,
+      "sha256": "01a3c6fc69ccb948a9ac6cf082f5c360b4eabc615048fb037482972a86f35d9c"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/measured_arrays.npz": {
+      "bytes": 1718881,
+      "sha256": "6cfcff3386035e3b5ec24ad80bc33496f261ddcf8801da579a0f2f4c81033078"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/operation_events.json": {
+      "bytes": 2536,
+      "sha256": "d58bac5a120efe310b5f233ad2846395aa445ad1de800b9b17c6bf3c28ae290e"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/physical_capture_receipt.json": {
+      "bytes": 654,
+      "sha256": "5322fef883bb48e03baff845c9d0281b4a0b638a2cc6b55758c713989fed8aa3"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/physical_snapshots.jsonl": {
+      "bytes": 75491623,
+      "sha256": "d7707e1365aca58ea2f8fa9bc48cbde3f4961c44c45a42f216d6e96e1015dc40"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/public_cue.json": {
+      "bytes": 625,
+      "sha256": "8856fcedb7912ea5e14400fa54b5d74e0a09eb900d68663997ca50bea641eaf0"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/queue_completion.json": {
+      "bytes": 259,
+      "sha256": "1092daaca2e8a40cf9dd8a0aaaed46aecf3df852d28dd4c5eed986be397f70c9"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/skill_prerequisite_score.json": {
+      "bytes": 652,
+      "sha256": "4666054255883174a1fb83e80bd564c75dbf5a07d1b2f8a26301cbfca231fb25"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/stage_verification.json": {
+      "bytes": 96035,
+      "sha256": "b456f0ba55e8379834462f63d43077b2b5ded973d0f47a6a2dd9b857f65e8c8c"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/stages/approach/COMMITTED.json": {
+      "bytes": 92,
+      "sha256": "35c1e102d56d6dcad7105cd3e1438a117c1a12e637be3a2fa570c1364d3878e0"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/stages/approach/manifest.json": {
+      "bytes": 6391,
+      "sha256": "13056f88640b57449f31e57800b8e7ba49d4be1a8e20d069fbae9aef35bf497b"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/stages/episode.json": {
+      "bytes": 1479,
+      "sha256": "e61507b8b0a19ab21171464cc97636c7bb678c524518c67a4f17a79f9b842047"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/stages/grasp/COMMITTED.json": {
+      "bytes": 92,
+      "sha256": "9541792c416fbe2772761857a0a24cccd2ec4cdb8ef203de81c797df6f19be44"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/stages/grasp/manifest.json": {
+      "bytes": 17196,
+      "sha256": "941962d23c9387b1a1939124e279081888d0a3bc0fac331cb6615ff55f2a74c4"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/stages/lift/COMMITTED.json": {
+      "bytes": 92,
+      "sha256": "6b62c6b6683d8e0f87273b97793a3a84cfd19bcb3e680b03109adf1e92a0aa06"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/stages/lift/manifest.json": {
+      "bytes": 9384,
+      "sha256": "83b1d6c8163227514e5117d51ba698368fdf2c9a7a1a3456a550b3ede03bb16d"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/stages/place_release/COMMITTED.json": {
+      "bytes": 92,
+      "sha256": "570a29479ba1bdfc57a23488b90a6884c4ef3674f86426058a1aa11ff696e3ea"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/stages/place_release/manifest.json": {
+      "bytes": 18535,
+      "sha256": "4d81b5695935e9d9913a89e6cfb2270a7e1fc1c07d706e3cc4e1ef1a65f39004"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/stages/regrasp/COMMITTED.json": {
+      "bytes": 92,
+      "sha256": "2522cf2d6cae41f80c1511a3c83e137080643c13b3c3158d4fa99dc20c2ec56b"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/stages/regrasp/manifest.json": {
+      "bytes": 6321,
+      "sha256": "c12486de4b67310e0ce56dc378b415fe894497bc33e41b83dfbe1ec05d07ff1b"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/stages/retreat/COMMITTED.json": {
+      "bytes": 92,
+      "sha256": "abe4b2e34995b8a36b41371ab85d06ca706962c221d5715bd61ee0235befc964"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/stages/retreat/manifest.json": {
+      "bytes": 3228,
+      "sha256": "0d115f6c1411e6686f5ea4bed182b9117b5d3c7056bbe251bd4dae844592c893"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/stages/return/COMMITTED.json": {
+      "bytes": 92,
+      "sha256": "1e0f439a5c720e97033051f67c621b67d3215cad0dfbb6a0d8239e44d816881b"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/stages/return/manifest.json": {
+      "bytes": 3229,
+      "sha256": "35577f05dbe61f2b4dabea6b509dd64d4c471c9a15af2a48516effd2eda6cfc7"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/stages/transport/COMMITTED.json": {
+      "bytes": 92,
+      "sha256": "04723e817de0c6c67924dbccdc2007c89811e8b55e8a308a326409009f426afc"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/stages/transport/manifest.json": {
+      "bytes": 19577,
+      "sha256": "1531d323a71d9f18214fd61b729caa9dc8c8a7e25ba5f3260f070aa46f90ae20"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/states.jsonl": {
+      "bytes": 21606447,
+      "sha256": "9b3a67218bf98d2e767048ca70ae3c1924be3a2ec67f4bac5fbd97fb44e7ceca"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/timing_score.json": {
+      "bytes": 2665,
+      "sha256": "6886ef5f055224ad4a422e797c7e5f6d8f7f2d00ccc67b9d053b06e94a1abad1"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/task/video_frames.json": {
+      "bytes": 250026,
+      "sha256": "3450143efc97badd0d0bf072a0925a513f4a7e3b290bbce1e8a2afef85bb6498"
+    },
+    "cases/dev_seen_handoff_instrumentation_002_aris/uninterrupted_transient_verdict.json": {
+      "bytes": 9192,
+      "sha256": "72edeaa1aa16faa32c1f820591a323f1b110f936f4e1992c7d1d832392f7cd33"
+    }
+  },
+  "auditor_release_sha256": "eaad7182727867ad2dce94896fb8916db6df672174013870f994bc3f5f95d0b6",
+  "available_partial_RAW": {
+    "case_directory_exists": true,
+    "counts_are_not_complete_epoch_acceptance": true,
+    "files": {
+      "task/captures.jsonl": {
+        "available": true,
+        "parse_errors": [],
+        "phase_counts": {},
+        "rows": 176
+      },
+      "task/command_events.jsonl": {
+        "available": true,
+        "parse_errors": [],
+        "phase_counts": {},
+        "rows": 27990
+      },
+      "task/contact_rows.jsonl": {
+        "available": true,
+        "parse_errors": [],
+        "phase_counts": {},
+        "rows": 14007
+      },
+      "task/dispatch.jsonl": {
+        "available": true,
+        "parse_errors": [],
+        "phase_counts": {},
+        "rows": 14007
+      },
+      "task/physical_snapshots.jsonl": {
+        "available": true,
+        "parse_errors": [],
+        "phase_counts": {
+          "POST_STEP": 14007,
+          "PRE_WRITE": 14007,
+          "TASK_BEGIN": 1,
+          "TASK_END": 1
+        },
+        "rows": 28016
+      },
+      "task/states.jsonl": {
+        "available": true,
+        "parse_errors": [],
+        "phase_counts": {},
+        "rows": 14007
+      }
+    }
+  },
+  "cost_scope": "Actual child-attempt wall incl startup/termination/cleanup;700s is child deadline, not total-wall promise",
+  "created_at_utc": "2026-10-14T03:32:18.930176+00:00",
+  "declared_primary_attempts": 1,
+  "error": {
+    "message": "onset/confirmation disagreement",
+    "type": "ValueError"
+  },
+  "load_bearing_verdict": "UNKNOWN",
+  "new_diagnostic_reintegration_epochs": 0,
+  "observed_task_verdict": "UNKNOWN_UNLESS_INDEPENDENTLY_COMPLETED",
+  "primary_attempt_still_in_denominator": true,
+  "root_notification_sha256": "bd4ab50f7ba955f3a09a453d8a6cb7efc33440093635d78cc62d478ac7ead770",
+  "schema": "IndependentOneNativeHandoffRawAudit/0.3",
+  "source_release_sha256": "eb807cffef785271e6fc6b7558598c29c6a8c76af46f043ea321a74935fab34c",
+  "status": "FAIL_OR_PARTIAL_NATIVE_RAW_AUDIT_RETAINED",
+  "training_admitted": 0,
+  "worker_completion": {
+    "allocated_gpu_hours_upper_bound": 0.11525924727055503,
+    "attempt_id": "20261014T031856351974Z-2928468",
+    "case_id": "dev_seen_handoff_instrumentation_002_aris",
+    "cost_scope": "OWNED_CHILD_ATTEMPT_WALL_UPPER_BOUND_INCLUDING_STARTUP_AND_FAILED_LAUNCHES; RESOURCE_REFUSAL_WITHOUT_NATIVE_ONLY_ZERO",
+    "exit_code": 0,
+    "foreign_processes_signaled": false,
+    "formal_episode_started": true,
+    "gpu_global_configuration_changes": false,
+    "gpu_uuid": "GPU-b129224c-c735-a03f-de6c-185d2a2724b1",
+    "launch_log": "launch_attempts/dev_seen_handoff_instrumentation_002_aris/20261014T031856351974Z-2928468.log",
+    "model_calls": 0,
+    "native_output_exists": true,
+    "owned_process_group_empty": true,
+    "retry_after_resource_change_allowed": false,
+    "status": "COMPLETE",
+    "timed_out": false,
+    "training_gpu_hours": 0,
+    "wall_s": 414.9332901739981
+  },
+  "worker_terminal_sha256": "458275ea8ef6c4feb6792f9584b971e16a9f780d0ef0e6d8ef188ae6bee51c8b"
+}

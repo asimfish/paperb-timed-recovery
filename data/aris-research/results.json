@@ -1,107 +1,102 @@
 {
-  "updated_at_utc": "2026-10-14T03:55:54.313184+00:00",
   "adaptation": {
     "date": "2026-10-11",
-    "scope": "simulation_only_symbolic_development",
-    "rows": 69120,
-    "unique_groups": 256,
     "heldout_mappings": 2,
     "methods": {
       "expert_reset": {
-        "per_seed": [
-          {
-            "seed": 0,
-            "first3": 0.0,
-            "last3": 0.0,
-            "mean": 0.0,
-            "curve": [
-              0.0,
-              0.0,
-              0.0,
-              0.0,
-              0.0,
-              0.0,
-              0.0,
-              0.0,
-              0.0,
-              0.0,
-              0.0,
-              0.0,
-              0.0,
-              0.0,
-              0.0,
-              0.0,
-              0.0,
-              0.0
-            ],
-            "wrong_picks": 4608
-          },
-          {
-            "seed": 1,
-            "first3": 0.0,
-            "last3": 0.0,
-            "mean": 0.0,
-            "curve": [
-              0.0,
-              0.0,
-              0.0,
-              0.0,
-              0.0,
-              0.0,
-              0.0,
-              0.0,
-              0.0,
-              0.0,
-              0.0,
-              0.0,
-              0.0,
-              0.0,
-              0.0,
-              0.0,
-              0.0,
-              0.0
-            ],
-            "wrong_picks": 4608
-          },
-          {
-            "seed": 2,
-            "first3": 0.0,
-            "last3": 0.0,
-            "mean": 0.0,
-            "curve": [
-              0.0,
-              0.0,
-              0.0,
-              0.0,
-              0.0,
-              0.0,
-              0.0,
-              0.0,
-              0.0,
-              0.0,
-              0.0,
-              0.0,
-              0.0,
-              0.0,
-              0.0,
-              0.0,
-              0.0,
-              0.0
-            ],
-            "wrong_picks": 4608
-          }
-        ],
         "first3": 0.0,
         "last3": 0.0,
-        "mean": 0.0
-      },
-      "expert_retain": {
+        "mean": 0.0,
         "per_seed": [
           {
-            "seed": 0,
+            "curve": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
             "first3": 0.0,
-            "last3": 0.32421875,
-            "mean": 0.24479166666666666,
+            "last3": 0.0,
+            "mean": 0.0,
+            "seed": 0,
+            "wrong_picks": 4608
+          },
+          {
+            "curve": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "first3": 0.0,
+            "last3": 0.0,
+            "mean": 0.0,
+            "seed": 1,
+            "wrong_picks": 4608
+          },
+          {
+            "curve": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "first3": 0.0,
+            "last3": 0.0,
+            "mean": 0.0,
+            "seed": 2,
+            "wrong_picks": 4608
+          }
+        ]
+      },
+      "expert_retain": {
+        "first3": 0.0,
+        "last3": 0.2903645833333333,
+        "mean": 0.20399305555555555,
+        "per_seed": [
+          {
             "curve": [
               0.0,
               0.0,
@@ -122,13 +117,13 @@
               0.33203125,
               0.3046875
             ],
+            "first3": 0.0,
+            "last3": 0.32421875,
+            "mean": 0.24479166666666666,
+            "seed": 0,
             "wrong_picks": 3480
           },
           {
-            "seed": 1,
-            "first3": 0.0,
-            "last3": 0.2916666666666667,
-            "mean": 0.18663194444444445,
             "curve": [
               0.0,
               0.0,
@@ -149,13 +144,13 @@
               0.25390625,
               0.3203125
             ],
+            "first3": 0.0,
+            "last3": 0.2916666666666667,
+            "mean": 0.18663194444444445,
+            "seed": 1,
             "wrong_picks": 3748
           },
           {
-            "seed": 2,
-            "first3": 0.0,
-            "last3": 0.2552083333333333,
-            "mean": 0.18055555555555555,
             "curve": [
               0.0,
               0.0,
@@ -176,108 +171,108 @@
               0.22265625,
               0.26953125
             ],
+            "first3": 0.0,
+            "last3": 0.2552083333333333,
+            "mean": 0.18055555555555555,
+            "seed": 2,
             "wrong_picks": 3776
           }
-        ],
-        "first3": 0.0,
-        "last3": 0.2903645833333333,
-        "mean": 0.20399305555555555
+        ]
       },
       "history_reset": {
-        "per_seed": [
-          {
-            "seed": 0,
-            "first3": 0.0,
-            "last3": 0.0,
-            "mean": 0.0,
-            "curve": [
-              0.0,
-              0.0,
-              0.0,
-              0.0,
-              0.0,
-              0.0,
-              0.0,
-              0.0,
-              0.0,
-              0.0,
-              0.0,
-              0.0,
-              0.0,
-              0.0,
-              0.0,
-              0.0,
-              0.0,
-              0.0
-            ],
-            "wrong_picks": 4608
-          },
-          {
-            "seed": 1,
-            "first3": 0.0,
-            "last3": 0.0,
-            "mean": 0.0,
-            "curve": [
-              0.0,
-              0.0,
-              0.0,
-              0.0,
-              0.0,
-              0.0,
-              0.0,
-              0.0,
-              0.0,
-              0.0,
-              0.0,
-              0.0,
-              0.0,
-              0.0,
-              0.0,
-              0.0,
-              0.0,
-              0.0
-            ],
-            "wrong_picks": 4608
-          },
-          {
-            "seed": 2,
-            "first3": 0.0,
-            "last3": 0.0,
-            "mean": 0.0,
-            "curve": [
-              0.0,
-              0.0,
-              0.0,
-              0.0,
-              0.0,
-              0.0,
-              0.0,
-              0.0,
-              0.0,
-              0.0,
-              0.0,
-              0.0,
-              0.0,
-              0.0,
-              0.0,
-              0.0,
-              0.0,
-              0.0
-            ],
-            "wrong_picks": 4608
-          }
-        ],
         "first3": 0.0,
         "last3": 0.0,
-        "mean": 0.0
-      },
-      "history_retain": {
+        "mean": 0.0,
         "per_seed": [
           {
+            "curve": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "first3": 0.0,
+            "last3": 0.0,
+            "mean": 0.0,
             "seed": 0,
-            "first3": 0.028645833333333332,
-            "last3": 0.23177083333333334,
-            "mean": 0.1430121527777778,
+            "wrong_picks": 4608
+          },
+          {
+            "curve": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "first3": 0.0,
+            "last3": 0.0,
+            "mean": 0.0,
+            "seed": 1,
+            "wrong_picks": 4608
+          },
+          {
+            "curve": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "first3": 0.0,
+            "last3": 0.0,
+            "mean": 0.0,
+            "seed": 2,
+            "wrong_picks": 4608
+          }
+        ]
+      },
+      "history_retain": {
+        "first3": 0.05121527777777777,
+        "last3": 0.23697916666666666,
+        "mean": 0.1613136574074074,
+        "per_seed": [
+          {
             "curve": [
               0.0,
               0.0859375,
@@ -298,13 +293,13 @@
               0.18359375,
               0.2734375
             ],
+            "first3": 0.028645833333333332,
+            "last3": 0.23177083333333334,
+            "mean": 0.1430121527777778,
+            "seed": 0,
             "wrong_picks": 3949
           },
           {
-            "seed": 1,
-            "first3": 0.06380208333333333,
-            "last3": 0.24869791666666666,
-            "mean": 0.16471354166666666,
             "curve": [
               0.0,
               0.19140625,
@@ -325,13 +320,13 @@
               0.1953125,
               0.26953125
             ],
+            "first3": 0.06380208333333333,
+            "last3": 0.24869791666666666,
+            "mean": 0.16471354166666666,
+            "seed": 1,
             "wrong_picks": 3849
           },
           {
-            "seed": 2,
-            "first3": 0.061197916666666664,
-            "last3": 0.23046875,
-            "mean": 0.1762152777777778,
             "curve": [
               0.0,
               0.18359375,
@@ -352,20 +347,20 @@
               0.28125,
               0.26953125
             ],
+            "first3": 0.061197916666666664,
+            "last3": 0.23046875,
+            "mean": 0.1762152777777778,
+            "seed": 2,
             "wrong_picks": 3796
           }
-        ],
-        "first3": 0.05121527777777777,
-        "last3": 0.23697916666666666,
-        "mean": 0.1613136574074074
+        ]
       },
       "rule_reset": {
+        "first3": 0.3177083333333333,
+        "last3": 0.3255208333333333,
+        "mean": 0.3240017361111111,
         "per_seed": [
           {
-            "seed": null,
-            "first3": 0.3177083333333333,
-            "last3": 0.3255208333333333,
-            "mean": 0.3240017361111111,
             "curve": [
               0.30078125,
               0.32421875,
@@ -386,20 +381,20 @@
               0.3515625,
               0.3046875
             ],
+            "first3": 0.3177083333333333,
+            "last3": 0.3255208333333333,
+            "mean": 0.3240017361111111,
+            "seed": null,
             "wrong_picks": 3115
           }
-        ],
-        "first3": 0.3177083333333333,
-        "last3": 0.3255208333333333,
-        "mean": 0.3240017361111111
+        ]
       },
       "rule_retain": {
+        "first3": 0.5989583333333334,
+        "last3": 1.0,
+        "mean": 0.9331597222222222,
         "per_seed": [
           {
-            "seed": null,
-            "first3": 0.5989583333333334,
-            "last3": 1.0,
-            "mean": 0.9331597222222222,
             "curve": [
               0.30078125,
               0.671875,
@@ -420,20 +415,20 @@
               1.0,
               1.0
             ],
+            "first3": 0.5989583333333334,
+            "last3": 1.0,
+            "mean": 0.9331597222222222,
+            "seed": null,
             "wrong_picks": 308
           }
-        ],
-        "first3": 0.5989583333333334,
-        "last3": 1.0,
-        "mean": 0.9331597222222222
+        ]
       },
       "uniform": {
+        "first3": 0.3177083333333333,
+        "last3": 0.3255208333333333,
+        "mean": 0.3240017361111111,
         "per_seed": [
           {
-            "seed": null,
-            "first3": 0.3177083333333333,
-            "last3": 0.3255208333333333,
-            "mean": 0.3240017361111111,
             "curve": [
               0.30078125,
               0.32421875,
@@ -454,28 +449,40 @@
               0.3515625,
               0.3046875
             ],
+            "first3": 0.3177083333333333,
+            "last3": 0.3255208333333333,
+            "mean": 0.3240017361111111,
+            "seed": null,
             "wrong_picks": 3115
           }
-        ],
-        "first3": 0.3177083333333333,
-        "last3": 0.3255208333333333,
-        "mean": 0.3240017361111111
-      }
-    },
-    "source_costs": {
-      "history": {
-        "setup_trials": 0,
-        "training_trials": 9216,
-        "physical_actions": 27033
-      },
-      "expert": {
-        "setup_trials": 2313,
-        "training_trials": 9216,
-        "physical_actions": 33984
+        ]
       }
     },
     "paired_analysis": {
-      "scope": "development; fixed two heldout mappings and fixed three fits",
+      "algorithm_or_robot_acceptance": false,
+      "contrasts": {
+        "expert_retain": {
+          "conditional_group_bootstrap_95": [
+            -0.08550347222222221,
+            -0.020388454861111165
+          ],
+          "mean_difference": -0.053385416666666664
+        },
+        "history_reset": {
+          "conditional_group_bootstrap_95": [
+            0.2131076388888889,
+            0.26345486111111105
+          ],
+          "mean_difference": 0.23697916666666666
+        },
+        "rule_retain": {
+          "conditional_group_bootstrap_95": [
+            -0.7868923611111112,
+            -0.7365451388888891
+          ],
+          "mean_difference": -0.7630208333333334
+        }
+      },
       "interval_boundary": "group resampling within mapping; no task-population or fit-population coverage claim",
       "last3_per_mapping": {
         "expert_reset": {
@@ -507,929 +514,933 @@
           "5": 0.3046875
         }
       },
-      "contrasts": {
-        "expert_retain": {
-          "mean_difference": -0.053385416666666664,
-          "conditional_group_bootstrap_95": [
-            -0.08550347222222221,
-            -0.020388454861111165
-          ]
-        },
-        "history_reset": {
-          "mean_difference": 0.23697916666666666,
-          "conditional_group_bootstrap_95": [
-            0.2131076388888889,
-            0.26345486111111105
-          ]
-        },
-        "rule_retain": {
-          "mean_difference": -0.7630208333333334,
-          "conditional_group_bootstrap_95": [
-            -0.7868923611111112,
-            -0.7365451388888891
-          ]
-        }
-      },
       "predeclared_mechanism_continue_gate": false,
-      "algorithm_or_robot_acceptance": false
-    }
+      "scope": "development; fixed two heldout mappings and fixed three fits"
+    },
+    "rows": 69120,
+    "scope": "simulation_only_symbolic_development",
+    "source_costs": {
+      "expert": {
+        "physical_actions": 33984,
+        "setup_trials": 2313,
+        "training_trials": 9216
+      },
+      "history": {
+        "physical_actions": 27033,
+        "setup_trials": 0,
+        "training_trials": 9216
+      }
+    },
+    "unique_groups": 256
   },
   "clock": {
-    "date": "2026-10-13",
-    "offered": 54,
     "completed": 54,
-    "native_samples": 21654,
-    "scope": "MuJoCo mechanical clock component; not robot or chemistry",
     "conditions": [
       {
         "arm": "paused_diagnostic",
         "setting": "calibrated_fast",
-        "workload_seconds": 0.0,
         "sim": {
           "TRUE": 3
         },
         "wall": {
           "TRUE": 3
-        }
+        },
+        "workload_seconds": 0.0
       },
       {
         "arm": "paused_diagnostic",
         "setting": "calibrated_fast",
-        "workload_seconds": 0.4,
         "sim": {
           "TRUE": 3
         },
         "wall": {
           "TRUE": 3
-        }
+        },
+        "workload_seconds": 0.4
       },
       {
         "arm": "paused_diagnostic",
         "setting": "calibrated_fast",
-        "workload_seconds": 1.2,
         "sim": {
           "TRUE": 3
         },
         "wall": {
           "FALSE": 3
-        }
+        },
+        "workload_seconds": 1.2
       },
       {
         "arm": "paused_diagnostic",
         "setting": "calibrated_slow",
-        "workload_seconds": 0.0,
         "sim": {
           "TRUE": 3
         },
         "wall": {
           "TRUE": 3
-        }
+        },
+        "workload_seconds": 0.0
       },
       {
         "arm": "paused_diagnostic",
         "setting": "calibrated_slow",
-        "workload_seconds": 0.4,
         "sim": {
           "TRUE": 3
         },
         "wall": {
           "FALSE": 3
-        }
+        },
+        "workload_seconds": 0.4
       },
       {
         "arm": "paused_diagnostic",
         "setting": "calibrated_slow",
-        "workload_seconds": 1.2,
         "sim": {
           "TRUE": 3
         },
         "wall": {
           "FALSE": 3
-        }
+        },
+        "workload_seconds": 1.2
       },
       {
         "arm": "continuous_blocking",
         "setting": "calibrated_fast",
-        "workload_seconds": 0.0,
         "sim": {
           "TRUE": 3
         },
         "wall": {
           "TRUE": 3
-        }
+        },
+        "workload_seconds": 0.0
       },
       {
         "arm": "continuous_blocking",
         "setting": "calibrated_fast",
-        "workload_seconds": 0.4,
         "sim": {
           "TRUE": 3
         },
         "wall": {
           "TRUE": 3
-        }
+        },
+        "workload_seconds": 0.4
       },
       {
         "arm": "continuous_blocking",
         "setting": "calibrated_fast",
-        "workload_seconds": 1.2,
         "sim": {
           "FALSE": 3
         },
         "wall": {
           "FALSE": 3
-        }
+        },
+        "workload_seconds": 1.2
       },
       {
         "arm": "continuous_blocking",
         "setting": "calibrated_slow",
-        "workload_seconds": 0.0,
         "sim": {
           "TRUE": 3
         },
         "wall": {
           "TRUE": 3
-        }
+        },
+        "workload_seconds": 0.0
       },
       {
         "arm": "continuous_blocking",
         "setting": "calibrated_slow",
-        "workload_seconds": 0.4,
         "sim": {
           "FALSE": 3
         },
         "wall": {
           "FALSE": 3
-        }
+        },
+        "workload_seconds": 0.4
       },
       {
         "arm": "continuous_blocking",
         "setting": "calibrated_slow",
-        "workload_seconds": 1.2,
         "sim": {
           "FALSE": 3
         },
         "wall": {
           "FALSE": 3
-        }
+        },
+        "workload_seconds": 1.2
       },
       {
         "arm": "continuous_preinstalled",
         "setting": "calibrated_fast",
-        "workload_seconds": 0.0,
         "sim": {
           "TRUE": 3
         },
         "wall": {
           "TRUE": 3
-        }
+        },
+        "workload_seconds": 0.0
       },
       {
         "arm": "continuous_preinstalled",
         "setting": "calibrated_fast",
-        "workload_seconds": 0.4,
         "sim": {
           "TRUE": 3
         },
         "wall": {
           "TRUE": 3
-        }
+        },
+        "workload_seconds": 0.4
       },
       {
         "arm": "continuous_preinstalled",
         "setting": "calibrated_fast",
-        "workload_seconds": 1.2,
         "sim": {
           "TRUE": 3
         },
         "wall": {
           "TRUE": 3
-        }
+        },
+        "workload_seconds": 1.2
       },
       {
         "arm": "continuous_preinstalled",
         "setting": "calibrated_slow",
-        "workload_seconds": 0.0,
         "sim": {
           "TRUE": 3
         },
         "wall": {
           "TRUE": 3
-        }
+        },
+        "workload_seconds": 0.0
       },
       {
         "arm": "continuous_preinstalled",
         "setting": "calibrated_slow",
-        "workload_seconds": 0.4,
         "sim": {
           "TRUE": 3
         },
         "wall": {
           "TRUE": 3
-        }
+        },
+        "workload_seconds": 0.4
       },
       {
         "arm": "continuous_preinstalled",
         "setting": "calibrated_slow",
-        "workload_seconds": 1.2,
         "sim": {
           "TRUE": 3
         },
         "wall": {
           "TRUE": 3
-        }
+        },
+        "workload_seconds": 1.2
       }
     ],
-    "totals": {
-      "paused_diagnostic": {
-        "offered": 18,
-        "sim": {
-          "TRUE": 18
-        },
-        "wall": {
-          "TRUE": 9,
-          "FALSE": 9
-        },
-        "sim_true_wall_false": 9
+    "continuous_clock_gate": true,
+    "date": "2026-10-13",
+    "native_samples": 21654,
+    "offered": 54,
+    "records": [
+      {
+        "actual_inference_wall_ns": 1268812,
+        "arm": "paused_diagnostic",
+        "id": "s0_w0_r1_paused_diagnostic",
+        "max_clock_lag_ns": 1191917,
+        "physics_progress_during_inference_ns": 0,
+        "repetition": 1,
+        "setting": "calibrated_fast",
+        "sim_timing": "TRUE",
+        "wall_timing": "TRUE",
+        "workload_seconds": 0.0
       },
+      {
+        "actual_inference_wall_ns": 1200507125,
+        "arm": "paused_diagnostic",
+        "id": "s0_w2_r2_paused_diagnostic",
+        "max_clock_lag_ns": 724685,
+        "physics_progress_during_inference_ns": 0,
+        "repetition": 2,
+        "setting": "calibrated_fast",
+        "sim_timing": "TRUE",
+        "wall_timing": "FALSE",
+        "workload_seconds": 1.2
+      },
+      {
+        "actual_inference_wall_ns": 1200071274,
+        "arm": "continuous_blocking",
+        "id": "s0_w2_r1_continuous_blocking",
+        "max_clock_lag_ns": 678769,
+        "physics_progress_during_inference_ns": 1200000000,
+        "repetition": 1,
+        "setting": "calibrated_fast",
+        "sim_timing": "FALSE",
+        "wall_timing": "FALSE",
+        "workload_seconds": 1.2
+      },
+      {
+        "actual_inference_wall_ns": 400934715,
+        "arm": "paused_diagnostic",
+        "id": "s0_w1_r0_paused_diagnostic",
+        "max_clock_lag_ns": 2440445,
+        "physics_progress_during_inference_ns": 0,
+        "repetition": 0,
+        "setting": "calibrated_fast",
+        "sim_timing": "TRUE",
+        "wall_timing": "TRUE",
+        "workload_seconds": 0.4
+      },
+      {
+        "actual_inference_wall_ns": 400270983,
+        "arm": "continuous_preinstalled",
+        "id": "s1_w1_r2_continuous_preinstalled",
+        "max_clock_lag_ns": 1605919,
+        "physics_progress_during_inference_ns": 400000000,
+        "repetition": 2,
+        "setting": "calibrated_slow",
+        "sim_timing": "TRUE",
+        "wall_timing": "TRUE",
+        "workload_seconds": 0.4
+      },
+      {
+        "actual_inference_wall_ns": 1962470,
+        "arm": "continuous_preinstalled",
+        "id": "s1_w0_r1_continuous_preinstalled",
+        "max_clock_lag_ns": 654566,
+        "physics_progress_during_inference_ns": 0,
+        "repetition": 1,
+        "setting": "calibrated_slow",
+        "sim_timing": "TRUE",
+        "wall_timing": "TRUE",
+        "workload_seconds": 0.0
+      },
+      {
+        "actual_inference_wall_ns": 1200128892,
+        "arm": "continuous_blocking",
+        "id": "s1_w2_r2_continuous_blocking",
+        "max_clock_lag_ns": 671766,
+        "physics_progress_during_inference_ns": 1200000000,
+        "repetition": 2,
+        "setting": "calibrated_slow",
+        "sim_timing": "FALSE",
+        "wall_timing": "FALSE",
+        "workload_seconds": 1.2
+      },
+      {
+        "actual_inference_wall_ns": 400666367,
+        "arm": "continuous_blocking",
+        "id": "s0_w1_r2_continuous_blocking",
+        "max_clock_lag_ns": 648904,
+        "physics_progress_during_inference_ns": 400000000,
+        "repetition": 2,
+        "setting": "calibrated_fast",
+        "sim_timing": "TRUE",
+        "wall_timing": "TRUE",
+        "workload_seconds": 0.4
+      },
+      {
+        "actual_inference_wall_ns": 1200626352,
+        "arm": "continuous_preinstalled",
+        "id": "s1_w2_r2_continuous_preinstalled",
+        "max_clock_lag_ns": 710292,
+        "physics_progress_during_inference_ns": 1200000000,
+        "repetition": 2,
+        "setting": "calibrated_slow",
+        "sim_timing": "TRUE",
+        "wall_timing": "TRUE",
+        "workload_seconds": 1.2
+      },
+      {
+        "actual_inference_wall_ns": 400552557,
+        "arm": "continuous_blocking",
+        "id": "s1_w1_r1_continuous_blocking",
+        "max_clock_lag_ns": 623614,
+        "physics_progress_during_inference_ns": 400000000,
+        "repetition": 1,
+        "setting": "calibrated_slow",
+        "sim_timing": "FALSE",
+        "wall_timing": "FALSE",
+        "workload_seconds": 0.4
+      },
+      {
+        "actual_inference_wall_ns": 400423509,
+        "arm": "continuous_blocking",
+        "id": "s0_w1_r0_continuous_blocking",
+        "max_clock_lag_ns": 1660545,
+        "physics_progress_during_inference_ns": 400000000,
+        "repetition": 0,
+        "setting": "calibrated_fast",
+        "sim_timing": "TRUE",
+        "wall_timing": "TRUE",
+        "workload_seconds": 0.4
+      },
+      {
+        "actual_inference_wall_ns": 1200740703,
+        "arm": "continuous_blocking",
+        "id": "s1_w2_r0_continuous_blocking",
+        "max_clock_lag_ns": 1174483,
+        "physics_progress_during_inference_ns": 1200000000,
+        "repetition": 0,
+        "setting": "calibrated_slow",
+        "sim_timing": "FALSE",
+        "wall_timing": "FALSE",
+        "workload_seconds": 1.2
+      },
+      {
+        "actual_inference_wall_ns": 1200352297,
+        "arm": "paused_diagnostic",
+        "id": "s0_w2_r1_paused_diagnostic",
+        "max_clock_lag_ns": 1558800,
+        "physics_progress_during_inference_ns": 0,
+        "repetition": 1,
+        "setting": "calibrated_fast",
+        "sim_timing": "TRUE",
+        "wall_timing": "FALSE",
+        "workload_seconds": 1.2
+      },
+      {
+        "actual_inference_wall_ns": 1087173,
+        "arm": "paused_diagnostic",
+        "id": "s1_w0_r1_paused_diagnostic",
+        "max_clock_lag_ns": 1253381,
+        "physics_progress_during_inference_ns": 0,
+        "repetition": 1,
+        "setting": "calibrated_slow",
+        "sim_timing": "TRUE",
+        "wall_timing": "TRUE",
+        "workload_seconds": 0.0
+      },
+      {
+        "actual_inference_wall_ns": 1787080,
+        "arm": "paused_diagnostic",
+        "id": "s0_w0_r0_paused_diagnostic",
+        "max_clock_lag_ns": 2634574,
+        "physics_progress_during_inference_ns": 0,
+        "repetition": 0,
+        "setting": "calibrated_fast",
+        "sim_timing": "TRUE",
+        "wall_timing": "TRUE",
+        "workload_seconds": 0.0
+      },
+      {
+        "actual_inference_wall_ns": 1200327855,
+        "arm": "continuous_preinstalled",
+        "id": "s0_w2_r2_continuous_preinstalled",
+        "max_clock_lag_ns": 655914,
+        "physics_progress_during_inference_ns": 1200000000,
+        "repetition": 2,
+        "setting": "calibrated_fast",
+        "sim_timing": "TRUE",
+        "wall_timing": "TRUE",
+        "workload_seconds": 1.2
+      },
+      {
+        "actual_inference_wall_ns": 1196090,
+        "arm": "continuous_blocking",
+        "id": "s1_w0_r2_continuous_blocking",
+        "max_clock_lag_ns": 1173309,
+        "physics_progress_during_inference_ns": 0,
+        "repetition": 2,
+        "setting": "calibrated_slow",
+        "sim_timing": "TRUE",
+        "wall_timing": "TRUE",
+        "workload_seconds": 0.0
+      },
+      {
+        "actual_inference_wall_ns": 400055994,
+        "arm": "continuous_blocking",
+        "id": "s0_w1_r1_continuous_blocking",
+        "max_clock_lag_ns": 638398,
+        "physics_progress_during_inference_ns": 400000000,
+        "repetition": 1,
+        "setting": "calibrated_fast",
+        "sim_timing": "TRUE",
+        "wall_timing": "TRUE",
+        "workload_seconds": 0.4
+      },
+      {
+        "actual_inference_wall_ns": 400354497,
+        "arm": "paused_diagnostic",
+        "id": "s1_w1_r1_paused_diagnostic",
+        "max_clock_lag_ns": 587578,
+        "physics_progress_during_inference_ns": 0,
+        "repetition": 1,
+        "setting": "calibrated_slow",
+        "sim_timing": "TRUE",
+        "wall_timing": "FALSE",
+        "workload_seconds": 0.4
+      },
+      {
+        "actual_inference_wall_ns": 1200664460,
+        "arm": "continuous_blocking",
+        "id": "s0_w2_r0_continuous_blocking",
+        "max_clock_lag_ns": 2305216,
+        "physics_progress_during_inference_ns": 1200000000,
+        "repetition": 0,
+        "setting": "calibrated_fast",
+        "sim_timing": "FALSE",
+        "wall_timing": "FALSE",
+        "workload_seconds": 1.2
+      },
+      {
+        "actual_inference_wall_ns": 1200575493,
+        "arm": "continuous_preinstalled",
+        "id": "s0_w2_r1_continuous_preinstalled",
+        "max_clock_lag_ns": 631232,
+        "physics_progress_during_inference_ns": 1200000000,
+        "repetition": 1,
+        "setting": "calibrated_fast",
+        "sim_timing": "TRUE",
+        "wall_timing": "TRUE",
+        "workload_seconds": 1.2
+      },
+      {
+        "actual_inference_wall_ns": 400055592,
+        "arm": "continuous_preinstalled",
+        "id": "s1_w1_r1_continuous_preinstalled",
+        "max_clock_lag_ns": 717624,
+        "physics_progress_during_inference_ns": 400000000,
+        "repetition": 1,
+        "setting": "calibrated_slow",
+        "sim_timing": "TRUE",
+        "wall_timing": "TRUE",
+        "workload_seconds": 0.4
+      },
+      {
+        "actual_inference_wall_ns": 400730481,
+        "arm": "continuous_preinstalled",
+        "id": "s0_w1_r1_continuous_preinstalled",
+        "max_clock_lag_ns": 647001,
+        "physics_progress_during_inference_ns": 400000000,
+        "repetition": 1,
+        "setting": "calibrated_fast",
+        "sim_timing": "TRUE",
+        "wall_timing": "TRUE",
+        "workload_seconds": 0.4
+      },
+      {
+        "actual_inference_wall_ns": 1200399647,
+        "arm": "continuous_blocking",
+        "id": "s0_w2_r2_continuous_blocking",
+        "max_clock_lag_ns": 644912,
+        "physics_progress_during_inference_ns": 1200000000,
+        "repetition": 2,
+        "setting": "calibrated_fast",
+        "sim_timing": "FALSE",
+        "wall_timing": "FALSE",
+        "workload_seconds": 1.2
+      },
+      {
+        "actual_inference_wall_ns": 1583376,
+        "arm": "paused_diagnostic",
+        "id": "s1_w0_r0_paused_diagnostic",
+        "max_clock_lag_ns": 1023169,
+        "physics_progress_during_inference_ns": 0,
+        "repetition": 0,
+        "setting": "calibrated_slow",
+        "sim_timing": "TRUE",
+        "wall_timing": "TRUE",
+        "workload_seconds": 0.0
+      },
+      {
+        "actual_inference_wall_ns": 1342837,
+        "arm": "continuous_preinstalled",
+        "id": "s0_w0_r2_continuous_preinstalled",
+        "max_clock_lag_ns": 655951,
+        "physics_progress_during_inference_ns": 0,
+        "repetition": 2,
+        "setting": "calibrated_fast",
+        "sim_timing": "TRUE",
+        "wall_timing": "TRUE",
+        "workload_seconds": 0.0
+      },
+      {
+        "actual_inference_wall_ns": 1200441646,
+        "arm": "continuous_preinstalled",
+        "id": "s0_w2_r0_continuous_preinstalled",
+        "max_clock_lag_ns": 701400,
+        "physics_progress_during_inference_ns": 1200000000,
+        "repetition": 0,
+        "setting": "calibrated_fast",
+        "sim_timing": "TRUE",
+        "wall_timing": "TRUE",
+        "workload_seconds": 1.2
+      },
+      {
+        "actual_inference_wall_ns": 1408417,
+        "arm": "continuous_preinstalled",
+        "id": "s1_w0_r2_continuous_preinstalled",
+        "max_clock_lag_ns": 3998467,
+        "physics_progress_during_inference_ns": 0,
+        "repetition": 2,
+        "setting": "calibrated_slow",
+        "sim_timing": "TRUE",
+        "wall_timing": "TRUE",
+        "workload_seconds": 0.0
+      },
+      {
+        "actual_inference_wall_ns": 1626483,
+        "arm": "continuous_blocking",
+        "id": "s0_w0_r2_continuous_blocking",
+        "max_clock_lag_ns": 6549582,
+        "physics_progress_during_inference_ns": 0,
+        "repetition": 2,
+        "setting": "calibrated_fast",
+        "sim_timing": "TRUE",
+        "wall_timing": "TRUE",
+        "workload_seconds": 0.0
+      },
+      {
+        "actual_inference_wall_ns": 400228438,
+        "arm": "continuous_blocking",
+        "id": "s1_w1_r0_continuous_blocking",
+        "max_clock_lag_ns": 999753,
+        "physics_progress_during_inference_ns": 400000000,
+        "repetition": 0,
+        "setting": "calibrated_slow",
+        "sim_timing": "FALSE",
+        "wall_timing": "FALSE",
+        "workload_seconds": 0.4
+      },
+      {
+        "actual_inference_wall_ns": 400177915,
+        "arm": "paused_diagnostic",
+        "id": "s1_w1_r2_paused_diagnostic",
+        "max_clock_lag_ns": 637841,
+        "physics_progress_during_inference_ns": 0,
+        "repetition": 2,
+        "setting": "calibrated_slow",
+        "sim_timing": "TRUE",
+        "wall_timing": "FALSE",
+        "workload_seconds": 0.4
+      },
+      {
+        "actual_inference_wall_ns": 400319012,
+        "arm": "continuous_preinstalled",
+        "id": "s0_w1_r0_continuous_preinstalled",
+        "max_clock_lag_ns": 714602,
+        "physics_progress_during_inference_ns": 400000000,
+        "repetition": 0,
+        "setting": "calibrated_fast",
+        "sim_timing": "TRUE",
+        "wall_timing": "TRUE",
+        "workload_seconds": 0.4
+      },
+      {
+        "actual_inference_wall_ns": 1200932561,
+        "arm": "paused_diagnostic",
+        "id": "s0_w2_r0_paused_diagnostic",
+        "max_clock_lag_ns": 1070880,
+        "physics_progress_during_inference_ns": 0,
+        "repetition": 0,
+        "setting": "calibrated_fast",
+        "sim_timing": "TRUE",
+        "wall_timing": "FALSE",
+        "workload_seconds": 1.2
+      },
+      {
+        "actual_inference_wall_ns": 1753489,
+        "arm": "continuous_preinstalled",
+        "id": "s0_w0_r1_continuous_preinstalled",
+        "max_clock_lag_ns": 5173488,
+        "physics_progress_during_inference_ns": 0,
+        "repetition": 1,
+        "setting": "calibrated_fast",
+        "sim_timing": "TRUE",
+        "wall_timing": "TRUE",
+        "workload_seconds": 0.0
+      },
+      {
+        "actual_inference_wall_ns": 1505167,
+        "arm": "continuous_blocking",
+        "id": "s1_w0_r1_continuous_blocking",
+        "max_clock_lag_ns": 3081170,
+        "physics_progress_during_inference_ns": 0,
+        "repetition": 1,
+        "setting": "calibrated_slow",
+        "sim_timing": "TRUE",
+        "wall_timing": "TRUE",
+        "workload_seconds": 0.0
+      },
+      {
+        "actual_inference_wall_ns": 400434296,
+        "arm": "continuous_blocking",
+        "id": "s1_w1_r2_continuous_blocking",
+        "max_clock_lag_ns": 5783767,
+        "physics_progress_during_inference_ns": 400000000,
+        "repetition": 2,
+        "setting": "calibrated_slow",
+        "sim_timing": "FALSE",
+        "wall_timing": "FALSE",
+        "workload_seconds": 0.4
+      },
+      {
+        "actual_inference_wall_ns": 1344650,
+        "arm": "paused_diagnostic",
+        "id": "s0_w0_r2_paused_diagnostic",
+        "max_clock_lag_ns": 4343862,
+        "physics_progress_during_inference_ns": 0,
+        "repetition": 2,
+        "setting": "calibrated_fast",
+        "sim_timing": "TRUE",
+        "wall_timing": "TRUE",
+        "workload_seconds": 0.0
+      },
+      {
+        "actual_inference_wall_ns": 400428701,
+        "arm": "paused_diagnostic",
+        "id": "s0_w1_r2_paused_diagnostic",
+        "max_clock_lag_ns": 3696807,
+        "physics_progress_during_inference_ns": 0,
+        "repetition": 2,
+        "setting": "calibrated_fast",
+        "sim_timing": "TRUE",
+        "wall_timing": "TRUE",
+        "workload_seconds": 0.4
+      },
+      {
+        "actual_inference_wall_ns": 1394576,
+        "arm": "paused_diagnostic",
+        "id": "s1_w0_r2_paused_diagnostic",
+        "max_clock_lag_ns": 4330431,
+        "physics_progress_during_inference_ns": 0,
+        "repetition": 2,
+        "setting": "calibrated_slow",
+        "sim_timing": "TRUE",
+        "wall_timing": "TRUE",
+        "workload_seconds": 0.0
+      },
+      {
+        "actual_inference_wall_ns": 1200459917,
+        "arm": "paused_diagnostic",
+        "id": "s1_w2_r2_paused_diagnostic",
+        "max_clock_lag_ns": 690010,
+        "physics_progress_during_inference_ns": 0,
+        "repetition": 2,
+        "setting": "calibrated_slow",
+        "sim_timing": "TRUE",
+        "wall_timing": "FALSE",
+        "workload_seconds": 1.2
+      },
+      {
+        "actual_inference_wall_ns": 400368944,
+        "arm": "paused_diagnostic",
+        "id": "s1_w1_r0_paused_diagnostic",
+        "max_clock_lag_ns": 2702000,
+        "physics_progress_during_inference_ns": 0,
+        "repetition": 0,
+        "setting": "calibrated_slow",
+        "sim_timing": "TRUE",
+        "wall_timing": "FALSE",
+        "workload_seconds": 0.4
+      },
+      {
+        "actual_inference_wall_ns": 1303677,
+        "arm": "continuous_preinstalled",
+        "id": "s1_w0_r0_continuous_preinstalled",
+        "max_clock_lag_ns": 621738,
+        "physics_progress_during_inference_ns": 0,
+        "repetition": 0,
+        "setting": "calibrated_slow",
+        "sim_timing": "TRUE",
+        "wall_timing": "TRUE",
+        "workload_seconds": 0.0
+      },
+      {
+        "actual_inference_wall_ns": 1648307,
+        "arm": "continuous_preinstalled",
+        "id": "s0_w0_r0_continuous_preinstalled",
+        "max_clock_lag_ns": 623888,
+        "physics_progress_during_inference_ns": 0,
+        "repetition": 0,
+        "setting": "calibrated_fast",
+        "sim_timing": "TRUE",
+        "wall_timing": "TRUE",
+        "workload_seconds": 0.0
+      },
+      {
+        "actual_inference_wall_ns": 1263935,
+        "arm": "continuous_blocking",
+        "id": "s0_w0_r1_continuous_blocking",
+        "max_clock_lag_ns": 1164686,
+        "physics_progress_during_inference_ns": 0,
+        "repetition": 1,
+        "setting": "calibrated_fast",
+        "sim_timing": "TRUE",
+        "wall_timing": "TRUE",
+        "workload_seconds": 0.0
+      },
+      {
+        "actual_inference_wall_ns": 1656679,
+        "arm": "continuous_blocking",
+        "id": "s1_w0_r0_continuous_blocking",
+        "max_clock_lag_ns": 4010584,
+        "physics_progress_during_inference_ns": 0,
+        "repetition": 0,
+        "setting": "calibrated_slow",
+        "sim_timing": "TRUE",
+        "wall_timing": "TRUE",
+        "workload_seconds": 0.0
+      },
+      {
+        "actual_inference_wall_ns": 400906811,
+        "arm": "continuous_preinstalled",
+        "id": "s1_w1_r0_continuous_preinstalled",
+        "max_clock_lag_ns": 5405491,
+        "physics_progress_during_inference_ns": 400000000,
+        "repetition": 0,
+        "setting": "calibrated_slow",
+        "sim_timing": "TRUE",
+        "wall_timing": "TRUE",
+        "workload_seconds": 0.4
+      },
+      {
+        "actual_inference_wall_ns": 1200662189,
+        "arm": "paused_diagnostic",
+        "id": "s1_w2_r0_paused_diagnostic",
+        "max_clock_lag_ns": 680367,
+        "physics_progress_during_inference_ns": 0,
+        "repetition": 0,
+        "setting": "calibrated_slow",
+        "sim_timing": "TRUE",
+        "wall_timing": "FALSE",
+        "workload_seconds": 1.2
+      },
+      {
+        "actual_inference_wall_ns": 1200255594,
+        "arm": "continuous_preinstalled",
+        "id": "s1_w2_r1_continuous_preinstalled",
+        "max_clock_lag_ns": 641389,
+        "physics_progress_during_inference_ns": 1200000000,
+        "repetition": 1,
+        "setting": "calibrated_slow",
+        "sim_timing": "TRUE",
+        "wall_timing": "TRUE",
+        "workload_seconds": 1.2
+      },
+      {
+        "actual_inference_wall_ns": 400247431,
+        "arm": "paused_diagnostic",
+        "id": "s0_w1_r1_paused_diagnostic",
+        "max_clock_lag_ns": 649889,
+        "physics_progress_during_inference_ns": 0,
+        "repetition": 1,
+        "setting": "calibrated_fast",
+        "sim_timing": "TRUE",
+        "wall_timing": "TRUE",
+        "workload_seconds": 0.4
+      },
+      {
+        "actual_inference_wall_ns": 1200275268,
+        "arm": "continuous_preinstalled",
+        "id": "s1_w2_r0_continuous_preinstalled",
+        "max_clock_lag_ns": 764598,
+        "physics_progress_during_inference_ns": 1200000000,
+        "repetition": 0,
+        "setting": "calibrated_slow",
+        "sim_timing": "TRUE",
+        "wall_timing": "TRUE",
+        "workload_seconds": 1.2
+      },
+      {
+        "actual_inference_wall_ns": 1228220,
+        "arm": "continuous_blocking",
+        "id": "s0_w0_r0_continuous_blocking",
+        "max_clock_lag_ns": 647232,
+        "physics_progress_during_inference_ns": 0,
+        "repetition": 0,
+        "setting": "calibrated_fast",
+        "sim_timing": "TRUE",
+        "wall_timing": "TRUE",
+        "workload_seconds": 0.0
+      },
+      {
+        "actual_inference_wall_ns": 1200571748,
+        "arm": "continuous_blocking",
+        "id": "s1_w2_r1_continuous_blocking",
+        "max_clock_lag_ns": 642812,
+        "physics_progress_during_inference_ns": 1200000000,
+        "repetition": 1,
+        "setting": "calibrated_slow",
+        "sim_timing": "FALSE",
+        "wall_timing": "FALSE",
+        "workload_seconds": 1.2
+      },
+      {
+        "actual_inference_wall_ns": 1200656578,
+        "arm": "paused_diagnostic",
+        "id": "s1_w2_r1_paused_diagnostic",
+        "max_clock_lag_ns": 621259,
+        "physics_progress_during_inference_ns": 0,
+        "repetition": 1,
+        "setting": "calibrated_slow",
+        "sim_timing": "TRUE",
+        "wall_timing": "FALSE",
+        "workload_seconds": 1.2
+      },
+      {
+        "actual_inference_wall_ns": 403129794,
+        "arm": "continuous_preinstalled",
+        "id": "s0_w1_r2_continuous_preinstalled",
+        "max_clock_lag_ns": 644116,
+        "physics_progress_during_inference_ns": 400000000,
+        "repetition": 2,
+        "setting": "calibrated_fast",
+        "sim_timing": "TRUE",
+        "wall_timing": "TRUE",
+        "workload_seconds": 0.4
+      }
+    ],
+    "scope": "MuJoCo mechanical clock component; not robot or chemistry",
+    "totals": {
       "continuous_blocking": {
         "offered": 18,
         "sim": {
           "FALSE": 9,
           "TRUE": 9
         },
+        "sim_true_wall_false": 0,
         "wall": {
           "FALSE": 9,
           "TRUE": 9
-        },
-        "sim_true_wall_false": 0
+        }
       },
       "continuous_preinstalled": {
         "offered": 18,
         "sim": {
           "TRUE": 18
         },
+        "sim_true_wall_false": 0,
         "wall": {
           "TRUE": 18
+        }
+      },
+      "paused_diagnostic": {
+        "offered": 18,
+        "sim": {
+          "TRUE": 18
         },
-        "sim_true_wall_false": 0
+        "sim_true_wall_false": 9,
+        "wall": {
+          "FALSE": 9,
+          "TRUE": 9
+        }
       }
-    },
-    "continuous_clock_gate": true,
-    "records": [
-      {
-        "id": "s0_w0_r1_paused_diagnostic",
-        "arm": "paused_diagnostic",
-        "setting": "calibrated_fast",
-        "workload_seconds": 0.0,
-        "repetition": 1,
-        "sim_timing": "TRUE",
-        "wall_timing": "TRUE",
-        "max_clock_lag_ns": 1191917,
-        "actual_inference_wall_ns": 1268812,
-        "physics_progress_during_inference_ns": 0
-      },
-      {
-        "id": "s0_w2_r2_paused_diagnostic",
-        "arm": "paused_diagnostic",
-        "setting": "calibrated_fast",
-        "workload_seconds": 1.2,
-        "repetition": 2,
-        "sim_timing": "TRUE",
-        "wall_timing": "FALSE",
-        "max_clock_lag_ns": 724685,
-        "actual_inference_wall_ns": 1200507125,
-        "physics_progress_during_inference_ns": 0
-      },
-      {
-        "id": "s0_w2_r1_continuous_blocking",
-        "arm": "continuous_blocking",
-        "setting": "calibrated_fast",
-        "workload_seconds": 1.2,
-        "repetition": 1,
-        "sim_timing": "FALSE",
-        "wall_timing": "FALSE",
-        "max_clock_lag_ns": 678769,
-        "actual_inference_wall_ns": 1200071274,
-        "physics_progress_during_inference_ns": 1200000000
-      },
-      {
-        "id": "s0_w1_r0_paused_diagnostic",
-        "arm": "paused_diagnostic",
-        "setting": "calibrated_fast",
-        "workload_seconds": 0.4,
-        "repetition": 0,
-        "sim_timing": "TRUE",
-        "wall_timing": "TRUE",
-        "max_clock_lag_ns": 2440445,
-        "actual_inference_wall_ns": 400934715,
-        "physics_progress_during_inference_ns": 0
-      },
-      {
-        "id": "s1_w1_r2_continuous_preinstalled",
-        "arm": "continuous_preinstalled",
-        "setting": "calibrated_slow",
-        "workload_seconds": 0.4,
-        "repetition": 2,
-        "sim_timing": "TRUE",
-        "wall_timing": "TRUE",
-        "max_clock_lag_ns": 1605919,
-        "actual_inference_wall_ns": 400270983,
-        "physics_progress_during_inference_ns": 400000000
-      },
-      {
-        "id": "s1_w0_r1_continuous_preinstalled",
-        "arm": "continuous_preinstalled",
-        "setting": "calibrated_slow",
-        "workload_seconds": 0.0,
-        "repetition": 1,
-        "sim_timing": "TRUE",
-        "wall_timing": "TRUE",
-        "max_clock_lag_ns": 654566,
-        "actual_inference_wall_ns": 1962470,
-        "physics_progress_during_inference_ns": 0
-      },
-      {
-        "id": "s1_w2_r2_continuous_blocking",
-        "arm": "continuous_blocking",
-        "setting": "calibrated_slow",
-        "workload_seconds": 1.2,
-        "repetition": 2,
-        "sim_timing": "FALSE",
-        "wall_timing": "FALSE",
-        "max_clock_lag_ns": 671766,
-        "actual_inference_wall_ns": 1200128892,
-        "physics_progress_during_inference_ns": 1200000000
-      },
-      {
-        "id": "s0_w1_r2_continuous_blocking",
-        "arm": "continuous_blocking",
-        "setting": "calibrated_fast",
-        "workload_seconds": 0.4,
-        "repetition": 2,
-        "sim_timing": "TRUE",
-        "wall_timing": "TRUE",
-        "max_clock_lag_ns": 648904,
-        "actual_inference_wall_ns": 400666367,
-        "physics_progress_during_inference_ns": 400000000
-      },
-      {
-        "id": "s1_w2_r2_continuous_preinstalled",
-        "arm": "continuous_preinstalled",
-        "setting": "calibrated_slow",
-        "workload_seconds": 1.2,
-        "repetition": 2,
-        "sim_timing": "TRUE",
-        "wall_timing": "TRUE",
-        "max_clock_lag_ns": 710292,
-        "actual_inference_wall_ns": 1200626352,
-        "physics_progress_during_inference_ns": 1200000000
-      },
-      {
-        "id": "s1_w1_r1_continuous_blocking",
-        "arm": "continuous_blocking",
-        "setting": "calibrated_slow",
-        "workload_seconds": 0.4,
-        "repetition": 1,
-        "sim_timing": "FALSE",
-        "wall_timing": "FALSE",
-        "max_clock_lag_ns": 623614,
-        "actual_inference_wall_ns": 400552557,
-        "physics_progress_during_inference_ns": 400000000
-      },
-      {
-        "id": "s0_w1_r0_continuous_blocking",
-        "arm": "continuous_blocking",
-        "setting": "calibrated_fast",
-        "workload_seconds": 0.4,
-        "repetition": 0,
-        "sim_timing": "TRUE",
-        "wall_timing": "TRUE",
-        "max_clock_lag_ns": 1660545,
-        "actual_inference_wall_ns": 400423509,
-        "physics_progress_during_inference_ns": 400000000
-      },
-      {
-        "id": "s1_w2_r0_continuous_blocking",
-        "arm": "continuous_blocking",
-        "setting": "calibrated_slow",
-        "workload_seconds": 1.2,
-        "repetition": 0,
-        "sim_timing": "FALSE",
-        "wall_timing": "FALSE",
-        "max_clock_lag_ns": 1174483,
-        "actual_inference_wall_ns": 1200740703,
-        "physics_progress_during_inference_ns": 1200000000
-      },
-      {
-        "id": "s0_w2_r1_paused_diagnostic",
-        "arm": "paused_diagnostic",
-        "setting": "calibrated_fast",
-        "workload_seconds": 1.2,
-        "repetition": 1,
-        "sim_timing": "TRUE",
-        "wall_timing": "FALSE",
-        "max_clock_lag_ns": 1558800,
-        "actual_inference_wall_ns": 1200352297,
-        "physics_progress_during_inference_ns": 0
-      },
-      {
-        "id": "s1_w0_r1_paused_diagnostic",
-        "arm": "paused_diagnostic",
-        "setting": "calibrated_slow",
-        "workload_seconds": 0.0,
-        "repetition": 1,
-        "sim_timing": "TRUE",
-        "wall_timing": "TRUE",
-        "max_clock_lag_ns": 1253381,
-        "actual_inference_wall_ns": 1087173,
-        "physics_progress_during_inference_ns": 0
-      },
-      {
-        "id": "s0_w0_r0_paused_diagnostic",
-        "arm": "paused_diagnostic",
-        "setting": "calibrated_fast",
-        "workload_seconds": 0.0,
-        "repetition": 0,
-        "sim_timing": "TRUE",
-        "wall_timing": "TRUE",
-        "max_clock_lag_ns": 2634574,
-        "actual_inference_wall_ns": 1787080,
-        "physics_progress_during_inference_ns": 0
-      },
-      {
-        "id": "s0_w2_r2_continuous_preinstalled",
-        "arm": "continuous_preinstalled",
-        "setting": "calibrated_fast",
-        "workload_seconds": 1.2,
-        "repetition": 2,
-        "sim_timing": "TRUE",
-        "wall_timing": "TRUE",
-        "max_clock_lag_ns": 655914,
-        "actual_inference_wall_ns": 1200327855,
-        "physics_progress_during_inference_ns": 1200000000
-      },
-      {
-        "id": "s1_w0_r2_continuous_blocking",
-        "arm": "continuous_blocking",
-        "setting": "calibrated_slow",
-        "workload_seconds": 0.0,
-        "repetition": 2,
-        "sim_timing": "TRUE",
-        "wall_timing": "TRUE",
-        "max_clock_lag_ns": 1173309,
-        "actual_inference_wall_ns": 1196090,
-        "physics_progress_during_inference_ns": 0
-      },
-      {
-        "id": "s0_w1_r1_continuous_blocking",
-        "arm": "continuous_blocking",
-        "setting": "calibrated_fast",
-        "workload_seconds": 0.4,
-        "repetition": 1,
-        "sim_timing": "TRUE",
-        "wall_timing": "TRUE",
-        "max_clock_lag_ns": 638398,
-        "actual_inference_wall_ns": 400055994,
-        "physics_progress_during_inference_ns": 400000000
-      },
-      {
-        "id": "s1_w1_r1_paused_diagnostic",
-        "arm": "paused_diagnostic",
-        "setting": "calibrated_slow",
-        "workload_seconds": 0.4,
-        "repetition": 1,
-        "sim_timing": "TRUE",
-        "wall_timing": "FALSE",
-        "max_clock_lag_ns": 587578,
-        "actual_inference_wall_ns": 400354497,
-        "physics_progress_during_inference_ns": 0
-      },
-      {
-        "id": "s0_w2_r0_continuous_blocking",
-        "arm": "continuous_blocking",
-        "setting": "calibrated_fast",
-        "workload_seconds": 1.2,
-        "repetition": 0,
-        "sim_timing": "FALSE",
-        "wall_timing": "FALSE",
-        "max_clock_lag_ns": 2305216,
-        "actual_inference_wall_ns": 1200664460,
-        "physics_progress_during_inference_ns": 1200000000
-      },
-      {
-        "id": "s0_w2_r1_continuous_preinstalled",
-        "arm": "continuous_preinstalled",
-        "setting": "calibrated_fast",
-        "workload_seconds": 1.2,
-        "repetition": 1,
-        "sim_timing": "TRUE",
-        "wall_timing": "TRUE",
-        "max_clock_lag_ns": 631232,
-        "actual_inference_wall_ns": 1200575493,
-        "physics_progress_during_inference_ns": 1200000000
-      },
-      {
-        "id": "s1_w1_r1_continuous_preinstalled",
-        "arm": "continuous_preinstalled",
-        "setting": "calibrated_slow",
-        "workload_seconds": 0.4,
-        "repetition": 1,
-        "sim_timing": "TRUE",
-        "wall_timing": "TRUE",
-        "max_clock_lag_ns": 717624,
-        "actual_inference_wall_ns": 400055592,
-        "physics_progress_during_inference_ns": 400000000
-      },
-      {
-        "id": "s0_w1_r1_continuous_preinstalled",
-        "arm": "continuous_preinstalled",
-        "setting": "calibrated_fast",
-        "workload_seconds": 0.4,
-        "repetition": 1,
-        "sim_timing": "TRUE",
-        "wall_timing": "TRUE",
-        "max_clock_lag_ns": 647001,
-        "actual_inference_wall_ns": 400730481,
-        "physics_progress_during_inference_ns": 400000000
-      },
-      {
-        "id": "s0_w2_r2_continuous_blocking",
-        "arm": "continuous_blocking",
-        "setting": "calibrated_fast",
-        "workload_seconds": 1.2,
-        "repetition": 2,
-        "sim_timing": "FALSE",
-        "wall_timing": "FALSE",
-        "max_clock_lag_ns": 644912,
-        "actual_inference_wall_ns": 1200399647,
-        "physics_progress_during_inference_ns": 1200000000
-      },
-      {
-        "id": "s1_w0_r0_paused_diagnostic",
-        "arm": "paused_diagnostic",
-        "setting": "calibrated_slow",
-        "workload_seconds": 0.0,
-        "repetition": 0,
-        "sim_timing": "TRUE",
-        "wall_timing": "TRUE",
-        "max_clock_lag_ns": 1023169,
-        "actual_inference_wall_ns": 1583376,
-        "physics_progress_during_inference_ns": 0
-      },
-      {
-        "id": "s0_w0_r2_continuous_preinstalled",
-        "arm": "continuous_preinstalled",
-        "setting": "calibrated_fast",
-        "workload_seconds": 0.0,
-        "repetition": 2,
-        "sim_timing": "TRUE",
-        "wall_timing": "TRUE",
-        "max_clock_lag_ns": 655951,
-        "actual_inference_wall_ns": 1342837,
-        "physics_progress_during_inference_ns": 0
-      },
-      {
-        "id": "s0_w2_r0_continuous_preinstalled",
-        "arm": "continuous_preinstalled",
-        "setting": "calibrated_fast",
-        "workload_seconds": 1.2,
-        "repetition": 0,
-        "sim_timing": "TRUE",
-        "wall_timing": "TRUE",
-        "max_clock_lag_ns": 701400,
-        "actual_inference_wall_ns": 1200441646,
-        "physics_progress_during_inference_ns": 1200000000
-      },
-      {
-        "id": "s1_w0_r2_continuous_preinstalled",
-        "arm": "continuous_preinstalled",
-        "setting": "calibrated_slow",
-        "workload_seconds": 0.0,
-        "repetition": 2,
-        "sim_timing": "TRUE",
-        "wall_timing": "TRUE",
-        "max_clock_lag_ns": 3998467,
-        "actual_inference_wall_ns": 1408417,
-        "physics_progress_during_inference_ns": 0
-      },
-      {
-        "id": "s0_w0_r2_continuous_blocking",
-        "arm": "continuous_blocking",
-        "setting": "calibrated_fast",
-        "workload_seconds": 0.0,
-        "repetition": 2,
-        "sim_timing": "TRUE",
-        "wall_timing": "TRUE",
-        "max_clock_lag_ns": 6549582,
-        "actual_inference_wall_ns": 1626483,
-        "physics_progress_during_inference_ns": 0
-      },
-      {
-        "id": "s1_w1_r0_continuous_blocking",
-        "arm": "continuous_blocking",
-        "setting": "calibrated_slow",
-        "workload_seconds": 0.4,
-        "repetition": 0,
-        "sim_timing": "FALSE",
-        "wall_timing": "FALSE",
-        "max_clock_lag_ns": 999753,
-        "actual_inference_wall_ns": 400228438,
-        "physics_progress_during_inference_ns": 400000000
-      },
-      {
-        "id": "s1_w1_r2_paused_diagnostic",
-        "arm": "paused_diagnostic",
-        "setting": "calibrated_slow",
-        "workload_seconds": 0.4,
-        "repetition": 2,
-        "sim_timing": "TRUE",
-        "wall_timing": "FALSE",
-        "max_clock_lag_ns": 637841,
-        "actual_inference_wall_ns": 400177915,
-        "physics_progress_during_inference_ns": 0
-      },
-      {
-        "id": "s0_w1_r0_continuous_preinstalled",
-        "arm": "continuous_preinstalled",
-        "setting": "calibrated_fast",
-        "workload_seconds": 0.4,
-        "repetition": 0,
-        "sim_timing": "TRUE",
-        "wall_timing": "TRUE",
-        "max_clock_lag_ns": 714602,
-        "actual_inference_wall_ns": 400319012,
-        "physics_progress_during_inference_ns": 400000000
-      },
-      {
-        "id": "s0_w2_r0_paused_diagnostic",
-        "arm": "paused_diagnostic",
-        "setting": "calibrated_fast",
-        "workload_seconds": 1.2,
-        "repetition": 0,
-        "sim_timing": "TRUE",
-        "wall_timing": "FALSE",
-        "max_clock_lag_ns": 1070880,
-        "actual_inference_wall_ns": 1200932561,
-        "physics_progress_during_inference_ns": 0
-      },
-      {
-        "id": "s0_w0_r1_continuous_preinstalled",
-        "arm": "continuous_preinstalled",
-        "setting": "calibrated_fast",
-        "workload_seconds": 0.0,
-        "repetition": 1,
-        "sim_timing": "TRUE",
-        "wall_timing": "TRUE",
-        "max_clock_lag_ns": 5173488,
-        "actual_inference_wall_ns": 1753489,
-        "physics_progress_during_inference_ns": 0
-      },
-      {
-        "id": "s1_w0_r1_continuous_blocking",
-        "arm": "continuous_blocking",
-        "setting": "calibrated_slow",
-        "workload_seconds": 0.0,
-        "repetition": 1,
-        "sim_timing": "TRUE",
-        "wall_timing": "TRUE",
-        "max_clock_lag_ns": 3081170,
-        "actual_inference_wall_ns": 1505167,
-        "physics_progress_during_inference_ns": 0
-      },
-      {
-        "id": "s1_w1_r2_continuous_blocking",
-        "arm": "continuous_blocking",
-        "setting": "calibrated_slow",
-        "workload_seconds": 0.4,
-        "repetition": 2,
-        "sim_timing": "FALSE",
-        "wall_timing": "FALSE",
-        "max_clock_lag_ns": 5783767,
-        "actual_inference_wall_ns": 400434296,
-        "physics_progress_during_inference_ns": 400000000
-      },
-      {
-        "id": "s0_w0_r2_paused_diagnostic",
-        "arm": "paused_diagnostic",
-        "setting": "calibrated_fast",
-        "workload_seconds": 0.0,
-        "repetition": 2,
-        "sim_timing": "TRUE",
-        "wall_timing": "TRUE",
-        "max_clock_lag_ns": 4343862,
-        "actual_inference_wall_ns": 1344650,
-        "physics_progress_during_inference_ns": 0
-      },
-      {
-        "id": "s0_w1_r2_paused_diagnostic",
-        "arm": "paused_diagnostic",
-        "setting": "calibrated_fast",
-        "workload_seconds": 0.4,
-        "repetition": 2,
-        "sim_timing": "TRUE",
-        "wall_timing": "TRUE",
-        "max_clock_lag_ns": 3696807,
-        "actual_inference_wall_ns": 400428701,
-        "physics_progress_during_inference_ns": 0
-      },
-      {
-        "id": "s1_w0_r2_paused_diagnostic",
-        "arm": "paused_diagnostic",
-        "setting": "calibrated_slow",
-        "workload_seconds": 0.0,
-        "repetition": 2,
-        "sim_timing": "TRUE",
-        "wall_timing": "TRUE",
-        "max_clock_lag_ns": 4330431,
-        "actual_inference_wall_ns": 1394576,
-        "physics_progress_during_inference_ns": 0
-      },
-      {
-        "id": "s1_w2_r2_paused_diagnostic",
-        "arm": "paused_diagnostic",
-        "setting": "calibrated_slow",
-        "workload_seconds": 1.2,
-        "repetition": 2,
-        "sim_timing": "TRUE",
-        "wall_timing": "FALSE",
-        "max_clock_lag_ns": 690010,
-        "actual_inference_wall_ns": 1200459917,
-        "physics_progress_during_inference_ns": 0
-      },
-      {
-        "id": "s1_w1_r0_paused_diagnostic",
-        "arm": "paused_diagnostic",
-        "setting": "calibrated_slow",
-        "workload_seconds": 0.4,
-        "repetition": 0,
-        "sim_timing": "TRUE",
-        "wall_timing": "FALSE",
-        "max_clock_lag_ns": 2702000,
-        "actual_inference_wall_ns": 400368944,
-        "physics_progress_during_inference_ns": 0
-      },
-      {
-        "id": "s1_w0_r0_continuous_preinstalled",
-        "arm": "continuous_preinstalled",
-        "setting": "calibrated_slow",
-        "workload_seconds": 0.0,
-        "repetition": 0,
-        "sim_timing": "TRUE",
-        "wall_timing": "TRUE",
-        "max_clock_lag_ns": 621738,
-        "actual_inference_wall_ns": 1303677,
-        "physics_progress_during_inference_ns": 0
-      },
-      {
-        "id": "s0_w0_r0_continuous_preinstalled",
-        "arm": "continuous_preinstalled",
-        "setting": "calibrated_fast",
-        "workload_seconds": 0.0,
-        "repetition": 0,
-        "sim_timing": "TRUE",
-        "wall_timing": "TRUE",
-        "max_clock_lag_ns": 623888,
-        "actual_inference_wall_ns": 1648307,
-        "physics_progress_during_inference_ns": 0
-      },
-      {
-        "id": "s0_w0_r1_continuous_blocking",
-        "arm": "continuous_blocking",
-        "setting": "calibrated_fast",
-        "workload_seconds": 0.0,
-        "repetition": 1,
-        "sim_timing": "TRUE",
-        "wall_timing": "TRUE",
-        "max_clock_lag_ns": 1164686,
-        "actual_inference_wall_ns": 1263935,
-        "physics_progress_during_inference_ns": 0
-      },
-      {
-        "id": "s1_w0_r0_continuous_blocking",
-        "arm": "continuous_blocking",
-        "setting": "calibrated_slow",
-        "workload_seconds": 0.0,
-        "repetition": 0,
-        "sim_timing": "TRUE",
-        "wall_timing": "TRUE",
-        "max_clock_lag_ns": 4010584,
-        "actual_inference_wall_ns": 1656679,
-        "physics_progress_during_inference_ns": 0
-      },
-      {
-        "id": "s1_w1_r0_continuous_preinstalled",
-        "arm": "continuous_preinstalled",
-        "setting": "calibrated_slow",
-        "workload_seconds": 0.4,
-        "repetition": 0,
-        "sim_timing": "TRUE",
-        "wall_timing": "TRUE",
-        "max_clock_lag_ns": 5405491,
-        "actual_inference_wall_ns": 400906811,
-        "physics_progress_during_inference_ns": 400000000
-      },
-      {
-        "id": "s1_w2_r0_paused_diagnostic",
-        "arm": "paused_diagnostic",
-        "setting": "calibrated_slow",
-        "workload_seconds": 1.2,
-        "repetition": 0,
-        "sim_timing": "TRUE",
-        "wall_timing": "FALSE",
-        "max_clock_lag_ns": 680367,
-        "actual_inference_wall_ns": 1200662189,
-        "physics_progress_during_inference_ns": 0
-      },
-      {
-        "id": "s1_w2_r1_continuous_preinstalled",
-        "arm": "continuous_preinstalled",
-        "setting": "calibrated_slow",
-        "workload_seconds": 1.2,
-        "repetition": 1,
-        "sim_timing": "TRUE",
-        "wall_timing": "TRUE",
-        "max_clock_lag_ns": 641389,
-        "actual_inference_wall_ns": 1200255594,
-        "physics_progress_during_inference_ns": 1200000000
-      },
-      {
-        "id": "s0_w1_r1_paused_diagnostic",
-        "arm": "paused_diagnostic",
-        "setting": "calibrated_fast",
-        "workload_seconds": 0.4,
-        "repetition": 1,
-        "sim_timing": "TRUE",
-        "wall_timing": "TRUE",
-        "max_clock_lag_ns": 649889,
-        "actual_inference_wall_ns": 400247431,
-        "physics_progress_during_inference_ns": 0
-      },
-      {
-        "id": "s1_w2_r0_continuous_preinstalled",
-        "arm": "continuous_preinstalled",
-        "setting": "calibrated_slow",
-        "workload_seconds": 1.2,
-        "repetition": 0,
-        "sim_timing": "TRUE",
-        "wall_timing": "TRUE",
-        "max_clock_lag_ns": 764598,
-        "actual_inference_wall_ns": 1200275268,
-        "physics_progress_during_inference_ns": 1200000000
-      },
-      {
-        "id": "s0_w0_r0_continuous_blocking",
-        "arm": "continuous_blocking",
-        "setting": "calibrated_fast",
-        "workload_seconds": 0.0,
-        "repetition": 0,
-        "sim_timing": "TRUE",
-        "wall_timing": "TRUE",
-        "max_clock_lag_ns": 647232,
-        "actual_inference_wall_ns": 1228220,
-        "physics_progress_during_inference_ns": 0
-      },
-      {
-        "id": "s1_w2_r1_continuous_blocking",
-        "arm": "continuous_blocking",
-        "setting": "calibrated_slow",
-        "workload_seconds": 1.2,
-        "repetition": 1,
-        "sim_timing": "FALSE",
-        "wall_timing": "FALSE",
-        "max_clock_lag_ns": 642812,
-        "actual_inference_wall_ns": 1200571748,
-        "physics_progress_during_inference_ns": 1200000000
-      },
-      {
-        "id": "s1_w2_r1_paused_diagnostic",
-        "arm": "paused_diagnostic",
-        "setting": "calibrated_slow",
-        "workload_seconds": 1.2,
-        "repetition": 1,
-        "sim_timing": "TRUE",
-        "wall_timing": "FALSE",
-        "max_clock_lag_ns": 621259,
-        "actual_inference_wall_ns": 1200656578,
-        "physics_progress_during_inference_ns": 0
-      },
-      {
-        "id": "s0_w1_r2_continuous_preinstalled",
-        "arm": "continuous_preinstalled",
-        "setting": "calibrated_fast",
-        "workload_seconds": 0.4,
-        "repetition": 2,
-        "sim_timing": "TRUE",
-        "wall_timing": "TRUE",
-        "max_clock_lag_ns": 644116,
-        "actual_inference_wall_ns": 403129794,
-        "physics_progress_during_inference_ns": 400000000
-      }
-    ]
+    }
   },
   "native": {
+    "audit_lineage": {
+      "actual_episode_denominator": 1,
+      "case_id": "dev_seen_handoff_instrumentation_002_aris",
+      "execution_source_sha256": "eb807cffef785271e6fc6b7558598c29c6a8c76af46f043ea321a74935fab34c",
+      "native_epoch": "paperb_handoff_instrumentation_v1:dev_seen_handoff_instrumentation_002_aris:eacc4d996d56514e8db9ea72eb8cce77b45bf43fcaa6cea5afa8b2eeb9c22c6e",
+      "post_result_schema_repairs": 2,
+      "previous_unbound_description_superseded": true,
+      "public_audit": "research_increments/native_handoff_instrumentation_v2_2026-10-14/parallel_aris_raw_audit_v03/PUBLIC_AUDIT.json",
+      "public_audit_sha256": "439c354362b13284aee4a10e3e18c580ca39fd9c2c925af0b4befa9c9f38eba7",
+      "reader_release_sha256": "b41bb6b803bc2519f1bcb023d69f84f8391be87c567ce630d3ef615b21d6a1cb"
+    },
+    "detail": "严格采样保持连续11个点未通过，完整时间＋保持结果仍为FALSE；独立承重UNKNOWN，成功训练准入0。本页现绑定主页面的独立读回审计：原读器因event扩展字段字典比较保留FAIL，v02因深度维度期待保留FAIL，v03依据冻结源码与SDK单通道ABI修复后PASS。两次均为结果后读器schema修复，不能视为前瞻验证；原生数据与计分阈值未改。没有策略训练、LLM调用、真实硬件或化学成功，也未认证持续主机推理时钟。",
     "label": "已采集，未准入训练",
-    "summary": "新隔离版本完成1条已见配置原生采集，独立复核确认14,007个任务步、13,995个控制提交及应用、12个FIFO尾部条目、28,016条物理读回和177组RGB／深度记录完整。",
-    "detail": "严格采样保持连续11个点未通过，完整时间＋保持结果仍为FALSE；独立承重UNKNOWN，成功训练准入0。读回审计披露了设备编号与深度单通道形状的两项读取修正；它们没有改动原生数据。没有策略训练、LLM调用、真实硬件或化学成功，也未认证持续主机推理时钟。"
-  }
+    "summary": "新隔离版本完成1条已见配置原生采集，独立复核确认14,007个任务步、13,995个控制提交及应用、12个FIFO尾部条目、28,016条物理读回和177组RGB／深度记录完整。"
+  },
+  "updated_at_utc": "2026-10-14T03:55:54.313184+00:00"
 }

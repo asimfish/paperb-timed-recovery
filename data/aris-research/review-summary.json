@@ -1,14 +1,29 @@
 {
-  "assurance": "fresh-context same-family provisional",
   "adaptation_integrity": "PASS",
   "adaptation_mechanism_continue_gate": false,
+  "assurance": "fresh-context same-family provisional",
+  "clock_continue_gate": true,
   "clock_integrity": "PASS",
   "clock_samples": 21654,
   "delivered_packets": 21345,
-  "native_dynamics_max_error": 7.460698725481052e-14,
   "max_continuous_lag_ns": 6549582,
-  "clock_continue_gate": true,
-  "tail_boundary": "5 or6 sensor packets per attempt remain undelivered at the native horizon; complete401 native samples retained",
+  "native_dynamics_max_error": 7.460698725481052e-14,
+  "native_instrumentation": {
+    "audit_lineage": {
+      "actual_episode_denominator": 1,
+      "case_id": "dev_seen_handoff_instrumentation_002_aris",
+      "execution_source_sha256": "eb807cffef785271e6fc6b7558598c29c6a8c76af46f043ea321a74935fab34c",
+      "native_epoch": "paperb_handoff_instrumentation_v1:dev_seen_handoff_instrumentation_002_aris:eacc4d996d56514e8db9ea72eb8cce77b45bf43fcaa6cea5afa8b2eeb9c22c6e",
+      "post_result_schema_repairs": 2,
+      "previous_unbound_description_superseded": true,
+      "public_audit": "research_increments/native_handoff_instrumentation_v2_2026-10-14/parallel_aris_raw_audit_v03/PUBLIC_AUDIT.json",
+      "public_audit_sha256": "439c354362b13284aee4a10e3e18c580ca39fd9c2c925af0b4befa9c9f38eba7",
+      "reader_release_sha256": "b41bb6b803bc2519f1bcb023d69f84f8391be87c567ce630d3ef615b21d6a1cb"
+    },
+    "detail": "严格采样保持连续11个点未通过，完整时间＋保持结果仍为FALSE；独立承重UNKNOWN，成功训练准入0。本页现绑定主页面的独立读回审计：原读器因event扩展字段字典比较保留FAIL，v02因深度维度期待保留FAIL，v03依据冻结源码与SDK单通道ABI修复后PASS。两次均为结果后读器schema修复，不能视为前瞻验证；原生数据与计分阈值未改。没有策略训练、LLM调用、真实硬件或化学成功，也未认证持续主机推理时钟。",
+    "label": "已采集，未准入训练",
+    "summary": "新隔离版本完成1条已见配置原生采集，独立复核确认14,007个任务步、13,995个控制提交及应用、12个FIFO尾部条目、28,016条物理读回和177组RGB／深度记录完整。"
+  },
   "not_claimed": [
     "robot clock acceptance",
     "real hardware",
@@ -17,9 +32,5 @@
     "general ICL verdict",
     "algorithm novelty"
   ],
-  "native_instrumentation": {
-    "label": "已采集，未准入训练",
-    "summary": "新隔离版本完成1条已见配置原生采集，独立复核确认14,007个任务步、13,995个控制提交及应用、12个FIFO尾部条目、28,016条物理读回和177组RGB／深度记录完整。",
-    "detail": "严格采样保持连续11个点未通过，完整时间＋保持结果仍为FALSE；独立承重UNKNOWN，成功训练准入0。读回审计披露了设备编号与深度单通道形状的两项读取修正；它们没有改动原生数据。没有策略训练、LLM调用、真实硬件或化学成功，也未认证持续主机推理时钟。"
-  }
+  "tail_boundary": "5 or6 sensor packets per attempt remain undelivered at the native horizon; complete401 native samples retained"
 }

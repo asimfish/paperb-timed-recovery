@@ -1,0 +1,27 @@
+{
+  "status": "PASS_ROOT_SECONDARY_SOURCE25_DELIVERY79_ARCHIVE80_READBACK_AND_VISUAL_REVIEW",
+  "source_release_sha256": "1a048b0569bdaf49daf50d89f517731148082aa63a74cf2042d3ec86ee5c93c5",
+  "delivery_manifest_sha256": "97d0c4b5bc554d5932d70ae73f313379932d91a3bc9f1f40b6370d6116ce98b8",
+  "archive_sha256": "5f1e91a6b1477576f9fc07f83da37ca28f0c7296ac18332def073410c44b7bf2",
+  "source_count": 25,
+  "delivery_members": 79,
+  "archive_members": 80,
+  "root_visually_reviewed": [
+    "figures/actual_velocity_release_mechanism.png",
+    "media/poster_actual_native.jpg"
+  ],
+  "plot_observed_no_clipping": true,
+  "video_sha256": "b824c0faf86e1f6a07498620f632f1a795860e5c2fe49a76717c9de1453549c7",
+  "actual_native_video_source_frames": 168,
+  "encoded_display_frames": 169,
+  "extra_last_frame_is_display_repeat_not_new_capture": true,
+  "producer_all_frames_CPU_decoded": true,
+  "root_video_decode_repeated": false,
+  "independent_RAW_RGB_depth_audit_separate": true,
+  "secondary_not_third_independent_referee": true,
+  "strict_hold_FALSE": true,
+  "loadbearing": "UNKNOWN",
+  "training_admitted": 0,
+  "new_root_native": 0,
+  "new_weights": 0
+}

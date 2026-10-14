@@ -1,0 +1,283 @@
+{
+  "V1_constructor_failure_preserved": {
+    "classification_sha256": "2a7d537b7bc6664f3d613f668914cdf74e1d1f8cb4c2b70296bb1f1917d40548",
+    "formal_native_episodes": 0,
+    "not_relabelled_native_success": true,
+    "original_failed_launch_attempts": 1
+  },
+  "accepted_counts": {
+    "FIFO_tail_ticks": 12,
+    "POST_STEP_pose_exact_XYZ_xyzw_wxyz_matches": 14007,
+    "RGBD_captures": 177,
+    "applied_commands": 13995,
+    "legal_future_submission_pairs": 176,
+    "matched_transient_steps": 30,
+    "physical_snapshots": 28016,
+    "regular_case_files": 420,
+    "submitted_commands": 13995,
+    "task_RAW_rows": 14007,
+    "terminal_capture_without_future_submission_retained": 1,
+    "total_native_steps": 15237,
+    "video_frames": 168,
+    "warmup_native_clock_rows": 1200
+  },
+  "accepted_integrity_gates": {
+    "FIFO": "PASS_FIFO_ACTUAL_APPLICATIONS",
+    "captures_bytes_JPEG_depth_proprio_clock_future_pairing": "PASS_CAPTURE_RAW_BYTES_CLOCK_AND_OFFLINE_PAIRING",
+    "controller_preimages_full_arrays": "PASS_COMPLETE_EXPORTED_CONTROLLER_AND_STATE_PREIMAGE_AUDIT",
+    "event_core_exact_and_declared_semantic_extras": {
+      "bilateral_contact": {
+        "continuous_dwell_established": false,
+        "core_clock_bounds_onset_confirmation_types_exact": true,
+        "status": "PASS_EXACT_CORE_AND_FROZEN_PRODUCER_METADATA",
+        "validated_metadata": {
+          "calibrated": false,
+          "endpoint_semantics": "CONSERVATIVE_CLOSED_BOUNDS",
+          "kind": "bilateral_grasp"
+        }
+      },
+      "verified_stable_release": {
+        "continuous_dwell_established": false,
+        "core_clock_bounds_onset_confirmation_types_exact": true,
+        "status": "PASS_EXACT_CORE_AND_FROZEN_PRODUCER_METADATA",
+        "validated_metadata": {
+          "calibrated": false,
+          "endpoint_semantics": "CONSERVATIVE_CLOSED_BOUNDS",
+          "kind": "verified_stable_release"
+        }
+      }
+    },
+    "native_epoch_clock_callback": {
+      "dt_s": 0.004166666666666667,
+      "epoch": "paperb_handoff_instrumentation_v1:dev_seen_handoff_instrumentation_002_aris:eacc4d996d56514e8db9ea72eb8cce77b45bf43fcaa6cea5afa8b2eeb9c22c6e",
+      "native_span_s": 58.36250304384157,
+      "samples": 14007
+    },
+    "physical_record_hash_order_clock_pose": "PASS_INDEPENDENT_PHYSICAL_RAW_STRUCTURE_CLOCK",
+    "same420_RAW_inputs_all_three_readers": "PASS"
+  },
+  "actual_physical_observations": {
+    "composer_nonzero_vector_rows": {
+      "instantaneous_force_nonzero_rows": 0,
+      "instantaneous_torque_nonzero_rows": 0,
+      "permanent_force_nonzero_rows": 0,
+      "permanent_torque_nonzero_rows": 0
+    },
+    "flags_composer_TFU": {
+      "gravity_disabled_flag": {
+        "FALSE": 28016,
+        "TRUE": 0,
+        "UNKNOWN": 0
+      },
+      "instantaneous_composer_active": {
+        "FALSE": 28016,
+        "TRUE": 0,
+        "UNKNOWN": 0
+      },
+      "permanent_composer_active": {
+        "FALSE": 28016,
+        "TRUE": 0,
+        "UNKNOWN": 0
+      },
+      "simulation_disabled_flag": {
+        "FALSE": 28016,
+        "TRUE": 0,
+        "UNKNOWN": 0
+      }
+    },
+    "getter_unknown_records": 0,
+    "gravity_value_counts": {
+      "[0.0, 0.0, -9.8100004196167]": 28016
+    },
+    "mass_kg": 0.13500000536441803,
+    "mass_value_counts": {
+      "0.13500000536441803": 28016
+    },
+    "scene_gravity_world_m_s2": [
+      0.0,
+      0.0,
+      -9.8100004196167
+    ],
+    "unmeasured_backend": {
+      "active_kinematic_flag_UNKNOWN_NO_INSTALLED_TENSOR_GETTER": 28016,
+      "backend_constraint_inventory_UNKNOWN_NO_COMPLETE_INSTALLED_GETTER": 28016
+    }
+  },
+  "capture_details": {
+    "JPEG_RGB_dtype": "uint8",
+    "JPEG_RGB_shape": [
+      400,
+      640,
+      3
+    ],
+    "JPEG_resolution": [
+      640,
+      400
+    ],
+    "actual_policy_image_delivery_or_use_claimed": false,
+    "all177_depth_finite_fraction": 1.0,
+    "depth_positive_infinity_samples_total": 0,
+    "depth_raw_dtype": "float32",
+    "depth_raw_shape": [
+      400,
+      640,
+      1
+    ],
+    "minimum_decoded_JPEG_std": 58.19678000582318,
+    "training_rows_admitted": 0
+  },
+  "case_id": "dev_seen_handoff_instrumentation_002_aris",
+  "created_at_utc": "2026-10-14T03:46:51.844498+00:00",
+  "declared_primary_attempts": 1,
+  "execution_origin": "Other already-running ARIS branch; this root cancelled duplicate before child/native.",
+  "final_RAW_audit_sha256": "f0fc291ee5edc21023748ffd72ed921a74c0cb425478756697070485fa7c76b2",
+  "final_reader_release_sha256": "b41bb6b803bc2519f1bcb023d69f84f8391be87c567ce630d3ef615b21d6a1cb",
+  "formal_episode_verified_from_actual_native_clock_and_RAW_not_directory": true,
+  "learning_scope": {
+    "BC_causal_gate_used": false,
+    "DPsuccess_labels": 0,
+    "OPD_student_rollouts": 0,
+    "RL_rewards": 0,
+    "chemical_success_claimed": false,
+    "current_training_admission": 0,
+    "weights_or_theta_updated": 0
+  },
+  "metadata_limitations": "ARIS origins/case001 prose, primary shared-denominator16, hard700 resource prose, V1 cache and directory-formal flag remain frozen historical metadata; current source/case/full epoch, actual denominator1 and measured child wall are authoritative.",
+  "native_capture_episodes": 1,
+  "new_root_native_workers_started": 0,
+  "reader_provenance": {
+    "CPU_negative_evidence": "Original14 byte-exact inherited;18 event delta tests;12 depth delta tests; no broad pointless rerun.",
+    "first_post_result_event_schema_repair_reader_sha256": "2a208cff52dda13a4845a4cd34036a2069226c4faedb169ca567fb2b559ef86d",
+    "first_repair_actual_audit_sha256": "1af4929be6aa346c7d325b4ed1d97db2d7bcbbbe99e3cd7775f91e9569f2f8d3",
+    "first_repair_actual_verdict": "FAIL_OR_PARTIAL_NATIVE_RAW_AUDIT_RETAINED",
+    "initial_blind_reader_actual_verdict": "FAIL_OR_PARTIAL_NATIVE_RAW_AUDIT_RETAINED",
+    "initial_blind_reader_audit_sha256": "f42ab6debe4650c1415b1e95d72c12933424b1b597635ce34710d2864e3da023",
+    "initial_blind_reader_release_sha256": "eaad7182727867ad2dce94896fb8916db6df672174013870f994bc3f5f95d0b6",
+    "post_result_reader_schema_repair_count": 2,
+    "prospective_new_reader_independence_NOT_claimed": true,
+    "second_post_result_depth_ABI_repair_reader_sha256": "b41bb6b803bc2519f1bcb023d69f84f8391be87c567ce630d3ef615b21d6a1cb",
+    "second_repair_actual_verdict": "PASS_ONE_NATIVE_HANDOFF_RAW_AUDIT",
+    "strict_fields_and_thresholds_not_tuned": true
+  },
+  "resources": {
+    "CPU_reader_readbacks": 3,
+    "CPU_wrapper_wall_s_per_readback": [
+      12.734806489897892,
+      15.704717413056642,
+      14.11545531800948
+    ],
+    "CPU_wrapper_wall_s_total": 42.554979220964015,
+    "actual_owned_child_wall_s": 414.9332901739981,
+    "allocated_GPU_wall_upper_hours": 0.11525924727055503,
+    "measured_GPU_utilization": "UNKNOWN_NOT_MEASURED",
+    "new_native_GPU_reintegration_epochs": 0,
+    "owned_process_group_empty": true,
+    "rule": "700s child wait; up-to30s termination plus actual startup/cleanup; no hard total700s promise",
+    "timed_out": false,
+    "worker_exit_code": 0
+  },
+  "role": "DEVELOPMENT_SEEN_INSTRUMENTATION",
+  "schema": "PaperBOneHandoffAcceptedRawPublicAudit/0.1",
+  "scientific_mechanical_report": {
+    "copied_full_mechanical_gate_pass": false,
+    "copied_not_diagnostic_condition": false,
+    "fixed_old_skill_mechanism_pass": true,
+    "joint_with_hold_pass": false,
+    "primary_joint_pass": true,
+    "sampled_events": {
+      "bilateral_contact": {
+        "confirmation_count": 3,
+        "confirmation_sample_index": 3601,
+        "confirmation_time_s": 20.141667717136443,
+        "event": {
+          "bounds_s": [
+            20.129167716484517,
+            20.133334383368492
+          ],
+          "clock_id": "paperb_handoff_instrumentation_v1:dev_seen_handoff_instrumentation_002_aris:eacc4d996d56514e8db9ea72eb8cce77b45bf43fcaa6cea5afa8b2eeb9c22c6e"
+        },
+        "onset_sample_index": 3599,
+        "physical_continuity_between_ticks_established": false,
+        "status": "DETECTED"
+      },
+      "verified_stable_release": {
+        "confirmation_count": 8,
+        "confirmation_sample_index": 8046,
+        "confirmation_time_s": 38.662502016406506,
+        "event": {
+          "bounds_s": [
+            38.629168681334704,
+            38.63333534821868
+          ],
+          "clock_id": "paperb_handoff_instrumentation_v1:dev_seen_handoff_instrumentation_002_aris:eacc4d996d56514e8db9ea72eb8cce77b45bf43fcaa6cea5afa8b2eeb9c22c6e"
+        },
+        "max_window_displacement_m": 7.257339752844525e-07,
+        "onset_sample_index": 8039,
+        "physical_continuity_between_ticks_established": false,
+        "physical_first_unload_time_established": false,
+        "semantics": "EARLIEST_VERIFIED_STABLE_RELEASE_WINDOW_ONSET",
+        "status": "DETECTED"
+      }
+    },
+    "scope": "Same old fixed-skill mechanical re-score, not a new independent mechanical task definition or training-success label",
+    "strict_hold_failures_retained": "0/1 strict pass;11 missing samples8028..8038; no continuous contact proof",
+    "strict_sampled_hold": {
+      "continuous_between_ticks_proved": false,
+      "missing_bilateral_sample_indices": [
+        8028,
+        8029,
+        8030,
+        8031,
+        8032,
+        8033,
+        8034,
+        8035,
+        8036,
+        8037,
+        8038
+      ],
+      "pass": false
+    },
+    "timing_scores": {
+      "contact": {
+        "error_interval_s": [
+          -0.004166406113654375,
+          2.60770320892334e-07
+        ],
+        "timing_pass": true,
+        "verdict": "PASS"
+      },
+      "duration_gap": {
+        "error_interval_s": [
+          -0.004165702033787966,
+          0.004167631734162569
+        ],
+        "timing_pass": true,
+        "verdict": "PASS"
+      },
+      "release": {
+        "error_interval_s": [
+          -0.0041654412634670734,
+          1.2256205081939697e-06
+        ],
+        "timing_pass": true,
+        "verdict": "PASS"
+      }
+    }
+  },
+  "source_only_review_sha256": "06b9c37acadd7804c5043df3efeb08f33d101220500e8427aac5eb7b2fda3d4e",
+  "source_release_sha256": "eb807cffef785271e6fc6b7558598c29c6a8c76af46f043ea321a74935fab34c",
+  "status": "PASS_ONE_NATIVE_HANDOFF_RAW_AUDIT_WITH_POST_RESULT_READER_REPAIR_PROVENANCE",
+  "truth_summary": {
+    "active_backend_kinematic": "UNKNOWN",
+    "complete_backend_constraints": "UNKNOWN",
+    "declared_sampled_joint_timing": "TRUE",
+    "fixed_skill_mechanism": "TRUE",
+    "independent_load_bearing": "UNKNOWN",
+    "joint_with_hold": "FALSE",
+    "qualified_signed_contact_load": "UNKNOWN",
+    "robot_unloading": "UNKNOWN",
+    "strict_sampled_hold": "FALSE"
+  },
+  "unchanged_legacy_scope": "Original ROI and13 videos, old16 strict0/16 results and all prior calibration/test roles retained; no old native rerun or edits. This accepted one seen-development case adds physical/observation evidence only."
+}

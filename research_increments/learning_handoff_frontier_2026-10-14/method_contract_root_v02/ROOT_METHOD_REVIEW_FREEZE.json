@@ -1,0 +1,20 @@
+{
+  "status": "PASS_ROOT_REVIEWED_FORMULATION_BUDGET_DESIGN_ONLY",
+  "parent_freeze_sha256": "a7d8191721d184816e9b14ccd82d4eb041a53b410adc0d6bd2bcd289f5991022",
+  "files": {
+    "FORMULATION_AND_MINIMAL_EXPERIMENT_cn.md": {
+      "bytes": 11187,
+      "sha256": "51b80303e856cf9799979083630f4e8b3c6fbb495249c1759c07d827e355428d"
+    },
+    "METHOD_AND_PREREGISTRATION_CONTRACT.json": {
+      "bytes": 32056,
+      "sha256": "3ea10c8b0e11db44e64ba4ca6206d700eb41a8075449ffb12b519b9050e84c20"
+    }
+  },
+  "data_union_budget_checked": true,
+  "math_delimiter_corrections_only": true,
+  "physics_load_ready_gate_unresolved": true,
+  "new_policy_training": 0,
+  "new_native_from_this_plan": 0,
+  "full_scientific_acceptance": "MAJOR_OPEN"
+}

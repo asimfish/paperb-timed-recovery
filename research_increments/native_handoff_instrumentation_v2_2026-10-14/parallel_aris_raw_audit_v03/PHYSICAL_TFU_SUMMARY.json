@@ -1,0 +1,183 @@
+{
+  "actual_mass_kg_value_counts": {
+    "0.13500000536441803": 28016
+  },
+  "actual_scene_gravity_value_counts": {
+    "[0.0, 0.0, -9.8100004196167]": 28016
+  },
+  "composer_nonzero_vector_rows": {
+    "instantaneous_force_nonzero_rows": 0,
+    "instantaneous_torque_nonzero_rows": 0,
+    "permanent_force_nonzero_rows": 0,
+    "permanent_torque_nonzero_rows": 0
+  },
+  "getter_UNKNOWN_records": 0,
+  "getter_status_counts": {
+    "acceleration_world_com_linear_angular": {
+      "OBSERVED": 28016
+    },
+    "com_local_xyz_xyzw": {
+      "OBSERVED": 28016
+    },
+    "gravity_disabled_flag": {
+      "OBSERVED": 28016
+    },
+    "inertia_com_body_frame_column_major_kg_m2": {
+      "OBSERVED": 28016
+    },
+    "inverse_mass_per_kg": {
+      "OBSERVED": 28016
+    },
+    "mass_kg": {
+      "OBSERVED": 28016
+    },
+    "scene_gravity_world_m_s2": {
+      "OBSERVED": 28016
+    },
+    "simulation_disabled_flag": {
+      "OBSERVED": 28016
+    },
+    "transform_xyz_xyzw": {
+      "OBSERVED": 28016
+    },
+    "velocity_world_com_linear_angular": {
+      "OBSERVED": 28016
+    },
+    "wrench_instantaneous": {
+      "OBSERVED": 28016
+    },
+    "wrench_permanent": {
+      "OBSERVED": 28016
+    }
+  },
+  "load_bearing_verdict": "UNKNOWN",
+  "missing_getter_reasons": {},
+  "not_a_new_acceptance_gate": true,
+  "observed_flags_composer_TFU_counts": {
+    "gravity_disabled_flag": {
+      "FALSE": 28016,
+      "TRUE": 0,
+      "UNKNOWN": 0
+    },
+    "instantaneous_composer_active": {
+      "FALSE": 28016,
+      "TRUE": 0,
+      "UNKNOWN": 0
+    },
+    "permanent_composer_active": {
+      "FALSE": 28016,
+      "TRUE": 0,
+      "UNKNOWN": 0
+    },
+    "simulation_disabled_flag": {
+      "FALSE": 28016,
+      "TRUE": 0,
+      "UNKNOWN": 0
+    }
+  },
+  "per_phase_TFU_counts": {
+    "POST_STEP": {
+      "gravity_disabled_flag": {
+        "FALSE": 14007,
+        "TRUE": 0,
+        "UNKNOWN": 0
+      },
+      "instantaneous_composer_active": {
+        "FALSE": 14007,
+        "TRUE": 0,
+        "UNKNOWN": 0
+      },
+      "permanent_composer_active": {
+        "FALSE": 14007,
+        "TRUE": 0,
+        "UNKNOWN": 0
+      },
+      "simulation_disabled_flag": {
+        "FALSE": 14007,
+        "TRUE": 0,
+        "UNKNOWN": 0
+      }
+    },
+    "PRE_WRITE": {
+      "gravity_disabled_flag": {
+        "FALSE": 14007,
+        "TRUE": 0,
+        "UNKNOWN": 0
+      },
+      "instantaneous_composer_active": {
+        "FALSE": 14007,
+        "TRUE": 0,
+        "UNKNOWN": 0
+      },
+      "permanent_composer_active": {
+        "FALSE": 14007,
+        "TRUE": 0,
+        "UNKNOWN": 0
+      },
+      "simulation_disabled_flag": {
+        "FALSE": 14007,
+        "TRUE": 0,
+        "UNKNOWN": 0
+      }
+    },
+    "TASK_BEGIN": {
+      "gravity_disabled_flag": {
+        "FALSE": 1,
+        "TRUE": 0,
+        "UNKNOWN": 0
+      },
+      "instantaneous_composer_active": {
+        "FALSE": 1,
+        "TRUE": 0,
+        "UNKNOWN": 0
+      },
+      "permanent_composer_active": {
+        "FALSE": 1,
+        "TRUE": 0,
+        "UNKNOWN": 0
+      },
+      "simulation_disabled_flag": {
+        "FALSE": 1,
+        "TRUE": 0,
+        "UNKNOWN": 0
+      }
+    },
+    "TASK_END": {
+      "gravity_disabled_flag": {
+        "FALSE": 1,
+        "TRUE": 0,
+        "UNKNOWN": 0
+      },
+      "instantaneous_composer_active": {
+        "FALSE": 1,
+        "TRUE": 0,
+        "UNKNOWN": 0
+      },
+      "permanent_composer_active": {
+        "FALSE": 1,
+        "TRUE": 0,
+        "UNKNOWN": 0
+      },
+      "simulation_disabled_flag": {
+        "FALSE": 1,
+        "TRUE": 0,
+        "UNKNOWN": 0
+      }
+    }
+  },
+  "phase_counts": {
+    "POST_STEP": 14007,
+    "PRE_WRITE": 14007,
+    "TASK_BEGIN": 1,
+    "TASK_END": 1
+  },
+  "physical_RAW_sha256": "d7707e1365aca58ea2f8fa9bc48cbde3f4961c44c45a42f216d6e96e1015dc40",
+  "rows": 28016,
+  "schema": "AcceptedPhysicalRawDescriptiveTFUReadback/0.1",
+  "status": "PASS_DESCRIPTIVE_STATS_OVER_ALREADY_ACCEPTED_IDENTICAL_RAW",
+  "truth_semantics": "FALSE is observed getter disabled/active flag0/false. UNKNOWN is absent/unqualified evidence and is never converted to FALSE. Backend kinematic/constraint inventory, signed load qualification, robot unloading and independent load-bearing remain UNKNOWN even though all12 installed getter channels are observed.",
+  "unmeasured_backend_status_counts": {
+    "active_kinematic_flag_UNKNOWN_NO_INSTALLED_TENSOR_GETTER": 28016,
+    "backend_constraint_inventory_UNKNOWN_NO_COMPLETE_INSTALLED_GETTER": 28016
+  }
+}

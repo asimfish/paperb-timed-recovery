@@ -1,19 +1,28 @@
 {
-  "source": "one development-seen instrumentation run, newcase002",
-  "source_recording_frames": 177,
+  "actual_episode_denominator": 1,
+  "alternate_main_video_same_168_JPEG_sources": true,
+  "audit_lineage": {
+    "actual_episode_denominator": 1,
+    "case_id": "dev_seen_handoff_instrumentation_002_aris",
+    "execution_source_sha256": "eb807cffef785271e6fc6b7558598c29c6a8c76af46f043ea321a74935fab34c",
+    "native_epoch": "paperb_handoff_instrumentation_v1:dev_seen_handoff_instrumentation_002_aris:eacc4d996d56514e8db9ea72eb8cce77b45bf43fcaa6cea5afa8b2eeb9c22c6e",
+    "post_result_schema_repairs": 2,
+    "previous_unbound_description_superseded": true,
+    "public_audit": "research_increments/native_handoff_instrumentation_v2_2026-10-14/parallel_aris_raw_audit_v03/PUBLIC_AUDIT.json",
+    "public_audit_sha256": "439c354362b13284aee4a10e3e18c580ca39fd9c2c925af0b4befa9c9f38eba7",
+    "reader_release_sha256": "b41bb6b803bc2519f1bcb023d69f84f8391be87c567ce630d3ef615b21d6a1cb"
+  },
+  "case_id": "dev_seen_handoff_instrumentation_002_aris",
+  "clip_covers_complete_task": false,
   "clip_frames": 168,
-  "fps": 6,
-  "duration_seconds": 28.0,
   "dimensions": [
     640,
     400
   ],
+  "duration_seconds": 28.0,
+  "execution_source_sha256": "eb807cffef785271e6fc6b7558598c29c6a8c76af46f043ea321a74935fab34c",
   "first_native_state_s": 14.133334070444107,
-  "last_native_state_s": 41.96666885539889,
-  "clip_covers_complete_task": false,
-  "new_physics_runs_for_encoding": 0,
-  "host_realtime_or_hardware_video": false,
-  "sensor_exposure_clock_certified": false,
+  "fps": 6,
   "frame_source_indices": [
     2160,
     2200,
@@ -354,40 +363,49 @@
     "6a24b822dd1e8208a79247c4f57b92c83ebc582d6e4d6e22c258b5b756bbbbdd",
     "01acea47ebb1efd7e13df78f5812820ca360ada2de98fd6193db37b3656129f2"
   ],
+  "host_realtime_or_hardware_video": false,
+  "last_native_state_s": 41.96666885539889,
+  "load_bearing": "UNKNOWN",
+  "main_video_encoded_frames": 169,
+  "main_video_final_display_repeat_not_capture": true,
+  "native_epoch": "paperb_handoff_instrumentation_v1:dev_seen_handoff_instrumentation_002_aris:eacc4d996d56514e8db9ea72eb8cce77b45bf43fcaa6cea5afa8b2eeb9c22c6e",
+  "new_physics_runs_for_encoding": 0,
+  "output_sha256": {
+    "native-end.jpg": "a702b557c39a5f6438b1524fc1fd8fc9af59d62918c3be5503d332b9b02163a7",
+    "native-middle.jpg": "01a78c48552eb4babbb40c68c60b892adea0dffda7e189d08fb26c2e9882e926",
+    "native-poster.jpg": "4305a08f34a1d4a96dd33bb909445cf846554cef9f8f7830d8e3f381d4cabbec",
+    "native-preview.mp4": "7ce6bec6ff7744b62acefb06189d515d29fe389089755b0b803497c4ee6a933e",
+    "native-start.jpg": "92c4e34aa5fc253c03baa9f4b18bc8a5a0a9eb06a532162d7238944bf891edf4"
+  },
+  "sensor_exposure_clock_certified": false,
+  "source": "one development-seen instrumentation run, newcase002",
+  "source_recording_frames": 177,
   "stills": [
     {
-      "file": "native-poster.jpg",
       "command_index": 2160,
+      "file": "native-poster.jpg",
       "native_state_time_s": 14.133334070444107,
       "source_sha256": "4305a08f34a1d4a96dd33bb909445cf846554cef9f8f7830d8e3f381d4cabbec"
     },
     {
-      "file": "native-start.jpg",
       "command_index": 0,
+      "file": "native-start.jpg",
       "native_state_time_s": 5.1333336010575294,
       "source_sha256": "92c4e34aa5fc253c03baa9f4b18bc8a5a0a9eb06a532162d7238944bf891edf4"
     },
     {
-      "file": "native-middle.jpg",
       "command_index": 5520,
+      "file": "native-middle.jpg",
       "native_state_time_s": 28.133334800601006,
       "source_sha256": "01a78c48552eb4babbb40c68c60b892adea0dffda7e189d08fb26c2e9882e926"
     },
     {
-      "file": "native-end.jpg",
       "command_index": 14007,
+      "file": "native-end.jpg",
       "native_state_time_s": 63.4958366448991,
       "source_sha256": "a702b557c39a5f6438b1524fc1fd8fc9af59d62918c3be5503d332b9b02163a7"
     }
   ],
   "strict_hold": "not passed; independent audit required",
-  "load_bearing": "UNKNOWN",
-  "training_admission": 0,
-  "output_sha256": {
-    "native-preview.mp4": "7ce6bec6ff7744b62acefb06189d515d29fe389089755b0b803497c4ee6a933e",
-    "native-end.jpg": "a702b557c39a5f6438b1524fc1fd8fc9af59d62918c3be5503d332b9b02163a7",
-    "native-poster.jpg": "4305a08f34a1d4a96dd33bb909445cf846554cef9f8f7830d8e3f381d4cabbec",
-    "native-middle.jpg": "01a78c48552eb4babbb40c68c60b892adea0dffda7e189d08fb26c2e9882e926",
-    "native-start.jpg": "92c4e34aa5fc253c03baa9f4b18bc8a5a0a9eb06a532162d7238944bf891edf4"
-  }
+  "training_admission": 0
 }

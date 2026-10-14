@@ -1,0 +1,816 @@
+{
+  "actual_work": {
+    "current_source_changes": 0,
+    "new_GPU_jobs": 0,
+    "new_native_attempts": 0,
+    "new_native_raw_images_read": 0,
+    "new_parameter_updates": 0,
+    "new_training_runs": 0,
+    "public_changes": 0
+  },
+  "artifact_checks": {
+    "budget_arithmetic": true,
+    "distinct_graphs": 12,
+    "document_hash_bound": true,
+    "equal_unique_targets": true,
+    "experiment_or_policy_tests_run": false,
+    "status": "PASS_JSON_PLAN_CONSISTENCY_ONLY",
+    "systems": 8
+  },
+  "budgets": {
+    "checkpoint": "Validation complete-task TRUE rate, then known violation, then earliest update; no heldout choices",
+    "collector": {
+      "fairness": "All arms share identical collector trajectories/query pool; no per-arm extra rollout budget",
+      "order": "Collect train-only S -> theta0 on the fixed U0 S512 subset for5000 updates -> fixed-student visits/F-R labels -> each10000-update arm; total distinct ancestor-plus-adaptation pairs capped1024.",
+      "student_actor": "F queries bind actual fixed collector student state/visit; one-round state aggregation, not continuously on-policy final-student updates",
+      "teacher_takeover": "R from teacher takeover keeps real privileged actor provenance; no fabricated student visit/OPD"
+    },
+    "common": {
+      "B0": "Independent no-time S-only training, same total updates",
+      "adaptation_updates": 10000,
+      "backbone": "Small vision-conditioned diffusion transformer; exact source/config pin required before runs",
+      "batch": 64,
+      "cap_failure": "Report incomplete common-update comparison, no selective extension",
+      "cross_session_context_eval": "EMPTY",
+      "current_episode_history": "PRESERVED",
+      "denoising_steps": 16,
+      "harness": "Identical safety/submit guard, accepted noncancellable semantics, sensing and calibration",
+      "horizon": 8,
+      "information": "Same raw event packets/RGB/proprioception/G/capture-execution timestamps for all time-aware arms; only B0 ablates explicit physical time",
+      "learned_arms": 7,
+      "learned_run_equivalents": 21,
+      "learning_GPUh_cap": 42,
+      "max_GPUh_per_arm_seed": 2,
+      "online_teacher_eval": 0,
+      "optimizer": "AdamW fixed config",
+      "seeds": [
+        1701,
+        1702,
+        1703
+      ],
+      "sharing": "B2 uses B1 exact weights; common TimeDP theta0 shared for B1/B3/M/ablations; ancestral updates charged equally, actual reuse reported",
+      "total_updates": 15000,
+      "warmstart_S_updates": 5000,
+      "warmstart_S_unique_pairs": 512,
+      "unique_target_cap_includes_ancestral_training": true,
+      "warmstart_manifest": "Preselect a source-pinned 512-pair train-only U0 subset of S before collecting F/R. All time-aware checkpoints inherit exactly U0; every final per-arm pool must contain U0 and its union with ancestral data must be <=1024 unique pairs."
+    },
+    "dedup_key": [
+      "student_state_sha256",
+      "target_time",
+      "target_digest",
+      "original_attempt_id"
+    ],
+    "query_per_attempt_cap": 16,
+    "quota_failure": "DATA_NOT_READY at fixed cap, no selective extra collection or UNKNOWN imputation",
+    "selection": "Fixed stratified train selection; no duplicate F/R pair double counted; withheld data replaced by distinct S, not repeats",
+    "shared_pool": {
+      "F": 256,
+      "R": 256,
+      "S": 1024
+    },
+    "teacher_query_cap": 1536,
+    "train_attempt_cap": 96,
+    "unique_targets_per_arm": 1024,
+    "validation_attempt_cap": 8,
+    "fairness_union_proof": {
+      "M_and_B3": {
+        "ancestor_S": 512,
+        "adaptation_S": 512,
+        "F": 256,
+        "R": 256,
+        "ancestor_subset_of_adaptation_S": true,
+        "union_unique_pairs": 1024
+      },
+      "S_only": {
+        "ancestor_subset_of_adaptation_S": true,
+        "adaptation_S": 1024,
+        "union_unique_pairs": 1024
+      },
+      "S_plus_F": {
+        "ancestor_subset_of_adaptation_S": true,
+        "adaptation_S": 768,
+        "F": 256,
+        "union_unique_pairs": 1024
+      },
+      "S_plus_R": {
+        "ancestor_subset_of_adaptation_S": true,
+        "adaptation_S": 768,
+        "R": 256,
+        "union_unique_pairs": 1024
+      }
+    }
+  },
+  "claims": [
+    {
+      "claim": "Prefix residual event ledger improves complete heldout task/recovery success beyond same-information TimeDP+DAgger under matched caps",
+      "contrast": [
+        "M",
+        "B3"
+      ],
+      "falsifier": "No M gain beyond B3 or gains only through timer/extra information/budget/rejection",
+      "id": "C1",
+      "status": "UNTESTED"
+    },
+    {
+      "claim": "Parameter improvement remains after online teacher and cross-session context/retrieval removed",
+      "contrast": [
+        "M_after",
+        "shared_TimeDP_theta0"
+      ],
+      "falsifier": "Gain requires online expert/retrieval or vanishes from theta",
+      "id": "C2",
+      "status": "UNTESTED"
+    }
+  ],
+  "created_at_utc": "2026-10-14T03:31:18.463612+00:00",
+  "document": {
+    "path": "FORMULATION_AND_MINIMAL_EXPERIMENT_cn.md",
+    "sha256": "4da64d3df00e6b2f8785e33e10d1d4ab7e2e5094c69445738e35b1000e95ec2e"
+  },
+  "evaluation": {
+    "ablation_attempts": 108,
+    "all_new_attempts_cap": 430,
+    "cells_per_checkpoint": 12,
+    "crash": "Retain original attempt UNKNOWN/failure with cause, no silent denominator loss",
+    "factors": {
+      "failure": [
+        "RECOVERABLE_PRE_RELEASE_ALIGNMENT",
+        "IRRECOVERABLE_HARDCATCH_NEGATIVE_CONTROL"
+      ],
+      "graph": [
+        "H01",
+        "H02"
+      ],
+      "queue_latency_s": [
+        0,
+        0.15,
+        0.45
+      ]
+    },
+    "hard_negative": "Ready packet/open opportunity withheld until original latest event window +50ms; final verifier confirms hard miss, late safe recovery not full success",
+    "main_attempts": 180,
+    "native_cap_s": 90,
+    "native_wall_upper_bound_hours": 83.61111111111111,
+    "negative_interpretation": {
+      "all_veto_unknown": "Measurement/feasibility failure",
+      "no_gain_B3": "DAgger may explain result; no extra ledger algorithm claim",
+      "no_retention": "No parameter absorption claim",
+      "timer_only": "External scheduling explains result"
+    },
+    "pilot_go": {
+      "M_vs_B3_minimum_absolute_gain": 0.15,
+      "claim": "Only go/no-go to a new larger confirmatory preregistration",
+      "known_violation": "NOT_INCREASED",
+      "unknown": "NO_DENOMINATOR_REMOVAL"
+    },
+    "primary": "Complete task TRUE divided by all preregistered attempts including hard negatives",
+    "recoverable": "Versioned approach target offset2mm before open, collision-safe bounded reseat while original contract retained",
+    "results": "NOT_EXECUTED",
+    "secondary": [
+      "known hard violation/FALSE",
+      "UNKNOWN",
+      "verified local recovery with denominator",
+      "guard veto",
+      "reset",
+      "queries",
+      "native elapsed",
+      "actual inference/total wall",
+      "remaining resource"
+    ],
+    "statistics": "Paired cell/seed effects and per-graph rates;95%world-cell clustered bootstrap;two graph pilot does not prove population task-generalization",
+    "theta0_attempts": 36,
+    "total_eval_attempts": 324,
+    "wall_cap_s": 700,
+    "world_seed": "Deterministic cell-to-seed mapping shared across all arms/training seeds"
+  },
+  "formulation": {
+    "absolute": "TRUE iff onset interval fully <= original D; definitely late FALSE, boundary/missing UNKNOWN; retry cannot move deadline",
+    "architecture": "Same diffusion transformer/backbone/reserved ledger channels in all arms; B3 gets same raw public facts but derived ledger slots zero; no new information source",
+    "attempt": "Immutable attempt id, graph G, resource B; reset opens new attempt and preserves original denominator",
+    "data_semantics": {
+      "F": "Frozen teacher correction queries on delivered actual student-visited failed states, label TEACHER_TARGET_NOT_EXECUTION_SUCCESS; no claim proposal was executed",
+      "R": "Actual executed recovery tails satisfying v04 known anchors/required APPLIED/typed original failure/independent recovered outcome",
+      "S": "Known complete successful execution targets with actual future submit/APPLIED and independent outcome",
+      "negative": "Do not copy failed actions as successful BC",
+      "unknown": "No unknown reward/slot/event imputed zero"
+    },
+    "distillation_applicability": {
+      "FA_OPD": "Official method includes PPO reward distillation plus flow action regression; label availability or BC alone does not reproduce it",
+      "KL": "Requires specified tractable density or independently validated score-gradient estimator; not implemented in this stage",
+      "sample_only": "Rule/flow samples support regression/denoising with same action domain, execution-time/state alignment; no invented teacher density or KL from one sample"
+    },
+    "dwell": "Sampled predicate all TRUE with actual native span>=d; missing/uncertain UNKNOWN, no continuous between-sample claim",
+    "event_fields": [
+      "occurrence_id",
+      "onset_interval_native_ns",
+      "confirmation_native_ns",
+      "audit_arrival_native_ns",
+      "source_sha256",
+      "public_delivery_native_ns_if_exposed"
+    ],
+    "hardcatch": "Definitively violated hard deadline/window/strict continuity is absorbing full-task FALSE; later safe handling or local recovery cannot erase",
+    "history": {
+      "excluded": [
+        "private referee pose/force",
+        "future observations",
+        "audit-only labels",
+        "undelivered packets",
+        "offline final scores"
+      ],
+      "offline": "Separately declared OFFLINE_CAPTURE; never imply old online delivery",
+      "online": "Only allowed observations actually delivered before decision (native ns,seq)",
+      "public": [
+        "RGB",
+        "proprioception",
+        "G",
+        "capture/delivery times",
+        "explicitly delivered public event packets",
+        "already submitted request identities/masks"
+      ]
+    },
+    "loss": "E||epsilon-epsilon_theta(alpha_k U_star+sigma_k epsilon,k,h,G,z,T_exec)||^2, same per-pair weight",
+    "maximum_sample_gap_ticks": 2,
+    "new_dwell_identity": "New candidate occurrence id linked to original anchor/failure; no overwrite",
+    "nominal_sampling_hz": 240,
+    "policy": "TimeDP action chunk at desired future execution times conditioned on causal h,G and deterministic prefix ledger z",
+    "reachability": "Full viability set is not solved/proven; unavailable bounds/state remain UNKNOWN",
+    "recoverable": "Before open, support/alignment not yet qualified while legal grasp and original constraints/resource remain; at most one reseat/reconfirm",
+    "relative": "I_j-I_e=[l_j-u_e,u_j-l_e]; contained TRUE, disjoint FALSE, boundary/missing UNKNOWN",
+    "residual_features": "[u_anchor+L-native_now, l_anchor+U-native_now], known dwell span, remaining resource; robust interval empty does not alone prove physical failure",
+    "samples_for_200ms": 49,
+    "teacher": "One frozen privileged source/payload; private teacher-only inputs isolated, student actor/state digest bound, target after query",
+    "terminology": "Supervised student-state DAgger, no implemented OPD/RL claim; visit+teacherquery is data evidence only. OPD does not universally require RL, but this plan has no teacher-distribution/RL update algorithm"
+  },
+  "labels": {
+    "example": {
+      "audit_ns": 170,
+      "early_known": "REJECTED",
+      "early_label_ns": 160,
+      "new_label_ns": 180,
+      "new_possible": "TRUE_IF_OTHER_CONDITIONS",
+      "onset_ns": [
+        40,
+        50
+      ]
+    },
+    "late_BC": "New timed EXECUTION_OUTCOME/new row_id after audit with lineage to old row and unchanged causal h; no silent schema extension",
+    "offline_final": "OFFLINE_FINAL_EPISODE_SCORE uses evidence through close in separate namespace; never overwrite early prefix labels or inputs",
+    "prefix": "V(E_before_label_time_ns_and_seq); known audit anchor arrival must precede label, physical onset is not arrival"
+  },
+  "limitations": [
+    "Physical gates unresolved",
+    "No new learned robot result",
+    "Small pilot no broad heldout statistical guarantee",
+    "No chemistry/yield validation",
+    "Components/CPU98/C22 do not prove proposed algorithm"
+  ],
+  "literature": [
+    {
+      "id": "DP",
+      "role": "Action diffusion baseline",
+      "url": "https://arxiv.org/abs/2303.04137"
+    },
+    {
+      "id": "Chronos",
+      "role": "Explicit capture/desired execution times already established",
+      "url": "https://arxiv.org/abs/2610.13929v1"
+    },
+    {
+      "id": "DAgger",
+      "role": "Student-induced state supervision baseline",
+      "url": "https://proceedings.mlr.press/v15/ross11a.html"
+    },
+    {
+      "id": "GKD",
+      "role": "Student-generated distillation;RL integration optional,not this robotics algorithm evidence",
+      "url": "https://arxiv.org/abs/2306.13649v3"
+    },
+    {
+      "id": "OneDP",
+      "role": "Diffusion-chain distribution distillation uses explicit distribution/score estimation, not arbitrary rule teacher logprob",
+      "url": "https://arxiv.org/abs/2410.21257"
+    },
+    {
+      "id": "FA-OPD",
+      "paper": "https://arxiv.org/abs/2605.27095",
+      "role": "Official method separately implements PPO reward distillation and flow-generated action regression",
+      "url": "https://github.com/vanzll/FA-OPD"
+    }
+  ],
+  "next_native_control": {
+    "accepted": "Never fabricate accepted-command cancellation;late APPLIED/effect retains request identity",
+    "attempts": 2,
+    "contract": {
+      "D_attempt_start_plus_s": 70,
+      "native_cap_s": 90,
+      "original_touch_to_finger_release_s": [
+        0.3,
+        0.8
+      ],
+      "wall_cap_s": 700
+    },
+    "controller": "Bilateral grasp -> qualified load-ready dwell200ms -> actual open -> stable supported release dwell200ms;one pre-open reseat",
+    "current_source_or_public_change": false,
+    "gate_failure": "Mechanical instrumentation only;load-ready UNKNOWN,no success BC,no method claim",
+    "gates": [
+      "Independent instrumentation receipt/source pin",
+      "Nonzero effective object gravity, actual mass",
+      "Dynamic/kinematic/backend constraint limitation resolved or UNKNOWN",
+      "Force-on-object sign/frame/units/coverage calibrated for target/robot/other",
+      "All external wrenches recorded",
+      "Actual motion/force-balance calibration",
+      "Public feedback explicitly whitelisted/delivered"
+    ],
+    "id": "C0_SUPPORTED_HANDOFF_PAIRED_CONTROL",
+    "installation": "Preserved actual installation with pre/post readback; no hidden mass/gravity changes",
+    "new_isolated_source_protocol_output": true,
+    "prediction": "Strong timer may complete 0/150ms with validated measurements/slack;hard failures retain original anchor",
+    "seed": 20261014,
+    "single_changed_factor": {
+      "application_queue_native_delay_s": [
+        0,
+        0.15
+      ]
+    },
+    "status": "PROPOSED_NOT_EXECUTED",
+    "thresholds": {
+      "angular_speed_max_rad_s": 0.05,
+      "dwell_ms": 200,
+      "force_residual": "max(0.1*m*|g|,3*sigma_train_only_calibration)",
+      "linear_speed_max_m_s": 0.005,
+      "position_band_mm": 2,
+      "robot_upward_weight_fraction_max": 0.1,
+      "support_weight_fraction_min": 0.9,
+      "tilt_band_deg": 2
+    },
+    "unresolved": [
+      "Complete backend kinematic/constraint evidence",
+      "Force-on-object calibration/coverage",
+      "Materialized collision-safe target protocol"
+    ]
+  },
+  "routing": {
+    "candidate_ids": [
+      "ablation-planner",
+      "experiment-plan",
+      "paper-framework-figure-studio-pro",
+      "training-check",
+      "browser-qa-only"
+    ],
+    "catalog_digest": "sha256:b5fa0c86c01a2a9074be0746434b1b208ca0bf7f55dbe46e12638846c3fc7c59",
+    "loaded_ids": [
+      "experiment-plan"
+    ],
+    "not_applied": [
+      "active-experiment-design",
+      "ablation-planner",
+      "run-experiment",
+      "training-check"
+    ],
+    "reason": "Fixed-method one-shot planning; no main-results-supported ablation release or execution"
+  },
+  "run_order": [
+    {
+      "action": "Gate then C0 paired controls",
+      "claim": "Measurement prerequisite",
+      "id": "M0",
+      "stop": "Physical evidence UNKNOWN"
+    },
+    {
+      "action": "Collect S, train fixed collector theta0, collect shared student-state F/R pool and check quotas; then validation",
+      "claim": "Data prerequisite",
+      "id": "M1",
+      "stop": "Insufficient unique qualified labels at cap"
+    },
+    {
+      "action": "Main5 arms+theta0,3seeds,sealed heldout",
+      "claim": "C1+C2",
+      "id": "M2",
+      "stop": "Budget/measurement failure"
+    },
+    {
+      "action": "S-only,S+F,S+R ablations",
+      "claim": "C1 mechanism",
+      "id": "M3",
+      "stop": "Remaining fixed cap exhausted"
+    },
+    {
+      "action": "Larger preregistration only after gate;no runs in this increment",
+      "claim": "Pilot disposition",
+      "id": "M4",
+      "stop": "No qualifying effect"
+    }
+  ],
+  "schema": "PaperBEventTimeRecoveryPreRegistrationRootReview/0.2",
+  "source_inputs": {
+    "papers/paperB/research_increments/causal_student_data_capture_v04_2026-10-14/COLLECTOR_INTEGRATION_cn.md": {
+      "bytes": 4851,
+      "sha256": "e5a5bb04463122f947b1c0dd6c38ac185f29e740c7bf552b01953c065a04f936"
+    },
+    "papers/paperB/research_increments/causal_student_data_capture_v04_2026-10-14/FINAL_RECEIPT.json": {
+      "bytes": 1126,
+      "sha256": "50f73b05536ed5b9f3892ca4e4c240337d660a7c2228aed58dbc4fe06bb4d391"
+    },
+    "papers/paperB/research_increments/causal_student_data_capture_v04_2026-10-14/PROTOCOL_TEMPLATE.json": {
+      "bytes": 3411,
+      "sha256": "b9844f419592a75d24f743ad2dc803660e9dee23cb598bfedb4e1207e64dcf22"
+    },
+    "papers/paperB/research_increments/learning_handoff_frontier_2026-10-14/MAIN_STORY_AND_NEXT_EXECUTION_cn.md": {
+      "bytes": 7104,
+      "sha256": "6e79dabe74e8bf279fbf15c4d68cf5af1420429a8a111a485b9570c9a4dc651a"
+    },
+    "papers/paperB/research_increments/support_handoff_feasibility_2026-10-14/HANDOFF_DIAGNOSIS_AND_PROSPECTIVE_CONTRACT_cn.md": {
+      "bytes": 9208,
+      "sha256": "52674c4eb54c97f6f45fa1ffc932aa894cffd3b002159a90cf23bebea51e4651"
+    },
+    "papers/paperB/research_increments/supported_handoff_collector_design_2026-10-14/GETTER_CONTRACT.md": {
+      "bytes": 5314,
+      "sha256": "a3749f7b1bab81e4016b7f7ae8a04ca4fa129ae77c9810d2c7c0b3a3aa7a1c13"
+    },
+    "papers/paperB/research_increments/supported_handoff_collector_design_2026-10-14/instrumentation_contract.json": {
+      "bytes": 2801,
+      "sha256": "efd5d858bf7b4c8dcd83e2d4b98490e0335cae8b8a2c8cb42e4eead21f2f1bf9"
+    }
+  },
+  "status": "LOCAL_PREREGISTRATION_CANDIDATE_NO_RUNS_PHYSICAL_GATE_OPEN",
+  "systems": [
+    {
+      "data_unique_pairs": {
+        "F": 0,
+        "R": 0,
+        "S": 1024
+      },
+      "explicit_time": false,
+      "external_timer": false,
+      "family": "DIFFUSION",
+      "id": "B0",
+      "prefix_ledger": false
+    },
+    {
+      "data_unique_pairs": {
+        "F": 0,
+        "R": 0,
+        "S": 1024
+      },
+      "explicit_time": true,
+      "external_timer": false,
+      "family": "DIFFUSION",
+      "id": "B1",
+      "prefix_ledger": false
+    },
+    {
+      "data_unique_pairs": {
+        "F": 0,
+        "R": 0,
+        "S": 1024
+      },
+      "explicit_time": true,
+      "external_timer": true,
+      "family": "EXTERNAL_TIMER",
+      "id": "B2",
+      "prefix_ledger": false
+    },
+    {
+      "data_unique_pairs": {
+        "F": 256,
+        "R": 256,
+        "S": 512
+      },
+      "explicit_time": true,
+      "external_timer": false,
+      "family": "STUDENT_STATE_IMITATION",
+      "id": "B3",
+      "prefix_ledger": false
+    },
+    {
+      "data_unique_pairs": {
+        "F": 256,
+        "R": 256,
+        "S": 512
+      },
+      "explicit_time": true,
+      "external_timer": false,
+      "family": "CANDIDATE_METHOD",
+      "id": "M",
+      "prefix_ledger": true
+    },
+    {
+      "data_unique_pairs": {
+        "F": 0,
+        "R": 0,
+        "S": 1024
+      },
+      "explicit_time": true,
+      "external_timer": false,
+      "family": "DATA_ABLATION",
+      "id": "A0",
+      "prefix_ledger": true
+    },
+    {
+      "data_unique_pairs": {
+        "F": 256,
+        "R": 0,
+        "S": 768
+      },
+      "explicit_time": true,
+      "external_timer": false,
+      "family": "DATA_ABLATION",
+      "id": "AF",
+      "prefix_ledger": true
+    },
+    {
+      "data_unique_pairs": {
+        "F": 0,
+        "R": 256,
+        "S": 768
+      },
+      "explicit_time": true,
+      "external_timer": false,
+      "family": "DATA_ABLATION",
+      "id": "AR",
+      "prefix_ledger": true
+    }
+  ],
+  "task_space": {
+    "counts": {
+      "heldout": 2,
+      "train": 8,
+      "validation": 2
+    },
+    "graphs": [
+      {
+        "absolute_D_from_attempt_start_s": null,
+        "force_ready_dwell_ms": 200,
+        "graph_id": "T01",
+        "materialized_task_source_sha256": null,
+        "max_reseat_attempts": 0,
+        "original_anchors_and_failed_rows_immutable": true,
+        "pool": "FUTURE_TRAIN",
+        "post_release_goal_dwell_ms": 200,
+        "pre_open_goal_dwell_ms": 0,
+        "relative_anchor": "support_touch",
+        "relative_target": "finger_release",
+        "relative_window_s": [
+          0.3,
+          0.8
+        ],
+        "resource_horizon_s": 90,
+        "semantic_digest": "061a3fdbd09b4450ad55b72db28235484a03b580db50db9849c21b64bdde5b04",
+        "strict_bilateral_grasp_until_ready_confirmation": false
+      },
+      {
+        "absolute_D_from_attempt_start_s": 70,
+        "force_ready_dwell_ms": 200,
+        "graph_id": "T02",
+        "materialized_task_source_sha256": null,
+        "max_reseat_attempts": 0,
+        "original_anchors_and_failed_rows_immutable": true,
+        "pool": "FUTURE_TRAIN",
+        "post_release_goal_dwell_ms": 200,
+        "pre_open_goal_dwell_ms": 0,
+        "relative_anchor": null,
+        "relative_target": null,
+        "relative_window_s": null,
+        "resource_horizon_s": 90,
+        "semantic_digest": "dc1cbf6e7fecd0798eebce1dcf5e936a7ecbcbb6d850863219ddb0f880c7aae9",
+        "strict_bilateral_grasp_until_ready_confirmation": false
+      },
+      {
+        "absolute_D_from_attempt_start_s": null,
+        "force_ready_dwell_ms": 200,
+        "graph_id": "T03",
+        "materialized_task_source_sha256": null,
+        "max_reseat_attempts": 0,
+        "original_anchors_and_failed_rows_immutable": true,
+        "pool": "FUTURE_TRAIN",
+        "post_release_goal_dwell_ms": 200,
+        "pre_open_goal_dwell_ms": 0,
+        "relative_anchor": "load_ready_onset",
+        "relative_target": "finger_release",
+        "relative_window_s": [
+          0.25,
+          0.8
+        ],
+        "resource_horizon_s": 90,
+        "semantic_digest": "245ca10af22b5d432c01c04325ecc05806dc356e932b92a83c4157f8d7d8c48e",
+        "strict_bilateral_grasp_until_ready_confirmation": false
+      },
+      {
+        "absolute_D_from_attempt_start_s": null,
+        "force_ready_dwell_ms": 400,
+        "graph_id": "T04",
+        "materialized_task_source_sha256": null,
+        "max_reseat_attempts": 1,
+        "original_anchors_and_failed_rows_immutable": true,
+        "pool": "FUTURE_TRAIN",
+        "post_release_goal_dwell_ms": 200,
+        "pre_open_goal_dwell_ms": 0,
+        "relative_anchor": null,
+        "relative_target": null,
+        "relative_window_s": null,
+        "resource_horizon_s": 90,
+        "semantic_digest": "f947a51322b1481b4dfb0b7414c988449a7330328228e2a7c8bcb59fd1ecbe30",
+        "strict_bilateral_grasp_until_ready_confirmation": false
+      },
+      {
+        "absolute_D_from_attempt_start_s": 70,
+        "force_ready_dwell_ms": 200,
+        "graph_id": "T05",
+        "materialized_task_source_sha256": null,
+        "max_reseat_attempts": 0,
+        "original_anchors_and_failed_rows_immutable": true,
+        "pool": "FUTURE_TRAIN",
+        "post_release_goal_dwell_ms": 200,
+        "pre_open_goal_dwell_ms": 200,
+        "relative_anchor": null,
+        "relative_target": null,
+        "relative_window_s": null,
+        "resource_horizon_s": 90,
+        "semantic_digest": "947f189c1469e45662298b8a3c318ba8498956a07bc7801e261770b487526eb8",
+        "strict_bilateral_grasp_until_ready_confirmation": false
+      },
+      {
+        "absolute_D_from_attempt_start_s": null,
+        "force_ready_dwell_ms": 200,
+        "graph_id": "T06",
+        "materialized_task_source_sha256": null,
+        "max_reseat_attempts": 0,
+        "original_anchors_and_failed_rows_immutable": true,
+        "pool": "FUTURE_TRAIN",
+        "post_release_goal_dwell_ms": 400,
+        "pre_open_goal_dwell_ms": 0,
+        "relative_anchor": "load_ready_confirmation",
+        "relative_target": "finger_release",
+        "relative_window_s": [
+          0.1,
+          0.5
+        ],
+        "resource_horizon_s": 90,
+        "semantic_digest": "49beca1cc0e2821d314a807ee6a3dc3682b9ffaa8165db98945f654d7a2c0c8e",
+        "strict_bilateral_grasp_until_ready_confirmation": false
+      },
+      {
+        "absolute_D_from_attempt_start_s": 70,
+        "force_ready_dwell_ms": 400,
+        "graph_id": "T07",
+        "materialized_task_source_sha256": null,
+        "max_reseat_attempts": 1,
+        "original_anchors_and_failed_rows_immutable": true,
+        "pool": "FUTURE_TRAIN",
+        "post_release_goal_dwell_ms": 200,
+        "pre_open_goal_dwell_ms": 0,
+        "relative_anchor": null,
+        "relative_target": null,
+        "relative_window_s": null,
+        "resource_horizon_s": 90,
+        "semantic_digest": "ea9f555a73239c616374b5057e3c77280672c0457be82e96ecdc1e20cfa60729",
+        "strict_bilateral_grasp_until_ready_confirmation": false
+      },
+      {
+        "absolute_D_from_attempt_start_s": null,
+        "force_ready_dwell_ms": 200,
+        "graph_id": "T08",
+        "materialized_task_source_sha256": null,
+        "max_reseat_attempts": 1,
+        "original_anchors_and_failed_rows_immutable": true,
+        "pool": "FUTURE_TRAIN",
+        "post_release_goal_dwell_ms": 400,
+        "pre_open_goal_dwell_ms": 0,
+        "relative_anchor": "support_touch",
+        "relative_target": "finger_release",
+        "relative_window_s": [
+          0.3,
+          1.2
+        ],
+        "resource_horizon_s": 90,
+        "semantic_digest": "cd9aa25582a62deee0f1c7fc599ba9f643f6676bf1d049561117d7304f69d49b",
+        "strict_bilateral_grasp_until_ready_confirmation": false
+      },
+      {
+        "absolute_D_from_attempt_start_s": 65,
+        "force_ready_dwell_ms": 200,
+        "graph_id": "V01",
+        "materialized_task_source_sha256": null,
+        "max_reseat_attempts": 1,
+        "original_anchors_and_failed_rows_immutable": true,
+        "pool": "FUTURE_VALIDATION",
+        "post_release_goal_dwell_ms": 200,
+        "pre_open_goal_dwell_ms": 200,
+        "relative_anchor": null,
+        "relative_target": null,
+        "relative_window_s": null,
+        "resource_horizon_s": 90,
+        "semantic_digest": "cf0be89d6132d1b412ccea3b8336aab955815baf026c5193c76943a85a8d7731",
+        "strict_bilateral_grasp_until_ready_confirmation": false
+      },
+      {
+        "absolute_D_from_attempt_start_s": null,
+        "force_ready_dwell_ms": 200,
+        "graph_id": "V02",
+        "materialized_task_source_sha256": null,
+        "max_reseat_attempts": 1,
+        "original_anchors_and_failed_rows_immutable": true,
+        "pool": "FUTURE_VALIDATION",
+        "post_release_goal_dwell_ms": 400,
+        "pre_open_goal_dwell_ms": 0,
+        "relative_anchor": "load_ready_confirmation",
+        "relative_target": "finger_release",
+        "relative_window_s": [
+          0.15,
+          0.6
+        ],
+        "resource_horizon_s": 90,
+        "semantic_digest": "fbdcd59033edf0a3a3f34b9194c8c8fcb0f61523225a4fd4f900d27b588cfd9f",
+        "strict_bilateral_grasp_until_ready_confirmation": false
+      },
+      {
+        "absolute_D_from_attempt_start_s": 70,
+        "force_ready_dwell_ms": 200,
+        "graph_id": "H01",
+        "materialized_task_source_sha256": null,
+        "max_reseat_attempts": 1,
+        "original_anchors_and_failed_rows_immutable": true,
+        "pool": "FUTURE_HELDOUT",
+        "post_release_goal_dwell_ms": 200,
+        "pre_open_goal_dwell_ms": 0,
+        "relative_anchor": "support_touch",
+        "relative_target": "finger_release",
+        "relative_window_s": [
+          0.3,
+          0.8
+        ],
+        "resource_horizon_s": 90,
+        "semantic_digest": "12a58c07d59b9453e3502f2746deacb51a350c966de608a241260cd225fe213b",
+        "strict_bilateral_grasp_until_ready_confirmation": true
+      },
+      {
+        "absolute_D_from_attempt_start_s": null,
+        "force_ready_dwell_ms": 200,
+        "graph_id": "H02",
+        "materialized_task_source_sha256": null,
+        "max_reseat_attempts": 0,
+        "original_anchors_and_failed_rows_immutable": true,
+        "pool": "FUTURE_HELDOUT",
+        "post_release_goal_dwell_ms": 200,
+        "pre_open_goal_dwell_ms": 400,
+        "relative_anchor": "support_touch",
+        "relative_target": "finger_release",
+        "relative_window_s": [
+          0.5,
+          1.2
+        ],
+        "resource_horizon_s": 90,
+        "semantic_digest": "ddb207cb4ec450c9d900f9b8b74f6e820f13d5b3d5abe548a9fe3fee9726749f",
+        "strict_bilateral_grasp_until_ready_confirmation": true
+      }
+    ],
+    "heldout": {
+      "H01": "Absolute AND relative AND conditional reseat with original hard anchors",
+      "H02": "Pre-open goal dwell AND force dwell AND hard continuity"
+    },
+    "materialization": "Collision-safe target/pose goal/source/graph manifest pinned before first new control trial; no test outcome tuning",
+    "seen": "Old20, paired32, C22 and seen development only explicit legacy-train, never future heldout",
+    "split_unit": "Whole graph composition/scenario/parent attempt; every sibling window/recovery/reset descendant stays grouped",
+    "test": "No teacher queries/threshold/hparam/checkpoint selection; theta0 snapshots evaluated only after all training choices frozen",
+    "visual": "Separate visual perturbation variable, not task-space holdout"
+  },
+  "two_clocks": {
+    "compute": {
+      "name": "w_monotonic",
+      "unit": "wall ns",
+      "uses": [
+        "actual inference",
+        "teacher cost",
+        "wall cap"
+      ]
+    },
+    "latencies": [
+      "capture_to_delivery_native",
+      "decision_to_submit_native",
+      "submit_to_apply_native",
+      "inference_wall_ns"
+    ],
+    "physical": {
+      "name": "tau_native",
+      "no_cross_epoch_subtraction": true,
+      "unit": "pinned conversion to integer ns",
+      "uses": [
+        "deadline/window/dwell",
+        "actual queue delay",
+        "application/effect order"
+      ]
+    },
+    "physics_latency": "Queue waits advance actual native physics; disclose if inference itself pauses physics",
+    "virtual": "Optional charge ledger separate; never replaced measured native/actual inference"
+  },
+  "write_scope": "papers/paperB/research_increments/learning_handoff_frontier_2026-10-14/method_contract_review",
+  "root_review": {
+    "parent_freeze_sha256": "a7d8191721d184816e9b14ccd82d4eb041a53b410adc0d6bd2bcd289f5991022",
+    "status": "DESIGN_CANDIDATE_WITH_DATA_BUDGET_CLARIFICATION_NOT_EXECUTION_READY",
+    "physical_gate_unresolved": true,
+    "no_policy_training_or_native_execution_from_this_plan": true,
+    "issue": "If theta0 used allS1024, M/B3 would see1536 unique pairs over both stages while claiming1024. Explicit U0=S512 common subset keeps the claimed union budget honest.",
+    "additional_prelaunch_requirement": "For nonzero mg load-ready thresholds, per-step active gravity flag must be observed enabled and scene gravity nonzero/qualified; all actual external object wrench and complete force/sign/constraint coverage must be qualified. Disabled or unknown gravity remains diagnostic-only, not supporting a weight-bearing label."
+  }
+}

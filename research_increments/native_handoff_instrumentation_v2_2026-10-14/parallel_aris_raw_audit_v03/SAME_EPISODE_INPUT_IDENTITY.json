@@ -1,0 +1,20 @@
+{
+  "CPU_readbacks_same_episode": 3,
+  "RESULT_sha256": "026ddaaa74d42f36d617fe611825e09d2fb0ad233094a1d55310c687fd200788",
+  "all_case_RAW_hash_size_maps_equal": true,
+  "launch_log_sha256": "93354c8c5ef5ffc11a9791d7bef73bede2025aec8f6110c720cb1d1bb6dc144e",
+  "new_native_reintegration_epochs": 0,
+  "post_result_reader_schema_repairs": 2,
+  "preserved_blind_FAIL_audit_sha256": "f42ab6debe4650c1415b1e95d72c12933424b1b597635ce34710d2864e3da023",
+  "preserved_v02_FAIL_audit_sha256": "1af4929be6aa346c7d325b4ed1d97db2d7bcbbbe99e3cd7775f91e9569f2f8d3",
+  "producer_source_cases_logs_results_modified": false,
+  "reader_source_closures_13_18_23_all_match": true,
+  "regular_case_members": 420,
+  "root_notification_sha256": "bd4ab50f7ba955f3a09a453d8a6cb7efc33440093635d78cc62d478ac7ead770",
+  "schema": "SameActualEpisodeInputIdentityAcrossCPUReaderVersions/0.1",
+  "source_all148_members_match_after_readback": true,
+  "source_release_sha256": "eb807cffef785271e6fc6b7558598c29c6a8c76af46f043ea321a74935fab34c",
+  "status": "PASS_ALL420_CASE_MEMBERS_IDENTICAL_BLIND_V02_V03",
+  "v03_PASS_audit_sha256": "f0fc291ee5edc21023748ffd72ed921a74c0cb425478756697070485fa7c76b2",
+  "worker_terminal_sha256": "458275ea8ef6c4feb6792f9584b971e16a9f780d0ef0e6d8ef188ae6bee51c8b"
+}

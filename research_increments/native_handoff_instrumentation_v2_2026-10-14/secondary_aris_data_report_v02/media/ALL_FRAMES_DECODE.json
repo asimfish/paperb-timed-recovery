@@ -1,0 +1,7 @@
+{
+  "status": "PASS_ALL169_VIDEO_FRAMES_CPU_DECODE",
+  "exit_code": 0,
+  "stderr_empty": true,
+  "GPU": 0,
+  "sha256": "b824c0faf86e1f6a07498620f632f1a795860e5c2fe49a76717c9de1453549c7"
+}

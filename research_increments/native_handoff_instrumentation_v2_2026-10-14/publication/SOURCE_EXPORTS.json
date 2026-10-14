@@ -1,0 +1,265 @@
+{
+  "allowlist": [
+    {
+      "bytes": 10854,
+      "path": "research_increments/native_handoff_instrumentation_v2_2026-10-14/parallel_aris_raw_audit_v03/PUBLIC_AUDIT.json",
+      "sha256": "439c354362b13284aee4a10e3e18c580ca39fd9c2c925af0b4befa9c9f38eba7",
+      "source": "papers/paperB/research_increments/native_handoff_instrumentation_v2_2026-10-14/parallel_aris_raw_audit_v03/PUBLIC_AUDIT.json",
+      "source_sha256": "439c354362b13284aee4a10e3e18c580ca39fd9c2c925af0b4befa9c9f38eba7",
+      "transformations": []
+    },
+    {
+      "bytes": 2263,
+      "path": "research_increments/native_handoff_instrumentation_v2_2026-10-14/parallel_aris_raw_audit_v03/PUBLIC_AUDIT.md",
+      "sha256": "c3e767cb2713b596250780b0905037042f6ea504663cd096bc9cb012413ae80b",
+      "source": "papers/paperB/research_increments/native_handoff_instrumentation_v2_2026-10-14/parallel_aris_raw_audit_v03/PUBLIC_AUDIT.md",
+      "source_sha256": "c3e767cb2713b596250780b0905037042f6ea504663cd096bc9cb012413ae80b",
+      "transformations": []
+    },
+    {
+      "bytes": 4497,
+      "path": "research_increments/native_handoff_instrumentation_v2_2026-10-14/parallel_aris_raw_audit_v03/PHYSICAL_TFU_SUMMARY.json",
+      "sha256": "b1707239535fee006db68a7c735fae932cc1e4249203da1c56ca913333e1ac13",
+      "source": "papers/paperB/research_increments/native_handoff_instrumentation_v2_2026-10-14/parallel_aris_raw_audit_v03/PHYSICAL_TFU_SUMMARY.json",
+      "source_sha256": "b1707239535fee006db68a7c735fae932cc1e4249203da1c56ca913333e1ac13",
+      "transformations": []
+    },
+    {
+      "bytes": 9052,
+      "path": "research_increments/native_handoff_instrumentation_v2_2026-10-14/parallel_aris_raw_audit_v03/AUDIT_OUTPUT_PIN.json",
+      "sha256": "b9c7922dc0bb677c5d935be4b1d89a4b47bc0da9d590dbf2b19ee8a2af449aa0",
+      "source": "papers/paperB/research_increments/native_handoff_instrumentation_v2_2026-10-14/parallel_aris_raw_audit_v03/AUDIT_OUTPUT_PIN.json",
+      "source_sha256": "b9c7922dc0bb677c5d935be4b1d89a4b47bc0da9d590dbf2b19ee8a2af449aa0",
+      "transformations": []
+    },
+    {
+      "bytes": 4598,
+      "path": "research_increments/native_handoff_instrumentation_v2_2026-10-14/parallel_aris_raw_audit_v03/AUDITOR_RELEASE.json",
+      "sha256": "b41bb6b803bc2519f1bcb023d69f84f8391be87c567ce630d3ef615b21d6a1cb",
+      "source": "papers/paperB/research_increments/native_handoff_instrumentation_v2_2026-10-14/parallel_aris_raw_audit_v03/AUDITOR_RELEASE.json",
+      "source_sha256": "b41bb6b803bc2519f1bcb023d69f84f8391be87c567ce630d3ef615b21d6a1cb",
+      "transformations": []
+    },
+    {
+      "bytes": 1270,
+      "path": "research_increments/native_handoff_instrumentation_v2_2026-10-14/parallel_aris_raw_audit_v03/SAME_EPISODE_INPUT_IDENTITY.json",
+      "sha256": "aa324c981d7f9909f70a03cd42f33df7a5501d0b6ab416b68e20668b102b31aa",
+      "source": "papers/paperB/research_increments/native_handoff_instrumentation_v2_2026-10-14/parallel_aris_raw_audit_v03/SAME_EPISODE_INPUT_IDENTITY.json",
+      "source_sha256": "aa324c981d7f9909f70a03cd42f33df7a5501d0b6ab416b68e20668b102b31aa",
+      "transformations": []
+    },
+    {
+      "bytes": 83829,
+      "path": "research_increments/native_handoff_instrumentation_v2_2026-10-14/parallel_aris_independent_raw_audit/NATIVE_RAW_AUDIT.json",
+      "sha256": "f42ab6debe4650c1415b1e95d72c12933424b1b597635ce34710d2864e3da023",
+      "source": "papers/paperB/research_increments/native_handoff_instrumentation_v2_2026-10-14/parallel_aris_independent_raw_audit/NATIVE_RAW_AUDIT.json",
+      "source_sha256": "f42ab6debe4650c1415b1e95d72c12933424b1b597635ce34710d2864e3da023",
+      "transformations": []
+    },
+    {
+      "bytes": 2715,
+      "path": "research_increments/native_handoff_instrumentation_v2_2026-10-14/parallel_aris_independent_raw_audit/AUDITOR_RELEASE.json",
+      "sha256": "eaad7182727867ad2dce94896fb8916db6df672174013870f994bc3f5f95d0b6",
+      "source": "papers/paperB/research_increments/native_handoff_instrumentation_v2_2026-10-14/parallel_aris_independent_raw_audit/AUDITOR_RELEASE.json",
+      "source_sha256": "eaad7182727867ad2dce94896fb8916db6df672174013870f994bc3f5f95d0b6",
+      "transformations": []
+    },
+    {
+      "bytes": 83907,
+      "path": "research_increments/native_handoff_instrumentation_v2_2026-10-14/parallel_aris_raw_audit_v02/NATIVE_RAW_AUDIT.json",
+      "sha256": "1af4929be6aa346c7d325b4ed1d97db2d7bcbbbe99e3cd7775f91e9569f2f8d3",
+      "source": "papers/paperB/research_increments/native_handoff_instrumentation_v2_2026-10-14/parallel_aris_raw_audit_v02/NATIVE_RAW_AUDIT.json",
+      "source_sha256": "1af4929be6aa346c7d325b4ed1d97db2d7bcbbbe99e3cd7775f91e9569f2f8d3",
+      "transformations": []
+    },
+    {
+      "bytes": 3671,
+      "path": "research_increments/native_handoff_instrumentation_v2_2026-10-14/parallel_aris_raw_audit_v02/AUDITOR_RELEASE.json",
+      "sha256": "2a208cff52dda13a4845a4cd34036a2069226c4faedb169ca567fb2b559ef86d",
+      "source": "papers/paperB/research_increments/native_handoff_instrumentation_v2_2026-10-14/parallel_aris_raw_audit_v02/AUDITOR_RELEASE.json",
+      "source_sha256": "2a208cff52dda13a4845a4cd34036a2069226c4faedb169ca567fb2b559ef86d",
+      "transformations": []
+    },
+    {
+      "bytes": 5808,
+      "path": "research_increments/native_handoff_instrumentation_v2_2026-10-14/source_only_parallel_aris_review/SOURCE_ONLY_VERDICT.json",
+      "sha256": "06b9c37acadd7804c5043df3efeb08f33d101220500e8427aac5eb7b2fda3d4e",
+      "source": "papers/paperB/research_increments/native_handoff_instrumentation_v2_2026-10-14/source_only_parallel_aris_review/SOURCE_ONLY_VERDICT.json",
+      "source_sha256": "06b9c37acadd7804c5043df3efeb08f33d101220500e8427aac5eb7b2fda3d4e",
+      "transformations": []
+    },
+    {
+      "bytes": 1944,
+      "path": "research_increments/native_handoff_instrumentation_v2_2026-10-14/ROOT_RAW_ACCEPTANCE.json",
+      "sha256": "2204b949efd5971962c7b1c0da082493dfde42918898d74161578dcd916ac4e9",
+      "source": "papers/paperB/research_increments/native_handoff_instrumentation_v2_2026-10-14/ROOT_RAW_ACCEPTANCE.json",
+      "source_sha256": "2204b949efd5971962c7b1c0da082493dfde42918898d74161578dcd916ac4e9",
+      "transformations": []
+    },
+    {
+      "bytes": 1148,
+      "path": "research_increments/native_handoff_instrumentation_v2_2026-10-14/ROOT_SECONDARY_MEDIA_REVIEW.json",
+      "sha256": "cc32020ded2313ee202d114b4e4566ebbef5362ed480b0e4eb8d082747b15768",
+      "source": "papers/paperB/research_increments/native_handoff_instrumentation_v2_2026-10-14/ROOT_SECONDARY_MEDIA_REVIEW.json",
+      "source_sha256": "cc32020ded2313ee202d114b4e4566ebbef5362ed480b0e4eb8d082747b15768",
+      "transformations": []
+    },
+    {
+      "bytes": 4961,
+      "path": "research_increments/native_handoff_instrumentation_v2_2026-10-14/secondary_aris_data_report_v02/ACTUAL_REPORT_cn.md",
+      "sha256": "f4d852d0e286435101a26c1ab54ecb45d845a405b5a32fdc6f5de82d5a1722fd",
+      "source": "papers/paperB/research_increments/native_handoff_instrumentation_v2_2026-10-14/secondary_aris_data_report_v02/ACTUAL_REPORT_cn.md",
+      "source_sha256": "f4d852d0e286435101a26c1ab54ecb45d845a405b5a32fdc6f5de82d5a1722fd",
+      "transformations": []
+    },
+    {
+      "bytes": 3215,
+      "path": "research_increments/native_handoff_instrumentation_v2_2026-10-14/secondary_aris_data_report_v02/SOURCE_RELEASE.json",
+      "sha256": "1a048b0569bdaf49daf50d89f517731148082aa63a74cf2042d3ec86ee5c93c5",
+      "source": "papers/paperB/research_increments/native_handoff_instrumentation_v2_2026-10-14/secondary_aris_data_report_v02/SOURCE_RELEASE.json",
+      "source_sha256": "1a048b0569bdaf49daf50d89f517731148082aa63a74cf2042d3ec86ee5c93c5",
+      "transformations": []
+    },
+    {
+      "bytes": 1846,
+      "path": "research_increments/native_handoff_instrumentation_v2_2026-10-14/secondary_aris_data_report_v02/FINAL_RECEIPT.json",
+      "sha256": "f89382644e8ee8459036312f64ac2c387c033c8ce6844b1ef5f77904c66027c4",
+      "source": "papers/paperB/research_increments/native_handoff_instrumentation_v2_2026-10-14/secondary_aris_data_report_v02/FINAL_RECEIPT.json",
+      "source_sha256": "f89382644e8ee8459036312f64ac2c387c033c8ce6844b1ef5f77904c66027c4",
+      "transformations": []
+    },
+    {
+      "bytes": 12828,
+      "path": "research_increments/native_handoff_instrumentation_v2_2026-10-14/secondary_aris_data_report_v02/DELIVERY_MANIFEST.json",
+      "sha256": "97d0c4b5bc554d5932d70ae73f313379932d91a3bc9f1f40b6370d6116ce98b8",
+      "source": "papers/paperB/research_increments/native_handoff_instrumentation_v2_2026-10-14/secondary_aris_data_report_v02/DELIVERY_MANIFEST.json",
+      "source_sha256": "97d0c4b5bc554d5932d70ae73f313379932d91a3bc9f1f40b6370d6116ce98b8",
+      "transformations": []
+    },
+    {
+      "bytes": 12952,
+      "path": "research_increments/native_handoff_instrumentation_v2_2026-10-14/secondary_aris_data_report_v02/ARCHIVE_VALIDATION.json",
+      "sha256": "3bb1bf40e35094e225c169b057f4810aaf897046c87c37a198880238c5421f99",
+      "source": "papers/paperB/research_increments/native_handoff_instrumentation_v2_2026-10-14/secondary_aris_data_report_v02/ARCHIVE_VALIDATION.json",
+      "source_sha256": "3bb1bf40e35094e225c169b057f4810aaf897046c87c37a198880238c5421f99",
+      "transformations": []
+    },
+    {
+      "bytes": 8090322,
+      "path": "research_increments/native_handoff_instrumentation_v2_2026-10-14/secondary_aris_data_report_v02/SECONDARY_ARIS_ACTUAL_V02.tar.gz",
+      "sha256": "5f1e91a6b1477576f9fc07f83da37ca28f0c7296ac18332def073410c44b7bf2",
+      "source": "papers/paperB/research_increments/native_handoff_instrumentation_v2_2026-10-14/secondary_aris_data_report_v02/SECONDARY_ARIS_ACTUAL_V02.tar.gz",
+      "source_sha256": "5f1e91a6b1477576f9fc07f83da37ca28f0c7296ac18332def073410c44b7bf2",
+      "transformations": []
+    },
+    {
+      "bytes": 236931,
+      "path": "research_increments/native_handoff_instrumentation_v2_2026-10-14/secondary_aris_data_report_v02/figures/actual_velocity_release_mechanism.svg",
+      "sha256": "b8c6cd59daa618c4f70e781f678e50d700c9c7f16b304c533d0dfdf9dc9c6901",
+      "source": "papers/paperB/research_increments/native_handoff_instrumentation_v2_2026-10-14/secondary_aris_data_report_v02/figures/actual_velocity_release_mechanism.svg",
+      "source_sha256": "b8c6cd59daa618c4f70e781f678e50d700c9c7f16b304c533d0dfdf9dc9c6901",
+      "transformations": []
+    },
+    {
+      "bytes": 95134,
+      "path": "research_increments/native_handoff_instrumentation_v2_2026-10-14/secondary_aris_data_report_v02/figures/actual_velocity_release_mechanism.pdf",
+      "sha256": "d18c34b9a0acc103a5d73ce700e4174f2fbcee900815c3cc50e82393ed74a513",
+      "source": "papers/paperB/research_increments/native_handoff_instrumentation_v2_2026-10-14/secondary_aris_data_report_v02/figures/actual_velocity_release_mechanism.pdf",
+      "source_sha256": "d18c34b9a0acc103a5d73ce700e4174f2fbcee900815c3cc50e82393ed74a513",
+      "transformations": []
+    },
+    {
+      "bytes": 299687,
+      "path": "research_increments/native_handoff_instrumentation_v2_2026-10-14/secondary_aris_data_report_v02/figures/actual_velocity_release_mechanism.png",
+      "sha256": "b1131996ade76bbe2a9de0c005d14c6787e786f884bac21da6e1329ae482486b",
+      "source": "papers/paperB/research_increments/native_handoff_instrumentation_v2_2026-10-14/secondary_aris_data_report_v02/figures/actual_velocity_release_mechanism.png",
+      "source_sha256": "b1131996ade76bbe2a9de0c005d14c6787e786f884bac21da6e1329ae482486b",
+      "transformations": []
+    },
+    {
+      "bytes": 673778,
+      "path": "research_increments/native_handoff_instrumentation_v2_2026-10-14/secondary_aris_data_report_v02/media/development_seen_actual_native_rgb.mp4",
+      "sha256": "b824c0faf86e1f6a07498620f632f1a795860e5c2fe49a76717c9de1453549c7",
+      "source": "papers/paperB/research_increments/native_handoff_instrumentation_v2_2026-10-14/secondary_aris_data_report_v02/media/development_seen_actual_native_rgb.mp4",
+      "source_sha256": "b824c0faf86e1f6a07498620f632f1a795860e5c2fe49a76717c9de1453549c7",
+      "transformations": []
+    },
+    {
+      "bytes": 43101,
+      "path": "research_increments/native_handoff_instrumentation_v2_2026-10-14/secondary_aris_data_report_v02/media/poster_actual_native.jpg",
+      "sha256": "d8d0ce18f7d27e8daa8fee98021c197e8c25d084c649fd2b30b5bacf4b8569c9",
+      "source": "papers/paperB/research_increments/native_handoff_instrumentation_v2_2026-10-14/secondary_aris_data_report_v02/media/poster_actual_native.jpg",
+      "source_sha256": "d8d0ce18f7d27e8daa8fee98021c197e8c25d084c649fd2b30b5bacf4b8569c9",
+      "transformations": []
+    },
+    {
+      "bytes": 114870,
+      "path": "research_increments/native_handoff_instrumentation_v2_2026-10-14/secondary_aris_data_report_v02/media/VIDEO_NATIVE_TIME_MAPPING.json",
+      "sha256": "0277f3f6c3b49f1934455746a3b1b0a8e9bd0d814634a611f0a3d23e63759c6f",
+      "source": "papers/paperB/research_increments/native_handoff_instrumentation_v2_2026-10-14/secondary_aris_data_report_v02/media/VIDEO_NATIVE_TIME_MAPPING.json",
+      "source_sha256": "0277f3f6c3b49f1934455746a3b1b0a8e9bd0d814634a611f0a3d23e63759c6f",
+      "transformations": []
+    },
+    {
+      "bytes": 706,
+      "path": "research_increments/native_handoff_instrumentation_v2_2026-10-14/secondary_aris_data_report_v02/media/DISPLAY_TAIL_AND_POSTER_SCOPE.json",
+      "sha256": "766451d5f781b7902bd1239a60fe3b2e43e6d66d49b018dcdedddf06721fdc44",
+      "source": "papers/paperB/research_increments/native_handoff_instrumentation_v2_2026-10-14/secondary_aris_data_report_v02/media/DISPLAY_TAIL_AND_POSTER_SCOPE.json",
+      "source_sha256": "766451d5f781b7902bd1239a60fe3b2e43e6d66d49b018dcdedddf06721fdc44",
+      "transformations": []
+    },
+    {
+      "bytes": 135592,
+      "path": "research_increments/native_handoff_instrumentation_v2_2026-10-14/secondary_aris_data_report_v02/media/FFPROBE.json",
+      "sha256": "4e80e44c34b3803258b59a45de4d80560ae117af7287d6ab9046d36985034859",
+      "source": "papers/paperB/research_increments/native_handoff_instrumentation_v2_2026-10-14/secondary_aris_data_report_v02/media/FFPROBE.json",
+      "source_sha256": "4e80e44c34b3803258b59a45de4d80560ae117af7287d6ab9046d36985034859",
+      "transformations": []
+    },
+    {
+      "bytes": 188,
+      "path": "research_increments/native_handoff_instrumentation_v2_2026-10-14/secondary_aris_data_report_v02/media/ALL_FRAMES_DECODE.json",
+      "sha256": "c0cd3ce557b58a0fcc037ad192a1c1af448c7d4f12c5941f7cc540d3aab2b08c",
+      "source": "papers/paperB/research_increments/native_handoff_instrumentation_v2_2026-10-14/secondary_aris_data_report_v02/media/ALL_FRAMES_DECODE.json",
+      "source_sha256": "c0cd3ce557b58a0fcc037ad192a1c1af448c7d4f12c5941f7cc540d3aab2b08c",
+      "transformations": []
+    },
+    {
+      "bytes": 11187,
+      "path": "research_increments/learning_handoff_frontier_2026-10-14/method_contract_root_v02/FORMULATION_AND_MINIMAL_EXPERIMENT_cn.md",
+      "sha256": "51b80303e856cf9799979083630f4e8b3c6fbb495249c1759c07d827e355428d",
+      "source": "papers/paperB/research_increments/learning_handoff_frontier_2026-10-14/method_contract_root_v02/FORMULATION_AND_MINIMAL_EXPERIMENT_cn.md",
+      "source_sha256": "51b80303e856cf9799979083630f4e8b3c6fbb495249c1759c07d827e355428d",
+      "transformations": []
+    },
+    {
+      "bytes": 32056,
+      "path": "research_increments/learning_handoff_frontier_2026-10-14/method_contract_root_v02/METHOD_AND_PREREGISTRATION_CONTRACT.json",
+      "sha256": "3ea10c8b0e11db44e64ba4ca6206d700eb41a8075449ffb12b519b9050e84c20",
+      "source": "papers/paperB/research_increments/learning_handoff_frontier_2026-10-14/method_contract_root_v02/METHOD_AND_PREREGISTRATION_CONTRACT.json",
+      "source_sha256": "3ea10c8b0e11db44e64ba4ca6206d700eb41a8075449ffb12b519b9050e84c20",
+      "transformations": []
+    },
+    {
+      "bytes": 737,
+      "path": "research_increments/learning_handoff_frontier_2026-10-14/method_contract_root_v02/ROOT_METHOD_REVIEW_FREEZE.json",
+      "sha256": "7e0d9c9645fe6bac37b1349cf459d5c30ae637c7a8300c7671c8f8832ee90f86",
+      "source": "papers/paperB/research_increments/learning_handoff_frontier_2026-10-14/method_contract_root_v02/ROOT_METHOD_REVIEW_FREEZE.json",
+      "source_sha256": "7e0d9c9645fe6bac37b1349cf459d5c30ae637c7a8300c7671c8f8832ee90f86",
+      "transformations": []
+    },
+    {
+      "bytes": 4482,
+      "path": "research_increments/native_handoff_instrumentation_v2_2026-10-14/publication/PUBLIC_SCOPE.json",
+      "sha256": "8db932d83efa4ea7a028f5e1a37622d32e6f210dec9cd5b5b9dc329f4c17de0d",
+      "source": "papers/paperB/research_increments/native_handoff_instrumentation_v2_2026-10-14/publication/PUBLIC_SCOPE.json",
+      "source_sha256": "8db932d83efa4ea7a028f5e1a37622d32e6f210dec9cd5b5b9dc329f4c17de0d",
+      "transformations": []
+    }
+  ],
+  "archive80_reopened": true,
+  "byte_exact_sources_only": true,
+  "credential_features": 0,
+  "no_raw_episode_or_vendor_SDK_publication": true,
+  "schema": "NativeHandoffCuratedSourceExports/0.1"
+}

@@ -16,12 +16,14 @@
       "transformations": []
     },
     {
-      "bytes": 2675,
+      "bytes": 2977,
       "path": "README.md",
-      "sha256": "5c9575d25c4e319f4477a2d26f949b8d9d1a36e72f66c7f7cc14113c3e51952e",
-      "source": "publication supplement",
-      "source_sha256": "5c9575d25c4e319f4477a2d26f949b8d9d1a36e72f66c7f7cc14113c3e51952e",
-      "transformations": []
+      "sha256": "4ffc98ad456a4a3990f63141be12551e1d106a39c4f4b1933b8685a2371c630a",
+      "source": "papers/paperB/research_increments/native_handoff_instrumentation_v2_2026-10-14/merged_delivery/concurrent_README.md",
+      "source_sha256": "4ffc98ad456a4a3990f63141be12551e1d106a39c4f4b1933b8685a2371c630a",
+      "transformations": [
+        "Retain exact concurrent 66d4b91 README bytes; correct its stale parent SHA/size in publication manifest; initial failing source gate retained."
+      ]
     },
     {
       "bytes": 23709,
@@ -38,6 +40,156 @@
       "source": "web/anticipatory_results.svg",
       "source_sha256": "c5845c35c8d2fcfc0b2c89a0eac2d4653e793bbfff29beddef263c9f73e32de5",
       "transformations": []
+    },
+    {
+      "bytes": 6863,
+      "path": "aris-research.css",
+      "sha256": "34d3c665989f55daa14b7741057e62217e32e107a469e6aafc1faa94d73a4efa",
+      "source": "aris_native_site_20261014/aris-research.css",
+      "source_sha256": "34d3c665989f55daa14b7741057e62217e32e107a469e6aafc1faa94d73a4efa",
+      "transformations": [
+        "curated public evidence; private logs and checkpoints excluded"
+      ]
+    },
+    {
+      "bytes": 11972,
+      "path": "aris-research.html",
+      "sha256": "56b82b2fb7f5bdb8a3cfdf334b0f72becf8a7354dc770370531ca0647dcd3151",
+      "source": "papers/paperB/research_increments/native_handoff_instrumentation_v2_2026-10-14/merged_delivery/aris_lineage_correction/updated/aris-research.html",
+      "source_sha256": "56b82b2fb7f5bdb8a3cfdf334b0f72becf8a7354dc770370531ca0647dcd3151",
+      "transformations": [
+        "Bind supplemental native status to accepted frozen v03 audit; preserve 66d4b91 original bytes and prior unbound wording in private versioned correction receipt; no native, clock, adaptation result or media change."
+      ]
+    },
+    {
+      "bytes": 5111,
+      "path": "aris-research.js",
+      "sha256": "983a8b58d42e09ba2a729df5de1dd47df44b52923ab82c98c2b0192906483df5",
+      "source": "aris_native_site_20261014/aris-research.js",
+      "source_sha256": "983a8b58d42e09ba2a729df5de1dd47df44b52923ab82c98c2b0192906483df5",
+      "transformations": [
+        "curated public evidence; private logs and checkpoints excluded"
+      ]
+    },
+    {
+      "bytes": 19742,
+      "path": "assets/aris-research/adaptation.pdf",
+      "sha256": "8e4402d97777e1ffd1ae3650ff242fc22c51882149b7117eca120f705b9f8690",
+      "source": "aris_native_site_20261014/assets/aris-research/adaptation.pdf",
+      "source_sha256": "8e4402d97777e1ffd1ae3650ff242fc22c51882149b7117eca120f705b9f8690",
+      "transformations": [
+        "curated public evidence; private logs and checkpoints excluded"
+      ]
+    },
+    {
+      "bytes": 145788,
+      "path": "assets/aris-research/adaptation.png",
+      "sha256": "9180508b5be23e9f20c247e6ef4e6a4743648e0c800cc4ab2df92f3f364a85da",
+      "source": "aris_native_site_20261014/assets/aris-research/adaptation.png",
+      "source_sha256": "9180508b5be23e9f20c247e6ef4e6a4743648e0c800cc4ab2df92f3f364a85da",
+      "transformations": [
+        "curated public evidence; private logs and checkpoints excluded"
+      ]
+    },
+    {
+      "bytes": 65226,
+      "path": "assets/aris-research/adaptation.svg",
+      "sha256": "c7681246714aee8ad5b2f12c8a64899bc916085f8ba2ff2b0ecb3e36cea83229",
+      "source": "aris_native_site_20261014/assets/aris-research/adaptation.svg",
+      "source_sha256": "c7681246714aee8ad5b2f12c8a64899bc916085f8ba2ff2b0ecb3e36cea83229",
+      "transformations": [
+        "curated public evidence; private logs and checkpoints excluded"
+      ]
+    },
+    {
+      "bytes": 22202,
+      "path": "assets/aris-research/continuous-clock.pdf",
+      "sha256": "a0c13fdc1951a395fbde49fc904facc999b24e50bce1f5d235b729d77341730a",
+      "source": "aris_native_site_20261014/assets/aris-research/continuous-clock.pdf",
+      "source_sha256": "a0c13fdc1951a395fbde49fc904facc999b24e50bce1f5d235b729d77341730a",
+      "transformations": [
+        "curated public evidence; private logs and checkpoints excluded"
+      ]
+    },
+    {
+      "bytes": 142512,
+      "path": "assets/aris-research/continuous-clock.png",
+      "sha256": "124e75a2a5e199b853790b0be7c4830c5a5dae043514439bac4fc59098d1f273",
+      "source": "aris_native_site_20261014/assets/aris-research/continuous-clock.png",
+      "source_sha256": "124e75a2a5e199b853790b0be7c4830c5a5dae043514439bac4fc59098d1f273",
+      "transformations": [
+        "curated public evidence; private logs and checkpoints excluded"
+      ]
+    },
+    {
+      "bytes": 75561,
+      "path": "assets/aris-research/continuous-clock.svg",
+      "sha256": "2d701684c079c63df5f267561fe122b2ee7a3c05addbdbbaf1e7f95d4b2862a0",
+      "source": "aris_native_site_20261014/assets/aris-research/continuous-clock.svg",
+      "source_sha256": "2d701684c079c63df5f267561fe122b2ee7a3c05addbdbbaf1e7f95d4b2862a0",
+      "transformations": [
+        "curated public evidence; private logs and checkpoints excluded"
+      ]
+    },
+    {
+      "bytes": 17074,
+      "path": "assets/aris-research/media-provenance.json",
+      "sha256": "2d4794c2e23bf323ce959880f4c4d26214c35d647af14660a8fea47b9424fe39",
+      "source": "papers/paperB/research_increments/native_handoff_instrumentation_v2_2026-10-14/merged_delivery/aris_lineage_correction/updated/assets/aris-research/media-provenance.json",
+      "source_sha256": "2d4794c2e23bf323ce959880f4c4d26214c35d647af14660a8fea47b9424fe39",
+      "transformations": [
+        "Bind supplemental native status to accepted frozen v03 audit; preserve 66d4b91 original bytes and prior unbound wording in private versioned correction receipt; no native, clock, adaptation result or media change."
+      ]
+    },
+    {
+      "bytes": 42285,
+      "path": "assets/aris-research/native-end.jpg",
+      "sha256": "a702b557c39a5f6438b1524fc1fd8fc9af59d62918c3be5503d332b9b02163a7",
+      "source": "aris_native_site_20261014/assets/aris-research/native-end.jpg",
+      "source_sha256": "a702b557c39a5f6438b1524fc1fd8fc9af59d62918c3be5503d332b9b02163a7",
+      "transformations": [
+        "curated public evidence; private logs and checkpoints excluded"
+      ]
+    },
+    {
+      "bytes": 42717,
+      "path": "assets/aris-research/native-middle.jpg",
+      "sha256": "01a78c48552eb4babbb40c68c60b892adea0dffda7e189d08fb26c2e9882e926",
+      "source": "aris_native_site_20261014/assets/aris-research/native-middle.jpg",
+      "source_sha256": "01a78c48552eb4babbb40c68c60b892adea0dffda7e189d08fb26c2e9882e926",
+      "transformations": [
+        "curated public evidence; private logs and checkpoints excluded"
+      ]
+    },
+    {
+      "bytes": 38256,
+      "path": "assets/aris-research/native-poster.jpg",
+      "sha256": "4305a08f34a1d4a96dd33bb909445cf846554cef9f8f7830d8e3f381d4cabbec",
+      "source": "aris_native_site_20261014/assets/aris-research/native-poster.jpg",
+      "source_sha256": "4305a08f34a1d4a96dd33bb909445cf846554cef9f8f7830d8e3f381d4cabbec",
+      "transformations": [
+        "curated public evidence; private logs and checkpoints excluded"
+      ]
+    },
+    {
+      "bytes": 697024,
+      "path": "assets/aris-research/native-preview.mp4",
+      "sha256": "7ce6bec6ff7744b62acefb06189d515d29fe389089755b0b803497c4ee6a933e",
+      "source": "aris_native_site_20261014/assets/aris-research/native-preview.mp4",
+      "source_sha256": "7ce6bec6ff7744b62acefb06189d515d29fe389089755b0b803497c4ee6a933e",
+      "transformations": [
+        "curated public evidence; private logs and checkpoints excluded"
+      ]
+    },
+    {
+      "bytes": 38453,
+      "path": "assets/aris-research/native-start.jpg",
+      "sha256": "92c4e34aa5fc253c03baa9f4b18bc8a5a0a9eb06a532162d7238944bf891edf4",
+      "source": "aris_native_site_20261014/assets/aris-research/native-start.jpg",
+      "source_sha256": "92c4e34aa5fc253c03baa9f4b18bc8a5a0a9eb06a532162d7238944bf891edf4",
+      "transformations": [
+        "curated public evidence; private logs and checkpoints excluded"
+      ]
     },
     {
       "bytes": 3383,
@@ -62,6 +214,56 @@
       "source": "web/contingency_results.svg",
       "source_sha256": "659addd7f0b1f3c9537b55199a9926c3aa57036cce11933c5bfe67831478208b",
       "transformations": []
+    },
+    {
+      "bytes": 3431,
+      "path": "data/aris-research/asset-manifest.json",
+      "sha256": "0f5a57b09a05d96e7610c2e595212d5f0efb61f3fc94d48414c74c120f8d51de",
+      "source": "papers/paperB/research_increments/native_handoff_instrumentation_v2_2026-10-14/merged_delivery/aris_lineage_correction/updated/data/aris-research/asset-manifest.json",
+      "source_sha256": "0f5a57b09a05d96e7610c2e595212d5f0efb61f3fc94d48414c74c120f8d51de",
+      "transformations": [
+        "Bind supplemental native status to accepted frozen v03 audit; preserve 66d4b91 original bytes and prior unbound wording in private versioned correction receipt; no native, clock, adaptation result or media change."
+      ]
+    },
+    {
+      "bytes": 1059,
+      "path": "data/aris-research/clock-conditions.csv",
+      "sha256": "06dc40b620a15fe9decd1398c21d069d23fa9e5b825645ee3412256c6d4c7c2d",
+      "source": "aris_native_site_20261014/data/aris-research/clock-conditions.csv",
+      "source_sha256": "06dc40b620a15fe9decd1398c21d069d23fa9e5b825645ee3412256c6d4c7c2d",
+      "transformations": [
+        "curated public evidence; private logs and checkpoints excluded"
+      ]
+    },
+    {
+      "bytes": 40540,
+      "path": "data/aris-research/results.json",
+      "sha256": "006b94739b56b6a0ea177367eaa9f27257612879a6cf63e52d5dba9023ab253a",
+      "source": "papers/paperB/research_increments/native_handoff_instrumentation_v2_2026-10-14/merged_delivery/aris_lineage_correction/updated/data/aris-research/results.json",
+      "source_sha256": "006b94739b56b6a0ea177367eaa9f27257612879a6cf63e52d5dba9023ab253a",
+      "transformations": [
+        "Bind supplemental native status to accepted frozen v03 audit; preserve 66d4b91 original bytes and prior unbound wording in private versioned correction receipt; no native, clock, adaptation result or media change."
+      ]
+    },
+    {
+      "bytes": 2335,
+      "path": "data/aris-research/review-summary.json",
+      "sha256": "9736bc21782f63d92414c1fab1a8e6baaffd8458b2bd594ec960d6ea59619833",
+      "source": "papers/paperB/research_increments/native_handoff_instrumentation_v2_2026-10-14/merged_delivery/aris_lineage_correction/updated/data/aris-research/review-summary.json",
+      "source_sha256": "9736bc21782f63d92414c1fab1a8e6baaffd8458b2bd594ec960d6ea59619833",
+      "transformations": [
+        "Bind supplemental native status to accepted frozen v03 audit; preserve 66d4b91 original bytes and prior unbound wording in private versioned correction receipt; no native, clock, adaptation result or media change."
+      ]
+    },
+    {
+      "bytes": 143532,
+      "path": "data/aris-research/traces.json",
+      "sha256": "653a6aa867afdb8ae3cbbb7269b71fdd0c7168c77053195dea9b5152a9102fa8",
+      "source": "aris_native_site_20261014/data/aris-research/traces.json",
+      "source_sha256": "653a6aa867afdb8ae3cbbb7269b71fdd0c7168c77053195dea9b5152a9102fa8",
+      "transformations": [
+        "curated public evidence; private logs and checkpoints excluded"
+      ]
     },
     {
       "bytes": 48877,
@@ -106,14 +308,13 @@
       "transformations": []
     },
     {
-      "bytes": 272803,
+      "bytes": 282958,
       "path": "index.html",
-      "sha256": "442d53d197317a35e6fddcf32c5dbabe9ec1e812f767c7cb746354407517047b",
-      "source": "papers/paperB/research_increments/learning_handoff_frontier_2026-10-14/publication/public_index.html",
-      "source_sha256": "aad7fc18148caebea9044a731486d81476d8175c524185c8af4a3d536bed6655",
+      "sha256": "5b01b03f6b90c1854d3982bead79a886faf1b76ec545e13563446733a5525908",
+      "source": "papers/paperB/research_increments/native_handoff_instrumentation_v2_2026-10-14/merged_delivery/public_index.html",
+      "source_sha256": "5b01b03f6b90c1854d3982bead79a886faf1b76ec545e13563446733a5525908",
       "transformations": [
-        "append learning_data_frontier and navigation to baseline 43b9668; root-corrected retained v1 pre-AppLauncher failure; add frozen v04 recovery-prefix CPU fix and retain v03 red history; all existing JavaScript and baseline nonindex assets preserved",
-        "supplemental ARIS research navigation; parent scientific content preserved"
+        "Append the frozen native readback and nav to concurrent 66d4b91; retain ARIS research page, README and all original scripts; removing the two native additions restores exact 66d4b91 index bytes."
       ]
     },
     {
@@ -1635,6 +1836,30 @@
       "transformations": []
     },
     {
+      "bytes": 11187,
+      "path": "research_increments/learning_handoff_frontier_2026-10-14/method_contract_root_v02/FORMULATION_AND_MINIMAL_EXPERIMENT_cn.md",
+      "sha256": "51b80303e856cf9799979083630f4e8b3c6fbb495249c1759c07d827e355428d",
+      "source": "papers/paperB/research_increments/learning_handoff_frontier_2026-10-14/method_contract_root_v02/FORMULATION_AND_MINIMAL_EXPERIMENT_cn.md",
+      "source_sha256": "51b80303e856cf9799979083630f4e8b3c6fbb495249c1759c07d827e355428d",
+      "transformations": []
+    },
+    {
+      "bytes": 32056,
+      "path": "research_increments/learning_handoff_frontier_2026-10-14/method_contract_root_v02/METHOD_AND_PREREGISTRATION_CONTRACT.json",
+      "sha256": "3ea10c8b0e11db44e64ba4ca6206d700eb41a8075449ffb12b519b9050e84c20",
+      "source": "papers/paperB/research_increments/learning_handoff_frontier_2026-10-14/method_contract_root_v02/METHOD_AND_PREREGISTRATION_CONTRACT.json",
+      "source_sha256": "3ea10c8b0e11db44e64ba4ca6206d700eb41a8075449ffb12b519b9050e84c20",
+      "transformations": []
+    },
+    {
+      "bytes": 737,
+      "path": "research_increments/learning_handoff_frontier_2026-10-14/method_contract_root_v02/ROOT_METHOD_REVIEW_FREEZE.json",
+      "sha256": "7e0d9c9645fe6bac37b1349cf459d5c30ae637c7a8300c7671c8f8832ee90f86",
+      "source": "papers/paperB/research_increments/learning_handoff_frontier_2026-10-14/method_contract_root_v02/ROOT_METHOD_REVIEW_FREEZE.json",
+      "source_sha256": "7e0d9c9645fe6bac37b1349cf459d5c30ae637c7a8300c7671c8f8832ee90f86",
+      "transformations": []
+    },
+    {
       "bytes": 28741,
       "path": "research_increments/learning_handoff_frontier_2026-10-14/publication/INDEPENDENT_RAW_READER_SOURCE.tar.gz",
       "sha256": "c4a397976aeedf89312091e73f9efb7f3ddf55025f1763068fd80e8079fd1b01",
@@ -1980,6 +2205,246 @@
       "sha256": "d89e4178aa355380feccd5c09558c8257d45c09dd202b79db80c873ec6005b33",
       "source": "papers/paperB/research_increments/native_handoff_instrumentation_2026-10-14/independent_review/SOURCE_REVIEW.json",
       "source_sha256": "d89e4178aa355380feccd5c09558c8257d45c09dd202b79db80c873ec6005b33",
+      "transformations": []
+    },
+    {
+      "bytes": 1944,
+      "path": "research_increments/native_handoff_instrumentation_v2_2026-10-14/ROOT_RAW_ACCEPTANCE.json",
+      "sha256": "2204b949efd5971962c7b1c0da082493dfde42918898d74161578dcd916ac4e9",
+      "source": "papers/paperB/research_increments/native_handoff_instrumentation_v2_2026-10-14/ROOT_RAW_ACCEPTANCE.json",
+      "source_sha256": "2204b949efd5971962c7b1c0da082493dfde42918898d74161578dcd916ac4e9",
+      "transformations": []
+    },
+    {
+      "bytes": 1148,
+      "path": "research_increments/native_handoff_instrumentation_v2_2026-10-14/ROOT_SECONDARY_MEDIA_REVIEW.json",
+      "sha256": "cc32020ded2313ee202d114b4e4566ebbef5362ed480b0e4eb8d082747b15768",
+      "source": "papers/paperB/research_increments/native_handoff_instrumentation_v2_2026-10-14/ROOT_SECONDARY_MEDIA_REVIEW.json",
+      "source_sha256": "cc32020ded2313ee202d114b4e4566ebbef5362ed480b0e4eb8d082747b15768",
+      "transformations": []
+    },
+    {
+      "bytes": 2715,
+      "path": "research_increments/native_handoff_instrumentation_v2_2026-10-14/parallel_aris_independent_raw_audit/AUDITOR_RELEASE.json",
+      "sha256": "eaad7182727867ad2dce94896fb8916db6df672174013870f994bc3f5f95d0b6",
+      "source": "papers/paperB/research_increments/native_handoff_instrumentation_v2_2026-10-14/parallel_aris_independent_raw_audit/AUDITOR_RELEASE.json",
+      "source_sha256": "eaad7182727867ad2dce94896fb8916db6df672174013870f994bc3f5f95d0b6",
+      "transformations": []
+    },
+    {
+      "bytes": 83829,
+      "path": "research_increments/native_handoff_instrumentation_v2_2026-10-14/parallel_aris_independent_raw_audit/NATIVE_RAW_AUDIT.json",
+      "sha256": "f42ab6debe4650c1415b1e95d72c12933424b1b597635ce34710d2864e3da023",
+      "source": "papers/paperB/research_increments/native_handoff_instrumentation_v2_2026-10-14/parallel_aris_independent_raw_audit/NATIVE_RAW_AUDIT.json",
+      "source_sha256": "f42ab6debe4650c1415b1e95d72c12933424b1b597635ce34710d2864e3da023",
+      "transformations": []
+    },
+    {
+      "bytes": 3671,
+      "path": "research_increments/native_handoff_instrumentation_v2_2026-10-14/parallel_aris_raw_audit_v02/AUDITOR_RELEASE.json",
+      "sha256": "2a208cff52dda13a4845a4cd34036a2069226c4faedb169ca567fb2b559ef86d",
+      "source": "papers/paperB/research_increments/native_handoff_instrumentation_v2_2026-10-14/parallel_aris_raw_audit_v02/AUDITOR_RELEASE.json",
+      "source_sha256": "2a208cff52dda13a4845a4cd34036a2069226c4faedb169ca567fb2b559ef86d",
+      "transformations": []
+    },
+    {
+      "bytes": 83907,
+      "path": "research_increments/native_handoff_instrumentation_v2_2026-10-14/parallel_aris_raw_audit_v02/NATIVE_RAW_AUDIT.json",
+      "sha256": "1af4929be6aa346c7d325b4ed1d97db2d7bcbbbe99e3cd7775f91e9569f2f8d3",
+      "source": "papers/paperB/research_increments/native_handoff_instrumentation_v2_2026-10-14/parallel_aris_raw_audit_v02/NATIVE_RAW_AUDIT.json",
+      "source_sha256": "1af4929be6aa346c7d325b4ed1d97db2d7bcbbbe99e3cd7775f91e9569f2f8d3",
+      "transformations": []
+    },
+    {
+      "bytes": 4598,
+      "path": "research_increments/native_handoff_instrumentation_v2_2026-10-14/parallel_aris_raw_audit_v03/AUDITOR_RELEASE.json",
+      "sha256": "b41bb6b803bc2519f1bcb023d69f84f8391be87c567ce630d3ef615b21d6a1cb",
+      "source": "papers/paperB/research_increments/native_handoff_instrumentation_v2_2026-10-14/parallel_aris_raw_audit_v03/AUDITOR_RELEASE.json",
+      "source_sha256": "b41bb6b803bc2519f1bcb023d69f84f8391be87c567ce630d3ef615b21d6a1cb",
+      "transformations": []
+    },
+    {
+      "bytes": 9052,
+      "path": "research_increments/native_handoff_instrumentation_v2_2026-10-14/parallel_aris_raw_audit_v03/AUDIT_OUTPUT_PIN.json",
+      "sha256": "b9c7922dc0bb677c5d935be4b1d89a4b47bc0da9d590dbf2b19ee8a2af449aa0",
+      "source": "papers/paperB/research_increments/native_handoff_instrumentation_v2_2026-10-14/parallel_aris_raw_audit_v03/AUDIT_OUTPUT_PIN.json",
+      "source_sha256": "b9c7922dc0bb677c5d935be4b1d89a4b47bc0da9d590dbf2b19ee8a2af449aa0",
+      "transformations": []
+    },
+    {
+      "bytes": 4497,
+      "path": "research_increments/native_handoff_instrumentation_v2_2026-10-14/parallel_aris_raw_audit_v03/PHYSICAL_TFU_SUMMARY.json",
+      "sha256": "b1707239535fee006db68a7c735fae932cc1e4249203da1c56ca913333e1ac13",
+      "source": "papers/paperB/research_increments/native_handoff_instrumentation_v2_2026-10-14/parallel_aris_raw_audit_v03/PHYSICAL_TFU_SUMMARY.json",
+      "source_sha256": "b1707239535fee006db68a7c735fae932cc1e4249203da1c56ca913333e1ac13",
+      "transformations": []
+    },
+    {
+      "bytes": 10854,
+      "path": "research_increments/native_handoff_instrumentation_v2_2026-10-14/parallel_aris_raw_audit_v03/PUBLIC_AUDIT.json",
+      "sha256": "439c354362b13284aee4a10e3e18c580ca39fd9c2c925af0b4befa9c9f38eba7",
+      "source": "papers/paperB/research_increments/native_handoff_instrumentation_v2_2026-10-14/parallel_aris_raw_audit_v03/PUBLIC_AUDIT.json",
+      "source_sha256": "439c354362b13284aee4a10e3e18c580ca39fd9c2c925af0b4befa9c9f38eba7",
+      "transformations": []
+    },
+    {
+      "bytes": 2263,
+      "path": "research_increments/native_handoff_instrumentation_v2_2026-10-14/parallel_aris_raw_audit_v03/PUBLIC_AUDIT.md",
+      "sha256": "c3e767cb2713b596250780b0905037042f6ea504663cd096bc9cb012413ae80b",
+      "source": "papers/paperB/research_increments/native_handoff_instrumentation_v2_2026-10-14/parallel_aris_raw_audit_v03/PUBLIC_AUDIT.md",
+      "source_sha256": "c3e767cb2713b596250780b0905037042f6ea504663cd096bc9cb012413ae80b",
+      "transformations": []
+    },
+    {
+      "bytes": 1270,
+      "path": "research_increments/native_handoff_instrumentation_v2_2026-10-14/parallel_aris_raw_audit_v03/SAME_EPISODE_INPUT_IDENTITY.json",
+      "sha256": "aa324c981d7f9909f70a03cd42f33df7a5501d0b6ab416b68e20668b102b31aa",
+      "source": "papers/paperB/research_increments/native_handoff_instrumentation_v2_2026-10-14/parallel_aris_raw_audit_v03/SAME_EPISODE_INPUT_IDENTITY.json",
+      "source_sha256": "aa324c981d7f9909f70a03cd42f33df7a5501d0b6ab416b68e20668b102b31aa",
+      "transformations": []
+    },
+    {
+      "bytes": 4482,
+      "path": "research_increments/native_handoff_instrumentation_v2_2026-10-14/publication/PUBLIC_SCOPE.json",
+      "sha256": "8db932d83efa4ea7a028f5e1a37622d32e6f210dec9cd5b5b9dc329f4c17de0d",
+      "source": "papers/paperB/research_increments/native_handoff_instrumentation_v2_2026-10-14/publication/PUBLIC_SCOPE.json",
+      "source_sha256": "8db932d83efa4ea7a028f5e1a37622d32e6f210dec9cd5b5b9dc329f4c17de0d",
+      "transformations": []
+    },
+    {
+      "bytes": 17129,
+      "path": "research_increments/native_handoff_instrumentation_v2_2026-10-14/publication/SOURCE_EXPORTS.json",
+      "sha256": "9e28533367372d2f66d6bf258e2217ca207e92559014e02ec83f7301bba56545",
+      "source": "papers/paperB/research_increments/native_handoff_instrumentation_v2_2026-10-14/publication/SOURCE_EXPORTS.json",
+      "source_sha256": "9e28533367372d2f66d6bf258e2217ca207e92559014e02ec83f7301bba56545",
+      "transformations": []
+    },
+    {
+      "bytes": 4961,
+      "path": "research_increments/native_handoff_instrumentation_v2_2026-10-14/secondary_aris_data_report_v02/ACTUAL_REPORT_cn.md",
+      "sha256": "f4d852d0e286435101a26c1ab54ecb45d845a405b5a32fdc6f5de82d5a1722fd",
+      "source": "papers/paperB/research_increments/native_handoff_instrumentation_v2_2026-10-14/secondary_aris_data_report_v02/ACTUAL_REPORT_cn.md",
+      "source_sha256": "f4d852d0e286435101a26c1ab54ecb45d845a405b5a32fdc6f5de82d5a1722fd",
+      "transformations": []
+    },
+    {
+      "bytes": 12952,
+      "path": "research_increments/native_handoff_instrumentation_v2_2026-10-14/secondary_aris_data_report_v02/ARCHIVE_VALIDATION.json",
+      "sha256": "3bb1bf40e35094e225c169b057f4810aaf897046c87c37a198880238c5421f99",
+      "source": "papers/paperB/research_increments/native_handoff_instrumentation_v2_2026-10-14/secondary_aris_data_report_v02/ARCHIVE_VALIDATION.json",
+      "source_sha256": "3bb1bf40e35094e225c169b057f4810aaf897046c87c37a198880238c5421f99",
+      "transformations": []
+    },
+    {
+      "bytes": 12828,
+      "path": "research_increments/native_handoff_instrumentation_v2_2026-10-14/secondary_aris_data_report_v02/DELIVERY_MANIFEST.json",
+      "sha256": "97d0c4b5bc554d5932d70ae73f313379932d91a3bc9f1f40b6370d6116ce98b8",
+      "source": "papers/paperB/research_increments/native_handoff_instrumentation_v2_2026-10-14/secondary_aris_data_report_v02/DELIVERY_MANIFEST.json",
+      "source_sha256": "97d0c4b5bc554d5932d70ae73f313379932d91a3bc9f1f40b6370d6116ce98b8",
+      "transformations": []
+    },
+    {
+      "bytes": 1846,
+      "path": "research_increments/native_handoff_instrumentation_v2_2026-10-14/secondary_aris_data_report_v02/FINAL_RECEIPT.json",
+      "sha256": "f89382644e8ee8459036312f64ac2c387c033c8ce6844b1ef5f77904c66027c4",
+      "source": "papers/paperB/research_increments/native_handoff_instrumentation_v2_2026-10-14/secondary_aris_data_report_v02/FINAL_RECEIPT.json",
+      "source_sha256": "f89382644e8ee8459036312f64ac2c387c033c8ce6844b1ef5f77904c66027c4",
+      "transformations": []
+    },
+    {
+      "bytes": 8090322,
+      "path": "research_increments/native_handoff_instrumentation_v2_2026-10-14/secondary_aris_data_report_v02/SECONDARY_ARIS_ACTUAL_V02.tar.gz",
+      "sha256": "5f1e91a6b1477576f9fc07f83da37ca28f0c7296ac18332def073410c44b7bf2",
+      "source": "papers/paperB/research_increments/native_handoff_instrumentation_v2_2026-10-14/secondary_aris_data_report_v02/SECONDARY_ARIS_ACTUAL_V02.tar.gz",
+      "source_sha256": "5f1e91a6b1477576f9fc07f83da37ca28f0c7296ac18332def073410c44b7bf2",
+      "transformations": []
+    },
+    {
+      "bytes": 3215,
+      "path": "research_increments/native_handoff_instrumentation_v2_2026-10-14/secondary_aris_data_report_v02/SOURCE_RELEASE.json",
+      "sha256": "1a048b0569bdaf49daf50d89f517731148082aa63a74cf2042d3ec86ee5c93c5",
+      "source": "papers/paperB/research_increments/native_handoff_instrumentation_v2_2026-10-14/secondary_aris_data_report_v02/SOURCE_RELEASE.json",
+      "source_sha256": "1a048b0569bdaf49daf50d89f517731148082aa63a74cf2042d3ec86ee5c93c5",
+      "transformations": []
+    },
+    {
+      "bytes": 95134,
+      "path": "research_increments/native_handoff_instrumentation_v2_2026-10-14/secondary_aris_data_report_v02/figures/actual_velocity_release_mechanism.pdf",
+      "sha256": "d18c34b9a0acc103a5d73ce700e4174f2fbcee900815c3cc50e82393ed74a513",
+      "source": "papers/paperB/research_increments/native_handoff_instrumentation_v2_2026-10-14/secondary_aris_data_report_v02/figures/actual_velocity_release_mechanism.pdf",
+      "source_sha256": "d18c34b9a0acc103a5d73ce700e4174f2fbcee900815c3cc50e82393ed74a513",
+      "transformations": []
+    },
+    {
+      "bytes": 299687,
+      "path": "research_increments/native_handoff_instrumentation_v2_2026-10-14/secondary_aris_data_report_v02/figures/actual_velocity_release_mechanism.png",
+      "sha256": "b1131996ade76bbe2a9de0c005d14c6787e786f884bac21da6e1329ae482486b",
+      "source": "papers/paperB/research_increments/native_handoff_instrumentation_v2_2026-10-14/secondary_aris_data_report_v02/figures/actual_velocity_release_mechanism.png",
+      "source_sha256": "b1131996ade76bbe2a9de0c005d14c6787e786f884bac21da6e1329ae482486b",
+      "transformations": []
+    },
+    {
+      "bytes": 236931,
+      "path": "research_increments/native_handoff_instrumentation_v2_2026-10-14/secondary_aris_data_report_v02/figures/actual_velocity_release_mechanism.svg",
+      "sha256": "b8c6cd59daa618c4f70e781f678e50d700c9c7f16b304c533d0dfdf9dc9c6901",
+      "source": "papers/paperB/research_increments/native_handoff_instrumentation_v2_2026-10-14/secondary_aris_data_report_v02/figures/actual_velocity_release_mechanism.svg",
+      "source_sha256": "b8c6cd59daa618c4f70e781f678e50d700c9c7f16b304c533d0dfdf9dc9c6901",
+      "transformations": []
+    },
+    {
+      "bytes": 188,
+      "path": "research_increments/native_handoff_instrumentation_v2_2026-10-14/secondary_aris_data_report_v02/media/ALL_FRAMES_DECODE.json",
+      "sha256": "c0cd3ce557b58a0fcc037ad192a1c1af448c7d4f12c5941f7cc540d3aab2b08c",
+      "source": "papers/paperB/research_increments/native_handoff_instrumentation_v2_2026-10-14/secondary_aris_data_report_v02/media/ALL_FRAMES_DECODE.json",
+      "source_sha256": "c0cd3ce557b58a0fcc037ad192a1c1af448c7d4f12c5941f7cc540d3aab2b08c",
+      "transformations": []
+    },
+    {
+      "bytes": 706,
+      "path": "research_increments/native_handoff_instrumentation_v2_2026-10-14/secondary_aris_data_report_v02/media/DISPLAY_TAIL_AND_POSTER_SCOPE.json",
+      "sha256": "766451d5f781b7902bd1239a60fe3b2e43e6d66d49b018dcdedddf06721fdc44",
+      "source": "papers/paperB/research_increments/native_handoff_instrumentation_v2_2026-10-14/secondary_aris_data_report_v02/media/DISPLAY_TAIL_AND_POSTER_SCOPE.json",
+      "source_sha256": "766451d5f781b7902bd1239a60fe3b2e43e6d66d49b018dcdedddf06721fdc44",
+      "transformations": []
+    },
+    {
+      "bytes": 135592,
+      "path": "research_increments/native_handoff_instrumentation_v2_2026-10-14/secondary_aris_data_report_v02/media/FFPROBE.json",
+      "sha256": "4e80e44c34b3803258b59a45de4d80560ae117af7287d6ab9046d36985034859",
+      "source": "papers/paperB/research_increments/native_handoff_instrumentation_v2_2026-10-14/secondary_aris_data_report_v02/media/FFPROBE.json",
+      "source_sha256": "4e80e44c34b3803258b59a45de4d80560ae117af7287d6ab9046d36985034859",
+      "transformations": []
+    },
+    {
+      "bytes": 114870,
+      "path": "research_increments/native_handoff_instrumentation_v2_2026-10-14/secondary_aris_data_report_v02/media/VIDEO_NATIVE_TIME_MAPPING.json",
+      "sha256": "0277f3f6c3b49f1934455746a3b1b0a8e9bd0d814634a611f0a3d23e63759c6f",
+      "source": "papers/paperB/research_increments/native_handoff_instrumentation_v2_2026-10-14/secondary_aris_data_report_v02/media/VIDEO_NATIVE_TIME_MAPPING.json",
+      "source_sha256": "0277f3f6c3b49f1934455746a3b1b0a8e9bd0d814634a611f0a3d23e63759c6f",
+      "transformations": []
+    },
+    {
+      "bytes": 673778,
+      "path": "research_increments/native_handoff_instrumentation_v2_2026-10-14/secondary_aris_data_report_v02/media/development_seen_actual_native_rgb.mp4",
+      "sha256": "b824c0faf86e1f6a07498620f632f1a795860e5c2fe49a76717c9de1453549c7",
+      "source": "papers/paperB/research_increments/native_handoff_instrumentation_v2_2026-10-14/secondary_aris_data_report_v02/media/development_seen_actual_native_rgb.mp4",
+      "source_sha256": "b824c0faf86e1f6a07498620f632f1a795860e5c2fe49a76717c9de1453549c7",
+      "transformations": []
+    },
+    {
+      "bytes": 43101,
+      "path": "research_increments/native_handoff_instrumentation_v2_2026-10-14/secondary_aris_data_report_v02/media/poster_actual_native.jpg",
+      "sha256": "d8d0ce18f7d27e8daa8fee98021c197e8c25d084c649fd2b30b5bacf4b8569c9",
+      "source": "papers/paperB/research_increments/native_handoff_instrumentation_v2_2026-10-14/secondary_aris_data_report_v02/media/poster_actual_native.jpg",
+      "source_sha256": "d8d0ce18f7d27e8daa8fee98021c197e8c25d084c649fd2b30b5bacf4b8569c9",
+      "transformations": []
+    },
+    {
+      "bytes": 5808,
+      "path": "research_increments/native_handoff_instrumentation_v2_2026-10-14/source_only_parallel_aris_review/SOURCE_ONLY_VERDICT.json",
+      "sha256": "06b9c37acadd7804c5043df3efeb08f33d101220500e8427aac5eb7b2fda3d4e",
+      "source": "papers/paperB/research_increments/native_handoff_instrumentation_v2_2026-10-14/source_only_parallel_aris_review/SOURCE_ONLY_VERDICT.json",
+      "source_sha256": "06b9c37acadd7804c5043df3efeb08f33d101220500e8427aac5eb7b2fda3d4e",
       "transformations": []
     },
     {
@@ -3881,211 +4346,26 @@
       "source": "web/shared_bus_timing.svg",
       "source_sha256": "962b702a5377198582e9574220a872cc425eb3de78106d20e7013680a021a7ba",
       "transformations": []
-    },
-    {
-      "path": "aris-research.html",
-      "source": "aris_native_site_20261014/aris-research.html",
-      "source_sha256": "b1217ecb65b4a94308dead4e68389122b3dd4b47ec8786bca34e86cdb023dbec",
-      "sha256": "b1217ecb65b4a94308dead4e68389122b3dd4b47ec8786bca34e86cdb023dbec",
-      "bytes": 11205,
-      "transformations": [
-        "curated public evidence; private logs and checkpoints excluded"
-      ]
-    },
-    {
-      "path": "aris-research.css",
-      "source": "aris_native_site_20261014/aris-research.css",
-      "source_sha256": "34d3c665989f55daa14b7741057e62217e32e107a469e6aafc1faa94d73a4efa",
-      "sha256": "34d3c665989f55daa14b7741057e62217e32e107a469e6aafc1faa94d73a4efa",
-      "bytes": 6863,
-      "transformations": [
-        "curated public evidence; private logs and checkpoints excluded"
-      ]
-    },
-    {
-      "path": "aris-research.js",
-      "source": "aris_native_site_20261014/aris-research.js",
-      "source_sha256": "983a8b58d42e09ba2a729df5de1dd47df44b52923ab82c98c2b0192906483df5",
-      "sha256": "983a8b58d42e09ba2a729df5de1dd47df44b52923ab82c98c2b0192906483df5",
-      "bytes": 5111,
-      "transformations": [
-        "curated public evidence; private logs and checkpoints excluded"
-      ]
-    },
-    {
-      "path": "assets/aris-research/native-start.jpg",
-      "source": "aris_native_site_20261014/assets/aris-research/native-start.jpg",
-      "source_sha256": "92c4e34aa5fc253c03baa9f4b18bc8a5a0a9eb06a532162d7238944bf891edf4",
-      "sha256": "92c4e34aa5fc253c03baa9f4b18bc8a5a0a9eb06a532162d7238944bf891edf4",
-      "bytes": 38453,
-      "transformations": [
-        "curated public evidence; private logs and checkpoints excluded"
-      ]
-    },
-    {
-      "path": "assets/aris-research/continuous-clock.png",
-      "source": "aris_native_site_20261014/assets/aris-research/continuous-clock.png",
-      "source_sha256": "124e75a2a5e199b853790b0be7c4830c5a5dae043514439bac4fc59098d1f273",
-      "sha256": "124e75a2a5e199b853790b0be7c4830c5a5dae043514439bac4fc59098d1f273",
-      "bytes": 142512,
-      "transformations": [
-        "curated public evidence; private logs and checkpoints excluded"
-      ]
-    },
-    {
-      "path": "assets/aris-research/adaptation.pdf",
-      "source": "aris_native_site_20261014/assets/aris-research/adaptation.pdf",
-      "source_sha256": "8e4402d97777e1ffd1ae3650ff242fc22c51882149b7117eca120f705b9f8690",
-      "sha256": "8e4402d97777e1ffd1ae3650ff242fc22c51882149b7117eca120f705b9f8690",
-      "bytes": 19742,
-      "transformations": [
-        "curated public evidence; private logs and checkpoints excluded"
-      ]
-    },
-    {
-      "path": "assets/aris-research/adaptation.svg",
-      "source": "aris_native_site_20261014/assets/aris-research/adaptation.svg",
-      "source_sha256": "c7681246714aee8ad5b2f12c8a64899bc916085f8ba2ff2b0ecb3e36cea83229",
-      "sha256": "c7681246714aee8ad5b2f12c8a64899bc916085f8ba2ff2b0ecb3e36cea83229",
-      "bytes": 65226,
-      "transformations": [
-        "curated public evidence; private logs and checkpoints excluded"
-      ]
-    },
-    {
-      "path": "assets/aris-research/native-poster.jpg",
-      "source": "aris_native_site_20261014/assets/aris-research/native-poster.jpg",
-      "source_sha256": "4305a08f34a1d4a96dd33bb909445cf846554cef9f8f7830d8e3f381d4cabbec",
-      "sha256": "4305a08f34a1d4a96dd33bb909445cf846554cef9f8f7830d8e3f381d4cabbec",
-      "bytes": 38256,
-      "transformations": [
-        "curated public evidence; private logs and checkpoints excluded"
-      ]
-    },
-    {
-      "path": "assets/aris-research/continuous-clock.pdf",
-      "source": "aris_native_site_20261014/assets/aris-research/continuous-clock.pdf",
-      "source_sha256": "a0c13fdc1951a395fbde49fc904facc999b24e50bce1f5d235b729d77341730a",
-      "sha256": "a0c13fdc1951a395fbde49fc904facc999b24e50bce1f5d235b729d77341730a",
-      "bytes": 22202,
-      "transformations": [
-        "curated public evidence; private logs and checkpoints excluded"
-      ]
-    },
-    {
-      "path": "assets/aris-research/native-preview.mp4",
-      "source": "aris_native_site_20261014/assets/aris-research/native-preview.mp4",
-      "source_sha256": "7ce6bec6ff7744b62acefb06189d515d29fe389089755b0b803497c4ee6a933e",
-      "sha256": "7ce6bec6ff7744b62acefb06189d515d29fe389089755b0b803497c4ee6a933e",
-      "bytes": 697024,
-      "transformations": [
-        "curated public evidence; private logs and checkpoints excluded"
-      ]
-    },
-    {
-      "path": "assets/aris-research/adaptation.png",
-      "source": "aris_native_site_20261014/assets/aris-research/adaptation.png",
-      "source_sha256": "9180508b5be23e9f20c247e6ef4e6a4743648e0c800cc4ab2df92f3f364a85da",
-      "sha256": "9180508b5be23e9f20c247e6ef4e6a4743648e0c800cc4ab2df92f3f364a85da",
-      "bytes": 145788,
-      "transformations": [
-        "curated public evidence; private logs and checkpoints excluded"
-      ]
-    },
-    {
-      "path": "assets/aris-research/native-end.jpg",
-      "source": "aris_native_site_20261014/assets/aris-research/native-end.jpg",
-      "source_sha256": "a702b557c39a5f6438b1524fc1fd8fc9af59d62918c3be5503d332b9b02163a7",
-      "sha256": "a702b557c39a5f6438b1524fc1fd8fc9af59d62918c3be5503d332b9b02163a7",
-      "bytes": 42285,
-      "transformations": [
-        "curated public evidence; private logs and checkpoints excluded"
-      ]
-    },
-    {
-      "path": "assets/aris-research/continuous-clock.svg",
-      "source": "aris_native_site_20261014/assets/aris-research/continuous-clock.svg",
-      "source_sha256": "2d701684c079c63df5f267561fe122b2ee7a3c05addbdbbaf1e7f95d4b2862a0",
-      "sha256": "2d701684c079c63df5f267561fe122b2ee7a3c05addbdbbaf1e7f95d4b2862a0",
-      "bytes": 75561,
-      "transformations": [
-        "curated public evidence; private logs and checkpoints excluded"
-      ]
-    },
-    {
-      "path": "assets/aris-research/media-provenance.json",
-      "source": "aris_native_site_20261014/assets/aris-research/media-provenance.json",
-      "source_sha256": "324b68d3685e6b2ddbbd0eb0e9a369018b376842257f3a409d98473ee4db8c5c",
-      "sha256": "324b68d3685e6b2ddbbd0eb0e9a369018b376842257f3a409d98473ee4db8c5c",
-      "bytes": 15776,
-      "transformations": [
-        "curated public evidence; private logs and checkpoints excluded"
-      ]
-    },
-    {
-      "path": "assets/aris-research/native-middle.jpg",
-      "source": "aris_native_site_20261014/assets/aris-research/native-middle.jpg",
-      "source_sha256": "01a78c48552eb4babbb40c68c60b892adea0dffda7e189d08fb26c2e9882e926",
-      "sha256": "01a78c48552eb4babbb40c68c60b892adea0dffda7e189d08fb26c2e9882e926",
-      "bytes": 42717,
-      "transformations": [
-        "curated public evidence; private logs and checkpoints excluded"
-      ]
-    },
-    {
-      "path": "data/aris-research/results.json",
-      "source": "aris_native_site_20261014/data/aris-research/results.json",
-      "source_sha256": "a3e4012fa45ca657ec897c7a1d8b5c9170bd7d56bc47a04ad0c915b3d1cf5bea",
-      "sha256": "a3e4012fa45ca657ec897c7a1d8b5c9170bd7d56bc47a04ad0c915b3d1cf5bea",
-      "bytes": 39532,
-      "transformations": [
-        "curated public evidence; private logs and checkpoints excluded"
-      ]
-    },
-    {
-      "path": "data/aris-research/traces.json",
-      "source": "aris_native_site_20261014/data/aris-research/traces.json",
-      "source_sha256": "653a6aa867afdb8ae3cbbb7269b71fdd0c7168c77053195dea9b5152a9102fa8",
-      "sha256": "653a6aa867afdb8ae3cbbb7269b71fdd0c7168c77053195dea9b5152a9102fa8",
-      "bytes": 143532,
-      "transformations": [
-        "curated public evidence; private logs and checkpoints excluded"
-      ]
-    },
-    {
-      "path": "data/aris-research/clock-conditions.csv",
-      "source": "aris_native_site_20261014/data/aris-research/clock-conditions.csv",
-      "source_sha256": "06dc40b620a15fe9decd1398c21d069d23fa9e5b825645ee3412256c6d4c7c2d",
-      "sha256": "06dc40b620a15fe9decd1398c21d069d23fa9e5b825645ee3412256c6d4c7c2d",
-      "bytes": 1059,
-      "transformations": [
-        "curated public evidence; private logs and checkpoints excluded"
-      ]
-    },
-    {
-      "path": "data/aris-research/review-summary.json",
-      "source": "aris_native_site_20261014/data/aris-research/review-summary.json",
-      "source_sha256": "c71c758d06fc74a12c903db64ce6507b3fa80d4142d387b2c31b537bfb059ba3",
-      "sha256": "c71c758d06fc74a12c903db64ce6507b3fa80d4142d387b2c31b537bfb059ba3",
-      "bytes": 1327,
-      "transformations": [
-        "curated public evidence; private logs and checkpoints excluded"
-      ]
-    },
-    {
-      "path": "data/aris-research/asset-manifest.json",
-      "source": "aris_native_site_20261014/data/aris-research/asset-manifest.json",
-      "source_sha256": "dffcc048d5efed6ef7d0f5a56aad134278cbef330738914c73d06af4e296d546",
-      "sha256": "dffcc048d5efed6ef7d0f5a56aad134278cbef330738914c73d06af4e296d546",
-      "bytes": 3226,
-      "transformations": [
-        "curated public evidence; private logs and checkpoints excluded"
-      ]
     }
   ],
-  "incremental_baseline_commit": "43b966821a5fedb0d810ec0d6c7c6a6be9fb0782",
-  "latest_increment": "learning_handoff_frontier_2026-10-14",
+  "incremental_baseline_commit": "66d4b91c8edbd2451ac889006e391cced51d6d99",
+  "latest_increment": "native_handoff_instrumentation_v2_2026-10-14",
   "learning_frontier_source_scope": "Frozen offline diagnosis and CPU interfaces; v03 recovery-prefix red independently reproduced and v04 CPU98/independent13/archived13 fix frozen; root-notified v1 pre-native startup failure retained, no AppLauncher/native physics/RAW/RGB or production/training/weight result.",
+  "merged_publication_provenance": {
+    "actual_ARIS_episode_denominator": 1,
+    "additional_source_exact_files": 33,
+    "alternate_preview_not_additional_episode": true,
+    "concurrent_parent": "66d4b91c8edbd2451ac889006e391cced51d6d99",
+    "prior_verified_publication": "ac710c35ddb8edd6e5d0cee63562a208427e5b0c",
+    "supplemental_native_lineage_clarified_files": [
+      "data/aris-research/results.json",
+      "data/aris-research/review-summary.json",
+      "assets/aris-research/media-provenance.json",
+      "aris-research.html",
+      "data/aris-research/asset-manifest.json"
+    ]
+  },
+  "native_handoff_readback_scope": "One seen actual ARIS native episode; original blind/v02 FAIL retained, v03 PASS after2 post-result reader-schema repairs; physical load UNKNOWN, old strict0/1 retained, no training/chemical/heldout claim.",
   "native_source_scope": "NOT_PUBLICLY_COMPLETE: release metadata pins installed/private environment; source archives are bounded CPU/reader components.",
   "publication_branch": "docs/paperb-site",
   "repository": "https://github.com/asimfish/paperb-timed-recovery",
@@ -4096,7 +4376,7 @@
   "source_repository": "asimfish/awesome_memory_chem",
   "supplemental_research_log": {
     "page": "aris-research.html",
-    "updated_at_utc": "2026-10-14T03:55:54.313184+00:00",
-    "scope": "two audited development experiments and bounded native instrumentation status"
+    "scope": "two audited development experiments and bounded native instrumentation status",
+    "updated_at_utc": "2026-10-14T03:55:54.313184+00:00"
   }
 }

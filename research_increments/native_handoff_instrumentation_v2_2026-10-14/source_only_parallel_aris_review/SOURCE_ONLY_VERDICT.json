@@ -1,0 +1,85 @@
+{
+  "actual_native_epoch_prefix": "paperb_handoff_instrumentation_v1:",
+  "blind_RAW_reader_reuse": "PASS_SCOPE_ONLY_BINDING_CHANGE",
+  "blocking_findings": [],
+  "case_id": "dev_seen_handoff_instrumentation_002_aris",
+  "cases_logs_states_results_scores_read_before_freeze": false,
+  "claims_not_admitted": [
+    "This root prelaunch source/admission approved or launched ARIS",
+    "Independent fresh-review/admission provenance of the other branch: not inspected and unable to determine",
+    "formal native episode from directory-exists worker flag alone",
+    "V1 origins as ARIS current identity",
+    "hard total700 worker or allocated GPU cap",
+    "denominator16 for this single capture",
+    "actual GPU utilization from allocated-wall upper bound",
+    "new calibration, heldout/IID/OOD, policy image use/delivery, load-bearing or training success"
+  ],
+  "created_at_utc": "2026-10-14T03:30:48.556070+00:00",
+  "dimensions": {
+    "Architecture": {
+      "evidence": "Native executable has only parents=True constructor delta versus reviewed V1; no new physics layer.",
+      "status": "Pass"
+    },
+    "Correctness and reliability": {
+      "evidence": "148 source member hashes pass; inherited worker marks formal_episode_started from directory existence, weaker than reviewed V2 nonempty RAW predicate. Complete RAW acceptance must prove native episode independently.",
+      "status": "Risk"
+    },
+    "Function and API design": {
+      "evidence": "Actual protocol case002_aris and full protocol hash distinguish epoch despite inherited v1 prefix; stale origin identities cannot be used as current bindings.",
+      "status": "Risk"
+    },
+    "Functional achievement": {
+      "evidence": "Same scene, commands, schedule, getter code and native_probe AST except repaired parent creation; actual constructor CPU seam creates missing parents and retains collision bytes.",
+      "status": "Pass"
+    },
+    "Performance": {
+      "evidence": "No new native loop performance change. RUN_BUDGET retains misleading hard700 allocated/worker fields; actual code allows child700 plus15+15 termination and observed cleanup. No hard total700 guarantee accepted.",
+      "status": "Risk"
+    },
+    "Style and maintainability": {
+      "evidence": "Several copied metadata records still name V1 case/root, old calibration description and16 denominator.",
+      "status": "Risk"
+    }
+  },
+  "evidence_sha256": {
+    "actual_log": "5f6036769d3ae7e014b2e4b6d736620759b8c103b101abae38284d39d7638cc6",
+    "source_check": "b7c43c87fb97dd23a7451979ee6bfd7d188f5fdd4f5f3b96657a1b798d32064b",
+    "static_equivalence_proof": "7c4bd1b0950e091e6f87c729e57414fc2f247e7eea3aa829785fc455ff0c88c6"
+  },
+  "execution_origin": "Root reports a parallel branch already started before this independent source-only review. This root did not launch it under the152-member V2 admission. No pre-execution authorization or outcome is inferred retrospectively.",
+  "load_bearing_verdict": "UNKNOWN",
+  "minimum_required_repair": "No change to the running branch. Freeze a separate scope reader before inspecting any outcomes, then require root terminal notification and all RAW checks. Do not launch a duplicate sample.",
+  "new_native_GPU_reintegration_or_signals": 0,
+  "non_blocking_improvements": [
+    "Record metadata mismatches transparently; preserve ARIS frozen source; bind a new blind reader to its real source, case and v1-prefix full epoch."
+  ],
+  "precise_scope_differences": {
+    "actor_inputs": "ARIS retains old5-description metadata list, although executable reads only frozen seen schedule; V2 corrected it to4 descriptions; no actual scheduling algorithm/input change",
+    "budget_and_denominator": "ARIS copied budget says hard700 and primary shared_denominator16; actual declared current cases list has1. Readback must retain attempted-case denominator1 and observed actual child wall without claiming strict700total.",
+    "case": "protocol cases[0].id and video_case_ids name dev_seen_handoff_instrumentation_002_aris; V1 case001 and this root V2 case002 are distinct",
+    "constructor": "ARIS parents=True/exist_ok=False matches V2 behavior; differs from V1 only in parent creation",
+    "epoch": "Actual source keeps paperb_handoff_instrumentation_v1: prefix; full epoch appends ARIS case and eacc4d996d56514e8db9ea72eb8cce77b45bf43fcaa6cea5afa8b2eeb9c22c6e protocol digest, not this root V2 prefix",
+    "launch": "ARIS launch root changed to private _v2_aris; V1 runtime-cache namespace otherwise retained, while this root V2 changed cache namespace",
+    "origins_and_RAW_schema": "ARIS SOURCE_ORIGIN, NEW_SOURCE_ORIGIN, RAW_SCHEMA still identify V1 root/case001; source manifest and executable protocol are authoritative for current readback",
+    "worker": "ARIS run_worker.py byte exact V1; directory-based formal flag retained; V2 uses nonempty setup/native_clock or task/states"
+  },
+  "review_contract": {
+    "base_V1_source_release_sha256": "0cc48392ccb617f7c1688bf82a9a84dd32557674521ce923997b91dbfe4fb381",
+    "changed_vs_V1": [
+      "launch_worker.sh",
+      "native_probe.py",
+      "protocol.json",
+      "source_pins.json"
+    ],
+    "comparison_V2_source_release_sha256": "3cc9c63b79032556213b858887fbe7fbade2998616ef297910526015cd393b70",
+    "mode": "Read-only source and manifest members; no cases/logs/results/states/scores inspected",
+    "unchanged_vs_V1_members": 144
+  },
+  "schema": "IndependentParallelArisSourceOnlyEquivalenceReview/0.1",
+  "source_member_count": 148,
+  "source_only_physics_getter_control_equivalence": "PASS",
+  "source_release_sha256": "eb807cffef785271e6fc6b7558598c29c6a8c76af46f043ea321a74935fab34c",
+  "status": "PASS_SOURCE_ONLY_PHYSICS_EQUIVALENCE_WITH_METADATA_LIMITATIONS",
+  "training_admitted": 0,
+  "verdict": "Conditional pass"
+}

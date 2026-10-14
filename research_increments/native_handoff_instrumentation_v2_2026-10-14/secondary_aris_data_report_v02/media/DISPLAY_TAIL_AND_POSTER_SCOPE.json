@@ -1,0 +1,19 @@
+{
+  "role": "DEVELOPMENT_SEEN",
+  "camera_capture_frames": 168,
+  "encoded_display_frames": 169,
+  "last_display_frame": {
+    "encoded_frame": 168,
+    "video_pts_s": 28.0,
+    "source_camera_frame": 167,
+    "source_JPEG": "images/08840.jpg",
+    "source_capture_native_s": 41.96666885539889,
+    "actual_new_capture": false
+  },
+  "display_duration_s": 28.167,
+  "poster": "Byte-exact copy of original native simulation JPEG; title/status held in report and metadata, not edited pixels",
+  "sampling": "Verified regular6Hz capture subset; final image held on display without synthetic camera frames or optical flow",
+  "original_hold": false,
+  "independent_load": "UNKNOWN",
+  "training_admitted": 0
+}
