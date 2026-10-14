@@ -208,6 +208,22 @@
       "transformations": []
     },
     {
+      "path": "assets/study-v01/p0_actual_cpu_training.pdf",
+      "bytes": 16822,
+      "sha256": "ae97d5ebad5ee3f3edf8ce6e86664981eb3a15d808128d3b50b94e9f053bf133",
+      "source": "papers/paperB/research_increments/systematic_study_v01_2026-10-14/figures/p0_actual_cpu_training.pdf",
+      "source_sha256": "ae97d5ebad5ee3f3edf8ce6e86664981eb3a15d808128d3b50b94e9f053bf133",
+      "transformations": []
+    },
+    {
+      "path": "assets/study-v01/p0_actual_cpu_training.svg",
+      "bytes": 20109,
+      "sha256": "b007016a5ad42fcaef3f60e263a0d715ac49c029d2928b8eb6804032db96a30e",
+      "source": "papers/paperB/research_increments/systematic_study_v01_2026-10-14/figures/p0_actual_cpu_training.svg",
+      "source_sha256": "b007016a5ad42fcaef3f60e263a0d715ac49c029d2928b8eb6804032db96a30e",
+      "transformations": []
+    },
+    {
       "bytes": 3383,
       "path": "check_site.py",
       "sha256": "afcd0ef51e191227098ed966bd098f7df5b8fd1a4f392221890246f63b911c5d",
@@ -410,6 +426,174 @@
       "transformations": []
     },
     {
+      "path": "data/study-v01/CORE_EXPERIMENTS.csv",
+      "bytes": 13017,
+      "sha256": "7eb91b3713a5ddfe145b5cfb8677e4059a6b6ac0b35cf2015176010f1d867527",
+      "source": "papers/paperB/research_increments/systematic_study_v01_2026-10-14/CORE_EXPERIMENTS.csv",
+      "source_sha256": "7eb91b3713a5ddfe145b5cfb8677e4059a6b6ac0b35cf2015176010f1d867527",
+      "transformations": []
+    },
+    {
+      "path": "data/study-v01/CURRENT_RESULTS.json",
+      "bytes": 7517,
+      "sha256": "8d409b3905c0b0b9ffbc78dc2b6e35e546b2d6f27e884fec123a0670f5b03874",
+      "source": "papers/paperB/research_increments/systematic_study_v01_2026-10-14/CURRENT_RESULTS.json",
+      "source_sha256": "8d409b3905c0b0b9ffbc78dc2b6e35e546b2d6f27e884fec123a0670f5b03874",
+      "transformations": []
+    },
+    {
+      "path": "data/study-v01/DESIGN_REVIEW_cn.md",
+      "bytes": 14597,
+      "sha256": "40418604f73fb4272d831203b9cda116372ce8409287ef3fe7dcf0cb3390d2b0",
+      "source": "papers/paperB/research_increments/systematic_study_v01_2026-10-14/independent_design_review/DESIGN_REVIEW_cn.md",
+      "source_sha256": "40418604f73fb4272d831203b9cda116372ce8409287ef3fe7dcf0cb3390d2b0",
+      "transformations": []
+    },
+    {
+      "path": "data/study-v01/EXECUTION_LEDGER.csv",
+      "bytes": 2165,
+      "sha256": "af00a52997b9b63bc84d02aae5b901618297e792c90869588c5200e97ff334b5",
+      "source": "papers/paperB/research_increments/systematic_study_v01_2026-10-14/EXECUTION_LEDGER.csv",
+      "source_sha256": "af00a52997b9b63bc84d02aae5b901618297e792c90869588c5200e97ff334b5",
+      "transformations": []
+    },
+    {
+      "path": "data/study-v01/EXPERIMENTS_VIEW.json",
+      "bytes": 18001,
+      "sha256": "13f75d6a21aacfc97041f485531d0593067399a4c1e5933ee9c1494294ec6ef1",
+      "source": "papers/paperB/research_increments/systematic_study_v01_2026-10-14/publication/source/EXPERIMENTS_VIEW.json",
+      "source_sha256": "13f75d6a21aacfc97041f485531d0593067399a4c1e5933ee9c1494294ec6ef1",
+      "transformations": []
+    },
+    {
+      "path": "data/study-v01/FORCE_CALIBRATION_PROPOSAL.json",
+      "bytes": 10097,
+      "sha256": "c9f776dab42d6870ca0023a79e30280c381a56097cf77c431d35b42e29ef5bed",
+      "source": "papers/paperB/research_increments/force_semantics_research_v01_2026-10-14/CALIBRATION_PLAN.json",
+      "source_sha256": "c9f776dab42d6870ca0023a79e30280c381a56097cf77c431d35b42e29ef5bed",
+      "transformations": []
+    },
+    {
+      "path": "data/study-v01/FORCE_SEMANTICS_NOTE_cn.md",
+      "bytes": 7819,
+      "sha256": "a80bf45e46a83509d0dcb3edd1ec71ac12d3c5403a64e4ce08bf8051ee624b67",
+      "source": "papers/paperB/research_increments/force_semantics_research_v01_2026-10-14/EVIDENCE_NOTE_cn.md",
+      "source_sha256": "a80bf45e46a83509d0dcb3edd1ec71ac12d3c5403a64e4ce08bf8051ee624b67",
+      "transformations": []
+    },
+    {
+      "path": "data/study-v01/G1_V02_INTEGRATION_API_cn.md",
+      "bytes": 7668,
+      "sha256": "5d5345393ab7199982eb608987cafbc60c3158b5a7dafaea010f053ce02e36e5",
+      "source": "papers/paperB/research_increments/mixed_actor_causal_registry_v01_2026-10-14/release_v02/INTEGRATION_API_cn.md",
+      "source_sha256": "5d5345393ab7199982eb608987cafbc60c3158b5a7dafaea010f053ce02e36e5",
+      "transformations": []
+    },
+    {
+      "path": "data/study-v01/G1_V02_INTEGRATION_LIMITS_cn.md",
+      "bytes": 2114,
+      "sha256": "cfc8d42a0df2ce4784cf21cf6fd127ff92a1e4bf0d3799f4227b83a73a7694fe",
+      "source": "papers/paperB/research_increments/mixed_actor_causal_registry_v01_2026-10-14/independent_review_v02/INTEGRATION_LIMITS_cn.md",
+      "source_sha256": "cfc8d42a0df2ce4784cf21cf6fd127ff92a1e4bf0d3799f4227b83a73a7694fe",
+      "transformations": []
+    },
+    {
+      "path": "data/study-v01/G1_V02_SOURCE_REVIEW.json",
+      "bytes": 3434,
+      "sha256": "5e1198e1e98c71f927ae176cd6160e85845f09479b978629275d6f95ab72a76c",
+      "source": "papers/paperB/research_increments/mixed_actor_causal_registry_v01_2026-10-14/independent_review_v02/SOURCE_REVIEW.json",
+      "source_sha256": "5e1198e1e98c71f927ae176cd6160e85845f09479b978629275d6f95ab72a76c",
+      "transformations": []
+    },
+    {
+      "path": "data/study-v01/M2_PUBLIC_AUDIT.json",
+      "bytes": 5677,
+      "sha256": "5146cc636db256c1138090e23e7801cca38a522fa1b46c8390315309656017ad",
+      "source": "papers/paperB/research_increments/native_force_lossless_canary_v01_2026-10-14/independent_raw_audit/PUBLIC_AUDIT.json",
+      "source_sha256": "5146cc636db256c1138090e23e7801cca38a522fa1b46c8390315309656017ad",
+      "transformations": []
+    },
+    {
+      "path": "data/study-v01/M2_ROOT_RETAINED_RAW_ACCEPTANCE.json",
+      "bytes": 1500,
+      "sha256": "253a588933652ed34200a27cbf5eb4f5f86baf8289ab8dc1b63a64aed3b34409",
+      "source": "papers/paperB/research_increments/native_force_lossless_canary_v01_2026-10-14/root_execution/ROOT_RETAINED_RAW_ACCEPTANCE.json",
+      "source_sha256": "253a588933652ed34200a27cbf5eb4f5f86baf8289ab8dc1b63a64aed3b34409",
+      "transformations": []
+    },
+    {
+      "path": "data/study-v01/P0_DATA_ALIGNMENT_REPORT.json",
+      "bytes": 1252,
+      "sha256": "d848d712986b9dacc7695e699343767d1050319eb8da692d26251b47630db147",
+      "source": "papers/paperB/research_increments/offline_behavior_reconstruction_v01_2026-10-14/data/DATA_ALIGNMENT_REPORT.json",
+      "source_sha256": "d848d712986b9dacc7695e699343767d1050319eb8da692d26251b47630db147",
+      "transformations": []
+    },
+    {
+      "path": "data/study-v01/P0_ROOT_DATA_AND_CHECKPOINT_READBACK.json",
+      "bytes": 1242,
+      "sha256": "76574dfa229c1df178aa3459cf6d04cbbf7d2ee7f2e4a7d0997dc82648d7a18b",
+      "source": "papers/paperB/research_increments/systematic_study_v01_2026-10-14/ROOT_P0_DATA_AND_CHECKPOINT_READBACK.json",
+      "source_sha256": "76574dfa229c1df178aa3459cf6d04cbbf7d2ee7f2e4a7d0997dc82648d7a18b",
+      "transformations": []
+    },
+    {
+      "path": "data/study-v01/P0_TRAINING_REPORT.json",
+      "bytes": 2881,
+      "sha256": "b34f60be6fadb6732e71f3334d6da52432a4e77e59009c6f275751896d322ce7",
+      "source": "papers/paperB/research_increments/offline_behavior_reconstruction_v01_2026-10-14/training_actual/TRAINING_REPORT.json",
+      "source_sha256": "b34f60be6fadb6732e71f3334d6da52432a4e77e59009c6f275751896d322ce7",
+      "transformations": []
+    },
+    {
+      "path": "data/study-v01/PAPER_STUDY_ADDENDUM_cn.md",
+      "bytes": 5801,
+      "sha256": "f53974d237d01e7f84f907dd6c94b5bd54d7757804743e341e258b51d596cd7b",
+      "source": "papers/paperB/research_increments/systematic_study_v01_2026-10-14/PAPER_STUDY_ADDENDUM_cn.md",
+      "source_sha256": "f53974d237d01e7f84f907dd6c94b5bd54d7757804743e341e258b51d596cd7b",
+      "transformations": []
+    },
+    {
+      "path": "data/study-v01/ROOT_G1_V02_CONDITIONAL_ACCEPTANCE.json",
+      "bytes": 896,
+      "sha256": "22e536a09362265e428858e85a899d95d103010a0e532df9cf2a197bc659c365",
+      "source": "papers/paperB/research_increments/systematic_study_v01_2026-10-14/ROOT_G1_V02_CONDITIONAL_ACCEPTANCE.json",
+      "source_sha256": "22e536a09362265e428858e85a899d95d103010a0e532df9cf2a197bc659c365",
+      "transformations": []
+    },
+    {
+      "path": "data/study-v01/ROOT_SIGNED_DECODER_CPU_ACCEPTANCE.json",
+      "bytes": 677,
+      "sha256": "83ccacd5f2e97a204c03e0b28a25dbe3a85347b7d23b3748038369474cb300a7",
+      "source": "papers/paperB/research_increments/systematic_study_v01_2026-10-14/ROOT_SIGNED_DECODER_CPU_ACCEPTANCE.json",
+      "source_sha256": "83ccacd5f2e97a204c03e0b28a25dbe3a85347b7d23b3748038369474cb300a7",
+      "transformations": []
+    },
+    {
+      "path": "data/study-v01/SIGNED_DECODER_CANDIDATE_cn.md",
+      "bytes": 4111,
+      "sha256": "4ca65588697c1c610e416d5464527b5adc9c9711396ff5288cc7d6475a10a747",
+      "source": "papers/paperB/research_increments/native_force_signed_adapter_v01_2026-10-14/README_cn.md",
+      "source_sha256": "4ca65588697c1c610e416d5464527b5adc9c9711396ff5288cc7d6475a10a747",
+      "transformations": []
+    },
+    {
+      "path": "data/study-v01/STUDY_OVERVIEW_cn.md",
+      "bytes": 4016,
+      "sha256": "a49973cb739389c69cad659f7734f10ee2222111840536489cb090e1672de14c",
+      "source": "papers/paperB/research_increments/systematic_study_v01_2026-10-14/STUDY_OVERVIEW_cn.md",
+      "source_sha256": "a49973cb739389c69cad659f7734f10ee2222111840536489cb090e1672de14c",
+      "transformations": []
+    },
+    {
+      "path": "data/study-v01/STUDY_PLAN.json",
+      "bytes": 13388,
+      "sha256": "89a18b1c4cf5aa6c5f48cae19e1bdadc1fc4984bd0276013988b908bcfe40824",
+      "source": "papers/paperB/research_increments/systematic_study_v01_2026-10-14/STUDY_PLAN.json",
+      "source_sha256": "89a18b1c4cf5aa6c5f48cae19e1bdadc1fc4984bd0276013988b908bcfe40824",
+      "transformations": []
+    },
+    {
       "bytes": 48877,
       "path": "failure_branch_timing.svg",
       "sha256": "cc3565eec4a1d259558c84ab697c65172741a5f0e1b2f5d2caeaff5acb933ebc",
@@ -427,13 +611,11 @@
     },
     {
       "path": "force-diagnostics.html",
-      "bytes": 16193,
-      "sha256": "473c5339bbfc2e009bf8bc348e26daf84f06e5e7cdb0891b1106c161f3cd1f41",
-      "source": "papers/paperB/research_increments/native_handoff_force_diagnostics_v02_2026-10-14/force_and_paper_delivery/force-diagnostics.html",
-      "source_sha256": "473c5339bbfc2e009bf8bc348e26daf84f06e5e7cdb0891b1106c161f3cd1f41",
-      "transformations": [
-        "Compose frozen M1 camera candidate with source-bound ICML research-draft links; retain force RED, strict FALSE and unexecuted learning scope."
-      ]
+      "bytes": 16584,
+      "sha256": "c341130ae5d1de2fc3ac830412558793d46235ab4a8a8bf8a00f8d68d519f331",
+      "source": "papers/paperB/research_increments/systematic_study_v01_2026-10-14/publication/source/force-diagnostics.html",
+      "source_sha256": "c341130ae5d1de2fc3ac830412558793d46235ab4a8a8bf8a00f8d68d519f331",
+      "transformations": []
     },
     {
       "bytes": 52581,
@@ -471,13 +653,11 @@
     },
     {
       "path": "index.html",
-      "bytes": 283772,
-      "sha256": "27fcc47693e6842bab91c0a0cb0d1a7165b6e3b983bb2435b102a874f7aa2e3f",
-      "source": "papers/paperB/research_increments/native_handoff_force_diagnostics_v02_2026-10-14/force_and_paper_delivery/index.html",
-      "source_sha256": "27fcc47693e6842bab91c0a0cb0d1a7165b6e3b983bb2435b102a874f7aa2e3f",
-      "transformations": [
-        "Compose frozen M1 camera candidate with source-bound ICML research-draft links; retain force RED, strict FALSE and unexecuted learning scope."
-      ]
+      "bytes": 284267,
+      "sha256": "ab1e1276f8daee977580ba8c0302fb991f1e586f683bc1776b32835d66801f4c",
+      "source": "papers/paperB/research_increments/systematic_study_v01_2026-10-14/publication/source/index.html",
+      "source_sha256": "ab1e1276f8daee977580ba8c0302fb991f1e586f683bc1776b32835d66801f4c",
+      "transformations": []
     },
     {
       "bytes": 22873,
@@ -4508,6 +4688,30 @@
       "source": "web/shared_bus_timing.svg",
       "source_sha256": "962b702a5377198582e9574220a872cc425eb3de78106d20e7013680a021a7ba",
       "transformations": []
+    },
+    {
+      "path": "study.css",
+      "bytes": 6258,
+      "sha256": "fb5115a98706e03159bf927ce78960d0b772f4826b63afd98a4a86d30040478f",
+      "source": "papers/paperB/research_increments/systematic_study_v01_2026-10-14/publication/source/study.css",
+      "source_sha256": "fb5115a98706e03159bf927ce78960d0b772f4826b63afd98a4a86d30040478f",
+      "transformations": []
+    },
+    {
+      "path": "study.html",
+      "bytes": 10990,
+      "sha256": "6a311cff1311f7b1bf7c2bfa2754c9c37a666d37d3ea98d35b6da7706ed7f093",
+      "source": "papers/paperB/research_increments/systematic_study_v01_2026-10-14/publication/source/study.html",
+      "source_sha256": "6a311cff1311f7b1bf7c2bfa2754c9c37a666d37d3ea98d35b6da7706ed7f093",
+      "transformations": []
+    },
+    {
+      "path": "study.js",
+      "bytes": 5337,
+      "sha256": "8f7fd832f3492a3e5680127325a06a5996cbbde63b0443da1ee1de47ac2ad9e0",
+      "source": "papers/paperB/research_increments/systematic_study_v01_2026-10-14/publication/source/study.js",
+      "source_sha256": "8f7fd832f3492a3e5680127325a06a5996cbbde63b0443da1ee1de47ac2ad9e0",
+      "transformations": []
     }
   ],
   "force_diagnostics_scope": {
@@ -4523,10 +4727,11 @@
     "original_M0_and_M1_RED_preserved": true,
     "page": "force-diagnostics.html",
     "source_exact_small_audit_files": 6,
-    "training_admitted": 0
+    "training_admitted": 0,
+    "scope_as_of": "HISTORICAL_M0_M1_PAGE;CURRENT_M2_IN_SYSTEMATIC_STUDY"
   },
-  "incremental_baseline_commit": "e037f9d42fcb50512412231a772e172d13e1b539",
-  "latest_increment": "M1 native-camera operation window and complete ICML research draft",
+  "incremental_baseline_commit": "ed81e27f2a920bf54a1b5d39bb1c7303237bd178",
+  "latest_increment": "Systematic 13-experiment design with one lossless M2 canary and one P0 CPU training preflight",
   "learning_frontier_source_scope": "Frozen offline diagnosis and CPU interfaces; v03 recovery-prefix red independently reproduced and v04 CPU98/independent13/archived13 fix frozen; root-notified v1 pre-native startup failure retained, no AppLauncher/native physics/RAW/RGB or production/training/weight result.",
   "merged_publication_provenance": {
     "actual_ARIS_episode_denominator": 1,
@@ -4583,5 +4788,22 @@
     "new_VLA_weights": 0,
     "force_gate_pass": 0,
     "scientific_acceptance": "MAJOR_OPEN"
+  },
+  "systematic_study_scope": {
+    "page": "study.html",
+    "force_family_native_attempts": 3,
+    "new_native_this_increment": 1,
+    "full_task_score_for_M2": "NOT_COMPUTED",
+    "M2_selected_raw_retention_pass": true,
+    "force_sign_load_qualification": "UNKNOWN",
+    "P0_actual_CPU_training_runs": 1,
+    "P0_engineering_weights": 1,
+    "main_method_VLA_weights": 0,
+    "qualified_SFR_admission": 0,
+    "design_rows": 13,
+    "heldout_claims": false,
+    "scientific_acceptance": "MAJOR_OPEN",
+    "paper_v03_retained_unchanged": true,
+    "paper_study_addendum": "data/study-v01/PAPER_STUDY_ADDENDUM_cn.md"
   }
 }

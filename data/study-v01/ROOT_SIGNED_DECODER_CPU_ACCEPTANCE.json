@@ -1,0 +1,17 @@
+{
+  "schema": "PaperBRootSignedDecoderSourceReview/1",
+  "status": "PASS_CPU_SIGNED_DIAGNOSTIC_CANDIDATE_ONLY",
+  "source_release_sha256": "d8c6849c385285521d8ce8701539cdfd60aff3e057577228d05718122335bfe0",
+  "source_members": 22,
+  "archive_members": 23,
+  "fresh_existing_CPU_checks": 15,
+  "independent_extra_probes": 4,
+  "negative_sign_and_negative_zero_preserved": true,
+  "boolscalar_and_duplicateJSON_rejected": true,
+  "source_bytes_after_tests_unchanged": true,
+  "native_installed": false,
+  "native_RAW_scan_or_decoder_rerun": 0,
+  "force_frame_unit_load_qualification": "UNKNOWN",
+  "scientific_training_admitted": 0,
+  "old_M2_semantic_INVALID_unchanged": true
+}

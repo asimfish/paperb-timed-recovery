@@ -1,0 +1,227 @@
+{
+  "schema": "PaperBSystematicStudyPlan/1",
+  "created_at_utc": "2026-10-14T12:43:01.030001+00:00",
+  "state": "ORGANIZED_WITH_MEASUREMENT_AND_ENGINEERING_RUNS_CLOSED",
+  "scientific_acceptance": "MAJOR_OPEN",
+  "destination": "Test whether a same-information residual-event ledger and typed verified experience improve a shared event-timed robot policy over student-state imitation, then establish task and deployment transfer.",
+  "canonical_current_pointer": "papers/paperB/README.md -> this increment STUDY_OVERVIEW_cn.md",
+  "primary_claims": {
+    "C1_LEDGER": "M versus B3 with identical finite policy prefix, labels, architecture, guards and caps; complete-task TRUE/all declared attempts on untouched task graphs.",
+    "C2_ABSORPTION": "Improvement present in policy weights with online teacher and cross-session retrieval removed, compared to shared ancestor and B3.",
+    "C3_TASK_TRANSFER": "Gains on new goal/dependency/retry graphs with per-graph units; no claim from only position/texture shifts.",
+    "C4_CHEMICAL_DEPLOYMENT": "Real robot logs and independent chemistry endpoints support timely chemistry consequences; currently no evidence."
+  },
+  "gates": [
+    {
+      "id": "G0",
+      "outcome": "Source-bound physical-event measurement, signs/units/coverage/clock qualification",
+      "state": "IN_PROGRESS",
+      "frontier": "M2 selected raw/censor integrity accepted; signed force/frame/unit and load qualification remain UNKNOWN.",
+      "stop": "Unrecoverable raw, unknown sign/unit/coverage means no force success labels.",
+      "next_protocol": "Conditional signed force fixture proposal core4 plus optionalmass1; not yet materialized or admitted; separate from closed M0/M1/M2 cap3."
+    },
+    {
+      "id": "G1",
+      "outcome": "Executed actor attribution and causally eligible S/F/R pairs",
+      "state": "NOT_READY",
+      "dependency": "G0 for labels requiring force, mixed actor registry for takeover R",
+      "stop": "Unknown label or teacher proposal cannot become executed recovery/success."
+    },
+    {
+      "id": "G2",
+      "outcome": "Matched budget M/B3 policy learning pilot",
+      "state": "NOT_STARTED",
+      "dependency": "G1 pool and executable task sources, source-pinned exact backbone/optimizer",
+      "stop": "DATA_NOT_READY at pool cap, no cherry-picked extension."
+    },
+    {
+      "id": "G3",
+      "outcome": "Task-space/episode adaptation and retained shared-weight effect",
+      "state": "NOT_STARTED",
+      "dependency": "G2 qualified pilot and new confirmatory plan",
+      "stop": "Two heldout graphs are pilot, not population generalization."
+    },
+    {
+      "id": "G4",
+      "outcome": "Hardware chemistry outcome and original deadline validation",
+      "state": "NOT_STARTED",
+      "dependency": "G3 and device/endpoint acquisition",
+      "stop": "Simulation RGB and process proxies do not imply chemistry success."
+    }
+  ],
+  "budget_namespaces": {
+    "force_instrumentation_family": {
+      "prior_attempts": 2,
+      "M0_collection_timeout": 1,
+      "M1_complete_but_force_RED": 1,
+      "M2_this_batch_maximum": 1,
+      "cumulative_upper_bound": 3,
+      "not_entire_project_denominator": true
+    },
+    "learning_pilot_original_contract": {
+      "training_unique_pair_union_cap": 1024,
+      "common_ancestor_S_pairs": 512,
+      "F_pairs": 256,
+      "R_pairs": 256,
+      "train_attempts_cap": 96,
+      "validation_attempts_cap": 8,
+      "teacher_queries_cap": 1536,
+      "teacher_queries_per_attempt_cap": 16,
+      "training_runs_equivalent_cap": 21,
+      "learning_GPUh_upper_bound": 42,
+      "evaluation_attempts_cap": 324,
+      "all_new_attempts_cap": 430,
+      "execution_state": "NOT_EXECUTED",
+      "standalone_pipeline_diagnostics_not_substituted_for_learned_arms": true,
+      "checkpoint_rule_successor": "Fixed final10000 adaptation updates; collector8val only. Unexecuted predecessor val-based checkpoint selection superseded by D02."
+    }
+  },
+  "same_information_gate": {
+    "unit": "training or evaluation decision row",
+    "required_fields": [
+      "public_prefix_digest",
+      "last_delivered_packet_seq",
+      "effective_history_start_seq",
+      "effective_history_end_seq",
+      "effective_history_token_or_frame_cap",
+      "raw_RGB_hashes",
+      "proprioception_hash",
+      "requested_execution_times",
+      "teacher_payload_hash",
+      "guard_config_hash"
+    ],
+    "critical_rule": "Derived ledger must use exactly the finite prefix available to B3. Longer ledger memory, earlier private evidence or a shorter B3 window changes the contrast.",
+    "teacher_privilege": "Teacher-only state retained separately; student history cannot inherit it."
+  },
+  "execution_ledger_rule": {
+    "attempt": "immutable case + native epoch + source/config release + start event",
+    "terminal_classes": [
+      "COMPLETE_TASK_SCORE",
+      "CENSORED_MEASUREMENT_COMPLETE",
+      "COLLECTION_TIMEOUT",
+      "SOURCE_OR_RESOURCE_REFUSAL",
+      "PROCESS_OR_DATA_FAILURE"
+    ],
+    "censored_measurement": "diagnostic coverage only, no full-task score denominator or success labels",
+    "all_task_scores": [
+      "TRUE",
+      "FALSE",
+      "UNKNOWN"
+    ],
+    "unknown_in_denominator": true,
+    "timing": "separate native event time, capture, delivery, submit, apply, physical effect, confirmation, audit arrival and host wall"
+  },
+  "inputs": {
+    "learning_contract": {
+      "path": "papers/paperB/research_increments/learning_handoff_frontier_2026-10-14/method_contract_root_v02/METHOD_AND_PREREGISTRATION_CONTRACT.json",
+      "bytes": 32056,
+      "sha256": "3ea10c8b0e11db44e64ba4ca6206d700eb41a8075449ffb12b519b9050e84c20"
+    },
+    "paper_delivery": {
+      "path": "papers/paperB/research_increments/native_force_event_time_paper_v03_2026-10-14/FINAL_DELIVERY_RECEIPT.json",
+      "bytes": 2018,
+      "sha256": "68507bc525ff98f7f6b93ead2df8f42896c672db0282e31bf9d1b31e698197be"
+    },
+    "latest_publication": {
+      "path": "papers/paperB/research_increments/native_handoff_force_diagnostics_v02_2026-10-14/force_and_paper_delivery/PUBLIC_EVIDENCE_RECEIPT.json",
+      "bytes": 1863,
+      "sha256": "6a7e2cbf64d1391651833af86f8b191b3f971dbfd2e31739f158bf0d329e5669"
+    },
+    "M1_force_rejection": {
+      "path": "papers/paperB/research_increments/native_handoff_force_diagnostics_v02_2026-10-14/independent_raw_audit/PUBLIC_AUDIT.json",
+      "bytes": 7359,
+      "sha256": "f9514aa2909ac3d3d16d00f84b3bef0f17c86e4f5e64575ef069d249e465b188"
+    },
+    "lossless_capture": {
+      "path": "papers/paperB/research_increments/native_force_lossless_capture_v01_2026-10-14/SOURCE_RELEASE.json",
+      "bytes": 5726,
+      "sha256": "7adc1e243ca7955e15a9e2da5db406f70921aaed27a526614ff38b28192561e3"
+    },
+    "lossless_root_CPU": {
+      "path": "papers/paperB/research_increments/native_force_lossless_root_review_2026-10-14/ROOT_CPU_ACCEPTANCE.json",
+      "bytes": 2933,
+      "sha256": "283effc37a052a9ab2d9fbaffc90e903fec805742ef0f37924c9842b75105a50"
+    }
+  },
+  "not_claimed": [
+    "ICML acceptance or submission",
+    "new VLA advantage",
+    "force load-ready from CPU tests",
+    "all project experiment counts from M0/M1/M2 family",
+    "physical lateness merely from missing confirmation at deadline"
+  ],
+  "decisions": [
+    {
+      "id": "D01_FINITE_HISTORY_FAIRNESS",
+      "reason": "Identical observation sources do not mean equal information if ledger summarizes a longer prefix than B3.",
+      "choice": "Both derive from the identical available finite prefix; bind start/end/length and digest. A longer persistent ledger becomes an explicit memory ablation, not C1.",
+      "source": "Independent design review during this increment.",
+      "old_frozen_contract_modified": false
+    },
+    {
+      "id": "D02_CHECKPOINT_BUDGET_CONSISTENCY",
+      "reason": "Old contract permits only8 validation attempts but calls for selecting checkpoints across21 learned-run equivalents; at least21 policy validations would exceed the cap even before multiple checkpoints.",
+      "choice": "New organized study uses final fixed10000-adaptation-update checkpoint for every arm and seed. The8 validation attempts assess collector/task qualification only; no per-arm performance selection.",
+      "override_of": "method_contract_root_v02 budgets.checkpoint only, which was not executed",
+      "cap_failure": "If training cannot reach the fixed update count at2GPUh, record INCOMPLETE_COMMON_UPDATE_COMPARISON; do not select earlier checkpoint or extend selective budget.",
+      "scientific_acceptance": "UNTESTED",
+      "old_frozen_contract_modified": false
+    },
+    {
+      "id": "D03_HARD_NEGATIVE_STRATA_AND_STATISTICAL_UNIT",
+      "reason": "Six of12 evaluation cells are irrecoverable negatives; pooled complete success at most0.5, so pooled0.15 go gain means0.30 in recoverable half. Seeds and frames do not create new task graphs.",
+      "choice": "Preserve all-attempt pooled primary plus recoverable/irrecoverable strata. Separate unavoidable contract failure from avoidable unsafe actuation. Two graphs/12 world cells remain pilot; no population generalization from iid tests on36 repeatedseed outcomes.",
+      "confirmatory": "New independently frozen task-source pool and power assumptions after pilot; do not tune using H01/H02 and reuse as untouched."
+    },
+    {
+      "id": "D04_OUTCOME_OBSERVATION_ACTUATION_SEPARATION",
+      "reason": "An unconditional originalD check would remove real latefailure F and localrecovery R, and a safe-state requirement on read-only studentvisits would exclude genuine unsafe failures.",
+      "choice": "Keep original deadline/fullFALSE absorbing; record actual unsafe observations; distinguish ORIGINAL_GOAL, SAFE_LOCAL_RECOVERY and SAFETY_ABORT with independent per-action authorization. UNKNOWN afterD may allow safety-only stop without becomingFALSE or qualifiedR.",
+      "evidence": "Root G1v01 source semanticfinding; separate v02 correction plus independent review.",
+      "old_sealed_sources_modified": false,
+      "native_integration": "NOT_EXECUTED"
+    }
+  ],
+  "parallel_pipeline_scope": {
+    "id": "P0_OFFLINE_BEHAVIOR_RECONSTRUCTION",
+    "role": "ENGINEERING_DIAGNOSTIC_ONLY",
+    "inputs": "A source-bound base camera/control partition from one seen native episode",
+    "targets": "Actual APPLIED action chunk, never success/force outcome",
+    "qualification": "No force gate required solely for behavior reconstruction targets with exact execution provenance",
+    "split": "Blocked within-episode descriptive reconstruction, not heldout episode or task-space test",
+    "normalizer": "fit block only",
+    "claim": "Input/time/gradient/update/checkpoint pipeline can be exercised, without testing C1 or C2",
+    "SFR_pool_count": 0,
+    "main_learning_contract_attempts_count": 0,
+    "new_parameters_reported_if_trained": "engineering weights separately; no main VLA gain claim"
+  },
+  "data_independence_gate": {
+    "record_level_dedup": "original attempt/state/time/target identity as source records",
+    "content_level_duplicates": "also report input+target content duplicate ratio and horizon overlap",
+    "statistical_unit": "parent episode/task graph and matched worldcell, not frames/chunks/updates",
+    "split_rule": "Entire graph/attempt ancestry before any windowing; reset and teacher takeover children inherit parent split",
+    "U0": "same preselected S512 across training seeds; disclose actual weight sharing versus equivalent charging"
+  },
+  "execution_frontiers": {
+    "M2": "ONE_CENSORED_MEASUREMENT_COMPLETE; FORCE_QUALIFICATION_UNKNOWN",
+    "P0": "ONE_CPU_200_UPDATE_ENGINEERING_COMPLETE; NOT_MAIN_METHOD_LEARNING",
+    "G1_registry": "Separate CPU-only actor registry v02 source63CPU+independent3 accepted conditionally; native/student integrationNOT_READY",
+    "main_comparison": "UNTESTED; qualified pools and executable train/heldout task-source materialization required"
+  },
+  "source_only_candidates": {
+    "signed_decoder_source_sha256": "d8c6849c385285521d8ce8701539cdfd60aff3e057577228d05718122335bfe0",
+    "signed_decoder_ROOT_CPU_checks": {
+      "existing": 15,
+      "new_independent": 4
+    },
+    "calibration_research_freeze_sha256": "6061bdf914f497e51f22504fbf9653aecaccebed4c572163660d0d03d38ef186",
+    "physics_qualification": "UNKNOWN"
+  },
+  "native_integration_preflight": {
+    "actor_registry": "CPU contract candidate only; 8192event/64actiondimension limits require explicit newnative collector rate/horizon mapping before any actualdata claim",
+    "action_chunk_mapping": "P0 horizon8x9 cannot be flattened blindly into a <=64target API. Freeze per9Ddrivercommand/chunk lineage or separately version schema.",
+    "all_applied_provenance": "Never drop earlier commands or publichistory to meet journal cap; actualnative allattempt/RAWfiles remain denominator and lossless source",
+    "continuous_clock": "Futurepolicyinference must not silently pause physics; native capture/delivery/decision/submit/apply/effect and wall time separated",
+    "case_header_binding": "Before native/data admission, full registry header must be checked against an externally frozen case manifest: originalgoal deadline/clock/failure anchor, graph/split and student/teacher policy metadata/weights. expected_pins plus journal self-hash alone does not bind these header-declared fields."
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "schema": "PaperBRootG1v02ConditionalCPUAcceptance/1",
+  "status": "PASS_SOURCE_ONLY_SEMANTIC_CONTRACT_WITH_NATIVE_INTEGRATION_OPEN",
+  "source_release_sha256": "a99686f1eba78ee427ce6c0388b4a343b74b972bee191d31fba6965602bad329",
+  "source_members": 27,
+  "source_archive_members": 28,
+  "review_sha256": "5e1198e1e98c71f927ae176cd6160e85845f09479b978629275d6f95ab72a76c",
+  "review_freeze_sha256": "425592bdbb8f66f7adcaafa31cef5543f97f694892ca943655653c05114cfc6e",
+  "review_members": 17,
+  "review_archive_members": 18,
+  "independently_executed_existing_tests": 63,
+  "independent_new_probes": 3,
+  "old_v01_semantic_REJECTION_preserved": true,
+  "initial_independent_oracle_RED_preserved": true,
+  "native_integration": "NOT_READY",
+  "native_event_cap_horizon_and_full_header_binding_required": true,
+  "actual_native_student_model_or_training": 0,
+  "qualified_SFR_data_admission": 0
+}

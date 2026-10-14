@@ -1,0 +1,40 @@
+{
+  "schema": "PaperBOfflineBehaviorData/1",
+  "role": "ENGINEERING_ONLY_OFFLINE_BEHAVIOR_RECONSTRUCTION",
+  "status": "PASS_OFFLINE_BASE_TRACE_DATA_ALIGNMENT_NOT_FORCE_OR_SCIENTIFIC_ADMISSION",
+  "base_audit_sha256": "cba2f6f0988488abb2045b22c7dd1772bb8b64e90951532ad6dcede510cc363d",
+  "inherited_case_id": "dev_seen_force_channel_diagnostics_002",
+  "inherited_episode_denominator": 1,
+  "new_native_attempts": 0,
+  "read_RAW_member_count": 179,
+  "captures": 177,
+  "APPLIED": 13995,
+  "SUBMITTED": 13995,
+  "split_counts": {
+    "fit": 112,
+    "purge": 8,
+    "descriptive": 57
+  },
+  "full_chunk_counts": {
+    "fit": 112,
+    "purge": 8,
+    "descriptive": 56
+  },
+  "missing_action_slots": 8,
+  "actual_target_slots": 1408,
+  "nominal_vs_actual_target_offset_abs_max_s": 4.128863417829365e-09,
+  "target_clock_is_audit_only": true,
+  "normalizer_fit_only": true,
+  "policy_inputs": [
+    "resized_RGB",
+    "captured_q_qd",
+    "public_nominal_desired_tick_offsets",
+    "target_slot_mask"
+  ],
+  "forbidden_policy_inputs_read": [],
+  "depth_force_private_pose_read": false,
+  "force_qualification": "UNKNOWN_NOT_CHANGED",
+  "scientific_SFR_pool_contribution": 0,
+  "main_learning_comparisons": 0,
+  "frames_are_not_independent_tasks": true
+}

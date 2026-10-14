@@ -1,0 +1,151 @@
+{
+  "schema": "PaperBSystematicCurrentResults/1",
+  "updated_at_utc": "2026-10-14T14:04:26.433108+00:00",
+  "updated_display": "2026.10.14 · 单次native与单次CPU训练已关闭",
+  "scientific_acceptance": "MAJOR_OPEN",
+  "force_family_attempts": 3,
+  "force_family_complete_full_collections": 1,
+  "force_family_complete_censored_measurements": 1,
+  "main_method_VLA_weight_artifacts": 0,
+  "engineering_weight_artifacts": 1,
+  "qualified_SFR_pool_admission": 0,
+  "cards": [
+    {
+      "label": "E00 / M2 · MEASUREMENT CANARY",
+      "title": "拒绝后保留带符号原值",
+      "status": "原值与截断完整性 PASS · 力学资格 UNKNOWN",
+      "engineering_pass": true,
+      "metric": "−1.92397 · API标称N",
+      "description": "首个任务阶段被拒绝标量在 POST_STEP / tick3597 完整保留；M2旧非负规则仍记为 INVALID；新一手文档反驳通用非负前提，方向与单位待校准。",
+      "points": [
+        "3598任务步 · 9658受力记录 · 7198物理记录",
+        "3598提交 / 3586实际应用 / 12未执行FIFO包",
+        "38组RGBD · 131个RAW成员 · 323.64秒worker",
+        "signed detail与matrix一致仅作诊断；完整任务未评分"
+      ],
+      "evidence": "data/study-v01/M2_PUBLIC_AUDIT.json"
+    },
+    {
+      "label": "E04 / P0 · CPU ENGINEERING",
+      "title": "图像—动作训练管线实际运行",
+      "status": "200/200优化步 · 工程权重1",
+      "engineering_pass": true,
+      "metric": "0.9345 → 0.8687",
+      "description": "固定噪声探针MSE下降；图像编码器全部200步梯度非零，checkpoint参数更新独立核实。",
+      "points": [
+        "同一已见M1 episode · 177图像与13995实际APPLIED对齐",
+        "112拟合 / 8隔离 / 57描述性末段；实际训练8个样本",
+        "公开nominal时刻进入输入；未来实际时刻仅作目标审计",
+        "动作误差仍大；合格S/F/R池、主方法比较均为0"
+      ],
+      "evidence": "data/study-v01/P0_TRAINING_REPORT.json"
+    }
+  ],
+  "ledger": [
+    {
+      "family": "NATIVE_SCHEDULER_PAIRED32",
+      "experiment_id": "LEGACY_PAIRED32",
+      "role": "DEVELOPMENT_SEEN_CONTROL",
+      "unit": "native episodes",
+      "attempts": 32,
+      "complete": 32,
+      "scientific_result": "Four schedulers tie 8/8 primary joint; not full force-qualified success",
+      "source": "papers/paperB/research_increments/stateful_native_paired32_2026-10-14/results/ALL32_RESULTS.csv"
+    },
+    {
+      "family": "ARIS_NATIVE_READBACK",
+      "experiment_id": "ARIS_002",
+      "role": "DEVELOPMENT_SEEN_INSTRUMENTATION",
+      "unit": "native episode",
+      "attempts": 1,
+      "complete": 1,
+      "scientific_result": "Base integrity accepted after two post-result schema repairs; strict hold FALSE11 missing/loadUNKNOWN",
+      "source": "papers/paperB/research_increments/native_handoff_instrumentation_v2_2026-10-14/parallel_aris_raw_audit_v03/PUBLIC_AUDIT.json"
+    },
+    {
+      "family": "FORCE_CAPTURE",
+      "experiment_id": "M0_001",
+      "role": "DEVELOPMENT_SEEN_DIAGNOSTIC",
+      "unit": "native collection attempt",
+      "attempts": 1,
+      "complete": 0,
+      "scientific_result": "700s collection timeout, physical/task outcome not scored",
+      "source": "papers/paperB/research_increments/native_handoff_force_calibration_2026-10-14/independent_raw_audit/PUBLIC_AUDIT.json",
+      "public_evidence": "data/force-diagnostics/M0_PUBLIC_AUDIT.json"
+    },
+    {
+      "family": "FORCE_CAPTURE",
+      "experiment_id": "M1_002",
+      "role": "DEVELOPMENT_SEEN_DIAGNOSTIC",
+      "unit": "native collection attempt",
+      "attempts": 1,
+      "complete": 1,
+      "scientific_result": "Complete collection/basic integrity; normal scalar lost/forceRED/strictFALSE7; newSFR0",
+      "source": "papers/paperB/research_increments/native_handoff_force_diagnostics_v02_2026-10-14/independent_raw_audit/PUBLIC_AUDIT.json",
+      "public_evidence": "data/force-diagnostics/M1_PUBLIC_AUDIT.json"
+    },
+    {
+      "family": "FORCE_CAPTURE",
+      "experiment_id": "M2_003",
+      "role": "CENSORED_MEASUREMENT_CANARY",
+      "unit": "native collection attempt",
+      "attempts": 1,
+      "complete": 1,
+      "scientific_result": "Selected raw retention/censor integrity PASS;3598task ticks;negative -1.92397165N retained;fulltask NOT_SCORED;force UNKNOWN;SFR0",
+      "source": "papers/paperB/research_increments/native_force_lossless_canary_v01_2026-10-14/independent_raw_audit/PUBLIC_AUDIT.json",
+      "public_evidence": "data/study-v01/M2_PUBLIC_AUDIT.json"
+    },
+    {
+      "family": "LEARNED_METHOD_PILOT",
+      "experiment_id": "M_VS_B3",
+      "role": "FUTURE_MATCHED_LEARNING",
+      "unit": "unique state-target pairs and independently paired task attempts",
+      "attempts": 0,
+      "complete": 0,
+      "scientific_result": "UNTESTED/data and task source qualification open",
+      "source": "papers/paperB/research_increments/systematic_study_v01_2026-10-14/STUDY_PLAN.json"
+    },
+    {
+      "family": "PIPELINE_ENGINEERING",
+      "experiment_id": "P0_BEHAVIOR_RECONSTRUCTION",
+      "role": "OFFLINE_BEHAVIOR_RECONSTRUCTION",
+      "unit": "one seen episode/control-aligned frames/CPU training updates",
+      "attempts": 1,
+      "complete": 1,
+      "scientific_result": "CPU200/200optimizer updates;engineeringweight1;fixed noise MSE0.93447->0.86871;actions inaccurate;scientific SFR/maincomparison0",
+      "source": "papers/paperB/research_increments/offline_behavior_reconstruction_v01_2026-10-14/training_actual/TRAINING_REPORT.json",
+      "public_evidence": "data/study-v01/P0_TRAINING_REPORT.json"
+    }
+  ],
+  "experiment_status": {
+    "E00": "M2原值保留/截断完整性PASS；sign/load UNKNOWN",
+    "E01": "资格未建立 · 下一物理门禁",
+    "E02": "未执行 · 时钟与可行性前提待满足",
+    "E03": "G1v02 CPU63＋独立3通过；native接入NOT_READY",
+    "E04": "P0 CPU200步完成；工程权重1，动作误差仍大",
+    "E05": "DATA_NOT_READY · 尚无合格共享S/F/R池",
+    "E06": "UNTESTED · 主方法与B3未执行",
+    "E07": "UNTESTED · 学习timer对照未执行",
+    "E08": "UNTESTED · 数据消融未执行",
+    "E09": "合同可用 · 学习负例对照未执行",
+    "E10": "NOT_READY · 两heldout图source尚待物化",
+    "E11": "UNTESTED · 主方法参数吸收未执行",
+    "E12": "NOT_READY · 新增真机化学记录0"
+  },
+  "evidence_bindings": {
+    "M2_public_audit_sha256": "5146cc636db256c1138090e23e7801cca38a522fa1b46c8390315309656017ad",
+    "M2_root_acceptance_sha256": "253a588933652ed34200a27cbf5eb4f5f86baf8289ab8dc1b63a64aed3b34409",
+    "P0_report_sha256": "b34f60be6fadb6732e71f3334d6da52432a4e77e59009c6f275751896d322ce7",
+    "P0_root_data_checkpoint_readback_sha256": "76574dfa229c1df178aa3459cf6d04cbbf7d2ee7f2e4a7d0997dc82648d7a18b",
+    "design_matrix_sha256": "7eb91b3713a5ddfe145b5cfb8677e4059a6b6ac0b35cf2015176010f1d867527"
+  },
+  "source_only_candidates": {
+    "signed_decoder": "0.5 CPU15+root4; no native integration or qualification",
+    "actor_registry": "v01 blockers retained; v02 source63CPU+independent3 PASS, native integrationNOT_READY",
+    "conditional_calibration": "PROPOSAL_ONLY core4+optional1; separate future source/reader/batch admission needed"
+  },
+  "M1_negative_scalar_retrospective_recovery": false,
+  "M1_original_force_RED_retained": true,
+  "deadline_reanchoring": false,
+  "engineering_frames_not_independent_tasks": true
+}
