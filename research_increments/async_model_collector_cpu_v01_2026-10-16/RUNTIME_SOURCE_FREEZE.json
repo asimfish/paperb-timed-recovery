@@ -1,0 +1,54 @@
+{
+  "schema": "RootAsyncRuntimeSourceFreeze/1",
+  "status": "FROZEN_BEFORE_UNIQUE_REAL_P0_INFERENCE",
+  "files": {
+    "code/check_runtime_evidence.py": {
+      "bytes": 9500,
+      "sha256": "5c1008827ca079feac3e2761817640e023705300e3b176f78419993dd742c718"
+    },
+    "code/cpu_channel.py": {
+      "bytes": 1461,
+      "sha256": "cae6399140c1f42a5dd3b1966fab86027069f6e37c246dc0314f847b700f2634"
+    },
+    "code/fixture_worker.py": {
+      "bytes": 1806,
+      "sha256": "6cfa980f2d5946275cd021b9469f40a8fd22bb2c08f2b4830a9fac27ae7a6322"
+    },
+    "code/p0_worker.py": {
+      "bytes": 7198,
+      "sha256": "99350133653f5e5653959951bd3376a94cba6e2afaefc25b28d672bca3d18621"
+    },
+    "code/plot_runtime.py": {
+      "bytes": 5225,
+      "sha256": "b87369e0eb7e09f3402b8858272d5d9ee31c56d1f4138bc335c47ac25da6431b"
+    },
+    "code/run_cpu_p0.py": {
+      "bytes": 13306,
+      "sha256": "294340f3578e85e001101e9f1ddc967a17ad2f8d502200cd668f24a9df30aa1f"
+    },
+    "INPUT_PINS.json": {
+      "bytes": 2408,
+      "sha256": "080ac9c9f2e3a2650f2af798c682e49f4dc7589383c0609f7264a9ebc2beaf24"
+    },
+    "PROSPECTIVE_RUNTIME_CONTRACT.json": {
+      "bytes": 4031,
+      "sha256": "a611eb7b23b102d9e28a9df3e20deb02feae05441637805ed83e7745422a4469"
+    },
+    "ROOT_ADAPTER_SOURCE_UPDATE_ADDENDUM.json": {
+      "bytes": 1147,
+      "sha256": "97c6e1aca65a1564d84fad7b0c724406da93a75977c38d8bdb558907b441ae9d"
+    },
+    "inputs/bridge_candidate_d044.py": {
+      "bytes": 32134,
+      "sha256": "d04472920a5336b16bd6169707d44767aa99074a108ea1607492715b9d683d86"
+    }
+  },
+  "bridge_release_sha256": "d844dd3b313e70731c32159ed1cc5912f71560b3ee1ed1d3147658d0d48e0c7c",
+  "independent_review_sha256": "982951ba740725721afc2ec5a6ae5d3dbd9f7af355f40c31ad1c6f02af266f68",
+  "author_source_zip_sha256": "f5e54c2aa053403589bf16ff3dea8fd18552191d4813ca2360d9358db15a5d6b",
+  "source_members_readback": 23,
+  "zip_crc_byteexact": "PASS",
+  "actual_neural_inferences_before_freeze": 0,
+  "unique_new_neural_inference_cap": 1,
+  "known_open_bytes_native_not_ready": true
+}

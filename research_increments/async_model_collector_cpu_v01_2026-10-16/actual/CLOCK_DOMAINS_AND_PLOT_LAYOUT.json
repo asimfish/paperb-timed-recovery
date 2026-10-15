@@ -1,0 +1,14 @@
+{
+  "schema": "RootAsyncCPUClockDomains/1",
+  "model_input_start_synthetic_tick": 0,
+  "model_return_synthetic_tick": 4,
+  "model_return_recorded_wall_ms_after_dispatch": 21.950356,
+  "last_synthetic_tick": 121,
+  "synthetic_native_elapsed_ms": 121,
+  "actual_owner_wall_ms_to_last_tick": 607.140765,
+  "clock_mapping": "Fixture mapping1ms/tick, separate measured processwall; not synchronized physical/nativeclock",
+  "not_a_control_rate_or_deadline_benchmark": true,
+  "plot_layout_successor": "Original plot/figure retained. New layout only moves legends outside plotted data; numeric inputs/sample windows unchanged",
+  "original_plot_source_sha256": "b87369e0eb7e09f3402b8858272d5d9ee31c56d1f4138bc335c47ac25da6431b",
+  "new_plot_source_sha256": "e9d87db9ef6074c85937a5ca2720871834fee67fea94855b727da100637dfcc3"
+}

@@ -1,0 +1,7 @@
+# Open byte reservation limit — native readiness blocker
+
+The independent concrete CPU counterexample is retained in `results/byte_closure_limit_first/` with the full sizing and bounded journals, source, complete output receipt and exact accepted states implied by the journal. Candidate `550bc80f…` accepts an inference start at 5,260 journal bytes under a 5,360 byte total cap. The subsequent CASE_END exceeds that cap and raises `JOURNAL_TOTAL_BYTE_CAPACITY_REFUSED`. Accepted state and journal bytes remain unchanged, and the object is not BROKEN because this is validation before I/O. This is a fail-closed bounded prefix, not an unsafe append, but it is not a completed lifecycle.
+
+The final candidate `d0447292…` changes only whether an unsafe state blocks an independently authorized recovery/abort; this byte reservation code is unchanged. The limit remains OPEN. The implemented whole-ticket reservations cover event counts, per-kind counts and command counts. They do not reserve all future serialized bytes or guarantee space for CASE_END. File/line write limits and bounded readback are implemented separately and passed the tested boundaries.
+
+Root disposition: this blocks claiming native-ready or complete lifecycle-capacity acceptance. It does not block the separately fixed small CPU runtime experiment, whose observed byte margin is evidence only for that one actual case. Partial read-only journal replay, no automatic resend and explicit missing closure/UNKNOWN are required; do not trim or rewrite the retained file to manufacture a closed case.

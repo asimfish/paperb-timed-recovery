@@ -1,0 +1,117 @@
+{
+  "schema": "PaperBIndependentAsyncBridgeSourceReview/1",
+  "status": "PASS_SCOPED_CPU_SOFTWARE_WITH_OPEN_BYTE_RESERVATION_LIMIT",
+  "candidate_source": "/data/liyufeng/paperb_g1_async_bridge_20261016_v1/code/async_bridge.py",
+  "candidate_sha256": "d04472920a5336b16bd6169707d44767aa99074a108ea1607492715b9d683d86",
+  "design_source_pins_verified": 9,
+  "parent_readback": "PARENT_SOURCE_READBACK.json",
+  "test_contract": "PROSPECTIVE_TEST_CONTRACT.json",
+  "test_contract_sha256": "8fa8bbf077b33c5c6300e642b4c25ed2cd6ff392d93586fdd96c676737c436e4",
+  "unique_behavior_case_ids": 21,
+  "case_executions": 41,
+  "first_candidate": {
+    "sha256": "7ad272ea995f56e63cc29227f380a1f88e7fbfa796371df151284825445075af",
+    "pass": 20,
+    "fail": 0
+  },
+  "second_candidate": {
+    "sha256": "550bc80f78885dd5a1ca5a60ca101397850461ce8a62275193082d291e2ce2a4",
+    "pass": 19,
+    "fail": 0
+  },
+  "focused_root_boundary_regression": {
+    "same_case": "T21_unsafe_authorized_abort_recovery_and_goal",
+    "old_candidate_sha256": "550bc80f78885dd5a1ca5a60ca101397850461ce8a62275193082d291e2ce2a4",
+    "RED": true,
+    "failure": "Traceback (most recent call last):\n  File \"/data/liyufeng/paperb_g1_async_reader_20261016_v1/code/independent_tests.py\", line 226, in main\n    try:test(mod);status='PASS';error=None\n  File \"/data/liyufeng/paperb_g1_async_reader_20261016_v1/code/independent_tests.py\", line 207, in T21_unsafe_authorized_abort_recovery_and_goal\n    p=f.prep(5,auth=f.auth(5));assert p['disposition']=='SUBMIT','UNSAFE_CURRENT_STATE_CANNOT_BLOCK_CURRENT_AUTHORIZED_ABORT'\nAssertionError: UNSAFE_CURRENT_STATE_CANNOT_BLOCK_CURRENT_AUTHORIZED_ABORT\n",
+    "new_candidate_sha256": "d04472920a5336b16bd6169707d44767aa99074a108ea1607492715b9d683d86",
+    "GREEN": true,
+    "delta": "exact one-line purpose scope guard; full diff retained"
+  },
+  "initial_review_blind_spot": "Abort-under-UNKNOWN fixture was lawful; initial replay oracle repeated overbroad unsafe-state scope. Root found unsafe+exact authorization boundary; old oracle retained; new T21 red then green.",
+  "long_trace": {
+    "events": 1177,
+    "packets": 514,
+    "history_window": 3,
+    "tickets": 66,
+    "slots": 528,
+    "native_model_physical_commands": 0,
+    "full_1750_ticket_case": "NOT_RUN"
+  },
+  "final_replay_gate": {
+    "sha256": "d04472920a5336b16bd6169707d44767aa99074a108ea1607492715b9d683d86",
+    "pass": 62,
+    "fail": 0,
+    "full_long_trace_rebuilt": false,
+    "independent_property_checker_imports": [
+      "from __future__ import annotations",
+      "import argparse, base64, collections, copy, hashlib, json, pathlib"
+    ]
+  },
+  "open_limit": {
+    "id": "BYTE_RESERVATION_AND_END_SPACE",
+    "status": "OPEN_BLOCKS_NATIVE_READY_AND_COMPLETE_LIFECYCLE_CAPACITY",
+    "counterexample": {
+      "schema": "PaperBAsyncReaderByteReservationLimit/1",
+      "status": "KNOWN_LIMIT_REPRODUCED_NOT_AN_UNSAFE_WRITE",
+      "source_sha256": "550bc80f78885dd5a1ca5a60ca101397850461ce8a62275193082d291e2ce2a4",
+      "sizing_bytes": 5265,
+      "accepted_start_bytes": 5260,
+      "declared_journal_bytes": 5360,
+      "close_failure": "BridgeError: JOURNAL_TOTAL_BYTE_CAPACITY_REFUSED",
+      "live_state_unchanged": true,
+      "broken": false,
+      "meaning": "Whole-ticket event/kind/command reservations do not reserve future serialized line/journal bytes; end event can be refused by byte cap. Partial prefix remains read-only replayable, no automatic send or resume is justified."
+    },
+    "report": "KNOWN_OPEN_BYTE_RESERVATION.md",
+    "root_disposition": "Fixed small CPU case may proceed under own observed byte margin; no general byte-cap closure guarantee"
+  },
+  "evidence": {
+    "first": {
+      "path": "results/first_candidate_all/RESULTS.json",
+      "sha256": "a0aed8daabd9c7ad9c8047b5a3484da1706be5ced4e53456ad3b56b8b12ee1db"
+    },
+    "second": {
+      "path": "results/second_candidate_short/RESULTS.json",
+      "sha256": "04671a567b031d66c273c573036acd8eccbf0703f78ae6e9ba2d80466bbca355"
+    },
+    "red": {
+      "path": "results/unsafe_scope_regression_red_550/RESULTS.json",
+      "sha256": "b0f7271e732c38578807349c9f61c955226e737684e7632937c41afe081ad9f7"
+    },
+    "green": {
+      "path": "results/unsafe_scope_regression_green_d044/RESULTS.json",
+      "sha256": "e28a066d0365e57cd65610e353f7406150a031687d037a12152381eab20df604"
+    },
+    "replay": {
+      "path": "results/independent_replay_final_d044/REPLAY_GATE.json",
+      "sha256": "bfa26aa83c978d642b35bea0f98b1e8712d9c9ff9daa42716b1145dca23ef0ef"
+    },
+    "byte": {
+      "path": "results/byte_closure_limit_first/RESULT.json",
+      "sha256": "8d17604f13b7cf6d79520b9d6c0007d4b7f1cf2c0ab63bd2eaf3e531dae50c1b"
+    }
+  },
+  "readme": "REVIEW.md",
+  "known_limits": [
+    "CPU synthetic single-owner only",
+    "No native, real model in these reader tests, physical authenticity or endpoint proof",
+    "No OS confidentiality or private payload classification",
+    "No teacher-target/SFR admission or reset implemented",
+    "No live replay resume or hardware exactly-once",
+    "Partial/truncated WAL is rejected; full valid line after fsync uncertainty may replay, live owner stays BROKEN",
+    "Real bad channel facts must be preserved by external RAW sink before strict normal-record qualification",
+    "1750-ticket full proposed CPU/native case not built",
+    "Event reservations are not complete future byte reservations; END may be capacity-refused"
+  ],
+  "new_native_GPU_model_training_executions": 0,
+  "main_M_B3": "UNTESTED",
+  "qualified_S_F_R": 0,
+  "frozen_author_source_readback": {
+    "path": "AUTHOR_FROZEN_SOURCE_READBACK.json",
+    "sha256": "81c926ff6bf8177309a2cc0c887bca5e12587a422ea97080aea2a5a43c29a8db",
+    "source_release_sha256": "d844dd3b313e70731c32159ed1cc5912f71560b3ee1ed1d3147658d0d48e0c7c",
+    "source_freeze_sha256": "c76202193d4a945485d27d006f5ecab0566daa57188b9f14568fa99eedf63807",
+    "archive_sha256": "f5e54c2aa053403589bf16ff3dea8fd18552191d4813ca2360d9358db15a5d6b"
+  }
+}

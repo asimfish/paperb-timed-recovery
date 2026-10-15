@@ -1,0 +1,47 @@
+{
+  "schema": "PaperBAsyncP0CrossProcessCPUResult/1",
+  "status": "COMPLETE_CPU_TRANSPORT_CASE",
+  "error": null,
+  "wall_total_s": 1.670195619,
+  "scope": "SYNTHETIC_CPU_CLOCK_AND_CPU_CHANNEL_NO_PHYSICS_NO_ROBOT_NO_SFR",
+  "worker_kind": "PRIOR_P0_ENGINEERING_MODEL",
+  "inference_request_sent": true,
+  "actual_engineering_inferences": 1,
+  "compute_ms": 11.324489,
+  "owner_observations_during_actual_model_compute": [
+    {
+      "tick": 2,
+      "owner_wall_ns": 2204233760162406
+    },
+    {
+      "tick": 3,
+      "owner_wall_ns": 2204233766478468
+    }
+  ],
+  "overlap_observed": true,
+  "synthetic_state_observations": 121,
+  "slot_dispositions": [
+    "SUBMIT",
+    "SUBMIT",
+    "SUBMIT",
+    "SUBMIT",
+    "SUBMIT",
+    "SUBMIT",
+    "SUBMIT",
+    "SUBMIT"
+  ],
+  "CPU_channel_acks": 8,
+  "worker_exit_code": 0,
+  "owned_worker_alive_after_cleanup": false,
+  "checkpoint_sha256_after": "de007e1b99cc7410be446a0e7c200a0e93f72094f22d19094bd8e39291a5b316",
+  "parameter_digest_before": "8dd8cc5bc87e4cb6892b24388238aeaa598f9a9106be4feb388d2f92748e146b",
+  "parameter_digest_after": "8dd8cc5bc87e4cb6892b24388238aeaa598f9a9106be4feb388d2f92748e146b",
+  "public_input_sha256": "116f524a6df1ceed07045dbb01d7f8f2c747763f65ced880d80b609bc091c913",
+  "header_sha256": "7a452d1f89fbcbd326159243bd85174b0dd4c8e75e7086487add97fd0bb6bfed",
+  "bridge_source_sha256": "d04472920a5336b16bd6169707d44767aa99074a108ea1607492715b9d683d86",
+  "new_training_updates": 0,
+  "new_native_GPU_hardware_or_chemical_runs": 0,
+  "qualified_S_F_R": 0,
+  "main_M_B3": "UNTESTED",
+  "learned_robot_policy_advantage": "NOT_TESTED"
+}

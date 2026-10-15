@@ -1,3 +1,9 @@
+2026-10-16: [Actual asynchronous CPU model case](async-collector.html). One prior P0 engineering-model inference ran in a spawned CPU process (11.324489 ms); two owner observations overlapped computation, and eight output rows received CPU FIFO acknowledgments. No new training, native/GPU/hardware/chemical runs or qualified S/F/R. Final-source independent replay/negative checks: 62 pass; behavior tests span versioned sources. Future serialized-byte and CASE_END reservation remains OPEN, so native readiness is not established. Complete small-case raw logs, existing engineering tensors/checkpoint, author source and independent reader archives are published with their scope. The v05 paper remains byte-identical.
+
+Earlier dated records follow unchanged.
+
+---
+
 <!-- calibration delivery 20261015 -->
 
 2026-10-15: [Current calibration and evidence](calibration.html), [current method](CURRENT_METHOD_cn.md), and [ICML research draft v05](research_increments/native_force_event_time_paper_v05_2026-10-15/paperB_verified_clock_v05.pdf). Six v03 native fixtures ran once each: five processing-on conditional passes and one retained processing-off physical failure. Full bounded raw inputs, independent reports and vector figures are available. The clock component passes scoped software checks; actual asynchronous model collection remains open. Main M/B3 learning is UNTESTED, qualified S/F/R admission is zero, and hardware/chemical endpoints remain uncollected.

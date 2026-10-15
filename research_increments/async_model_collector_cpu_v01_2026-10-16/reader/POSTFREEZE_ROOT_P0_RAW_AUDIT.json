@@ -1,0 +1,63 @@
+{
+  "schema": "PaperBPostfreezeIndependentP0RawConsistencyAudit/1",
+  "status": "PASS_SINGLE_CPU_CASE_LOG_CONSISTENCY",
+  "sealed_reader_release_sha256": "0fa7ebbca7ba94e0499e4f47ca9148e7e3bf4a247be9540033efc12f11dddba7",
+  "sealed_reader_review_sha256": "baa643fe31afe18a1cfcd2bf4d613351b3a7d77f2758427980f57549e06e1120",
+  "reader_pre_finalization_review_sha256": "982951ba740725721afc2ec5a6ae5d3dbd9f7af355f40c31ad1c6f02af266f68",
+  "pre_finalization_review_recovered_byteexact": true,
+  "review_change": "Final review adds only frozen_author_source_readback; root correctly read pre-finalization review before this reader final seal. Actual model call must not be described as following final reader source freeze.",
+  "scope": "Read-only cross-record consistency, no model reexecution or physical/native validation; timestamps are observed caller/process records, not independently authenticated clocks.",
+  "inputs": {
+    "RAW_PROCESS_CHANNEL.jsonl": {
+      "bytes": 15869,
+      "sha256": "e4fcbf3a3c240b87e935e590bfee945ec3123e58624aaf7d6a586d5139ec098d"
+    },
+    "OWNER_TICK_WALL_RECORDS.json": {
+      "bytes": 5460,
+      "sha256": "b902b60667b9c5529ced6404b925ef2606184be5d190e7d46847f07c49a991be"
+    },
+    "PUBLIC_MODEL_INPUT.npz": {
+      "bytes": 8908,
+      "sha256": "116f524a6df1ceed07045dbb01d7f8f2c747763f65ced880d80b609bc091c913"
+    },
+    "ASYNC_JOURNAL.jsonl": {
+      "bytes": 140091,
+      "sha256": "66b2d2306dc5f096bead29f05383d275b6bc428483cd23613e2ffe8b3bedbaa8"
+    },
+    "EXPECTED_HEADER.json": {
+      "bytes": 2616,
+      "sha256": "baa6d2778d910c8c930f4cf9a8647cb1d3e08e2f03a8eb4a04ad12edf7180820"
+    },
+    "RESULT.json": {
+      "bytes": 1613,
+      "sha256": "4908bb539648a24601617e2db23a65feeb842e2f84a4d26aa34f559758ff4b81"
+    }
+  },
+  "independent_journal_audit_sha256": "e67e88ceb2a61bd4d94ce592164aac558dbd497db22577c6fdbf9dee25a5d8ca",
+  "journal_events": 143,
+  "input_bytes_match_start_received_return_and_file": true,
+  "start_snapshot_sha256": "e4afa39157365e94ae4cfbf20bacb7feefc8356e70c0fad54de9f8859dba1465",
+  "actual_engineering_model_calls_reported": 1,
+  "new_model_executions_by_reader": 0,
+  "compute_interval_ns": [
+    2204233758270155,
+    2204233769594644
+  ],
+  "observed_cpu_compute_ms": 11.324489,
+  "owner_observations_inside_compute_interval": [
+    {
+      "owner_wall_ns": 2204233760162406,
+      "tick": 2
+    },
+    {
+      "owner_wall_ns": 2204233766478468,
+      "tick": 3
+    }
+  ],
+  "rowwise_submit_send_ack_result_owner_target_and_desired_tick_checked": 8,
+  "parameter_digests_reported_unchanged": true,
+  "model_role": "PRIOR_P0_ENGINEERING_RECONSTRUCTION_NOT_SCIENTIFIC_VLA",
+  "native_physical_S_F_R_hardware_chemistry_claims": 0,
+  "main_M_B3": "UNTESTED",
+  "byte_reservation_limit": "STILL_OPEN_BLOCKS_NATIVE_READY"
+}

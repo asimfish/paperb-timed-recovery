@@ -1,0 +1,105 @@
+{
+  "schema": "PaperBAsyncBridgeSourceFreeze/1",
+  "status": "FROZEN_CPU_ONLY_SCOPED_REVIEW_REPORTED_PASS_FINAL_READER_RECEIPT_SEPARATE",
+  "scope": "Versioned CPU_FIXTURE single-owner async journal/qualified FIFO validator; not complete integration design",
+  "current_source_sha256": "d04472920a5336b16bd6169707d44767aa99074a108ea1607492715b9d683d86",
+  "python": "3.10.12 (main, Aug 31 2026, 10:18:17) [GCC 11.4.0]",
+  "author_cases_pass": 41,
+  "independent_result_reported": "62/62 final-source independent semantic replay/negative cases reported PASS; reviewer final files separately pinned by root",
+  "source_files": 22,
+  "native_status": "NATIVE_NOT_READY",
+  "whole_lifecycle": "NOT_PROVEN",
+  "open_limit": "Count/kind/command reservations do not reserve future serialized byte sizes; END can be byte-cap refused and prefix INCOMPLETE. Full lifecycle production admission open.",
+  "privacy_authorization": "Trusted caller public/private routing and per-target authorization provenance only; no OS isolation or signature authenticity",
+  "bad_channel": "Lossless external raw sink required before normal journal qualification; invalid actual fact may be rejected, not erased",
+  "files": {
+    "API_CONTRACT.json": {
+      "bytes": 5791,
+      "sha256": "7187f9744998c694b8748b3dc036a6a72f5190f73cd8f478bc0d0d0f1ea6a705"
+    },
+    "AUTHOR_CANDIDATE_RECEIPT.json": {
+      "bytes": 3165,
+      "sha256": "9a9b0f8dc98df2bfe31353156461954d6aeb55a6e466ebfa37f30e2bfe253632"
+    },
+    "AUTHOR_SUCCESSOR_CANDIDATE_RECEIPT.json": {
+      "bytes": 4607,
+      "sha256": "7b583b36d6a49b439eeecaa4c0a659b24103b8d115e382387c3f6cd0dd9ce650"
+    },
+    "author_tests/author_suite_first_run.log": {
+      "bytes": 1983,
+      "sha256": "43617af29d6b43bc5ef87999e56beb307e09dc909aa73d9f3391be5de7d4eb3e"
+    },
+    "author_tests/author_suite_second_run.log": {
+      "bytes": 2555,
+      "sha256": "42553b97b43c197143ef180c066eb7e0b0bc9e433fbd8fcbe58a474a9f13cbdc"
+    },
+    "author_tests/author_suite_unsafe_successor.log": {
+      "bytes": 2887,
+      "sha256": "bac3e99279a3c3b801966400cd3444112951bba74fc371ef96906b5f919f52d0"
+    },
+    "author_tests/demo_v1/expected_header.json": {
+      "bytes": 2046,
+      "sha256": "993f6047119cd065a0b1603f6b7cf34b7b59e69a51e8257fced6a939ae7badba"
+    },
+    "author_tests/demo_v1/final_snapshot.json": {
+      "bytes": 20461,
+      "sha256": "4ca122e22241ddc622e270b62bfa2ab41efad4e8ebf91d4ec491f6e9ded039e8"
+    },
+    "author_tests/demo_v1/journal.jsonl": {
+      "bytes": 24637,
+      "sha256": "7eabb51e1461f512f1cf6fb01a06383e88bbebab041a2eef3d12967569f22f89"
+    },
+    "author_tests/demo_v1/receipt.json": {
+      "bytes": 444,
+      "sha256": "00d0eb2c573f4af1861b974f3c8bb5b9cc6d7a9cfbc61e116372f2004800f3f4"
+    },
+    "author_tests/demo_v2_current/expected_header.json": {
+      "bytes": 2046,
+      "sha256": "993f6047119cd065a0b1603f6b7cf34b7b59e69a51e8257fced6a939ae7badba"
+    },
+    "author_tests/demo_v2_current/final_snapshot.json": {
+      "bytes": 20461,
+      "sha256": "4ca122e22241ddc622e270b62bfa2ab41efad4e8ebf91d4ec491f6e9ded039e8"
+    },
+    "author_tests/demo_v2_current/journal.jsonl": {
+      "bytes": 24637,
+      "sha256": "7eabb51e1461f512f1cf6fb01a06383e88bbebab041a2eef3d12967569f22f89"
+    },
+    "author_tests/demo_v2_current/receipt.json": {
+      "bytes": 540,
+      "sha256": "19a1926d9ae70d9a956c507d902d845cbd6052aa3b0f23999641113cffc82b4e"
+    },
+    "author_tests/make_demo.py": {
+      "bytes": 2481,
+      "sha256": "f5b731f3c5e338207f41ed9a1b963389e54e87c4ac0ddc367bf8a12ffc653de8"
+    },
+    "author_tests/padding_boundary_before_fix.log": {
+      "bytes": 733,
+      "sha256": "ba97b5d3a5b7530a7419e2f04c8627a07ceaa16fe31f86e03192955b7b33a203"
+    },
+    "author_tests/source_candidate550_before_unsafe_authorized_fix.py": {
+      "bytes": 32103,
+      "sha256": "550bc80f78885dd5a1ca5a60ca101397850461ce8a62275193082d291e2ce2a4"
+    },
+    "author_tests/test_async_bridge.py": {
+      "bytes": 18774,
+      "sha256": "ddeb27b70e4547a9c45fd0e319db45dc879af5adac839520c604d573e211d302"
+    },
+    "code/async_bridge.py": {
+      "bytes": 32134,
+      "sha256": "d04472920a5336b16bd6169707d44767aa99074a108ea1607492715b9d683d86"
+    },
+    "docs/BOUNDARY_AND_TEST_CONTRACT.md": {
+      "bytes": 4602,
+      "sha256": "4ca4d4c9ac4bf4dd66de990e34bbd0b2c283cfd3e94dee60788b14236eb8a0be"
+    },
+    "docs/README_API.md": {
+      "bytes": 3564,
+      "sha256": "bdb2ee082f0f170df5bc5ca2a8b09b8813fcde3394da6042e506081439d213b6"
+    },
+    "docs/READONLY_PARENT_SOURCE_PINS.json": {
+      "bytes": 1945,
+      "sha256": "8c02f9667e99f1908f47ac5b8727f076745040d7383b0ae4afb3ea30d77532c2"
+    }
+  }
+}

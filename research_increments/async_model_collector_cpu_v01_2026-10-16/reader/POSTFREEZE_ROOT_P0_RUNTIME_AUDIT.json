@@ -1,0 +1,281 @@
+{
+  "schema": "PaperBIndependentAsyncJournalAudit/1",
+  "status": "PASS_SCOPED_CPU_JOURNAL",
+  "journal_sha256": "66b2d2306dc5f096bead29f05383d275b6bc428483cd23613e2ffe8b3bedbaa8",
+  "expected_header_sha256": "7a452d1f89fbcbd326159243bd85174b0dd4c8e75e7086487add97fd0bb6bfed",
+  "reader_sha256": "95e90ada530f34eeee7a9cf0fa8931cbe5603725e325c1d3ad1e2857cd14694c",
+  "summary": {
+    "events": 143,
+    "chain": "8a0e664c7ff9d18e63430f418812af10dd98e2f533be54650094e5be205ce6ab",
+    "packets": 1,
+    "tickets": 1,
+    "slots": 8,
+    "commands": {
+      "p0-ticket-0:0": {
+        "command_id": "p0-ticket-0:0",
+        "ticket_id": "p0-ticket-0",
+        "slot_index": 0,
+        "desired_tick": 50,
+        "ready_tick": 5,
+        "owner": {
+          "actor_generation": 0,
+          "actor_id": "student",
+          "actor_source_sha256": "b2bedb4b4c89b76b473c5dd7efee137008a4786d0596751640dc6768005cd96b",
+          "input_adapter_sha256": "99350133653f5e5653959951bd3376a94cba6e2afaefc25b28d672bca3d18621",
+          "role": "STUDENT",
+          "weights_sha256": "de007e1b99cc7410be446a0e7c200a0e93f72094f22d19094bd8e39291a5b316"
+        },
+        "target_9d": [
+          1.2264766335666573,
+          -0.42783640595399064,
+          -0.054565744859273124,
+          -2.208221922931792,
+          -1.4356254172826184,
+          2.5234384828829257,
+          0.013924371549983022,
+          0.044080399409653345,
+          0.030322671490589353
+        ],
+        "target_sha256": "2cabd759b89dd28d65489c3f1386baca89277190d060e54118f0025306bd4a37",
+        "purpose": "ORIGINAL_GOAL",
+        "submit_state_id": "state-4",
+        "status": "APPLIED",
+        "result_state_id": "state-50"
+      },
+      "p0-ticket-0:1": {
+        "command_id": "p0-ticket-0:1",
+        "ticket_id": "p0-ticket-0",
+        "slot_index": 1,
+        "desired_tick": 60,
+        "ready_tick": 51,
+        "owner": {
+          "actor_generation": 0,
+          "actor_id": "student",
+          "actor_source_sha256": "b2bedb4b4c89b76b473c5dd7efee137008a4786d0596751640dc6768005cd96b",
+          "input_adapter_sha256": "99350133653f5e5653959951bd3376a94cba6e2afaefc25b28d672bca3d18621",
+          "role": "STUDENT",
+          "weights_sha256": "de007e1b99cc7410be446a0e7c200a0e93f72094f22d19094bd8e39291a5b316"
+        },
+        "target_9d": [
+          2.707799518599546,
+          0.12661081096877996,
+          1.3394702014995463,
+          -2.8446367400999457,
+          -1.1459726016828913,
+          2.3073610785170753,
+          0.03333610350768253,
+          0.015164250122851155,
+          0.025655299874133737
+        ],
+        "target_sha256": "b179686b7c4891d245eff2504a1b7652c3b14c0ae0d62a9df09a4ad1855770b9",
+        "purpose": "ORIGINAL_GOAL",
+        "submit_state_id": "state-4",
+        "status": "APPLIED",
+        "result_state_id": "state-60"
+      },
+      "p0-ticket-0:2": {
+        "command_id": "p0-ticket-0:2",
+        "ticket_id": "p0-ticket-0",
+        "slot_index": 2,
+        "desired_tick": 70,
+        "ready_tick": 61,
+        "owner": {
+          "actor_generation": 0,
+          "actor_id": "student",
+          "actor_source_sha256": "b2bedb4b4c89b76b473c5dd7efee137008a4786d0596751640dc6768005cd96b",
+          "input_adapter_sha256": "99350133653f5e5653959951bd3376a94cba6e2afaefc25b28d672bca3d18621",
+          "role": "STUDENT",
+          "weights_sha256": "de007e1b99cc7410be446a0e7c200a0e93f72094f22d19094bd8e39291a5b316"
+        },
+        "target_9d": [
+          1.6308607544808078,
+          0.43385986798879006,
+          1.064736606798747,
+          -2.4518733412493243,
+          -1.581050280484895,
+          2.2578148535472384,
+          0.19388144168052002,
+          0.02914234982324909,
+          0.030317095323199858
+        ],
+        "target_sha256": "112c00bb8467f536adb4a646b47c3d1dc8d27064c943077414e00acff39a4e80",
+        "purpose": "ORIGINAL_GOAL",
+        "submit_state_id": "state-4",
+        "status": "APPLIED",
+        "result_state_id": "state-70"
+      },
+      "p0-ticket-0:3": {
+        "command_id": "p0-ticket-0:3",
+        "ticket_id": "p0-ticket-0",
+        "slot_index": 3,
+        "desired_tick": 80,
+        "ready_tick": 71,
+        "owner": {
+          "actor_generation": 0,
+          "actor_id": "student",
+          "actor_source_sha256": "b2bedb4b4c89b76b473c5dd7efee137008a4786d0596751640dc6768005cd96b",
+          "input_adapter_sha256": "99350133653f5e5653959951bd3376a94cba6e2afaefc25b28d672bca3d18621",
+          "role": "STUDENT",
+          "weights_sha256": "de007e1b99cc7410be446a0e7c200a0e93f72094f22d19094bd8e39291a5b316"
+        },
+        "target_9d": [
+          1.736570529784969,
+          0.18219394661653837,
+          1.8052517300844961,
+          -2.635281613096388,
+          -1.3834593091162317,
+          2.703152157995268,
+          0.2603923467898591,
+          0.02599831667094807,
+          0.031871247897493835
+        ],
+        "target_sha256": "01c22c9b7fd7d833e68db5ff6a360096889f0b4b1cd1c1f6078aeee9490c50d1",
+        "purpose": "ORIGINAL_GOAL",
+        "submit_state_id": "state-4",
+        "status": "APPLIED",
+        "result_state_id": "state-80"
+      },
+      "p0-ticket-0:4": {
+        "command_id": "p0-ticket-0:4",
+        "ticket_id": "p0-ticket-0",
+        "slot_index": 4,
+        "desired_tick": 90,
+        "ready_tick": 81,
+        "owner": {
+          "actor_generation": 0,
+          "actor_id": "student",
+          "actor_source_sha256": "b2bedb4b4c89b76b473c5dd7efee137008a4786d0596751640dc6768005cd96b",
+          "input_adapter_sha256": "99350133653f5e5653959951bd3376a94cba6e2afaefc25b28d672bca3d18621",
+          "role": "STUDENT",
+          "weights_sha256": "de007e1b99cc7410be446a0e7c200a0e93f72094f22d19094bd8e39291a5b316"
+        },
+        "target_9d": [
+          1.4879077380662915,
+          1.026364812944286,
+          2.2428389168352307,
+          -2.3643276444272145,
+          -0.6752724468250646,
+          2.327515637960533,
+          0.4887221843546905,
+          0.022810292200287196,
+          0.03703533846178533
+        ],
+        "target_sha256": "ed9969bf57a34235e6dd878e341f2bade43e70be6ea0c649237c39dab4fc32c8",
+        "purpose": "ORIGINAL_GOAL",
+        "submit_state_id": "state-4",
+        "status": "APPLIED",
+        "result_state_id": "state-90"
+      },
+      "p0-ticket-0:5": {
+        "command_id": "p0-ticket-0:5",
+        "ticket_id": "p0-ticket-0",
+        "slot_index": 5,
+        "desired_tick": 100,
+        "ready_tick": 91,
+        "owner": {
+          "actor_generation": 0,
+          "actor_id": "student",
+          "actor_source_sha256": "b2bedb4b4c89b76b473c5dd7efee137008a4786d0596751640dc6768005cd96b",
+          "input_adapter_sha256": "99350133653f5e5653959951bd3376a94cba6e2afaefc25b28d672bca3d18621",
+          "role": "STUDENT",
+          "weights_sha256": "de007e1b99cc7410be446a0e7c200a0e93f72094f22d19094bd8e39291a5b316"
+        },
+        "target_9d": [
+          1.7682198331904102,
+          0.17952436825214374,
+          -0.0018379225246540898,
+          -2.3817718513512576,
+          -1.5374299196922134,
+          2.7293349783632976,
+          0.09737701239023751,
+          0.01640050810864557,
+          0.03002042878650763
+        ],
+        "target_sha256": "569238a89c41a269ed6790e6ef8e80043a203de277ce6c6801033e1a0d2807fa",
+        "purpose": "ORIGINAL_GOAL",
+        "submit_state_id": "state-4",
+        "status": "APPLIED",
+        "result_state_id": "state-100"
+      },
+      "p0-ticket-0:6": {
+        "command_id": "p0-ticket-0:6",
+        "ticket_id": "p0-ticket-0",
+        "slot_index": 6,
+        "desired_tick": 110,
+        "ready_tick": 101,
+        "owner": {
+          "actor_generation": 0,
+          "actor_id": "student",
+          "actor_source_sha256": "b2bedb4b4c89b76b473c5dd7efee137008a4786d0596751640dc6768005cd96b",
+          "input_adapter_sha256": "99350133653f5e5653959951bd3376a94cba6e2afaefc25b28d672bca3d18621",
+          "role": "STUDENT",
+          "weights_sha256": "de007e1b99cc7410be446a0e7c200a0e93f72094f22d19094bd8e39291a5b316"
+        },
+        "target_9d": [
+          1.147054601395335,
+          1.0308354436214875,
+          0.8380085575758844,
+          -2.5439863815275525,
+          -0.5052398950763246,
+          3.0625390707203994,
+          -0.40114062617088375,
+          0.03802882495126277,
+          0.029178305152393058
+        ],
+        "target_sha256": "db5d3995944c3791da7e0e1644c996a6b111438765b2f43581b3f4090b3624d0",
+        "purpose": "ORIGINAL_GOAL",
+        "submit_state_id": "state-4",
+        "status": "APPLIED",
+        "result_state_id": "state-110"
+      },
+      "p0-ticket-0:7": {
+        "command_id": "p0-ticket-0:7",
+        "ticket_id": "p0-ticket-0",
+        "slot_index": 7,
+        "desired_tick": 120,
+        "ready_tick": 111,
+        "owner": {
+          "actor_generation": 0,
+          "actor_id": "student",
+          "actor_source_sha256": "b2bedb4b4c89b76b473c5dd7efee137008a4786d0596751640dc6768005cd96b",
+          "input_adapter_sha256": "99350133653f5e5653959951bd3376a94cba6e2afaefc25b28d672bca3d18621",
+          "role": "STUDENT",
+          "weights_sha256": "de007e1b99cc7410be446a0e7c200a0e93f72094f22d19094bd8e39291a5b316"
+        },
+        "target_9d": [
+          2.3117063990949918,
+          -0.523031249408043,
+          -0.03306923689069263,
+          -2.351751178233795,
+          -1.5339283986405445,
+          2.4828234956791797,
+          -0.28751228381463523,
+          0.0496318567925826,
+          0.01979259476864599
+        ],
+        "target_sha256": "b443c6af877014febe784dff41ab57d5a92b00d794118489cda35508b639c56e",
+        "purpose": "ORIGINAL_GOAL",
+        "submit_state_id": "state-4",
+        "status": "APPLIED",
+        "result_state_id": "state-120"
+      }
+    },
+    "queue": [],
+    "actor_id": "student",
+    "actor_generation": 0,
+    "known_original_failure": false,
+    "original_full_failure": false,
+    "closed": true,
+    "kind_counts": {
+      "CASE_BEGIN": 1,
+      "OBSERVED_STATE": 122,
+      "PUBLIC_PACKET": 1,
+      "INFERENCE_START": 1,
+      "INFERENCE_RETURN": 1,
+      "SLOT_DISPOSITION": 8,
+      "CHANNEL_RESULT": 8,
+      "CASE_END": 1
+    }
+  },
+  "scope": "No author reducer import; no physical authenticity/native/model/SFR proof"
+}

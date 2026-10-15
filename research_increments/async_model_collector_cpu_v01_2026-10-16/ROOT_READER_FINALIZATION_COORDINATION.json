@@ -1,0 +1,19 @@
+{
+  "schema": "RootAsyncReaderFinalizationCoordination/1",
+  "status": "PASS_SOURCE_STABLE_REVIEW_CHRONOLOGY_PRESERVED",
+  "before_actual_model_execution": "Root froze reference to pre-finalized review982 after same-source d044 behavior/replay passing report; formal reader source seal had not completed",
+  "pre_finalized_review_preserved_sha256": "982951ba740725721afc2ec5a6ae5d3dbd9f7af355f40c31ad1c6f02af266f68",
+  "final_review_sha256": "baa643fe31afe18a1cfcd2bf4d613351b3a7d77f2758427980f57549e06e1120",
+  "review_changed_top_level_keys": [
+    "frozen_author_source_readback"
+  ],
+  "candidate_code_unchanged": "d04472920a5336b16bd6169707d44767aa99074a108ea1607492715b9d683d86",
+  "postseal_independent_actual_case_audit": {
+    "journal": "e67e88ceb2a61bd4d94ce592164aac558dbd497db22577c6fdbf9dee25a5d8ca",
+    "RAW": "9887b83ea174cff88777beee8bc4df40f66890f9062ca93ca628e1ec74d133d7"
+  },
+  "reader_all_source_members_readback": 110,
+  "reader_zip_members_CRC_SHA_readback": 111,
+  "new_model_calls_for_this_verification": 0,
+  "did_not_rewrite_runtime_freeze_or_redate_reader_seal": true
+}

@@ -1,0 +1,25 @@
+{
+  "schema": "RootIndependentAsyncRuntimeEvidence/1",
+  "status": "PASS_NARROW_CPU_PROCESS_AND_QUEUE_EVIDENCE",
+  "case": "p0_actual_once_v1",
+  "journal_sha256": "66b2d2306dc5f096bead29f05383d275b6bc428483cd23613e2ffe8b3bedbaa8",
+  "raw_sha256": "e4fcbf3a3c240b87e935e590bfee945ec3123e58624aaf7d6a586d5139ec098d",
+  "events": 143,
+  "CPU_channel_commands": 8,
+  "checks": {
+    "external_header_and_chain": true,
+    "actual_start_bytes_match_delivered_packet_and_worker": true,
+    "no_future_targets_in_public_tensor_bundle": true,
+    "original_slot_indices_times_and_actor_retained": true,
+    "durable_intents_precede_raw_CPU_sends": true,
+    "raw_CPU_ack_retained_before_qualification": true,
+    "worker_output_matches_every_command_row": true,
+    "FIFO_complete_owner_target_readback": true,
+    "no_parameter_updates_or_native_claim": true,
+    "owned_worker_cleanup": true
+  },
+  "actual_engineering_inferences": 1,
+  "overlap_observed": true,
+  "new_native_or_training": 0,
+  "qualification": "CPU_TRANSPORT_ONLY_MAIN_M_B3_UNTESTED_SFR0"
+}

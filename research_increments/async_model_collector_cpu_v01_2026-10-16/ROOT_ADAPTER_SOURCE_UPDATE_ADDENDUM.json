@@ -1,0 +1,20 @@
+{
+  "schema": "RootAsyncCandidateScopeAddendum/1",
+  "status": "BEFORE_UNIQUE_P0_NEURAL_INFERENCE",
+  "previous_wiring_smoke_source": "7ad272ea995f56e63cc29227f380a1f88e7fbfa796371df151284825445075af",
+  "new_source_sha256": "d04472920a5336b16bd6169707d44767aa99074a108ea1607492715b9d683d86",
+  "why_current_source_revalidation": "Strict event fields and authorization of safe exit from unsafe state changed after draft smoke; verify affected integration using constant fixture before neural call",
+  "constant_wiring_runs_including_draft_and_current": 2,
+  "unique_actual_P0_inference_cap_unchanged": 1,
+  "no_outcome_selected_rerun": true,
+  "known_open_byte_capacity": "event/kind/command reservations are tested; future byte budget and guaranteed end append are not reserved. Retained small-bytecap case blocks native readiness. Fixed root CPU case uses 512MiB journal cap and reports actual bytes.",
+  "unimplemented_scope": [
+    "NativeSDK",
+    "realphysicaleffects",
+    "privateOSisolation",
+    "livejournalresume",
+    "SFRteacherlabels",
+    "complete1750ticketproductiontrace"
+  ],
+  "checkpoint_and_root_protocol_unchanged": true
+}

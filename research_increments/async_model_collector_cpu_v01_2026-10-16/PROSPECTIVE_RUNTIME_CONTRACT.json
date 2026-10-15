@@ -1,0 +1,79 @@
+{
+  "schema": "PaperBAsyncRuntimeProspectiveContract/1",
+  "status": "BEFORE_FIRST_RUNTIME_EXECUTION",
+  "milestone": "One owner-loop + spawned P0 inference worker + explicit CPU FIFO acknowledgments, preserving actual model input and current submit clocks",
+  "scope": "CPU_FIXTURE_ONLY_NO_PHYSICS_NO_LIVE_SENSOR_NO_HARDWARE_NO_SFR",
+  "candidate_bridge": "/data/liyufeng/paperb_g1_async_bridge_20261016_v1/code/async_bridge.py",
+  "fixed_inputs": {
+    "sample_id": 0,
+    "fit_episode": "Previously seen M1 offline capture, not heldout",
+    "checkpoint_sha256": "de007e1b99cc7410be446a0e7c200a0e93f72094f22d19094bd8e39291a5b316",
+    "checkpoint_parameters": "Frozen after prior200updates; no optimizer or newweightfile",
+    "sampling": "One 16-step DDIM invocation, one original sample, CPU only, fixed initial noise seed20261016",
+    "model_input_payload": "Only image/proprio/nominaloffsets/mask; excludes future actions/labels/audit scores; exact complete tensor bundle delivered as public packet"
+  },
+  "run_limits": {
+    "selected_actual_P0_inferences": 1,
+    "selective_outcome_reruns": 0,
+    "worker_wall_timeout_s": 30,
+    "owner_wall_timeout_s": 30,
+    "new_native": 0,
+    "new_GPU": 0,
+    "new_training_updates": 0
+  },
+  "clock_and_schedule": {
+    "owner_state_clock": "Explicit CPU synthetic tick with fixture time mapping, separate measured monotonic wall; no claimed realtime physics",
+    "owner_loop_wall_interval_s": 0.001,
+    "original_desired_ticks": [
+      50,
+      60,
+      70,
+      80,
+      90,
+      100,
+      110,
+      120
+    ],
+    "declared_end_tick": 121,
+    "original_deadline": "Pre-execution header fixed beyond tick120, never reanchored",
+    "past_slots": "Record STALE; do not move to future tick",
+    "purpose": "ORIGINAL_GOAL; no teacher or recovery label",
+    "late_or_all_stale": "Retain full outcome, no retry for improvement"
+  },
+  "acceptance": [
+    "Worker receives exact bytes frozen at start and uses no target/audit data",
+    "Actual CPU model inference emits finite8x9 with checkpoint/parameter hashes unchanged",
+    "Owner loop observations occur while worker computation runs, measured overlap or explicitly report absent",
+    "Return/start/currentsubmit clocks recorded separately",
+    "Each original slot obtains one disposition and committed 9D command only enters CPU FIFO after durable intent",
+    "CPU acknowledgments preserve original actor,target,readytick,FIFO; nophysicalAPPLIEDclaim",
+    "Full journal independently replayed; invalid mutations leave accepted state unchanged",
+    "Owned worker terminates and no accidentalGPU/SDK/modelAPI invocation"
+  ],
+  "threat_contract": {
+    "assets": "Originaldeadline/inputbytes/actorprovenance/commandlineage; no secrets needed",
+    "trust_boundary": "Model worker output is untrusted; mainowner supplies currentstate/clock; journalreplay rejects malformed sources",
+    "trusted_assumptions": "OS and caller packet classification; no cryptographic sensor authentication, confidential process isolation, or hardware exactly-once claimed",
+    "denied_paths": [
+      "PRODUCTION mode",
+      "future-prefix replacement",
+      "wrong snapshot/target/actor/queue",
+      "stale guard",
+      "duplicate command or return",
+      "incomplete persist success leading to send"
+    ]
+  },
+  "open_dependencies": [
+    "Independent bridge source and reader CPU gates",
+    "No native readiness until pinned SDK/channel and new separately budgeted short native case",
+    "Fullrobot load/unload/torque and SFR pools stillopen"
+  ],
+  "pre_model_wiring_addendum": {
+    "status": "BEFORE_ANY_RUNTIME_OUTPUT",
+    "constant_fixture_worker_runs": 1,
+    "role": "One deterministic IPC/queue smoke using the identical owner loop before committing the unique P0 inference",
+    "actual_neural_inferences_in_smoke": 0,
+    "same_durableheader_and_inputbinding": "Required",
+    "if_smoke_fails": "Retain and repair software before neural call; do not spend unique P0 call debugging obvious wiring"
+  }
+}

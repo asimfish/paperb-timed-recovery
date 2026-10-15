@@ -1,0 +1,23 @@
+{
+  "schema": "PaperBAsyncCPUFigureReceipt/1",
+  "status": "ACTUAL_WALL_AND_CPU_CHANNEL_ONLY",
+  "input_files": {
+    "RAW_PROCESS_CHANNEL.jsonl": "e4fcbf3a3c240b87e935e590bfee945ec3123e58624aaf7d6a586d5139ec098d",
+    "ASYNC_JOURNAL.jsonl": "66b2d2306dc5f096bead29f05383d275b6bc428483cd23613e2ffe8b3bedbaa8",
+    "RESULT.json": "4908bb539648a24601617e2db23a65feeb842e2f84a4d26aa34f559758ff4b81",
+    "OWNER_TICK_WALL_RECORDS.json": "b902b60667b9c5529ced6404b925ef2606184be5d190e7d46847f07c49a991be"
+  },
+  "figure_files": {
+    "async_cpu_timeline.pdf": "70ade0796a91c7e0f22488da1b846de16795dc5225ae60dea653e0b2974c3301",
+    "async_cpu_timeline.png": "06830f6c289f996d5e8b1f7d16900c2d29befb1476d9b61b54ccd24902e8f193",
+    "async_cpu_timeline.svg": "4ab8227ba4256c4192cbbb8be1ded2c5aa1354e14c59c9924ce54714f1931d6e"
+  },
+  "owner_observations_plotted": 121,
+  "original_slots_plotted": 8,
+  "epoch_replicates": 1,
+  "smoothing": false,
+  "window_search": false,
+  "actual_P0_inferences": 1,
+  "model_compute_ms": 11.324489,
+  "physics_or_qualified_SFR": 0
+}

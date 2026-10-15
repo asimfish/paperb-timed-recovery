@@ -1,0 +1,147 @@
+{
+  "schema": "PaperBRootAsyncCPUAcceptance/1",
+  "status": "PASS_BOUNDED_CPU_PROCESS_TRANSPORT_NATIVE_NOT_READY",
+  "date_local": "2026-10-16",
+  "actual_new_runs": {
+    "constant_wiring_cases": 2,
+    "prior_P0_model_inferences": 1,
+    "training_updates": 0,
+    "native_GPU_hardware_chemical_runs": 0
+  },
+  "actual_model_case": {
+    "schema": "PaperBAsyncP0CrossProcessCPUResult/1",
+    "status": "COMPLETE_CPU_TRANSPORT_CASE",
+    "error": null,
+    "wall_total_s": 1.670195619,
+    "scope": "SYNTHETIC_CPU_CLOCK_AND_CPU_CHANNEL_NO_PHYSICS_NO_ROBOT_NO_SFR",
+    "worker_kind": "PRIOR_P0_ENGINEERING_MODEL",
+    "inference_request_sent": true,
+    "actual_engineering_inferences": 1,
+    "compute_ms": 11.324489,
+    "owner_observations_during_actual_model_compute": [
+      {
+        "tick": 2,
+        "owner_wall_ns": 2204233760162406
+      },
+      {
+        "tick": 3,
+        "owner_wall_ns": 2204233766478468
+      }
+    ],
+    "overlap_observed": true,
+    "synthetic_state_observations": 121,
+    "slot_dispositions": [
+      "SUBMIT",
+      "SUBMIT",
+      "SUBMIT",
+      "SUBMIT",
+      "SUBMIT",
+      "SUBMIT",
+      "SUBMIT",
+      "SUBMIT"
+    ],
+    "CPU_channel_acks": 8,
+    "worker_exit_code": 0,
+    "owned_worker_alive_after_cleanup": false,
+    "checkpoint_sha256_after": "de007e1b99cc7410be446a0e7c200a0e93f72094f22d19094bd8e39291a5b316",
+    "parameter_digest_before": "8dd8cc5bc87e4cb6892b24388238aeaa598f9a9106be4feb388d2f92748e146b",
+    "parameter_digest_after": "8dd8cc5bc87e4cb6892b24388238aeaa598f9a9106be4feb388d2f92748e146b",
+    "public_input_sha256": "116f524a6df1ceed07045dbb01d7f8f2c747763f65ced880d80b609bc091c913",
+    "header_sha256": "7a452d1f89fbcbd326159243bd85174b0dd4c8e75e7086487add97fd0bb6bfed",
+    "bridge_source_sha256": "d04472920a5336b16bd6169707d44767aa99074a108ea1607492715b9d683d86",
+    "new_training_updates": 0,
+    "new_native_GPU_hardware_or_chemical_runs": 0,
+    "qualified_S_F_R": 0,
+    "main_M_B3": "UNTESTED",
+    "learned_robot_policy_advantage": "NOT_TESTED"
+  },
+  "author_tests": 41,
+  "independent_behavior_cases": 21,
+  "independent_case_executions_across_versions": 41,
+  "final_source_readonly_replay_and_negative_checks": {
+    "pass": 62,
+    "fail": 0
+  },
+  "test_chronology": "Behavior cases span versioned candidates; 62 final-source replay checks are not 62 new physical/model runs.",
+  "runtime_freeze_members_byteexact": 10,
+  "review_chronology": {
+    "schema": "RootAsyncReaderFinalizationCoordination/1",
+    "status": "PASS_SOURCE_STABLE_REVIEW_CHRONOLOGY_PRESERVED",
+    "before_actual_model_execution": "Root froze reference to pre-finalized review982 after same-source d044 behavior/replay passing report; formal reader source seal had not completed",
+    "pre_finalized_review_preserved_sha256": "982951ba740725721afc2ec5a6ae5d3dbd9f7af355f40c31ad1c6f02af266f68",
+    "final_review_sha256": "baa643fe31afe18a1cfcd2bf4d613351b3a7d77f2758427980f57549e06e1120",
+    "review_changed_top_level_keys": [
+      "frozen_author_source_readback"
+    ],
+    "candidate_code_unchanged": "d04472920a5336b16bd6169707d44767aa99074a108ea1607492715b9d683d86",
+    "postseal_independent_actual_case_audit": {
+      "journal": "e67e88ceb2a61bd4d94ce592164aac558dbd497db22577c6fdbf9dee25a5d8ca",
+      "RAW": "9887b83ea174cff88777beee8bc4df40f66890f9062ca93ca628e1ec74d133d7"
+    },
+    "reader_all_source_members_readback": 110,
+    "reader_zip_members_CRC_SHA_readback": 111,
+    "new_model_calls_for_this_verification": 0,
+    "did_not_rewrite_runtime_freeze_or_redate_reader_seal": true
+  },
+  "clock_domains": {
+    "schema": "RootAsyncCPUClockDomains/1",
+    "model_input_start_synthetic_tick": 0,
+    "model_return_synthetic_tick": 4,
+    "model_return_recorded_wall_ms_after_dispatch": 21.950356,
+    "last_synthetic_tick": 121,
+    "synthetic_native_elapsed_ms": 121,
+    "actual_owner_wall_ms_to_last_tick": 607.140765,
+    "clock_mapping": "Fixture mapping1ms/tick, separate measured processwall; not synchronized physical/nativeclock",
+    "not_a_control_rate_or_deadline_benchmark": true,
+    "plot_layout_successor": "Original plot/figure retained. New layout only moves legends outside plotted data; numeric inputs/sample windows unchanged",
+    "original_plot_source_sha256": "b87369e0eb7e09f3402b8858272d5d9ee31c56d1f4138bc335c47ac25da6431b",
+    "new_plot_source_sha256": "e9d87db9ef6074c85937a5ca2720871834fee67fea94855b727da100637dfcc3"
+  },
+  "final_figure": {
+    "directory": "p0_actual_once_v1/figures_layout_v04",
+    "root_visual_check": "PASS: labels and legends outside data; all 121 states and 8 slots retained",
+    "layout_only_no_new_run": true
+  },
+  "known_open": [
+    "Future serialized-byte reservation and guaranteed CASE_END space are not implemented; retained close-refusal counterexample.",
+    "CPU fixture ticks do not measure continuous physical time or a real-time control rate.",
+    "No native asynchronous adapter, full robot force endpoint, qualified S/F/R, task-space learning comparison, or hardware/chemical endpoint."
+  ],
+  "main_M_B3": "UNTESTED",
+  "qualified_S_F_R": 0,
+  "next_gate": "Version future-byte/END reservation, independently reproduce boundary failures, then freeze a bounded native adapter protocol before new native collection.",
+  "source_artifacts": {
+    "author_release": {
+      "bytes": 4653,
+      "sha256": "d844dd3b313e70731c32159ed1cc5912f71560b3ee1ed1d3147658d0d48e0c7c"
+    },
+    "author_zip": {
+      "bytes": 60878,
+      "sha256": "f5e54c2aa053403589bf16ff3dea8fd18552191d4813ca2360d9358db15a5d6b"
+    },
+    "reader_release": {
+      "bytes": 18971,
+      "sha256": "0fa7ebbca7ba94e0499e4f47ca9148e7e3bf4a247be9540033efc12f11dddba7"
+    },
+    "reader_zip": {
+      "bytes": 445245,
+      "sha256": "041440a9b845ad6fff4b152d7a00957a808da4f99c3edeba13011f05f1cbad8d"
+    },
+    "runtime_freeze": {
+      "bytes": 2065,
+      "sha256": "cfa752c5ac7ef09fe823682c2a406ac8483186a7c32c33dada3cf264cbeb8871"
+    },
+    "actual_journal": {
+      "bytes": 140091,
+      "sha256": "66b2d2306dc5f096bead29f05383d275b6bc428483cd23613e2ffe8b3bedbaa8"
+    },
+    "actual_RAW": {
+      "bytes": 15869,
+      "sha256": "e4fcbf3a3c240b87e935e590bfee945ec3123e58624aaf7d6a586d5139ec098d"
+    },
+    "checkpoint": {
+      "bytes": 216933,
+      "sha256": "de007e1b99cc7410be446a0e7c200a0e93f72094f22d19094bd8e39291a5b316"
+    }
+  }
+}
