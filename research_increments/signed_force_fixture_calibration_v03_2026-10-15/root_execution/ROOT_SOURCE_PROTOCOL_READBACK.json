@@ -1,0 +1,15 @@
+{
+  "schema": "PaperBRootV03SourceReadback/1",
+  "status": "PASS_SOURCE_PRIVATE_ARCHIVE_API_ORIGINAL_PHYSICS_PROTOCOL",
+  "issued_at_utc": "2026-10-14T18:49:15.080850+00:00",
+  "source_freeze_sha256": "29b848d388897fa8c08088e0bde940ec751585e83d308e137a26f99eacaace4f",
+  "release_sha256": "0de55ac995986d25a60f391b63d9606915dbeae37518e7cc4fb38ee75bc81771",
+  "archive_sha256": "702f4d1a84f8a9be956e509db7af5b3245322231d6a613131d5c920b2d6cd2c6",
+  "source_members": 28,
+  "private_members": 28,
+  "archive_members": 29,
+  "installed_members": 22,
+  "six_preselected_cases": true,
+  "all_original_geometry_thresholds_windows_dt_case_values_equal": true,
+  "reader_and_native_admission": "STILL_REQUIRED"
+}

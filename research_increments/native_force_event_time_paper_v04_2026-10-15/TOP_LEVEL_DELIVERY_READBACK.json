@@ -1,0 +1,18 @@
+{
+  "schema": "PaperBManuscriptV04TopLevelDeliveryReadback/1",
+  "status": "PASS_EXACT_ALL_SOURCE_MEMBERS_AND_ARCHIVE",
+  "top_level_project_alias": "research_increments/native_force_event_time_paper_v04_2026-10-15",
+  "published_pdf_name": "paperB_verified_clock_v04.pdf",
+  "pdf_sha256": "d09d60a6f0570dc3f53d904cff7c42d87bd95f0639dee55300fcbb6a068c6e0a",
+  "tex_sha256": "206c2871e38c7b155a5e4770811684d22bfa631c9e305cad8aadf36bf97e72c6",
+  "source_release_sha256": "fa52c0de33b2c6b8bff2e069e4412f2a6633eed01d4e084fb36a5bb34921fa1f",
+  "zip_sha256": "604385905cf09a2265f46d70fdf48de51f2de92137737e3da11b2602ce946f0b",
+  "source_members_checked": 129,
+  "zip_members_checked": 130,
+  "document_scope": "PASS_8_MAIN_1_REFS_6_APPENDIX_5_FIGURES_3_TABLES",
+  "scientific_scope": "MAJOR_OPEN_M_B3_UNTESTED_SFR0_HARDWARE_CHEMISTRY_OPEN",
+  "parent_provenance_only": true,
+  "root_independent_document_gate": "PENDING_ROOT",
+  "github_publish_by_child": false,
+  "author_new_native_GPU_training": 0
+}

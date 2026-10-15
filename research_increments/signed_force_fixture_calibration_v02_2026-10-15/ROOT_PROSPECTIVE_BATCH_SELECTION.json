@@ -1,0 +1,178 @@
+{
+  "schema": "PaperBRootForceCalibrationV02ProspectiveSelection/1",
+  "issued_at_utc": "2026-10-14T17:56:43.597613+00:00",
+  "state": "PROSPECTIVE_SCOPE_NOT_YET_NATIVE_ADMITTED",
+  "v02_outcomes_seen": 0,
+  "selected_case_ids": [
+    "cal_force_c0_freefall_v02",
+    "cal_force_c1_stack_v02",
+    "cal_force_c2_rotated_v02",
+    "cal_force_c3_actor_order_v02",
+    "cal_force_c4_mass_v02"
+  ],
+  "reference_physical_cases": [
+    {
+      "comparison_scope": "cannot prove hidden contact-conditional constraints absent",
+      "contacts_allowed": false,
+      "controlled_steps": 120,
+      "expected": "a_A\u2248g;net normal\u22480;no contact/unknown externalwrench",
+      "fixed_POST_window_inclusive": [
+        71,
+        119
+      ],
+      "gravity_world_m_s2": [
+        0,
+        0,
+        -9.81
+      ],
+      "id": "cal_force_c0_freefall_v02",
+      "mass_A_kg": 0.1,
+      "priority": 1,
+      "purpose": "independent gravity/inertial falsifier before contact semantics",
+      "fixture_reference_case_id": "cal_force_c0_freefall_v01"
+    },
+    {
+      "body_paths": {
+        "A_top": "/Cal/A_top",
+        "B_bottom": "/Cal/B_bottom"
+      },
+      "controlled_steps": 1049,
+      "creation_order": [
+        "B_bottom",
+        "A_top"
+      ],
+      "expected": "F_B\u2192A\u2248-m_Ag;F_A\u2192B\u2248-F_B\u2192A;normal-only net_A\u2248pair_A_B with explicit friction0;B pair-ground separate",
+      "fixed_POST_window_inclusive": [
+        1000,
+        1048
+      ],
+      "fixture_rotation_about_world_Y_rad": 0,
+      "gravity_world_m_s2": [
+        0,
+        0,
+        -9.81
+      ],
+      "id": "cal_force_c1_stack_v02",
+      "mass_A_kg": 0.1,
+      "mass_B_kg": 0.2,
+      "priority": 2,
+      "purpose": "known mg support and reciprocal signed product; paired getterdt without another epoch",
+      "fixture_reference_case_id": "cal_force_c1_stack_v01"
+    },
+    {
+      "body_paths": {
+        "A_top": "/Cal/A_top",
+        "B_bottom": "/Cal/B_bottom"
+      },
+      "controlled_steps": 1049,
+      "creation_order": [
+        "B_bottom",
+        "A_top"
+      ],
+      "expected": "F_B\u2192A\u2248[+m_A*9.81,0,0] using actual gravity getter;no double rotation",
+      "fixed_POST_window_inclusive": [
+        1000,
+        1048
+      ],
+      "fixture_rotation_about_world_Y_rad": 1.5707963267948966,
+      "gravity_world_m_s2": [
+        -9.81,
+        0,
+        0
+      ],
+      "id": "cal_force_c2_rotated_v02",
+      "mass_A_kg": 0.1,
+      "mass_B_kg": 0.2,
+      "priority": 3,
+      "purpose": "one-factor full fixture+gravity rotation to falsify body/local-as-world convention",
+      "fixture_reference_case_id": "cal_force_c2_rotated_v01"
+    },
+    {
+      "body_paths": {
+        "A_top": "/Cal/A_top",
+        "B_bottom": "/Cal/B_bottom"
+      },
+      "controlled_steps": 1049,
+      "creation_order": [
+        "A_top",
+        "B_bottom"
+      ],
+      "expected": "signed scalar signs may change or may not;only product-world-force invariance is required, no desired sign selected post-hoc",
+      "fixed_POST_window_inclusive": [
+        1000,
+        1048
+      ],
+      "fixture_rotation_about_world_Y_rad": 0,
+      "gravity_world_m_s2": [
+        0,
+        0,
+        -9.81
+      ],
+      "id": "cal_force_c3_actor_order_v02",
+      "if_backend_shape_order_unchanged": "ordering mechanism remainsINCONCLUSIVE;doesnotfalsify signed representation",
+      "mass_A_kg": 0.1,
+      "mass_B_kg": 0.2,
+      "path_lexical_order_changed": false,
+      "priority": 4,
+      "purpose": "same physical scene,masses,gravity,paths;reverse actor creation order only;record actual header/shape order rather than assuming itchanges",
+      "fixture_reference_case_id": "cal_force_c3_actor_order_v01"
+    },
+    {
+      "body_paths": {
+        "A_top": "/Cal/A_top",
+        "B_bottom": "/Cal/B_bottom"
+      },
+      "controlled_steps": 1049,
+      "creation_order": [
+        "B_bottom",
+        "A_top"
+      ],
+      "expected": "top support\u22481.962N instead ofC1\u2248.981N;actual mass getter is oracle, no undocumented unit correction",
+      "fixed_POST_window_inclusive": [
+        1000,
+        1048
+      ],
+      "fixture_rotation_about_world_Y_rad": 0,
+      "gravity_world_m_s2": [
+        0,
+        0,
+        -9.81
+      ],
+      "id": "cal_force_c4_mass_v02",
+      "mass_A_kg": 0.2,
+      "mass_B_kg": 0.2,
+      "priority": 5,
+      "purpose": "optional clean one-factor mass doubling, keeping C1 actor order/frame",
+      "fixture_reference_case_id": "cal_force_c4_mass_v01"
+    }
+  ],
+  "all_numeric_thresholds_windows_getterdt_and_geometry_equal_original": true,
+  "original_proposal": {
+    "path": "papers/paperB/research_increments/force_semantics_research_v01_2026-10-14/CALIBRATION_PLAN.json",
+    "sha256": "c9f776dab42d6870ca0023a79e30280c381a56097cf77c431d35b42e29ef5bed"
+  },
+  "closed_force_v1": {
+    "path": "papers/paperB/research_increments/signed_force_fixture_calibration_v01_2026-10-15/root_execution/ROOT_BATCH_V01_RETAINED_STOP.json",
+    "sha256": "8fbe80dda61b8db92756b81ff00b9d9a91aef5610d3b6bc7f8e84fa64707ca8f"
+  },
+  "shutdown_diagnostic": {
+    "path": "papers/paperB/research_increments/native_shutdown_diagnostic_v01_2026-10-15/actual_audit/dev_shutdown_after_fixture_001/REPORT.json",
+    "sha256": "af8c0c7db92b5aa510d267ca1a9fde6162d9992f7baf88b17d56cfb278afa0c6"
+  },
+  "maximum_new_v02_distinct_epochs": 5,
+  "total_v02_controlled_steps": 4316,
+  "calibration_family_attempt_upper_bound": 6,
+  "closed_v01_native_attempts": 1,
+  "v01_other4_remain_NOT_EXECUTED": true,
+  "separate_observation_only_shutdown_diagnostic_attempts": 1,
+  "closed_M0_M1_M2_family_cap_unchanged": 3,
+  "combined_new_this_turn_native_attempt_upper_bound": 7,
+  "combined_this_turn_controlled_step_upper_bound": 4556,
+  "per_child_wait_s": 300,
+  "termination_wait_s": 30,
+  "no_outcome_retry": true,
+  "prospective_change": "After complete END/RESULT durable write only: public SimulationContext.clear_instance removes own STOP callback, then unchanged default app.close; no task-time changes.",
+  "fix_status_before_counterfactual_native": "CANDIDATE_NOT_NATIVE_VERIFIED",
+  "source_process_or_RAW_contract_failure_stop": "Retain failure and stop this batch; no post-result reader repair; all unexecuted cases stay explicit.",
+  "physical_numeric_failure_policy": "Retain RED; remaining fixed orthogonal diagnostics may execute unchanged; no passing-case selection."
+}

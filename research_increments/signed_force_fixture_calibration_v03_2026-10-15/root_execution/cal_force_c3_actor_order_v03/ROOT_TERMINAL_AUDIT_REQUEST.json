@@ -1,0 +1,234 @@
+{
+  "authorization": "ROOT_TERMINAL_NOTIFICATION_ONE_ACTUAL_READ_PER_CASE",
+  "case_id": "cal_force_c3_actor_order_v03",
+  "expected_header": {
+    "case": {
+      "body_paths": {
+        "A_top": "/Cal/A_top",
+        "B_bottom": "/Cal/B_bottom"
+      },
+      "contact_processing_disabled_requested": false,
+      "controlled_steps": 1049,
+      "creation_order": [
+        "A_top",
+        "B_bottom"
+      ],
+      "expected": "signed scalar signs may change or may not;only product-world-force invariance is required, no desired sign selected post-hoc",
+      "fixed_POST_window_inclusive": [
+        1000,
+        1048
+      ],
+      "fixture_reference_case_id": "cal_force_c3_actor_order_v01",
+      "fixture_rotation_about_world_Y_rad": 0,
+      "gravity_world_m_s2": [
+        0,
+        0,
+        -9.81
+      ],
+      "id": "cal_force_c3_actor_order_v03",
+      "if_backend_shape_order_unchanged": "ordering mechanism remainsINCONCLUSIVE;doesnotfalsify signed representation",
+      "mass_A_kg": 0.1,
+      "mass_B_kg": 0.2,
+      "measurement_role": "POSITIVE_PROCESSING_ENABLED_FIXTURE",
+      "path_lexical_order_changed": false,
+      "priority": 4,
+      "purpose": "same physical scene,masses,gravity,paths;reverse actor creation order only;record actual header/shape order rather than assuming itchanges"
+    },
+    "cleanup_candidate": {
+      "candidate_status": "CPU_TESTED_NATIVE_UNVERIFIED_NOT_FIXED",
+      "causal_evidence_scope": "owned repeatedSTOP callback render loop observed in diagnostic, candidate notyetnativeverified",
+      "condition": "ONLY_AFTER_COMPLETE_END_AND_RESULT_FSYNC_OWNED_CONTEXT_MATCH",
+      "default_app_close_args": [],
+      "default_app_close_kwargs": {},
+      "faulthandler_repeat": true,
+      "faulthandler_timeout_s": 15,
+      "mandatory_markers": [
+        "BEFORE_RESULT_WRITE",
+        "AFTER_RESULT_FSYNC",
+        "BEFORE_CLEAR_INSTANCE",
+        "AFTER_CLEAR_INSTANCE",
+        "BEFORE_APP_CLOSE",
+        "AFTER_APP_CLOSE"
+      ],
+      "no_physics_getters_after_clear_instance": true,
+      "no_task_callbacks_cleared": true,
+      "post_clear_clock_role": "CACHED_PRE_CLEAR_EXPLICIT_NOT_FRESH_NATIVE_TIME_UNKNOWN",
+      "public_API": "isaaclab.sim.SimulationContext.clear_instance()",
+      "timeout_termination_unchanged": [
+        300,
+        30
+      ]
+    },
+    "closed_old_family_cap": 3,
+    "dt_s": 0.004166666666666667,
+    "family_budget": {
+      "calibration_family_cumulative_upper_bound": 9,
+      "closed_calibration_actual_epochs_before_v03": 3,
+      "closed_old_M0_M1_M2_family_cap": 3,
+      "closed_v01_actual_epochs": 1,
+      "closed_v02_actual_epochs": 2,
+      "max_controlled_steps_v03": 5365,
+      "negative_controls": 1,
+      "no_seventh_implicit_epoch": true,
+      "positive_fixtures": 5,
+      "separate_shutdown_diagnostic_actual_epochs": 1,
+      "v01_remaining_NOT_EXECUTED": 4,
+      "v02_remaining_NOT_EXECUTED": 3,
+      "v03_maximum_distinct_epochs": 6
+    },
+    "installed_api_pin_sha256": "81750a953f9827fb5ea87d915373934719cc9cccd9cb6facda3c6e5d0f9c124f",
+    "maximum_new_distinct_epochs": 6,
+    "measurement_instrumentation_candidate": {
+      "actual_readback_required_at": [
+        "HEADER",
+        "BEGIN",
+        "EACH_CONTROLLED_RAW_POST",
+        "END"
+      ],
+      "candidate_native_status": "UNVERIFIED_NOT_PHYSICS_FIXED",
+      "negative_control_not_admitted_as_positive_or_methodfailure": true,
+      "no_physics_threshold_geometry_filter_frame_changes": true,
+      "only_new_measurement_behavior_delta": "enablecontactprocessingforon5vsdisableforoffC1",
+      "readonly_getter_does_not_impute_bool": true,
+      "requested_disabled_boolean_bound_to_case": true,
+      "set_after_SimulationContext_construct_before_reset": true,
+      "worker_local_setting_path": "/physics/disableContactProcessing"
+    },
+    "no_control_actions": true,
+    "parent_execution_release_sha256": "24ec70ef9054fed8f03186adc4d69e3521605e61365d15b832f6a91cbf0faa7b",
+    "prospective_budget_confirmation": {
+      "path": "/mnt/nas/data/lyf/chem_mem/awesome_memory_chem/papers/paperB/research_increments/signed_force_fixture_calibration_v03_2026-10-15/ROOT_PROSPECTIVE_BATCH_SELECTION.json",
+      "sha256": "8a9a74a00493454db0cbf54d2c0e4132ed3f3ddc528767ecd6daf646c0d004b9",
+      "status": "ROOT_CONFIRMED_BEFORE_V03_OUTCOMES"
+    },
+    "protocol_sha256": "7dd3b0ffe0679c0ec6b05e6f95133633541d4d3820e3e56eaefea818786d94ef",
+    "reader_freeze_sha256": "52d9b5009be016b53905927bcfdcf4a4c5b8eb2b83f110384237734d670fbb1d",
+    "schema_contract_sha256": "a3426f45cb2938b56004949112afd6702e1f4d90acdf6a745f5cd10a2f160777",
+    "setup": {
+      "A_B_dynamic_no_kinematic_or_drives": true,
+      "A_B_force_or_torque_commands": "NONE",
+      "A_B_no_authored_joints": true,
+      "A_filters": [
+        "B"
+      ],
+      "A_start_position_freefall_m": [
+        0,
+        0,
+        2
+      ],
+      "B_filters": [
+        "A",
+        "ground"
+      ],
+      "CPU_physics_same_installed_backend_as_M2": true,
+      "SDK_reset_origin_steps": "separate from controlled callback counter",
+      "contact_reports": {
+        "sleep_threshold_A_B": 0,
+        "threshold": 0
+      },
+      "contact_view_capacity": 128,
+      "cube_A_side_m": 0.05,
+      "cube_B_side_m": 0.1,
+      "exact_static_ground_filter_path": "/Cal/ground/geometry/mesh",
+      "external_wrench_composers_required_observed_inactive": true,
+      "gravity_and_simulation_flags_required_observed_enabled": true,
+      "material_static_dynamic_friction": 0,
+      "no_root_pose_velocity_or_joint_state_writes_after_first_controlled_step": true,
+      "physics_dt_s": 0.004166666666666667,
+      "reciprocal_ground_sensor_not_assumed_supported": true,
+      "rigid_contact_filter_ground_reason": "Static cuboid actual collision shape, root is non-rigid Xform; no ground reciprocal sensor assumed",
+      "selected_raw_copy_before_next_getter": true,
+      "shape": "two cubes plus static ground;freefall omits B and ground",
+      "signed_scalar_policy": "no abs/clamp/drop/re-sign;typed copied signed finite data with physical qualification separate",
+      "stage_units_kg": 1,
+      "stage_units_m": 1,
+      "static_ground_role_root": "/Cal/ground",
+      "view_paths_and_roles_bind_actual_metadata": true
+    },
+    "source_release_sha256": "0de55ac995986d25a60f391b63d9606915dbeae37518e7cc4fb38ee75bc81771"
+  },
+  "files": {
+    "BEGIN.json": {
+      "bytes": 19159,
+      "path": "/data/liyufeng/paperb_signed_force_calibration_20261015_v3/cases/cal_force_c3_actor_order_v03/BEGIN.json",
+      "sha256": "1d4c1dc4e889ebd135be03755f504db7e57cedee0785a34666513832f4a71434"
+    },
+    "CONTACT_PROCESSING_INSTALL_BEFORE_RESET.json": {
+      "bytes": 1233,
+      "path": "/data/liyufeng/paperb_signed_force_calibration_20261015_v3/cases/cal_force_c3_actor_order_v03/CONTACT_PROCESSING_INSTALL_BEFORE_RESET.json",
+      "sha256": "0742e094162ce9304b6aec633ae859dd74b0e1d97ae5da3c792acad5e1ea8242"
+    },
+    "END.json": {
+      "bytes": 22857,
+      "path": "/data/liyufeng/paperb_signed_force_calibration_20261015_v3/cases/cal_force_c3_actor_order_v03/END.json",
+      "sha256": "866b78f1cb9bb5633b92508b8086454eddb0289d5a8f207678c4784e9c42b6bb"
+    },
+    "HEADER.json": {
+      "bytes": 21108,
+      "path": "/data/liyufeng/paperb_signed_force_calibration_20261015_v3/cases/cal_force_c3_actor_order_v03/HEADER.json",
+      "sha256": "56cc6fcdc597f0b1802c3cc57d5660eb9653ca3295edb8aaf67a5ec589e396ff"
+    },
+    "INSTALLED_API_PIN.json": {
+      "bytes": 6727,
+      "path": "/data/liyufeng/paperb_signed_force_calibration_20261015_v3/INSTALLED_API_PIN.json",
+      "sha256": "81750a953f9827fb5ea87d915373934719cc9cccd9cb6facda3c6e5d0f9c124f"
+    },
+    "LIFECYCLE.jsonl": {
+      "bytes": 9943,
+      "path": "/data/liyufeng/paperb_signed_force_calibration_20261015_v3/cases/cal_force_c3_actor_order_v03/LIFECYCLE.jsonl",
+      "sha256": "c5e2ebd8ea4b3ad369fa7e7a7229725a4ffc1104fe85d5a03afc648d398d1868"
+    },
+    "RAW_POST.jsonl": {
+      "bytes": 68441717,
+      "path": "/data/liyufeng/paperb_signed_force_calibration_20261015_v3/cases/cal_force_c3_actor_order_v03/RAW_POST.jsonl",
+      "sha256": "d3b60443df06661414ac2f95ff6e3e066e5df7193d277aaaa5645262694c757d"
+    },
+    "RESULT.json": {
+      "bytes": 1332,
+      "path": "/data/liyufeng/paperb_signed_force_calibration_20261015_v3/cases/cal_force_c3_actor_order_v03/RESULT.json",
+      "sha256": "4880863a13607570ad71601557b5374b56b1d35c518afa95f0b1bba20e9e1fe5"
+    },
+    "ROOT_ADMISSION.json": {
+      "bytes": 7580,
+      "path": "/mnt/nas/data/lyf/chem_mem/awesome_memory_chem/papers/paperB/research_increments/signed_force_fixture_calibration_v03_2026-10-15/root_execution/cal_force_c3_actor_order_v03/ROOT_ADMISSION_resource02.json",
+      "sha256": "a2df015d8d6e8bc64c3166e0af138cf391c3991232a6d6565b0b54f681dbce84"
+    },
+    "SOURCE_RELEASE.json": {
+      "bytes": 4128,
+      "path": "/data/liyufeng/paperb_signed_force_calibration_20261015_v3/EXECUTION_RELEASE.json",
+      "sha256": "0de55ac995986d25a60f391b63d9606915dbeae37518e7cc4fb38ee75bc81771"
+    },
+    "SOURCE_REVIEW.json": {
+      "bytes": 3297,
+      "path": "/mnt/nas/data/lyf/chem_mem/awesome_memory_chem/papers/paperB/research_increments/signed_force_fixture_calibration_v03_2026-10-15/independent_reader/SOURCE_REVIEW.json",
+      "sha256": "5e0fb9eb437f18d42404be4bb279dd2ef3e92e5613ca6a1cad04221e1c47a6f0"
+    },
+    "WORKER_TERMINAL.json": {
+      "bytes": 914,
+      "path": "/data/liyufeng/paperb_signed_force_calibration_20261015_v3/logs/cal_force_c3_actor_order_v03.json",
+      "sha256": "5962355be0b57540ff37f6d92eec097f351693e7b9e1a4e87767ed31591dee46"
+    }
+  },
+  "issued_at_utc": "2026-10-14T19:07:29.618497+00:00",
+  "reader_freeze_sha256": "52d9b5009be016b53905927bcfdcf4a4c5b8eb2b83f110384237734d670fbb1d",
+  "reference": {
+    "AUDITED_SERIES.json": {
+      "bytes": 69435,
+      "path": "/mnt/nas/data/lyf/chem_mem/awesome_memory_chem/papers/paperB/research_increments/signed_force_fixture_calibration_v03_2026-10-15/actual_audits/cal_force_c1_stack_v03/AUDITED_SERIES.json",
+      "sha256": "22633c188e76a3306ca2c550fcc500a8f9e79533402a15f52d6ce81bf5a95e06"
+    },
+    "HEADER.json": {
+      "bytes": 20566,
+      "path": "/data/liyufeng/paperb_signed_force_calibration_20261015_v3/cases/cal_force_c1_stack_v03/HEADER.json",
+      "sha256": "c33476920d54d1403a8245115dea3c5f81d1476bc49609d6ae5259975b48c616"
+    },
+    "REPORT.json": {
+      "bytes": 605316,
+      "path": "/mnt/nas/data/lyf/chem_mem/awesome_memory_chem/papers/paperB/research_increments/signed_force_fixture_calibration_v03_2026-10-15/actual_audits/cal_force_c1_stack_v03/REPORT.json",
+      "sha256": "feecbb8b61eba81c6f6b619e8fd8ae2706704e9a8db93d68b59cc4fd858fc475"
+    }
+  },
+  "root_admission_sha256": "a2df015d8d6e8bc64c3166e0af138cf391c3991232a6d6565b0b54f681dbce84",
+  "schema": "SignedForceFixtureROOTTerminalAuditRequest/3",
+  "source_review_sha256": "5e0fb9eb437f18d42404be4bb279dd2ef3e92e5613ca6a1cad04221e1c47a6f0"
+}

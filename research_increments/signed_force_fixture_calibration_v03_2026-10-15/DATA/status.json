@@ -1,0 +1,200 @@
+{
+  "schema": "PaperBPublicV03CalibrationStatus/1",
+  "source_closure_sha256": "7ef83aaad95068f4da00dbefcf7ee8da7a1e83c2c7b5c0a575a1c60fa8718108",
+  "source_closure": "research_increments/signed_force_fixture_calibration_v03_2026-10-15/root_execution/ROOT_BATCH_V03_ACTUAL_CLOSURE.json",
+  "status": "FIVE_POSITIVE_CONDITIONAL_FIXTURES_PASS_NEGATIVE_FAILURE_RETAINED",
+  "cases": [
+    {
+      "case_id": "cal_force_c1_stack_processing_off_v03",
+      "status": "FAIL_CONDITIONAL_FIXTURE_MEASUREMENT",
+      "measurement_role": "NEGATIVE_PROCESSING_DISABLED_CONTROL",
+      "window": [
+        1000,
+        1048
+      ],
+      "samples": 49,
+      "native_epochs": 1,
+      "controlled_steps": 1049,
+      "wall_s": 144.15475069219247,
+      "allocated_gpu_hours_upper_bound": 0.0400429863033868,
+      "actual_disabled_setting": true,
+      "all_controlled_setting_readbacks": 1049,
+      "creation_order_mechanism": "NOT_THIS_CASE",
+      "negative_control_outcome": "EXPECTED_ALL49_MG_FAILURE_RETAINED",
+      "failed_check_names": {
+        "A/mg_support": 49,
+        "A/velocity_difference_Newton_support": 49
+      },
+      "cleanup_scope": "EXIT0_AFTER_PRE_CLOSE_MARKERS",
+      "Python_close_return": "UNKNOWN_NO_AFTER_APP_CLOSE_MARKER",
+      "mean_pair_world_N": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max_support_error_N": 0.9810000565797097,
+      "max_matrix_signed_error_N": 0.0,
+      "max_dt_error_N": 0.0,
+      "max_dt_impulse_error_Ns": 0.0,
+      "min_selected_signed_scalar_N": null,
+      "max_selected_negative_count": 0
+    },
+    {
+      "case_id": "cal_force_c0_freefall_v03",
+      "status": "PASS_CONDITIONAL_FIXTURE_CALIBRATION",
+      "measurement_role": "POSITIVE_PROCESSING_ENABLED_FIXTURE",
+      "window": [
+        71,
+        119
+      ],
+      "samples": 49,
+      "native_epochs": 1,
+      "controlled_steps": 120,
+      "wall_s": 18.17444656183943,
+      "allocated_gpu_hours_upper_bound": 0.005048457378288731,
+      "actual_disabled_setting": false,
+      "all_controlled_setting_readbacks": 120,
+      "creation_order_mechanism": "NOT_THIS_CASE",
+      "negative_control_outcome": null,
+      "failed_check_names": {},
+      "cleanup_scope": "EXIT0_AFTER_PRE_CLOSE_MARKERS",
+      "Python_close_return": "UNKNOWN_NO_AFTER_APP_CLOSE_MARKER",
+      "max_acceleration_error_m_s2": 1.1444091796875e-05
+    },
+    {
+      "case_id": "cal_force_c1_stack_v03",
+      "status": "PASS_CONDITIONAL_FIXTURE_CALIBRATION",
+      "measurement_role": "POSITIVE_PROCESSING_ENABLED_FIXTURE",
+      "window": [
+        1000,
+        1048
+      ],
+      "samples": 49,
+      "native_epochs": 1,
+      "controlled_steps": 1049,
+      "wall_s": 15.379207220859826,
+      "allocated_gpu_hours_upper_bound": 0.004272002005794396,
+      "actual_disabled_setting": false,
+      "all_controlled_setting_readbacks": 1049,
+      "creation_order_mechanism": "NOT_THIS_CASE",
+      "negative_control_outcome": null,
+      "failed_check_names": {},
+      "cleanup_scope": "EXIT0_AFTER_PRE_CLOSE_MARKERS",
+      "Python_close_return": "UNKNOWN_NO_AFTER_APP_CLOSE_MARKER",
+      "mean_pair_world_N": [
+        1.2151454898990286e-08,
+        7.286558132379088e-09,
+        0.9810000329601521
+      ],
+      "max_support_error_N": 2.891389211813602e-07,
+      "max_matrix_signed_error_N": 3.5762786865234375e-07,
+      "max_dt_error_N": 0.0,
+      "max_dt_impulse_error_Ns": 1.0399768754498773e-09,
+      "min_selected_signed_scalar_N": -0.32071197032928467,
+      "max_selected_negative_count": 4
+    },
+    {
+      "case_id": "cal_force_c2_rotated_v03",
+      "status": "PASS_CONDITIONAL_FIXTURE_CALIBRATION",
+      "measurement_role": "POSITIVE_PROCESSING_ENABLED_FIXTURE",
+      "window": [
+        1000,
+        1048
+      ],
+      "samples": 49,
+      "native_epochs": 1,
+      "controlled_steps": 1049,
+      "wall_s": 18.985522880218923,
+      "allocated_gpu_hours_upper_bound": 0.005273756355616367,
+      "actual_disabled_setting": false,
+      "all_controlled_setting_readbacks": 1049,
+      "creation_order_mechanism": "NOT_THIS_CASE",
+      "negative_control_outcome": null,
+      "failed_check_names": {},
+      "cleanup_scope": "EXIT0_AFTER_PRE_CLOSE_MARKERS",
+      "Python_close_return": "UNKNOWN_NO_AFTER_APP_CLOSE_MARKER",
+      "mean_pair_world_N": [
+        0.9809999891689846,
+        -1.6853505040527887e-08,
+        1.1694431349826341e-07
+      ],
+      "max_support_error_N": 3.120476908671988e-07,
+      "max_matrix_signed_error_N": 2.38418579101563e-07,
+      "max_dt_error_N": 0.0,
+      "max_dt_impulse_error_Ns": 1.024454831730089e-09,
+      "min_selected_signed_scalar_N": -0.32071107625961304,
+      "max_selected_negative_count": 4
+    },
+    {
+      "case_id": "cal_force_c3_actor_order_v03",
+      "status": "PASS_CONDITIONAL_FIXTURE_CALIBRATION",
+      "measurement_role": "POSITIVE_PROCESSING_ENABLED_FIXTURE",
+      "window": [
+        1000,
+        1048
+      ],
+      "samples": 49,
+      "native_epochs": 1,
+      "controlled_steps": 1049,
+      "wall_s": 15.728005430661142,
+      "allocated_gpu_hours_upper_bound": 0.004368890397405872,
+      "actual_disabled_setting": false,
+      "all_controlled_setting_readbacks": 1049,
+      "creation_order_mechanism": "INCONCLUSIVE_COMPLETE_BACKEND_SHAPE_ORDER_UNOBSERVED",
+      "negative_control_outcome": null,
+      "failed_check_names": {},
+      "cleanup_scope": "EXIT0_AFTER_PRE_CLOSE_MARKERS",
+      "Python_close_return": "UNKNOWN_NO_AFTER_APP_CLOSE_MARKER",
+      "mean_pair_world_N": [
+        1.2151454898990286e-08,
+        7.286558132379088e-09,
+        0.9810000329601521
+      ],
+      "max_support_error_N": 2.891389211813602e-07,
+      "max_matrix_signed_error_N": 3.5762786865234375e-07,
+      "max_dt_error_N": 0.0,
+      "max_dt_impulse_error_Ns": 1.0399768754498773e-09,
+      "min_selected_signed_scalar_N": -0.32071197032928467,
+      "max_selected_negative_count": 4
+    },
+    {
+      "case_id": "cal_force_c4_mass_v03",
+      "status": "PASS_CONDITIONAL_FIXTURE_CALIBRATION",
+      "measurement_role": "POSITIVE_PROCESSING_ENABLED_FIXTURE",
+      "window": [
+        1000,
+        1048
+      ],
+      "samples": 49,
+      "native_epochs": 1,
+      "controlled_steps": 1049,
+      "wall_s": 15.91557434014976,
+      "allocated_gpu_hours_upper_bound": 0.004420992872263822,
+      "actual_disabled_setting": false,
+      "all_controlled_setting_readbacks": 1049,
+      "creation_order_mechanism": "NOT_THIS_CASE",
+      "negative_control_outcome": null,
+      "failed_check_names": {},
+      "cleanup_scope": "EXIT0_AFTER_PRE_CLOSE_MARKERS",
+      "Python_close_return": "UNKNOWN_NO_AFTER_APP_CLOSE_MARKER",
+      "mean_pair_world_N": [
+        5.838255118353387e-08,
+        1.203831309830005e-07,
+        1.9620000610546189
+      ],
+      "max_support_error_N": 8.341511321762223e-07,
+      "max_matrix_signed_error_N": 4.172325134277344e-07,
+      "max_dt_error_N": 0.0,
+      "max_dt_impulse_error_Ns": 1.3348956905134823e-09,
+      "min_selected_signed_scalar_N": -0.6611144542694092,
+      "max_selected_negative_count": 4
+    }
+  ],
+  "fixed_window_samples": 49,
+  "native_epochs_per_case": 1,
+  "c4_to_c1_mean_support_ratio": 1.9999999950400762,
+  "full_raw_zip_available": true,
+  "qualified_S_F_R": 0,
+  "main_M_B3": "UNTESTED",
+  "real_hardware_chemical_endpoints": 0
+}

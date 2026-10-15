@@ -1,0 +1,284 @@
+{
+  "schema": "PaperBManuscriptV05CurrentEvidence/1",
+  "status": "RESEARCH_DRAFT_SCIENTIFIC_MAJOR_OPEN_CURRENT_FROZEN",
+  "curated_only_no_new_RAW_read": true,
+  "inputs": {
+    "systematic_study_v01_2026-10-14/STUDY_PLAN.json": {
+      "bytes": 13388,
+      "sha256": "89a18b1c4cf5aa6c5f48cae19e1bdadc1fc4984bd0276013988b908bcfe40824",
+      "source_file_included": false
+    },
+    "mixed_actor_collector_bridge_v01_2026-10-15/SOURCE_RELEASE.json": {
+      "bytes": 7448,
+      "sha256": "b68eb24785e4cf312b5d31f5d2c64d02570b74dfc55424ae17ccee9230c129cd",
+      "source_file_included": false
+    },
+    "mixed_actor_collector_bridge_v01_2026-10-15/CPU_RESULT.json": {
+      "bytes": 4573,
+      "sha256": "d741a1f85cd6e661d62a37fe355ff231b1cef5e1c53d60a569af74cfe98d2082",
+      "source_file_included": false
+    },
+    "mixed_actor_collector_bridge_v01_2026-10-15/independent_review/SOURCE_REVIEW.json": {
+      "bytes": 5559,
+      "sha256": "287e339b84a331428eb49bb22b663ef0d902bf7d950a20c00c2de7266f8d1182",
+      "source_file_included": false
+    },
+    "native_force_lossless_canary_v01_2026-10-14/root_execution/ROOT_RETAINED_RAW_ACCEPTANCE.json": {
+      "bytes": 1500,
+      "sha256": "253a588933652ed34200a27cbf5eb4f5f86baf8289ab8dc1b63a64aed3b34409",
+      "source_file_included": false
+    },
+    "offline_behavior_reconstruction_v01_2026-10-14/FINAL_RECEIPT.json": {
+      "bytes": 1724,
+      "sha256": "5b6831831833a9cdb08b7ae5ab12113a0e742cab4f231f7be87f89880ec848a3",
+      "source_file_included": false
+    },
+    "signed_force_fixture_calibration_v01_2026-10-15/actual_audits/cal_force_c0_freefall_v01/REPORT.json": {
+      "bytes": 854,
+      "sha256": "ba911f86dcb68e31c2a8af29a9183d3d703c195b3230848ae3a88dea3649b05b",
+      "source_file_included": false
+    },
+    "systematic_study_v01_2026-10-14/FINAL_RECEIPT.json": {
+      "bytes": 1042,
+      "sha256": "343129ed88ef4fc6e1d89abc3a1e00bbe2f5de298cbf6dab6d566a1f2f5f2bbf",
+      "source_file_included": false
+    },
+    "systematic_study_v01_2026-10-14/ROOT_P0_DATA_AND_CHECKPOINT_READBACK.json": {
+      "bytes": 1242,
+      "sha256": "76574dfa229c1df178aa3459cf6d04cbbf7d2ee7f2e4a7d0997dc82648d7a18b",
+      "source_file_included": false
+    },
+    "systematic_study_v01_2026-10-14/P0_FIGURE_PIN.json": {
+      "bytes": 819,
+      "sha256": "19b3bfb4d69daf0903d9ca36d04edac411152c041848be7ec19af39b790b7370",
+      "source_file_included": false
+    },
+    "native_shutdown_diagnostic_v01_2026-10-15/actual_audit/dev_shutdown_after_fixture_001/REPORT.json": {
+      "bytes": 12453,
+      "sha256": "af8c0c7db92b5aa510d267ca1a9fde6162d9992f7baf88b17d56cfb278afa0c6",
+      "source_file_included": false
+    },
+    "native_shutdown_diagnostic_v01_2026-10-15/root_execution/ROOT_RETAINED_DIAGNOSIS.json": {
+      "bytes": 1699,
+      "sha256": "146916ad7bce821dff40cc428f764272ccfff833979be1501c88ed316111a002",
+      "source_file_included": false
+    },
+    "signed_force_fixture_calibration_v02_2026-10-15/root_execution/ROOT_BATCH_V02_RETAINED_CLOSURE.json": {
+      "bytes": 8085,
+      "sha256": "bc31531f03d94f244ed6415e83764bc99e745110d173f36fd52c55e30fee32a5",
+      "source_file_included": false
+    },
+    "signed_force_fixture_calibration_v02_2026-10-15/actual_audits/cal_force_c0_freefall_v02/REPORT.json": {
+      "bytes": 35885,
+      "sha256": "e122d55cc2cf427ffb96414d042c74c60c3b77fa2f8f99c18b9fb4de45284f92",
+      "source_file_included": false
+    },
+    "signed_force_fixture_calibration_v02_2026-10-15/actual_audits/cal_force_c1_stack_v02/REPORT.json": {
+      "bytes": 275878,
+      "sha256": "105193f4ab8cb2cc2d68bd12b4139b4d04b14d73b866743da82da601997dc3e9",
+      "source_file_included": false
+    },
+    "signed_force_fixture_calibration_v02_2026-10-15/independent_reader/PROSPECTIVE_READER_FREEZE.json": {
+      "bytes": 2800,
+      "sha256": "918e41cb1484643e112b59f1e14c7897e447748354b93e04a769311a62a2626c",
+      "source_file_included": false
+    },
+    "signed_force_fixture_calibration_v02_2026-10-15/publication/figures_observed_v02/FIGURE_RECEIPT.json": {
+      "bytes": 1353,
+      "sha256": "9a118790eb91bd496a6187f829b9b41abf2009e9368c995f6b02897db4facbfb",
+      "source_file_included": false
+    },
+    "signed_force_fixture_calibration_v03_2026-10-15/collector/SOURCE_FREEZE.json": {
+      "bytes": 6357,
+      "sha256": "29b848d388897fa8c08088e0bde940ec751585e83d308e137a26f99eacaace4f",
+      "source_file_included": false
+    },
+    "signed_force_fixture_calibration_v03_2026-10-15/collector/EXECUTION_RELEASE.json": {
+      "bytes": 4128,
+      "sha256": "0de55ac995986d25a60f391b63d9606915dbeae37518e7cc4fb38ee75bc81771",
+      "source_file_included": false
+    },
+    "signed_force_fixture_calibration_v03_2026-10-15/collector_checks/READONLY_VERIFICATION.json": {
+      "bytes": 2693,
+      "sha256": "c2366086bd9de5022816f90c5747b8a543d1b1d1a2c6c33acbdfcbf11d8193f1",
+      "source_file_included": false
+    },
+    "signed_force_fixture_calibration_v03_2026-10-15/collector/FINAL_RECEIPT.json": {
+      "bytes": 637,
+      "sha256": "fdee19bf1b3224b6cd43ecdbaa747d440fd7fed04a9966c726794d7acd441fb2",
+      "source_file_included": false
+    },
+    "signed_force_fixture_calibration_v03_2026-10-15/independent_reader/FINAL_RECEIPT.json": {
+      "bytes": 1340,
+      "sha256": "4d53c6671d21ecc361c9c37a0201f4e63d4adb0b12d8ea533e445ce658986bb9",
+      "source_file_included": false
+    },
+    "signed_force_fixture_calibration_v03_2026-10-15/independent_reader/PROSPECTIVE_READER_FREEZE.json": {
+      "bytes": 3585,
+      "sha256": "52d9b5009be016b53905927bcfdcf4a4c5b8eb2b83f110384237734d670fbb1d",
+      "source_file_included": false
+    },
+    "signed_force_fixture_calibration_v03_2026-10-15/independent_reader/SOURCE_REVIEW.json": {
+      "bytes": 3297,
+      "sha256": "5e0fb9eb437f18d42404be4bb279dd2ef3e92e5613ca6a1cad04221e1c47a6f0",
+      "source_file_included": false
+    },
+    "signed_force_fixture_calibration_v03_2026-10-15/root_execution/ROOT_BATCH_V03_ACTUAL_CLOSURE.json": {
+      "bytes": 14175,
+      "sha256": "7ef83aaad95068f4da00dbefcf7ee8da7a1e83c2c7b5c0a575a1c60fa8718108",
+      "source_file_included": false
+    },
+    "signed_force_fixture_calibration_v03_2026-10-15/publication/ACTUAL_CALIBRATION_SUMMARY.json": {
+      "bytes": 14175,
+      "sha256": "7ef83aaad95068f4da00dbefcf7ee8da7a1e83c2c7b5c0a575a1c60fa8718108",
+      "source_file_included": false
+    },
+    "signed_force_fixture_calibration_v03_2026-10-15/publication/figures/FIGURE_RECEIPT.json": {
+      "bytes": 2283,
+      "sha256": "f9ac59164dbe8770c33f5533f47a39dc0f1a94eaa8f06cf0af241b965b277cf3",
+      "source_file_included": false
+    },
+    "inference_prefix_clock_contract_v02_2026-10-15/root_review/INDEPENDENT_REVIEW.json": {
+      "bytes": 3101,
+      "sha256": "f239c693bd886907566bf3f4d8941316f914d8dc6ac115c4bc31d26405fd51bb",
+      "source_file_included": false
+    },
+    "inference_prefix_clock_contract_v02_2026-10-15/SOURCE_FREEZE.json": {
+      "bytes": 5365,
+      "sha256": "ff96625ab11e7e02f33ec672c0ed19f6da7d1c363b32ffb81cef99560d0b280a",
+      "source_file_included": false
+    },
+    "inference_prefix_clock_contract_v02_2026-10-15/FINAL_RECEIPT.json": {
+      "bytes": 910,
+      "sha256": "56e703d9389768cae955c60273fad8bd43146891755d4458147b05e38eb587af",
+      "source_file_included": false
+    },
+    "signed_force_fixture_calibration_v03_2026-10-15/publication/plot_calibration.py": {
+      "bytes": 4985,
+      "sha256": "59be76339bdfc6eab77e000b7482267fc215df3a5c4ca44992536788e832aacd",
+      "source_file_included": true,
+      "bundled_path": "parent_provenance/ROOT_V03_CALIBRATION_FIGURE_PARENT.py"
+    },
+    "signed_force_fixture_calibration_v03_2026-10-15/actual_audits/cal_force_c1_stack_processing_off_v03/REPORT.json": {
+      "bytes": 277254,
+      "sha256": "10208b2597d265b217709e05bfdff9bf20818aff961338b82c2b78c12cb705d0",
+      "source_file_included": true,
+      "bundled_path": "curated_calibration_v03/cal_force_c1_stack_processing_off_v03/REPORT.json"
+    },
+    "signed_force_fixture_calibration_v03_2026-10-15/actual_audits/cal_force_c1_stack_processing_off_v03/AUDITED_SERIES.json": {
+      "bytes": 59847,
+      "sha256": "ef4cb74f193dad03909d4eb5d2e752b41179bbf7918622efb88ec8b0e5b05da1",
+      "source_file_included": true,
+      "bundled_path": "curated_calibration_v03/cal_force_c1_stack_processing_off_v03/AUDITED_SERIES.json"
+    },
+    "signed_force_fixture_calibration_v03_2026-10-15/actual_audits/cal_force_c0_freefall_v03/REPORT.json": {
+      "bytes": 37015,
+      "sha256": "6224c7219a4558fb649414e61f69d5ae9a9421e4b969878380f348f78042ea8e",
+      "source_file_included": true,
+      "bundled_path": "curated_calibration_v03/cal_force_c0_freefall_v03/REPORT.json"
+    },
+    "signed_force_fixture_calibration_v03_2026-10-15/actual_audits/cal_force_c0_freefall_v03/AUDITED_SERIES.json": {
+      "bytes": 47302,
+      "sha256": "fbf35c736af24f19f35c4b2d74df5145a9df920e47200c14b7e2cafda6fedc9d",
+      "source_file_included": true,
+      "bundled_path": "curated_calibration_v03/cal_force_c0_freefall_v03/AUDITED_SERIES.json"
+    },
+    "signed_force_fixture_calibration_v03_2026-10-15/actual_audits/cal_force_c1_stack_v03/REPORT.json": {
+      "bytes": 605316,
+      "sha256": "feecbb8b61eba81c6f6b619e8fd8ae2706704e9a8db93d68b59cc4fd858fc475",
+      "source_file_included": true,
+      "bundled_path": "curated_calibration_v03/cal_force_c1_stack_v03/REPORT.json"
+    },
+    "signed_force_fixture_calibration_v03_2026-10-15/actual_audits/cal_force_c1_stack_v03/AUDITED_SERIES.json": {
+      "bytes": 69435,
+      "sha256": "22633c188e76a3306ca2c550fcc500a8f9e79533402a15f52d6ce81bf5a95e06",
+      "source_file_included": true,
+      "bundled_path": "curated_calibration_v03/cal_force_c1_stack_v03/AUDITED_SERIES.json"
+    },
+    "signed_force_fixture_calibration_v03_2026-10-15/actual_audits/cal_force_c2_rotated_v03/REPORT.json": {
+      "bytes": 605828,
+      "sha256": "2cad4c3bab5b33cbe94aad9aecee14d11b3d01144c61981c599e1d9414659159",
+      "source_file_included": true,
+      "bundled_path": "curated_calibration_v03/cal_force_c2_rotated_v03/REPORT.json"
+    },
+    "signed_force_fixture_calibration_v03_2026-10-15/actual_audits/cal_force_c2_rotated_v03/AUDITED_SERIES.json": {
+      "bytes": 69971,
+      "sha256": "17332e928e3d41a0c554c800d014ed9b8be8dfd8f6896255c8a97b3b73a36975",
+      "source_file_included": true,
+      "bundled_path": "curated_calibration_v03/cal_force_c2_rotated_v03/AUDITED_SERIES.json"
+    },
+    "signed_force_fixture_calibration_v03_2026-10-15/actual_audits/cal_force_c3_actor_order_v03/REPORT.json": {
+      "bytes": 609635,
+      "sha256": "518b79f71b69e5955f5399f4a178db4480bcaaf3ae930750045d4a6907244ef5",
+      "source_file_included": true,
+      "bundled_path": "curated_calibration_v03/cal_force_c3_actor_order_v03/REPORT.json"
+    },
+    "signed_force_fixture_calibration_v03_2026-10-15/actual_audits/cal_force_c3_actor_order_v03/AUDITED_SERIES.json": {
+      "bytes": 69735,
+      "sha256": "1f2b8121f45c13b0c6e3be58f3f6e7a11526becddf626874bccf0e268acd6700",
+      "source_file_included": true,
+      "bundled_path": "curated_calibration_v03/cal_force_c3_actor_order_v03/AUDITED_SERIES.json"
+    },
+    "signed_force_fixture_calibration_v03_2026-10-15/actual_audits/cal_force_c4_mass_v03/REPORT.json": {
+      "bytes": 609908,
+      "sha256": "1e176ee19f8a3284d39f5bc68fad49b3174779b8fe9d5d226d58c86e50d8b499",
+      "source_file_included": true,
+      "bundled_path": "curated_calibration_v03/cal_force_c4_mass_v03/REPORT.json"
+    },
+    "signed_force_fixture_calibration_v03_2026-10-15/actual_audits/cal_force_c4_mass_v03/AUDITED_SERIES.json": {
+      "bytes": 69429,
+      "sha256": "b2a50d73e20447175bd1c2173bc4acdf5cc8cdffa6c22b4b069941a1f3440642",
+      "source_file_included": true,
+      "bundled_path": "curated_calibration_v03/cal_force_c4_mass_v03/AUDITED_SERIES.json"
+    },
+    "signed_force_fixture_calibration_v03_2026-10-15/publication/MATCHED_INFORMATION_CLARIFICATION_cn.md": {
+      "bytes": 2240,
+      "sha256": "b0665b852faf9bafb9b12b17740fcf29b6f71807f0c8edb9e34e275213c4f0e6",
+      "source_file_included": true,
+      "bundled_path": "MATCHED_INFORMATION_CLARIFICATION_cn.md"
+    },
+    "signed_force_fixture_calibration_v02_2026-10-15/publication/ROOT_V05_VISUAL_REVIEW.json": {
+      "bytes": 2237,
+      "sha256": "4ee07a4f546a9d7032eecaf72043b207d71a9287dcf6f7390cef56ef78d27d54",
+      "source_file_included": true,
+      "bundled_path": "document_checks/ROOT_V05_VISUAL_REVIEW.json"
+    }
+  },
+  "parent_input_pin": {
+    "file": "parent_provenance/INPUT_EVIDENCE_PIN_V03.json",
+    "sha256": "ba31dc238709c85fcd72a8b2451abf7e3299342c50209d31a5d7700f1b185718",
+    "interpretation": "Historical parent evidence pins; old counts do not describe current v05"
+  },
+  "author_native_GPU_modeltraining": 0,
+  "main_VLA_runs": 0,
+  "engineering_checkpoint_runs": 1,
+  "G1_native_student_runs": 0,
+  "v01_v02_calibration_actual_epochs": 3,
+  "shutdown_diag_actual_epochs_separate": 1,
+  "M0_M1_M2_actual_epochs_separate": 3,
+  "S_F_R_admitted": 0,
+  "v03_outcomes": "FIVE_ON_CONDITIONAL_PASS_OFF_MEASUREMENT_FAILURE_RETAINED",
+  "template": {
+    "icml2026.sty": {
+      "sha256": "7cdcf90f6a59c5219e7f15c88f7ed09fcaf598dad91e6cdddc4dc3cb0e397a95",
+      "modified": false
+    },
+    "icml2026.bst": {
+      "sha256": "0ec3d5eb9b02efb7e0b44a32f3775882f42a743d0bdc618f34e6936309b98764",
+      "modified": false
+    }
+  },
+  "v03_actual_epochs": 6,
+  "v03_actual_controlled_steps": 5365,
+  "calibration_family_actual_epochs": 9,
+  "calibration_shutdown_phase_actual_epochs": 10,
+  "calibration_shutdown_phase_controlled_steps": 6774,
+  "root_v03_closure_sha256": "7ef83aaad95068f4da00dbefcf7ee8da7a1e83c2c7b5c0a575a1c60fa8718108",
+  "prefix_clock_v02": "SCOPED_CPU_HIGHWATER_PASS_NOT_NATIVE_INTEGRATED_NOT_WHOLE_API_TRANSACTIONAL",
+  "parent_manuscript_v04": {
+    "source_release_sha256": "fa52c0de33b2c6b8bff2e069e4412f2a6633eed01d4e084fb36a5bb34921fa1f",
+    "pdf_sha256": "d09d60a6f0570dc3f53d904cff7c42d87bd95f0639dee55300fcbb6a068c6e0a",
+    "retained_source_manifest": "parent_provenance/v04_sealed_release/MANUSCRIPT_SOURCE_RELEASE_V04.json"
+  },
+  "v05_change_scope": "Prospective operational matched-information clarification only; no new experimental outcome, number, plot, budget or old D01 modification"
+}

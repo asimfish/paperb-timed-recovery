@@ -1,0 +1,375 @@
+{
+  "all6_frozen_before_outcomes": true,
+  "candidate_acceptance": {
+    "all49_lowmotion_required_only_for_stack_rotation_order_mass": true,
+    "all49_required": true,
+    "all_clock_hash_source_pins_unchanged_required": true,
+    "capacity_saturation_or_nonfinite_or_missing_readback": "UNKNOWN_REJECT_NO_IMPUTATION",
+    "channel_scope_freefall": "net normal only and physical getters; pair/detail/friction intentionally not configured,not filled as0 or treated as unexpectedlymissing",
+    "channel_scope_stack_rotation_order_mass": "net normal/pair normal/normal detail/friction detail for A andB source-boundselectedfilters",
+    "dynamic_or_static_force_prediction": "m_A*(a_A-g), static mg if lowmotion satisfied",
+    "expected_zero_friction_force_norm_N": 0.0001,
+    "force_vector_error_N": "<=max(0.01,0.02*m_A*||g||) at each49point",
+    "freefall_accel_error_m_s2": 0.05,
+    "freefall_net_normal_error_N": 0.001,
+    "getter_dt_pair": {
+      "absolute_tolerance_N": 1e-05,
+      "absolute_tolerance_Ns": 1e-07,
+      "counts_start_points_normals_match_copy_before_next_query": true,
+      "no_physical_integration_between_paired_getters": true,
+      "query_dt_s": [
+        1,
+        0.004166666666666667,
+        0.008333333333333333
+      ],
+      "relations": [
+        "F(dt)*dt\u2248I(dt=1)",
+        "F(2dt)\u2248.5F(dt)"
+      ],
+      "relative_tolerance": 3e-05,
+      "same_native_epoch_time_callback": true
+    },
+    "mass_and_gravity_use_actual_readback": true,
+    "normal_scalar_sign_not_a_pass_gate": true,
+    "normal_unit_vector_error": 0.0001,
+    "rawcontact_topology": "A onlyB;B onlyA/ground;all actors/colliders inventoried in source and native callbacks",
+    "reciprocal_pair_error_N": "<=0.01 at each49point;normal/friction/combined compared separately",
+    "scope": "conditional fixture contact representation/SI calibration only,not full robotload truth",
+    "signed_detail_vs_normal_matrix_error_N": "<=max(1e-5,1e-5*||matrix||);normal representations neveradded"
+  },
+  "cases": [
+    {
+      "body_paths": {
+        "A_top": "/Cal/A_top",
+        "B_bottom": "/Cal/B_bottom"
+      },
+      "contact_processing_disabled_requested": true,
+      "controlled_steps": 1049,
+      "creation_order": [
+        "B_bottom",
+        "A_top"
+      ],
+      "expected": "F_B\u2192A\u2248-m_Ag;F_A\u2192B\u2248-F_B\u2192A;normal-only net_A\u2248pair_A_B with explicit friction0;B pair-ground separate",
+      "fixed_POST_window_inclusive": [
+        1000,
+        1048
+      ],
+      "fixture_reference_case_id": "cal_force_c1_stack_v01",
+      "fixture_rotation_about_world_Y_rad": 0,
+      "gravity_world_m_s2": [
+        0,
+        0,
+        -9.81
+      ],
+      "id": "cal_force_c1_stack_processing_off_v03",
+      "mass_A_kg": 0.1,
+      "mass_B_kg": 0.2,
+      "measurement_role": "NEGATIVE_PROCESSING_DISABLED_CONTROL",
+      "negative_control_expected_scope": "SamephysicalC1;disabledcontactprocessingmayreject mgcontactmeasurement;notpositivequalificationnotmethodfailure",
+      "positive_reference_case_id": "cal_force_c1_stack_v03",
+      "priority": 2,
+      "purpose": "known mg support and reciprocal signed product; paired getterdt without another epoch"
+    },
+    {
+      "comparison_scope": "cannot prove hidden contact-conditional constraints absent",
+      "contact_processing_disabled_requested": false,
+      "contacts_allowed": false,
+      "controlled_steps": 120,
+      "expected": "a_A\u2248g;net normal\u22480;no contact/unknown externalwrench",
+      "fixed_POST_window_inclusive": [
+        71,
+        119
+      ],
+      "fixture_reference_case_id": "cal_force_c0_freefall_v01",
+      "gravity_world_m_s2": [
+        0,
+        0,
+        -9.81
+      ],
+      "id": "cal_force_c0_freefall_v03",
+      "mass_A_kg": 0.1,
+      "measurement_role": "POSITIVE_PROCESSING_ENABLED_FIXTURE",
+      "priority": 1,
+      "purpose": "independent gravity/inertial falsifier before contact semantics"
+    },
+    {
+      "body_paths": {
+        "A_top": "/Cal/A_top",
+        "B_bottom": "/Cal/B_bottom"
+      },
+      "contact_processing_disabled_requested": false,
+      "controlled_steps": 1049,
+      "creation_order": [
+        "B_bottom",
+        "A_top"
+      ],
+      "expected": "F_B\u2192A\u2248-m_Ag;F_A\u2192B\u2248-F_B\u2192A;normal-only net_A\u2248pair_A_B with explicit friction0;B pair-ground separate",
+      "fixed_POST_window_inclusive": [
+        1000,
+        1048
+      ],
+      "fixture_reference_case_id": "cal_force_c1_stack_v01",
+      "fixture_rotation_about_world_Y_rad": 0,
+      "gravity_world_m_s2": [
+        0,
+        0,
+        -9.81
+      ],
+      "id": "cal_force_c1_stack_v03",
+      "mass_A_kg": 0.1,
+      "mass_B_kg": 0.2,
+      "measurement_role": "POSITIVE_PROCESSING_ENABLED_FIXTURE",
+      "priority": 2,
+      "purpose": "known mg support and reciprocal signed product; paired getterdt without another epoch"
+    },
+    {
+      "body_paths": {
+        "A_top": "/Cal/A_top",
+        "B_bottom": "/Cal/B_bottom"
+      },
+      "contact_processing_disabled_requested": false,
+      "controlled_steps": 1049,
+      "creation_order": [
+        "B_bottom",
+        "A_top"
+      ],
+      "expected": "F_B\u2192A\u2248[+m_A*9.81,0,0] using actual gravity getter;no double rotation",
+      "fixed_POST_window_inclusive": [
+        1000,
+        1048
+      ],
+      "fixture_reference_case_id": "cal_force_c2_rotated_v01",
+      "fixture_rotation_about_world_Y_rad": 1.5707963267948966,
+      "gravity_world_m_s2": [
+        -9.81,
+        0,
+        0
+      ],
+      "id": "cal_force_c2_rotated_v03",
+      "mass_A_kg": 0.1,
+      "mass_B_kg": 0.2,
+      "measurement_role": "POSITIVE_PROCESSING_ENABLED_FIXTURE",
+      "priority": 3,
+      "purpose": "one-factor full fixture+gravity rotation to falsify body/local-as-world convention"
+    },
+    {
+      "body_paths": {
+        "A_top": "/Cal/A_top",
+        "B_bottom": "/Cal/B_bottom"
+      },
+      "contact_processing_disabled_requested": false,
+      "controlled_steps": 1049,
+      "creation_order": [
+        "A_top",
+        "B_bottom"
+      ],
+      "expected": "signed scalar signs may change or may not;only product-world-force invariance is required, no desired sign selected post-hoc",
+      "fixed_POST_window_inclusive": [
+        1000,
+        1048
+      ],
+      "fixture_reference_case_id": "cal_force_c3_actor_order_v01",
+      "fixture_rotation_about_world_Y_rad": 0,
+      "gravity_world_m_s2": [
+        0,
+        0,
+        -9.81
+      ],
+      "id": "cal_force_c3_actor_order_v03",
+      "if_backend_shape_order_unchanged": "ordering mechanism remainsINCONCLUSIVE;doesnotfalsify signed representation",
+      "mass_A_kg": 0.1,
+      "mass_B_kg": 0.2,
+      "measurement_role": "POSITIVE_PROCESSING_ENABLED_FIXTURE",
+      "path_lexical_order_changed": false,
+      "priority": 4,
+      "purpose": "same physical scene,masses,gravity,paths;reverse actor creation order only;record actual header/shape order rather than assuming itchanges"
+    },
+    {
+      "body_paths": {
+        "A_top": "/Cal/A_top",
+        "B_bottom": "/Cal/B_bottom"
+      },
+      "contact_processing_disabled_requested": false,
+      "controlled_steps": 1049,
+      "creation_order": [
+        "B_bottom",
+        "A_top"
+      ],
+      "expected": "top support\u22481.962N instead ofC1\u2248.981N;actual mass getter is oracle, no undocumented unit correction",
+      "fixed_POST_window_inclusive": [
+        1000,
+        1048
+      ],
+      "fixture_reference_case_id": "cal_force_c4_mass_v01",
+      "fixture_rotation_about_world_Y_rad": 0,
+      "gravity_world_m_s2": [
+        0,
+        0,
+        -9.81
+      ],
+      "id": "cal_force_c4_mass_v03",
+      "mass_A_kg": 0.2,
+      "mass_B_kg": 0.2,
+      "measurement_role": "POSITIVE_PROCESSING_ENABLED_FIXTURE",
+      "priority": 5,
+      "purpose": "optional clean one-factor mass doubling, keeping C1 actor order/frame"
+    }
+  ],
+  "cleanup_candidate": {
+    "candidate_status": "CPU_TESTED_NATIVE_UNVERIFIED_NOT_FIXED",
+    "causal_evidence_scope": "owned repeatedSTOP callback render loop observed in diagnostic, candidate notyetnativeverified",
+    "condition": "ONLY_AFTER_COMPLETE_END_AND_RESULT_FSYNC_OWNED_CONTEXT_MATCH",
+    "default_app_close_args": [],
+    "default_app_close_kwargs": {},
+    "faulthandler_repeat": true,
+    "faulthandler_timeout_s": 15,
+    "mandatory_markers": [
+      "BEFORE_RESULT_WRITE",
+      "AFTER_RESULT_FSYNC",
+      "BEFORE_CLEAR_INSTANCE",
+      "AFTER_CLEAR_INSTANCE",
+      "BEFORE_APP_CLOSE",
+      "AFTER_APP_CLOSE"
+    ],
+    "no_physics_getters_after_clear_instance": true,
+    "no_task_callbacks_cleared": true,
+    "post_clear_clock_role": "CACHED_PRE_CLEAR_EXPLICIT_NOT_FRESH_NATIVE_TIME_UNKNOWN",
+    "public_API": "isaaclab.sim.SimulationContext.clear_instance()",
+    "timeout_termination_unchanged": [
+      300,
+      30
+    ]
+  },
+  "core_cases": [
+    "cal_force_c0_freefall_v03",
+    "cal_force_c1_stack_v03",
+    "cal_force_c2_rotated_v03",
+    "cal_force_c3_actor_order_v03"
+  ],
+  "dt_s": 0.004166666666666667,
+  "executed_batch_requested_cases": [
+    "cal_force_c1_stack_processing_off_v03",
+    "cal_force_c0_freefall_v03",
+    "cal_force_c1_stack_v03",
+    "cal_force_c2_rotated_v03",
+    "cal_force_c3_actor_order_v03",
+    "cal_force_c4_mass_v03"
+  ],
+  "family_budget": {
+    "calibration_family_cumulative_upper_bound": 9,
+    "closed_calibration_actual_epochs_before_v03": 3,
+    "closed_old_M0_M1_M2_family_cap": 3,
+    "closed_v01_actual_epochs": 1,
+    "closed_v02_actual_epochs": 2,
+    "max_controlled_steps_v03": 5365,
+    "negative_controls": 1,
+    "no_seventh_implicit_epoch": true,
+    "positive_fixtures": 5,
+    "separate_shutdown_diagnostic_actual_epochs": 1,
+    "v01_remaining_NOT_EXECUTED": 4,
+    "v02_remaining_NOT_EXECUTED": 3,
+    "v03_maximum_distinct_epochs": 6
+  },
+  "max_distinct_epochs": 6,
+  "max_worker_seconds": 300,
+  "measurement_instrumentation_candidate": {
+    "actual_readback_required_at": [
+      "HEADER",
+      "BEGIN",
+      "EACH_CONTROLLED_RAW_POST",
+      "END"
+    ],
+    "candidate_native_status": "UNVERIFIED_NOT_PHYSICS_FIXED",
+    "negative_control_not_admitted_as_positive_or_methodfailure": true,
+    "no_physics_threshold_geometry_filter_frame_changes": true,
+    "only_new_measurement_behavior_delta": "enablecontactprocessingforon5vsdisableforoffC1",
+    "readonly_getter_does_not_impute_bool": true,
+    "requested_disabled_boolean_bound_to_case": true,
+    "set_after_SimulationContext_construct_before_reset": true,
+    "worker_local_setting_path": "/physics/disableContactProcessing"
+  },
+  "model_calls": 0,
+  "no_overwrite_restart_or_repeat": true,
+  "optional_mass_decision": "ALL5_POSITIVE_PLUS1_NEGATIVE_CONTROL_PREDECLARED_NOT_SELECTIVE",
+  "parent_execution_release_sha256": "24ec70ef9054fed8f03186adc4d69e3521605e61365d15b832f6a91cbf0faa7b",
+  "physical_failure_does_not_stop_orthogonal_cases": true,
+  "process_failure_does_not_authorize_retry": true,
+  "prospective_budget_confirmation": {
+    "path": "/mnt/nas/data/lyf/chem_mem/awesome_memory_chem/papers/paperB/research_increments/signed_force_fixture_calibration_v03_2026-10-15/ROOT_PROSPECTIVE_BATCH_SELECTION.json",
+    "sha256": "8a9a74a00493454db0cbf54d2c0e4132ed3f3ddc528767ecd6daf646c0d004b9",
+    "status": "ROOT_CONFIRMED_BEFORE_V03_OUTCOMES"
+  },
+  "prospective_fixed_windows": {
+    "freefall_uses_expected_acceleration_g_not_quasistatic_zero": true,
+    "low_motion_gate_applies_only_to": [
+      "cal_force_c1_stack_v01",
+      "cal_force_c2_rotated_v01",
+      "cal_force_c3_actor_order_v01",
+      "cal_force_c4_mass_v01"
+    ],
+    "max_accel_m_s2": 0.05,
+    "max_angular_accel_rad_s2": 0.1,
+    "max_angular_speed_rad_s": 0.02,
+    "max_speed_m_s": 0.005,
+    "no_sleeping_body_substitution": true,
+    "no_threshold_tuning_after_results": true,
+    "not_best_window_search": true,
+    "window_interval_span_s": 0.2,
+    "window_samples": 49
+  },
+  "qualification_limits": [
+    "C++ complete active backend constraint inventory remainsUNKNOWN unless independentlyobserved",
+    "freefall/sourceclosure do not prove every hidden contact-conditioned constraint absent",
+    "pass may qualify conditional fixture signedproduct/dt/frame,not arbitrarynegative values",
+    "does not retroactivelyrecoveroldM1lostraw or changeM2legacyINVALID",
+    "no robot_unloaded/load_ready/torque/chemicalsuccess/VLAtraining labels produced",
+    "fixture calibration is not realhardware certification",
+    "C3 isolates creation order;lexical path-order intervention requires a later separatelyboundedprotocol,not sixthimplicit case"
+  ],
+  "schema": "SignedForceFixtureCalibrationProtocol/3",
+  "setup": {
+    "A_B_dynamic_no_kinematic_or_drives": true,
+    "A_B_force_or_torque_commands": "NONE",
+    "A_B_no_authored_joints": true,
+    "A_filters": [
+      "B"
+    ],
+    "A_start_position_freefall_m": [
+      0,
+      0,
+      2
+    ],
+    "B_filters": [
+      "A",
+      "ground"
+    ],
+    "CPU_physics_same_installed_backend_as_M2": true,
+    "SDK_reset_origin_steps": "separate from controlled callback counter",
+    "contact_reports": {
+      "sleep_threshold_A_B": 0,
+      "threshold": 0
+    },
+    "contact_view_capacity": 128,
+    "cube_A_side_m": 0.05,
+    "cube_B_side_m": 0.1,
+    "exact_static_ground_filter_path": "/Cal/ground/geometry/mesh",
+    "external_wrench_composers_required_observed_inactive": true,
+    "gravity_and_simulation_flags_required_observed_enabled": true,
+    "material_static_dynamic_friction": 0,
+    "no_root_pose_velocity_or_joint_state_writes_after_first_controlled_step": true,
+    "physics_dt_s": 0.004166666666666667,
+    "reciprocal_ground_sensor_not_assumed_supported": true,
+    "rigid_contact_filter_ground_reason": "Static cuboid actual collision shape, root is non-rigid Xform; no ground reciprocal sensor assumed",
+    "selected_raw_copy_before_next_getter": true,
+    "shape": "two cubes plus static ground;freefall omits B and ground",
+    "signed_scalar_policy": "no abs/clamp/drop/re-sign;typed copied signed finite data with physical qualification separate",
+    "stage_units_kg": 1,
+    "stage_units_m": 1,
+    "static_ground_role_root": "/Cal/ground",
+    "view_paths_and_roles_bind_actual_metadata": true
+  },
+  "shutdown_diagnostic_execution_release_sha256": "4052163679789f5b89711c77992247747e68f198fa4102599ce1522b035332c2",
+  "source_proposal_sha256": "c9f776dab42d6870ca0023a79e30280c381a56097cf77c431d35b42e29ef5bed",
+  "termination_wait_s": 30,
+  "training_gpu_hours": 0
+}

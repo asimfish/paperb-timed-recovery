@@ -1,0 +1,84 @@
+{
+  "G1_parent_verified_members": 27,
+  "S_F_R_admitted": 0,
+  "archive_crc_and_member_SHA": "PASS",
+  "archive_members": 29,
+  "archive_sha256": "8c0a2f185a9ee0e5d6626ab2e66a2263766c1e3485d0f6e1e66dd1af87016295",
+  "blocking_findings": [],
+  "full_author_24_test_suite_repeated": false,
+  "issued_at_utc": "2026-10-14T19:04:15.966965+00:00",
+  "native_model_GPU_calls": 0,
+  "old_v01_frozen_members_retained_unchanged": 10,
+  "probes": [
+    {
+      "accepted_clock_and_chain_unchanged": true,
+      "actual_rejection": "ACCEPTED_EVENT_EXECUTION_CLOCK_ROLLBACK",
+      "probe": "rollback_tick",
+      "status": "PASS"
+    },
+    {
+      "accepted_clock_and_chain_unchanged": true,
+      "actual_rejection": "ACCEPTED_EVENT_EXECUTION_CLOCK_ROLLBACK",
+      "probe": "rollback_time_ns",
+      "status": "PASS"
+    },
+    {
+      "accepted_clock_and_chain_unchanged": true,
+      "actual_rejection": "ACCEPTED_EVENT_EXECUTION_CLOCK_ROLLBACK",
+      "probe": "rollback_deadline_time_ns",
+      "status": "PASS"
+    },
+    {
+      "lower_clock_after_invalid_call_accepted": true,
+      "probe": "invalid_operation_does_not_advance_accepted_clock",
+      "rejection": "EXPLICIT_OPERATION_PURPOSE_REQUIRED",
+      "status": "PASS"
+    },
+    {
+      "lower_clock_and_original_event_seq_accepted": true,
+      "probe": "guard_event_serialization_failure_does_not_advance_accepted_clock",
+      "rejection": "INDEPENDENT_EVENT_SERIALIZATION_FAILURE",
+      "status": "PASS"
+    },
+    {
+      "accepted_event_count": 1024,
+      "probe": "full_public_event_log_capacity_refusal_does_not_advance_clock",
+      "rejection": "EVENT_CAP",
+      "status": "PASS"
+    },
+    {
+      "arrival_ticket_order": [
+        "t0",
+        "later",
+        "later",
+        "t0",
+        "later"
+      ],
+      "probe": "overlapping_ticket_reverse_start_returns_and_equal_arrival_clocks",
+      "status": "PASS",
+      "true_multithreading": "NOT_TESTED_NOT_SUPPORTED"
+    },
+    {
+      "accepted_clock_and_chain_unchanged": true,
+      "full_API_transaction_claim": false,
+      "probe": "documented_inherited_nonatomic_return_registry",
+      "retry_rejected": "INFERENCE_RETURN_ALREADY_RECORDED",
+      "return_registry_mutated_before_rejected_event": true,
+      "status": "OBSERVED_SCOPE_LIMIT_NOT_NEW_HIGHWATER_REGRESSION"
+    }
+  ],
+  "schema": "InferenceClockV02IndependentScopedReview/1",
+  "scope": "Accepted execution clock highwater, single-thread trusted CPU arrival log only",
+  "scope_limits": [
+    "NOT_INTEGRATED_G1_ASYNC_PROPOSAL_SCHEMA",
+    "NO_PHYSICAL_CLOCK_AUTHENTICATION",
+    "NO_THREAD_SAFETY_OR_TRUE_CONCURRENT_RUNTIME_PROOF",
+    "HIGHWATER_LOG_TRANSACTION_ONLY_INHERITED_TICKET_RETURN_ABSORBING_STATE_NOT_FULLY_TRANSACTIONAL",
+    "CPU_ONLY_NO_FRESH_NATIVE_MODEL_GPU_SFR_EVIDENCE"
+  ],
+  "source_freeze_sha256": "ff96625ab11e7e02f33ec672c0ed19f6da7d1c363b32ffb81cef99560d0b280a",
+  "source_members": 28,
+  "source_sha256": "bc8528f4409a456c02236a792c9b04c54f17ed9fe34109f5491ea1c183a03e1c",
+  "status": "PASS_INDEPENDENT_HIGHWATER_FIX_WITH_DOCUMENTED_TRANSACTION_LIMIT",
+  "verdict": "Pass"
+}

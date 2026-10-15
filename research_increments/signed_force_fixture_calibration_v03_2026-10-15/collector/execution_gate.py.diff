@@ -1,0 +1,49 @@
+--- sealed_force_v02/execution_gate.py
++++ force_v03/execution_gate.py
+@@ -17,7 +17,7 @@
+ def verify_sources(root=ROOT):
+     root = Path(root)
+     release = json.loads((root / 'EXECUTION_RELEASE.json').read_text())
+-    if release.get('schema') != 'SignedForceFixtureV02ExecutionRelease/1' or release.get('maximum_distinct_native_epochs') != 5:
++    if release.get('schema') != 'SignedForceFixtureV03ExecutionRelease/1' or release.get('maximum_distinct_native_epochs') != 6:
+         raise ValueError('WRONG_SOURCE_RELEASE')
+     for name, pin in release['files'].items():
+         path = Path(name)
+@@ -27,6 +27,10 @@
+     for pin in installed['files'].values():
+         if sha(pin['path']) != pin['sha256']:
+             raise ValueError('INSTALLED_SOURCE_PIN_CHANGED')
++    protocol = json.loads((root / 'protocol.json').read_text())
++    budget = protocol['prospective_budget_confirmation']
++    if budget.get('status') != 'ROOT_CONFIRMED_BEFORE_V03_OUTCOMES' or sha(budget['path']) != budget['sha256']:
++        raise ValueError('ROOT_PROSPECTIVE_V03_BUDGET_PIN_CHANGED')
+     return release
+ 
+ 
+@@ -43,19 +47,21 @@
+         'reader_freeze_sha256': reader_sha, 'setup': protocol['setup'],
+         'dt_s': protocol['dt_s'], 'no_control_actions': True,
+         'cleanup_candidate': protocol['cleanup_candidate'], 'family_budget': protocol['family_budget'],
++        'measurement_instrumentation_candidate': protocol['measurement_instrumentation_candidate'],
++        'prospective_budget_confirmation': protocol['prospective_budget_confirmation'],
+         'parent_execution_release_sha256': protocol['parent_execution_release_sha256'],
+-        'closed_old_family_cap': 3, 'maximum_new_distinct_epochs': 5}
++        'closed_old_family_cap': 3, 'maximum_new_distinct_epochs': 6}
+ 
+ 
+ def validate_review_root(review, admission, release_sha, review_sha, case, gpu_uuid, reader_sha, root=ROOT):
+-    if review.get('status') != 'PASS_PROSPECTIVE_SIGNED_FORCE_CALIBRATION_V02_SOURCE_REVIEW' or review.get('source_release_sha256') != release_sha or review.get('reader_freeze_sha256') != reader_sha:
++    if review.get('status') != 'PASS_PROSPECTIVE_SIGNED_FORCE_CALIBRATION_V03_SOURCE_REVIEW' or review.get('source_release_sha256') != release_sha or review.get('reader_freeze_sha256') != reader_sha:
+         raise ValueError('INDEPENDENT_SOURCE_REVIEW_AND_READER_REQUIRED')
+-    required = {'status': 'ADMITTED_ONE_SIGNED_FORCE_FIXTURE_CALIBRATION_V02_CASE',
++    required = {'status': 'ADMITTED_ONE_SIGNED_FORCE_FIXTURE_CALIBRATION_V03_CASE',
+         'source_release_sha256': release_sha, 'source_review_sha256': review_sha,
+         'reader_freeze_sha256': reader_sha, 'case_id': case, 'GPU_uuid': gpu_uuid,
+-        'maximum_new_distinct_native_epochs': 5, 'closed_old_family_cap': 3,
++        'maximum_new_distinct_native_epochs': 6, 'closed_old_family_cap': 3,
+         'per_child_wait_s': 300, 'termination_wait_s': 30,
+-        'closed_force_v01_actual_epochs': 1, 'calibration_family_cumulative_upper_bound': 6,
++        'closed_force_v01_actual_epochs': 1, 'closed_force_v02_actual_epochs': 2, 'closed_calibration_actual_epochs_before_v03': 3, 'calibration_family_cumulative_upper_bound': 9,
+         'separate_shutdown_diagnostic_actual_epochs': 1}
+     if any(admission.get(k) != v for k, v in required.items()) or admission.get('expected_header') != expected_header(root, case, reader_sha):
+         raise ValueError('ROOT_CASE_REVIEW_READER_GPU_HEADER_ADMISSION_REQUIRED')

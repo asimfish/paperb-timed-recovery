@@ -1,0 +1,183 @@
+{
+  "schema": "PaperBRootV02RetainedBatchClosure/1",
+  "issued_at_utc": "2026-10-14T18:27:40.085877+00:00",
+  "execution_state": "CLOSED_NO_MORE_V02_NATIVE",
+  "selected_cases": 5,
+  "actual_native_epochs": 2,
+  "actual_controlled_steps": 1169,
+  "prior_v01_actual_epochs": 1,
+  "calibration_family_actual_epochs": 3,
+  "prior_v02_cap5_preserved": true,
+  "remaining_v02_cases_NOT_EXECUTED": 3,
+  "resource_refusals": [
+    {
+      "path": "/data/liyufeng/paperb_signed_force_calibration_20261015_v2/resource_gate_attempts/cal_force_c0_freefall_v02/20261014T181533862559Z-2420440.json",
+      "bytes": 445,
+      "sha256": "2fc3a6afc41a5049bcd02563405b14bf4155f2fd95fc46d48755c28a76de5a84"
+    },
+    {
+      "path": "/data/liyufeng/paperb_signed_force_calibration_20261015_v2/resource_gate_attempts/cal_force_c2_rotated_v02/20261014T182338948434Z-2475735.json",
+      "bytes": 444,
+      "sha256": "8d124fd08642d7096ae61d9e59611bf90c52321a038816a139170351727d7670"
+    }
+  ],
+  "cases": [
+    {
+      "case_id": "cal_force_c0_freefall_v02",
+      "worker_terminal": {
+        "path": "/data/liyufeng/paperb_signed_force_calibration_20261015_v2/logs/cal_force_c0_freefall_v02.json",
+        "bytes": 907,
+        "sha256": "af528b7e297ad18bd8f78a2805392cc4073af9a0ff7b4bd343874580eee401ed"
+      },
+      "worker_exit": 0,
+      "wall_s": 125.46455601975322,
+      "allocated_gpu_hours_upper_bound": 0.03485126556104256,
+      "audit": {
+        "path": "/mnt/nas/data/lyf/chem_mem/awesome_memory_chem/papers/paperB/research_increments/signed_force_fixture_calibration_v02_2026-10-15/actual_audits/cal_force_c0_freefall_v02/REPORT.json",
+        "bytes": 35885,
+        "sha256": "e122d55cc2cf427ffb96414d042c74c60c3b77fa2f8f99c18b9fb4de45284f92"
+      },
+      "series": {
+        "path": "/mnt/nas/data/lyf/chem_mem/awesome_memory_chem/papers/paperB/research_increments/signed_force_fixture_calibration_v02_2026-10-15/actual_audits/cal_force_c0_freefall_v02/AUDITED_SERIES.json",
+        "bytes": 47241,
+        "sha256": "1246829bef1eb06377e49589a48db344d1a472a350fbf655da15d739ba621c6c"
+      },
+      "status": "PASS_CONDITIONAL_FIXTURE_CALIBRATION",
+      "all49": 49,
+      "failed_check_names": {},
+      "source_structure_clock": "PASS",
+      "cleanup": {
+        "after_clear_native_time": "UNKNOWN_NOT_READ",
+        "after_framework_native_time": "UNKNOWN_NOT_READ",
+        "compiled_backend_root_cause": "UNKNOWN",
+        "default_close_exit_scope": "EXIT0_AFTER_PRE_CLOSE_MARKERS",
+        "default_close_python_return": "UNKNOWN_NO_AFTER_APP_CLOSE_MARKER",
+        "events": [
+          "BEFORE_APP_START",
+          "AFTER_APP_START",
+          "BEFORE_RESULT_WRITE",
+          "AFTER_RESULT_FSYNC",
+          "BEFORE_CLEAR_INSTANCE",
+          "AFTER_CLEAR_INSTANCE",
+          "BEFORE_APP_CLOSE",
+          "BEFORE_READONLY_REP_STATUS",
+          "AFTER_READONLY_REP_STATUS"
+        ],
+        "fresh_preclear_clock_reads": 6,
+        "last_marker_sha256": "9facd13355d365520dc56861c154c6d6445e7cedd81160bac9f1fa6169550fb5",
+        "marker_count": 9,
+        "native_fix_claim_from_source_only": false,
+        "status": "PASS_MEASUREMENT_THEN_OWNED_PUBLIC_CONTEXT_RELEASE",
+        "stop_subscription_release": "OBSERVED_PRESENT_THEN_NONE"
+      },
+      "maximum_acceleration_error_m_s2": 1.1444091796875e-05
+    },
+    {
+      "case_id": "cal_force_c1_stack_v02",
+      "worker_terminal": {
+        "path": "/data/liyufeng/paperb_signed_force_calibration_20261015_v2/logs/cal_force_c1_stack_v02.json",
+        "bytes": 900,
+        "sha256": "67f1124310de77d00a5fa79921e0b95573c479af85fe86b490902b454c22044c"
+      },
+      "worker_exit": 0,
+      "wall_s": 16.20858067832887,
+      "allocated_gpu_hours_upper_bound": 0.00450238352175802,
+      "audit": {
+        "path": "/mnt/nas/data/lyf/chem_mem/awesome_memory_chem/papers/paperB/research_increments/signed_force_fixture_calibration_v02_2026-10-15/actual_audits/cal_force_c1_stack_v02/REPORT.json",
+        "bytes": 275878,
+        "sha256": "105193f4ab8cb2cc2d68bd12b4139b4d04b14d73b866743da82da601997dc3e9"
+      },
+      "series": {
+        "path": "/mnt/nas/data/lyf/chem_mem/awesome_memory_chem/papers/paperB/research_increments/signed_force_fixture_calibration_v02_2026-10-15/actual_audits/cal_force_c1_stack_v02/AUDITED_SERIES.json",
+        "bytes": 59035,
+        "sha256": "d34b4e6a5ba18bd6f9bbe3dc46d9507fc48aad7c3c1bf69589f73d41dc8ac2f7"
+      },
+      "status": "FAIL_CONDITIONAL_FIXTURE_MEASUREMENT",
+      "all49": 49,
+      "failed_check_names": {
+        "A/mg_support": 49,
+        "A/velocity_difference_Newton_support": 49
+      },
+      "source_structure_clock": "PASS",
+      "cleanup": {
+        "after_clear_native_time": "UNKNOWN_NOT_READ",
+        "after_framework_native_time": "UNKNOWN_NOT_READ",
+        "compiled_backend_root_cause": "UNKNOWN",
+        "default_close_exit_scope": "EXIT0_AFTER_PRE_CLOSE_MARKERS",
+        "default_close_python_return": "UNKNOWN_NO_AFTER_APP_CLOSE_MARKER",
+        "events": [
+          "BEFORE_APP_START",
+          "AFTER_APP_START",
+          "BEFORE_RESULT_WRITE",
+          "AFTER_RESULT_FSYNC",
+          "BEFORE_CLEAR_INSTANCE",
+          "AFTER_CLEAR_INSTANCE",
+          "BEFORE_APP_CLOSE",
+          "BEFORE_READONLY_REP_STATUS",
+          "AFTER_READONLY_REP_STATUS"
+        ],
+        "fresh_preclear_clock_reads": 6,
+        "last_marker_sha256": "04bcc9ec9a268d28e859e0ef5e0aa5017b16c9361bfdfcc69153e69c97ae2997",
+        "marker_count": 9,
+        "native_fix_claim_from_source_only": false,
+        "status": "PASS_MEASUREMENT_THEN_OWNED_PUBLIC_CONTEXT_RELEASE",
+        "stop_subscription_release": "OBSERVED_PRESENT_THEN_NONE"
+      },
+      "maximum_support_residual_N": 0.9810000565797097,
+      "actual_pair_forces_first": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "signed_scalar_min_status": "UNKNOWN_NO_SELECTED_CONTACTS"
+    },
+    {
+      "case_id": "cal_force_c2_rotated_v02",
+      "status": "NOT_EXECUTED_RESOURCE_REFUSED",
+      "resource_refusals": [
+        {
+          "path": "/data/liyufeng/paperb_signed_force_calibration_20261015_v2/resource_gate_attempts/cal_force_c2_rotated_v02/20261014T182338948434Z-2475735.json",
+          "bytes": 444,
+          "sha256": "8d124fd08642d7096ae61d9e59611bf90c52321a038816a139170351727d7670"
+        }
+      ],
+      "native_epoch": false
+    },
+    {
+      "case_id": "cal_force_c3_actor_order_v02",
+      "status": "NOT_EXECUTED_AFTER_RESOURCE_STOP",
+      "resource_refusals": [],
+      "native_epoch": false
+    },
+    {
+      "case_id": "cal_force_c4_mass_v02",
+      "status": "NOT_EXECUTED_AFTER_RESOURCE_STOP",
+      "resource_refusals": [],
+      "native_epoch": false
+    }
+  ],
+  "S_F_R_admitted": 0,
+  "main_learning_contrast": "UNTESTED",
+  "hardware_chemical_success": "UNKNOWN",
+  "compiled_backend_rootcause": "UNKNOWN",
+  "physics_failure_retained": true,
+  "source_readback_all_original_numbers_unchanged": true,
+  "next_causal_candidate": {
+    "status": "SOURCE_BASED_CONTACT_PROCESSING_ENABLEMENT_CANDIDATE_NATIVE_UNVERIFIED",
+    "observed_v02_setting_readback": "UNKNOWN_NOT_CAPTURED",
+    "pinned_simulation_context": {
+      "path": "/home/liyufeng/safeduo_isaaclab/source/isaaclab/isaaclab/sim/simulation_context.py",
+      "bytes": 54473,
+      "sha256": "d95f2eaa138b4fff845ac72439caa2eca5deab4f0d5609e06f163d20eef4df93"
+    },
+    "context_default_setting_line": 705,
+    "pinned_contact_sensor": {
+      "path": "/home/liyufeng/safeduo_isaaclab/source/isaaclab/isaaclab/sensors/contact_sensor/contact_sensor.py",
+      "bytes": 26330,
+      "sha256": "5bf3b77d2159850526e3833bf50253dbce06cb78b850eae13fb4088dc233760d"
+    },
+    "sensor_enablement_line": 79,
+    "observation": "A staticmg expected .981N; measured contactnet/pair0 and selectedcounts0 at all49 points; signed/dt/reciprocal zero-consistency doesnotqualify force units",
+    "next_experiment": "Prospective successor off-C1 vs on-C1 and five orthogonal on fixtures, fixed thresholds/windows and process-local settings readback; no repair to this reader."
+  }
+}

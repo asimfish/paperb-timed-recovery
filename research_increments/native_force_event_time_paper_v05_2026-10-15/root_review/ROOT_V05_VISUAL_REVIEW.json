@@ -1,0 +1,50 @@
+{
+  "schema": "RootIndependentPaperV05VisualReview/1",
+  "status": "PASS_VISUAL_SCOPE",
+  "pdf_sha256": "049d836618fb242e29bdcbf70dc3b08847731798873896e8841e14a2230f9fe8",
+  "all_pages_seen": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "rendered_pages": {
+    "page-01.png": "8075833c2fba8b10095fe084b05cc8cb284aedae45809ea5e71566686a43f7a2",
+    "page-02.png": "bf4d03f397df0ef2d26a753cc968935acf84839a1a9d59d2d651ded4f3bbe730",
+    "page-03.png": "37772aad955dcf5bcf3bf5afbd0a33650698f32c24f26cfa5435fa9a3b617fbc",
+    "page-04.png": "8bbb4da35a999c9f32de737e8a131f4183011646521a43bc7b8e87c0864c4d90",
+    "page-05.png": "d5386cbe1df3f8a9326c6e071935484e6092282fa94c59fd370393cf6997f55a",
+    "page-06.png": "acf0d280def1614caec67eb76cc51503a80fa737b004a69b9eaceda40b30e494",
+    "page-07.png": "ff73bdc305623e7fc64c3122e6b9f2569c1306b55dc966b25eb2ab0941707c1b",
+    "page-08.png": "3a719d2b93f0e1a1d515b645b2d302d1432cd4e724a15faad1df3cd911c062e5",
+    "page-09.png": "e5ee8281328388dae2dda548a30d15f20b3d17612119e34445f3772143b2be46",
+    "page-10.png": "08b9b33f90f870f7c09230c508a640fb1fa851a5791d17641b78e6e8debe8b5e",
+    "page-11.png": "3dd6dd5bc1d18d104f3de1bc8d7b12c034c840e4c646680df8aa657a944419a6",
+    "page-12.png": "fc5b6e791ce7598c5985d8e87a9b01781842a3a8b6dff3e075236a8ebbc9c064",
+    "page-13.png": "0e43d53ee17beb8639f9156a73da8e3c6c78131157abaa6724e5cb4507d73d86",
+    "page-14.png": "7d62bb6e7e0ee7bc2c0294060e6c01504b25396ec489326c2f765557ec515eab",
+    "page-15.png": "a07c0563c258073064944f6baf9b2cda2e1deb74588a37399c036e0c5ff54731"
+  },
+  "findings": [],
+  "checks": [
+    "All 15 pages inspected by root",
+    "Main body remains 8 pages with official two-column ICML typography",
+    "Five figures and three tables readable without visible clipping or overlap",
+    "v02 measurement failure and v03 processing-off failure remain visible",
+    "Main learning unexecuted and hardware/chemistry unknown clearly distinguished",
+    "Same-state byte matching and independent closed-loop matched protocols distinguished"
+  ],
+  "scope": "Document visual review; not acceptance of unexecuted scientific claims",
+  "native_model_calls": 0
+}

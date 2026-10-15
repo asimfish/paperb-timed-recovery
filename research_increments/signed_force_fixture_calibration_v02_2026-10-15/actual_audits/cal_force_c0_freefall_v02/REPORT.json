@@ -1,0 +1,1442 @@
+{
+  "S_F_R_admitted": 0,
+  "all49_required": true,
+  "case_id": "cal_force_c0_freefall_v02",
+  "checks": [
+    {
+      "name": "A/net_dt",
+      "status": "PASS",
+      "tick": 71,
+      "value": {
+        "force_halving_error_N": 0.0,
+        "impulse_error_Ns": 0.0
+      }
+    },
+    {
+      "name": "freefall/getter_acceleration",
+      "status": "PASS",
+      "tick": 71,
+      "value": {
+        "acceleration_error_m_s2": 1.1444091796875e-05,
+        "net_normal_error_N": 0.0
+      }
+    },
+    {
+      "name": "freefall/velocity_difference_acceleration",
+      "status": "PASS",
+      "tick": 71,
+      "value": {
+        "acceleration_error_m_s2": 1.049041748046875e-05,
+        "net_normal_error_N": 0.0
+      }
+    },
+    {
+      "name": "A/net_dt",
+      "status": "PASS",
+      "tick": 72,
+      "value": {
+        "force_halving_error_N": 0.0,
+        "impulse_error_Ns": 0.0
+      }
+    },
+    {
+      "name": "freefall/getter_acceleration",
+      "status": "PASS",
+      "tick": 72,
+      "value": {
+        "acceleration_error_m_s2": 1.1444091796875e-05,
+        "net_normal_error_N": 0.0
+      }
+    },
+    {
+      "name": "freefall/velocity_difference_acceleration",
+      "status": "PASS",
+      "tick": 72,
+      "value": {
+        "acceleration_error_m_s2": 1.049041748046875e-05,
+        "net_normal_error_N": 0.0
+      }
+    },
+    {
+      "name": "A/net_dt",
+      "status": "PASS",
+      "tick": 73,
+      "value": {
+        "force_halving_error_N": 0.0,
+        "impulse_error_Ns": 0.0
+      }
+    },
+    {
+      "name": "freefall/getter_acceleration",
+      "status": "PASS",
+      "tick": 73,
+      "value": {
+        "acceleration_error_m_s2": 1.1444091796875e-05,
+        "net_normal_error_N": 0.0
+      }
+    },
+    {
+      "name": "freefall/velocity_difference_acceleration",
+      "status": "PASS",
+      "tick": 73,
+      "value": {
+        "acceleration_error_m_s2": 1.049041748046875e-05,
+        "net_normal_error_N": 0.0
+      }
+    },
+    {
+      "name": "A/net_dt",
+      "status": "PASS",
+      "tick": 74,
+      "value": {
+        "force_halving_error_N": 0.0,
+        "impulse_error_Ns": 0.0
+      }
+    },
+    {
+      "name": "freefall/getter_acceleration",
+      "status": "PASS",
+      "tick": 74,
+      "value": {
+        "acceleration_error_m_s2": 1.1444091796875e-05,
+        "net_normal_error_N": 0.0
+      }
+    },
+    {
+      "name": "freefall/velocity_difference_acceleration",
+      "status": "PASS",
+      "tick": 74,
+      "value": {
+        "acceleration_error_m_s2": 1.049041748046875e-05,
+        "net_normal_error_N": 0.0
+      }
+    },
+    {
+      "name": "A/net_dt",
+      "status": "PASS",
+      "tick": 75,
+      "value": {
+        "force_halving_error_N": 0.0,
+        "impulse_error_Ns": 0.0
+      }
+    },
+    {
+      "name": "freefall/getter_acceleration",
+      "status": "PASS",
+      "tick": 75,
+      "value": {
+        "acceleration_error_m_s2": 1.1444091796875e-05,
+        "net_normal_error_N": 0.0
+      }
+    },
+    {
+      "name": "freefall/velocity_difference_acceleration",
+      "status": "PASS",
+      "tick": 75,
+      "value": {
+        "acceleration_error_m_s2": 1.049041748046875e-05,
+        "net_normal_error_N": 0.0
+      }
+    },
+    {
+      "name": "A/net_dt",
+      "status": "PASS",
+      "tick": 76,
+      "value": {
+        "force_halving_error_N": 0.0,
+        "impulse_error_Ns": 0.0
+      }
+    },
+    {
+      "name": "freefall/getter_acceleration",
+      "status": "PASS",
+      "tick": 76,
+      "value": {
+        "acceleration_error_m_s2": 1.1444091796875e-05,
+        "net_normal_error_N": 0.0
+      }
+    },
+    {
+      "name": "freefall/velocity_difference_acceleration",
+      "status": "PASS",
+      "tick": 76,
+      "value": {
+        "acceleration_error_m_s2": 1.049041748046875e-05,
+        "net_normal_error_N": 0.0
+      }
+    },
+    {
+      "name": "A/net_dt",
+      "status": "PASS",
+      "tick": 77,
+      "value": {
+        "force_halving_error_N": 0.0,
+        "impulse_error_Ns": 0.0
+      }
+    },
+    {
+      "name": "freefall/getter_acceleration",
+      "status": "PASS",
+      "tick": 77,
+      "value": {
+        "acceleration_error_m_s2": 1.1444091796875e-05,
+        "net_normal_error_N": 0.0
+      }
+    },
+    {
+      "name": "freefall/velocity_difference_acceleration",
+      "status": "PASS",
+      "tick": 77,
+      "value": {
+        "acceleration_error_m_s2": 1.049041748046875e-05,
+        "net_normal_error_N": 0.0
+      }
+    },
+    {
+      "name": "A/net_dt",
+      "status": "PASS",
+      "tick": 78,
+      "value": {
+        "force_halving_error_N": 0.0,
+        "impulse_error_Ns": 0.0
+      }
+    },
+    {
+      "name": "freefall/getter_acceleration",
+      "status": "PASS",
+      "tick": 78,
+      "value": {
+        "acceleration_error_m_s2": 1.1444091796875e-05,
+        "net_normal_error_N": 0.0
+      }
+    },
+    {
+      "name": "freefall/velocity_difference_acceleration",
+      "status": "PASS",
+      "tick": 78,
+      "value": {
+        "acceleration_error_m_s2": 1.049041748046875e-05,
+        "net_normal_error_N": 0.0
+      }
+    },
+    {
+      "name": "A/net_dt",
+      "status": "PASS",
+      "tick": 79,
+      "value": {
+        "force_halving_error_N": 0.0,
+        "impulse_error_Ns": 0.0
+      }
+    },
+    {
+      "name": "freefall/getter_acceleration",
+      "status": "PASS",
+      "tick": 79,
+      "value": {
+        "acceleration_error_m_s2": 1.1444091796875e-05,
+        "net_normal_error_N": 0.0
+      }
+    },
+    {
+      "name": "freefall/velocity_difference_acceleration",
+      "status": "PASS",
+      "tick": 79,
+      "value": {
+        "acceleration_error_m_s2": 1.049041748046875e-05,
+        "net_normal_error_N": 0.0
+      }
+    },
+    {
+      "name": "A/net_dt",
+      "status": "PASS",
+      "tick": 80,
+      "value": {
+        "force_halving_error_N": 0.0,
+        "impulse_error_Ns": 0.0
+      }
+    },
+    {
+      "name": "freefall/getter_acceleration",
+      "status": "PASS",
+      "tick": 80,
+      "value": {
+        "acceleration_error_m_s2": 1.1444091796875e-05,
+        "net_normal_error_N": 0.0
+      }
+    },
+    {
+      "name": "freefall/velocity_difference_acceleration",
+      "status": "PASS",
+      "tick": 80,
+      "value": {
+        "acceleration_error_m_s2": 1.049041748046875e-05,
+        "net_normal_error_N": 0.0
+      }
+    },
+    {
+      "name": "A/net_dt",
+      "status": "PASS",
+      "tick": 81,
+      "value": {
+        "force_halving_error_N": 0.0,
+        "impulse_error_Ns": 0.0
+      }
+    },
+    {
+      "name": "freefall/getter_acceleration",
+      "status": "PASS",
+      "tick": 81,
+      "value": {
+        "acceleration_error_m_s2": 1.1444091796875e-05,
+        "net_normal_error_N": 0.0
+      }
+    },
+    {
+      "name": "freefall/velocity_difference_acceleration",
+      "status": "PASS",
+      "tick": 81,
+      "value": {
+        "acceleration_error_m_s2": 1.049041748046875e-05,
+        "net_normal_error_N": 0.0
+      }
+    },
+    {
+      "name": "A/net_dt",
+      "status": "PASS",
+      "tick": 82,
+      "value": {
+        "force_halving_error_N": 0.0,
+        "impulse_error_Ns": 0.0
+      }
+    },
+    {
+      "name": "freefall/getter_acceleration",
+      "status": "PASS",
+      "tick": 82,
+      "value": {
+        "acceleration_error_m_s2": 1.1444091796875e-05,
+        "net_normal_error_N": 0.0
+      }
+    },
+    {
+      "name": "freefall/velocity_difference_acceleration",
+      "status": "PASS",
+      "tick": 82,
+      "value": {
+        "acceleration_error_m_s2": 1.049041748046875e-05,
+        "net_normal_error_N": 0.0
+      }
+    },
+    {
+      "name": "A/net_dt",
+      "status": "PASS",
+      "tick": 83,
+      "value": {
+        "force_halving_error_N": 0.0,
+        "impulse_error_Ns": 0.0
+      }
+    },
+    {
+      "name": "freefall/getter_acceleration",
+      "status": "PASS",
+      "tick": 83,
+      "value": {
+        "acceleration_error_m_s2": 1.1444091796875e-05,
+        "net_normal_error_N": 0.0
+      }
+    },
+    {
+      "name": "freefall/velocity_difference_acceleration",
+      "status": "PASS",
+      "tick": 83,
+      "value": {
+        "acceleration_error_m_s2": 1.049041748046875e-05,
+        "net_normal_error_N": 0.0
+      }
+    },
+    {
+      "name": "A/net_dt",
+      "status": "PASS",
+      "tick": 84,
+      "value": {
+        "force_halving_error_N": 0.0,
+        "impulse_error_Ns": 0.0
+      }
+    },
+    {
+      "name": "freefall/getter_acceleration",
+      "status": "PASS",
+      "tick": 84,
+      "value": {
+        "acceleration_error_m_s2": 1.1444091796875e-05,
+        "net_normal_error_N": 0.0
+      }
+    },
+    {
+      "name": "freefall/velocity_difference_acceleration",
+      "status": "PASS",
+      "tick": 84,
+      "value": {
+        "acceleration_error_m_s2": 1.049041748046875e-05,
+        "net_normal_error_N": 0.0
+      }
+    },
+    {
+      "name": "A/net_dt",
+      "status": "PASS",
+      "tick": 85,
+      "value": {
+        "force_halving_error_N": 0.0,
+        "impulse_error_Ns": 0.0
+      }
+    },
+    {
+      "name": "freefall/getter_acceleration",
+      "status": "PASS",
+      "tick": 85,
+      "value": {
+        "acceleration_error_m_s2": 1.1444091796875e-05,
+        "net_normal_error_N": 0.0
+      }
+    },
+    {
+      "name": "freefall/velocity_difference_acceleration",
+      "status": "PASS",
+      "tick": 85,
+      "value": {
+        "acceleration_error_m_s2": 1.049041748046875e-05,
+        "net_normal_error_N": 0.0
+      }
+    },
+    {
+      "name": "A/net_dt",
+      "status": "PASS",
+      "tick": 86,
+      "value": {
+        "force_halving_error_N": 0.0,
+        "impulse_error_Ns": 0.0
+      }
+    },
+    {
+      "name": "freefall/getter_acceleration",
+      "status": "PASS",
+      "tick": 86,
+      "value": {
+        "acceleration_error_m_s2": 1.1444091796875e-05,
+        "net_normal_error_N": 0.0
+      }
+    },
+    {
+      "name": "freefall/velocity_difference_acceleration",
+      "status": "PASS",
+      "tick": 86,
+      "value": {
+        "acceleration_error_m_s2": 1.049041748046875e-05,
+        "net_normal_error_N": 0.0
+      }
+    },
+    {
+      "name": "A/net_dt",
+      "status": "PASS",
+      "tick": 87,
+      "value": {
+        "force_halving_error_N": 0.0,
+        "impulse_error_Ns": 0.0
+      }
+    },
+    {
+      "name": "freefall/getter_acceleration",
+      "status": "PASS",
+      "tick": 87,
+      "value": {
+        "acceleration_error_m_s2": 1.1444091796875e-05,
+        "net_normal_error_N": 0.0
+      }
+    },
+    {
+      "name": "freefall/velocity_difference_acceleration",
+      "status": "PASS",
+      "tick": 87,
+      "value": {
+        "acceleration_error_m_s2": 1.049041748046875e-05,
+        "net_normal_error_N": 0.0
+      }
+    },
+    {
+      "name": "A/net_dt",
+      "status": "PASS",
+      "tick": 88,
+      "value": {
+        "force_halving_error_N": 0.0,
+        "impulse_error_Ns": 0.0
+      }
+    },
+    {
+      "name": "freefall/getter_acceleration",
+      "status": "PASS",
+      "tick": 88,
+      "value": {
+        "acceleration_error_m_s2": 1.1444091796875e-05,
+        "net_normal_error_N": 0.0
+      }
+    },
+    {
+      "name": "freefall/velocity_difference_acceleration",
+      "status": "PASS",
+      "tick": 88,
+      "value": {
+        "acceleration_error_m_s2": 1.049041748046875e-05,
+        "net_normal_error_N": 0.0
+      }
+    },
+    {
+      "name": "A/net_dt",
+      "status": "PASS",
+      "tick": 89,
+      "value": {
+        "force_halving_error_N": 0.0,
+        "impulse_error_Ns": 0.0
+      }
+    },
+    {
+      "name": "freefall/getter_acceleration",
+      "status": "PASS",
+      "tick": 89,
+      "value": {
+        "acceleration_error_m_s2": 1.1444091796875e-05,
+        "net_normal_error_N": 0.0
+      }
+    },
+    {
+      "name": "freefall/velocity_difference_acceleration",
+      "status": "PASS",
+      "tick": 89,
+      "value": {
+        "acceleration_error_m_s2": 1.049041748046875e-05,
+        "net_normal_error_N": 0.0
+      }
+    },
+    {
+      "name": "A/net_dt",
+      "status": "PASS",
+      "tick": 90,
+      "value": {
+        "force_halving_error_N": 0.0,
+        "impulse_error_Ns": 0.0
+      }
+    },
+    {
+      "name": "freefall/getter_acceleration",
+      "status": "PASS",
+      "tick": 90,
+      "value": {
+        "acceleration_error_m_s2": 1.1444091796875e-05,
+        "net_normal_error_N": 0.0
+      }
+    },
+    {
+      "name": "freefall/velocity_difference_acceleration",
+      "status": "PASS",
+      "tick": 90,
+      "value": {
+        "acceleration_error_m_s2": 1.049041748046875e-05,
+        "net_normal_error_N": 0.0
+      }
+    },
+    {
+      "name": "A/net_dt",
+      "status": "PASS",
+      "tick": 91,
+      "value": {
+        "force_halving_error_N": 0.0,
+        "impulse_error_Ns": 0.0
+      }
+    },
+    {
+      "name": "freefall/getter_acceleration",
+      "status": "PASS",
+      "tick": 91,
+      "value": {
+        "acceleration_error_m_s2": 1.1444091796875e-05,
+        "net_normal_error_N": 0.0
+      }
+    },
+    {
+      "name": "freefall/velocity_difference_acceleration",
+      "status": "PASS",
+      "tick": 91,
+      "value": {
+        "acceleration_error_m_s2": 1.049041748046875e-05,
+        "net_normal_error_N": 0.0
+      }
+    },
+    {
+      "name": "A/net_dt",
+      "status": "PASS",
+      "tick": 92,
+      "value": {
+        "force_halving_error_N": 0.0,
+        "impulse_error_Ns": 0.0
+      }
+    },
+    {
+      "name": "freefall/getter_acceleration",
+      "status": "PASS",
+      "tick": 92,
+      "value": {
+        "acceleration_error_m_s2": 1.1444091796875e-05,
+        "net_normal_error_N": 0.0
+      }
+    },
+    {
+      "name": "freefall/velocity_difference_acceleration",
+      "status": "PASS",
+      "tick": 92,
+      "value": {
+        "acceleration_error_m_s2": 1.049041748046875e-05,
+        "net_normal_error_N": 0.0
+      }
+    },
+    {
+      "name": "A/net_dt",
+      "status": "PASS",
+      "tick": 93,
+      "value": {
+        "force_halving_error_N": 0.0,
+        "impulse_error_Ns": 0.0
+      }
+    },
+    {
+      "name": "freefall/getter_acceleration",
+      "status": "PASS",
+      "tick": 93,
+      "value": {
+        "acceleration_error_m_s2": 1.1444091796875e-05,
+        "net_normal_error_N": 0.0
+      }
+    },
+    {
+      "name": "freefall/velocity_difference_acceleration",
+      "status": "PASS",
+      "tick": 93,
+      "value": {
+        "acceleration_error_m_s2": 1.049041748046875e-05,
+        "net_normal_error_N": 0.0
+      }
+    },
+    {
+      "name": "A/net_dt",
+      "status": "PASS",
+      "tick": 94,
+      "value": {
+        "force_halving_error_N": 0.0,
+        "impulse_error_Ns": 0.0
+      }
+    },
+    {
+      "name": "freefall/getter_acceleration",
+      "status": "PASS",
+      "tick": 94,
+      "value": {
+        "acceleration_error_m_s2": 1.1444091796875e-05,
+        "net_normal_error_N": 0.0
+      }
+    },
+    {
+      "name": "freefall/velocity_difference_acceleration",
+      "status": "PASS",
+      "tick": 94,
+      "value": {
+        "acceleration_error_m_s2": 1.049041748046875e-05,
+        "net_normal_error_N": 0.0
+      }
+    },
+    {
+      "name": "A/net_dt",
+      "status": "PASS",
+      "tick": 95,
+      "value": {
+        "force_halving_error_N": 0.0,
+        "impulse_error_Ns": 0.0
+      }
+    },
+    {
+      "name": "freefall/getter_acceleration",
+      "status": "PASS",
+      "tick": 95,
+      "value": {
+        "acceleration_error_m_s2": 1.1444091796875e-05,
+        "net_normal_error_N": 0.0
+      }
+    },
+    {
+      "name": "freefall/velocity_difference_acceleration",
+      "status": "PASS",
+      "tick": 95,
+      "value": {
+        "acceleration_error_m_s2": 1.049041748046875e-05,
+        "net_normal_error_N": 0.0
+      }
+    },
+    {
+      "name": "A/net_dt",
+      "status": "PASS",
+      "tick": 96,
+      "value": {
+        "force_halving_error_N": 0.0,
+        "impulse_error_Ns": 0.0
+      }
+    },
+    {
+      "name": "freefall/getter_acceleration",
+      "status": "PASS",
+      "tick": 96,
+      "value": {
+        "acceleration_error_m_s2": 1.1444091796875e-05,
+        "net_normal_error_N": 0.0
+      }
+    },
+    {
+      "name": "freefall/velocity_difference_acceleration",
+      "status": "PASS",
+      "tick": 96,
+      "value": {
+        "acceleration_error_m_s2": 1.049041748046875e-05,
+        "net_normal_error_N": 0.0
+      }
+    },
+    {
+      "name": "A/net_dt",
+      "status": "PASS",
+      "tick": 97,
+      "value": {
+        "force_halving_error_N": 0.0,
+        "impulse_error_Ns": 0.0
+      }
+    },
+    {
+      "name": "freefall/getter_acceleration",
+      "status": "PASS",
+      "tick": 97,
+      "value": {
+        "acceleration_error_m_s2": 1.1444091796875e-05,
+        "net_normal_error_N": 0.0
+      }
+    },
+    {
+      "name": "freefall/velocity_difference_acceleration",
+      "status": "PASS",
+      "tick": 97,
+      "value": {
+        "acceleration_error_m_s2": 1.049041748046875e-05,
+        "net_normal_error_N": 0.0
+      }
+    },
+    {
+      "name": "A/net_dt",
+      "status": "PASS",
+      "tick": 98,
+      "value": {
+        "force_halving_error_N": 0.0,
+        "impulse_error_Ns": 0.0
+      }
+    },
+    {
+      "name": "freefall/getter_acceleration",
+      "status": "PASS",
+      "tick": 98,
+      "value": {
+        "acceleration_error_m_s2": 1.1444091796875e-05,
+        "net_normal_error_N": 0.0
+      }
+    },
+    {
+      "name": "freefall/velocity_difference_acceleration",
+      "status": "PASS",
+      "tick": 98,
+      "value": {
+        "acceleration_error_m_s2": 1.049041748046875e-05,
+        "net_normal_error_N": 0.0
+      }
+    },
+    {
+      "name": "A/net_dt",
+      "status": "PASS",
+      "tick": 99,
+      "value": {
+        "force_halving_error_N": 0.0,
+        "impulse_error_Ns": 0.0
+      }
+    },
+    {
+      "name": "freefall/getter_acceleration",
+      "status": "PASS",
+      "tick": 99,
+      "value": {
+        "acceleration_error_m_s2": 1.1444091796875e-05,
+        "net_normal_error_N": 0.0
+      }
+    },
+    {
+      "name": "freefall/velocity_difference_acceleration",
+      "status": "PASS",
+      "tick": 99,
+      "value": {
+        "acceleration_error_m_s2": 1.049041748046875e-05,
+        "net_normal_error_N": 0.0
+      }
+    },
+    {
+      "name": "A/net_dt",
+      "status": "PASS",
+      "tick": 100,
+      "value": {
+        "force_halving_error_N": 0.0,
+        "impulse_error_Ns": 0.0
+      }
+    },
+    {
+      "name": "freefall/getter_acceleration",
+      "status": "PASS",
+      "tick": 100,
+      "value": {
+        "acceleration_error_m_s2": 1.1444091796875e-05,
+        "net_normal_error_N": 0.0
+      }
+    },
+    {
+      "name": "freefall/velocity_difference_acceleration",
+      "status": "PASS",
+      "tick": 100,
+      "value": {
+        "acceleration_error_m_s2": 1.049041748046875e-05,
+        "net_normal_error_N": 0.0
+      }
+    },
+    {
+      "name": "A/net_dt",
+      "status": "PASS",
+      "tick": 101,
+      "value": {
+        "force_halving_error_N": 0.0,
+        "impulse_error_Ns": 0.0
+      }
+    },
+    {
+      "name": "freefall/getter_acceleration",
+      "status": "PASS",
+      "tick": 101,
+      "value": {
+        "acceleration_error_m_s2": 1.1444091796875e-05,
+        "net_normal_error_N": 0.0
+      }
+    },
+    {
+      "name": "freefall/velocity_difference_acceleration",
+      "status": "PASS",
+      "tick": 101,
+      "value": {
+        "acceleration_error_m_s2": 1.049041748046875e-05,
+        "net_normal_error_N": 0.0
+      }
+    },
+    {
+      "name": "A/net_dt",
+      "status": "PASS",
+      "tick": 102,
+      "value": {
+        "force_halving_error_N": 0.0,
+        "impulse_error_Ns": 0.0
+      }
+    },
+    {
+      "name": "freefall/getter_acceleration",
+      "status": "PASS",
+      "tick": 102,
+      "value": {
+        "acceleration_error_m_s2": 1.1444091796875e-05,
+        "net_normal_error_N": 0.0
+      }
+    },
+    {
+      "name": "freefall/velocity_difference_acceleration",
+      "status": "PASS",
+      "tick": 102,
+      "value": {
+        "acceleration_error_m_s2": 1.049041748046875e-05,
+        "net_normal_error_N": 0.0
+      }
+    },
+    {
+      "name": "A/net_dt",
+      "status": "PASS",
+      "tick": 103,
+      "value": {
+        "force_halving_error_N": 0.0,
+        "impulse_error_Ns": 0.0
+      }
+    },
+    {
+      "name": "freefall/getter_acceleration",
+      "status": "PASS",
+      "tick": 103,
+      "value": {
+        "acceleration_error_m_s2": 1.1444091796875e-05,
+        "net_normal_error_N": 0.0
+      }
+    },
+    {
+      "name": "freefall/velocity_difference_acceleration",
+      "status": "PASS",
+      "tick": 103,
+      "value": {
+        "acceleration_error_m_s2": 1.049041748046875e-05,
+        "net_normal_error_N": 0.0
+      }
+    },
+    {
+      "name": "A/net_dt",
+      "status": "PASS",
+      "tick": 104,
+      "value": {
+        "force_halving_error_N": 0.0,
+        "impulse_error_Ns": 0.0
+      }
+    },
+    {
+      "name": "freefall/getter_acceleration",
+      "status": "PASS",
+      "tick": 104,
+      "value": {
+        "acceleration_error_m_s2": 1.1444091796875e-05,
+        "net_normal_error_N": 0.0
+      }
+    },
+    {
+      "name": "freefall/velocity_difference_acceleration",
+      "status": "PASS",
+      "tick": 104,
+      "value": {
+        "acceleration_error_m_s2": 1.049041748046875e-05,
+        "net_normal_error_N": 0.0
+      }
+    },
+    {
+      "name": "A/net_dt",
+      "status": "PASS",
+      "tick": 105,
+      "value": {
+        "force_halving_error_N": 0.0,
+        "impulse_error_Ns": 0.0
+      }
+    },
+    {
+      "name": "freefall/getter_acceleration",
+      "status": "PASS",
+      "tick": 105,
+      "value": {
+        "acceleration_error_m_s2": 1.1444091796875e-05,
+        "net_normal_error_N": 0.0
+      }
+    },
+    {
+      "name": "freefall/velocity_difference_acceleration",
+      "status": "PASS",
+      "tick": 105,
+      "value": {
+        "acceleration_error_m_s2": 1.049041748046875e-05,
+        "net_normal_error_N": 0.0
+      }
+    },
+    {
+      "name": "A/net_dt",
+      "status": "PASS",
+      "tick": 106,
+      "value": {
+        "force_halving_error_N": 0.0,
+        "impulse_error_Ns": 0.0
+      }
+    },
+    {
+      "name": "freefall/getter_acceleration",
+      "status": "PASS",
+      "tick": 106,
+      "value": {
+        "acceleration_error_m_s2": 1.1444091796875e-05,
+        "net_normal_error_N": 0.0
+      }
+    },
+    {
+      "name": "freefall/velocity_difference_acceleration",
+      "status": "PASS",
+      "tick": 106,
+      "value": {
+        "acceleration_error_m_s2": 1.049041748046875e-05,
+        "net_normal_error_N": 0.0
+      }
+    },
+    {
+      "name": "A/net_dt",
+      "status": "PASS",
+      "tick": 107,
+      "value": {
+        "force_halving_error_N": 0.0,
+        "impulse_error_Ns": 0.0
+      }
+    },
+    {
+      "name": "freefall/getter_acceleration",
+      "status": "PASS",
+      "tick": 107,
+      "value": {
+        "acceleration_error_m_s2": 1.1444091796875e-05,
+        "net_normal_error_N": 0.0
+      }
+    },
+    {
+      "name": "freefall/velocity_difference_acceleration",
+      "status": "PASS",
+      "tick": 107,
+      "value": {
+        "acceleration_error_m_s2": 1.049041748046875e-05,
+        "net_normal_error_N": 0.0
+      }
+    },
+    {
+      "name": "A/net_dt",
+      "status": "PASS",
+      "tick": 108,
+      "value": {
+        "force_halving_error_N": 0.0,
+        "impulse_error_Ns": 0.0
+      }
+    },
+    {
+      "name": "freefall/getter_acceleration",
+      "status": "PASS",
+      "tick": 108,
+      "value": {
+        "acceleration_error_m_s2": 1.1444091796875e-05,
+        "net_normal_error_N": 0.0
+      }
+    },
+    {
+      "name": "freefall/velocity_difference_acceleration",
+      "status": "PASS",
+      "tick": 108,
+      "value": {
+        "acceleration_error_m_s2": 1.049041748046875e-05,
+        "net_normal_error_N": 0.0
+      }
+    },
+    {
+      "name": "A/net_dt",
+      "status": "PASS",
+      "tick": 109,
+      "value": {
+        "force_halving_error_N": 0.0,
+        "impulse_error_Ns": 0.0
+      }
+    },
+    {
+      "name": "freefall/getter_acceleration",
+      "status": "PASS",
+      "tick": 109,
+      "value": {
+        "acceleration_error_m_s2": 1.1444091796875e-05,
+        "net_normal_error_N": 0.0
+      }
+    },
+    {
+      "name": "freefall/velocity_difference_acceleration",
+      "status": "PASS",
+      "tick": 109,
+      "value": {
+        "acceleration_error_m_s2": 1.049041748046875e-05,
+        "net_normal_error_N": 0.0
+      }
+    },
+    {
+      "name": "A/net_dt",
+      "status": "PASS",
+      "tick": 110,
+      "value": {
+        "force_halving_error_N": 0.0,
+        "impulse_error_Ns": 0.0
+      }
+    },
+    {
+      "name": "freefall/getter_acceleration",
+      "status": "PASS",
+      "tick": 110,
+      "value": {
+        "acceleration_error_m_s2": 1.1444091796875e-05,
+        "net_normal_error_N": 0.0
+      }
+    },
+    {
+      "name": "freefall/velocity_difference_acceleration",
+      "status": "PASS",
+      "tick": 110,
+      "value": {
+        "acceleration_error_m_s2": 1.049041748046875e-05,
+        "net_normal_error_N": 0.0
+      }
+    },
+    {
+      "name": "A/net_dt",
+      "status": "PASS",
+      "tick": 111,
+      "value": {
+        "force_halving_error_N": 0.0,
+        "impulse_error_Ns": 0.0
+      }
+    },
+    {
+      "name": "freefall/getter_acceleration",
+      "status": "PASS",
+      "tick": 111,
+      "value": {
+        "acceleration_error_m_s2": 1.1444091796875e-05,
+        "net_normal_error_N": 0.0
+      }
+    },
+    {
+      "name": "freefall/velocity_difference_acceleration",
+      "status": "PASS",
+      "tick": 111,
+      "value": {
+        "acceleration_error_m_s2": 1.049041748046875e-05,
+        "net_normal_error_N": 0.0
+      }
+    },
+    {
+      "name": "A/net_dt",
+      "status": "PASS",
+      "tick": 112,
+      "value": {
+        "force_halving_error_N": 0.0,
+        "impulse_error_Ns": 0.0
+      }
+    },
+    {
+      "name": "freefall/getter_acceleration",
+      "status": "PASS",
+      "tick": 112,
+      "value": {
+        "acceleration_error_m_s2": 1.1444091796875e-05,
+        "net_normal_error_N": 0.0
+      }
+    },
+    {
+      "name": "freefall/velocity_difference_acceleration",
+      "status": "PASS",
+      "tick": 112,
+      "value": {
+        "acceleration_error_m_s2": 1.049041748046875e-05,
+        "net_normal_error_N": 0.0
+      }
+    },
+    {
+      "name": "A/net_dt",
+      "status": "PASS",
+      "tick": 113,
+      "value": {
+        "force_halving_error_N": 0.0,
+        "impulse_error_Ns": 0.0
+      }
+    },
+    {
+      "name": "freefall/getter_acceleration",
+      "status": "PASS",
+      "tick": 113,
+      "value": {
+        "acceleration_error_m_s2": 1.1444091796875e-05,
+        "net_normal_error_N": 0.0
+      }
+    },
+    {
+      "name": "freefall/velocity_difference_acceleration",
+      "status": "PASS",
+      "tick": 113,
+      "value": {
+        "acceleration_error_m_s2": 1.049041748046875e-05,
+        "net_normal_error_N": 0.0
+      }
+    },
+    {
+      "name": "A/net_dt",
+      "status": "PASS",
+      "tick": 114,
+      "value": {
+        "force_halving_error_N": 0.0,
+        "impulse_error_Ns": 0.0
+      }
+    },
+    {
+      "name": "freefall/getter_acceleration",
+      "status": "PASS",
+      "tick": 114,
+      "value": {
+        "acceleration_error_m_s2": 1.1444091796875e-05,
+        "net_normal_error_N": 0.0
+      }
+    },
+    {
+      "name": "freefall/velocity_difference_acceleration",
+      "status": "PASS",
+      "tick": 114,
+      "value": {
+        "acceleration_error_m_s2": 1.049041748046875e-05,
+        "net_normal_error_N": 0.0
+      }
+    },
+    {
+      "name": "A/net_dt",
+      "status": "PASS",
+      "tick": 115,
+      "value": {
+        "force_halving_error_N": 0.0,
+        "impulse_error_Ns": 0.0
+      }
+    },
+    {
+      "name": "freefall/getter_acceleration",
+      "status": "PASS",
+      "tick": 115,
+      "value": {
+        "acceleration_error_m_s2": 1.1444091796875e-05,
+        "net_normal_error_N": 0.0
+      }
+    },
+    {
+      "name": "freefall/velocity_difference_acceleration",
+      "status": "PASS",
+      "tick": 115,
+      "value": {
+        "acceleration_error_m_s2": 1.049041748046875e-05,
+        "net_normal_error_N": 0.0
+      }
+    },
+    {
+      "name": "A/net_dt",
+      "status": "PASS",
+      "tick": 116,
+      "value": {
+        "force_halving_error_N": 0.0,
+        "impulse_error_Ns": 0.0
+      }
+    },
+    {
+      "name": "freefall/getter_acceleration",
+      "status": "PASS",
+      "tick": 116,
+      "value": {
+        "acceleration_error_m_s2": 1.1444091796875e-05,
+        "net_normal_error_N": 0.0
+      }
+    },
+    {
+      "name": "freefall/velocity_difference_acceleration",
+      "status": "PASS",
+      "tick": 116,
+      "value": {
+        "acceleration_error_m_s2": 1.049041748046875e-05,
+        "net_normal_error_N": 0.0
+      }
+    },
+    {
+      "name": "A/net_dt",
+      "status": "PASS",
+      "tick": 117,
+      "value": {
+        "force_halving_error_N": 0.0,
+        "impulse_error_Ns": 0.0
+      }
+    },
+    {
+      "name": "freefall/getter_acceleration",
+      "status": "PASS",
+      "tick": 117,
+      "value": {
+        "acceleration_error_m_s2": 1.1444091796875e-05,
+        "net_normal_error_N": 0.0
+      }
+    },
+    {
+      "name": "freefall/velocity_difference_acceleration",
+      "status": "PASS",
+      "tick": 117,
+      "value": {
+        "acceleration_error_m_s2": 1.049041748046875e-05,
+        "net_normal_error_N": 0.0
+      }
+    },
+    {
+      "name": "A/net_dt",
+      "status": "PASS",
+      "tick": 118,
+      "value": {
+        "force_halving_error_N": 0.0,
+        "impulse_error_Ns": 0.0
+      }
+    },
+    {
+      "name": "freefall/getter_acceleration",
+      "status": "PASS",
+      "tick": 118,
+      "value": {
+        "acceleration_error_m_s2": 1.1444091796875e-05,
+        "net_normal_error_N": 0.0
+      }
+    },
+    {
+      "name": "freefall/velocity_difference_acceleration",
+      "status": "PASS",
+      "tick": 118,
+      "value": {
+        "acceleration_error_m_s2": 1.049041748046875e-05,
+        "net_normal_error_N": 0.0
+      }
+    },
+    {
+      "name": "A/net_dt",
+      "status": "PASS",
+      "tick": 119,
+      "value": {
+        "force_halving_error_N": 0.0,
+        "impulse_error_Ns": 0.0
+      }
+    },
+    {
+      "name": "freefall/getter_acceleration",
+      "status": "PASS",
+      "tick": 119,
+      "value": {
+        "acceleration_error_m_s2": 1.1444091796875e-05,
+        "net_normal_error_N": 0.0
+      }
+    },
+    {
+      "name": "freefall/velocity_difference_acceleration",
+      "status": "PASS",
+      "tick": 119,
+      "value": {
+        "acceleration_error_m_s2": 1.049041748046875e-05,
+        "net_normal_error_N": 0.0
+      }
+    }
+  ],
+  "chemical_success": "UNKNOWN",
+  "cleanup_lifecycle": {
+    "after_clear_native_time": "UNKNOWN_NOT_READ",
+    "after_framework_native_time": "UNKNOWN_NOT_READ",
+    "compiled_backend_root_cause": "UNKNOWN",
+    "default_close_exit_scope": "EXIT0_AFTER_PRE_CLOSE_MARKERS",
+    "default_close_python_return": "UNKNOWN_NO_AFTER_APP_CLOSE_MARKER",
+    "events": [
+      "BEFORE_APP_START",
+      "AFTER_APP_START",
+      "BEFORE_RESULT_WRITE",
+      "AFTER_RESULT_FSYNC",
+      "BEFORE_CLEAR_INSTANCE",
+      "AFTER_CLEAR_INSTANCE",
+      "BEFORE_APP_CLOSE",
+      "BEFORE_READONLY_REP_STATUS",
+      "AFTER_READONLY_REP_STATUS"
+    ],
+    "fresh_preclear_clock_reads": 6,
+    "last_marker_sha256": "9facd13355d365520dc56861c154c6d6445e7cedd81160bac9f1fa6169550fb5",
+    "marker_count": 9,
+    "native_fix_claim_from_source_only": false,
+    "status": "PASS_MEASUREMENT_THEN_OWNED_PUBLIC_CONTEXT_RELEASE",
+    "stop_subscription_release": "OBSERVED_PRESENT_THEN_NONE"
+  },
+  "controlled_steps": 120,
+  "creation_order_mechanism": "NOT_THIS_CASE",
+  "diagnostic_series_is_qualification": false,
+  "failed_checks": [],
+  "family_accounting": {
+    "force_fixture_cumulative_max_including_v01_failed_C0": 6,
+    "prior_v01_remaining_not_executed": 4,
+    "separate_closed_M0_M1_M2_family_epochs": 3,
+    "separate_shutdown_diagnostic_epochs": 1,
+    "v02_batch_max_new_epochs": 5
+  },
+  "fixed_window_inclusive": [
+    71,
+    119
+  ],
+  "input_files": {
+    "BEGIN.json": {
+      "bytes": 6742,
+      "path": "/data/liyufeng/paperb_signed_force_calibration_20261015_v2/cases/cal_force_c0_freefall_v02/BEGIN.json",
+      "sha256": "ad8c0708afae9be86e0c474e314ebe22db20b9bd7a7efa6c800ea8453a599005"
+    },
+    "END.json": {
+      "bytes": 8442,
+      "path": "/data/liyufeng/paperb_signed_force_calibration_20261015_v2/cases/cal_force_c0_freefall_v02/END.json",
+      "sha256": "230f97d8ca73db94eb16fe3e2bc46ad89caec6f9ca6a3add6865a542cc126752"
+    },
+    "HEADER.json": {
+      "bytes": 11298,
+      "path": "/data/liyufeng/paperb_signed_force_calibration_20261015_v2/cases/cal_force_c0_freefall_v02/HEADER.json",
+      "sha256": "5ea61f916768d80550a06a7e69eea14a45904902ff7d3a86a2d1d23ad2c0a19a"
+    },
+    "INSTALLED_API_PIN.json": {
+      "bytes": 6727,
+      "path": "/data/liyufeng/paperb_signed_force_calibration_20261015_v2/INSTALLED_API_PIN.json",
+      "sha256": "0f15102f714431540a56a30397a0305254e07ef7881a987c4d87854493692de5"
+    },
+    "LIFECYCLE.jsonl": {
+      "bytes": 9890,
+      "path": "/data/liyufeng/paperb_signed_force_calibration_20261015_v2/cases/cal_force_c0_freefall_v02/LIFECYCLE.jsonl",
+      "sha256": "1576f487703f29b594a2dd1e6ba9356eccc4a38056cda952643d5b83e9165d97"
+    },
+    "RAW_POST.jsonl": {
+      "bytes": 1097404,
+      "path": "/data/liyufeng/paperb_signed_force_calibration_20261015_v2/cases/cal_force_c0_freefall_v02/RAW_POST.jsonl",
+      "sha256": "2f00d46c67f77a58e7fe823e350c4907e618b29419baff78dc1e742bb3be13b9"
+    },
+    "RESULT.json": {
+      "bytes": 1321,
+      "path": "/data/liyufeng/paperb_signed_force_calibration_20261015_v2/cases/cal_force_c0_freefall_v02/RESULT.json",
+      "sha256": "04d94740b8b9c062679a83c6b0a7af74690b41db0e1da2ff7af7641c0d969bcb"
+    },
+    "ROOT_ADMISSION.json": {
+      "bytes": 5611,
+      "path": "/mnt/nas/data/lyf/chem_mem/awesome_memory_chem/papers/paperB/research_increments/signed_force_fixture_calibration_v02_2026-10-15/root_execution/cal_force_c0_freefall_v02/ROOT_ADMISSION_resource_selected_02.json",
+      "sha256": "068a0b39a6a8c4d1564fe947baf6b03ae4c92ff7a3a079dce6e9bae724cd67c0"
+    },
+    "SOURCE_RELEASE.json": {
+      "bytes": 4118,
+      "path": "/data/liyufeng/paperb_signed_force_calibration_20261015_v2/EXECUTION_RELEASE.json",
+      "sha256": "24ec70ef9054fed8f03186adc4d69e3521605e61365d15b832f6a91cbf0faa7b"
+    },
+    "SOURCE_REVIEW.json": {
+      "bytes": 2430,
+      "path": "/mnt/nas/data/lyf/chem_mem/awesome_memory_chem/papers/paperB/research_increments/signed_force_fixture_calibration_v02_2026-10-15/independent_reader/SOURCE_REVIEW.json",
+      "sha256": "0fad1b8e928bb3f9c2ec926bc4cab7245e7aeaea0269523202e8c5e003f8fe56"
+    },
+    "WORKER_TERMINAL.json": {
+      "bytes": 907,
+      "path": "/data/liyufeng/paperb_signed_force_calibration_20261015_v2/logs/cal_force_c0_freefall_v02.json",
+      "sha256": "af528b7e297ad18bd8f78a2805392cc4073af9a0ff7b4bd343874580eee401ed"
+    }
+  },
+  "qualification_limits": [
+    "CONDITIONAL_FIXTURE_CONTACT_REPRESENTATION_DT_WORLD_FRAME_ONLY",
+    "COMPLETE_ACTIVE_BACKEND_CONSTRAINT_INVENTORY_UNKNOWN",
+    "NOT_REAL_HARDWARE_SI_CERTIFICATION",
+    "NO_ROBOT_LOAD_UNLOAD_TORQUE_CHEMICAL_SUCCESS_OR_TRAINING_ADMISSION",
+    "DOES_NOT_REWRITE_LEGACY_M0_M1_M2_RESULTS"
+  ],
+  "reader_freeze_sha256": "918e41cb1484643e112b59f1e14c7897e447748354b93e04a769311a62a2626c",
+  "request_sha256": "94e0f46ccf65587a2d9b7f5b19611ea82cae85776a2abd8107997e8b18098a97",
+  "robot_load_truth": "UNKNOWN",
+  "samples": 49,
+  "schema": "SignedForceFixtureIndependentAudit/1",
+  "series_sha256": "1246829bef1eb06377e49589a48db344d1a472a350fbf655da15d739ba621c6c",
+  "status": "PASS_CONDITIONAL_FIXTURE_CALIBRATION",
+  "structure_source_clock": "PASS"
+}

@@ -1,0 +1,159 @@
+{
+  "GPU_uuid": "GPU-828bb172-121c-cc55-7f4f-ef09a2bd7599",
+  "batch_selection_sha256": "8a9a74a00493454db0cbf54d2c0e4132ed3f3ddc528767ecd6daf646c0d004b9",
+  "calibration_family_cumulative_upper_bound": 9,
+  "case_id": "cal_force_c0_freefall_v03",
+  "closed_calibration_actual_epochs_before_v03": 3,
+  "closed_force_v01_actual_epochs": 1,
+  "closed_force_v02_actual_epochs": 2,
+  "closed_old_family_cap": 3,
+  "expected_header": {
+    "case": {
+      "comparison_scope": "cannot prove hidden contact-conditional constraints absent",
+      "contact_processing_disabled_requested": false,
+      "contacts_allowed": false,
+      "controlled_steps": 120,
+      "expected": "a_A\u2248g;net normal\u22480;no contact/unknown externalwrench",
+      "fixed_POST_window_inclusive": [
+        71,
+        119
+      ],
+      "fixture_reference_case_id": "cal_force_c0_freefall_v01",
+      "gravity_world_m_s2": [
+        0,
+        0,
+        -9.81
+      ],
+      "id": "cal_force_c0_freefall_v03",
+      "mass_A_kg": 0.1,
+      "measurement_role": "POSITIVE_PROCESSING_ENABLED_FIXTURE",
+      "priority": 1,
+      "purpose": "independent gravity/inertial falsifier before contact semantics"
+    },
+    "cleanup_candidate": {
+      "candidate_status": "CPU_TESTED_NATIVE_UNVERIFIED_NOT_FIXED",
+      "causal_evidence_scope": "owned repeatedSTOP callback render loop observed in diagnostic, candidate notyetnativeverified",
+      "condition": "ONLY_AFTER_COMPLETE_END_AND_RESULT_FSYNC_OWNED_CONTEXT_MATCH",
+      "default_app_close_args": [],
+      "default_app_close_kwargs": {},
+      "faulthandler_repeat": true,
+      "faulthandler_timeout_s": 15,
+      "mandatory_markers": [
+        "BEFORE_RESULT_WRITE",
+        "AFTER_RESULT_FSYNC",
+        "BEFORE_CLEAR_INSTANCE",
+        "AFTER_CLEAR_INSTANCE",
+        "BEFORE_APP_CLOSE",
+        "AFTER_APP_CLOSE"
+      ],
+      "no_physics_getters_after_clear_instance": true,
+      "no_task_callbacks_cleared": true,
+      "post_clear_clock_role": "CACHED_PRE_CLEAR_EXPLICIT_NOT_FRESH_NATIVE_TIME_UNKNOWN",
+      "public_API": "isaaclab.sim.SimulationContext.clear_instance()",
+      "timeout_termination_unchanged": [
+        300,
+        30
+      ]
+    },
+    "closed_old_family_cap": 3,
+    "dt_s": 0.004166666666666667,
+    "family_budget": {
+      "calibration_family_cumulative_upper_bound": 9,
+      "closed_calibration_actual_epochs_before_v03": 3,
+      "closed_old_M0_M1_M2_family_cap": 3,
+      "closed_v01_actual_epochs": 1,
+      "closed_v02_actual_epochs": 2,
+      "max_controlled_steps_v03": 5365,
+      "negative_controls": 1,
+      "no_seventh_implicit_epoch": true,
+      "positive_fixtures": 5,
+      "separate_shutdown_diagnostic_actual_epochs": 1,
+      "v01_remaining_NOT_EXECUTED": 4,
+      "v02_remaining_NOT_EXECUTED": 3,
+      "v03_maximum_distinct_epochs": 6
+    },
+    "installed_api_pin_sha256": "81750a953f9827fb5ea87d915373934719cc9cccd9cb6facda3c6e5d0f9c124f",
+    "maximum_new_distinct_epochs": 6,
+    "measurement_instrumentation_candidate": {
+      "actual_readback_required_at": [
+        "HEADER",
+        "BEGIN",
+        "EACH_CONTROLLED_RAW_POST",
+        "END"
+      ],
+      "candidate_native_status": "UNVERIFIED_NOT_PHYSICS_FIXED",
+      "negative_control_not_admitted_as_positive_or_methodfailure": true,
+      "no_physics_threshold_geometry_filter_frame_changes": true,
+      "only_new_measurement_behavior_delta": "enablecontactprocessingforon5vsdisableforoffC1",
+      "readonly_getter_does_not_impute_bool": true,
+      "requested_disabled_boolean_bound_to_case": true,
+      "set_after_SimulationContext_construct_before_reset": true,
+      "worker_local_setting_path": "/physics/disableContactProcessing"
+    },
+    "no_control_actions": true,
+    "parent_execution_release_sha256": "24ec70ef9054fed8f03186adc4d69e3521605e61365d15b832f6a91cbf0faa7b",
+    "prospective_budget_confirmation": {
+      "path": "/mnt/nas/data/lyf/chem_mem/awesome_memory_chem/papers/paperB/research_increments/signed_force_fixture_calibration_v03_2026-10-15/ROOT_PROSPECTIVE_BATCH_SELECTION.json",
+      "sha256": "8a9a74a00493454db0cbf54d2c0e4132ed3f3ddc528767ecd6daf646c0d004b9",
+      "status": "ROOT_CONFIRMED_BEFORE_V03_OUTCOMES"
+    },
+    "protocol_sha256": "7dd3b0ffe0679c0ec6b05e6f95133633541d4d3820e3e56eaefea818786d94ef",
+    "reader_freeze_sha256": "52d9b5009be016b53905927bcfdcf4a4c5b8eb2b83f110384237734d670fbb1d",
+    "schema_contract_sha256": "a3426f45cb2938b56004949112afd6702e1f4d90acdf6a745f5cd10a2f160777",
+    "setup": {
+      "A_B_dynamic_no_kinematic_or_drives": true,
+      "A_B_force_or_torque_commands": "NONE",
+      "A_B_no_authored_joints": true,
+      "A_filters": [
+        "B"
+      ],
+      "A_start_position_freefall_m": [
+        0,
+        0,
+        2
+      ],
+      "B_filters": [
+        "A",
+        "ground"
+      ],
+      "CPU_physics_same_installed_backend_as_M2": true,
+      "SDK_reset_origin_steps": "separate from controlled callback counter",
+      "contact_reports": {
+        "sleep_threshold_A_B": 0,
+        "threshold": 0
+      },
+      "contact_view_capacity": 128,
+      "cube_A_side_m": 0.05,
+      "cube_B_side_m": 0.1,
+      "exact_static_ground_filter_path": "/Cal/ground/geometry/mesh",
+      "external_wrench_composers_required_observed_inactive": true,
+      "gravity_and_simulation_flags_required_observed_enabled": true,
+      "material_static_dynamic_friction": 0,
+      "no_root_pose_velocity_or_joint_state_writes_after_first_controlled_step": true,
+      "physics_dt_s": 0.004166666666666667,
+      "reciprocal_ground_sensor_not_assumed_supported": true,
+      "rigid_contact_filter_ground_reason": "Static cuboid actual collision shape, root is non-rigid Xform; no ground reciprocal sensor assumed",
+      "selected_raw_copy_before_next_getter": true,
+      "shape": "two cubes plus static ground;freefall omits B and ground",
+      "signed_scalar_policy": "no abs/clamp/drop/re-sign;typed copied signed finite data with physical qualification separate",
+      "stage_units_kg": 1,
+      "stage_units_m": 1,
+      "static_ground_role_root": "/Cal/ground",
+      "view_paths_and_roles_bind_actual_metadata": true
+    },
+    "source_release_sha256": "0de55ac995986d25a60f391b63d9606915dbeae37518e7cc4fb38ee75bc81771"
+  },
+  "issued_at_utc": "2026-10-14T19:06:10.542847+00:00",
+  "maximum_new_distinct_native_epochs": 6,
+  "no_outcome_retry": true,
+  "per_child_wait_s": 300,
+  "prospective_marker_coordination_sha256": "45ffcb914ef1366585ef575660dba4d8cc9787f0b4992f16652322745bc81acd",
+  "qualification_scope": "CONDITIONAL_SIMULATION_FIXTURE_ONLY_NO_SFR_OR_ROBOT_LOAD_OR_CHEMISTRY",
+  "reader_freeze_sha256": "52d9b5009be016b53905927bcfdcf4a4c5b8eb2b83f110384237734d670fbb1d",
+  "separate_shutdown_diagnostic_actual_epochs": 1,
+  "source_readback_sha256": "f9dc34992f927fcf720e1a59080871cdaa60e8c33fee17f9fc87b5f4913a378a",
+  "source_release_sha256": "0de55ac995986d25a60f391b63d9606915dbeae37518e7cc4fb38ee75bc81771",
+  "source_review_sha256": "5e0fb9eb437f18d42404be4bb279dd2ef3e92e5613ca6a1cad04221e1c47a6f0",
+  "status": "ADMITTED_ONE_SIGNED_FORCE_FIXTURE_CALIBRATION_V03_CASE",
+  "termination_wait_s": 30
+}

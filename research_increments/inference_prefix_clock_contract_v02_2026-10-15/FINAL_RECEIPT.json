@@ -1,0 +1,21 @@
+{
+  "schema": "InferencePrefixClockV02FinalReceipt/1",
+  "source_freeze_sha256": "ff96625ab11e7e02f33ec672c0ed19f6da7d1c363b32ffb81cef99560d0b280a",
+  "source_sha256": "bc8528f4409a456c02236a792c9b04c54f17ed9fe34109f5491ea1c183a03e1c",
+  "archive": "inference_prefix_clock_contract_v02.zip",
+  "archive_sha256": "8c0a2f185a9ee0e5d6626ab2e66a2263766c1e3485d0f6e1e66dd1af87016295",
+  "archive_bytes": 49960,
+  "source_file_count": 28,
+  "archive_members": 29,
+  "archive_CRC_and_every_member_SHA_readback": "PASS",
+  "v01_originals_unchanged_and_retained": "PASS",
+  "python_in_memory_compile": "PASS",
+  "distinct_CPU_tests": 24,
+  "old_RED_public_API_exit": 2,
+  "new_GREEN_public_API_exit": 0,
+  "author_native_model_GPU_calls": 0,
+  "S_F_R_admitted": 0,
+  "actual_integration": "NOT_INTEGRATED_G1_ASYNC_PROPOSAL_SCHEMA",
+  "root_independent_review": "PENDING",
+  "frozen_author_source_do_not_modify": true
+}

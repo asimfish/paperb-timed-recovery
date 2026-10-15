@@ -1,0 +1,123 @@
+{
+  "CLI_existing_directory_refusal_exit": 1,
+  "S_F_R_scientific_admission": "NOT_ESTABLISHED",
+  "actual_deterministic_CPU_trace_reconstructions": 1,
+  "actual_long_semantic_replays": 1,
+  "actual_new_policy_weights": 0,
+  "actual_production_rows": 0,
+  "actual_test_invocations": [
+    {
+      "log": "BRIDGE_ATTEMPT_1.log",
+      "tests": 25
+    },
+    {
+      "log": "BRIDGE_FINAL_27.log",
+      "tests": 27
+    },
+    {
+      "log": "SUCCESSOR_INHERITED_ATTEMPT_1.log",
+      "tests": 63
+    }
+  ],
+  "capacity_successor_adapted_inherited_tests": 63,
+  "compiled_files": 12,
+  "current_bridge_tests": 27,
+  "distinct_current_tests": 90,
+  "independent_review_status": "PENDING",
+  "long_trace": {
+    "GPU_calls": 0,
+    "S_F_R_physics_qualification": "NOT_ESTABLISHED",
+    "actual_actor_transition_fixture_rows": 32,
+    "actual_bridge_rows": 58145,
+    "actual_chunk_outputs": 1750,
+    "actual_commands_APPLIED": 13995,
+    "actual_commands_submitted": 13995,
+    "actual_production_rows": 0,
+    "actual_public_packets": 177,
+    "actual_registry_events": 56395,
+    "actual_replay_performed_this_invocation": false,
+    "actual_task_ticks": 14007,
+    "actual_teacher_target_fixture_rows": 16,
+    "bridge_full_content_sha256": "b9e2b53fab3feab0a5b7527c2772d9d7e0eca13cca7847d0bb8805c32aee2182",
+    "build_wall_seconds": 67.01058432972059,
+    "canonical_bridge_bytes": 112086198,
+    "canonical_registry_bytes": 89019717,
+    "case_header_sha256": "d59d2eb16180f70527379c91738376cecce99a8f5a5b4dc4fc98ff5e28735669",
+    "counts": {
+      "ACTOR_TRANSITION": 32,
+      "CHANNEL_RESULT": 13995,
+      "FULL_TASK_FAILURE": 0,
+      "OBSERVED_STATE": 14008,
+      "PROPOSAL": 13995,
+      "PUBLIC_PACKET": 177,
+      "RESET": 0,
+      "STUDENT_VISIT": 177,
+      "SUBMITTED": 13995,
+      "TEACHER_TARGET": 16,
+      "VERIFICATION": 0
+    },
+    "deterministic_reconstruction_reference_result_sha256": "94ffd49cd7818c75907cd2612f1c5f7963bdf0cdfb31ca88deecdffcbcf8de2c",
+    "event_cap": 56479,
+    "exact_trace_equality_with_prior_actual_replay": true,
+    "last_chunk_valid_steps": 3,
+    "memory_fixture_full_json_retained": true,
+    "model_calls": 0,
+    "native_calls": 0,
+    "pending_commands": 0,
+    "physical_authenticity": false,
+    "real_student_rollouts": 0,
+    "registry_full_content_sha256": "7468f73ef2ebed557ea830a745092f3c944dd4d422597471633520e1b243db61",
+    "replay_exact_event_owner_target_chunk_identity": true,
+    "replay_wall_seconds": 0.0,
+    "reserved_caps_unused": {
+      "ACTOR_TRANSITION": 0,
+      "CHANNEL_RESULT": 0,
+      "FULL_TASK_FAILURE": 16,
+      "OBSERVED_STATE": 2,
+      "PROPOSAL": 0,
+      "PUBLIC_PACKET": 0,
+      "RESET": 0,
+      "STUDENT_VISIT": 0,
+      "SUBMITTED": 0,
+      "TEACHER_TARGET": 0,
+      "VERIFICATION": 66
+    },
+    "retained_journal_files": {
+      "retained_case/COLLECTOR_HEADER.json": {
+        "bytes": 3604,
+        "sha256": "d59d2eb16180f70527379c91738376cecce99a8f5a5b4dc4fc98ff5e28735669"
+      },
+      "retained_case/bridge.jsonl": {
+        "bytes": 112086197,
+        "sha256": "ab43703da9aebca586691ee8b1cce3367bca8c6aa8969cdc6465c47ee4eade71"
+      },
+      "retained_case/registry/HEADER.json": {
+        "bytes": 1497,
+        "sha256": "3c2c319631ddf451744b47a099c3265b5640ce2fde7f8b76ffd8c40c284ef953"
+      },
+      "retained_case/registry/registry.jsonl": {
+        "bytes": 89019716,
+        "sha256": "0b2d8a89cd5ba1df8e16d0b573f9d7f382ad29a21f7d683e816fdc0bb10288ec"
+      }
+    },
+    "schema": "PaperBCollectorBridgeLongCPUResult/0.1",
+    "status": "PASS_SYNTHETIC_CPU_CONTRACT_ONLY",
+    "training_calls": 0,
+    "unspent_chunk_reservations": 0
+  },
+  "native_GPU_model_training_calls": 0,
+  "native_collector_installed": false,
+  "parent_readback": {
+    "capacity_only_exact_diff_verified": true,
+    "parent_modified": false,
+    "parent_release_sha256": "a99686f1eba78ee427ce6c0388b4a343b74b972bee191d31fba6965602bad329",
+    "parent_verified_files": 27,
+    "successor_source_sha256": "2ea7c9003766ee86c43f6f36e2e2c2374eab060a8666cf6708e6fc80bb242809"
+  },
+  "real_student_rollouts": 0,
+  "reconstruction_did_not_change_collector_registry_header_or_input": true,
+  "reconstruction_reason": "Initial CPU long trace existed only in released process memory. Independent reviewer required retained full journals; exact deterministic reconstruction with both full-content SHA matching the actual first replay was retained.",
+  "schema": "PaperBCollectorBridgeCPUResult/0.1",
+  "status": "PASS_CPU_SOFTWARE_CANDIDATE_ONLY",
+  "total_test_case_executions": 115
+}

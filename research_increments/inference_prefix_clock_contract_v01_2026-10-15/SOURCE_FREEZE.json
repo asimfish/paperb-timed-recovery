@@ -1,0 +1,52 @@
+{
+  "actual_S_F_R_admitted": 0,
+  "actual_integration": "NOT_INTEGRATED_G1_ASYNC_PROPOSAL_SCHEMA",
+  "created_at_utc": "2026-10-14T18:42:36.994740+00:00",
+  "file_count": 10,
+  "files": {
+    "CPU_ACCEPTANCE.json": {
+      "bytes": 943,
+      "sha256": "4c235c303cda6513d41311cd321b9197fde571fa53db3f420de2e4acdb16b421"
+    },
+    "PARENT_PIN.json": {
+      "bytes": 444,
+      "sha256": "4c55c036449bdb6df505dfc60c9110d3172938bf8b38aa2f22ac2419716dd937"
+    },
+    "README_cn.md": {
+      "bytes": 4201,
+      "sha256": "a843df68cef337e076b45d59ffd90fb971bfc20fda9e6f306f2e854c3a6e1483"
+    },
+    "code/inference_clock.py": {
+      "bytes": 17942,
+      "sha256": "c2c5c0f76cb01d8bec5e89cf31c19ac6903b5c3e2784e898a0d7861a67009717"
+    },
+    "code/reproduce_g1_async_boundary.py": {
+      "bytes": 1787,
+      "sha256": "d11591ed08ccb345a90dc129d629d1d786a5122879e05294a05119b1cd60919b"
+    },
+    "reports/CPU_TESTS_COMPLETE_HEADER.log": {
+      "bytes": 16578,
+      "sha256": "bd047db00a04079eae92a13bec35f1b9e7406dfc43890c193956a9d76109c4af"
+    },
+    "reports/CPU_TESTS_FINAL.log": {
+      "bytes": 1378,
+      "sha256": "5277b46f16bf7353b59a4a8e7bcffc2914736dd22de7e1f6a6859ecf8f579408"
+    },
+    "reports/CPU_TESTS_VERIFIED_HEADER.log": {
+      "bytes": 1377,
+      "sha256": "a9d230325266bc74622ff850d7dde149909dc002df462c70626de8a6d06375b5"
+    },
+    "reports/G1_ASYNC_PUBLIC_API_RED_GREEN.log": {
+      "bytes": 868,
+      "sha256": "779b0922931e2b0dff22e65b83d0d2d1c40e5c4ab4db83a5c4936c21b78d8059"
+    },
+    "tests/test_inference_clock.py": {
+      "bytes": 11682,
+      "sha256": "467085523cc36b9b48c3ad81eae5ddca70d6eca80e5fbfab4023518a7d29dd48"
+    }
+  },
+  "native_model_GPU_calls": 0,
+  "parent_release_sha256": "a99686f1eba78ee427ce6c0388b4a343b74b972bee191d31fba6965602bad329",
+  "schema": "InferencePrefixClockContractSourceFreeze/1",
+  "software_only": true
+}

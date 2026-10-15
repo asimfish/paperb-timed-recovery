@@ -1,0 +1,78 @@
+{
+  "SDK_native_GPU_invocations": 0,
+  "created_at_utc": "2026-10-14T18:07:17.911531+00:00",
+  "file_count": 17,
+  "files": {
+    "INHERITED_READER_PROVENANCE.json": {
+      "bytes": 1349,
+      "sha256": "179a5940f6a555787793b855bade40a5c0216dbb7e93ce2838314466a011347f"
+    },
+    "PREOUTCOME_READER_CONTRACT.json": {
+      "bytes": 1578,
+      "sha256": "ec0f5722b3c1779883edd4302414e01539ac3b1bbb2da408bcf98c695af2c9fb"
+    },
+    "READER_DELTA_CONTRACT.json": {
+      "bytes": 774,
+      "sha256": "92a54aa7d4e48f5076266341c43950b4c1792f8234ddb4aa8f15c9bf4f48f6d5"
+    },
+    "README_cn.md": {
+      "bytes": 3780,
+      "sha256": "2950d25f5c54ede0fa22c12da15c4947eb3fdbaf47d95f13e21401be4e08884f"
+    },
+    "code/audit_fixture.py": {
+      "bytes": 40289,
+      "sha256": "051ba805e05a10bfd55a1efa9ec9f34bef09beeac85ae30d1caf7aa79be6086a"
+    },
+    "code/cleanup_lifecycle.py": {
+      "bytes": 6256,
+      "sha256": "15fa39f52f22f9978ce94c9288c1c1b15ba283a9c6676d1d4344b56c22618bce"
+    },
+    "code/independent_math.py": {
+      "bytes": 5370,
+      "sha256": "d2fd5a5b238bd44d3de8e780ac7a35523d3ebaabf12a475c291945257e1d8f2e"
+    },
+    "reports/CPU_INHERITED_PRE_CLEANUP.log": {
+      "bytes": 2196,
+      "sha256": "0f0136dd461df1ecee9cadf2790973f383795db150171e2bf30ab7c6297e6eb1"
+    },
+    "reports/CPU_TESTS.log": {
+      "bytes": 2903,
+      "sha256": "7721798879755b52d2c8cbbe2d91c21e0f365a3d47a4439aa255affde7a77d7e"
+    },
+    "reports/CPU_TESTS_FINAL.log": {
+      "bytes": 3012,
+      "sha256": "7b0519eba02fe9588bccb67324ffe212fa45bcd1b5fef7a137be97867a84810c"
+    },
+    "reports/CPU_VALIDATION.json": {
+      "bytes": 545,
+      "sha256": "18fdb6d2388c8ad051f63a60c589a90f81de3098a716bcf1a57ead38c07fe6b6"
+    },
+    "reports/INDEPENDENT_RED_GREEN_STOP_SEAM.json": {
+      "bytes": 1820,
+      "sha256": "babb85e6bb8073d89d8526a88a8f095b35890b8904f46a950b9b05552d5af30e"
+    },
+    "tests/synthetic_fixture.py": {
+      "bytes": 10540,
+      "sha256": "eaf9c6a386c37c2343d07ecae18a0f3432ce406dbe31c0c9f82a96748422423b"
+    },
+    "tests/test_cleanup_lifecycle.py": {
+      "bytes": 5653,
+      "sha256": "776b7781fabc4daacb12cb9d1512d8913f8071be999ab052233aa42b98b9b5c5"
+    },
+    "tests/test_independent_math.py": {
+      "bytes": 3671,
+      "sha256": "4bb9c38e8c2ac78bbd3dee293a9bf1bb2a0be9d7fff28de322b02318d6dcc972"
+    },
+    "tests/test_parser_and_cli.py": {
+      "bytes": 1351,
+      "sha256": "226a74f84431e490c6ffeffd68633e00bb3afb28bddf0d987b23b6ec11778022"
+    },
+    "tests/test_schema_reader.py": {
+      "bytes": 6755,
+      "sha256": "ff928ffff3f80475be1d01d9136b66cce40c3c2764ded9bc2b6c624a5c825b1b"
+    }
+  },
+  "outcome_changes_forbidden": true,
+  "schema": "SignedForceFixtureV02ProspectiveIndependentReaderFreeze/1",
+  "v02_native_outcomes_read": 0
+}

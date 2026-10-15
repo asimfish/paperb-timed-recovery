@@ -1,0 +1,11 @@
+{
+  "schema": "RootV03PreOutcomeAdapterCorrection/1",
+  "issued_at_utc": "2026-10-14T18:55:18.952702+00:00",
+  "v03_native_outcomes_seen": 0,
+  "old_adapter_sha256": "11de16bf37f7ba8fb729f6b324541dd9fbe015a51f15eafdf905d68c52da9b5c",
+  "new_adapter_sha256": "d55a2067d031a9e04bb675e1703f8e4f6fe7656e159e0d2ef103c6c268a09441",
+  "missing_field_found_by_independent_reader": "prospective_budget_confirmation",
+  "correction": "add exact value from independently pinned protocol to ROOT external expected_header",
+  "collector_reader_numeric_changes": false,
+  "native_admissions_issued_before_correction": 0
+}

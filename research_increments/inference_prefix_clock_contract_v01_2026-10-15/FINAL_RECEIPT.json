@@ -1,0 +1,13 @@
+{
+  "actual_G1_parent_modified": false,
+  "actual_S_F_R_admitted": 0,
+  "actual_async_simulation_integration": "NOT_INTEGRATED",
+  "actual_native_GPU_model_calls": 0,
+  "archive_bytes": 18368,
+  "archive_members": 11,
+  "archive_sha256": "9a2bd81e8b8119afe3feeaaa999cd8401976353d007c0be61e0bb875a8da245a",
+  "schema": "InferenceClockContractReceipt/1",
+  "source_freeze_sha256": "f55c2221066996a4737090c7c5d619e0067b7782a7b84424a42ce4d83911d143",
+  "source_members": 10,
+  "status": "FROZEN_SOFTWARE_ONLY"
+}

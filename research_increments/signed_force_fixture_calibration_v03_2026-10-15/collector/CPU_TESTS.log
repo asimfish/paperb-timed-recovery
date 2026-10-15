@@ -1,0 +1,40 @@
+test_arity_refused (test_capture_raw.CaptureTests) ... ok
+test_bool_count_refused (test_capture_raw.CaptureTests) ... ok
+test_copied_counts_survive_reuse (test_capture_raw.CaptureTests) ... ok
+test_freefall_details_never_called (test_capture_raw.CaptureTests) ... ok
+test_negative_zero_not_rewritten (test_capture_raw.CaptureTests) ... ok
+test_nonfinite_selected_refused (test_capture_raw.CaptureTests) ... ok
+test_normal_copied_before_friction_reuses_counts (test_capture_raw.CaptureTests) ... ok
+test_observed_clock_change_explicit (test_capture_raw.CaptureTests) ... ok
+test_observed_missing_not_zero (test_capture_raw.CaptureTests) ... ok
+test_overlap_refused (test_capture_raw.CaptureTests) ... ok
+test_range_refused (test_capture_raw.CaptureTests) ... ok
+test_signed_and_unused_preserved (test_capture_raw.CaptureTests) ... ok
+test_exact_pinned_context_and_sensor_AST_toggle_samekey (test_contact_processing_setting.ProcessingTests) ... ok
+test_getter_exception_unknown (test_contact_processing_setting.ProcessingTests) ... ok
+test_install_before_reset_and_readback_at_everyboundary_AST (test_contact_processing_setting.ProcessingTests) ... ok
+test_missing_or_nonbool_is_unknown_not_imputed (test_contact_processing_setting.ProcessingTests) ... ok
+test_negativecontrol_explicit_true (test_contact_processing_setting.ProcessingTests) ... ok
+test_nonbool_request_refused_beforewrite (test_contact_processing_setting.ProcessingTests) ... ok
+test_readonly_observation_clockchange_explicit (test_contact_processing_setting.ProcessingTests) ... ok
+test_requested_false_changes_actual_true_and_reads_it (test_contact_processing_setting.ProcessingTests) ... ok
+test_setter_ignored_is_visible_not_synthetic_match (test_contact_processing_setting.ProcessingTests) ... ok
+test_six_case_budget_and_identical_physical_parent_dicts (test_contact_processing_setting.ProcessingTests) ... ok
+test_clear_only_terminal_and_default_close_stays_zero_args (test_cleanup_candidate.CleanupCandidateTests) ... ok
+test_exact_installed_STOP_callback_is_red_without_public_clear (test_cleanup_candidate.CleanupCandidateTests) ... ok
+test_exact_installed_public_clear_removes_owned_callback_green (test_cleanup_candidate.CleanupCandidateTests) ... ok
+test_inherited_positive_physics_and_cleanup_unchanged (test_cleanup_candidate.CleanupCandidateTests) ... ok
+test_changed_source_refused (test_execution_gate.GateTests) ... ok
+test_independent_header_case_cannot_be_rewritten (test_execution_gate.GateTests) ... ok
+test_no_false_formal_start_without_clock (test_execution_gate.GateTests) ... ok
+test_original_binding_passes (test_execution_gate.GateTests) ... ok
+test_reader_pin_cannot_be_omitted (test_execution_gate.GateTests) ... ok
+test_resource_insufficient_refused (test_execution_gate.GateTests) ... ok
+test_source_review_status_cannot_be_unknown (test_execution_gate.GateTests) ... ok
+test_unapproved_sixth_case_refused (test_execution_gate.GateTests) ... ok
+test_wrong_gpu_or_limit_refused (test_execution_gate.GateTests) ... ok
+
+----------------------------------------------------------------------
+Ran 35 tests in 0.913s
+
+OK

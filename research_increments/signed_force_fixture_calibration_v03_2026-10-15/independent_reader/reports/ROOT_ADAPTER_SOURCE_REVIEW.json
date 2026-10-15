@@ -1,0 +1,27 @@
+{
+  "C3_C4_reference": "same source cal_force_c1_stack_v03 audit; source/raw failure must stop batch rather than fabricate missing series",
+  "expected_header_exact_collector_source_case_count": 6,
+  "fast_shutdown_return_scope": "CONDITIONAL_ON_PYTHON_RETURN with preclose/source/lifecycle/exit0 gates; freshclockUNKNOWN",
+  "native_outputs_read": 0,
+  "prospective_corrected_finding": "Added omitted prospective_budget_confirmation before source freeze and before native execution.",
+  "root_execute_cases_sha256": "c348458988cfe79d2b5133dd9dff9faea91222df31e48a56d5dc4832b631690d",
+  "root_gate_tools_sha256": "d55a2067d031a9e04bb675e1703f8e4f6fe7656e159e0d2ef103c6c268a09441",
+  "schema": "V03RootAdapterProspectiveIndependentSourceReview/1",
+  "source_only_function_AST_executions": true,
+  "status": "PASS_SIX_EXPECTED_HEADERS_TWELVE_REQUEST_INPUTS_AND_DECLARED_FAMILIES",
+  "terminal_input_keys": [
+    "HEADER.json",
+    "BEGIN.json",
+    "END.json",
+    "RESULT.json",
+    "RAW_POST.jsonl",
+    "LIFECYCLE.jsonl",
+    "CONTACT_PROCESSING_INSTALL_BEFORE_RESET.json",
+    "WORKER_TERMINAL.json",
+    "SOURCE_RELEASE.json",
+    "INSTALLED_API_PIN.json",
+    "ROOT_ADMISSION.json",
+    "SOURCE_REVIEW.json"
+  ],
+  "terminal_schema": "SignedForceFixtureROOTTerminalAuditRequest/3"
+}

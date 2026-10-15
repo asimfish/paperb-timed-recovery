@@ -1,0 +1,26 @@
+{
+  "all5_parent_numeric_cases_windows_thresholds_unchanged": true,
+  "author_native_GPU_SDK_imports": 0,
+  "bash_syntax_exit_code": 0,
+  "compiled_in_memory_files": [
+    "capture_raw.py",
+    "close_regression_model.py",
+    "execution_gate.py",
+    "gpu_mapping.py",
+    "lifecycle_observer.py",
+    "native_probe.py",
+    "physical_capture.py",
+    "run_worker.py",
+    "test_capture_raw.py",
+    "test_cleanup_candidate.py",
+    "test_execution_gate.py"
+  ],
+  "exactinstalled_method_AST_GREEN_publicclear_cli_exit": 0,
+  "exactinstalled_method_AST_RED_without_clear_cli_exit": 2,
+  "retained_initial_test_setup_ERROR_not_native": true,
+  "schema": "SignedForceFixtureV02PreNativeCPUValidation/1",
+  "status": "CPU_PASS_NATIVE_UNVERIFIED_NOT_FIXED",
+  "test_exit_code": 0,
+  "test_log_sha256": "efaaa6ffe061150b248e96cde89923f2212437e7ec16c4f147516d4b7b385aa3",
+  "tests": 25
+}

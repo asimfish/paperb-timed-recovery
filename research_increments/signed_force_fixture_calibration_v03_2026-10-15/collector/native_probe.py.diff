@@ -1,0 +1,70 @@
+--- sealed_force_v02/native_probe.py
++++ force_v03/native_probe.py
+@@ -14,6 +14,7 @@
+ from execution_gate import child_source_gate, sha
+ from capture_raw import canonical, plain, observed, query_contact, sha_value
+ from physical_capture import capture_snapshot
++from contact_processing_setting import install_processing_setting, read_processing_setting
+ from lifecycle_observer import LifecycleObserver, readonly_replicator_observations
+ 
+ gate, admission = child_source_gate()
+@@ -49,6 +50,7 @@
+     app = AppLauncher(dict(vars(args))).app
+     lifecycle.mark('AFTER_APP_START', clock_read=None)
+     import omni.usd
++    import carb
+     import omni.kit.app
+     from pxr import UsdGeom, UsdPhysics, PhysxSchema
+     import isaaclab.sim as sim_utils
+@@ -63,6 +65,9 @@
+     sim = sim_utils.SimulationContext(sim_utils.SimulationCfg(dt=dt, gravity=tuple(case['gravity_world_m_s2']),
+         device='cpu', use_fabric=True, physx=sim_utils.PhysxCfg(solver_type=1,
+         max_position_iteration_count=32, max_velocity_iteration_count=4, enable_ccd=True)))
++    processing_settings = carb.settings.get_settings()
++    processing_install = install_processing_setting(processing_settings, case['contact_processing_disabled_requested'])
++    record('CONTACT_PROCESSING_INSTALL_BEFORE_RESET.json', processing_install)
+     stage = omni.usd.get_context().get_stage()
+     UsdGeom.SetStageMetersPerUnit(stage, 1.0)
+     UsdPhysics.SetStageKilogramsPerUnit(stage, 1.0)
+@@ -106,7 +111,7 @@
+         body.reset()
+     sim.add_physics_callback('paperb_fixture_calibration_count', on_physics)
+     simulation_view = next(iter(bodies.values()))._physics_sim_view
+-    epoch = 'paperb_signed_force_fixture_calibration_v2:' + args.case + ':' + sha(root / 'protocol.json')
++    epoch = 'paperb_signed_force_fixture_calibration_v3:' + args.case + ':' + sha(root / 'protocol.json')
+     def clock():
+         return {'native_epoch': epoch, 'time_s': float(sim.current_time), 'callback_count': callback['count']}
+     origin = clock()
+@@ -180,12 +185,14 @@
+         'fixture_setup_readback': setup_readback,
+         'runtime_versions': {'isaac_version': version, 'physx_extension': physx_id,
+             'isaaclab_distribution': importlib.metadata.version('isaaclab'), 'selected_experience': args.experience},
+-        'physical_device': 'cpu', 'no_policy_or_force_or_torque_commands': True,
++        'contact_processing_setting': read_processing_setting(processing_settings, clock_read=clock),
++        'contact_processing_install': processing_install, 'physical_device': 'cpu', 'no_policy_or_force_or_torque_commands': True,
+         'pose_velocity_writes_after_first_controlled_step': 0,
+         'model_calls': 0, 'training_gpu_hours': 0}
+     record('HEADER.json', header)
+     begin = {'schema': 'SignedForceFixtureBoundary/1', 'phase': 'BEGIN', 'tick': -1,
+-             'clock': clock(), 'bodies': capture_bodies(-1, 'TASK_BEGIN')}
++             'clock': clock(), 'bodies': capture_bodies(-1, 'TASK_BEGIN'),
++             'contact_processing_setting': read_processing_setting(processing_settings, clock_read=clock)}
+     record('BEGIN.json', begin)
+     if clock() != origin:
+         raise RuntimeError('SETUP_GETTERS_CHANGED_NATIVE_CLOCK')
+@@ -207,6 +214,7 @@
+             'bodies': capture_bodies(tick, 'POST_STEP'),
+             'contacts': {path: {'metadata': meta, 'queries': [query_contact(view, qdt, clock, not freefall)
+                 for qdt in (1.0, dt, 2.0 * dt)]} for path, (view, meta) in contact_views.items()},
++            'contact_processing_setting': read_processing_setting(processing_settings, clock_read=clock),
+             'stage_inventory': inventory, 'stage_inventory_sha256': sha_value(inventory),
+             'previous_record_sha256': previous}
+         row['record_sha256'] = sha_value(row); previous = row['record_sha256']
+@@ -216,6 +224,7 @@
+     record('END.json', {'schema': 'SignedForceFixtureBoundary/1', 'phase': 'END',
+         'tick': case['controlled_steps'], 'clock': clock(),
+         'bodies': capture_bodies(case['controlled_steps'], 'TASK_END'),
++        'contact_processing_setting': read_processing_setting(processing_settings, clock_read=clock),
+         'stage_inventory': end_inventory, 'stage_inventory_unchanged': initial_inventory == end_inventory})
+     end_fsynced = True
+     lifecycle.mark('BEFORE_RESULT_WRITE', clock_read=clock)

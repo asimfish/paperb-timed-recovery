@@ -1,0 +1,40 @@
+{
+  "schema": "RootProspectiveResourceSelection/2",
+  "issued_at_utc": "2026-10-14T18:16:41.538356+00:00",
+  "previous_resource_refusal": {
+    "path": "/data/liyufeng/paperb_signed_force_calibration_20261015_v2/resource_gate_attempts/cal_force_c0_freefall_v02/20261014T181533862559Z-2420440.json",
+    "sha256": "2fc3a6afc41a5049bcd02563405b14bf4155f2fd95fc46d48755c28a76de5a84",
+    "receipt": {
+      "status": "RESOURCE_GATE_REFUSED",
+      "exit_code": 1,
+      "gpu_uuid": "GPU-828bb172-121c-cc55-7f4f-ef09a2bd7599",
+      "case_id": "cal_force_c0_freefall_v02",
+      "attempt_id": "20261014T181533862559Z-2420440",
+      "foreign_processes_signaled": false,
+      "gpu_work_started": false,
+      "formal_episode_started": false,
+      "retry_after_resource_change_allowed": true,
+      "allocated_gpu_hours_upper_bound": 0,
+      "model_calls": 0,
+      "training_gpu_hours": 0
+    }
+  },
+  "fresh_alternative": {
+    "device_minor": 1,
+    "drm_card": "card2",
+    "drm_render": "renderD129",
+    "foreign_processes_signaled": false,
+    "free_mib": 31723,
+    "global_driver_changes": false,
+    "gpu_uuid": "GPU-b129224c-c735-a03f-de6c-185d2a2724b1",
+    "isolated_renderer_active_gpu": 0,
+    "minimum_free_mib": 24576,
+    "pci_bus_id": "0000:41:00.0",
+    "schema": "paperb-gpu-readonly-admission-v2"
+  },
+  "new_native_epochs_so_far": 0,
+  "no_native_retry": true,
+  "previous_admission_preserved": true,
+  "next_admission_name": "ROOT_ADMISSION_resource_selected_02.json",
+  "worker_must_repeat_live_gate": true
+}

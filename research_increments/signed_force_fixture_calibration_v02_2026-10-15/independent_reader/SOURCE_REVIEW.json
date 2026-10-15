@@ -1,0 +1,52 @@
+{
+  "candidate_scope": "CAUSAL_COMPATIBLE_PUBLIC_CONTEXT_RELEASE_CANDIDATE_NATIVE_UNVERIFIED_NOT_FIXED",
+  "checks": [
+    {
+      "name": "all5prechosen cases after ID/ref normalization exactlyV01 definitions/setup/thresholds/windows/dt",
+      "status": "PASS"
+    },
+    {
+      "name": "mathbyteexact8physicalhelperfunctions unchanged3case/epochidentityonly",
+      "status": "PASS"
+    },
+    {
+      "name": "end/resultrecordflushfsync completeflagsbeforepublicclear ownidentityguard noearlyclear",
+      "status": "PASS"
+    },
+    {
+      "name": "installedLabclearunsubscribeownSTOP/baseclearcallbacks guard exactAST REDbefore GREENafter onfakeSTOPseam",
+      "status": "PASS_CPU_ONLY"
+    },
+    {
+      "name": "afterclearclockNone/cachedwrapperexplicitunknown/defaultappclose0args unchanged",
+      "status": "PASS"
+    },
+    {
+      "name": "fastShutdown default mayprocess-exit0withoutAFTERmarker;orderedrelease+readonlyreturned+normalownedterminalstillpermitsfixedwindowaudit;noinventedreturn",
+      "status": "PASS_PROSPECTIVE_CONTRACT"
+    },
+    {
+      "name": "source/API/header/root/reader/GPU admission pinned noforeignsignals same24576minimum/300wait/30terminate/actualcleanupseparately",
+      "status": "PASS"
+    }
+  ],
+  "collector_source_freeze_sha256": "c84c285a8c5b6283321c3d7436d77b827d1a223d2c0c46deb2da67c078f885e3",
+  "collector_source_members_independently_hashed": 32,
+  "compiled_backend_root_cause": "UNKNOWN",
+  "compiled_reader_files": 8,
+  "created_at_utc": "2026-10-14T18:07:18.293366+00:00",
+  "independent_installed_AST_regression_receipt_sha256": "babb85e6bb8073d89d8526a88a8f095b35890b8904f46a950b9b05552d5af30e",
+  "installed_API_members_independently_hashed": 22,
+  "installed_API_pin_sha256": "0f15102f714431540a56a30397a0305254e07ef7881a987c4d87854493692de5",
+  "no_old_source_reader_report_mutation": true,
+  "private_source_members_independently_hashed": 32,
+  "qualified_S_F_R": 0,
+  "reader_freeze_sha256": "918e41cb1484643e112b59f1e14c7897e447748354b93e04a769311a62a2626c",
+  "reader_tests": 29,
+  "robotload_unload_torque_chemical_hardware_truth": "UNKNOWN",
+  "schema": "SignedForceFixtureV02ProspectiveIndependentSourceReview/1",
+  "source_release_sha256": "24ec70ef9054fed8f03186adc4d69e3521605e61365d15b832f6a91cbf0faa7b",
+  "status": "PASS_PROSPECTIVE_SIGNED_FORCE_CALIBRATION_V02_SOURCE_REVIEW",
+  "v02_native_GPU_invocations": 0,
+  "v02_native_outcomes_read": 0
+}

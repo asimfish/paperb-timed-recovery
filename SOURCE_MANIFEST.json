@@ -8,22 +8,46 @@
       "transformations": []
     },
     {
-      "bytes": 6933,
       "path": "CURRENT_METHOD_cn.md",
-      "sha256": "e9012bc24fc476a8b3777a6754c694ccc69e2f7e7129c3b2ab379f88b58eecca",
-      "source": "publication supplement",
-      "source_sha256": "e9012bc24fc476a8b3777a6754c694ccc69e2f7e7129c3b2ab379f88b58eecca",
-      "transformations": []
+      "bytes": 13994,
+      "sha256": "06d6ca24659ccc348261a6b56f51e2056bc70738f7f161f868abc5bbea10417e",
+      "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/CURRENT_METHOD_cn.md",
+      "source_sha256": "06d6ca24659ccc348261a6b56f51e2056bc70738f7f161f868abc5bbea10417e",
+      "transformations": [
+        "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
+      ],
+      "parent_commit": "960d9b9d77e3729227511036dd74c9b228b2eda3",
+      "parent_sha256": "e9012bc24fc476a8b3777a6754c694ccc69e2f7e7129c3b2ab379f88b58eecca",
+      "parent_source_provenance": {
+        "bytes": 6933,
+        "path": "CURRENT_METHOD_cn.md",
+        "sha256": "e9012bc24fc476a8b3777a6754c694ccc69e2f7e7129c3b2ab379f88b58eecca",
+        "source": "publication supplement",
+        "source_sha256": "e9012bc24fc476a8b3777a6754c694ccc69e2f7e7129c3b2ab379f88b58eecca",
+        "transformations": []
+      }
     },
     {
-      "bytes": 2977,
       "path": "README.md",
-      "sha256": "4ffc98ad456a4a3990f63141be12551e1d106a39c4f4b1933b8685a2371c630a",
-      "source": "papers/paperB/research_increments/native_handoff_instrumentation_v2_2026-10-14/merged_delivery/concurrent_README.md",
-      "source_sha256": "4ffc98ad456a4a3990f63141be12551e1d106a39c4f4b1933b8685a2371c630a",
+      "bytes": 4292,
+      "sha256": "0521332e4a582d29f823d268fb8c0200b9ed84dacf51abf682c88a75879b6b4d",
+      "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/README.md",
+      "source_sha256": "0521332e4a582d29f823d268fb8c0200b9ed84dacf51abf682c88a75879b6b4d",
       "transformations": [
-        "Retain exact concurrent 66d4b91 README bytes; correct its stale parent SHA/size in publication manifest; initial failing source gate retained."
-      ]
+        "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
+      ],
+      "parent_commit": "960d9b9d77e3729227511036dd74c9b228b2eda3",
+      "parent_sha256": "4ffc98ad456a4a3990f63141be12551e1d106a39c4f4b1933b8685a2371c630a",
+      "parent_source_provenance": {
+        "bytes": 2977,
+        "path": "README.md",
+        "sha256": "4ffc98ad456a4a3990f63141be12551e1d106a39c4f4b1933b8685a2371c630a",
+        "source": "papers/paperB/research_increments/native_handoff_instrumentation_v2_2026-10-14/merged_delivery/concurrent_README.md",
+        "source_sha256": "4ffc98ad456a4a3990f63141be12551e1d106a39c4f4b1933b8685a2371c630a",
+        "transformations": [
+          "Retain exact concurrent 66d4b91 README bytes; correct its stale parent SHA/size in publication manifest; initial failing source gate retained."
+        ]
+      }
     },
     {
       "bytes": 23709,
@@ -222,6 +246,46 @@
       "source": "papers/paperB/research_increments/systematic_study_v01_2026-10-14/figures/p0_actual_cpu_training.svg",
       "source_sha256": "b007016a5ad42fcaef3f60e263a0d715ac49c029d2928b8eb6804032db96a30e",
       "transformations": []
+    },
+    {
+      "path": "calibration.css",
+      "bytes": 7640,
+      "sha256": "4fa72f4e881324a12907441c5d00b05458152ea27ee75c61fb40259219ef2c5f",
+      "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/calibration.css",
+      "source_sha256": "4fa72f4e881324a12907441c5d00b05458152ea27ee75c61fb40259219ef2c5f",
+      "transformations": [
+        "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
+      ]
+    },
+    {
+      "path": "calibration.html",
+      "bytes": 22372,
+      "sha256": "816922105d2ac5477b50b72e8b9d3c02aaf28793807bf0861f940709c9757103",
+      "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/calibration.html",
+      "source_sha256": "816922105d2ac5477b50b72e8b9d3c02aaf28793807bf0861f940709c9757103",
+      "transformations": [
+        "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
+      ]
+    },
+    {
+      "path": "calibration.js",
+      "bytes": 3697,
+      "sha256": "221b810ecc19775c050da07ee5f84236f6183466fcec5e2e47c85c9d167aeb79",
+      "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/calibration.js",
+      "source_sha256": "221b810ecc19775c050da07ee5f84236f6183466fcec5e2e47c85c9d167aeb79",
+      "transformations": [
+        "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
+      ]
+    },
+    {
+      "path": "check_current_site.py",
+      "bytes": 1582,
+      "sha256": "fcc990da5c50d9fd6a31b8df587b4e364e81b5906d1201bc40f3aa2ecbc66d6c",
+      "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/check_current_site.py",
+      "source_sha256": "fcc990da5c50d9fd6a31b8df587b4e364e81b5906d1201bc40f3aa2ecbc66d6c",
+      "transformations": [
+        "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
+      ]
     },
     {
       "bytes": 3383,
@@ -611,11 +675,23 @@
     },
     {
       "path": "force-diagnostics.html",
-      "bytes": 16584,
-      "sha256": "c341130ae5d1de2fc3ac830412558793d46235ab4a8a8bf8a00f8d68d519f331",
-      "source": "papers/paperB/research_increments/systematic_study_v01_2026-10-14/publication/source/force-diagnostics.html",
-      "source_sha256": "c341130ae5d1de2fc3ac830412558793d46235ab4a8a8bf8a00f8d68d519f331",
-      "transformations": []
+      "bytes": 17026,
+      "sha256": "3ec759e6f4cd6b56d47503a382aa9f7fcb3cc343eff213634c0b8e5fdf6e29a2",
+      "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/force-diagnostics.html",
+      "source_sha256": "3ec759e6f4cd6b56d47503a382aa9f7fcb3cc343eff213634c0b8e5fdf6e29a2",
+      "transformations": [
+        "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
+      ],
+      "parent_commit": "960d9b9d77e3729227511036dd74c9b228b2eda3",
+      "parent_sha256": "c341130ae5d1de2fc3ac830412558793d46235ab4a8a8bf8a00f8d68d519f331",
+      "parent_source_provenance": {
+        "path": "force-diagnostics.html",
+        "bytes": 16584,
+        "sha256": "c341130ae5d1de2fc3ac830412558793d46235ab4a8a8bf8a00f8d68d519f331",
+        "source": "papers/paperB/research_increments/systematic_study_v01_2026-10-14/publication/source/force-diagnostics.html",
+        "source_sha256": "c341130ae5d1de2fc3ac830412558793d46235ab4a8a8bf8a00f8d68d519f331",
+        "transformations": []
+      }
     },
     {
       "bytes": 52581,
@@ -653,11 +729,23 @@
     },
     {
       "path": "index.html",
-      "bytes": 284267,
-      "sha256": "ab1e1276f8daee977580ba8c0302fb991f1e586f683bc1776b32835d66801f4c",
-      "source": "papers/paperB/research_increments/systematic_study_v01_2026-10-14/publication/source/index.html",
-      "source_sha256": "ab1e1276f8daee977580ba8c0302fb991f1e586f683bc1776b32835d66801f4c",
-      "transformations": []
+      "bytes": 284710,
+      "sha256": "fa310a84906eabf89a9c4b09c517969a23fefb267ab4ee30fa5bd76894cca19d",
+      "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/index.html",
+      "source_sha256": "fa310a84906eabf89a9c4b09c517969a23fefb267ab4ee30fa5bd76894cca19d",
+      "transformations": [
+        "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
+      ],
+      "parent_commit": "960d9b9d77e3729227511036dd74c9b228b2eda3",
+      "parent_sha256": "ab1e1276f8daee977580ba8c0302fb991f1e586f683bc1776b32835d66801f4c",
+      "parent_source_provenance": {
+        "path": "index.html",
+        "bytes": 284267,
+        "sha256": "ab1e1276f8daee977580ba8c0302fb991f1e586f683bc1776b32835d66801f4c",
+        "source": "papers/paperB/research_increments/systematic_study_v01_2026-10-14/publication/source/index.html",
+        "source_sha256": "ab1e1276f8daee977580ba8c0302fb991f1e586f683bc1776b32835d66801f4c",
+        "transformations": []
+      }
     },
     {
       "bytes": 22873,
@@ -2154,6 +2242,136 @@
       "source": "papers/paperB/research_increments/grip_stiffness_qualification_2026-10-13/video/qual_m120_d00_hand_k1600.mp4"
     },
     {
+      "path": "research_increments/inference_prefix_clock_contract_v01_2026-10-15/CPU_ACCEPTANCE.json",
+      "bytes": 943,
+      "sha256": "4c235c303cda6513d41311cd321b9197fde571fa53db3f420de2e4acdb16b421",
+      "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/research_increments/inference_prefix_clock_contract_v01_2026-10-15/CPU_ACCEPTANCE.json",
+      "source_sha256": "4c235c303cda6513d41311cd321b9197fde571fa53db3f420de2e4acdb16b421",
+      "transformations": [
+        "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
+      ]
+    },
+    {
+      "path": "research_increments/inference_prefix_clock_contract_v01_2026-10-15/FINAL_RECEIPT.json",
+      "bytes": 508,
+      "sha256": "c32372cc94cbc4cba4dd72b992d8a79be60388d69e90629ecd5d2fa9002df590",
+      "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/research_increments/inference_prefix_clock_contract_v01_2026-10-15/FINAL_RECEIPT.json",
+      "source_sha256": "c32372cc94cbc4cba4dd72b992d8a79be60388d69e90629ecd5d2fa9002df590",
+      "transformations": [
+        "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
+      ]
+    },
+    {
+      "path": "research_increments/inference_prefix_clock_contract_v01_2026-10-15/README_cn.md",
+      "bytes": 4201,
+      "sha256": "a843df68cef337e076b45d59ffd90fb971bfc20fda9e6f306f2e854c3a6e1483",
+      "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/research_increments/inference_prefix_clock_contract_v01_2026-10-15/README_cn.md",
+      "source_sha256": "a843df68cef337e076b45d59ffd90fb971bfc20fda9e6f306f2e854c3a6e1483",
+      "transformations": [
+        "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
+      ]
+    },
+    {
+      "path": "research_increments/inference_prefix_clock_contract_v01_2026-10-15/SOURCE_FREEZE.json",
+      "bytes": 1887,
+      "sha256": "f55c2221066996a4737090c7c5d619e0067b7782a7b84424a42ce4d83911d143",
+      "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/research_increments/inference_prefix_clock_contract_v01_2026-10-15/SOURCE_FREEZE.json",
+      "source_sha256": "f55c2221066996a4737090c7c5d619e0067b7782a7b84424a42ce4d83911d143",
+      "transformations": [
+        "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
+      ]
+    },
+    {
+      "path": "research_increments/inference_prefix_clock_contract_v01_2026-10-15/inference_prefix_clock_contract_v01.zip",
+      "bytes": 18368,
+      "sha256": "9a2bd81e8b8119afe3feeaaa999cd8401976353d007c0be61e0bb875a8da245a",
+      "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/research_increments/inference_prefix_clock_contract_v01_2026-10-15/inference_prefix_clock_contract_v01.zip",
+      "source_sha256": "9a2bd81e8b8119afe3feeaaa999cd8401976353d007c0be61e0bb875a8da245a",
+      "transformations": [
+        "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
+      ]
+    },
+    {
+      "path": "research_increments/inference_prefix_clock_contract_v01_2026-10-15/root_review/ROOT_INDEPENDENT_REVIEW.json",
+      "bytes": 1236,
+      "sha256": "6c345a8124661c994335dd0d7a443bc94de8d9b332c7e775c180bc673aeb7048",
+      "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/research_increments/inference_prefix_clock_contract_v01_2026-10-15/root_review/ROOT_INDEPENDENT_REVIEW.json",
+      "source_sha256": "6c345a8124661c994335dd0d7a443bc94de8d9b332c7e775c180bc673aeb7048",
+      "transformations": [
+        "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
+      ]
+    },
+    {
+      "path": "research_increments/inference_prefix_clock_contract_v02_2026-10-15/CPU_ACCEPTANCE.json",
+      "bytes": 2154,
+      "sha256": "b2989f5c056c8ee7d283f196a3632da248378b58cff498d9bbcaed4fe8eac29e",
+      "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/research_increments/inference_prefix_clock_contract_v02_2026-10-15/CPU_ACCEPTANCE.json",
+      "source_sha256": "b2989f5c056c8ee7d283f196a3632da248378b58cff498d9bbcaed4fe8eac29e",
+      "transformations": [
+        "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
+      ]
+    },
+    {
+      "path": "research_increments/inference_prefix_clock_contract_v02_2026-10-15/FINAL_RECEIPT.json",
+      "bytes": 910,
+      "sha256": "56e703d9389768cae955c60273fad8bd43146891755d4458147b05e38eb587af",
+      "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/research_increments/inference_prefix_clock_contract_v02_2026-10-15/FINAL_RECEIPT.json",
+      "source_sha256": "56e703d9389768cae955c60273fad8bd43146891755d4458147b05e38eb587af",
+      "transformations": [
+        "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
+      ]
+    },
+    {
+      "path": "research_increments/inference_prefix_clock_contract_v02_2026-10-15/README_cn.md",
+      "bytes": 4022,
+      "sha256": "41dd1f1f7b074de3fabfd611bcd315835ff4af8df5efc960419332164960fb20",
+      "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/research_increments/inference_prefix_clock_contract_v02_2026-10-15/README_cn.md",
+      "source_sha256": "41dd1f1f7b074de3fabfd611bcd315835ff4af8df5efc960419332164960fb20",
+      "transformations": [
+        "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
+      ]
+    },
+    {
+      "path": "research_increments/inference_prefix_clock_contract_v02_2026-10-15/SOURCE_FREEZE.json",
+      "bytes": 5365,
+      "sha256": "ff96625ab11e7e02f33ec672c0ed19f6da7d1c363b32ffb81cef99560d0b280a",
+      "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/research_increments/inference_prefix_clock_contract_v02_2026-10-15/SOURCE_FREEZE.json",
+      "source_sha256": "ff96625ab11e7e02f33ec672c0ed19f6da7d1c363b32ffb81cef99560d0b280a",
+      "transformations": [
+        "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
+      ]
+    },
+    {
+      "path": "research_increments/inference_prefix_clock_contract_v02_2026-10-15/inference_prefix_clock_contract_v02.zip",
+      "bytes": 49960,
+      "sha256": "8c0a2f185a9ee0e5d6626ab2e66a2263766c1e3485d0f6e1e66dd1af87016295",
+      "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/research_increments/inference_prefix_clock_contract_v02_2026-10-15/inference_prefix_clock_contract_v02.zip",
+      "source_sha256": "8c0a2f185a9ee0e5d6626ab2e66a2263766c1e3485d0f6e1e66dd1af87016295",
+      "transformations": [
+        "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
+      ]
+    },
+    {
+      "path": "research_increments/inference_prefix_clock_contract_v02_2026-10-15/root_review/FINAL_REVIEW_RECEIPT.json",
+      "bytes": 1006,
+      "sha256": "ccf8fccf98701947fd3943c0a6c826d56c5b9195979a7bc84be8740dec009079",
+      "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/research_increments/inference_prefix_clock_contract_v02_2026-10-15/root_review/FINAL_REVIEW_RECEIPT.json",
+      "source_sha256": "ccf8fccf98701947fd3943c0a6c826d56c5b9195979a7bc84be8740dec009079",
+      "transformations": [
+        "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
+      ]
+    },
+    {
+      "path": "research_increments/inference_prefix_clock_contract_v02_2026-10-15/root_review/INDEPENDENT_REVIEW.json",
+      "bytes": 3101,
+      "sha256": "f239c693bd886907566bf3f4d8941316f914d8dc6ac115c4bc31d26405fd51bb",
+      "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/research_increments/inference_prefix_clock_contract_v02_2026-10-15/root_review/INDEPENDENT_REVIEW.json",
+      "source_sha256": "f239c693bd886907566bf3f4d8941316f914d8dc6ac115c4bc31d26405fd51bb",
+      "transformations": [
+        "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
+      ]
+    },
+    {
       "bytes": 693,
       "path": "research_increments/learning_handoff_frontier_2026-10-14/ROOT_ALL20_DIAGNOSTIC_REVIEW.json",
       "sha256": "f203d6136d060dbd76927ff1e2a41c21f008fb917248c9786aa528e0168ffcc4",
@@ -2232,6 +2450,56 @@
       "source": "papers/paperB/research_increments/learning_handoff_frontier_2026-10-14/publication/ROOT_NATIVE_STARTUP_CORRECTION.json",
       "source_sha256": "14ce201e4248b4002643aceaa3056744d1d49b7e0c60f8dfdd0236f1ad16cad5",
       "transformations": []
+    },
+    {
+      "path": "research_increments/mixed_actor_collector_bridge_v01_2026-10-15/CPU_RESULT.json",
+      "bytes": 4573,
+      "sha256": "d741a1f85cd6e661d62a37fe355ff231b1cef5e1c53d60a569af74cfe98d2082",
+      "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/research_increments/mixed_actor_collector_bridge_v01_2026-10-15/CPU_RESULT.json",
+      "source_sha256": "d741a1f85cd6e661d62a37fe355ff231b1cef5e1c53d60a569af74cfe98d2082",
+      "transformations": [
+        "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
+      ]
+    },
+    {
+      "path": "research_increments/mixed_actor_collector_bridge_v01_2026-10-15/README_cn.md",
+      "bytes": 5971,
+      "sha256": "7c6f91e3f5e600f2efd622ac16d92aad3d7370641513c392cdfd08975d742ffa",
+      "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/research_increments/mixed_actor_collector_bridge_v01_2026-10-15/README_cn.md",
+      "source_sha256": "7c6f91e3f5e600f2efd622ac16d92aad3d7370641513c392cdfd08975d742ffa",
+      "transformations": [
+        "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
+      ]
+    },
+    {
+      "path": "research_increments/mixed_actor_collector_bridge_v01_2026-10-15/SOURCE_RELEASE.json",
+      "bytes": 7448,
+      "sha256": "b68eb24785e4cf312b5d31f5d2c64d02570b74dfc55424ae17ccee9230c129cd",
+      "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/research_increments/mixed_actor_collector_bridge_v01_2026-10-15/SOURCE_RELEASE.json",
+      "source_sha256": "b68eb24785e4cf312b5d31f5d2c64d02570b74dfc55424ae17ccee9230c129cd",
+      "transformations": [
+        "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
+      ]
+    },
+    {
+      "path": "research_increments/mixed_actor_collector_bridge_v01_2026-10-15/independent_review/LONG_STREAM_AUDIT.json",
+      "bytes": 1476,
+      "sha256": "e06e5ffc7a2ea92cb638822dd913671f48cd2ec023edd46c56de2ec2ae4d817d",
+      "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/research_increments/mixed_actor_collector_bridge_v01_2026-10-15/independent_review/LONG_STREAM_AUDIT.json",
+      "source_sha256": "e06e5ffc7a2ea92cb638822dd913671f48cd2ec023edd46c56de2ec2ae4d817d",
+      "transformations": [
+        "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
+      ]
+    },
+    {
+      "path": "research_increments/mixed_actor_collector_bridge_v01_2026-10-15/independent_review/SOURCE_REVIEW.json",
+      "bytes": 5559,
+      "sha256": "287e339b84a331428eb49bb22b663ef0d902bf7d950a20c00c2de7266f8d1182",
+      "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/research_increments/mixed_actor_collector_bridge_v01_2026-10-15/independent_review/SOURCE_REVIEW.json",
+      "source_sha256": "287e339b84a331428eb49bb22b663ef0d902bf7d950a20c00c2de7266f8d1182",
+      "transformations": [
+        "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
+      ]
     },
     {
       "bytes": 1582,
@@ -2460,6 +2728,196 @@
       "path": "research_increments/native_calibration_failure_2026-10-13/qualification_design/single_parameter_qualification_design.tar.gz",
       "sha256": "ffc8396642c60161ac4f6f90df29ec08130736c701f24ce68aeaccd0db7f1020",
       "source": "papers/paperB/research_increments/native_calibration_failure_2026-10-13/qualification_design/single_parameter_qualification_design.tar.gz"
+    },
+    {
+      "path": "research_increments/native_force_event_time_paper_v04_2026-10-15/FINAL_CURRENT_DOCUMENT_CHECKS.json",
+      "bytes": 1595,
+      "sha256": "3af5d04bd0f074e0d41f392860595914edbbb71ab1d6218a52d8e57df4bf01d6",
+      "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/research_increments/native_force_event_time_paper_v04_2026-10-15/FINAL_CURRENT_DOCUMENT_CHECKS.json",
+      "source_sha256": "3af5d04bd0f074e0d41f392860595914edbbb71ab1d6218a52d8e57df4bf01d6",
+      "transformations": [
+        "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
+      ]
+    },
+    {
+      "path": "research_increments/native_force_event_time_paper_v04_2026-10-15/MANUSCRIPT_SOURCE_RELEASE_V04.json",
+      "bytes": 21239,
+      "sha256": "fa52c0de33b2c6b8bff2e069e4412f2a6633eed01d4e084fb36a5bb34921fa1f",
+      "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/research_increments/native_force_event_time_paper_v04_2026-10-15/MANUSCRIPT_SOURCE_RELEASE_V04.json",
+      "source_sha256": "fa52c0de33b2c6b8bff2e069e4412f2a6633eed01d4e084fb36a5bb34921fa1f",
+      "transformations": [
+        "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
+      ]
+    },
+    {
+      "path": "research_increments/native_force_event_time_paper_v04_2026-10-15/PAPERB_VERIFIED_CLOCK_V04_SOURCE.zip",
+      "bytes": 2611096,
+      "sha256": "604385905cf09a2265f46d70fdf48de51f2de92137737e3da11b2602ce946f0b",
+      "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/research_increments/native_force_event_time_paper_v04_2026-10-15/PAPERB_VERIFIED_CLOCK_V04_SOURCE.zip",
+      "source_sha256": "604385905cf09a2265f46d70fdf48de51f2de92137737e3da11b2602ce946f0b",
+      "transformations": [
+        "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
+      ]
+    },
+    {
+      "path": "research_increments/native_force_event_time_paper_v04_2026-10-15/TOP_LEVEL_DELIVERY_READBACK.json",
+      "bytes": 997,
+      "sha256": "79a09f3a4d111b34c4437ffcf023b430bf435fb67c88d52593211f62361536f3",
+      "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/research_increments/native_force_event_time_paper_v04_2026-10-15/TOP_LEVEL_DELIVERY_READBACK.json",
+      "source_sha256": "79a09f3a4d111b34c4437ffcf023b430bf435fb67c88d52593211f62361536f3",
+      "transformations": [
+        "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
+      ]
+    },
+    {
+      "path": "research_increments/native_force_event_time_paper_v04_2026-10-15/main.tex",
+      "bytes": 55691,
+      "sha256": "206c2871e38c7b155a5e4770811684d22bfa631c9e305cad8aadf36bf97e72c6",
+      "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/research_increments/native_force_event_time_paper_v04_2026-10-15/main.tex",
+      "source_sha256": "206c2871e38c7b155a5e4770811684d22bfa631c9e305cad8aadf36bf97e72c6",
+      "transformations": [
+        "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
+      ]
+    },
+    {
+      "path": "research_increments/native_force_event_time_paper_v04_2026-10-15/paper.md",
+      "bytes": 56528,
+      "sha256": "1ed04cbd1d0879ccf6cdfa62fe646bedb2cb8d06fa69f87225591cf48c0c52b3",
+      "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/research_increments/native_force_event_time_paper_v04_2026-10-15/paper.md",
+      "source_sha256": "1ed04cbd1d0879ccf6cdfa62fe646bedb2cb8d06fa69f87225591cf48c0c52b3",
+      "transformations": [
+        "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
+      ]
+    },
+    {
+      "path": "research_increments/native_force_event_time_paper_v04_2026-10-15/paperB_verified_clock_v04.pdf",
+      "bytes": 357496,
+      "sha256": "d09d60a6f0570dc3f53d904cff7c42d87bd95f0639dee55300fcbb6a068c6e0a",
+      "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/research_increments/native_force_event_time_paper_v04_2026-10-15/paperB_verified_clock_v04.pdf",
+      "source_sha256": "d09d60a6f0570dc3f53d904cff7c42d87bd95f0639dee55300fcbb6a068c6e0a",
+      "transformations": [
+        "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
+      ]
+    },
+    {
+      "path": "research_increments/native_force_event_time_paper_v05_2026-10-15/FINAL_CURRENT_DOCUMENT_CHECKS.json",
+      "bytes": 1777,
+      "sha256": "55493437072d3d124c23b2e3001a7b606d5511afba113ab93422c24e2201ad48",
+      "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/research_increments/native_force_event_time_paper_v05_2026-10-15/FINAL_CURRENT_DOCUMENT_CHECKS.json",
+      "source_sha256": "55493437072d3d124c23b2e3001a7b606d5511afba113ab93422c24e2201ad48",
+      "transformations": [
+        "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
+      ]
+    },
+    {
+      "path": "research_increments/native_force_event_time_paper_v05_2026-10-15/INPUT_EVIDENCE_PIN_V05.json",
+      "bytes": 14375,
+      "sha256": "964c95e01b17bb47a6582135464d266b6f751862da50de9bf710572a9de7ffa2",
+      "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/research_increments/native_force_event_time_paper_v05_2026-10-15/INPUT_EVIDENCE_PIN_V05.json",
+      "source_sha256": "964c95e01b17bb47a6582135464d266b6f751862da50de9bf710572a9de7ffa2",
+      "transformations": [
+        "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
+      ]
+    },
+    {
+      "path": "research_increments/native_force_event_time_paper_v05_2026-10-15/MANUSCRIPT_SOURCE_RELEASE_V05.json",
+      "bytes": 24746,
+      "sha256": "af4b022a18b2930b414beef9e0b3a97dd3f97d279d8980bfb50526efa6d9eaf4",
+      "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/research_increments/native_force_event_time_paper_v05_2026-10-15/MANUSCRIPT_SOURCE_RELEASE_V05.json",
+      "source_sha256": "af4b022a18b2930b414beef9e0b3a97dd3f97d279d8980bfb50526efa6d9eaf4",
+      "transformations": [
+        "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
+      ]
+    },
+    {
+      "path": "research_increments/native_force_event_time_paper_v05_2026-10-15/PAPERB_VERIFIED_CLOCK_V05_SOURCE.zip",
+      "bytes": 2686644,
+      "sha256": "cbc55458bb7f929d0836f752cfb80285b9914aaefaff49b16db4233b8a1041b5",
+      "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/research_increments/native_force_event_time_paper_v05_2026-10-15/PAPERB_VERIFIED_CLOCK_V05_SOURCE.zip",
+      "source_sha256": "cbc55458bb7f929d0836f752cfb80285b9914aaefaff49b16db4233b8a1041b5",
+      "transformations": [
+        "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
+      ]
+    },
+    {
+      "path": "research_increments/native_force_event_time_paper_v05_2026-10-15/README.md",
+      "bytes": 6726,
+      "sha256": "b8720f676b83750d2a0c765c297ec475008af156ec63b12bf3c6211ded254eab",
+      "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/research_increments/native_force_event_time_paper_v05_2026-10-15/README.md",
+      "source_sha256": "b8720f676b83750d2a0c765c297ec475008af156ec63b12bf3c6211ded254eab",
+      "transformations": [
+        "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
+      ]
+    },
+    {
+      "path": "research_increments/native_force_event_time_paper_v05_2026-10-15/TOP_LEVEL_DELIVERY_READBACK.json",
+      "bytes": 1253,
+      "sha256": "4653b4e71307a7d12444c1f92341c9c02754d31c91efcc705df2371c1877d642",
+      "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/research_increments/native_force_event_time_paper_v05_2026-10-15/TOP_LEVEL_DELIVERY_READBACK.json",
+      "source_sha256": "4653b4e71307a7d12444c1f92341c9c02754d31c91efcc705df2371c1877d642",
+      "transformations": [
+        "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
+      ]
+    },
+    {
+      "path": "research_increments/native_force_event_time_paper_v05_2026-10-15/main.tex",
+      "bytes": 57010,
+      "sha256": "3a2858693755787ba488f96f26b2aa23d9a31459f01d543ce5b4d0b07e81b7d7",
+      "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/research_increments/native_force_event_time_paper_v05_2026-10-15/main.tex",
+      "source_sha256": "3a2858693755787ba488f96f26b2aa23d9a31459f01d543ce5b4d0b07e81b7d7",
+      "transformations": [
+        "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
+      ]
+    },
+    {
+      "path": "research_increments/native_force_event_time_paper_v05_2026-10-15/paper.md",
+      "bytes": 57847,
+      "sha256": "42ccfabdb70cc773aec2d8eee988a2f14af52a0f3f505381772c1992d44613bf",
+      "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/research_increments/native_force_event_time_paper_v05_2026-10-15/paper.md",
+      "source_sha256": "42ccfabdb70cc773aec2d8eee988a2f14af52a0f3f505381772c1992d44613bf",
+      "transformations": [
+        "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
+      ]
+    },
+    {
+      "path": "research_increments/native_force_event_time_paper_v05_2026-10-15/paperB_verified_clock_v05.pdf",
+      "bytes": 358815,
+      "sha256": "049d836618fb242e29bdcbf70dc3b08847731798873896e8841e14a2230f9fe8",
+      "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/research_increments/native_force_event_time_paper_v05_2026-10-15/paperB_verified_clock_v05.pdf",
+      "source_sha256": "049d836618fb242e29bdcbf70dc3b08847731798873896e8841e14a2230f9fe8",
+      "transformations": [
+        "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
+      ]
+    },
+    {
+      "path": "research_increments/native_force_event_time_paper_v05_2026-10-15/root_review/ROOT_NAS_V05_DELIVERY_READBACK.json",
+      "bytes": 679,
+      "sha256": "40a7287468bbfab372370bc7eb7d84d6425bb07766aa2c4d6e5c20117816f506",
+      "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/research_increments/native_force_event_time_paper_v05_2026-10-15/root_review/ROOT_NAS_V05_DELIVERY_READBACK.json",
+      "source_sha256": "40a7287468bbfab372370bc7eb7d84d6425bb07766aa2c4d6e5c20117816f506",
+      "transformations": [
+        "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
+      ]
+    },
+    {
+      "path": "research_increments/native_force_event_time_paper_v05_2026-10-15/root_review/ROOT_PAPER_V05_GATE.json",
+      "bytes": 1524,
+      "sha256": "b30a71b1255eda27cc20ba76b194b567eb390b03ea615d48160f27e79997bb82",
+      "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/research_increments/native_force_event_time_paper_v05_2026-10-15/root_review/ROOT_PAPER_V05_GATE.json",
+      "source_sha256": "b30a71b1255eda27cc20ba76b194b567eb390b03ea615d48160f27e79997bb82",
+      "transformations": [
+        "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
+      ]
+    },
+    {
+      "path": "research_increments/native_force_event_time_paper_v05_2026-10-15/root_review/ROOT_V05_VISUAL_REVIEW.json",
+      "bytes": 2237,
+      "sha256": "4ee07a4f546a9d7032eecaf72043b207d71a9287dcf6f7390cef56ef78d27d54",
+      "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/research_increments/native_force_event_time_paper_v05_2026-10-15/root_review/ROOT_V05_VISUAL_REVIEW.json",
+      "source_sha256": "4ee07a4f546a9d7032eecaf72043b207d71a9287dcf6f7390cef56ef78d27d54",
+      "transformations": [
+        "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
+      ]
     },
     {
       "bytes": 2419,
@@ -2788,6 +3246,16 @@
       "source": "papers/paperB/research_increments/native_handoff_instrumentation_v2_2026-10-14/source_only_parallel_aris_review/SOURCE_ONLY_VERDICT.json",
       "source_sha256": "06b9c37acadd7804c5043df3efeb08f33d101220500e8427aac5eb7b2fda3d4e",
       "transformations": []
+    },
+    {
+      "path": "research_increments/native_shutdown_diagnostic_v01_2026-10-15/actual_audits/dev_shutdown_after_fixture_001/REPORT.json",
+      "bytes": 12453,
+      "sha256": "af8c0c7db92b5aa510d267ca1a9fde6162d9992f7baf88b17d56cfb278afa0c6",
+      "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/research_increments/native_shutdown_diagnostic_v01_2026-10-15/actual_audits/dev_shutdown_after_fixture_001/REPORT.json",
+      "source_sha256": "af8c0c7db92b5aa510d267ca1a9fde6162d9992f7baf88b17d56cfb278afa0c6",
+      "transformations": [
+        "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
+      ]
     },
     {
       "bytes": 37283,
@@ -3478,6 +3946,1670 @@
       "source": "research_increments/shared_bus_contracts_2026-10-12/paper_preview/note.pdf",
       "source_sha256": "e455994a4a5fc85dfa55c74be843219ce38d259e6f61563e3891f1bfabc7580b",
       "transformations": []
+    },
+    {
+      "path": "research_increments/signed_force_fixture_calibration_v01_2026-10-15/actual_audits/cal_force_c0_freefall_v01/REPORT.json",
+      "bytes": 854,
+      "sha256": "ba911f86dcb68e31c2a8af29a9183d3d703c195b3230848ae3a88dea3649b05b",
+      "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/research_increments/signed_force_fixture_calibration_v01_2026-10-15/actual_audits/cal_force_c0_freefall_v01/REPORT.json",
+      "source_sha256": "ba911f86dcb68e31c2a8af29a9183d3d703c195b3230848ae3a88dea3649b05b",
+      "transformations": [
+        "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
+      ]
+    },
+    {
+      "path": "research_increments/signed_force_fixture_calibration_v02_2026-10-15/DATA/source_inventory.json",
+      "bytes": 16892,
+      "sha256": "b2cb1236b747a4bd029b0cb626476f746d315f8e33c46b9361142f7be0056b15",
+      "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/research_increments/signed_force_fixture_calibration_v02_2026-10-15/DATA/source_inventory.json",
+      "source_sha256": "b2cb1236b747a4bd029b0cb626476f746d315f8e33c46b9361142f7be0056b15",
+      "transformations": [
+        "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
+      ]
+    },
+    {
+      "path": "research_increments/signed_force_fixture_calibration_v02_2026-10-15/DATA/status.json",
+      "bytes": 5973,
+      "sha256": "08b45f3080292285f9ce98cb4912f09db3014239f4d4fcc2624f8b7810d1fea4",
+      "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/research_increments/signed_force_fixture_calibration_v02_2026-10-15/DATA/status.json",
+      "source_sha256": "08b45f3080292285f9ce98cb4912f09db3014239f4d4fcc2624f8b7810d1fea4",
+      "transformations": [
+        "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
+      ]
+    },
+    {
+      "path": "research_increments/signed_force_fixture_calibration_v02_2026-10-15/ROOT_PROSPECTIVE_BATCH_SELECTION.json",
+      "bytes": 6447,
+      "sha256": "962868e6da3c50f42f4aecb63b479351fc7f5a908c7deaf0b103bde47e701a57",
+      "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/research_increments/signed_force_fixture_calibration_v02_2026-10-15/ROOT_PROSPECTIVE_BATCH_SELECTION.json",
+      "source_sha256": "962868e6da3c50f42f4aecb63b479351fc7f5a908c7deaf0b103bde47e701a57",
+      "transformations": [
+        "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
+      ]
+    },
+    {
+      "path": "research_increments/signed_force_fixture_calibration_v02_2026-10-15/actual_audits/cal_force_c0_freefall_v02/AUDITED_SERIES.json",
+      "bytes": 47241,
+      "sha256": "1246829bef1eb06377e49589a48db344d1a472a350fbf655da15d739ba621c6c",
+      "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/research_increments/signed_force_fixture_calibration_v02_2026-10-15/actual_audits/cal_force_c0_freefall_v02/AUDITED_SERIES.json",
+      "source_sha256": "1246829bef1eb06377e49589a48db344d1a472a350fbf655da15d739ba621c6c",
+      "transformations": [
+        "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
+      ]
+    },
+    {
+      "path": "research_increments/signed_force_fixture_calibration_v02_2026-10-15/actual_audits/cal_force_c0_freefall_v02/REPORT.json",
+      "bytes": 35885,
+      "sha256": "e122d55cc2cf427ffb96414d042c74c60c3b77fa2f8f99c18b9fb4de45284f92",
+      "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/research_increments/signed_force_fixture_calibration_v02_2026-10-15/actual_audits/cal_force_c0_freefall_v02/REPORT.json",
+      "source_sha256": "e122d55cc2cf427ffb96414d042c74c60c3b77fa2f8f99c18b9fb4de45284f92",
+      "transformations": [
+        "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
+      ]
+    },
+    {
+      "path": "research_increments/signed_force_fixture_calibration_v02_2026-10-15/actual_audits/cal_force_c1_stack_v02/AUDITED_SERIES.json",
+      "bytes": 59035,
+      "sha256": "d34b4e6a5ba18bd6f9bbe3dc46d9507fc48aad7c3c1bf69589f73d41dc8ac2f7",
+      "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/research_increments/signed_force_fixture_calibration_v02_2026-10-15/actual_audits/cal_force_c1_stack_v02/AUDITED_SERIES.json",
+      "source_sha256": "d34b4e6a5ba18bd6f9bbe3dc46d9507fc48aad7c3c1bf69589f73d41dc8ac2f7",
+      "transformations": [
+        "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
+      ]
+    },
+    {
+      "path": "research_increments/signed_force_fixture_calibration_v02_2026-10-15/actual_audits/cal_force_c1_stack_v02/REPORT.json",
+      "bytes": 275878,
+      "sha256": "105193f4ab8cb2cc2d68bd12b4139b4d04b14d73b866743da82da601997dc3e9",
+      "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/research_increments/signed_force_fixture_calibration_v02_2026-10-15/actual_audits/cal_force_c1_stack_v02/REPORT.json",
+      "source_sha256": "105193f4ab8cb2cc2d68bd12b4139b4d04b14d73b866743da82da601997dc3e9",
+      "transformations": [
+        "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
+      ]
+    },
+    {
+      "path": "research_increments/signed_force_fixture_calibration_v02_2026-10-15/collector/CAUSE_EVIDENCE_REFERENCE.json",
+      "bytes": 1599,
+      "sha256": "2cbdb54fd2b010ece8902de19bf6d4b0603ccfd7fa37634f3f230ca4f230d3e7",
+      "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/research_increments/signed_force_fixture_calibration_v02_2026-10-15/collector/CAUSE_EVIDENCE_REFERENCE.json",
+      "source_sha256": "2cbdb54fd2b010ece8902de19bf6d4b0603ccfd7fa37634f3f230ca4f230d3e7",
+      "transformations": [
+        "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
+      ]
+    },
+    {
+      "path": "research_increments/signed_force_fixture_calibration_v02_2026-10-15/collector/CPU_VALIDATION.json",
+      "bytes": 883,
+      "sha256": "f0ff4b056d3c31714c53ebcc8daf87c2a19b375a2ef8a6aaa5f8965ea2c5e920",
+      "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/research_increments/signed_force_fixture_calibration_v02_2026-10-15/collector/CPU_VALIDATION.json",
+      "source_sha256": "f0ff4b056d3c31714c53ebcc8daf87c2a19b375a2ef8a6aaa5f8965ea2c5e920",
+      "transformations": [
+        "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
+      ]
+    },
+    {
+      "path": "research_increments/signed_force_fixture_calibration_v02_2026-10-15/collector/EXECUTION_RELEASE.json",
+      "bytes": 4118,
+      "sha256": "24ec70ef9054fed8f03186adc4d69e3521605e61365d15b832f6a91cbf0faa7b",
+      "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/research_increments/signed_force_fixture_calibration_v02_2026-10-15/collector/EXECUTION_RELEASE.json",
+      "source_sha256": "24ec70ef9054fed8f03186adc4d69e3521605e61365d15b832f6a91cbf0faa7b",
+      "transformations": [
+        "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
+      ]
+    },
+    {
+      "path": "research_increments/signed_force_fixture_calibration_v02_2026-10-15/collector/FINAL_RECEIPT.json",
+      "bytes": 629,
+      "sha256": "1fc37a8c28f31e2aa99508d7376a8e3abbe8f7db3623698b1aa034e2401490e0",
+      "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/research_increments/signed_force_fixture_calibration_v02_2026-10-15/collector/FINAL_RECEIPT.json",
+      "source_sha256": "1fc37a8c28f31e2aa99508d7376a8e3abbe8f7db3623698b1aa034e2401490e0",
+      "transformations": [
+        "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
+      ]
+    },
+    {
+      "path": "research_increments/signed_force_fixture_calibration_v02_2026-10-15/collector/README_cn.md",
+      "bytes": 4077,
+      "sha256": "b3c9f2d7a5ae5b48bcad9f6237adace8295fe0a2781fa6107af6e77296d5162e",
+      "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/research_increments/signed_force_fixture_calibration_v02_2026-10-15/collector/README_cn.md",
+      "source_sha256": "b3c9f2d7a5ae5b48bcad9f6237adace8295fe0a2781fa6107af6e77296d5162e",
+      "transformations": [
+        "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
+      ]
+    },
+    {
+      "path": "research_increments/signed_force_fixture_calibration_v02_2026-10-15/collector/SCHEMA_CONTRACT.json",
+      "bytes": 4971,
+      "sha256": "cf8e2d3e341447250bd487f4f3024d94e652cbc6c65ad9a8476916156a06a560",
+      "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/research_increments/signed_force_fixture_calibration_v02_2026-10-15/collector/SCHEMA_CONTRACT.json",
+      "source_sha256": "cf8e2d3e341447250bd487f4f3024d94e652cbc6c65ad9a8476916156a06a560",
+      "transformations": [
+        "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
+      ]
+    },
+    {
+      "path": "research_increments/signed_force_fixture_calibration_v02_2026-10-15/collector/SOURCE_FREEZE.json",
+      "bytes": 7272,
+      "sha256": "c84c285a8c5b6283321c3d7436d77b827d1a223d2c0c46deb2da67c078f885e3",
+      "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/research_increments/signed_force_fixture_calibration_v02_2026-10-15/collector/SOURCE_FREEZE.json",
+      "source_sha256": "c84c285a8c5b6283321c3d7436d77b827d1a223d2c0c46deb2da67c078f885e3",
+      "transformations": [
+        "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
+      ]
+    },
+    {
+      "path": "research_increments/signed_force_fixture_calibration_v02_2026-10-15/collector/force_fixture_v02_source.zip",
+      "bytes": 60081,
+      "sha256": "8e5a642a143585619f4d2d2b1dda49fad2ae060adf0d2572887e3bf57cea920d",
+      "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/research_increments/signed_force_fixture_calibration_v02_2026-10-15/collector/force_fixture_v02_source.zip",
+      "source_sha256": "8e5a642a143585619f4d2d2b1dda49fad2ae060adf0d2572887e3bf57cea920d",
+      "transformations": [
+        "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
+      ]
+    },
+    {
+      "path": "research_increments/signed_force_fixture_calibration_v02_2026-10-15/collector/protocol.json",
+      "bytes": 11446,
+      "sha256": "348a533cd78c312b68ab47c1ab8b219b1785021a553c37cc22f9f6c5874abd5c",
+      "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/research_increments/signed_force_fixture_calibration_v02_2026-10-15/collector/protocol.json",
+      "source_sha256": "348a533cd78c312b68ab47c1ab8b219b1785021a553c37cc22f9f6c5874abd5c",
+      "transformations": [
+        "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
+      ]
+    },
+    {
+      "path": "research_increments/signed_force_fixture_calibration_v02_2026-10-15/figures/FIGURE_RECEIPT.json",
+      "bytes": 1353,
+      "sha256": "9a118790eb91bd496a6187f829b9b41abf2009e9368c995f6b02897db4facbfb",
+      "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/research_increments/signed_force_fixture_calibration_v02_2026-10-15/figures/FIGURE_RECEIPT.json",
+      "source_sha256": "9a118790eb91bd496a6187f829b9b41abf2009e9368c995f6b02897db4facbfb",
+      "transformations": [
+        "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
+      ]
+    },
+    {
+      "path": "research_increments/signed_force_fixture_calibration_v02_2026-10-15/figures/signed_force_calibration.pdf",
+      "bytes": 21687,
+      "sha256": "c3fdd76eaa1e53cf99e4831a7354508f71200cba8db6311c0cd6a3e3e0bf2857",
+      "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/research_increments/signed_force_fixture_calibration_v02_2026-10-15/figures/signed_force_calibration.pdf",
+      "source_sha256": "c3fdd76eaa1e53cf99e4831a7354508f71200cba8db6311c0cd6a3e3e0bf2857",
+      "transformations": [
+        "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
+      ]
+    },
+    {
+      "path": "research_increments/signed_force_fixture_calibration_v02_2026-10-15/figures/signed_force_calibration.png",
+      "bytes": 115854,
+      "sha256": "9215dad89ec0995eb107dbf60f9124f9b2154875711b8d93ab07300830869234",
+      "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/research_increments/signed_force_fixture_calibration_v02_2026-10-15/figures/signed_force_calibration.png",
+      "source_sha256": "9215dad89ec0995eb107dbf60f9124f9b2154875711b8d93ab07300830869234",
+      "transformations": [
+        "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
+      ]
+    },
+    {
+      "path": "research_increments/signed_force_fixture_calibration_v02_2026-10-15/figures/signed_force_calibration.svg",
+      "bytes": 76522,
+      "sha256": "010e48beeea072d3921d5a2e8569e9a6ef459c0240f50056e48670fff9433774",
+      "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/research_increments/signed_force_fixture_calibration_v02_2026-10-15/figures/signed_force_calibration.svg",
+      "source_sha256": "010e48beeea072d3921d5a2e8569e9a6ef459c0240f50056e48670fff9433774",
+      "transformations": [
+        "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
+      ]
+    },
+    {
+      "path": "research_increments/signed_force_fixture_calibration_v02_2026-10-15/independent_reader/FINAL_RECEIPT.json",
+      "bytes": 536,
+      "sha256": "2efe505fe95b5687ca5aaf859f40a2410350697c6033c16d8229f02e151358ef",
+      "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/research_increments/signed_force_fixture_calibration_v02_2026-10-15/independent_reader/FINAL_RECEIPT.json",
+      "source_sha256": "2efe505fe95b5687ca5aaf859f40a2410350697c6033c16d8229f02e151358ef",
+      "transformations": [
+        "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
+      ]
+    },
+    {
+      "path": "research_increments/signed_force_fixture_calibration_v02_2026-10-15/independent_reader/PREOUTCOME_READER_CONTRACT.json",
+      "bytes": 1578,
+      "sha256": "ec0f5722b3c1779883edd4302414e01539ac3b1bbb2da408bcf98c695af2c9fb",
+      "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/research_increments/signed_force_fixture_calibration_v02_2026-10-15/independent_reader/PREOUTCOME_READER_CONTRACT.json",
+      "source_sha256": "ec0f5722b3c1779883edd4302414e01539ac3b1bbb2da408bcf98c695af2c9fb",
+      "transformations": [
+        "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
+      ]
+    },
+    {
+      "path": "research_increments/signed_force_fixture_calibration_v02_2026-10-15/independent_reader/PROSPECTIVE_READER_FREEZE.json",
+      "bytes": 2800,
+      "sha256": "918e41cb1484643e112b59f1e14c7897e447748354b93e04a769311a62a2626c",
+      "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/research_increments/signed_force_fixture_calibration_v02_2026-10-15/independent_reader/PROSPECTIVE_READER_FREEZE.json",
+      "source_sha256": "918e41cb1484643e112b59f1e14c7897e447748354b93e04a769311a62a2626c",
+      "transformations": [
+        "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
+      ]
+    },
+    {
+      "path": "research_increments/signed_force_fixture_calibration_v02_2026-10-15/independent_reader/READER_DELTA_CONTRACT.json",
+      "bytes": 774,
+      "sha256": "92a54aa7d4e48f5076266341c43950b4c1792f8234ddb4aa8f15c9bf4f48f6d5",
+      "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/research_increments/signed_force_fixture_calibration_v02_2026-10-15/independent_reader/READER_DELTA_CONTRACT.json",
+      "source_sha256": "92a54aa7d4e48f5076266341c43950b4c1792f8234ddb4aa8f15c9bf4f48f6d5",
+      "transformations": [
+        "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
+      ]
+    },
+    {
+      "path": "research_increments/signed_force_fixture_calibration_v02_2026-10-15/independent_reader/README_cn.md",
+      "bytes": 3780,
+      "sha256": "2950d25f5c54ede0fa22c12da15c4947eb3fdbaf47d95f13e21401be4e08884f",
+      "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/research_increments/signed_force_fixture_calibration_v02_2026-10-15/independent_reader/README_cn.md",
+      "source_sha256": "2950d25f5c54ede0fa22c12da15c4947eb3fdbaf47d95f13e21401be4e08884f",
+      "transformations": [
+        "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
+      ]
+    },
+    {
+      "path": "research_increments/signed_force_fixture_calibration_v02_2026-10-15/independent_reader/SOURCE_REVIEW.json",
+      "bytes": 2430,
+      "sha256": "0fad1b8e928bb3f9c2ec926bc4cab7245e7aeaea0269523202e8c5e003f8fe56",
+      "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/research_increments/signed_force_fixture_calibration_v02_2026-10-15/independent_reader/SOURCE_REVIEW.json",
+      "source_sha256": "0fad1b8e928bb3f9c2ec926bc4cab7245e7aeaea0269523202e8c5e003f8fe56",
+      "transformations": [
+        "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
+      ]
+    },
+    {
+      "path": "research_increments/signed_force_fixture_calibration_v02_2026-10-15/independent_reader/prospective_signed_force_v02_reader.zip",
+      "bytes": 36975,
+      "sha256": "4802f08ca2fc829b39160e5c1a9ce2871976fefa447da5f04de60bfa7bd5a177",
+      "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/research_increments/signed_force_fixture_calibration_v02_2026-10-15/independent_reader/prospective_signed_force_v02_reader.zip",
+      "source_sha256": "4802f08ca2fc829b39160e5c1a9ce2871976fefa447da5f04de60bfa7bd5a177",
+      "transformations": [
+        "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
+      ]
+    },
+    {
+      "path": "research_increments/signed_force_fixture_calibration_v02_2026-10-15/publication/DELIVERY_SCOPE.json",
+      "bytes": 943,
+      "sha256": "298dc79f93c364945cb19a289f907151717dc7a8b637ab1b9061862554072a50",
+      "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/research_increments/signed_force_fixture_calibration_v02_2026-10-15/publication/DELIVERY_SCOPE.json",
+      "source_sha256": "298dc79f93c364945cb19a289f907151717dc7a8b637ab1b9061862554072a50",
+      "transformations": [
+        "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
+      ]
+    },
+    {
+      "path": "research_increments/signed_force_fixture_calibration_v02_2026-10-15/publication/NEXT_EXECUTION_FRONTIER.json",
+      "bytes": 2743,
+      "sha256": "1cca6e29ccc6d257b20624e8468c397767f9df6cb6a951eae1de0e930aa6c380",
+      "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/research_increments/signed_force_fixture_calibration_v02_2026-10-15/publication/NEXT_EXECUTION_FRONTIER.json",
+      "source_sha256": "1cca6e29ccc6d257b20624e8468c397767f9df6cb6a951eae1de0e930aa6c380",
+      "transformations": [
+        "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
+      ]
+    },
+    {
+      "path": "research_increments/signed_force_fixture_calibration_v02_2026-10-15/publication/VERIFICATION_CONTRACT.json",
+      "bytes": 1631,
+      "sha256": "f55032873808c2dd96194e8e1511fdf7d2bc7bf4eeb43825f48637e8da9aab7f",
+      "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/research_increments/signed_force_fixture_calibration_v02_2026-10-15/publication/VERIFICATION_CONTRACT.json",
+      "source_sha256": "f55032873808c2dd96194e8e1511fdf7d2bc7bf4eeb43825f48637e8da9aab7f",
+      "transformations": [
+        "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
+      ]
+    },
+    {
+      "path": "research_increments/signed_force_fixture_calibration_v02_2026-10-15/raw/NATIVE_RAW_V02_ARCHIVE_RECEIPT.json",
+      "bytes": 394,
+      "sha256": "61b7a772282be551af4199ad506a27ffd23d4b87670dbdad1359c0aa63bd72ff",
+      "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/research_increments/signed_force_fixture_calibration_v02_2026-10-15/raw/NATIVE_RAW_V02_ARCHIVE_RECEIPT.json",
+      "source_sha256": "61b7a772282be551af4199ad506a27ffd23d4b87670dbdad1359c0aa63bd72ff",
+      "transformations": [
+        "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
+      ]
+    },
+    {
+      "path": "research_increments/signed_force_fixture_calibration_v02_2026-10-15/raw/NATIVE_RAW_V02_COMPLETE_INPUTS_RECEIPT.json",
+      "bytes": 239,
+      "sha256": "e22e1024098d60af502de2f3a56530abe5b1402b3156533c3849ef5a060fc122",
+      "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/research_increments/signed_force_fixture_calibration_v02_2026-10-15/raw/NATIVE_RAW_V02_COMPLETE_INPUTS_RECEIPT.json",
+      "source_sha256": "e22e1024098d60af502de2f3a56530abe5b1402b3156533c3849ef5a060fc122",
+      "transformations": [
+        "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
+      ]
+    },
+    {
+      "path": "research_increments/signed_force_fixture_calibration_v02_2026-10-15/raw/native_raw_v02.zip",
+      "bytes": 3013552,
+      "sha256": "121ca4d05167d4f89f67611da58e5fb50e1f412a706aa49b1d86c0b8d5d7e723",
+      "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/research_increments/signed_force_fixture_calibration_v02_2026-10-15/raw/native_raw_v02.zip",
+      "source_sha256": "121ca4d05167d4f89f67611da58e5fb50e1f412a706aa49b1d86c0b8d5d7e723",
+      "transformations": [
+        "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
+      ]
+    },
+    {
+      "path": "research_increments/signed_force_fixture_calibration_v02_2026-10-15/raw/native_raw_v02_complete_inputs.zip",
+      "bytes": 3050508,
+      "sha256": "365c8e6e7c5ed22e07619c559704e2f76691354ad4bc16b364306848cfb07bf6",
+      "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/research_increments/signed_force_fixture_calibration_v02_2026-10-15/raw/native_raw_v02_complete_inputs.zip",
+      "source_sha256": "365c8e6e7c5ed22e07619c559704e2f76691354ad4bc16b364306848cfb07bf6",
+      "transformations": [
+        "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
+      ]
+    },
+    {
+      "path": "research_increments/signed_force_fixture_calibration_v02_2026-10-15/root_execution/ROOT_BATCH_V02_RETAINED_CLOSURE.json",
+      "bytes": 8085,
+      "sha256": "bc31531f03d94f244ed6415e83764bc99e745110d173f36fd52c55e30fee32a5",
+      "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/research_increments/signed_force_fixture_calibration_v02_2026-10-15/root_execution/ROOT_BATCH_V02_RETAINED_CLOSURE.json",
+      "source_sha256": "bc31531f03d94f244ed6415e83764bc99e745110d173f36fd52c55e30fee32a5",
+      "transformations": [
+        "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
+      ]
+    },
+    {
+      "path": "research_increments/signed_force_fixture_calibration_v02_2026-10-15/root_execution/ROOT_C0_RESOURCE_SELECTION_02.json",
+      "bytes": 1531,
+      "sha256": "2dbb7d215f48d8f39a86afbc774867504fd58dfc741d7839f71c67c8a4c50202",
+      "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/research_increments/signed_force_fixture_calibration_v02_2026-10-15/root_execution/ROOT_C0_RESOURCE_SELECTION_02.json",
+      "source_sha256": "2dbb7d215f48d8f39a86afbc774867504fd58dfc741d7839f71c67c8a4c50202",
+      "transformations": [
+        "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
+      ]
+    },
+    {
+      "path": "research_increments/signed_force_fixture_calibration_v02_2026-10-15/root_execution/ROOT_PROSPECTIVE_CLEANUP_MARKER_COORDINATION.json",
+      "bytes": 1491,
+      "sha256": "a2cb33a3a035810d63de8be2a3e8505448b90a147084452b9c0d396f7c332712",
+      "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/research_increments/signed_force_fixture_calibration_v02_2026-10-15/root_execution/ROOT_PROSPECTIVE_CLEANUP_MARKER_COORDINATION.json",
+      "source_sha256": "a2cb33a3a035810d63de8be2a3e8505448b90a147084452b9c0d396f7c332712",
+      "transformations": [
+        "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
+      ]
+    },
+    {
+      "path": "research_increments/signed_force_fixture_calibration_v02_2026-10-15/root_execution/ROOT_SOURCE_PROTOCOL_READBACK.json",
+      "bytes": 1647,
+      "sha256": "0101a3e8eb82acf1a1886a7afae9ace326e3654525cc1e3cd0203dc39bc43131",
+      "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/research_increments/signed_force_fixture_calibration_v02_2026-10-15/root_execution/ROOT_SOURCE_PROTOCOL_READBACK.json",
+      "source_sha256": "0101a3e8eb82acf1a1886a7afae9ace326e3654525cc1e3cd0203dc39bc43131",
+      "transformations": [
+        "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
+      ]
+    },
+    {
+      "path": "research_increments/signed_force_fixture_calibration_v02_2026-10-15/root_execution/cal_force_c0_freefall_v02/WORKER_TERMINAL.json",
+      "bytes": 907,
+      "sha256": "af528b7e297ad18bd8f78a2805392cc4073af9a0ff7b4bd343874580eee401ed",
+      "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/research_increments/signed_force_fixture_calibration_v02_2026-10-15/root_execution/cal_force_c0_freefall_v02/WORKER_TERMINAL.json",
+      "source_sha256": "af528b7e297ad18bd8f78a2805392cc4073af9a0ff7b4bd343874580eee401ed",
+      "transformations": [
+        "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
+      ]
+    },
+    {
+      "path": "research_increments/signed_force_fixture_calibration_v02_2026-10-15/root_execution/cal_force_c1_stack_v02/WORKER_TERMINAL.json",
+      "bytes": 900,
+      "sha256": "67f1124310de77d00a5fa79921e0b95573c479af85fe86b490902b454c22044c",
+      "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/research_increments/signed_force_fixture_calibration_v02_2026-10-15/root_execution/cal_force_c1_stack_v02/WORKER_TERMINAL.json",
+      "source_sha256": "67f1124310de77d00a5fa79921e0b95573c479af85fe86b490902b454c22044c",
+      "transformations": [
+        "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
+      ]
+    },
+    {
+      "path": "research_increments/signed_force_fixture_calibration_v03_2026-10-15/BUILD_RECEIPT.json",
+      "bytes": 985,
+      "sha256": "3e7fcba510de95e78db37c10430f1d8f026fa0cd563bcdd5aa133ebefd54a188",
+      "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/research_increments/signed_force_fixture_calibration_v03_2026-10-15/BUILD_RECEIPT.json",
+      "source_sha256": "3e7fcba510de95e78db37c10430f1d8f026fa0cd563bcdd5aa133ebefd54a188",
+      "transformations": [
+        "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
+      ]
+    },
+    {
+      "path": "research_increments/signed_force_fixture_calibration_v03_2026-10-15/DATA/source_inventory.json",
+      "bytes": 45516,
+      "sha256": "e6bc9609d8c438d4daca7ad52bac637e7ae599999c4177c0220eb5a42e6f1df1",
+      "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/research_increments/signed_force_fixture_calibration_v03_2026-10-15/DATA/source_inventory.json",
+      "source_sha256": "e6bc9609d8c438d4daca7ad52bac637e7ae599999c4177c0220eb5a42e6f1df1",
+      "transformations": [
+        "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
+      ]
+    },
+    {
+      "path": "research_increments/signed_force_fixture_calibration_v03_2026-10-15/DATA/status.json",
+      "bytes": 7316,
+      "sha256": "80f805ef87b254f22b10f705a252fb02bc172d80224abc6ccadc22e205d48397",
+      "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/research_increments/signed_force_fixture_calibration_v03_2026-10-15/DATA/status.json",
+      "source_sha256": "80f805ef87b254f22b10f705a252fb02bc172d80224abc6ccadc22e205d48397",
+      "transformations": [
+        "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
+      ],
+      "builder_recorded_origin": "BUILDER_GENERATED_FROM_PINNED_ACTUALS",
+      "origin_verification": "Full byte readback recorded by sealed-input publication builders; not re-read in this manifest-only pass"
+    },
+    {
+      "path": "research_increments/signed_force_fixture_calibration_v03_2026-10-15/ROOT_PROSPECTIVE_BATCH_SELECTION.json",
+      "bytes": 7762,
+      "sha256": "8a9a74a00493454db0cbf54d2c0e4132ed3f3ddc528767ecd6daf646c0d004b9",
+      "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/research_increments/signed_force_fixture_calibration_v03_2026-10-15/ROOT_PROSPECTIVE_BATCH_SELECTION.json",
+      "source_sha256": "8a9a74a00493454db0cbf54d2c0e4132ed3f3ddc528767ecd6daf646c0d004b9",
+      "transformations": [
+        "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
+      ],
+      "builder_recorded_origin": "/mnt/nas/data/lyf/chem_mem/awesome_memory_chem/papers/paperB/research_increments/signed_force_fixture_calibration_v03_2026-10-15/ROOT_PROSPECTIVE_BATCH_SELECTION.json",
+      "origin_verification": "Full byte readback recorded by sealed-input publication builders; not re-read in this manifest-only pass"
+    },
+    {
+      "path": "research_increments/signed_force_fixture_calibration_v03_2026-10-15/SECTION.html",
+      "bytes": 10518,
+      "sha256": "e92594c7150c31068c6253b527ef9827fa35b038d93539ceb84ba0614d24d3a0",
+      "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/research_increments/signed_force_fixture_calibration_v03_2026-10-15/SECTION.html",
+      "source_sha256": "e92594c7150c31068c6253b527ef9827fa35b038d93539ceb84ba0614d24d3a0",
+      "transformations": [
+        "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
+      ],
+      "builder_recorded_origin": "BUILDER_GENERATED_FROM_PINNED_ACTUALS",
+      "origin_verification": "Full byte readback recorded by sealed-input publication builders; not re-read in this manifest-only pass"
+    },
+    {
+      "path": "research_increments/signed_force_fixture_calibration_v03_2026-10-15/actual_audits/cal_force_c0_freefall_v03/AUDITED_SERIES.json",
+      "bytes": 47302,
+      "sha256": "fbf35c736af24f19f35c4b2d74df5145a9df920e47200c14b7e2cafda6fedc9d",
+      "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/research_increments/signed_force_fixture_calibration_v03_2026-10-15/actual_audits/cal_force_c0_freefall_v03/AUDITED_SERIES.json",
+      "source_sha256": "fbf35c736af24f19f35c4b2d74df5145a9df920e47200c14b7e2cafda6fedc9d",
+      "transformations": [
+        "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
+      ],
+      "builder_recorded_origin": "/mnt/nas/data/lyf/chem_mem/awesome_memory_chem/papers/paperB/research_increments/signed_force_fixture_calibration_v03_2026-10-15/actual_audits/cal_force_c0_freefall_v03/AUDITED_SERIES.json",
+      "origin_verification": "Full byte readback recorded by sealed-input publication builders; not re-read in this manifest-only pass"
+    },
+    {
+      "path": "research_increments/signed_force_fixture_calibration_v03_2026-10-15/actual_audits/cal_force_c0_freefall_v03/REPORT.json",
+      "bytes": 37015,
+      "sha256": "6224c7219a4558fb649414e61f69d5ae9a9421e4b969878380f348f78042ea8e",
+      "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/research_increments/signed_force_fixture_calibration_v03_2026-10-15/actual_audits/cal_force_c0_freefall_v03/REPORT.json",
+      "source_sha256": "6224c7219a4558fb649414e61f69d5ae9a9421e4b969878380f348f78042ea8e",
+      "transformations": [
+        "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
+      ],
+      "builder_recorded_origin": "/mnt/nas/data/lyf/chem_mem/awesome_memory_chem/papers/paperB/research_increments/signed_force_fixture_calibration_v03_2026-10-15/actual_audits/cal_force_c0_freefall_v03/REPORT.json",
+      "origin_verification": "Full byte readback recorded by sealed-input publication builders; not re-read in this manifest-only pass"
+    },
+    {
+      "path": "research_increments/signed_force_fixture_calibration_v03_2026-10-15/actual_audits/cal_force_c1_stack_processing_off_v03/AUDITED_SERIES.json",
+      "bytes": 59847,
+      "sha256": "ef4cb74f193dad03909d4eb5d2e752b41179bbf7918622efb88ec8b0e5b05da1",
+      "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/research_increments/signed_force_fixture_calibration_v03_2026-10-15/actual_audits/cal_force_c1_stack_processing_off_v03/AUDITED_SERIES.json",
+      "source_sha256": "ef4cb74f193dad03909d4eb5d2e752b41179bbf7918622efb88ec8b0e5b05da1",
+      "transformations": [
+        "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
+      ],
+      "builder_recorded_origin": "/mnt/nas/data/lyf/chem_mem/awesome_memory_chem/papers/paperB/research_increments/signed_force_fixture_calibration_v03_2026-10-15/actual_audits/cal_force_c1_stack_processing_off_v03/AUDITED_SERIES.json",
+      "origin_verification": "Full byte readback recorded by sealed-input publication builders; not re-read in this manifest-only pass"
+    },
+    {
+      "path": "research_increments/signed_force_fixture_calibration_v03_2026-10-15/actual_audits/cal_force_c1_stack_processing_off_v03/REPORT.json",
+      "bytes": 277254,
+      "sha256": "10208b2597d265b217709e05bfdff9bf20818aff961338b82c2b78c12cb705d0",
+      "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/research_increments/signed_force_fixture_calibration_v03_2026-10-15/actual_audits/cal_force_c1_stack_processing_off_v03/REPORT.json",
+      "source_sha256": "10208b2597d265b217709e05bfdff9bf20818aff961338b82c2b78c12cb705d0",
+      "transformations": [
+        "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
+      ],
+      "builder_recorded_origin": "/mnt/nas/data/lyf/chem_mem/awesome_memory_chem/papers/paperB/research_increments/signed_force_fixture_calibration_v03_2026-10-15/actual_audits/cal_force_c1_stack_processing_off_v03/REPORT.json",
+      "origin_verification": "Full byte readback recorded by sealed-input publication builders; not re-read in this manifest-only pass"
+    },
+    {
+      "path": "research_increments/signed_force_fixture_calibration_v03_2026-10-15/actual_audits/cal_force_c1_stack_v03/AUDITED_SERIES.json",
+      "bytes": 69435,
+      "sha256": "22633c188e76a3306ca2c550fcc500a8f9e79533402a15f52d6ce81bf5a95e06",
+      "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/research_increments/signed_force_fixture_calibration_v03_2026-10-15/actual_audits/cal_force_c1_stack_v03/AUDITED_SERIES.json",
+      "source_sha256": "22633c188e76a3306ca2c550fcc500a8f9e79533402a15f52d6ce81bf5a95e06",
+      "transformations": [
+        "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
+      ],
+      "builder_recorded_origin": "/mnt/nas/data/lyf/chem_mem/awesome_memory_chem/papers/paperB/research_increments/signed_force_fixture_calibration_v03_2026-10-15/actual_audits/cal_force_c1_stack_v03/AUDITED_SERIES.json",
+      "origin_verification": "Full byte readback recorded by sealed-input publication builders; not re-read in this manifest-only pass"
+    },
+    {
+      "path": "research_increments/signed_force_fixture_calibration_v03_2026-10-15/actual_audits/cal_force_c1_stack_v03/REPORT.json",
+      "bytes": 605316,
+      "sha256": "feecbb8b61eba81c6f6b619e8fd8ae2706704e9a8db93d68b59cc4fd858fc475",
+      "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/research_increments/signed_force_fixture_calibration_v03_2026-10-15/actual_audits/cal_force_c1_stack_v03/REPORT.json",
+      "source_sha256": "feecbb8b61eba81c6f6b619e8fd8ae2706704e9a8db93d68b59cc4fd858fc475",
+      "transformations": [
+        "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
+      ],
+      "builder_recorded_origin": "/mnt/nas/data/lyf/chem_mem/awesome_memory_chem/papers/paperB/research_increments/signed_force_fixture_calibration_v03_2026-10-15/actual_audits/cal_force_c1_stack_v03/REPORT.json",
+      "origin_verification": "Full byte readback recorded by sealed-input publication builders; not re-read in this manifest-only pass"
+    },
+    {
+      "path": "research_increments/signed_force_fixture_calibration_v03_2026-10-15/actual_audits/cal_force_c2_rotated_v03/AUDITED_SERIES.json",
+      "bytes": 69971,
+      "sha256": "17332e928e3d41a0c554c800d014ed9b8be8dfd8f6896255c8a97b3b73a36975",
+      "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/research_increments/signed_force_fixture_calibration_v03_2026-10-15/actual_audits/cal_force_c2_rotated_v03/AUDITED_SERIES.json",
+      "source_sha256": "17332e928e3d41a0c554c800d014ed9b8be8dfd8f6896255c8a97b3b73a36975",
+      "transformations": [
+        "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
+      ],
+      "builder_recorded_origin": "/mnt/nas/data/lyf/chem_mem/awesome_memory_chem/papers/paperB/research_increments/signed_force_fixture_calibration_v03_2026-10-15/actual_audits/cal_force_c2_rotated_v03/AUDITED_SERIES.json",
+      "origin_verification": "Full byte readback recorded by sealed-input publication builders; not re-read in this manifest-only pass"
+    },
+    {
+      "path": "research_increments/signed_force_fixture_calibration_v03_2026-10-15/actual_audits/cal_force_c2_rotated_v03/REPORT.json",
+      "bytes": 605828,
+      "sha256": "2cad4c3bab5b33cbe94aad9aecee14d11b3d01144c61981c599e1d9414659159",
+      "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/research_increments/signed_force_fixture_calibration_v03_2026-10-15/actual_audits/cal_force_c2_rotated_v03/REPORT.json",
+      "source_sha256": "2cad4c3bab5b33cbe94aad9aecee14d11b3d01144c61981c599e1d9414659159",
+      "transformations": [
+        "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
+      ],
+      "builder_recorded_origin": "/mnt/nas/data/lyf/chem_mem/awesome_memory_chem/papers/paperB/research_increments/signed_force_fixture_calibration_v03_2026-10-15/actual_audits/cal_force_c2_rotated_v03/REPORT.json",
+      "origin_verification": "Full byte readback recorded by sealed-input publication builders; not re-read in this manifest-only pass"
+    },
+    {
+      "path": "research_increments/signed_force_fixture_calibration_v03_2026-10-15/actual_audits/cal_force_c3_actor_order_v03/AUDITED_SERIES.json",
+      "bytes": 69735,
+      "sha256": "1f2b8121f45c13b0c6e3be58f3f6e7a11526becddf626874bccf0e268acd6700",
+      "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/research_increments/signed_force_fixture_calibration_v03_2026-10-15/actual_audits/cal_force_c3_actor_order_v03/AUDITED_SERIES.json",
+      "source_sha256": "1f2b8121f45c13b0c6e3be58f3f6e7a11526becddf626874bccf0e268acd6700",
+      "transformations": [
+        "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
+      ],
+      "builder_recorded_origin": "/mnt/nas/data/lyf/chem_mem/awesome_memory_chem/papers/paperB/research_increments/signed_force_fixture_calibration_v03_2026-10-15/actual_audits/cal_force_c3_actor_order_v03/AUDITED_SERIES.json",
+      "origin_verification": "Full byte readback recorded by sealed-input publication builders; not re-read in this manifest-only pass"
+    },
+    {
+      "path": "research_increments/signed_force_fixture_calibration_v03_2026-10-15/actual_audits/cal_force_c3_actor_order_v03/REPORT.json",
+      "bytes": 609635,
+      "sha256": "518b79f71b69e5955f5399f4a178db4480bcaaf3ae930750045d4a6907244ef5",
+      "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/research_increments/signed_force_fixture_calibration_v03_2026-10-15/actual_audits/cal_force_c3_actor_order_v03/REPORT.json",
+      "source_sha256": "518b79f71b69e5955f5399f4a178db4480bcaaf3ae930750045d4a6907244ef5",
+      "transformations": [
+        "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
+      ],
+      "builder_recorded_origin": "/mnt/nas/data/lyf/chem_mem/awesome_memory_chem/papers/paperB/research_increments/signed_force_fixture_calibration_v03_2026-10-15/actual_audits/cal_force_c3_actor_order_v03/REPORT.json",
+      "origin_verification": "Full byte readback recorded by sealed-input publication builders; not re-read in this manifest-only pass"
+    },
+    {
+      "path": "research_increments/signed_force_fixture_calibration_v03_2026-10-15/actual_audits/cal_force_c4_mass_v03/AUDITED_SERIES.json",
+      "bytes": 69429,
+      "sha256": "b2a50d73e20447175bd1c2173bc4acdf5cc8cdffa6c22b4b069941a1f3440642",
+      "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/research_increments/signed_force_fixture_calibration_v03_2026-10-15/actual_audits/cal_force_c4_mass_v03/AUDITED_SERIES.json",
+      "source_sha256": "b2a50d73e20447175bd1c2173bc4acdf5cc8cdffa6c22b4b069941a1f3440642",
+      "transformations": [
+        "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
+      ],
+      "builder_recorded_origin": "/mnt/nas/data/lyf/chem_mem/awesome_memory_chem/papers/paperB/research_increments/signed_force_fixture_calibration_v03_2026-10-15/actual_audits/cal_force_c4_mass_v03/AUDITED_SERIES.json",
+      "origin_verification": "Full byte readback recorded by sealed-input publication builders; not re-read in this manifest-only pass"
+    },
+    {
+      "path": "research_increments/signed_force_fixture_calibration_v03_2026-10-15/actual_audits/cal_force_c4_mass_v03/REPORT.json",
+      "bytes": 609908,
+      "sha256": "1e176ee19f8a3284d39f5bc68fad49b3174779b8fe9d5d226d58c86e50d8b499",
+      "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/research_increments/signed_force_fixture_calibration_v03_2026-10-15/actual_audits/cal_force_c4_mass_v03/REPORT.json",
+      "source_sha256": "1e176ee19f8a3284d39f5bc68fad49b3174779b8fe9d5d226d58c86e50d8b499",
+      "transformations": [
+        "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
+      ],
+      "builder_recorded_origin": "/mnt/nas/data/lyf/chem_mem/awesome_memory_chem/papers/paperB/research_increments/signed_force_fixture_calibration_v03_2026-10-15/actual_audits/cal_force_c4_mass_v03/REPORT.json",
+      "origin_verification": "Full byte readback recorded by sealed-input publication builders; not re-read in this manifest-only pass"
+    },
+    {
+      "path": "research_increments/signed_force_fixture_calibration_v03_2026-10-15/calibration-v03.css",
+      "bytes": 4463,
+      "sha256": "1b3f8484ee90c12aeec6ea3b3f07d1254022819ecd5929ea6f32f3a394d2c6f3",
+      "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/research_increments/signed_force_fixture_calibration_v03_2026-10-15/calibration-v03.css",
+      "source_sha256": "1b3f8484ee90c12aeec6ea3b3f07d1254022819ecd5929ea6f32f3a394d2c6f3",
+      "transformations": [
+        "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
+      ],
+      "builder_recorded_origin": "BUILDER_GENERATED_FROM_PINNED_ACTUALS",
+      "origin_verification": "Full byte readback recorded by sealed-input publication builders; not re-read in this manifest-only pass"
+    },
+    {
+      "path": "research_increments/signed_force_fixture_calibration_v03_2026-10-15/collector/CAUSE_EVIDENCE_REFERENCE.json",
+      "bytes": 1866,
+      "sha256": "6073cf1da3530487350225b7a81c37c7f2eab5405b2fd806f9ac76e18ee3da84",
+      "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/research_increments/signed_force_fixture_calibration_v03_2026-10-15/collector/CAUSE_EVIDENCE_REFERENCE.json",
+      "source_sha256": "6073cf1da3530487350225b7a81c37c7f2eab5405b2fd806f9ac76e18ee3da84",
+      "transformations": [
+        "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
+      ],
+      "builder_recorded_origin": "/mnt/nas/data/lyf/chem_mem/awesome_memory_chem/papers/paperB/research_increments/signed_force_fixture_calibration_v03_2026-10-15/collector/CAUSE_EVIDENCE_REFERENCE.json",
+      "origin_verification": "Full byte readback recorded by sealed-input publication builders; not re-read in this manifest-only pass"
+    },
+    {
+      "path": "research_increments/signed_force_fixture_calibration_v03_2026-10-15/collector/CPU_TESTS.log",
+      "bytes": 3113,
+      "sha256": "d152f26a84ff3aef04031aa2d04409ec2e3804165a222911f6a0712d86252e89",
+      "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/research_increments/signed_force_fixture_calibration_v03_2026-10-15/collector/CPU_TESTS.log",
+      "source_sha256": "d152f26a84ff3aef04031aa2d04409ec2e3804165a222911f6a0712d86252e89",
+      "transformations": [
+        "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
+      ],
+      "builder_recorded_origin": "/mnt/nas/data/lyf/chem_mem/awesome_memory_chem/papers/paperB/research_increments/signed_force_fixture_calibration_v03_2026-10-15/collector/CPU_TESTS.log",
+      "origin_verification": "Full byte readback recorded by sealed-input publication builders; not re-read in this manifest-only pass"
+    },
+    {
+      "path": "research_increments/signed_force_fixture_calibration_v03_2026-10-15/collector/CPU_VALIDATION.json",
+      "bytes": 1094,
+      "sha256": "f04711d7f77b6ef52265ba602c3175b7e99143a82cba46c053db6a8f16d51c4a",
+      "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/research_increments/signed_force_fixture_calibration_v03_2026-10-15/collector/CPU_VALIDATION.json",
+      "source_sha256": "f04711d7f77b6ef52265ba602c3175b7e99143a82cba46c053db6a8f16d51c4a",
+      "transformations": [
+        "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
+      ],
+      "builder_recorded_origin": "/mnt/nas/data/lyf/chem_mem/awesome_memory_chem/papers/paperB/research_increments/signed_force_fixture_calibration_v03_2026-10-15/collector/CPU_VALIDATION.json",
+      "origin_verification": "Full byte readback recorded by sealed-input publication builders; not re-read in this manifest-only pass"
+    },
+    {
+      "path": "research_increments/signed_force_fixture_calibration_v03_2026-10-15/collector/EXECUTION_RELEASE.json",
+      "bytes": 4128,
+      "sha256": "0de55ac995986d25a60f391b63d9606915dbeae37518e7cc4fb38ee75bc81771",
+      "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/research_increments/signed_force_fixture_calibration_v03_2026-10-15/collector/EXECUTION_RELEASE.json",
+      "source_sha256": "0de55ac995986d25a60f391b63d9606915dbeae37518e7cc4fb38ee75bc81771",
+      "transformations": [
+        "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
+      ],
+      "builder_recorded_origin": "/mnt/nas/data/lyf/chem_mem/awesome_memory_chem/papers/paperB/research_increments/signed_force_fixture_calibration_v03_2026-10-15/collector/EXECUTION_RELEASE.json",
+      "origin_verification": "Full byte readback recorded by sealed-input publication builders; not re-read in this manifest-only pass"
+    },
+    {
+      "path": "research_increments/signed_force_fixture_calibration_v03_2026-10-15/collector/FINAL_RECEIPT.json",
+      "bytes": 637,
+      "sha256": "fdee19bf1b3224b6cd43ecdbaa747d440fd7fed04a9966c726794d7acd441fb2",
+      "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/research_increments/signed_force_fixture_calibration_v03_2026-10-15/collector/FINAL_RECEIPT.json",
+      "source_sha256": "fdee19bf1b3224b6cd43ecdbaa747d440fd7fed04a9966c726794d7acd441fb2",
+      "transformations": [
+        "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
+      ],
+      "builder_recorded_origin": "/mnt/nas/data/lyf/chem_mem/awesome_memory_chem/papers/paperB/research_increments/signed_force_fixture_calibration_v03_2026-10-15/collector/FINAL_RECEIPT.json",
+      "origin_verification": "Full byte readback recorded by sealed-input publication builders; not re-read in this manifest-only pass"
+    },
+    {
+      "path": "research_increments/signed_force_fixture_calibration_v03_2026-10-15/collector/INSTALLED_API_PIN.json",
+      "bytes": 6727,
+      "sha256": "81750a953f9827fb5ea87d915373934719cc9cccd9cb6facda3c6e5d0f9c124f",
+      "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/research_increments/signed_force_fixture_calibration_v03_2026-10-15/collector/INSTALLED_API_PIN.json",
+      "source_sha256": "81750a953f9827fb5ea87d915373934719cc9cccd9cb6facda3c6e5d0f9c124f",
+      "transformations": [
+        "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
+      ],
+      "builder_recorded_origin": "/mnt/nas/data/lyf/chem_mem/awesome_memory_chem/papers/paperB/research_increments/signed_force_fixture_calibration_v03_2026-10-15/collector/INSTALLED_API_PIN.json",
+      "origin_verification": "Full byte readback recorded by sealed-input publication builders; not re-read in this manifest-only pass"
+    },
+    {
+      "path": "research_increments/signed_force_fixture_calibration_v03_2026-10-15/collector/ORIGINAL_FROZEN_FORCE_PROTOCOL_V01.json",
+      "bytes": 9572,
+      "sha256": "f45a35a0711a67f90558677efb97cd8324d0f97f463f4a3de1b77045fc174e3b",
+      "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/research_increments/signed_force_fixture_calibration_v03_2026-10-15/collector/ORIGINAL_FROZEN_FORCE_PROTOCOL_V01.json",
+      "source_sha256": "f45a35a0711a67f90558677efb97cd8324d0f97f463f4a3de1b77045fc174e3b",
+      "transformations": [
+        "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
+      ],
+      "builder_recorded_origin": "/mnt/nas/data/lyf/chem_mem/awesome_memory_chem/papers/paperB/research_increments/signed_force_fixture_calibration_v03_2026-10-15/collector/ORIGINAL_FROZEN_FORCE_PROTOCOL_V01.json",
+      "origin_verification": "Full byte readback recorded by sealed-input publication builders; not re-read in this manifest-only pass"
+    },
+    {
+      "path": "research_increments/signed_force_fixture_calibration_v03_2026-10-15/collector/PARENT_FROZEN_FORCE_PROTOCOL_V02.json",
+      "bytes": 11446,
+      "sha256": "348a533cd78c312b68ab47c1ab8b219b1785021a553c37cc22f9f6c5874abd5c",
+      "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/research_increments/signed_force_fixture_calibration_v03_2026-10-15/collector/PARENT_FROZEN_FORCE_PROTOCOL_V02.json",
+      "source_sha256": "348a533cd78c312b68ab47c1ab8b219b1785021a553c37cc22f9f6c5874abd5c",
+      "transformations": [
+        "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
+      ],
+      "builder_recorded_origin": "/mnt/nas/data/lyf/chem_mem/awesome_memory_chem/papers/paperB/research_increments/signed_force_fixture_calibration_v03_2026-10-15/collector/PARENT_FROZEN_FORCE_PROTOCOL_V02.json",
+      "origin_verification": "Full byte readback recorded by sealed-input publication builders; not re-read in this manifest-only pass"
+    },
+    {
+      "path": "research_increments/signed_force_fixture_calibration_v03_2026-10-15/collector/README_cn.md",
+      "bytes": 3654,
+      "sha256": "9843e3ba2a5d09564ce499da0db92c8162ba0cb0712b537ed8bc86e99f9a1464",
+      "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/research_increments/signed_force_fixture_calibration_v03_2026-10-15/collector/README_cn.md",
+      "source_sha256": "9843e3ba2a5d09564ce499da0db92c8162ba0cb0712b537ed8bc86e99f9a1464",
+      "transformations": [
+        "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
+      ],
+      "builder_recorded_origin": "/mnt/nas/data/lyf/chem_mem/awesome_memory_chem/papers/paperB/research_increments/signed_force_fixture_calibration_v03_2026-10-15/collector/README_cn.md",
+      "origin_verification": "Full byte readback recorded by sealed-input publication builders; not re-read in this manifest-only pass"
+    },
+    {
+      "path": "research_increments/signed_force_fixture_calibration_v03_2026-10-15/collector/SCHEMA_CONTRACT.json",
+      "bytes": 6776,
+      "sha256": "a3426f45cb2938b56004949112afd6702e1f4d90acdf6a745f5cd10a2f160777",
+      "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/research_increments/signed_force_fixture_calibration_v03_2026-10-15/collector/SCHEMA_CONTRACT.json",
+      "source_sha256": "a3426f45cb2938b56004949112afd6702e1f4d90acdf6a745f5cd10a2f160777",
+      "transformations": [
+        "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
+      ],
+      "builder_recorded_origin": "/mnt/nas/data/lyf/chem_mem/awesome_memory_chem/papers/paperB/research_increments/signed_force_fixture_calibration_v03_2026-10-15/collector/SCHEMA_CONTRACT.json",
+      "origin_verification": "Full byte readback recorded by sealed-input publication builders; not re-read in this manifest-only pass"
+    },
+    {
+      "path": "research_increments/signed_force_fixture_calibration_v03_2026-10-15/collector/SOURCE_DELTA_CONTRACT.json",
+      "bytes": 2723,
+      "sha256": "317d745ab4a4934e25a692a617fd735c475395ffe9fdcf5cfdc600c2ac3af666",
+      "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/research_increments/signed_force_fixture_calibration_v03_2026-10-15/collector/SOURCE_DELTA_CONTRACT.json",
+      "source_sha256": "317d745ab4a4934e25a692a617fd735c475395ffe9fdcf5cfdc600c2ac3af666",
+      "transformations": [
+        "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
+      ],
+      "builder_recorded_origin": "/mnt/nas/data/lyf/chem_mem/awesome_memory_chem/papers/paperB/research_increments/signed_force_fixture_calibration_v03_2026-10-15/collector/SOURCE_DELTA_CONTRACT.json",
+      "origin_verification": "Full byte readback recorded by sealed-input publication builders; not re-read in this manifest-only pass"
+    },
+    {
+      "path": "research_increments/signed_force_fixture_calibration_v03_2026-10-15/collector/SOURCE_FREEZE.json",
+      "bytes": 6357,
+      "sha256": "29b848d388897fa8c08088e0bde940ec751585e83d308e137a26f99eacaace4f",
+      "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/research_increments/signed_force_fixture_calibration_v03_2026-10-15/collector/SOURCE_FREEZE.json",
+      "source_sha256": "29b848d388897fa8c08088e0bde940ec751585e83d308e137a26f99eacaace4f",
+      "transformations": [
+        "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
+      ],
+      "builder_recorded_origin": "/mnt/nas/data/lyf/chem_mem/awesome_memory_chem/papers/paperB/research_increments/signed_force_fixture_calibration_v03_2026-10-15/collector/SOURCE_FREEZE.json",
+      "origin_verification": "Full byte readback recorded by sealed-input publication builders; not re-read in this manifest-only pass"
+    },
+    {
+      "path": "research_increments/signed_force_fixture_calibration_v03_2026-10-15/collector/code/capture_raw.py",
+      "bytes": 4618,
+      "sha256": "49d9bc9d4e3135dd86f59f2f2ec7b9b0b09aca27c7e09cbc7cb1b4ac262a5489",
+      "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/research_increments/signed_force_fixture_calibration_v03_2026-10-15/collector/code/capture_raw.py",
+      "source_sha256": "49d9bc9d4e3135dd86f59f2f2ec7b9b0b09aca27c7e09cbc7cb1b4ac262a5489",
+      "transformations": [
+        "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
+      ],
+      "builder_recorded_origin": "/mnt/nas/data/lyf/chem_mem/awesome_memory_chem/papers/paperB/research_increments/signed_force_fixture_calibration_v03_2026-10-15/collector/code/capture_raw.py",
+      "origin_verification": "Full byte readback recorded by sealed-input publication builders; not re-read in this manifest-only pass"
+    },
+    {
+      "path": "research_increments/signed_force_fixture_calibration_v03_2026-10-15/collector/code/close_regression_model.py",
+      "bytes": 5960,
+      "sha256": "1c324c3673c36954aecd2b2d74ddd142dcf2a286bb119d53bc50a0387d40a59e",
+      "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/research_increments/signed_force_fixture_calibration_v03_2026-10-15/collector/code/close_regression_model.py",
+      "source_sha256": "1c324c3673c36954aecd2b2d74ddd142dcf2a286bb119d53bc50a0387d40a59e",
+      "transformations": [
+        "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
+      ],
+      "builder_recorded_origin": "/mnt/nas/data/lyf/chem_mem/awesome_memory_chem/papers/paperB/research_increments/signed_force_fixture_calibration_v03_2026-10-15/collector/code/close_regression_model.py",
+      "origin_verification": "Full byte readback recorded by sealed-input publication builders; not re-read in this manifest-only pass"
+    },
+    {
+      "path": "research_increments/signed_force_fixture_calibration_v03_2026-10-15/collector/code/contact_processing_setting.py",
+      "bytes": 2186,
+      "sha256": "b3965da9de05b7fec3dce5508c31820cf8840e12717f87b9dcb2dda5665cdb9f",
+      "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/research_increments/signed_force_fixture_calibration_v03_2026-10-15/collector/code/contact_processing_setting.py",
+      "source_sha256": "b3965da9de05b7fec3dce5508c31820cf8840e12717f87b9dcb2dda5665cdb9f",
+      "transformations": [
+        "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
+      ],
+      "builder_recorded_origin": "/mnt/nas/data/lyf/chem_mem/awesome_memory_chem/papers/paperB/research_increments/signed_force_fixture_calibration_v03_2026-10-15/collector/code/contact_processing_setting.py",
+      "origin_verification": "Full byte readback recorded by sealed-input publication builders; not re-read in this manifest-only pass"
+    },
+    {
+      "path": "research_increments/signed_force_fixture_calibration_v03_2026-10-15/collector/code/execution_gate.py",
+      "bytes": 6088,
+      "sha256": "8e9afe3aa198eda7966f707a8a4d30742005303f9aeb516454c94f13d6aea001",
+      "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/research_increments/signed_force_fixture_calibration_v03_2026-10-15/collector/code/execution_gate.py",
+      "source_sha256": "8e9afe3aa198eda7966f707a8a4d30742005303f9aeb516454c94f13d6aea001",
+      "transformations": [
+        "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
+      ],
+      "builder_recorded_origin": "/mnt/nas/data/lyf/chem_mem/awesome_memory_chem/papers/paperB/research_increments/signed_force_fixture_calibration_v03_2026-10-15/collector/code/execution_gate.py",
+      "origin_verification": "Full byte readback recorded by sealed-input publication builders; not re-read in this manifest-only pass"
+    },
+    {
+      "path": "research_increments/signed_force_fixture_calibration_v03_2026-10-15/collector/code/gpu_mapping.py",
+      "bytes": 2598,
+      "sha256": "8de25a859f84b733e2a1b8bd1d300030249f68f97fc22de03004a2a6961c47e3",
+      "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/research_increments/signed_force_fixture_calibration_v03_2026-10-15/collector/code/gpu_mapping.py",
+      "source_sha256": "8de25a859f84b733e2a1b8bd1d300030249f68f97fc22de03004a2a6961c47e3",
+      "transformations": [
+        "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
+      ],
+      "builder_recorded_origin": "/mnt/nas/data/lyf/chem_mem/awesome_memory_chem/papers/paperB/research_increments/signed_force_fixture_calibration_v03_2026-10-15/collector/code/gpu_mapping.py",
+      "origin_verification": "Full byte readback recorded by sealed-input publication builders; not re-read in this manifest-only pass"
+    },
+    {
+      "path": "research_increments/signed_force_fixture_calibration_v03_2026-10-15/collector/code/launch_worker.sh",
+      "bytes": 2956,
+      "sha256": "51b68a71ef1554b829a89fd1223a14905d1d5ab0f3c73ab5c69637af4d9ffc49",
+      "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/research_increments/signed_force_fixture_calibration_v03_2026-10-15/collector/code/launch_worker.sh",
+      "source_sha256": "51b68a71ef1554b829a89fd1223a14905d1d5ab0f3c73ab5c69637af4d9ffc49",
+      "transformations": [
+        "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
+      ],
+      "builder_recorded_origin": "/mnt/nas/data/lyf/chem_mem/awesome_memory_chem/papers/paperB/research_increments/signed_force_fixture_calibration_v03_2026-10-15/collector/code/launch_worker.sh",
+      "origin_verification": "Full byte readback recorded by sealed-input publication builders; not re-read in this manifest-only pass"
+    },
+    {
+      "path": "research_increments/signed_force_fixture_calibration_v03_2026-10-15/collector/code/lifecycle_observer.py",
+      "bytes": 4687,
+      "sha256": "927aeb80d6760839dd8c27f215a385fa273a4a516c6a534003ccce8c4211d901",
+      "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/research_increments/signed_force_fixture_calibration_v03_2026-10-15/collector/code/lifecycle_observer.py",
+      "source_sha256": "927aeb80d6760839dd8c27f215a385fa273a4a516c6a534003ccce8c4211d901",
+      "transformations": [
+        "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
+      ],
+      "builder_recorded_origin": "/mnt/nas/data/lyf/chem_mem/awesome_memory_chem/papers/paperB/research_increments/signed_force_fixture_calibration_v03_2026-10-15/collector/code/lifecycle_observer.py",
+      "origin_verification": "Full byte readback recorded by sealed-input publication builders; not re-read in this manifest-only pass"
+    },
+    {
+      "path": "research_increments/signed_force_fixture_calibration_v03_2026-10-15/collector/code/native_probe.py",
+      "bytes": 18922,
+      "sha256": "cd5c9d314bba07df40573e7c46e823a30dd6a2b62431ec1f5191b17bf7f0875f",
+      "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/research_increments/signed_force_fixture_calibration_v03_2026-10-15/collector/code/native_probe.py",
+      "source_sha256": "cd5c9d314bba07df40573e7c46e823a30dd6a2b62431ec1f5191b17bf7f0875f",
+      "transformations": [
+        "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
+      ],
+      "builder_recorded_origin": "/mnt/nas/data/lyf/chem_mem/awesome_memory_chem/papers/paperB/research_increments/signed_force_fixture_calibration_v03_2026-10-15/collector/code/native_probe.py",
+      "origin_verification": "Full byte readback recorded by sealed-input publication builders; not re-read in this manifest-only pass"
+    },
+    {
+      "path": "research_increments/signed_force_fixture_calibration_v03_2026-10-15/collector/code/physical_capture.py",
+      "bytes": 7101,
+      "sha256": "d10610f5d508a37b65f2978fadbae304b0001606d51faf0511c8805ce4ae0d5f",
+      "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/research_increments/signed_force_fixture_calibration_v03_2026-10-15/collector/code/physical_capture.py",
+      "source_sha256": "d10610f5d508a37b65f2978fadbae304b0001606d51faf0511c8805ce4ae0d5f",
+      "transformations": [
+        "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
+      ],
+      "builder_recorded_origin": "/mnt/nas/data/lyf/chem_mem/awesome_memory_chem/papers/paperB/research_increments/signed_force_fixture_calibration_v03_2026-10-15/collector/code/physical_capture.py",
+      "origin_verification": "Full byte readback recorded by sealed-input publication builders; not re-read in this manifest-only pass"
+    },
+    {
+      "path": "research_increments/signed_force_fixture_calibration_v03_2026-10-15/collector/code/run_worker.py",
+      "bytes": 7715,
+      "sha256": "8d97cc8ab6379ce9c5dc3df12b1d7617b94eb7e0b0ed5610bd5ff4312115147c",
+      "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/research_increments/signed_force_fixture_calibration_v03_2026-10-15/collector/code/run_worker.py",
+      "source_sha256": "8d97cc8ab6379ce9c5dc3df12b1d7617b94eb7e0b0ed5610bd5ff4312115147c",
+      "transformations": [
+        "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
+      ],
+      "builder_recorded_origin": "/mnt/nas/data/lyf/chem_mem/awesome_memory_chem/papers/paperB/research_increments/signed_force_fixture_calibration_v03_2026-10-15/collector/code/run_worker.py",
+      "origin_verification": "Full byte readback recorded by sealed-input publication builders; not re-read in this manifest-only pass"
+    },
+    {
+      "path": "research_increments/signed_force_fixture_calibration_v03_2026-10-15/collector/code/test_capture_raw.py",
+      "bytes": 4485,
+      "sha256": "dfda07571af82740dabcc82ca2c26e885f5dc82c56f90ff39263c86eb12cb594",
+      "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/research_increments/signed_force_fixture_calibration_v03_2026-10-15/collector/code/test_capture_raw.py",
+      "source_sha256": "dfda07571af82740dabcc82ca2c26e885f5dc82c56f90ff39263c86eb12cb594",
+      "transformations": [
+        "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
+      ],
+      "builder_recorded_origin": "/mnt/nas/data/lyf/chem_mem/awesome_memory_chem/papers/paperB/research_increments/signed_force_fixture_calibration_v03_2026-10-15/collector/code/test_capture_raw.py",
+      "origin_verification": "Full byte readback recorded by sealed-input publication builders; not re-read in this manifest-only pass"
+    },
+    {
+      "path": "research_increments/signed_force_fixture_calibration_v03_2026-10-15/collector/code/test_cleanup_candidate.py",
+      "bytes": 3438,
+      "sha256": "79fbc8967f0a7a3ee06038bd09aca81923b2b2b5e1adae1077a66e4d8b2eafa0",
+      "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/research_increments/signed_force_fixture_calibration_v03_2026-10-15/collector/code/test_cleanup_candidate.py",
+      "source_sha256": "79fbc8967f0a7a3ee06038bd09aca81923b2b2b5e1adae1077a66e4d8b2eafa0",
+      "transformations": [
+        "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
+      ],
+      "builder_recorded_origin": "/mnt/nas/data/lyf/chem_mem/awesome_memory_chem/papers/paperB/research_increments/signed_force_fixture_calibration_v03_2026-10-15/collector/code/test_cleanup_candidate.py",
+      "origin_verification": "Full byte readback recorded by sealed-input publication builders; not re-read in this manifest-only pass"
+    },
+    {
+      "path": "research_increments/signed_force_fixture_calibration_v03_2026-10-15/collector/code/test_contact_processing_setting.py",
+      "bytes": 6778,
+      "sha256": "64e75259a05527326789788264769e1bcbb6e62be1d0ee4d6529719648af70bc",
+      "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/research_increments/signed_force_fixture_calibration_v03_2026-10-15/collector/code/test_contact_processing_setting.py",
+      "source_sha256": "64e75259a05527326789788264769e1bcbb6e62be1d0ee4d6529719648af70bc",
+      "transformations": [
+        "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
+      ],
+      "builder_recorded_origin": "/mnt/nas/data/lyf/chem_mem/awesome_memory_chem/papers/paperB/research_increments/signed_force_fixture_calibration_v03_2026-10-15/collector/code/test_contact_processing_setting.py",
+      "origin_verification": "Full byte readback recorded by sealed-input publication builders; not re-read in this manifest-only pass"
+    },
+    {
+      "path": "research_increments/signed_force_fixture_calibration_v03_2026-10-15/collector/code/test_execution_gate.py",
+      "bytes": 4672,
+      "sha256": "19efcf3fc5736a6ad465661abb451a9df5c50c9c4a00eac0a7892e8ab9adadf9",
+      "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/research_increments/signed_force_fixture_calibration_v03_2026-10-15/collector/code/test_execution_gate.py",
+      "source_sha256": "19efcf3fc5736a6ad465661abb451a9df5c50c9c4a00eac0a7892e8ab9adadf9",
+      "transformations": [
+        "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
+      ],
+      "builder_recorded_origin": "/mnt/nas/data/lyf/chem_mem/awesome_memory_chem/papers/paperB/research_increments/signed_force_fixture_calibration_v03_2026-10-15/collector/code/test_execution_gate.py",
+      "origin_verification": "Full byte readback recorded by sealed-input publication builders; not re-read in this manifest-only pass"
+    },
+    {
+      "path": "research_increments/signed_force_fixture_calibration_v03_2026-10-15/collector/execution_gate.py.diff",
+      "bytes": 3490,
+      "sha256": "2c2e27722eff5f02f6ac052d705e03956c9338f2b1db70e9f99b4583ba3400b7",
+      "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/research_increments/signed_force_fixture_calibration_v03_2026-10-15/collector/execution_gate.py.diff",
+      "source_sha256": "2c2e27722eff5f02f6ac052d705e03956c9338f2b1db70e9f99b4583ba3400b7",
+      "transformations": [
+        "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
+      ],
+      "builder_recorded_origin": "/mnt/nas/data/lyf/chem_mem/awesome_memory_chem/papers/paperB/research_increments/signed_force_fixture_calibration_v03_2026-10-15/collector/execution_gate.py.diff",
+      "origin_verification": "Full byte readback recorded by sealed-input publication builders; not re-read in this manifest-only pass"
+    },
+    {
+      "path": "research_increments/signed_force_fixture_calibration_v03_2026-10-15/collector/force_fixture_v03_source.zip",
+      "bytes": 62763,
+      "sha256": "702f4d1a84f8a9be956e509db7af5b3245322231d6a613131d5c920b2d6cd2c6",
+      "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/research_increments/signed_force_fixture_calibration_v03_2026-10-15/collector/force_fixture_v03_source.zip",
+      "source_sha256": "702f4d1a84f8a9be956e509db7af5b3245322231d6a613131d5c920b2d6cd2c6",
+      "transformations": [
+        "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
+      ],
+      "builder_recorded_origin": "/mnt/nas/data/lyf/chem_mem/awesome_memory_chem/papers/paperB/research_increments/signed_force_fixture_calibration_v03_2026-10-15/collector/force_fixture_v03_source.zip",
+      "origin_verification": "Full byte readback recorded by sealed-input publication builders; not re-read in this manifest-only pass"
+    },
+    {
+      "path": "research_increments/signed_force_fixture_calibration_v03_2026-10-15/collector/launch_worker.sh.diff",
+      "bytes": 1961,
+      "sha256": "6c9a13b9aefe48c7836370946ea4d47c41ce797167391cfadcea37fc41113748",
+      "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/research_increments/signed_force_fixture_calibration_v03_2026-10-15/collector/launch_worker.sh.diff",
+      "source_sha256": "6c9a13b9aefe48c7836370946ea4d47c41ce797167391cfadcea37fc41113748",
+      "transformations": [
+        "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
+      ],
+      "builder_recorded_origin": "/mnt/nas/data/lyf/chem_mem/awesome_memory_chem/papers/paperB/research_increments/signed_force_fixture_calibration_v03_2026-10-15/collector/launch_worker.sh.diff",
+      "origin_verification": "Full byte readback recorded by sealed-input publication builders; not re-read in this manifest-only pass"
+    },
+    {
+      "path": "research_increments/signed_force_fixture_calibration_v03_2026-10-15/collector/native_probe.py.diff",
+      "bytes": 4381,
+      "sha256": "c7d78bc5442fc3599d182ea0c9bacbd8444a8aa192c4a4acbc4dd81aa53ed3c4",
+      "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/research_increments/signed_force_fixture_calibration_v03_2026-10-15/collector/native_probe.py.diff",
+      "source_sha256": "c7d78bc5442fc3599d182ea0c9bacbd8444a8aa192c4a4acbc4dd81aa53ed3c4",
+      "transformations": [
+        "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
+      ],
+      "builder_recorded_origin": "/mnt/nas/data/lyf/chem_mem/awesome_memory_chem/papers/paperB/research_increments/signed_force_fixture_calibration_v03_2026-10-15/collector/native_probe.py.diff",
+      "origin_verification": "Full byte readback recorded by sealed-input publication builders; not re-read in this manifest-only pass"
+    },
+    {
+      "path": "research_increments/signed_force_fixture_calibration_v03_2026-10-15/collector/protocol.json",
+      "bytes": 14543,
+      "sha256": "7dd3b0ffe0679c0ec6b05e6f95133633541d4d3820e3e56eaefea818786d94ef",
+      "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/research_increments/signed_force_fixture_calibration_v03_2026-10-15/collector/protocol.json",
+      "source_sha256": "7dd3b0ffe0679c0ec6b05e6f95133633541d4d3820e3e56eaefea818786d94ef",
+      "transformations": [
+        "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
+      ],
+      "builder_recorded_origin": "/mnt/nas/data/lyf/chem_mem/awesome_memory_chem/papers/paperB/research_increments/signed_force_fixture_calibration_v03_2026-10-15/collector/protocol.json",
+      "origin_verification": "Full byte readback recorded by sealed-input publication builders; not re-read in this manifest-only pass"
+    },
+    {
+      "path": "research_increments/signed_force_fixture_calibration_v03_2026-10-15/figures/FIGURE_RECEIPT.json",
+      "bytes": 2283,
+      "sha256": "f9ac59164dbe8770c33f5533f47a39dc0f1a94eaa8f06cf0af241b965b277cf3",
+      "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/research_increments/signed_force_fixture_calibration_v03_2026-10-15/figures/FIGURE_RECEIPT.json",
+      "source_sha256": "f9ac59164dbe8770c33f5533f47a39dc0f1a94eaa8f06cf0af241b965b277cf3",
+      "transformations": [
+        "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
+      ],
+      "builder_recorded_origin": "/mnt/nas/data/lyf/chem_mem/awesome_memory_chem/papers/paperB/research_increments/signed_force_fixture_calibration_v03_2026-10-15/publication/figures/FIGURE_RECEIPT.json",
+      "origin_verification": "Full byte readback recorded by sealed-input publication builders; not re-read in this manifest-only pass"
+    },
+    {
+      "path": "research_increments/signed_force_fixture_calibration_v03_2026-10-15/figures/signed_force_calibration.pdf",
+      "bytes": 32993,
+      "sha256": "dacf9a9850c080a70dbb97731be1870b2fd4e09cf71ad57eebcf5fbdcbc736d4",
+      "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/research_increments/signed_force_fixture_calibration_v03_2026-10-15/figures/signed_force_calibration.pdf",
+      "source_sha256": "dacf9a9850c080a70dbb97731be1870b2fd4e09cf71ad57eebcf5fbdcbc736d4",
+      "transformations": [
+        "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
+      ],
+      "builder_recorded_origin": "/mnt/nas/data/lyf/chem_mem/awesome_memory_chem/papers/paperB/research_increments/signed_force_fixture_calibration_v03_2026-10-15/publication/figures/signed_force_calibration.pdf",
+      "origin_verification": "Full byte readback recorded by sealed-input publication builders; not re-read in this manifest-only pass"
+    },
+    {
+      "path": "research_increments/signed_force_fixture_calibration_v03_2026-10-15/figures/signed_force_calibration.png",
+      "bytes": 151387,
+      "sha256": "bdb170552a723aa088e2d73f59588acfc5784afdf5cd7b1722b99b60ca38a01b",
+      "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/research_increments/signed_force_fixture_calibration_v03_2026-10-15/figures/signed_force_calibration.png",
+      "source_sha256": "bdb170552a723aa088e2d73f59588acfc5784afdf5cd7b1722b99b60ca38a01b",
+      "transformations": [
+        "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
+      ],
+      "builder_recorded_origin": "/mnt/nas/data/lyf/chem_mem/awesome_memory_chem/papers/paperB/research_increments/signed_force_fixture_calibration_v03_2026-10-15/publication/figures/signed_force_calibration.png",
+      "origin_verification": "Full byte readback recorded by sealed-input publication builders; not re-read in this manifest-only pass"
+    },
+    {
+      "path": "research_increments/signed_force_fixture_calibration_v03_2026-10-15/figures/signed_force_calibration.svg",
+      "bytes": 120079,
+      "sha256": "446094ca63c61c49fe65197b5f6e72caced24814c084f46818f217bc463d871e",
+      "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/research_increments/signed_force_fixture_calibration_v03_2026-10-15/figures/signed_force_calibration.svg",
+      "source_sha256": "446094ca63c61c49fe65197b5f6e72caced24814c084f46818f217bc463d871e",
+      "transformations": [
+        "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
+      ],
+      "builder_recorded_origin": "/mnt/nas/data/lyf/chem_mem/awesome_memory_chem/papers/paperB/research_increments/signed_force_fixture_calibration_v03_2026-10-15/publication/figures/signed_force_calibration.svg",
+      "origin_verification": "Full byte readback recorded by sealed-input publication builders; not re-read in this manifest-only pass"
+    },
+    {
+      "path": "research_increments/signed_force_fixture_calibration_v03_2026-10-15/independent_reader/FINAL_RECEIPT.json",
+      "bytes": 1340,
+      "sha256": "4d53c6671d21ecc361c9c37a0201f4e63d4adb0b12d8ea533e445ce658986bb9",
+      "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/research_increments/signed_force_fixture_calibration_v03_2026-10-15/independent_reader/FINAL_RECEIPT.json",
+      "source_sha256": "4d53c6671d21ecc361c9c37a0201f4e63d4adb0b12d8ea533e445ce658986bb9",
+      "transformations": [
+        "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
+      ],
+      "builder_recorded_origin": "/mnt/nas/data/lyf/chem_mem/awesome_memory_chem/papers/paperB/research_increments/signed_force_fixture_calibration_v03_2026-10-15/independent_reader/FINAL_RECEIPT.json",
+      "origin_verification": "Full byte readback recorded by sealed-input publication builders; not re-read in this manifest-only pass"
+    },
+    {
+      "path": "research_increments/signed_force_fixture_calibration_v03_2026-10-15/independent_reader/PREOUTCOME_READER_CONTRACT.json",
+      "bytes": 2095,
+      "sha256": "0caa89cee31d1ef58cf783465febca5cd49f1b65a24d2008a68331df720df13e",
+      "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/research_increments/signed_force_fixture_calibration_v03_2026-10-15/independent_reader/PREOUTCOME_READER_CONTRACT.json",
+      "source_sha256": "0caa89cee31d1ef58cf783465febca5cd49f1b65a24d2008a68331df720df13e",
+      "transformations": [
+        "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
+      ],
+      "builder_recorded_origin": "/mnt/nas/data/lyf/chem_mem/awesome_memory_chem/papers/paperB/research_increments/signed_force_fixture_calibration_v03_2026-10-15/independent_reader/PREOUTCOME_READER_CONTRACT.json",
+      "origin_verification": "Full byte readback recorded by sealed-input publication builders; not re-read in this manifest-only pass"
+    },
+    {
+      "path": "research_increments/signed_force_fixture_calibration_v03_2026-10-15/independent_reader/PROSPECTIVE_READER_FREEZE.json",
+      "bytes": 3585,
+      "sha256": "52d9b5009be016b53905927bcfdcf4a4c5b8eb2b83f110384237734d670fbb1d",
+      "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/research_increments/signed_force_fixture_calibration_v03_2026-10-15/independent_reader/PROSPECTIVE_READER_FREEZE.json",
+      "source_sha256": "52d9b5009be016b53905927bcfdcf4a4c5b8eb2b83f110384237734d670fbb1d",
+      "transformations": [
+        "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
+      ],
+      "builder_recorded_origin": "/mnt/nas/data/lyf/chem_mem/awesome_memory_chem/papers/paperB/research_increments/signed_force_fixture_calibration_v03_2026-10-15/independent_reader/PROSPECTIVE_READER_FREEZE.json",
+      "origin_verification": "Full byte readback recorded by sealed-input publication builders; not re-read in this manifest-only pass"
+    },
+    {
+      "path": "research_increments/signed_force_fixture_calibration_v03_2026-10-15/independent_reader/README_cn.md",
+      "bytes": 3489,
+      "sha256": "23ef3643d6e04086cb0e80039dd5ddfe9ff32a6d6794d032161fdc67732e90d2",
+      "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/research_increments/signed_force_fixture_calibration_v03_2026-10-15/independent_reader/README_cn.md",
+      "source_sha256": "23ef3643d6e04086cb0e80039dd5ddfe9ff32a6d6794d032161fdc67732e90d2",
+      "transformations": [
+        "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
+      ],
+      "builder_recorded_origin": "/mnt/nas/data/lyf/chem_mem/awesome_memory_chem/papers/paperB/research_increments/signed_force_fixture_calibration_v03_2026-10-15/independent_reader/README_cn.md",
+      "origin_verification": "Full byte readback recorded by sealed-input publication builders; not re-read in this manifest-only pass"
+    },
+    {
+      "path": "research_increments/signed_force_fixture_calibration_v03_2026-10-15/independent_reader/SOURCE_REVIEW.json",
+      "bytes": 3297,
+      "sha256": "5e0fb9eb437f18d42404be4bb279dd2ef3e92e5613ca6a1cad04221e1c47a6f0",
+      "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/research_increments/signed_force_fixture_calibration_v03_2026-10-15/independent_reader/SOURCE_REVIEW.json",
+      "source_sha256": "5e0fb9eb437f18d42404be4bb279dd2ef3e92e5613ca6a1cad04221e1c47a6f0",
+      "transformations": [
+        "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
+      ],
+      "builder_recorded_origin": "/mnt/nas/data/lyf/chem_mem/awesome_memory_chem/papers/paperB/research_increments/signed_force_fixture_calibration_v03_2026-10-15/independent_reader/SOURCE_REVIEW.json",
+      "origin_verification": "Full byte readback recorded by sealed-input publication builders; not re-read in this manifest-only pass"
+    },
+    {
+      "path": "research_increments/signed_force_fixture_calibration_v03_2026-10-15/independent_reader/code/audit_fixture.py",
+      "bytes": 41974,
+      "sha256": "c5e207f2ad66227f7edcf33ccb62480faa55b3148f2bdd7a0d761353ef6b9123",
+      "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/research_increments/signed_force_fixture_calibration_v03_2026-10-15/independent_reader/code/audit_fixture.py",
+      "source_sha256": "c5e207f2ad66227f7edcf33ccb62480faa55b3148f2bdd7a0d761353ef6b9123",
+      "transformations": [
+        "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
+      ],
+      "builder_recorded_origin": "/mnt/nas/data/lyf/chem_mem/awesome_memory_chem/papers/paperB/research_increments/signed_force_fixture_calibration_v03_2026-10-15/independent_reader/code/audit_fixture.py",
+      "origin_verification": "Full byte readback recorded by sealed-input publication builders; not re-read in this manifest-only pass"
+    },
+    {
+      "path": "research_increments/signed_force_fixture_calibration_v03_2026-10-15/independent_reader/code/cleanup_lifecycle.py",
+      "bytes": 6256,
+      "sha256": "15fa39f52f22f9978ce94c9288c1c1b15ba283a9c6676d1d4344b56c22618bce",
+      "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/research_increments/signed_force_fixture_calibration_v03_2026-10-15/independent_reader/code/cleanup_lifecycle.py",
+      "source_sha256": "15fa39f52f22f9978ce94c9288c1c1b15ba283a9c6676d1d4344b56c22618bce",
+      "transformations": [
+        "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
+      ],
+      "builder_recorded_origin": "/mnt/nas/data/lyf/chem_mem/awesome_memory_chem/papers/paperB/research_increments/signed_force_fixture_calibration_v03_2026-10-15/independent_reader/code/cleanup_lifecycle.py",
+      "origin_verification": "Full byte readback recorded by sealed-input publication builders; not re-read in this manifest-only pass"
+    },
+    {
+      "path": "research_increments/signed_force_fixture_calibration_v03_2026-10-15/independent_reader/code/independent_math.py",
+      "bytes": 5370,
+      "sha256": "d2fd5a5b238bd44d3de8e780ac7a35523d3ebaabf12a475c291945257e1d8f2e",
+      "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/research_increments/signed_force_fixture_calibration_v03_2026-10-15/independent_reader/code/independent_math.py",
+      "source_sha256": "d2fd5a5b238bd44d3de8e780ac7a35523d3ebaabf12a475c291945257e1d8f2e",
+      "transformations": [
+        "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
+      ],
+      "builder_recorded_origin": "/mnt/nas/data/lyf/chem_mem/awesome_memory_chem/papers/paperB/research_increments/signed_force_fixture_calibration_v03_2026-10-15/independent_reader/code/independent_math.py",
+      "origin_verification": "Full byte readback recorded by sealed-input publication builders; not re-read in this manifest-only pass"
+    },
+    {
+      "path": "research_increments/signed_force_fixture_calibration_v03_2026-10-15/independent_reader/code/processing_readback.py",
+      "bytes": 4962,
+      "sha256": "01afcf4e4e6f41fea1cc93c16f88636b5781131806f600750f71d80286bc3561",
+      "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/research_increments/signed_force_fixture_calibration_v03_2026-10-15/independent_reader/code/processing_readback.py",
+      "source_sha256": "01afcf4e4e6f41fea1cc93c16f88636b5781131806f600750f71d80286bc3561",
+      "transformations": [
+        "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
+      ],
+      "builder_recorded_origin": "/mnt/nas/data/lyf/chem_mem/awesome_memory_chem/papers/paperB/research_increments/signed_force_fixture_calibration_v03_2026-10-15/independent_reader/code/processing_readback.py",
+      "origin_verification": "Full byte readback recorded by sealed-input publication builders; not re-read in this manifest-only pass"
+    },
+    {
+      "path": "research_increments/signed_force_fixture_calibration_v03_2026-10-15/independent_reader/code/prospective_source_check.py",
+      "bytes": 4881,
+      "sha256": "d310d72d0f8de70f4b90a41084f559501eb4b26f4c572e1938fa64c008ab1a7a",
+      "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/research_increments/signed_force_fixture_calibration_v03_2026-10-15/independent_reader/code/prospective_source_check.py",
+      "source_sha256": "d310d72d0f8de70f4b90a41084f559501eb4b26f4c572e1938fa64c008ab1a7a",
+      "transformations": [
+        "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
+      ],
+      "builder_recorded_origin": "/mnt/nas/data/lyf/chem_mem/awesome_memory_chem/papers/paperB/research_increments/signed_force_fixture_calibration_v03_2026-10-15/independent_reader/code/prospective_source_check.py",
+      "origin_verification": "Full byte readback recorded by sealed-input publication builders; not re-read in this manifest-only pass"
+    },
+    {
+      "path": "research_increments/signed_force_fixture_calibration_v03_2026-10-15/independent_reader/force_fixture_v03_independent_reader_source.zip",
+      "bytes": 46736,
+      "sha256": "68c71dc967334964de6dc04db34bd394af78980338e3368892478a5a4ca7b005",
+      "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/research_increments/signed_force_fixture_calibration_v03_2026-10-15/independent_reader/force_fixture_v03_independent_reader_source.zip",
+      "source_sha256": "68c71dc967334964de6dc04db34bd394af78980338e3368892478a5a4ca7b005",
+      "transformations": [
+        "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
+      ],
+      "builder_recorded_origin": "/mnt/nas/data/lyf/chem_mem/awesome_memory_chem/papers/paperB/research_increments/signed_force_fixture_calibration_v03_2026-10-15/independent_reader/force_fixture_v03_independent_reader_source.zip",
+      "origin_verification": "Full byte readback recorded by sealed-input publication builders; not re-read in this manifest-only pass"
+    },
+    {
+      "path": "research_increments/signed_force_fixture_calibration_v03_2026-10-15/independent_reader/reports/CPU_TESTS.log",
+      "bytes": 4907,
+      "sha256": "ccdf589bf509b6d14df77653f7b907eab0518d1af893259704c455aa0e9c2ba6",
+      "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/research_increments/signed_force_fixture_calibration_v03_2026-10-15/independent_reader/reports/CPU_TESTS.log",
+      "source_sha256": "ccdf589bf509b6d14df77653f7b907eab0518d1af893259704c455aa0e9c2ba6",
+      "transformations": [
+        "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
+      ],
+      "builder_recorded_origin": "/mnt/nas/data/lyf/chem_mem/awesome_memory_chem/papers/paperB/research_increments/signed_force_fixture_calibration_v03_2026-10-15/independent_reader/reports/CPU_TESTS.log",
+      "origin_verification": "Full byte readback recorded by sealed-input publication builders; not re-read in this manifest-only pass"
+    },
+    {
+      "path": "research_increments/signed_force_fixture_calibration_v03_2026-10-15/independent_reader/reports/CPU_TESTS_REPAIRED_SYNTHETIC_EPOCH.log",
+      "bytes": 5186,
+      "sha256": "2c484c3cb852720bba29f6ba725071d2795a48631845c6f7d1b49a285cda2f80",
+      "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/research_increments/signed_force_fixture_calibration_v03_2026-10-15/independent_reader/reports/CPU_TESTS_REPAIRED_SYNTHETIC_EPOCH.log",
+      "source_sha256": "2c484c3cb852720bba29f6ba725071d2795a48631845c6f7d1b49a285cda2f80",
+      "transformations": [
+        "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
+      ],
+      "builder_recorded_origin": "/mnt/nas/data/lyf/chem_mem/awesome_memory_chem/papers/paperB/research_increments/signed_force_fixture_calibration_v03_2026-10-15/independent_reader/reports/CPU_TESTS_REPAIRED_SYNTHETIC_EPOCH.log",
+      "origin_verification": "Full byte readback recorded by sealed-input publication builders; not re-read in this manifest-only pass"
+    },
+    {
+      "path": "research_increments/signed_force_fixture_calibration_v03_2026-10-15/independent_reader/reports/CPU_TESTS_VERIFIED_SCHEMA_EPOCH.log",
+      "bytes": 3719,
+      "sha256": "c943172427cdbf56c10bddf6bf711e2f3551dd75fef2cecded1b0d8c3d853d99",
+      "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/research_increments/signed_force_fixture_calibration_v03_2026-10-15/independent_reader/reports/CPU_TESTS_VERIFIED_SCHEMA_EPOCH.log",
+      "source_sha256": "c943172427cdbf56c10bddf6bf711e2f3551dd75fef2cecded1b0d8c3d853d99",
+      "transformations": [
+        "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
+      ],
+      "builder_recorded_origin": "/mnt/nas/data/lyf/chem_mem/awesome_memory_chem/papers/paperB/research_increments/signed_force_fixture_calibration_v03_2026-10-15/independent_reader/reports/CPU_TESTS_VERIFIED_SCHEMA_EPOCH.log",
+      "origin_verification": "Full byte readback recorded by sealed-input publication builders; not re-read in this manifest-only pass"
+    },
+    {
+      "path": "research_increments/signed_force_fixture_calibration_v03_2026-10-15/independent_reader/reports/CPU_VALIDATION.json",
+      "bytes": 928,
+      "sha256": "bb4b72e94ff1bd318bd4e2719b71abdc4a767346cc5ee6d7378a3d3fd1856489",
+      "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/research_increments/signed_force_fixture_calibration_v03_2026-10-15/independent_reader/reports/CPU_VALIDATION.json",
+      "source_sha256": "bb4b72e94ff1bd318bd4e2719b71abdc4a767346cc5ee6d7378a3d3fd1856489",
+      "transformations": [
+        "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
+      ],
+      "builder_recorded_origin": "/mnt/nas/data/lyf/chem_mem/awesome_memory_chem/papers/paperB/research_increments/signed_force_fixture_calibration_v03_2026-10-15/independent_reader/reports/CPU_VALIDATION.json",
+      "origin_verification": "Full byte readback recorded by sealed-input publication builders; not re-read in this manifest-only pass"
+    },
+    {
+      "path": "research_increments/signed_force_fixture_calibration_v03_2026-10-15/independent_reader/reports/ROOT_ADAPTER_SOURCE_REVIEW.json",
+      "bytes": 1287,
+      "sha256": "4072260d5b0e33add7b6b3f3cd0fa2a55a6bbf941239369472a9650cd23fb27c",
+      "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/research_increments/signed_force_fixture_calibration_v03_2026-10-15/independent_reader/reports/ROOT_ADAPTER_SOURCE_REVIEW.json",
+      "source_sha256": "4072260d5b0e33add7b6b3f3cd0fa2a55a6bbf941239369472a9650cd23fb27c",
+      "transformations": [
+        "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
+      ],
+      "builder_recorded_origin": "/mnt/nas/data/lyf/chem_mem/awesome_memory_chem/papers/paperB/research_increments/signed_force_fixture_calibration_v03_2026-10-15/independent_reader/reports/ROOT_ADAPTER_SOURCE_REVIEW.json",
+      "origin_verification": "Full byte readback recorded by sealed-input publication builders; not re-read in this manifest-only pass"
+    },
+    {
+      "path": "research_increments/signed_force_fixture_calibration_v03_2026-10-15/independent_reader/reports/SOURCE_VERIFICATION.json",
+      "bytes": 986,
+      "sha256": "f81496792cdda9f52d73a66d89edab39a64464aeb4737b541acd6e9e72a4a86a",
+      "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/research_increments/signed_force_fixture_calibration_v03_2026-10-15/independent_reader/reports/SOURCE_VERIFICATION.json",
+      "source_sha256": "f81496792cdda9f52d73a66d89edab39a64464aeb4737b541acd6e9e72a4a86a",
+      "transformations": [
+        "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
+      ],
+      "builder_recorded_origin": "/mnt/nas/data/lyf/chem_mem/awesome_memory_chem/papers/paperB/research_increments/signed_force_fixture_calibration_v03_2026-10-15/independent_reader/reports/SOURCE_VERIFICATION.json",
+      "origin_verification": "Full byte readback recorded by sealed-input publication builders; not re-read in this manifest-only pass"
+    },
+    {
+      "path": "research_increments/signed_force_fixture_calibration_v03_2026-10-15/independent_reader/reports/STATIC_COMPILE.json",
+      "bytes": 510,
+      "sha256": "04ed7d5a6f8bb1bedb11a999a5fb23d4e39b08e08a9a98c9014a01b6492a4670",
+      "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/research_increments/signed_force_fixture_calibration_v03_2026-10-15/independent_reader/reports/STATIC_COMPILE.json",
+      "source_sha256": "04ed7d5a6f8bb1bedb11a999a5fb23d4e39b08e08a9a98c9014a01b6492a4670",
+      "transformations": [
+        "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
+      ],
+      "builder_recorded_origin": "/mnt/nas/data/lyf/chem_mem/awesome_memory_chem/papers/paperB/research_increments/signed_force_fixture_calibration_v03_2026-10-15/independent_reader/reports/STATIC_COMPILE.json",
+      "origin_verification": "Full byte readback recorded by sealed-input publication builders; not re-read in this manifest-only pass"
+    },
+    {
+      "path": "research_increments/signed_force_fixture_calibration_v03_2026-10-15/independent_reader/tests/synthetic_fixture.py",
+      "bytes": 10540,
+      "sha256": "e132495c6420d968436f7e7717b6238c76467a9baa19ad9c36d2d062452bf05d",
+      "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/research_increments/signed_force_fixture_calibration_v03_2026-10-15/independent_reader/tests/synthetic_fixture.py",
+      "source_sha256": "e132495c6420d968436f7e7717b6238c76467a9baa19ad9c36d2d062452bf05d",
+      "transformations": [
+        "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
+      ],
+      "builder_recorded_origin": "/mnt/nas/data/lyf/chem_mem/awesome_memory_chem/papers/paperB/research_increments/signed_force_fixture_calibration_v03_2026-10-15/independent_reader/tests/synthetic_fixture.py",
+      "origin_verification": "Full byte readback recorded by sealed-input publication builders; not re-read in this manifest-only pass"
+    },
+    {
+      "path": "research_increments/signed_force_fixture_calibration_v03_2026-10-15/independent_reader/tests/test_cleanup_lifecycle.py",
+      "bytes": 5653,
+      "sha256": "86d6ad415f8535336bbc53c4f1891d06c53038853c6d56d8a94ce5d12feb56cd",
+      "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/research_increments/signed_force_fixture_calibration_v03_2026-10-15/independent_reader/tests/test_cleanup_lifecycle.py",
+      "source_sha256": "86d6ad415f8535336bbc53c4f1891d06c53038853c6d56d8a94ce5d12feb56cd",
+      "transformations": [
+        "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
+      ],
+      "builder_recorded_origin": "/mnt/nas/data/lyf/chem_mem/awesome_memory_chem/papers/paperB/research_increments/signed_force_fixture_calibration_v03_2026-10-15/independent_reader/tests/test_cleanup_lifecycle.py",
+      "origin_verification": "Full byte readback recorded by sealed-input publication builders; not re-read in this manifest-only pass"
+    },
+    {
+      "path": "research_increments/signed_force_fixture_calibration_v03_2026-10-15/independent_reader/tests/test_independent_math.py",
+      "bytes": 3671,
+      "sha256": "4bb9c38e8c2ac78bbd3dee293a9bf1bb2a0be9d7fff28de322b02318d6dcc972",
+      "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/research_increments/signed_force_fixture_calibration_v03_2026-10-15/independent_reader/tests/test_independent_math.py",
+      "source_sha256": "4bb9c38e8c2ac78bbd3dee293a9bf1bb2a0be9d7fff28de322b02318d6dcc972",
+      "transformations": [
+        "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
+      ],
+      "builder_recorded_origin": "/mnt/nas/data/lyf/chem_mem/awesome_memory_chem/papers/paperB/research_increments/signed_force_fixture_calibration_v03_2026-10-15/independent_reader/tests/test_independent_math.py",
+      "origin_verification": "Full byte readback recorded by sealed-input publication builders; not re-read in this manifest-only pass"
+    },
+    {
+      "path": "research_increments/signed_force_fixture_calibration_v03_2026-10-15/independent_reader/tests/test_parser_and_cli.py",
+      "bytes": 1351,
+      "sha256": "226a74f84431e490c6ffeffd68633e00bb3afb28bddf0d987b23b6ec11778022",
+      "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/research_increments/signed_force_fixture_calibration_v03_2026-10-15/independent_reader/tests/test_parser_and_cli.py",
+      "source_sha256": "226a74f84431e490c6ffeffd68633e00bb3afb28bddf0d987b23b6ec11778022",
+      "transformations": [
+        "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
+      ],
+      "builder_recorded_origin": "/mnt/nas/data/lyf/chem_mem/awesome_memory_chem/papers/paperB/research_increments/signed_force_fixture_calibration_v03_2026-10-15/independent_reader/tests/test_parser_and_cli.py",
+      "origin_verification": "Full byte readback recorded by sealed-input publication builders; not re-read in this manifest-only pass"
+    },
+    {
+      "path": "research_increments/signed_force_fixture_calibration_v03_2026-10-15/independent_reader/tests/test_processing_readback.py",
+      "bytes": 8010,
+      "sha256": "7cf9ba399fb3728ad492cdbbda944327ec874f93ba6dec670b42cef0c9c748b8",
+      "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/research_increments/signed_force_fixture_calibration_v03_2026-10-15/independent_reader/tests/test_processing_readback.py",
+      "source_sha256": "7cf9ba399fb3728ad492cdbbda944327ec874f93ba6dec670b42cef0c9c748b8",
+      "transformations": [
+        "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
+      ],
+      "builder_recorded_origin": "/mnt/nas/data/lyf/chem_mem/awesome_memory_chem/papers/paperB/research_increments/signed_force_fixture_calibration_v03_2026-10-15/independent_reader/tests/test_processing_readback.py",
+      "origin_verification": "Full byte readback recorded by sealed-input publication builders; not re-read in this manifest-only pass"
+    },
+    {
+      "path": "research_increments/signed_force_fixture_calibration_v03_2026-10-15/independent_reader/tests/test_schema_reader.py",
+      "bytes": 6755,
+      "sha256": "ff928ffff3f80475be1d01d9136b66cce40c3c2764ded9bc2b6c624a5c825b1b",
+      "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/research_increments/signed_force_fixture_calibration_v03_2026-10-15/independent_reader/tests/test_schema_reader.py",
+      "source_sha256": "ff928ffff3f80475be1d01d9136b66cce40c3c2764ded9bc2b6c624a5c825b1b",
+      "transformations": [
+        "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
+      ],
+      "builder_recorded_origin": "/mnt/nas/data/lyf/chem_mem/awesome_memory_chem/papers/paperB/research_increments/signed_force_fixture_calibration_v03_2026-10-15/independent_reader/tests/test_schema_reader.py",
+      "origin_verification": "Full byte readback recorded by sealed-input publication builders; not re-read in this manifest-only pass"
+    },
+    {
+      "path": "research_increments/signed_force_fixture_calibration_v03_2026-10-15/publication/MATCHED_INFORMATION_CLARIFICATION_cn.md",
+      "bytes": 2240,
+      "sha256": "b0665b852faf9bafb9b12b17740fcf29b6f71807f0c8edb9e34e275213c4f0e6",
+      "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/research_increments/signed_force_fixture_calibration_v03_2026-10-15/publication/MATCHED_INFORMATION_CLARIFICATION_cn.md",
+      "source_sha256": "b0665b852faf9bafb9b12b17740fcf29b6f71807f0c8edb9e34e275213c4f0e6",
+      "transformations": [
+        "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
+      ]
+    },
+    {
+      "path": "research_increments/signed_force_fixture_calibration_v03_2026-10-15/publication/build_v03_supplement.py",
+      "bytes": 23882,
+      "sha256": "f12628debb72fd7a9aebdd927d5c69c809e69dbc514f205957ef131008d1d4dd",
+      "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/research_increments/signed_force_fixture_calibration_v03_2026-10-15/publication/build_v03_supplement.py",
+      "source_sha256": "f12628debb72fd7a9aebdd927d5c69c809e69dbc514f205957ef131008d1d4dd",
+      "transformations": [
+        "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
+      ],
+      "builder_recorded_origin": "/mnt/nas/data/lyf/chem_mem/awesome_memory_chem/papers/paperB/research_increments/signed_force_fixture_calibration_v03_2026-10-15/publication/build_v03_supplement.py",
+      "origin_verification": "Full byte readback recorded by sealed-input publication builders; not re-read in this manifest-only pass"
+    },
+    {
+      "path": "research_increments/signed_force_fixture_calibration_v03_2026-10-15/raw/NATIVE_RAW_V03_COMPLETE_INPUTS_RECEIPT.json",
+      "bytes": 444,
+      "sha256": "d8b85daaf76f6388154b268ba04f5b7f7be1cf5e4f9898eb25ea03d77dbdf134",
+      "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/research_increments/signed_force_fixture_calibration_v03_2026-10-15/raw/NATIVE_RAW_V03_COMPLETE_INPUTS_RECEIPT.json",
+      "source_sha256": "d8b85daaf76f6388154b268ba04f5b7f7be1cf5e4f9898eb25ea03d77dbdf134",
+      "transformations": [
+        "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
+      ],
+      "builder_recorded_origin": "/mnt/nas/data/lyf/chem_mem/awesome_memory_chem/papers/paperB/research_increments/signed_force_fixture_calibration_v03_2026-10-15/publication/NATIVE_RAW_V03_COMPLETE_INPUTS_RECEIPT.json",
+      "origin_verification": "Full byte readback recorded by sealed-input publication builders; not re-read in this manifest-only pass"
+    },
+    {
+      "path": "research_increments/signed_force_fixture_calibration_v03_2026-10-15/raw/native_raw_v03_complete_inputs.zip",
+      "bytes": 20117460,
+      "sha256": "78040528d8018cadf36b60ffbf398e31ef4c252daf541528e9cd16b6f11ef46a",
+      "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/research_increments/signed_force_fixture_calibration_v03_2026-10-15/raw/native_raw_v03_complete_inputs.zip",
+      "source_sha256": "78040528d8018cadf36b60ffbf398e31ef4c252daf541528e9cd16b6f11ef46a",
+      "transformations": [
+        "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
+      ],
+      "builder_recorded_origin": "/mnt/nas/data/lyf/chem_mem/awesome_memory_chem/papers/paperB/research_increments/signed_force_fixture_calibration_v03_2026-10-15/publication/native_raw_v03_complete_inputs.zip",
+      "origin_verification": "Full byte readback recorded by sealed-input publication builders; not re-read in this manifest-only pass"
+    },
+    {
+      "path": "research_increments/signed_force_fixture_calibration_v03_2026-10-15/root_execution/ROOT_BATCH_V03_ACTUAL_CLOSURE.json",
+      "bytes": 14175,
+      "sha256": "7ef83aaad95068f4da00dbefcf7ee8da7a1e83c2c7b5c0a575a1c60fa8718108",
+      "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/research_increments/signed_force_fixture_calibration_v03_2026-10-15/root_execution/ROOT_BATCH_V03_ACTUAL_CLOSURE.json",
+      "source_sha256": "7ef83aaad95068f4da00dbefcf7ee8da7a1e83c2c7b5c0a575a1c60fa8718108",
+      "transformations": [
+        "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
+      ],
+      "builder_recorded_origin": "/mnt/nas/data/lyf/chem_mem/awesome_memory_chem/papers/paperB/research_increments/signed_force_fixture_calibration_v03_2026-10-15/root_execution/ROOT_BATCH_V03_ACTUAL_CLOSURE.json",
+      "origin_verification": "Full byte readback recorded by sealed-input publication builders; not re-read in this manifest-only pass"
+    },
+    {
+      "path": "research_increments/signed_force_fixture_calibration_v03_2026-10-15/root_execution/ROOT_PROSPECTIVE_ADAPTER_CORRECTION.json",
+      "bytes": 608,
+      "sha256": "aadbbde8f24cb43e17715df558adf241cb862e78ae6d819f237be918162300f9",
+      "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/research_increments/signed_force_fixture_calibration_v03_2026-10-15/root_execution/ROOT_PROSPECTIVE_ADAPTER_CORRECTION.json",
+      "source_sha256": "aadbbde8f24cb43e17715df558adf241cb862e78ae6d819f237be918162300f9",
+      "transformations": [
+        "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
+      ],
+      "builder_recorded_origin": "/mnt/nas/data/lyf/chem_mem/awesome_memory_chem/papers/paperB/research_increments/signed_force_fixture_calibration_v03_2026-10-15/root_execution/ROOT_PROSPECTIVE_ADAPTER_CORRECTION.json",
+      "origin_verification": "Full byte readback recorded by sealed-input publication builders; not re-read in this manifest-only pass"
+    },
+    {
+      "path": "research_increments/signed_force_fixture_calibration_v03_2026-10-15/root_execution/ROOT_PROSPECTIVE_CLEANUP_MARKER_COORDINATION.json",
+      "bytes": 1491,
+      "sha256": "45ffcb914ef1366585ef575660dba4d8cc9787f0b4992f16652322745bc81acd",
+      "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/research_increments/signed_force_fixture_calibration_v03_2026-10-15/root_execution/ROOT_PROSPECTIVE_CLEANUP_MARKER_COORDINATION.json",
+      "source_sha256": "45ffcb914ef1366585ef575660dba4d8cc9787f0b4992f16652322745bc81acd",
+      "transformations": [
+        "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
+      ],
+      "builder_recorded_origin": "/mnt/nas/data/lyf/chem_mem/awesome_memory_chem/papers/paperB/research_increments/signed_force_fixture_calibration_v03_2026-10-15/root_execution/ROOT_PROSPECTIVE_CLEANUP_MARKER_COORDINATION.json",
+      "origin_verification": "Full byte readback recorded by sealed-input publication builders; not re-read in this manifest-only pass"
+    },
+    {
+      "path": "research_increments/signed_force_fixture_calibration_v03_2026-10-15/root_execution/ROOT_READER_PIN_EXPECTATIONS.json",
+      "bytes": 407,
+      "sha256": "9fa62d73ad17c1a367fe0e463553465b7a0693705d6dd8b9d58cd62587bb70df",
+      "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/research_increments/signed_force_fixture_calibration_v03_2026-10-15/root_execution/ROOT_READER_PIN_EXPECTATIONS.json",
+      "source_sha256": "9fa62d73ad17c1a367fe0e463553465b7a0693705d6dd8b9d58cd62587bb70df",
+      "transformations": [
+        "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
+      ],
+      "builder_recorded_origin": "/mnt/nas/data/lyf/chem_mem/awesome_memory_chem/papers/paperB/research_increments/signed_force_fixture_calibration_v03_2026-10-15/root_execution/ROOT_READER_PIN_EXPECTATIONS.json",
+      "origin_verification": "Full byte readback recorded by sealed-input publication builders; not re-read in this manifest-only pass"
+    },
+    {
+      "path": "research_increments/signed_force_fixture_calibration_v03_2026-10-15/root_execution/ROOT_SOURCE_PROTOCOL_READBACK.json",
+      "bytes": 704,
+      "sha256": "ae9d8069210f1d34b84cc51c74208a85f22b81e17cb4b22d50a03b5da8a6e327",
+      "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/research_increments/signed_force_fixture_calibration_v03_2026-10-15/root_execution/ROOT_SOURCE_PROTOCOL_READBACK.json",
+      "source_sha256": "ae9d8069210f1d34b84cc51c74208a85f22b81e17cb4b22d50a03b5da8a6e327",
+      "transformations": [
+        "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
+      ],
+      "builder_recorded_origin": "/mnt/nas/data/lyf/chem_mem/awesome_memory_chem/papers/paperB/research_increments/signed_force_fixture_calibration_v03_2026-10-15/root_execution/ROOT_SOURCE_PROTOCOL_READBACK.json",
+      "origin_verification": "Full byte readback recorded by sealed-input publication builders; not re-read in this manifest-only pass"
+    },
+    {
+      "path": "research_increments/signed_force_fixture_calibration_v03_2026-10-15/root_execution/ROOT_SOURCE_READER_FULL_READBACK.json",
+      "bytes": 1011,
+      "sha256": "f9dc34992f927fcf720e1a59080871cdaa60e8c33fee17f9fc87b5f4913a378a",
+      "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/research_increments/signed_force_fixture_calibration_v03_2026-10-15/root_execution/ROOT_SOURCE_READER_FULL_READBACK.json",
+      "source_sha256": "f9dc34992f927fcf720e1a59080871cdaa60e8c33fee17f9fc87b5f4913a378a",
+      "transformations": [
+        "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
+      ],
+      "builder_recorded_origin": "/mnt/nas/data/lyf/chem_mem/awesome_memory_chem/papers/paperB/research_increments/signed_force_fixture_calibration_v03_2026-10-15/root_execution/ROOT_SOURCE_READER_FULL_READBACK.json",
+      "origin_verification": "Full byte readback recorded by sealed-input publication builders; not re-read in this manifest-only pass"
+    },
+    {
+      "path": "research_increments/signed_force_fixture_calibration_v03_2026-10-15/root_execution/cal_force_c0_freefall_v03/ROOT_ADMISSION.json",
+      "bytes": 7147,
+      "sha256": "1777cc1c746bd0aa2b2755fab669ec37e5b40c731d8a5f01b8eaf0b2c51eb185",
+      "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/research_increments/signed_force_fixture_calibration_v03_2026-10-15/root_execution/cal_force_c0_freefall_v03/ROOT_ADMISSION.json",
+      "source_sha256": "1777cc1c746bd0aa2b2755fab669ec37e5b40c731d8a5f01b8eaf0b2c51eb185",
+      "transformations": [
+        "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
+      ],
+      "builder_recorded_origin": "/mnt/nas/data/lyf/chem_mem/awesome_memory_chem/papers/paperB/research_increments/signed_force_fixture_calibration_v03_2026-10-15/root_execution/cal_force_c0_freefall_v03/ROOT_ADMISSION_resource02.json",
+      "origin_verification": "Full byte readback recorded by sealed-input publication builders; not re-read in this manifest-only pass"
+    },
+    {
+      "path": "research_increments/signed_force_fixture_calibration_v03_2026-10-15/root_execution/cal_force_c0_freefall_v03/ROOT_TERMINAL_AUDIT_REQUEST.json",
+      "bytes": 9635,
+      "sha256": "4595031eeca6e4da2f8133a037659729e52d302c30900de0b45603a65edc951e",
+      "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/research_increments/signed_force_fixture_calibration_v03_2026-10-15/root_execution/cal_force_c0_freefall_v03/ROOT_TERMINAL_AUDIT_REQUEST.json",
+      "source_sha256": "4595031eeca6e4da2f8133a037659729e52d302c30900de0b45603a65edc951e",
+      "transformations": [
+        "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
+      ],
+      "builder_recorded_origin": "/mnt/nas/data/lyf/chem_mem/awesome_memory_chem/papers/paperB/research_increments/signed_force_fixture_calibration_v03_2026-10-15/root_execution/cal_force_c0_freefall_v03/ROOT_TERMINAL_AUDIT_REQUEST.json",
+      "origin_verification": "Full byte readback recorded by sealed-input publication builders; not re-read in this manifest-only pass"
+    },
+    {
+      "path": "research_increments/signed_force_fixture_calibration_v03_2026-10-15/root_execution/cal_force_c0_freefall_v03/WORKER_TERMINAL.json",
+      "bytes": 907,
+      "sha256": "952ee5f5c4010f6c08c1d9671d856a9c8de7537d83ef974af238c360c5ea7454",
+      "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/research_increments/signed_force_fixture_calibration_v03_2026-10-15/root_execution/cal_force_c0_freefall_v03/WORKER_TERMINAL.json",
+      "source_sha256": "952ee5f5c4010f6c08c1d9671d856a9c8de7537d83ef974af238c360c5ea7454",
+      "transformations": [
+        "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
+      ],
+      "builder_recorded_origin": "/data/liyufeng/paperb_signed_force_calibration_20261015_v3/logs/cal_force_c0_freefall_v03.json",
+      "origin_verification": "Full byte readback recorded by sealed-input publication builders; not re-read in this manifest-only pass"
+    },
+    {
+      "path": "research_increments/signed_force_fixture_calibration_v03_2026-10-15/root_execution/cal_force_c1_stack_processing_off_v03/ROOT_ADMISSION.json",
+      "bytes": 7597,
+      "sha256": "e1169599ef306c1d67a95caecaa1dcf9347ae196fa6fbf8913ff379043125a65",
+      "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/research_increments/signed_force_fixture_calibration_v03_2026-10-15/root_execution/cal_force_c1_stack_processing_off_v03/ROOT_ADMISSION.json",
+      "source_sha256": "e1169599ef306c1d67a95caecaa1dcf9347ae196fa6fbf8913ff379043125a65",
+      "transformations": [
+        "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
+      ],
+      "builder_recorded_origin": "/mnt/nas/data/lyf/chem_mem/awesome_memory_chem/papers/paperB/research_increments/signed_force_fixture_calibration_v03_2026-10-15/root_execution/cal_force_c1_stack_processing_off_v03/ROOT_ADMISSION.json",
+      "origin_verification": "Full byte readback recorded by sealed-input publication builders; not re-read in this manifest-only pass"
+    },
+    {
+      "path": "research_increments/signed_force_fixture_calibration_v03_2026-10-15/root_execution/cal_force_c1_stack_processing_off_v03/ROOT_TERMINAL_AUDIT_REQUEST.json",
+      "bytes": 10186,
+      "sha256": "2b79c3ec32590905b1e319fc12de8d9d2656dd89d177b865e0095e581216e4a6",
+      "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/research_increments/signed_force_fixture_calibration_v03_2026-10-15/root_execution/cal_force_c1_stack_processing_off_v03/ROOT_TERMINAL_AUDIT_REQUEST.json",
+      "source_sha256": "2b79c3ec32590905b1e319fc12de8d9d2656dd89d177b865e0095e581216e4a6",
+      "transformations": [
+        "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
+      ],
+      "builder_recorded_origin": "/mnt/nas/data/lyf/chem_mem/awesome_memory_chem/papers/paperB/research_increments/signed_force_fixture_calibration_v03_2026-10-15/root_execution/cal_force_c1_stack_processing_off_v03/ROOT_TERMINAL_AUDIT_REQUEST.json",
+      "origin_verification": "Full byte readback recorded by sealed-input publication builders; not re-read in this manifest-only pass"
+    },
+    {
+      "path": "research_increments/signed_force_fixture_calibration_v03_2026-10-15/root_execution/cal_force_c1_stack_processing_off_v03/WORKER_TERMINAL.json",
+      "bytes": 930,
+      "sha256": "198f237e39a89532fd8067b334634d0f4fdc5a56b5cbd39cabcb50a65e159be8",
+      "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/research_increments/signed_force_fixture_calibration_v03_2026-10-15/root_execution/cal_force_c1_stack_processing_off_v03/WORKER_TERMINAL.json",
+      "source_sha256": "198f237e39a89532fd8067b334634d0f4fdc5a56b5cbd39cabcb50a65e159be8",
+      "transformations": [
+        "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
+      ],
+      "builder_recorded_origin": "/data/liyufeng/paperb_signed_force_calibration_20261015_v3/logs/cal_force_c1_stack_processing_off_v03.json",
+      "origin_verification": "Full byte readback recorded by sealed-input publication builders; not re-read in this manifest-only pass"
+    },
+    {
+      "path": "research_increments/signed_force_fixture_calibration_v03_2026-10-15/root_execution/cal_force_c1_stack_v03/ROOT_ADMISSION.json",
+      "bytes": 7349,
+      "sha256": "5c5dedac18266f2bf1a8deb3a157917d19a7744f115196c0d6667466f1b43f10",
+      "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/research_increments/signed_force_fixture_calibration_v03_2026-10-15/root_execution/cal_force_c1_stack_v03/ROOT_ADMISSION.json",
+      "source_sha256": "5c5dedac18266f2bf1a8deb3a157917d19a7744f115196c0d6667466f1b43f10",
+      "transformations": [
+        "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
+      ],
+      "builder_recorded_origin": "/mnt/nas/data/lyf/chem_mem/awesome_memory_chem/papers/paperB/research_increments/signed_force_fixture_calibration_v03_2026-10-15/root_execution/cal_force_c1_stack_v03/ROOT_ADMISSION_resource02.json",
+      "origin_verification": "Full byte readback recorded by sealed-input publication builders; not re-read in this manifest-only pass"
+    },
+    {
+      "path": "research_increments/signed_force_fixture_calibration_v03_2026-10-15/root_execution/cal_force_c1_stack_v03/ROOT_TERMINAL_AUDIT_REQUEST.json",
+      "bytes": 9813,
+      "sha256": "f5a7afe5d7b7d1105b3d79af4a6d3417fa6935c5d2a878cdf7ade77146764ab6",
+      "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/research_increments/signed_force_fixture_calibration_v03_2026-10-15/root_execution/cal_force_c1_stack_v03/ROOT_TERMINAL_AUDIT_REQUEST.json",
+      "source_sha256": "f5a7afe5d7b7d1105b3d79af4a6d3417fa6935c5d2a878cdf7ade77146764ab6",
+      "transformations": [
+        "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
+      ],
+      "builder_recorded_origin": "/mnt/nas/data/lyf/chem_mem/awesome_memory_chem/papers/paperB/research_increments/signed_force_fixture_calibration_v03_2026-10-15/root_execution/cal_force_c1_stack_v03/ROOT_TERMINAL_AUDIT_REQUEST.json",
+      "origin_verification": "Full byte readback recorded by sealed-input publication builders; not re-read in this manifest-only pass"
+    },
+    {
+      "path": "research_increments/signed_force_fixture_calibration_v03_2026-10-15/root_execution/cal_force_c1_stack_v03/WORKER_TERMINAL.json",
+      "bytes": 902,
+      "sha256": "16c4d942941a4b7a401aac003336defb1fe4b66263569849aa3bf88b3203f761",
+      "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/research_increments/signed_force_fixture_calibration_v03_2026-10-15/root_execution/cal_force_c1_stack_v03/WORKER_TERMINAL.json",
+      "source_sha256": "16c4d942941a4b7a401aac003336defb1fe4b66263569849aa3bf88b3203f761",
+      "transformations": [
+        "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
+      ],
+      "builder_recorded_origin": "/data/liyufeng/paperb_signed_force_calibration_20261015_v3/logs/cal_force_c1_stack_v03.json",
+      "origin_verification": "Full byte readback recorded by sealed-input publication builders; not re-read in this manifest-only pass"
+    },
+    {
+      "path": "research_increments/signed_force_fixture_calibration_v03_2026-10-15/root_execution/cal_force_c2_rotated_v03/ROOT_ADMISSION.json",
+      "bytes": 7319,
+      "sha256": "e82b4717c07589e3db2de8e7ef73ec6561071ad45b8d1cc96de61db2ba9cf8fe",
+      "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/research_increments/signed_force_fixture_calibration_v03_2026-10-15/root_execution/cal_force_c2_rotated_v03/ROOT_ADMISSION.json",
+      "source_sha256": "e82b4717c07589e3db2de8e7ef73ec6561071ad45b8d1cc96de61db2ba9cf8fe",
+      "transformations": [
+        "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
+      ],
+      "builder_recorded_origin": "/mnt/nas/data/lyf/chem_mem/awesome_memory_chem/papers/paperB/research_increments/signed_force_fixture_calibration_v03_2026-10-15/root_execution/cal_force_c2_rotated_v03/ROOT_ADMISSION_resource02.json",
+      "origin_verification": "Full byte readback recorded by sealed-input publication builders; not re-read in this manifest-only pass"
+    },
+    {
+      "path": "research_increments/signed_force_fixture_calibration_v03_2026-10-15/root_execution/cal_force_c2_rotated_v03/ROOT_TERMINAL_AUDIT_REQUEST.json",
+      "bytes": 9801,
+      "sha256": "53c518064cfd030ddc2962ca278353ab2c6c084855830abb8799a8ece4ef0e5a",
+      "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/research_increments/signed_force_fixture_calibration_v03_2026-10-15/root_execution/cal_force_c2_rotated_v03/ROOT_TERMINAL_AUDIT_REQUEST.json",
+      "source_sha256": "53c518064cfd030ddc2962ca278353ab2c6c084855830abb8799a8ece4ef0e5a",
+      "transformations": [
+        "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
+      ],
+      "builder_recorded_origin": "/mnt/nas/data/lyf/chem_mem/awesome_memory_chem/papers/paperB/research_increments/signed_force_fixture_calibration_v03_2026-10-15/root_execution/cal_force_c2_rotated_v03/ROOT_TERMINAL_AUDIT_REQUEST.json",
+      "origin_verification": "Full byte readback recorded by sealed-input publication builders; not re-read in this manifest-only pass"
+    },
+    {
+      "path": "research_increments/signed_force_fixture_calibration_v03_2026-10-15/root_execution/cal_force_c2_rotated_v03/WORKER_TERMINAL.json",
+      "bytes": 905,
+      "sha256": "7068f5f8e4ed4b06c2d5ab620e7b8f60ab3fd5120d066642c6db1a489c4e5a2b",
+      "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/research_increments/signed_force_fixture_calibration_v03_2026-10-15/root_execution/cal_force_c2_rotated_v03/WORKER_TERMINAL.json",
+      "source_sha256": "7068f5f8e4ed4b06c2d5ab620e7b8f60ab3fd5120d066642c6db1a489c4e5a2b",
+      "transformations": [
+        "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
+      ],
+      "builder_recorded_origin": "/data/liyufeng/paperb_signed_force_calibration_20261015_v3/logs/cal_force_c2_rotated_v03.json",
+      "origin_verification": "Full byte readback recorded by sealed-input publication builders; not re-read in this manifest-only pass"
+    },
+    {
+      "path": "research_increments/signed_force_fixture_calibration_v03_2026-10-15/root_execution/cal_force_c3_actor_order_v03/ROOT_ADMISSION.json",
+      "bytes": 7580,
+      "sha256": "a2df015d8d6e8bc64c3166e0af138cf391c3991232a6d6565b0b54f681dbce84",
+      "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/research_increments/signed_force_fixture_calibration_v03_2026-10-15/root_execution/cal_force_c3_actor_order_v03/ROOT_ADMISSION.json",
+      "source_sha256": "a2df015d8d6e8bc64c3166e0af138cf391c3991232a6d6565b0b54f681dbce84",
+      "transformations": [
+        "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
+      ],
+      "builder_recorded_origin": "/mnt/nas/data/lyf/chem_mem/awesome_memory_chem/papers/paperB/research_increments/signed_force_fixture_calibration_v03_2026-10-15/root_execution/cal_force_c3_actor_order_v03/ROOT_ADMISSION_resource02.json",
+      "origin_verification": "Full byte readback recorded by sealed-input publication builders; not re-read in this manifest-only pass"
+    },
+    {
+      "path": "research_increments/signed_force_fixture_calibration_v03_2026-10-15/root_execution/cal_force_c3_actor_order_v03/ROOT_TERMINAL_AUDIT_REQUEST.json",
+      "bytes": 11042,
+      "sha256": "8b4aeb6b456e079aee9236d18e637aafaecd3edfb4b9f3adc3dc2a200b9fb767",
+      "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/research_increments/signed_force_fixture_calibration_v03_2026-10-15/root_execution/cal_force_c3_actor_order_v03/ROOT_TERMINAL_AUDIT_REQUEST.json",
+      "source_sha256": "8b4aeb6b456e079aee9236d18e637aafaecd3edfb4b9f3adc3dc2a200b9fb767",
+      "transformations": [
+        "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
+      ],
+      "builder_recorded_origin": "/mnt/nas/data/lyf/chem_mem/awesome_memory_chem/papers/paperB/research_increments/signed_force_fixture_calibration_v03_2026-10-15/root_execution/cal_force_c3_actor_order_v03/ROOT_TERMINAL_AUDIT_REQUEST.json",
+      "origin_verification": "Full byte readback recorded by sealed-input publication builders; not re-read in this manifest-only pass"
+    },
+    {
+      "path": "research_increments/signed_force_fixture_calibration_v03_2026-10-15/root_execution/cal_force_c3_actor_order_v03/WORKER_TERMINAL.json",
+      "bytes": 914,
+      "sha256": "5962355be0b57540ff37f6d92eec097f351693e7b9e1a4e87767ed31591dee46",
+      "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/research_increments/signed_force_fixture_calibration_v03_2026-10-15/root_execution/cal_force_c3_actor_order_v03/WORKER_TERMINAL.json",
+      "source_sha256": "5962355be0b57540ff37f6d92eec097f351693e7b9e1a4e87767ed31591dee46",
+      "transformations": [
+        "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
+      ],
+      "builder_recorded_origin": "/data/liyufeng/paperb_signed_force_calibration_20261015_v3/logs/cal_force_c3_actor_order_v03.json",
+      "origin_verification": "Full byte readback recorded by sealed-input publication builders; not re-read in this manifest-only pass"
+    },
+    {
+      "path": "research_increments/signed_force_fixture_calibration_v03_2026-10-15/root_execution/cal_force_c4_mass_v03/ROOT_ADMISSION.json",
+      "bytes": 7311,
+      "sha256": "34695e54df0cd026f4b9a0c906934a781aacf3674d40d8fe556dd6eb630391ff",
+      "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/research_increments/signed_force_fixture_calibration_v03_2026-10-15/root_execution/cal_force_c4_mass_v03/ROOT_ADMISSION.json",
+      "source_sha256": "34695e54df0cd026f4b9a0c906934a781aacf3674d40d8fe556dd6eb630391ff",
+      "transformations": [
+        "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
+      ],
+      "builder_recorded_origin": "/mnt/nas/data/lyf/chem_mem/awesome_memory_chem/papers/paperB/research_increments/signed_force_fixture_calibration_v03_2026-10-15/root_execution/cal_force_c4_mass_v03/ROOT_ADMISSION_resource02.json",
+      "origin_verification": "Full byte readback recorded by sealed-input publication builders; not re-read in this manifest-only pass"
+    },
+    {
+      "path": "research_increments/signed_force_fixture_calibration_v03_2026-10-15/root_execution/cal_force_c4_mass_v03/ROOT_TERMINAL_AUDIT_REQUEST.json",
+      "bytes": 10710,
+      "sha256": "faaaf92ce933eb28ef3bc8a61598bce73b1987cb3838752cec65284e1370a1d1",
+      "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/research_increments/signed_force_fixture_calibration_v03_2026-10-15/root_execution/cal_force_c4_mass_v03/ROOT_TERMINAL_AUDIT_REQUEST.json",
+      "source_sha256": "faaaf92ce933eb28ef3bc8a61598bce73b1987cb3838752cec65284e1370a1d1",
+      "transformations": [
+        "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
+      ],
+      "builder_recorded_origin": "/mnt/nas/data/lyf/chem_mem/awesome_memory_chem/papers/paperB/research_increments/signed_force_fixture_calibration_v03_2026-10-15/root_execution/cal_force_c4_mass_v03/ROOT_TERMINAL_AUDIT_REQUEST.json",
+      "origin_verification": "Full byte readback recorded by sealed-input publication builders; not re-read in this manifest-only pass"
+    },
+    {
+      "path": "research_increments/signed_force_fixture_calibration_v03_2026-10-15/root_execution/cal_force_c4_mass_v03/WORKER_TERMINAL.json",
+      "bytes": 899,
+      "sha256": "790927a3ae3fbdc065e8c9ece1d75cf45dbe16ab9dcd3e36ff8e18e4a25058e7",
+      "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/research_increments/signed_force_fixture_calibration_v03_2026-10-15/root_execution/cal_force_c4_mass_v03/WORKER_TERMINAL.json",
+      "source_sha256": "790927a3ae3fbdc065e8c9ece1d75cf45dbe16ab9dcd3e36ff8e18e4a25058e7",
+      "transformations": [
+        "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
+      ],
+      "builder_recorded_origin": "/data/liyufeng/paperb_signed_force_calibration_20261015_v3/logs/cal_force_c4_mass_v03.json",
+      "origin_verification": "Full byte readback recorded by sealed-input publication builders; not re-read in this manifest-only pass"
     },
     {
       "bytes": 21097,
@@ -4699,11 +6831,23 @@
     },
     {
       "path": "study.html",
-      "bytes": 10990,
-      "sha256": "6a311cff1311f7b1bf7c2bfa2754c9c37a666d37d3ea98d35b6da7706ed7f093",
-      "source": "papers/paperB/research_increments/systematic_study_v01_2026-10-14/publication/source/study.html",
-      "source_sha256": "6a311cff1311f7b1bf7c2bfa2754c9c37a666d37d3ea98d35b6da7706ed7f093",
-      "transformations": []
+      "bytes": 11550,
+      "sha256": "3cb48580cb448eb7b7602e800953f361c319a746603e29d6033b8ebca4fea14a",
+      "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/study.html",
+      "source_sha256": "3cb48580cb448eb7b7602e800953f361c319a746603e29d6033b8ebca4fea14a",
+      "transformations": [
+        "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
+      ],
+      "parent_commit": "960d9b9d77e3729227511036dd74c9b228b2eda3",
+      "parent_sha256": "6a311cff1311f7b1bf7c2bfa2754c9c37a666d37d3ea98d35b6da7706ed7f093",
+      "parent_source_provenance": {
+        "path": "study.html",
+        "bytes": 10990,
+        "sha256": "6a311cff1311f7b1bf7c2bfa2754c9c37a666d37d3ea98d35b6da7706ed7f093",
+        "source": "papers/paperB/research_increments/systematic_study_v01_2026-10-14/publication/source/study.html",
+        "source_sha256": "6a311cff1311f7b1bf7c2bfa2754c9c37a666d37d3ea98d35b6da7706ed7f093",
+        "transformations": []
+      }
     },
     {
       "path": "study.js",
@@ -4805,5 +6949,26 @@
     "scientific_acceptance": "MAJOR_OPEN",
     "paper_v03_retained_unchanged": true,
     "paper_study_addendum": "data/study-v01/PAPER_STUDY_ADDENDUM_cn.md"
+  },
+  "calibration_v03_scope": {
+    "page": "calibration.html#calibration-v03",
+    "native_epochs": 6,
+    "positive_conditional_fixture_passes": 5,
+    "processing_off_negative_physical_failures_retained": 1,
+    "fixed_window_samples_per_case": 49,
+    "replicates_per_case": 1,
+    "main_M_B3": "UNTESTED",
+    "qualified_SFR": 0,
+    "scientific_acceptance": "MAJOR_OPEN",
+    "root_closure_sha256": "7ef83aaad95068f4da00dbefcf7ee8da7a1e83c2c7b5c0a575a1c60fa8718108",
+    "complete_raw_zip_sha256": "78040528d8018cadf36b60ffbf398e31ef4c252daf541528e9cd16b6f11ef46a"
+  },
+  "current_manuscript_scope": {
+    "pdf": "research_increments/native_force_event_time_paper_v05_2026-10-15/paperB_verified_clock_v05.pdf",
+    "pdf_sha256": "049d836618fb242e29bdcbf70dc3b08847731798873896e8841e14a2230f9fe8",
+    "source_zip": "research_increments/native_force_event_time_paper_v05_2026-10-15/PAPERB_VERIFIED_CLOCK_V05_SOURCE.zip",
+    "source_zip_sha256": "cbc55458bb7f929d0836f752cfb80285b9914aaefaff49b16db4233b8a1041b5",
+    "status": "RESEARCH_DRAFT_SCIENTIFIC_MAJOR_OPEN",
+    "matched_information": "BYTE_MATCH_SHARED_TRAINING_AND_STATE_MATCHED_CHECKS; PAIRED_INITIAL_CONDITIONS_AND_PROTOCOLS_FOR_INDEPENDENT_CLOSED_LOOP"
   }
 }

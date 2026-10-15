@@ -1,0 +1,35 @@
+{
+  "schema": "PaperBObservedForceCalibrationFigure/2",
+  "input_audits": {
+    "cal_force_c0_freefall_v02": {
+      "report_sha256": "e122d55cc2cf427ffb96414d042c74c60c3b77fa2f8f99c18b9fb4de45284f92",
+      "series_sha256": "1246829bef1eb06377e49589a48db344d1a472a350fbf655da15d739ba621c6c"
+    },
+    "cal_force_c1_stack_v02": {
+      "report_sha256": "105193f4ab8cb2cc2d68bd12b4139b4d04b14d73b866743da82da601997dc3e9",
+      "series_sha256": "d34b4e6a5ba18bd6f9bbe3dc46d9507fc48aad7c3c1bf69589f73d41dc8ac2f7"
+    }
+  },
+  "outputs": {
+    "signed_force_calibration.svg": {
+      "sha256": "010e48beeea072d3921d5a2e8569e9a6ef459c0240f50056e48670fff9433774",
+      "bytes": 76522
+    },
+    "signed_force_calibration.pdf": {
+      "sha256": "c3fdd76eaa1e53cf99e4831a7354508f71200cba8db6311c0cd6a3e3e0bf2857",
+      "bytes": 21687
+    },
+    "signed_force_calibration.png": {
+      "sha256": "9215dad89ec0995eb107dbf60f9124f9b2154875711b8d93ab07300830869234",
+      "bytes": 115854
+    }
+  },
+  "points_per_case": 49,
+  "native_epochs_per_case": 1,
+  "fixed_window_span_s": 0.2,
+  "smoothing": false,
+  "window_search": false,
+  "three_unexecuted_cases": "Explicit in case table; no fabricated traces",
+  "preceding_six_panel_figure_retained": true,
+  "scope": "Conditional fixture, with actual numeric failure retained; no SFR/hardware/method gain."
+}

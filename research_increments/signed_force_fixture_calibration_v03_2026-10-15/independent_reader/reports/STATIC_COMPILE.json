@@ -1,0 +1,18 @@
+{
+  "SDK_native_imports_executed": 0,
+  "count": 11,
+  "files": [
+    "code/audit_fixture.py",
+    "code/cleanup_lifecycle.py",
+    "code/independent_math.py",
+    "code/processing_readback.py",
+    "code/prospective_source_check.py",
+    "tests/synthetic_fixture.py",
+    "tests/test_cleanup_lifecycle.py",
+    "tests/test_independent_math.py",
+    "tests/test_parser_and_cli.py",
+    "tests/test_processing_readback.py",
+    "tests/test_schema_reader.py"
+  ],
+  "status": "PASS_PURE_PYTHON_MEMORY_COMPILE"
+}

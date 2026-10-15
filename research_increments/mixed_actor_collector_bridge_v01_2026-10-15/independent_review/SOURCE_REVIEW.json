@@ -1,0 +1,106 @@
+{
+  "S_F_R_scientific_admission": "NOT_ESTABLISHED",
+  "actual_author_deterministic_CPU_reconstructions": 1,
+  "actual_author_long_semantic_replays": 1,
+  "actual_production_rows": 0,
+  "author_adapted_inherited_tests_readback": 63,
+  "blocking_findings": [],
+  "conditions_before_native_or_scientific_acceptance": [
+    "prospectively wire bridge into actual native mixed-actor collector and actual CHANNEL SUBMITTED/APPLIED callbacks; freeze external completecaseheader against independently observed clock/weights/graph/split and sources",
+    "independently qualify physical/audit/safety-authorizer programs and force data before S/F/R scientific admission; row hashes and trusted-source identifiers alone do not establish physical or safety truth",
+    "separately test actual online policy/student rollout and parameterupdate; CPU trace and explicitweight binding metadata do not show model loaded or training occurred"
+  ],
+  "dimensions": {
+    "architecture": {
+      "evidence": "preserves sealed v02/v04; independent literal four-change successor derivation matches exact bytes; safety rules unchanged",
+      "status": "Pass"
+    },
+    "correctness_reliability": {
+      "evidence": "fresh27 inherited bridge tests +6 independent API probes; retained full long trace everyrow chain/causality/owner/FIFO verified",
+      "status": "Pass"
+    },
+    "function_API_design": {
+      "evidence": "mandatory expected_header_path and independent byte SHA; weights/source/deadline/clock/graph/split included; 9D rows and terminal padding explicit",
+      "status": "Pass"
+    },
+    "functional_achievement": {
+      "evidence": "All complete externally byte-pinned header fields enforced before writer output and replay; 8x9 map, FIFO owners, budget and raw retention exercised",
+      "scope": "Software collector boundary only",
+      "status": "Pass"
+    },
+    "performance": {
+      "evidence": "author measured CPU fixture build99.255487s/replay65.675618s; fixed trace reconstruction67.010584s, no native callback timing or production throughput measured; no speed claims accepted",
+      "status": "Risk"
+    },
+    "style_maintainability": {
+      "evidence": "explicit writer/readback and separate source loader; below size boundary; no verified structural blocker",
+      "status": "Pass"
+    }
+  },
+  "external_case_header_sha256": "d59d2eb16180f70527379c91738376cecce99a8f5a5b4dc4fc98ff5e28735669",
+  "fresh_author_bridge_tests": 27,
+  "independent_fresh_API_tests": 6,
+  "independent_long_rebuilds": 0,
+  "long_trace": {
+    "actual_bridge_jsonl_sha256": "ab43703da9aebca586691ee8b1cce3367bca8c6aa8969cdc6465c47ee4eade71",
+    "actual_production_rows": 0,
+    "actual_registry_jsonl_sha256": "0b2d8a89cd5ba1df8e16d0b573f9d7f382ad29a21f7d683e816fdc0bb10288ec",
+    "all_rows_hash_chains_verified": true,
+    "bridge_canonical_full_content_sha256": "b9e2b53fab3feab0a5b7527c2772d9d7e0eca13cca7847d0bb8805c32aee2182",
+    "bridge_rows": 58145,
+    "chunks": 1750,
+    "commands_APPLIED": 13995,
+    "commands_submitted": 13995,
+    "counts": {
+      "ACTOR_TRANSITION": 32,
+      "CHANNEL_RESULT": 13995,
+      "FULL_TASK_FAILURE": 0,
+      "OBSERVED_STATE": 14008,
+      "PROPOSAL": 13995,
+      "PUBLIC_PACKET": 177,
+      "RESET": 0,
+      "STUDENT_VISIT": 177,
+      "SUBMITTED": 13995,
+      "TEACHER_TARGET": 16,
+      "VERIFICATION": 0
+    },
+    "event_cap": 56479,
+    "first_trace_was_not_retained_and_not_retroactively_upgraded": true,
+    "independent_long_rebuilds": 0,
+    "inner_events_exactly_same_as_all_outer_embedded_events": true,
+    "native_GPU_model_training_calls": 0,
+    "per_row_current_state_causality_owner_source_target_FIFO_verified": true,
+    "physical_authenticity": false,
+    "reconstruction_full_content_exact_original_match": true,
+    "registry_canonical_full_content_sha256": "7468f73ef2ebed557ea830a745092f3c944dd4d422597471633520e1b243db61",
+    "registry_rows": 56395,
+    "schema": "IndependentMixedActorBridgeLongTraceAudit/1",
+    "status": "PASS_FULL_RETAINED_SYNTHETIC_CPU_TRACE_ONLY",
+    "unused_reserved_slots": 84
+  },
+  "minimum_required_repairs_in_software_scope": [],
+  "native_GPU_model_training_calls_by_reviewer": 0,
+  "native_collector_status": "NOT_READY",
+  "non_blocking_improvements": [
+    "Retain fulljournals on the first actual production capture and state retention/CPU reconstruction counts separately",
+    "Measure callback overhead/limits only after actual native collector integration; do not extrapolate synthetic CPU trace throughput"
+  ],
+  "physical_authenticity": false,
+  "resolved_pre_freeze_evidence_gap": {
+    "finding": "first actual long CPU replay released memory and retained only hashes/edges",
+    "original_full_trace_not_retroactively_recovered": true,
+    "resolution": "retain original evidence untouched; separate deterministic CPU reconstruction exactmatches both original full-content hashes; independently streamverify fullfiles"
+  },
+  "review_modes": [
+    "code-review review-only",
+    "security trusted-caller protocol/data integrity review",
+    "testing independent CPU evidence"
+  ],
+  "reviewed_at_utc": "2026-10-14T17:19:31.616204+00:00",
+  "reviewer_role": "/root/calibration_collector independently reviewing /root/g1_collector_bridge source",
+  "schema": "IndependentMixedActorCollectorBridgeReview/1",
+  "scoped_software_verdict": "Pass",
+  "source_release_sha256": "b68eb24785e4cf312b5d31f5d2c64d02570b74dfc55424ae17ccee9230c129cd",
+  "status": "PASS_SOFTWARE_SCOPE_NATIVE_INTEGRATION_NOT_READY",
+  "verdict": "Conditional pass"
+}

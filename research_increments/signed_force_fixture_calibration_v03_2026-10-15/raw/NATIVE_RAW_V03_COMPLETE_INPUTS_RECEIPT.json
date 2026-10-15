@@ -1,0 +1,10 @@
+{
+  "archive_path": "/mnt/nas/data/lyf/chem_mem/awesome_memory_chem/papers/paperB/research_increments/signed_force_fixture_calibration_v03_2026-10-15/publication/native_raw_v03_complete_inputs.zip",
+  "archive_bytes": 20117460,
+  "archive_sha256": "78040528d8018cadf36b60ffbf398e31ef4c252daf541528e9cd16b6f11ef46a",
+  "input_members": 90,
+  "actualcases": 6,
+  "all12_inputs_byteexact": true,
+  "CRC": "PASS",
+  "new_native_or_audit_runs": 0
+}

@@ -1,0 +1,50 @@
+{
+  "schema": "PaperBNativeForceCalibrationFigure/1",
+  "input_audits": {
+    "cal_force_c0_freefall_v03": {
+      "report_sha256": "6224c7219a4558fb649414e61f69d5ae9a9421e4b969878380f348f78042ea8e",
+      "series_sha256": "fbf35c736af24f19f35c4b2d74df5145a9df920e47200c14b7e2cafda6fedc9d"
+    },
+    "cal_force_c1_stack_v03": {
+      "report_sha256": "feecbb8b61eba81c6f6b619e8fd8ae2706704e9a8db93d68b59cc4fd858fc475",
+      "series_sha256": "22633c188e76a3306ca2c550fcc500a8f9e79533402a15f52d6ce81bf5a95e06"
+    },
+    "cal_force_c2_rotated_v03": {
+      "report_sha256": "2cad4c3bab5b33cbe94aad9aecee14d11b3d01144c61981c599e1d9414659159",
+      "series_sha256": "17332e928e3d41a0c554c800d014ed9b8be8dfd8f6896255c8a97b3b73a36975"
+    },
+    "cal_force_c3_actor_order_v03": {
+      "report_sha256": "518b79f71b69e5955f5399f4a178db4480bcaaf3ae930750045d4a6907244ef5",
+      "series_sha256": "1f2b8121f45c13b0c6e3be58f3f6e7a11526becddf626874bccf0e268acd6700"
+    },
+    "cal_force_c4_mass_v03": {
+      "report_sha256": "1e176ee19f8a3284d39f5bc68fad49b3174779b8fe9d5d226d58c86e50d8b499",
+      "series_sha256": "b2a50d73e20447175bd1c2173bc4acdf5cc8cdffa6c22b4b069941a1f3440642"
+    },
+    "cal_force_c1_stack_processing_off_v03": {
+      "report_sha256": "10208b2597d265b217709e05bfdff9bf20818aff961338b82c2b78c12cb705d0",
+      "series_sha256": "ef4cb74f193dad03909d4eb5d2e752b41179bbf7918622efb88ec8b0e5b05da1"
+    }
+  },
+  "outputs": {
+    "signed_force_calibration.svg": {
+      "sha256": "446094ca63c61c49fe65197b5f6e72caced24814c084f46818f217bc463d871e",
+      "bytes": 120079
+    },
+    "signed_force_calibration.pdf": {
+      "sha256": "dacf9a9850c080a70dbb97731be1870b2fd4e09cf71ad57eebcf5fbdcbc736d4",
+      "bytes": 32993
+    },
+    "signed_force_calibration.png": {
+      "sha256": "bdb170552a723aa088e2d73f59588acfc5784afdf5cd7b1722b99b60ca38a01b",
+      "bytes": 151387
+    }
+  },
+  "fixed_window_samples_per_case": 49,
+  "smoothing": false,
+  "window_search": false,
+  "qualified_SFR_admission": 0,
+  "scope": "Five positive fixtures and one predeclared disabled-processing negative control; all actual numeric failures retained. No hardware or learned-method claim.",
+  "native_epochs_per_case": 1,
+  "negative_control_case": "cal_force_c1_stack_processing_off_v03"
+}

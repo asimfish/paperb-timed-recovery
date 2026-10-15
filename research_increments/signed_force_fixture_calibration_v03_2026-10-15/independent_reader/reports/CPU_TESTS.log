@@ -1,0 +1,52 @@
+test_cached_clock_cannot_be_backdated_or_imputed_fresh (test_cleanup_lifecycle.CleanupTests) ... ok
+test_callback_count_changed_or_wrong_fsync_size_rejected (test_cleanup_lifecycle.CleanupTests) ... ok
+test_fast_framework_process_exit_need_not_invent_close_return (test_cleanup_lifecycle.CleanupTests) ... ok
+test_foreign_context_and_unreleased_subscription_rejected (test_cleanup_lifecycle.CleanupTests) ... ok
+test_missing_beforeclear_afterclear_or_readonly_return_rejected (test_cleanup_lifecycle.CleanupTests) ... ok
+test_no_native_clock_getter_after_clear_even_if_same_value (test_cleanup_lifecycle.CleanupTests) ... ok
+test_release_after_retained_measurement_unknown_postclear_time (test_cleanup_lifecycle.CleanupTests) ... ok
+test_release_before_fsync_is_rejected (test_cleanup_lifecycle.CleanupTests) ... ok
+test_all_low_motion_dimensions_and_zero_friction (test_independent_math.IndependentMathTests) ... ok
+test_dt_values_already_converted_no_double_division (test_independent_math.IndependentMathTests) ... ok
+test_gravity_is_freefall_oracle_not_zero_acceleration (test_independent_math.IndependentMathTests) ... ok
+test_nonfinite_bool_and_nonunit_normal_reject (test_independent_math.IndependentMathTests) ... ok
+test_reciprocal_components_separately_not_cancelled_combined (test_independent_math.IndependentMathTests) ... ok
+test_selected_negative_is_valid_product_without_abs (test_independent_math.IndependentMathTests) ... ok
+test_support_rotation_and_mass_use_world_gravity (test_independent_math.IndependentMathTests) ... ok
+test_wrong_normal_direction_and_double_count_are_rejected (test_independent_math.IndependentMathTests) ... ok
+test_cli_requires_external_request_digest_before_reading_native (test_parser_and_cli.ParserAndCLITests) ... ok
+test_duplicate_keys_and_nonfinite_rejected (test_parser_and_cli.ParserAndCLITests) ... ok
+test_actual_on_and_off_are_distinct_and_observed (test_processing_readback.ProcessingReadbackTests) ... ok
+test_each_boundary_missing_unknown_nonboolean_wrongvalue_is_red (test_processing_readback.ProcessingReadbackTests) ... ok
+test_full_zero_contact_control_stays_original_all49_mg_red (test_processing_readback.ProcessingReadbackTests) ... ERROR
+test_native_clock_advance_and_boolean_request_wrongrole_are_red (test_processing_readback.ProcessingReadbackTests) ... ok
+test_negative_raw_pass_never_positive_and_mixed_failure_retained (test_processing_readback.ProcessingReadbackTests) ... ok
+test_preinstall_false_or_unknown_allowed_not_assumed_true (test_processing_readback.ProcessingReadbackTests) ... ok
+test_abs_scalar_is_physical_red_not_abs_pass (test_schema_reader.SchemaReaderTests) ... ok
+test_actor_order_unobserved_remains_inconclusive (test_schema_reader.SchemaReaderTests) ... ok
+test_all_five_synthetic_positive_and_fixed49 (test_schema_reader.SchemaReaderTests) ... ok
+test_cancelling_scalar_dt_errors_cannot_hide_in_aggregate (test_schema_reader.SchemaReaderTests) ... ok
+test_fixture_owned_nonzero_material_is_rejected (test_schema_reader.SchemaReaderTests) ... ok
+test_mass_doubling_crosscase_and_unqualified_baseline (test_schema_reader.SchemaReaderTests) ... ok
+test_missing_readback_saturation_and_bad_range_reject (test_schema_reader.SchemaReaderTests) ... ok
+test_missing_row_and_bad_external_header_are_rejected (test_schema_reader.SchemaReaderTests) ... ok
+test_same_callback_query_is_mandatory (test_schema_reader.SchemaReaderTests) ... ok
+test_unused_global_default_material_preserved_and_allowed (test_schema_reader.SchemaReaderTests) ... ok
+test_window_one_bad_point_cannot_average_or_drop (test_schema_reader.SchemaReaderTests) ... ok
+
+======================================================================
+ERROR: test_full_zero_contact_control_stays_original_all49_mg_red (test_processing_readback.ProcessingReadbackTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/nas/data/lyf/chem_mem/awesome_memory_chem/papers/paperB/research_increments/signed_force_fixture_calibration_v03_2026-10-15/independent_reader/tests/test_processing_readback.py", line 113, in test_full_zero_contact_control_stays_original_all49_mg_red
+    report,series=audit_data(*data);classify_measurement_role(report,case)
+  File "/mnt/nas/data/lyf/chem_mem/awesome_memory_chem/papers/paperB/research_increments/signed_force_fixture_calibration_v03_2026-10-15/independent_reader/code/audit_fixture.py", line 377, in audit_data
+    require(origin["native_epoch"] == header["epoch"] ==
+  File "/mnt/nas/data/lyf/chem_mem/awesome_memory_chem/papers/paperB/research_increments/signed_force_fixture_calibration_v03_2026-10-15/independent_reader/code/audit_fixture.py", line 68, in require
+    raise Rejected(message)
+independent_math.Rejected: epoch/case/protocol
+
+----------------------------------------------------------------------
+Ran 35 tests in 43.360s
+
+FAILED (errors=1)

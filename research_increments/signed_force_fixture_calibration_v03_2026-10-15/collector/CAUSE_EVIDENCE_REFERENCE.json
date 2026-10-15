@@ -1,0 +1,25 @@
+{
+  "actual_C1_REPORT_sha256": "105193f4ab8cb2cc2d68bd12b4139b4d04b14d73b866743da82da601997dc3e9",
+  "actual_C1_failed_checks": 98,
+  "actual_C1_status": "FAIL_CONDITIONAL_FIXTURE_MEASUREMENT",
+  "actual_C1_v02_REPORT_path": "/mnt/nas/data/lyf/chem_mem/awesome_memory_chem/papers/paperB/research_increments/signed_force_fixture_calibration_v02_2026-10-15/actual_audits/cal_force_c1_stack_v02/REPORT.json",
+  "candidate": "explicitworker-localprocessingFalse for positive5;TrueforoffC1negativecontrol;actualgetterreadbackallboundaries",
+  "closed_calibration_native_epochs_beforev03": 3,
+  "installed_source_observations": [
+    "SimulationContext._apply_physics_settings explicitlysetdisableContactProcessing True; source comment says CPUcontactreportprocessingdefaultoff",
+    "ContactSensor.__init__ explicitlysetsamekeyFalse; directtensorviewprobe didnotinstantiateContactSensor"
+  ],
+  "no_native_GPU_SDK_by_author": true,
+  "root_prospective_budget_path": "/mnt/nas/data/lyf/chem_mem/awesome_memory_chem/papers/paperB/research_increments/signed_force_fixture_calibration_v03_2026-10-15/ROOT_PROSPECTIVE_BATCH_SELECTION.json",
+  "root_prospective_budget_sha256": "8a9a74a00493454db0cbf54d2c0e4132ed3f3ddc528767ecd6daf646c0d004b9",
+  "schema": "ContactProcessingV03MeasurementCandidateEvidence/1",
+  "scope": "SOURCE_SUPPORTED_MEASUREMENT_HYPOTHESIS_NATIVE_UNVERIFIED_NOT_FIXED",
+  "v02_actual_contact_processing_setting": "UNKNOWN_NOT_CAPTURED_IN_OLD_SCHEMA_DO_NOT_INFER_TRUE_FROM_SOURCE",
+  "v02_closure_references": [
+    {
+      "path": "/mnt/nas/data/lyf/chem_mem/awesome_memory_chem/papers/paperB/research_increments/signed_force_fixture_calibration_v02_2026-10-15/root_execution/ROOT_BATCH_V02_RETAINED_CLOSURE.json",
+      "sha256": "bc31531f03d94f244ed6415e83764bc99e745110d173f36fd52c55e30fee32a5"
+    }
+  ],
+  "v02_source_or_scores_rewritten": false
+}

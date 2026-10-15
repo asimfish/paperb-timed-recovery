@@ -1,0 +1,19 @@
+{
+  "schema": "PaperBV03PublicationBuildReceipt/1",
+  "status": "BUILT_ACTUAL_SIX_CASE_SECTION",
+  "site": "/data/liyufeng/paperb_calibration_site_20261015_v1",
+  "asset_base": "research_increments/signed_force_fixture_calibration_v03_2026-10-15",
+  "root_closure_sha256": "7ef83aaad95068f4da00dbefcf7ee8da7a1e83c2c7b5c0a575a1c60fa8718108",
+  "builder_sha256": "f12628debb72fd7a9aebdd927d5c69c809e69dbc514f205957ef131008d1d4dd",
+  "base_page_before_sha256": "db00a22f5d8e8ad10b8f0b18cfedcf307433a3876eb824015b0bd0348ab7ca42",
+  "page_after_sha256": "816922105d2ac5477b50b72e8b9d3c02aaf28793807bf0861f940709c9757103",
+  "inventory_sha256": "e6bc9609d8c438d4daca7ad52bac637e7ae599999c4177c0220eb5a42e6f1df1",
+  "copy_count": 102,
+  "fixed49_series_cases": 6,
+  "native_epochs_per_case": 1,
+  "raw_complete_zip_copied": true,
+  "history_injection_point": "BEFORE_calibration-evidence",
+  "base_JS_or_history_edits": false,
+  "native_GPU_model_calls": 0,
+  "publication_or_git_calls": 0
+}

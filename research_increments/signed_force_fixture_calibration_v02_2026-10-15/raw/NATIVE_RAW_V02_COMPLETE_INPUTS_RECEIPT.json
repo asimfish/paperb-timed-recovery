@@ -1,0 +1,8 @@
+{
+  "archive_bytes": 3050508,
+  "archive_sha256": "365c8e6e7c5ed22e07619c559704e2f76691354ad4bc16b364306848cfb07bf6",
+  "input_members": 28,
+  "all11_inputs_per_case_byteexact": true,
+  "CRC": "PASS",
+  "old_raw_archive_preserved": true
+}

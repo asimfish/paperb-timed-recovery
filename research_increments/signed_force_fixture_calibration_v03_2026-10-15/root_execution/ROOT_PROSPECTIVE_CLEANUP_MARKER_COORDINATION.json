@@ -1,0 +1,28 @@
+{
+  "SDK_source_pin": {
+    "bytes": 41239,
+    "path": "/home/liyufeng/miniforge3/envs/safeduo/lib/python3.11/site-packages/isaacsim/exts/isaacsim.simulation_app/isaacsim/simulation_app/simulation_app.py",
+    "sha256": "7cbaa6f00e935a6f14bf1c28ec0db089fd924e931f3b0deee07a822f9b7d0090"
+  },
+  "allowed_terminal": "exit0/noTimeout/ownedGroupEmpty after complete measurements, fsync, owned release and preclose/readonlyreturn markers",
+  "issued_at_utc": "2026-10-14T18:59:35.142131+00:00",
+  "missing_AFTER_APP_CLOSE_claim": "PYTHON_RETURN_UNKNOWN_FRESH_NATIVE_TIME_UNKNOWN",
+  "outcome_based_exception": false,
+  "reader_freeze_sha256": "52d9b5009be016b53905927bcfdcf4a4c5b8eb2b83f110384237734d670fbb1d",
+  "reason": "Pinned SDK default fast_shutdown=True may exit process immediately; absence is not fabricated return or time.",
+  "required_preclose_markers": [
+    "BEFORE_RESULT_WRITE",
+    "AFTER_RESULT_FSYNC",
+    "BEFORE_CLEAR_INSTANCE",
+    "AFTER_CLEAR_INSTANCE",
+    "BEFORE_APP_CLOSE",
+    "BEFORE_READONLY_REP_STATUS",
+    "AFTER_READONLY_REP_STATUS"
+  ],
+  "schema": "PaperBRootProspectiveCleanupMarkerCoordination/1",
+  "source_numeric_thresholds_windows_unchanged": true,
+  "source_protocol_mandatory_AFTER_APP_CLOSE": "CONDITIONAL_ON_PYTHON_RETURN",
+  "source_release_sha256": "0de55ac995986d25a60f391b63d9606915dbeae37518e7cc4fb38ee75bc81771",
+  "source_review_sha256": "5e0fb9eb437f18d42404be4bb279dd2ef3e92e5613ca6a1cad04221e1c47a6f0",
+  "v03_native_outcomes_seen": 0
+}

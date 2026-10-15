@@ -1,0 +1,22 @@
+{
+  "status": "COMPLETE",
+  "case_id": "cal_force_c1_stack_v02",
+  "gpu_uuid": "GPU-b129224c-c735-a03f-de6c-185d2a2724b1",
+  "exit_code": 0,
+  "timed_out": false,
+  "wall_s": 16.20858067832887,
+  "attempt_id": "20261014T182155122921Z-2463733",
+  "launch_log": "launch_attempts/cal_force_c1_stack_v02/20261014T182155122921Z-2463733.log",
+  "native_output_exists": true,
+  "formal_episode_started": true,
+  "retry_after_resource_change_allowed": false,
+  "allocated_gpu_hours_upper_bound": 0.00450238352175802,
+  "owned_process_group_empty": true,
+  "owned_cleanup_wall_s": 0.010071958415210247,
+  "remaining_owned_process_ids": [],
+  "cost_scope": "OWNED_CHILD_ATTEMPT_WALL_UPPER_BOUND_INCLUDING_STARTUP_AND_FAILED_LAUNCHES; RESOURCE_REFUSAL_WITHOUT_NATIVE_ONLY_ZERO",
+  "model_calls": 0,
+  "training_gpu_hours": 0,
+  "foreign_processes_signaled": false,
+  "gpu_global_configuration_changes": false
+}

@@ -1,0 +1,30 @@
+{
+  "CPU_tests": 35,
+  "audit_command": [
+    "python3",
+    "-B",
+    "/mnt/nas/data/lyf/chem_mem/awesome_memory_chem/papers/paperB/research_increments/signed_force_fixture_calibration_v03_2026-10-15/independent_reader/code/audit_fixture.py",
+    "--request",
+    "ROOT_TERMINAL_REQUEST_ABS",
+    "--request-sha256",
+    "ROOT_REQUEST_SHA",
+    "--reader-freeze-sha256",
+    "52d9b5009be016b53905927bcfdcf4a4c5b8eb2b83f110384237734d670fbb1d",
+    "--output",
+    "NEW_CASE_AUDIT_DIR"
+  ],
+  "input_count": 12,
+  "memory_compiled_Python_files": 11,
+  "native_outcomes_read": 0,
+  "one_terminal_audit_per_case": true,
+  "reader_archive_member_count": 22,
+  "reader_archive_name": "force_fixture_v03_independent_reader_source.zip",
+  "reader_archive_sha256": "68c71dc967334964de6dc04db34bd394af78980338e3368892478a5a4ca7b005",
+  "reader_freeze_sha256": "52d9b5009be016b53905927bcfdcf4a4c5b8eb2b83f110384237734d670fbb1d",
+  "reader_source_member_count": 20,
+  "request_schema": "SignedForceFixtureROOTTerminalAuditRequest/3",
+  "schema": "V03IndependentReaderFinalReceipt/1",
+  "source_release_sha256": "0de55ac995986d25a60f391b63d9606915dbeae37518e7cc4fb38ee75bc81771",
+  "source_review_sha256": "5e0fb9eb437f18d42404be4bb279dd2ef3e92e5613ca6a1cad04221e1c47a6f0",
+  "status": "SEALED_PROSPECTIVE_CPU_SOURCE_REVIEW_READY_NO_NATIVE_OUTCOMES"
+}

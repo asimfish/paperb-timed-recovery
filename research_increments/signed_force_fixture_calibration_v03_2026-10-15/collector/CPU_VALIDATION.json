@@ -1,0 +1,28 @@
+{
+  "actual_setting_readback_missing_nonbool_ignoredsetter_visible": true,
+  "all6_numericcase_controlgroup_geometry_windows_dt_filters_thresholds_unchanged": true,
+  "author_native_GPU_SDK_imports": 0,
+  "bash_syntax_exit_code": 0,
+  "compiled_in_memory_files": [
+    "capture_raw.py",
+    "close_regression_model.py",
+    "contact_processing_setting.py",
+    "execution_gate.py",
+    "gpu_mapping.py",
+    "lifecycle_observer.py",
+    "native_probe.py",
+    "physical_capture.py",
+    "run_worker.py",
+    "test_capture_raw.py",
+    "test_cleanup_candidate.py",
+    "test_contact_processing_setting.py",
+    "test_execution_gate.py"
+  ],
+  "exactpinnedContextTrue_ContactSensorFalse_setter_AST_executed_onFakeCarb": true,
+  "root_prospective_selection_sha256": "8a9a74a00493454db0cbf54d2c0e4132ed3f3ddc528767ecd6daf646c0d004b9",
+  "schema": "SignedForceFixtureV03PreNativeCPUValidation/1",
+  "status": "CPU_PASS_MEASUREMENT_CANDIDATE_NATIVE_UNVERIFIED_NOT_FIXED",
+  "test_exit_code": 0,
+  "test_log_sha256": "d152f26a84ff3aef04031aa2d04409ec2e3804165a222911f6a0712d86252e89",
+  "tests": 35
+}

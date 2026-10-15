@@ -1,0 +1,21 @@
+{
+  "schema": "PaperBManuscriptV05TopLevelDeliveryReadback/2",
+  "status": "READY_PASS_IMMUTABLE_IN_MEMORY_ZIP_SERIAL_DELIVERY_ALL_FILES_READBACK",
+  "top_level_project_alias": "research_increments/native_force_event_time_paper_v05_2026-10-15",
+  "published_pdf_name": "paperB_verified_clock_v05.pdf",
+  "pdf_sha256": "049d836618fb242e29bdcbf70dc3b08847731798873896e8841e14a2230f9fe8",
+  "tex_sha256": "3a2858693755787ba488f96f26b2aa23d9a31459f01d543ce5b4d0b07e81b7d7",
+  "source_release_sha256": "af4b022a18b2930b414beef9e0b3a97dd3f97d279d8980bfb50526efa6d9eaf4",
+  "zip_sha256": "cbc55458bb7f929d0836f752cfb80285b9914aaefaff49b16db4233b8a1041b5",
+  "source_members_checked": 149,
+  "zip_members_checked": 150,
+  "zip_bytes": 2686644,
+  "document_scope": "PASS_8MAIN_1REFS_6APPENDIX_5FIG_3TABLE_20CURRENTCHECKS",
+  "initial_unsealed_delivery_error_retained": "document_checks/V05_DELIVERY_ATTEMPT1_FAILURE.json",
+  "v04_parent_129_files_unchanged": true,
+  "clarification_root_sha256": "b0665b852faf9bafb9b12b17740fcf29b6f71807f0c8edb9e34e275213c4f0e6",
+  "root_visual_prose_review": "PASS_PINNED_4ee07a4f",
+  "root_final_zip_gate": "PENDING_ROOT",
+  "scientific_scope": "MAJOR_OPEN_M_B3_UNTESTED_SFR0",
+  "author_native_GPU_git_publish_training": 0
+}

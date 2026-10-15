@@ -1,0 +1,215 @@
+{
+  "schema": "PaperBRootV03ProspectiveInstrumentationCounterfactualSelection/1",
+  "issued_at_utc": "2026-10-14T18:34:15.932201+00:00",
+  "v03_native_outcomes_seen": 0,
+  "selected_case_ids": [
+    "cal_force_c1_stack_processing_off_v03",
+    "cal_force_c0_freefall_v03",
+    "cal_force_c1_stack_v03",
+    "cal_force_c2_rotated_v03",
+    "cal_force_c3_actor_order_v03",
+    "cal_force_c4_mass_v03"
+  ],
+  "selected_case_definitions": [
+    {
+      "body_paths": {
+        "A_top": "/Cal/A_top",
+        "B_bottom": "/Cal/B_bottom"
+      },
+      "contact_processing_disabled_requested": true,
+      "controlled_steps": 1049,
+      "creation_order": [
+        "B_bottom",
+        "A_top"
+      ],
+      "expected": "F_B\u2192A\u2248-m_Ag;F_A\u2192B\u2248-F_B\u2192A;normal-only net_A\u2248pair_A_B with explicit friction0;B pair-ground separate",
+      "fixed_POST_window_inclusive": [
+        1000,
+        1048
+      ],
+      "fixture_reference_case_id": "cal_force_c1_stack_v01",
+      "fixture_rotation_about_world_Y_rad": 0,
+      "gravity_world_m_s2": [
+        0,
+        0,
+        -9.81
+      ],
+      "id": "cal_force_c1_stack_processing_off_v03",
+      "mass_A_kg": 0.1,
+      "mass_B_kg": 0.2,
+      "measurement_role": "NEGATIVE_PROCESSING_DISABLED_CONTROL",
+      "negative_control_expected_scope": "SamephysicalC1;disabledcontactprocessingmayreject mgcontactmeasurement;notpositivequalificationnotmethodfailure",
+      "positive_reference_case_id": "cal_force_c1_stack_v03",
+      "priority": 2,
+      "purpose": "known mg support and reciprocal signed product; paired getterdt without another epoch"
+    },
+    {
+      "comparison_scope": "cannot prove hidden contact-conditional constraints absent",
+      "contact_processing_disabled_requested": false,
+      "contacts_allowed": false,
+      "controlled_steps": 120,
+      "expected": "a_A\u2248g;net normal\u22480;no contact/unknown externalwrench",
+      "fixed_POST_window_inclusive": [
+        71,
+        119
+      ],
+      "fixture_reference_case_id": "cal_force_c0_freefall_v01",
+      "gravity_world_m_s2": [
+        0,
+        0,
+        -9.81
+      ],
+      "id": "cal_force_c0_freefall_v03",
+      "mass_A_kg": 0.1,
+      "measurement_role": "POSITIVE_PROCESSING_ENABLED_FIXTURE",
+      "priority": 1,
+      "purpose": "independent gravity/inertial falsifier before contact semantics"
+    },
+    {
+      "body_paths": {
+        "A_top": "/Cal/A_top",
+        "B_bottom": "/Cal/B_bottom"
+      },
+      "contact_processing_disabled_requested": false,
+      "controlled_steps": 1049,
+      "creation_order": [
+        "B_bottom",
+        "A_top"
+      ],
+      "expected": "F_B\u2192A\u2248-m_Ag;F_A\u2192B\u2248-F_B\u2192A;normal-only net_A\u2248pair_A_B with explicit friction0;B pair-ground separate",
+      "fixed_POST_window_inclusive": [
+        1000,
+        1048
+      ],
+      "fixture_reference_case_id": "cal_force_c1_stack_v01",
+      "fixture_rotation_about_world_Y_rad": 0,
+      "gravity_world_m_s2": [
+        0,
+        0,
+        -9.81
+      ],
+      "id": "cal_force_c1_stack_v03",
+      "mass_A_kg": 0.1,
+      "mass_B_kg": 0.2,
+      "measurement_role": "POSITIVE_PROCESSING_ENABLED_FIXTURE",
+      "priority": 2,
+      "purpose": "known mg support and reciprocal signed product; paired getterdt without another epoch"
+    },
+    {
+      "body_paths": {
+        "A_top": "/Cal/A_top",
+        "B_bottom": "/Cal/B_bottom"
+      },
+      "contact_processing_disabled_requested": false,
+      "controlled_steps": 1049,
+      "creation_order": [
+        "B_bottom",
+        "A_top"
+      ],
+      "expected": "F_B\u2192A\u2248[+m_A*9.81,0,0] using actual gravity getter;no double rotation",
+      "fixed_POST_window_inclusive": [
+        1000,
+        1048
+      ],
+      "fixture_reference_case_id": "cal_force_c2_rotated_v01",
+      "fixture_rotation_about_world_Y_rad": 1.5707963267948966,
+      "gravity_world_m_s2": [
+        -9.81,
+        0,
+        0
+      ],
+      "id": "cal_force_c2_rotated_v03",
+      "mass_A_kg": 0.1,
+      "mass_B_kg": 0.2,
+      "measurement_role": "POSITIVE_PROCESSING_ENABLED_FIXTURE",
+      "priority": 3,
+      "purpose": "one-factor full fixture+gravity rotation to falsify body/local-as-world convention"
+    },
+    {
+      "body_paths": {
+        "A_top": "/Cal/A_top",
+        "B_bottom": "/Cal/B_bottom"
+      },
+      "contact_processing_disabled_requested": false,
+      "controlled_steps": 1049,
+      "creation_order": [
+        "A_top",
+        "B_bottom"
+      ],
+      "expected": "signed scalar signs may change or may not;only product-world-force invariance is required, no desired sign selected post-hoc",
+      "fixed_POST_window_inclusive": [
+        1000,
+        1048
+      ],
+      "fixture_reference_case_id": "cal_force_c3_actor_order_v01",
+      "fixture_rotation_about_world_Y_rad": 0,
+      "gravity_world_m_s2": [
+        0,
+        0,
+        -9.81
+      ],
+      "id": "cal_force_c3_actor_order_v03",
+      "if_backend_shape_order_unchanged": "ordering mechanism remainsINCONCLUSIVE;doesnotfalsify signed representation",
+      "mass_A_kg": 0.1,
+      "mass_B_kg": 0.2,
+      "measurement_role": "POSITIVE_PROCESSING_ENABLED_FIXTURE",
+      "path_lexical_order_changed": false,
+      "priority": 4,
+      "purpose": "same physical scene,masses,gravity,paths;reverse actor creation order only;record actual header/shape order rather than assuming itchanges"
+    },
+    {
+      "body_paths": {
+        "A_top": "/Cal/A_top",
+        "B_bottom": "/Cal/B_bottom"
+      },
+      "contact_processing_disabled_requested": false,
+      "controlled_steps": 1049,
+      "creation_order": [
+        "B_bottom",
+        "A_top"
+      ],
+      "expected": "top support\u22481.962N instead ofC1\u2248.981N;actual mass getter is oracle, no undocumented unit correction",
+      "fixed_POST_window_inclusive": [
+        1000,
+        1048
+      ],
+      "fixture_reference_case_id": "cal_force_c4_mass_v01",
+      "fixture_rotation_about_world_Y_rad": 0,
+      "gravity_world_m_s2": [
+        0,
+        0,
+        -9.81
+      ],
+      "id": "cal_force_c4_mass_v03",
+      "mass_A_kg": 0.2,
+      "mass_B_kg": 0.2,
+      "measurement_role": "POSITIVE_PROCESSING_ENABLED_FIXTURE",
+      "priority": 5,
+      "purpose": "optional clean one-factor mass doubling, keeping C1 actor order/frame"
+    }
+  ],
+  "negative_control_first": true,
+  "intervention": "Only process-local contact-processing setting before reset; actual typed readback HEADER/BEGIN/allRAW/END; geometry/filters/thresholds/windows unchanged",
+  "candidate_not_native_verified": true,
+  "maximum_new_v03_distinct_epochs": 6,
+  "total_v03_controlled_steps": 5365,
+  "closed_force_v01_actual_epochs": 1,
+  "closed_force_v02_actual_epochs": 2,
+  "closed_calibration_actual_epochs_before_v03": 3,
+  "calibration_family_attempt_upper_bound": 9,
+  "prior_v02_declared_cap5_not_rewritten": true,
+  "v01_other4_and_v02_other3_remain_NOT_EXECUTED": true,
+  "separate_shutdown_diagnostic_epochs": 1,
+  "closed_old_M_family_cap": 3,
+  "this_turn_native_attempt_upper_bound_including_closed_failed_diagnostic": 10,
+  "this_turn_controlled_steps_upper_bound": 6774,
+  "per_child_wait_s": 300,
+  "termination_wait_s": 30,
+  "no_outcome_retry": true,
+  "no_resource_threshold_reduction": true,
+  "source_process_RAW_failure_stop": true,
+  "physical_failure_preserved_orthogonal_diagnostics_may_continue": true,
+  "v02_closure_sha256": "bc31531f03d94f244ed6415e83764bc99e745110d173f36fd52c55e30fee32a5",
+  "original_proposal_sha256": "c9f776dab42d6870ca0023a79e30280c381a56097cf77c431d35b42e29ef5bed",
+  "approval_scope": "User continuation and autonomous experiment authorization; new successor budget disclosed before any successor outcomes; not rewriting old batch"
+}

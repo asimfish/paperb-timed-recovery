@@ -1,0 +1,21 @@
+{
+  "schema": "RootCalibrationDeliveryScope/1",
+  "actual_native_this_calibration_shutdown_phase": 10,
+  "actual_controlled_steps": 6774,
+  "v01_calibration_actual": 1,
+  "shutdown_diagnostic_actual_separate": 1,
+  "v02_calibration_actual": 2,
+  "v03_calibration_actual": 6,
+  "v03_positive_conditional_pass": 5,
+  "v03_negative_physical_failure_retained": 1,
+  "old_M0_M1_M2_separate_actual": 3,
+  "main_M_B3": "UNTESTED",
+  "new_training_this_phase": 0,
+  "qualified_S_F_R": 0,
+  "P0_previous_engineering_checkpoint": 1,
+  "real_hardware_or_chemical_endpoint": 0,
+  "scientific_acceptance": "MAJOR_OPEN",
+  "current_method_sha256": "06d6ca24659ccc348261a6b56f51e2056bc70738f7f161f868abc5bbea10417e",
+  "next_frontier": "G1 asynchronous start-prefix/current-submit integration and full robot endpoint qualification before materialized task collection and controlled learning",
+  "publishing": "WAITING_FINAL_SOURCE_COPY_AND_TERMINAL_GATES"
+}

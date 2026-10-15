@@ -1,0 +1,10 @@
+{
+  "archive": {
+    "path": "/mnt/nas/data/lyf/chem_mem/awesome_memory_chem/papers/paperB/research_increments/signed_force_fixture_calibration_v02_2026-10-15/publication/native_raw_v02.zip",
+    "bytes": 3013552,
+    "sha256": "121ca4d05167d4f89f67611da58e5fb50e1f412a706aa49b1d86c0b8d5d7e723"
+  },
+  "byteexact_original_case_files": true,
+  "raw_reconstructed": false,
+  "actual_epochs": 2
+}

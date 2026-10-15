@@ -1,0 +1,35 @@
+{
+  "schema": "RootInferenceClockIndependentSoftwareReview/1",
+  "source_freeze_sha256": "f55c2221066996a4737090c7c5d619e0067b7782a7b84424a42ce4d83911d143",
+  "source10_and_archive11_readback": "PASS",
+  "parent_source_members_checked": 27,
+  "probes": [
+    {
+      "probe": "serial_current_state_rollback_after_late_unsafe_guard",
+      "expected": "reject rollback relative latest recordedcurrent state",
+      "actual": "ACCEPTED_GUARD_WITH_ELIGIBLE_SLOTS",
+      "eligible_slots": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "earlier_guard_eligible_slots": [],
+      "status": "FAIL_SOFTWARE_COMPOSABILITY"
+    },
+    {
+      "probe": "caller_inputs_cannot_rewrite_completed_snapshot",
+      "status": "PASS"
+    },
+    {
+      "probe": "current_teacher_cannot_reassign_student_ticket_owner",
+      "status": "PASS"
+    }
+  ],
+  "status": "SCOPED_SNAPSHOT_CHECKS_PASS_SERIAL_CLOCK_ROLLBACK_OPEN",
+  "native_SFR_or_model_execution": 0,
+  "production_adapter": "NOT_INTEGRATED",
+  "finding": "guard_submit compares currentclock to returnstate, notlatest guardstate; trustedcaller scope avoids untrustedauth claim but doesnot close serialtime invariant for future adapter",
+  "old_source_unchanged": true
+}

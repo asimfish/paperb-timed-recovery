@@ -1,0 +1,20 @@
+{
+  "S_F_R_admitted": 0,
+  "case_id": "cal_force_c0_freefall_v01",
+  "chemical_success": "UNKNOWN",
+  "qualification_limits": [
+    "CONDITIONAL_FIXTURE_CONTACT_REPRESENTATION_DT_WORLD_FRAME_ONLY",
+    "COMPLETE_ACTIVE_BACKEND_CONSTRAINT_INVENTORY_UNKNOWN",
+    "NOT_REAL_HARDWARE_SI_CERTIFICATION",
+    "NO_ROBOT_LOAD_UNLOAD_TORQUE_CHEMICAL_SUCCESS_OR_TRAINING_ADMISSION",
+    "DOES_NOT_REWRITE_LEGACY_M0_M1_M2_RESULTS"
+  ],
+  "reader_freeze_sha256": "e7934216470e50ef8ce414aaace49bf1b510e052253b98663faa048857709742",
+  "reason": "owned native lifecycle/cleanup terminal",
+  "rejection_type": "Rejected",
+  "request_sha256": "bd1869eacb9501769b612e63c2cdb4316819a9deac58ecc49c5805c179534479",
+  "robot_load_truth": "UNKNOWN",
+  "schema": "SignedForceFixtureIndependentAudit/1",
+  "series_emitted": false,
+  "status": "UNKNOWN_REJECTED_SOURCE_OR_RAW"
+}

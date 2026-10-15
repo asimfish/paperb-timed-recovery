@@ -1,0 +1,34 @@
+{
+  "schema": "PaperBPublicationVerificationContract/1",
+  "issued_at_utc": "2026-10-14T18:34:20.229057+00:00",
+  "requirements": [
+    "GitHub Pages from user repository",
+    "actual failures/UNKNOWN/unexecuted retained",
+    "same49/window/no fabricated trace",
+    "oldvideo/v03paper byteexact preserved",
+    "newICMLpaper source/PDF coherent",
+    "sameSHA deployed assets",
+    "all same-originlinks/fragments reachable",
+    "desktop1440/tablet768/mobile390 nooverflow",
+    "no runtime exception",
+    "no secret exposure"
+  ],
+  "changed_surfaces": [
+    "newcalibrationpage/assets",
+    "index/study/diagnostic currentpointers",
+    "CURRENT_METHOD supplement",
+    "SOURCE_MANIFEST updates"
+  ],
+  "regression_radius": "Old650 assets except explicit HTML/currentmethod/README/manifest must remain byteexact; study13rows and index432pilotrows",
+  "native_commands": [
+    "new frozen actual readers (once percase)",
+    "ChromeCDP check_calibration_browser.py local+live",
+    "SHA256/ZIP CRC/native sourcepins",
+    "LaTeX format/layout compiled bypaperagent",
+    "git diff --check plus exactgeneratedSVGwhitespace exception if needed"
+  ],
+  "environment": "Installed safeduo3.11/IsaacSim5.1/IsaacLab0.54.2; ownedChrome; GitHubcredentialonlymemory",
+  "computer_use_skill": "Unavailable ininstalledskillcatalog; owned installedChromeCDP plus applicationstate/screenshots substitutes available browser interface",
+  "performance_claim": "NONE; different cachedstartup wall times not speedup",
+  "science_qualification": "This gate delivers artifacts; mainlearning/hardware/chemical acceptance separately MAJOR_OPEN"
+}

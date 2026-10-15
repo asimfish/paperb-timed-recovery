@@ -1,0 +1,57 @@
+{
+  "SDK_sources_modified": false,
+  "author_native_GPU_SDK_calls": 0,
+  "cleanup_candidate_identical_v02": true,
+  "files": {
+    "capture_raw.py": {
+      "byte_exact": true,
+      "parent_sha256": "49d9bc9d4e3135dd86f59f2f2ec7b9b0b09aca27c7e09cbc7cb1b4ac262a5489",
+      "v03_sha256": "49d9bc9d4e3135dd86f59f2f2ec7b9b0b09aca27c7e09cbc7cb1b4ac262a5489"
+    },
+    "close_regression_model.py": {
+      "byte_exact": true,
+      "parent_sha256": "1c324c3673c36954aecd2b2d74ddd142dcf2a286bb119d53bc50a0387d40a59e",
+      "v03_sha256": "1c324c3673c36954aecd2b2d74ddd142dcf2a286bb119d53bc50a0387d40a59e"
+    },
+    "execution_gate.py": {
+      "byte_exact": false,
+      "parent_sha256": "9ddfb3a9601ac111f6c0a0469a3e0498ca7f7417a65a0327b6f533139fd1084d",
+      "v03_sha256": "8e9afe3aa198eda7966f707a8a4d30742005303f9aeb516454c94f13d6aea001"
+    },
+    "gpu_mapping.py": {
+      "byte_exact": true,
+      "parent_sha256": "8de25a859f84b733e2a1b8bd1d300030249f68f97fc22de03004a2a6961c47e3",
+      "v03_sha256": "8de25a859f84b733e2a1b8bd1d300030249f68f97fc22de03004a2a6961c47e3"
+    },
+    "launch_worker.sh": {
+      "byte_exact": false,
+      "parent_sha256": "5cde7770d9f40ca9677549ef68e06da6b9a7c568bfc5454448713a3624170438",
+      "v03_sha256": "51b68a71ef1554b829a89fd1223a14905d1d5ab0f3c73ab5c69637af4d9ffc49"
+    },
+    "lifecycle_observer.py": {
+      "byte_exact": true,
+      "parent_sha256": "927aeb80d6760839dd8c27f215a385fa273a4a516c6a534003ccce8c4211d901",
+      "v03_sha256": "927aeb80d6760839dd8c27f215a385fa273a4a516c6a534003ccce8c4211d901"
+    },
+    "native_probe.py": {
+      "byte_exact": false,
+      "parent_sha256": "28c247bfe422335e429acfba39fc44870b3453cc58e67a08834c177a2e215c32",
+      "v03_sha256": "cd5c9d314bba07df40573e7c46e823a30dd6a2b62431ec1f5191b17bf7f0875f"
+    },
+    "physical_capture.py": {
+      "byte_exact": true,
+      "parent_sha256": "d10610f5d508a37b65f2978fadbae304b0001606d51faf0511c8805ce4ae0d5f",
+      "v03_sha256": "d10610f5d508a37b65f2978fadbae304b0001606d51faf0511c8805ce4ae0d5f"
+    },
+    "run_worker.py": {
+      "byte_exact": true,
+      "parent_sha256": "8d97cc8ab6379ce9c5dc3df12b1d7617b94eb7e0b0ed5610bd5ff4312115147c",
+      "v03_sha256": "8d97cc8ab6379ce9c5dc3df12b1d7617b94eb7e0b0ed5610bd5ff4312115147c"
+    }
+  },
+  "no_contact_sensor_or_material_or_frame_candidate_added": true,
+  "numerical_thresholds_dt_windows_geometry_filter_frame_changes": false,
+  "root_budget_selection_sha256": "8a9a74a00493454db0cbf54d2c0e4132ed3f3ddc528767ecd6daf646c0d004b9",
+  "schema": "ForceV03ContactProcessingSourceDelta/1",
+  "sole_new_measurement_behavior_delta": "worker-local disableContactProcessing casebound Trueoff/Falseon before reset,actualreadbackallboundaries"
+}

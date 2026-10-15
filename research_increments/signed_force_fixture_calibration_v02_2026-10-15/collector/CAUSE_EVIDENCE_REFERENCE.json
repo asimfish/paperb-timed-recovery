@@ -1,0 +1,17 @@
+{
+  "actual_REPORT_sha256": "af8c0c7db92b5aa510d267ca1a9fde6162d9992f7baf88b17d56cfb278afa0c6",
+  "actual_REPORT_status_exact": "PASS_SHUTDOWN_BOUNDARY_CAPTURE",
+  "actual_default_close_worker_status": "FAILED_RETAINED_TIMEOUT_300s_exit-15_ownedgroupempty",
+  "actual_diagnostic_REPORT_path": "/mnt/nas/data/lyf/chem_mem/awesome_memory_chem/papers/paperB/research_increments/native_shutdown_diagnostic_v01_2026-10-15/actual_audit/dev_shutdown_after_fixture_001/REPORT.json",
+  "actual_diagnostic_boundary_capture": "PASS_BOUNDARY_CAPTURE",
+  "actual_new_native_epochs_by_author": 0,
+  "alternative_replicatorwait_evidence": "ActualstatusSTOPPED/isstartedFalse/isstoppedTrue/triggersempty/queuedsimtimes0; result fsyncdone129.116s beforeclose129.118s",
+  "claim": "DIAGNOSED_OWNED_PYTHON_STOP_CALLBACK_BLOCKING_MECHANISM_CANDIDATE_NATIVE_UNVERIFIED_NOT_FIXED",
+  "discriminating_trace": "11 repeatedownedstacks SimulationApp.close814=context.close_stage -> IsaacLab SimulationContext STOP handler1028 renderwhiletimelineNOTPLAY",
+  "fixtures_force_thresholds_unchanged": true,
+  "narrow_candidate": "AftercompleteENDandRESULT durable:publicowned SimulationContext.clear_instance unsubscribe ownSTOPsubscription; defaultapp.close stillzeroargs",
+  "original_force_v1_C0_or_shutdown_RAW_physics_not_scored": true,
+  "parent_force_source_release_sha256": "4ebd4d6e57ae3554fcbd27f763cfc18ba0945f3b702d9ced5a62a596839d5b14",
+  "parent_shutdown_source_release_sha256": "4052163679789f5b89711c77992247747e68f198fa4102599ce1522b035332c2",
+  "schema": "CausallyJustifiedForceV02CleanupCandidateReference/1"
+}

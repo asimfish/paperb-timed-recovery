@@ -1,0 +1,318 @@
+{
+  "schema": "PaperBRootV03ActualBoundedCalibrationClosure/1",
+  "issued_at_utc": "2026-10-14T19:08:53.507204+00:00",
+  "status": "FIVE_POSITIVE_CONDITIONAL_FIXTURES_PASS_NEGATIVE_FAILURE_RETAINED",
+  "execution_state": "CLOSED_ALL6_DISTINCT_CASES_ONCE",
+  "actual_v03_epochs": 6,
+  "actual_controlled_steps": 5365,
+  "positive_conditional_passes": 5,
+  "expected_negative_physical_failures": 1,
+  "same_source_instrumentation_intervention": "Only workerlocalcontactprocessing boolean changes offC1/onC1; actualsettingcaptured",
+  "c4_to_c1_mean_support_ratio": 1.9999999950400762,
+  "cases": [
+    {
+      "case_id": "cal_force_c1_stack_processing_off_v03",
+      "report": {
+        "path": "/mnt/nas/data/lyf/chem_mem/awesome_memory_chem/papers/paperB/research_increments/signed_force_fixture_calibration_v03_2026-10-15/actual_audits/cal_force_c1_stack_processing_off_v03/REPORT.json",
+        "sha256": "10208b2597d265b217709e05bfdff9bf20818aff961338b82c2b78c12cb705d0",
+        "bytes": 277254
+      },
+      "series": {
+        "path": "/mnt/nas/data/lyf/chem_mem/awesome_memory_chem/papers/paperB/research_increments/signed_force_fixture_calibration_v03_2026-10-15/actual_audits/cal_force_c1_stack_processing_off_v03/AUDITED_SERIES.json",
+        "sha256": "ef4cb74f193dad03909d4eb5d2e752b41179bbf7918622efb88ec8b0e5b05da1",
+        "bytes": 59847
+      },
+      "terminal": {
+        "path": "/data/liyufeng/paperb_signed_force_calibration_20261015_v3/logs/cal_force_c1_stack_processing_off_v03.json",
+        "sha256": "198f237e39a89532fd8067b334634d0f4fdc5a56b5cbd39cabcb50a65e159be8",
+        "bytes": 930
+      },
+      "status": "FAIL_CONDITIONAL_FIXTURE_MEASUREMENT",
+      "measurement_role": "NEGATIVE_PROCESSING_DISABLED_CONTROL",
+      "window": [
+        1000,
+        1048
+      ],
+      "samples": 49,
+      "native_epochs": 1,
+      "controlled_steps": 1049,
+      "wall_s": 144.15475069219247,
+      "allocated_gpu_hours_upper_bound": 0.0400429863033868,
+      "actual_disabled_setting": true,
+      "all_controlled_setting_readbacks": 1049,
+      "creation_order_mechanism": "NOT_THIS_CASE",
+      "negative_control_outcome": "EXPECTED_ALL49_MG_FAILURE_RETAINED",
+      "failed_check_names": {
+        "A/mg_support": 49,
+        "A/velocity_difference_Newton_support": 49
+      },
+      "cleanup_scope": "EXIT0_AFTER_PRE_CLOSE_MARKERS",
+      "Python_close_return": "UNKNOWN_NO_AFTER_APP_CLOSE_MARKER",
+      "mean_pair_world_N": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max_support_error_N": 0.9810000565797097,
+      "max_matrix_signed_error_N": 0.0,
+      "max_dt_error_N": 0.0,
+      "max_dt_impulse_error_Ns": 0.0,
+      "min_selected_signed_scalar_N": null,
+      "max_selected_negative_count": 0
+    },
+    {
+      "case_id": "cal_force_c0_freefall_v03",
+      "report": {
+        "path": "/mnt/nas/data/lyf/chem_mem/awesome_memory_chem/papers/paperB/research_increments/signed_force_fixture_calibration_v03_2026-10-15/actual_audits/cal_force_c0_freefall_v03/REPORT.json",
+        "sha256": "6224c7219a4558fb649414e61f69d5ae9a9421e4b969878380f348f78042ea8e",
+        "bytes": 37015
+      },
+      "series": {
+        "path": "/mnt/nas/data/lyf/chem_mem/awesome_memory_chem/papers/paperB/research_increments/signed_force_fixture_calibration_v03_2026-10-15/actual_audits/cal_force_c0_freefall_v03/AUDITED_SERIES.json",
+        "sha256": "fbf35c736af24f19f35c4b2d74df5145a9df920e47200c14b7e2cafda6fedc9d",
+        "bytes": 47302
+      },
+      "terminal": {
+        "path": "/data/liyufeng/paperb_signed_force_calibration_20261015_v3/logs/cal_force_c0_freefall_v03.json",
+        "sha256": "952ee5f5c4010f6c08c1d9671d856a9c8de7537d83ef974af238c360c5ea7454",
+        "bytes": 907
+      },
+      "status": "PASS_CONDITIONAL_FIXTURE_CALIBRATION",
+      "measurement_role": "POSITIVE_PROCESSING_ENABLED_FIXTURE",
+      "window": [
+        71,
+        119
+      ],
+      "samples": 49,
+      "native_epochs": 1,
+      "controlled_steps": 120,
+      "wall_s": 18.17444656183943,
+      "allocated_gpu_hours_upper_bound": 0.005048457378288731,
+      "actual_disabled_setting": false,
+      "all_controlled_setting_readbacks": 120,
+      "creation_order_mechanism": "NOT_THIS_CASE",
+      "negative_control_outcome": null,
+      "failed_check_names": {},
+      "cleanup_scope": "EXIT0_AFTER_PRE_CLOSE_MARKERS",
+      "Python_close_return": "UNKNOWN_NO_AFTER_APP_CLOSE_MARKER",
+      "max_acceleration_error_m_s2": 1.1444091796875e-05
+    },
+    {
+      "case_id": "cal_force_c1_stack_v03",
+      "report": {
+        "path": "/mnt/nas/data/lyf/chem_mem/awesome_memory_chem/papers/paperB/research_increments/signed_force_fixture_calibration_v03_2026-10-15/actual_audits/cal_force_c1_stack_v03/REPORT.json",
+        "sha256": "feecbb8b61eba81c6f6b619e8fd8ae2706704e9a8db93d68b59cc4fd858fc475",
+        "bytes": 605316
+      },
+      "series": {
+        "path": "/mnt/nas/data/lyf/chem_mem/awesome_memory_chem/papers/paperB/research_increments/signed_force_fixture_calibration_v03_2026-10-15/actual_audits/cal_force_c1_stack_v03/AUDITED_SERIES.json",
+        "sha256": "22633c188e76a3306ca2c550fcc500a8f9e79533402a15f52d6ce81bf5a95e06",
+        "bytes": 69435
+      },
+      "terminal": {
+        "path": "/data/liyufeng/paperb_signed_force_calibration_20261015_v3/logs/cal_force_c1_stack_v03.json",
+        "sha256": "16c4d942941a4b7a401aac003336defb1fe4b66263569849aa3bf88b3203f761",
+        "bytes": 902
+      },
+      "status": "PASS_CONDITIONAL_FIXTURE_CALIBRATION",
+      "measurement_role": "POSITIVE_PROCESSING_ENABLED_FIXTURE",
+      "window": [
+        1000,
+        1048
+      ],
+      "samples": 49,
+      "native_epochs": 1,
+      "controlled_steps": 1049,
+      "wall_s": 15.379207220859826,
+      "allocated_gpu_hours_upper_bound": 0.004272002005794396,
+      "actual_disabled_setting": false,
+      "all_controlled_setting_readbacks": 1049,
+      "creation_order_mechanism": "NOT_THIS_CASE",
+      "negative_control_outcome": null,
+      "failed_check_names": {},
+      "cleanup_scope": "EXIT0_AFTER_PRE_CLOSE_MARKERS",
+      "Python_close_return": "UNKNOWN_NO_AFTER_APP_CLOSE_MARKER",
+      "mean_pair_world_N": [
+        1.2151454898990286e-08,
+        7.286558132379088e-09,
+        0.9810000329601521
+      ],
+      "max_support_error_N": 2.891389211813602e-07,
+      "max_matrix_signed_error_N": 3.5762786865234375e-07,
+      "max_dt_error_N": 0.0,
+      "max_dt_impulse_error_Ns": 1.0399768754498773e-09,
+      "min_selected_signed_scalar_N": -0.32071197032928467,
+      "max_selected_negative_count": 4
+    },
+    {
+      "case_id": "cal_force_c2_rotated_v03",
+      "report": {
+        "path": "/mnt/nas/data/lyf/chem_mem/awesome_memory_chem/papers/paperB/research_increments/signed_force_fixture_calibration_v03_2026-10-15/actual_audits/cal_force_c2_rotated_v03/REPORT.json",
+        "sha256": "2cad4c3bab5b33cbe94aad9aecee14d11b3d01144c61981c599e1d9414659159",
+        "bytes": 605828
+      },
+      "series": {
+        "path": "/mnt/nas/data/lyf/chem_mem/awesome_memory_chem/papers/paperB/research_increments/signed_force_fixture_calibration_v03_2026-10-15/actual_audits/cal_force_c2_rotated_v03/AUDITED_SERIES.json",
+        "sha256": "17332e928e3d41a0c554c800d014ed9b8be8dfd8f6896255c8a97b3b73a36975",
+        "bytes": 69971
+      },
+      "terminal": {
+        "path": "/data/liyufeng/paperb_signed_force_calibration_20261015_v3/logs/cal_force_c2_rotated_v03.json",
+        "sha256": "7068f5f8e4ed4b06c2d5ab620e7b8f60ab3fd5120d066642c6db1a489c4e5a2b",
+        "bytes": 905
+      },
+      "status": "PASS_CONDITIONAL_FIXTURE_CALIBRATION",
+      "measurement_role": "POSITIVE_PROCESSING_ENABLED_FIXTURE",
+      "window": [
+        1000,
+        1048
+      ],
+      "samples": 49,
+      "native_epochs": 1,
+      "controlled_steps": 1049,
+      "wall_s": 18.985522880218923,
+      "allocated_gpu_hours_upper_bound": 0.005273756355616367,
+      "actual_disabled_setting": false,
+      "all_controlled_setting_readbacks": 1049,
+      "creation_order_mechanism": "NOT_THIS_CASE",
+      "negative_control_outcome": null,
+      "failed_check_names": {},
+      "cleanup_scope": "EXIT0_AFTER_PRE_CLOSE_MARKERS",
+      "Python_close_return": "UNKNOWN_NO_AFTER_APP_CLOSE_MARKER",
+      "mean_pair_world_N": [
+        0.9809999891689846,
+        -1.6853505040527887e-08,
+        1.1694431349826341e-07
+      ],
+      "max_support_error_N": 3.120476908671988e-07,
+      "max_matrix_signed_error_N": 2.38418579101563e-07,
+      "max_dt_error_N": 0.0,
+      "max_dt_impulse_error_Ns": 1.024454831730089e-09,
+      "min_selected_signed_scalar_N": -0.32071107625961304,
+      "max_selected_negative_count": 4
+    },
+    {
+      "case_id": "cal_force_c3_actor_order_v03",
+      "report": {
+        "path": "/mnt/nas/data/lyf/chem_mem/awesome_memory_chem/papers/paperB/research_increments/signed_force_fixture_calibration_v03_2026-10-15/actual_audits/cal_force_c3_actor_order_v03/REPORT.json",
+        "sha256": "518b79f71b69e5955f5399f4a178db4480bcaaf3ae930750045d4a6907244ef5",
+        "bytes": 609635
+      },
+      "series": {
+        "path": "/mnt/nas/data/lyf/chem_mem/awesome_memory_chem/papers/paperB/research_increments/signed_force_fixture_calibration_v03_2026-10-15/actual_audits/cal_force_c3_actor_order_v03/AUDITED_SERIES.json",
+        "sha256": "1f2b8121f45c13b0c6e3be58f3f6e7a11526becddf626874bccf0e268acd6700",
+        "bytes": 69735
+      },
+      "terminal": {
+        "path": "/data/liyufeng/paperb_signed_force_calibration_20261015_v3/logs/cal_force_c3_actor_order_v03.json",
+        "sha256": "5962355be0b57540ff37f6d92eec097f351693e7b9e1a4e87767ed31591dee46",
+        "bytes": 914
+      },
+      "status": "PASS_CONDITIONAL_FIXTURE_CALIBRATION",
+      "measurement_role": "POSITIVE_PROCESSING_ENABLED_FIXTURE",
+      "window": [
+        1000,
+        1048
+      ],
+      "samples": 49,
+      "native_epochs": 1,
+      "controlled_steps": 1049,
+      "wall_s": 15.728005430661142,
+      "allocated_gpu_hours_upper_bound": 0.004368890397405872,
+      "actual_disabled_setting": false,
+      "all_controlled_setting_readbacks": 1049,
+      "creation_order_mechanism": "INCONCLUSIVE_COMPLETE_BACKEND_SHAPE_ORDER_UNOBSERVED",
+      "negative_control_outcome": null,
+      "failed_check_names": {},
+      "cleanup_scope": "EXIT0_AFTER_PRE_CLOSE_MARKERS",
+      "Python_close_return": "UNKNOWN_NO_AFTER_APP_CLOSE_MARKER",
+      "mean_pair_world_N": [
+        1.2151454898990286e-08,
+        7.286558132379088e-09,
+        0.9810000329601521
+      ],
+      "max_support_error_N": 2.891389211813602e-07,
+      "max_matrix_signed_error_N": 3.5762786865234375e-07,
+      "max_dt_error_N": 0.0,
+      "max_dt_impulse_error_Ns": 1.0399768754498773e-09,
+      "min_selected_signed_scalar_N": -0.32071197032928467,
+      "max_selected_negative_count": 4
+    },
+    {
+      "case_id": "cal_force_c4_mass_v03",
+      "report": {
+        "path": "/mnt/nas/data/lyf/chem_mem/awesome_memory_chem/papers/paperB/research_increments/signed_force_fixture_calibration_v03_2026-10-15/actual_audits/cal_force_c4_mass_v03/REPORT.json",
+        "sha256": "1e176ee19f8a3284d39f5bc68fad49b3174779b8fe9d5d226d58c86e50d8b499",
+        "bytes": 609908
+      },
+      "series": {
+        "path": "/mnt/nas/data/lyf/chem_mem/awesome_memory_chem/papers/paperB/research_increments/signed_force_fixture_calibration_v03_2026-10-15/actual_audits/cal_force_c4_mass_v03/AUDITED_SERIES.json",
+        "sha256": "b2a50d73e20447175bd1c2173bc4acdf5cc8cdffa6c22b4b069941a1f3440642",
+        "bytes": 69429
+      },
+      "terminal": {
+        "path": "/data/liyufeng/paperb_signed_force_calibration_20261015_v3/logs/cal_force_c4_mass_v03.json",
+        "sha256": "790927a3ae3fbdc065e8c9ece1d75cf45dbe16ab9dcd3e36ff8e18e4a25058e7",
+        "bytes": 899
+      },
+      "status": "PASS_CONDITIONAL_FIXTURE_CALIBRATION",
+      "measurement_role": "POSITIVE_PROCESSING_ENABLED_FIXTURE",
+      "window": [
+        1000,
+        1048
+      ],
+      "samples": 49,
+      "native_epochs": 1,
+      "controlled_steps": 1049,
+      "wall_s": 15.91557434014976,
+      "allocated_gpu_hours_upper_bound": 0.004420992872263822,
+      "actual_disabled_setting": false,
+      "all_controlled_setting_readbacks": 1049,
+      "creation_order_mechanism": "NOT_THIS_CASE",
+      "negative_control_outcome": null,
+      "failed_check_names": {},
+      "cleanup_scope": "EXIT0_AFTER_PRE_CLOSE_MARKERS",
+      "Python_close_return": "UNKNOWN_NO_AFTER_APP_CLOSE_MARKER",
+      "mean_pair_world_N": [
+        5.838255118353387e-08,
+        1.203831309830005e-07,
+        1.9620000610546189
+      ],
+      "max_support_error_N": 8.341511321762223e-07,
+      "max_matrix_signed_error_N": 4.172325134277344e-07,
+      "max_dt_error_N": 0.0,
+      "max_dt_impulse_error_Ns": 1.3348956905134823e-09,
+      "min_selected_signed_scalar_N": -0.6611144542694092,
+      "max_selected_negative_count": 4
+    }
+  ],
+  "allocated_gpu_hours_upper_bound": 0.06342708531275598,
+  "old_calibration_epochs": 3,
+  "calibration_family_actual_epochs": 9,
+  "separate_shutdown_diagnostic_epochs": 1,
+  "closed_old_M_family_cap": 3,
+  "this_turn_actual_native_attempts_including_diag": 10,
+  "this_turn_actual_controlled_steps": 6774,
+  "model_calls": 0,
+  "training_gpu_hours": 0,
+  "qualified_S_F_R": 0,
+  "main_M_B3": "UNTESTED",
+  "real_hardware_chemical_endpoints": 0,
+  "limits": [
+    "Conditional simulationfixture only",
+    "C3completebackendshapeorder remainsUNKNOWN; worldproductinvariance doesnotproveordering mechanism",
+    "APIdeclared force/impulse checks plus knownsimulatedmg do notcertifyhardwareSI",
+    "Fullrobotload/unload/torque/backendconstraintinventory stillunqualified",
+    "No newcalibrationepoch authorized by publication",
+    "No oldfailure rewritten"
+  ],
+  "predeclared_thresholds_windows_unchanged": true,
+  "samewindow_points_not_independent_trials": true,
+  "resource_refusal_files": [
+    {
+      "path": "/data/liyufeng/paperb_signed_force_calibration_20261015_v3/resource_gate_attempts/cal_force_c0_freefall_v03/20261014T190413857630Z-2878176.json",
+      "sha256": "95ffe03b1d245df1c5524a635218960b8d6469fca4e376f39a0e7a179746e655",
+      "bytes": 445
+    }
+  ]
+}

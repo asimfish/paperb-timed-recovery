@@ -1,0 +1,23 @@
+{
+  "SDK_native_GPU_calls": 0,
+  "new_scope": "ROOT/source identity v02 metadata and separatecleanup lifecycle gate;no physicalthresholdchange",
+  "parent_reader_freeze_sha256": "e7934216470e50ef8ce414aaace49bf1b510e052253b98663faa048857709742",
+  "physical_functions_only_case_epoch_identity_substitutions": [
+    "measurement",
+    "audit_data",
+    "compare_reference"
+  ],
+  "physical_math_byteexact_sha256": "d2fd5a5b238bd44d3de8e780ac7a35523d3ebaabf12a475c291945257e1d8f2e",
+  "physical_parsers_acceptance_functions_byteexact": [
+    "same_clock",
+    "getter",
+    "simple_observed",
+    "observed_body",
+    "detail",
+    "copied_query",
+    "inventory_check",
+    "metadata_check"
+  ],
+  "schema": "ForceV02ReaderDeltaContract/1",
+  "v02_native_outcomes_read": 0
+}

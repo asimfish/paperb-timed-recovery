@@ -1,0 +1,1968 @@
+{
+  "case_id": "cal_force_c0_freefall_v03",
+  "measurement_role": "POSITIVE_PROCESSING_ENABLED_FIXTURE",
+  "measurement_scope": "CONDITIONAL_FIXTURE_CONTACT_REPRESENTATION_DT_WORLD_FRAME_ONLY",
+  "rows": [
+    {
+      "acceleration_A_world": [
+        0.0,
+        0.0,
+        -9.809988975524902
+      ],
+      "case_id": "cal_force_c0_freefall_v03",
+      "channel_scope": "NET_ONLY_INTENTIONALLY_UNCONFIGURED_DETAILS",
+      "dt_err_N": 0.0,
+      "dt_impulse_err_Ns": 0.0,
+      "friction_AB_world": null,
+      "gravity_world": [
+        0.0,
+        0.0,
+        -9.8100004196167
+      ],
+      "mass_A_kg": 0.10000000149011612,
+      "matrix_vs_signed_err_N": null,
+      "native_time_s": 0.3083333494141698,
+      "net_normal_A_world": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "pair_normal_AB_world": null,
+      "pair_normal_BA_world": null,
+      "selected_negative_count": null,
+      "signed_scalar_min": null,
+      "tick": 71,
+      "velocity_A_world": [
+        0.0,
+        0.0,
+        -3.0247483253479004
+      ],
+      "velocity_difference_acceleration_A_world": [
+        0.0,
+        0.0,
+        -9.809989929199219
+      ]
+    },
+    {
+      "acceleration_A_world": [
+        0.0,
+        0.0,
+        -9.809988975524902
+      ],
+      "case_id": "cal_force_c0_freefall_v03",
+      "channel_scope": "NET_ONLY_INTENTIONALLY_UNCONFIGURED_DETAILS",
+      "dt_err_N": 0.0,
+      "dt_impulse_err_Ns": 0.0,
+      "friction_AB_world": null,
+      "gravity_world": [
+        0.0,
+        0.0,
+        -9.8100004196167
+      ],
+      "mass_A_kg": 0.10000000149011612,
+      "matrix_vs_signed_err_N": null,
+      "native_time_s": 0.31250001629814506,
+      "net_normal_A_world": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "pair_normal_AB_world": null,
+      "pair_normal_BA_world": null,
+      "selected_negative_count": null,
+      "signed_scalar_min": null,
+      "tick": 72,
+      "velocity_A_world": [
+        0.0,
+        0.0,
+        -3.0656232833862305
+      ],
+      "velocity_difference_acceleration_A_world": [
+        0.0,
+        0.0,
+        -9.809989929199219
+      ]
+    },
+    {
+      "acceleration_A_world": [
+        0.0,
+        0.0,
+        -9.809988975524902
+      ],
+      "case_id": "cal_force_c0_freefall_v03",
+      "channel_scope": "NET_ONLY_INTENTIONALLY_UNCONFIGURED_DETAILS",
+      "dt_err_N": 0.0,
+      "dt_impulse_err_Ns": 0.0,
+      "friction_AB_world": null,
+      "gravity_world": [
+        0.0,
+        0.0,
+        -9.8100004196167
+      ],
+      "mass_A_kg": 0.10000000149011612,
+      "matrix_vs_signed_err_N": null,
+      "native_time_s": 0.3166666831821203,
+      "net_normal_A_world": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "pair_normal_AB_world": null,
+      "pair_normal_BA_world": null,
+      "selected_negative_count": null,
+      "signed_scalar_min": null,
+      "tick": 73,
+      "velocity_A_world": [
+        0.0,
+        0.0,
+        -3.1064982414245605
+      ],
+      "velocity_difference_acceleration_A_world": [
+        0.0,
+        0.0,
+        -9.809989929199219
+      ]
+    },
+    {
+      "acceleration_A_world": [
+        0.0,
+        0.0,
+        -9.809988975524902
+      ],
+      "case_id": "cal_force_c0_freefall_v03",
+      "channel_scope": "NET_ONLY_INTENTIONALLY_UNCONFIGURED_DETAILS",
+      "dt_err_N": 0.0,
+      "dt_impulse_err_Ns": 0.0,
+      "friction_AB_world": null,
+      "gravity_world": [
+        0.0,
+        0.0,
+        -9.8100004196167
+      ],
+      "mass_A_kg": 0.10000000149011612,
+      "matrix_vs_signed_err_N": null,
+      "native_time_s": 0.3208333500660956,
+      "net_normal_A_world": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "pair_normal_AB_world": null,
+      "pair_normal_BA_world": null,
+      "selected_negative_count": null,
+      "signed_scalar_min": null,
+      "tick": 74,
+      "velocity_A_world": [
+        0.0,
+        0.0,
+        -3.1473731994628906
+      ],
+      "velocity_difference_acceleration_A_world": [
+        0.0,
+        0.0,
+        -9.809989929199219
+      ]
+    },
+    {
+      "acceleration_A_world": [
+        0.0,
+        0.0,
+        -9.809988975524902
+      ],
+      "case_id": "cal_force_c0_freefall_v03",
+      "channel_scope": "NET_ONLY_INTENTIONALLY_UNCONFIGURED_DETAILS",
+      "dt_err_N": 0.0,
+      "dt_impulse_err_Ns": 0.0,
+      "friction_AB_world": null,
+      "gravity_world": [
+        0.0,
+        0.0,
+        -9.8100004196167
+      ],
+      "mass_A_kg": 0.10000000149011612,
+      "matrix_vs_signed_err_N": null,
+      "native_time_s": 0.32500001695007086,
+      "net_normal_A_world": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "pair_normal_AB_world": null,
+      "pair_normal_BA_world": null,
+      "selected_negative_count": null,
+      "signed_scalar_min": null,
+      "tick": 75,
+      "velocity_A_world": [
+        0.0,
+        0.0,
+        -3.1882481575012207
+      ],
+      "velocity_difference_acceleration_A_world": [
+        0.0,
+        0.0,
+        -9.809989929199219
+      ]
+    },
+    {
+      "acceleration_A_world": [
+        0.0,
+        0.0,
+        -9.809988975524902
+      ],
+      "case_id": "cal_force_c0_freefall_v03",
+      "channel_scope": "NET_ONLY_INTENTIONALLY_UNCONFIGURED_DETAILS",
+      "dt_err_N": 0.0,
+      "dt_impulse_err_Ns": 0.0,
+      "friction_AB_world": null,
+      "gravity_world": [
+        0.0,
+        0.0,
+        -9.8100004196167
+      ],
+      "mass_A_kg": 0.10000000149011612,
+      "matrix_vs_signed_err_N": null,
+      "native_time_s": 0.3291666838340461,
+      "net_normal_A_world": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "pair_normal_AB_world": null,
+      "pair_normal_BA_world": null,
+      "selected_negative_count": null,
+      "signed_scalar_min": null,
+      "tick": 76,
+      "velocity_A_world": [
+        0.0,
+        0.0,
+        -3.229123115539551
+      ],
+      "velocity_difference_acceleration_A_world": [
+        0.0,
+        0.0,
+        -9.809989929199219
+      ]
+    },
+    {
+      "acceleration_A_world": [
+        0.0,
+        0.0,
+        -9.809988975524902
+      ],
+      "case_id": "cal_force_c0_freefall_v03",
+      "channel_scope": "NET_ONLY_INTENTIONALLY_UNCONFIGURED_DETAILS",
+      "dt_err_N": 0.0,
+      "dt_impulse_err_Ns": 0.0,
+      "friction_AB_world": null,
+      "gravity_world": [
+        0.0,
+        0.0,
+        -9.8100004196167
+      ],
+      "mass_A_kg": 0.10000000149011612,
+      "matrix_vs_signed_err_N": null,
+      "native_time_s": 0.3333333507180214,
+      "net_normal_A_world": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "pair_normal_AB_world": null,
+      "pair_normal_BA_world": null,
+      "selected_negative_count": null,
+      "signed_scalar_min": null,
+      "tick": 77,
+      "velocity_A_world": [
+        0.0,
+        0.0,
+        -3.269998073577881
+      ],
+      "velocity_difference_acceleration_A_world": [
+        0.0,
+        0.0,
+        -9.809989929199219
+      ]
+    },
+    {
+      "acceleration_A_world": [
+        0.0,
+        0.0,
+        -9.809988975524902
+      ],
+      "case_id": "cal_force_c0_freefall_v03",
+      "channel_scope": "NET_ONLY_INTENTIONALLY_UNCONFIGURED_DETAILS",
+      "dt_err_N": 0.0,
+      "dt_impulse_err_Ns": 0.0,
+      "friction_AB_world": null,
+      "gravity_world": [
+        0.0,
+        0.0,
+        -9.8100004196167
+      ],
+      "mass_A_kg": 0.10000000149011612,
+      "matrix_vs_signed_err_N": null,
+      "native_time_s": 0.33750001760199666,
+      "net_normal_A_world": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "pair_normal_AB_world": null,
+      "pair_normal_BA_world": null,
+      "selected_negative_count": null,
+      "signed_scalar_min": null,
+      "tick": 78,
+      "velocity_A_world": [
+        0.0,
+        0.0,
+        -3.310873031616211
+      ],
+      "velocity_difference_acceleration_A_world": [
+        0.0,
+        0.0,
+        -9.809989929199219
+      ]
+    },
+    {
+      "acceleration_A_world": [
+        0.0,
+        0.0,
+        -9.809988975524902
+      ],
+      "case_id": "cal_force_c0_freefall_v03",
+      "channel_scope": "NET_ONLY_INTENTIONALLY_UNCONFIGURED_DETAILS",
+      "dt_err_N": 0.0,
+      "dt_impulse_err_Ns": 0.0,
+      "friction_AB_world": null,
+      "gravity_world": [
+        0.0,
+        0.0,
+        -9.8100004196167
+      ],
+      "mass_A_kg": 0.10000000149011612,
+      "matrix_vs_signed_err_N": null,
+      "native_time_s": 0.3416666844859719,
+      "net_normal_A_world": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "pair_normal_AB_world": null,
+      "pair_normal_BA_world": null,
+      "selected_negative_count": null,
+      "signed_scalar_min": null,
+      "tick": 79,
+      "velocity_A_world": [
+        0.0,
+        0.0,
+        -3.351747989654541
+      ],
+      "velocity_difference_acceleration_A_world": [
+        0.0,
+        0.0,
+        -9.809989929199219
+      ]
+    },
+    {
+      "acceleration_A_world": [
+        0.0,
+        0.0,
+        -9.809988975524902
+      ],
+      "case_id": "cal_force_c0_freefall_v03",
+      "channel_scope": "NET_ONLY_INTENTIONALLY_UNCONFIGURED_DETAILS",
+      "dt_err_N": 0.0,
+      "dt_impulse_err_Ns": 0.0,
+      "friction_AB_world": null,
+      "gravity_world": [
+        0.0,
+        0.0,
+        -9.8100004196167
+      ],
+      "mass_A_kg": 0.10000000149011612,
+      "matrix_vs_signed_err_N": null,
+      "native_time_s": 0.3458333513699472,
+      "net_normal_A_world": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "pair_normal_AB_world": null,
+      "pair_normal_BA_world": null,
+      "selected_negative_count": null,
+      "signed_scalar_min": null,
+      "tick": 80,
+      "velocity_A_world": [
+        0.0,
+        0.0,
+        -3.392622947692871
+      ],
+      "velocity_difference_acceleration_A_world": [
+        0.0,
+        0.0,
+        -9.809989929199219
+      ]
+    },
+    {
+      "acceleration_A_world": [
+        0.0,
+        0.0,
+        -9.809988975524902
+      ],
+      "case_id": "cal_force_c0_freefall_v03",
+      "channel_scope": "NET_ONLY_INTENTIONALLY_UNCONFIGURED_DETAILS",
+      "dt_err_N": 0.0,
+      "dt_impulse_err_Ns": 0.0,
+      "friction_AB_world": null,
+      "gravity_world": [
+        0.0,
+        0.0,
+        -9.8100004196167
+      ],
+      "mass_A_kg": 0.10000000149011612,
+      "matrix_vs_signed_err_N": null,
+      "native_time_s": 0.35000001825392246,
+      "net_normal_A_world": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "pair_normal_AB_world": null,
+      "pair_normal_BA_world": null,
+      "selected_negative_count": null,
+      "signed_scalar_min": null,
+      "tick": 81,
+      "velocity_A_world": [
+        0.0,
+        0.0,
+        -3.433497905731201
+      ],
+      "velocity_difference_acceleration_A_world": [
+        0.0,
+        0.0,
+        -9.809989929199219
+      ]
+    },
+    {
+      "acceleration_A_world": [
+        0.0,
+        0.0,
+        -9.809988975524902
+      ],
+      "case_id": "cal_force_c0_freefall_v03",
+      "channel_scope": "NET_ONLY_INTENTIONALLY_UNCONFIGURED_DETAILS",
+      "dt_err_N": 0.0,
+      "dt_impulse_err_Ns": 0.0,
+      "friction_AB_world": null,
+      "gravity_world": [
+        0.0,
+        0.0,
+        -9.8100004196167
+      ],
+      "mass_A_kg": 0.10000000149011612,
+      "matrix_vs_signed_err_N": null,
+      "native_time_s": 0.35416668513789773,
+      "net_normal_A_world": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "pair_normal_AB_world": null,
+      "pair_normal_BA_world": null,
+      "selected_negative_count": null,
+      "signed_scalar_min": null,
+      "tick": 82,
+      "velocity_A_world": [
+        0.0,
+        0.0,
+        -3.4743728637695312
+      ],
+      "velocity_difference_acceleration_A_world": [
+        0.0,
+        0.0,
+        -9.809989929199219
+      ]
+    },
+    {
+      "acceleration_A_world": [
+        0.0,
+        0.0,
+        -9.809988975524902
+      ],
+      "case_id": "cal_force_c0_freefall_v03",
+      "channel_scope": "NET_ONLY_INTENTIONALLY_UNCONFIGURED_DETAILS",
+      "dt_err_N": 0.0,
+      "dt_impulse_err_Ns": 0.0,
+      "friction_AB_world": null,
+      "gravity_world": [
+        0.0,
+        0.0,
+        -9.8100004196167
+      ],
+      "mass_A_kg": 0.10000000149011612,
+      "matrix_vs_signed_err_N": null,
+      "native_time_s": 0.358333352021873,
+      "net_normal_A_world": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "pair_normal_AB_world": null,
+      "pair_normal_BA_world": null,
+      "selected_negative_count": null,
+      "signed_scalar_min": null,
+      "tick": 83,
+      "velocity_A_world": [
+        0.0,
+        0.0,
+        -3.5152478218078613
+      ],
+      "velocity_difference_acceleration_A_world": [
+        0.0,
+        0.0,
+        -9.809989929199219
+      ]
+    },
+    {
+      "acceleration_A_world": [
+        0.0,
+        0.0,
+        -9.809988975524902
+      ],
+      "case_id": "cal_force_c0_freefall_v03",
+      "channel_scope": "NET_ONLY_INTENTIONALLY_UNCONFIGURED_DETAILS",
+      "dt_err_N": 0.0,
+      "dt_impulse_err_Ns": 0.0,
+      "friction_AB_world": null,
+      "gravity_world": [
+        0.0,
+        0.0,
+        -9.8100004196167
+      ],
+      "mass_A_kg": 0.10000000149011612,
+      "matrix_vs_signed_err_N": null,
+      "native_time_s": 0.36250001890584826,
+      "net_normal_A_world": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "pair_normal_AB_world": null,
+      "pair_normal_BA_world": null,
+      "selected_negative_count": null,
+      "signed_scalar_min": null,
+      "tick": 84,
+      "velocity_A_world": [
+        0.0,
+        0.0,
+        -3.5561227798461914
+      ],
+      "velocity_difference_acceleration_A_world": [
+        0.0,
+        0.0,
+        -9.809989929199219
+      ]
+    },
+    {
+      "acceleration_A_world": [
+        0.0,
+        0.0,
+        -9.809988975524902
+      ],
+      "case_id": "cal_force_c0_freefall_v03",
+      "channel_scope": "NET_ONLY_INTENTIONALLY_UNCONFIGURED_DETAILS",
+      "dt_err_N": 0.0,
+      "dt_impulse_err_Ns": 0.0,
+      "friction_AB_world": null,
+      "gravity_world": [
+        0.0,
+        0.0,
+        -9.8100004196167
+      ],
+      "mass_A_kg": 0.10000000149011612,
+      "matrix_vs_signed_err_N": null,
+      "native_time_s": 0.36666668578982353,
+      "net_normal_A_world": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "pair_normal_AB_world": null,
+      "pair_normal_BA_world": null,
+      "selected_negative_count": null,
+      "signed_scalar_min": null,
+      "tick": 85,
+      "velocity_A_world": [
+        0.0,
+        0.0,
+        -3.5969977378845215
+      ],
+      "velocity_difference_acceleration_A_world": [
+        0.0,
+        0.0,
+        -9.809989929199219
+      ]
+    },
+    {
+      "acceleration_A_world": [
+        0.0,
+        0.0,
+        -9.809988975524902
+      ],
+      "case_id": "cal_force_c0_freefall_v03",
+      "channel_scope": "NET_ONLY_INTENTIONALLY_UNCONFIGURED_DETAILS",
+      "dt_err_N": 0.0,
+      "dt_impulse_err_Ns": 0.0,
+      "friction_AB_world": null,
+      "gravity_world": [
+        0.0,
+        0.0,
+        -9.8100004196167
+      ],
+      "mass_A_kg": 0.10000000149011612,
+      "matrix_vs_signed_err_N": null,
+      "native_time_s": 0.3708333526737988,
+      "net_normal_A_world": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "pair_normal_AB_world": null,
+      "pair_normal_BA_world": null,
+      "selected_negative_count": null,
+      "signed_scalar_min": null,
+      "tick": 86,
+      "velocity_A_world": [
+        0.0,
+        0.0,
+        -3.6378726959228516
+      ],
+      "velocity_difference_acceleration_A_world": [
+        0.0,
+        0.0,
+        -9.809989929199219
+      ]
+    },
+    {
+      "acceleration_A_world": [
+        0.0,
+        0.0,
+        -9.809988975524902
+      ],
+      "case_id": "cal_force_c0_freefall_v03",
+      "channel_scope": "NET_ONLY_INTENTIONALLY_UNCONFIGURED_DETAILS",
+      "dt_err_N": 0.0,
+      "dt_impulse_err_Ns": 0.0,
+      "friction_AB_world": null,
+      "gravity_world": [
+        0.0,
+        0.0,
+        -9.8100004196167
+      ],
+      "mass_A_kg": 0.10000000149011612,
+      "matrix_vs_signed_err_N": null,
+      "native_time_s": 0.37500001955777407,
+      "net_normal_A_world": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "pair_normal_AB_world": null,
+      "pair_normal_BA_world": null,
+      "selected_negative_count": null,
+      "signed_scalar_min": null,
+      "tick": 87,
+      "velocity_A_world": [
+        0.0,
+        0.0,
+        -3.6787476539611816
+      ],
+      "velocity_difference_acceleration_A_world": [
+        0.0,
+        0.0,
+        -9.809989929199219
+      ]
+    },
+    {
+      "acceleration_A_world": [
+        0.0,
+        0.0,
+        -9.809988975524902
+      ],
+      "case_id": "cal_force_c0_freefall_v03",
+      "channel_scope": "NET_ONLY_INTENTIONALLY_UNCONFIGURED_DETAILS",
+      "dt_err_N": 0.0,
+      "dt_impulse_err_Ns": 0.0,
+      "friction_AB_world": null,
+      "gravity_world": [
+        0.0,
+        0.0,
+        -9.8100004196167
+      ],
+      "mass_A_kg": 0.10000000149011612,
+      "matrix_vs_signed_err_N": null,
+      "native_time_s": 0.37916668644174933,
+      "net_normal_A_world": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "pair_normal_AB_world": null,
+      "pair_normal_BA_world": null,
+      "selected_negative_count": null,
+      "signed_scalar_min": null,
+      "tick": 88,
+      "velocity_A_world": [
+        0.0,
+        0.0,
+        -3.7196226119995117
+      ],
+      "velocity_difference_acceleration_A_world": [
+        0.0,
+        0.0,
+        -9.809989929199219
+      ]
+    },
+    {
+      "acceleration_A_world": [
+        0.0,
+        0.0,
+        -9.809988975524902
+      ],
+      "case_id": "cal_force_c0_freefall_v03",
+      "channel_scope": "NET_ONLY_INTENTIONALLY_UNCONFIGURED_DETAILS",
+      "dt_err_N": 0.0,
+      "dt_impulse_err_Ns": 0.0,
+      "friction_AB_world": null,
+      "gravity_world": [
+        0.0,
+        0.0,
+        -9.8100004196167
+      ],
+      "mass_A_kg": 0.10000000149011612,
+      "matrix_vs_signed_err_N": null,
+      "native_time_s": 0.3833333533257246,
+      "net_normal_A_world": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "pair_normal_AB_world": null,
+      "pair_normal_BA_world": null,
+      "selected_negative_count": null,
+      "signed_scalar_min": null,
+      "tick": 89,
+      "velocity_A_world": [
+        0.0,
+        0.0,
+        -3.760497570037842
+      ],
+      "velocity_difference_acceleration_A_world": [
+        0.0,
+        0.0,
+        -9.809989929199219
+      ]
+    },
+    {
+      "acceleration_A_world": [
+        0.0,
+        0.0,
+        -9.809988975524902
+      ],
+      "case_id": "cal_force_c0_freefall_v03",
+      "channel_scope": "NET_ONLY_INTENTIONALLY_UNCONFIGURED_DETAILS",
+      "dt_err_N": 0.0,
+      "dt_impulse_err_Ns": 0.0,
+      "friction_AB_world": null,
+      "gravity_world": [
+        0.0,
+        0.0,
+        -9.8100004196167
+      ],
+      "mass_A_kg": 0.10000000149011612,
+      "matrix_vs_signed_err_N": null,
+      "native_time_s": 0.38750002020969987,
+      "net_normal_A_world": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "pair_normal_AB_world": null,
+      "pair_normal_BA_world": null,
+      "selected_negative_count": null,
+      "signed_scalar_min": null,
+      "tick": 90,
+      "velocity_A_world": [
+        0.0,
+        0.0,
+        -3.801372528076172
+      ],
+      "velocity_difference_acceleration_A_world": [
+        0.0,
+        0.0,
+        -9.809989929199219
+      ]
+    },
+    {
+      "acceleration_A_world": [
+        0.0,
+        0.0,
+        -9.809988975524902
+      ],
+      "case_id": "cal_force_c0_freefall_v03",
+      "channel_scope": "NET_ONLY_INTENTIONALLY_UNCONFIGURED_DETAILS",
+      "dt_err_N": 0.0,
+      "dt_impulse_err_Ns": 0.0,
+      "friction_AB_world": null,
+      "gravity_world": [
+        0.0,
+        0.0,
+        -9.8100004196167
+      ],
+      "mass_A_kg": 0.10000000149011612,
+      "matrix_vs_signed_err_N": null,
+      "native_time_s": 0.39166668709367514,
+      "net_normal_A_world": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "pair_normal_AB_world": null,
+      "pair_normal_BA_world": null,
+      "selected_negative_count": null,
+      "signed_scalar_min": null,
+      "tick": 91,
+      "velocity_A_world": [
+        0.0,
+        0.0,
+        -3.842247486114502
+      ],
+      "velocity_difference_acceleration_A_world": [
+        0.0,
+        0.0,
+        -9.809989929199219
+      ]
+    },
+    {
+      "acceleration_A_world": [
+        0.0,
+        0.0,
+        -9.809988975524902
+      ],
+      "case_id": "cal_force_c0_freefall_v03",
+      "channel_scope": "NET_ONLY_INTENTIONALLY_UNCONFIGURED_DETAILS",
+      "dt_err_N": 0.0,
+      "dt_impulse_err_Ns": 0.0,
+      "friction_AB_world": null,
+      "gravity_world": [
+        0.0,
+        0.0,
+        -9.8100004196167
+      ],
+      "mass_A_kg": 0.10000000149011612,
+      "matrix_vs_signed_err_N": null,
+      "native_time_s": 0.3958333539776504,
+      "net_normal_A_world": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "pair_normal_AB_world": null,
+      "pair_normal_BA_world": null,
+      "selected_negative_count": null,
+      "signed_scalar_min": null,
+      "tick": 92,
+      "velocity_A_world": [
+        0.0,
+        0.0,
+        -3.883122444152832
+      ],
+      "velocity_difference_acceleration_A_world": [
+        0.0,
+        0.0,
+        -9.809989929199219
+      ]
+    },
+    {
+      "acceleration_A_world": [
+        0.0,
+        0.0,
+        -9.809988975524902
+      ],
+      "case_id": "cal_force_c0_freefall_v03",
+      "channel_scope": "NET_ONLY_INTENTIONALLY_UNCONFIGURED_DETAILS",
+      "dt_err_N": 0.0,
+      "dt_impulse_err_Ns": 0.0,
+      "friction_AB_world": null,
+      "gravity_world": [
+        0.0,
+        0.0,
+        -9.8100004196167
+      ],
+      "mass_A_kg": 0.10000000149011612,
+      "matrix_vs_signed_err_N": null,
+      "native_time_s": 0.40000002086162567,
+      "net_normal_A_world": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "pair_normal_AB_world": null,
+      "pair_normal_BA_world": null,
+      "selected_negative_count": null,
+      "signed_scalar_min": null,
+      "tick": 93,
+      "velocity_A_world": [
+        0.0,
+        0.0,
+        -3.923997402191162
+      ],
+      "velocity_difference_acceleration_A_world": [
+        0.0,
+        0.0,
+        -9.809989929199219
+      ]
+    },
+    {
+      "acceleration_A_world": [
+        0.0,
+        0.0,
+        -9.809988975524902
+      ],
+      "case_id": "cal_force_c0_freefall_v03",
+      "channel_scope": "NET_ONLY_INTENTIONALLY_UNCONFIGURED_DETAILS",
+      "dt_err_N": 0.0,
+      "dt_impulse_err_Ns": 0.0,
+      "friction_AB_world": null,
+      "gravity_world": [
+        0.0,
+        0.0,
+        -9.8100004196167
+      ],
+      "mass_A_kg": 0.10000000149011612,
+      "matrix_vs_signed_err_N": null,
+      "native_time_s": 0.40416668774560094,
+      "net_normal_A_world": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "pair_normal_AB_world": null,
+      "pair_normal_BA_world": null,
+      "selected_negative_count": null,
+      "signed_scalar_min": null,
+      "tick": 94,
+      "velocity_A_world": [
+        0.0,
+        0.0,
+        -3.964872360229492
+      ],
+      "velocity_difference_acceleration_A_world": [
+        0.0,
+        0.0,
+        -9.809989929199219
+      ]
+    },
+    {
+      "acceleration_A_world": [
+        0.0,
+        0.0,
+        -9.809988975524902
+      ],
+      "case_id": "cal_force_c0_freefall_v03",
+      "channel_scope": "NET_ONLY_INTENTIONALLY_UNCONFIGURED_DETAILS",
+      "dt_err_N": 0.0,
+      "dt_impulse_err_Ns": 0.0,
+      "friction_AB_world": null,
+      "gravity_world": [
+        0.0,
+        0.0,
+        -9.8100004196167
+      ],
+      "mass_A_kg": 0.10000000149011612,
+      "matrix_vs_signed_err_N": null,
+      "native_time_s": 0.4083333546295762,
+      "net_normal_A_world": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "pair_normal_AB_world": null,
+      "pair_normal_BA_world": null,
+      "selected_negative_count": null,
+      "signed_scalar_min": null,
+      "tick": 95,
+      "velocity_A_world": [
+        0.0,
+        0.0,
+        -4.005747318267822
+      ],
+      "velocity_difference_acceleration_A_world": [
+        0.0,
+        0.0,
+        -9.809989929199219
+      ]
+    },
+    {
+      "acceleration_A_world": [
+        0.0,
+        0.0,
+        -9.809988975524902
+      ],
+      "case_id": "cal_force_c0_freefall_v03",
+      "channel_scope": "NET_ONLY_INTENTIONALLY_UNCONFIGURED_DETAILS",
+      "dt_err_N": 0.0,
+      "dt_impulse_err_Ns": 0.0,
+      "friction_AB_world": null,
+      "gravity_world": [
+        0.0,
+        0.0,
+        -9.8100004196167
+      ],
+      "mass_A_kg": 0.10000000149011612,
+      "matrix_vs_signed_err_N": null,
+      "native_time_s": 0.4125000215135515,
+      "net_normal_A_world": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "pair_normal_AB_world": null,
+      "pair_normal_BA_world": null,
+      "selected_negative_count": null,
+      "signed_scalar_min": null,
+      "tick": 96,
+      "velocity_A_world": [
+        0.0,
+        0.0,
+        -4.046622276306152
+      ],
+      "velocity_difference_acceleration_A_world": [
+        0.0,
+        0.0,
+        -9.809989929199219
+      ]
+    },
+    {
+      "acceleration_A_world": [
+        0.0,
+        0.0,
+        -9.809988975524902
+      ],
+      "case_id": "cal_force_c0_freefall_v03",
+      "channel_scope": "NET_ONLY_INTENTIONALLY_UNCONFIGURED_DETAILS",
+      "dt_err_N": 0.0,
+      "dt_impulse_err_Ns": 0.0,
+      "friction_AB_world": null,
+      "gravity_world": [
+        0.0,
+        0.0,
+        -9.8100004196167
+      ],
+      "mass_A_kg": 0.10000000149011612,
+      "matrix_vs_signed_err_N": null,
+      "native_time_s": 0.41666668839752674,
+      "net_normal_A_world": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "pair_normal_AB_world": null,
+      "pair_normal_BA_world": null,
+      "selected_negative_count": null,
+      "signed_scalar_min": null,
+      "tick": 97,
+      "velocity_A_world": [
+        0.0,
+        0.0,
+        -4.087497234344482
+      ],
+      "velocity_difference_acceleration_A_world": [
+        0.0,
+        0.0,
+        -9.809989929199219
+      ]
+    },
+    {
+      "acceleration_A_world": [
+        0.0,
+        0.0,
+        -9.809988975524902
+      ],
+      "case_id": "cal_force_c0_freefall_v03",
+      "channel_scope": "NET_ONLY_INTENTIONALLY_UNCONFIGURED_DETAILS",
+      "dt_err_N": 0.0,
+      "dt_impulse_err_Ns": 0.0,
+      "friction_AB_world": null,
+      "gravity_world": [
+        0.0,
+        0.0,
+        -9.8100004196167
+      ],
+      "mass_A_kg": 0.10000000149011612,
+      "matrix_vs_signed_err_N": null,
+      "native_time_s": 0.420833355281502,
+      "net_normal_A_world": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "pair_normal_AB_world": null,
+      "pair_normal_BA_world": null,
+      "selected_negative_count": null,
+      "signed_scalar_min": null,
+      "tick": 98,
+      "velocity_A_world": [
+        0.0,
+        0.0,
+        -4.1283721923828125
+      ],
+      "velocity_difference_acceleration_A_world": [
+        0.0,
+        0.0,
+        -9.809989929199219
+      ]
+    },
+    {
+      "acceleration_A_world": [
+        0.0,
+        0.0,
+        -9.809988975524902
+      ],
+      "case_id": "cal_force_c0_freefall_v03",
+      "channel_scope": "NET_ONLY_INTENTIONALLY_UNCONFIGURED_DETAILS",
+      "dt_err_N": 0.0,
+      "dt_impulse_err_Ns": 0.0,
+      "friction_AB_world": null,
+      "gravity_world": [
+        0.0,
+        0.0,
+        -9.8100004196167
+      ],
+      "mass_A_kg": 0.10000000149011612,
+      "matrix_vs_signed_err_N": null,
+      "native_time_s": 0.4250000221654773,
+      "net_normal_A_world": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "pair_normal_AB_world": null,
+      "pair_normal_BA_world": null,
+      "selected_negative_count": null,
+      "signed_scalar_min": null,
+      "tick": 99,
+      "velocity_A_world": [
+        0.0,
+        0.0,
+        -4.169247150421143
+      ],
+      "velocity_difference_acceleration_A_world": [
+        0.0,
+        0.0,
+        -9.809989929199219
+      ]
+    },
+    {
+      "acceleration_A_world": [
+        0.0,
+        0.0,
+        -9.809988975524902
+      ],
+      "case_id": "cal_force_c0_freefall_v03",
+      "channel_scope": "NET_ONLY_INTENTIONALLY_UNCONFIGURED_DETAILS",
+      "dt_err_N": 0.0,
+      "dt_impulse_err_Ns": 0.0,
+      "friction_AB_world": null,
+      "gravity_world": [
+        0.0,
+        0.0,
+        -9.8100004196167
+      ],
+      "mass_A_kg": 0.10000000149011612,
+      "matrix_vs_signed_err_N": null,
+      "native_time_s": 0.42916668904945254,
+      "net_normal_A_world": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "pair_normal_AB_world": null,
+      "pair_normal_BA_world": null,
+      "selected_negative_count": null,
+      "signed_scalar_min": null,
+      "tick": 100,
+      "velocity_A_world": [
+        0.0,
+        0.0,
+        -4.210122108459473
+      ],
+      "velocity_difference_acceleration_A_world": [
+        0.0,
+        0.0,
+        -9.809989929199219
+      ]
+    },
+    {
+      "acceleration_A_world": [
+        0.0,
+        0.0,
+        -9.809988975524902
+      ],
+      "case_id": "cal_force_c0_freefall_v03",
+      "channel_scope": "NET_ONLY_INTENTIONALLY_UNCONFIGURED_DETAILS",
+      "dt_err_N": 0.0,
+      "dt_impulse_err_Ns": 0.0,
+      "friction_AB_world": null,
+      "gravity_world": [
+        0.0,
+        0.0,
+        -9.8100004196167
+      ],
+      "mass_A_kg": 0.10000000149011612,
+      "matrix_vs_signed_err_N": null,
+      "native_time_s": 0.4333333559334278,
+      "net_normal_A_world": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "pair_normal_AB_world": null,
+      "pair_normal_BA_world": null,
+      "selected_negative_count": null,
+      "signed_scalar_min": null,
+      "tick": 101,
+      "velocity_A_world": [
+        0.0,
+        0.0,
+        -4.250997066497803
+      ],
+      "velocity_difference_acceleration_A_world": [
+        0.0,
+        0.0,
+        -9.809989929199219
+      ]
+    },
+    {
+      "acceleration_A_world": [
+        0.0,
+        0.0,
+        -9.809988975524902
+      ],
+      "case_id": "cal_force_c0_freefall_v03",
+      "channel_scope": "NET_ONLY_INTENTIONALLY_UNCONFIGURED_DETAILS",
+      "dt_err_N": 0.0,
+      "dt_impulse_err_Ns": 0.0,
+      "friction_AB_world": null,
+      "gravity_world": [
+        0.0,
+        0.0,
+        -9.8100004196167
+      ],
+      "mass_A_kg": 0.10000000149011612,
+      "matrix_vs_signed_err_N": null,
+      "native_time_s": 0.4375000228174031,
+      "net_normal_A_world": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "pair_normal_AB_world": null,
+      "pair_normal_BA_world": null,
+      "selected_negative_count": null,
+      "signed_scalar_min": null,
+      "tick": 102,
+      "velocity_A_world": [
+        0.0,
+        0.0,
+        -4.291872024536133
+      ],
+      "velocity_difference_acceleration_A_world": [
+        0.0,
+        0.0,
+        -9.809989929199219
+      ]
+    },
+    {
+      "acceleration_A_world": [
+        0.0,
+        0.0,
+        -9.809988975524902
+      ],
+      "case_id": "cal_force_c0_freefall_v03",
+      "channel_scope": "NET_ONLY_INTENTIONALLY_UNCONFIGURED_DETAILS",
+      "dt_err_N": 0.0,
+      "dt_impulse_err_Ns": 0.0,
+      "friction_AB_world": null,
+      "gravity_world": [
+        0.0,
+        0.0,
+        -9.8100004196167
+      ],
+      "mass_A_kg": 0.10000000149011612,
+      "matrix_vs_signed_err_N": null,
+      "native_time_s": 0.44166668970137835,
+      "net_normal_A_world": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "pair_normal_AB_world": null,
+      "pair_normal_BA_world": null,
+      "selected_negative_count": null,
+      "signed_scalar_min": null,
+      "tick": 103,
+      "velocity_A_world": [
+        0.0,
+        0.0,
+        -4.332746982574463
+      ],
+      "velocity_difference_acceleration_A_world": [
+        0.0,
+        0.0,
+        -9.809989929199219
+      ]
+    },
+    {
+      "acceleration_A_world": [
+        0.0,
+        0.0,
+        -9.809988975524902
+      ],
+      "case_id": "cal_force_c0_freefall_v03",
+      "channel_scope": "NET_ONLY_INTENTIONALLY_UNCONFIGURED_DETAILS",
+      "dt_err_N": 0.0,
+      "dt_impulse_err_Ns": 0.0,
+      "friction_AB_world": null,
+      "gravity_world": [
+        0.0,
+        0.0,
+        -9.8100004196167
+      ],
+      "mass_A_kg": 0.10000000149011612,
+      "matrix_vs_signed_err_N": null,
+      "native_time_s": 0.4458333565853536,
+      "net_normal_A_world": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "pair_normal_AB_world": null,
+      "pair_normal_BA_world": null,
+      "selected_negative_count": null,
+      "signed_scalar_min": null,
+      "tick": 104,
+      "velocity_A_world": [
+        0.0,
+        0.0,
+        -4.373621940612793
+      ],
+      "velocity_difference_acceleration_A_world": [
+        0.0,
+        0.0,
+        -9.809989929199219
+      ]
+    },
+    {
+      "acceleration_A_world": [
+        0.0,
+        0.0,
+        -9.809988975524902
+      ],
+      "case_id": "cal_force_c0_freefall_v03",
+      "channel_scope": "NET_ONLY_INTENTIONALLY_UNCONFIGURED_DETAILS",
+      "dt_err_N": 0.0,
+      "dt_impulse_err_Ns": 0.0,
+      "friction_AB_world": null,
+      "gravity_world": [
+        0.0,
+        0.0,
+        -9.8100004196167
+      ],
+      "mass_A_kg": 0.10000000149011612,
+      "matrix_vs_signed_err_N": null,
+      "native_time_s": 0.4500000234693289,
+      "net_normal_A_world": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "pair_normal_AB_world": null,
+      "pair_normal_BA_world": null,
+      "selected_negative_count": null,
+      "signed_scalar_min": null,
+      "tick": 105,
+      "velocity_A_world": [
+        0.0,
+        0.0,
+        -4.414496898651123
+      ],
+      "velocity_difference_acceleration_A_world": [
+        0.0,
+        0.0,
+        -9.809989929199219
+      ]
+    },
+    {
+      "acceleration_A_world": [
+        0.0,
+        0.0,
+        -9.809988975524902
+      ],
+      "case_id": "cal_force_c0_freefall_v03",
+      "channel_scope": "NET_ONLY_INTENTIONALLY_UNCONFIGURED_DETAILS",
+      "dt_err_N": 0.0,
+      "dt_impulse_err_Ns": 0.0,
+      "friction_AB_world": null,
+      "gravity_world": [
+        0.0,
+        0.0,
+        -9.8100004196167
+      ],
+      "mass_A_kg": 0.10000000149011612,
+      "matrix_vs_signed_err_N": null,
+      "native_time_s": 0.45416669035330415,
+      "net_normal_A_world": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "pair_normal_AB_world": null,
+      "pair_normal_BA_world": null,
+      "selected_negative_count": null,
+      "signed_scalar_min": null,
+      "tick": 106,
+      "velocity_A_world": [
+        0.0,
+        0.0,
+        -4.455371856689453
+      ],
+      "velocity_difference_acceleration_A_world": [
+        0.0,
+        0.0,
+        -9.809989929199219
+      ]
+    },
+    {
+      "acceleration_A_world": [
+        0.0,
+        0.0,
+        -9.809988975524902
+      ],
+      "case_id": "cal_force_c0_freefall_v03",
+      "channel_scope": "NET_ONLY_INTENTIONALLY_UNCONFIGURED_DETAILS",
+      "dt_err_N": 0.0,
+      "dt_impulse_err_Ns": 0.0,
+      "friction_AB_world": null,
+      "gravity_world": [
+        0.0,
+        0.0,
+        -9.8100004196167
+      ],
+      "mass_A_kg": 0.10000000149011612,
+      "matrix_vs_signed_err_N": null,
+      "native_time_s": 0.4583333572372794,
+      "net_normal_A_world": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "pair_normal_AB_world": null,
+      "pair_normal_BA_world": null,
+      "selected_negative_count": null,
+      "signed_scalar_min": null,
+      "tick": 107,
+      "velocity_A_world": [
+        0.0,
+        0.0,
+        -4.496246814727783
+      ],
+      "velocity_difference_acceleration_A_world": [
+        0.0,
+        0.0,
+        -9.809989929199219
+      ]
+    },
+    {
+      "acceleration_A_world": [
+        0.0,
+        0.0,
+        -9.809988975524902
+      ],
+      "case_id": "cal_force_c0_freefall_v03",
+      "channel_scope": "NET_ONLY_INTENTIONALLY_UNCONFIGURED_DETAILS",
+      "dt_err_N": 0.0,
+      "dt_impulse_err_Ns": 0.0,
+      "friction_AB_world": null,
+      "gravity_world": [
+        0.0,
+        0.0,
+        -9.8100004196167
+      ],
+      "mass_A_kg": 0.10000000149011612,
+      "matrix_vs_signed_err_N": null,
+      "native_time_s": 0.4625000241212547,
+      "net_normal_A_world": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "pair_normal_AB_world": null,
+      "pair_normal_BA_world": null,
+      "selected_negative_count": null,
+      "signed_scalar_min": null,
+      "tick": 108,
+      "velocity_A_world": [
+        0.0,
+        0.0,
+        -4.537121772766113
+      ],
+      "velocity_difference_acceleration_A_world": [
+        0.0,
+        0.0,
+        -9.809989929199219
+      ]
+    },
+    {
+      "acceleration_A_world": [
+        0.0,
+        0.0,
+        -9.809988975524902
+      ],
+      "case_id": "cal_force_c0_freefall_v03",
+      "channel_scope": "NET_ONLY_INTENTIONALLY_UNCONFIGURED_DETAILS",
+      "dt_err_N": 0.0,
+      "dt_impulse_err_Ns": 0.0,
+      "friction_AB_world": null,
+      "gravity_world": [
+        0.0,
+        0.0,
+        -9.8100004196167
+      ],
+      "mass_A_kg": 0.10000000149011612,
+      "matrix_vs_signed_err_N": null,
+      "native_time_s": 0.46666669100522995,
+      "net_normal_A_world": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "pair_normal_AB_world": null,
+      "pair_normal_BA_world": null,
+      "selected_negative_count": null,
+      "signed_scalar_min": null,
+      "tick": 109,
+      "velocity_A_world": [
+        0.0,
+        0.0,
+        -4.577996730804443
+      ],
+      "velocity_difference_acceleration_A_world": [
+        0.0,
+        0.0,
+        -9.809989929199219
+      ]
+    },
+    {
+      "acceleration_A_world": [
+        0.0,
+        0.0,
+        -9.809988975524902
+      ],
+      "case_id": "cal_force_c0_freefall_v03",
+      "channel_scope": "NET_ONLY_INTENTIONALLY_UNCONFIGURED_DETAILS",
+      "dt_err_N": 0.0,
+      "dt_impulse_err_Ns": 0.0,
+      "friction_AB_world": null,
+      "gravity_world": [
+        0.0,
+        0.0,
+        -9.8100004196167
+      ],
+      "mass_A_kg": 0.10000000149011612,
+      "matrix_vs_signed_err_N": null,
+      "native_time_s": 0.4708333578892052,
+      "net_normal_A_world": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "pair_normal_AB_world": null,
+      "pair_normal_BA_world": null,
+      "selected_negative_count": null,
+      "signed_scalar_min": null,
+      "tick": 110,
+      "velocity_A_world": [
+        0.0,
+        0.0,
+        -4.618871688842773
+      ],
+      "velocity_difference_acceleration_A_world": [
+        0.0,
+        0.0,
+        -9.809989929199219
+      ]
+    },
+    {
+      "acceleration_A_world": [
+        0.0,
+        0.0,
+        -9.809988975524902
+      ],
+      "case_id": "cal_force_c0_freefall_v03",
+      "channel_scope": "NET_ONLY_INTENTIONALLY_UNCONFIGURED_DETAILS",
+      "dt_err_N": 0.0,
+      "dt_impulse_err_Ns": 0.0,
+      "friction_AB_world": null,
+      "gravity_world": [
+        0.0,
+        0.0,
+        -9.8100004196167
+      ],
+      "mass_A_kg": 0.10000000149011612,
+      "matrix_vs_signed_err_N": null,
+      "native_time_s": 0.4750000247731805,
+      "net_normal_A_world": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "pair_normal_AB_world": null,
+      "pair_normal_BA_world": null,
+      "selected_negative_count": null,
+      "signed_scalar_min": null,
+      "tick": 111,
+      "velocity_A_world": [
+        0.0,
+        0.0,
+        -4.6597466468811035
+      ],
+      "velocity_difference_acceleration_A_world": [
+        0.0,
+        0.0,
+        -9.809989929199219
+      ]
+    },
+    {
+      "acceleration_A_world": [
+        0.0,
+        0.0,
+        -9.809988975524902
+      ],
+      "case_id": "cal_force_c0_freefall_v03",
+      "channel_scope": "NET_ONLY_INTENTIONALLY_UNCONFIGURED_DETAILS",
+      "dt_err_N": 0.0,
+      "dt_impulse_err_Ns": 0.0,
+      "friction_AB_world": null,
+      "gravity_world": [
+        0.0,
+        0.0,
+        -9.8100004196167
+      ],
+      "mass_A_kg": 0.10000000149011612,
+      "matrix_vs_signed_err_N": null,
+      "native_time_s": 0.47916669165715575,
+      "net_normal_A_world": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "pair_normal_AB_world": null,
+      "pair_normal_BA_world": null,
+      "selected_negative_count": null,
+      "signed_scalar_min": null,
+      "tick": 112,
+      "velocity_A_world": [
+        0.0,
+        0.0,
+        -4.700621604919434
+      ],
+      "velocity_difference_acceleration_A_world": [
+        0.0,
+        0.0,
+        -9.809989929199219
+      ]
+    },
+    {
+      "acceleration_A_world": [
+        0.0,
+        0.0,
+        -9.809988975524902
+      ],
+      "case_id": "cal_force_c0_freefall_v03",
+      "channel_scope": "NET_ONLY_INTENTIONALLY_UNCONFIGURED_DETAILS",
+      "dt_err_N": 0.0,
+      "dt_impulse_err_Ns": 0.0,
+      "friction_AB_world": null,
+      "gravity_world": [
+        0.0,
+        0.0,
+        -9.8100004196167
+      ],
+      "mass_A_kg": 0.10000000149011612,
+      "matrix_vs_signed_err_N": null,
+      "native_time_s": 0.483333358541131,
+      "net_normal_A_world": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "pair_normal_AB_world": null,
+      "pair_normal_BA_world": null,
+      "selected_negative_count": null,
+      "signed_scalar_min": null,
+      "tick": 113,
+      "velocity_A_world": [
+        0.0,
+        0.0,
+        -4.741496562957764
+      ],
+      "velocity_difference_acceleration_A_world": [
+        0.0,
+        0.0,
+        -9.809989929199219
+      ]
+    },
+    {
+      "acceleration_A_world": [
+        0.0,
+        0.0,
+        -9.809988975524902
+      ],
+      "case_id": "cal_force_c0_freefall_v03",
+      "channel_scope": "NET_ONLY_INTENTIONALLY_UNCONFIGURED_DETAILS",
+      "dt_err_N": 0.0,
+      "dt_impulse_err_Ns": 0.0,
+      "friction_AB_world": null,
+      "gravity_world": [
+        0.0,
+        0.0,
+        -9.8100004196167
+      ],
+      "mass_A_kg": 0.10000000149011612,
+      "matrix_vs_signed_err_N": null,
+      "native_time_s": 0.4875000254251063,
+      "net_normal_A_world": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "pair_normal_AB_world": null,
+      "pair_normal_BA_world": null,
+      "selected_negative_count": null,
+      "signed_scalar_min": null,
+      "tick": 114,
+      "velocity_A_world": [
+        0.0,
+        0.0,
+        -4.782371520996094
+      ],
+      "velocity_difference_acceleration_A_world": [
+        0.0,
+        0.0,
+        -9.809989929199219
+      ]
+    },
+    {
+      "acceleration_A_world": [
+        0.0,
+        0.0,
+        -9.809988975524902
+      ],
+      "case_id": "cal_force_c0_freefall_v03",
+      "channel_scope": "NET_ONLY_INTENTIONALLY_UNCONFIGURED_DETAILS",
+      "dt_err_N": 0.0,
+      "dt_impulse_err_Ns": 0.0,
+      "friction_AB_world": null,
+      "gravity_world": [
+        0.0,
+        0.0,
+        -9.8100004196167
+      ],
+      "mass_A_kg": 0.10000000149011612,
+      "matrix_vs_signed_err_N": null,
+      "native_time_s": 0.49166669230908155,
+      "net_normal_A_world": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "pair_normal_AB_world": null,
+      "pair_normal_BA_world": null,
+      "selected_negative_count": null,
+      "signed_scalar_min": null,
+      "tick": 115,
+      "velocity_A_world": [
+        0.0,
+        0.0,
+        -4.823246479034424
+      ],
+      "velocity_difference_acceleration_A_world": [
+        0.0,
+        0.0,
+        -9.809989929199219
+      ]
+    },
+    {
+      "acceleration_A_world": [
+        0.0,
+        0.0,
+        -9.809988975524902
+      ],
+      "case_id": "cal_force_c0_freefall_v03",
+      "channel_scope": "NET_ONLY_INTENTIONALLY_UNCONFIGURED_DETAILS",
+      "dt_err_N": 0.0,
+      "dt_impulse_err_Ns": 0.0,
+      "friction_AB_world": null,
+      "gravity_world": [
+        0.0,
+        0.0,
+        -9.8100004196167
+      ],
+      "mass_A_kg": 0.10000000149011612,
+      "matrix_vs_signed_err_N": null,
+      "native_time_s": 0.4958333591930568,
+      "net_normal_A_world": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "pair_normal_AB_world": null,
+      "pair_normal_BA_world": null,
+      "selected_negative_count": null,
+      "signed_scalar_min": null,
+      "tick": 116,
+      "velocity_A_world": [
+        0.0,
+        0.0,
+        -4.864121437072754
+      ],
+      "velocity_difference_acceleration_A_world": [
+        0.0,
+        0.0,
+        -9.809989929199219
+      ]
+    },
+    {
+      "acceleration_A_world": [
+        0.0,
+        0.0,
+        -9.809988975524902
+      ],
+      "case_id": "cal_force_c0_freefall_v03",
+      "channel_scope": "NET_ONLY_INTENTIONALLY_UNCONFIGURED_DETAILS",
+      "dt_err_N": 0.0,
+      "dt_impulse_err_Ns": 0.0,
+      "friction_AB_world": null,
+      "gravity_world": [
+        0.0,
+        0.0,
+        -9.8100004196167
+      ],
+      "mass_A_kg": 0.10000000149011612,
+      "matrix_vs_signed_err_N": null,
+      "native_time_s": 0.5000000260770321,
+      "net_normal_A_world": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "pair_normal_AB_world": null,
+      "pair_normal_BA_world": null,
+      "selected_negative_count": null,
+      "signed_scalar_min": null,
+      "tick": 117,
+      "velocity_A_world": [
+        0.0,
+        0.0,
+        -4.904996395111084
+      ],
+      "velocity_difference_acceleration_A_world": [
+        0.0,
+        0.0,
+        -9.809989929199219
+      ]
+    },
+    {
+      "acceleration_A_world": [
+        0.0,
+        0.0,
+        -9.809988975524902
+      ],
+      "case_id": "cal_force_c0_freefall_v03",
+      "channel_scope": "NET_ONLY_INTENTIONALLY_UNCONFIGURED_DETAILS",
+      "dt_err_N": 0.0,
+      "dt_impulse_err_Ns": 0.0,
+      "friction_AB_world": null,
+      "gravity_world": [
+        0.0,
+        0.0,
+        -9.8100004196167
+      ],
+      "mass_A_kg": 0.10000000149011612,
+      "matrix_vs_signed_err_N": null,
+      "native_time_s": 0.5041666929610074,
+      "net_normal_A_world": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "pair_normal_AB_world": null,
+      "pair_normal_BA_world": null,
+      "selected_negative_count": null,
+      "signed_scalar_min": null,
+      "tick": 118,
+      "velocity_A_world": [
+        0.0,
+        0.0,
+        -4.945871353149414
+      ],
+      "velocity_difference_acceleration_A_world": [
+        0.0,
+        0.0,
+        -9.809989929199219
+      ]
+    },
+    {
+      "acceleration_A_world": [
+        0.0,
+        0.0,
+        -9.809988975524902
+      ],
+      "case_id": "cal_force_c0_freefall_v03",
+      "channel_scope": "NET_ONLY_INTENTIONALLY_UNCONFIGURED_DETAILS",
+      "dt_err_N": 0.0,
+      "dt_impulse_err_Ns": 0.0,
+      "friction_AB_world": null,
+      "gravity_world": [
+        0.0,
+        0.0,
+        -9.8100004196167
+      ],
+      "mass_A_kg": 0.10000000149011612,
+      "matrix_vs_signed_err_N": null,
+      "native_time_s": 0.5083333598449826,
+      "net_normal_A_world": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "pair_normal_AB_world": null,
+      "pair_normal_BA_world": null,
+      "selected_negative_count": null,
+      "signed_scalar_min": null,
+      "tick": 119,
+      "velocity_A_world": [
+        0.0,
+        0.0,
+        -4.986746311187744
+      ],
+      "velocity_difference_acceleration_A_world": [
+        0.0,
+        0.0,
+        -9.809989929199219
+      ]
+    }
+  ],
+  "schema": "SignedForceFixtureAuditedSeries/1"
+}

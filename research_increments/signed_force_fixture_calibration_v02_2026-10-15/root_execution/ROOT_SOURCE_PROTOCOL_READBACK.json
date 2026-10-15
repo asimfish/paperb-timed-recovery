@@ -1,0 +1,33 @@
+{
+  "all_original_numeric_fields_case_objects_equal": true,
+  "archives": [
+    {
+      "CRC": "PASS",
+      "members": 33,
+      "path": "/mnt/nas/data/lyf/chem_mem/awesome_memory_chem/papers/paperB/research_increments/signed_force_fixture_calibration_v02_2026-10-15/collector/force_fixture_v02_source.zip",
+      "sha256": "8e5a642a143585619f4d2d2b1dda49fad2ae060adf0d2572887e3bf57cea920d"
+    },
+    {
+      "CRC": "PASS",
+      "members": 19,
+      "path": "/mnt/nas/data/lyf/chem_mem/awesome_memory_chem/papers/paperB/research_increments/signed_force_fixture_calibration_v02_2026-10-15/independent_reader/prospective_signed_force_v02_reader.zip",
+      "sha256": "4802f08ca2fc829b39160e5c1a9ce2871976fefa447da5f04de60bfa7bd5a177"
+    }
+  ],
+  "installed_members": 22,
+  "issued_at_utc": "2026-10-14T18:13:42.769280+00:00",
+  "native_admitted_by_this_receipt": false,
+  "private_members": 32,
+  "reader_freeze_sha256": "918e41cb1484643e112b59f1e14c7897e447748354b93e04a769311a62a2626c",
+  "reader_members": 17,
+  "release_sha256": "24ec70ef9054fed8f03186adc4d69e3521605e61365d15b832f6a91cbf0faa7b",
+  "schema": "PaperBRootV02SourceProtocolReadback/1",
+  "source_freeze": {
+    "bytes": 7272,
+    "path": "/mnt/nas/data/lyf/chem_mem/awesome_memory_chem/papers/paperB/research_increments/signed_force_fixture_calibration_v02_2026-10-15/collector/SOURCE_FREEZE.json",
+    "sha256": "c84c285a8c5b6283321c3d7436d77b827d1a223d2c0c46deb2da67c078f885e3"
+  },
+  "source_members": 32,
+  "source_review_sha256": "0fad1b8e928bb3f9c2ec926bc4cab7245e7aeaea0269523202e8c5e003f8fe56",
+  "status": "PASS_SOURCE_PROTOCOL_PRIVATE_ARCHIVE_INSTALLED_API_READER"
+}

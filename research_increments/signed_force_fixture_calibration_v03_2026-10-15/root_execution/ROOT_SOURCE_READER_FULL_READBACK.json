@@ -1,0 +1,19 @@
+{
+  "all_original_geometry_thresholds_windows_dt_case_values_equal": true,
+  "archive_members": 29,
+  "archive_sha256": "702f4d1a84f8a9be956e509db7af5b3245322231d6a613131d5c920b2d6cd2c6",
+  "installed_members": 22,
+  "issued_at_utc": "2026-10-14T18:59:34.894717+00:00",
+  "private_members": 28,
+  "reader_and_native_admission": "STILL_REQUIRED",
+  "reader_archive_sha256": "68c71dc967334964de6dc04db34bd394af78980338e3368892478a5a4ca7b005",
+  "reader_freeze_sha256": "52d9b5009be016b53905927bcfdcf4a4c5b8eb2b83f110384237734d670fbb1d",
+  "reader_members": 20,
+  "release_sha256": "0de55ac995986d25a60f391b63d9606915dbeae37518e7cc4fb38ee75bc81771",
+  "schema": "PaperBRootV03SourceReadback/1",
+  "six_preselected_cases": true,
+  "source_freeze_sha256": "29b848d388897fa8c08088e0bde940ec751585e83d308e137a26f99eacaace4f",
+  "source_members": 28,
+  "source_review_sha256": "5e0fb9eb437f18d42404be4bb279dd2ef3e92e5613ca6a1cad04221e1c47a6f0",
+  "status": "PASS_SOURCE_PRIVATE_ARCHIVE_API_ORIGINAL_PHYSICS_PROTOCOL"
+}

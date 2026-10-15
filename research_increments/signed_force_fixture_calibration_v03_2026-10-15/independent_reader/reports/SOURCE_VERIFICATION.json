@@ -1,0 +1,21 @@
+{
+  "NAS_and_private_files_verified": 28,
+  "cases_positive_numeric_exact_parent": 5,
+  "installed_API_sources_verified": 22,
+  "native_outcomes_read": 0,
+  "negative_control_numeric_exact_C1": true,
+  "no_native_GPU_SDK_executions": true,
+  "opaque_backend_implementation_verified": false,
+  "reader_cleanup_byte_exact_parent": true,
+  "reader_math_byte_exact_parent": true,
+  "reader_nonmain_functions_AST_identity_only": "PASS",
+  "release_private_files_verified": 27,
+  "root_selection_exact_case_objects": true,
+  "schema": "V03ProspectiveIndependentSourceVerification/1",
+  "scope": "CONDITIONAL_FIXTURE_ONLY_NOT_ROBOT_LOAD_CHEMISTRY_SFR_OR_LEARNING",
+  "source_archive_crc": "PASS",
+  "source_archive_members": 29,
+  "source_freeze_sha256": "29b848d388897fa8c08088e0bde940ec751585e83d308e137a26f99eacaace4f",
+  "source_release_sha256": "0de55ac995986d25a60f391b63d9606915dbeae37518e7cc4fb38ee75bc81771",
+  "status": "PASS_CPU_SOURCE_PRIVATE_API_ARCHIVE_AND_NUMERIC_INVARIANCE"
+}

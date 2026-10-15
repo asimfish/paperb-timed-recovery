@@ -1,0 +1,316 @@
+{
+  "S_F_R_admitted": 0,
+  "boundary": "CONSISTENT_OBSERVED_PYTHON_BOUNDARY",
+  "case_id": "dev_shutdown_after_fixture_001",
+  "causal_fix_verified": false,
+  "chemical_success": "UNKNOWN",
+  "complete_compiled_backend_root_cause": "UNKNOWN",
+  "continuous_cleanup_native_time_invariance": "UNKNOWN_NO_CONTINUOUS_NATIVE_CLOCK_READBACK",
+  "fresh_clock_read_count": 10,
+  "input_files": {
+    "BEGIN.json": {
+      "bytes": 6742,
+      "path": "/data/liyufeng/paperb_native_shutdown_diagnostic_20261015_v1/cases/dev_shutdown_after_fixture_001/BEGIN.json",
+      "sha256": "6677b7a549ff4df2662a8dbee508c62f2ed80bf438e19cdaab4f06030aaa4be5"
+    },
+    "END.json": {
+      "bytes": 8442,
+      "path": "/data/liyufeng/paperb_native_shutdown_diagnostic_20261015_v1/cases/dev_shutdown_after_fixture_001/END.json",
+      "sha256": "976742777ae3e3fb2004350b9936583a7f0f794ef33de83ce535347dccfbcb9d"
+    },
+    "HEADER.json": {
+      "bytes": 10844,
+      "path": "/data/liyufeng/paperb_native_shutdown_diagnostic_20261015_v1/cases/dev_shutdown_after_fixture_001/HEADER.json",
+      "sha256": "e2d3019304cafafbbe2a5be365c4453ca372527172d2e9ac24d2c770c45f60ec"
+    },
+    "INSTALLED_API_PIN.json": {
+      "bytes": 6730,
+      "path": "/data/liyufeng/paperb_native_shutdown_diagnostic_20261015_v1/INSTALLED_API_PIN.json",
+      "sha256": "8e61c2027c4965ab91f058e776beceee6cd5df2be9035f60d265187b5807267b"
+    },
+    "LAUNCH_LOG": {
+      "bytes": 35384,
+      "path": "/data/liyufeng/paperb_native_shutdown_diagnostic_20261015_v1/launch_attempts/dev_shutdown_after_fixture_001/20261014T174111640382Z-2157617.log",
+      "sha256": "e2d44c7d024a38fa1892c89f1f5552fc8b07f9e2902ae76c0833a83f6d06c2cc"
+    },
+    "LIFECYCLE.jsonl": {
+      "bytes": 8072,
+      "path": "/data/liyufeng/paperb_native_shutdown_diagnostic_20261015_v1/cases/dev_shutdown_after_fixture_001/LIFECYCLE.jsonl",
+      "sha256": "e5c49736708fa52100db20337ee13b4f9515b3bf7c03943d5c25de6f94490689"
+    },
+    "RAW_POST.jsonl": {
+      "bytes": 1097404,
+      "path": "/data/liyufeng/paperb_native_shutdown_diagnostic_20261015_v1/cases/dev_shutdown_after_fixture_001/RAW_POST.jsonl",
+      "sha256": "2aacbe7a6082e898068db0fd376a46e6e9d50716765ef1e839ff2925fb073e06"
+    },
+    "RESULT.json": {
+      "bytes": 1329,
+      "path": "/data/liyufeng/paperb_native_shutdown_diagnostic_20261015_v1/cases/dev_shutdown_after_fixture_001/RESULT.json",
+      "sha256": "4227dde180c65089f266da1574fbb659301040fc365badbb4ba422400248191f"
+    },
+    "ROOT_ADMISSION.json": {
+      "bytes": 4887,
+      "path": "/mnt/nas/data/lyf/chem_mem/awesome_memory_chem/papers/paperB/research_increments/native_shutdown_diagnostic_v01_2026-10-15/root_execution/ROOT_ADMISSION.json",
+      "sha256": "3d455ce2d83e439c5737f5cb3592d5861828fd70f0d0b0b38a75514bb9881b53"
+    },
+    "SOURCE_RELEASE.json": {
+      "bytes": 3009,
+      "path": "/data/liyufeng/paperb_native_shutdown_diagnostic_20261015_v1/EXECUTION_RELEASE.json",
+      "sha256": "4052163679789f5b89711c77992247747e68f198fa4102599ce1522b035332c2"
+    },
+    "SOURCE_REVIEW.json": {
+      "bytes": 2289,
+      "path": "/mnt/nas/data/lyf/chem_mem/awesome_memory_chem/papers/paperB/research_increments/native_shutdown_diagnostic_v01_2026-10-15/independent_reader/SOURCE_REVIEW.json",
+      "sha256": "47c448bc1677e7caebc82ad059c6884464bf0dda27fcff014a85783b8796a331"
+    },
+    "WORKER_TERMINAL.json": {
+      "bytes": 923,
+      "path": "/data/liyufeng/paperb_native_shutdown_diagnostic_20261015_v1/logs/dev_shutdown_after_fixture_001.json",
+      "sha256": "a4fabe858546d1558f02654fb489320f44df98ce82c8adefa52caa9eac1a1469"
+    }
+  },
+  "last_marker_sha256": "50aa6e5f9d757aca0454e445e57b72865133868994981b3a8e99d2e952a4728c",
+  "markers": [
+    "BEFORE_APP_START",
+    "AFTER_APP_START",
+    "BEFORE_RESULT_WRITE",
+    "AFTER_RESULT_FSYNC",
+    "BEFORE_APP_CLOSE",
+    "BEFORE_READONLY_REP_STATUS",
+    "AFTER_READONLY_REP_STATUS"
+  ],
+  "native_time_after_framework_release": "UNKNOWN_NOT_READ",
+  "observed_cleanup_clocks": "PASS_OBSERVED_MARKERS_ONLY",
+  "physical_measurement_qualification": "NOT_EVALUATED",
+  "reader_freeze_sha256": "9efc6f59db6ab12d34018bc8f84a4e3e1b723f8a511b23124c77153335dcc20d",
+  "readonly_replicator_observations": {
+    "actual_active_capture_complete_status": "UNKNOWN_NO_PUBLIC_COMPLETE_CAPTURE_INVENTORY_GETTER",
+    "capture_on_play_not_proof_capture_job_active": true,
+    "capture_on_play_setting": {
+      "reason": null,
+      "status": "OBSERVED",
+      "value": true
+    },
+    "get_is_paused": {
+      "reason": null,
+      "status": "OBSERVED",
+      "value": false
+    },
+    "get_is_started": {
+      "reason": null,
+      "status": "OBSERVED",
+      "value": false
+    },
+    "get_is_stopped": {
+      "reason": null,
+      "status": "OBSERVED",
+      "value": true
+    },
+    "observation_scope": "ALREADY_LOADED_MODULE_READS_ONLY_NO_CAPTURE_STOP_OR_WAIT",
+    "observed_sim_times_to_write_count": {
+      "reason": null,
+      "status": "OBSERVED",
+      "value": 0
+    },
+    "observed_trigger_active_flags": {
+      "reason": null,
+      "status": "OBSERVED",
+      "value": {}
+    },
+    "orchestrator_status": {
+      "reason": null,
+      "status": "OBSERVED",
+      "value": {
+        "enum_name": "STOPPED",
+        "enum_value": 0
+      }
+    },
+    "replicator_already_loaded": true
+  },
+  "request_sha256": "81240471162dbea230506f94f7ca23e0bb75f14bfbcc06896b16fb03e5021a3a",
+  "robot_load_truth": "UNKNOWN",
+  "schema": "NativeShutdownIndependentBoundaryAudit/1",
+  "scope": "ONE_OBSERVATIONAL_SHUTDOWN_BOUNDARY_DIAGNOSTIC_ONLY",
+  "stack_classification": {
+    "boundary_histogram": {
+      "USD_CONTEXT_CLOSE_STAGE": 11
+    },
+    "causal_fix_verified": false,
+    "compiled_backend_root_cause": "UNKNOWN",
+    "dumps": [
+      {
+        "diagnosis_scope": "PYTHON_BOUNDARY_EVIDENCE_NOT_COMPLETE_CPP_ROOT_CAUSE",
+        "multiple_close_frames_in_same_dump": false,
+        "python_frames_observed": 21,
+        "sdk_close_frames": [
+          {
+            "boundary": "USD_CONTEXT_CLOSE_STAGE",
+            "frame": {
+              "function": "close",
+              "line": 814,
+              "path": "/home/liyufeng/miniforge3/envs/safeduo/lib/python3.11/site-packages/isaacsim/exts/isaacsim.simulation_app/isaacsim/simulation_app/simulation_app.py"
+            }
+          }
+        ]
+      },
+      {
+        "diagnosis_scope": "PYTHON_BOUNDARY_EVIDENCE_NOT_COMPLETE_CPP_ROOT_CAUSE",
+        "multiple_close_frames_in_same_dump": false,
+        "python_frames_observed": 21,
+        "sdk_close_frames": [
+          {
+            "boundary": "USD_CONTEXT_CLOSE_STAGE",
+            "frame": {
+              "function": "close",
+              "line": 814,
+              "path": "/home/liyufeng/miniforge3/envs/safeduo/lib/python3.11/site-packages/isaacsim/exts/isaacsim.simulation_app/isaacsim/simulation_app/simulation_app.py"
+            }
+          }
+        ]
+      },
+      {
+        "diagnosis_scope": "PYTHON_BOUNDARY_EVIDENCE_NOT_COMPLETE_CPP_ROOT_CAUSE",
+        "multiple_close_frames_in_same_dump": false,
+        "python_frames_observed": 21,
+        "sdk_close_frames": [
+          {
+            "boundary": "USD_CONTEXT_CLOSE_STAGE",
+            "frame": {
+              "function": "close",
+              "line": 814,
+              "path": "/home/liyufeng/miniforge3/envs/safeduo/lib/python3.11/site-packages/isaacsim/exts/isaacsim.simulation_app/isaacsim/simulation_app/simulation_app.py"
+            }
+          }
+        ]
+      },
+      {
+        "diagnosis_scope": "PYTHON_BOUNDARY_EVIDENCE_NOT_COMPLETE_CPP_ROOT_CAUSE",
+        "multiple_close_frames_in_same_dump": false,
+        "python_frames_observed": 21,
+        "sdk_close_frames": [
+          {
+            "boundary": "USD_CONTEXT_CLOSE_STAGE",
+            "frame": {
+              "function": "close",
+              "line": 814,
+              "path": "/home/liyufeng/miniforge3/envs/safeduo/lib/python3.11/site-packages/isaacsim/exts/isaacsim.simulation_app/isaacsim/simulation_app/simulation_app.py"
+            }
+          }
+        ]
+      },
+      {
+        "diagnosis_scope": "PYTHON_BOUNDARY_EVIDENCE_NOT_COMPLETE_CPP_ROOT_CAUSE",
+        "multiple_close_frames_in_same_dump": false,
+        "python_frames_observed": 21,
+        "sdk_close_frames": [
+          {
+            "boundary": "USD_CONTEXT_CLOSE_STAGE",
+            "frame": {
+              "function": "close",
+              "line": 814,
+              "path": "/home/liyufeng/miniforge3/envs/safeduo/lib/python3.11/site-packages/isaacsim/exts/isaacsim.simulation_app/isaacsim/simulation_app/simulation_app.py"
+            }
+          }
+        ]
+      },
+      {
+        "diagnosis_scope": "PYTHON_BOUNDARY_EVIDENCE_NOT_COMPLETE_CPP_ROOT_CAUSE",
+        "multiple_close_frames_in_same_dump": false,
+        "python_frames_observed": 21,
+        "sdk_close_frames": [
+          {
+            "boundary": "USD_CONTEXT_CLOSE_STAGE",
+            "frame": {
+              "function": "close",
+              "line": 814,
+              "path": "/home/liyufeng/miniforge3/envs/safeduo/lib/python3.11/site-packages/isaacsim/exts/isaacsim.simulation_app/isaacsim/simulation_app/simulation_app.py"
+            }
+          }
+        ]
+      },
+      {
+        "diagnosis_scope": "PYTHON_BOUNDARY_EVIDENCE_NOT_COMPLETE_CPP_ROOT_CAUSE",
+        "multiple_close_frames_in_same_dump": false,
+        "python_frames_observed": 20,
+        "sdk_close_frames": [
+          {
+            "boundary": "USD_CONTEXT_CLOSE_STAGE",
+            "frame": {
+              "function": "close",
+              "line": 814,
+              "path": "/home/liyufeng/miniforge3/envs/safeduo/lib/python3.11/site-packages/isaacsim/exts/isaacsim.simulation_app/isaacsim/simulation_app/simulation_app.py"
+            }
+          }
+        ]
+      },
+      {
+        "diagnosis_scope": "PYTHON_BOUNDARY_EVIDENCE_NOT_COMPLETE_CPP_ROOT_CAUSE",
+        "multiple_close_frames_in_same_dump": false,
+        "python_frames_observed": 21,
+        "sdk_close_frames": [
+          {
+            "boundary": "USD_CONTEXT_CLOSE_STAGE",
+            "frame": {
+              "function": "close",
+              "line": 814,
+              "path": "/home/liyufeng/miniforge3/envs/safeduo/lib/python3.11/site-packages/isaacsim/exts/isaacsim.simulation_app/isaacsim/simulation_app/simulation_app.py"
+            }
+          }
+        ]
+      },
+      {
+        "diagnosis_scope": "PYTHON_BOUNDARY_EVIDENCE_NOT_COMPLETE_CPP_ROOT_CAUSE",
+        "multiple_close_frames_in_same_dump": false,
+        "python_frames_observed": 20,
+        "sdk_close_frames": [
+          {
+            "boundary": "USD_CONTEXT_CLOSE_STAGE",
+            "frame": {
+              "function": "close",
+              "line": 814,
+              "path": "/home/liyufeng/miniforge3/envs/safeduo/lib/python3.11/site-packages/isaacsim/exts/isaacsim.simulation_app/isaacsim/simulation_app/simulation_app.py"
+            }
+          }
+        ]
+      },
+      {
+        "diagnosis_scope": "PYTHON_BOUNDARY_EVIDENCE_NOT_COMPLETE_CPP_ROOT_CAUSE",
+        "multiple_close_frames_in_same_dump": false,
+        "python_frames_observed": 22,
+        "sdk_close_frames": [
+          {
+            "boundary": "USD_CONTEXT_CLOSE_STAGE",
+            "frame": {
+              "function": "close",
+              "line": 814,
+              "path": "/home/liyufeng/miniforge3/envs/safeduo/lib/python3.11/site-packages/isaacsim/exts/isaacsim.simulation_app/isaacsim/simulation_app/simulation_app.py"
+            }
+          }
+        ]
+      },
+      {
+        "diagnosis_scope": "PYTHON_BOUNDARY_EVIDENCE_NOT_COMPLETE_CPP_ROOT_CAUSE",
+        "multiple_close_frames_in_same_dump": false,
+        "python_frames_observed": 21,
+        "sdk_close_frames": [
+          {
+            "boundary": "USD_CONTEXT_CLOSE_STAGE",
+            "frame": {
+              "function": "close",
+              "line": 814,
+              "path": "/home/liyufeng/miniforge3/envs/safeduo/lib/python3.11/site-packages/isaacsim/exts/isaacsim.simulation_app/isaacsim/simulation_app/simulation_app.py"
+            }
+          }
+        ]
+      }
+    ],
+    "possible_reentrant_close_dumps": 0,
+    "repeating_timeout_dump_count": 11,
+    "summary": "CONSISTENT_OBSERVED_PYTHON_BOUNDARY"
+  },
+  "status": "PASS_SHUTDOWN_BOUNDARY_CAPTURE",
+  "training_admission": false,
+  "worker_exit_code_retained": -15,
+  "worker_status_retained": "FAILED_RETAINED",
+  "worker_timed_out": true
+}

@@ -1,0 +1,28 @@
+{
+  "adapter": "NOT_INTEGRATED",
+  "author_source_freeze_sha256": "ff96625ab11e7e02f33ec672c0ed19f6da7d1c363b32ffb81cef99560d0b280a",
+  "author_source_sha256": "bc8528f4409a456c02236a792c9b04c54f17ed9fe34109f5491ea1c183a03e1c",
+  "files": {
+    "INDEPENDENT_PROBES.log": {
+      "bytes": 240,
+      "sha256": "4c1b94813304c37a7b3e24e2244ad3f245129eddc9486bb19c1fe7ca63892530"
+    },
+    "INDEPENDENT_REVIEW.json": {
+      "bytes": 3101,
+      "sha256": "f239c693bd886907566bf3f4d8941316f914d8dc6ac115c4bc31d26405fd51bb"
+    },
+    "REVIEW.md": {
+      "bytes": 3338,
+      "sha256": "d60d09820ed13108fef5463b1352576f1441849e1fea8de8920db12ac37947cc"
+    },
+    "independent_probes.py": {
+      "bytes": 8540,
+      "sha256": "15764fca448edf834c070a586010d640d054d839cfefaa3ea45c520f5b2dc405"
+    }
+  },
+  "full_author_suite_repeated": false,
+  "independent_probes": 8,
+  "native_GPU_model_calls": 0,
+  "schema": "InferenceClockV02IndependentReviewReceipt/1",
+  "status": "PASS_SCOPED_CPU_HIGHWATER_ONLY"
+}

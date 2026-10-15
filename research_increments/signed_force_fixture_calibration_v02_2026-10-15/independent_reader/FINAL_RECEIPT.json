@@ -1,0 +1,13 @@
+{
+  "archive_bytes": 36975,
+  "archive_members": 19,
+  "archive_sha256": "4802f08ca2fc829b39160e5c1a9ce2871976fefa447da5f04de60bfa7bd5a177",
+  "reader_freeze_sha256": "918e41cb1484643e112b59f1e14c7897e447748354b93e04a769311a62a2626c",
+  "schema": "ForceV02ProspectiveReaderReceipt/1",
+  "source_members": 17,
+  "source_review_sha256": "0fad1b8e928bb3f9c2ec926bc4cab7245e7aeaea0269523202e8c5e003f8fe56",
+  "status": "FROZEN_BEFORE_V02_NATIVE_OUTCOMES",
+  "tests": 29,
+  "v02_native_GPU_invocations": 0,
+  "v02_native_outcomes_read": 0
+}

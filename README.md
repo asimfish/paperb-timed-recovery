@@ -1,3 +1,15 @@
+<!-- calibration delivery 20261015 -->
+
+2026-10-15: [Current calibration and evidence](calibration.html), [current method](CURRENT_METHOD_cn.md), and [ICML research draft v05](research_increments/native_force_event_time_paper_v05_2026-10-15/paperB_verified_clock_v05.pdf). Six v03 native fixtures ran once each: five processing-on conditional passes and one retained processing-off physical failure. Full bounded raw inputs, independent reports and vector figures are available. The clock component passes scoped software checks; actual asynchronous model collection remains open. Main M/B3 learning is UNTESTED, qualified S/F/R admission is zero, and hardware/chemical endpoints remain uncollected.
+
+The v04 draft and prior evidence remain available as historical artifacts. The operational matched-information clarification distinguishes byte-identical shared training/state-matched inputs from independent closed-loop observations, which may diverge. This is a research draft with major experiments outstanding.
+
+For current local acceptance, run `python3 -B check_current_site.py --root .`. It preserves the inherited checker and corrects its stale five-video count against all 14 unchanged video blocks in parent commit `960d9b9`; all other checks remain active.
+
+Earlier dated records follow unchanged.
+
+---
+
 # Paper B: Physical time contracts and verified recovery
 
 Project website: https://asimfish.github.io/paperb-timed-recovery/

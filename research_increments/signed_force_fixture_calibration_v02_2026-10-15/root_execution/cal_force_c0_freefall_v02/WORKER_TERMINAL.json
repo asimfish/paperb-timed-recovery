@@ -1,0 +1,22 @@
+{
+  "status": "COMPLETE",
+  "case_id": "cal_force_c0_freefall_v02",
+  "gpu_uuid": "GPU-b129224c-c735-a03f-de6c-185d2a2724b1",
+  "exit_code": 0,
+  "timed_out": false,
+  "wall_s": 125.46455601975322,
+  "attempt_id": "20261014T181733160826Z-2434466",
+  "launch_log": "launch_attempts/cal_force_c0_freefall_v02/20261014T181733160826Z-2434466.log",
+  "native_output_exists": true,
+  "formal_episode_started": true,
+  "retry_after_resource_change_allowed": false,
+  "allocated_gpu_hours_upper_bound": 0.03485126556104256,
+  "owned_process_group_empty": true,
+  "owned_cleanup_wall_s": 0.012949144002050161,
+  "remaining_owned_process_ids": [],
+  "cost_scope": "OWNED_CHILD_ATTEMPT_WALL_UPPER_BOUND_INCLUDING_STARTUP_AND_FAILED_LAUNCHES; RESOURCE_REFUSAL_WITHOUT_NATIVE_ONLY_ZERO",
+  "model_calls": 0,
+  "training_gpu_hours": 0,
+  "foreign_processes_signaled": false,
+  "gpu_global_configuration_changes": false
+}

@@ -1,0 +1,148 @@
+{
+  "G1_independent_fresh_probes": 6,
+  "G1_native_collector": "NOT_READY",
+  "G1_software_tests_author": 90,
+  "P0_engineering_checkpoints": 1,
+  "batch_execution_closed": true,
+  "batch_label": "本批已封存 · 2 项执行 / 3 项未执行",
+  "batch_status": "CLOSED_PARTIAL_BATCH_RETAINED",
+  "cases": [
+    {
+      "audit_status": "PASS_CONDITIONAL_FIXTURE_CALIBRATION",
+      "case_id": "cal_force_c0_freefall_v02",
+      "controlled_steps": 120,
+      "execution_status": "COMPLETE",
+      "label": "条件夹具测量通过",
+      "mechanism": null,
+      "note": "仅限该物理夹具与冻结测量条件；不是算法或真机成功。",
+      "owned_process_group_empty": true,
+      "question": "加速度是否与实际重力一致，净法向力是否接近零？",
+      "report_url": "research_increments/signed_force_fixture_calibration_v02_2026-10-15/actual_audits/cal_force_c0_freefall_v02/REPORT.json",
+      "samples": 49,
+      "series_samples": 49,
+      "series_url": "research_increments/signed_force_fixture_calibration_v02_2026-10-15/actual_audits/cal_force_c0_freefall_v02/AUDITED_SERIES.json",
+      "title": "自由落体",
+      "window": [
+        71,
+        119
+      ],
+      "worker_exit_code": 0,
+      "worker_timed_out": false,
+      "worker_wall_s": 125.46455601975322
+    },
+    {
+      "audit_status": "FAIL_CONDITIONAL_FIXTURE_MEASUREMENT",
+      "case_id": "cal_force_c1_stack_v02",
+      "controlled_steps": 1049,
+      "execution_status": "COMPLETE",
+      "label": "测量门禁未通过",
+      "mechanism": null,
+      "note": "实际失败检查 98 项；原数据和失败均保留。",
+      "owned_process_group_empty": true,
+      "question": "已知重力支撑、互易接触与 signed detail 是否一致？",
+      "report_url": "research_increments/signed_force_fixture_calibration_v02_2026-10-15/actual_audits/cal_force_c1_stack_v02/REPORT.json",
+      "samples": 49,
+      "series_samples": 49,
+      "series_url": "research_increments/signed_force_fixture_calibration_v02_2026-10-15/actual_audits/cal_force_c1_stack_v02/AUDITED_SERIES.json",
+      "title": "重力支撑",
+      "window": [
+        1000,
+        1048
+      ],
+      "worker_exit_code": 0,
+      "worker_timed_out": false,
+      "worker_wall_s": 16.20858067832887
+    },
+    {
+      "audit_status": null,
+      "case_id": "cal_force_c2_rotated_v02",
+      "controlled_steps": 1049,
+      "execution_status": "NOT_EXECUTED_RESOURCE_REFUSED",
+      "label": "尚未执行",
+      "mechanism": null,
+      "note": "资源门槛拦下或随批停止；没有原生测量与物理评分。",
+      "question": "完整夹具与重力旋转后，力是否正确落在世界 X 轴？",
+      "report_url": null,
+      "samples": null,
+      "series_url": null,
+      "title": "旋转坐标",
+      "window": [
+        1000,
+        1048
+      ]
+    },
+    {
+      "audit_status": null,
+      "case_id": "cal_force_c3_actor_order_v02",
+      "controlled_steps": 1049,
+      "execution_status": "NOT_EXECUTED_AFTER_RESOURCE_STOP",
+      "label": "尚未执行",
+      "mechanism": null,
+      "note": "资源门槛拦下或随批停止；没有原生测量与物理评分。",
+      "question": "相同物理场景改变创建顺序后，表示是否保持一致？",
+      "report_url": null,
+      "samples": null,
+      "series_url": null,
+      "title": "创建顺序",
+      "window": [
+        1000,
+        1048
+      ]
+    },
+    {
+      "audit_status": null,
+      "case_id": "cal_force_c4_mass_v02",
+      "controlled_steps": 1049,
+      "execution_status": "NOT_EXECUTED_AFTER_RESOURCE_STOP",
+      "label": "尚未执行",
+      "mechanism": null,
+      "note": "资源门槛拦下或随批停止；没有原生测量与物理评分。",
+      "question": "仅质量加倍时，支撑力是否按实际质量改变？",
+      "report_url": null,
+      "samples": null,
+      "series_url": null,
+      "title": "质量加倍",
+      "window": [
+        1000,
+        1048
+      ]
+    }
+  ],
+  "family_budget": {
+    "calibration_family_cumulative_upper_bound": 6,
+    "closed_old_M0_M1_M2_family_cap": 3,
+    "closed_v01_actual_epochs": 1,
+    "no_sixth_implicit_v02_case": true,
+    "separate_shutdown_diagnostic_actual_epochs": 1,
+    "v01_remaining_cases_NOT_EXECUTED": 4,
+    "v02_maximum_distinct_epochs": 5
+  },
+  "figure": {
+    "available": true,
+    "caption": "实际固定窗口：2 项具备 49 点审计序列；其余案例与未知值按实际报告标注。条件测量不授予算法、机器人承重或化学验收资格。",
+    "pdf_url": "research_increments/signed_force_fixture_calibration_v02_2026-10-15/figures/signed_force_calibration.pdf",
+    "svg_url": "research_increments/signed_force_fixture_calibration_v02_2026-10-15/figures/signed_force_calibration.svg"
+  },
+  "generated_at_utc": "2026-10-15T08:00:02.668558+00:00",
+  "latest_calibration": {
+    "actual_epochs": 6,
+    "negative_physical_failures_retained": 1,
+    "positive_conditional_passes": 5,
+    "root_closure_sha256": "7ef83aaad95068f4da00dbefcf7ee8da7a1e83c2c7b5c0a575a1c60fa8718108",
+    "section": "#calibration-v03",
+    "version": "v03"
+  },
+  "links": {
+    "paper": "research_increments/native_force_event_time_paper_v05_2026-10-15/paperB_verified_clock_v05.pdf",
+    "protocol": "research_increments/signed_force_fixture_calibration_v02_2026-10-15/collector/protocol.json"
+  },
+  "main_M_B3_comparison": "UNTESTED",
+  "main_method_VLA_weights": 0,
+  "paper_present": true,
+  "qualified_S_F_R_admitted": 0,
+  "real_chemical_endpoint_records": 0,
+  "schema": "PaperBCalibrationPublicStatus/1",
+  "scientific_acceptance": "MAJOR_OPEN",
+  "scope": "CONDITIONAL_NATIVE_FIXTURE_MEASUREMENT_SEPARATE_FROM_METHOD_OR_HARDWARE_CHEMISTRY",
+  "summary": "最新 v03：六案均实际执行与独立审计；五项正向夹具条件通过，关闭接触处理的阴性失败保留。历史 v02 为两项执行；主方法比较仍 UNTESTED。"
+}

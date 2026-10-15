@@ -1,0 +1,46 @@
+{
+  "schema": "PaperBPostCalibrationNextFrontier/1",
+  "status": "NEXT_WORK_NOT_EXECUTED",
+  "issued_at_utc": "2026-10-15T07:50:57.184154+00:00",
+  "current_closed_scope": "Five positive conditional force fixtures and one retained disabled-processing failure; document and GitHub publication in terminal verification",
+  "scientific_acceptance": "MAJOR_OPEN",
+  "ordered_frontier": [
+    {
+      "id": "G1_ASYNC_NATIVE_ADAPTER",
+      "required_behavior": "Keep inference-start frozen packet/proprio/ledger input distinct from inference-return and current submission/guard state; do not rebase input prefix",
+      "known_blocker": "Sealed G1 PROPOSAL validates prefix at submit time, so cross-tick inference-start prefix needs a separately versioned schema and adapter",
+      "existing_software_evidence": "Clock v02 high-water/event-chain scope passes 24 author + 8 independent probes, but no integration/authentic native clock/concurrency proof",
+      "before_native": "New source successor and independent reader/negative tests, externally bound full case header and resource budget; keep old schema and failures unchanged"
+    },
+    {
+      "id": "FULL_ROBOT_ENDPOINT_QUALIFICATION",
+      "required_behavior": "Verify robot load transfer, actual unloading and relevant force/torque coverage with independent physical-state checks",
+      "limit": "Conditional two-body fixture calibration does not establish complete backend constraints, robot wrench coverage or hardware SI traceability"
+    },
+    {
+      "id": "MATERIALIZE_TASKS_AND_QUALIFIED_POOLS",
+      "required_behavior": "Pin actual 8 train / 2 validation / 2 heldout graph configurations, feasibility and calibrated endpoint readers; collect qualified common S512 before parameter updates and shared F/R under declared quotas",
+      "limit": "No collection or training counts invented; missing quotas return DATA_NOT_READY"
+    },
+    {
+      "id": "M_B3_CONTROLLED_LEARNING",
+      "required_behavior": "Use same frozen training pairs and teacher payloads; byte-match same-state inputs; independent closed-loop trials pair initial world/seed and match information protocol/guards/budgets, permitting divergent histories",
+      "limit": "All numerical study caps and fixed final checkpoint rules remain unchanged; no new learning result"
+    }
+  ],
+  "unchanged_main_budget": {
+    "unique_state_target_union_per_arm": 1024,
+    "common_ancestor_updates": 5000,
+    "adaptation_updates": 10000,
+    "GPUh_per_learning_equivalent": 2,
+    "learning_equivalents": 21,
+    "total_GPUh_cap": 42,
+    "planned_evaluation_attempts": 324
+  },
+  "actions_performed_by_this_record": {
+    "native": 0,
+    "training": 0,
+    "robot_hardware": 0,
+    "chemical_endpoint": 0
+  }
+}

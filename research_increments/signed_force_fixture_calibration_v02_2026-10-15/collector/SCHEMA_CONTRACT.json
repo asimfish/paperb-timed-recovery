@@ -1,0 +1,135 @@
+{
+  "body_schema": "paperb-handoff-physical-snapshot-v1; donor exact capture_snapshot; rigid_body observed value wrappers, scene_gravity_world_m_s2, external_wrench_buffers, same clock before/after",
+  "candidate_acceptance_physical_thresholds_unchanged": true,
+  "case_ids": [
+    "cal_force_c0_freefall_v02",
+    "cal_force_c1_stack_v02",
+    "cal_force_c2_rotated_v02",
+    "cal_force_c3_actor_order_v02",
+    "cal_force_c4_mass_v02"
+  ],
+  "cleanup": {
+    "API": "sim_utils.SimulationContext.clear_instance()",
+    "ONLY_when": "end_fsynced and result_fsynced and rows==controlledsteps and publicinstance is ownsim",
+    "after_clear_fields": [
+      "cached_pre_clear_clock",
+      "live_clock_unavailable_after_clear_instance",
+      "public_instance_is_None",
+      "owned_stop_handle_is_None",
+      "actual_python_callback_count_afterclear"
+    ],
+    "before_clear_fields": [
+      "complete_END_RESULT_fsynced",
+      "owned_context_is_sim",
+      "owned_stop_handle_present",
+      "actual_python_callback_count_beforeclear"
+    ],
+    "clock_scope": "origincontrolledRAWandENDqualificationsONLY;cachedpostreleaseclockisnotfresh;Pythoncallbackcounterafterunsubscribeisnotproofnophysicsbackendstep",
+    "default_app_close": "zeroargszeroKwargsunchanged",
+    "faulthandler": "15srepeat toownedstderr aroundterminalcleanup/defaultclose",
+    "incomplete_task_branch": "CLEAR_INSTANCE_NOT_ELIGIBLE:noearlyrelease;defaultclose unchanged;failure retained",
+    "live_physics_clock_reads_after_clear_instance": false,
+    "marker_order": [
+      "BEFORE_RESULT_WRITE",
+      "AFTER_RESULT_FSYNC",
+      "BEFORE_CLEAR_INSTANCE",
+      "AFTER_CLEAR_INSTANCE",
+      "BEFORE_APP_CLOSE",
+      "BEFORE_READONLY_REP_STATUS",
+      "AFTER_READONLY_REP_STATUS",
+      "AFTER_APP_CLOSE"
+    ],
+    "native_status": "CANDIDATE_UNVERIFIED"
+  },
+  "clock_fields": [
+    "native_epoch",
+    "time_s",
+    "callback_count"
+  ],
+  "contacts": "key bodypath; value {metadata,queries:[query_dt=1,dt,2dt]}; getter {status,value,reason,clock_before,clock_after,no_step_during_getter}; query clock before/after",
+  "detail_friction": [
+    "forces",
+    "points",
+    "counts",
+    "starts"
+  ],
+  "detail_normal": [
+    "forces",
+    "points",
+    "normals",
+    "separations",
+    "counts",
+    "starts"
+  ],
+  "detail_policy": "capacity-sized arrays selected slots only; unused=None intentionally neverread, full counts/starts; shapes,capacity,selected_slot_indices,capacity_saturated,copied_payload_sha256",
+  "external_expected_header": "ROOT_ADMISSION.expected_header binds case object/protocol/source/API/reader and exact authoredsetup; root-provided digest required before SDK; actualmetadata separate observational fields",
+  "freefall_contact_scope": "net_normal only; matrix/detail/friction absent in queries, listed unconfigured_channels",
+  "header_fields": [
+    "case",
+    "protocol_sha256",
+    "source_release_sha256",
+    "installed_api_pin_sha256",
+    "root_admission_sha256",
+    "source_review_sha256",
+    "reader_freeze_sha256",
+    "epoch",
+    "origin_clock",
+    "stage_inventory",
+    "fixture_creation_order",
+    "actual_backend_order",
+    "contact_views",
+    "fixture_setup_readback",
+    "runtime_versions"
+  ],
+  "inherited_RAW_schema_unchanged": true,
+  "inventory_scope": "COMPOSED_USD plus actual selected body/view readbacks; COMPLETE_BACKEND_CONSTRAINT_INVENTORY_UNKNOWN",
+  "lifecycle_row_schema": [
+    "schema",
+    "seq",
+    "case_id",
+    "event",
+    "wall_unix_s",
+    "wall_utc",
+    "monotonic_ns",
+    "process_elapsed_s",
+    "pid",
+    "native_clock_before_read",
+    "native_clock_after_read",
+    "no_native_step_during_clock_reads",
+    "fields",
+    "marker_write_policy",
+    "previous_record_sha256",
+    "record_sha256"
+  ],
+  "native_epoch_prefix": "paperb_signed_force_fixture_calibration_v2:",
+  "output_paths": [
+    "HEADER.json",
+    "BEGIN.json",
+    "RAW_POST.jsonl",
+    "END.json",
+    "RESULT.json",
+    "FAILURE_RETAINED.json",
+    "NATIVE_CLOCK_STARTED.json"
+  ],
+  "post_fields": [
+    "schema",
+    "tick",
+    "phase",
+    "native_clock_before_step",
+    "native_clock_after_step",
+    "bodies",
+    "contacts",
+    "stage_inventory_sha256",
+    "stage_inventory",
+    "previous_record_sha256",
+    "record_sha256"
+  ],
+  "result_scope": "worker completion/lifecycle/count only; no physics PASS, no S/F/R or robot load qualification",
+  "schema": "SignedForceFixtureRAWAndCleanupContract/2",
+  "schema_header": "SignedForceFixtureHeader/1",
+  "schema_result": "SignedForceFixtureWorkerResult/1",
+  "schema_row": "SignedForceFixturePOST/1",
+  "source_identity": "SignedForceFixtureV02ExecutionRelease/1",
+  "stage_inventory_capture": "actual composed USD re-traversal each controlledPOST, body snapshots embed same freshly observed inventory; sameclock checked by independentreader",
+  "tick_convention": "tick0 first controlled POST; every controlled tick recorded; no warmup controlled ticks excluded"
+}

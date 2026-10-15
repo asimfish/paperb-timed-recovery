@@ -1,0 +1,22 @@
+{
+  "GPU_calls": 0,
+  "SDK_calls": 0,
+  "actual_claims": "NONE_CPU_ONLY_NOT_NATIVE_CALIBRATION",
+  "all49_mg_negative_control_original_FAIL_retained": true,
+  "arithmetic_threshold_module_byte_exact_v02": true,
+  "collector_archive_members": 29,
+  "earlier_CPU_failures_retained": [
+    "CPU_TESTS.log: synthetic tuple epoch not traversed",
+    "CPU_TESTS_REPAIRED_SYNTHETIC_EPOCH.log: synthetic boundary body SHA needed recalculation"
+  ],
+  "final_log_sha256": "c943172427cdbf56c10bddf6bf711e2f3551dd75fef2cecded1b0d8c3d853d99",
+  "installed_API_sources": 22,
+  "memory_compiled_Python_files": 11,
+  "native_calls": 0,
+  "native_outcomes_read": 0,
+  "repair_scope": "synthetic fixture identity/hash only; no physical acceptance or RAW parser relaxation",
+  "schema": "V03IndependentCPUValidation/1",
+  "source_review_verified_NAS_private": 28,
+  "status": "PASS_35_CPU_SYNTHETIC_TESTS_AND_11_MEMORY_COMPILES",
+  "tests": 35
+}

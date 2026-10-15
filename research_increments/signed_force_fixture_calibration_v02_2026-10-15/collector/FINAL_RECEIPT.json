@@ -1,0 +1,13 @@
+{
+  "archive_CRC_SHA_readback": true,
+  "archive_bytes": 60081,
+  "archive_members": 33,
+  "archive_sha256": "8e5a642a143585619f4d2d2b1dda49fad2ae060adf0d2572887e3bf57cea920d",
+  "author_native_GPU_SDK_calls": 0,
+  "execution_release_sha256": "24ec70ef9054fed8f03186adc4d69e3521605e61365d15b832f6a91cbf0faa7b",
+  "private_root": "/data/liyufeng/paperb_signed_force_calibration_20261015_v2",
+  "schema": "SignedForceFixtureV02CollectorFinalReceipt/1",
+  "source_freeze_sha256": "c84c285a8c5b6283321c3d7436d77b827d1a223d2c0c46deb2da67c078f885e3",
+  "source_members": 32,
+  "status": "SEALED_CPU_PASS_NATIVE_UNVERIFIED_NOT_FIXED"
+}

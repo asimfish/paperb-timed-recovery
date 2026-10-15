@@ -1,0 +1,151 @@
+{
+  "compiled_PhysX_build_certification": false,
+  "files": {
+    "activation_schema": {
+      "bytes": 45968,
+      "path": "/home/liyufeng/safeduo_isaaclab/source/isaaclab/isaaclab/sim/schemas/schemas.py",
+      "sha256": "ba72769e57cae4729074231a9f5d58cfed1679b713fb0bf1bc3a8b35483084ef"
+    },
+    "asset_base": {
+      "bytes": 14865,
+      "path": "/home/liyufeng/safeduo_isaaclab/source/isaaclab/isaaclab/assets/asset_base.py",
+      "sha256": "597ee9761c074d41fd41c80f3af95e43711e25216521ddf1c047419b24483c6b"
+    },
+    "contact_sensor": {
+      "bytes": 26330,
+      "path": "/home/liyufeng/safeduo_isaaclab/source/isaaclab/isaaclab/sensors/contact_sensor/contact_sensor.py",
+      "sha256": "5bf3b77d2159850526e3833bf50253dbce06cb78b850eae13fb4088dc233760d"
+    },
+    "contact_sensor_cfg": {
+      "bytes": 3537,
+      "path": "/home/liyufeng/safeduo_isaaclab/source/isaaclab/isaaclab/sensors/contact_sensor/contact_sensor_cfg.py",
+      "sha256": "43a28b82050363e3a1c1c5e6e872fe6eada7bdda19b8992a111bb0a9638bcbef"
+    },
+    "contact_sensor_data": {
+      "bytes": 5832,
+      "path": "/home/liyufeng/safeduo_isaaclab/source/isaaclab/isaaclab/sensors/contact_sensor/contact_sensor_data.py",
+      "sha256": "281e5b6d4028b5c8c58305b1ae525eb6328052652f338295a3a08ed0185a7307"
+    },
+    "highlevel_contact_view_bridge": {
+      "bytes": 26261,
+      "method_ranges": {
+        "get_contact_force_data": [
+          337,
+          470
+        ]
+      },
+      "path": "/home/liyufeng/miniforge3/envs/safeduo/lib/python3.11/site-packages/isaacsim/exts/isaacsim.core.api/isaacsim/core/api/sensors/rigid_contact_view.py",
+      "sha256": "6b48c4c48633a742b794b391275bc8a2274004a1177c882c2b1d057a76004b1b"
+    },
+    "highlevel_rigid_prim": {
+      "bytes": 125746,
+      "method_ranges": {
+        "get_contact_force_data": [
+          2070,
+          2185
+        ]
+      },
+      "path": "/home/liyufeng/miniforge3/envs/safeduo/lib/python3.11/site-packages/isaacsim/exts/isaacsim.core.prims/isaacsim/core/prims/impl/rigid_prim.py",
+      "sha256": "f76e545741c98b7ddb716b627ca60c35e753240fe2a35bd2682722024f3b70a8"
+    },
+    "isaaclab_simulation_context": {
+      "bytes": 54473,
+      "path": "/home/liyufeng/safeduo_isaaclab/source/isaaclab/isaaclab/sim/simulation_context.py",
+      "sha256": "d95f2eaa138b4fff845ac72439caa2eca5deab4f0d5609e06f163d20eef4df93"
+    },
+    "isaacsim_simulation_context": {
+      "bytes": 51365,
+      "path": "/home/liyufeng/miniforge3/envs/safeduo/lib/python3.11/site-packages/isaacsim/exts/isaacsim.core.api/isaacsim/core/api/simulation_context/simulation_context.py",
+      "sha256": "ebafc6bcb30a454925fe21b96dcdbd4637c922a3fa9d5a6947308c9796ba5028"
+    },
+    "material_cfg": {
+      "bytes": 4640,
+      "path": "/home/liyufeng/safeduo_isaaclab/source/isaaclab/isaaclab/sim/spawners/materials/physics_materials_cfg.py",
+      "sha256": "0be87dcc50cac3e83d14845064b0dd1f5d7dbeffc09570dd00b0353c5909775f"
+    },
+    "physx_python_bindings": {
+      "bytes": 181192,
+      "path": "/home/liyufeng/miniforge3/envs/safeduo/lib/python3.11/site-packages/isaacsim/extscache/omni.physx-107.3.26+107.3.3.lx64.r.cp311.u353/omni/physx/bindings/_physx.pyi",
+      "sha256": "ff13abb83480dcc707ac2ad60062306aef7a33f885d32ed4c8ee6dfea2008e79"
+    },
+    "replicator_orchestrator": {
+      "bytes": 74413,
+      "path": "/home/liyufeng/miniforge3/envs/safeduo/lib/python3.11/site-packages/isaacsim/extscache/omni.replicator.core-1.12.27+107.3.3.lx64.r.cp311/omni/replicator/core/scripts/orchestrator.py",
+      "sha256": "c297093ae4100f5fc20f576f0b71d0dc4c765b2135f2a945764bbe63889a7c42"
+    },
+    "rigid_object_cfg": {
+      "bytes": 1091,
+      "path": "/home/liyufeng/safeduo_isaaclab/source/isaaclab/isaaclab/assets/rigid_object/rigid_object_cfg.py",
+      "sha256": "45c407ae76bcb4f737bf02c65424f957e8a0b1f7a8981ed992e0a780ab69dc13"
+    },
+    "rigid_object_data": {
+      "bytes": 26497,
+      "path": "/home/liyufeng/safeduo_isaaclab/source/isaaclab/isaaclab/assets/rigid_object/rigid_object_data.py",
+      "sha256": "5cc9e908106694d6fe0a4e2f56bf124874bac0b7e09810c308a6b321a60b0093"
+    },
+    "rigid_object_wrench_write": {
+      "bytes": 27299,
+      "path": "/home/liyufeng/safeduo_isaaclab/source/isaaclab/isaaclab/assets/rigid_object/rigid_object.py",
+      "sha256": "0aa371d43fae2f9dbfccc98bdb1d14f75860973afb68d3832e83b815d52fb546"
+    },
+    "schemas_cfg": {
+      "bytes": 26797,
+      "path": "/home/liyufeng/safeduo_isaaclab/source/isaaclab/isaaclab/sim/schemas/schemas_cfg.py",
+      "sha256": "64423a489fbca3a8d612b32e3c0e14241675668cc1e3b7330f78f84e73917d17"
+    },
+    "shapes": {
+      "bytes": 13957,
+      "path": "/home/liyufeng/safeduo_isaaclab/source/isaaclab/isaaclab/sim/spawners/shapes/shapes.py",
+      "sha256": "053227b88000f63f707f6719d81b342bfa59c04ba78126e4e8b6f3760c7df4ca"
+    },
+    "shapes_cfg": {
+      "bytes": 3268,
+      "path": "/home/liyufeng/safeduo_isaaclab/source/isaaclab/isaaclab/sim/spawners/shapes/shapes_cfg.py",
+      "sha256": "c9a2c0b6a71544d827fda85aec93628c9e39934842c95a260dbee260a520ad95"
+    },
+    "simulation_app_close": {
+      "bytes": 41239,
+      "path": "/home/liyufeng/miniforge3/envs/safeduo/lib/python3.11/site-packages/isaacsim/exts/isaacsim.simulation_app/isaacsim/simulation_app/simulation_app.py",
+      "sha256": "7cbaa6f00e935a6f14bf1c28ec0db089fd924e931f3b0deee07a822f9b7d0090"
+    },
+    "simulation_cfg": {
+      "bytes": 18587,
+      "path": "/home/liyufeng/safeduo_isaaclab/source/isaaclab/isaaclab/sim/simulation_cfg.py",
+      "sha256": "d8035df355c576ad7c876789bba54be4ebb361f5c16786a4ec8578143eebc118"
+    },
+    "tensors_api": {
+      "bytes": 444857,
+      "method_ranges": {
+        "create_rigid_contact_view": [
+          372,
+          421
+        ],
+        "get_contact_data": [
+          5877,
+          5959
+        ],
+        "get_contact_force_matrix": [
+          5841,
+          5875
+        ],
+        "get_friction_data": [
+          5961,
+          6032
+        ],
+        "get_net_contact_forces": [
+          5809,
+          5839
+        ]
+      },
+      "path": "/home/liyufeng/miniforge3/envs/safeduo/lib/python3.11/site-packages/isaacsim/extscache/omni.physics.tensors-107.3.26+107.3.3.lx64.r.cp311.u353/omni/physics/tensors/impl/api.py",
+      "sha256": "5dd16f8a37eccc94ac82338d6c1127e785cccf761cae1f6f18ef03d55b0f325f"
+    },
+    "wrench_composer": {
+      "bytes": 15262,
+      "path": "/home/liyufeng/safeduo_isaaclab/source/isaaclab/isaaclab/utils/wrench_composer.py",
+      "sha256": "095ab1fcf374e4bce96b61430f810c83f3519b7225476ce6e0a6ceb403a5f6a8"
+    }
+  },
+  "opaque_backend_implementation_verified": false,
+  "schema": "SignedForceFixtureV03InstalledSourcePins/1"
+}

@@ -1,0 +1,20 @@
+{
+  "G1_public_API_RED_actual_exit_code": 2,
+  "G1_public_API_RED_error": "PUBLIC_PREFIX_BINDING_MISMATCH",
+  "G1_public_API_supervision_GREEN_preserves_original_prefix": true,
+  "actual_S_F_R_admission": 0,
+  "actual_driver_submissions": 0,
+  "actual_parent_source_gate_27_members_verified": true,
+  "compiled_python_files": 3,
+  "final_cpu_log_sha256": "a9d230325266bc74622ff850d7dde149909dc002df462c70626de8a6d06375b5",
+  "full_header_fixture_sha_typo_ERROR_log_retained": "reports/CPU_TESTS_COMPLETE_HEADER.log",
+  "input_image_generation": 0,
+  "native_model_GPU_SDK_calls": 0,
+  "real_asynchronous_simulation_proven": false,
+  "schema": "InferencePrefixClockCPUAcceptance/1",
+  "status": "PASS_SOFTWARE_ONLY",
+  "teacher_private_inputs_enter_student_prefix": false,
+  "tests": 13,
+  "typo_fix_scope": "onlysyntheticfixture V04 SHA;core pin boundary notrelaxed",
+  "unit_suite_only_filesystem_gate_mocked_after_real_verification": true
+}

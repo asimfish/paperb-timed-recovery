@@ -1,0 +1,2556 @@
+{
+  "case_id": "cal_force_c4_mass_v03",
+  "measurement_role": "POSITIVE_PROCESSING_ENABLED_FIXTURE",
+  "measurement_scope": "CONDITIONAL_FIXTURE_CONTACT_REPRESENTATION_DT_WORLD_FRAME_ONLY",
+  "rows": [
+    {
+      "acceleration_A_world": [
+        1.2282951900033368e-07,
+        7.108109798537043e-07,
+        -1.620501166144095e-06
+      ],
+      "case_id": "cal_force_c4_mass_v03",
+      "channel_scope": "NORMAL_PAIR_AND_FRICTION_SELECTED_FILTERS",
+      "dt_err_N": 0.0,
+      "dt_impulse_err_Ns": 1.2417634316641557e-09,
+      "friction_AB_world": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "gravity_world": [
+        0.0,
+        0.0,
+        -9.8100004196167
+      ],
+      "mass_A_kg": 0.20000000298023224,
+      "matrix_vs_signed_err_N": 3.5762786865234375e-07,
+      "native_time_s": 4.179166884627193,
+      "net_normal_A_world": [
+        2.457182191051288e-08,
+        1.4215436294762185e-07,
+        1.9620000123977661
+      ],
+      "pair_normal_AB_world": [
+        2.457182191051288e-08,
+        1.4215436294762185e-07,
+        1.9620000123977661
+      ],
+      "pair_normal_BA_world": [
+        -2.457182191051288e-08,
+        -1.4215436294762185e-07,
+        -1.9620000123977661
+      ],
+      "selected_negative_count": 4,
+      "signed_scalar_min": -0.6611136794090271,
+      "tick": 1000,
+      "velocity_A_world": [
+        2.9685307367799396e-07,
+        5.709105153073324e-07,
+        -3.585591912269592e-08
+      ],
+      "velocity_difference_acceleration_A_world": [
+        1.228295332111884e-07,
+        7.108110366971232e-07,
+        -1.6205012798309326e-06
+      ]
+    },
+    {
+      "acceleration_A_world": [
+        1.2645158165014436e-07,
+        7.177004022196343e-07,
+        1.4528631027133088e-06
+      ],
+      "case_id": "cal_force_c4_mass_v03",
+      "channel_scope": "NORMAL_PAIR_AND_FRICTION_SELECTED_FILTERS",
+      "dt_err_N": 0.0,
+      "dt_impulse_err_Ns": 1.272807519103747e-09,
+      "friction_AB_world": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "gravity_world": [
+        0.0,
+        0.0,
+        -9.8100004196167
+      ],
+      "mass_A_kg": 0.20000000298023224,
+      "matrix_vs_signed_err_N": 2.384185791015625e-07,
+      "native_time_s": 4.1833335515111685,
+      "net_normal_A_world": [
+        2.5288365179676475e-08,
+        1.4353403798850195e-07,
+        1.9620002508163452
+      ],
+      "pair_normal_AB_world": [
+        2.5288365179676475e-08,
+        1.4353403798850195e-07,
+        1.9620002508163452
+      ],
+      "pair_normal_BA_world": [
+        -2.5288365179676475e-08,
+        -1.4353403798850195e-07,
+        -1.9620002508163452
+      ],
+      "selected_negative_count": 4,
+      "signed_scalar_min": -0.6611135601997375,
+      "tick": 1001,
+      "velocity_A_world": [
+        2.973799553274148e-07,
+        5.739009338867618e-07,
+        -2.9802322387695312e-08
+      ],
+      "velocity_difference_acceleration_A_world": [
+        1.2645159586099908e-07,
+        7.177004590630531e-07,
+        1.4528632164001465e-06
+      ]
+    },
+    {
+      "acceleration_A_world": [
+        1.243370064685223e-07,
+        7.167863600443525e-07,
+        5.029141334489395e-07
+      ],
+      "case_id": "cal_force_c4_mass_v03",
+      "channel_scope": "NORMAL_PAIR_AND_FRICTION_SELECTED_FILTERS",
+      "dt_err_N": 0.0,
+      "dt_impulse_err_Ns": 9.93410746025214e-10,
+      "friction_AB_world": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "gravity_world": [
+        0.0,
+        0.0,
+        -9.8100004196167
+      ],
+      "mass_A_kg": 0.20000000298023224,
+      "matrix_vs_signed_err_N": 2.384185791015625e-07,
+      "native_time_s": 4.187500218395144,
+      "net_normal_A_world": [
+        2.4873955339899112e-08,
+        1.4335009268506838e-07,
+        1.9620002508163452
+      ],
+      "pair_normal_AB_world": [
+        2.4873955339899112e-08,
+        1.4335009268506838e-07,
+        1.9620002508163452
+      ],
+      "pair_normal_BA_world": [
+        -2.4873955339899112e-08,
+        -1.4335009268506838e-07,
+        -1.9620002508163452
+      ],
+      "selected_negative_count": 4,
+      "signed_scalar_min": -0.661113440990448,
+      "tick": 1002,
+      "velocity_A_world": [
+        2.978980262469122e-07,
+        5.768875439571275e-07,
+        -2.7706846594810486e-08
+      ],
+      "velocity_difference_acceleration_A_world": [
+        1.2433702067937702e-07,
+        7.167864168877713e-07,
+        5.029141902923584e-07
+      ]
+    },
+    {
+      "acceleration_A_world": [
+        1.222974645997965e-07,
+        7.159405299717037e-07,
+        -2.0395962110342225e-06
+      ],
+      "case_id": "cal_force_c4_mass_v03",
+      "channel_scope": "NORMAL_PAIR_AND_FRICTION_SELECTED_FILTERS",
+      "dt_err_N": 0.0,
+      "dt_impulse_err_Ns": 1.2417634316641557e-09,
+      "friction_AB_world": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "gravity_world": [
+        0.0,
+        0.0,
+        -9.8100004196167
+      ],
+      "mass_A_kg": 0.20000000298023224,
+      "matrix_vs_signed_err_N": 1.1920928955078125e-07,
+      "native_time_s": 4.191666885279119,
+      "net_normal_A_world": [
+        2.4461540348852395e-08,
+        1.4318429464310611e-07,
+        1.961999535560608
+      ],
+      "pair_normal_AB_world": [
+        2.4461540348852395e-08,
+        1.4318429464310611e-07,
+        1.961999535560608
+      ],
+      "pair_normal_BA_world": [
+        -2.4461540348852395e-08,
+        -1.4318429464310611e-07,
+        -1.961999535560608
+      ],
+      "selected_negative_count": 4,
+      "signed_scalar_min": -0.6611137986183167,
+      "tick": 1003,
+      "velocity_A_world": [
+        2.984075990752899e-07,
+        5.798706297355238e-07,
+        -3.620516508817673e-08
+      ],
+      "velocity_difference_acceleration_A_world": [
+        1.2229747881065123e-07,
+        7.159405868151225e-07,
+        -2.039596438407898e-06
+      ]
+    },
+    {
+      "acceleration_A_world": [
+        1.2585131514697423e-07,
+        7.228572371786868e-07,
+        2.1234152427496156e-06
+      ],
+      "case_id": "cal_force_c4_mass_v03",
+      "channel_scope": "NORMAL_PAIR_AND_FRICTION_SELECTED_FILTERS",
+      "dt_err_N": 0.0,
+      "dt_impulse_err_Ns": 7.450580603862722e-10,
+      "friction_AB_world": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "gravity_world": [
+        0.0,
+        0.0,
+        -9.8100004196167
+      ],
+      "mass_A_kg": 0.20000000298023224,
+      "matrix_vs_signed_err_N": 1.4901161193847662e-07,
+      "native_time_s": 4.195833552163094,
+      "net_normal_A_world": [
+        2.5170271200636307e-08,
+        1.4456612973390293e-07,
+        1.9620007276535034
+      ],
+      "pair_normal_AB_world": [
+        2.5170271200636307e-08,
+        1.4456612973390293e-07,
+        1.9620007276535034
+      ],
+      "pair_normal_BA_world": [
+        -2.5170271200636307e-08,
+        -1.4456612973390293e-07,
+        -1.9620007276535034
+      ],
+      "selected_negative_count": 4,
+      "signed_scalar_min": -0.6611139178276062,
+      "tick": 1004,
+      "velocity_A_world": [
+        2.9893197961428086e-07,
+        5.828825351272826e-07,
+        -2.735760062932968e-08
+      ],
+      "velocity_difference_acceleration_A_world": [
+        1.2585132935782894e-07,
+        7.228572940221056e-07,
+        2.123415470123291e-06
+      ]
+    },
+    {
+      "acceleration_A_world": [
+        1.2396866111430427e-07,
+        7.21943195003405e-07,
+        -2.1234152427496156e-06
+      ],
+      "case_id": "cal_force_c4_mass_v03",
+      "channel_scope": "NORMAL_PAIR_AND_FRICTION_SELECTED_FILTERS",
+      "dt_err_N": 0.0,
+      "dt_impulse_err_Ns": 1.2417634316641557e-09,
+      "friction_AB_world": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "gravity_world": [
+        0.0,
+        0.0,
+        -9.8100004196167
+      ],
+      "mass_A_kg": 0.20000000298023224,
+      "matrix_vs_signed_err_N": 1.1920928955078125e-07,
+      "native_time_s": 4.2000002190470695,
+      "net_normal_A_world": [
+        2.479334249017029e-08,
+        1.4439818585287867e-07,
+        1.961999773979187
+      ],
+      "pair_normal_AB_world": [
+        2.479334249017029e-08,
+        1.4439818585287867e-07,
+        1.961999773979187
+      ],
+      "pair_normal_BA_world": [
+        -2.479334249017029e-08,
+        -1.4439818585287867e-07,
+        -1.961999773979187
+      ],
+      "selected_negative_count": 4,
+      "signed_scalar_min": -0.6611137986183167,
+      "tick": 1005,
+      "velocity_A_world": [
+        2.99448515761469e-07,
+        5.858906320099777e-07,
+        -3.620516508817673e-08
+      ],
+      "velocity_difference_acceleration_A_world": [
+        1.2396867532515898e-07,
+        7.219432518468238e-07,
+        -2.123415470123291e-06
+      ]
+    },
+    {
+      "acceleration_A_world": [
+        1.2744065713832242e-07,
+        7.288189749488083e-07,
+        1.6763805206210236e-06
+      ],
+      "case_id": "cal_force_c4_mass_v03",
+      "channel_scope": "NORMAL_PAIR_AND_FRICTION_SELECTED_FILTERS",
+      "dt_err_N": 0.0,
+      "dt_impulse_err_Ns": 1.0710209594200215e-09,
+      "friction_AB_world": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "gravity_world": [
+        0.0,
+        0.0,
+        -9.8100004196167
+      ],
+      "mass_A_kg": 0.20000000298023224,
+      "matrix_vs_signed_err_N": 1.1920928955078125e-07,
+      "native_time_s": 4.204166885931045,
+      "net_normal_A_world": [
+        2.5489763189057157e-08,
+        1.4576173157365702e-07,
+        1.9620002508163452
+      ],
+      "pair_normal_AB_world": [
+        2.5489763189057157e-08,
+        1.4576173157365702e-07,
+        1.9620002508163452
+      ],
+      "pair_normal_BA_world": [
+        -2.5489763189057157e-08,
+        -1.4576173157365702e-07,
+        -1.9620002508163452
+      ],
+      "selected_negative_count": 4,
+      "signed_scalar_min": -0.6611136198043823,
+      "tick": 1006,
+      "velocity_A_world": [
+        2.9997951855875726e-07,
+        5.889273779757787e-07,
+        -2.922024577856064e-08
+      ],
+      "velocity_difference_acceleration_A_world": [
+        1.2744067134917714e-07,
+        7.288190317922272e-07,
+        1.6763806343078613e-06
+      ]
+    },
+    {
+      "acceleration_A_world": [
+        1.2540793647985993e-07,
+        7.278912903529999e-07,
+        -2.2351740369686013e-07
+      ],
+      "case_id": "cal_force_c4_mass_v03",
+      "channel_scope": "NORMAL_PAIR_AND_FRICTION_SELECTED_FILTERS",
+      "dt_err_N": 0.0,
+      "dt_impulse_err_Ns": 1.0399768754498773e-09,
+      "friction_AB_world": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "gravity_world": [
+        0.0,
+        0.0,
+        -9.8100004196167
+      ],
+      "mass_A_kg": 0.20000000298023224,
+      "matrix_vs_signed_err_N": 1.7881393432617188e-07,
+      "native_time_s": 4.20833355281502,
+      "net_normal_A_world": [
+        2.5080323595716436e-08,
+        1.4557795680048002e-07,
+        1.9620000123977661
+      ],
+      "pair_normal_AB_world": [
+        2.5080323595716436e-08,
+        1.4557795680048002e-07,
+        1.9620000123977661
+      ],
+      "pair_normal_BA_world": [
+        -2.5080323595716436e-08,
+        -1.4557795680048002e-07,
+        -1.9620000123977661
+      ],
+      "selected_negative_count": 4,
+      "signed_scalar_min": -0.6611133217811584,
+      "tick": 1007,
+      "velocity_A_world": [
+        3.0050205168663524e-07,
+        5.919602585890971e-07,
+        -3.015156835317612e-08
+      ],
+      "velocity_difference_acceleration_A_world": [
+        1.2540795069071464e-07,
+        7.278913471964188e-07,
+        -2.2351741790771484e-07
+      ]
+    },
+    {
+      "acceleration_A_world": [
+        1.232319704058682e-07,
+        7.268953936545586e-07,
+        -1.0337679441363434e-06
+      ],
+      "case_id": "cal_force_c4_mass_v03",
+      "channel_scope": "NORMAL_PAIR_AND_FRICTION_SELECTED_FILTERS",
+      "dt_err_N": 0.0,
+      "dt_impulse_err_Ns": 1.2417634316641557e-09,
+      "friction_AB_world": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "gravity_world": [
+        0.0,
+        0.0,
+        -9.8100004196167
+      ],
+      "mass_A_kg": 0.20000000298023224,
+      "matrix_vs_signed_err_N": 2.086162567138672e-07,
+      "native_time_s": 4.212500219698995,
+      "net_normal_A_world": [
+        2.4638891815698116e-08,
+        1.4539979531491554e-07,
+        1.961999535560608
+      ],
+      "pair_normal_AB_world": [
+        2.4638891815698116e-08,
+        1.4539979531491554e-07,
+        1.961999535560608
+      ],
+      "pair_normal_BA_world": [
+        -2.4638891815698116e-08,
+        -1.4539979531491554e-07,
+        -1.961999535560608
+      ],
+      "selected_negative_count": 4,
+      "signed_scalar_min": -0.661113977432251,
+      "tick": 1008,
+      "velocity_A_world": [
+        3.010155182892049e-07,
+        5.949889896328386e-07,
+        -3.4458935260772705e-08
+      ],
+      "velocity_difference_acceleration_A_world": [
+        1.232319846167229e-07,
+        7.268954504979774e-07,
+        -1.0337680578231812e-06
+      ]
+    },
+    {
+      "acceleration_A_world": [
+        1.266152906964635e-07,
+        7.339485250668076e-07,
+        1.1175869758517365e-06
+      ],
+      "case_id": "cal_force_c4_mass_v03",
+      "channel_scope": "NORMAL_PAIR_AND_FRICTION_SELECTED_FILTERS",
+      "dt_err_N": 0.0,
+      "dt_impulse_err_Ns": 1.272807519103747e-09,
+      "friction_AB_world": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "gravity_world": [
+        0.0,
+        0.0,
+        -9.8100004196167
+      ],
+      "mass_A_kg": 0.20000000298023224,
+      "matrix_vs_signed_err_N": 2.384185791015625e-07,
+      "native_time_s": 4.216666886582971,
+      "net_normal_A_world": [
+        2.5317307361660824e-08,
+        1.4679612547752185e-07,
+        1.9620002508163452
+      ],
+      "pair_normal_AB_world": [
+        2.5317307361660824e-08,
+        1.4679612547752185e-07,
+        1.9620002508163452
+      ],
+      "pair_normal_BA_world": [
+        -2.5317307361660824e-08,
+        -1.4679612547752185e-07,
+        -1.9620002508163452
+      ],
+      "selected_negative_count": 4,
+      "signed_scalar_min": -0.6611135005950928,
+      "tick": 1009,
+      "velocity_A_world": [
+        3.015430820596521e-07,
+        5.980471087241312e-07,
+        -2.9802322387695312e-08
+      ],
+      "velocity_difference_acceleration_A_world": [
+        1.266153049073182e-07,
+        7.339485819102265e-07,
+        1.1175870895385742e-06
+      ]
+    },
+    {
+      "acceleration_A_world": [
+        1.2438475494036538e-07,
+        7.329662707888929e-07,
+        -1.2014060075671296e-06
+      ],
+      "case_id": "cal_force_c4_mass_v03",
+      "channel_scope": "NORMAL_PAIR_AND_FRICTION_SELECTED_FILTERS",
+      "dt_err_N": 0.0,
+      "dt_impulse_err_Ns": 1.133109134299204e-09,
+      "friction_AB_world": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "gravity_world": [
+        0.0,
+        0.0,
+        -9.8100004196167
+      ],
+      "mass_A_kg": 0.20000000298023224,
+      "matrix_vs_signed_err_N": 5.96046447753914e-08,
+      "native_time_s": 4.220833553466946,
+      "net_normal_A_world": [
+        2.487099770576151e-08,
+        1.466162160568274e-07,
+        1.961999773979187
+      ],
+      "pair_normal_AB_world": [
+        2.487099770576151e-08,
+        1.466162160568274e-07,
+        1.961999773979187
+      ],
+      "pair_normal_BA_world": [
+        -2.487099770576151e-08,
+        -1.466162160568274e-07,
+        -1.961999773979187
+      ],
+      "selected_negative_count": 4,
+      "signed_scalar_min": -0.6611138582229614,
+      "tick": 1010,
+      "velocity_A_world": [
+        3.020613519311155e-07,
+        6.011011350892659e-07,
+        -3.480818122625351e-08
+      ],
+      "velocity_difference_acceleration_A_world": [
+        1.243847691512201e-07,
+        7.329663276323117e-07,
+        -1.2014061212539673e-06
+      ]
+    },
+    {
+      "acceleration_A_world": [
+        1.2788403580543672e-07,
+        7.399375476779824e-07,
+        1.4808027799517731e-06
+      ],
+      "case_id": "cal_force_c4_mass_v03",
+      "channel_scope": "NORMAL_PAIR_AND_FRICTION_SELECTED_FILTERS",
+      "dt_err_N": 0.0,
+      "dt_impulse_err_Ns": 1.1175870888446848e-09,
+      "friction_AB_world": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "gravity_world": [
+        0.0,
+        0.0,
+        -9.8100004196167
+      ],
+      "mass_A_kg": 0.20000000298023224,
+      "matrix_vs_signed_err_N": 5.960464477539077e-08,
+      "native_time_s": 4.225000220350921,
+      "net_normal_A_world": [
+        2.556981471002473e-08,
+        1.479892546285555e-07,
+        1.9620002508163452
+      ],
+      "pair_normal_AB_world": [
+        2.556981471002473e-08,
+        1.479892546285555e-07,
+        1.9620002508163452
+      ],
+      "pair_normal_BA_world": [
+        -2.556981471002473e-08,
+        -1.479892546285555e-07,
+        -1.9620002508163452
+      ],
+      "selected_negative_count": 4,
+      "signed_scalar_min": -0.6611137390136719,
+      "tick": 1011,
+      "velocity_A_world": [
+        3.025942021395167e-07,
+        6.041842084414384e-07,
+        -2.8638169169425964e-08
+      ],
+      "velocity_difference_acceleration_A_world": [
+        1.2788405001629144e-07,
+        7.399376045214012e-07,
+        1.4808028936386108e-06
+      ]
+    },
+    {
+      "acceleration_A_world": [
+        1.2577628183407796e-07,
+        7.391599297079665e-07,
+        8.381902460996571e-08
+      ],
+      "case_id": "cal_force_c4_mass_v03",
+      "channel_scope": "NORMAL_PAIR_AND_FRICTION_SELECTED_FILTERS",
+      "dt_err_N": 0.0,
+      "dt_impulse_err_Ns": 9.93410746025214e-10,
+      "friction_AB_world": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "gravity_world": [
+        0.0,
+        0.0,
+        -9.8100004196167
+      ],
+      "mass_A_kg": 0.20000000298023224,
+      "matrix_vs_signed_err_N": 2.384185791015625e-07,
+      "native_time_s": 4.229166887234896,
+      "net_normal_A_world": [
+        2.5147592452867684e-08,
+        1.4783512369831442e-07,
+        1.9620000123977661
+      ],
+      "pair_normal_AB_world": [
+        2.5147592452867684e-08,
+        1.4783512369831442e-07,
+        1.9620000123977661
+      ],
+      "pair_normal_BA_world": [
+        -2.5147592452867684e-08,
+        -1.4783512369831442e-07,
+        -1.9620000123977661
+      ],
+      "selected_negative_count": 4,
+      "signed_scalar_min": -0.6611135005950928,
+      "tick": 1012,
+      "velocity_A_world": [
+        3.0311827003970393e-07,
+        6.072640417187358e-07,
+        -2.828892320394516e-08
+      ],
+      "velocity_difference_acceleration_A_world": [
+        1.2577629604493268e-07,
+        7.391599865513854e-07,
+        8.381903171539307e-08
+      ]
+    },
+    {
+      "acceleration_A_world": [
+        1.2377766722693195e-07,
+        7.3850509352269e-07,
+        -1.704320197859488e-06
+      ],
+      "case_id": "cal_force_c4_mass_v03",
+      "channel_scope": "NORMAL_PAIR_AND_FRICTION_SELECTED_FILTERS",
+      "dt_err_N": 0.0,
+      "dt_impulse_err_Ns": 1.1796752602544203e-09,
+      "friction_AB_world": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "gravity_world": [
+        0.0,
+        0.0,
+        -9.8100004196167
+      ],
+      "mass_A_kg": 0.20000000298023224,
+      "matrix_vs_signed_err_N": 2.384185791015625e-07,
+      "native_time_s": 4.233333554118872,
+      "net_normal_A_world": [
+        2.4752221605695013e-08,
+        1.4768950507004774e-07,
+        1.961999773979187
+      ],
+      "pair_normal_AB_world": [
+        2.4752221605695013e-08,
+        1.4768950507004774e-07,
+        1.961999773979187
+      ],
+      "pair_normal_BA_world": [
+        -2.4752221605695013e-08,
+        -1.4768950507004774e-07,
+        -1.961999773979187
+      ],
+      "selected_negative_count": 4,
+      "signed_scalar_min": -0.6611140966415405,
+      "tick": 1013,
+      "velocity_A_world": [
+        3.0363401037902804e-07,
+        6.103411465119279e-07,
+        -3.5390257835388184e-08
+      ],
+      "velocity_difference_acceleration_A_world": [
+        1.2377768143778667e-07,
+        7.385051503661089e-07,
+        -1.7043203115463257e-06
+      ]
+    },
+    {
+      "acceleration_A_world": [
+        1.2727012688174e-07,
+        7.451762371601944e-07,
+        1.2852250392825226e-06
+      ],
+      "case_id": "cal_force_c4_mass_v03",
+      "channel_scope": "NORMAL_PAIR_AND_FRICTION_SELECTED_FILTERS",
+      "dt_err_N": 0.0,
+      "dt_impulse_err_Ns": 1.2262413896790836e-09,
+      "friction_AB_world": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "gravity_world": [
+        0.0,
+        0.0,
+        -9.8100004196167
+      ],
+      "mass_A_kg": 0.20000000298023224,
+      "matrix_vs_signed_err_N": 1.1920928955078167e-07,
+      "native_time_s": 4.237500221002847,
+      "net_normal_A_world": [
+        2.5453282148646394e-08,
+        1.4903187661730044e-07,
+        1.9620002508163452
+      ],
+      "pair_normal_AB_world": [
+        2.5453282148646394e-08,
+        1.4903187661730044e-07,
+        1.9620002508163452
+      ],
+      "pair_normal_BA_world": [
+        -2.5453282148646394e-08,
+        -1.4903187661730044e-07,
+        -1.9620002508163452
+      ],
+      "selected_negative_count": 4,
+      "signed_scalar_min": -0.6611137986183167,
+      "tick": 1014,
+      "velocity_A_world": [
+        3.041643026335805e-07,
+        6.13446047736943e-07,
+        -3.003515303134918e-08
+      ],
+      "velocity_difference_acceleration_A_world": [
+        1.272701410925947e-07,
+        7.451762940036133e-07,
+        1.2852251529693604e-06
+      ]
+    },
+    {
+      "acceleration_A_world": [
+        1.2509416080774827e-07,
+        7.444259040312318e-07,
+        -1.2572853620440583e-06
+      ],
+      "case_id": "cal_force_c4_mass_v03",
+      "channel_scope": "NORMAL_PAIR_AND_FRICTION_SELECTED_FILTERS",
+      "dt_err_N": 0.0,
+      "dt_impulse_err_Ns": 1.2417634316641557e-09,
+      "friction_AB_world": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "gravity_world": [
+        0.0,
+        0.0,
+        -9.8100004196167
+      ],
+      "mass_A_kg": 0.20000000298023224,
+      "matrix_vs_signed_err_N": 2.980232238769531e-07,
+      "native_time_s": 4.241666887886822,
+      "net_normal_A_world": [
+        2.5018481508709556e-08,
+        1.4889253918681788e-07,
+        1.961999773979187
+      ],
+      "pair_normal_AB_world": [
+        2.5018481508709556e-08,
+        1.4889253918681788e-07,
+        1.961999773979187
+      ],
+      "pair_normal_BA_world": [
+        -2.5018481508709556e-08,
+        -1.4889253918681788e-07,
+        -1.961999773979187
+      ],
+      "selected_negative_count": 4,
+      "signed_scalar_min": -0.6611140966415405,
+      "tick": 1015,
+      "velocity_A_world": [
+        3.046855283628247e-07,
+        6.165478225739207e-07,
+        -3.527384251356125e-08
+      ],
+      "velocity_difference_acceleration_A_world": [
+        1.2509417501860298e-07,
+        7.444259608746506e-07,
+        -1.257285475730896e-06
+      ]
+    },
+    {
+      "acceleration_A_world": [
+        1.2868211740624247e-07,
+        7.514790354434808e-07,
+        1.5087424571902375e-06
+      ],
+      "case_id": "cal_force_c4_mass_v03",
+      "channel_scope": "NORMAL_PAIR_AND_FRICTION_SELECTED_FILTERS",
+      "dt_err_N": 0.0,
+      "dt_impulse_err_Ns": 1.3348956905134823e-09,
+      "friction_AB_world": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "gravity_world": [
+        0.0,
+        0.0,
+        -9.8100004196167
+      ],
+      "mass_A_kg": 0.20000000298023224,
+      "matrix_vs_signed_err_N": 2.0861625671386766e-07,
+      "native_time_s": 4.2458335547707975,
+      "net_normal_A_world": [
+        2.573547064343984e-08,
+        1.5029499422780646e-07,
+        1.9620000123977661
+      ],
+      "pair_normal_AB_world": [
+        2.573547064343984e-08,
+        1.5029499422780646e-07,
+        1.9620000123977661
+      ],
+      "pair_normal_BA_world": [
+        -2.573547064343984e-08,
+        -1.5029499422780646e-07,
+        -1.9620000123977661
+      ],
+      "selected_negative_count": 4,
+      "signed_scalar_min": -0.6611135601997375,
+      "tick": 1016,
+      "velocity_A_world": [
+        3.0522170391122927e-07,
+        6.196789854584495e-07,
+        -2.898741513490677e-08
+      ],
+      "velocity_difference_acceleration_A_world": [
+        1.2868213161709718e-07,
+        7.514790922868997e-07,
+        1.5087425708770752e-06
+      ]
+    },
+    {
+      "acceleration_A_world": [
+        1.2662893311699008e-07,
+        7.506059205297788e-07,
+        -5.587935092421503e-08
+      ],
+      "case_id": "cal_force_c4_mass_v03",
+      "channel_scope": "NORMAL_PAIR_AND_FRICTION_SELECTED_FILTERS",
+      "dt_err_N": 0.0,
+      "dt_impulse_err_Ns": 9.93410746025214e-10,
+      "friction_AB_world": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "gravity_world": [
+        0.0,
+        0.0,
+        -9.8100004196167
+      ],
+      "mass_A_kg": 0.20000000298023224,
+      "matrix_vs_signed_err_N": 2.2786135217191503e-15,
+      "native_time_s": 4.250000221654773,
+      "net_normal_A_world": [
+        2.532365783736168e-08,
+        1.501062172337697e-07,
+        1.9620000123977661
+      ],
+      "pair_normal_AB_world": [
+        2.532365783736168e-08,
+        1.501062172337697e-07,
+        1.9620000123977661
+      ],
+      "pair_normal_BA_world": [
+        -2.532365783736168e-08,
+        -1.501062172337697e-07,
+        -1.9620000123977661
+      ],
+      "selected_negative_count": 4,
+      "signed_scalar_min": -0.6611133217811584,
+      "tick": 1017,
+      "velocity_A_world": [
+        3.057493245250953e-07,
+        6.228065103641711e-07,
+        -2.922024577856064e-08
+      ],
+      "velocity_difference_acceleration_A_world": [
+        1.266289473278448e-07,
+        7.506059773731977e-07,
+        -5.587935447692871e-08
+      ]
+    },
+    {
+      "acceleration_A_world": [
+        1.2449389430457813e-07,
+        7.495690965697577e-07,
+        -1.5646218116671662e-06
+      ],
+      "case_id": "cal_force_c4_mass_v03",
+      "channel_scope": "NORMAL_PAIR_AND_FRICTION_SELECTED_FILTERS",
+      "dt_err_N": 0.0,
+      "dt_impulse_err_Ns": 1.2417634316641557e-09,
+      "friction_AB_world": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "gravity_world": [
+        0.0,
+        0.0,
+        -9.8100004196167
+      ],
+      "mass_A_kg": 0.20000000298023224,
+      "matrix_vs_signed_err_N": 3.5762786865234375e-07,
+      "native_time_s": 4.254166888538748,
+      "net_normal_A_world": [
+        2.489493589052927e-08,
+        1.4990871477493783e-07,
+        1.961999773979187
+      ],
+      "pair_normal_AB_world": [
+        2.489493589052927e-08,
+        1.4990871477493783e-07,
+        1.961999773979187
+      ],
+      "pair_normal_BA_world": [
+        -2.489493589052927e-08,
+        -1.4990871477493783e-07,
+        -1.961999773979187
+      ],
+      "selected_negative_count": 4,
+      "signed_scalar_min": -0.6611140370368958,
+      "tick": 1018,
+      "velocity_A_world": [
+        3.062680491439096e-07,
+        6.259297151700594e-07,
+        -3.573950380086899e-08
+      ],
+      "velocity_difference_acceleration_A_world": [
+        1.2449390851543285e-07,
+        7.495691534131765e-07,
+        -1.564621925354004e-06
+      ]
+    },
+    {
+      "acceleration_A_world": [
+        1.2802046001070266e-07,
+        7.564858037767408e-07,
+        1.8440185840518097e-06
+      ],
+      "case_id": "cal_force_c4_mass_v03",
+      "channel_scope": "NORMAL_PAIR_AND_FRICTION_SELECTED_FILTERS",
+      "dt_err_N": 0.0,
+      "dt_impulse_err_Ns": 1.2107193476940115e-09,
+      "friction_AB_world": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "gravity_world": [
+        0.0,
+        0.0,
+        -9.8100004196167
+      ],
+      "mass_A_kg": 0.20000000298023224,
+      "matrix_vs_signed_err_N": 2.980232238769585e-08,
+      "native_time_s": 4.258333555422723,
+      "net_normal_A_world": [
+        2.560573619803108e-08,
+        1.5128618713333708e-07,
+        1.9620004892349243
+      ],
+      "pair_normal_AB_world": [
+        2.560573619803108e-08,
+        1.5128618713333708e-07,
+        1.9620004892349243
+      ],
+      "pair_normal_BA_world": [
+        -2.560573619803108e-08,
+        -1.5128618713333708e-07,
+        -1.9620004892349243
+      ],
+      "selected_negative_count": 4,
+      "signed_scalar_min": -0.6611140966415405,
+      "tick": 1019,
+      "velocity_A_world": [
+        3.068014677864994e-07,
+        6.2908173958931e-07,
+        -2.805609256029129e-08
+      ],
+      "velocity_difference_acceleration_A_world": [
+        1.2802047422155738e-07,
+        7.564858606201597e-07,
+        1.8440186977386475e-06
+      ]
+    },
+    {
+      "acceleration_A_world": [
+        1.2606277266513644e-07,
+        7.557081858067249e-07,
+        -1.6763805206210236e-06
+      ],
+      "case_id": "cal_force_c4_mass_v03",
+      "channel_scope": "NORMAL_PAIR_AND_FRICTION_SELECTED_FILTERS",
+      "dt_err_N": 0.0,
+      "dt_impulse_err_Ns": 1.1175870888446848e-09,
+      "friction_AB_world": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "gravity_world": [
+        0.0,
+        0.0,
+        -9.8100004196167
+      ],
+      "mass_A_kg": 0.20000000298023224,
+      "matrix_vs_signed_err_N": 2.384185791015625e-07,
+      "native_time_s": 4.262500222306699,
+      "net_normal_A_world": [
+        2.5219028643164165e-08,
+        1.511502887296956e-07,
+        1.9620000123977661
+      ],
+      "pair_normal_AB_world": [
+        2.5219028643164165e-08,
+        1.511502887296956e-07,
+        1.9620000123977661
+      ],
+      "pair_normal_BA_world": [
+        -2.5219028643164165e-08,
+        -1.511502887296956e-07,
+        -1.9620000123977661
+      ],
+      "selected_negative_count": 4,
+      "signed_scalar_min": -0.6611140966415405,
+      "tick": 1020,
+      "velocity_A_world": [
+        3.073267293984827e-07,
+        6.322305239336856e-07,
+        -3.504101186990738e-08
+      ],
+      "velocity_difference_acceleration_A_world": [
+        1.2606278687599115e-07,
+        7.557082426501438e-07,
+        -1.6763806343078613e-06
+      ]
+    },
+    {
+      "acceleration_A_world": [
+        1.2960980200205086e-07,
+        7.626794626958144e-07,
+        1.5087424571902375e-06
+      ],
+      "case_id": "cal_force_c4_mass_v03",
+      "channel_scope": "NORMAL_PAIR_AND_FRICTION_SELECTED_FILTERS",
+      "dt_err_N": 0.0,
+      "dt_impulse_err_Ns": 1.0554989174349494e-09,
+      "friction_AB_world": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "gravity_world": [
+        0.0,
+        0.0,
+        -9.8100004196167
+      ],
+      "mass_A_kg": 0.20000000298023224,
+      "matrix_vs_signed_err_N": 1.7881393432617188e-07,
+      "native_time_s": 4.266666889190674,
+      "net_normal_A_world": [
+        2.5919094426285483e-08,
+        1.5252570051416114e-07,
+        1.9620002508163452
+      ],
+      "pair_normal_AB_world": [
+        2.5919094426285483e-08,
+        1.5252570051416114e-07,
+        1.9620002508163452
+      ],
+      "pair_normal_BA_world": [
+        -2.5919094426285483e-08,
+        -1.5252570051416114e-07,
+        -1.9620002508163452
+      ],
+      "selected_negative_count": 4,
+      "signed_scalar_min": -0.6611137390136719,
+      "tick": 1021,
+      "velocity_A_world": [
+        3.078667702993698e-07,
+        6.354083552650991e-07,
+        -2.87545844912529e-08
+      ],
+      "velocity_difference_acceleration_A_world": [
+        1.2960981621290557e-07,
+        7.626795195392333e-07,
+        1.5087425708770752e-06
+      ]
+    },
+    {
+      "acceleration_A_world": [
+        1.275088692409554e-07,
+        7.617790629410592e-07,
+        -2.5145706672446977e-07
+      ],
+      "case_id": "cal_force_c4_mass_v03",
+      "channel_scope": "NORMAL_PAIR_AND_FRICTION_SELECTED_FILTERS",
+      "dt_err_N": 0.0,
+      "dt_impulse_err_Ns": 9.93410746025214e-10,
+      "friction_AB_world": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "gravity_world": [
+        0.0,
+        0.0,
+        -9.8100004196167
+      ],
+      "mass_A_kg": 0.20000000298023224,
+      "matrix_vs_signed_err_N": 1.7881393432617188e-07,
+      "native_time_s": 4.270833556074649,
+      "net_normal_A_world": [
+        2.550459754502299e-08,
+        1.5235137595936976e-07,
+        1.9620002508163452
+      ],
+      "pair_normal_AB_world": [
+        2.550459754502299e-08,
+        1.5235137595936976e-07,
+        1.9620002508163452
+      ],
+      "pair_normal_BA_world": [
+        -2.550459754502299e-08,
+        -1.5235137595936976e-07,
+        -1.9620002508163452
+      ],
+      "selected_negative_count": 4,
+      "signed_scalar_min": -0.661113440990448,
+      "tick": 1022,
+      "velocity_A_world": [
+        3.0839805731375236e-07,
+        6.385824349308677e-07,
+        -2.9802322387695312e-08
+      ],
+      "velocity_difference_acceleration_A_world": [
+        1.275088834518101e-07,
+        7.617791197844781e-07,
+        -2.514570951461792e-07
+      ]
+    },
+    {
+      "acceleration_A_world": [
+        1.2537383042854344e-07,
+        7.608240935041977e-07,
+        -1.4528631027133088e-06
+      ],
+      "case_id": "cal_force_c4_mass_v03",
+      "channel_scope": "NORMAL_PAIR_AND_FRICTION_SELECTED_FILTERS",
+      "dt_err_N": 0.0,
+      "dt_impulse_err_Ns": 1.2417634316641557e-09,
+      "friction_AB_world": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "gravity_world": [
+        0.0,
+        0.0,
+        -9.8100004196167
+      ],
+      "mass_A_kg": 0.20000000298023224,
+      "matrix_vs_signed_err_N": 2.384185791015625e-07,
+      "native_time_s": 4.275000222958624,
+      "net_normal_A_world": [
+        2.5074196940977345e-08,
+        1.5217105442388856e-07,
+        1.961999773979187
+      ],
+      "pair_normal_AB_world": [
+        2.5074196940977345e-08,
+        1.5217105442388856e-07,
+        1.961999773979187
+      ],
+      "pair_normal_BA_world": [
+        -2.5074196940977345e-08,
+        -1.5217105442388856e-07,
+        -1.961999773979187
+      ],
+      "selected_negative_count": 4,
+      "signed_scalar_min": -0.6611142158508301,
+      "tick": 1023,
+      "velocity_A_world": [
+        3.089204483330832e-07,
+        6.417525355573162e-07,
+        -3.585591912269592e-08
+      ],
+      "velocity_difference_acceleration_A_world": [
+        1.2537384463939816e-07,
+        7.608241503476165e-07,
+        -1.4528632164001465e-06
+      ]
+    },
+    {
+      "acceleration_A_world": [
+        1.2877761434992863e-07,
+        7.676589461880212e-07,
+        1.1455266530902009e-06
+      ],
+      "case_id": "cal_force_c4_mass_v03",
+      "channel_scope": "NORMAL_PAIR_AND_FRICTION_SELECTED_FILTERS",
+      "dt_err_N": 0.0,
+      "dt_impulse_err_Ns": 1.3193736485284102e-09,
+      "friction_AB_world": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "gravity_world": [
+        0.0,
+        0.0,
+        -9.8100004196167
+      ],
+      "mass_A_kg": 0.20000000298023224,
+      "matrix_vs_signed_err_N": 4.172325134277344e-07,
+      "native_time_s": 4.2791668898426,
+      "net_normal_A_world": [
+        2.575504431945319e-08,
+        1.535154297016561e-07,
+        1.9620002508163452
+      ],
+      "pair_normal_AB_world": [
+        2.575504431945319e-08,
+        1.535154297016561e-07,
+        1.9620002508163452
+      ],
+      "pair_normal_BA_world": [
+        -2.575504431945319e-08,
+        -1.535154297016561e-07,
+        -1.9620002508163452
+      ],
+      "selected_negative_count": 4,
+      "signed_scalar_min": -0.6611140370368958,
+      "tick": 1024,
+      "velocity_A_world": [
+        3.094570217854198e-07,
+        6.449511147366138e-07,
+        -3.1082890927791595e-08
+      ],
+      "velocity_difference_acceleration_A_world": [
+        1.2877762856078334e-07,
+        7.676590030314401e-07,
+        1.1455267667770386e-06
+      ]
+    },
+    {
+      "acceleration_A_world": [
+        1.2654707859383052e-07,
+        7.666766919101065e-07,
+        -5.867331651643326e-07
+      ],
+      "case_id": "cal_force_c4_mass_v03",
+      "channel_scope": "NORMAL_PAIR_AND_FRICTION_SELECTED_FILTERS",
+      "dt_err_N": 0.0,
+      "dt_impulse_err_Ns": 1.1175870888446848e-09,
+      "friction_AB_world": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "gravity_world": [
+        0.0,
+        0.0,
+        -9.8100004196167
+      ],
+      "mass_A_kg": 0.20000000298023224,
+      "matrix_vs_signed_err_N": 8.940696716308661e-08,
+      "native_time_s": 4.283333556726575,
+      "net_normal_A_world": [
+        2.5316529317365166e-08,
+        1.533400535436158e-07,
+        1.9620000123977661
+      ],
+      "pair_normal_AB_world": [
+        2.5316529317365166e-08,
+        1.533400535436158e-07,
+        1.9620000123977661
+      ],
+      "pair_normal_BA_world": [
+        -2.5316529317365166e-08,
+        -1.533400535436158e-07,
+        -1.9620000123977661
+      ],
+      "selected_negative_count": 4,
+      "signed_scalar_min": -0.6611141562461853,
+      "tick": 1025,
+      "velocity_A_world": [
+        3.0998430133877264e-07,
+        6.481456011897535e-07,
+        -3.3527612686157227e-08
+      ],
+      "velocity_difference_acceleration_A_world": [
+        1.2654709280468524e-07,
+        7.666767487535253e-07,
+        -5.867332220077515e-07
+      ]
+    },
+    {
+      "acceleration_A_world": [
+        1.301759624539045e-07,
+        7.737298233223555e-07,
+        1.7322598750979523e-06
+      ],
+      "case_id": "cal_force_c4_mass_v03",
+      "channel_scope": "NORMAL_PAIR_AND_FRICTION_SELECTED_FILTERS",
+      "dt_err_N": 0.0,
+      "dt_impulse_err_Ns": 8.692344032057431e-10,
+      "friction_AB_world": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "gravity_world": [
+        0.0,
+        0.0,
+        -9.8100004196167
+      ],
+      "mass_A_kg": 0.20000000298023224,
+      "matrix_vs_signed_err_N": 1.4901161193847677e-07,
+      "native_time_s": 4.28750022361055,
+      "net_normal_A_world": [
+        2.6031198530063193e-08,
+        1.547412438185347e-07,
+        1.9620002508163452
+      ],
+      "pair_normal_AB_world": [
+        2.6031198530063193e-08,
+        1.547412438185347e-07,
+        1.9620002508163452
+      ],
+      "pair_normal_BA_world": [
+        -2.6031198530063193e-08,
+        -1.547412438185347e-07,
+        -1.9620002508163452
+      ],
+      "selected_negative_count": 4,
+      "signed_scalar_min": -0.6611135005950928,
+      "tick": 1026,
+      "velocity_A_world": [
+        3.1052670124154247e-07,
+        6.513694756904442e-07,
+        -2.6309862732887268e-08
+      ],
+      "velocity_difference_acceleration_A_world": [
+        1.3017597666475922e-07,
+        7.737298801657744e-07,
+        1.73225998878479e-06
+      ]
+    },
+    {
+      "acceleration_A_world": [
+        1.2812959937491541e-07,
+        7.72706641782861e-07,
+        -1.1175870184843006e-07
+      ],
+      "case_id": "cal_force_c4_mass_v03",
+      "channel_scope": "NORMAL_PAIR_AND_FRICTION_SELECTED_FILTERS",
+      "dt_err_N": 0.0,
+      "dt_impulse_err_Ns": 9.93410746025214e-10,
+      "friction_AB_world": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "gravity_world": [
+        0.0,
+        0.0,
+        -9.8100004196167
+      ],
+      "mass_A_kg": 0.20000000298023224,
+      "matrix_vs_signed_err_N": 2.0861625671386772e-07,
+      "native_time_s": 4.291666890494525,
+      "net_normal_A_world": [
+        2.5627558741803114e-08,
+        1.5453720436653384e-07,
+        1.9620000123977661
+      ],
+      "pair_normal_AB_world": [
+        2.5627558741803114e-08,
+        1.5453720436653384e-07,
+        1.9620000123977661
+      ],
+      "pair_normal_BA_world": [
+        -2.5627558741803114e-08,
+        -1.5453720436653384e-07,
+        -1.9620000123977661
+      ],
+      "selected_negative_count": 4,
+      "signed_scalar_min": -0.6611135005950928,
+      "tick": 1027,
+      "velocity_A_world": [
+        3.110605746314832e-07,
+        6.545890869347204e-07,
+        -2.6775524020195007e-08
+      ],
+      "velocity_difference_acceleration_A_world": [
+        1.2812961358577013e-07,
+        7.727066986262798e-07,
+        -1.1175870895385742e-07
+      ]
+    },
+    {
+      "acceleration_A_world": [
+        1.2601502419329336e-07,
+        7.716561754023132e-07,
+        -1.620501166144095e-06
+      ],
+      "case_id": "cal_force_c4_mass_v03",
+      "channel_scope": "NORMAL_PAIR_AND_FRICTION_SELECTED_FILTERS",
+      "dt_err_N": 0.0,
+      "dt_impulse_err_Ns": 1.1796752602544203e-09,
+      "friction_AB_world": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "gravity_world": [
+        0.0,
+        0.0,
+        -9.8100004196167
+      ],
+      "mass_A_kg": 0.20000000298023224,
+      "matrix_vs_signed_err_N": 2.384185791015625e-07,
+      "native_time_s": 4.295833557378501,
+      "net_normal_A_world": [
+        2.5204750286889066e-08,
+        1.5434831368565938e-07,
+        1.961999773979187
+      ],
+      "pair_normal_AB_world": [
+        2.5204750286889066e-08,
+        1.5434831368565938e-07,
+        1.961999773979187
+      ],
+      "pair_normal_BA_world": [
+        -2.5204750286889066e-08,
+        -1.5434831368565938e-07,
+        -1.961999773979187
+      ],
+      "selected_negative_count": 4,
+      "signed_scalar_min": -0.6611141562461853,
+      "tick": 1028,
+      "velocity_A_world": [
+        3.1158563729150046e-07,
+        6.578043212357443e-07,
+        -3.3527612686157227e-08
+      ],
+      "velocity_difference_acceleration_A_world": [
+        1.2601503840414807e-07,
+        7.716562322457321e-07,
+        -1.6205012798309326e-06
+      ]
+    },
+    {
+      "acceleration_A_world": [
+        1.297121201560003e-07,
+        7.787365916556155e-07,
+        1.2572853620440583e-06
+      ],
+      "case_id": "cal_force_c4_mass_v03",
+      "channel_scope": "NORMAL_PAIR_AND_FRICTION_SELECTED_FILTERS",
+      "dt_err_N": 0.0,
+      "dt_impulse_err_Ns": 8.071462317960076e-10,
+      "friction_AB_world": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "gravity_world": [
+        0.0,
+        0.0,
+        -9.8100004196167
+      ],
+      "mass_A_kg": 0.20000000298023224,
+      "matrix_vs_signed_err_N": 2.384185791015625e-07,
+      "native_time_s": 4.300000224262476,
+      "net_normal_A_world": [
+        2.5938879488762723e-08,
+        1.557291255949167e-07,
+        1.9620004892349243
+      ],
+      "pair_normal_AB_world": [
+        2.5938879488762723e-08,
+        1.557291255949167e-07,
+        1.9620004892349243
+      ],
+      "pair_normal_BA_world": [
+        -2.5938879488762723e-08,
+        -1.557291255949167e-07,
+        -1.9620004892349243
+      ],
+      "selected_negative_count": 4,
+      "signed_scalar_min": -0.6611140370368958,
+      "tick": 1029,
+      "velocity_A_world": [
+        3.12126104518029e-07,
+        6.610490572711569e-07,
+        -2.828892320394516e-08
+      ],
+      "velocity_difference_acceleration_A_world": [
+        1.2971213436685503e-07,
+        7.787366484990343e-07,
+        1.257285475730896e-06
+      ]
+    },
+    {
+      "acceleration_A_world": [
+        1.2758390255385166e-07,
+        7.778225494803337e-07,
+        -1.7322598750979523e-06
+      ],
+      "case_id": "cal_force_c4_mass_v03",
+      "channel_scope": "NORMAL_PAIR_AND_FRICTION_SELECTED_FILTERS",
+      "dt_err_N": 0.0,
+      "dt_impulse_err_Ns": 1.2417634316641557e-09,
+      "friction_AB_world": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "gravity_world": [
+        0.0,
+        0.0,
+        -9.8100004196167
+      ],
+      "mass_A_kg": 0.20000000298023224,
+      "matrix_vs_signed_err_N": 2.9802322387695643e-08,
+      "native_time_s": 4.304166891146451,
+      "net_normal_A_world": [
+        2.5523863911303124e-08,
+        1.555661128804786e-07,
+        1.961999773979187
+      ],
+      "pair_normal_AB_world": [
+        2.5523863911303124e-08,
+        1.555661128804786e-07,
+        1.961999773979187
+      ],
+      "pair_normal_BA_world": [
+        -2.5523863911303124e-08,
+        -1.555661128804786e-07,
+        -1.961999773979187
+      ],
+      "selected_negative_count": 4,
+      "signed_scalar_min": -0.6611141562461853,
+      "tick": 1030,
+      "velocity_A_world": [
+        3.126577041712153e-07,
+        6.642899847975059e-07,
+        -3.550667315721512e-08
+      ],
+      "velocity_difference_acceleration_A_world": [
+        1.2758391676470637e-07,
+        7.778226063237526e-07,
+        -1.73225998878479e-06
+      ]
+    },
+    {
+      "acceleration_A_world": [
+        1.3120596520366234e-07,
+        7.84834753631003e-07,
+        1.1455266530902009e-06
+      ],
+      "case_id": "cal_force_c4_mass_v03",
+      "channel_scope": "NORMAL_PAIR_AND_FRICTION_SELECTED_FILTERS",
+      "dt_err_N": 0.0,
+      "dt_impulse_err_Ns": 7.605801023713443e-10,
+      "friction_AB_world": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "gravity_world": [
+        0.0,
+        0.0,
+        -9.8100004196167
+      ],
+      "mass_A_kg": 0.20000000298023224,
+      "matrix_vs_signed_err_N": 1.192092895507816e-07,
+      "native_time_s": 4.3083335580304265,
+      "net_normal_A_world": [
+        2.6234912908762453e-08,
+        1.569508185639279e-07,
+        1.9620004892349243
+      ],
+      "pair_normal_AB_world": [
+        2.6234912908762453e-08,
+        1.569508185639279e-07,
+        1.9620004892349243
+      ],
+      "pair_normal_BA_world": [
+        -2.6234912908762453e-08,
+        -1.569508185639279e-07,
+        -1.9620004892349243
+      ],
+      "selected_negative_count": 4,
+      "signed_scalar_min": -0.6611139178276062,
+      "tick": 1031,
+      "velocity_A_world": [
+        3.132043957521091e-07,
+        6.675601298411493e-07,
+        -3.073364496231079e-08
+      ],
+      "velocity_difference_acceleration_A_world": [
+        1.3120597941451706e-07,
+        7.848348104744218e-07,
+        1.1455267667770386e-06
+      ]
+    },
+    {
+      "acceleration_A_world": [
+        1.2922781422730623e-07,
+        7.840162083994073e-07,
+        1.3411043937594513e-06
+      ],
+      "case_id": "cal_force_c4_mass_v03",
+      "channel_scope": "NORMAL_PAIR_AND_FRICTION_SELECTED_FILTERS",
+      "dt_err_N": 0.0,
+      "dt_impulse_err_Ns": 9.93410746025214e-10,
+      "friction_AB_world": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "gravity_world": [
+        0.0,
+        0.0,
+        -9.8100004196167
+      ],
+      "mass_A_kg": 0.20000000298023224,
+      "matrix_vs_signed_err_N": 2.3841857910156255e-07,
+      "native_time_s": 4.312500224914402,
+      "net_normal_A_world": [
+        2.5841982775887118e-08,
+        1.567817236036717e-07,
+        1.9620004892349243
+      ],
+      "pair_normal_AB_world": [
+        2.5841982775887118e-08,
+        1.567817236036717e-07,
+        1.9620004892349243
+      ],
+      "pair_normal_BA_world": [
+        -2.5841982775887118e-08,
+        -1.567817236036717e-07,
+        -1.9620004892349243
+      ],
+      "selected_negative_count": 4,
+      "signed_scalar_min": -0.6611136198043823,
+      "tick": 1032,
+      "velocity_A_world": [
+        3.137428450372681e-07,
+        6.708268642796611e-07,
+        -2.514570951461792e-08
+      ],
+      "velocity_difference_acceleration_A_world": [
+        1.2922782843816094e-07,
+        7.840162652428262e-07,
+        1.341104507446289e-06
+      ]
+    },
+    {
+      "acceleration_A_world": [
+        1.2716098751752725e-07,
+        7.829930268599128e-07,
+        -2.542510401326581e-06
+      ],
+      "case_id": "cal_force_c4_mass_v03",
+      "channel_scope": "NORMAL_PAIR_AND_FRICTION_SELECTED_FILTERS",
+      "dt_err_N": 0.0,
+      "dt_impulse_err_Ns": 1.2417634316641557e-09,
+      "friction_AB_world": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "gravity_world": [
+        0.0,
+        0.0,
+        -9.8100004196167
+      ],
+      "mass_A_kg": 0.20000000298023224,
+      "matrix_vs_signed_err_N": 5.960464477539092e-08,
+      "native_time_s": 4.316666891798377,
+      "net_normal_A_world": [
+        2.5438943396238756e-08,
+        1.5660876329093298e-07,
+        1.961999535560608
+      ],
+      "pair_normal_AB_world": [
+        2.5438943396238756e-08,
+        1.5660876329093298e-07,
+        1.961999535560608
+      ],
+      "pair_normal_BA_world": [
+        -2.5438943396238756e-08,
+        -1.5660876329093298e-07,
+        -1.961999535560608
+      ],
+      "selected_negative_count": 4,
+      "signed_scalar_min": -0.6611142754554749,
+      "tick": 1033,
+      "velocity_A_world": [
+        3.142726825444697e-07,
+        6.740893354617583e-07,
+        -3.573950380086899e-08
+      ],
+      "velocity_difference_acceleration_A_world": [
+        1.2716100172838196e-07,
+        7.829930837033316e-07,
+        -2.5425106287002563e-06
+      ]
+    },
+    {
+      "acceleration_A_world": [
+        1.3078987137760123e-07,
+        7.900052310105821e-07,
+        1.6484408433825593e-06
+      ],
+      "case_id": "cal_force_c4_mass_v03",
+      "channel_scope": "NORMAL_PAIR_AND_FRICTION_SELECTED_FILTERS",
+      "dt_err_N": 0.0,
+      "dt_impulse_err_Ns": 7.450580603862722e-10,
+      "friction_AB_world": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "gravity_world": [
+        0.0,
+        0.0,
+        -9.8100004196167
+      ],
+      "mass_A_kg": 0.20000000298023224,
+      "matrix_vs_signed_err_N": 1.1920928955078125e-07,
+      "native_time_s": 4.320833558682352,
+      "net_normal_A_world": [
+        2.615767691338533e-08,
+        1.5799224684087676e-07,
+        1.9620004892349243
+      ],
+      "pair_normal_AB_world": [
+        2.615767691338533e-08,
+        1.5799224684087676e-07,
+        1.9620004892349243
+      ],
+      "pair_normal_BA_world": [
+        -2.615767691338533e-08,
+        -1.5799224684087676e-07,
+        -1.9620004892349243
+      ],
+      "selected_negative_count": 4,
+      "signed_scalar_min": -0.6611140966415405,
+      "tick": 1034,
+      "velocity_A_world": [
+        3.148176404010883e-07,
+        6.7738102416115e-07,
+        -2.8870999813079834e-08
+      ],
+      "velocity_difference_acceleration_A_world": [
+        1.3078988558845595e-07,
+        7.900052878540009e-07,
+        1.648440957069397e-06
+      ]
+    },
+    {
+      "acceleration_A_world": [
+        1.286070840933462e-07,
+        7.88900194947928e-07,
+        -1.5925614889056305e-06
+      ],
+      "case_id": "cal_force_c4_mass_v03",
+      "channel_scope": "NORMAL_PAIR_AND_FRICTION_SELECTED_FILTERS",
+      "dt_err_N": 0.0,
+      "dt_impulse_err_Ns": 1.2572854771186748e-09,
+      "friction_AB_world": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "gravity_world": [
+        0.0,
+        0.0,
+        -9.8100004196167
+      ],
+      "mass_A_kg": 0.20000000298023224,
+      "matrix_vs_signed_err_N": 5.960464477539063e-08,
+      "native_time_s": 4.325000225566328,
+      "net_normal_A_world": [
+        2.5720696683606548e-08,
+        1.5778923057041538e-07,
+        1.961999773979187
+      ],
+      "pair_normal_AB_world": [
+        2.5720696683606548e-08,
+        1.5778923057041538e-07,
+        1.961999773979187
+      ],
+      "pair_normal_BA_world": [
+        -2.5720696683606548e-08,
+        -1.5778923057041538e-07,
+        -1.961999773979187
+      ],
+      "selected_negative_count": 4,
+      "signed_scalar_min": -0.6611143946647644,
+      "tick": 1035,
+      "velocity_A_world": [
+        3.153535033106891e-07,
+        6.806681085436139e-07,
+        -3.550667315721512e-08
+      ],
+      "velocity_difference_acceleration_A_world": [
+        1.2860709830420092e-07,
+        7.889002517913468e-07,
+        -1.5925616025924683e-06
+      ]
+    },
+    {
+      "acceleration_A_world": [
+        1.3204497406604787e-07,
+        7.958441869959643e-07,
+        1.704320197859488e-06
+      ],
+      "case_id": "cal_force_c4_mass_v03",
+      "channel_scope": "NORMAL_PAIR_AND_FRICTION_SELECTED_FILTERS",
+      "dt_err_N": 0.0,
+      "dt_impulse_err_Ns": 1.1641532182693481e-09,
+      "friction_AB_world": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "gravity_world": [
+        0.0,
+        0.0,
+        -9.8100004196167
+      ],
+      "mass_A_kg": 0.20000000298023224,
+      "matrix_vs_signed_err_N": 1.7881393432617188e-07,
+      "native_time_s": 4.329166892450303,
+      "net_normal_A_world": [
+        2.6414426201881724e-08,
+        1.5916117490633042e-07,
+        1.9620007276535034
+      ],
+      "pair_normal_AB_world": [
+        2.6414426201881724e-08,
+        1.5916117490633042e-07,
+        1.9620007276535034
+      ],
+      "pair_normal_BA_world": [
+        -2.6414426201881724e-08,
+        -1.5916117490633042e-07,
+        -1.9620007276535034
+      ],
+      "selected_negative_count": 4,
+      "signed_scalar_min": -0.6611142158508301,
+      "tick": 1036,
+      "velocity_A_world": [
+        3.159036907618429e-07,
+        6.83984126226278e-07,
+        -2.8405338525772095e-08
+      ],
+      "velocity_difference_acceleration_A_world": [
+        1.3204498827690259e-07,
+        7.958442438393831e-07,
+        1.7043203115463257e-06
+      ]
+    },
+    {
+      "acceleration_A_world": [
+        1.2990993525363592e-07,
+        7.950665690259484e-07,
+        1.6763804921993142e-07
+      ],
+      "case_id": "cal_force_c4_mass_v03",
+      "channel_scope": "NORMAL_PAIR_AND_FRICTION_SELECTED_FILTERS",
+      "dt_err_N": 0.0,
+      "dt_impulse_err_Ns": 1.148631176284276e-09,
+      "friction_AB_world": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "gravity_world": [
+        0.0,
+        0.0,
+        -9.8100004196167
+      ],
+      "mass_A_kg": 0.20000000298023224,
+      "matrix_vs_signed_err_N": 2.086162567138672e-07,
+      "native_time_s": 4.333333559334278,
+      "net_normal_A_world": [
+        2.598180515178683e-08,
+        1.5900754135600437e-07,
+        1.9620004892349243
+      ],
+      "pair_normal_AB_world": [
+        2.598180515178683e-08,
+        1.5900754135600437e-07,
+        1.9620004892349243
+      ],
+      "pair_normal_BA_world": [
+        -2.598180515178683e-08,
+        -1.5900754135600437e-07,
+        -1.9620004892349243
+      ],
+      "selected_negative_count": 4,
+      "signed_scalar_min": -0.6611137986183167,
+      "tick": 1037,
+      "velocity_A_world": [
+        3.164449822179449e-07,
+        6.87296903834067e-07,
+        -2.7706846594810486e-08
+      ],
+      "velocity_difference_acceleration_A_world": [
+        1.2990994946449064e-07,
+        7.950666258693673e-07,
+        1.6763806343078613e-07
+      ]
+    },
+    {
+      "acceleration_A_world": [
+        8.586675335209293e-07,
+        6.306890298901635e-08,
+        -1.788139229574881e-06
+      ],
+      "case_id": "cal_force_c4_mass_v03",
+      "channel_scope": "NORMAL_PAIR_AND_FRICTION_SELECTED_FILTERS",
+      "dt_err_N": 0.0,
+      "dt_impulse_err_Ns": 1.2417634316641557e-09,
+      "friction_AB_world": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "gravity_world": [
+        0.0,
+        0.0,
+        -9.8100004196167
+      ],
+      "mass_A_kg": 0.20000000298023224,
+      "matrix_vs_signed_err_N": 1.1920928955078125e-07,
+      "native_time_s": 4.337500226218253,
+      "net_normal_A_world": [
+        1.7173637445466738e-07,
+        1.262853555061838e-08,
+        1.961999535560608
+      ],
+      "pair_normal_AB_world": [
+        1.7173637445466738e-07,
+        1.262853555061838e-08,
+        1.961999535560608
+      ],
+      "pair_normal_BA_world": [
+        -1.7173637445466738e-07,
+        -1.262853555061838e-08,
+        -1.961999535560608
+      ],
+      "selected_negative_count": 4,
+      "signed_scalar_min": -0.6611142158508301,
+      "tick": 1038,
+      "velocity_A_world": [
+        3.2002276384446304e-07,
+        6.875596909594606e-07,
+        -3.5157427191734314e-08
+      ],
+      "velocity_difference_acceleration_A_world": [
+        8.586675903643481e-07,
+        6.306891009444371e-08,
+        -1.7881393432617188e-06
+      ]
+    },
+    {
+      "acceleration_A_world": [
+        8.622554901194235e-07,
+        7.004017987810585e-08,
+        1.4808027799517731e-06
+      ],
+      "case_id": "cal_force_c4_mass_v03",
+      "channel_scope": "NORMAL_PAIR_AND_FRICTION_SELECTED_FILTERS",
+      "dt_err_N": 0.0,
+      "dt_impulse_err_Ns": 8.847564451908152e-10,
+      "friction_AB_world": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "gravity_world": [
+        0.0,
+        0.0,
+        -9.8100004196167
+      ],
+      "mass_A_kg": 0.20000000298023224,
+      "matrix_vs_signed_err_N": 5.960464477539063e-08,
+      "native_time_s": 4.341666893102229,
+      "net_normal_A_world": [
+        1.7245183414615894e-07,
+        1.4016495519797445e-08,
+        1.9620002508163452
+      ],
+      "pair_normal_AB_world": [
+        1.7245183414615894e-07,
+        1.4016495519797445e-08,
+        1.9620002508163452
+      ],
+      "pair_normal_BA_world": [
+        -1.7245183414615894e-07,
+        -1.4016495519797445e-08,
+        -1.9620002508163452
+      ],
+      "selected_negative_count": 4,
+      "signed_scalar_min": -0.6611140966415405,
+      "tick": 1039,
+      "velocity_A_world": [
+        3.2361549529014155e-07,
+        6.87851525071892e-07,
+        -2.898741513490677e-08
+      ],
+      "velocity_difference_acceleration_A_world": [
+        8.622555469628423e-07,
+        7.00401869835332e-08,
+        1.4808028936386108e-06
+      ]
+    },
+    {
+      "acceleration_A_world": [
+        8.602091270404344e-07,
+        6.926256190808999e-08,
+        -1.620501166144095e-06
+      ],
+      "case_id": "cal_force_c4_mass_v03",
+      "channel_scope": "NORMAL_PAIR_AND_FRICTION_SELECTED_FILTERS",
+      "dt_err_N": 0.0,
+      "dt_impulse_err_Ns": 1.2417634316641557e-09,
+      "friction_AB_world": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "gravity_world": [
+        0.0,
+        0.0,
+        -9.8100004196167
+      ],
+      "mass_A_kg": 0.20000000298023224,
+      "matrix_vs_signed_err_N": 8.940696716308782e-08,
+      "native_time_s": 4.345833559986204,
+      "net_normal_A_world": [
+        1.7204425262207224e-07,
+        1.3857979652698305e-08,
+        1.961999773979187
+      ],
+      "pair_normal_AB_world": [
+        1.7204425262207224e-07,
+        1.3857979652698305e-08,
+        1.961999773979187
+      ],
+      "pair_normal_BA_world": [
+        -1.7204425262207224e-07,
+        -1.3857979652698305e-08,
+        -1.961999773979187
+      ],
+      "selected_negative_count": 4,
+      "signed_scalar_min": -0.6611142158508301,
+      "tick": 1040,
+      "velocity_A_world": [
+        3.2719970022299094e-07,
+        6.881401191094483e-07,
+        -3.573950380086899e-08
+      ],
+      "velocity_difference_acceleration_A_world": [
+        8.602091838838533e-07,
+        6.926256901351735e-08,
+        -1.6205012798309326e-06
+      ]
+    },
+    {
+      "acceleration_A_world": [
+        8.637425139568222e-07,
+        7.622019637665289e-08,
+        2.15135491998808e-06
+      ],
+      "case_id": "cal_force_c4_mass_v03",
+      "channel_scope": "NORMAL_PAIR_AND_FRICTION_SELECTED_FILTERS",
+      "dt_err_N": 0.0,
+      "dt_impulse_err_Ns": 1.2262413896790836e-09,
+      "friction_AB_world": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "gravity_world": [
+        0.0,
+        0.0,
+        -9.8100004196167
+      ],
+      "mass_A_kg": 0.20000000298023224,
+      "matrix_vs_signed_err_N": 5.960464477539063e-08,
+      "native_time_s": 4.350000226870179,
+      "net_normal_A_world": [
+        1.727503757820159e-07,
+        1.52443089262988e-08,
+        1.9620004892349243
+      ],
+      "pair_normal_AB_world": [
+        1.727503757820159e-07,
+        1.52443089262988e-08,
+        1.9620004892349243
+      ],
+      "pair_normal_BA_world": [
+        -1.727503757820159e-07,
+        -1.52443089262988e-08,
+        -1.9620004892349243
+      ],
+      "selected_negative_count": 4,
+      "signed_scalar_min": -0.6611141562461853,
+      "tick": 1041,
+      "velocity_A_world": [
+        3.307986276013253e-07,
+        6.884577032906236e-07,
+        -2.6775524020195007e-08
+      ],
+      "velocity_difference_acceleration_A_world": [
+        8.637425708002411e-07,
+        7.622020348208025e-08,
+        2.1513551473617554e-06
+      ]
+    },
+    {
+      "acceleration_A_world": [
+        8.617029720880964e-07,
+        7.533343904242429e-08,
+        -5.029141334489395e-07
+      ],
+      "case_id": "cal_force_c4_mass_v03",
+      "channel_scope": "NORMAL_PAIR_AND_FRICTION_SELECTED_FILTERS",
+      "dt_err_N": 0.0,
+      "dt_impulse_err_Ns": 1.0399768754498773e-09,
+      "friction_AB_world": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "gravity_world": [
+        0.0,
+        0.0,
+        -9.8100004196167
+      ],
+      "mass_A_kg": 0.20000000298023224,
+      "matrix_vs_signed_err_N": 1.7881393432617188e-07,
+      "native_time_s": 4.354166893754154,
+      "net_normal_A_world": [
+        1.7234505378382892e-07,
+        1.5064506087014706e-08,
+        1.961999773979187
+      ],
+      "pair_normal_AB_world": [
+        1.7234505378382892e-07,
+        1.5064506087014706e-08,
+        1.961999773979187
+      ],
+      "pair_normal_BA_world": [
+        -1.7234505378382892e-07,
+        -1.5064506087014706e-08,
+        -1.961999773979187
+      ],
+      "selected_negative_count": 4,
+      "signed_scalar_min": -0.6611139178276062,
+      "tick": 1042,
+      "velocity_A_world": [
+        3.343890568885399e-07,
+        6.88771592649573e-07,
+        -2.8870999813079834e-08
+      ],
+      "velocity_difference_acceleration_A_world": [
+        8.617030289315153e-07,
+        7.533344614785165e-08,
+        -5.029141902923584e-07
+      ]
+    },
+    {
+      "acceleration_A_world": [
+        8.596634302193706e-07,
+        7.455582107240843e-08,
+        -1.7601995523364167e-06
+      ],
+      "case_id": "cal_force_c4_mass_v03",
+      "channel_scope": "NORMAL_PAIR_AND_FRICTION_SELECTED_FILTERS",
+      "dt_err_N": 0.0,
+      "dt_impulse_err_Ns": 1.2417634316641557e-09,
+      "friction_AB_world": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "gravity_world": [
+        0.0,
+        0.0,
+        -9.8100004196167
+      ],
+      "mass_A_kg": 0.20000000298023224,
+      "matrix_vs_signed_err_N": 5.960464477539093e-08,
+      "native_time_s": 4.35833356063813,
+      "net_normal_A_world": [
+        1.7193239898460888e-07,
+        1.4905930711961446e-08,
+        1.961999535560608
+      ],
+      "pair_normal_AB_world": [
+        1.7193239898460888e-07,
+        1.4905930711961446e-08,
+        1.961999535560608
+      ],
+      "pair_normal_BA_world": [
+        -1.7193239898460888e-07,
+        -1.4905930711961446e-08,
+        -1.961999535560608
+      ],
+      "selected_negative_count": 4,
+      "signed_scalar_min": -0.6611143946647644,
+      "tick": 1043,
+      "velocity_A_world": [
+        3.379709880846349e-07,
+        6.890822419336473e-07,
+        -3.620516508817673e-08
+      ],
+      "velocity_difference_acceleration_A_world": [
+        8.596634870627895e-07,
+        7.455582817783579e-08,
+        -1.7601996660232544e-06
+      ]
+    },
+    {
+      "acceleration_A_world": [
+        8.631558898741787e-07,
+        8.139067375623199e-08,
+        2.2910533061804017e-06
+      ],
+      "case_id": "cal_force_c4_mass_v03",
+      "channel_scope": "NORMAL_PAIR_AND_FRICTION_SELECTED_FILTERS",
+      "dt_err_N": 0.0,
+      "dt_impulse_err_Ns": 1.2417634316641557e-09,
+      "friction_AB_world": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "gravity_world": [
+        0.0,
+        0.0,
+        -9.8100004196167
+      ],
+      "mass_A_kg": 0.20000000298023224,
+      "matrix_vs_signed_err_N": 1.1920928955078125e-07,
+      "native_time_s": 4.362500227522105,
+      "net_normal_A_world": [
+        1.7263232621189672e-07,
+        1.6283445702924837e-08,
+        1.9620004892349243
+      ],
+      "pair_normal_AB_world": [
+        1.7263232621189672e-07,
+        1.6283445702924837e-08,
+        1.9620004892349243
+      ],
+      "pair_normal_BA_world": [
+        -1.7263232621189672e-07,
+        -1.6283445702924837e-08,
+        -1.9620004892349243
+      ],
+      "selected_negative_count": 4,
+      "signed_scalar_min": -0.6611142158508301,
+      "tick": 1044,
+      "velocity_A_world": [
+        3.415674711959582e-07,
+        6.894213697705709e-07,
+        -2.6659108698368073e-08
+      ],
+      "velocity_difference_acceleration_A_world": [
+        8.631559467175975e-07,
+        8.139068086165935e-08,
+        2.291053533554077e-06
+      ]
+    },
+    {
+      "acceleration_A_world": [
+        8.611572752670327e-07,
+        8.058577094516295e-08,
+        -2.067535888272687e-06
+      ],
+      "case_id": "cal_force_c4_mass_v03",
+      "channel_scope": "NORMAL_PAIR_AND_FRICTION_SELECTED_FILTERS",
+      "dt_err_N": 0.0,
+      "dt_impulse_err_Ns": 1.1641532182693481e-09,
+      "friction_AB_world": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "gravity_world": [
+        0.0,
+        0.0,
+        -9.8100004196167
+      ],
+      "mass_A_kg": 0.20000000298023224,
+      "matrix_vs_signed_err_N": 1.7881393432617188e-07,
+      "native_time_s": 4.36666689440608,
+      "net_normal_A_world": [
+        1.7223172221747518e-07,
+        1.6123383517197e-08,
+        1.9619992971420288
+      ],
+      "pair_normal_AB_world": [
+        1.7223172221747518e-07,
+        1.6123383517197e-08,
+        1.9619992971420288
+      ],
+      "pair_normal_BA_world": [
+        -1.7223172221747518e-07,
+        -1.6123383517197e-08,
+        -1.9619992971420288
+      ],
+      "selected_negative_count": 4,
+      "signed_scalar_min": -0.6611142754554749,
+      "tick": 1045,
+      "velocity_A_world": [
+        3.451556267464184e-07,
+        6.897571438457817e-07,
+        -3.527384251356125e-08
+      ],
+      "velocity_difference_acceleration_A_world": [
+        8.611573321104515e-07,
+        8.05857780505903e-08,
+        -2.0675361156463623e-06
+      ]
+    },
+    {
+      "acceleration_A_world": [
+        8.647861591271067e-07,
+        8.755704783425244e-08,
+        1.927837502080365e-06
+      ],
+      "case_id": "cal_force_c4_mass_v03",
+      "channel_scope": "NORMAL_PAIR_AND_FRICTION_SELECTED_FILTERS",
+      "dt_err_N": 0.0,
+      "dt_impulse_err_Ns": 1.3193736485284102e-09,
+      "friction_AB_world": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "gravity_world": [
+        0.0,
+        0.0,
+        -9.8100004196167
+      ],
+      "mass_A_kg": 0.20000000298023224,
+      "matrix_vs_signed_err_N": 4.172325134277344e-07,
+      "native_time_s": 4.3708335612900555,
+      "net_normal_A_world": [
+        1.7295289467256225e-07,
+        1.750238176612129e-08,
+        1.9620004892349243
+      ],
+      "pair_normal_AB_world": [
+        1.7295289467256225e-07,
+        1.750238176612129e-08,
+        1.9620004892349243
+      ],
+      "pair_normal_BA_world": [
+        -1.7295289467256225e-07,
+        -1.750238176612129e-08,
+        -1.9620004892349243
+      ],
+      "selected_negative_count": 4,
+      "signed_scalar_min": -0.6611140966415405,
+      "tick": 1046,
+      "velocity_A_world": [
+        3.487589026462956e-07,
+        6.901219649080303e-07,
+        -2.7241185307502747e-08
+      ],
+      "velocity_difference_acceleration_A_world": [
+        8.647862159705255e-07,
+        8.75570549396798e-08,
+        1.9278377294540405e-06
+      ]
+    },
+    {
+      "acceleration_A_world": [
+        8.628352929918037e-07,
+        8.672486018213021e-08,
+        -3.3527609843986284e-07
+      ],
+      "case_id": "cal_force_c4_mass_v03",
+      "channel_scope": "NORMAL_PAIR_AND_FRICTION_SELECTED_FILTERS",
+      "dt_err_N": 0.0,
+      "dt_impulse_err_Ns": 1.0244548334648051e-09,
+      "friction_AB_world": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "gravity_world": [
+        0.0,
+        0.0,
+        -9.8100004196167
+      ],
+      "mass_A_kg": 0.20000000298023224,
+      "matrix_vs_signed_err_N": 1.1920928955078125e-07,
+      "native_time_s": 4.375000228174031,
+      "net_normal_A_world": [
+        1.7256900264328578e-07,
+        1.733290666550147e-08,
+        1.9620000123977661
+      ],
+      "pair_normal_AB_world": [
+        1.7256900264328578e-07,
+        1.733290666550147e-08,
+        1.9620000123977661
+      ],
+      "pair_normal_BA_world": [
+        -1.7256900264328578e-07,
+        -1.733290666550147e-08,
+        -1.9620000123977661
+      ],
+      "selected_negative_count": 4,
+      "signed_scalar_min": -0.6611140370368958,
+      "tick": 1047,
+      "velocity_A_world": [
+        3.523540499372757e-07,
+        6.904833185217285e-07,
+        -2.8638169169425964e-08
+      ],
+      "velocity_difference_acceleration_A_world": [
+        8.628353498352226e-07,
+        8.672486728755757e-08,
+        -3.3527612686157227e-07
+      ]
+    },
+    {
+      "acceleration_A_world": [
+        8.606388632870221e-07,
+        8.582446042737502e-08,
+        -1.6484408433825593e-06
+      ],
+      "case_id": "cal_force_c4_mass_v03",
+      "channel_scope": "NORMAL_PAIR_AND_FRICTION_SELECTED_FILTERS",
+      "dt_err_N": 0.0,
+      "dt_impulse_err_Ns": 1.2417634316641557e-09,
+      "friction_AB_world": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "gravity_world": [
+        0.0,
+        0.0,
+        -9.8100004196167
+      ],
+      "mass_A_kg": 0.20000000298023224,
+      "matrix_vs_signed_err_N": 2.384185791015625e-07,
+      "native_time_s": 4.379166895058006,
+      "net_normal_A_world": [
+        1.7213581315900228e-07,
+        1.7172800070852645e-08,
+        1.961999773979187
+      ],
+      "pair_normal_AB_world": [
+        1.7213581315900228e-07,
+        1.7172800070852645e-08,
+        1.961999773979187
+      ],
+      "pair_normal_BA_world": [
+        -1.7213581315900228e-07,
+        -1.7172800070852645e-08,
+        -1.961999773979187
+      ],
+      "selected_negative_count": 4,
+      "signed_scalar_min": -0.6611144542694092,
+      "tick": 1048,
+      "velocity_A_world": [
+        3.559400454378192e-07,
+        6.908409204697818e-07,
+        -3.550667315721512e-08
+      ],
+      "velocity_difference_acceleration_A_world": [
+        8.60638920130441e-07,
+        8.582446753280237e-08,
+        -1.648440957069397e-06
+      ]
+    }
+  ],
+  "schema": "SignedForceFixtureAuditedSeries/1"
+}

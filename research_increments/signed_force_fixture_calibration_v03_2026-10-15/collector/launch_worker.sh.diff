@@ -1,0 +1,28 @@
+--- sealed_force_v02/launch_worker.sh
++++ force_v03/launch_worker.sh
+@@ -1,6 +1,6 @@
+ #!/usr/bin/env bash
+ set -euo pipefail
+-probe_root=/data/liyufeng/paperb_signed_force_calibration_20261015_v2
++probe_root=/data/liyufeng/paperb_signed_force_calibration_20261015_v3
+ chem_root=/mnt/nas/data/safelab/retreat/lyf-back/chembench
+ capsule=/tmp/chemrm-papera-v15/pilot/paperA/driver_library_isolation_v54_20261011/capsule_r2
+ local_sdk=/home/liyufeng/miniforge3/envs/safeduo
+@@ -12,7 +12,7 @@
+ gpu_minor=${gpu_mapping[0]}
+ gpu_card=${gpu_mapping[1]}
+ gpu_render=${gpu_mapping[2]}
+-runtime_local=/tmp/paperb-signed-force-calibration-runtime-v2-${gpu_uuid#GPU-}
++runtime_local=/tmp/paperb-signed-force-calibration-runtime-v3-${gpu_uuid#GPU-}
+ mkdir -p "$runtime_local/"{tmp,cache,config,data,kit,omni,torch,cuda,driver}
+ exec bwrap --die-with-parent --ro-bind / / --tmpfs /home --ro-bind /home/liyufeng /home/liyufeng \
+  --bind "$probe_root" "$probe_root" --bind "$runtime_local" "$probe_root/runtime" --ro-bind "$capsule" "$probe_root/runtime/driver" \
+@@ -24,7 +24,7 @@
+  --bind "$runtime_local/omni" /home/liyufeng/.nvidia-omniverse --chdir "$probe_root" -- \
+  env -u CUDA_VISIBLE_DEVICES -u http_proxy -u https_proxy -u HTTP_PROXY -u HTTPS_PROXY -u ALL_PROXY -u all_proxy \
+  LD_LIBRARY_PATH="$probe_root/runtime/driver" LD_PRELOAD="$local_sdk/lib/libstdc++.so.6" \
+- CUDA_DEVICE_ORDER=PCI_BUS_ID CUDA_MPS_PIPE_DIRECTORY=/tmp/paperb-signed-force-calibration-no-mps-v2 PYTHONDONTWRITEBYTECODE=1 \
++ CUDA_DEVICE_ORDER=PCI_BUS_ID CUDA_MPS_PIPE_DIRECTORY=/tmp/paperb-signed-force-calibration-no-mps-v3 PYTHONDONTWRITEBYTECODE=1 \
+  PYTHONPATH="$probe_root/code:/home/liyufeng/safeduo_isaaclab/source/isaaclab" \
+  ISAAC_PATH="$local_sdk/lib/python3.11/site-packages/isaacsim" TERM=xterm OMNI_KIT_ACCEPT_EULA=YES PRIVACY_CONSENT=Y \
+  XDG_CACHE_HOME="$probe_root/runtime/cache" XDG_CONFIG_HOME="$probe_root/runtime/config" XDG_DATA_HOME="$probe_root/runtime/data" \

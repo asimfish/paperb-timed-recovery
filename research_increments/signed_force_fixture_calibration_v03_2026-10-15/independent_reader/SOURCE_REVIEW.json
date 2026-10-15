@@ -1,0 +1,49 @@
+{
+  "CPU_validation_sha256": "bb4b72e94ff1bd318bd4e2719b71abdc4a767346cc5ee6d7378a3d3fd1856489",
+  "created_at_utc": "2026-10-14T18:58:03.792624+00:00",
+  "family_budget": {
+    "calibration_family_cumulative_upper_bound": 9,
+    "closed_calibration_actual_epochs_before_v03": 3,
+    "closed_old_M0_M1_M2_family_cap": 3,
+    "closed_v01_actual_epochs": 1,
+    "closed_v02_actual_epochs": 2,
+    "max_controlled_steps_v03": 5365,
+    "negative_controls": 1,
+    "no_seventh_implicit_epoch": true,
+    "positive_fixtures": 5,
+    "separate_shutdown_diagnostic_actual_epochs": 1,
+    "v01_remaining_NOT_EXECUTED": 4,
+    "v02_remaining_NOT_EXECUTED": 3,
+    "v03_maximum_distinct_epochs": 6
+  },
+  "fast_shutdown_no_python_return": "prospectively conditional AFTER_APP_CLOSE; require preclose/release/readonly-return plus terminal exit0/noTimeout/ownedPGempty; freshtimeUNKNOWN",
+  "inherited_API_review": {
+    "compiled_backend_implementation": "UNKNOWN_NOT_CERTIFIED",
+    "friction_detail": "api.py:5961 four buffers; independent count/start ranges; never added as duplicate normal matrix",
+    "matrix": "api.py:5841 filtered pair sums; distinct from net; reusable buffer",
+    "normal_detail": "api.py:5877 six buffers; signed scalar multiplied by original normal; selected count/start ranges; copied before next query",
+    "physical": "actual mass/gravity/world acceleration and first-difference velocity; freefall acceleration compared to actual g",
+    "public_terminal_release": "Lab clear_instance unsubscribes own stop handle then base clears context callbacks; only after measurement fsync; no later physics reads",
+    "tensors_net": "api.py:5809 get_net_contact_forces(dt) forwards actual backend and reuses buffer"
+  },
+  "installed_API_pin_sha256": "81750a953f9827fb5ea87d915373934719cc9cccd9cb6facda3c6e5d0f9c124f",
+  "native_GPU_SDK_calls": 0,
+  "native_outcomes_read": 0,
+  "negative_control_original_threshold_status_retained": true,
+  "negative_control_positive_admission": false,
+  "physics_numeric_thresholds_and_fixed_windows_unchanged": true,
+  "public_setting_source_review": {
+    "candidate": "after owned SimulationContext construct, before reset; worker-local set_bool requested actual case Boolean; all actual getter readbacks bound",
+    "installed_Lab_constructor": "simulation_context.py:705 set_bool(/physics/disableContactProcessing,True)",
+    "old_v02_actual_setting": "UNKNOWN_NOT_INFERRED_FROM_SOURCE",
+    "readback_scope": "builtin bool or UNKNOWN; sameclock; setting alone not physical calibration"
+  },
+  "reader_freeze_sha256": "52d9b5009be016b53905927bcfdcf4a4c5b8eb2b83f110384237734d670fbb1d",
+  "root_adapter_review_evidence_sha256": "4072260d5b0e33add7b6b3f3cd0fa2a55a6bbf941239369472a9650cd23fb27c",
+  "schema": "SignedForceFixtureV03ProspectiveIndependentSourceReview/1",
+  "scope": "CONDITIONAL_FIXTURE_ONLY_NO_ROBOT_LOAD_TORQUE_CHEMICAL_SUCCESS_SFR_OR_LEARNING_QUALIFICATION",
+  "source_freeze_sha256": "29b848d388897fa8c08088e0bde940ec751585e83d308e137a26f99eacaace4f",
+  "source_release_sha256": "0de55ac995986d25a60f391b63d9606915dbeae37518e7cc4fb38ee75bc81771",
+  "source_review_evidence_sha256": "f81496792cdda9f52d73a66d89edab39a64464aeb4737b541acd6e9e72a4a86a",
+  "status": "PASS_PROSPECTIVE_SIGNED_FORCE_CALIBRATION_V03_SOURCE_REVIEW"
+}

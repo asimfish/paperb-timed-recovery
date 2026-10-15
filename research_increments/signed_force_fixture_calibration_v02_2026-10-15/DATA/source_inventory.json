@@ -1,0 +1,265 @@
+{
+  "files": [
+    {
+      "bytes": 11446,
+      "destination": "research_increments/signed_force_fixture_calibration_v02_2026-10-15/collector/protocol.json",
+      "sha256": "348a533cd78c312b68ab47c1ab8b219b1785021a553c37cc22f9f6c5874abd5c",
+      "source": "papers/paperB/research_increments/signed_force_fixture_calibration_v02_2026-10-15/collector/protocol.json"
+    },
+    {
+      "bytes": 4971,
+      "destination": "research_increments/signed_force_fixture_calibration_v02_2026-10-15/collector/SCHEMA_CONTRACT.json",
+      "sha256": "cf8e2d3e341447250bd487f4f3024d94e652cbc6c65ad9a8476916156a06a560",
+      "source": "papers/paperB/research_increments/signed_force_fixture_calibration_v02_2026-10-15/collector/SCHEMA_CONTRACT.json"
+    },
+    {
+      "bytes": 4077,
+      "destination": "research_increments/signed_force_fixture_calibration_v02_2026-10-15/collector/README_cn.md",
+      "sha256": "b3c9f2d7a5ae5b48bcad9f6237adace8295fe0a2781fa6107af6e77296d5162e",
+      "source": "papers/paperB/research_increments/signed_force_fixture_calibration_v02_2026-10-15/collector/README_cn.md"
+    },
+    {
+      "bytes": 1599,
+      "destination": "research_increments/signed_force_fixture_calibration_v02_2026-10-15/collector/CAUSE_EVIDENCE_REFERENCE.json",
+      "sha256": "2cbdb54fd2b010ece8902de19bf6d4b0603ccfd7fa37634f3f230ca4f230d3e7",
+      "source": "papers/paperB/research_increments/signed_force_fixture_calibration_v02_2026-10-15/collector/CAUSE_EVIDENCE_REFERENCE.json"
+    },
+    {
+      "bytes": 883,
+      "destination": "research_increments/signed_force_fixture_calibration_v02_2026-10-15/collector/CPU_VALIDATION.json",
+      "sha256": "f0ff4b056d3c31714c53ebcc8daf87c2a19b375a2ef8a6aaa5f8965ea2c5e920",
+      "source": "papers/paperB/research_increments/signed_force_fixture_calibration_v02_2026-10-15/collector/CPU_VALIDATION.json"
+    },
+    {
+      "bytes": 7272,
+      "destination": "research_increments/signed_force_fixture_calibration_v02_2026-10-15/collector/SOURCE_FREEZE.json",
+      "sha256": "c84c285a8c5b6283321c3d7436d77b827d1a223d2c0c46deb2da67c078f885e3",
+      "source": "papers/paperB/research_increments/signed_force_fixture_calibration_v02_2026-10-15/collector/SOURCE_FREEZE.json"
+    },
+    {
+      "bytes": 4118,
+      "destination": "research_increments/signed_force_fixture_calibration_v02_2026-10-15/collector/EXECUTION_RELEASE.json",
+      "sha256": "24ec70ef9054fed8f03186adc4d69e3521605e61365d15b832f6a91cbf0faa7b",
+      "source": "papers/paperB/research_increments/signed_force_fixture_calibration_v02_2026-10-15/collector/EXECUTION_RELEASE.json"
+    },
+    {
+      "bytes": 629,
+      "destination": "research_increments/signed_force_fixture_calibration_v02_2026-10-15/collector/FINAL_RECEIPT.json",
+      "sha256": "1fc37a8c28f31e2aa99508d7376a8e3abbe8f7db3623698b1aa034e2401490e0",
+      "source": "papers/paperB/research_increments/signed_force_fixture_calibration_v02_2026-10-15/collector/FINAL_RECEIPT.json"
+    },
+    {
+      "bytes": 60081,
+      "destination": "research_increments/signed_force_fixture_calibration_v02_2026-10-15/collector/force_fixture_v02_source.zip",
+      "sha256": "8e5a642a143585619f4d2d2b1dda49fad2ae060adf0d2572887e3bf57cea920d",
+      "source": "papers/paperB/research_increments/signed_force_fixture_calibration_v02_2026-10-15/collector/force_fixture_v02_source.zip"
+    },
+    {
+      "bytes": 3780,
+      "destination": "research_increments/signed_force_fixture_calibration_v02_2026-10-15/independent_reader/README_cn.md",
+      "sha256": "2950d25f5c54ede0fa22c12da15c4947eb3fdbaf47d95f13e21401be4e08884f",
+      "source": "papers/paperB/research_increments/signed_force_fixture_calibration_v02_2026-10-15/independent_reader/README_cn.md"
+    },
+    {
+      "bytes": 2430,
+      "destination": "research_increments/signed_force_fixture_calibration_v02_2026-10-15/independent_reader/SOURCE_REVIEW.json",
+      "sha256": "0fad1b8e928bb3f9c2ec926bc4cab7245e7aeaea0269523202e8c5e003f8fe56",
+      "source": "papers/paperB/research_increments/signed_force_fixture_calibration_v02_2026-10-15/independent_reader/SOURCE_REVIEW.json"
+    },
+    {
+      "bytes": 2800,
+      "destination": "research_increments/signed_force_fixture_calibration_v02_2026-10-15/independent_reader/PROSPECTIVE_READER_FREEZE.json",
+      "sha256": "918e41cb1484643e112b59f1e14c7897e447748354b93e04a769311a62a2626c",
+      "source": "papers/paperB/research_increments/signed_force_fixture_calibration_v02_2026-10-15/independent_reader/PROSPECTIVE_READER_FREEZE.json"
+    },
+    {
+      "bytes": 1578,
+      "destination": "research_increments/signed_force_fixture_calibration_v02_2026-10-15/independent_reader/PREOUTCOME_READER_CONTRACT.json",
+      "sha256": "ec0f5722b3c1779883edd4302414e01539ac3b1bbb2da408bcf98c695af2c9fb",
+      "source": "papers/paperB/research_increments/signed_force_fixture_calibration_v02_2026-10-15/independent_reader/PREOUTCOME_READER_CONTRACT.json"
+    },
+    {
+      "bytes": 774,
+      "destination": "research_increments/signed_force_fixture_calibration_v02_2026-10-15/independent_reader/READER_DELTA_CONTRACT.json",
+      "sha256": "92a54aa7d4e48f5076266341c43950b4c1792f8234ddb4aa8f15c9bf4f48f6d5",
+      "source": "papers/paperB/research_increments/signed_force_fixture_calibration_v02_2026-10-15/independent_reader/READER_DELTA_CONTRACT.json"
+    },
+    {
+      "bytes": 536,
+      "destination": "research_increments/signed_force_fixture_calibration_v02_2026-10-15/independent_reader/FINAL_RECEIPT.json",
+      "sha256": "2efe505fe95b5687ca5aaf859f40a2410350697c6033c16d8229f02e151358ef",
+      "source": "papers/paperB/research_increments/signed_force_fixture_calibration_v02_2026-10-15/independent_reader/FINAL_RECEIPT.json"
+    },
+    {
+      "bytes": 36975,
+      "destination": "research_increments/signed_force_fixture_calibration_v02_2026-10-15/independent_reader/prospective_signed_force_v02_reader.zip",
+      "sha256": "4802f08ca2fc829b39160e5c1a9ce2871976fefa447da5f04de60bfa7bd5a177",
+      "source": "papers/paperB/research_increments/signed_force_fixture_calibration_v02_2026-10-15/independent_reader/prospective_signed_force_v02_reader.zip"
+    },
+    {
+      "bytes": 1647,
+      "destination": "research_increments/signed_force_fixture_calibration_v02_2026-10-15/root_execution/ROOT_SOURCE_PROTOCOL_READBACK.json",
+      "sha256": "0101a3e8eb82acf1a1886a7afae9ace326e3654525cc1e3cd0203dc39bc43131",
+      "source": "papers/paperB/research_increments/signed_force_fixture_calibration_v02_2026-10-15/root_execution/ROOT_SOURCE_PROTOCOL_READBACK.json"
+    },
+    {
+      "bytes": 1491,
+      "destination": "research_increments/signed_force_fixture_calibration_v02_2026-10-15/root_execution/ROOT_PROSPECTIVE_CLEANUP_MARKER_COORDINATION.json",
+      "sha256": "a2cb33a3a035810d63de8be2a3e8505448b90a147084452b9c0d396f7c332712",
+      "source": "papers/paperB/research_increments/signed_force_fixture_calibration_v02_2026-10-15/root_execution/ROOT_PROSPECTIVE_CLEANUP_MARKER_COORDINATION.json"
+    },
+    {
+      "bytes": 8085,
+      "destination": "research_increments/signed_force_fixture_calibration_v02_2026-10-15/root_execution/ROOT_BATCH_V02_RETAINED_CLOSURE.json",
+      "sha256": "bc31531f03d94f244ed6415e83764bc99e745110d173f36fd52c55e30fee32a5",
+      "source": "papers/paperB/research_increments/signed_force_fixture_calibration_v02_2026-10-15/root_execution/ROOT_BATCH_V02_RETAINED_CLOSURE.json"
+    },
+    {
+      "bytes": 1531,
+      "destination": "research_increments/signed_force_fixture_calibration_v02_2026-10-15/root_execution/ROOT_C0_RESOURCE_SELECTION_02.json",
+      "sha256": "2dbb7d215f48d8f39a86afbc774867504fd58dfc741d7839f71c67c8a4c50202",
+      "source": "papers/paperB/research_increments/signed_force_fixture_calibration_v02_2026-10-15/root_execution/ROOT_C0_RESOURCE_SELECTION_02.json"
+    },
+    {
+      "bytes": 6447,
+      "destination": "research_increments/signed_force_fixture_calibration_v02_2026-10-15/ROOT_PROSPECTIVE_BATCH_SELECTION.json",
+      "sha256": "962868e6da3c50f42f4aecb63b479351fc7f5a908c7deaf0b103bde47e701a57",
+      "source": "papers/paperB/research_increments/signed_force_fixture_calibration_v02_2026-10-15/ROOT_PROSPECTIVE_BATCH_SELECTION.json"
+    },
+    {
+      "bytes": 3013552,
+      "destination": "research_increments/signed_force_fixture_calibration_v02_2026-10-15/raw/native_raw_v02.zip",
+      "sha256": "121ca4d05167d4f89f67611da58e5fb50e1f412a706aa49b1d86c0b8d5d7e723",
+      "source": "papers/paperB/research_increments/signed_force_fixture_calibration_v02_2026-10-15/publication/native_raw_v02.zip"
+    },
+    {
+      "bytes": 394,
+      "destination": "research_increments/signed_force_fixture_calibration_v02_2026-10-15/raw/NATIVE_RAW_V02_ARCHIVE_RECEIPT.json",
+      "sha256": "61b7a772282be551af4199ad506a27ffd23d4b87670dbdad1359c0aa63bd72ff",
+      "source": "papers/paperB/research_increments/signed_force_fixture_calibration_v02_2026-10-15/publication/NATIVE_RAW_V02_ARCHIVE_RECEIPT.json"
+    },
+    {
+      "bytes": 3050508,
+      "destination": "research_increments/signed_force_fixture_calibration_v02_2026-10-15/raw/native_raw_v02_complete_inputs.zip",
+      "sha256": "365c8e6e7c5ed22e07619c559704e2f76691354ad4bc16b364306848cfb07bf6",
+      "source": "papers/paperB/research_increments/signed_force_fixture_calibration_v02_2026-10-15/publication/native_raw_v02_complete_inputs.zip"
+    },
+    {
+      "bytes": 239,
+      "destination": "research_increments/signed_force_fixture_calibration_v02_2026-10-15/raw/NATIVE_RAW_V02_COMPLETE_INPUTS_RECEIPT.json",
+      "sha256": "e22e1024098d60af502de2f3a56530abe5b1402b3156533c3849ef5a060fc122",
+      "source": "papers/paperB/research_increments/signed_force_fixture_calibration_v02_2026-10-15/publication/NATIVE_RAW_V02_COMPLETE_INPUTS_RECEIPT.json"
+    },
+    {
+      "bytes": 854,
+      "destination": "research_increments/signed_force_fixture_calibration_v01_2026-10-15/actual_audits/cal_force_c0_freefall_v01/REPORT.json",
+      "sha256": "ba911f86dcb68e31c2a8af29a9183d3d703c195b3230848ae3a88dea3649b05b",
+      "source": "papers/paperB/research_increments/signed_force_fixture_calibration_v01_2026-10-15/actual_audits/cal_force_c0_freefall_v01/REPORT.json"
+    },
+    {
+      "bytes": 12453,
+      "destination": "research_increments/native_shutdown_diagnostic_v01_2026-10-15/actual_audits/dev_shutdown_after_fixture_001/REPORT.json",
+      "sha256": "af8c0c7db92b5aa510d267ca1a9fde6162d9992f7baf88b17d56cfb278afa0c6",
+      "source": "papers/paperB/research_increments/native_shutdown_diagnostic_v01_2026-10-15/actual_audit/dev_shutdown_after_fixture_001/REPORT.json"
+    },
+    {
+      "bytes": 7448,
+      "destination": "research_increments/mixed_actor_collector_bridge_v01_2026-10-15/SOURCE_RELEASE.json",
+      "sha256": "b68eb24785e4cf312b5d31f5d2c64d02570b74dfc55424ae17ccee9230c129cd",
+      "source": "papers/paperB/research_increments/mixed_actor_collector_bridge_v01_2026-10-15/SOURCE_RELEASE.json"
+    },
+    {
+      "bytes": 4573,
+      "destination": "research_increments/mixed_actor_collector_bridge_v01_2026-10-15/CPU_RESULT.json",
+      "sha256": "d741a1f85cd6e661d62a37fe355ff231b1cef5e1c53d60a569af74cfe98d2082",
+      "source": "papers/paperB/research_increments/mixed_actor_collector_bridge_v01_2026-10-15/CPU_RESULT.json"
+    },
+    {
+      "bytes": 5971,
+      "destination": "research_increments/mixed_actor_collector_bridge_v01_2026-10-15/README_cn.md",
+      "sha256": "7c6f91e3f5e600f2efd622ac16d92aad3d7370641513c392cdfd08975d742ffa",
+      "source": "papers/paperB/research_increments/mixed_actor_collector_bridge_v01_2026-10-15/README_cn.md"
+    },
+    {
+      "bytes": 5559,
+      "destination": "research_increments/mixed_actor_collector_bridge_v01_2026-10-15/independent_review/SOURCE_REVIEW.json",
+      "sha256": "287e339b84a331428eb49bb22b663ef0d902bf7d950a20c00c2de7266f8d1182",
+      "source": "papers/paperB/research_increments/mixed_actor_collector_bridge_v01_2026-10-15/independent_review/SOURCE_REVIEW.json"
+    },
+    {
+      "bytes": 1476,
+      "destination": "research_increments/mixed_actor_collector_bridge_v01_2026-10-15/independent_review/LONG_STREAM_AUDIT.json",
+      "sha256": "e06e5ffc7a2ea92cb638822dd913671f48cd2ec023edd46c56de2ec2ae4d817d",
+      "source": "papers/paperB/research_increments/mixed_actor_collector_bridge_v01_2026-10-15/independent_review/LONG_STREAM_AUDIT.json"
+    },
+    {
+      "bytes": 907,
+      "destination": "research_increments/signed_force_fixture_calibration_v02_2026-10-15/root_execution/cal_force_c0_freefall_v02/WORKER_TERMINAL.json",
+      "sha256": "af528b7e297ad18bd8f78a2805392cc4073af9a0ff7b4bd343874580eee401ed",
+      "source": "ROOT_OWNED_PRIVATE_TERMINAL/cal_force_c0_freefall_v02.json"
+    },
+    {
+      "bytes": 35885,
+      "destination": "research_increments/signed_force_fixture_calibration_v02_2026-10-15/actual_audits/cal_force_c0_freefall_v02/REPORT.json",
+      "sha256": "e122d55cc2cf427ffb96414d042c74c60c3b77fa2f8f99c18b9fb4de45284f92",
+      "source": "papers/paperB/research_increments/signed_force_fixture_calibration_v02_2026-10-15/actual_audits/cal_force_c0_freefall_v02/REPORT.json"
+    },
+    {
+      "bytes": 47241,
+      "destination": "research_increments/signed_force_fixture_calibration_v02_2026-10-15/actual_audits/cal_force_c0_freefall_v02/AUDITED_SERIES.json",
+      "sha256": "1246829bef1eb06377e49589a48db344d1a472a350fbf655da15d739ba621c6c",
+      "source": "papers/paperB/research_increments/signed_force_fixture_calibration_v02_2026-10-15/actual_audits/cal_force_c0_freefall_v02/AUDITED_SERIES.json"
+    },
+    {
+      "bytes": 900,
+      "destination": "research_increments/signed_force_fixture_calibration_v02_2026-10-15/root_execution/cal_force_c1_stack_v02/WORKER_TERMINAL.json",
+      "sha256": "67f1124310de77d00a5fa79921e0b95573c479af85fe86b490902b454c22044c",
+      "source": "ROOT_OWNED_PRIVATE_TERMINAL/cal_force_c1_stack_v02.json"
+    },
+    {
+      "bytes": 275878,
+      "destination": "research_increments/signed_force_fixture_calibration_v02_2026-10-15/actual_audits/cal_force_c1_stack_v02/REPORT.json",
+      "sha256": "105193f4ab8cb2cc2d68bd12b4139b4d04b14d73b866743da82da601997dc3e9",
+      "source": "papers/paperB/research_increments/signed_force_fixture_calibration_v02_2026-10-15/actual_audits/cal_force_c1_stack_v02/REPORT.json"
+    },
+    {
+      "bytes": 59035,
+      "destination": "research_increments/signed_force_fixture_calibration_v02_2026-10-15/actual_audits/cal_force_c1_stack_v02/AUDITED_SERIES.json",
+      "sha256": "d34b4e6a5ba18bd6f9bbe3dc46d9507fc48aad7c3c1bf69589f73d41dc8ac2f7",
+      "source": "papers/paperB/research_increments/signed_force_fixture_calibration_v02_2026-10-15/actual_audits/cal_force_c1_stack_v02/AUDITED_SERIES.json"
+    },
+    {
+      "bytes": 1353,
+      "destination": "research_increments/signed_force_fixture_calibration_v02_2026-10-15/figures/FIGURE_RECEIPT.json",
+      "sha256": "9a118790eb91bd496a6187f829b9b41abf2009e9368c995f6b02897db4facbfb",
+      "source": "papers/paperB/research_increments/signed_force_fixture_calibration_v02_2026-10-15/publication/figures_observed_v02/FIGURE_RECEIPT.json"
+    },
+    {
+      "bytes": 76522,
+      "destination": "research_increments/signed_force_fixture_calibration_v02_2026-10-15/figures/signed_force_calibration.svg",
+      "sha256": "010e48beeea072d3921d5a2e8569e9a6ef459c0240f50056e48670fff9433774",
+      "source": "papers/paperB/research_increments/signed_force_fixture_calibration_v02_2026-10-15/publication/figures_observed_v02/signed_force_calibration.svg"
+    },
+    {
+      "bytes": 21687,
+      "destination": "research_increments/signed_force_fixture_calibration_v02_2026-10-15/figures/signed_force_calibration.pdf",
+      "sha256": "c3fdd76eaa1e53cf99e4831a7354508f71200cba8db6311c0cd6a3e3e0bf2857",
+      "source": "papers/paperB/research_increments/signed_force_fixture_calibration_v02_2026-10-15/publication/figures_observed_v02/signed_force_calibration.pdf"
+    },
+    {
+      "bytes": 115854,
+      "destination": "research_increments/signed_force_fixture_calibration_v02_2026-10-15/figures/signed_force_calibration.png",
+      "sha256": "9215dad89ec0995eb107dbf60f9124f9b2154875711b8d93ab07300830869234",
+      "source": "papers/paperB/research_increments/signed_force_fixture_calibration_v02_2026-10-15/publication/figures_observed_v02/signed_force_calibration.png"
+    },
+    {
+      "bytes": 358815,
+      "destination": "research_increments/native_force_event_time_paper_v05_2026-10-15/paperB_verified_clock_v05.pdf",
+      "sha256": "049d836618fb242e29bdcbf70dc3b08847731798873896e8841e14a2230f9fe8",
+      "source": "ROOT_OWNED_PRIVATE_TERMINAL/paperB_verified_clock_v05.pdf"
+    }
+  ],
+  "generated_at_utc": "2026-10-15T08:00:02.668558+00:00",
+  "schema": "PaperBCalibrationCuratedInventory/1",
+  "scope": "CURATED_REPORTS_AND_COMPLETE_BOUNDED_RAW_INPUTS_NO_FULL_CPU_JOURNALS"
+}

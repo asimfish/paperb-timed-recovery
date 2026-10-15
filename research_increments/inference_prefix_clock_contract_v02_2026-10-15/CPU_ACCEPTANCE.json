@@ -1,0 +1,52 @@
+{
+  "schema": "InferencePrefixClockV02CPUAcceptance/1",
+  "status": "PASS_SOFTWARE_ONLY_PENDING_ROOT_INDEPENDENT_REVIEW",
+  "distinct_tests": 24,
+  "inherited_tests": 13,
+  "new_tests": 11,
+  "inherited_test_source_byteexact": true,
+  "red_state": "ORIGINAL_V01_PUBLIC_API_ACCEPTED_SERIAL_CLOCK_ROLLBACK_WITH_ELIGIBLE_SLOTS",
+  "red_exit_code": 2,
+  "green_state": "PASS_SOFTWARE_SERIAL_CLOCK_GUARD",
+  "green_exit_code": 0,
+  "same_probe_inputs": true,
+  "late_guard_eligible_slots": [],
+  "old_rollback_eligible_slots": [
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "new_rejection": "ACCEPTED_EVENT_EXECUTION_CLOCK_ROLLBACK",
+  "all_three_clock_dimensions": true,
+  "equal_clock_events_allowed": true,
+  "out_of_start_order_pending_ticket_returns_allowed": true,
+  "failed_prefix_output_guard_serialization_capacity_do_not_advance_highwater": true,
+  "parent_source_members_verified_per_suite_class": 27,
+  "python_in_memory_compile": [
+    "code/inference_clock.py",
+    "code/reproduce_g1_async_boundary.py",
+    "code/reproduce_serial_rollback.py",
+    "tests/test_highwater.py",
+    "tests/test_inference_clock.py"
+  ],
+  "native_model_GPU_calls": 0,
+  "actual_S_F_R_admitted": 0,
+  "actual_integration": "NOT_INTEGRATED_G1_ASYNC_PROPOSAL_SCHEMA",
+  "coverage_limitations": [
+    "single_thread_trusted_caller",
+    "no_physical_clock_authentication",
+    "highwater_atomicity_only_not_all_prior_API_state_mutations",
+    "no_G1_or_native_adapter_integration"
+  ],
+  "retained_setup_failure": "reports/INITIAL_TEST_PATH_ERROR.log",
+  "root_review": "PENDING_INDEPENDENT_AUTHOR_NOT_REVIEWER",
+  "files": {
+    "reports/CPU_TESTS_FINAL.log": "3b315e31d99c284078f487ff5ec72fc378f1e056aea3929e59d557163d7fb4a6",
+    "reports/RED_V01_ROLLBACK_REGRESSION.log": "56b2f7eae7a3db23ae67aa2819cc8ab668bfda2d5058e0aad168f21e8fd76893",
+    "reports/ACTUAL_V01_RED_PUBLIC_API.json": "5119c49ec218b6d84ff6b5186d9b1b3f2e19c99e7855663f5cd5cdf92bc50905",
+    "reports/ACTUAL_V02_GREEN_PUBLIC_API.json": "0f5198b9c4a75e568c1fd9d5b2c5d20ae201a487087eaee0086ca5cb951d9166",
+    "SOURCE_DIFF.patch": "7966ce9b5081df163f15ee334aee15dc6dc1ab22ac3fa8bc7f95fef0724fd5ca"
+  }
+}
