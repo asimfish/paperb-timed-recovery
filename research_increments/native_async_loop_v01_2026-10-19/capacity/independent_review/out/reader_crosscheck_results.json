@@ -1,0 +1,678 @@
+{
+ "bounds_table": [
+  {
+   "module": {
+    "CAPACITY_REFUSAL": 392,
+    "CASE_END_BASE": 498,
+    "CASE_END_PER_TICKET": 74,
+    "CHANNEL_RESULT": 1019,
+    "INFERENCE_RETURN": 2415,
+    "SLOT_DISPOSITION": 2225
+   },
+   "module_minus_reader": {
+    "CAPACITY_REFUSAL": 19,
+    "CASE_END_BASE": 19,
+    "CASE_END_PER_TICKET": 0,
+    "CHANNEL_RESULT": 28,
+    "INFERENCE_RETURN": 22,
+    "SLOT_DISPOSITION": 65
+   },
+   "reader": {
+    "CAPACITY_REFUSAL": 373,
+    "CASE_END_BASE": 479,
+    "CASE_END_ONE_TICKET": 550,
+    "CASE_END_PER_TICKET_MARGINAL": 74,
+    "CHANNEL_RESULT": 991,
+    "INFERENCE_RETURN": 2393,
+    "SLOT_DISPOSITION": 2160
+   },
+   "variant": {
+    "L": 1
+   }
+  },
+  {
+   "module": {
+    "CAPACITY_REFUSAL": 406,
+    "CASE_END_BASE": 505,
+    "CASE_END_PER_TICKET": 144,
+    "CHANNEL_RESULT": 1040,
+    "INFERENCE_RETURN": 2429,
+    "SLOT_DISPOSITION": 2260
+   },
+   "module_minus_reader": {
+    "CAPACITY_REFUSAL": 19,
+    "CASE_END_BASE": 19,
+    "CASE_END_PER_TICKET": 0,
+    "CHANNEL_RESULT": 35,
+    "INFERENCE_RETURN": 22,
+    "SLOT_DISPOSITION": 79
+   },
+   "reader": {
+    "CAPACITY_REFUSAL": 387,
+    "CASE_END_BASE": 486,
+    "CASE_END_ONE_TICKET": 627,
+    "CASE_END_PER_TICKET_MARGINAL": 144,
+    "CHANNEL_RESULT": 1005,
+    "INFERENCE_RETURN": 2407,
+    "SLOT_DISPOSITION": 2181
+   },
+   "variant": {
+    "L": 8
+   }
+  },
+  {
+   "module": {
+    "CAPACITY_REFUSAL": 518,
+    "CASE_END_BASE": 561,
+    "CASE_END_PER_TICKET": 704,
+    "CHANNEL_RESULT": 1208,
+    "INFERENCE_RETURN": 2541,
+    "SLOT_DISPOSITION": 2540
+   },
+   "module_minus_reader": {
+    "CAPACITY_REFUSAL": 19,
+    "CASE_END_BASE": 19,
+    "CASE_END_PER_TICKET": 0,
+    "CHANNEL_RESULT": 91,
+    "INFERENCE_RETURN": 22,
+    "SLOT_DISPOSITION": 137
+   },
+   "reader": {
+    "CAPACITY_REFUSAL": 499,
+    "CASE_END_BASE": 542,
+    "CASE_END_ONE_TICKET": 1243,
+    "CASE_END_PER_TICKET_MARGINAL": 704,
+    "CHANNEL_RESULT": 1117,
+    "INFERENCE_RETURN": 2519,
+    "SLOT_DISPOSITION": 2403
+   },
+   "variant": {
+    "L": 64
+   }
+  },
+  {
+   "module": {
+    "CAPACITY_REFUSAL": 790,
+    "CASE_END_BASE": 697,
+    "CASE_END_PER_TICKET": 2064,
+    "CHANNEL_RESULT": 1616,
+    "INFERENCE_RETURN": 2813,
+    "SLOT_DISPOSITION": 3220
+   },
+   "module_minus_reader": {
+    "CAPACITY_REFUSAL": 19,
+    "CASE_END_BASE": 19,
+    "CASE_END_PER_TICKET": 0,
+    "CHANNEL_RESULT": 227,
+    "INFERENCE_RETURN": 22,
+    "SLOT_DISPOSITION": 273
+   },
+   "reader": {
+    "CAPACITY_REFUSAL": 771,
+    "CASE_END_BASE": 678,
+    "CASE_END_ONE_TICKET": 2739,
+    "CASE_END_PER_TICKET_MARGINAL": 2064,
+    "CHANNEL_RESULT": 1389,
+    "INFERENCE_RETURN": 2791,
+    "SLOT_DISPOSITION": 2947
+   },
+   "variant": {
+    "L": 200
+   }
+  },
+  {
+   "module": {
+    "CAPACITY_REFUSAL": 518,
+    "CASE_END_BASE": 561,
+    "CASE_END_PER_TICKET": 704,
+    "CHANNEL_RESULT": 1208,
+    "INFERENCE_RETURN": 2541,
+    "SLOT_DISPOSITION": 2540
+   },
+   "module_minus_reader": {
+    "CAPACITY_REFUSAL": 22,
+    "CASE_END_BASE": 22,
+    "CASE_END_PER_TICKET": 0,
+    "CHANNEL_RESULT": 97,
+    "INFERENCE_RETURN": 25,
+    "SLOT_DISPOSITION": 146
+   },
+   "reader": {
+    "CAPACITY_REFUSAL": 496,
+    "CASE_END_BASE": 539,
+    "CASE_END_ONE_TICKET": 1240,
+    "CASE_END_PER_TICKET_MARGINAL": 704,
+    "CHANNEL_RESULT": 1111,
+    "INFERENCE_RETURN": 2516,
+    "SLOT_DISPOSITION": 2394
+   },
+   "variant": {
+    "L": 64,
+    "events": 30
+   }
+  },
+  {
+   "module": {
+    "CAPACITY_REFUSAL": 518,
+    "CASE_END_BASE": 561,
+    "CASE_END_PER_TICKET": 704,
+    "CHANNEL_RESULT": 1208,
+    "INFERENCE_RETURN": 2541,
+    "SLOT_DISPOSITION": 2540
+   },
+   "module_minus_reader": {
+    "CAPACITY_REFUSAL": 5,
+    "CASE_END_BASE": 5,
+    "CASE_END_PER_TICKET": 0,
+    "CHANNEL_RESULT": 63,
+    "INFERENCE_RETURN": 8,
+    "SLOT_DISPOSITION": 95
+   },
+   "reader": {
+    "CAPACITY_REFUSAL": 513,
+    "CASE_END_BASE": 556,
+    "CASE_END_ONE_TICKET": 1257,
+    "CASE_END_PER_TICKET_MARGINAL": 704,
+    "CHANNEL_RESULT": 1145,
+    "INFERENCE_RETURN": 2533,
+    "SLOT_DISPOSITION": 2445
+   },
+   "variant": {
+    "L": 64,
+    "events": 9223372036854775807
+   }
+  },
+  {
+   "module": {
+    "CAPACITY_REFUSAL": 518,
+    "CASE_END_BASE": 561,
+    "CASE_END_PER_TICKET": 704,
+    "CHANNEL_RESULT": 1208,
+    "INFERENCE_RETURN": 2541,
+    "SLOT_DISPOSITION": 2540
+   },
+   "module_minus_reader": {
+    "CAPACITY_REFUSAL": 19,
+    "CASE_END_BASE": 19,
+    "CASE_END_PER_TICKET": 0,
+    "CHANNEL_RESULT": 91,
+    "INFERENCE_RETURN": 22,
+    "SLOT_DISPOSITION": 137
+   },
+   "reader": {
+    "CAPACITY_REFUSAL": 499,
+    "CASE_END_BASE": 542,
+    "CASE_END_ONE_TICKET": 1243,
+    "CASE_END_PER_TICKET_MARGINAL": 704,
+    "CHANNEL_RESULT": 1117,
+    "INFERENCE_RETURN": 2519,
+    "SLOT_DISPOSITION": 2403
+   },
+   "variant": {
+    "L": 64,
+    "latency": 1000000
+   }
+  },
+  {
+   "module": {
+    "CAPACITY_REFUSAL": 518,
+    "CASE_END_BASE": 561,
+    "CASE_END_PER_TICKET": 704,
+    "CHANNEL_RESULT": 1208,
+    "INFERENCE_RETURN": 2541,
+    "SLOT_DISPOSITION": 2540
+   },
+   "module_minus_reader": {
+    "CAPACITY_REFUSAL": 19,
+    "CASE_END_BASE": 19,
+    "CASE_END_PER_TICKET": 0,
+    "CHANNEL_RESULT": 34,
+    "INFERENCE_RETURN": 22,
+    "SLOT_DISPOSITION": 80
+   },
+   "reader": {
+    "CAPACITY_REFUSAL": 499,
+    "CASE_END_BASE": 542,
+    "CASE_END_ONE_TICKET": 1243,
+    "CASE_END_PER_TICKET_MARGINAL": 704,
+    "CHANNEL_RESULT": 1174,
+    "INFERENCE_RETURN": 2519,
+    "SLOT_DISPOSITION": 2460
+   },
+   "variant": {
+    "L": 64,
+    "actor_ids": "('A0xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx', 'B1xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx')"
+   }
+  },
+  {
+   "module": {
+    "CAPACITY_REFUSAL": 518,
+    "CASE_END_BASE": 561,
+    "CASE_END_PER_TICKET": 704,
+    "CHANNEL_RESULT": 1208,
+    "INFERENCE_RETURN": 2541,
+    "SLOT_DISPOSITION": 2540
+   },
+   "module_minus_reader": {
+    "CAPACITY_REFUSAL": 5,
+    "CASE_END_BASE": 5,
+    "CASE_END_PER_TICKET": 0,
+    "CHANNEL_RESULT": 6,
+    "INFERENCE_RETURN": 8,
+    "SLOT_DISPOSITION": 38
+   },
+   "reader": {
+    "CAPACITY_REFUSAL": 513,
+    "CASE_END_BASE": 556,
+    "CASE_END_ONE_TICKET": 1257,
+    "CASE_END_PER_TICKET_MARGINAL": 704,
+    "CHANNEL_RESULT": 1202,
+    "INFERENCE_RETURN": 2533,
+    "SLOT_DISPOSITION": 2502
+   },
+   "variant": {
+    "L": 64,
+    "actor_ids": "('A0xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx', 'b')",
+    "events": 9223372036854775807,
+    "kinds": {
+     "ACTOR_TRANSITION": 9223372036854775807
+    }
+   }
+  }
+ ],
+ "scenarios": [
+  {
+   "agree": true,
+   "bytes": 43599,
+   "cap": 512000000,
+   "closed": true,
+   "events": 37,
+   "max_line_by_kind": {
+    "CAPACITY_REFUSAL": 317,
+    "CASE_END": 414,
+    "CHANNEL_RESULT": 880,
+    "INFERENCE_RETURN": 1227,
+    "SLOT_DISPOSITION": 1780
+   },
+   "module_bounds": {
+    "CAPACITY_REFUSAL": 518,
+    "CASE_END_BASE": 561,
+    "CASE_END_PER_TICKET": 704,
+    "CHANNEL_RESULT": 1208,
+    "INFERENCE_RETURN": 2541,
+    "SLOT_DISPOSITION": 2540
+   },
+   "module_min_headroom": 511922065,
+   "module_replay": "ACCEPT",
+   "reader_bounds": {
+    "CAPACITY_REFUSAL": 499,
+    "CASE_END_BASE": 542,
+    "CASE_END_ONE_TICKET": 1243,
+    "CASE_END_PER_TICKET_MARGINAL": 704,
+    "CHANNEL_RESULT": 1117,
+    "INFERENCE_RETURN": 2519,
+    "SLOT_DISPOSITION": 2403
+   },
+   "reader_exit": 0,
+   "reader_first_violation": null,
+   "reader_headroom_ge_module": true,
+   "reader_min_headroom": 511927171,
+   "reader_verdict": "PASS",
+   "replay_state_equals_live": true,
+   "scenario": "normal"
+  },
+  {
+   "agree": true,
+   "bytes": 206940,
+   "cap": 512000000,
+   "closed": true,
+   "events": 175,
+   "max_line_by_kind": {
+    "CAPACITY_REFUSAL": 497,
+    "CASE_END": 2091,
+    "CHANNEL_RESULT": 1169,
+    "INFERENCE_RETURN": 2517,
+    "SLOT_DISPOSITION": 2450
+   },
+   "module_bounds": {
+    "CAPACITY_REFUSAL": 518,
+    "CASE_END_BASE": 561,
+    "CASE_END_PER_TICKET": 704,
+    "CHANNEL_RESULT": 1208,
+    "INFERENCE_RETURN": 2541,
+    "SLOT_DISPOSITION": 2540
+   },
+   "module_min_headroom": 511688106,
+   "module_replay": "ACCEPT",
+   "reader_bounds": {
+    "CAPACITY_REFUSAL": 497,
+    "CASE_END_BASE": 540,
+    "CASE_END_ONE_TICKET": 1241,
+    "CASE_END_PER_TICKET_MARGINAL": 704,
+    "CHANNEL_RESULT": 1169,
+    "INFERENCE_RETURN": 2517,
+    "SLOT_DISPOSITION": 2452
+   },
+   "reader_exit": 0,
+   "reader_first_violation": null,
+   "reader_headroom_ge_module": true,
+   "reader_min_headroom": 511694538,
+   "reader_verdict": "PASS",
+   "replay_state_equals_live": true,
+   "scenario": "worst_L64"
+  },
+  {
+   "agree": true,
+   "bytes": 166791,
+   "cap": 512000000,
+   "closed": true,
+   "events": 155,
+   "max_line_by_kind": {
+    "CAPACITY_REFUSAL": 371,
+    "CASE_END": 642,
+    "CHANNEL_RESULT": 980,
+    "INFERENCE_RETURN": 2391,
+    "SLOT_DISPOSITION": 2135
+   },
+   "module_bounds": {
+    "CAPACITY_REFUSAL": 392,
+    "CASE_END_BASE": 498,
+    "CASE_END_PER_TICKET": 74,
+    "CHANNEL_RESULT": 1019,
+    "INFERENCE_RETURN": 2415,
+    "SLOT_DISPOSITION": 2225
+   },
+   "module_min_headroom": 511744005,
+   "module_replay": "ACCEPT",
+   "reader_bounds": {
+    "CAPACITY_REFUSAL": 371,
+    "CASE_END_BASE": 477,
+    "CASE_END_ONE_TICKET": 548,
+    "CASE_END_PER_TICKET_MARGINAL": 74,
+    "CHANNEL_RESULT": 980,
+    "INFERENCE_RETURN": 2391,
+    "SLOT_DISPOSITION": 2146
+   },
+   "reader_exit": 0,
+   "reader_first_violation": null,
+   "reader_headroom_ge_module": true,
+   "reader_min_headroom": 511750005,
+   "reader_verdict": "PASS",
+   "replay_state_equals_live": true,
+   "scenario": "worst_L1"
+  },
+  {
+   "agree": true,
+   "bytes": 261221,
+   "cap": 512000000,
+   "closed": true,
+   "events": 216,
+   "max_line_by_kind": {
+    "CAPACITY_REFUSAL": 308,
+    "CASE_END": 1112,
+    "CHANNEL_RESULT": 837,
+    "INFERENCE_RETURN": 1579,
+    "SLOT_DISPOSITION": 1989
+   },
+   "module_bounds": {
+    "CAPACITY_REFUSAL": 422,
+    "CASE_END_BASE": 513,
+    "CASE_END_PER_TICKET": 224,
+    "CHANNEL_RESULT": 1064,
+    "INFERENCE_RETURN": 2445,
+    "SLOT_DISPOSITION": 2300
+   },
+   "module_min_headroom": 511075257,
+   "module_replay": "ACCEPT",
+   "reader_bounds": {
+    "CAPACITY_REFUSAL": 403,
+    "CASE_END_BASE": 494,
+    "CASE_END_ONE_TICKET": 715,
+    "CASE_END_PER_TICKET_MARGINAL": 224,
+    "CHANNEL_RESULT": 1021,
+    "INFERENCE_RETURN": 2423,
+    "SLOT_DISPOSITION": 2211
+   },
+   "reader_exit": 0,
+   "reader_first_violation": null,
+   "reader_headroom_ge_module": true,
+   "reader_min_headroom": 511105493,
+   "reader_verdict": "PASS",
+   "replay_state_equals_live": true,
+   "scenario": "multi_ticket"
+  },
+  {
+   "agree": true,
+   "bytes": 62268,
+   "cap": 70677,
+   "closed": true,
+   "events": 43,
+   "extra": {
+    "cap": 70677,
+    "drain": {
+     "blocked": [],
+     "defects": [],
+     "unexpected": [],
+     "written": 38
+    },
+    "module_headroom_after_prefix": 0,
+    "next_ordinary": "BYTE_RESERVATION_REFUSED"
+   },
+   "max_line_by_kind": {
+    "CAPACITY_REFUSAL": 360,
+    "CASE_END": 435,
+    "CHANNEL_RESULT": 999,
+    "INFERENCE_RETURN": 2379,
+    "SLOT_DISPOSITION": 2169
+   },
+   "module_bounds": {
+    "CAPACITY_REFUSAL": 454,
+    "CASE_END_BASE": 529,
+    "CASE_END_PER_TICKET": 384,
+    "CHANNEL_RESULT": 1112,
+    "INFERENCE_RETURN": 2477,
+    "SLOT_DISPOSITION": 2380
+   },
+   "module_min_headroom": 0,
+   "module_replay": "ACCEPT",
+   "reader_bounds": {
+    "CAPACITY_REFUSAL": 435,
+    "CASE_END_BASE": 510,
+    "CASE_END_ONE_TICKET": 891,
+    "CASE_END_PER_TICKET_MARGINAL": 384,
+    "CHANNEL_RESULT": 1078,
+    "INFERENCE_RETURN": 2455,
+    "SLOT_DISPOSITION": 2300
+   },
+   "reader_exit": 0,
+   "reader_first_violation": null,
+   "reader_headroom_ge_module": true,
+   "reader_min_headroom": 1947,
+   "reader_verdict": "PASS",
+   "replay_state_equals_live": true,
+   "scenario": "tight_L32"
+  },
+  {
+   "agree": true,
+   "bytes": 57710,
+   "cap": 65251,
+   "closed": true,
+   "events": 43,
+   "extra": {
+    "cap": 65251,
+    "drain": {
+     "blocked": [],
+     "defects": [],
+     "unexpected": [],
+     "written": 38
+    },
+    "module_headroom_after_prefix": 0,
+    "next_ordinary": "BYTE_RESERVATION_REFUSED"
+   },
+   "max_line_by_kind": {
+    "CAPACITY_REFUSAL": 298,
+    "CASE_END": 404,
+    "CHANNEL_RESULT": 906,
+    "INFERENCE_RETURN": 2317,
+    "SLOT_DISPOSITION": 2014
+   },
+   "module_bounds": {
+    "CAPACITY_REFUSAL": 392,
+    "CASE_END_BASE": 498,
+    "CASE_END_PER_TICKET": 74,
+    "CHANNEL_RESULT": 1019,
+    "INFERENCE_RETURN": 2415,
+    "SLOT_DISPOSITION": 2225
+   },
+   "module_min_headroom": 0,
+   "module_replay": "ACCEPT",
+   "reader_bounds": {
+    "CAPACITY_REFUSAL": 373,
+    "CASE_END_BASE": 479,
+    "CASE_END_ONE_TICKET": 550,
+    "CASE_END_PER_TICKET_MARGINAL": 74,
+    "CHANNEL_RESULT": 985,
+    "INFERENCE_RETURN": 2393,
+    "SLOT_DISPOSITION": 2154
+   },
+   "reader_exit": 0,
+   "reader_first_violation": null,
+   "reader_headroom_ge_module": true,
+   "reader_min_headroom": 1803,
+   "reader_verdict": "PASS",
+   "replay_state_equals_live": true,
+   "scenario": "tight_L1"
+  },
+  {
+   "agree": true,
+   "bytes": 69324,
+   "cap": 79077,
+   "closed": true,
+   "events": 43,
+   "extra": {
+    "cap": 79077,
+    "drain": {
+     "blocked": [],
+     "defects": [],
+     "unexpected": [],
+     "written": 38
+    },
+    "module_headroom_after_prefix": 0,
+    "next_ordinary": "BYTE_RESERVATION_REFUSED"
+   },
+   "max_line_by_kind": {
+    "CAPACITY_REFUSAL": 456,
+    "CASE_END": 483,
+    "CHANNEL_RESULT": 1143,
+    "INFERENCE_RETURN": 2475,
+    "SLOT_DISPOSITION": 2409
+   },
+   "module_bounds": {
+    "CAPACITY_REFUSAL": 550,
+    "CASE_END_BASE": 577,
+    "CASE_END_PER_TICKET": 864,
+    "CHANNEL_RESULT": 1256,
+    "INFERENCE_RETURN": 2573,
+    "SLOT_DISPOSITION": 2620
+   },
+   "module_min_headroom": 0,
+   "module_replay": "ACCEPT",
+   "reader_bounds": {
+    "CAPACITY_REFUSAL": 531,
+    "CASE_END_BASE": 558,
+    "CASE_END_ONE_TICKET": 1419,
+    "CASE_END_PER_TICKET_MARGINAL": 864,
+    "CHANNEL_RESULT": 1222,
+    "INFERENCE_RETURN": 2551,
+    "SLOT_DISPOSITION": 2540
+   },
+   "reader_exit": 0,
+   "reader_first_violation": null,
+   "reader_headroom_ge_module": true,
+   "reader_min_headroom": 1947,
+   "reader_verdict": "PASS",
+   "replay_state_equals_live": true,
+   "scenario": "tight_L80"
+  },
+  {
+   "agree": true,
+   "bytes": 3123,
+   "cap": 512000000,
+   "closed": true,
+   "events": 3,
+   "max_line_by_kind": {
+    "CAPACITY_REFUSAL": 304,
+    "CASE_END": 404,
+    "CHANNEL_RESULT": null,
+    "INFERENCE_RETURN": null,
+    "SLOT_DISPOSITION": null
+   },
+   "module_bounds": {
+    "CAPACITY_REFUSAL": 518,
+    "CASE_END_BASE": 561,
+    "CASE_END_PER_TICKET": 704,
+    "CHANNEL_RESULT": 1208,
+    "INFERENCE_RETURN": 2541,
+    "SLOT_DISPOSITION": 2540
+   },
+   "module_min_headroom": 511995988,
+   "module_replay": "ACCEPT",
+   "reader_bounds": {
+    "CAPACITY_REFUSAL": 499,
+    "CASE_END_BASE": 542,
+    "CASE_END_ONE_TICKET": 1243,
+    "CASE_END_PER_TICKET_MARGINAL": 704,
+    "CHANNEL_RESULT": 1117,
+    "INFERENCE_RETURN": 2519,
+    "SLOT_DISPOSITION": 2403
+   },
+   "reader_exit": 0,
+   "reader_first_violation": null,
+   "reader_headroom_ge_module": true,
+   "reader_min_headroom": 511996045,
+   "reader_verdict": "PASS",
+   "replay_state_equals_live": true,
+   "scenario": "stateless_close"
+  },
+  {
+   "agree": true,
+   "bytes": 9263,
+   "cap": 512000000,
+   "closed": false,
+   "events": 6,
+   "max_line_by_kind": {
+    "CAPACITY_REFUSAL": null,
+    "CASE_END": null,
+    "CHANNEL_RESULT": null,
+    "INFERENCE_RETURN": 2328,
+    "SLOT_DISPOSITION": 1831
+   },
+   "module_bounds": {
+    "CAPACITY_REFUSAL": 430,
+    "CASE_END_BASE": 517,
+    "CASE_END_PER_TICKET": 264,
+    "CHANNEL_RESULT": 1076,
+    "INFERENCE_RETURN": 2453,
+    "SLOT_DISPOSITION": 2320
+   },
+   "module_min_headroom": 511961054,
+   "module_replay": "ACCEPT",
+   "reader_bounds": {
+    "CAPACITY_REFUSAL": 411,
+    "CASE_END_BASE": 498,
+    "CASE_END_ONE_TICKET": 759,
+    "CASE_END_PER_TICKET_MARGINAL": 264,
+    "CHANNEL_RESULT": 1029,
+    "INFERENCE_RETURN": 2431,
+    "SLOT_DISPOSITION": 2227
+   },
+   "reader_exit": 0,
+   "reader_first_violation": null,
+   "reader_headroom_ge_module": true,
+   "reader_min_headroom": 511962510,
+   "reader_verdict": "PASS",
+   "replay_state_equals_live": true,
+   "scenario": "open_unclosed"
+  }
+ ]
+}

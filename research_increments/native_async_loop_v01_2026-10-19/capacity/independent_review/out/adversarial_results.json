@@ -1,0 +1,341 @@
+{
+ "differential": {
+  "clean": {
+   "divergences": {
+    "close | v0.1=STATE_REQUIRED | v0.2=ACCEPTED": 20
+   },
+   "examples": {
+    "close | v0.1=STATE_REQUIRED | v0.2=ACCEPTED": {
+     "op": "close",
+     "reason": "&<m.mG}#U%|q&:7c%mn4bm]R=.*A0t=!h",
+     "wall": 1
+    }
+   },
+   "ops": 33874,
+   "runs": 583,
+   "runs_without_divergence": 563
+  },
+  "raw": {
+   "divergences": {
+    "actor | v0.1=ACCEPTED | v0.2=ACTOR_TRANSITION_INVALID": 9,
+    "close | v0.1=STATE_REQUIRED | v0.2=ACCEPTED": 45,
+    "garbage | v0.1=ACCEPTED | v0.2=END_REASON_REQUIRED": 159,
+    "garbage | v0.1=ACCEPTED | v0.2=PACKET_ID_INVALID": 138,
+    "garbage | v0.1=ACCEPTED | v0.2=STATE_ID_SHA_REQUIRED": 166,
+    "refusal | v0.1=ACCEPTED | v0.2=REFUSAL_REASON_REQUIRED": 325,
+    "refusal | v0.1=STATE_REQUIRED | v0.2=ACCEPTED": 477,
+    "ret | v0.1=ACCEPTED | v0.2=TARGET_INT_MAGNITUDE_REFUSED": 97,
+    "slot | v0.1=ACCEPTED | v0.2=AUTHORIZATION_SHAPE_INVALID": 218,
+    "slot | v0.1=ACCEPTED | v0.2=ORIGINAL_GOAL_AUTHORIZATION_MUST_BE_NULL": 97
+   },
+   "examples": {
+    "actor | v0.1=ACCEPTED | v0.2=ACTOR_TRANSITION_INVALID": {
+     "op": "actor",
+     "pick": 0,
+     "reason": "a\nb",
+     "wall": 4029
+    },
+    "close | v0.1=STATE_REQUIRED | v0.2=ACCEPTED": {
+     "op": "close",
+     "reason": "q/0",
+     "wall": 1000
+    },
+    "garbage | v0.1=ACCEPTED | v0.2=END_REASON_REQUIRED": {
+     "op": "garbage",
+     "tok": "a\nb",
+     "variant": 9,
+     "wall": 1008
+    },
+    "garbage | v0.1=ACCEPTED | v0.2=PACKET_ID_INVALID": {
+     "op": "garbage",
+     "tok": "a\nb",
+     "variant": 3,
+     "wall": 1007
+    },
+    "garbage | v0.1=ACCEPTED | v0.2=STATE_ID_SHA_REQUIRED": {
+     "op": "garbage",
+     "tok": "a\nb",
+     "variant": 2,
+     "wall": 9223372036854775807
+    },
+    "refusal | v0.1=ACCEPTED | v0.2=REFUSAL_REASON_REQUIRED": {
+     "op": "refusal",
+     "reason": "a\nb",
+     "rk": ")rFo#k#",
+     "wall": 1001
+    },
+    "refusal | v0.1=STATE_REQUIRED | v0.2=ACCEPTED": {
+     "op": "refusal",
+     "reason": "3ooIWr2(rC9(Tk>qAN'l...",
+     "rk": "KFCv56:}/.RI4JIEmvR(...",
+     "wall": 9223372036854775807
+    },
+    "ret | v0.1=ACCEPTED | v0.2=TARGET_INT_MAGNITUDE_REFUSED": {
+     "bad": "bigint",
+     "op": "ret",
+     "pick": 0.6845156635825543,
+     "rows": "small",
+     "status": "OK",
+     "wall": 5058
+    },
+    "slot | v0.1=ACCEPTED | v0.2=AUTHORIZATION_SHAPE_INVALID": {
+     "auth": "garbage",
+     "op": "slot",
+     "pick": 0.7577125071470202,
+     "tamper": null,
+     "wall": 7013
+    },
+    "slot | v0.1=ACCEPTED | v0.2=ORIGINAL_GOAL_AUTHORIZATION_MUST_BE_NULL": {
+     "auth": "other_shape",
+     "op": "slot",
+     "pick": 0.5547358212992411,
+     "tamper": null,
+     "wall": 6037
+    }
+   },
+   "ops": 59125,
+   "runs": 2283,
+   "runs_without_divergence": 552
+  }
+ },
+ "elapsed_s": 520.1,
+ "fuzz": {
+  "anomalies": [],
+  "anomaly_counts": {},
+  "stats": {
+   "('accepted', 'actor')": 516,
+   "('accepted', 'chan')": 157,
+   "('accepted', 'close')": 864,
+   "('accepted', 'failure')": 1578,
+   "('accepted', 'observe')": 10760,
+   "('accepted', 'packet')": 5241,
+   "('accepted', 'refusal')": 5728,
+   "('accepted', 'ret')": 876,
+   "('accepted', 'slot')": 3686,
+   "('accepted', 'start')": 999,
+   "('channel', 'APPLIED')": 30,
+   "('channel', 'DROPPED')": 47,
+   "('channel', 'REJECTED')": 1425,
+   "('disposition', 'ACTOR_REVOKED')": 1199,
+   "('disposition', 'ERROR_NO_OUTPUT')": 3347,
+   "('disposition', 'GUARD_REJECTED')": 384,
+   "('disposition', 'PADDING')": 6889,
+   "('disposition', 'STALE')": 3322,
+   "('disposition', 'SUBMIT')": 1512,
+   "('drain_blocked', 'POST_DEADLINE_RECOVERY_REQUIRES_FULL_FALSE')": 53,
+   "('drain_blocked', 'RECOVERY_REQUIRES_KNOWN_FAILURE')": 275,
+   "('header_rejected', 'COUNT_RESERVE_UNSATISFIABLE')": 32,
+   "('min_slack_module', 'CAPACITY_REFUSAL')": 37,
+   "('min_slack_module', 'CHANNEL_RESULT')": 58,
+   "('min_slack_module', 'INFERENCE_RETURN')": 42,
+   "('min_slack_module', 'SLOT_DISPOSITION')": 137,
+   "('min_slack_reader', 'CAPACITY_REFUSAL')": 15,
+   "('min_slack_reader', 'CASE_END')": 15,
+   "('min_slack_reader', 'CHANNEL_RESULT')": 19,
+   "('min_slack_reader', 'INFERENCE_RETURN')": 17,
+   "('min_slack_reader', 'SLOT_DISPOSITION')": 59,
+   "('refused', 'actor', 'ACTOR_TRANSITION_INVALID')": 406,
+   "('refused', 'actor', 'BYTE_RESERVATION_REFUSED')": 213,
+   "('refused', 'actor', 'EVENT_CAPACITY_REFUSED')": 5,
+   "('refused', 'actor', 'STATE_REQUIRED')": 646,
+   "('refused', 'chan', 'APPLIED_ORIGINAL_TICK_OR_READY_MISMATCH')": 35,
+   "('refused', 'chan', 'CHANNEL_OWNER_TARGET_MISMATCH')": 9,
+   "('refused', 'chan', 'STATE_REQUIRED')": 7999,
+   "('refused', 'chan', 'SUBMITTED_PENDING_COMMAND_REQUIRED')": 12759,
+   "('refused', 'failure', 'BYTE_RESERVATION_REFUSED')": 934,
+   "('refused', 'failure', 'EVENT_CAPACITY_REFUSED')": 33,
+   "('refused', 'failure', 'HARD_FAILURE_ABSORBING')": 663,
+   "('refused', 'failure', 'STATE_REQUIRED')": 1962,
+   "('refused', 'garbage', 'ACCEPTED_CLOCK_ROLLBACK')": 649,
+   "('refused', 'garbage', 'ACTOR_TRANSITION_INVALID')": 537,
+   "('refused', 'garbage', 'END_REASON_REQUIRED')": 845,
+   "('refused', 'garbage', 'FAILURE_EVIDENCE_INVALID')": 522,
+   "('refused', 'garbage', 'GARBAGE_NOOP')": 1572,
+   "('refused', 'garbage', 'IMMUTABLE_BYTES_REQUIRED')": 509,
+   "('refused', 'garbage', 'KIND_CAPACITY_REFUSED')": 3,
+   "('refused', 'garbage', 'PACKET_ID_INVALID')": 522,
+   "('refused', 'garbage', 'PREPARED_EXPECTATION_MISMATCH')": 843,
+   "('refused', 'garbage', 'STATE_ID_SHA_REQUIRED')": 564,
+   "('refused', 'garbage', 'STATE_REQUIRED')": 1195,
+   "('refused', 'garbage', 'STATE_TYPES_INVALID')": 913,
+   "('refused', 'garbage', 'TICKET_ID_INVALID_OR_DUPLICATE')": 179,
+   "('refused', 'garbage', 'WALL_MONOTONIC_INTEGER_REQUIRED')": 2554,
+   "('refused', 'observe', 'ACCEPTED_CLOCK_ROLLBACK')": 451,
+   "('refused', 'observe', 'BYTE_RESERVATION_REFUSED')": 13735,
+   "('refused', 'observe', 'DUPLICATE_STATE_ID')": 136,
+   "('refused', 'observe', 'EVENT_CAPACITY_REFUSED')": 198,
+   "('refused', 'observe', 'JOURNAL_TOTAL_BYTE_CAPACITY_REFUSED')": 949,
+   "('refused', 'observe', 'KIND_CAPACITY_REFUSED')": 159,
+   "('refused', 'observe', 'STATE_TYPES_INVALID')": 379,
+   "('refused', 'packet', 'ASSET_CAPACITY_REFUSED')": 696,
+   "('refused', 'packet', 'BYTE_RESERVATION_REFUSED')": 2341,
+   "('refused', 'packet', 'EVENT_CAPACITY_REFUSED')": 73,
+   "('refused', 'packet', 'JOURNAL_LINE_BYTE_CAPACITY_REFUSED')": 436,
+   "('refused', 'packet', 'JOURNAL_TOTAL_BYTE_CAPACITY_REFUSED')": 175,
+   "('refused', 'packet', 'KIND_CAPACITY_REFUSED')": 88,
+   "('refused', 'packet', 'PACKET_ID_INVALID')": 53,
+   "('refused', 'packet', 'PACKET_SHA_OR_ARCHIVE_CAPACITY')": 1932,
+   "('refused', 'packet', 'STATE_REQUIRED')": 6817,
+   "('refused', 'refusal', 'KIND_CAPACITY_REFUSED')": 394,
+   "('refused', 'refusal', 'REFUSAL_REASON_REQUIRED')": 1604,
+   "('refused', 'refusal', 'REFUSAL_RESERVE_EXHAUSTED')": 1153,
+   "('refused', 'ret', 'FINITE_NONBOOL_TARGET_REQUIRED')": 49,
+   "('refused', 'ret', 'KIND_CAPACITY_REFUSED')": 40,
+   "('refused', 'ret', 'OUTPUT_H8_REQUIRED')": 48,
+   "('refused', 'ret', 'RAW:ValueError')": 1143,
+   "('refused', 'ret', 'STATE_REQUIRED')": 8137,
+   "('refused', 'ret', 'TARGET_INT_MAGNITUDE_REFUSED')": 59,
+   "('refused', 'ret', 'UNKNOWN_TICKET')": 12167,
+   "('refused', 'slot', 'AUTHORIZATION_SHAPE_INVALID')": 640,
+   "('refused', 'slot', 'CURRENT_QUEUE_MISMATCH')": 366,
+   "('refused', 'slot', 'CURRENT_TARGET_AUTHORIZATION_REQUIRED')": 43,
+   "('refused', 'slot', 'LATEST_CURRENT_STATE_REQUIRED')": 13871,
+   "('refused', 'slot', 'ORIGINAL_GOAL_AUTHORIZATION_MUST_BE_NULL')": 337,
+   "('refused', 'slot', 'POST_DEADLINE_RECOVERY_REQUIRES_FULL_FALSE')": 11,
+   "('refused', 'slot', 'PREPARED_FIELDS_REQUIRED')": 368,
+   "('refused', 'slot', 'PREPARED_STALE_OR_TAMPERED')": 386,
+   "('refused', 'slot', 'RECOVERY_REQUIRES_KNOWN_FAILURE')": 48,
+   "('refused', 'slot', 'UNKNOWN_TICKET')": 16710,
+   "('refused', 'start', 'ASSET_CAPACITY_REFUSED')": 1032,
+   "('refused', 'start', 'BYTE_RESERVATION_REFUSED')": 4815,
+   "('refused', 'start', 'CURRENT_ACTOR_REQUIRED')": 1018,
+   "('refused', 'start', 'DELIVERED_PUBLIC_INPUT_PACKET_REQUIRED')": 10948,
+   "('refused', 'start', 'END_LINE_RESERVATION_EXCEEDS_LINE_CAP')": 140,
+   "('refused', 'start', 'EVENT_CAPACITY_REFUSED')": 682,
+   "('refused', 'start', 'JOURNAL_LINE_BYTE_CAPACITY_REFUSED')": 917,
+   "('refused', 'start', 'JOURNAL_TOTAL_BYTE_CAPACITY_REFUSED')": 1667,
+   "('refused', 'start', 'KIND_CAPACITY_REFUSED')": 13,
+   "('refused', 'start', 'ORIGINAL_SLOT_TIMES_INVALID')": 139,
+   "('refused', 'start', 'TICKET_ID_INVALID_OR_DUPLICATE')": 311,
+   "('refused', 'start', 'TICKET_OR_INFLIGHT_CAPACITY_REFUSED')": 1288,
+   "('refused', 'start', 'WHOLE_TICKET_COMMAND_CAPACITY_REFUSED')": 1504,
+   "('refused', 'start', 'WHOLE_TICKET_KIND_CAPACITY_REFUSED')": 693,
+   "drain_blocked_slots": 328,
+   "drain_events": 31565,
+   "drains": 5835,
+   "ops": 227169,
+   "reader_runs": 6699,
+   "runs": 2560,
+   "tight_states_lt_500": 4627,
+   "zero_headroom_states": 545
+  }
+ },
+ "seed": 20261019,
+ "targeted": [
+  {
+   "actual": "ACCEPTED line=1956 (module bound 2540); recorded target int has 309 digits; prepared_sha256 matches recorded fields=False; target_sha256 matches recorded target_9d=False; module-computed next prepared has earliest_apply_tick type=float; module replay=ACCEPT; independent reader=FAIL first={'seq': 5, 'category': 'FIELD_RANGE', 'detail': 'SLOT_DISPOSITION fields outside rules: target_9d/target_sha256,desired_tick,actor_generation,known_original_failure,owner'}",
+   "expected": "prepared recorded exactly as _prepare computed it; |target int|<=2^53; prepared_sha256/target_sha256 bind the recorded fields",
+   "id": "T1",
+   "severity": "MEDIUM (journal integrity; byte gate still bounds the line)",
+   "title": "commit_slot accepts caller prepared that is ==-equal but differently typed/serialized",
+   "verdict": "CONFIRMED_DEFECT"
+  },
+  {
+   "actual": "earliest_apply_tick=1.2345678901234568e+18 (float, 22 chars > 20); commit=ACCEPTED (fits only because of slack elsewhere in the line)",
+   "expected": "earliest_apply_tick is an int with <= 20 digits (WORST_INT assumption)",
+   "id": "T1b",
+   "severity": "LOW (same root cause as T1; per-field worst case exceeded, whole-line bound still enforced)",
+   "title": "type-confused desired_tick propagates into module-computed earliest_apply_tick",
+   "verdict": "CONFIRMED_DEFECT"
+  },
+  {
+   "actual": "live=ACCEPTED; module replay of the live journal=BridgeError:CHANNEL_OWNER_TARGET_MISMATCH",
+   "expected": "live writer refuses an owner that differs from the command owner",
+   "id": "T2a",
+   "severity": "LOW-MEDIUM (needs a hostile/buggy in-process caller; live journal becomes unreplayable)",
+   "title": "dict subclass with permissive __eq__ as claimed_owner",
+   "verdict": "CONFIRMED_DEFECT"
+  },
+  {
+   "actual": "commit evil=ACCEPTED; module-computed next prepared earliest_apply_tick has 3001 digits; its commit=RESERVED_LINE_BOUND_VIOLATED; CHANNEL_RESULT APPLIED at tick 1 for desired_tick 5=ACCEPTED; slot after drain=ACCEPTED; module replay=BridgeError:APPLIED_ORIGINAL_TICK_OR_READY_MISMATCH",
+   "expected": "a reserved SLOT_DISPOSITION computed by the module itself is always writable",
+   "id": "T2b",
+   "severity": "LOW-MEDIUM (hostile in-process caller; reserved event refused until queue drains; live/replay divergence)",
+   "title": "int subclass in prepared.desired_tick (== always, + returns 10**3000)",
+   "verdict": "CONFIRMED_DEFECT"
+  },
+  {
+   "actual": "generous caps: prepare=RECOVERY_REQUIRES_KNOWN_FAILURE; caps.events=30: prepare=RECOVERY_REQUIRES_KNOWN_FAILURE, FULL_TASK_FAILURE=EVENT_CAPACITY_REFUSED, OBSERVED_STATE=EVENT_CAPACITY_REFUSED, ACTOR_TRANSITION=EVENT_CAPACITY_REFUSED, CASE_END=ACCEPTED, closed with all 8 slots censored=True; post-deadline+known-not-full: prepare=POST_DEADLINE_RECOVERY_REQUIRES_FULL_FALSE; v0.1 same case: prepare=RECOVERY_REQUIRES_KNOWN_FAILURE FULL_TASK_FAILURE=EVENT_CAPACITY_REFUSED",
+   "expected": "every reserved SLOT_DISPOSITION writable without any further ordinary event (contract text)",
+   "id": "T3",
+   "severity": "MEDIUM (liveness of reserved events; CASE_END still guaranteed; pre-existing in v0.1, not a regression)",
+   "title": "admitted SAFE_LOCAL_RECOVERY ticket: SLOT_DISPOSITION needs an ordinary event first",
+   "verdict": "CONFIRMED_DEFECT"
+  },
+  {
+   "actual": "v0.1 START=ACCEPTED close=JOURNAL_TOTAL_BYTE_CAPACITY_REFUSED | v0.2 sweep outcomes {'ctor/JOURNAL_TOTAL_BYTE_CAPACITY_REFUSED': 40, 'ctor/BYTE_RESERVATION_REFUSED': 77, 'observe=BYTE_RESERVATION_REFUSED/close=ACCEPTED': 11, 'packet=BYTE_RESERVATION_REFUSED/close=ACCEPTED': 6, 'start=BYTE_RESERVATION_REFUSED/close=ACCEPTED': 442}; failures=[]",
+   "expected": "v0.1: START admitted then CASE_END refused; v0.2: at every cap, either the event is refused or the case drains+closes",
+   "id": "T4",
+   "title": "v0.1 byte defect (admitted START, unclosable case) re-tested on v0.2 with a cap sweep",
+   "verdict": "HOLDS"
+  },
+  {
+   "actual": "seq_float: module replay=ACCEPT, reader=FAIL/ENVELOPE; seq_bool: module replay=ACCEPT, reader=FAIL/ENVELOPE; clock_float: module replay=ACCEPT, reader=FAIL/FIELD_RANGE; wall_float: module replay=BridgeError:WALL_MONOTONIC_INTEGER_REQUIRED, reader=FAIL/FIELD_RANGE",
+   "expected": "replay refuses non-integer seq/clock (live writer only writes ints)",
+   "id": "T5",
+   "severity": "LOW (replay strictness; needs a re-chained forged file; bytes still gated by actual line length)",
+   "title": "replay accepts envelope values the live writer never emits (float/bool seq, float clock)",
+   "verdict": "CONFIRMED_DEFECT"
+  },
+  {
+   "actual": "{'return int 10**400': 'OverflowError:int too large to convert to float', 'return NaN': 'ValueError:Out of range float values are not JSON compliant: nan', 'return status list': \"TypeError:unhashable type: 'list'\", 'actor id list': \"TypeError:unhashable type: 'list'\", 'observe non-dict': 'STATE_FIELDS_REQUIRED', 'packet bytearray': 'IMMUTABLE_BYTES_REQUIRED', 'commit purpose list': 'FROZEN_PURPOSE_MISMATCH', 'prepare auth purpose list': \"TypeError:unhashable type: 'list'\"}; state/file mutated by: none; replay with blank line -> JSONDecodeError:Expecting value: line 1 column 1 (char 0)",
+   "expected": "every refusal is a BridgeError code and leaves state/file unchanged",
+   "id": "T6",
+   "severity": "LOW (robustness; no mutation observed)",
+   "title": "malformed inputs raise non-BridgeError exceptions (state/file unchanged?)",
+   "verdict": "CONFIRMED_DEFECT"
+  },
+  {
+   "actual": "L, seconds, peak bytes: [(1000, 0.001, 20518), (10000, 0.001, 146518), (100000, 0.006, 1406518), (1000000, 0.057, 14006518)]; extrapolated peak for L=1e9 ~ 14.0 GB (NOT_RUN)",
+   "expected": "bounds computable arithmetically in O(1) memory",
+   "id": "T7",
+   "severity": "LOW (header is externally pinned/trusted; replay and constructor both pay it)",
+   "title": "header-trusted max_token_chars drives O(L) string building in line_bounds()",
+   "verdict": "NOTE"
+  },
+  {
+   "actual": "slot outcomes=['ACCEPTED']; 56 command ids, 56 unique; drain={'defects': [], 'blocked': [], 'unexpected': []}",
+   "expected": "command_id = ticket+':'+digit is injective; no DUPLICATE_COMMAND",
+   "id": "T8",
+   "title": "ticket ids containing ':' (command_id collisions)",
+   "verdict": "HOLDS"
+  },
+  {
+   "actual": "refusals={'9007199254740993': 'TARGET_INT_MAGNITUDE_REFUSED', '-9007199254740993': 'TARGET_INT_MAGNITUDE_REFUSED', 'True': 'FINITE_NONBOOL_TARGET_REQUIRED', 'inf': 'ValueError:Out of range float values are not JSON compliant: inf'}; drain defects=[]; replay canonical-identical=True; reader=PASS min_slack={'INFERENCE_RETURN': 78, 'SLOT_DISPOSITION': 349, 'CHANNEL_RESULT': 82, 'CAPACITY_REFUSAL': 74, 'CASE_END': 74}",
+   "expected": "accepted values serialize within bounds; out-of-rule values refused; replay identical",
+   "id": "T9",
+   "title": "unusual floats/ints in targets (-0.0, 5e-324, 1e-320, +-2^53, 1e308, 24-char floats)",
+   "verdict": "HOLDS"
+  },
+  {
+   "actual": "NATIVE_SIM header: v0.1=CPU_FIXTURE_ONLY v0.2=ACCEPTED; refusal/close with no state: v0.1=('STATE_REQUIRED', 'STATE_REQUIRED') v0.2=('ACCEPTED', 'ACCEPTED'); token tightening (v0.1, v0.2) [refusal, close]: {'empty request_kind': (('ACCEPTED', 'ACCEPTED'), ('ACCEPTED', 'ACCEPTED')), 'reason 65 chars': (('ACCEPTED', 'ACCEPTED'), ('REFUSAL_REASON_REQUIRED', 'END_REASON_REQUIRED')), 'unicode reason': (('ACCEPTED', 'ACCEPTED'), ('REFUSAL_REASON_REQUIRED', 'END_REASON_REQUIRED')), 'newline': (('ACCEPTED', 'ACCEPTED'), ('REFUSAL_REASON_REQUIRED', 'END_REASON_REQUIRED'))}",
+   "expected": "only byte-reservation tightening",
+   "id": "T10",
+   "severity": "LOW/INFO (NATIVE_SIM accepted by an unchanged CPU-fixture code path; callers' long/unicode reasons now refused)",
+   "title": "v0.1 -> v0.2 semantic scope changes",
+   "verdict": "NOTE"
+  },
+  {
+   "actual": "66 header variants + 12 digit-boundary variants, 0 failures []; min caps within 3 of 10^4/10^5 (T, pad, min_cap, result): [(10000, 298, 9997, 'closed=True bytes=8339 reader=PASS'), (10000, 299, 9998, 'closed=True bytes=8340 reader=PASS'), (10000, 300, 9999, 'closed=True bytes=8341 reader=PASS'), (10000, 301, 10001, 'closed=True bytes=8343 reader=PASS'), (10000, 302, 10002, 'closed=True bytes=8344 reader=PASS'), (10000, 303, 10003, 'closed=True bytes=8345 reader=PASS'), (100000, 409, 99997, 'closed=True bytes=77809 reader=PASS'), (100000, 410, 99998, 'closed=True bytes=77810 reader=PASS'), (100000, 411, 99999, 'closed=True bytes=77811 reader=PASS'), (100000, 412, 100001, 'closed=True bytes=77813 reader=PASS'), (100000, 413, 100002, 'closed=True bytes=77814 reader=PASS'), (100000, 414, 100003, 'closed=True bytes=77815 reader=PASS')]; headroom at min cap ranges 0..0",
+   "expected": "cap-1 refused at construction; at min cap every remaining refusal and CASE_END fit; monotone above",
+   "id": "T11",
+   "title": "minimal journal_bytes caps (cap digits inside CASE_BEGIN) then all refusals + CASE_END",
+   "verdict": "HOLDS"
+  },
+  {
+   "actual": "fit=ACCEPTED headroom_after=0 drain_defects=[] blocked=[]; +1 byte=BYTE_RESERVATION_REFUSED unchanged=True",
+   "expected": "fit -> ACCEPTED headroom 0, drain ok; +1 byte -> BYTE_RESERVATION_REFUSED, state/file unchanged",
+   "id": "T12",
+   "title": "exact-fit ordinary event at headroom 0, then worst-case drain",
+   "verdict": "HOLDS"
+  },
+  {
+   "actual": "before_write: OSError:injected broken=True state_unchanged=True replay=ACCEPT(1 ev) reader=PASS close=JOURNAL_BROKEN; after_write: OSError:injected broken=True state_unchanged=True replay=ACCEPT(2 ev) reader=PASS close=JOURNAL_BROKEN; after_flush: OSError:injected broken=True state_unchanged=True replay=ACCEPT(2 ev) reader=PASS close=JOURNAL_BROKEN; after_fsync: OSError:injected broken=True state_unchanged=True replay=ACCEPT(2 ev) reader=PASS close=JOURNAL_BROKEN",
+   "expected": "live owner BROKEN; on-disk prefix replayable and within reservation",
+   "id": "T13",
+   "severity": "INFO (by design: a BROKEN owner can no longer write CASE_END; outside the byte guarantee)",
+   "title": "persist hook failures (persistence uncertainty)",
+   "verdict": "NOTE"
+  }
+ ]
+}

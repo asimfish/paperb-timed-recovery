@@ -1,0 +1,41 @@
+{
+  "status": "NATIVE_ASYNC_LOOP_FINISHED",
+  "stop_reason": "TASK_TICKS_COMPLETED",
+  "guard_stop_tick": null,
+  "final_tick": 1200,
+  "counts": {
+    "applied": 99,
+    "rejected": 943,
+    "video_frames": 120,
+    "requests": 149,
+    "returns": 149,
+    "worker_errors": 0,
+    "dropped_at_end": 0
+  },
+  "censored": {
+    "unreturned_tickets": [],
+    "unresolved_slots": {},
+    "pending_commands": [],
+    "unresolved_outcomes": "UNKNOWN_NO_AUTOMATIC_RESEND"
+  },
+  "tickets": 149,
+  "worker_exit_code": 0,
+  "worker_tail": [
+    {
+      "cuda_initialized": false,
+      "final_parameter_digest": "8dd8cc5bc87e4cb6892b24388238aeaa598f9a9106be4feb388d2f92748e146b",
+      "initial_parameter_digest": "8dd8cc5bc87e4cb6892b24388238aeaa598f9a9106be4feb388d2f92748e146b",
+      "kind": "STOPPED",
+      "new_training_updates": 0,
+      "served": 149,
+      "wall_ns": 82520979716787
+    }
+  ],
+  "physics_steps_total": 1440,
+  "warmup_ticks": 240,
+  "owner_wall_s": 504.6509843630047,
+  "task_success_scored": false,
+  "chemical_event_verified": false,
+  "force_qualified": false,
+  "policy_quality_claim": false
+}

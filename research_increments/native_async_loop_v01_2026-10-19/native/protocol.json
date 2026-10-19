@@ -1,0 +1,53 @@
+{
+  "schema": "PaperBNativeAsyncLoopProtocol/1",
+  "declared_before_native_execution": true,
+  "case_id": "na1_p0_async_closed_loop",
+  "question": "Can one owner keep stepping native physics while a separate CPU process infers, and apply the returned 8-slot chunk only at its original desired ticks, with a closable byte-reserved journal, raw worker channel, tick log and video?",
+  "scene": {
+    "source_root": "/data/liyufeng/paperb_handoff_force_diagnostics_20261014_v2",
+    "plan_path": "/data/liyufeng/paperb_handoff_force_diagnostics_20261014_v2/plan.json",
+    "code_path": "/data/liyufeng/paperb_handoff_force_diagnostics_20261014_v2/code",
+    "robot": "fr3_A",
+    "camera": "station_a_camera",
+    "camera_resolution": [640, 400]
+  },
+  "dt_s": 0.004166666666666667,
+  "physx": {"solver_type": 1, "max_position_iteration_count": 32, "max_velocity_iteration_count": 4, "enable_ccd": true},
+  "warmup_ticks": 240,
+  "task_ticks": 1200,
+  "request_period_ticks": 8,
+  "video_every_ticks": 10,
+  "channel_latency_ticks": 1,
+  "return_wait_s": 10,
+  "worker_ready_timeout_s": 180,
+  "guard": {
+    "position_tolerance": [0.15, 0.15, 0.15, 0.15, 0.15, 0.15, 0.15, 0.0005, 0.0005],
+    "speed_limit": [30, 30, 30, 30, 30, 30, 30, 2, 2],
+    "on_violation": "STOP: no further apply/start; pending commands DROPPED; in-flight ticket awaited without physics, else censored"
+  },
+  "target_admission": "finite 9D target inside actual native joint limits, else CHANNEL_RESULT REJECTED and the previous target is held; no clipping",
+  "policy": {
+    "model": "prior P0 engineering checkpoint (200 CPU updates on one seen M1 episode); actions known to be inaccurate",
+    "inputs": "64x40 bilinear RGB of the station-A frame rendered at the request tick, q9+qd9, nominal offsets 1..8, full mask",
+    "worker": "separate CPU process, CUDA hidden, fixed noise seed, 16-step deterministic DDIM",
+    "chunk": "desired ticks request_tick+1..+8; slots earlier than current_tick+latency at return are STALE, never re-timed"
+  },
+  "budget": {
+    "formal_native_cases": 1,
+    "max_launch_attempts": 3,
+    "attempt_counts_as_formal_once": "NATIVE_CLOCK_STARTED.json exists",
+    "no_new_attempt_after_native_clock": true,
+    "child_wall_cap_s": 1500,
+    "gpu_min_free_mib": 16384
+  },
+  "claims_allowed": [
+    "native physics advanced while the worker inferred (ticks counted per ticket from the journal)",
+    "returned slots applied only at original desired ticks, at most one per tick, FIFO",
+    "byte-reserved journal closed with explicit censoring",
+    "video of the actual native camera at fixed physics ticks"
+  ],
+  "claims_excluded": [
+    "task or chemistry success", "force or load qualification", "policy quality or VLA time accuracy",
+    "real-time control (sim steps are not wall-paced)", "S/F/R admission", "M/B3 learning comparison", "real robot"
+  ]
+}

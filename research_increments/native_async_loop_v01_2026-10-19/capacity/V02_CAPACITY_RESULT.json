@@ -1,0 +1,89 @@
+{
+  "schema": "PaperBAsyncBridgeV02CapacityResult/1",
+  "source": "code/async_bridge.py",
+  "v01_retained_red": "retained_v01_red/byte_closure_rerun/RESULT.json (v0.1 d044729: start admitted at 5,260 B under 5,360 B cap, CASE_END refused)",
+  "v02_on_v01_sequence": {
+    "start_threshold_bytes": 43124,
+    "cap_5360": "CASE_BEGIN_REFUSED",
+    "start_threshold_minus_1": "START_REFUSED_THEN_CLOSED",
+    "start_threshold": "START_ADMITTED_THEN_CLOSED",
+    "sweep_cases": 6189,
+    "sweep_stride": 7,
+    "sweep_outcomes": {
+      "CASE_BEGIN_REFUSED": 1017,
+      "PACKET_REFUSED_THEN_CLOSED": 64,
+      "START_ADMITTED_THEN_CLOSED": 28,
+      "START_REFUSED_THEN_CLOSED": 4990,
+      "STATE_REFUSED_THEN_CLOSED": 90
+    },
+    "sweep_unclosable_admitted_cases": 0
+  },
+  "fixture_line_bounds_bytes": {
+    "INFERENCE_RETURN": 2541,
+    "SLOT_DISPOSITION": 2540,
+    "CHANNEL_RESULT": 1208,
+    "CAPACITY_REFUSAL": 518,
+    "CASE_END_BASE": 561,
+    "CASE_END_PER_TICKET": 704
+  },
+  "fixture_max_token_chars": 64,
+  "one_open_ticket_reserve_bytes": 33229,
+  "scenario_binding_thresholds": {
+    "CASE_BEGIN": {
+      "cap": 7115,
+      "at_cap_minus_1": "CASE_BEGIN",
+      "at_cap": "obs0"
+    },
+    "obs0": {
+      "cap": 7748,
+      "at_cap_minus_1": "obs0",
+      "at_cap": "packet0"
+    },
+    "packet0": {
+      "cap": 8168,
+      "at_cap_minus_1": "packet0",
+      "at_cap": "start0"
+    },
+    "start0": {
+      "cap": 43067,
+      "at_cap_minus_1": "start0",
+      "at_cap": "obs1"
+    },
+    "obs1": {
+      "cap": 43700,
+      "at_cap_minus_1": "obs1",
+      "at_cap": "packet1"
+    },
+    "packet1": {
+      "cap": 44120,
+      "at_cap_minus_1": "packet1",
+      "at_cap": "start1"
+    },
+    "start1": {
+      "cap": 79026,
+      "at_cap_minus_1": "start1",
+      "at_cap": "obs2"
+    },
+    "obs2": {
+      "cap": 79659,
+      "at_cap_minus_1": "obs2",
+      "at_cap": "start2"
+    },
+    "start2": {
+      "cap": 89511,
+      "at_cap_minus_1": "start2",
+      "at_cap": "obs6"
+    },
+    "obs6": {
+      "cap": 90146,
+      "at_cap_minus_1": "obs6",
+      "at_cap": null
+    }
+  },
+  "meaning": "v0.2 either refuses at admission (CASE_BEGIN or the ordinary step) or, once admitted, writes every reserved event and CASE_END within the cap; at 5,360 B the fixture case is refused at CASE_BEGIN because 8 refusal receipts and a worst-case CASE_END are reserved up front.",
+  "limits": [
+    "Bounds are derived from canonical JSON of worst-case token/int/float values; caps smaller than the reservation refuse early by design.",
+    "Persistence faults (fsync uncertainty) still make the live owner BROKEN; the guarantee is about byte/count admission, not disk failure.",
+    "Single trusted owner; no concurrent writers."
+  ]
+}

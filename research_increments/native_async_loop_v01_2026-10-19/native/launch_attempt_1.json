@@ -1,0 +1,34 @@
+{
+  "schema": "PaperBNA1LaunchAttempt/1",
+  "attempt": 1,
+  "case_id": "na1_p0_async_closed_loop_a1",
+  "source_freeze_sha256": "2c38636334393eac568b21af394488d7abd4246e393d4d5d9e6c8913d2748514",
+  "gpus_observed": [
+    {
+      "uuid": "GPU-b129224c-c735-a03f-de6c-185d2a2724b1",
+      "pci": "00000000:41:00.0",
+      "free_mib": 9323,
+      "used_mib": 22790,
+      "util": 96
+    },
+    {
+      "uuid": "GPU-828bb172-121c-cc55-7f4f-ef09a2bd7599",
+      "pci": "00000000:81:00.0",
+      "free_mib": 17046,
+      "used_mib": 15075,
+      "util": 51
+    }
+  ],
+  "selected_gpu": "GPU-828bb172-121c-cc55-7f4f-ef09a2bd7599",
+  "min_free_mib": 16384,
+  "foreign_processes_signaled": false,
+  "global_driver_changes": false,
+  "started_utc": "2026-10-19T10:09:01Z",
+  "mapping": {
+    "pci": "0000:81:00.0",
+    "minor": 0,
+    "card": "card1",
+    "render": "renderD128"
+  },
+  "status": "LAUNCHED"
+}

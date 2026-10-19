@@ -1,0 +1,70 @@
+== targeted
+[T1] commit_slot accepts caller prepared that is ==-equal but differently typed/serialized -> CONFIRMED_DEFECT (MEDIUM (journal integrity; byte gate still bounds the line))
+      expected: prepared recorded exactly as _prepare computed it; |target int|<=2^53; prepared_sha256/target_sha256 bind the recorded fields
+      actual:   ACCEPTED line=1956 (module bound 2540); recorded target int has 309 digits; prepared_sha256 matches recorded fields=False; target_sha256 matches recorded target_9d=False; module-computed next prepared has earliest_apply_tick type=float; module replay=ACCEPT; independent reader=FAIL first={'seq': 5, 'category': 'FIELD_RANGE', 'detail': 'SLOT_DISPOSITION fields outside rules: target_9d/target_sha256,desired_tick,actor_generation,known_original_failure,owner'}
+[T1b] type-confused desired_tick propagates into module-computed earliest_apply_tick -> CONFIRMED_DEFECT (LOW (same root cause as T1; per-field worst case exceeded, whole-line bound still enforced))
+      expected: earliest_apply_tick is an int with <= 20 digits (WORST_INT assumption)
+      actual:   earliest_apply_tick=1.2345678901234568e+18 (float, 22 chars > 20); commit=ACCEPTED (fits only because of slack elsewhere in the line)
+[T2a] dict subclass with permissive __eq__ as claimed_owner -> CONFIRMED_DEFECT (LOW-MEDIUM (needs a hostile/buggy in-process caller; live journal becomes unreplayable))
+      expected: live writer refuses an owner that differs from the command owner
+      actual:   live=ACCEPTED; module replay of the live journal=BridgeError:CHANNEL_OWNER_TARGET_MISMATCH
+[T2b] int subclass in prepared.desired_tick (== always, + returns 10**3000) -> CONFIRMED_DEFECT (LOW-MEDIUM (hostile in-process caller; reserved event refused until queue drains; live/replay divergence))
+      expected: a reserved SLOT_DISPOSITION computed by the module itself is always writable
+      actual:   commit evil=ACCEPTED; module-computed next prepared earliest_apply_tick has 3001 digits; its commit=RESERVED_LINE_BOUND_VIOLATED; CHANNEL_RESULT APPLIED at tick 1 for desired_tick 5=ACCEPTED; slot after drain=ACCEPTED; module replay=BridgeError:APPLIED_ORIGINAL_TICK_OR_READY_MISMATCH
+[T3] admitted SAFE_LOCAL_RECOVERY ticket: SLOT_DISPOSITION needs an ordinary event first -> CONFIRMED_DEFECT (MEDIUM (liveness of reserved events; CASE_END still guaranteed; pre-existing in v0.1, not a regression))
+      expected: every reserved SLOT_DISPOSITION writable without any further ordinary event (contract text)
+      actual:   generous caps: prepare=RECOVERY_REQUIRES_KNOWN_FAILURE; caps.events=30: prepare=RECOVERY_REQUIRES_KNOWN_FAILURE, FULL_TASK_FAILURE=EVENT_CAPACITY_REFUSED, OBSERVED_STATE=EVENT_CAPACITY_REFUSED, ACTOR_TRANSITION=EVENT_CAPACITY_REFUSED, CASE_END=ACCEPTED, closed with all 8 slots censored=True; post-deadline+known-not-full: prepare=POST_DEADLINE_RECOVERY_REQUIRES_FULL_FALSE; v0.1 same case: prepare=RECOVERY_REQUIRES_KNOWN_FAILURE FULL_TASK_FAILURE=EVENT_CAPACITY_REFUSED
+[T4] v0.1 byte defect (admitted START, unclosable case) re-tested on v0.2 with a cap sweep -> HOLDS
+      expected: v0.1: START admitted then CASE_END refused; v0.2: at every cap, either the event is refused or the case drains+closes
+      actual:   v0.1 START=ACCEPTED close=JOURNAL_TOTAL_BYTE_CAPACITY_REFUSED | v0.2 sweep outcomes {'ctor/JOURNAL_TOTAL_BYTE_CAPACITY_REFUSED': 40, 'ctor/BYTE_RESERVATION_REFUSED': 77, 'observe=BYTE_RESERVATION_REFUSED/close=ACCEPTED': 11, 'packet=BYTE_RESERVATION_REFUSED/close=ACCEPTED': 6, 'start=BYTE_RESERVATION_REFUSED/close=ACCEPTED': 442}; failures=[]
+[T5] replay accepts envelope values the live writer never emits (float/bool seq, float clock) -> CONFIRMED_DEFECT (LOW (replay strictness; needs a re-chained forged file; bytes still gated by actual line length))
+      expected: replay refuses non-integer seq/clock (live writer only writes ints)
+      actual:   seq_float: module replay=ACCEPT, reader=FAIL/ENVELOPE; seq_bool: module replay=ACCEPT, reader=FAIL/ENVELOPE; clock_float: module replay=ACCEPT, reader=FAIL/FIELD_RANGE; wall_float: module replay=BridgeError:WALL_MONOTONIC_INTEGER_REQUIRED, reader=FAIL/FIELD_RANGE
+[T6] malformed inputs raise non-BridgeError exceptions (state/file unchanged?) -> CONFIRMED_DEFECT (LOW (robustness; no mutation observed))
+      expected: every refusal is a BridgeError code and leaves state/file unchanged
+      actual:   {'return int 10**400': 'OverflowError:int too large to convert to float', 'return NaN': 'ValueError:Out of range float values are not JSON compliant: nan', 'return status list': "TypeError:unhashable type: 'list'", 'actor id list': "TypeError:unhashable type: 'list'", 'observe non-dict': 'STATE_FIELDS_REQUIRED', 'packet bytearray': 'IMMUTABLE_BYTES_REQUIRED', 'commit purpose list': 'FROZEN_PURPOSE_MISMATCH', 'prepare auth purpose list': "TypeError:unhashable type: 'list'"}; state/file mutated by: none; replay with blank line -> JSONDecodeError:Expecting value: line 1 column 1 (char 0)
+[T7] header-trusted max_token_chars drives O(L) string building in line_bounds() -> NOTE (LOW (header is externally pinned/trusted; replay and constructor both pay it))
+      expected: bounds computable arithmetically in O(1) memory
+      actual:   L, seconds, peak bytes: [(1000, 0.001, 20518), (10000, 0.001, 146518), (100000, 0.006, 1406518), (1000000, 0.057, 14006518)]; extrapolated peak for L=1e9 ~ 14.0 GB (NOT_RUN)
+[T8] ticket ids containing ':' (command_id collisions) -> HOLDS
+      expected: command_id = ticket+':'+digit is injective; no DUPLICATE_COMMAND
+      actual:   slot outcomes=['ACCEPTED']; 56 command ids, 56 unique; drain={'defects': [], 'blocked': [], 'unexpected': []}
+[T9] unusual floats/ints in targets (-0.0, 5e-324, 1e-320, +-2^53, 1e308, 24-char floats) -> HOLDS
+      expected: accepted values serialize within bounds; out-of-rule values refused; replay identical
+      actual:   refusals={'9007199254740993': 'TARGET_INT_MAGNITUDE_REFUSED', '-9007199254740993': 'TARGET_INT_MAGNITUDE_REFUSED', 'True': 'FINITE_NONBOOL_TARGET_REQUIRED', 'inf': 'ValueError:Out of range float values are not JSON compliant: inf'}; drain defects=[]; replay canonical-identical=True; reader=PASS min_slack={'INFERENCE_RETURN': 78, 'SLOT_DISPOSITION': 349, 'CHANNEL_RESULT': 82, 'CAPACITY_REFUSAL': 74, 'CASE_END': 74}
+[T10] v0.1 -> v0.2 semantic scope changes -> NOTE (LOW/INFO (NATIVE_SIM accepted by an unchanged CPU-fixture code path; callers' long/unicode reasons now refused))
+      expected: only byte-reservation tightening
+      actual:   NATIVE_SIM header: v0.1=CPU_FIXTURE_ONLY v0.2=ACCEPTED; refusal/close with no state: v0.1=('STATE_REQUIRED', 'STATE_REQUIRED') v0.2=('ACCEPTED', 'ACCEPTED'); token tightening (v0.1, v0.2) [refusal, close]: {'empty request_kind': (('ACCEPTED', 'ACCEPTED'), ('ACCEPTED', 'ACCEPTED')), 'reason 65 chars': (('ACCEPTED', 'ACCEPTED'), ('REFUSAL_REASON_REQUIRED', 'END_REASON_REQUIRED')), 'unicode reason': (('ACCEPTED', 'ACCEPTED'), ('REFUSAL_REASON_REQUIRED', 'END_REASON_REQUIRED')), 'newline': (('ACCEPTED', 'ACCEPTED'), ('REFUSAL_REASON_REQUIRED', 'END_REASON_REQUIRED'))}
+[T11] minimal journal_bytes caps (cap digits inside CASE_BEGIN) then all refusals + CASE_END -> HOLDS
+      expected: cap-1 refused at construction; at min cap every remaining refusal and CASE_END fit; monotone above
+      actual:   66 header variants + 12 digit-boundary variants, 0 failures []; min caps within 3 of 10^4/10^5 (T, pad, min_cap, result): [(10000, 298, 9997, 'closed=True bytes=8339 reader=PASS'), (10000, 299, 9998, 'closed=True bytes=8340 reader=PASS'), (10000, 300, 9999, 'closed=True bytes=8341 reader=PASS'), (10000, 301, 10001, 'closed=True bytes=8343 reader=PASS'), (10000, 302, 10002, 'closed=True bytes=8344 reader=PASS'), (10000, 303, 10003, 'closed=True bytes=8345 reader=PASS'), (100000, 409, 99997, 'closed=True bytes=77809 reader=PASS'), (100000, 410, 99998, 'closed=True bytes=77810 reader=PASS'), (100000, 411, 99999, 'closed=True bytes=77811 reader=PASS'), (100000, 412, 100001, 'closed=True bytes=77813 reader=PASS'), (100000, 413, 100002, 'closed=True bytes=77814 reader=PASS'), (100000, 414, 100003, 'closed=True bytes=77815 reader=PASS')]; headroom at min cap ranges 0..0
+[T12] exact-fit ordinary event at headroom 0, then worst-case drain -> HOLDS
+      expected: fit -> ACCEPTED headroom 0, drain ok; +1 byte -> BYTE_RESERVATION_REFUSED, state/file unchanged
+      actual:   fit=ACCEPTED headroom_after=0 drain_defects=[] blocked=[]; +1 byte=BYTE_RESERVATION_REFUSED unchanged=True
+[T13] persist hook failures (persistence uncertainty) -> NOTE (INFO (by design: a BROKEN owner can no longer write CASE_END; outside the byte guarantee))
+      expected: live owner BROKEN; on-disk prefix replayable and within reservation
+      actual:   before_write: OSError:injected broken=True state_unchanged=True replay=ACCEPT(1 ev) reader=PASS close=JOURNAL_BROKEN; after_write: OSError:injected broken=True state_unchanged=True replay=ACCEPT(2 ev) reader=PASS close=JOURNAL_BROKEN; after_flush: OSError:injected broken=True state_unchanged=True replay=ACCEPT(2 ev) reader=PASS close=JOURNAL_BROKEN; after_fsync: OSError:injected broken=True state_unchanged=True replay=ACCEPT(2 ev) reader=PASS close=JOURNAL_BROKEN
+== fuzz (408s)
+runs=2560 ops=227169 drains=5835 drain_events=31565 reader_runs=6699 zero_headroom_states=545 tight(<500)=4627 blocked_slots=328
+anomaly counts: none
+accepted by op: {'observe': 10760, 'packet': 5241, 'refusal': 5728, 'close': 864, 'start': 999, 'failure': 1578, 'ret': 876, 'slot': 3686, 'chan': 157, 'actor': 516}
+min slack module/reader: {'CAPACITY_REFUSAL': 37, 'INFERENCE_RETURN': 42, 'SLOT_DISPOSITION': 137, 'CHANNEL_RESULT': 58} {'CAPACITY_REFUSAL': 15, 'CASE_END': 15, 'INFERENCE_RETURN': 17, 'SLOT_DISPOSITION': 59, 'CHANNEL_RESULT': 19}
+non-BridgeError refusals: {('refused', 'ret', 'RAW:ValueError'): 1143}
+dispositions/channel statuses seen: {'PADDING': 6889, 'SUBMIT': 1512, 'REJECTED': 1425, 'DROPPED': 47, 'STALE': 3322, 'ERROR_NO_OUTPUT': 3347, 'ACTOR_REVOKED': 1199, 'GUARD_REJECTED': 384, 'APPLIED': 30}
+drain-blocked slot codes: {'RECOVERY_REQUIRES_KNOWN_FAILURE': 275, 'POST_DEADLINE_RECOVERY_REQUIRES_FULL_FALSE': 53}
+== differential v0.1 vs v0.2, raw inputs (51s)
+runs=2283 ops=59125 runs_without_divergence=552
+    477  refusal | v0.1=STATE_REQUIRED | v0.2=ACCEPTED
+    325  refusal | v0.1=ACCEPTED | v0.2=REFUSAL_REASON_REQUIRED
+    218  slot | v0.1=ACCEPTED | v0.2=AUTHORIZATION_SHAPE_INVALID
+    166  garbage | v0.1=ACCEPTED | v0.2=STATE_ID_SHA_REQUIRED
+    159  garbage | v0.1=ACCEPTED | v0.2=END_REASON_REQUIRED
+    138  garbage | v0.1=ACCEPTED | v0.2=PACKET_ID_INVALID
+     97  slot | v0.1=ACCEPTED | v0.2=ORIGINAL_GOAL_AUTHORIZATION_MUST_BE_NULL
+     97  ret | v0.1=ACCEPTED | v0.2=TARGET_INT_MAGNITUDE_REFUSED
+     45  close | v0.1=STATE_REQUIRED | v0.2=ACCEPTED
+      9  actor | v0.1=ACCEPTED | v0.2=ACTOR_TRANSITION_INVALID
+== differential v0.1 vs v0.2, clean inputs (51s)
+runs=583 ops=33874 runs_without_divergence=563
+     20  close | v0.1=STATE_REQUIRED | v0.2=ACCEPTED
+elapsed 520.1s; results -> /tmp/claude-0/-root-lyf-chemrmbench/6673ba2f-cdfa-4831-8898-260ab0bb39a8/scratchpad/review_v02/out/adversarial_results.json

@@ -1,0 +1,13 @@
+{
+  "case": "cases/na1_p0_async_closed_loop_a1",
+  "tickets": 149,
+  "applied": 99,
+  "rejected": 943,
+  "stale": 150,
+  "ticks": 1200,
+  "joints_plotted": [
+    "fr3_joint1",
+    "fr3_joint4"
+  ],
+  "data_windowed": false
+}

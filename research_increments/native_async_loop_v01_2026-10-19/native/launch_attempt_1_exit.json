@@ -1,0 +1,11 @@
+{
+  "attempt": 1,
+  "case_id": "na1_p0_async_closed_loop_a1",
+  "exit_code": 0,
+  "timed_out": false,
+  "wall_s": 505.92667061999964,
+  "native_clock_started": true,
+  "result_exists": true,
+  "error_exists": false,
+  "source_freeze_unchanged_after": true
+}

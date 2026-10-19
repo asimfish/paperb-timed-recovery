@@ -1,3 +1,9 @@
+2026-10-19: [Native asynchronous loop](native-loop.html). AsyncBridge v0.2 reserves worst-case serialized bytes for every admitted ticket and CASE_END; the retained v0.1 counterexample (start admitted at 5,260 B under 5,360 B, CASE_END refused) was re-run, and v0.2 passes 41 ported + 16 capacity tests (±1-byte boundaries, 6,189-cap sweep, forged-journal replay). One native Isaac case (1,200 ticks, dt 1/240 s) ran the prior P0 engineering checkpoint in a separate CPU process: 149/149 compute intervals overlapped real physics steps, 99 commands applied exactly at their original ticks, 943 submitted targets were rejected as outside joint limits (no clipping), and an independent reader passed 13/13 checks; native camera video included. An independent adversarial review found no reservation violation (2,560 fuzz runs, 31.5k reserved events) but confirmed type/replay-strictness defects and a README overclaim (only CASE_END is unconditional); v0.3 fixes them and the reviewer's own scripts rerun clean on it. Not task, policy-quality, real-time, force, chemistry or M/B3 evidence.
+
+Earlier dated records follow unchanged.
+
+---
+
 2026-10-16: [Actual asynchronous CPU model case](async-collector.html). One prior P0 engineering-model inference ran in a spawned CPU process (11.324489 ms); two owner observations overlapped computation, and eight output rows received CPU FIFO acknowledgments. No new training, native/GPU/hardware/chemical runs or qualified S/F/R. Final-source independent replay/negative checks: 62 pass; behavior tests span versioned sources. Future serialized-byte and CASE_END reservation remains OPEN, so native readiness is not established. Complete small-case raw logs, existing engineering tensors/checkpoint, author source and independent reader archives are published with their scope. The v05 paper remains byte-identical.
 
 Earlier dated records follow unchanged.

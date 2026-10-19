@@ -1,0 +1,12 @@
+{
+  "schema": "PaperBAsyncReaderByteReservationLimit/1",
+  "status": "KNOWN_LIMIT_REPRODUCED_NOT_AN_UNSAFE_WRITE",
+  "source_sha256": "d04472920a5336b16bd6169707d44767aa99074a108ea1607492715b9d683d86",
+  "sizing_bytes": 5265,
+  "accepted_start_bytes": 5260,
+  "declared_journal_bytes": 5360,
+  "close_failure": "BridgeError: JOURNAL_TOTAL_BYTE_CAPACITY_REFUSED",
+  "live_state_unchanged": true,
+  "broken": false,
+  "meaning": "Whole-ticket event/kind/command reservations do not reserve future serialized line/journal bytes; end event can be refused by byte cap. Partial prefix remains read-only replayable, no automatic send or resume is justified."
+}

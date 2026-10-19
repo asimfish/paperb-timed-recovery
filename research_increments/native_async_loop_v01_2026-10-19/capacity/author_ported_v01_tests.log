@@ -1,0 +1,46 @@
+test_aba_revokes_pending_old_ticket (__main__.AsyncTests) ... ok
+test_abort_unknown_does_not_invent_failure (__main__.AsyncTests) ... ok
+test_async_old_prefix_distinct_current (__main__.AsyncTests) ... ok
+test_capacity_refusal_separate_accepted_receipt (__main__.AsyncTests) ... ok
+test_clock_rollback (__main__.AsyncTests) ... ok
+test_duplicate_start_return_slot_no_mutation (__main__.AsyncTests) ... ok
+test_end_explicit_censor_unknown (__main__.AsyncTests) ... ok
+test_end_tick_exclusive_padding (__main__.AsyncTests) ... ok
+test_event_whole_ticket_reservation_and_end_preserved (__main__.AsyncTests) ... ok
+test_failure_absorbing (__main__.AsyncTests) ... ok
+test_fifo_reorder_rejected (__main__.AsyncTests) ... ok
+test_full_header_rehash_still_rejected (__main__.AsyncTests) ... ok
+test_input_must_delivered_bytes (__main__.AsyncTests) ... ok
+test_kind_whole_ticket_reservation (__main__.AsyncTests) ... ok
+test_late_bad_ack_rejected_raw_must_be_external (__main__.AsyncTests) ... ok
+test_line_reader_bound_before_parse (__main__.AsyncTests) ... ok
+test_mutable_bytes_rejected (__main__.AsyncTests) ... ok
+test_nan_bool_bad_shape_output (__main__.AsyncTests) ... ok
+test_old_guard_after_queue_changes (__main__.AsyncTests) ... ok
+test_old_guard_after_state_advance (__main__.AsyncTests) ... ok
+test_original_purpose_cannot_relabel (__main__.AsyncTests) ... ok
+test_packet_archive_is_separate_from_window (__main__.AsyncTests) ... ok
+test_padding_stale_error_dispositions_all_preserved (__main__.AsyncTests) ... ok
+test_persist_failure_failclosed_state_unchanged (__main__.AsyncTests) ... ok
+test_postdeadline_original_blocked_return_retained (__main__.AsyncTests) ... ok
+test_prepare_pure_snapshot_copy (__main__.AsyncTests) ... ok
+test_production_rejected (__main__.AsyncTests) ... ok
+test_recovery_requires_known_failure (__main__.AsyncTests) ... ok
+test_replay_equal_read_only (__main__.AsyncTests) ... ok
+test_replay_rehashed_extra_body_field_rejected (__main__.AsyncTests) ... ok
+test_return_snapshot_tamper (__main__.AsyncTests) ... ok
+test_reverse_order_overlapping_returns (__main__.AsyncTests) ... ok
+test_submitted_owner_survives_actor_switch (__main__.AsyncTests) ... ok
+test_truncated_journal_unknown (__main__.AsyncTests) ... ok
+test_unbound_assets_refused (__main__.AsyncTests) ... ok
+test_unsafe_abort_missing_or_wrong_authorization_refused (__main__.AsyncTests) ... ok
+test_unsafe_authorized_abort_unknown_allowed (__main__.AsyncTests) ... ok
+test_unsafe_authorized_recovery_known_failure_allowed (__main__.AsyncTests) ... ok
+test_unsafe_guard_records_rejection_without_execution (__main__.AsyncTests) ... ok
+test_unsafe_recovery_missing_or_wrong_authorization_refused (__main__.AsyncTests) ... ok
+test_wrong_current_auth_target_rejected (__main__.AsyncTests) ... ok
+
+----------------------------------------------------------------------
+Ran 41 tests in 17.188s
+
+OK

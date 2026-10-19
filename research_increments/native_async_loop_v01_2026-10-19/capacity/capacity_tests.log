@@ -1,0 +1,235 @@
+test_boundary_minus_plus_one_byte_every_ordinary_step (__main__.CapacityTests) ... /data/liyufeng/paperb_async_bridge_v02_20261019_v1/tests/test_capacity.py:234: ResourceWarning: unclosed file <_io.FileIO name='/dev/shm/tmpdj5wtb1j/instrument_2.jsonl' mode='xb' closefd=True>
+  for _ in range(6):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/data/liyufeng/paperb_async_bridge_v02_20261019_v1/tests/test_capacity.py:234: ResourceWarning: unclosed file <_io.FileIO name='/dev/shm/tmpdj5wtb1j/instrument_3.jsonl' mode='xb' closefd=True>
+  for _ in range(6):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/data/liyufeng/paperb_async_bridge_v02_20261019_v1/tests/test_capacity.py:297: ResourceWarning: unclosed file <_io.FileIO name='/dev/shm/tmpdj5wtb1j/instrument_4.jsonl' mode='xb' closefd=True>
+  exact = {label: exact_threshold(self.root, label, worst) for label in labels}
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/data/liyufeng/paperb_async_bridge_v02_20261019_v1/tests/test_capacity.py:234: ResourceWarning: unclosed file <_io.FileIO name='/dev/shm/tmpdj5wtb1j/instrument_5.jsonl' mode='xb' closefd=True>
+  for _ in range(6):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/data/liyufeng/paperb_async_bridge_v02_20261019_v1/tests/test_capacity.py:234: ResourceWarning: unclosed file <_io.FileIO name='/dev/shm/tmpdj5wtb1j/instrument_6.jsonl' mode='xb' closefd=True>
+  for _ in range(6):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/data/liyufeng/paperb_async_bridge_v02_20261019_v1/tests/test_capacity.py:297: ResourceWarning: unclosed file <_io.FileIO name='/dev/shm/tmpdj5wtb1j/instrument_7.jsonl' mode='xb' closefd=True>
+  exact = {label: exact_threshold(self.root, label, worst) for label in labels}
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/data/liyufeng/paperb_async_bridge_v02_20261019_v1/tests/test_capacity.py:234: ResourceWarning: unclosed file <_io.FileIO name='/dev/shm/tmpdj5wtb1j/instrument_8.jsonl' mode='xb' closefd=True>
+  for _ in range(6):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/data/liyufeng/paperb_async_bridge_v02_20261019_v1/tests/test_capacity.py:234: ResourceWarning: unclosed file <_io.FileIO name='/dev/shm/tmpdj5wtb1j/instrument_9.jsonl' mode='xb' closefd=True>
+  for _ in range(6):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/data/liyufeng/paperb_async_bridge_v02_20261019_v1/tests/test_capacity.py:297: ResourceWarning: unclosed file <_io.FileIO name='/dev/shm/tmpdj5wtb1j/instrument_10.jsonl' mode='xb' closefd=True>
+  exact = {label: exact_threshold(self.root, label, worst) for label in labels}
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/data/liyufeng/paperb_async_bridge_v02_20261019_v1/tests/test_capacity.py:234: ResourceWarning: unclosed file <_io.FileIO name='/dev/shm/tmpdj5wtb1j/instrument_11.jsonl' mode='xb' closefd=True>
+  for _ in range(6):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/data/liyufeng/paperb_async_bridge_v02_20261019_v1/tests/test_capacity.py:234: ResourceWarning: unclosed file <_io.FileIO name='/dev/shm/tmpdj5wtb1j/instrument_12.jsonl' mode='xb' closefd=True>
+  for _ in range(6):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/data/liyufeng/paperb_async_bridge_v02_20261019_v1/tests/test_capacity.py:297: ResourceWarning: unclosed file <_io.FileIO name='/dev/shm/tmpdj5wtb1j/instrument_13.jsonl' mode='xb' closefd=True>
+  exact = {label: exact_threshold(self.root, label, worst) for label in labels}
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/data/liyufeng/paperb_async_bridge_v02_20261019_v1/tests/test_capacity.py:234: ResourceWarning: unclosed file <_io.FileIO name='/dev/shm/tmpdj5wtb1j/instrument_14.jsonl' mode='xb' closefd=True>
+  for _ in range(6):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/data/liyufeng/paperb_async_bridge_v02_20261019_v1/tests/test_capacity.py:234: ResourceWarning: unclosed file <_io.FileIO name='/dev/shm/tmpdj5wtb1j/instrument_15.jsonl' mode='xb' closefd=True>
+  for _ in range(6):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/data/liyufeng/paperb_async_bridge_v02_20261019_v1/tests/test_capacity.py:297: ResourceWarning: unclosed file <_io.FileIO name='/dev/shm/tmpdj5wtb1j/instrument_16.jsonl' mode='xb' closefd=True>
+  exact = {label: exact_threshold(self.root, label, worst) for label in labels}
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/data/liyufeng/paperb_async_bridge_v02_20261019_v1/tests/test_capacity.py:234: ResourceWarning: unclosed file <_io.FileIO name='/dev/shm/tmpdj5wtb1j/instrument_17.jsonl' mode='xb' closefd=True>
+  for _ in range(6):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/data/liyufeng/paperb_async_bridge_v02_20261019_v1/tests/test_capacity.py:234: ResourceWarning: unclosed file <_io.FileIO name='/dev/shm/tmpdj5wtb1j/instrument_18.jsonl' mode='xb' closefd=True>
+  for _ in range(6):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/data/liyufeng/paperb_async_bridge_v02_20261019_v1/tests/test_capacity.py:297: ResourceWarning: unclosed file <_io.FileIO name='/dev/shm/tmpdj5wtb1j/instrument_19.jsonl' mode='xb' closefd=True>
+  exact = {label: exact_threshold(self.root, label, worst) for label in labels}
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/data/liyufeng/paperb_async_bridge_v02_20261019_v1/tests/test_capacity.py:234: ResourceWarning: unclosed file <_io.FileIO name='/dev/shm/tmpdj5wtb1j/instrument_20.jsonl' mode='xb' closefd=True>
+  for _ in range(6):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/data/liyufeng/paperb_async_bridge_v02_20261019_v1/tests/test_capacity.py:234: ResourceWarning: unclosed file <_io.FileIO name='/dev/shm/tmpdj5wtb1j/instrument_21.jsonl' mode='xb' closefd=True>
+  for _ in range(6):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/data/liyufeng/paperb_async_bridge_v02_20261019_v1/tests/test_capacity.py:297: ResourceWarning: unclosed file <_io.FileIO name='/dev/shm/tmpdj5wtb1j/instrument_22.jsonl' mode='xb' closefd=True>
+  exact = {label: exact_threshold(self.root, label, worst) for label in labels}
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/data/liyufeng/paperb_async_bridge_v02_20261019_v1/tests/test_capacity.py:234: ResourceWarning: unclosed file <_io.FileIO name='/dev/shm/tmpdj5wtb1j/instrument_23.jsonl' mode='xb' closefd=True>
+  for _ in range(6):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/data/liyufeng/paperb_async_bridge_v02_20261019_v1/tests/test_capacity.py:234: ResourceWarning: unclosed file <_io.FileIO name='/dev/shm/tmpdj5wtb1j/instrument_24.jsonl' mode='xb' closefd=True>
+  for _ in range(6):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/data/liyufeng/paperb_async_bridge_v02_20261019_v1/tests/test_capacity.py:297: ResourceWarning: unclosed file <_io.FileIO name='/dev/shm/tmpdj5wtb1j/instrument_25.jsonl' mode='xb' closefd=True>
+  exact = {label: exact_threshold(self.root, label, worst) for label in labels}
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/data/liyufeng/paperb_async_bridge_v02_20261019_v1/tests/test_capacity.py:234: ResourceWarning: unclosed file <_io.FileIO name='/dev/shm/tmpdj5wtb1j/instrument_26.jsonl' mode='xb' closefd=True>
+  for _ in range(6):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/data/liyufeng/paperb_async_bridge_v02_20261019_v1/tests/test_capacity.py:234: ResourceWarning: unclosed file <_io.FileIO name='/dev/shm/tmpdj5wtb1j/instrument_27.jsonl' mode='xb' closefd=True>
+  for _ in range(6):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/data/liyufeng/paperb_async_bridge_v02_20261019_v1/tests/test_capacity.py:297: ResourceWarning: unclosed file <_io.FileIO name='/dev/shm/tmpdj5wtb1j/instrument_28.jsonl' mode='xb' closefd=True>
+  exact = {label: exact_threshold(self.root, label, worst) for label in labels}
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+ok
+test_boundary_worst_case_tokens_ints_floats (__main__.CapacityTests) ... /data/liyufeng/paperb_async_bridge_v02_20261019_v1/tests/test_capacity.py:234: ResourceWarning: unclosed file <_io.FileIO name='/dev/shm/tmptzn0ae00/instrument_33.jsonl' mode='xb' closefd=True>
+  for _ in range(6):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/data/liyufeng/paperb_async_bridge_v02_20261019_v1/tests/test_capacity.py:234: ResourceWarning: unclosed file <_io.FileIO name='/dev/shm/tmptzn0ae00/instrument_34.jsonl' mode='xb' closefd=True>
+  for _ in range(6):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/data/liyufeng/paperb_async_bridge_v02_20261019_v1/tests/test_capacity.py:297: ResourceWarning: unclosed file <_io.FileIO name='/dev/shm/tmptzn0ae00/instrument_35.jsonl' mode='xb' closefd=True>
+  exact = {label: exact_threshold(self.root, label, worst) for label in labels}
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/data/liyufeng/paperb_async_bridge_v02_20261019_v1/tests/test_capacity.py:234: ResourceWarning: unclosed file <_io.FileIO name='/dev/shm/tmptzn0ae00/instrument_36.jsonl' mode='xb' closefd=True>
+  for _ in range(6):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/data/liyufeng/paperb_async_bridge_v02_20261019_v1/tests/test_capacity.py:234: ResourceWarning: unclosed file <_io.FileIO name='/dev/shm/tmptzn0ae00/instrument_37.jsonl' mode='xb' closefd=True>
+  for _ in range(6):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/data/liyufeng/paperb_async_bridge_v02_20261019_v1/tests/test_capacity.py:297: ResourceWarning: unclosed file <_io.FileIO name='/dev/shm/tmptzn0ae00/instrument_38.jsonl' mode='xb' closefd=True>
+  exact = {label: exact_threshold(self.root, label, worst) for label in labels}
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/data/liyufeng/paperb_async_bridge_v02_20261019_v1/tests/test_capacity.py:234: ResourceWarning: unclosed file <_io.FileIO name='/dev/shm/tmptzn0ae00/instrument_39.jsonl' mode='xb' closefd=True>
+  for _ in range(6):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/data/liyufeng/paperb_async_bridge_v02_20261019_v1/tests/test_capacity.py:234: ResourceWarning: unclosed file <_io.FileIO name='/dev/shm/tmptzn0ae00/instrument_40.jsonl' mode='xb' closefd=True>
+  for _ in range(6):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/data/liyufeng/paperb_async_bridge_v02_20261019_v1/tests/test_capacity.py:297: ResourceWarning: unclosed file <_io.FileIO name='/dev/shm/tmptzn0ae00/instrument_41.jsonl' mode='xb' closefd=True>
+  exact = {label: exact_threshold(self.root, label, worst) for label in labels}
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/data/liyufeng/paperb_async_bridge_v02_20261019_v1/tests/test_capacity.py:234: ResourceWarning: unclosed file <_io.FileIO name='/dev/shm/tmptzn0ae00/instrument_42.jsonl' mode='xb' closefd=True>
+  for _ in range(6):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/data/liyufeng/paperb_async_bridge_v02_20261019_v1/tests/test_capacity.py:234: ResourceWarning: unclosed file <_io.FileIO name='/dev/shm/tmptzn0ae00/instrument_43.jsonl' mode='xb' closefd=True>
+  for _ in range(6):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/data/liyufeng/paperb_async_bridge_v02_20261019_v1/tests/test_capacity.py:297: ResourceWarning: unclosed file <_io.FileIO name='/dev/shm/tmptzn0ae00/instrument_44.jsonl' mode='xb' closefd=True>
+  exact = {label: exact_threshold(self.root, label, worst) for label in labels}
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/data/liyufeng/paperb_async_bridge_v02_20261019_v1/tests/test_capacity.py:234: ResourceWarning: unclosed file <_io.FileIO name='/dev/shm/tmptzn0ae00/instrument_45.jsonl' mode='xb' closefd=True>
+  for _ in range(6):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/data/liyufeng/paperb_async_bridge_v02_20261019_v1/tests/test_capacity.py:234: ResourceWarning: unclosed file <_io.FileIO name='/dev/shm/tmptzn0ae00/instrument_46.jsonl' mode='xb' closefd=True>
+  for _ in range(6):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/data/liyufeng/paperb_async_bridge_v02_20261019_v1/tests/test_capacity.py:297: ResourceWarning: unclosed file <_io.FileIO name='/dev/shm/tmptzn0ae00/instrument_47.jsonl' mode='xb' closefd=True>
+  exact = {label: exact_threshold(self.root, label, worst) for label in labels}
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/data/liyufeng/paperb_async_bridge_v02_20261019_v1/tests/test_capacity.py:234: ResourceWarning: unclosed file <_io.FileIO name='/dev/shm/tmptzn0ae00/instrument_48.jsonl' mode='xb' closefd=True>
+  for _ in range(6):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/data/liyufeng/paperb_async_bridge_v02_20261019_v1/tests/test_capacity.py:234: ResourceWarning: unclosed file <_io.FileIO name='/dev/shm/tmptzn0ae00/instrument_49.jsonl' mode='xb' closefd=True>
+  for _ in range(6):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/data/liyufeng/paperb_async_bridge_v02_20261019_v1/tests/test_capacity.py:297: ResourceWarning: unclosed file <_io.FileIO name='/dev/shm/tmptzn0ae00/instrument_50.jsonl' mode='xb' closefd=True>
+  exact = {label: exact_threshold(self.root, label, worst) for label in labels}
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/data/liyufeng/paperb_async_bridge_v02_20261019_v1/tests/test_capacity.py:234: ResourceWarning: unclosed file <_io.FileIO name='/dev/shm/tmptzn0ae00/instrument_51.jsonl' mode='xb' closefd=True>
+  for _ in range(6):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/data/liyufeng/paperb_async_bridge_v02_20261019_v1/tests/test_capacity.py:234: ResourceWarning: unclosed file <_io.FileIO name='/dev/shm/tmptzn0ae00/instrument_52.jsonl' mode='xb' closefd=True>
+  for _ in range(6):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/data/liyufeng/paperb_async_bridge_v02_20261019_v1/tests/test_capacity.py:297: ResourceWarning: unclosed file <_io.FileIO name='/dev/shm/tmptzn0ae00/instrument_53.jsonl' mode='xb' closefd=True>
+  exact = {label: exact_threshold(self.root, label, worst) for label in labels}
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/data/liyufeng/paperb_async_bridge_v02_20261019_v1/tests/test_capacity.py:234: ResourceWarning: unclosed file <_io.FileIO name='/dev/shm/tmptzn0ae00/instrument_54.jsonl' mode='xb' closefd=True>
+  for _ in range(6):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/data/liyufeng/paperb_async_bridge_v02_20261019_v1/tests/test_capacity.py:234: ResourceWarning: unclosed file <_io.FileIO name='/dev/shm/tmptzn0ae00/instrument_55.jsonl' mode='xb' closefd=True>
+  for _ in range(6):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/data/liyufeng/paperb_async_bridge_v02_20261019_v1/tests/test_capacity.py:297: ResourceWarning: unclosed file <_io.FileIO name='/dev/shm/tmptzn0ae00/instrument_56.jsonl' mode='xb' closefd=True>
+  exact = {label: exact_threshold(self.root, label, worst) for label in labels}
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/data/liyufeng/paperb_async_bridge_v02_20261019_v1/tests/test_capacity.py:234: ResourceWarning: unclosed file <_io.FileIO name='/dev/shm/tmptzn0ae00/instrument_57.jsonl' mode='xb' closefd=True>
+  for _ in range(6):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/data/liyufeng/paperb_async_bridge_v02_20261019_v1/tests/test_capacity.py:234: ResourceWarning: unclosed file <_io.FileIO name='/dev/shm/tmptzn0ae00/instrument_58.jsonl' mode='xb' closefd=True>
+  for _ in range(6):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/data/liyufeng/paperb_async_bridge_v02_20261019_v1/tests/test_capacity.py:297: ResourceWarning: unclosed file <_io.FileIO name='/dev/shm/tmptzn0ae00/instrument_59.jsonl' mode='xb' closefd=True>
+  exact = {label: exact_threshold(self.root, label, worst) for label in labels}
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+ok
+test_close_before_first_state_and_refusal_without_state (__main__.CapacityTests) ... /data/liyufeng/paperb_async_bridge_v02_20261019_v1/tests/test_capacity.py:234: ResourceWarning: unclosed file <_io.FileIO name='/dev/shm/tmp2br6ieuv/instrument_63.jsonl' mode='xb' closefd=True>
+  for _ in range(6):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/data/liyufeng/paperb_async_bridge_v02_20261019_v1/tests/test_capacity.py:234: ResourceWarning: unclosed file <_io.FileIO name='/dev/shm/tmp2br6ieuv/instrument_64.jsonl' mode='xb' closefd=True>
+  for _ in range(6):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/data/liyufeng/paperb_async_bridge_v02_20261019_v1/tests/test_capacity.py:425: ResourceWarning: unclosed file <_io.FileIO name='/dev/shm/tmp2br6ieuv/instrument_65.jsonl' mode='xb' closefd=True>
+  cap = exact_threshold(self.root, 'CASE_BEGIN')
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+ok
+test_coarse_cap_sweep_never_refuses_reserved_or_end (__main__.CapacityTests) ... ok
+test_end_bound_formula_upper_bounds_constructed_worst (__main__.CapacityTests) ... ok
+test_end_line_cap_limits_concurrent_open_tickets (__main__.CapacityTests) ... /usr/lib/python3.10/unittest/case.py:549: ResourceWarning: unclosed file <_io.FileIO name='/dev/shm/tmpnptwchke/probe.jsonl' mode='xb' closefd=True>
+  method()
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+ok
+test_header_line_cap_below_reserved_bound_rejected (__main__.CapacityTests) ... ok
+test_multi_ticket_censored_close_at_exact_cap (__main__.CapacityTests) ... /data/liyufeng/paperb_async_bridge_v02_20261019_v1/tests/test_capacity.py:408: ResourceWarning: unclosed file <_io.FileIO name='/dev/shm/tmp_v0qvezw/fixed0.jsonl' mode='xb' closefd=True>
+  script(Run(self.root, 'fixed%d' % i, cap))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/data/liyufeng/paperb_async_bridge_v02_20261019_v1/tests/test_capacity.py:408: ResourceWarning: unclosed file <_io.FileIO name='/dev/shm/tmp_v0qvezw/fixed1.jsonl' mode='xb' closefd=True>
+  script(Run(self.root, 'fixed%d' % i, cap))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/data/liyufeng/paperb_async_bridge_v02_20261019_v1/tests/test_capacity.py:408: ResourceWarning: unclosed file <_io.FileIO name='/dev/shm/tmp_v0qvezw/fixed2.jsonl' mode='xb' closefd=True>
+  script(Run(self.root, 'fixed%d' % i, cap))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.10/unittest/case.py:549: ResourceWarning: unclosed file <_io.FileIO name='/dev/shm/tmp_v0qvezw/big.jsonl' mode='xb' closefd=True>
+  method()
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+ok
+test_ordinary_events_cannot_consume_reserved_space (__main__.CapacityTests) ... /data/liyufeng/paperb_async_bridge_v02_20261019_v1/tests/test_capacity.py:234: ResourceWarning: unclosed file <_io.FileIO name='/dev/shm/tmp74mx0a5a/instrument_68.jsonl' mode='xb' closefd=True>
+  for _ in range(6):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/data/liyufeng/paperb_async_bridge_v02_20261019_v1/tests/test_capacity.py:234: ResourceWarning: unclosed file <_io.FileIO name='/dev/shm/tmp74mx0a5a/instrument_69.jsonl' mode='xb' closefd=True>
+  for _ in range(6):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/data/liyufeng/paperb_async_bridge_v02_20261019_v1/tests/test_capacity.py:372: ResourceWarning: unclosed file <_io.FileIO name='/dev/shm/tmp74mx0a5a/instrument_70.jsonl' mode='xb' closefd=True>
+  cap = exact_threshold(self.root, 'start0')
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+ok
+test_persist_failure_on_reserved_event_breaks_without_resend (__main__.CapacityTests) ... /usr/lib/python3.10/unittest/case.py:549: ResourceWarning: unclosed file <_io.FileIO name='/dev/shm/tmpj2knearz/persist.jsonl' mode='xb' closefd=True>
+  method()
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+ok
+test_refusal_reserve_exhaustion_then_close (__main__.CapacityTests) ... ok
+test_replay_recomputes_reservation_and_rejects_forged_journal (__main__.CapacityTests) ... /data/liyufeng/paperb_async_bridge_v02_20261019_v1/tests/test_capacity.py:234: ResourceWarning: unclosed file <_io.FileIO name='/dev/shm/tmp5lwnklve/instrument_71.jsonl' mode='xb' closefd=True>
+  for _ in range(6):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/data/liyufeng/paperb_async_bridge_v02_20261019_v1/tests/test_capacity.py:234: ResourceWarning: unclosed file <_io.FileIO name='/dev/shm/tmp5lwnklve/instrument_72.jsonl' mode='xb' closefd=True>
+  for _ in range(6):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/data/liyufeng/paperb_async_bridge_v02_20261019_v1/tests/test_capacity.py:485: ResourceWarning: unclosed file <_io.FileIO name='/dev/shm/tmp5lwnklve/instrument_73.jsonl' mode='xb' closefd=True>
+  cap = exact_threshold(self.root, 'start0') - 1   # the honest writer refuses start0 here
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.10/unittest/case.py:549: ResourceWarning: unclosed file <_io.FileIO name='/dev/shm/tmp5lwnklve/forged.jsonl' mode='xb' closefd=True>
+  method()
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+ok
+test_reserved_line_bound_violation_detected_by_gate (__main__.CapacityTests) ... /usr/lib/python3.10/unittest/case.py:549: ResourceWarning: unclosed file <_io.FileIO name='/dev/shm/tmp1zadd61n/gate.jsonl' mode='xb' closefd=True>
+  method()
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+ok
+test_reserved_lines_within_bounds_and_body_fields_match_worst (__main__.CapacityTests) ... ok
+test_token_and_integer_bounds (__main__.CapacityTests) ... ok
+test_v01_counterexample_sequence_v02_refuses_before_unsafe_admission (__main__.CapacityTests)
+v0.1 admitted start at 5,260 B under a 5,360 B cap and then could not write CASE_END. ... ok
+
+----------------------------------------------------------------------
+Ran 16 tests in 201.891s
+
+OK

@@ -1,0 +1,13 @@
+{
+  "schema": "PaperBNA1RehearsalNote/1",
+  "adapter": "CPU stand-in first-order joint tracker with 20 ms artificial step wall cost; not native physics",
+  "runs": {
+    "r1_plain": "synthetic sinusoid images; nominal_offsets sent in ticks (BUG)",
+    "r2_m1_frames": "M1 dataset frames as stand-in renders; nominal_offsets in ticks (BUG)",
+    "r3_guard_stop": "guard-stop path at tick 101; nominal_offsets in ticks (BUG)",
+    "r4_seconds_offsets": "after fix: nominal_offsets=(1..8)*dt seconds, matching P0 training units"
+  },
+  "bug": "owner_loop.public_packet sent nominal_offsets 1..8 (ticks); P0 was trained on seconds (mean 0.0192 s, scale 0.0105 s). Found by rehearsal before any native run; fixed in source before freeze.",
+  "reader_status_all_runs": "PASS (wiring checks); r4 APPLIED 27 / REJECTED 386: stand-in proprio velocities are far outside P0 training distribution",
+  "native_runs_before_freeze": 0
+}

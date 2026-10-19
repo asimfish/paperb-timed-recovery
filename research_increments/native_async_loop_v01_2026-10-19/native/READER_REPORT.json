@@ -1,0 +1,85 @@
+{
+  "schema": "PaperBNA1ReaderReport/1",
+  "case": "cases/na1_p0_async_closed_loop_a1",
+  "status": "PASS",
+  "checks": {
+    "journal_replay_closed": true,
+    "last_event_case_end": true,
+    "every_started_ticket_returned_or_censored": true,
+    "observed_states_match_tick_gaps": true,
+    "applied_exactly_at_original_slot_tick": true,
+    "at_most_one_applied_per_tick": true,
+    "tick_log_contiguous": true,
+    "stepped_target_equals_applied_or_held": true,
+    "raw_worker_outputs_equal_journal": true,
+    "worker_parameters_unchanged": true,
+    "worker_never_initialized_cuda": true,
+    "video_frames_complete_and_decodable": true,
+    "request_frame_per_ticket": true
+  },
+  "event_kinds": {
+    "CASE_BEGIN": 1,
+    "OBSERVED_STATE": 1201,
+    "PUBLIC_PACKET": 149,
+    "INFERENCE_START": 149,
+    "INFERENCE_RETURN": 149,
+    "SLOT_DISPOSITION": 1192,
+    "CHANNEL_RESULT": 1042,
+    "CASE_END": 1
+  },
+  "tickets": 149,
+  "returns": 149,
+  "dispositions": {
+    "STALE": 150,
+    "SUBMIT": 1042
+  },
+  "channel_results": {
+    "APPLIED": 99,
+    "REJECTED": 943
+  },
+  "physics_ticks_during_inference": {
+    "n": 149,
+    "min": 1,
+    "median": 1,
+    "max": 2,
+    "mean": 1.0067114093959733
+  },
+  "tickets_with_physics_progress_during_inference": 149,
+  "worker_compute_ms": {
+    "n": 149,
+    "min": 3.746836,
+    "median": 5.456136,
+    "max": 13.81158,
+    "mean": 5.646007530201342
+  },
+  "owner_start_to_return_ms": {
+    "n": 149,
+    "min": 17.990499,
+    "median": 142.53741,
+    "max": 620.84872,
+    "mean": 162.37781505369128
+  },
+  "step_wall_ms": {
+    "n": 1200,
+    "min": 2.591085,
+    "median": 4.436034,
+    "max": 19.880559,
+    "mean": 4.5866408375
+  },
+  "task_ticks_logged": 1200,
+  "video_frames": 120,
+  "frame_size": [
+    [
+      640,
+      400
+    ]
+  ],
+  "censored": {
+    "pending_commands": [],
+    "unresolved_outcomes": "UNKNOWN_NO_AUTOMATIC_RESEND",
+    "unresolved_slots": {},
+    "unreturned_tickets": []
+  },
+  "close_reason": "TASK_TICKS_COMPLETED",
+  "journal_bytes": 8313288
+}
