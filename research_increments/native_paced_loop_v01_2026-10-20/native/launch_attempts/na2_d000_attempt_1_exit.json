@@ -1,0 +1,12 @@
+{
+  "case": "na2_d000",
+  "attempt": 1,
+  "case_dir": "na2_d000_a1",
+  "exit_code": 0,
+  "timed_out": false,
+  "wall_s": 200.1925325600023,
+  "native_clock_started": true,
+  "result_exists": true,
+  "error_exists": false,
+  "source_freeze_unchanged_after": true
+}

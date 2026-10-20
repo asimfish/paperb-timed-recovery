@@ -1,0 +1,27 @@
+{
+ "schema": "PaperBBridgeV03V04Differential/1",
+ "seed": 20261020,
+ "seconds": 600.0,
+ "runs": 2276,
+ "ops": 158839,
+ "op_kinds": {
+  "observe": 22752,
+  "slot": 34429,
+  "packet": 14632,
+  "refusal": 7680,
+  "ret": 21552,
+  "garbage": 5806,
+  "start": 24822,
+  "chan": 19785,
+  "failure": 4980,
+  "actor": 1599,
+  "close": 802
+ },
+ "v03_outcome_classes": {
+  "ACCEPTED": 73847,
+  "BridgeError": 84378,
+  "RAW:bridge_v02_under_review.BridgeError:GARBAGE_NOOP": 614
+ },
+ "mismatches": [],
+ "status": "PASS_IDENTICAL"
+}

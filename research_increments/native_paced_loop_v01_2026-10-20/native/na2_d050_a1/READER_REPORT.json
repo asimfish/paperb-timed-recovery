@@ -1,0 +1,179 @@
+{
+  "schema": "PaperBNA2ReaderReport/1",
+  "case": "/data/liyufeng/paperb_native_paced_loop_20261020_v1/cases/na2_d050_a1",
+  "declared_return_delay_ms": 50,
+  "period_ms": 16.666667,
+  "status": "PASS",
+  "checks": {
+    "journal_replay_closed": true,
+    "last_event_case_end": true,
+    "every_started_ticket_returned_or_censored": true,
+    "observed_states_match_tick_gaps": true,
+    "stale_equals_min8_elapsed_when_queue_empty": true,
+    "applied_exactly_at_original_slot_tick": true,
+    "at_most_one_applied_per_tick": true,
+    "tick_log_contiguous": true,
+    "stepped_target_equals_applied_or_held": true,
+    "no_step_before_its_wall_slot": true,
+    "sense_only_at_request_ticks": true,
+    "sense_only_with_no_ticket_in_flight": true,
+    "raw_worker_outputs_equal_journal": true,
+    "worker_parameters_unchanged": true,
+    "worker_never_initialized_cuda": true,
+    "declared_return_delay_honored": true,
+    "one_decodable_frame_per_ticket": true
+  },
+  "event_kinds": {
+    "CASE_BEGIN": 1,
+    "OBSERVED_STATE": 2401,
+    "PUBLIC_PACKET": 100,
+    "INFERENCE_START": 100,
+    "INFERENCE_RETURN": 100,
+    "SLOT_DISPOSITION": 800,
+    "CHANNEL_RESULT": 319,
+    "CASE_END": 1
+  },
+  "tickets": 100,
+  "returns": 100,
+  "identity_tickets": 100,
+  "dispositions": {
+    "STALE": 481,
+    "SUBMIT": 319
+  },
+  "channel_results": {
+    "APPLIED": 102,
+    "REJECTED": 217
+  },
+  "elapsed_ticks": {
+    "n": 100,
+    "min": 3,
+    "p10": 4,
+    "median": 5.0,
+    "p90": 5,
+    "max": 5,
+    "mean": 4.81
+  },
+  "elapsed_ticks_histogram": {
+    "3": 1,
+    "4": 17,
+    "5": 82
+  },
+  "stale_slots_per_ticket": {
+    "n": 100,
+    "min": 3,
+    "p10": 4,
+    "median": 5.0,
+    "p90": 5,
+    "max": 5,
+    "mean": 4.81
+  },
+  "stale_fraction": 0.60125,
+  "physics_steps_during_worker_interval": {
+    "n": 100,
+    "min": 3,
+    "p10": 4,
+    "median": 4.0,
+    "p90": 4,
+    "max": 5,
+    "mean": 4.02
+  },
+  "worker_compute_ms": {
+    "n": 100,
+    "min": 3.734673,
+    "p10": 4.353563,
+    "median": 5.636599,
+    "p90": 6.751653,
+    "max": 7.877981,
+    "mean": 5.58223596
+  },
+  "worker_held_ms": {
+    "n": 100,
+    "min": 50.019768,
+    "p10": 50.05892,
+    "median": 50.065899,
+    "p90": 50.073121,
+    "max": 58.929722,
+    "mean": 50.26657831000001
+  },
+  "dispatch_to_worker_send_ms": {
+    "n": 100,
+    "min": 54.505122,
+    "p10": 55.284719,
+    "median": 56.504422000000005,
+    "p90": 58.029066,
+    "max": 64.485551,
+    "mean": 56.706881030000005
+  },
+  "worker_send_to_owner_accept_ms": {
+    "n": 100,
+    "min": 2.199792,
+    "p10": 4.073238,
+    "median": 17.200121,
+    "p90": 20.39647,
+    "max": 46.359267,
+    "mean": 15.775842090000001
+  },
+  "in_flight_wall_ms_per_elapsed_tick": {
+    "n": 100,
+    "min": 13.6142356,
+    "p10": 14.401125799999999,
+    "median": 14.8031308,
+    "p90": 15.9897164,
+    "max": 20.87661625,
+    "mean": 15.106937224000001
+  },
+  "tickets_with_step_lag_over_one_period_in_flight": 1,
+  "lag_ms": {
+    "n": 2400,
+    "min": 9e-05,
+    "p10": 0.00012,
+    "median": 0.000167,
+    "p90": 6.869064,
+    "max": 69.518974,
+    "mean": 2.049672640416667
+  },
+  "ticks_lag_within_one_period": 0.9633333333333334,
+  "step_interval_ms_excluding_sense": {
+    "n": 2300,
+    "min": 5.822352,
+    "p10": 11.427085,
+    "median": 16.666655,
+    "p90": 16.668939,
+    "max": 68.138744,
+    "mean": 16.560503165652175
+  },
+  "step_wall_ms": {
+    "n": 2400,
+    "min": 2.44923,
+    "p10": 3.292277,
+    "median": 4.1998955,
+    "p90": 5.779806,
+    "max": 21.650406,
+    "mean": 4.526131359583333
+  },
+  "sense_anchor_shift_ms": {
+    "n": 100,
+    "min": 38.006706,
+    "p10": 41.947542,
+    "median": 49.910281999999995,
+    "p90": 62.715442,
+    "max": 124.255816,
+    "mean": 52.740654940000006
+  },
+  "task_ticks_logged": 2400,
+  "frames": 100,
+  "frame_size": [
+    [
+      640,
+      400
+    ]
+  ],
+  "censored": {
+    "pending_commands": [],
+    "unresolved_outcomes": "UNKNOWN_NO_AUTOMATIC_RESEND",
+    "unresolved_slots": {},
+    "unreturned_tickets": []
+  },
+  "close_reason": "TASK_TICKS_COMPLETED",
+  "journal_bytes": 6358161
+}

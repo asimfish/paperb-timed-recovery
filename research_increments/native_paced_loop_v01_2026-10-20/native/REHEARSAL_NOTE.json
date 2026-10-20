@@ -1,0 +1,38 @@
+{
+  "schema": "PaperBNA2RehearsalNote/1",
+  "adapter": "CPU stand-in first-order joint tracker; step sleeps 4 ms, render sleeps 60 ms; not native physics",
+  "runs": {
+    "r1_na2_d000": "declared delay 0 ms, 2400 ticks",
+    "r1_na2_d050": "declared delay 50 ms, 2400 ticks",
+    "r1_na2_d150": "declared delay 150 ms, 2400 ticks",
+    "r1_guard_stop": "50 ms, 600 ticks, unlawful state at tick 301"
+  },
+  "reader": "all four PASS 17/17 checks (READER_REPORT.json); READER_REPORT_v2.json adds in-flight pacing metrics",
+  "observed": {
+    "elapsed_ticks": {
+      "d000": "1-2",
+      "d050": "3-9, median 5",
+      "d150": "10-15"
+    },
+    "stale_slots": {
+      "d000": "157/800",
+      "d050": "487/800",
+      "d150": "800/800"
+    },
+    "in_flight_wall_ms_per_elapsed_tick_median": {
+      "d000": 12.0,
+      "d050": 15.6,
+      "d150": 15.8
+    },
+    "tickets_with_step_lag_over_one_period_in_flight": {
+      "d000": 3,
+      "d050": 25,
+      "d150": 12
+    }
+  },
+  "pacing_note": "lag concentrates at return ticks (9 fsynced events) and in blocks coinciding with server load average ~54; reported, not corrected",
+  "source_changes_after_rehearsal": [
+    "reader/check_na2.py: added in-flight pacing metrics (no change to checks)"
+  ],
+  "native_runs_before_freeze": 0
+}

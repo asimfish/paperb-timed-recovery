@@ -1,0 +1,64 @@
+{
+  "schema": "PaperBNativePacedLoopProtocol/1",
+  "declared_before_native_execution": true,
+  "question": "With physics paced to the wall clock, how many physical ticks does policy latency consume, and how many of the 8 planned action slots become unexecutable (STALE) as a declared worker return delay grows?",
+  "scene": {
+    "source_root": "/data/liyufeng/paperb_handoff_force_diagnostics_20261014_v2",
+    "plan_path": "/data/liyufeng/paperb_handoff_force_diagnostics_20261014_v2/plan.json",
+    "code_path": "/data/liyufeng/paperb_handoff_force_diagnostics_20261014_v2/code",
+    "robot": "fr3_A",
+    "camera": "station_a_camera",
+    "camera_resolution": [640, 400]
+  },
+  "dt_s": 0.004166666666666667,
+  "physx": {"solver_type": 1, "max_position_iteration_count": 32, "max_velocity_iteration_count": 4, "enable_ccd": true},
+  "warmup_ticks": 240,
+  "task_ticks": 2400,
+  "pace_factor": 4,
+  "pacing": "tick k starts no earlier than anchor + k*pace_factor*dt (16.667 ms); late ticks do not sleep and lag is recorded; the sense phase (render, packet, start) happens only with no ticket in flight, before dispatch, and its duration shifts the anchor (not physical time)",
+  "request_period_ticks": 24,
+  "channel_latency_ticks": 1,
+  "return_wait_s": 10,
+  "worker_ready_timeout_s": 180,
+  "cases": [
+    {"id": "na2_d000", "order": 1, "return_delay_ms": 0},
+    {"id": "na2_d050", "order": 2, "return_delay_ms": 50},
+    {"id": "na2_d150", "order": 3, "return_delay_ms": 150}
+  ],
+  "predictions": {
+    "identity_check_not_finding": "for every returned ticket with an empty queue at return, STALE slots == min(8, return_tick - start_tick), since desired ticks are start+1..start+8 and the earliest legal tick is return_tick + 1",
+    "elapsed_ticks_median": {"na2_d000": "1-2", "na2_d050": "4-5", "na2_d150": ">= 9 (all 8 slots STALE)"},
+    "basis": "elapsed ~ ceil((compute ~5 ms + IPC + declared delay) / 16.667 ms) + at most one tick of owner polling granularity"
+  },
+  "guard": {
+    "position_tolerance": [0.15, 0.15, 0.15, 0.15, 0.15, 0.15, 0.15, 0.0005, 0.0005],
+    "speed_limit": [30, 30, 30, 30, 30, 30, 30, 2, 2],
+    "on_violation": "STOP: no further apply/start; pending commands DROPPED; in-flight ticket awaited without physics, else censored"
+  },
+  "target_admission": "finite 9D target inside actual native joint limits, else CHANNEL_RESULT REJECTED and the previous target is held; no clipping",
+  "policy": {
+    "model": "prior P0 engineering checkpoint (same bytes as NA1); actions known to be inaccurate",
+    "worker": "separate CPU process, CUDA hidden, fixed noise seed, 16-step deterministic DDIM, then declared return delay (sleep)",
+    "chunk": "desired ticks request_tick+1..+8; slots earlier than current_tick+latency at return are STALE, never re-timed"
+  },
+  "budget": {
+    "formal_native_cases": 3,
+    "case_order_fixed": ["na2_d000", "na2_d050", "na2_d150"],
+    "max_launch_attempts_per_case": 2,
+    "attempt_counts_as_formal_once": "NATIVE_CLOCK_STARTED.json exists",
+    "no_new_attempt_after_native_clock": true,
+    "child_wall_cap_s": 1500,
+    "gpu_min_free_mib": 16384
+  },
+  "claims_allowed": [
+    "physics advanced at the paced rate while the worker computed (per-ticket elapsed ticks from the journal; lag distribution from the tick log)",
+    "number of planned slots made STALE by latency, per declared delay",
+    "returned slots applied only at original ticks, at most one per tick, FIFO; byte-reserved journal closed",
+    "native camera frames at every request tick"
+  ],
+  "claims_excluded": [
+    "task or chemistry success", "force or load qualification", "policy quality or VLA time accuracy",
+    "1:1 real-time control (pace factor 4)", "S/F/R admission", "M/B3 learning comparison", "real robot",
+    "a strong-timer baseline (E02 requires it; not run here)"
+  ]
+}

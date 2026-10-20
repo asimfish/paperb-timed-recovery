@@ -9,92 +9,116 @@
     },
     {
       "path": "CURRENT_METHOD_cn.md",
-      "bytes": 15317,
-      "sha256": "92c49265884107780b3213fc6f81191f2a096137c4fdc632e1ef09d45958daff",
+      "bytes": 15955,
+      "sha256": "6fe776b5c7769d401a3bc77f639b94bc62b5154c5bb6432ae6d3ee472a1add11",
       "source": "/data/liyufeng/paperb_async_site_20261016_v1/CURRENT_METHOD_cn.md",
-      "source_sha256": "92c49265884107780b3213fc6f81191f2a096137c4fdc632e1ef09d45958daff",
-      "parent_commit": "2dee405fd63d08b0b923b024b2914f7258ac9b49",
-      "parent_sha256": "cbc5ba07a738e27b6fbecc9f5e54428a5d482283eb0906115b46d1d7cbb76e8a",
+      "source_sha256": "6fe776b5c7769d401a3bc77f639b94bc62b5154c5bb6432ae6d3ee472a1add11",
+      "parent_commit": "85ac29ab8fe1c620671a0bd8cb50060f460066ae",
+      "parent_sha256": "92c49265884107780b3213fc6f81191f2a096137c4fdc632e1ef09d45958daff",
       "parent_source_provenance": {
         "path": "CURRENT_METHOD_cn.md",
-        "bytes": 14688,
-        "sha256": "cbc5ba07a738e27b6fbecc9f5e54428a5d482283eb0906115b46d1d7cbb76e8a",
+        "bytes": 15317,
+        "sha256": "92c49265884107780b3213fc6f81191f2a096137c4fdc632e1ef09d45958daff",
         "source": "/data/liyufeng/paperb_async_site_20261016_v1/CURRENT_METHOD_cn.md",
-        "source_sha256": "cbc5ba07a738e27b6fbecc9f5e54428a5d482283eb0906115b46d1d7cbb76e8a",
-        "parent_commit": "2820578ca3b0d5c4a7d6338bde2afe229e3f6506",
-        "parent_sha256": "06d6ca24659ccc348261a6b56f51e2056bc70738f7f161f868abc5bbea10417e",
+        "source_sha256": "92c49265884107780b3213fc6f81191f2a096137c4fdc632e1ef09d45958daff",
+        "parent_commit": "2dee405fd63d08b0b923b024b2914f7258ac9b49",
+        "parent_sha256": "cbc5ba07a738e27b6fbecc9f5e54428a5d482283eb0906115b46d1d7cbb76e8a",
         "parent_source_provenance": {
           "path": "CURRENT_METHOD_cn.md",
-          "bytes": 13994,
-          "sha256": "06d6ca24659ccc348261a6b56f51e2056bc70738f7f161f868abc5bbea10417e",
-          "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/CURRENT_METHOD_cn.md",
-          "source_sha256": "06d6ca24659ccc348261a6b56f51e2056bc70738f7f161f868abc5bbea10417e",
-          "transformations": [
-            "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
-          ],
-          "parent_commit": "960d9b9d77e3729227511036dd74c9b228b2eda3",
-          "parent_sha256": "e9012bc24fc476a8b3777a6754c694ccc69e2f7e7129c3b2ab379f88b58eecca",
+          "bytes": 14688,
+          "sha256": "cbc5ba07a738e27b6fbecc9f5e54428a5d482283eb0906115b46d1d7cbb76e8a",
+          "source": "/data/liyufeng/paperb_async_site_20261016_v1/CURRENT_METHOD_cn.md",
+          "source_sha256": "cbc5ba07a738e27b6fbecc9f5e54428a5d482283eb0906115b46d1d7cbb76e8a",
+          "parent_commit": "2820578ca3b0d5c4a7d6338bde2afe229e3f6506",
+          "parent_sha256": "06d6ca24659ccc348261a6b56f51e2056bc70738f7f161f868abc5bbea10417e",
           "parent_source_provenance": {
-            "bytes": 6933,
             "path": "CURRENT_METHOD_cn.md",
-            "sha256": "e9012bc24fc476a8b3777a6754c694ccc69e2f7e7129c3b2ab379f88b58eecca",
-            "source": "publication supplement",
-            "source_sha256": "e9012bc24fc476a8b3777a6754c694ccc69e2f7e7129c3b2ab379f88b58eecca",
-            "transformations": []
-          }
+            "bytes": 13994,
+            "sha256": "06d6ca24659ccc348261a6b56f51e2056bc70738f7f161f868abc5bbea10417e",
+            "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/CURRENT_METHOD_cn.md",
+            "source_sha256": "06d6ca24659ccc348261a6b56f51e2056bc70738f7f161f868abc5bbea10417e",
+            "transformations": [
+              "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
+            ],
+            "parent_commit": "960d9b9d77e3729227511036dd74c9b228b2eda3",
+            "parent_sha256": "e9012bc24fc476a8b3777a6754c694ccc69e2f7e7129c3b2ab379f88b58eecca",
+            "parent_source_provenance": {
+              "bytes": 6933,
+              "path": "CURRENT_METHOD_cn.md",
+              "sha256": "e9012bc24fc476a8b3777a6754c694ccc69e2f7e7129c3b2ab379f88b58eecca",
+              "source": "publication supplement",
+              "source_sha256": "e9012bc24fc476a8b3777a6754c694ccc69e2f7e7129c3b2ab379f88b58eecca",
+              "transformations": []
+            }
+          },
+          "transformations": [
+            "Prepend a dated, scoped CPU engineering pointer; historical content retained byte for byte."
+          ]
         },
         "transformations": [
-          "Prepend a dated, scoped CPU engineering pointer; historical content retained byte for byte."
+          "Prepend a dated, scoped native-loop pointer; historical content retained byte for byte."
         ]
       },
       "transformations": [
-        "Prepend a dated, scoped native-loop pointer; historical content retained byte for byte."
+        "Prepend a dated, scoped native-paced pointer; historical content retained byte for byte."
       ]
     },
     {
       "path": "README.md",
-      "bytes": 6194,
-      "sha256": "5f03588bb60dc7e46b2bf3de367d3a4438119676e12ef534aee31ebbe4ac9162",
+      "bytes": 7124,
+      "sha256": "53568c05f0fbf58af9b7b84299c9f9c35bd8bcde342c7e83ad55752917444a97",
       "source": "/data/liyufeng/paperb_async_site_20261016_v1/README.md",
-      "source_sha256": "5f03588bb60dc7e46b2bf3de367d3a4438119676e12ef534aee31ebbe4ac9162",
-      "parent_commit": "2dee405fd63d08b0b923b024b2914f7258ac9b49",
-      "parent_sha256": "a47bae86c39d6473444af01db21eb70cd904646a5d8dc71e6119b777a86ba96f",
+      "source_sha256": "53568c05f0fbf58af9b7b84299c9f9c35bd8bcde342c7e83ad55752917444a97",
+      "parent_commit": "85ac29ab8fe1c620671a0bd8cb50060f460066ae",
+      "parent_sha256": "5f03588bb60dc7e46b2bf3de367d3a4438119676e12ef534aee31ebbe4ac9162",
       "parent_source_provenance": {
         "path": "README.md",
-        "bytes": 5058,
-        "sha256": "a47bae86c39d6473444af01db21eb70cd904646a5d8dc71e6119b777a86ba96f",
+        "bytes": 6194,
+        "sha256": "5f03588bb60dc7e46b2bf3de367d3a4438119676e12ef534aee31ebbe4ac9162",
         "source": "/data/liyufeng/paperb_async_site_20261016_v1/README.md",
-        "source_sha256": "a47bae86c39d6473444af01db21eb70cd904646a5d8dc71e6119b777a86ba96f",
-        "parent_commit": "2820578ca3b0d5c4a7d6338bde2afe229e3f6506",
-        "parent_sha256": "0521332e4a582d29f823d268fb8c0200b9ed84dacf51abf682c88a75879b6b4d",
+        "source_sha256": "5f03588bb60dc7e46b2bf3de367d3a4438119676e12ef534aee31ebbe4ac9162",
+        "parent_commit": "2dee405fd63d08b0b923b024b2914f7258ac9b49",
+        "parent_sha256": "a47bae86c39d6473444af01db21eb70cd904646a5d8dc71e6119b777a86ba96f",
         "parent_source_provenance": {
           "path": "README.md",
-          "bytes": 4292,
-          "sha256": "0521332e4a582d29f823d268fb8c0200b9ed84dacf51abf682c88a75879b6b4d",
-          "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/README.md",
-          "source_sha256": "0521332e4a582d29f823d268fb8c0200b9ed84dacf51abf682c88a75879b6b4d",
-          "transformations": [
-            "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
-          ],
-          "parent_commit": "960d9b9d77e3729227511036dd74c9b228b2eda3",
-          "parent_sha256": "4ffc98ad456a4a3990f63141be12551e1d106a39c4f4b1933b8685a2371c630a",
+          "bytes": 5058,
+          "sha256": "a47bae86c39d6473444af01db21eb70cd904646a5d8dc71e6119b777a86ba96f",
+          "source": "/data/liyufeng/paperb_async_site_20261016_v1/README.md",
+          "source_sha256": "a47bae86c39d6473444af01db21eb70cd904646a5d8dc71e6119b777a86ba96f",
+          "parent_commit": "2820578ca3b0d5c4a7d6338bde2afe229e3f6506",
+          "parent_sha256": "0521332e4a582d29f823d268fb8c0200b9ed84dacf51abf682c88a75879b6b4d",
           "parent_source_provenance": {
-            "bytes": 2977,
             "path": "README.md",
-            "sha256": "4ffc98ad456a4a3990f63141be12551e1d106a39c4f4b1933b8685a2371c630a",
-            "source": "papers/paperB/research_increments/native_handoff_instrumentation_v2_2026-10-14/merged_delivery/concurrent_README.md",
-            "source_sha256": "4ffc98ad456a4a3990f63141be12551e1d106a39c4f4b1933b8685a2371c630a",
+            "bytes": 4292,
+            "sha256": "0521332e4a582d29f823d268fb8c0200b9ed84dacf51abf682c88a75879b6b4d",
+            "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/README.md",
+            "source_sha256": "0521332e4a582d29f823d268fb8c0200b9ed84dacf51abf682c88a75879b6b4d",
             "transformations": [
-              "Retain exact concurrent 66d4b91 README bytes; correct its stale parent SHA/size in publication manifest; initial failing source gate retained."
-            ]
-          }
+              "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
+            ],
+            "parent_commit": "960d9b9d77e3729227511036dd74c9b228b2eda3",
+            "parent_sha256": "4ffc98ad456a4a3990f63141be12551e1d106a39c4f4b1933b8685a2371c630a",
+            "parent_source_provenance": {
+              "bytes": 2977,
+              "path": "README.md",
+              "sha256": "4ffc98ad456a4a3990f63141be12551e1d106a39c4f4b1933b8685a2371c630a",
+              "source": "papers/paperB/research_increments/native_handoff_instrumentation_v2_2026-10-14/merged_delivery/concurrent_README.md",
+              "source_sha256": "4ffc98ad456a4a3990f63141be12551e1d106a39c4f4b1933b8685a2371c630a",
+              "transformations": [
+                "Retain exact concurrent 66d4b91 README bytes; correct its stale parent SHA/size in publication manifest; initial failing source gate retained."
+              ]
+            }
+          },
+          "transformations": [
+            "Prepend a dated, scoped CPU engineering pointer; historical content retained byte for byte."
+          ]
         },
         "transformations": [
-          "Prepend a dated, scoped CPU engineering pointer; historical content retained byte for byte."
+          "Prepend a dated, scoped native-loop pointer; historical content retained byte for byte."
         ]
       },
       "transformations": [
-        "Prepend a dated, scoped native-loop pointer; historical content retained byte for byte."
+        "Prepend a dated, scoped native-paced pointer; historical content retained byte for byte."
       ]
     },
     {
@@ -307,24 +331,36 @@
     },
     {
       "path": "async-collector.html",
-      "bytes": 10663,
-      "sha256": "e67e36103ea6a4aff958e9068725918f9fb03bac4fad0d42d0ca9fccf0394bde",
+      "bytes": 11442,
+      "sha256": "ae5b174fd8574c5d10a326343999cf47d5c734f03d179a11e66cace164d0c08f",
       "source": "/data/liyufeng/paperb_async_site_20261016_v1/async-collector.html",
-      "source_sha256": "e67e36103ea6a4aff958e9068725918f9fb03bac4fad0d42d0ca9fccf0394bde",
-      "parent_commit": "2dee405fd63d08b0b923b024b2914f7258ac9b49",
-      "parent_sha256": "7488c1d7052a1b46298a9d274c1664af2da9d063b5f0bf30cba9bab6df71a7f8",
+      "source_sha256": "ae5b174fd8574c5d10a326343999cf47d5c734f03d179a11e66cace164d0c08f",
+      "parent_commit": "85ac29ab8fe1c620671a0bd8cb50060f460066ae",
+      "parent_sha256": "e67e36103ea6a4aff958e9068725918f9fb03bac4fad0d42d0ca9fccf0394bde",
       "parent_source_provenance": {
         "path": "async-collector.html",
-        "bytes": 9954,
-        "sha256": "7488c1d7052a1b46298a9d274c1664af2da9d063b5f0bf30cba9bab6df71a7f8",
+        "bytes": 10663,
+        "sha256": "e67e36103ea6a4aff958e9068725918f9fb03bac4fad0d42d0ca9fccf0394bde",
         "source": "/data/liyufeng/paperb_async_site_20261016_v1/async-collector.html",
-        "source_sha256": "7488c1d7052a1b46298a9d274c1664af2da9d063b5f0bf30cba9bab6df71a7f8",
+        "source_sha256": "e67e36103ea6a4aff958e9068725918f9fb03bac4fad0d42d0ca9fccf0394bde",
+        "parent_commit": "2dee405fd63d08b0b923b024b2914f7258ac9b49",
+        "parent_sha256": "7488c1d7052a1b46298a9d274c1664af2da9d063b5f0bf30cba9bab6df71a7f8",
+        "parent_source_provenance": {
+          "path": "async-collector.html",
+          "bytes": 9954,
+          "sha256": "7488c1d7052a1b46298a9d274c1664af2da9d063b5f0bf30cba9bab6df71a7f8",
+          "source": "/data/liyufeng/paperb_async_site_20261016_v1/async-collector.html",
+          "source_sha256": "7488c1d7052a1b46298a9d274c1664af2da9d063b5f0bf30cba9bab6df71a7f8",
+          "transformations": [
+            "Root-owned scoped CPU evidence page."
+          ]
+        },
         "transformations": [
-          "Root-owned scoped CPU evidence page."
+          "Prepend a dated, scoped native-loop pointer; historical content retained byte for byte."
         ]
       },
       "transformations": [
-        "Prepend a dated, scoped native-loop pointer; historical content retained byte for byte."
+        "Prepend a dated, scoped native-paced pointer; historical content retained byte for byte."
       ]
     },
     {
@@ -339,36 +375,48 @@
     },
     {
       "path": "calibration.html",
-      "bytes": 23687,
-      "sha256": "7b6ef555c477b91ccf6b0f1b8a2a7fa0db943bfed7e1765277ec6b7dca228973",
+      "bytes": 24466,
+      "sha256": "ed8bbdf4d14ca4f82ffe6cdc6d6d617414461833d44bc96c74a7c3d6fa1b9e49",
       "source": "/data/liyufeng/paperb_async_site_20261016_v1/calibration.html",
-      "source_sha256": "7b6ef555c477b91ccf6b0f1b8a2a7fa0db943bfed7e1765277ec6b7dca228973",
-      "parent_commit": "2dee405fd63d08b0b923b024b2914f7258ac9b49",
-      "parent_sha256": "277880b8df5d1b6275852cbb1be3c54b8d21f720476270f1668d2532a70017d4",
+      "source_sha256": "ed8bbdf4d14ca4f82ffe6cdc6d6d617414461833d44bc96c74a7c3d6fa1b9e49",
+      "parent_commit": "85ac29ab8fe1c620671a0bd8cb50060f460066ae",
+      "parent_sha256": "7b6ef555c477b91ccf6b0f1b8a2a7fa0db943bfed7e1765277ec6b7dca228973",
       "parent_source_provenance": {
         "path": "calibration.html",
-        "bytes": 22978,
-        "sha256": "277880b8df5d1b6275852cbb1be3c54b8d21f720476270f1668d2532a70017d4",
+        "bytes": 23687,
+        "sha256": "7b6ef555c477b91ccf6b0f1b8a2a7fa0db943bfed7e1765277ec6b7dca228973",
         "source": "/data/liyufeng/paperb_async_site_20261016_v1/calibration.html",
-        "source_sha256": "277880b8df5d1b6275852cbb1be3c54b8d21f720476270f1668d2532a70017d4",
-        "parent_commit": "2820578ca3b0d5c4a7d6338bde2afe229e3f6506",
-        "parent_sha256": "816922105d2ac5477b50b72e8b9d3c02aaf28793807bf0861f940709c9757103",
+        "source_sha256": "7b6ef555c477b91ccf6b0f1b8a2a7fa0db943bfed7e1765277ec6b7dca228973",
+        "parent_commit": "2dee405fd63d08b0b923b024b2914f7258ac9b49",
+        "parent_sha256": "277880b8df5d1b6275852cbb1be3c54b8d21f720476270f1668d2532a70017d4",
         "parent_source_provenance": {
           "path": "calibration.html",
-          "bytes": 22372,
-          "sha256": "816922105d2ac5477b50b72e8b9d3c02aaf28793807bf0861f940709c9757103",
-          "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/calibration.html",
-          "source_sha256": "816922105d2ac5477b50b72e8b9d3c02aaf28793807bf0861f940709c9757103",
+          "bytes": 22978,
+          "sha256": "277880b8df5d1b6275852cbb1be3c54b8d21f720476270f1668d2532a70017d4",
+          "source": "/data/liyufeng/paperb_async_site_20261016_v1/calibration.html",
+          "source_sha256": "277880b8df5d1b6275852cbb1be3c54b8d21f720476270f1668d2532a70017d4",
+          "parent_commit": "2820578ca3b0d5c4a7d6338bde2afe229e3f6506",
+          "parent_sha256": "816922105d2ac5477b50b72e8b9d3c02aaf28793807bf0861f940709c9757103",
+          "parent_source_provenance": {
+            "path": "calibration.html",
+            "bytes": 22372,
+            "sha256": "816922105d2ac5477b50b72e8b9d3c02aaf28793807bf0861f940709c9757103",
+            "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/calibration.html",
+            "source_sha256": "816922105d2ac5477b50b72e8b9d3c02aaf28793807bf0861f940709c9757103",
+            "transformations": [
+              "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
+            ]
+          },
           "transformations": [
-            "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
+            "Prepend a dated, scoped CPU engineering pointer; historical content retained byte for byte."
           ]
         },
         "transformations": [
-          "Prepend a dated, scoped CPU engineering pointer; historical content retained byte for byte."
+          "Prepend a dated, scoped native-loop pointer; historical content retained byte for byte."
         ]
       },
       "transformations": [
-        "Prepend a dated, scoped native-loop pointer; historical content retained byte for byte."
+        "Prepend a dated, scoped native-paced pointer; historical content retained byte for byte."
       ]
     },
     {
@@ -779,46 +827,58 @@
     },
     {
       "path": "force-diagnostics.html",
-      "bytes": 18341,
-      "sha256": "85989cfacf3d8485b9f025fed22e82adc101856ca8a2e2f0f213a5939471634f",
+      "bytes": 19120,
+      "sha256": "8f419fc6e78528fe4c7ba2956ad3c5af6912c760eed0e80af03a9cc1faf4f0a5",
       "source": "/data/liyufeng/paperb_async_site_20261016_v1/force-diagnostics.html",
-      "source_sha256": "85989cfacf3d8485b9f025fed22e82adc101856ca8a2e2f0f213a5939471634f",
-      "parent_commit": "2dee405fd63d08b0b923b024b2914f7258ac9b49",
-      "parent_sha256": "84b5147a5ddd16321e50db4eded3e484dd215f5f30b23c2f2d5b6b0c75239878",
+      "source_sha256": "8f419fc6e78528fe4c7ba2956ad3c5af6912c760eed0e80af03a9cc1faf4f0a5",
+      "parent_commit": "85ac29ab8fe1c620671a0bd8cb50060f460066ae",
+      "parent_sha256": "85989cfacf3d8485b9f025fed22e82adc101856ca8a2e2f0f213a5939471634f",
       "parent_source_provenance": {
         "path": "force-diagnostics.html",
-        "bytes": 17632,
-        "sha256": "84b5147a5ddd16321e50db4eded3e484dd215f5f30b23c2f2d5b6b0c75239878",
+        "bytes": 18341,
+        "sha256": "85989cfacf3d8485b9f025fed22e82adc101856ca8a2e2f0f213a5939471634f",
         "source": "/data/liyufeng/paperb_async_site_20261016_v1/force-diagnostics.html",
-        "source_sha256": "84b5147a5ddd16321e50db4eded3e484dd215f5f30b23c2f2d5b6b0c75239878",
-        "parent_commit": "2820578ca3b0d5c4a7d6338bde2afe229e3f6506",
-        "parent_sha256": "3ec759e6f4cd6b56d47503a382aa9f7fcb3cc343eff213634c0b8e5fdf6e29a2",
+        "source_sha256": "85989cfacf3d8485b9f025fed22e82adc101856ca8a2e2f0f213a5939471634f",
+        "parent_commit": "2dee405fd63d08b0b923b024b2914f7258ac9b49",
+        "parent_sha256": "84b5147a5ddd16321e50db4eded3e484dd215f5f30b23c2f2d5b6b0c75239878",
         "parent_source_provenance": {
           "path": "force-diagnostics.html",
-          "bytes": 17026,
-          "sha256": "3ec759e6f4cd6b56d47503a382aa9f7fcb3cc343eff213634c0b8e5fdf6e29a2",
-          "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/force-diagnostics.html",
-          "source_sha256": "3ec759e6f4cd6b56d47503a382aa9f7fcb3cc343eff213634c0b8e5fdf6e29a2",
-          "transformations": [
-            "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
-          ],
-          "parent_commit": "960d9b9d77e3729227511036dd74c9b228b2eda3",
-          "parent_sha256": "c341130ae5d1de2fc3ac830412558793d46235ab4a8a8bf8a00f8d68d519f331",
+          "bytes": 17632,
+          "sha256": "84b5147a5ddd16321e50db4eded3e484dd215f5f30b23c2f2d5b6b0c75239878",
+          "source": "/data/liyufeng/paperb_async_site_20261016_v1/force-diagnostics.html",
+          "source_sha256": "84b5147a5ddd16321e50db4eded3e484dd215f5f30b23c2f2d5b6b0c75239878",
+          "parent_commit": "2820578ca3b0d5c4a7d6338bde2afe229e3f6506",
+          "parent_sha256": "3ec759e6f4cd6b56d47503a382aa9f7fcb3cc343eff213634c0b8e5fdf6e29a2",
           "parent_source_provenance": {
             "path": "force-diagnostics.html",
-            "bytes": 16584,
-            "sha256": "c341130ae5d1de2fc3ac830412558793d46235ab4a8a8bf8a00f8d68d519f331",
-            "source": "papers/paperB/research_increments/systematic_study_v01_2026-10-14/publication/source/force-diagnostics.html",
-            "source_sha256": "c341130ae5d1de2fc3ac830412558793d46235ab4a8a8bf8a00f8d68d519f331",
-            "transformations": []
-          }
+            "bytes": 17026,
+            "sha256": "3ec759e6f4cd6b56d47503a382aa9f7fcb3cc343eff213634c0b8e5fdf6e29a2",
+            "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/force-diagnostics.html",
+            "source_sha256": "3ec759e6f4cd6b56d47503a382aa9f7fcb3cc343eff213634c0b8e5fdf6e29a2",
+            "transformations": [
+              "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
+            ],
+            "parent_commit": "960d9b9d77e3729227511036dd74c9b228b2eda3",
+            "parent_sha256": "c341130ae5d1de2fc3ac830412558793d46235ab4a8a8bf8a00f8d68d519f331",
+            "parent_source_provenance": {
+              "path": "force-diagnostics.html",
+              "bytes": 16584,
+              "sha256": "c341130ae5d1de2fc3ac830412558793d46235ab4a8a8bf8a00f8d68d519f331",
+              "source": "papers/paperB/research_increments/systematic_study_v01_2026-10-14/publication/source/force-diagnostics.html",
+              "source_sha256": "c341130ae5d1de2fc3ac830412558793d46235ab4a8a8bf8a00f8d68d519f331",
+              "transformations": []
+            }
+          },
+          "transformations": [
+            "Prepend a dated, scoped CPU engineering pointer; historical content retained byte for byte."
+          ]
         },
         "transformations": [
-          "Prepend a dated, scoped CPU engineering pointer; historical content retained byte for byte."
+          "Prepend a dated, scoped native-loop pointer; historical content retained byte for byte."
         ]
       },
       "transformations": [
-        "Prepend a dated, scoped native-loop pointer; historical content retained byte for byte."
+        "Prepend a dated, scoped native-paced pointer; historical content retained byte for byte."
       ]
     },
     {
@@ -857,46 +917,58 @@
     },
     {
       "path": "index.html",
-      "bytes": 286025,
-      "sha256": "712e226f50e72e568cc6b00f450d67498d9c673a942dae937a03ff836bdb9696",
+      "bytes": 286804,
+      "sha256": "11cf9cf9b20540ae6d9b1e4341369cc3bc998b2d83aa6dd3fc922755211eee1c",
       "source": "/data/liyufeng/paperb_async_site_20261016_v1/index.html",
-      "source_sha256": "712e226f50e72e568cc6b00f450d67498d9c673a942dae937a03ff836bdb9696",
-      "parent_commit": "2dee405fd63d08b0b923b024b2914f7258ac9b49",
-      "parent_sha256": "05c64cf2dd7ff08469a0f249d0c0720cf8e8fa52f68a740375234b7d3af9208e",
+      "source_sha256": "11cf9cf9b20540ae6d9b1e4341369cc3bc998b2d83aa6dd3fc922755211eee1c",
+      "parent_commit": "85ac29ab8fe1c620671a0bd8cb50060f460066ae",
+      "parent_sha256": "712e226f50e72e568cc6b00f450d67498d9c673a942dae937a03ff836bdb9696",
       "parent_source_provenance": {
         "path": "index.html",
-        "bytes": 285316,
-        "sha256": "05c64cf2dd7ff08469a0f249d0c0720cf8e8fa52f68a740375234b7d3af9208e",
+        "bytes": 286025,
+        "sha256": "712e226f50e72e568cc6b00f450d67498d9c673a942dae937a03ff836bdb9696",
         "source": "/data/liyufeng/paperb_async_site_20261016_v1/index.html",
-        "source_sha256": "05c64cf2dd7ff08469a0f249d0c0720cf8e8fa52f68a740375234b7d3af9208e",
-        "parent_commit": "2820578ca3b0d5c4a7d6338bde2afe229e3f6506",
-        "parent_sha256": "fa310a84906eabf89a9c4b09c517969a23fefb267ab4ee30fa5bd76894cca19d",
+        "source_sha256": "712e226f50e72e568cc6b00f450d67498d9c673a942dae937a03ff836bdb9696",
+        "parent_commit": "2dee405fd63d08b0b923b024b2914f7258ac9b49",
+        "parent_sha256": "05c64cf2dd7ff08469a0f249d0c0720cf8e8fa52f68a740375234b7d3af9208e",
         "parent_source_provenance": {
           "path": "index.html",
-          "bytes": 284710,
-          "sha256": "fa310a84906eabf89a9c4b09c517969a23fefb267ab4ee30fa5bd76894cca19d",
-          "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/index.html",
-          "source_sha256": "fa310a84906eabf89a9c4b09c517969a23fefb267ab4ee30fa5bd76894cca19d",
-          "transformations": [
-            "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
-          ],
-          "parent_commit": "960d9b9d77e3729227511036dd74c9b228b2eda3",
-          "parent_sha256": "ab1e1276f8daee977580ba8c0302fb991f1e586f683bc1776b32835d66801f4c",
+          "bytes": 285316,
+          "sha256": "05c64cf2dd7ff08469a0f249d0c0720cf8e8fa52f68a740375234b7d3af9208e",
+          "source": "/data/liyufeng/paperb_async_site_20261016_v1/index.html",
+          "source_sha256": "05c64cf2dd7ff08469a0f249d0c0720cf8e8fa52f68a740375234b7d3af9208e",
+          "parent_commit": "2820578ca3b0d5c4a7d6338bde2afe229e3f6506",
+          "parent_sha256": "fa310a84906eabf89a9c4b09c517969a23fefb267ab4ee30fa5bd76894cca19d",
           "parent_source_provenance": {
             "path": "index.html",
-            "bytes": 284267,
-            "sha256": "ab1e1276f8daee977580ba8c0302fb991f1e586f683bc1776b32835d66801f4c",
-            "source": "papers/paperB/research_increments/systematic_study_v01_2026-10-14/publication/source/index.html",
-            "source_sha256": "ab1e1276f8daee977580ba8c0302fb991f1e586f683bc1776b32835d66801f4c",
-            "transformations": []
-          }
+            "bytes": 284710,
+            "sha256": "fa310a84906eabf89a9c4b09c517969a23fefb267ab4ee30fa5bd76894cca19d",
+            "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/index.html",
+            "source_sha256": "fa310a84906eabf89a9c4b09c517969a23fefb267ab4ee30fa5bd76894cca19d",
+            "transformations": [
+              "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
+            ],
+            "parent_commit": "960d9b9d77e3729227511036dd74c9b228b2eda3",
+            "parent_sha256": "ab1e1276f8daee977580ba8c0302fb991f1e586f683bc1776b32835d66801f4c",
+            "parent_source_provenance": {
+              "path": "index.html",
+              "bytes": 284267,
+              "sha256": "ab1e1276f8daee977580ba8c0302fb991f1e586f683bc1776b32835d66801f4c",
+              "source": "papers/paperB/research_increments/systematic_study_v01_2026-10-14/publication/source/index.html",
+              "source_sha256": "ab1e1276f8daee977580ba8c0302fb991f1e586f683bc1776b32835d66801f4c",
+              "transformations": []
+            }
+          },
+          "transformations": [
+            "Prepend a dated, scoped CPU engineering pointer; historical content retained byte for byte."
+          ]
         },
         "transformations": [
-          "Prepend a dated, scoped CPU engineering pointer; historical content retained byte for byte."
+          "Prepend a dated, scoped native-loop pointer; historical content retained byte for byte."
         ]
       },
       "transformations": [
-        "Prepend a dated, scoped native-loop pointer; historical content retained byte for byte."
+        "Prepend a dated, scoped native-paced pointer; historical content retained byte for byte."
       ]
     },
     {
@@ -911,12 +983,34 @@
     },
     {
       "path": "native-loop.html",
-      "bytes": 13016,
-      "sha256": "255b961767c3faf990b9e95fd1cba50bcfa19af701e2f9e090eb81daa0b52191",
-      "source": "/data/liyufeng/paperb_native_async_loop_20261019_v1/publication/site_pages/native-loop.html",
-      "source_sha256": "255b961767c3faf990b9e95fd1cba50bcfa19af701e2f9e090eb81daa0b52191",
+      "bytes": 13795,
+      "sha256": "f54d73b95cdc3a9cc97d4c28b6775ca7846bbad611042c5e1f79f38dba937543",
+      "source": "/data/liyufeng/paperb_async_site_20261016_v1/native-loop.html",
+      "source_sha256": "f54d73b95cdc3a9cc97d4c28b6775ca7846bbad611042c5e1f79f38dba937543",
+      "parent_commit": "85ac29ab8fe1c620671a0bd8cb50060f460066ae",
+      "parent_sha256": "255b961767c3faf990b9e95fd1cba50bcfa19af701e2f9e090eb81daa0b52191",
+      "parent_source_provenance": {
+        "path": "native-loop.html",
+        "bytes": 13016,
+        "sha256": "255b961767c3faf990b9e95fd1cba50bcfa19af701e2f9e090eb81daa0b52191",
+        "source": "/data/liyufeng/paperb_native_async_loop_20261019_v1/publication/site_pages/native-loop.html",
+        "source_sha256": "255b961767c3faf990b9e95fd1cba50bcfa19af701e2f9e090eb81daa0b52191",
+        "transformations": [
+          "Root-owned scoped native-loop evidence page."
+        ]
+      },
       "transformations": [
-        "Root-owned scoped native-loop evidence page."
+        "Prepend a dated, scoped native-paced pointer; historical content retained byte for byte."
+      ]
+    },
+    {
+      "path": "native-paced.html",
+      "bytes": 12518,
+      "sha256": "acf64c8b76b369fafe6ad69620535ee5e3343a885a509b8cbb569d73eaecec65",
+      "source": "/data/liyufeng/paperb_native_paced_loop_20261020_v1/publication/site_pages/native-paced.html",
+      "source_sha256": "acf64c8b76b369fafe6ad69620535ee5e3343a885a509b8cbb569d73eaecec65",
+      "transformations": [
+        "Root-owned scoped native-paced evidence page."
       ]
     },
     {
@@ -3945,6 +4039,238 @@
       "sha256": "06b9c37acadd7804c5043df3efeb08f33d101220500e8427aac5eb7b2fda3d4e",
       "source": "papers/paperB/research_increments/native_handoff_instrumentation_v2_2026-10-14/source_only_parallel_aris_review/SOURCE_ONLY_VERDICT.json",
       "source_sha256": "06b9c37acadd7804c5043df3efeb08f33d101220500e8427aac5eb7b2fda3d4e",
+      "transformations": []
+    },
+    {
+      "path": "research_increments/native_paced_loop_v01_2026-10-20/bridge/DIFFERENTIAL_V03_V04.json",
+      "bytes": 519,
+      "sha256": "498dfe494c107c01cc363c31b113cc907259f3fd4d6c2a5abfc5388b9b93a3b3",
+      "source": "/data/liyufeng/paperb_async_bridge_v04_20261020_v1/results/DIFFERENTIAL_V03_V04.json",
+      "source_sha256": "498dfe494c107c01cc363c31b113cc907259f3fd4d6c2a5abfc5388b9b93a3b3",
+      "transformations": []
+    },
+    {
+      "path": "research_increments/native_paced_loop_v01_2026-10-20/bridge/README_v04_cn.md",
+      "bytes": 2786,
+      "sha256": "69a775a4d829d28812d5b89b3cd1eaf1a71dade58db8cdc075d5616c0e828a35",
+      "source": "/data/liyufeng/paperb_async_bridge_v04_20261020_v1/README_cn.md",
+      "source_sha256": "69a775a4d829d28812d5b89b3cd1eaf1a71dade58db8cdc075d5616c0e828a35",
+      "transformations": []
+    },
+    {
+      "path": "research_increments/native_paced_loop_v01_2026-10-20/bridge/async_bridge_v04_source.zip",
+      "bytes": 253783,
+      "sha256": "3c0dc3a667aec6255ab7ca82d16af7b3a7094fea2f5efee36e038c8d2224858c",
+      "source": "deterministic zip of /data/liyufeng/paperb_async_bridge_v04_20261020_v1",
+      "source_sha256": "3c0dc3a667aec6255ab7ca82d16af7b3a7094fea2f5efee36e038c8d2224858c",
+      "transformations": []
+    },
+    {
+      "path": "research_increments/native_paced_loop_v01_2026-10-20/bridge/time_replay_v02.json",
+      "bytes": 1001,
+      "sha256": "7e0ffc7d93df98579f2e985d2e48432c6c3f00bc752f450486f568d58a8f8ed3",
+      "source": "/data/liyufeng/paperb_async_bridge_v04_20261020_v1/results/time_v02.json",
+      "source_sha256": "7e0ffc7d93df98579f2e985d2e48432c6c3f00bc752f450486f568d58a8f8ed3",
+      "transformations": []
+    },
+    {
+      "path": "research_increments/native_paced_loop_v01_2026-10-20/bridge/time_replay_v04.json",
+      "bytes": 1023,
+      "sha256": "45bcdb3de5bc3e143703471d935f90c0ba5dcf5051d2814a5cb2cda2d5e36bf7",
+      "source": "/data/liyufeng/paperb_async_bridge_v04_20261020_v1/results/time_v04.json",
+      "source_sha256": "45bcdb3de5bc3e143703471d935f90c0ba5dcf5051d2814a5cb2cda2d5e36bf7",
+      "transformations": []
+    },
+    {
+      "path": "research_increments/native_paced_loop_v01_2026-10-20/figures/FIGURE_INPUTS.json",
+      "bytes": 2271,
+      "sha256": "dcf23017b3ea6c6804f5a3c59cff9498c18931e642299618418e491bc89bfddb",
+      "source": "/data/liyufeng/paperb_native_paced_loop_20261020_v1/analysis/figures/FIGURE_INPUTS.json",
+      "source_sha256": "dcf23017b3ea6c6804f5a3c59cff9498c18931e642299618418e491bc89bfddb",
+      "transformations": []
+    },
+    {
+      "path": "research_increments/native_paced_loop_v01_2026-10-20/figures/na2_latency_slack.pdf",
+      "bytes": 36342,
+      "sha256": "ed9dc3bf9d82660ce9ab8ca923eb7e1f465a635f8e2caaa2d4d1a3335d6490e8",
+      "source": "/data/liyufeng/paperb_native_paced_loop_20261020_v1/analysis/figures/na2_latency_slack.pdf",
+      "source_sha256": "ed9dc3bf9d82660ce9ab8ca923eb7e1f465a635f8e2caaa2d4d1a3335d6490e8",
+      "transformations": []
+    },
+    {
+      "path": "research_increments/native_paced_loop_v01_2026-10-20/figures/na2_latency_slack.png",
+      "bytes": 140995,
+      "sha256": "66d14940f07700a5e973e64fb7fc23890fa97afef239f7848f557a73193a2e6a",
+      "source": "/data/liyufeng/paperb_native_paced_loop_20261020_v1/analysis/figures/na2_latency_slack.png",
+      "source_sha256": "66d14940f07700a5e973e64fb7fc23890fa97afef239f7848f557a73193a2e6a",
+      "transformations": []
+    },
+    {
+      "path": "research_increments/native_paced_loop_v01_2026-10-20/figures/na2_latency_slack.svg",
+      "bytes": 127902,
+      "sha256": "fa64f7ebb7bb637205239000224a3d9424bc5b014485780a84fa9f4687b63459",
+      "source": "/data/liyufeng/paperb_native_paced_loop_20261020_v1/analysis/figures/na2_latency_slack.svg",
+      "source_sha256": "fa64f7ebb7bb637205239000224a3d9424bc5b014485780a84fa9f4687b63459",
+      "transformations": []
+    },
+    {
+      "path": "research_increments/native_paced_loop_v01_2026-10-20/native/NA2_SUMMARY.json",
+      "bytes": 8364,
+      "sha256": "b08326140738845d216c9788b1bce3bcacc074ebf2d22ec7e6b7b1726cfd3862",
+      "source": "/data/liyufeng/paperb_native_paced_loop_20261020_v1/analysis/NA2_SUMMARY.json",
+      "source_sha256": "b08326140738845d216c9788b1bce3bcacc074ebf2d22ec7e6b7b1726cfd3862",
+      "transformations": []
+    },
+    {
+      "path": "research_increments/native_paced_loop_v01_2026-10-20/native/README_cn.md",
+      "bytes": 5216,
+      "sha256": "3b61b953b2e30d330f20b9dbf969bac8918fa069332da7a8379329b0f4fd60c9",
+      "source": "/data/liyufeng/paperb_native_paced_loop_20261020_v1/README_cn.md",
+      "source_sha256": "3b61b953b2e30d330f20b9dbf969bac8918fa069332da7a8379329b0f4fd60c9",
+      "transformations": []
+    },
+    {
+      "path": "research_increments/native_paced_loop_v01_2026-10-20/native/REHEARSAL_NOTE.json",
+      "bytes": 1290,
+      "sha256": "993523b36710111f5c99d3502b0db88cb9a9b0feae94446602f243eeae9658dc",
+      "source": "/data/liyufeng/paperb_native_paced_loop_20261020_v1/REHEARSAL_NOTE.json",
+      "source_sha256": "993523b36710111f5c99d3502b0db88cb9a9b0feae94446602f243eeae9658dc",
+      "transformations": []
+    },
+    {
+      "path": "research_increments/native_paced_loop_v01_2026-10-20/native/SOURCE_FREEZE.json",
+      "bytes": 10526,
+      "sha256": "904d2be4723a306625041b9ad7f73b60b59dfd27dd6fdd0f9bbd6195d78f33d5",
+      "source": "/data/liyufeng/paperb_native_paced_loop_20261020_v1/SOURCE_FREEZE.json",
+      "source_sha256": "904d2be4723a306625041b9ad7f73b60b59dfd27dd6fdd0f9bbd6195d78f33d5",
+      "transformations": []
+    },
+    {
+      "path": "research_increments/native_paced_loop_v01_2026-10-20/native/launch_attempts/na2_d000_attempt_1.json",
+      "bytes": 906,
+      "sha256": "cd282430d07fe92463b9a086fbd6ffaab9403b368d5b1e2c5138c3a8bc0480e1",
+      "source": "/data/liyufeng/paperb_native_paced_loop_20261020_v1/launch_attempts/na2_d000_attempt_1.json",
+      "source_sha256": "cd282430d07fe92463b9a086fbd6ffaab9403b368d5b1e2c5138c3a8bc0480e1",
+      "transformations": []
+    },
+    {
+      "path": "research_increments/native_paced_loop_v01_2026-10-20/native/launch_attempts/na2_d000_attempt_1_exit.json",
+      "bytes": 264,
+      "sha256": "800dc480d03c8dec022fa9e11494a348b771c8e93f51c09029d8c831b539f750",
+      "source": "/data/liyufeng/paperb_native_paced_loop_20261020_v1/launch_attempts/na2_d000_attempt_1_exit.json",
+      "source_sha256": "800dc480d03c8dec022fa9e11494a348b771c8e93f51c09029d8c831b539f750",
+      "transformations": []
+    },
+    {
+      "path": "research_increments/native_paced_loop_v01_2026-10-20/native/launch_attempts/na2_d050_attempt_1.json",
+      "bytes": 905,
+      "sha256": "6ce0b50cb2f3615b5163825a6c7506921b0682eef74a8a679c75bdb25e25f72c",
+      "source": "/data/liyufeng/paperb_native_paced_loop_20261020_v1/launch_attempts/na2_d050_attempt_1.json",
+      "source_sha256": "6ce0b50cb2f3615b5163825a6c7506921b0682eef74a8a679c75bdb25e25f72c",
+      "transformations": []
+    },
+    {
+      "path": "research_increments/native_paced_loop_v01_2026-10-20/native/launch_attempts/na2_d050_attempt_1_exit.json",
+      "bytes": 265,
+      "sha256": "ce6b3f5e242b94a09404617ce78205c855f573c623442ca4f268152c84abf89f",
+      "source": "/data/liyufeng/paperb_native_paced_loop_20261020_v1/launch_attempts/na2_d050_attempt_1_exit.json",
+      "source_sha256": "ce6b3f5e242b94a09404617ce78205c855f573c623442ca4f268152c84abf89f",
+      "transformations": []
+    },
+    {
+      "path": "research_increments/native_paced_loop_v01_2026-10-20/native/launch_attempts/na2_d150_attempt_1.json",
+      "bytes": 906,
+      "sha256": "98fe47208776dff7c8dc38b64f8c383b2e6633916841f8b816ded02c8f279d1f",
+      "source": "/data/liyufeng/paperb_native_paced_loop_20261020_v1/launch_attempts/na2_d150_attempt_1.json",
+      "source_sha256": "98fe47208776dff7c8dc38b64f8c383b2e6633916841f8b816ded02c8f279d1f",
+      "transformations": []
+    },
+    {
+      "path": "research_increments/native_paced_loop_v01_2026-10-20/native/launch_attempts/na2_d150_attempt_1_exit.json",
+      "bytes": 265,
+      "sha256": "0d08a641a6ff9027e7693a3b22306ec3f6502ca583b483eaae196c90900ff49a",
+      "source": "/data/liyufeng/paperb_native_paced_loop_20261020_v1/launch_attempts/na2_d150_attempt_1_exit.json",
+      "source_sha256": "0d08a641a6ff9027e7693a3b22306ec3f6502ca583b483eaae196c90900ff49a",
+      "transformations": []
+    },
+    {
+      "path": "research_increments/native_paced_loop_v01_2026-10-20/native/na2_cases_complete.zip",
+      "bytes": 31182131,
+      "sha256": "1efa0777cb688aa547c15ad19df11ed6555cecd85bd5ee2649186a5a7b8e251a",
+      "source": "deterministic zip of /data/liyufeng/paperb_native_paced_loop_20261020_v1",
+      "source_sha256": "1efa0777cb688aa547c15ad19df11ed6555cecd85bd5ee2649186a5a7b8e251a",
+      "transformations": []
+    },
+    {
+      "path": "research_increments/native_paced_loop_v01_2026-10-20/native/na2_d000_a1/READER_REPORT.json",
+      "bytes": 4051,
+      "sha256": "9f7fb84686f86d5f63f3cafb42dbcb3a79eea8cd8ef393eb41b3d798b20d25e6",
+      "source": "/data/liyufeng/paperb_native_paced_loop_20261020_v1/cases/na2_d000_a1/READER_REPORT.json",
+      "source_sha256": "9f7fb84686f86d5f63f3cafb42dbcb3a79eea8cd8ef393eb41b3d798b20d25e6",
+      "transformations": []
+    },
+    {
+      "path": "research_increments/native_paced_loop_v01_2026-10-20/native/na2_d000_a1/RESULT.json",
+      "bytes": 1205,
+      "sha256": "227c9bf4391271750262869a890c45f7577f6ec2bace60cd19cea56820e028a9",
+      "source": "/data/liyufeng/paperb_native_paced_loop_20261020_v1/cases/na2_d000_a1/RESULT.json",
+      "source_sha256": "227c9bf4391271750262869a890c45f7577f6ec2bace60cd19cea56820e028a9",
+      "transformations": []
+    },
+    {
+      "path": "research_increments/native_paced_loop_v01_2026-10-20/native/na2_d050_a1/READER_REPORT.json",
+      "bytes": 4104,
+      "sha256": "ebc96bda70512114d69cbd38d02d9b06dc1e84e4eadfa80149ab22f255c01fd5",
+      "source": "/data/liyufeng/paperb_native_paced_loop_20261020_v1/cases/na2_d050_a1/READER_REPORT.json",
+      "source_sha256": "ebc96bda70512114d69cbd38d02d9b06dc1e84e4eadfa80149ab22f255c01fd5",
+      "transformations": []
+    },
+    {
+      "path": "research_increments/native_paced_loop_v01_2026-10-20/native/na2_d050_a1/RESULT.json",
+      "bytes": 1219,
+      "sha256": "fd5150dbdd5207e99f67e6f77d5edcd1b4fc66a494164dfc606ec5c981798e6e",
+      "source": "/data/liyufeng/paperb_native_paced_loop_20261020_v1/cases/na2_d050_a1/RESULT.json",
+      "source_sha256": "fd5150dbdd5207e99f67e6f77d5edcd1b4fc66a494164dfc606ec5c981798e6e",
+      "transformations": []
+    },
+    {
+      "path": "research_increments/native_paced_loop_v01_2026-10-20/native/na2_d150_a1/READER_REPORT.json",
+      "bytes": 4031,
+      "sha256": "3e60b6b6e52e97f4c5111e9a1cfa74cd422935a5a2355d023062f4cc9acc3aed",
+      "source": "/data/liyufeng/paperb_native_paced_loop_20261020_v1/cases/na2_d150_a1/READER_REPORT.json",
+      "source_sha256": "3e60b6b6e52e97f4c5111e9a1cfa74cd422935a5a2355d023062f4cc9acc3aed",
+      "transformations": []
+    },
+    {
+      "path": "research_increments/native_paced_loop_v01_2026-10-20/native/na2_d150_a1/RESULT.json",
+      "bytes": 1217,
+      "sha256": "1d3002166a308ed0852a3c78fff4e3232e8fdb08e3d72d1dcd768663e5cd66d0",
+      "source": "/data/liyufeng/paperb_native_paced_loop_20261020_v1/cases/na2_d150_a1/RESULT.json",
+      "source_sha256": "1d3002166a308ed0852a3c78fff4e3232e8fdb08e3d72d1dcd768663e5cd66d0",
+      "transformations": []
+    },
+    {
+      "path": "research_increments/native_paced_loop_v01_2026-10-20/native/protocol.json",
+      "bytes": 3841,
+      "sha256": "17c968353de965b17ce3f81c1ee2a3147ac05831bc998b2b21aeb2ebcf97aa69",
+      "source": "/data/liyufeng/paperb_native_paced_loop_20261020_v1/protocol.json",
+      "source_sha256": "17c968353de965b17ce3f81c1ee2a3147ac05831bc998b2b21aeb2ebcf97aa69",
+      "transformations": []
+    },
+    {
+      "path": "research_increments/native_paced_loop_v01_2026-10-20/video/na2_poster.jpg",
+      "bytes": 104293,
+      "sha256": "1f5ce186aecc827b44c7ebef3d2c8da176f4f945338be9ca2ce7e93b233cdcb8",
+      "source": "JPEG of /data/liyufeng/paperb_native_paced_loop_20261020_v1/analysis/video_strips/00050.png",
+      "source_sha256": "1f5ce186aecc827b44c7ebef3d2c8da176f4f945338be9ca2ce7e93b233cdcb8",
+      "transformations": []
+    },
+    {
+      "path": "research_increments/native_paced_loop_v01_2026-10-20/video/na2_side_by_side_10fps.mp4",
+      "bytes": 622200,
+      "sha256": "020668e85ecb4eddf6a76ca8a4d57c550ceceabb94ce8152774137dc25d49d87",
+      "source": "/data/liyufeng/paperb_native_paced_loop_20261020_v1/analysis/na2_side_by_side_10fps.mp4",
+      "source_sha256": "020668e85ecb4eddf6a76ca8a4d57c550ceceabb94ce8152774137dc25d49d87",
       "transformations": []
     },
     {
@@ -7531,46 +7857,58 @@
     },
     {
       "path": "study.html",
-      "bytes": 12865,
-      "sha256": "75cdd7bd2d398773009899b7a14f0a29aed6f14f1a3c25bec1ada3df7fd1bac3",
+      "bytes": 13644,
+      "sha256": "6b70c9c26a5a186e4587cd4dafd526062a7af76c32d2f51ec7ef7ed06153bf59",
       "source": "/data/liyufeng/paperb_async_site_20261016_v1/study.html",
-      "source_sha256": "75cdd7bd2d398773009899b7a14f0a29aed6f14f1a3c25bec1ada3df7fd1bac3",
-      "parent_commit": "2dee405fd63d08b0b923b024b2914f7258ac9b49",
-      "parent_sha256": "fd22fe4fb6b8b5c93d1708ced6dc7d69734adde975c207720e53cdb29453ff96",
+      "source_sha256": "6b70c9c26a5a186e4587cd4dafd526062a7af76c32d2f51ec7ef7ed06153bf59",
+      "parent_commit": "85ac29ab8fe1c620671a0bd8cb50060f460066ae",
+      "parent_sha256": "75cdd7bd2d398773009899b7a14f0a29aed6f14f1a3c25bec1ada3df7fd1bac3",
       "parent_source_provenance": {
         "path": "study.html",
-        "bytes": 12156,
-        "sha256": "fd22fe4fb6b8b5c93d1708ced6dc7d69734adde975c207720e53cdb29453ff96",
+        "bytes": 12865,
+        "sha256": "75cdd7bd2d398773009899b7a14f0a29aed6f14f1a3c25bec1ada3df7fd1bac3",
         "source": "/data/liyufeng/paperb_async_site_20261016_v1/study.html",
-        "source_sha256": "fd22fe4fb6b8b5c93d1708ced6dc7d69734adde975c207720e53cdb29453ff96",
-        "parent_commit": "2820578ca3b0d5c4a7d6338bde2afe229e3f6506",
-        "parent_sha256": "3cb48580cb448eb7b7602e800953f361c319a746603e29d6033b8ebca4fea14a",
+        "source_sha256": "75cdd7bd2d398773009899b7a14f0a29aed6f14f1a3c25bec1ada3df7fd1bac3",
+        "parent_commit": "2dee405fd63d08b0b923b024b2914f7258ac9b49",
+        "parent_sha256": "fd22fe4fb6b8b5c93d1708ced6dc7d69734adde975c207720e53cdb29453ff96",
         "parent_source_provenance": {
           "path": "study.html",
-          "bytes": 11550,
-          "sha256": "3cb48580cb448eb7b7602e800953f361c319a746603e29d6033b8ebca4fea14a",
-          "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/study.html",
-          "source_sha256": "3cb48580cb448eb7b7602e800953f361c319a746603e29d6033b8ebca4fea14a",
-          "transformations": [
-            "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
-          ],
-          "parent_commit": "960d9b9d77e3729227511036dd74c9b228b2eda3",
-          "parent_sha256": "6a311cff1311f7b1bf7c2bfa2754c9c37a666d37d3ea98d35b6da7706ed7f093",
+          "bytes": 12156,
+          "sha256": "fd22fe4fb6b8b5c93d1708ced6dc7d69734adde975c207720e53cdb29453ff96",
+          "source": "/data/liyufeng/paperb_async_site_20261016_v1/study.html",
+          "source_sha256": "fd22fe4fb6b8b5c93d1708ced6dc7d69734adde975c207720e53cdb29453ff96",
+          "parent_commit": "2820578ca3b0d5c4a7d6338bde2afe229e3f6506",
+          "parent_sha256": "3cb48580cb448eb7b7602e800953f361c319a746603e29d6033b8ebca4fea14a",
           "parent_source_provenance": {
             "path": "study.html",
-            "bytes": 10990,
-            "sha256": "6a311cff1311f7b1bf7c2bfa2754c9c37a666d37d3ea98d35b6da7706ed7f093",
-            "source": "papers/paperB/research_increments/systematic_study_v01_2026-10-14/publication/source/study.html",
-            "source_sha256": "6a311cff1311f7b1bf7c2bfa2754c9c37a666d37d3ea98d35b6da7706ed7f093",
-            "transformations": []
-          }
+            "bytes": 11550,
+            "sha256": "3cb48580cb448eb7b7602e800953f361c319a746603e29d6033b8ebca4fea14a",
+            "source": "/data/liyufeng/paperb_calibration_site_snapshot_20261015_r02/study.html",
+            "source_sha256": "3cb48580cb448eb7b7602e800953f361c319a746603e29d6033b8ebca4fea14a",
+            "transformations": [
+              "Root-owned publication output; scientific source archives, reports and audit inputs retain their original bytes."
+            ],
+            "parent_commit": "960d9b9d77e3729227511036dd74c9b228b2eda3",
+            "parent_sha256": "6a311cff1311f7b1bf7c2bfa2754c9c37a666d37d3ea98d35b6da7706ed7f093",
+            "parent_source_provenance": {
+              "path": "study.html",
+              "bytes": 10990,
+              "sha256": "6a311cff1311f7b1bf7c2bfa2754c9c37a666d37d3ea98d35b6da7706ed7f093",
+              "source": "papers/paperB/research_increments/systematic_study_v01_2026-10-14/publication/source/study.html",
+              "source_sha256": "6a311cff1311f7b1bf7c2bfa2754c9c37a666d37d3ea98d35b6da7706ed7f093",
+              "transformations": []
+            }
+          },
+          "transformations": [
+            "Prepend a dated, scoped CPU engineering pointer; historical content retained byte for byte."
+          ]
         },
         "transformations": [
-          "Prepend a dated, scoped CPU engineering pointer; historical content retained byte for byte."
+          "Prepend a dated, scoped native-loop pointer; historical content retained byte for byte."
         ]
       },
       "transformations": [
-        "Prepend a dated, scoped native-loop pointer; historical content retained byte for byte."
+        "Prepend a dated, scoped native-paced pointer; historical content retained byte for byte."
       ]
     },
     {
@@ -7696,6 +8034,29 @@
     "matched_information": "BYTE_MATCH_SHARED_TRAINING_AND_STATE_MATCHED_CHECKS; PAIRED_INITIAL_CONDITIONS_AND_PROTOCOLS_FOR_INDEPENDENT_CLOSED_LOOP"
   },
   "current_increment": {
+    "date": "2026-10-20",
+    "namespace": "research_increments/native_paced_loop_v01_2026-10-20",
+    "parent_commit": "85ac29ab8fe1c620671a0bd8cb50060f460066ae",
+    "page": "native-paced.html",
+    "scope": "BRIDGE_V04_COST_AND_THREE_PACED_NATIVE_DELAY_CASES",
+    "native_formal_cases": 3,
+    "policy_quality_claim": false,
+    "scientific_main_M_B3": "UNTESTED",
+    "qualified_S_F_R": 0,
+    "inherited_unchanged_assets": 900,
+    "updated_current_pointers": [
+      "CURRENT_METHOD_cn.md",
+      "README.md",
+      "async-collector.html",
+      "calibration.html",
+      "force-diagnostics.html",
+      "index.html",
+      "native-loop.html",
+      "study.html"
+    ],
+    "added_assets": 30
+  },
+  "previous_increment": {
     "date": "2026-10-19",
     "namespace": "research_increments/native_async_loop_v01_2026-10-19",
     "parent_commit": "2dee405fd63d08b0b923b024b2914f7258ac9b49",
@@ -7718,23 +8079,5 @@
       "study.html"
     ],
     "added_assets": 37
-  },
-  "previous_increment": {
-    "date": "2026-10-16",
-    "namespace": "research_increments/async_model_collector_cpu_v01_2026-10-16",
-    "parent_commit": "2820578ca3b0d5c4a7d6338bde2afe229e3f6506",
-    "scope": "SCOPED_CPU_PROCESS_TRANSPORT_NATIVE_NOT_READY",
-    "inherited_unchanged_assets": 832,
-    "updated_current_pointers": [
-      "CURRENT_METHOD_cn.md",
-      "README.md",
-      "calibration.html",
-      "force-diagnostics.html",
-      "index.html",
-      "study.html"
-    ],
-    "scientific_main_M_B3": "UNTESTED",
-    "qualified_S_F_R": 0,
-    "manifest_exclusion": "Only root SOURCE_MANIFEST.json excludes itself; nested manifest artifacts remain bound."
   }
 }

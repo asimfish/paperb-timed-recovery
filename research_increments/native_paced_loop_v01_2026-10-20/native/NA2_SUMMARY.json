@@ -1,0 +1,343 @@
+{
+  "schema": "PaperBNA2Summary/1",
+  "cases": [
+    "na2_d000_a1",
+    "na2_d050_a1",
+    "na2_d150_a1"
+  ],
+  "video": {
+    "path": "na2_side_by_side_10fps.mp4",
+    "frames": 100,
+    "probe": {
+      "width": 1920,
+      "height": 440,
+      "duration": "10.000000",
+      "nb_frames": "100"
+    },
+    "placeholder_panels": {
+      "na2_d000_a1": 86,
+      "na2_d050_a1": 0,
+      "na2_d150_a1": 0
+    }
+  },
+  "stop": {
+    "na2_d000_a1": {
+      "stop_reason": "STATE_GUARD_STOP",
+      "guard_stop_tick": 317,
+      "final_tick": 317
+    },
+    "na2_d050_a1": {
+      "stop_reason": "TASK_TICKS_COMPLETED",
+      "guard_stop_tick": null,
+      "final_tick": 2400
+    },
+    "na2_d150_a1": {
+      "stop_reason": "TASK_TICKS_COMPLETED",
+      "guard_stop_tick": null,
+      "final_tick": 2400
+    }
+  },
+  "per_case": {
+    "na2_d000_a1": {
+      "status": "PASS",
+      "declared_return_delay_ms": 0,
+      "tickets": 14,
+      "elapsed_ticks": {
+        "n": 14,
+        "min": 1,
+        "p10": 1,
+        "median": 1.5,
+        "p90": 2,
+        "max": 2,
+        "mean": 1.5
+      },
+      "elapsed_ticks_histogram": {
+        "1": 7,
+        "2": 7
+      },
+      "dispositions": {
+        "STALE": 21,
+        "SUBMIT": 91
+      },
+      "channel_results": {
+        "APPLIED": 25,
+        "REJECTED": 62,
+        "DROPPED": 4
+      },
+      "stale_fraction": 0.1875,
+      "worker_compute_ms": {
+        "n": 14,
+        "min": 4.16194,
+        "p10": 4.401671,
+        "median": 5.5194335,
+        "p90": 6.891119,
+        "max": 7.441462,
+        "mean": 5.589773357142858
+      },
+      "worker_held_ms": {
+        "n": 14,
+        "min": 0.00027,
+        "p10": 0.00031,
+        "median": 0.00039,
+        "p90": 0.000491,
+        "max": 0.000521,
+        "mean": 0.00038457142857142856
+      },
+      "in_flight_wall_ms_per_elapsed_tick": {
+        "n": 14,
+        "min": 10.973095,
+        "p10": 10.977487,
+        "median": 11.975233500000002,
+        "p90": 12.257115,
+        "max": 14.057325,
+        "mean": 11.814055857142858
+      },
+      "tickets_with_step_lag_over_one_period_in_flight": 0,
+      "lag_ms": {
+        "n": 317,
+        "min": 9.3e-05,
+        "p10": 0.00013,
+        "median": 0.000213,
+        "p90": 5.88809,
+        "max": 29.621166,
+        "mean": 1.886220498422713
+      },
+      "ticks_lag_within_one_period": 0.9558359621451105,
+      "step_interval_ms_excluding_sense": {
+        "n": 303,
+        "min": 7.640701,
+        "p10": 10.778714,
+        "median": 16.666659,
+        "p90": 16.666809,
+        "max": 44.404204,
+        "mean": 16.556700528052804
+      },
+      "step_wall_ms": {
+        "n": 317,
+        "min": 2.584976,
+        "p10": 3.161139,
+        "median": 3.939635,
+        "p90": 4.969491,
+        "max": 8.455043,
+        "mean": 4.026524406940063
+      },
+      "sense_anchor_shift_ms": {
+        "n": 14,
+        "min": 32.001529,
+        "p10": 32.009599,
+        "median": 49.0606975,
+        "p90": 102.856447,
+        "max": 109.918189,
+        "mean": 65.11095271428572
+      },
+      "journal_bytes": 913141,
+      "censored": {
+        "pending_commands": [],
+        "unresolved_outcomes": "UNKNOWN_NO_AUTOMATIC_RESEND",
+        "unresolved_slots": {},
+        "unreturned_tickets": []
+      },
+      "checks_passed": 17,
+      "checks_total": 17
+    },
+    "na2_d050_a1": {
+      "status": "PASS",
+      "declared_return_delay_ms": 50,
+      "tickets": 100,
+      "elapsed_ticks": {
+        "n": 100,
+        "min": 3,
+        "p10": 4,
+        "median": 5.0,
+        "p90": 5,
+        "max": 5,
+        "mean": 4.81
+      },
+      "elapsed_ticks_histogram": {
+        "3": 1,
+        "4": 17,
+        "5": 82
+      },
+      "dispositions": {
+        "STALE": 481,
+        "SUBMIT": 319
+      },
+      "channel_results": {
+        "APPLIED": 102,
+        "REJECTED": 217
+      },
+      "stale_fraction": 0.60125,
+      "worker_compute_ms": {
+        "n": 100,
+        "min": 3.734673,
+        "p10": 4.353563,
+        "median": 5.636599,
+        "p90": 6.751653,
+        "max": 7.877981,
+        "mean": 5.58223596
+      },
+      "worker_held_ms": {
+        "n": 100,
+        "min": 50.019768,
+        "p10": 50.05892,
+        "median": 50.065899,
+        "p90": 50.073121,
+        "max": 58.929722,
+        "mean": 50.26657831000001
+      },
+      "in_flight_wall_ms_per_elapsed_tick": {
+        "n": 100,
+        "min": 13.6142356,
+        "p10": 14.401125799999999,
+        "median": 14.8031308,
+        "p90": 15.9897164,
+        "max": 20.87661625,
+        "mean": 15.106937224000001
+      },
+      "tickets_with_step_lag_over_one_period_in_flight": 1,
+      "lag_ms": {
+        "n": 2400,
+        "min": 9e-05,
+        "p10": 0.00012,
+        "median": 0.000167,
+        "p90": 6.869064,
+        "max": 69.518974,
+        "mean": 2.049672640416667
+      },
+      "ticks_lag_within_one_period": 0.9633333333333334,
+      "step_interval_ms_excluding_sense": {
+        "n": 2300,
+        "min": 5.822352,
+        "p10": 11.427085,
+        "median": 16.666655,
+        "p90": 16.668939,
+        "max": 68.138744,
+        "mean": 16.560503165652175
+      },
+      "step_wall_ms": {
+        "n": 2400,
+        "min": 2.44923,
+        "p10": 3.292277,
+        "median": 4.1998955,
+        "p90": 5.779806,
+        "max": 21.650406,
+        "mean": 4.526131359583333
+      },
+      "sense_anchor_shift_ms": {
+        "n": 100,
+        "min": 38.006706,
+        "p10": 41.947542,
+        "median": 49.910281999999995,
+        "p90": 62.715442,
+        "max": 124.255816,
+        "mean": 52.740654940000006
+      },
+      "journal_bytes": 6358161,
+      "censored": {
+        "pending_commands": [],
+        "unresolved_outcomes": "UNKNOWN_NO_AUTOMATIC_RESEND",
+        "unresolved_slots": {},
+        "unreturned_tickets": []
+      },
+      "checks_passed": 17,
+      "checks_total": 17
+    },
+    "na2_d150_a1": {
+      "status": "PASS",
+      "declared_return_delay_ms": 150,
+      "tickets": 100,
+      "elapsed_ticks": {
+        "n": 100,
+        "min": 10,
+        "p10": 11,
+        "median": 11.0,
+        "p90": 11,
+        "max": 11,
+        "mean": 10.91
+      },
+      "elapsed_ticks_histogram": {
+        "10": 9,
+        "11": 91
+      },
+      "dispositions": {
+        "STALE": 800
+      },
+      "channel_results": {},
+      "stale_fraction": 1.0,
+      "worker_compute_ms": {
+        "n": 100,
+        "min": 3.757363,
+        "p10": 4.482147,
+        "median": 5.615873000000001,
+        "p90": 6.734613,
+        "max": 8.757063,
+        "mean": 5.603793769999999
+      },
+      "worker_held_ms": {
+        "n": 100,
+        "min": 150.01784,
+        "p10": 150.063408,
+        "median": 150.06618200000003,
+        "p90": 150.069906,
+        "max": 151.030885,
+        "mean": 150.07951559
+      },
+      "in_flight_wall_ms_per_elapsed_tick": {
+        "n": 100,
+        "min": 14.905369727272728,
+        "p10": 15.611016999999999,
+        "median": 15.806322004545455,
+        "p90": 15.999472727272728,
+        "max": 16.2222181,
+        "mean": 15.742797856727272
+      },
+      "tickets_with_step_lag_over_one_period_in_flight": 0,
+      "lag_ms": {
+        "n": 2400,
+        "min": 9.3e-05,
+        "p10": 0.00012,
+        "median": 0.000159,
+        "p90": 1.878336,
+        "max": 23.878868,
+        "mean": 0.7420022929166666
+      },
+      "ticks_lag_within_one_period": 0.99625,
+      "step_interval_ms_excluding_sense": {
+        "n": 2300,
+        "min": 5.434025,
+        "p10": 14.78334,
+        "median": 16.666662,
+        "p90": 16.666752,
+        "max": 40.545409,
+        "mean": 16.568938396086956
+      },
+      "step_wall_ms": {
+        "n": 2400,
+        "min": 2.238274,
+        "p10": 3.013908,
+        "median": 3.9091234999999998,
+        "p90": 4.856229,
+        "max": 11.877016,
+        "mean": 3.97019140625
+      },
+      "sense_anchor_shift_ms": {
+        "n": 100,
+        "min": 36.075556,
+        "p10": 38.679308,
+        "median": 45.952477,
+        "p90": 77.971494,
+        "max": 128.819895,
+        "mean": 50.78683814
+      },
+      "journal_bytes": 6066320,
+      "censored": {
+        "pending_commands": [],
+        "unresolved_outcomes": "UNKNOWN_NO_AUTOMATIC_RESEND",
+        "unresolved_slots": {},
+        "unreturned_tickets": []
+      },
+      "checks_passed": 17,
+      "checks_total": 17
+    }
+  }
+}

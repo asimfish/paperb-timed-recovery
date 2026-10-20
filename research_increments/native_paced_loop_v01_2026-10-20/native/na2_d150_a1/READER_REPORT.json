@@ -1,0 +1,173 @@
+{
+  "schema": "PaperBNA2ReaderReport/1",
+  "case": "/data/liyufeng/paperb_native_paced_loop_20261020_v1/cases/na2_d150_a1",
+  "declared_return_delay_ms": 150,
+  "period_ms": 16.666667,
+  "status": "PASS",
+  "checks": {
+    "journal_replay_closed": true,
+    "last_event_case_end": true,
+    "every_started_ticket_returned_or_censored": true,
+    "observed_states_match_tick_gaps": true,
+    "stale_equals_min8_elapsed_when_queue_empty": true,
+    "applied_exactly_at_original_slot_tick": true,
+    "at_most_one_applied_per_tick": true,
+    "tick_log_contiguous": true,
+    "stepped_target_equals_applied_or_held": true,
+    "no_step_before_its_wall_slot": true,
+    "sense_only_at_request_ticks": true,
+    "sense_only_with_no_ticket_in_flight": true,
+    "raw_worker_outputs_equal_journal": true,
+    "worker_parameters_unchanged": true,
+    "worker_never_initialized_cuda": true,
+    "declared_return_delay_honored": true,
+    "one_decodable_frame_per_ticket": true
+  },
+  "event_kinds": {
+    "CASE_BEGIN": 1,
+    "OBSERVED_STATE": 2401,
+    "PUBLIC_PACKET": 100,
+    "INFERENCE_START": 100,
+    "INFERENCE_RETURN": 100,
+    "SLOT_DISPOSITION": 800,
+    "CASE_END": 1
+  },
+  "tickets": 100,
+  "returns": 100,
+  "identity_tickets": 100,
+  "dispositions": {
+    "STALE": 800
+  },
+  "channel_results": {},
+  "elapsed_ticks": {
+    "n": 100,
+    "min": 10,
+    "p10": 11,
+    "median": 11.0,
+    "p90": 11,
+    "max": 11,
+    "mean": 10.91
+  },
+  "elapsed_ticks_histogram": {
+    "10": 9,
+    "11": 91
+  },
+  "stale_slots_per_ticket": {
+    "n": 100,
+    "min": 8,
+    "p10": 8,
+    "median": 8.0,
+    "p90": 8,
+    "max": 8,
+    "mean": 8.0
+  },
+  "stale_fraction": 1.0,
+  "physics_steps_during_worker_interval": {
+    "n": 100,
+    "min": 10,
+    "p10": 10,
+    "median": 10.0,
+    "p90": 10,
+    "max": 10,
+    "mean": 10.0
+  },
+  "worker_compute_ms": {
+    "n": 100,
+    "min": 3.757363,
+    "p10": 4.482147,
+    "median": 5.615873000000001,
+    "p90": 6.734613,
+    "max": 8.757063,
+    "mean": 5.603793769999999
+  },
+  "worker_held_ms": {
+    "n": 100,
+    "min": 150.01784,
+    "p10": 150.063408,
+    "median": 150.06618200000003,
+    "p90": 150.069906,
+    "max": 151.030885,
+    "mean": 150.07951559
+  },
+  "dispatch_to_worker_send_ms": {
+    "n": 100,
+    "min": 154.625831,
+    "p10": 155.332658,
+    "median": 156.5287235,
+    "p90": 157.588909,
+    "max": 160.54837,
+    "mean": 156.50739138
+  },
+  "worker_send_to_owner_accept_ms": {
+    "n": 100,
+    "min": 2.043983,
+    "p10": 9.294868,
+    "median": 16.7384545,
+    "p90": 18.400624,
+    "max": 20.288783,
+    "mean": 15.235146440000001
+  },
+  "in_flight_wall_ms_per_elapsed_tick": {
+    "n": 100,
+    "min": 14.905369727272728,
+    "p10": 15.611016999999999,
+    "median": 15.806322004545455,
+    "p90": 15.999472727272728,
+    "max": 16.2222181,
+    "mean": 15.742797856727272
+  },
+  "tickets_with_step_lag_over_one_period_in_flight": 0,
+  "lag_ms": {
+    "n": 2400,
+    "min": 9.3e-05,
+    "p10": 0.00012,
+    "median": 0.000159,
+    "p90": 1.878336,
+    "max": 23.878868,
+    "mean": 0.7420022929166666
+  },
+  "ticks_lag_within_one_period": 0.99625,
+  "step_interval_ms_excluding_sense": {
+    "n": 2300,
+    "min": 5.434025,
+    "p10": 14.78334,
+    "median": 16.666662,
+    "p90": 16.666752,
+    "max": 40.545409,
+    "mean": 16.568938396086956
+  },
+  "step_wall_ms": {
+    "n": 2400,
+    "min": 2.238274,
+    "p10": 3.013908,
+    "median": 3.9091234999999998,
+    "p90": 4.856229,
+    "max": 11.877016,
+    "mean": 3.97019140625
+  },
+  "sense_anchor_shift_ms": {
+    "n": 100,
+    "min": 36.075556,
+    "p10": 38.679308,
+    "median": 45.952477,
+    "p90": 77.971494,
+    "max": 128.819895,
+    "mean": 50.78683814
+  },
+  "task_ticks_logged": 2400,
+  "frames": 100,
+  "frame_size": [
+    [
+      640,
+      400
+    ]
+  ],
+  "censored": {
+    "pending_commands": [],
+    "unresolved_outcomes": "UNKNOWN_NO_AUTOMATIC_RESEND",
+    "unresolved_slots": {},
+    "unreturned_tickets": []
+  },
+  "close_reason": "TASK_TICKS_COMPLETED",
+  "journal_bytes": 6066320
+}
