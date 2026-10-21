@@ -1,0 +1,12 @@
+{
+  "case": "na3_d050_naive",
+  "attempt": 1,
+  "case_dir": "na3_d050_naive_a1",
+  "exit_code": 0,
+  "timed_out": false,
+  "wall_s": 241.7522432700207,
+  "native_clock_started": true,
+  "result_exists": true,
+  "error_exists": false,
+  "source_freeze_unchanged_after": true
+}

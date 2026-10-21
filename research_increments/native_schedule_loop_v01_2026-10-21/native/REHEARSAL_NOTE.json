@@ -1,0 +1,24 @@
+{
+  "schema": "PaperBNA3RehearsalNote/1",
+  "adapter": "CPU stand-in first-order joint tracker; step 4 ms, render 60 ms; not native physics",
+  "runs": {
+    "r1_na3_d050_naive": "50 ms naive",
+    "r1_na3_d050_comp": "50 ms compensated",
+    "r1_na3_d150_naive": "150 ms naive",
+    "r1_na3_d150_comp": "150 ms compensated",
+    "r1_guard_stop": "50 ms compensated, 600 ticks, synthetic unlawful state at tick 301"
+  },
+  "reader": "all five PASS (check_na3.py), including guard_trip_recorded_with_violations for r1_guard_stop",
+  "observed": {
+    "stale": {
+      "d050_naive": "478/800",
+      "d050_comp": "5/800 (first ticket only, no history)",
+      "d150_naive": "800/800",
+      "d150_comp": "8/800 (first ticket only)"
+    }
+  },
+  "source_changes_after_rehearsal": [
+    "reader/plot_na3.py added (analysis only, not in freeze list)"
+  ],
+  "native_runs_before_freeze": 0
+}

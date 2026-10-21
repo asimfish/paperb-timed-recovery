@@ -1,0 +1,48 @@
+{
+  "status": "NATIVE_SCHEDULE_LOOP_FINISHED",
+  "case": {
+    "id": "na3_d050_comp",
+    "order": 2,
+    "return_delay_ms": 50,
+    "schedule": "compensated"
+  },
+  "period_ns": 16666667,
+  "stop_reason": "TASK_TICKS_COMPLETED",
+  "guard_stop_tick": null,
+  "final_tick": 2400,
+  "counts": {
+    "applied": 178,
+    "rejected": 613,
+    "frames": 100,
+    "requests": 100,
+    "returns": 100,
+    "worker_errors": 0,
+    "dropped_at_end": 0
+  },
+  "censored": {
+    "pending_commands": [],
+    "unresolved_outcomes": "UNKNOWN_NO_AUTOMATIC_RESEND",
+    "unresolved_slots": {},
+    "unreturned_tickets": []
+  },
+  "tickets": 100,
+  "worker_exit_code": 0,
+  "worker_tail": [
+    {
+      "cuda_initialized": false,
+      "final_parameter_digest": "8dd8cc5bc87e4cb6892b24388238aeaa598f9a9106be4feb388d2f92748e146b",
+      "initial_parameter_digest": "8dd8cc5bc87e4cb6892b24388238aeaa598f9a9106be4feb388d2f92748e146b",
+      "kind": "STOPPED",
+      "new_training_updates": 0,
+      "served": 100,
+      "wall_ns": 251390884240660
+    }
+  ],
+  "physics_steps_total": 2640,
+  "warmup_ticks": 240,
+  "owner_wall_s": 231.8588560950011,
+  "task_success_scored": false,
+  "chemical_event_verified": false,
+  "force_qualified": false,
+  "policy_quality_claim": false
+}

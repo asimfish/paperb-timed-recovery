@@ -1,3 +1,9 @@
+2026-10-21: [Latency-compensated schedule](native-schedule.html). Same paced native loop as 2026-10-20 (one 1/240 s tick per 16.67 ms). A deterministic schedule that plans each 8-slot chunk at start+L_hat+1..+8, with L_hat the largest latency among its own last 8 returns, cut STALE slots from 60.5% to 1.1% at a 50 ms worker delay and from 100% to 1.0% at 150 ms (four native cases, one launch each, reader 18/18; remaining STALE slots are mostly the first ticket, which has no latency history). Guard trips now record q, qd and violating joints. Scheduling evidence only: with the P0 engineering model, the accuracy cost of predicting further ahead cannot be measured; not task, policy, 1:1 real-time, force, chemistry or M/B3 evidence.
+
+Earlier dated records follow unchanged.
+
+---
+
 2026-10-20: [Paced native loop](native-paced.html). AsyncBridge v0.4 removes the per-event whole-state deep copy (copy-on-write, same semantics as v0.3): replaying the NA1 journal takes 1.5 s instead of 218.7 s, and a differential run over 158,839 operations matched v0.3 exactly. Physics was then paced to the wall clock (one 1/240 s tick per 16.67 ms, pace factor 4) while a CPU worker ran the prior P0 checkpoint with a declared return delay of 0, 50 or 150 ms (one native case each, one launch each, reader 17/17). Median physical ticks elapsed between request and return were 2, 5 and 11, so 19%, 60% and 100% of planned action slots were already STALE on return. The 0 ms case stopped at tick 317 on the state guard after a large P0 target jump; the violating state's values were not recorded (open). Not task, policy-quality, 1:1 real-time, force, chemistry or M/B3 evidence.
 
 Earlier dated records follow unchanged.

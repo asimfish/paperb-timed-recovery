@@ -1,0 +1,201 @@
+{
+  "schema": "PaperBNA3ReaderReport/1",
+  "case": "cases/na3_d150_comp_a1",
+  "declared_return_delay_ms": 150,
+  "schedule": "compensated",
+  "period_ms": 16.666667,
+  "planned_offset_ticks": {
+    "n": 100,
+    "min": 0,
+    "p10": 11,
+    "median": 11.0,
+    "p90": 11,
+    "max": 11,
+    "mean": 10.89
+  },
+  "slack_ticks_at_return": {
+    "n": 100,
+    "min": -11,
+    "p10": 0,
+    "median": 0.0,
+    "p90": 1,
+    "max": 1,
+    "mean": 0.09
+  },
+  "stop_reason": "TASK_TICKS_COMPLETED",
+  "guard_stop_tick": null,
+  "guard_trip": null,
+  "status": "PASS",
+  "checks": {
+    "journal_replay_closed": true,
+    "last_event_case_end": true,
+    "every_started_ticket_returned_or_censored": true,
+    "observed_states_match_tick_gaps": true,
+    "stale_equals_min8_max0_elapsed_minus_offset_when_queue_empty": true,
+    "no_guard_trip_file_without_stop": true,
+    "applied_exactly_at_original_slot_tick": true,
+    "at_most_one_applied_per_tick": true,
+    "tick_log_contiguous": true,
+    "stepped_target_equals_applied_or_held": true,
+    "no_step_before_its_wall_slot": true,
+    "sense_only_at_request_ticks": true,
+    "sense_only_with_no_ticket_in_flight": true,
+    "raw_worker_outputs_equal_journal": true,
+    "worker_parameters_unchanged": true,
+    "worker_never_initialized_cuda": true,
+    "declared_return_delay_honored": true,
+    "one_decodable_frame_per_ticket": true
+  },
+  "event_kinds": {
+    "CASE_BEGIN": 1,
+    "OBSERVED_STATE": 2401,
+    "PUBLIC_PACKET": 100,
+    "INFERENCE_START": 100,
+    "INFERENCE_RETURN": 100,
+    "SLOT_DISPOSITION": 800,
+    "CHANNEL_RESULT": 792,
+    "CASE_END": 1
+  },
+  "tickets": 100,
+  "returns": 100,
+  "identity_tickets": 100,
+  "dispositions": {
+    "STALE": 8,
+    "SUBMIT": 792
+  },
+  "channel_results": {
+    "REJECTED": 643,
+    "APPLIED": 149
+  },
+  "elapsed_ticks": {
+    "n": 100,
+    "min": 10,
+    "p10": 10,
+    "median": 11.0,
+    "p90": 11,
+    "max": 11,
+    "mean": 10.8
+  },
+  "elapsed_ticks_histogram": {
+    "10": 20,
+    "11": 80
+  },
+  "stale_slots_per_ticket": {
+    "n": 100,
+    "min": 0,
+    "p10": 0,
+    "median": 0.0,
+    "p90": 0,
+    "max": 8,
+    "mean": 0.08
+  },
+  "stale_fraction": 0.01,
+  "physics_steps_during_worker_interval": {
+    "n": 100,
+    "min": 10,
+    "p10": 10,
+    "median": 10.0,
+    "p90": 10,
+    "max": 11,
+    "mean": 10.01
+  },
+  "worker_compute_ms": {
+    "n": 100,
+    "min": 3.748989,
+    "p10": 4.185279,
+    "median": 5.4704885,
+    "p90": 6.932945,
+    "max": 9.125056,
+    "mean": 5.49182134
+  },
+  "worker_held_ms": {
+    "n": 100,
+    "min": 150.027989,
+    "p10": 150.063548,
+    "median": 150.0661955,
+    "p90": 150.073697,
+    "max": 151.910931,
+    "mean": 150.09462537
+  },
+  "dispatch_to_worker_send_ms": {
+    "n": 100,
+    "min": 154.510334,
+    "p10": 155.02736,
+    "median": 156.384714,
+    "p90": 157.932728,
+    "max": 160.095032,
+    "mean": 156.45847598
+  },
+  "worker_send_to_owner_accept_ms": {
+    "n": 100,
+    "min": 2.269741,
+    "p10": 3.984195,
+    "median": 16.8481935,
+    "p90": 19.906116,
+    "max": 26.871969,
+    "mean": 14.79534868
+  },
+  "in_flight_wall_ms_per_elapsed_tick": {
+    "n": 100,
+    "min": 15.070147909090908,
+    "p10": 15.63640809090909,
+    "median": 15.820117272727273,
+    "p90": 16.0998879,
+    "max": 16.729960000000002,
+    "mean": 15.859036997636363
+  },
+  "tickets_with_step_lag_over_one_period_in_flight": 0,
+  "lag_ms": {
+    "n": 2400,
+    "min": 9.1e-05,
+    "p10": 0.000123,
+    "median": 0.000174,
+    "p90": 11.943855,
+    "max": 36.00746,
+    "mean": 2.619707955
+  },
+  "ticks_lag_within_one_period": 0.9270833333333334,
+  "step_interval_ms_excluding_sense": {
+    "n": 2300,
+    "min": 5.945094,
+    "p10": 10.266015,
+    "median": 16.666651,
+    "p90": 16.666789,
+    "max": 52.673863,
+    "mean": 16.568586012608694
+  },
+  "step_wall_ms": {
+    "n": 2400,
+    "min": 2.336736,
+    "p10": 3.470674,
+    "median": 4.301746,
+    "p90": 5.584282,
+    "max": 16.263482,
+    "mean": 4.4723808287499995
+  },
+  "sense_anchor_shift_ms": {
+    "n": 100,
+    "min": 40.096268,
+    "p10": 44.813849,
+    "median": 50.046721,
+    "p90": 62.12536,
+    "max": 125.604504,
+    "mean": 54.60368813
+  },
+  "task_ticks_logged": 2400,
+  "frames": 100,
+  "frame_size": [
+    [
+      640,
+      400
+    ]
+  ],
+  "censored": {
+    "pending_commands": [],
+    "unresolved_outcomes": "UNKNOWN_NO_AUTOMATIC_RESEND",
+    "unresolved_slots": {},
+    "unreturned_tickets": []
+  },
+  "close_reason": "TASK_TICKS_COMPLETED",
+  "journal_bytes": 6817078
+}
