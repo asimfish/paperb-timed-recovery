@@ -4922,6 +4922,76 @@
       "transformations": []
     },
     {
+      "path": "research_increments/public_ledger_2026-10-23/README.md",
+      "bytes": 1855,
+      "sha256": "aefcd155c4cf1d8694f9b2581fa9c25a70fba6105cfd6bdf56dfb7b79099573d",
+      "source": "author-owned public ledger candidate increment 2026-10-23",
+      "source_commit": "8d1842851f3100508c1d5b9e7f66a96b648685d3",
+      "transformations": [
+        "Publish scoped aggregate and public plotted quantities only; no private logs or assets."
+      ]
+    },
+    {
+      "path": "research_increments/public_ledger_2026-10-23/REPLAY_SUMMARY.json",
+      "bytes": 2853,
+      "sha256": "94f10353c6ff2ce75de32ff28bf2310f2eefee55ef1486e0a8c89e5b195db8ad",
+      "source": "author-owned public ledger candidate increment 2026-10-23",
+      "source_commit": "8d1842851f3100508c1d5b9e7f66a96b648685d3",
+      "transformations": [
+        "Publish scoped aggregate and public plotted quantities only; no private logs or assets."
+      ]
+    },
+    {
+      "path": "research_increments/public_ledger_2026-10-23/plot_public_hold.py",
+      "bytes": 4860,
+      "sha256": "3e7962e70c9b5ff48ccbcc6a40c58f33ee7f8378e24b0fd046eecf17ced97eb5",
+      "source": "author-owned public ledger candidate increment 2026-10-23",
+      "source_commit": "8d1842851f3100508c1d5b9e7f66a96b648685d3",
+      "transformations": [
+        "Publish scoped aggregate and public plotted quantities only; no private logs or assets."
+      ]
+    },
+    {
+      "path": "research_increments/public_ledger_2026-10-23/public_hold_mechanism.pdf",
+      "bytes": 27163,
+      "sha256": "b4630375cdc2656ecd1ec0ab26a6c796f9d7be8256f63dbd2c7950e5ab3a7d60",
+      "source": "author-owned public ledger candidate increment 2026-10-23",
+      "source_commit": "8d1842851f3100508c1d5b9e7f66a96b648685d3",
+      "transformations": [
+        "Publish scoped aggregate and public plotted quantities only; no private logs or assets."
+      ]
+    },
+    {
+      "path": "research_increments/public_ledger_2026-10-23/public_hold_mechanism.png",
+      "bytes": 215681,
+      "sha256": "9eade5f0987b6c5385d2956664c8ea403a24d080777ac7b09cbafce83c34ba6b",
+      "source": "author-owned public ledger candidate increment 2026-10-23",
+      "source_commit": "8d1842851f3100508c1d5b9e7f66a96b648685d3",
+      "transformations": [
+        "Publish scoped aggregate and public plotted quantities only; no private logs or assets."
+      ]
+    },
+    {
+      "path": "research_increments/public_ledger_2026-10-23/public_hold_mechanism.svg",
+      "bytes": 23521,
+      "sha256": "d7ce6eba645bf725804da905bee3422406e7cf82dc3dbc29ebdc91fada3ea581",
+      "source": "author-owned public ledger candidate increment 2026-10-23",
+      "source_commit": "8d1842851f3100508c1d5b9e7f66a96b648685d3",
+      "transformations": [
+        "Publish scoped aggregate and public plotted quantities only; no private logs or assets."
+      ]
+    },
+    {
+      "path": "research_increments/public_ledger_2026-10-23/public_hold_trace.csv",
+      "bytes": 57359,
+      "sha256": "10d7aff1f63a312b272df3a28167277fd2c84433c3e6957b297b8294e9fe790e",
+      "source": "author-owned public ledger candidate increment 2026-10-23",
+      "source_commit": "8d1842851f3100508c1d5b9e7f66a96b648685d3",
+      "transformations": [
+        "Publish scoped aggregate and public plotted quantities only; no private logs or assets."
+      ]
+    },
+    {
       "bytes": 8815,
       "path": "research_increments/public_response_identification_2026-10-12/COMBINED_RESULTS_SUMMARY.json",
       "sha256": "c9211739c883f8d4f4c7ec24bfc434894453273d25ba96eaa2320db93cbe0bb6",
@@ -8463,13 +8533,15 @@
     },
     {
       "path": "timed-instruments.html",
-      "bytes": 12978,
-      "sha256": "50d9d65311ea2bd00ad6ca7da7b1367b839a64ecb7f5c6d76db20d35a309088e",
-      "source": "author-owned timed-instrument aggregate and exposition",
-      "source_sha256": "50d9d65311ea2bd00ad6ca7da7b1367b839a64ecb7f5c6d76db20d35a309088e",
+      "bytes": 14781,
+      "sha256": "d19bfdac5959c8ce2114e894a31f6b2295a66aefcf83a6d9591e4ca042396b71",
+      "source": "author-owned public ledger candidate increment 2026-10-23",
+      "source_commit": "8d1842851f3100508c1d5b9e7f66a96b648685d3",
       "transformations": [
-        "Curate audited aggregates; exclude upstream assets, private inputs and internal paths."
-      ]
+        "Publish scoped aggregate and public plotted quantities only; no private logs or assets."
+      ],
+      "parent_commit": "293303f134ba83b2e5126976be2498f306741dc4",
+      "parent_sha256": "50d9d65311ea2bd00ad6ca7da7b1367b839a64ecb7f5c6d76db20d35a309088e"
     }
   ],
   "force_diagnostics_scope": {

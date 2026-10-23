@@ -1,0 +1,112 @@
+{
+  "schema": "PaperBPublicLedgerCandidateSummaryR9/1",
+  "scope": "INPUT_AND_PUBLIC_PROXY_COMPATIBILITY_NOT_METHOD_SUCCESS",
+  "code_commit": "8d1842851f3100508c1d5b9e7f66a96b648685d3",
+  "case_count": 8,
+  "delivered_public_packets": 2377,
+  "software_tests": 43,
+  "source_dirty": false,
+  "metadata_renaming_checks": 24,
+  "time_mask_checks": 24,
+  "source_stat_unchanged": true,
+  "new_physics": 0,
+  "new_teacher_queries": 0,
+  "new_training_runs": 0,
+  "training_admission": false,
+  "qualified_training_pairs": 0,
+  "method_success_claim": false,
+  "observed_tick_gaps_in_this_sample": 0,
+  "gap_evidence": "synthetic tests only; actual high-latency cases not covered by this eight-file sample",
+  "goal": {
+    "target_K": 373.15,
+    "tolerance_K": 0.5,
+    "hold_s": 120
+  },
+  "figure": {
+    "scope": "ILLUSTRATIVE_PUBLIC_PROXY_NOT_TRUTH_NOT_METHOD_RESULT",
+    "source_commit": "8d1842851f3100508c1d5b9e7f66a96b648685d3",
+    "source_dirty": false,
+    "fixed_registered_case": "r7_furn_recovery",
+    "trace_rows": 674,
+    "displayed_process_s": [
+      0.0,
+      230.0
+    ],
+    "process_time_scale": 10.0,
+    "hold_requirement_process_s": 120,
+    "public_effects": [
+      [
+        "door.close",
+        84.83333333333333
+      ],
+      [
+        "door.open",
+        67.5
+      ],
+      [
+        "door.open",
+        212.0
+      ]
+    ],
+    "proxy_endpoints_process_s": [
+      210.83333333333331
+    ],
+    "first_query_runtime_counter_reaches_H": {
+      "process_time_s": 166.66666666666666,
+      "runtime_counter_s": 120.1666666666679,
+      "public_proxy_s": 75.8333333333333
+    },
+    "task_success_claim": false,
+    "training_admission": false
+  },
+  "cases": [
+    {
+      "name": "r7_furn_p0",
+      "family": "T-FURN",
+      "packets": 449,
+      "status": "PASS_CANDIDATE_COMPATIBILITY_ONLY"
+    },
+    {
+      "name": "r7_furn_scale5",
+      "family": "T-FURN",
+      "packets": 449,
+      "status": "PASS_CANDIDATE_COMPATIBILITY_ONLY"
+    },
+    {
+      "name": "r7_furn_recovery",
+      "family": "T-FURN",
+      "packets": 674,
+      "status": "PASS_CANDIDATE_COMPATIBILITY_ONLY"
+    },
+    {
+      "name": "r7_bal_p0",
+      "family": "T-BAL",
+      "packets": 149,
+      "status": "PASS_CANDIDATE_COMPATIBILITY_ONLY"
+    },
+    {
+      "name": "r7_bal_p3_self",
+      "family": "T-BAL",
+      "packets": 149,
+      "status": "PASS_CANDIDATE_COMPATIBILITY_ONLY"
+    },
+    {
+      "name": "r7_bal_p3_agent",
+      "family": "T-BAL",
+      "packets": 149,
+      "status": "PASS_CANDIDATE_COMPATIBILITY_ONLY"
+    },
+    {
+      "name": "r6_mya_history",
+      "family": "T-MYA4",
+      "packets": 179,
+      "status": "PASS_CANDIDATE_COMPATIBILITY_ONLY"
+    },
+    {
+      "name": "r6_mya_public",
+      "family": "T-MYA4",
+      "packets": 179,
+      "status": "PASS_CANDIDATE_COMPATIBILITY_ONLY"
+    }
+  ]
+}
