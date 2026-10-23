@@ -8109,10 +8109,10 @@
     },
     {
       "path": "research_increments/timed_instruments_2026-10-23/plot_teacher.py",
-      "bytes": 2739,
-      "sha256": "45ea857016d8be071c8709c145d49cb1387bf555a6c09dc7350fa9c93334622e",
+      "bytes": 2865,
+      "sha256": "a111a4334e90af186efe2ed8d4a8c507f1339c0ed98a603d0430d03392573f6e",
       "source": "author-owned timed-instrument aggregate and exposition",
-      "source_sha256": "45ea857016d8be071c8709c145d49cb1387bf555a6c09dc7350fa9c93334622e",
+      "source_sha256": "a111a4334e90af186efe2ed8d4a8c507f1339c0ed98a603d0430d03392573f6e",
       "transformations": [
         "Curate audited aggregates; exclude upstream assets, private inputs and internal paths."
       ]
@@ -8139,10 +8139,10 @@
     },
     {
       "path": "research_increments/timed_instruments_2026-10-23/teacher_history_pilot.svg",
-      "bytes": 81009,
-      "sha256": "997fe0cd4f3008105f7782af60a0d54fd975f2b0aaf9b064a3ab6bfe70d72990",
+      "bytes": 79968,
+      "sha256": "1dab96f2ad40caba21867dc78f8bd2d0610c5cd845da1a202b17dd39659690e9",
       "source": "author-owned timed-instrument aggregate and exposition",
-      "source_sha256": "997fe0cd4f3008105f7782af60a0d54fd975f2b0aaf9b064a3ab6bfe70d72990",
+      "source_sha256": "1dab96f2ad40caba21867dc78f8bd2d0610c5cd845da1a202b17dd39659690e9",
       "transformations": [
         "Curate audited aggregates; exclude upstream assets, private inputs and internal paths."
       ]

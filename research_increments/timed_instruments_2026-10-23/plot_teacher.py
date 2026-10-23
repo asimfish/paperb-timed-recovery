@@ -30,4 +30,6 @@ fig.suptitle("History access alone did not change success on this pilot",fontsiz
 fig.text(.01,-.04,"64 fresh MYA graphs; same scheduler; fixed 0.5 sim-s window. Wilson 95% bars; conservative paired intervals.\nAll failures retained. Feasible n=40 is below the formal gate minimum of 50. This is a scripted CPU pilot, not a learned-method result.",fontsize=9,color="#42515E")
 fig.tight_layout(w_pad=2)
 for suffix in ("png","pdf","svg"):fig.savefig(ROOT/("teacher_history_pilot."+suffix),dpi=220,bbox_inches="tight")
+svg = ROOT/"teacher_history_pilot.svg"
+svg.write_text("\n".join(line.rstrip() for line in svg.read_text().splitlines())+"\n")
 print("Reproduced figure from published aggregates; no physics or private files")
