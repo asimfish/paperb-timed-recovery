@@ -1,0 +1,2341 @@
+{
+  "schema": "PaperBPublicTimedInstrumentResults/1",
+  "as_of_utc": "2026-10-23T09:13:41.605365+00:00",
+  "teacher_pilot": {
+    "source_commit": "5bded1a2d6ea10d42e2e929729b4704041ccd146",
+    "graphs": 64,
+    "raw_audited_cases": 192,
+    "references_audited": 64,
+    "cells": [
+      {
+        "F": 26,
+        "FEAS_N_ge_50": null,
+        "N": 64,
+        "S": 38,
+        "UNKNOWN": 0,
+        "condition": "P0",
+        "delta_sim_s": 0.5,
+        "expert_or_arm": "E_L_V2",
+        "failed_goals_by_type": {
+          "LATE": 29
+        },
+        "family": "T-MYA4",
+        "incomplete_or_audit_failure": 0,
+        "mode": "main",
+        "other_labels": {},
+        "scientific_gate": "NOT_ASSESSED_BY_EVIDENCE_READER",
+        "stratum": "ALL",
+        "wilson95": [
+          0.4714520812860451,
+          0.7054309075028039
+        ]
+      },
+      {
+        "F": 2,
+        "FEAS_N_ge_50": false,
+        "N": 40,
+        "S": 38,
+        "UNKNOWN": 0,
+        "condition": "P0",
+        "delta_sim_s": 0.5,
+        "expert_or_arm": "E_L_V2",
+        "failed_goals_by_type": {
+          "LATE": 2
+        },
+        "family": "T-MYA4",
+        "incomplete_or_audit_failure": 0,
+        "mode": "main",
+        "other_labels": {},
+        "scientific_gate": "NOT_ASSESSED_BY_EVIDENCE_READER",
+        "stratum": "CERT_FEASIBLE",
+        "wilson95": [
+          0.8349612263085903,
+          0.9861793326138516
+        ]
+      },
+      {
+        "F": 22,
+        "FEAS_N_ge_50": null,
+        "N": 22,
+        "S": 0,
+        "UNKNOWN": 0,
+        "condition": "P0",
+        "delta_sim_s": 0.5,
+        "expert_or_arm": "E_L_V2",
+        "failed_goals_by_type": {
+          "LATE": 25
+        },
+        "family": "T-MYA4",
+        "incomplete_or_audit_failure": 0,
+        "mode": "main",
+        "other_labels": {},
+        "scientific_gate": "NOT_ASSESSED_BY_EVIDENCE_READER",
+        "stratum": "CERT_INFEASIBLE",
+        "wilson95": [
+          0.0,
+          0.14865487460862087
+        ]
+      },
+      {
+        "F": 2,
+        "FEAS_N_ge_50": null,
+        "N": 2,
+        "S": 0,
+        "UNKNOWN": 0,
+        "condition": "P0",
+        "delta_sim_s": 0.5,
+        "expert_or_arm": "E_L_V2",
+        "failed_goals_by_type": {
+          "LATE": 2
+        },
+        "family": "T-MYA4",
+        "incomplete_or_audit_failure": 0,
+        "mode": "main",
+        "other_labels": {},
+        "scientific_gate": "NOT_ASSESSED_BY_EVIDENCE_READER",
+        "stratum": "MARGINAL",
+        "wilson95": [
+          0.0,
+          0.6576197724933469
+        ]
+      },
+      {
+        "F": 26,
+        "FEAS_N_ge_50": null,
+        "N": 64,
+        "S": 38,
+        "UNKNOWN": 0,
+        "condition": "P0",
+        "delta_sim_s": 0.5,
+        "expert_or_arm": "E_T_HISTORY",
+        "failed_goals_by_type": {
+          "LATE": 29
+        },
+        "family": "T-MYA4",
+        "incomplete_or_audit_failure": 0,
+        "mode": "main",
+        "other_labels": {},
+        "scientific_gate": "NOT_ASSESSED_BY_EVIDENCE_READER",
+        "stratum": "ALL",
+        "wilson95": [
+          0.4714520812860451,
+          0.7054309075028039
+        ]
+      },
+      {
+        "F": 2,
+        "FEAS_N_ge_50": false,
+        "N": 40,
+        "S": 38,
+        "UNKNOWN": 0,
+        "condition": "P0",
+        "delta_sim_s": 0.5,
+        "expert_or_arm": "E_T_HISTORY",
+        "failed_goals_by_type": {
+          "LATE": 2
+        },
+        "family": "T-MYA4",
+        "incomplete_or_audit_failure": 0,
+        "mode": "main",
+        "other_labels": {},
+        "scientific_gate": "NOT_ASSESSED_BY_EVIDENCE_READER",
+        "stratum": "CERT_FEASIBLE",
+        "wilson95": [
+          0.8349612263085903,
+          0.9861793326138516
+        ]
+      },
+      {
+        "F": 22,
+        "FEAS_N_ge_50": null,
+        "N": 22,
+        "S": 0,
+        "UNKNOWN": 0,
+        "condition": "P0",
+        "delta_sim_s": 0.5,
+        "expert_or_arm": "E_T_HISTORY",
+        "failed_goals_by_type": {
+          "LATE": 25
+        },
+        "family": "T-MYA4",
+        "incomplete_or_audit_failure": 0,
+        "mode": "main",
+        "other_labels": {},
+        "scientific_gate": "NOT_ASSESSED_BY_EVIDENCE_READER",
+        "stratum": "CERT_INFEASIBLE",
+        "wilson95": [
+          0.0,
+          0.14865487460862087
+        ]
+      },
+      {
+        "F": 2,
+        "FEAS_N_ge_50": null,
+        "N": 2,
+        "S": 0,
+        "UNKNOWN": 0,
+        "condition": "P0",
+        "delta_sim_s": 0.5,
+        "expert_or_arm": "E_T_HISTORY",
+        "failed_goals_by_type": {
+          "LATE": 2
+        },
+        "family": "T-MYA4",
+        "incomplete_or_audit_failure": 0,
+        "mode": "main",
+        "other_labels": {},
+        "scientific_gate": "NOT_ASSESSED_BY_EVIDENCE_READER",
+        "stratum": "MARGINAL",
+        "wilson95": [
+          0.0,
+          0.6576197724933469
+        ]
+      },
+      {
+        "F": 26,
+        "FEAS_N_ge_50": null,
+        "N": 64,
+        "S": 38,
+        "UNKNOWN": 0,
+        "condition": "P0",
+        "delta_sim_s": 0.5,
+        "expert_or_arm": "E_T_V2",
+        "failed_goals_by_type": {
+          "LATE": 29
+        },
+        "family": "T-MYA4",
+        "incomplete_or_audit_failure": 0,
+        "mode": "main",
+        "other_labels": {},
+        "scientific_gate": "NOT_ASSESSED_BY_EVIDENCE_READER",
+        "stratum": "ALL",
+        "wilson95": [
+          0.4714520812860451,
+          0.7054309075028039
+        ]
+      },
+      {
+        "F": 2,
+        "FEAS_N_ge_50": false,
+        "N": 40,
+        "S": 38,
+        "UNKNOWN": 0,
+        "condition": "P0",
+        "delta_sim_s": 0.5,
+        "expert_or_arm": "E_T_V2",
+        "failed_goals_by_type": {
+          "LATE": 2
+        },
+        "family": "T-MYA4",
+        "incomplete_or_audit_failure": 0,
+        "mode": "main",
+        "other_labels": {},
+        "scientific_gate": "NOT_ASSESSED_BY_EVIDENCE_READER",
+        "stratum": "CERT_FEASIBLE",
+        "wilson95": [
+          0.8349612263085903,
+          0.9861793326138516
+        ]
+      },
+      {
+        "F": 22,
+        "FEAS_N_ge_50": null,
+        "N": 22,
+        "S": 0,
+        "UNKNOWN": 0,
+        "condition": "P0",
+        "delta_sim_s": 0.5,
+        "expert_or_arm": "E_T_V2",
+        "failed_goals_by_type": {
+          "LATE": 25
+        },
+        "family": "T-MYA4",
+        "incomplete_or_audit_failure": 0,
+        "mode": "main",
+        "other_labels": {},
+        "scientific_gate": "NOT_ASSESSED_BY_EVIDENCE_READER",
+        "stratum": "CERT_INFEASIBLE",
+        "wilson95": [
+          0.0,
+          0.14865487460862087
+        ]
+      },
+      {
+        "F": 2,
+        "FEAS_N_ge_50": null,
+        "N": 2,
+        "S": 0,
+        "UNKNOWN": 0,
+        "condition": "P0",
+        "delta_sim_s": 0.5,
+        "expert_or_arm": "E_T_V2",
+        "failed_goals_by_type": {
+          "LATE": 2
+        },
+        "family": "T-MYA4",
+        "incomplete_or_audit_failure": 0,
+        "mode": "main",
+        "other_labels": {},
+        "scientific_gate": "NOT_ASSESSED_BY_EVIDENCE_READER",
+        "stratum": "MARGINAL",
+        "wilson95": [
+          0.0,
+          0.6576197724933469
+        ]
+      }
+    ],
+    "paired": [
+      {
+        "CI_method": "Bonferroni two exact97.5% CP discordance intervals; descriptive, no multiplicity correction",
+        "UNKNOWN_or_incomplete_pair": 0,
+        "a_only_S": 0,
+        "arm_a": "E_T_V2",
+        "arm_b": "E_T_HISTORY",
+        "b_only_S": 0,
+        "both_S": 38,
+        "conservative95": [
+          -0.06617774702077078,
+          0.06617774702077078
+        ],
+        "difference_b_minus_a": 0.0,
+        "missing_pair": 0,
+        "n_iid": 64,
+        "neither_S": 26,
+        "stratum": "ALL"
+      },
+      {
+        "CI_method": "Bonferroni two exact97.5% CP discordance intervals; descriptive, no multiplicity correction",
+        "UNKNOWN_or_incomplete_pair": 0,
+        "a_only_S": 0,
+        "arm_a": "E_T_V2",
+        "arm_b": "E_T_HISTORY",
+        "b_only_S": 0,
+        "both_S": 38,
+        "conservative95": [
+          -0.10376324540031573,
+          0.10376324540031573
+        ],
+        "difference_b_minus_a": 0.0,
+        "missing_pair": 0,
+        "n_iid": 40,
+        "neither_S": 2,
+        "stratum": "CERT_FEASIBLE"
+      },
+      {
+        "CI_method": "Bonferroni two exact97.5% CP discordance intervals; descriptive, no multiplicity correction",
+        "UNKNOWN_or_incomplete_pair": 0,
+        "a_only_S": 0,
+        "arm_a": "E_T_V2",
+        "arm_b": "E_T_HISTORY",
+        "b_only_S": 0,
+        "both_S": 0,
+        "conservative95": [
+          -0.8881966011250104,
+          0.8881966011250104
+        ],
+        "difference_b_minus_a": 0.0,
+        "missing_pair": 0,
+        "n_iid": 2,
+        "neither_S": 2,
+        "stratum": "MARGINAL"
+      },
+      {
+        "CI_method": "Bonferroni two exact97.5% CP discordance intervals; descriptive, no multiplicity correction",
+        "UNKNOWN_or_incomplete_pair": 0,
+        "a_only_S": 0,
+        "arm_a": "E_T_V2",
+        "arm_b": "E_T_HISTORY",
+        "b_only_S": 0,
+        "both_S": 0,
+        "conservative95": [
+          -0.18060009421415296,
+          0.18060009421415296
+        ],
+        "difference_b_minus_a": 0.0,
+        "missing_pair": 0,
+        "n_iid": 22,
+        "neither_S": 22,
+        "stratum": "CERT_INFEASIBLE"
+      },
+      {
+        "CI_method": "Bonferroni two exact97.5% CP discordance intervals; descriptive, no multiplicity correction",
+        "UNKNOWN_or_incomplete_pair": 0,
+        "a_only_S": 0,
+        "arm_a": "E_T_V2",
+        "arm_b": "E_T_HISTORY",
+        "b_only_S": 0,
+        "both_S": 0,
+        "conservative95": [
+          null,
+          null
+        ],
+        "difference_b_minus_a": null,
+        "missing_pair": 0,
+        "n_iid": 0,
+        "neither_S": 0,
+        "stratum": "REFERENCE_UNKNOWN"
+      },
+      {
+        "CI_method": "Bonferroni two exact97.5% CP discordance intervals; descriptive, no multiplicity correction",
+        "UNKNOWN_or_incomplete_pair": 0,
+        "a_only_S": 0,
+        "arm_a": "E_T_V2",
+        "arm_b": "E_L_V2",
+        "b_only_S": 0,
+        "both_S": 38,
+        "conservative95": [
+          -0.06617774702077078,
+          0.06617774702077078
+        ],
+        "difference_b_minus_a": 0.0,
+        "missing_pair": 0,
+        "n_iid": 64,
+        "neither_S": 26,
+        "stratum": "ALL"
+      },
+      {
+        "CI_method": "Bonferroni two exact97.5% CP discordance intervals; descriptive, no multiplicity correction",
+        "UNKNOWN_or_incomplete_pair": 0,
+        "a_only_S": 0,
+        "arm_a": "E_T_V2",
+        "arm_b": "E_L_V2",
+        "b_only_S": 0,
+        "both_S": 38,
+        "conservative95": [
+          -0.10376324540031573,
+          0.10376324540031573
+        ],
+        "difference_b_minus_a": 0.0,
+        "missing_pair": 0,
+        "n_iid": 40,
+        "neither_S": 2,
+        "stratum": "CERT_FEASIBLE"
+      },
+      {
+        "CI_method": "Bonferroni two exact97.5% CP discordance intervals; descriptive, no multiplicity correction",
+        "UNKNOWN_or_incomplete_pair": 0,
+        "a_only_S": 0,
+        "arm_a": "E_T_V2",
+        "arm_b": "E_L_V2",
+        "b_only_S": 0,
+        "both_S": 0,
+        "conservative95": [
+          -0.8881966011250104,
+          0.8881966011250104
+        ],
+        "difference_b_minus_a": 0.0,
+        "missing_pair": 0,
+        "n_iid": 2,
+        "neither_S": 2,
+        "stratum": "MARGINAL"
+      },
+      {
+        "CI_method": "Bonferroni two exact97.5% CP discordance intervals; descriptive, no multiplicity correction",
+        "UNKNOWN_or_incomplete_pair": 0,
+        "a_only_S": 0,
+        "arm_a": "E_T_V2",
+        "arm_b": "E_L_V2",
+        "b_only_S": 0,
+        "both_S": 0,
+        "conservative95": [
+          -0.18060009421415296,
+          0.18060009421415296
+        ],
+        "difference_b_minus_a": 0.0,
+        "missing_pair": 0,
+        "n_iid": 22,
+        "neither_S": 22,
+        "stratum": "CERT_INFEASIBLE"
+      },
+      {
+        "CI_method": "Bonferroni two exact97.5% CP discordance intervals; descriptive, no multiplicity correction",
+        "UNKNOWN_or_incomplete_pair": 0,
+        "a_only_S": 0,
+        "arm_a": "E_T_V2",
+        "arm_b": "E_L_V2",
+        "b_only_S": 0,
+        "both_S": 0,
+        "conservative95": [
+          null,
+          null
+        ],
+        "difference_b_minus_a": null,
+        "missing_pair": 0,
+        "n_iid": 0,
+        "neither_S": 0,
+        "stratum": "REFERENCE_UNKNOWN"
+      },
+      {
+        "CI_method": "Bonferroni two exact97.5% CP discordance intervals; descriptive, no multiplicity correction",
+        "UNKNOWN_or_incomplete_pair": 0,
+        "a_only_S": 0,
+        "arm_a": "E_T_HISTORY",
+        "arm_b": "E_L_V2",
+        "b_only_S": 0,
+        "both_S": 38,
+        "conservative95": [
+          -0.06617774702077078,
+          0.06617774702077078
+        ],
+        "difference_b_minus_a": 0.0,
+        "missing_pair": 0,
+        "n_iid": 64,
+        "neither_S": 26,
+        "stratum": "ALL"
+      },
+      {
+        "CI_method": "Bonferroni two exact97.5% CP discordance intervals; descriptive, no multiplicity correction",
+        "UNKNOWN_or_incomplete_pair": 0,
+        "a_only_S": 0,
+        "arm_a": "E_T_HISTORY",
+        "arm_b": "E_L_V2",
+        "b_only_S": 0,
+        "both_S": 38,
+        "conservative95": [
+          -0.10376324540031573,
+          0.10376324540031573
+        ],
+        "difference_b_minus_a": 0.0,
+        "missing_pair": 0,
+        "n_iid": 40,
+        "neither_S": 2,
+        "stratum": "CERT_FEASIBLE"
+      },
+      {
+        "CI_method": "Bonferroni two exact97.5% CP discordance intervals; descriptive, no multiplicity correction",
+        "UNKNOWN_or_incomplete_pair": 0,
+        "a_only_S": 0,
+        "arm_a": "E_T_HISTORY",
+        "arm_b": "E_L_V2",
+        "b_only_S": 0,
+        "both_S": 0,
+        "conservative95": [
+          -0.8881966011250104,
+          0.8881966011250104
+        ],
+        "difference_b_minus_a": 0.0,
+        "missing_pair": 0,
+        "n_iid": 2,
+        "neither_S": 2,
+        "stratum": "MARGINAL"
+      },
+      {
+        "CI_method": "Bonferroni two exact97.5% CP discordance intervals; descriptive, no multiplicity correction",
+        "UNKNOWN_or_incomplete_pair": 0,
+        "a_only_S": 0,
+        "arm_a": "E_T_HISTORY",
+        "arm_b": "E_L_V2",
+        "b_only_S": 0,
+        "both_S": 0,
+        "conservative95": [
+          -0.18060009421415296,
+          0.18060009421415296
+        ],
+        "difference_b_minus_a": 0.0,
+        "missing_pair": 0,
+        "n_iid": 22,
+        "neither_S": 22,
+        "stratum": "CERT_INFEASIBLE"
+      },
+      {
+        "CI_method": "Bonferroni two exact97.5% CP discordance intervals; descriptive, no multiplicity correction",
+        "UNKNOWN_or_incomplete_pair": 0,
+        "a_only_S": 0,
+        "arm_a": "E_T_HISTORY",
+        "arm_b": "E_L_V2",
+        "b_only_S": 0,
+        "both_S": 0,
+        "conservative95": [
+          null,
+          null
+        ],
+        "difference_b_minus_a": null,
+        "missing_pair": 0,
+        "n_iid": 0,
+        "neither_S": 0,
+        "stratum": "REFERENCE_UNKNOWN"
+      }
+    ],
+    "formal_gate_eligible": false
+  },
+  "R5_conditions": {
+    "BAL_disjoint_reference_partition_per_role": [
+      {
+        "disjoint_instance_counts": {
+          "CERT_FEASIBLE": 99,
+          "MARGINAL": 12,
+          "NO_REFERENCE_WINDOW": 89
+        },
+        "instances": 200,
+        "three_roles_same_instance_set_and_labels": true,
+        "tolerance_mg": 0.1
+      },
+      {
+        "disjoint_instance_counts": {
+          "CERT_FEASIBLE": 200
+        },
+        "instances": 200,
+        "three_roles_same_instance_set_and_labels": true,
+        "tolerance_mg": 0.2
+      }
+    ],
+    "FURN_ET_EL_paired": [
+      {
+        "ET_F_EL_F": 33,
+        "ET_F_EL_S": 15,
+        "ET_S_EL_F": 0,
+        "ET_S_EL_S": 152,
+        "condition": "P1_50",
+        "interpretation": "paired descriptive counts only; no significance or teacher upper-bound claim",
+        "metric": "delta_sim_s=0.5",
+        "paired_iids": 200
+      },
+      {
+        "ET_F_EL_F": 7,
+        "ET_F_EL_S": 1,
+        "ET_S_EL_F": 0,
+        "ET_S_EL_S": 192,
+        "condition": "P1_50",
+        "interpretation": "paired descriptive counts only; no significance or teacher upper-bound claim",
+        "metric": "delta_sim_s=1.0",
+        "paired_iids": 200
+      },
+      {
+        "ET_F_EL_F": 0,
+        "ET_F_EL_S": 1,
+        "ET_S_EL_F": 0,
+        "ET_S_EL_S": 199,
+        "condition": "P1_50",
+        "interpretation": "paired descriptive counts only; no significance or teacher upper-bound claim",
+        "metric": "delta_sim_s=2.0",
+        "paired_iids": 200
+      },
+      {
+        "ET_F_EL_F": 30,
+        "ET_F_EL_S": 17,
+        "ET_S_EL_F": 0,
+        "ET_S_EL_S": 153,
+        "condition": "P1_150",
+        "interpretation": "paired descriptive counts only; no significance or teacher upper-bound claim",
+        "metric": "delta_sim_s=0.5",
+        "paired_iids": 200
+      },
+      {
+        "ET_F_EL_F": 19,
+        "ET_F_EL_S": 5,
+        "ET_S_EL_F": 0,
+        "ET_S_EL_S": 176,
+        "condition": "P1_150",
+        "interpretation": "paired descriptive counts only; no significance or teacher upper-bound claim",
+        "metric": "delta_sim_s=1.0",
+        "paired_iids": 200
+      },
+      {
+        "ET_F_EL_F": 1,
+        "ET_F_EL_S": 0,
+        "ET_S_EL_F": 0,
+        "ET_S_EL_S": 199,
+        "condition": "P1_150",
+        "interpretation": "paired descriptive counts only; no significance or teacher upper-bound claim",
+        "metric": "delta_sim_s=2.0",
+        "paired_iids": 200
+      }
+    ],
+    "N_lt_50_nonempty_cells": [
+      {
+        "F": 3,
+        "FEAS_N_ge_50": null,
+        "MISSING": 0,
+        "N": 12,
+        "NO_REFERENCE_WINDOW": 0,
+        "N_lt_50": true,
+        "S": 9,
+        "UNKNOWN": 0,
+        "condition": "P0",
+        "expert_id": "E_L",
+        "failure_types": {
+          "LATE": 3
+        },
+        "family": "T-BAL",
+        "first_terminal_failure_types": {
+          "LATE": 3
+        },
+        "incomplete": 0,
+        "metric": "tol_mg=0.1",
+        "stratum": "MARGINAL_WITH_REFERENCE_WINDOW",
+        "success_rate": 0.75,
+        "wilson95": [
+          0.46769466506643426,
+          0.9110583316059453
+        ]
+      },
+      {
+        "F": 3,
+        "FEAS_N_ge_50": null,
+        "MISSING": 0,
+        "N": 12,
+        "NO_REFERENCE_WINDOW": 0,
+        "N_lt_50": true,
+        "S": 9,
+        "UNKNOWN": 0,
+        "condition": "P0",
+        "expert_id": "E_N",
+        "failure_types": {
+          "LATE": 3
+        },
+        "family": "T-BAL",
+        "first_terminal_failure_types": {
+          "LATE": 3
+        },
+        "incomplete": 0,
+        "metric": "tol_mg=0.1",
+        "stratum": "MARGINAL_WITH_REFERENCE_WINDOW",
+        "success_rate": 0.75,
+        "wilson95": [
+          0.46769466506643426,
+          0.9110583316059453
+        ]
+      },
+      {
+        "F": 3,
+        "FEAS_N_ge_50": null,
+        "MISSING": 0,
+        "N": 12,
+        "NO_REFERENCE_WINDOW": 0,
+        "N_lt_50": true,
+        "S": 9,
+        "UNKNOWN": 0,
+        "condition": "P0",
+        "expert_id": "E_T",
+        "failure_types": {
+          "LATE": 3
+        },
+        "family": "T-BAL",
+        "first_terminal_failure_types": {
+          "LATE": 3
+        },
+        "incomplete": 0,
+        "metric": "tol_mg=0.1",
+        "stratum": "MARGINAL_WITH_REFERENCE_WINDOW",
+        "success_rate": 0.75,
+        "wilson95": [
+          0.46769466506643426,
+          0.9110583316059453
+        ]
+      }
+    ],
+    "R7_gate_eligible": false,
+    "absent_layers": {
+      "T-BAL": {
+        "CERT_INFEASIBLE": 0
+      },
+      "T-FURN": {
+        "CERT_INFEASIBLE": 0,
+        "MARGINAL": 0
+      }
+    },
+    "cells": [
+      {
+        "F": 92,
+        "FEAS_N_ge_50": null,
+        "MISSING": 0,
+        "N": 200,
+        "NO_REFERENCE_WINDOW": 89,
+        "N_lt_50": false,
+        "S": 108,
+        "UNKNOWN": 0,
+        "condition": "P0",
+        "expert_id": "E_L",
+        "failure_types": {
+          "LATE": 92
+        },
+        "family": "T-BAL",
+        "first_terminal_failure_types": {
+          "LATE": 92
+        },
+        "incomplete": 0,
+        "metric": "tol_mg=0.1",
+        "stratum": "ALL",
+        "success_rate": 0.54,
+        "wilson95": [
+          0.4708228918895333,
+          0.6076694820002854
+        ]
+      },
+      {
+        "F": 0,
+        "FEAS_N_ge_50": true,
+        "MISSING": 0,
+        "N": 99,
+        "NO_REFERENCE_WINDOW": 0,
+        "N_lt_50": false,
+        "S": 99,
+        "UNKNOWN": 0,
+        "condition": "P0",
+        "expert_id": "E_L",
+        "failure_types": {},
+        "family": "T-BAL",
+        "first_terminal_failure_types": {},
+        "incomplete": 0,
+        "metric": "tol_mg=0.1",
+        "stratum": "CERT_FEASIBLE",
+        "success_rate": 1.0,
+        "wilson95": [
+          0.9626467879321726,
+          1.0
+        ]
+      },
+      {
+        "F": 92,
+        "FEAS_N_ge_50": null,
+        "MISSING": 0,
+        "N": 101,
+        "NO_REFERENCE_WINDOW": 89,
+        "N_lt_50": false,
+        "S": 9,
+        "UNKNOWN": 0,
+        "condition": "P0",
+        "expert_id": "E_L",
+        "failure_types": {
+          "LATE": 92
+        },
+        "family": "T-BAL",
+        "first_terminal_failure_types": {
+          "LATE": 92
+        },
+        "incomplete": 0,
+        "metric": "tol_mg=0.1",
+        "stratum": "MARGINAL",
+        "success_rate": 0.0891089108910891,
+        "wilson95": [
+          0.04758923777198751,
+          0.16073921421997342
+        ]
+      },
+      {
+        "F": 3,
+        "FEAS_N_ge_50": null,
+        "MISSING": 0,
+        "N": 12,
+        "NO_REFERENCE_WINDOW": 0,
+        "N_lt_50": true,
+        "S": 9,
+        "UNKNOWN": 0,
+        "condition": "P0",
+        "expert_id": "E_L",
+        "failure_types": {
+          "LATE": 3
+        },
+        "family": "T-BAL",
+        "first_terminal_failure_types": {
+          "LATE": 3
+        },
+        "incomplete": 0,
+        "metric": "tol_mg=0.1",
+        "stratum": "MARGINAL_WITH_REFERENCE_WINDOW",
+        "success_rate": 0.75,
+        "wilson95": [
+          0.46769466506643426,
+          0.9110583316059453
+        ]
+      },
+      {
+        "F": 89,
+        "FEAS_N_ge_50": null,
+        "MISSING": 0,
+        "N": 89,
+        "NO_REFERENCE_WINDOW": 89,
+        "N_lt_50": false,
+        "S": 0,
+        "UNKNOWN": 0,
+        "condition": "P0",
+        "expert_id": "E_L",
+        "failure_types": {
+          "LATE": 89
+        },
+        "family": "T-BAL",
+        "first_terminal_failure_types": {
+          "LATE": 89
+        },
+        "incomplete": 0,
+        "metric": "tol_mg=0.1",
+        "stratum": "NO_REFERENCE_WINDOW",
+        "success_rate": 0.0,
+        "wilson95": [
+          3.469446951953614e-18,
+          0.04137654523625252
+        ]
+      },
+      {
+        "F": 92,
+        "FEAS_N_ge_50": null,
+        "MISSING": 0,
+        "N": 200,
+        "NO_REFERENCE_WINDOW": 89,
+        "N_lt_50": false,
+        "S": 108,
+        "UNKNOWN": 0,
+        "condition": "P0",
+        "expert_id": "E_N",
+        "failure_types": {
+          "LATE": 92
+        },
+        "family": "T-BAL",
+        "first_terminal_failure_types": {
+          "LATE": 92
+        },
+        "incomplete": 0,
+        "metric": "tol_mg=0.1",
+        "stratum": "ALL",
+        "success_rate": 0.54,
+        "wilson95": [
+          0.4708228918895333,
+          0.6076694820002854
+        ]
+      },
+      {
+        "F": 0,
+        "FEAS_N_ge_50": true,
+        "MISSING": 0,
+        "N": 99,
+        "NO_REFERENCE_WINDOW": 0,
+        "N_lt_50": false,
+        "S": 99,
+        "UNKNOWN": 0,
+        "condition": "P0",
+        "expert_id": "E_N",
+        "failure_types": {},
+        "family": "T-BAL",
+        "first_terminal_failure_types": {},
+        "incomplete": 0,
+        "metric": "tol_mg=0.1",
+        "stratum": "CERT_FEASIBLE",
+        "success_rate": 1.0,
+        "wilson95": [
+          0.9626467879321726,
+          1.0
+        ]
+      },
+      {
+        "F": 92,
+        "FEAS_N_ge_50": null,
+        "MISSING": 0,
+        "N": 101,
+        "NO_REFERENCE_WINDOW": 89,
+        "N_lt_50": false,
+        "S": 9,
+        "UNKNOWN": 0,
+        "condition": "P0",
+        "expert_id": "E_N",
+        "failure_types": {
+          "LATE": 92
+        },
+        "family": "T-BAL",
+        "first_terminal_failure_types": {
+          "LATE": 92
+        },
+        "incomplete": 0,
+        "metric": "tol_mg=0.1",
+        "stratum": "MARGINAL",
+        "success_rate": 0.0891089108910891,
+        "wilson95": [
+          0.04758923777198751,
+          0.16073921421997342
+        ]
+      },
+      {
+        "F": 3,
+        "FEAS_N_ge_50": null,
+        "MISSING": 0,
+        "N": 12,
+        "NO_REFERENCE_WINDOW": 0,
+        "N_lt_50": true,
+        "S": 9,
+        "UNKNOWN": 0,
+        "condition": "P0",
+        "expert_id": "E_N",
+        "failure_types": {
+          "LATE": 3
+        },
+        "family": "T-BAL",
+        "first_terminal_failure_types": {
+          "LATE": 3
+        },
+        "incomplete": 0,
+        "metric": "tol_mg=0.1",
+        "stratum": "MARGINAL_WITH_REFERENCE_WINDOW",
+        "success_rate": 0.75,
+        "wilson95": [
+          0.46769466506643426,
+          0.9110583316059453
+        ]
+      },
+      {
+        "F": 89,
+        "FEAS_N_ge_50": null,
+        "MISSING": 0,
+        "N": 89,
+        "NO_REFERENCE_WINDOW": 89,
+        "N_lt_50": false,
+        "S": 0,
+        "UNKNOWN": 0,
+        "condition": "P0",
+        "expert_id": "E_N",
+        "failure_types": {
+          "LATE": 89
+        },
+        "family": "T-BAL",
+        "first_terminal_failure_types": {
+          "LATE": 89
+        },
+        "incomplete": 0,
+        "metric": "tol_mg=0.1",
+        "stratum": "NO_REFERENCE_WINDOW",
+        "success_rate": 0.0,
+        "wilson95": [
+          3.469446951953614e-18,
+          0.04137654523625252
+        ]
+      },
+      {
+        "F": 92,
+        "FEAS_N_ge_50": null,
+        "MISSING": 0,
+        "N": 200,
+        "NO_REFERENCE_WINDOW": 89,
+        "N_lt_50": false,
+        "S": 108,
+        "UNKNOWN": 0,
+        "condition": "P0",
+        "expert_id": "E_T",
+        "failure_types": {
+          "LATE": 92
+        },
+        "family": "T-BAL",
+        "first_terminal_failure_types": {
+          "LATE": 92
+        },
+        "incomplete": 0,
+        "metric": "tol_mg=0.1",
+        "stratum": "ALL",
+        "success_rate": 0.54,
+        "wilson95": [
+          0.4708228918895333,
+          0.6076694820002854
+        ]
+      },
+      {
+        "F": 0,
+        "FEAS_N_ge_50": true,
+        "MISSING": 0,
+        "N": 99,
+        "NO_REFERENCE_WINDOW": 0,
+        "N_lt_50": false,
+        "S": 99,
+        "UNKNOWN": 0,
+        "condition": "P0",
+        "expert_id": "E_T",
+        "failure_types": {},
+        "family": "T-BAL",
+        "first_terminal_failure_types": {},
+        "incomplete": 0,
+        "metric": "tol_mg=0.1",
+        "stratum": "CERT_FEASIBLE",
+        "success_rate": 1.0,
+        "wilson95": [
+          0.9626467879321726,
+          1.0
+        ]
+      },
+      {
+        "F": 92,
+        "FEAS_N_ge_50": null,
+        "MISSING": 0,
+        "N": 101,
+        "NO_REFERENCE_WINDOW": 89,
+        "N_lt_50": false,
+        "S": 9,
+        "UNKNOWN": 0,
+        "condition": "P0",
+        "expert_id": "E_T",
+        "failure_types": {
+          "LATE": 92
+        },
+        "family": "T-BAL",
+        "first_terminal_failure_types": {
+          "LATE": 92
+        },
+        "incomplete": 0,
+        "metric": "tol_mg=0.1",
+        "stratum": "MARGINAL",
+        "success_rate": 0.0891089108910891,
+        "wilson95": [
+          0.04758923777198751,
+          0.16073921421997342
+        ]
+      },
+      {
+        "F": 3,
+        "FEAS_N_ge_50": null,
+        "MISSING": 0,
+        "N": 12,
+        "NO_REFERENCE_WINDOW": 0,
+        "N_lt_50": true,
+        "S": 9,
+        "UNKNOWN": 0,
+        "condition": "P0",
+        "expert_id": "E_T",
+        "failure_types": {
+          "LATE": 3
+        },
+        "family": "T-BAL",
+        "first_terminal_failure_types": {
+          "LATE": 3
+        },
+        "incomplete": 0,
+        "metric": "tol_mg=0.1",
+        "stratum": "MARGINAL_WITH_REFERENCE_WINDOW",
+        "success_rate": 0.75,
+        "wilson95": [
+          0.46769466506643426,
+          0.9110583316059453
+        ]
+      },
+      {
+        "F": 89,
+        "FEAS_N_ge_50": null,
+        "MISSING": 0,
+        "N": 89,
+        "NO_REFERENCE_WINDOW": 89,
+        "N_lt_50": false,
+        "S": 0,
+        "UNKNOWN": 0,
+        "condition": "P0",
+        "expert_id": "E_T",
+        "failure_types": {
+          "LATE": 89
+        },
+        "family": "T-BAL",
+        "first_terminal_failure_types": {
+          "LATE": 89
+        },
+        "incomplete": 0,
+        "metric": "tol_mg=0.1",
+        "stratum": "NO_REFERENCE_WINDOW",
+        "success_rate": 0.0,
+        "wilson95": [
+          3.469446951953614e-18,
+          0.04137654523625252
+        ]
+      },
+      {
+        "F": 0,
+        "FEAS_N_ge_50": null,
+        "MISSING": 0,
+        "N": 200,
+        "NO_REFERENCE_WINDOW": 0,
+        "N_lt_50": false,
+        "S": 200,
+        "UNKNOWN": 0,
+        "condition": "P0",
+        "expert_id": "E_L",
+        "failure_types": {},
+        "family": "T-BAL",
+        "first_terminal_failure_types": {},
+        "incomplete": 0,
+        "metric": "tol_mg=0.2",
+        "stratum": "ALL",
+        "success_rate": 1.0,
+        "wilson95": [
+          0.9811546736227335,
+          1.0
+        ]
+      },
+      {
+        "F": 0,
+        "FEAS_N_ge_50": true,
+        "MISSING": 0,
+        "N": 200,
+        "NO_REFERENCE_WINDOW": 0,
+        "N_lt_50": false,
+        "S": 200,
+        "UNKNOWN": 0,
+        "condition": "P0",
+        "expert_id": "E_L",
+        "failure_types": {},
+        "family": "T-BAL",
+        "first_terminal_failure_types": {},
+        "incomplete": 0,
+        "metric": "tol_mg=0.2",
+        "stratum": "CERT_FEASIBLE",
+        "success_rate": 1.0,
+        "wilson95": [
+          0.9811546736227335,
+          1.0
+        ]
+      },
+      {
+        "F": 0,
+        "FEAS_N_ge_50": null,
+        "MISSING": 0,
+        "N": 200,
+        "NO_REFERENCE_WINDOW": 0,
+        "N_lt_50": false,
+        "S": 200,
+        "UNKNOWN": 0,
+        "condition": "P0",
+        "expert_id": "E_N",
+        "failure_types": {},
+        "family": "T-BAL",
+        "first_terminal_failure_types": {},
+        "incomplete": 0,
+        "metric": "tol_mg=0.2",
+        "stratum": "ALL",
+        "success_rate": 1.0,
+        "wilson95": [
+          0.9811546736227335,
+          1.0
+        ]
+      },
+      {
+        "F": 0,
+        "FEAS_N_ge_50": true,
+        "MISSING": 0,
+        "N": 200,
+        "NO_REFERENCE_WINDOW": 0,
+        "N_lt_50": false,
+        "S": 200,
+        "UNKNOWN": 0,
+        "condition": "P0",
+        "expert_id": "E_N",
+        "failure_types": {},
+        "family": "T-BAL",
+        "first_terminal_failure_types": {},
+        "incomplete": 0,
+        "metric": "tol_mg=0.2",
+        "stratum": "CERT_FEASIBLE",
+        "success_rate": 1.0,
+        "wilson95": [
+          0.9811546736227335,
+          1.0
+        ]
+      },
+      {
+        "F": 0,
+        "FEAS_N_ge_50": null,
+        "MISSING": 0,
+        "N": 200,
+        "NO_REFERENCE_WINDOW": 0,
+        "N_lt_50": false,
+        "S": 200,
+        "UNKNOWN": 0,
+        "condition": "P0",
+        "expert_id": "E_T",
+        "failure_types": {},
+        "family": "T-BAL",
+        "first_terminal_failure_types": {},
+        "incomplete": 0,
+        "metric": "tol_mg=0.2",
+        "stratum": "ALL",
+        "success_rate": 1.0,
+        "wilson95": [
+          0.9811546736227335,
+          1.0
+        ]
+      },
+      {
+        "F": 0,
+        "FEAS_N_ge_50": true,
+        "MISSING": 0,
+        "N": 200,
+        "NO_REFERENCE_WINDOW": 0,
+        "N_lt_50": false,
+        "S": 200,
+        "UNKNOWN": 0,
+        "condition": "P0",
+        "expert_id": "E_T",
+        "failure_types": {},
+        "family": "T-BAL",
+        "first_terminal_failure_types": {},
+        "incomplete": 0,
+        "metric": "tol_mg=0.2",
+        "stratum": "CERT_FEASIBLE",
+        "success_rate": 1.0,
+        "wilson95": [
+          0.9811546736227335,
+          1.0
+        ]
+      },
+      {
+        "F": 30,
+        "FEAS_N_ge_50": null,
+        "MISSING": 0,
+        "N": 200,
+        "NO_REFERENCE_WINDOW": 0,
+        "N_lt_50": false,
+        "S": 170,
+        "UNKNOWN": 0,
+        "condition": "P1_150",
+        "expert_id": "E_L",
+        "failure_types": {
+          "LATE": 30
+        },
+        "family": "T-FURN",
+        "first_terminal_failure_types": {
+          "LATE": 30
+        },
+        "incomplete": 0,
+        "metric": "delta_sim_s=0.5",
+        "stratum": "ALL",
+        "success_rate": 0.85,
+        "wilson95": [
+          0.7939442071583334,
+          0.89286406437758
+        ]
+      },
+      {
+        "F": 30,
+        "FEAS_N_ge_50": true,
+        "MISSING": 0,
+        "N": 200,
+        "NO_REFERENCE_WINDOW": 0,
+        "N_lt_50": false,
+        "S": 170,
+        "UNKNOWN": 0,
+        "condition": "P1_150",
+        "expert_id": "E_L",
+        "failure_types": {
+          "LATE": 30
+        },
+        "family": "T-FURN",
+        "first_terminal_failure_types": {
+          "LATE": 30
+        },
+        "incomplete": 0,
+        "metric": "delta_sim_s=0.5",
+        "stratum": "CERT_FEASIBLE",
+        "success_rate": 0.85,
+        "wilson95": [
+          0.7939442071583334,
+          0.89286406437758
+        ]
+      },
+      {
+        "F": 200,
+        "FEAS_N_ge_50": null,
+        "MISSING": 0,
+        "N": 200,
+        "NO_REFERENCE_WINDOW": 0,
+        "N_lt_50": false,
+        "S": 0,
+        "UNKNOWN": 0,
+        "condition": "P1_150",
+        "expert_id": "E_N",
+        "failure_types": {
+          "MISSED": 200
+        },
+        "family": "T-FURN",
+        "first_terminal_failure_types": {
+          "MISSED": 200
+        },
+        "incomplete": 0,
+        "metric": "delta_sim_s=0.5",
+        "stratum": "ALL",
+        "success_rate": 0.0,
+        "wilson95": [
+          1.734723475976807e-18,
+          0.018845326377266575
+        ]
+      },
+      {
+        "F": 200,
+        "FEAS_N_ge_50": true,
+        "MISSING": 0,
+        "N": 200,
+        "NO_REFERENCE_WINDOW": 0,
+        "N_lt_50": false,
+        "S": 0,
+        "UNKNOWN": 0,
+        "condition": "P1_150",
+        "expert_id": "E_N",
+        "failure_types": {
+          "MISSED": 200
+        },
+        "family": "T-FURN",
+        "first_terminal_failure_types": {
+          "MISSED": 200
+        },
+        "incomplete": 0,
+        "metric": "delta_sim_s=0.5",
+        "stratum": "CERT_FEASIBLE",
+        "success_rate": 0.0,
+        "wilson95": [
+          1.734723475976807e-18,
+          0.018845326377266575
+        ]
+      },
+      {
+        "F": 47,
+        "FEAS_N_ge_50": null,
+        "MISSING": 0,
+        "N": 200,
+        "NO_REFERENCE_WINDOW": 0,
+        "N_lt_50": false,
+        "S": 153,
+        "UNKNOWN": 0,
+        "condition": "P1_150",
+        "expert_id": "E_T",
+        "failure_types": {
+          "LATE": 47
+        },
+        "family": "T-FURN",
+        "first_terminal_failure_types": {
+          "LATE": 47
+        },
+        "incomplete": 0,
+        "metric": "delta_sim_s=0.5",
+        "stratum": "ALL",
+        "success_rate": 0.765,
+        "wilson95": [
+          0.7015863111723746,
+          0.8184256658476741
+        ]
+      },
+      {
+        "F": 47,
+        "FEAS_N_ge_50": true,
+        "MISSING": 0,
+        "N": 200,
+        "NO_REFERENCE_WINDOW": 0,
+        "N_lt_50": false,
+        "S": 153,
+        "UNKNOWN": 0,
+        "condition": "P1_150",
+        "expert_id": "E_T",
+        "failure_types": {
+          "LATE": 47
+        },
+        "family": "T-FURN",
+        "first_terminal_failure_types": {
+          "LATE": 47
+        },
+        "incomplete": 0,
+        "metric": "delta_sim_s=0.5",
+        "stratum": "CERT_FEASIBLE",
+        "success_rate": 0.765,
+        "wilson95": [
+          0.7015863111723746,
+          0.8184256658476741
+        ]
+      },
+      {
+        "F": 19,
+        "FEAS_N_ge_50": null,
+        "MISSING": 0,
+        "N": 200,
+        "NO_REFERENCE_WINDOW": 0,
+        "N_lt_50": false,
+        "S": 181,
+        "UNKNOWN": 0,
+        "condition": "P1_150",
+        "expert_id": "E_L",
+        "failure_types": {
+          "LATE": 19
+        },
+        "family": "T-FURN",
+        "first_terminal_failure_types": {
+          "LATE": 19
+        },
+        "incomplete": 0,
+        "metric": "delta_sim_s=1.0",
+        "stratum": "ALL",
+        "success_rate": 0.905,
+        "wilson95": [
+          0.8563983883518006,
+          0.9383368972826135
+        ]
+      },
+      {
+        "F": 19,
+        "FEAS_N_ge_50": true,
+        "MISSING": 0,
+        "N": 200,
+        "NO_REFERENCE_WINDOW": 0,
+        "N_lt_50": false,
+        "S": 181,
+        "UNKNOWN": 0,
+        "condition": "P1_150",
+        "expert_id": "E_L",
+        "failure_types": {
+          "LATE": 19
+        },
+        "family": "T-FURN",
+        "first_terminal_failure_types": {
+          "LATE": 19
+        },
+        "incomplete": 0,
+        "metric": "delta_sim_s=1.0",
+        "stratum": "CERT_FEASIBLE",
+        "success_rate": 0.905,
+        "wilson95": [
+          0.8563983883518006,
+          0.9383368972826135
+        ]
+      },
+      {
+        "F": 200,
+        "FEAS_N_ge_50": null,
+        "MISSING": 0,
+        "N": 200,
+        "NO_REFERENCE_WINDOW": 0,
+        "N_lt_50": false,
+        "S": 0,
+        "UNKNOWN": 0,
+        "condition": "P1_150",
+        "expert_id": "E_N",
+        "failure_types": {
+          "MISSED": 200
+        },
+        "family": "T-FURN",
+        "first_terminal_failure_types": {
+          "MISSED": 200
+        },
+        "incomplete": 0,
+        "metric": "delta_sim_s=1.0",
+        "stratum": "ALL",
+        "success_rate": 0.0,
+        "wilson95": [
+          1.734723475976807e-18,
+          0.018845326377266575
+        ]
+      },
+      {
+        "F": 200,
+        "FEAS_N_ge_50": true,
+        "MISSING": 0,
+        "N": 200,
+        "NO_REFERENCE_WINDOW": 0,
+        "N_lt_50": false,
+        "S": 0,
+        "UNKNOWN": 0,
+        "condition": "P1_150",
+        "expert_id": "E_N",
+        "failure_types": {
+          "MISSED": 200
+        },
+        "family": "T-FURN",
+        "first_terminal_failure_types": {
+          "MISSED": 200
+        },
+        "incomplete": 0,
+        "metric": "delta_sim_s=1.0",
+        "stratum": "CERT_FEASIBLE",
+        "success_rate": 0.0,
+        "wilson95": [
+          1.734723475976807e-18,
+          0.018845326377266575
+        ]
+      },
+      {
+        "F": 24,
+        "FEAS_N_ge_50": null,
+        "MISSING": 0,
+        "N": 200,
+        "NO_REFERENCE_WINDOW": 0,
+        "N_lt_50": false,
+        "S": 176,
+        "UNKNOWN": 0,
+        "condition": "P1_150",
+        "expert_id": "E_T",
+        "failure_types": {
+          "LATE": 24
+        },
+        "family": "T-FURN",
+        "first_terminal_failure_types": {
+          "LATE": 24
+        },
+        "incomplete": 0,
+        "metric": "delta_sim_s=1.0",
+        "stratum": "ALL",
+        "success_rate": 0.88,
+        "wilson95": [
+          0.8276574790170326,
+          0.9180200729362449
+        ]
+      },
+      {
+        "F": 24,
+        "FEAS_N_ge_50": true,
+        "MISSING": 0,
+        "N": 200,
+        "NO_REFERENCE_WINDOW": 0,
+        "N_lt_50": false,
+        "S": 176,
+        "UNKNOWN": 0,
+        "condition": "P1_150",
+        "expert_id": "E_T",
+        "failure_types": {
+          "LATE": 24
+        },
+        "family": "T-FURN",
+        "first_terminal_failure_types": {
+          "LATE": 24
+        },
+        "incomplete": 0,
+        "metric": "delta_sim_s=1.0",
+        "stratum": "CERT_FEASIBLE",
+        "success_rate": 0.88,
+        "wilson95": [
+          0.8276574790170326,
+          0.9180200729362449
+        ]
+      },
+      {
+        "F": 1,
+        "FEAS_N_ge_50": null,
+        "MISSING": 0,
+        "N": 200,
+        "NO_REFERENCE_WINDOW": 0,
+        "N_lt_50": false,
+        "S": 199,
+        "UNKNOWN": 0,
+        "condition": "P1_150",
+        "expert_id": "E_L",
+        "failure_types": {
+          "LATE": 1
+        },
+        "family": "T-FURN",
+        "first_terminal_failure_types": {
+          "LATE": 1
+        },
+        "incomplete": 0,
+        "metric": "delta_sim_s=2.0",
+        "stratum": "ALL",
+        "success_rate": 0.995,
+        "wilson95": [
+          0.9722262956021069,
+          0.9991168312843989
+        ]
+      },
+      {
+        "F": 1,
+        "FEAS_N_ge_50": true,
+        "MISSING": 0,
+        "N": 200,
+        "NO_REFERENCE_WINDOW": 0,
+        "N_lt_50": false,
+        "S": 199,
+        "UNKNOWN": 0,
+        "condition": "P1_150",
+        "expert_id": "E_L",
+        "failure_types": {
+          "LATE": 1
+        },
+        "family": "T-FURN",
+        "first_terminal_failure_types": {
+          "LATE": 1
+        },
+        "incomplete": 0,
+        "metric": "delta_sim_s=2.0",
+        "stratum": "CERT_FEASIBLE",
+        "success_rate": 0.995,
+        "wilson95": [
+          0.9722262956021069,
+          0.9991168312843989
+        ]
+      },
+      {
+        "F": 200,
+        "FEAS_N_ge_50": null,
+        "MISSING": 0,
+        "N": 200,
+        "NO_REFERENCE_WINDOW": 0,
+        "N_lt_50": false,
+        "S": 0,
+        "UNKNOWN": 0,
+        "condition": "P1_150",
+        "expert_id": "E_N",
+        "failure_types": {
+          "MISSED": 200
+        },
+        "family": "T-FURN",
+        "first_terminal_failure_types": {
+          "MISSED": 200
+        },
+        "incomplete": 0,
+        "metric": "delta_sim_s=2.0",
+        "stratum": "ALL",
+        "success_rate": 0.0,
+        "wilson95": [
+          1.734723475976807e-18,
+          0.018845326377266575
+        ]
+      },
+      {
+        "F": 200,
+        "FEAS_N_ge_50": true,
+        "MISSING": 0,
+        "N": 200,
+        "NO_REFERENCE_WINDOW": 0,
+        "N_lt_50": false,
+        "S": 0,
+        "UNKNOWN": 0,
+        "condition": "P1_150",
+        "expert_id": "E_N",
+        "failure_types": {
+          "MISSED": 200
+        },
+        "family": "T-FURN",
+        "first_terminal_failure_types": {
+          "MISSED": 200
+        },
+        "incomplete": 0,
+        "metric": "delta_sim_s=2.0",
+        "stratum": "CERT_FEASIBLE",
+        "success_rate": 0.0,
+        "wilson95": [
+          1.734723475976807e-18,
+          0.018845326377266575
+        ]
+      },
+      {
+        "F": 1,
+        "FEAS_N_ge_50": null,
+        "MISSING": 0,
+        "N": 200,
+        "NO_REFERENCE_WINDOW": 0,
+        "N_lt_50": false,
+        "S": 199,
+        "UNKNOWN": 0,
+        "condition": "P1_150",
+        "expert_id": "E_T",
+        "failure_types": {
+          "LATE": 1
+        },
+        "family": "T-FURN",
+        "first_terminal_failure_types": {
+          "LATE": 1
+        },
+        "incomplete": 0,
+        "metric": "delta_sim_s=2.0",
+        "stratum": "ALL",
+        "success_rate": 0.995,
+        "wilson95": [
+          0.9722262956021069,
+          0.9991168312843989
+        ]
+      },
+      {
+        "F": 1,
+        "FEAS_N_ge_50": true,
+        "MISSING": 0,
+        "N": 200,
+        "NO_REFERENCE_WINDOW": 0,
+        "N_lt_50": false,
+        "S": 199,
+        "UNKNOWN": 0,
+        "condition": "P1_150",
+        "expert_id": "E_T",
+        "failure_types": {
+          "LATE": 1
+        },
+        "family": "T-FURN",
+        "first_terminal_failure_types": {
+          "LATE": 1
+        },
+        "incomplete": 0,
+        "metric": "delta_sim_s=2.0",
+        "stratum": "CERT_FEASIBLE",
+        "success_rate": 0.995,
+        "wilson95": [
+          0.9722262956021069,
+          0.9991168312843989
+        ]
+      },
+      {
+        "F": 33,
+        "FEAS_N_ge_50": null,
+        "MISSING": 0,
+        "N": 200,
+        "NO_REFERENCE_WINDOW": 0,
+        "N_lt_50": false,
+        "S": 167,
+        "UNKNOWN": 0,
+        "condition": "P1_50",
+        "expert_id": "E_L",
+        "failure_types": {
+          "LATE": 33
+        },
+        "family": "T-FURN",
+        "first_terminal_failure_types": {
+          "LATE": 33
+        },
+        "incomplete": 0,
+        "metric": "delta_sim_s=0.5",
+        "stratum": "ALL",
+        "success_rate": 0.835,
+        "wilson95": [
+          0.7773421846094045,
+          0.8800314467178268
+        ]
+      },
+      {
+        "F": 33,
+        "FEAS_N_ge_50": true,
+        "MISSING": 0,
+        "N": 200,
+        "NO_REFERENCE_WINDOW": 0,
+        "N_lt_50": false,
+        "S": 167,
+        "UNKNOWN": 0,
+        "condition": "P1_50",
+        "expert_id": "E_L",
+        "failure_types": {
+          "LATE": 33
+        },
+        "family": "T-FURN",
+        "first_terminal_failure_types": {
+          "LATE": 33
+        },
+        "incomplete": 0,
+        "metric": "delta_sim_s=0.5",
+        "stratum": "CERT_FEASIBLE",
+        "success_rate": 0.835,
+        "wilson95": [
+          0.7773421846094045,
+          0.8800314467178268
+        ]
+      },
+      {
+        "F": 200,
+        "FEAS_N_ge_50": null,
+        "MISSING": 0,
+        "N": 200,
+        "NO_REFERENCE_WINDOW": 0,
+        "N_lt_50": false,
+        "S": 0,
+        "UNKNOWN": 0,
+        "condition": "P1_50",
+        "expert_id": "E_N",
+        "failure_types": {
+          "MISSED": 200
+        },
+        "family": "T-FURN",
+        "first_terminal_failure_types": {
+          "MISSED": 200
+        },
+        "incomplete": 0,
+        "metric": "delta_sim_s=0.5",
+        "stratum": "ALL",
+        "success_rate": 0.0,
+        "wilson95": [
+          1.734723475976807e-18,
+          0.018845326377266575
+        ]
+      },
+      {
+        "F": 200,
+        "FEAS_N_ge_50": true,
+        "MISSING": 0,
+        "N": 200,
+        "NO_REFERENCE_WINDOW": 0,
+        "N_lt_50": false,
+        "S": 0,
+        "UNKNOWN": 0,
+        "condition": "P1_50",
+        "expert_id": "E_N",
+        "failure_types": {
+          "MISSED": 200
+        },
+        "family": "T-FURN",
+        "first_terminal_failure_types": {
+          "MISSED": 200
+        },
+        "incomplete": 0,
+        "metric": "delta_sim_s=0.5",
+        "stratum": "CERT_FEASIBLE",
+        "success_rate": 0.0,
+        "wilson95": [
+          1.734723475976807e-18,
+          0.018845326377266575
+        ]
+      },
+      {
+        "F": 48,
+        "FEAS_N_ge_50": null,
+        "MISSING": 0,
+        "N": 200,
+        "NO_REFERENCE_WINDOW": 0,
+        "N_lt_50": false,
+        "S": 152,
+        "UNKNOWN": 0,
+        "condition": "P1_50",
+        "expert_id": "E_T",
+        "failure_types": {
+          "LATE": 48
+        },
+        "family": "T-FURN",
+        "first_terminal_failure_types": {
+          "LATE": 48
+        },
+        "incomplete": 0,
+        "metric": "delta_sim_s=0.5",
+        "stratum": "ALL",
+        "success_rate": 0.76,
+        "wilson95": [
+          0.6962665902079583,
+          0.8139338400758631
+        ]
+      },
+      {
+        "F": 48,
+        "FEAS_N_ge_50": true,
+        "MISSING": 0,
+        "N": 200,
+        "NO_REFERENCE_WINDOW": 0,
+        "N_lt_50": false,
+        "S": 152,
+        "UNKNOWN": 0,
+        "condition": "P1_50",
+        "expert_id": "E_T",
+        "failure_types": {
+          "LATE": 48
+        },
+        "family": "T-FURN",
+        "first_terminal_failure_types": {
+          "LATE": 48
+        },
+        "incomplete": 0,
+        "metric": "delta_sim_s=0.5",
+        "stratum": "CERT_FEASIBLE",
+        "success_rate": 0.76,
+        "wilson95": [
+          0.6962665902079583,
+          0.8139338400758631
+        ]
+      },
+      {
+        "F": 7,
+        "FEAS_N_ge_50": null,
+        "MISSING": 0,
+        "N": 200,
+        "NO_REFERENCE_WINDOW": 0,
+        "N_lt_50": false,
+        "S": 193,
+        "UNKNOWN": 0,
+        "condition": "P1_50",
+        "expert_id": "E_L",
+        "failure_types": {
+          "LATE": 7
+        },
+        "family": "T-FURN",
+        "first_terminal_failure_types": {
+          "LATE": 7
+        },
+        "incomplete": 0,
+        "metric": "delta_sim_s=1.0",
+        "stratum": "ALL",
+        "success_rate": 0.965,
+        "wilson95": [
+          0.9295293884777092,
+          0.9829444579914328
+        ]
+      },
+      {
+        "F": 7,
+        "FEAS_N_ge_50": true,
+        "MISSING": 0,
+        "N": 200,
+        "NO_REFERENCE_WINDOW": 0,
+        "N_lt_50": false,
+        "S": 193,
+        "UNKNOWN": 0,
+        "condition": "P1_50",
+        "expert_id": "E_L",
+        "failure_types": {
+          "LATE": 7
+        },
+        "family": "T-FURN",
+        "first_terminal_failure_types": {
+          "LATE": 7
+        },
+        "incomplete": 0,
+        "metric": "delta_sim_s=1.0",
+        "stratum": "CERT_FEASIBLE",
+        "success_rate": 0.965,
+        "wilson95": [
+          0.9295293884777092,
+          0.9829444579914328
+        ]
+      },
+      {
+        "F": 200,
+        "FEAS_N_ge_50": null,
+        "MISSING": 0,
+        "N": 200,
+        "NO_REFERENCE_WINDOW": 0,
+        "N_lt_50": false,
+        "S": 0,
+        "UNKNOWN": 0,
+        "condition": "P1_50",
+        "expert_id": "E_N",
+        "failure_types": {
+          "MISSED": 200
+        },
+        "family": "T-FURN",
+        "first_terminal_failure_types": {
+          "MISSED": 200
+        },
+        "incomplete": 0,
+        "metric": "delta_sim_s=1.0",
+        "stratum": "ALL",
+        "success_rate": 0.0,
+        "wilson95": [
+          1.734723475976807e-18,
+          0.018845326377266575
+        ]
+      },
+      {
+        "F": 200,
+        "FEAS_N_ge_50": true,
+        "MISSING": 0,
+        "N": 200,
+        "NO_REFERENCE_WINDOW": 0,
+        "N_lt_50": false,
+        "S": 0,
+        "UNKNOWN": 0,
+        "condition": "P1_50",
+        "expert_id": "E_N",
+        "failure_types": {
+          "MISSED": 200
+        },
+        "family": "T-FURN",
+        "first_terminal_failure_types": {
+          "MISSED": 200
+        },
+        "incomplete": 0,
+        "metric": "delta_sim_s=1.0",
+        "stratum": "CERT_FEASIBLE",
+        "success_rate": 0.0,
+        "wilson95": [
+          1.734723475976807e-18,
+          0.018845326377266575
+        ]
+      },
+      {
+        "F": 8,
+        "FEAS_N_ge_50": null,
+        "MISSING": 0,
+        "N": 200,
+        "NO_REFERENCE_WINDOW": 0,
+        "N_lt_50": false,
+        "S": 192,
+        "UNKNOWN": 0,
+        "condition": "P1_50",
+        "expert_id": "E_T",
+        "failure_types": {
+          "LATE": 8
+        },
+        "family": "T-FURN",
+        "first_terminal_failure_types": {
+          "LATE": 8
+        },
+        "incomplete": 0,
+        "metric": "delta_sim_s=1.0",
+        "stratum": "ALL",
+        "success_rate": 0.96,
+        "wilson95": [
+          0.923067931799067,
+          0.9795943679338476
+        ]
+      },
+      {
+        "F": 8,
+        "FEAS_N_ge_50": true,
+        "MISSING": 0,
+        "N": 200,
+        "NO_REFERENCE_WINDOW": 0,
+        "N_lt_50": false,
+        "S": 192,
+        "UNKNOWN": 0,
+        "condition": "P1_50",
+        "expert_id": "E_T",
+        "failure_types": {
+          "LATE": 8
+        },
+        "family": "T-FURN",
+        "first_terminal_failure_types": {
+          "LATE": 8
+        },
+        "incomplete": 0,
+        "metric": "delta_sim_s=1.0",
+        "stratum": "CERT_FEASIBLE",
+        "success_rate": 0.96,
+        "wilson95": [
+          0.923067931799067,
+          0.9795943679338476
+        ]
+      },
+      {
+        "F": 0,
+        "FEAS_N_ge_50": null,
+        "MISSING": 0,
+        "N": 200,
+        "NO_REFERENCE_WINDOW": 0,
+        "N_lt_50": false,
+        "S": 200,
+        "UNKNOWN": 0,
+        "condition": "P1_50",
+        "expert_id": "E_L",
+        "failure_types": {},
+        "family": "T-FURN",
+        "first_terminal_failure_types": {},
+        "incomplete": 0,
+        "metric": "delta_sim_s=2.0",
+        "stratum": "ALL",
+        "success_rate": 1.0,
+        "wilson95": [
+          0.9811546736227335,
+          1.0
+        ]
+      },
+      {
+        "F": 0,
+        "FEAS_N_ge_50": true,
+        "MISSING": 0,
+        "N": 200,
+        "NO_REFERENCE_WINDOW": 0,
+        "N_lt_50": false,
+        "S": 200,
+        "UNKNOWN": 0,
+        "condition": "P1_50",
+        "expert_id": "E_L",
+        "failure_types": {},
+        "family": "T-FURN",
+        "first_terminal_failure_types": {},
+        "incomplete": 0,
+        "metric": "delta_sim_s=2.0",
+        "stratum": "CERT_FEASIBLE",
+        "success_rate": 1.0,
+        "wilson95": [
+          0.9811546736227335,
+          1.0
+        ]
+      },
+      {
+        "F": 200,
+        "FEAS_N_ge_50": null,
+        "MISSING": 0,
+        "N": 200,
+        "NO_REFERENCE_WINDOW": 0,
+        "N_lt_50": false,
+        "S": 0,
+        "UNKNOWN": 0,
+        "condition": "P1_50",
+        "expert_id": "E_N",
+        "failure_types": {
+          "MISSED": 200
+        },
+        "family": "T-FURN",
+        "first_terminal_failure_types": {
+          "MISSED": 200
+        },
+        "incomplete": 0,
+        "metric": "delta_sim_s=2.0",
+        "stratum": "ALL",
+        "success_rate": 0.0,
+        "wilson95": [
+          1.734723475976807e-18,
+          0.018845326377266575
+        ]
+      },
+      {
+        "F": 200,
+        "FEAS_N_ge_50": true,
+        "MISSING": 0,
+        "N": 200,
+        "NO_REFERENCE_WINDOW": 0,
+        "N_lt_50": false,
+        "S": 0,
+        "UNKNOWN": 0,
+        "condition": "P1_50",
+        "expert_id": "E_N",
+        "failure_types": {
+          "MISSED": 200
+        },
+        "family": "T-FURN",
+        "first_terminal_failure_types": {
+          "MISSED": 200
+        },
+        "incomplete": 0,
+        "metric": "delta_sim_s=2.0",
+        "stratum": "CERT_FEASIBLE",
+        "success_rate": 0.0,
+        "wilson95": [
+          1.734723475976807e-18,
+          0.018845326377266575
+        ]
+      },
+      {
+        "F": 1,
+        "FEAS_N_ge_50": null,
+        "MISSING": 0,
+        "N": 200,
+        "NO_REFERENCE_WINDOW": 0,
+        "N_lt_50": false,
+        "S": 199,
+        "UNKNOWN": 0,
+        "condition": "P1_50",
+        "expert_id": "E_T",
+        "failure_types": {
+          "LATE": 1
+        },
+        "family": "T-FURN",
+        "first_terminal_failure_types": {
+          "LATE": 1
+        },
+        "incomplete": 0,
+        "metric": "delta_sim_s=2.0",
+        "stratum": "ALL",
+        "success_rate": 0.995,
+        "wilson95": [
+          0.9722262956021069,
+          0.9991168312843989
+        ]
+      },
+      {
+        "F": 1,
+        "FEAS_N_ge_50": true,
+        "MISSING": 0,
+        "N": 200,
+        "NO_REFERENCE_WINDOW": 0,
+        "N_lt_50": false,
+        "S": 199,
+        "UNKNOWN": 0,
+        "condition": "P1_50",
+        "expert_id": "E_T",
+        "failure_types": {
+          "LATE": 1
+        },
+        "family": "T-FURN",
+        "first_terminal_failure_types": {
+          "LATE": 1
+        },
+        "incomplete": 0,
+        "metric": "delta_sim_s=2.0",
+        "stratum": "CERT_FEASIBLE",
+        "success_rate": 0.995,
+        "wilson95": [
+          0.9722262956021069,
+          0.9991168312843989
+        ]
+      }
+    ],
+    "denominator_notes": [
+      "ALL is the registered denominator; strata are reported without dropping failures.",
+      "NO_REFERENCE_WINDOW is a subset of MARGINAL and ALL, not an additional sample pool.",
+      "MARGINAL_WITH_REFERENCE_WINDOW is the disjoint remainder after removing NO_REFERENCE_WINDOW from MARGINAL.",
+      "BAL tolerances score the same600 physical episodes; 1200 score members are not1200 independent rollouts.",
+      "FURN windows, roles, and P1 conditions reuse the same200 instance graphs; pooled counts do not create independent tasks.",
+      "N>=50 is shown for CERT_FEASIBLE; a high rate on any smaller descriptive subset does not qualify a formal gate.",
+      "Wilson95 intervals describe each cell; they are not used to change any scientific threshold or select a window/tolerance."
+    ],
+    "formal_gate_decision": "NOT_PERFORMED_NO_WINDOW_OR_TOLERANCE_SELECTION",
+    "limits": [
+      "Prior raw audit reused the independent stdlib evaluator; it is not a second independent scoring implementation.",
+      "BAL reference windows were copy/ID bound by that audit, not independently reconstructed in this report.",
+      "FURN strata are the frozen manifest strata; no condition-dependent certificate is recalculated here.",
+      "Only R5 FURN P1_50/P1_150 and BAL P0 are covered, not the complete required perturbation grid.",
+      "This version cannot establish any R7 role/version gate; R7 must use its own complete evidence.",
+      "No recovery rate, native robot behavior, learned policy advantage, SFR, or data admission is established."
+    ],
+    "physical_denominators": {
+      "T-BAL": 600,
+      "T-FURN": 3600,
+      "total": 4200
+    },
+    "qualified_SFR": 0,
+    "schema": "PaperBR5ConditionScientificReportR8/1",
+    "scope": "R5_VERSION_SPECIFIC_DESCRIPTIVE_SCIENTIFIC_RESULTS_NO_R7_GATE_TRANSFER",
+    "scored_members": {
+      "T-BAL": 1200,
+      "T-FURN": 3600,
+      "failure_types_by_family": {
+        "T-BAL": {
+          "LATE": 276
+        },
+        "T-FURN": {
+          "LATE": 219,
+          "MISSED": 1200
+        }
+      },
+      "labels": {
+        "F": 1695,
+        "S": 3105
+      },
+      "total": 4800
+    },
+    "status": "PASS_REAGGREGATION_EVIDENCE_ONLY",
+    "training_admission": false,
+    "verification": {
+      "BAL_reference_window_recomputed": false,
+      "all_formal_denominators_retained": true,
+      "distinct_existing_raw_audit_cases": 4200,
+      "distinct_result_cases": 4200,
+      "manifest_fields_exact": true,
+      "manifest_result_audit_id_sets_exact": true,
+      "new_physics_rollouts": 0,
+      "new_training_runs": 0,
+      "original_F_preserved": true,
+      "prior_54_cells_exact": true,
+      "prior_raw_rescored_members": 4800,
+      "raw_rescoring_repeated_in_this_report": false,
+      "registered_physical_cases": 4200
+    }
+  },
+  "R7": {
+    "source_commit": "0d60b93d639a04ee4af942dbaf68df469d2310f5",
+    "registered_new_cases": 60600,
+    "qualified_training_pairs": 0,
+    "M_B3": "UNTESTED",
+    "status": "RUNNING_OR_RESOURCE_QUEUED_NOT_PASSED",
+    "studies": [
+      {
+        "name": "thermal_main",
+        "registered": 30600,
+        "completed_at_snapshot": 1,
+        "incomplete_at_snapshot": 0,
+        "batch_finished_at_snapshot": false
+      },
+      {
+        "name": "scale",
+        "registered": 14400,
+        "completed_at_snapshot": 1,
+        "incomplete_at_snapshot": 0,
+        "batch_finished_at_snapshot": false
+      },
+      {
+        "name": "furn_recovery",
+        "registered": 1800,
+        "completed_at_snapshot": 1,
+        "incomplete_at_snapshot": 0,
+        "batch_finished_at_snapshot": false
+      },
+      {
+        "name": "balance",
+        "registered": 12000,
+        "completed_at_snapshot": 5511,
+        "incomplete_at_snapshot": 0,
+        "batch_finished_at_snapshot": false
+      },
+      {
+        "name": "balance_mechanism",
+        "registered": 1800,
+        "completed_at_snapshot": 0,
+        "incomplete_at_snapshot": 0,
+        "batch_finished_at_snapshot": false
+      }
+    ]
+  },
+  "scope": "Curated author-owned aggregate results only; no NC asset payload or teacher-private inputs. Reader PASS means evidence consistency, not method acceptance."
+}

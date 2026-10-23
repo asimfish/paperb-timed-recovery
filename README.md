@@ -1,3 +1,9 @@
+2026-10-23: [Timed instrument tasks and audited results](timed-instruments.html). CPU timed-skill decision layer, not a new RGB/action VLA result. Complete teacher-history pilot: 192 cases plus 64 references audited, all arms 38/64 (feasible 38/40, below formal N=50). No observed success gain. R5 condition study: 4200 physical episodes / 4800 scores fully accounted for. R7: 60600 new registered cases running or queued, not fully accepted. Qualified training pairs: 0; M/B3 untested. Curated author-owned aggregate data and figure only; no NC asset payloads or private teacher material.
+
+Earlier dated records follow unchanged.
+
+---
+
 2026-10-21: [Latency-compensated schedule](native-schedule.html). Same paced native loop as 2026-10-20 (one 1/240 s tick per 16.67 ms). A deterministic schedule that plans each 8-slot chunk at start+L_hat+1..+8, with L_hat the largest latency among its own last 8 returns, cut STALE slots from 60.5% to 1.1% at a 50 ms worker delay and from 100% to 1.0% at 150 ms (four native cases, one launch each, reader 18/18; remaining STALE slots are mostly the first ticket, which has no latency history). Guard trips now record q, qd and violating joints. Scheduling evidence only: with the P0 engineering model, the accuracy cost of predicting further ahead cannot be measured; not task, policy, 1:1 real-time, force, chemistry or M/B3 evidence.
 
 Earlier dated records follow unchanged.
